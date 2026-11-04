@@ -30,3 +30,8 @@ logs/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Data pipeline (regenerable provider responses)
+data/_pipeline/cache/
+data/_pipeline/sources/
+*.tmp
