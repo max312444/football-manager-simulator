@@ -6,6 +6,7 @@
   "finance": { "balance": 8000000, "transferBudget": 10000000, "wageBudget": 1050000 },
   "facilities": { "training": 3, "youth": 3 },
   "stadiumCapacity": 25700,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "mark-schwarzer-1972", "name": "Mark Schwarzer", "birth": "1972-10-06", "nation": "AUS", "height": 194, "foot": "R", "number": 1, "pos": "GK",
@@ -17,7 +18,7 @@
     { "id": "pascal-zuberbuhler-1971", "name": "Pascal Zuberbühler", "birth": "1971-01-08", "nation": "SUI", "height": 197, "foot": "R", "number": 12, "pos": "GK",
       "attrs": { "ref": 65, "han": 62, "one": 61, "pas": 51, "pos": 66, "aer": 66, "pac": 42, "sta": 56, "str": 61, "vis": 45, "com": 65, "ldr": 56 },
       "wage": 10000, "contract": "2012-06-30", "verify": true },
-    { "id": "john-paintsil-1981", "name": "John Paintsil", "birth": "1981-06-15", "nation": "GHA", "height": 177, "foot": "R", "number": 2, "pos": "RB",
+    { "id": "john-pantsil-1981", "name": "John Pantsil", "birth": "1981-06-15", "nation": "GHA", "height": 177, "foot": "R", "number": 2, "pos": "RB",
       "attrs": { "sho": 46, "pas": 64, "dri": 64, "tac": 73, "pos": 70, "aer": 58, "pac": 74, "sta": 74, "str": 62, "vis": 58, "com": 69, "ldr": 64 },
       "wage": 25000, "contract": "2011-06-30" },
     { "id": "paul-konchesky-1981", "name": "Paul Konchesky", "birth": "1981-05-15", "nation": "ENG", "height": 178, "foot": "L", "number": 3, "pos": "LB",

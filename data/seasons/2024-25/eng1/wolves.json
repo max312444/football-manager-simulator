@@ -6,6 +6,7 @@
   "finance": { "balance": 20000000, "transferBudget": 20000000, "wageBudget": 2000000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 31750,
+  "formation": "3-4-2-1",
   "estimated": true,
   "squad": [
     { "id": "jose-sa-1993", "name": "José Sá", "birth": "1993-01-17", "nation": "POR", "height": 192, "foot": "R", "number": 1, "pos": "GK",
@@ -38,7 +39,7 @@
     { "id": "yerson-mosquera-2001", "name": "Yerson Mosquera", "birth": "2001-05-02", "nation": "COL", "height": 188, "foot": "R", "number": 14, "pos": "CB",
       "attrs": { "sho": 39, "pas": 61, "dri": 57, "tac": 75, "pos": 71, "aer": 77, "pac": 73, "sta": 71, "str": 79, "vis": 53, "com": 65, "ldr": 57 },
       "wage": 36000, "contract": "2028-06-30", "verify": true },
-    { "id": "pedro-lima-2006", "name": "Pedro Lima", "birth": "2006-06-01", "nation": "BRA", "height": 175, "foot": "R", "number": 37, "pos": "RWB", "alt": ["RB"],
+    { "id": "pedro-lima-2006", "name": "Pedro Lima", "birth": "2006-07-01", "nation": "BRA", "height": 175, "foot": "R", "number": 37, "pos": "RWB", "alt": ["RB"],
       "attrs": { "sho": 41, "pas": 61, "dri": 63, "tac": 61, "pos": 59, "aer": 51, "pac": 74, "sta": 70, "str": 58, "vis": 55, "com": 57, "ldr": 43 },
       "wage": 18000, "contract": "2029-06-30", "verify": true },
     { "id": "mario-lemina-1993", "name": "Mario Lemina", "birth": "1993-09-01", "nation": "GAB", "height": 184, "foot": "R", "number": 5, "pos": "CM", "alt": ["DM"],

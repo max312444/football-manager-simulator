@@ -6,6 +6,7 @@
   "finance": { "balance": 5000000, "transferBudget": 8000000, "wageBudget": 750000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 31367,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "brad-friedel-1971", "name": "Brad Friedel", "birth": "1971-05-18", "nation": "USA", "height": 188, "foot": "R", "number": 1, "pos": "GK",
@@ -72,6 +73,9 @@
       "wage": 10000, "contract": "2004-06-30", "verify": true },
     { "id": "andy-todd-1974", "name": "Andy Todd", "birth": "1974-09-21", "nation": "ENG", "height": 178, "foot": "R", "number": 27, "pos": "CB", "alt": ["DM"],
       "attrs": { "sho": 41, "pas": 55, "dri": 49, "tac": 73, "pos": 68, "aer": 74, "pac": 59, "sta": 69, "str": 77, "vis": 43, "com": 62, "ldr": 60 },
-      "wage": 16000, "contract": "2005-06-30", "verify": true }
+      "wage": 16000, "contract": "2005-06-30", "verify": true },
+    { "id": "jonathan-douglas-1981", "name": "Jonathan Douglas", "birth": "1981-11-22", "nation": "IRL", "height": 183, "foot": "R", "number": 28, "pos": "CM",
+      "attrs": { "sho": 50, "pas": 58, "dri": 56, "tac": 60, "pos": 56, "aer": 54, "pac": 64, "sta": 74, "str": 64, "vis": 50, "com": 52, "ldr": 40 },
+      "wage": 3000, "contract": "2005-06-30", "verify": true }
   ]
 }

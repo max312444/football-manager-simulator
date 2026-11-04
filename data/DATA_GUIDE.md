@@ -68,6 +68,16 @@ data/
 
 **잉글랜드 구단 ID (고정)**: `arsenal` `aston-villa` `birmingham` `blackburn` `blackpool` `bolton` `bournemouth` `bradford` `brentford` `brighton` `burnley` `cardiff` `charlton` `chelsea` `coventry` `crystal-palace` `derby` `everton` `fulham` `huddersfield` `hull` `ipswich` `leeds` `leicester` `liverpool` `luton` `man-city` `man-utd` `middlesbrough` `newcastle` `norwich` `nottm-forest` `portsmouth` `qpr` `reading` `sheffield-utd` `southampton` `stoke` `sunderland` `swansea` `tottenham` `watford` `west-brom` `west-ham` `wigan` `wolves`
 
+**스페인 구단 ID (고정)**: `real-madrid` `barcelona` `atletico-madrid` `valencia` `sevilla` `villarreal` `real-sociedad` `athletic-bilbao` `real-betis` `celta-vigo` `espanyol` `deportivo` `mallorca` `osasuna` `getafe` `levante` `malaga` `real-zaragoza` `racing-santander` `real-valladolid` `rayo-vallecano` `alaves` `las-palmas` `granada` `almeria` `elche` `eibar` `leganes` `girona` `cadiz` `huesca` `sporting-gijon` `tenerife` `numancia` `recreativo` `real-murcia` `xerez` `hercules` `cordoba` `gimnastic` `real-oviedo` `albacete`
+
+**이탈리아 구단 ID (고정)**: `juventus` `inter` `milan` `roma` `lazio` `napoli` `atalanta` `fiorentina` `torino` `bologna` `udinese` `sampdoria` `genoa` `parma` `cagliari` `chievo` `lecce` `empoli` `sassuolo` `hellas-verona` `palermo` `catania` `siena` `livorno` `reggina` `brescia` `perugia` `piacenza` `bari` `vicenza` `ascoli` `messina` `treviso` `cesena` `novara` `pescara` `frosinone` `carpi` `crotone` `spal` `benevento` `salernitana` `spezia` `venezia` `monza` `cremonese` `como` `pisa` `modena` `ancona`
+
+**독일 구단 ID (고정)**: `bayern` `dortmund` `leverkusen` `schalke` `werder-bremen` `hamburg` `stuttgart` `wolfsburg` `gladbach` `hertha` `koln` `frankfurt` `hoffenheim` `mainz` `freiburg` `augsburg` `hannover` `nurnberg` `kaiserslautern` `bochum` `leipzig` `union-berlin` `hansa-rostock` `1860-munich` `energie-cottbus` `arminia-bielefeld` `duisburg` `alemannia-aachen` `karlsruhe` `st-pauli` `fortuna-dusseldorf` `paderborn` `darmstadt` `ingolstadt` `braunschweig` `greuther-furth` `unterhaching` `heidenheim` `holstein-kiel`
+
+**프랑스 구단 ID (고정)**: `psg` `marseille` `lyon` `monaco` `lille` `rennes` `bordeaux` `nantes` `lens` `nice` `saint-etienne` `montpellier` `toulouse` `auxerre` `sochaux` `strasbourg` `metz` `lorient` `reims` `angers` `brest` `nancy` `guingamp` `bastia` `ajaccio` `gazelec-ajaccio` `caen` `le-havre` `troyes` `sedan` `valenciennes` `evian` `dijon` `nimes` `amiens` `clermont` `istres` `grenoble` `boulogne` `arles-avignon` `le-mans` `paris-fc`
+
+목록에 없는 구단이 필요하면 같은 규칙(영문 통칭, 소문자, 하이픈)으로 만들고, 만들기 전에 `data/clubs/`에 비슷한 이름이 있는지 확인한다.
+
 선수 `name`(화면 표시 이름)도 위키백과 문서 제목과 같게 쓴다. 한 이름만 쓰는 선수(브라질 등)는 그 이름 그대로 (`Kanu`, `Edu`).
 ID는 여러 시즌에서 같은 선수를 이어주는 열쇠이므로, 다른 시즌 파일에 이미 있는 선수면 **기존 ID를 그대로 쓴다** (`grep -r "선수이름" data/seasons`로 확인).
 | 시즌 | `YYYY-YY` | `2000-01`, `2025-26` |
@@ -88,10 +98,15 @@ ID는 여러 시즌에서 같은 선수를 이어주는 열쇠이므로, 다른 
   },
   "facilities": { "training": 5, "youth": 5 },   // 1~5
   "stadiumCapacity": 60704,
+  "formation": "4-3-3",            // 그 시즌 실제로 가장 많이 쓴 포메이션 (AI 선발 기준)
   "estimated": true,               // 재정이 추정값이면 true
   "squad": [ /* 선수 항목 */ ]
 }
 ```
+
+### 포메이션
+`4-4-2` `4-4-1-1` `4-3-3` `4-2-3-1` `4-1-4-1` `4-5-1` `4-3-1-2` `4-1-2-1-2`(다이아몬드) `4-2-2-2`
+`3-5-2` `3-4-3` `3-4-2-1` `3-4-1-2` `5-3-2` `5-4-1`
 
 ## 선수 항목
 

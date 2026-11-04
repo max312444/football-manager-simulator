@@ -6,6 +6,7 @@
   "finance": { "balance": 8000000, "transferBudget": 10000000, "wageBudget": 850000 },
   "facilities": { "training": 3, "youth": 5 },
   "stadiumCapacity": 35647,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "david-james-1970", "name": "David James", "birth": "1970-08-01", "nation": "ENG", "height": 196, "foot": "R", "number": 1, "pos": "GK",
@@ -59,7 +60,7 @@
     { "id": "hayden-foxe-1977", "name": "Hayden Foxe", "birth": "1977-06-23", "nation": "AUS", "height": 183, "foot": "R", "number": 30, "pos": "CB",
       "attrs": { "sho": 37, "pas": 53, "dri": 47, "tac": 67, "pos": 65, "aer": 67, "pac": 59, "sta": 63, "str": 69, "vis": 43, "com": 57, "ldr": 51 },
       "wage": 12000, "contract": "2004-06-30", "verify": true },
-    { "id": "tomas-repka-1973", "name": "Tomáš Řepka", "birth": "1973-01-02", "nation": "CZE", "height": 184, "foot": "R", "number": 6, "pos": "CB", "alt": ["RB"],
+    { "id": "tomas-repka-1974", "name": "Tomáš Řepka", "birth": "1974-01-02", "nation": "CZE", "height": 184, "foot": "R", "number": 6, "pos": "CB", "alt": ["RB"],
       "attrs": { "sho": 38, "pas": 56, "dri": 52, "tac": 80, "pos": 72, "aer": 74, "pac": 70, "sta": 78, "str": 80, "vis": 50, "com": 64, "ldr": 68 },
       "wage": 28000, "contract": "2005-06-30", "verify": true },
     { "id": "don-hutchison-1971", "name": "Don Hutchison", "birth": "1971-05-09", "nation": "SCO", "height": 188, "foot": "R", "number": 18, "pos": "CM", "alt": ["AM"],

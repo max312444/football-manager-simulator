@@ -6,6 +6,7 @@
   "finance": { "balance": 60000000, "transferBudget": 60000000, "wageBudget": 3700000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 75811,
+  "formation": "4-4-1-1",
   "estimated": true,
   "squad": [
     { "id": "david-de-gea-1990", "name": "David de Gea", "birth": "1990-11-07", "nation": "ESP", "height": 192, "foot": "R", "number": 1, "pos": "GK",
@@ -13,7 +14,7 @@
       "wage": 60000, "contract": "2016-06-30" },
     { "id": "anders-lindegaard-1984", "name": "Anders Lindegaard", "birth": "1984-04-13", "nation": "DEN", "height": 193, "foot": "R", "number": 13, "pos": "GK",
       "attrs": { "ref": 73, "han": 69, "one": 71, "pas": 58, "pos": 67, "aer": 71, "pac": 52, "sta": 61, "str": 73, "vis": 53, "com": 66, "ldr": 56 },
-      "wage": 30000, "contract": "2016-06-30", "verify": true },
+      "wage": 30000, "contract": "2016-06-30" },
     { "id": "rafael-da-silva-1990", "name": "Rafael da Silva", "birth": "1990-07-09", "nation": "BRA", "height": 172, "foot": "R", "number": 2, "pos": "RB",
       "attrs": { "sho": 52, "pas": 70, "dri": 74, "tac": 75, "pos": 67, "aer": 58, "pac": 81, "sta": 82, "str": 64, "vis": 60, "com": 63, "ldr": 52 },
       "wage": 45000, "contract": "2016-06-30" },
@@ -73,18 +74,18 @@
       "wage": 40000, "contract": "2015-06-30" },
     { "id": "darren-fletcher-1984", "name": "Darren Fletcher", "birth": "1984-02-01", "nation": "SCO", "height": 185, "foot": "R", "number": 24, "pos": "CM",
       "attrs": { "sho": 59, "pas": 76, "dri": 66, "tac": 75, "pos": 73, "aer": 64, "pac": 60, "sta": 75, "str": 71, "vis": 72, "com": 76, "ldr": 75 },
-      "wage": 70000, "contract": "2015-06-30", "verify": true },
+      "wage": 70000, "contract": "2015-06-30" },
     { "id": "nick-powell-1994", "name": "Nick Powell", "birth": "1994-03-23", "nation": "ENG", "height": 182, "foot": "R", "number": 25, "pos": "AM",
       "attrs": { "sho": 64, "pas": 64, "dri": 68, "tac": 40, "pos": 46, "aer": 52, "pac": 64, "sta": 62, "str": 64, "vis": 62, "com": 56, "ldr": 38 },
-      "wage": 15000, "contract": "2016-06-30", "verify": true },
+      "wage": 15000, "contract": "2016-06-30" },
     { "id": "shinji-kagawa-1989", "name": "Shinji Kagawa", "birth": "1989-03-17", "nation": "JPN", "height": 172, "foot": "R", "number": 26, "pos": "AM",
       "attrs": { "sho": 76, "pas": 80, "dri": 84, "tac": 40, "pos": 48, "aer": 34, "pac": 76, "sta": 72, "str": 52, "vis": 80, "com": 76, "ldr": 52 },
       "wage": 90000, "contract": "2016-06-30" },
     { "id": "federico-macheda-1991", "name": "Federico Macheda", "birth": "1991-08-22", "nation": "ITA", "height": 184, "foot": "R", "number": 27, "pos": "ST",
       "attrs": { "sho": 67, "pas": 57, "dri": 67, "tac": 31, "pos": 37, "aer": 60, "pac": 71, "sta": 67, "str": 70, "vis": 55, "com": 61, "ldr": 41 },
-      "wage": 30000, "contract": "2014-06-30", "verify": true },
+      "wage": 30000, "contract": "2014-06-30" },
     { "id": "alexander-buttner-1989", "name": "Alexander Büttner", "birth": "1989-02-11", "nation": "NED", "height": 174, "foot": "L", "number": 28, "pos": "LB",
       "attrs": { "sho": 58, "pas": 64, "dri": 70, "tac": 64, "pos": 60, "aer": 50, "pac": 78, "sta": 76, "str": 66, "vis": 56, "com": 58, "ldr": 46 },
-      "wage": 35000, "contract": "2017-06-30", "verify": true }
+      "wage": 35000, "contract": "2017-06-30" }
   ]
 }

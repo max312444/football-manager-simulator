@@ -6,6 +6,7 @@
   "finance": { "balance": 25000000, "transferBudget": 30000000, "wageBudget": 1500000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 36240,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "paul-robinson-1979", "name": "Paul Robinson", "birth": "1979-10-15", "nation": "ENG", "height": 193, "foot": "L", "number": 1, "pos": "GK",
@@ -47,7 +48,7 @@
     { "id": "radek-cerny-1974", "name": "Radek Černý", "birth": "1974-02-18", "nation": "CZE", "height": 186, "foot": "R", "number": 13, "pos": "GK",
       "attrs": { "ref": 72, "han": 71, "one": 71, "pas": 56, "pos": 70, "aer": 70, "pac": 50, "sta": 57, "str": 64, "vis": 49, "com": 72, "ldr": 74 },
       "wage": 15000, "contract": "2008-06-30" },
-    { "id": "hossam-ghaly-1981", "name": "Hossam Ghaly", "birth": "1981-12-15", "nation": "EGY", "height": 179, "foot": "R", "number": 14, "pos": "CM", "alt": ["RM"],
+    { "id": "hossam-ghaly-1981", "name": "Hossam Ghaly", "birth": "1981-10-21", "nation": "EGY", "height": 179, "foot": "R", "number": 14, "pos": "CM", "alt": ["RM"],
       "attrs": { "sho": 65, "pas": 73, "dri": 73, "tac": 65, "pos": 61, "aer": 53, "pac": 72, "sta": 76, "str": 66, "vis": 69, "com": 65, "ldr": 53 },
       "wage": 25000, "contract": "2010-06-30", "verify": true },
     { "id": "tom-huddlestone-1986", "name": "Tom Huddlestone", "birth": "1986-12-28", "nation": "ENG", "height": 188, "foot": "R", "number": 15, "pos": "CM",

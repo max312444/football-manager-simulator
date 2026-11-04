@@ -6,6 +6,7 @@
   "finance": { "balance": 50000000, "transferBudget": 40000000, "wageBudget": 2100000 },
   "facilities": { "training": 5, "youth": 4 },
   "stadiumCapacity": 32261,
+  "formation": "4-1-4-1",
   "estimated": true,
   "squad": [
     { "id": "kasper-schmeichel-1986", "name": "Kasper Schmeichel", "birth": "1986-11-05", "nation": "DEN", "height": 189, "foot": "R", "number": 1, "pos": "GK",
@@ -14,7 +15,7 @@
     { "id": "danny-ward-1993", "name": "Danny Ward", "birth": "1993-06-22", "nation": "WAL", "height": 191, "foot": "R", "number": 12, "pos": "GK",
       "attrs": { "ref": 73, "han": 68, "one": 71, "pas": 62, "pos": 69, "aer": 71, "pac": 54, "sta": 64, "str": 71, "vis": 55, "com": 65, "ldr": 55 },
       "wage": 45000, "contract": "2023-06-30" },
-    { "id": "eldin-jakupovic-1984", "name": "Eldin Jakupović", "birth": "1984-10-02", "nation": "SUI", "height": 191, "foot": "R", "number": 31, "pos": "GK",
+    { "id": "eldin-jakupovic-1984", "name": "Eldin Jakupović", "birth": "1984-10-02", "nation": "SUI", "height": 191, "foot": "R", "number": 35, "pos": "GK",
       "attrs": { "ref": 67, "han": 63, "one": 65, "pas": 53, "pos": 63, "aer": 65, "pac": 37, "sta": 53, "str": 69, "vis": 47, "com": 61, "ldr": 55 },
       "wage": 23000, "contract": "2020-06-30" },
     { "id": "ricardo-pereira-1993", "name": "Ricardo Pereira", "birth": "1993-10-06", "nation": "POR", "height": 175, "foot": "R", "number": 21, "pos": "RB",
@@ -42,6 +43,9 @@
     { "id": "daniel-amartey-1994", "name": "Daniel Amartey", "birth": "1994-12-21", "nation": "GHA", "height": 186, "foot": "R", "number": 18, "pos": "CB",
       "attrs": { "sho": 41, "pas": 62, "dri": 58, "tac": 71, "pos": 67, "aer": 70, "pac": 68, "sta": 70, "str": 74, "vis": 53, "com": 63, "ldr": 56 },
       "wage": 34000, "contract": "2021-06-30", "traits": ["injury_prone"] },
+    { "id": "filip-benkovic-1997", "name": "Filip Benković", "birth": "1997-07-13", "nation": "CRO", "height": 194, "foot": "R", "number": 16, "pos": "CB",
+      "attrs": { "sho": 38, "pas": 60, "dri": 55, "tac": 67, "pos": 64, "aer": 72, "pac": 62, "sta": 64, "str": 74, "vis": 50, "com": 60, "ldr": 48 },
+      "wage": 30000, "contract": "2023-06-30" },
     { "id": "wilfred-ndidi-1996", "name": "Wilfred Ndidi", "birth": "1996-12-16", "nation": "NGA", "height": 183, "foot": "R", "number": 25, "pos": "DM",
       "attrs": { "sho": 56, "pas": 71, "dri": 66, "tac": 86, "pos": 78, "aer": 70, "pac": 71, "sta": 84, "str": 79, "vis": 65, "com": 73, "ldr": 65 },
       "wage": 57000, "contract": "2024-06-30", "traits": ["engine"] },
@@ -69,7 +73,7 @@
     { "id": "demarai-gray-1996", "name": "Demarai Gray", "birth": "1996-06-28", "nation": "ENG", "height": 180, "foot": "R", "number": 7, "pos": "LW",
       "attrs": { "sho": 67, "pas": 67, "dri": 78, "tac": 39, "pos": 60, "aer": 47, "pac": 82, "sta": 71, "str": 60, "vis": 63, "com": 64, "ldr": 49 },
       "wage": 57000, "contract": "2021-06-30" },
-    { "id": "ayoze-perez-1993", "name": "Ayoze Pérez", "birth": "1993-07-23", "nation": "ESP", "height": 180, "foot": "R", "number": 17, "pos": "ST",
+    { "id": "ayoze-perez-1993", "name": "Ayoze Pérez", "birth": "1993-07-29", "nation": "ESP", "height": 180, "foot": "R", "number": 17, "pos": "ST",
       "attrs": { "sho": 71, "pas": 69, "dri": 74, "tac": 47, "pos": 69, "aer": 56, "pac": 70, "sta": 74, "str": 62, "vis": 69, "com": 71, "ldr": 57 },
       "wage": 74000, "contract": "2023-06-30" },
     { "id": "jamie-vardy-1987", "name": "Jamie Vardy", "birth": "1987-01-11", "nation": "ENG", "height": 179, "foot": "R", "number": 9, "pos": "ST",
@@ -80,6 +84,6 @@
       "wage": 74000, "contract": "2022-06-30" },
     { "id": "matty-james-1991", "name": "Matty James", "birth": "1991-07-22", "nation": "ENG", "height": 179, "foot": "R", "number": 22, "pos": "CM",
       "attrs": { "sho": 63, "pas": 75, "dri": 67, "tac": 71, "pos": 69, "aer": 61, "pac": 65, "sta": 73, "str": 66, "vis": 69, "com": 69, "ldr": 58 },
-      "wage": 40000, "contract": "2021-06-30", "traits": ["injury_prone"], "verify": true }
+      "wage": 40000, "contract": "2021-06-30", "traits": ["injury_prone"] }
   ]
 }

@@ -6,6 +6,7 @@
   "finance": { "balance": 30000000, "transferBudget": 25000000, "wageBudget": 1700000 },
   "facilities": { "training": 3, "youth": 4 },
   "stadiumCapacity": 25486,
+  "formation": "4-3-3",
   "estimated": true,
   "squad": [
     { "id": "sam-johnstone-1993", "name": "Sam Johnstone", "birth": "1993-03-25", "nation": "ENG", "height": 193, "foot": "R", "number": 1, "pos": "GK",
@@ -13,10 +14,10 @@
       "wage": 40000, "contract": "2026-06-30" },
     { "id": "dean-henderson-1997", "name": "Dean Henderson", "birth": "1997-03-12", "nation": "ENG", "height": 188, "foot": "R", "number": 30, "pos": "GK",
       "attrs": { "ref": 74, "han": 72, "one": 73, "pas": 65, "pos": 75, "aer": 72, "pac": 49, "sta": 62, "str": 69, "vis": 59, "com": 73, "ldr": 67 },
-      "wage": 95000, "contract": "2028-06-30", "verify": true },
+      "wage": 95000, "contract": "2028-06-30" },
     { "id": "remi-matthews-1994", "name": "Remi Matthews", "birth": "1994-02-10", "nation": "ENG", "height": 185, "foot": "R", "number": 31, "pos": "GK",
       "attrs": { "ref": 60, "han": 60, "one": 58, "pas": 56, "pos": 60, "aer": 62, "pac": 45, "sta": 60, "str": 64, "vis": 50, "com": 58, "ldr": 54 },
-      "wage": 9000, "contract": "2025-06-30", "verify": true },
+      "wage": 9000, "contract": "2025-06-30" },
     { "id": "joel-ward-1989", "name": "Joel Ward", "birth": "1989-10-29", "nation": "ENG", "height": 188, "foot": "R", "number": 2, "pos": "RB",
       "attrs": { "sho": 51, "pas": 65, "dri": 64, "tac": 67, "pos": 67, "aer": 57, "pac": 66, "sta": 65, "str": 58, "vis": 63, "com": 65, "ldr": 80 },
       "wage": 40000, "contract": "2024-06-30" },
@@ -41,6 +42,9 @@
     { "id": "chris-richards-2000", "name": "Chris Richards", "birth": "2000-03-28", "nation": "USA", "height": 188, "foot": "R", "number": 26, "pos": "CB",
       "attrs": { "sho": 43, "pas": 65, "dri": 63, "tac": 75, "pos": 73, "aer": 74, "pac": 69, "sta": 68, "str": 73, "vis": 57, "com": 70, "ldr": 64 },
       "wage": 40000, "contract": "2028-06-30" },
+    { "id": "nathan-ferguson-2000", "name": "Nathan Ferguson", "birth": "2000-10-06", "nation": "ENG", "height": 180, "foot": "R", "number": 36, "pos": "CB",
+      "attrs": { "sho": 29, "pas": 56, "dri": 51, "tac": 63, "pos": 62, "aer": 61, "pac": 54, "sta": 58, "str": 66, "vis": 49, "com": 58, "ldr": 52 },
+      "wage": 6000, "contract": "2024-06-30" },
     { "id": "jefferson-lerma-1994", "name": "Jefferson Lerma", "birth": "1994-10-25", "nation": "COL", "height": 179, "foot": "R", "number": 8, "pos": "DM",
       "attrs": { "sho": 61, "pas": 73, "dri": 69, "tac": 81, "pos": 77, "aer": 72, "pac": 67, "sta": 83, "str": 75, "vis": 70, "com": 75, "ldr": 71 },
       "wage": 63000, "contract": "2027-06-30" },
@@ -76,6 +80,9 @@
       "wage": 50000, "contract": "2025-06-30" },
     { "id": "odsonne-edouard-1998", "name": "Odsonne Édouard", "birth": "1998-01-16", "nation": "FRA", "height": 187, "foot": "L", "number": 22, "pos": "ST",
       "attrs": { "sho": 75, "pas": 66, "dri": 73, "tac": 46, "pos": 48, "aer": 64, "pac": 74, "sta": 70, "str": 70, "vis": 67, "com": 73, "ldr": 65 },
-      "wage": 60000, "contract": "2025-06-30" }
+      "wage": 60000, "contract": "2025-06-30" },
+    { "id": "malcolm-ebiowei-2003", "name": "Malcolm Ebiowei", "birth": "2003-09-04", "nation": "ENG", "height": 175, "foot": "R", "number": 23, "pos": "RW",
+      "attrs": { "sho": 64, "pas": 61, "dri": 68, "tac": 44, "pos": 46, "aer": 45, "pac": 65, "sta": 61, "str": 54, "vis": 62, "com": 59, "ldr": 50 },
+      "wage": 15000, "contract": "2026-06-30" }
   ]
 }

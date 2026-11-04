@@ -6,6 +6,7 @@
   "finance": { "balance": 4000000, "transferBudget": 8000000, "wageBudget": 800000 },
   "facilities": { "training": 3, "youth": 2 },
   "stadiumCapacity": 25138,
+  "formation": "4-3-3",
   "estimated": true,
   "squad": [
     { "id": "chris-kirkland-1981", "name": "Chris Kirkland", "birth": "1981-05-02", "nation": "ENG", "height": 198, "foot": "R", "number": 1, "pos": "GK",
@@ -37,7 +38,7 @@
       "attrs": { "sho": 60, "pas": 69, "dri": 63, "tac": 61, "pos": 59, "aer": 53, "pac": 60, "sta": 73, "str": 62, "vis": 65, "com": 62, "ldr": 51 },
       "wage": 16000, "contract": "2014-06-30", "verify": true },
     { "id": "mauro-boselli-1985", "name": "Mauro Boselli", "birth": "1985-05-22", "nation": "ARG", "height": 183, "foot": "R", "number": 9, "pos": "ST",
-      "attrs": { "sho": 65, "pas": 56, "dri": 66, "tac": 32, "pos": 44, "aer": 66, "pac": 66, "sta": 63, "str": 68, "vis": 55, "com": 66, "ldr": 48 },
+      "attrs": { "sho": 66, "pas": 56, "dri": 66, "tac": 32, "pos": 43, "aer": 66, "pac": 66, "sta": 63, "str": 68, "vis": 55, "com": 66, "ldr": 48 },
       "wage": 9000, "contract": "2012-06-30", "verify": true },
     { "id": "charles-nzogbia-1986", "name": "Charles N'Zogbia", "birth": "1986-05-28", "nation": "FRA", "height": 171, "foot": "L", "number": 10, "pos": "LM", "alt": ["LW", "LB"],
       "attrs": { "sho": 69, "pas": 70, "dri": 81, "tac": 37, "pos": 45, "aer": 43, "pac": 81, "sta": 73, "str": 55, "vis": 69, "com": 67, "ldr": 54 },

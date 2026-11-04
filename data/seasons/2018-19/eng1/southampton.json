@@ -6,6 +6,7 @@
   "finance": { "balance": 30000000, "transferBudget": 40000000, "wageBudget": 2600000 },
   "facilities": { "training": 4, "youth": 5 },
   "stadiumCapacity": 32384,
+  "formation": "3-4-2-1",
   "estimated": true,
   "squad": [
     { "id": "alex-mccarthy-1989", "name": "Alex McCarthy", "birth": "1989-12-03", "nation": "ENG", "height": 193, "foot": "R", "number": 1, "pos": "GK",
@@ -22,7 +23,7 @@
       "wage": 57000, "contract": "2021-06-30" },
     { "id": "yan-valery-1999", "name": "Yan Valery", "birth": "1999-02-22", "nation": "FRA", "nation2": "TUN", "height": 181, "foot": "R", "number": 43, "pos": "RB",
       "attrs": { "sho": 42, "pas": 58, "dri": 62, "tac": 62, "pos": 56, "aer": 52, "pac": 76, "sta": 72, "str": 64, "vis": 50, "com": 54, "ldr": 44 },
-      "wage": 8000, "contract": "2022-06-30", "verify": true },
+      "wage": 8000, "contract": "2022-06-30" },
     { "id": "ryan-bertrand-1989", "name": "Ryan Bertrand", "birth": "1989-08-05", "nation": "ENG", "height": 179, "foot": "L", "number": 21, "pos": "LB",
       "attrs": { "sho": 56, "pas": 72, "dri": 68, "tac": 74, "pos": 72, "aer": 60, "pac": 72, "sta": 76, "str": 70, "vis": 64, "com": 70, "ldr": 66 },
       "wage": 80000, "contract": "2021-06-30" },
@@ -41,6 +42,9 @@
     { "id": "jan-bednarek-1996", "name": "Jan Bednarek", "birth": "1996-04-12", "nation": "POL", "height": 189, "foot": "R", "number": 35, "pos": "CB",
       "attrs": { "sho": 40, "pas": 58, "dri": 52, "tac": 74, "pos": 70, "aer": 76, "pac": 60, "sta": 70, "str": 78, "vis": 48, "com": 64, "ldr": 58 },
       "wage": 34000, "contract": "2022-06-30" },
+    { "id": "wesley-hoedt-1994", "name": "Wesley Hoedt", "birth": "1994-03-06", "nation": "NED", "height": 188, "foot": "L", "number": 6, "pos": "CB",
+      "attrs": { "sho": 42, "pas": 65, "dri": 62, "tac": 72, "pos": 73, "aer": 74, "pac": 65, "sta": 70, "str": 74, "vis": 61, "com": 71, "ldr": 65 },
+      "wage": 45000, "contract": "2022-06-30" },
     { "id": "pierre-emile-hojbjerg-1995", "name": "Pierre-Emile Højbjerg", "birth": "1995-08-05", "nation": "DEN", "height": 185, "foot": "R", "number": 23, "pos": "CM", "alt": ["DM"],
       "attrs": { "sho": 62, "pas": 76, "dri": 70, "tac": 76, "pos": 72, "aer": 62, "pac": 60, "sta": 80, "str": 74, "vis": 70, "com": 72, "ldr": 76 },
       "wage": 57000, "contract": "2021-06-30", "traits": ["leader"] },
@@ -49,7 +53,7 @@
       "wage": 57000, "contract": "2022-06-30" },
     { "id": "mario-lemina-1993", "name": "Mario Lemina", "birth": "1993-09-01", "nation": "GAB", "height": 184, "foot": "R", "number": 18, "pos": "CM", "alt": ["DM"],
       "attrs": { "sho": 58, "pas": 72, "dri": 72, "tac": 72, "pos": 66, "aer": 62, "pac": 66, "sta": 74, "str": 74, "vis": 66, "com": 66, "ldr": 56 },
-      "wage": 68000, "contract": "2021-06-30", "verify": true },
+      "wage": 68000, "contract": "2021-06-30" },
     { "id": "james-ward-prowse-1994", "name": "James Ward-Prowse", "birth": "1994-11-01", "nation": "ENG", "height": 173, "foot": "R", "number": 16, "pos": "CM", "alt": ["RM"],
       "attrs": { "sho": 70, "pas": 80, "dri": 68, "tac": 66, "pos": 68, "aer": 54, "pac": 62, "sta": 84, "str": 62, "vis": 76, "com": 74, "ldr": 66 },
       "wage": 57000, "contract": "2022-06-30", "traits": ["free_kick"] },
@@ -59,7 +63,7 @@
     { "id": "stuart-armstrong-1992", "name": "Stuart Armstrong", "birth": "1992-03-30", "nation": "SCO", "height": 183, "foot": "L", "number": 17, "pos": "CM", "alt": ["LM", "AM"],
       "attrs": { "sho": 68, "pas": 72, "dri": 72, "tac": 60, "pos": 66, "aer": 54, "pac": 68, "sta": 80, "str": 64, "vis": 68, "com": 66, "ldr": 56 },
       "wage": 57000, "contract": "2022-06-30" },
-    { "id": "mohamed-elyounoussi-1994", "name": "Mohamed Elyounoussi", "birth": "1994-08-04", "nation": "NOR", "height": 178, "foot": "L", "number": 24, "pos": "LW", "alt": ["RW"],
+    { "id": "mohamed-elyounoussi-1994", "name": "Mohamed Elyounoussi", "birth": "1994-08-04", "nation": "NOR", "height": 178, "foot": "L", "number": 11, "pos": "LW", "alt": ["RW"],
       "attrs": { "sho": 68, "pas": 70, "dri": 76, "tac": 40, "pos": 64, "aer": 44, "pac": 76, "sta": 72, "str": 60, "vis": 68, "com": 66, "ldr": 50 },
       "wage": 57000, "contract": "2023-06-30" },
     { "id": "nathan-redmond-1994", "name": "Nathan Redmond", "birth": "1994-03-06", "nation": "ENG", "height": 173, "foot": "R", "number": 22, "pos": "LW", "alt": ["RW"],
@@ -76,6 +80,12 @@
       "wage": 57000, "contract": "2021-06-30" },
     { "id": "manolo-gabbiadini-1991", "name": "Manolo Gabbiadini", "birth": "1991-11-26", "nation": "ITA", "height": 186, "foot": "L", "number": 20, "pos": "ST",
       "attrs": { "sho": 76, "pas": 66, "dri": 70, "tac": 34, "pos": 72, "aer": 64, "pac": 66, "sta": 64, "str": 70, "vis": 62, "com": 66, "ldr": 50 },
-      "wage": 68000, "contract": "2021-06-30" }
+      "wage": 68000, "contract": "2021-06-30" },
+    { "id": "sam-gallagher-1995", "name": "Sam Gallagher", "birth": "1995-09-15", "nation": "ENG", "height": 193, "foot": "R", "number": 15, "pos": "ST",
+      "attrs": { "sho": 63, "pas": 55, "dri": 56, "tac": 35, "pos": 63, "aer": 72, "pac": 62, "sta": 66, "str": 72, "vis": 52, "com": 59, "ldr": 48 },
+      "wage": 15000, "contract": "2020-06-30" },
+    { "id": "josh-sims-1997", "name": "Josh Sims", "birth": "1997-03-28", "nation": "ENG", "height": 175, "foot": "R", "number": 39, "pos": "RW",
+      "attrs": { "sho": 55, "pas": 55, "dri": 59, "tac": 36, "pos": 40, "aer": 37, "pac": 60, "sta": 55, "str": 45, "vis": 55, "com": 54, "ldr": 40 },
+      "wage": 9000, "contract": "2021-06-30" }
   ]
 }

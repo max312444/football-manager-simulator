@@ -6,6 +6,7 @@
   "finance": { "balance": 10000000, "transferBudget": 20000000, "wageBudget": 1000000 },
   "facilities": { "training": 4, "youth": 3 },
   "stadiumCapacity": 42640,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "thomas-sorensen-1976", "name": "Thomas Sørensen", "birth": "1976-06-12", "nation": "DEN", "height": 193, "foot": "R", "number": 1, "pos": "GK",
@@ -32,7 +33,7 @@
     { "id": "patrik-berger-1973", "name": "Patrik Berger", "birth": "1973-11-10", "nation": "CZE", "height": 185, "foot": "L", "number": 8, "pos": "AM", "alt": ["LM"],
       "attrs": { "sho": 73, "pas": 75, "dri": 75, "tac": 45, "pos": 58, "aer": 55, "pac": 66, "sta": 63, "str": 62, "vis": 75, "com": 73, "ldr": 59 },
       "wage": 30000, "contract": "2008-06-30", "traits": ["injury_prone"], "verify": true },
-    { "id": "juan-pablo-angel-1975", "name": "Juan Pablo Ángel", "birth": "1975-10-21", "nation": "COL", "height": 180, "foot": "R", "number": 9, "pos": "ST",
+    { "id": "juan-pablo-angel-1975", "name": "Juan Pablo Ángel", "birth": "1975-10-24", "nation": "COL", "height": 180, "foot": "R", "number": 9, "pos": "ST",
       "attrs": { "sho": 78, "pas": 64, "dri": 72, "tac": 38, "pos": 51, "aer": 74, "pac": 70, "sta": 71, "str": 71, "vis": 62, "com": 74, "ldr": 58 },
       "wage": 45000, "contract": "2007-06-30" },
     { "id": "milan-baros-1981", "name": "Milan Baroš", "birth": "1981-10-28", "nation": "CZE", "height": 183, "foot": "R", "number": 10, "pos": "ST",
@@ -41,7 +42,7 @@
     { "id": "gabriel-agbonlahor-1986", "name": "Gabriel Agbonlahor", "birth": "1986-10-13", "nation": "ENG", "height": 180, "foot": "R", "number": 11, "pos": "ST", "alt": ["LW"],
       "attrs": { "sho": 70, "pas": 53, "dri": 61, "tac": 25, "pos": 32, "aer": 62, "pac": 84, "sta": 60, "str": 66, "vis": 57, "com": 67, "ldr": 48 },
       "wage": 12000, "contract": "2010-06-30", "traits": ["speedster"], "verify": true },
-    { "id": "jlloyd-samuel-1981", "name": "JLloyd Samuel", "birth": "1981-03-29", "nation": "ENG", "nation2": "TRI", "height": 180, "foot": "L", "number": 12, "pos": "LB",
+    { "id": "jlloyd-samuel-1981", "name": "Jlloyd Samuel", "birth": "1981-03-29", "nation": "ENG", "nation2": "TRI", "height": 180, "foot": "L", "number": 12, "pos": "LB",
       "attrs": { "sho": 43, "pas": 62, "dri": 64, "tac": 70, "pos": 66, "aer": 59, "pac": 76, "sta": 75, "str": 62, "vis": 51, "com": 62, "ldr": 54 },
       "wage": 20000, "contract": "2007-06-30", "verify": true },
     { "id": "stuart-taylor-1980", "name": "Stuart Taylor", "birth": "1980-11-28", "nation": "ENG", "height": 193, "foot": "R", "number": 13, "pos": "GK",
@@ -71,7 +72,7 @@
     { "id": "craig-gardner-1986", "name": "Craig Gardner", "birth": "1986-11-25", "nation": "ENG", "height": 178, "foot": "R", "number": 30, "pos": "CM", "alt": ["RM"],
       "attrs": { "sho": 60, "pas": 59, "dri": 53, "tac": 42, "pos": 44, "aer": 33, "pac": 48, "sta": 63, "str": 44, "vis": 61, "com": 54, "ldr": 40 },
       "wage": 5000, "contract": "2009-06-30", "traits": ["long_shot"], "verify": true },
-    { "id": "isaiah-osbourne-1987", "name": "Isaiah Osbourne", "birth": "1987-11-15", "nation": "ENG", "height": 188, "foot": "R", "number": 32, "pos": "DM",
+    { "id": "isaiah-osbourne-1987", "name": "Isaiah Osbourne", "birth": "1987-11-05", "nation": "ENG", "height": 188, "foot": "R", "number": 32, "pos": "DM",
       "attrs": { "sho": 31, "pas": 47, "dri": 42, "tac": 56, "pos": 56, "aer": 41, "pac": 44, "sta": 57, "str": 51, "vis": 42, "com": 46, "ldr": 41 },
       "wage": 4000, "contract": "2009-06-30", "verify": true }
   ]

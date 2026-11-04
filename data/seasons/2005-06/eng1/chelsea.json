@@ -6,6 +6,7 @@
   "finance": { "balance": 60000000, "transferBudget": 60000000, "wageBudget": 2700000 },
   "facilities": { "training": 5, "youth": 4 },
   "stadiumCapacity": 42055,
+  "formation": "4-3-3",
   "estimated": true,
   "squad": [
     { "id": "petr-cech-1982", "name": "Petr Čech", "birth": "1982-05-20", "nation": "CZE", "height": 196, "foot": "L", "number": 1, "pos": "GK",
@@ -16,7 +17,7 @@
       "wage": 50000, "contract": "2008-06-30" },
     { "id": "lenny-pidgeley-1984", "name": "Lenny Pidgeley", "birth": "1984-02-07", "nation": "ENG", "height": 193, "foot": "R", "number": 40, "pos": "GK",
       "attrs": { "ref": 59, "han": 56, "one": 55, "pas": 45, "pos": 58, "aer": 54, "pac": 46, "sta": 49, "str": 55, "vis": 38, "com": 54, "ldr": 42 },
-      "wage": 4000, "contract": "2007-06-30", "verify": true },
+      "wage": 4000, "contract": "2007-06-30" },
     { "id": "glen-johnson-1984", "name": "Glen Johnson", "birth": "1984-08-23", "nation": "ENG", "height": 182, "foot": "R", "number": 2, "pos": "RB",
       "attrs": { "sho": 53, "pas": 69, "dri": 77, "tac": 73, "pos": 71, "aer": 65, "pac": 84, "sta": 80, "str": 70, "vis": 61, "com": 66, "ldr": 53 },
       "wage": 36500, "contract": "2008-06-30" },
@@ -69,7 +70,7 @@
       "wage": 60000, "contract": "2010-06-30", "traits": ["speedster"] },
     { "id": "lassana-diarra-1985", "name": "Lassana Diarra", "birth": "1985-03-10", "nation": "FRA", "height": 172, "foot": "R", "number": 19, "pos": "DM", "alt": ["CM"],
       "attrs": { "sho": 53, "pas": 70, "dri": 64, "tac": 76, "pos": 75, "aer": 66, "pac": 69, "sta": 76, "str": 76, "vis": 63, "com": 66, "ldr": 67 },
-      "wage": 10000, "contract": "2009-06-30", "verify": true },
+      "wage": 10000, "contract": "2009-06-30" },
     { "id": "hernan-crespo-1975", "name": "Hernán Crespo", "birth": "1975-07-05", "nation": "ARG", "height": 184, "foot": "R", "number": 9, "pos": "ST",
       "attrs": { "sho": 91, "pas": 76, "dri": 85, "tac": 51, "pos": 59, "aer": 86, "pac": 85, "sta": 79, "str": 83, "vis": 74, "com": 87, "ldr": 73 },
       "wage": 80000, "contract": "2008-06-30" },
@@ -78,6 +79,9 @@
       "wage": 90000, "contract": "2008-06-30", "traits": ["target_man", "aerial_threat", "big_game"] },
     { "id": "eidur-gudjohnsen-1978", "name": "Eiður Guðjohnsen", "birth": "1978-09-15", "nation": "ISL", "height": 185, "foot": "R", "number": 22, "pos": "ST", "alt": ["AM"],
       "attrs": { "sho": 81, "pas": 81, "dri": 81, "tac": 51, "pos": 61, "aer": 69, "pac": 71, "sta": 77, "str": 72, "vis": 84, "com": 82, "ldr": 62 },
-      "wage": 60000, "contract": "2006-06-30" }
+      "wage": 60000, "contract": "2006-06-30" },
+    { "id": "carlton-cole-1983", "name": "Carlton Cole", "birth": "1983-10-12", "nation": "ENG", "height": 191, "foot": "R", "number": 12, "pos": "ST",
+      "attrs": { "sho": 66, "pas": 56, "dri": 64, "tac": 36, "pos": 46, "aer": 70, "pac": 72, "sta": 68, "str": 78, "vis": 52, "com": 56, "ldr": 40 },
+      "wage": 15000, "contract": "2006-06-30" }
   ]
 }

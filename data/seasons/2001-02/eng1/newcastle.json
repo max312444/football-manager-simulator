@@ -6,6 +6,7 @@
   "finance": { "balance": 14000000, "transferBudget": 20000000, "wageBudget": 1200000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 52387,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "shay-given-1976", "name": "Shay Given", "birth": "1976-04-20", "nation": "IRL", "height": 185, "foot": "R", "number": 1, "pos": "GK",
@@ -74,7 +75,7 @@
     { "id": "sylvain-distin-1977", "name": "Sylvain Distin", "birth": "1977-12-16", "nation": "FRA", "height": 193, "foot": "L", "number": 30, "pos": "CB", "alt": ["LB"],
       "attrs": { "sho": 43, "pas": 61, "dri": 59, "tac": 77, "pos": 75, "aer": 77, "pac": 79, "sta": 77, "str": 79, "vis": 51, "com": 71, "ldr": 67 },
       "wage": 28000, "contract": "2002-06-30", "loan": "psg", "verify": true },
-    { "id": "steve-caldwell-1980", "name": "Steve Caldwell", "birth": "1980-09-12", "nation": "SCO", "height": 181, "foot": "R", "number": 27, "pos": "CB",
+    { "id": "steven-caldwell-1980", "name": "Steven Caldwell", "birth": "1980-09-12", "nation": "SCO", "height": 180, "foot": "R", "number": 27, "pos": "CB",
       "attrs": { "sho": 36, "pas": 52, "dri": 46, "tac": 64, "pos": 62, "aer": 66, "pac": 62, "sta": 68, "str": 68, "vis": 46, "com": 58, "ldr": 52 },
       "wage": 6000, "contract": "2004-06-30", "verify": true },
     { "id": "brian-kerr-1981", "name": "Brian Kerr", "birth": "1981-10-12", "nation": "SCO", "height": 176, "foot": "R", "number": 29, "pos": "CM",

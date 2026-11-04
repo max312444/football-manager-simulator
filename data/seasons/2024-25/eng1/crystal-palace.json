@@ -6,6 +6,7 @@
   "finance": { "balance": 40000000, "transferBudget": 30000000, "wageBudget": 1900000 },
   "facilities": { "training": 3, "youth": 4 },
   "stadiumCapacity": 25486,
+  "formation": "3-4-2-1",
   "estimated": true,
   "squad": [
     { "id": "dean-henderson-1997", "name": "Dean Henderson", "birth": "1997-03-12", "nation": "ENG", "height": 188, "foot": "R", "number": 1, "pos": "GK",
@@ -17,7 +18,7 @@
     { "id": "remi-matthews-1994", "name": "Remi Matthews", "birth": "1994-02-10", "nation": "ENG", "height": 185, "foot": "R", "number": 31, "pos": "GK",
       "attrs": { "ref": 60, "han": 60, "one": 58, "pas": 56, "pos": 60, "aer": 62, "pac": 44, "sta": 59, "str": 64, "vis": 50, "com": 58, "ldr": 54 },
       "wage": 9000, "contract": "2025-06-30", "verify": true },
-    { "id": "daniel-munoz-1996", "name": "Daniel Muñoz", "birth": "1996-05-24", "nation": "COL", "height": 180, "foot": "R", "number": 2, "pos": "RWB", "alt": ["RB"],
+    { "id": "daniel-munoz-1996", "name": "Daniel Muñoz", "birth": "1996-05-26", "nation": "COL", "height": 180, "foot": "R", "number": 2, "pos": "RWB", "alt": ["RB"],
       "attrs": { "sho": 66, "pas": 74, "dri": 76, "tac": 76, "pos": 72, "aer": 70, "pac": 84, "sta": 86, "str": 78, "vis": 66, "com": 72, "ldr": 66 },
       "wage": 54000, "contract": "2027-06-30" },
     { "id": "tyrick-mitchell-1999", "name": "Tyrick Mitchell", "birth": "1999-09-01", "nation": "ENG", "height": 175, "foot": "L", "number": 3, "pos": "LWB", "alt": ["LB"],

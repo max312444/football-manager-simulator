@@ -6,6 +6,7 @@
   "finance": { "balance": 8000000, "transferBudget": 10000000, "wageBudget": 900000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 35100,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "mark-schwarzer-1972", "name": "Mark Schwarzer", "birth": "1972-10-06", "nation": "AUS", "height": 194, "foot": "R", "number": 1, "pos": "GK",
@@ -65,7 +66,7 @@
     { "id": "dean-windass-1969", "name": "Dean Windass", "birth": "1969-04-01", "nation": "ENG", "height": 178, "foot": "R", "number": 22, "pos": "ST", "alt": ["AM"],
       "attrs": { "sho": 70, "pas": 62, "dri": 63, "tac": 38, "pos": 49, "aer": 63, "pac": 52, "sta": 64, "str": 70, "vis": 59, "com": 66, "ldr": 62 },
       "wage": 20000, "contract": "2003-06-30", "verify": true },
-    { "id": "robbie-stockdale-1979", "name": "Robbie Stockdale", "birth": "1979-11-30", "nation": "ENG", "nation2": "SCO", "height": 180, "foot": "R", "number": 23, "pos": "RB",
+    { "id": "robbie-stockdale-1979", "name": "Robbie Stockdale", "birth": "1979-11-30", "nation": "SCO", "nation2": "SCO", "height": 180, "foot": "R", "number": 23, "pos": "RB",
       "attrs": { "sho": 40, "pas": 58, "dri": 58, "tac": 66, "pos": 62, "aer": 56, "pac": 67, "sta": 71, "str": 61, "vis": 48, "com": 58, "ldr": 46 },
       "wage": 8000, "contract": "2004-06-30", "verify": true },
     { "id": "andy-campbell-1979", "name": "Andy Campbell", "birth": "1979-04-18", "nation": "ENG", "height": 180, "foot": "R", "number": 24, "pos": "ST",

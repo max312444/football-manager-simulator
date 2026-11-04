@@ -6,6 +6,7 @@
   "finance": { "balance": 5000000, "transferBudget": 6000000, "wageBudget": 900000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 35100,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "brad-jones-1982", "name": "Brad Jones", "birth": "1982-03-19", "nation": "AUS", "height": 191, "foot": "R", "number": 1, "pos": "GK",
@@ -41,7 +42,7 @@
     { "id": "jeremie-aliadiere-1983", "name": "Jérémie Aliadière", "birth": "1983-03-30", "nation": "FRA", "height": 183, "foot": "R", "number": 10, "pos": "ST",
       "attrs": { "sho": 75, "pas": 56, "dri": 66, "tac": 25, "pos": 30, "aer": 61, "pac": 67, "sta": 58, "str": 63, "vis": 58, "com": 70, "ldr": 57 },
       "wage": 30000, "contract": "2011-06-30", "verify": true },
-    { "id": "tuncay-sanli-1982", "name": "Tuncay Şanlı", "birth": "1982-01-17", "nation": "TUR", "height": 177, "foot": "R", "number": 11, "pos": "ST", "alt": ["AM"],
+    { "id": "tuncay-sanli-1982", "name": "Tuncay Şanlı", "birth": "1982-01-16", "nation": "TUR", "height": 177, "foot": "R", "number": 11, "pos": "ST", "alt": ["AM"],
       "attrs": { "sho": 79, "pas": 61, "dri": 68, "tac": 31, "pos": 40, "aer": 70, "pac": 73, "sta": 64, "str": 69, "vis": 62, "com": 74, "ldr": 62 },
       "wage": 40000, "contract": "2011-06-30", "verify": true },
     { "id": "afonso-alves-1981", "name": "Afonso Alves", "birth": "1981-01-30", "nation": "BRA", "height": 185, "foot": "R", "number": 12, "pos": "ST",

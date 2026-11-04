@@ -6,6 +6,7 @@
   "finance": { "balance": 20000000, "transferBudget": 20000000, "wageBudget": 1300000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 32384,
+  "formation": "3-4-2-1",
   "estimated": true,
   "squad": [
     { "id": "alex-mccarthy-1989", "name": "Alex McCarthy", "birth": "1989-12-03", "nation": "ENG", "height": 193, "foot": "R", "number": 1, "pos": "GK",
@@ -71,7 +72,7 @@
     { "id": "ross-stewart-1996", "name": "Ross Stewart", "birth": "1996-07-11", "nation": "SCO", "height": 188, "foot": "R", "number": 11, "pos": "ST",
       "attrs": { "sho": 69, "pas": 61, "dri": 66, "tac": 37, "pos": 42, "aer": 66, "pac": 68, "sta": 65, "str": 69, "vis": 59, "com": 67, "ldr": 56 },
       "wage": 12000, "contract": "2026-06-30" },
-    { "id": "cameron-archer-2001", "name": "Cameron Archer", "birth": "2001-06-09", "nation": "ENG", "height": 175, "foot": "R", "number": 19, "pos": "ST",
+    { "id": "cameron-archer-2001", "name": "Cameron Archer", "birth": "2001-12-09", "nation": "ENG", "height": 175, "foot": "R", "number": 19, "pos": "ST",
       "attrs": { "sho": 73, "pas": 64, "dri": 70, "tac": 41, "pos": 46, "aer": 70, "pac": 72, "sta": 70, "str": 72, "vis": 64, "com": 72, "ldr": 62 },
       "wage": 23000, "contract": "2029-06-30" },
     { "id": "kamaldeen-sulemana-2002", "name": "Kamaldeen Sulemana", "birth": "2002-02-15", "nation": "GHA", "height": 174, "foot": "R", "number": 20, "pos": "LW",

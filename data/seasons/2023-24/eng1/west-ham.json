@@ -6,6 +6,7 @@
   "finance": { "balance": 40000000, "transferBudget": 30000000, "wageBudget": 2500000 },
   "facilities": { "training": 4, "youth": 3 },
   "stadiumCapacity": 62500,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "lukasz-fabianski-1985", "name": "Łukasz Fabiański", "birth": "1985-04-18", "nation": "POL", "height": 190, "foot": "R", "number": 1, "pos": "GK",
@@ -16,7 +17,7 @@
       "wage": 67000, "contract": "2027-06-30" },
     { "id": "joseph-anang-2000", "name": "Joseph Anang", "birth": "2000-06-08", "nation": "GHA", "height": 190, "foot": "R", "number": 49, "pos": "GK",
       "attrs": { "ref": 60, "han": 56, "one": 57, "pas": 52, "pos": 56, "aer": 58, "pac": 34, "sta": 47, "str": 54, "vis": 45, "com": 57, "ldr": 52 },
-      "wage": 5000, "contract": "2025-06-30", "verify": true },
+      "wage": 5000, "contract": "2025-06-30" },
     { "id": "ben-johnson-2000", "name": "Ben Johnson", "birth": "2000-01-24", "nation": "ENG", "height": 178, "foot": "R", "number": 2, "pos": "RB", "alt": ["LB"],
       "attrs": { "sho": 56, "pas": 68, "dri": 71, "tac": 73, "pos": 69, "aer": 61, "pac": 74, "sta": 73, "str": 67, "vis": 66, "com": 68, "ldr": 62 },
       "wage": 30000, "contract": "2024-06-30" },
@@ -76,6 +77,9 @@
       "wage": 53000, "contract": "2025-06-30", "traits": ["injury_prone"] },
     { "id": "divin-mubama-2004", "name": "Divin Mubama", "birth": "2004-10-25", "nation": "ENG", "height": 183, "foot": "R", "number": 47, "pos": "ST",
       "attrs": { "sho": 62, "pas": 53, "dri": 60, "tac": 30, "pos": 36, "aer": 58, "pac": 62, "sta": 61, "str": 64, "vis": 52, "com": 61, "ldr": 50 },
-      "wage": 7000, "contract": "2024-06-30" }
+      "wage": 7000, "contract": "2024-06-30" },
+    { "id": "maxwel-cornet-1996", "name": "Maxwel Cornet", "birth": "1996-09-27", "nation": "CIV", "height": 179, "foot": "L", "number": 17, "pos": "LW", "alt": ["LB"],
+      "attrs": { "sho": 69, "pas": 70, "dri": 74, "tac": 51, "pos": 52, "aer": 54, "pac": 75, "sta": 71, "str": 62, "vis": 71, "com": 74, "ldr": 62 },
+      "wage": 60000, "contract": "2027-06-30" }
   ]
 }

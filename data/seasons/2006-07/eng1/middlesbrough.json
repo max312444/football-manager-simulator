@@ -6,13 +6,14 @@
   "finance": { "balance": 5000000, "transferBudget": 10000000, "wageBudget": 1000000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 35100,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "mark-schwarzer-1972", "name": "Mark Schwarzer", "birth": "1972-10-06", "nation": "AUS", "height": 194, "foot": "R", "number": 1, "pos": "GK",
       "attrs": { "ref": 82, "han": 81, "one": 82, "pas": 64, "pos": 80, "aer": 80, "pac": 56, "sta": 65, "str": 77, "vis": 58, "com": 83, "ldr": 75 },
       "wage": 45000, "contract": "2008-06-30" },
     { "id": "stuart-parnaby-1982", "name": "Stuart Parnaby", "birth": "1982-07-19", "nation": "ENG", "height": 180, "foot": "R", "number": 2, "pos": "RB",
-      "attrs": { "sho": 47, "pas": 65, "dri": 67, "tac": 71, "pos": 67, "aer": 63, "pac": 78, "sta": 81, "str": 65, "vis": 55, "com": 63, "ldr": 49 },
+      "attrs": { "sho": 44, "pas": 62, "dri": 64, "tac": 68, "pos": 64, "aer": 60, "pac": 75, "sta": 78, "str": 62, "vis": 52, "com": 60, "ldr": 46 },
       "wage": 15000, "contract": "2007-06-30" },
     { "id": "andrew-taylor-1986", "name": "Andrew Taylor", "birth": "1986-08-01", "nation": "ENG", "height": 178, "foot": "L", "number": 3, "pos": "LB",
       "attrs": { "sho": 35, "pas": 52, "dri": 55, "tac": 60, "pos": 58, "aer": 45, "pac": 63, "sta": 65, "str": 53, "vis": 46, "com": 53, "ldr": 42 },
@@ -61,7 +62,7 @@
       "attrs": { "sho": 70, "pas": 60, "dri": 66, "tac": 42, "pos": 52, "aer": 66, "pac": 73, "sta": 71, "str": 68, "vis": 57, "com": 65, "ldr": 47 },
       "wage": 20000, "contract": "2007-06-30", "traits": ["injury_prone"], "verify": true },
     { "id": "jason-euell-1977", "name": "Jason Euell", "birth": "1977-02-06", "nation": "JAM", "nation2": "ENG", "height": 180, "foot": "R", "number": 22, "pos": "ST", "alt": ["AM"],
-      "attrs": { "sho": 70, "pas": 64, "dri": 68, "tac": 50, "pos": 61, "aer": 62, "pac": 69, "sta": 73, "str": 69, "vis": 64, "com": 66, "ldr": 56 },
+      "attrs": { "sho": 69, "pas": 63, "dri": 67, "tac": 49, "pos": 59, "aer": 61, "pac": 68, "sta": 72, "str": 68, "vis": 63, "com": 65, "ldr": 55 },
       "wage": 20000, "contract": "2009-06-30", "verify": true },
     { "id": "andrew-davies-1984", "name": "Andrew Davies", "birth": "1984-12-17", "nation": "ENG", "height": 188, "foot": "R", "number": 29, "pos": "CB", "alt": ["RB"],
       "attrs": { "sho": 45, "pas": 59, "dri": 57, "tac": 71, "pos": 67, "aer": 73, "pac": 65, "sta": 70, "str": 75, "vis": 48, "com": 58, "ldr": 46 },
@@ -79,7 +80,7 @@
       "attrs": { "sho": 80, "pas": 68, "dri": 72, "tac": 35, "pos": 45, "aer": 74, "pac": 55, "sta": 64, "str": 86, "vis": 68, "com": 82, "ldr": 68 },
       "wage": 50000, "contract": "2007-06-30", "traits": ["target_man"] },
     { "id": "jonathan-woodgate-1980", "name": "Jonathan Woodgate", "birth": "1980-01-22", "nation": "ENG", "height": 188, "foot": "R", "number": 39, "pos": "CB",
-      "attrs": { "sho": 42, "pas": 65, "dri": 59, "tac": 85, "pos": 83, "aer": 83, "pac": 70, "sta": 75, "str": 81, "vis": 57, "com": 79, "ldr": 73 },
+      "attrs": { "sho": 45, "pas": 68, "dri": 63, "tac": 88, "pos": 86, "aer": 85, "pac": 72, "sta": 77, "str": 82, "vis": 61, "com": 82, "ldr": 74 },
       "wage": 60000, "contract": "2007-06-30", "loan": "real-madrid", "traits": ["injury_prone"], "verify": true }
   ]
 }

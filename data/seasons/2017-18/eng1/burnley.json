@@ -6,6 +6,7 @@
   "finance": { "balance": 20000000, "transferBudget": 30000000, "wageBudget": 800000 },
   "facilities": { "training": 3, "youth": 3 },
   "stadiumCapacity": 21944,
+  "formation": "4-4-1-1",
   "estimated": true,
   "squad": [
     { "id": "tom-heaton-1986", "name": "Tom Heaton", "birth": "1986-04-15", "nation": "ENG", "height": 188, "foot": "R", "number": 1, "pos": "GK",
@@ -14,9 +15,12 @@
     { "id": "nick-pope-1992", "name": "Nick Pope", "birth": "1992-04-19", "nation": "ENG", "height": 198, "foot": "R", "number": 29, "pos": "GK",
       "attrs": { "ref": 77, "han": 71, "one": 73, "pas": 55, "pos": 73, "aer": 71, "pac": 50, "sta": 64, "str": 74, "vis": 51, "com": 69, "ldr": 59 },
       "wage": 23000, "contract": "2020-06-30" },
-    { "id": "anders-lindegaard-1984", "name": "Anders Lindegaard", "birth": "1984-04-13", "nation": "DEN", "height": 193, "foot": "R", "number": 36, "pos": "GK",
+    { "id": "anders-lindegaard-1984", "name": "Anders Lindegaard", "birth": "1984-04-13", "nation": "DEN", "height": 193, "foot": "R", "number": 22, "pos": "GK",
       "attrs": { "ref": 66, "han": 64, "one": 64, "pas": 55, "pos": 62, "aer": 64, "pac": 43, "sta": 53, "str": 64, "vis": 49, "com": 60, "ldr": 52 },
-      "wage": 17000, "contract": "2018-06-30", "verify": true },
+      "wage": 17000, "contract": "2018-06-30" },
+    { "id": "adam-legzdins-1986", "name": "Adam Legzdins", "birth": "1986-11-28", "nation": "ENG", "height": 185, "foot": "R", "number": 30, "pos": "GK",
+      "attrs": { "ref": 60, "han": 59, "one": 58, "pas": 52, "pos": 60, "aer": 58, "pac": 42, "sta": 50, "str": 62, "vis": 46, "com": 58, "ldr": 52 },
+      "wage": 10000, "contract": "2019-06-30", "verify": true },
     { "id": "matthew-lowton-1989", "name": "Matthew Lowton", "birth": "1989-06-09", "nation": "ENG", "height": 180, "foot": "R", "number": 2, "pos": "RB",
       "attrs": { "sho": 46, "pas": 64, "dri": 58, "tac": 70, "pos": 70, "aer": 56, "pac": 63, "sta": 77, "str": 68, "vis": 56, "com": 64, "ldr": 57 },
       "wage": 28000, "contract": "2021-06-30" },
@@ -52,7 +56,7 @@
       "wage": 34000, "contract": "2020-06-30", "traits": ["engine"] },
     { "id": "dean-marney-1984", "name": "Dean Marney", "birth": "1984-01-31", "nation": "ENG", "height": 178, "foot": "R", "number": 8, "pos": "CM",
       "attrs": { "sho": 59, "pas": 73, "dri": 68, "tac": 54, "pos": 52, "aer": 45, "pac": 46, "sta": 61, "str": 49, "vis": 68, "com": 67, "ldr": 65 },
-      "wage": 34000, "contract": "2019-06-30", "verify": true },
+      "wage": 34000, "contract": "2019-06-30" },
     { "id": "scott-arfield-1988", "name": "Scott Arfield", "birth": "1988-11-01", "nation": "SCO", "nation2": "CAN", "height": 178, "foot": "R", "number": 37, "pos": "LM",
       "attrs": { "sho": 69, "pas": 71, "dri": 73, "tac": 53, "pos": 54, "aer": 50, "pac": 73, "sta": 68, "str": 57, "vis": 68, "com": 70, "ldr": 63 },
       "wage": 28000, "contract": "2018-06-30" },
@@ -74,8 +78,8 @@
     { "id": "jonathan-walters-1983", "name": "Jonathan Walters", "birth": "1983-09-20", "nation": "IRL", "height": 183, "foot": "R", "number": 19, "pos": "ST",
       "attrs": { "sho": 67, "pas": 63, "dri": 63, "tac": 59, "pos": 59, "aer": 79, "pac": 61, "sta": 83, "str": 80, "vis": 59, "com": 71, "ldr": 76 },
       "wage": 45000, "contract": "2020-06-30", "traits": ["engine"] },
-    { "id": "jon-flanagan-1993", "name": "Jon Flanagan", "birth": "1993-01-01", "nation": "ENG", "height": 180, "foot": "R", "number": 17, "pos": "RB",
-      "attrs": { "sho": 47, "pas": 65, "dri": 65, "tac": 73, "pos": 67, "aer": 65, "pac": 69, "sta": 73, "str": 66, "vis": 57, "com": 63, "ldr": 50 },
-      "wage": 28000, "contract": "2018-06-30", "loan": "liverpool", "verify": true }
+    { "id": "nahki-wells-1990", "name": "Nahki Wells", "birth": "1990-06-01", "nation": "BER", "height": 170, "foot": "R", "number": 21, "pos": "ST",
+      "attrs": { "sho": 68, "pas": 58, "dri": 66, "tac": 30, "pos": 68, "aer": 52, "pac": 76, "sta": 70, "str": 60, "vis": 56, "com": 64, "ldr": 48 },
+      "wage": 25000, "contract": "2020-06-30", "verify": true }
   ]
 }

@@ -6,6 +6,7 @@
   "finance": { "balance": 40000000, "transferBudget": 30000000, "wageBudget": 2400000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 60355,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "manuel-almunia-1977", "name": "Manuel Almunia", "birth": "1977-05-19", "nation": "ESP", "height": 191, "foot": "R", "number": 1, "pos": "GK",
@@ -16,7 +17,7 @@
       "wage": 30000, "contract": "2012-06-30" },
     { "id": "vito-mannone-1988", "name": "Vito Mannone", "birth": "1988-03-02", "nation": "ITA", "height": 189, "foot": "R", "number": 24, "pos": "GK",
       "attrs": { "ref": 64, "han": 61, "one": 62, "pas": 48, "pos": 61, "aer": 62, "pac": 43, "sta": 54, "str": 56, "vis": 41, "com": 58, "ldr": 50 },
-      "wage": 10000, "contract": "2011-06-30", "verify": true },
+      "wage": 10000, "contract": "2011-06-30" },
     { "id": "abou-diaby-1986", "name": "Abou Diaby", "birth": "1986-05-11", "nation": "FRA", "height": 188, "foot": "R", "number": 2, "pos": "CM", "alt": ["AM"],
       "attrs": { "sho": 68, "pas": 81, "dri": 82, "tac": 61, "pos": 61, "aer": 56, "pac": 67, "sta": 82, "str": 80, "vis": 80, "com": 75, "ldr": 64 },
       "wage": 40000, "contract": "2011-06-30", "traits": ["injury_prone"] },
@@ -57,7 +58,7 @@
       "wage": 30000, "contract": "2012-06-30" },
     { "id": "aaron-ramsey-1990", "name": "Aaron Ramsey", "birth": "1990-12-26", "nation": "WAL", "height": 177, "foot": "R", "number": 16, "pos": "CM",
       "attrs": { "sho": 58, "pas": 70, "dri": 67, "tac": 53, "pos": 55, "aer": 46, "pac": 59, "sta": 73, "str": 58, "vis": 68, "com": 66, "ldr": 46 },
-      "wage": 25000, "contract": "2013-06-30", "verify": true },
+      "wage": 25000, "contract": "2013-06-30" },
     { "id": "alex-song-1987", "name": "Alex Song", "birth": "1987-09-09", "nation": "CMR", "height": 183, "foot": "R", "number": 17, "pos": "DM", "alt": ["CB"],
       "looks": { "hair": "dreadlocks", "hairColor": "black" },
       "attrs": { "sho": 61, "pas": 75, "dri": 70, "tac": 81, "pos": 81, "aer": 70, "pac": 68, "sta": 81, "str": 77, "vis": 70, "com": 75, "ldr": 67 },
@@ -67,7 +68,7 @@
       "wage": 50000, "contract": "2010-06-30" },
     { "id": "jack-wilshere-1992", "name": "Jack Wilshere", "birth": "1992-01-01", "nation": "ENG", "height": 170, "foot": "L", "number": 19, "pos": "AM", "alt": ["CM"],
       "attrs": { "sho": 58, "pas": 61, "dri": 61, "tac": 20, "pos": 26, "aer": 26, "pac": 54, "sta": 56, "str": 38, "vis": 66, "com": 56, "ldr": 33 },
-      "wage": 3000, "contract": "2010-06-30", "verify": true },
+      "wage": 3000, "contract": "2010-06-30" },
     { "id": "johan-djourou-1987", "name": "Johan Djourou", "birth": "1987-01-18", "nation": "SUI", "height": 191, "foot": "R", "number": 20, "pos": "CB",
       "attrs": { "sho": 33, "pas": 57, "dri": 50, "tac": 77, "pos": 79, "aer": 80, "pac": 62, "sta": 69, "str": 74, "vis": 46, "com": 72, "ldr": 62 },
       "wage": 30000, "contract": "2012-06-30" },
@@ -83,11 +84,11 @@
     { "id": "emmanuel-eboue-1983", "name": "Emmanuel Eboué", "birth": "1983-06-04", "nation": "CIV", "height": 178, "foot": "R", "number": 27, "pos": "RB", "alt": ["RM"],
       "attrs": { "sho": 53, "pas": 68, "dri": 70, "tac": 77, "pos": 77, "aer": 65, "pac": 77, "sta": 80, "str": 66, "vis": 63, "com": 71, "ldr": 62 },
       "wage": 40000, "contract": "2011-06-30" },
-    { "id": "kieran-gibbs-1989", "name": "Kieran Gibbs", "birth": "1989-09-26", "nation": "ENG", "height": 178, "foot": "L", "number": 28, "pos": "LB", "alt": ["LM"],
+    { "id": "kieran-gibbs-1989", "name": "Kieran Gibbs", "birth": "1989-09-26", "nation": "ENG", "height": 178, "foot": "L", "number": 40, "pos": "LB", "alt": ["LM"],
       "attrs": { "sho": 41, "pas": 59, "dri": 61, "tac": 65, "pos": 65, "aer": 53, "pac": 70, "sta": 67, "str": 57, "vis": 52, "com": 59, "ldr": 43 },
-      "wage": 12000, "contract": "2013-06-30", "verify": true },
-    { "id": "armand-traore-1989", "name": "Armand Traoré", "birth": "1989-10-08", "nation": "FRA", "height": 185, "foot": "L", "number": 30, "pos": "LB",
-      "attrs": { "sho": 39, "pas": 57, "dri": 58, "tac": 65, "pos": 66, "aer": 53, "pac": 69, "sta": 69, "str": 57, "vis": 51, "com": 54, "ldr": 41 },
-      "wage": 10000, "contract": "2011-06-30", "verify": true }
+      "wage": 12000, "contract": "2013-06-30" },
+    { "id": "amaury-bischoff-1987", "name": "Amaury Bischoff", "birth": "1987-03-31", "nation": "POR", "height": 180, "foot": "R", "number": 28, "pos": "CM", "alt": ["AM"],
+      "attrs": { "sho": 54, "pas": 64, "dri": 58, "tac": 56, "pos": 59, "aer": 51, "pac": 52, "sta": 63, "str": 56, "vis": 59, "com": 56, "ldr": 45 },
+      "wage": 15000, "contract": "2009-06-30" }
   ]
 }

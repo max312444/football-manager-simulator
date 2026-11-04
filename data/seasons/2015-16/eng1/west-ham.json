@@ -6,6 +6,7 @@
   "finance": { "balance": 30000000, "transferBudget": 35000000, "wageBudget": 1400000 },
   "facilities": { "training": 3, "youth": 3 },
   "stadiumCapacity": 35016,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "adrian-1987", "name": "Adrián", "birth": "1987-01-03", "nation": "ESP", "height": 190, "foot": "R", "number": 13, "pos": "GK",
@@ -39,7 +40,7 @@
     { "id": "enner-valencia-1989", "name": "Enner Valencia", "birth": "1989-11-04", "nation": "ECU", "height": 177, "foot": "R", "number": 11, "pos": "ST", "alt": ["LW"],
       "attrs": { "sho": 74, "pas": 62, "dri": 74, "tac": 36, "pos": 44, "aer": 70, "pac": 82, "sta": 74, "str": 72, "vis": 60, "com": 66, "ldr": 54 },
       "wage": 59000, "contract": "2019-06-30", "verify": true },
-    { "id": "pedro-obiang-1992", "name": "Pedro Obiang", "birth": "1992-03-27", "nation": "ESP", "height": 185, "foot": "R", "number": 14, "pos": "DM", "alt": ["CM"],
+    { "id": "pedro-obiang-1992", "name": "Pedro Obiang", "birth": "1992-03-27", "nation": "EQG", "nation2": "ESP", "height": 185, "foot": "R", "number": 14, "pos": "DM", "alt": ["CM"],
       "attrs": { "sho": 54, "pas": 74, "dri": 68, "tac": 74, "pos": 72, "aer": 64, "pac": 62, "sta": 78, "str": 72, "vis": 68, "com": 70, "ldr": 58 },
       "wage": 39000, "contract": "2019-06-30" },
     { "id": "diafra-sakho-1989", "name": "Diafra Sakho", "birth": "1989-12-24", "nation": "SEN", "height": 184, "foot": "R", "number": 15, "pos": "ST",

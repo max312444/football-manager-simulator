@@ -6,6 +6,7 @@
   "finance": { "balance": 10000000, "transferBudget": 20000000, "wageBudget": 1300000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 52387,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "shay-given-1976", "name": "Shay Given", "birth": "1976-04-20", "nation": "IRL", "height": 185, "foot": "R", "number": 1, "pos": "GK",
@@ -65,8 +66,8 @@
     { "id": "lomana-lualua-1980", "name": "Lomana LuaLua", "birth": "1980-12-28", "nation": "COD", "height": 173, "foot": "R", "number": 25, "pos": "ST", "alt": ["LW"],
       "attrs": { "sho": 65, "pas": 57, "dri": 78, "tac": 33, "pos": 46, "aer": 52, "pac": 84, "sta": 70, "str": 61, "vis": 55, "com": 58, "ldr": 42 },
       "wage": 16000, "contract": "2005-06-30", "traits": ["flair"], "verify": true },
-    { "id": "steve-caldwell-1980", "name": "Steve Caldwell", "birth": "1980-09-12", "nation": "SCO", "height": 181, "foot": "R", "number": 27, "pos": "CB",
-      "attrs": { "sho": 38, "pas": 54, "dri": 48, "tac": 66, "pos": 64, "aer": 68, "pac": 63, "sta": 69, "str": 69, "vis": 48, "com": 60, "ldr": 54 },
+    { "id": "steven-caldwell-1980", "name": "Steven Caldwell", "birth": "1980-09-12", "nation": "SCO", "height": 180, "foot": "R", "number": 27, "pos": "CB",
+      "attrs": { "sho": 27, "pas": 49, "dri": 44, "tac": 66, "pos": 64, "aer": 67, "pac": 58, "sta": 63, "str": 66, "vis": 40, "com": 55, "ldr": 51 },
       "wage": 8000, "contract": "2004-06-30", "verify": true },
     { "id": "brian-kerr-1981", "name": "Brian Kerr", "birth": "1981-10-12", "nation": "SCO", "height": 176, "foot": "R", "number": 29, "pos": "CM",
       "attrs": { "sho": 53, "pas": 63, "dri": 59, "tac": 59, "pos": 57, "aer": 51, "pac": 62, "sta": 70, "str": 58, "vis": 59, "com": 57, "ldr": 49 },

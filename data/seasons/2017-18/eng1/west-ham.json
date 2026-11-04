@@ -6,6 +6,7 @@
   "finance": { "balance": 30000000, "transferBudget": 40000000, "wageBudget": 1700000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 57000,
+  "formation": "3-4-2-1",
   "estimated": true,
   "squad": [
     { "id": "joe-hart-1987", "name": "Joe Hart", "birth": "1987-04-19", "nation": "ENG", "height": 196, "foot": "R", "number": 25, "pos": "GK",
@@ -47,7 +48,7 @@
     { "id": "mark-noble-1987", "name": "Mark Noble", "birth": "1987-05-08", "nation": "ENG", "height": 180, "foot": "R", "number": 16, "pos": "CM",
       "attrs": { "sho": 64, "pas": 79, "dri": 69, "tac": 70, "pos": 73, "aer": 55, "pac": 54, "sta": 76, "str": 65, "vis": 75, "com": 78, "ldr": 83 },
       "wage": 74000, "contract": "2021-06-30", "traits": ["leader", "penalty"] },
-    { "id": "pedro-obiang-1992", "name": "Pedro Obiang", "birth": "1992-03-27", "nation": "ESP", "height": 185, "foot": "R", "number": 14, "pos": "DM",
+    { "id": "pedro-obiang-1992", "name": "Pedro Obiang", "birth": "1992-03-27", "nation": "EQG", "nation2": "ESP", "height": 185, "foot": "R", "number": 14, "pos": "DM",
       "attrs": { "sho": 57, "pas": 73, "dri": 67, "tac": 74, "pos": 72, "aer": 64, "pac": 60, "sta": 78, "str": 72, "vis": 67, "com": 70, "ldr": 59 },
       "wage": 45000, "contract": "2021-06-30" },
     { "id": "cheikhou-kouyate-1989", "name": "Cheikhou Kouyaté", "birth": "1989-12-21", "nation": "SEN", "height": 189, "foot": "R", "number": 8, "pos": "DM",

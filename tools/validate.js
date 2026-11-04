@@ -7,7 +7,9 @@ const DATA = path.join(__dirname, '..', 'data');
 const readJson = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 
 const POSITIONS = ['GK', 'CB', 'LB', 'RB', 'LWB', 'RWB', 'DM', 'CM', 'AM', 'LM', 'RM', 'LW', 'RW', 'ST'];
-const OUTFIELD_ATTRS = ['sho', 'pas', 'dri', 'tac', 'pos', 'aer', 'pac', 'sta', 'str', 'vis', 'com', 'ldr'];
+const FORMATIONS = ['4-4-2', '4-4-1-1', '4-3-3', '4-2-3-1', '4-1-4-1', '4-5-1', '4-3-1-2', '4-1-2-1-2', '4-2-2-2',
+  '3-5-2', '3-4-3', '3-4-2-1', '3-4-1-2', '5-3-2', '5-4-1'];
+const OUTFIELD_ATTRS =['sho', 'pas', 'dri', 'tac', 'pos', 'aer', 'pac', 'sta', 'str', 'vis', 'com', 'ldr'];
 const GK_ATTRS = ['ref', 'han', 'one', 'pas', 'pos', 'aer', 'pac', 'sta', 'str', 'vis', 'com', 'ldr'];
 const LOOKS = {
   hair: ['bald', 'buzz', 'short', 'short_curly', 'curly', 'afro', 'medium', 'long', 'bun', 'ponytail', 'dreadlocks', 'braids', 'mohawk', 'slick', 'undercut'],
@@ -80,6 +82,8 @@ function checkClubSeason(d, where, season, league, clubFile, seasonStart, seenIn
   inRange(d.facilities?.training, 1, 5, where, 'facilities.training');
   inRange(d.facilities?.youth, 1, 5, where, 'facilities.youth');
   if (!Number.isInteger(d.stadiumCapacity)) err(where, 'stadiumCapacity 누락');
+  if (!d.formation) warn(where, 'formation 없음');
+  else if (!FORMATIONS.includes(d.formation)) err(where, `알 수 없는 포메이션: ${d.formation}`);
   if (!Array.isArray(d.squad)) { err(where, 'squad 누락'); return; }
   if (d.squad.length < 18 || d.squad.length > 40) warn(where, `선수단 ${d.squad.length}명 (권장 22~30)`);
   if (!d.squad.some(p => p.pos === 'GK')) err(where, '골키퍼 없음');

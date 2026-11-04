@@ -6,6 +6,7 @@
   "finance": { "balance": 60000000, "transferBudget": 50000000, "wageBudget": 3600000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 75811,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "david-de-gea-1990", "name": "David de Gea", "birth": "1990-11-07", "nation": "ESP", "height": 192, "foot": "R", "number": 1, "pos": "GK",
@@ -47,7 +48,7 @@
     { "id": "chris-smalling-1989", "name": "Chris Smalling", "birth": "1989-11-22", "nation": "ENG", "height": 194, "foot": "R", "number": 12, "pos": "CB", "alt": ["RB"],
       "attrs": { "sho": 40, "pas": 62, "dri": 58, "tac": 78, "pos": 74, "aer": 80, "pac": 76, "sta": 76, "str": 80, "vis": 52, "com": 68, "ldr": 58 },
       "wage": 40000, "contract": "2015-06-30" },
-    { "id": "park-ji-sung-1981", "name": "Park Ji-sung", "birth": "1981-02-25", "nation": "KOR", "height": 175, "foot": "R", "number": 13, "pos": "RM", "alt": ["CM"],
+    { "id": "park-ji-sung-1981", "name": "Park Ji-sung", "birth": "1981-03-30", "nation": "KOR", "height": 175, "foot": "R", "number": 13, "pos": "RM", "alt": ["CM"],
       "attrs": { "sho": 66, "pas": 76, "dri": 74, "tac": 70, "pos": 66, "aer": 58, "pac": 74, "sta": 92, "str": 64, "vis": 76, "com": 76, "ldr": 70 },
       "wage": 80000, "contract": "2013-06-30", "traits": ["engine","big_game"] },
     { "id": "javier-hernandez-1988", "name": "Javier Hernández", "birth": "1988-06-01", "nation": "MEX", "height": 175, "foot": "R", "number": 14, "pos": "ST",

@@ -6,6 +6,7 @@
   "finance": { "balance": 15000000, "transferBudget": 30000000, "wageBudget": 1500000 },
   "facilities": { "training": 4, "youth": 3 },
   "stadiumCapacity": 52305,
+  "formation": "5-4-1",
   "estimated": true,
   "squad": [
     { "id": "martin-dubravka-1989", "name": "Martin Dúbravka", "birth": "1989-01-15", "nation": "SVK", "height": 191, "foot": "R", "number": 1, "pos": "GK",
@@ -16,7 +17,7 @@
       "wage": 34000, "contract": "2022-06-30" },
     { "id": "robert-elliot-1986", "name": "Robert Elliot", "birth": "1986-04-30", "nation": "IRL", "height": 191, "foot": "R", "number": 21, "pos": "GK",
       "attrs": { "ref": 72, "han": 68, "one": 70, "pas": 55, "pos": 66, "aer": 68, "pac": 40, "sta": 52, "str": 68, "vis": 51, "com": 66, "ldr": 62 },
-      "wage": 34000, "contract": "2020-06-30", "verify": true },
+      "wage": 34000, "contract": "2020-06-30" },
     { "id": "deandre-yedlin-1993", "name": "DeAndre Yedlin", "birth": "1993-07-09", "nation": "USA", "height": 173, "foot": "R", "number": 22, "pos": "RB",
       "attrs": { "sho": 50, "pas": 66, "dri": 70, "tac": 70, "pos": 64, "aer": 52, "pac": 91, "sta": 81, "str": 63, "vis": 58, "com": 62, "ldr": 53 },
       "wage": 57000, "contract": "2021-06-30", "traits": ["speedster"] },
@@ -31,7 +32,7 @@
       "wage": 40000, "contract": "2024-06-30" },
     { "id": "jetro-willems-1994", "name": "Jetro Willems", "birth": "1994-03-30", "nation": "NED", "height": 170, "foot": "L", "number": 15, "pos": "LWB",
       "attrs": { "sho": 58, "pas": 72, "dri": 72, "tac": 71, "pos": 72, "aer": 64, "pac": 79, "sta": 76, "str": 66, "vis": 65, "com": 72, "ldr": 62 },
-      "wage": 45000, "contract": "2020-06-30", "verify": true },
+      "wage": 45000, "contract": "2020-06-30", "loan": "eintracht-frankfurt" },
     { "id": "jamaal-lascelles-1993", "name": "Jamaal Lascelles", "birth": "1993-11-11", "nation": "ENG", "height": 188, "foot": "R", "number": 6, "pos": "CB",
       "attrs": { "sho": 45, "pas": 62, "dri": 55, "tac": 76, "pos": 75, "aer": 80, "pac": 65, "sta": 70, "str": 79, "vis": 54, "com": 69, "ldr": 79 },
       "wage": 68000, "contract": "2023-06-30", "traits": ["leader"] },
@@ -56,9 +57,9 @@
     { "id": "sean-longstaff-1997", "name": "Sean Longstaff", "birth": "1997-10-30", "nation": "ENG", "height": 181, "foot": "R", "number": 36, "pos": "CM",
       "attrs": { "sho": 58, "pas": 69, "dri": 64, "tac": 64, "pos": 62, "aer": 56, "pac": 63, "sta": 79, "str": 63, "vis": 63, "com": 63, "ldr": 52 },
       "wage": 28000, "contract": "2025-06-30" },
-    { "id": "matty-longstaff-2000", "name": "Matty Longstaff", "birth": "2000-03-21", "nation": "ENG", "height": 180, "foot": "R", "number": 42, "pos": "CM",
+    { "id": "matty-longstaff-2000", "name": "Matty Longstaff", "birth": "2000-03-21", "nation": "ENG", "height": 180, "foot": "R", "number": 43, "pos": "CM",
       "attrs": { "sho": 53, "pas": 61, "dri": 56, "tac": 50, "pos": 55, "aer": 50, "pac": 53, "sta": 60, "str": 51, "vis": 58, "com": 54, "ldr": 47 },
-      "wage": 5000, "contract": "2020-06-30", "verify": true },
+      "wage": 5000, "contract": "2020-06-30" },
     { "id": "ki-sung-yueng-1989", "name": "Ki Sung-yueng", "birth": "1989-01-24", "nation": "KOR", "height": 189, "foot": "R", "number": 4, "pos": "CM",
       "attrs": { "sho": 62, "pas": 78, "dri": 64, "tac": 66, "pos": 72, "aer": 66, "pac": 49, "sta": 69, "str": 72, "vis": 74, "com": 76, "ldr": 71 },
       "wage": 57000, "contract": "2021-06-30" },
@@ -85,8 +86,8 @@
     { "id": "yoshinori-muto-1992", "name": "Yoshinori Muto", "birth": "1992-07-15", "nation": "JPN", "height": 178, "foot": "R", "number": 13, "pos": "ST",
       "attrs": { "sho": 68, "pas": 62, "dri": 68, "tac": 52, "pos": 66, "aer": 62, "pac": 74, "sta": 80, "str": 70, "vis": 58, "com": 62, "ldr": 53 },
       "wage": 45000, "contract": "2021-06-30" },
-    { "id": "dwight-gayle-1990", "name": "Dwight Gayle", "birth": "1990-10-17", "nation": "ENG", "height": 178, "foot": "R", "number": 12, "pos": "ST",
+    { "id": "dwight-gayle-1989", "name": "Dwight Gayle", "birth": "1989-10-17", "nation": "ENG", "height": 178, "foot": "R", "number": 12, "pos": "ST",
       "attrs": { "sho": 76, "pas": 58, "dri": 70, "tac": 36, "pos": 44, "aer": 54, "pac": 83, "sta": 71, "str": 65, "vis": 56, "com": 66, "ldr": 46 },
-      "wage": 57000, "contract": "2023-06-30", "verify": true }
+      "wage": 57000, "contract": "2023-06-30" }
   ]
 }

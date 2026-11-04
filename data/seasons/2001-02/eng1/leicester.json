@@ -6,6 +6,7 @@
   "finance": { "balance": 2000000, "transferBudget": 5000000, "wageBudget": 600000 },
   "facilities": { "training": 3, "youth": 3 },
   "stadiumCapacity": 22000,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "ian-walker-1971", "name": "Ian Walker", "birth": "1971-10-31", "nation": "ENG", "height": 188, "foot": "R", "number": 1, "pos": "GK",
@@ -39,7 +40,7 @@
     { "id": "dennis-wise-1966", "name": "Dennis Wise", "birth": "1966-12-16", "nation": "ENG", "height": 168, "foot": "R", "number": 11, "pos": "CM", "alt": ["LM"],
       "attrs": { "sho": 65, "pas": 79, "dri": 73, "tac": 69, "pos": 70, "aer": 45, "pac": 56, "sta": 72, "str": 58, "vis": 78, "com": 80, "ldr": 86 },
       "wage": 32000, "contract": "2003-06-30", "traits": ["leader", "free_kick"], "verify": true },
-    { "id": "trevor-benjamin-1979", "name": "Trevor Benjamin", "birth": "1979-02-08", "nation": "ENG", "nation2": "JAM", "height": 188, "foot": "R", "number": 12, "pos": "ST",
+    { "id": "trevor-benjamin-1979", "name": "Trevor Benjamin", "birth": "1979-02-08", "nation": "JAM", "nation2": "JAM", "height": 188, "foot": "R", "number": 12, "pos": "ST",
       "attrs": { "sho": 60, "pas": 50, "dri": 58, "tac": 32, "pos": 46, "aer": 72, "pac": 67, "sta": 67, "str": 79, "vis": 44, "com": 54, "ldr": 46 },
       "wage": 8000, "contract": "2004-06-30", "verify": true },
     { "id": "tim-flowers-1967", "name": "Tim Flowers", "birth": "1967-02-03", "nation": "ENG", "height": 188, "foot": "R", "number": 13, "pos": "GK",

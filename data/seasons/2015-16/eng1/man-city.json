@@ -6,6 +6,7 @@
   "finance": { "balance": 150000000, "transferBudget": 150000000, "wageBudget": 4250000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 55097,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "joe-hart-1987", "name": "Joe Hart", "birth": "1987-04-19", "nation": "ENG", "height": 196, "foot": "R", "number": 1, "pos": "GK",
@@ -69,14 +70,17 @@
     { "id": "nicolas-otamendi-1988", "name": "Nicolás Otamendi", "birth": "1988-02-12", "nation": "ARG", "height": 183, "foot": "R", "number": 30, "pos": "CB",
       "attrs": { "sho": 46, "pas": 64, "dri": 60, "tac": 82, "pos": 76, "aer": 80, "pac": 72, "sta": 78, "str": 82, "vis": 58, "com": 70, "ldr": 72 },
       "wage": 143000, "contract": "2020-06-30" },
-    { "id": "patrick-roberts-1997", "name": "Patrick Roberts", "birth": "1997-02-05", "nation": "ENG", "height": 167, "foot": "L", "number": 33, "pos": "RW",
+    { "id": "patrick-roberts-1997", "name": "Patrick Roberts", "birth": "1997-02-05", "nation": "ENG", "height": 167, "foot": "L", "number": 27, "pos": "RW",
       "attrs": { "sho": 58, "pas": 62, "dri": 76, "tac": 30, "pos": 38, "aer": 34, "pac": 82, "sta": 66, "str": 48, "vis": 62, "com": 60, "ldr": 36 },
-      "wage": 20000, "contract": "2019-06-30", "verify": true },
+      "wage": 20000, "contract": "2019-06-30" },
     { "id": "yaya-toure-1983", "name": "Yaya Touré", "birth": "1983-05-13", "nation": "CIV", "height": 189, "foot": "R", "number": 42, "pos": "CM",
       "attrs": { "sho": 80, "pas": 84, "dri": 80, "tac": 66, "pos": 70, "aer": 76, "pac": 64, "sta": 72, "str": 88, "vis": 82, "com": 84, "ldr": 80 },
       "wage": 390000, "contract": "2017-06-30", "traits": ["big_game"] },
     { "id": "kelechi-iheanacho-1996", "name": "Kelechi Iheanacho", "birth": "1996-10-03", "nation": "NGA", "height": 185, "foot": "L", "number": 72, "pos": "ST",
       "attrs": { "sho": 72, "pas": 64, "dri": 74, "tac": 36, "pos": 44, "aer": 56, "pac": 76, "sta": 68, "str": 66, "vis": 64, "com": 72, "ldr": 44 },
-      "wage": 20000, "contract": "2020-06-30", "verify": true }
+      "wage": 20000, "contract": "2020-06-30" },
+    { "id": "richard-wright-1977", "name": "Richard Wright", "birth": "1977-11-05", "nation": "ENG", "height": 188, "foot": "R", "number": 29, "pos": "GK",
+      "attrs": { "ref": 57, "han": 57, "one": 55, "pas": 47, "pos": 57, "aer": 57, "pac": 37, "sta": 47, "str": 63, "vis": 41, "com": 53, "ldr": 51 },
+      "wage": 20000, "contract": "2016-06-30" }
   ]
 }

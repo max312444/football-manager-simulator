@@ -6,6 +6,7 @@
   "finance": { "balance": 30000000, "transferBudget": 20000000, "wageBudget": 1500000 },
   "facilities": { "training": 3, "youth": 4 },
   "stadiumCapacity": 49000,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "robin-roefs-2003", "name": "Robin Roefs", "birth": "2003-01-17", "nation": "NED", "height": 191, "foot": "R", "number": 22, "pos": "GK",
@@ -53,7 +54,7 @@
     { "id": "noah-sadiki-2004", "name": "Noah Sadiki", "birth": "2004-12-17", "nation": "COD", "nation2": "BEL", "height": 178, "foot": "R", "number": 27, "pos": "DM", "alt": ["CM"],
       "attrs": { "sho": 54, "pas": 72, "dri": 70, "tac": 76, "pos": 74, "aer": 62, "pac": 70, "sta": 84, "str": 70, "vis": 66, "com": 70, "ldr": 56 },
       "wage": 40000, "contract": "2030-06-30" },
-    { "id": "enzo-le-fee-1999", "name": "Enzo Le Fée", "birth": "1999-03-03", "nation": "FRA", "height": 169, "foot": "R", "number": 28, "pos": "CM", "alt": ["AM"],
+    { "id": "enzo-le-fee-2000", "name": "Enzo Le Fée", "birth": "2000-02-03", "nation": "FRA", "height": 169, "foot": "R", "number": 28, "pos": "CM", "alt": ["AM"],
       "attrs": { "sho": 68, "pas": 80, "dri": 78, "tac": 60, "pos": 64, "aer": 46, "pac": 68, "sta": 76, "str": 56, "vis": 80, "com": 74, "ldr": 60 },
       "wage": 60000, "contract": "2029-06-30" },
     { "id": "dan-neil-2001", "name": "Dan Neil", "birth": "2001-12-13", "nation": "ENG", "height": 180, "foot": "L", "number": 24, "pos": "CM",

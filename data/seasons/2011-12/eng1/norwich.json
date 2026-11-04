@@ -6,6 +6,7 @@
   "finance": { "balance": 8000000, "transferBudget": 6000000, "wageBudget": 750000 },
   "facilities": { "training": 2, "youth": 3 },
   "stadiumCapacity": 27244,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "john-ruddy-1986", "name": "John Ruddy", "birth": "1986-10-24", "nation": "ENG", "height": 193, "foot": "R", "number": 1, "pos": "GK",
@@ -69,7 +70,7 @@
     { "id": "marc-tierney-1985", "name": "Marc Tierney", "birth": "1985-08-23", "nation": "ENG", "height": 180, "foot": "L", "number": 22, "pos": "LB",
       "attrs": { "sho": 40, "pas": 60, "dri": 56, "tac": 70, "pos": 66, "aer": 60, "pac": 66, "sta": 74, "str": 68, "vis": 52, "com": 60, "ldr": 54 },
       "wage": 15000, "contract": "2013-06-30", "verify": true },
-    { "id": "kyle-naughton-1988", "name": "Kyle Naughton", "birth": "1988-11-11", "nation": "ENG", "height": 180, "foot": "R", "number": 23, "pos": "RB", "alt": ["LB"],
+    { "id": "kyle-naughton-1988", "name": "Kyle Naughton", "birth": "1988-11-17", "nation": "ENG", "height": 180, "foot": "R", "number": 23, "pos": "RB", "alt": ["LB"],
       "attrs": { "sho": 42, "pas": 62, "dri": 62, "tac": 70, "pos": 64, "aer": 60, "pac": 74, "sta": 76, "str": 68, "vis": 54, "com": 60, "ldr": 48 },
       "wage": 20000, "contract": "2012-06-30", "loan": "tottenham", "verify": true },
     { "id": "zak-whitbread-1984", "name": "Zak Whitbread", "birth": "1984-03-04", "nation": "USA", "nation2": "ENG", "height": 188, "foot": "L", "number": 26, "pos": "CB",

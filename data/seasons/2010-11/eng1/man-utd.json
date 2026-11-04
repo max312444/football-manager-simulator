@@ -6,6 +6,7 @@
   "finance": { "balance": 60000000, "transferBudget": 40000000, "wageBudget": 3400000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 75957,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "edwin-van-der-sar-1970", "name": "Edwin van der Sar", "birth": "1970-10-29", "nation": "NED", "height": 197, "foot": "R", "number": 1, "pos": "GK",
@@ -29,6 +30,9 @@
     { "id": "rio-ferdinand-1978", "name": "Rio Ferdinand", "birth": "1978-11-07", "nation": "ENG", "height": 189, "foot": "R", "number": 5, "pos": "CB",
       "attrs": { "sho": 44, "pas": 77, "dri": 66, "tac": 88, "pos": 89, "aer": 85, "pac": 73, "sta": 75, "str": 83, "vis": 68, "com": 87, "ldr": 85 },
       "wage": 133000, "contract": "2013-06-30", "traits": ["leader"] },
+    { "id": "wes-brown-1979", "name": "Wes Brown", "birth": "1979-10-13", "nation": "ENG", "height": 185, "foot": "R", "number": 6, "pos": "CB", "alt": ["RB"],
+      "attrs": { "sho": 40, "pas": 63, "dri": 55, "tac": 80, "pos": 77, "aer": 78, "pac": 65, "sta": 67, "str": 78, "vis": 53, "com": 73, "ldr": 70 },
+      "wage": 57000, "contract": "2011-06-30", "traits": ["injury_prone"] },
     { "id": "michael-owen-1979", "name": "Michael Owen", "birth": "1979-12-14", "nation": "ENG", "height": 173, "foot": "R", "number": 7, "pos": "ST",
       "attrs": { "sho": 82, "pas": 68, "dri": 74, "tac": 33, "pos": 43, "aer": 63, "pac": 73, "sta": 62, "str": 65, "vis": 68, "com": 83, "ldr": 68 },
       "wage": 93000, "contract": "2011-06-30", "traits": ["injury_prone"] },
@@ -47,7 +51,7 @@
     { "id": "chris-smalling-1989", "name": "Chris Smalling", "birth": "1989-11-22", "nation": "ENG", "height": 194, "foot": "R", "number": 12, "pos": "CB", "alt": ["RB"],
       "attrs": { "sho": 38, "pas": 60, "dri": 56, "tac": 76, "pos": 72, "aer": 78, "pac": 75, "sta": 75, "str": 79, "vis": 50, "com": 66, "ldr": 56 },
       "wage": 25000, "contract": "2015-06-30" },
-    { "id": "park-ji-sung-1981", "name": "Park Ji-sung", "birth": "1981-02-25", "nation": "KOR", "height": 175, "foot": "R", "number": 13, "pos": "RM", "alt": ["CM"],
+    { "id": "park-ji-sung-1981", "name": "Park Ji-sung", "birth": "1981-03-30", "nation": "KOR", "height": 175, "foot": "R", "number": 13, "pos": "RM", "alt": ["CM"],
       "attrs": { "sho": 69, "pas": 76, "dri": 77, "tac": 69, "pos": 66, "aer": 55, "pac": 78, "sta": 93, "str": 63, "vis": 75, "com": 76, "ldr": 70 },
       "wage": 73000, "contract": "2013-06-30", "traits": ["engine", "big_game"] },
     { "id": "javier-hernandez-1988", "name": "Javier Hernández", "birth": "1988-06-01", "nation": "MEX", "height": 175, "foot": "R", "number": 14, "pos": "ST",
@@ -94,7 +98,7 @@
       "attrs": { "sho": 70, "pas": 72, "dri": 64, "tac": 58, "pos": 58, "aer": 49, "pac": 57, "sta": 69, "str": 61, "vis": 68, "com": 65, "ldr": 53 },
       "wage": 25000, "contract": "2011-06-30" },
     { "id": "bebe-1990", "name": "Bebé", "birth": "1990-07-12", "nation": "POR", "height": 190, "foot": "R", "number": 33, "pos": "ST", "alt": ["LW"],
-      "attrs": { "sho": 61, "pas": 53, "dri": 59, "tac": 26, "pos": 33, "aer": 57, "pac": 61, "sta": 57, "str": 63, "vis": 50, "com": 60, "ldr": 43 },
-      "wage": 8000, "contract": "2013-06-30" }
+      "attrs": { "sho": 62, "pas": 53, "dri": 59, "tac": 26, "pos": 33, "aer": 57, "pac": 61, "sta": 57, "str": 63, "vis": 50, "com": 60, "ldr": 43 },
+      "wage": 9000, "contract": "2013-06-30" }
   ]
 }

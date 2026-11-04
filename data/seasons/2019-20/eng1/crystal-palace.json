@@ -6,6 +6,7 @@
   "finance": { "balance": 15000000, "transferBudget": 20000000, "wageBudget": 1500000 },
   "facilities": { "training": 3, "youth": 4 },
   "stadiumCapacity": 25486,
+  "formation": "4-3-3",
   "estimated": true,
   "squad": [
     { "id": "vicente-guaita-1987", "name": "Vicente Guaita", "birth": "1987-01-10", "nation": "ESP", "height": 190, "foot": "R", "number": 31, "pos": "GK",
@@ -65,17 +66,20 @@
     { "id": "wilfried-zaha-1992", "name": "Wilfried Zaha", "birth": "1992-11-10", "nation": "CIV", "height": 180, "foot": "R", "number": 11, "pos": "LW",
       "attrs": { "sho": 74, "pas": 73, "dri": 88, "tac": 44, "pos": 68, "aer": 55, "pac": 88, "sta": 77, "str": 79, "vis": 71, "com": 74, "ldr": 63 },
       "wage": 147000, "contract": "2023-06-30", "traits": ["flair"] },
-    { "id": "christian-benteke-1990", "name": "Christian Benteke", "birth": "1990-12-03", "nation": "BEL", "height": 190, "foot": "R", "number": 20, "pos": "ST",
+    { "id": "christian-benteke-1990", "name": "Christian Benteke", "birth": "1990-12-03", "nation": "BEL", "height": 190, "foot": "R", "number": 17, "pos": "ST",
       "attrs": { "sho": 73, "pas": 63, "dri": 63, "tac": 37, "pos": 75, "aer": 87, "pac": 62, "sta": 66, "str": 86, "vis": 59, "com": 65, "ldr": 61 },
-      "wage": 113000, "contract": "2022-06-30", "traits": ["aerial_threat", "target_man"], "verify": true },
+      "wage": 113000, "contract": "2022-06-30", "traits": ["aerial_threat", "target_man"] },
     { "id": "jordan-ayew-1991", "name": "Jordan Ayew", "birth": "1991-09-11", "nation": "GHA", "height": 182, "foot": "R", "number": 9, "pos": "ST",
       "attrs": { "sho": 67, "pas": 66, "dri": 71, "tac": 46, "pos": 62, "aer": 61, "pac": 75, "sta": 78, "str": 69, "vis": 61, "com": 63, "ldr": 55 },
       "wage": 57000, "contract": "2022-06-30" },
     { "id": "connor-wickham-1993", "name": "Connor Wickham", "birth": "1993-03-31", "nation": "ENG", "height": 191, "foot": "R", "number": 21, "pos": "ST",
       "attrs": { "sho": 68, "pas": 62, "dri": 64, "tac": 38, "pos": 68, "aer": 76, "pac": 60, "sta": 62, "str": 82, "vis": 56, "com": 62, "ldr": 51 },
       "wage": 57000, "contract": "2020-06-30", "traits": ["injury_prone"] },
-    { "id": "tyrick-mitchell-1999", "name": "Tyrick Mitchell", "birth": "1999-09-01", "nation": "ENG", "height": 175, "foot": "L", "number": 41, "pos": "LB",
+    { "id": "tyrick-mitchell-1999", "name": "Tyrick Mitchell", "birth": "1999-09-01", "nation": "ENG", "height": 175, "foot": "L", "number": 39, "pos": "LB",
       "attrs": { "sho": 42, "pas": 57, "dri": 56, "tac": 66, "pos": 58, "aer": 49, "pac": 68, "sta": 68, "str": 52, "vis": 54, "com": 55, "ldr": 61 },
-      "wage": 5000, "contract": "2022-06-30", "verify": true }
+      "wage": 5000, "contract": "2022-06-30" },
+    { "id": "victor-camarasa-1994", "name": "Víctor Camarasa", "birth": "1994-05-28", "nation": "ESP", "height": 183, "foot": "R", "number": 23, "pos": "CM", "alt": ["AM"],
+      "attrs": { "sho": 65, "pas": 72, "dri": 70, "tac": 56, "pos": 62, "aer": 54, "pac": 60, "sta": 71, "str": 62, "vis": 68, "com": 64, "ldr": 52 },
+      "wage": 40000, "contract": "2020-06-30", "loan": "real-betis" }
   ]
 }

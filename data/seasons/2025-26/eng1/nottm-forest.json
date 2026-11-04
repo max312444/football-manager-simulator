@@ -6,6 +6,7 @@
   "finance": { "balance": 30000000, "transferBudget": 30000000, "wageBudget": 2300000 },
   "facilities": { "training": 3, "youth": 3 },
   "stadiumCapacity": 30404,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "matz-sels-1992", "name": "Matz Sels", "birth": "1992-02-26", "nation": "BEL", "height": 188, "foot": "R", "number": 26, "pos": "GK",
@@ -35,7 +36,7 @@
     { "id": "nicolo-savona-2003", "name": "Nicolò Savona", "birth": "2003-03-19", "nation": "ITA", "height": 190, "foot": "R", "number": 37, "pos": "RB", "alt": ["CB"],
       "attrs": { "sho": 46, "pas": 66, "dri": 66, "tac": 72, "pos": 70, "aer": 68, "pac": 74, "sta": 74, "str": 70, "vis": 60, "com": 66, "ldr": 54 },
       "wage": 45000, "contract": "2030-06-30", "verify": true },
-    { "id": "jair-cunha-2005", "name": "Jair Cunha", "birth": "2005-03-19", "nation": "BRA", "height": 192, "foot": "R", "number": 23, "pos": "CB",
+    { "id": "jair-cunha-2005", "name": "Jair Cunha", "birth": "2005-03-07", "nation": "BRA", "height": 192, "foot": "R", "number": 23, "pos": "CB",
       "attrs": { "sho": 38, "pas": 60, "dri": 56, "tac": 70, "pos": 68, "aer": 74, "pac": 66, "sta": 66, "str": 74, "vis": 50, "com": 62, "ldr": 52 },
       "wage": 25000, "contract": "2030-06-30", "verify": true },
     { "id": "oleksandr-zinchenko-1996", "name": "Oleksandr Zinchenko", "birth": "1996-12-15", "nation": "UKR", "height": 175, "foot": "L", "number": 35, "pos": "LB", "alt": ["CM"],

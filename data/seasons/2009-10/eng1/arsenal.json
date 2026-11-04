@@ -6,6 +6,7 @@
   "finance": { "balance": 60000000, "transferBudget": 25000000, "wageBudget": 2600000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 60355,
+  "formation": "4-3-3",
   "estimated": true,
   "squad": [
     { "id": "manuel-almunia-1977", "name": "Manuel Almunia", "birth": "1977-05-19", "nation": "ESP", "height": 191, "foot": "R", "number": 1, "pos": "GK",
@@ -86,7 +87,7 @@
     { "id": "kieran-gibbs-1989", "name": "Kieran Gibbs", "birth": "1989-09-26", "nation": "ENG", "height": 178, "foot": "L", "number": 28, "pos": "LB", "alt": ["LM"],
       "attrs": { "sho": 44, "pas": 63, "dri": 65, "tac": 67, "pos": 66, "aer": 56, "pac": 75, "sta": 71, "str": 60, "vis": 55, "com": 62, "ldr": 47 },
       "wage": 20000, "contract": "2013-06-30" },
-    { "id": "armand-traore-1989", "name": "Armand Traoré", "birth": "1989-10-08", "nation": "FRA", "height": 185, "foot": "L", "number": 30, "pos": "LB",
+    { "id": "armand-traore-1989", "name": "Armand Traoré", "birth": "1989-10-08", "nation": "SEN", "nation2": "FRA", "height": 185, "foot": "L", "number": 30, "pos": "LB",
       "attrs": { "sho": 41, "pas": 58, "dri": 61, "tac": 65, "pos": 63, "aer": 54, "pac": 73, "sta": 70, "str": 60, "vis": 52, "com": 54, "ldr": 41 },
       "wage": 15000, "contract": "2011-06-30" }
   ]

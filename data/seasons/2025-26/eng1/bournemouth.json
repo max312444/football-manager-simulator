@@ -6,6 +6,7 @@
   "finance": { "balance": 40000000, "transferBudget": 30000000, "wageBudget": 1800000 },
   "facilities": { "training": 4, "youth": 3 },
   "stadiumCapacity": 11307,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "dorde-petrovic-1999", "name": "Đorđe Petrović", "birth": "1999-10-08", "nation": "SRB", "height": 194, "foot": "R", "number": 1, "pos": "GK",
@@ -32,7 +33,7 @@
     { "id": "bafode-diakite-2001", "name": "Bafodé Diakité", "birth": "2001-01-06", "nation": "FRA", "height": 185, "foot": "R", "number": 18, "pos": "CB", "alt": ["RB"],
       "attrs": { "sho": 48, "pas": 70, "dri": 64, "tac": 78, "pos": 76, "aer": 78, "pac": 76, "sta": 74, "str": 78, "vis": 60, "com": 72, "ldr": 62 },
       "wage": 60000, "contract": "2030-06-30" },
-    { "id": "veljko-milosavljevic-2007", "name": "Veljko Milosavljević", "birth": "2007-07-11", "nation": "SRB", "height": 190, "foot": "L", "number": 44, "pos": "CB",
+    { "id": "veljko-milosavljevic-2007", "name": "Veljko Milosavljević", "birth": "2007-06-28", "nation": "SRB", "height": 190, "foot": "L", "number": 44, "pos": "CB",
       "attrs": { "sho": 36, "pas": 62, "dri": 56, "tac": 70, "pos": 68, "aer": 74, "pac": 66, "sta": 68, "str": 74, "vis": 52, "com": 64, "ldr": 52 },
       "wage": 25000, "contract": "2030-06-30", "verify": true },
     { "id": "james-hill-2002", "name": "James Hill", "birth": "2002-01-10", "nation": "ENG", "height": 183, "foot": "R", "number": 23, "pos": "CB", "alt": ["RB"],

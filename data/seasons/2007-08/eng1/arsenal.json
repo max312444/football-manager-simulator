@@ -6,6 +6,7 @@
   "finance": { "balance": 40000000, "transferBudget": 30000000, "wageBudget": 2400000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 60432,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "jens-lehmann-1969", "name": "Jens Lehmann", "birth": "1969-11-10", "nation": "GER", "height": 190, "foot": "R", "number": 1, "pos": "GK",
@@ -80,7 +81,7 @@
     { "id": "emmanuel-eboue-1983", "name": "Emmanuel Eboué", "birth": "1983-06-04", "nation": "CIV", "height": 178, "foot": "R", "number": 27, "pos": "RB", "alt": ["RM"],
       "attrs": { "sho": 51, "pas": 66, "dri": 68, "tac": 75, "pos": 75, "aer": 63, "pac": 77, "sta": 79, "str": 65, "vis": 61, "com": 69, "ldr": 60 },
       "wage": 35000, "contract": "2011-06-30" },
-    { "id": "armand-traore-1989", "name": "Armand Traoré", "birth": "1989-10-08", "nation": "FRA", "height": 185, "foot": "L", "number": 30, "pos": "LB",
+    { "id": "armand-traore-1989", "name": "Armand Traoré", "birth": "1989-10-08", "nation": "SEN", "nation2": "FRA", "height": 185, "foot": "L", "number": 30, "pos": "LB",
       "attrs": { "sho": 36, "pas": 54, "dri": 55, "tac": 62, "pos": 64, "aer": 50, "pac": 67, "sta": 67, "str": 55, "vis": 49, "com": 52, "ldr": 39 },
       "wage": 8000, "contract": "2011-06-30" },
     { "id": "justin-hoyte-1984", "name": "Justin Hoyte", "birth": "1984-11-20", "nation": "ENG", "height": 180, "foot": "R", "number": 31, "pos": "RB",

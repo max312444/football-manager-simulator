@@ -6,6 +6,7 @@
   "finance": { "balance": 5000000, "transferBudget": 6000000, "wageBudget": 950000 },
   "facilities": { "training": 4, "youth": 4 },
   "stadiumCapacity": 31367,
+  "formation": "4-5-1",
   "estimated": true,
   "squad": [
     { "id": "paul-robinson-1979", "name": "Paul Robinson", "birth": "1979-10-15", "nation": "ENG", "height": 193, "foot": "L", "number": 1, "pos": "GK",
@@ -57,7 +58,7 @@
       "attrs": { "sho": 58, "pas": 74, "dri": 66, "tac": 52, "pos": 54, "aer": 44, "pac": 60, "sta": 71, "str": 57, "vis": 69, "com": 70, "ldr": 63 },
       "wage": 20000, "contract": "2011-06-30" },
     { "id": "elrio-van-heerden-1983", "name": "Elrio van Heerden", "birth": "1983-07-11", "nation": "RSA", "height": 172, "foot": "R", "number": 17, "pos": "RM",
-      "attrs": { "sho": 56, "pas": 61, "dri": 68, "tac": 47, "pos": 46, "aer": 43, "pac": 68, "sta": 70, "str": 56, "vis": 64, "com": 59, "ldr": 48 },
+      "attrs": { "sho": 56, "pas": 61, "dri": 68, "tac": 47, "pos": 46, "aer": 43, "pac": 68, "sta": 70, "str": 55, "vis": 64, "com": 59, "ldr": 48 },
       "wage": 9000, "contract": "2012-06-30", "verify": true },
     { "id": "el-hadji-diouf-1981", "name": "El Hadji Diouf", "birth": "1981-01-15", "nation": "SEN", "height": 180, "foot": "R", "number": 19, "pos": "RW", "alt": ["ST"],
       "attrs": { "sho": 65, "pas": 65, "dri": 76, "tac": 34, "pos": 43, "aer": 39, "pac": 78, "sta": 70, "str": 50, "vis": 66, "com": 69, "ldr": 58 },

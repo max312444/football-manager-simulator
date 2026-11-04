@@ -6,6 +6,7 @@
   "finance": { "balance": 20000000, "transferBudget": 20000000, "wageBudget": 1500000 },
   "facilities": { "training": 5, "youth": 4 },
   "stadiumCapacity": 32259,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "danny-ward-1993", "name": "Danny Ward", "birth": "1993-06-22", "nation": "WAL", "height": 191, "foot": "R", "number": 1, "pos": "GK",
@@ -14,7 +15,7 @@
     { "id": "mads-hermansen-2000", "name": "Mads Hermansen", "birth": "2000-07-11", "nation": "DEN", "height": 187, "foot": "R", "number": 30, "pos": "GK",
       "attrs": { "ref": 76, "han": 71, "one": 75, "pas": 69, "pos": 73, "aer": 71, "pac": 51, "sta": 65, "str": 69, "vis": 61, "com": 71, "ldr": 57 },
       "wage": 44000, "contract": "2029-06-30" },
-    { "id": "jakub-stolarczyk-2000", "name": "Jakub Stolarczyk", "birth": "2000-12-11", "nation": "POL", "height": 186, "foot": "R", "number": 41, "pos": "GK",
+    { "id": "jakub-stolarczyk-2000", "name": "Jakub Stolarczyk", "birth": "2000-12-19", "nation": "POL", "height": 186, "foot": "R", "number": 41, "pos": "GK",
       "attrs": { "ref": 60, "han": 59, "one": 59, "pas": 53, "pos": 59, "aer": 60, "pac": 35, "sta": 49, "str": 57, "vis": 47, "com": 57, "ldr": 52 },
       "wage": 5000, "contract": "2028-06-30", "verify": true },
     { "id": "james-justin-1998", "name": "James Justin", "birth": "1998-02-23", "nation": "ENG", "height": 183, "foot": "R", "number": 2, "pos": "RB", "alt": ["LB"],

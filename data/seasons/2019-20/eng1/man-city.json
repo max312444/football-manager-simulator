@@ -6,6 +6,7 @@
   "finance": { "balance": 250000000, "transferBudget": 150000000, "wageBudget": 5500000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 55017,
+  "formation": "4-3-3",
   "estimated": true,
   "squad": [
     { "id": "ederson-1993", "name": "Ederson", "birth": "1993-08-17", "nation": "BRA", "height": 188, "foot": "L", "number": 31, "pos": "GK",
@@ -42,6 +43,9 @@
     { "id": "oleksandr-zinchenko-1996", "name": "Oleksandr Zinchenko", "birth": "1996-12-15", "nation": "UKR", "height": 175, "foot": "L", "number": 11, "pos": "LB",
       "attrs": { "sho": 60, "pas": 80, "dri": 77, "tac": 69, "pos": 68, "aer": 55, "pac": 72, "sta": 79, "str": 65, "vis": 77, "com": 74, "ldr": 61 },
       "wage": 68000, "contract": "2024-06-30", "traits": ["playmaker"] },
+    { "id": "angelino-1997", "name": "Angeliño", "birth": "1997-01-04", "nation": "ESP", "height": 171, "foot": "L", "number": 12, "pos": "LB", "alt": ["LWB"],
+      "attrs": { "sho": 58, "pas": 72, "dri": 71, "tac": 66, "pos": 64, "aer": 50, "pac": 79, "sta": 78, "str": 58, "vis": 67, "com": 66, "ldr": 48 },
+      "wage": 50000, "contract": "2023-06-30" },
     { "id": "rodri-1996", "name": "Rodri", "birth": "1996-06-22", "nation": "ESP", "height": 191, "foot": "R", "number": 16, "pos": "DM",
       "attrs": { "sho": 72, "pas": 85, "dri": 73, "tac": 82, "pos": 86, "aer": 80, "pac": 63, "sta": 81, "str": 82, "vis": 82, "com": 86, "ldr": 77 },
       "wage": 170000, "contract": "2024-06-30", "traits": ["playmaker"] },

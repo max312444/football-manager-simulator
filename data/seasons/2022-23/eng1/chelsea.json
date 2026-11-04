@@ -6,6 +6,7 @@
   "finance": { "balance": 150000000, "transferBudget": 200000000, "wageBudget": 4800000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 40343,
+  "formation": "3-4-2-1",
   "estimated": true,
   "squad": [
     { "id": "kepa-arrizabalaga-1994", "name": "Kepa Arrizabalaga", "birth": "1994-10-03", "nation": "ESP", "height": 186, "foot": "R", "number": 1, "pos": "GK",
@@ -34,7 +35,7 @@
       "wage": 60000, "contract": "2024-06-30" },
     { "id": "marcus-bettinelli-1992", "name": "Marcus Bettinelli", "birth": "1992-05-24", "nation": "ENG", "height": 194, "foot": "R", "number": 13, "pos": "GK",
       "attrs": { "ref": 59, "han": 57, "one": 58, "pas": 51, "pos": 58, "aer": 59, "pac": 41, "sta": 48, "str": 54, "vis": 47, "com": 57, "ldr": 55 },
-      "wage": 40000, "contract": "2024-06-30", "verify": true },
+      "wage": 40000, "contract": "2024-06-30" },
     { "id": "trevoh-chalobah-1999", "name": "Trevoh Chalobah", "birth": "1999-07-05", "nation": "ENG", "height": 190, "foot": "R", "number": 14, "pos": "CB", "alt": ["RB"],
       "attrs": { "sho": 46, "pas": 68, "dri": 63, "tac": 76, "pos": 77, "aer": 79, "pac": 71, "sta": 73, "str": 78, "vis": 63, "com": 75, "ldr": 66 },
       "wage": 60000, "contract": "2026-06-30" },
@@ -73,13 +74,16 @@
       "wage": 175000, "contract": "2025-06-30" },
     { "id": "carney-chukwuemeka-2003", "name": "Carney Chukwuemeka", "birth": "2003-10-20", "nation": "ENG", "height": 185, "foot": "R", "number": 30, "pos": "CM", "alt": ["AM"],
       "attrs": { "sho": 59, "pas": 63, "dri": 61, "tac": 57, "pos": 55, "aer": 50, "pac": 57, "sta": 63, "str": 58, "vis": 62, "com": 59, "ldr": 52 },
-      "wage": 30000, "contract": "2028-06-30", "verify": true },
+      "wage": 30000, "contract": "2028-06-30" },
     { "id": "marc-cucurella-1998", "name": "Marc Cucurella", "birth": "1998-07-22", "nation": "ESP", "height": 172, "foot": "L", "number": 32, "pos": "LB", "alt": ["LWB"],
       "looks": { "hair": "long", "hairColor": "brown", "beard": "stubble" },
       "attrs": { "sho": 52, "pas": 70, "dri": 73, "tac": 71, "pos": 69, "aer": 63, "pac": 80, "sta": 86, "str": 67, "vis": 65, "com": 73, "ldr": 61 },
       "wage": 205000, "contract": "2028-06-30" },
     { "id": "wesley-fofana-2000", "name": "Wesley Fofana", "birth": "2000-12-17", "nation": "FRA", "height": 190, "foot": "R", "number": 33, "pos": "CB",
       "attrs": { "sho": 41, "pas": 72, "dri": 67, "tac": 82, "pos": 83, "aer": 81, "pac": 84, "sta": 78, "str": 81, "vis": 66, "com": 79, "ldr": 65 },
-      "wage": 120000, "contract": "2029-06-30", "traits": ["injury_prone"] }
+      "wage": 120000, "contract": "2029-06-30", "traits": ["injury_prone"] },
+    { "id": "denis-zakaria-1996", "name": "Denis Zakaria", "birth": "1996-11-20", "nation": "SUI", "height": 191, "foot": "R", "number": 20, "pos": "DM",
+      "attrs": { "sho": 59, "pas": 74, "dri": 70, "tac": 77, "pos": 75, "aer": 67, "pac": 70, "sta": 81, "str": 77, "vis": 73, "com": 76, "ldr": 72 },
+      "wage": 81000, "contract": "2025-06-30", "loan": "juventus", "verify": true }
   ]
 }

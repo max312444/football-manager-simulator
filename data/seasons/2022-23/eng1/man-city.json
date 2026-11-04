@@ -6,6 +6,7 @@
   "finance": { "balance": 200000000, "transferBudget": 150000000, "wageBudget": 4800000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 53400,
+  "formation": "4-3-3",
   "estimated": true,
   "squad": [
     { "id": "kyle-walker-1990", "name": "Kyle Walker", "birth": "1990-05-28", "nation": "ENG", "height": 183, "foot": "R", "number": 2, "pos": "RB", "alt": ["CB"],
@@ -56,7 +57,7 @@
       "wage": 300000, "contract": "2025-06-30", "traits": ["engine"] },
     { "id": "sergio-gomez-2000", "name": "Sergio Gómez", "birth": "2000-09-04", "nation": "ESP", "height": 171, "foot": "L", "number": 21, "pos": "LB",
       "attrs": { "sho": 56, "pas": 67, "dri": 68, "tac": 68, "pos": 64, "aer": 59, "pac": 69, "sta": 70, "str": 61, "vis": 64, "com": 65, "ldr": 54 },
-      "wage": 40000, "contract": "2026-06-30", "verify": true },
+      "wage": 40000, "contract": "2026-06-30" },
     { "id": "manuel-akanji-1995", "name": "Manuel Akanji", "birth": "1995-07-19", "nation": "SUI", "height": 188, "foot": "R", "number": 25, "pos": "CB", "alt": ["RB"],
       "attrs": { "sho": 41, "pas": 80, "dri": 64, "tac": 79, "pos": 80, "aer": 77, "pac": 80, "sta": 70, "str": 80, "vis": 58, "com": 78, "ldr": 69 },
       "wage": 120000, "contract": "2027-06-30" },
@@ -77,6 +78,6 @@
       "wage": 30000, "contract": "2026-06-30" },
     { "id": "rico-lewis-2004", "name": "Rico Lewis", "birth": "2004-11-21", "nation": "ENG", "height": 169, "foot": "R", "number": 82, "pos": "RB", "alt": ["CM"],
       "attrs": { "sho": 48, "pas": 72, "dri": 60, "tac": 58, "pos": 56, "aer": 49, "pac": 65, "sta": 65, "str": 52, "vis": 55, "com": 66, "ldr": 44 },
-      "wage": 10000, "contract": "2027-06-30", "verify": true }
+      "wage": 10000, "contract": "2027-06-30" }
   ]
 }

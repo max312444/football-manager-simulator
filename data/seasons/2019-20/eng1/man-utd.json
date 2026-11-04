@@ -6,6 +6,7 @@
   "finance": { "balance": 100000000, "transferBudget": 100000000, "wageBudget": 5500000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 74879,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "david-de-gea-1990", "name": "David de Gea", "birth": "1990-11-07", "nation": "ESP", "height": 192, "foot": "R", "number": 1, "pos": "GK",
@@ -45,12 +46,15 @@
     { "id": "luke-shaw-1995", "name": "Luke Shaw", "birth": "1995-07-12", "nation": "ENG", "height": 181, "foot": "L", "number": 23, "pos": "LB",
       "attrs": { "sho": 57, "pas": 76, "dri": 75, "tac": 75, "pos": 72, "aer": 61, "pac": 81, "sta": 79, "str": 74, "vis": 69, "com": 72, "ldr": 60 },
       "wage": 170000, "contract": "2023-06-30" },
-    { "id": "brandon-williams-2000", "name": "Brandon Williams", "birth": "2000-09-03", "nation": "ENG", "height": 172, "foot": "R", "number": 33, "pos": "LB",
+    { "id": "brandon-williams-2000", "name": "Brandon Williams", "birth": "2000-09-03", "nation": "ENG", "height": 172, "foot": "R", "number": 53, "pos": "LB",
       "attrs": { "sho": 46, "pas": 56, "dri": 55, "tac": 59, "pos": 56, "aer": 50, "pac": 66, "sta": 67, "str": 54, "vis": 54, "com": 57, "ldr": 52 },
       "wage": 9000, "contract": "2022-06-30" },
     { "id": "ashley-young-1985", "name": "Ashley Young", "birth": "1985-07-09", "nation": "ENG", "height": 175, "foot": "R", "number": 18, "pos": "LB",
       "attrs": { "sho": 62, "pas": 76, "dri": 71, "tac": 70, "pos": 69, "aer": 55, "pac": 68, "sta": 75, "str": 62, "vis": 70, "com": 72, "ldr": 77 },
       "wage": 136000, "contract": "2020-06-30" },
+    { "id": "timothy-fosu-mensah-1998", "name": "Timothy Fosu-Mensah", "birth": "1998-01-02", "nation": "NED", "height": 190, "foot": "R", "number": 24, "pos": "RB", "alt": ["CB"],
+      "attrs": { "sho": 42, "pas": 62, "dri": 64, "tac": 70, "pos": 64, "aer": 68, "pac": 74, "sta": 72, "str": 76, "vis": 54, "com": 60, "ldr": 48 },
+      "wage": 34000, "contract": "2020-06-30" },
     { "id": "paul-pogba-1993", "name": "Paul Pogba", "birth": "1993-03-15", "nation": "FRA", "height": 191, "foot": "R", "number": 6, "pos": "CM",
       "looks": { "hair": "short", "hairColor": "dyed", "beard": "none" },
       "attrs": { "sho": 84, "pas": 90, "dri": 88, "tac": 70, "pos": 76, "aer": 80, "pac": 74, "sta": 82, "str": 86, "vis": 90, "com": 84, "ldr": 73 },
@@ -85,8 +89,11 @@
     { "id": "mason-greenwood-2001", "name": "Mason Greenwood", "birth": "2001-10-01", "nation": "ENG", "height": 181, "foot": "B", "number": 26, "pos": "ST",
       "attrs": { "sho": 71, "pas": 62, "dri": 69, "tac": 46, "pos": 51, "aer": 60, "pac": 68, "sta": 66, "str": 69, "vis": 64, "com": 67, "ldr": 55 },
       "wage": 23000, "contract": "2023-06-30" },
-    { "id": "angel-gomes-2000", "name": "Angel Gomes", "birth": "2000-08-31", "nation": "ENG", "nation2": "POR", "height": 168, "foot": "R", "number": 47, "pos": "AM",
+    { "id": "angel-gomes-2000", "name": "Angel Gomes", "birth": "2000-08-31", "nation": "ENG", "nation2": "POR", "height": 168, "foot": "R", "number": 28, "pos": "AM",
       "attrs": { "sho": 62, "pas": 63, "dri": 65, "tac": 42, "pos": 47, "aer": 48, "pac": 55, "sta": 59, "str": 49, "vis": 65, "com": 61, "ldr": 48 },
-      "wage": 28000, "contract": "2020-06-30", "verify": true }
+      "wage": 28000, "contract": "2020-06-30" },
+    { "id": "tahith-chong-1999", "name": "Tahith Chong", "birth": "1999-12-04", "nation": "NED", "height": 185, "foot": "L", "number": 44, "pos": "RW", "alt": ["LW"],
+      "attrs": { "sho": 54, "pas": 60, "dri": 70, "tac": 36, "pos": 54, "aer": 42, "pac": 76, "sta": 64, "str": 52, "vis": 58, "com": 56, "ldr": 38 },
+      "wage": 15000, "contract": "2022-06-30" }
   ]
 }

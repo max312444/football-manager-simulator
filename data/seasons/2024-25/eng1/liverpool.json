@@ -6,6 +6,7 @@
   "finance": { "balance": 150000000, "transferBudget": 80000000, "wageBudget": 4500000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 61276,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "alisson-becker-1992", "name": "Alisson Becker", "birth": "1992-10-02", "nation": "BRA", "height": 193, "foot": "R", "number": 1, "pos": "GK",
@@ -33,7 +34,7 @@
     { "id": "andrew-robertson-1994", "name": "Andrew Robertson", "birth": "1994-03-11", "nation": "SCO", "height": 178, "foot": "L", "number": 26, "pos": "LB",
       "attrs": { "sho": 56, "pas": 83, "dri": 75, "tac": 76, "pos": 77, "aer": 66, "pac": 76, "sta": 84, "str": 72, "vis": 79, "com": 80, "ldr": 82 },
       "wage": 133000, "contract": "2026-06-30", "traits": ["leader"] },
-    { "id": "trent-alexander-arnold-1998", "name": "Trent Alexander-Arnold", "birth": "1998-10-07", "nation": "ENG", "height": 180, "foot": "R", "number": 66, "pos": "RB",
+    { "id": "trent-alexander-arnold-1998", "name": "Trent Alexander-Arnold", "birth": "1998-10-07", "nation": "ENG", "height": "180", "foot": "R", "number": 66, "pos": "RB",
       "attrs": { "sho": 78, "pas": 94, "dri": 82, "tac": 74, "pos": 70, "aer": 71, "pac": 78, "sta": 92, "str": 77, "vis": 94, "com": 83, "ldr": 75 },
       "wage": 210000, "contract": "2025-06-30", "traits": ["playmaker", "free_kick"] },
     { "id": "jarell-quansah-2003", "name": "Jarell Quansah", "birth": "2003-01-29", "nation": "ENG", "height": 190, "foot": "R", "number": 78, "pos": "CB",

@@ -6,6 +6,7 @@
   "finance": { "balance": 5000000, "transferBudget": 5000000, "wageBudget": 1150000 },
   "facilities": { "training": 3, "youth": 3 },
   "stadiumCapacity": 28723,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "jussi-jaaskelainen-1975", "name": "Jussi Jääskeläinen", "birth": "1975-04-19", "nation": "FIN", "height": 191, "foot": "R", "number": 22, "pos": "GK",
@@ -35,7 +36,7 @@
     { "id": "nigel-reo-coker-1984", "name": "Nigel Reo-Coker", "birth": "1984-05-14", "nation": "ENG", "height": 178, "foot": "R", "number": 8, "pos": "CM",
       "attrs": { "sho": 58, "pas": 66, "dri": 66, "tac": 70, "pos": 64, "aer": 58, "pac": 72, "sta": 82, "str": 74, "vis": 60, "com": 62, "ldr": 64 },
       "wage": 50000, "contract": "2013-06-30", "verify": true },
-    { "id": "tuncay-sanli-1982", "name": "Tuncay Şanlı", "birth": "1982-01-17", "nation": "TUR", "height": 175, "foot": "R", "number": 9, "pos": "ST", "alt": ["AM"],
+    { "id": "tuncay-sanli-1982", "name": "Tuncay Şanlı", "birth": "1982-01-16", "nation": "TUR", "height": 175, "foot": "R", "number": 9, "pos": "ST", "alt": ["AM"],
       "attrs": { "sho": 70, "pas": 66, "dri": 74, "tac": 36, "pos": 42, "aer": 56, "pac": 70, "sta": 70, "str": 66, "vis": 64, "com": 64, "ldr": 54 },
       "wage": 40000, "contract": "2013-06-30", "verify": true },
     { "id": "tyrone-mears-1983", "name": "Tyrone Mears", "birth": "1983-02-18", "nation": "ENG", "height": 180, "foot": "R", "number": 12, "pos": "RB",

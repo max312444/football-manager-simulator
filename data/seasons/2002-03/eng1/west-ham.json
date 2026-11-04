@@ -6,6 +6,7 @@
   "finance": { "balance": 5000000, "transferBudget": 5000000, "wageBudget": 850000 },
   "facilities": { "training": 3, "youth": 5 },
   "stadiumCapacity": 35647,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "david-james-1970", "name": "David James", "birth": "1970-08-01", "nation": "ENG", "height": 196, "foot": "R", "number": 1, "pos": "GK",
@@ -20,7 +21,7 @@
     { "id": "ragnvald-soma-1979", "name": "Ragnvald Soma", "birth": "1979-11-10", "nation": "NOR", "height": 184, "foot": "R", "number": 5, "pos": "CB",
       "attrs": { "sho": 36, "pas": 54, "dri": 50, "tac": 68, "pos": 64, "aer": 68, "pac": 63, "sta": 67, "str": 71, "vis": 48, "com": 60, "ldr": 52 },
       "wage": 10000, "contract": "2004-06-30", "verify": true },
-    { "id": "tomas-repka-1973", "name": "Tomáš Řepka", "birth": "1973-01-02", "nation": "CZE", "height": 184, "foot": "R", "number": 6, "pos": "CB", "alt": ["RB"],
+    { "id": "tomas-repka-1974", "name": "Tomáš Řepka", "birth": "1974-01-02", "nation": "CZE", "height": 184, "foot": "R", "number": 6, "pos": "CB", "alt": ["RB"],
       "attrs": { "sho": 38, "pas": 56, "dri": 52, "tac": 80, "pos": 73, "aer": 74, "pac": 70, "sta": 78, "str": 80, "vis": 51, "com": 65, "ldr": 69 },
       "wage": 28000, "contract": "2005-06-30" },
     { "id": "trevor-sinclair-1973", "name": "Trevor Sinclair", "birth": "1973-03-02", "nation": "ENG", "height": 178, "foot": "R", "number": 8, "pos": "RM", "alt": ["RW", "ST"],

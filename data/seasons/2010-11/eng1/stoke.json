@@ -6,6 +6,7 @@
   "finance": { "balance": 10000000, "transferBudget": 15000000, "wageBudget": 950000 },
   "facilities": { "training": 3, "youth": 2 },
   "stadiumCapacity": 27740,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "asmir-begovic-1987", "name": "Asmir Begović", "birth": "1987-06-20", "nation": "BIH", "height": 199, "foot": "R", "number": 1, "pos": "GK",
@@ -59,7 +60,7 @@
     { "id": "jonathan-walters-1983", "name": "Jonathan Walters", "birth": "1983-09-20", "nation": "IRL", "height": 183, "foot": "R", "number": 19, "pos": "ST", "alt": ["RW"],
       "attrs": { "sho": 68, "pas": 62, "dri": 64, "tac": 52, "pos": 52, "aer": 70, "pac": 67, "sta": 89, "str": 81, "vis": 58, "com": 66, "ldr": 66 },
       "wage": 23000, "contract": "2015-06-30", "traits": ["engine"] },
-    { "id": "tuncay-sanli-1982", "name": "Tuncay Şanlı", "birth": "1982-01-17", "nation": "TUR", "height": 175, "foot": "R", "number": 20, "pos": "ST", "alt": ["AM"],
+    { "id": "tuncay-sanli-1982", "name": "Tuncay Şanlı", "birth": "1982-01-16", "nation": "TUR", "height": 175, "foot": "R", "number": 20, "pos": "ST", "alt": ["AM"],
       "attrs": { "sho": 73, "pas": 64, "dri": 72, "tac": 34, "pos": 41, "aer": 61, "pac": 71, "sta": 68, "str": 67, "vis": 63, "com": 67, "ldr": 57 },
       "wage": 40000, "contract": "2012-06-30", "verify": true },
     { "id": "rory-delap-1976", "name": "Rory Delap", "birth": "1976-07-06", "nation": "IRL", "height": 183, "foot": "R", "number": 24, "pos": "RM",

@@ -6,6 +6,7 @@
   "finance": { "balance": 4000000, "transferBudget": 8000000, "wageBudget": 1250000 },
   "facilities": { "training": 3, "youth": 4 },
   "stadiumCapacity": 40157,
+  "formation": "4-4-1-1",
   "estimated": true,
   "squad": [
     { "id": "tim-howard-1979", "name": "Tim Howard", "birth": "1979-03-06", "nation": "USA", "height": 191, "foot": "R", "number": 24, "pos": "GK",
@@ -37,8 +38,8 @@
       "attrs": { "sho": 78, "pas": 86, "dri": 84, "tac": 53, "pos": 60, "aer": 53, "pac": 75, "sta": 78, "str": 63, "vis": 85, "com": 84, "ldr": 75 },
       "wage": 63000, "contract": "2011-06-30", "traits": ["injury_prone"] },
     { "id": "diniyar-bilyaletdinov-1985", "name": "Diniyar Bilyaletdinov", "birth": "1985-02-27", "nation": "RUS", "height": 186, "foot": "L", "number": 11, "pos": "LM", "alt": ["AM"],
-      "attrs": { "sho": 67, "pas": 72, "dri": 75, "tac": 52, "pos": 57, "aer": 51, "pac": 76, "sta": 77, "str": 63, "vis": 71, "com": 68, "ldr": 61 },
-      "wage": 24000, "contract": "2012-06-30", "traits": ["long_shot"], "verify": true },
+      "attrs": { "sho": 67, "pas": 72, "dri": 75, "tac": 52, "pos": 57, "aer": 51, "pac": 76, "sta": 77, "str": 63, "vis": 72, "com": 68, "ldr": 62 },
+      "wage": 25000, "contract": "2012-06-30", "traits": ["long_shot"], "verify": true },
     { "id": "james-vaughan-1988", "name": "James Vaughan", "birth": "1988-07-14", "nation": "ENG", "height": 180, "foot": "R", "number": 14, "pos": "ST",
       "attrs": { "sho": 69, "pas": 52, "dri": 62, "tac": 24, "pos": 33, "aer": 62, "pac": 68, "sta": 61, "str": 65, "vis": 53, "com": 59, "ldr": 45 },
       "wage": 15000, "contract": "2012-06-30", "traits": ["injury_prone"] },
@@ -76,11 +77,11 @@
     { "id": "victor-anichebe-1988", "name": "Victor Anichebe", "birth": "1988-04-23", "nation": "NGA", "height": 191, "foot": "R", "number": 28, "pos": "ST",
       "attrs": { "sho": 68, "pas": 56, "dri": 63, "tac": 25, "pos": 35, "aer": 63, "pac": 66, "sta": 61, "str": 81, "vis": 55, "com": 60, "ldr": 45 },
       "wage": 20000, "contract": "2012-06-30" },
-    { "id": "dan-gosling-1990", "name": "Dan Gosling", "birth": "1990-02-02", "nation": "ENG", "height": 177, "foot": "R", "number": 30, "pos": "CM", "alt": ["RM"],
+    { "id": "dan-gosling-1990", "name": "Dan Gosling", "birth": "1990-02-01", "nation": "ENG", "height": 177, "foot": "R", "number": 30, "pos": "CM", "alt": ["RM"],
       "attrs": { "sho": 54, "pas": 63, "dri": 59, "tac": 50, "pos": 49, "aer": 43, "pac": 56, "sta": 64, "str": 51, "vis": 60, "com": 55, "ldr": 41 },
       "wage": 10000, "contract": "2010-06-30" },
     { "id": "jose-baxter-1992", "name": "Jose Baxter", "birth": "1992-02-07", "nation": "ENG", "height": 178, "foot": "R", "number": 32, "pos": "AM", "alt": ["ST"],
-      "attrs": { "sho": 53, "pas": 56, "dri": 62, "tac": 27, "pos": 32, "aer": 34, "pac": 56, "sta": 56, "str": 42, "vis": 60, "com": 57, "ldr": 42 },
+      "attrs": { "sho": 53, "pas": 56, "dri": 62, "tac": 26, "pos": 32, "aer": 34, "pac": 56, "sta": 56, "str": 42, "vis": 60, "com": 57, "ldr": 42 },
       "wage": 4000, "contract": "2012-06-30", "verify": true }
   ]
 }

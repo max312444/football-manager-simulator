@@ -6,6 +6,7 @@
   "finance": { "balance": 60000000, "transferBudget": 40000000, "wageBudget": 3600000 },
   "facilities": { "training": 5, "youth": 4 },
   "stadiumCapacity": 41841,
+  "formation": "4-1-2-1-2",
   "estimated": true,
   "squad": [
     { "id": "petr-cech-1982", "name": "Petr Čech", "birth": "1982-05-20", "nation": "CZE", "height": 196, "foot": "L", "number": 1, "pos": "GK",
@@ -78,13 +79,13 @@
       "attrs": { "sho": 84, "pas": 73, "dri": 79, "tac": 38, "pos": 47, "aer": 72, "pac": 82, "sta": 73, "str": 77, "vis": 73, "com": 84, "ldr": 72 },
       "wage": 123000, "contract": "2012-06-30" },
     { "id": "gael-kakuta-1991", "name": "Gaël Kakuta", "birth": "1991-06-21", "nation": "FRA", "height": 173, "foot": "L", "number": 44, "pos": "LW", "alt": ["AM"],
-      "attrs": { "sho": 60, "pas": 58, "dri": 69, "tac": 32, "pos": 37, "aer": 43, "pac": 73, "sta": 63, "str": 52, "vis": 61, "com": 59, "ldr": 41 },
-      "wage": 10000, "contract": "2012-06-30" },
+      "attrs": { "sho": 60, "pas": 58, "dri": 69, "tac": 32, "pos": 38, "aer": 43, "pac": 72, "sta": 63, "str": 52, "vis": 61, "com": 60, "ldr": 42 },
+      "wage": 11000, "contract": "2012-06-30" },
     { "id": "michael-mancienne-1988", "name": "Michael Mancienne", "birth": "1988-01-08", "nation": "ENG", "height": 183, "foot": "R", "number": 32, "pos": "CB", "alt": ["RB", "DM"],
-      "attrs": { "sho": 39, "pas": 54, "dri": 46, "tac": 68, "pos": 70, "aer": 70, "pac": 58, "sta": 63, "str": 75, "vis": 49, "com": 66, "ldr": 62 },
+      "attrs": { "sho": 39, "pas": 54, "dri": 46, "tac": 68, "pos": 70, "aer": 70, "pac": 58, "sta": 62, "str": 75, "vis": 49, "com": 66, "ldr": 62 },
       "wage": 19000, "contract": "2012-06-30", "verify": true },
     { "id": "jeffrey-bruma-1991", "name": "Jeffrey Bruma", "birth": "1991-11-13", "nation": "NED", "height": 188, "foot": "R", "number": 37, "pos": "CB",
-      "attrs": { "sho": 31, "pas": 44, "dri": 41, "tac": 60, "pos": 63, "aer": 67, "pac": 47, "sta": 58, "str": 65, "vis": 37, "com": 58, "ldr": 53 },
+      "attrs": { "sho": 31, "pas": 44, "dri": 41, "tac": 60, "pos": 63, "aer": 67, "pac": 47, "sta": 58, "str": 65, "vis": 37, "com": 58, "ldr": 54 },
       "wage": 9000, "contract": "2012-06-30", "verify": true }
   ]
 }

@@ -6,6 +6,7 @@
   "finance": { "balance": 60000000, "transferBudget": 80000000, "wageBudget": 3700000 },
   "facilities": { "training": 5, "youth": 4 },
   "stadiumCapacity": 41837,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "petr-cech-1982", "name": "Petr Čech", "birth": "1982-05-20", "nation": "CZE", "height": 196, "foot": "R", "number": 1, "pos": "GK",
@@ -16,7 +17,7 @@
       "wage": 25000, "contract": "2013-06-30" },
     { "id": "hilario-1975", "name": "Hilário", "birth": "1975-10-21", "nation": "POR", "height": 188, "foot": "R", "number": 40, "pos": "GK",
       "attrs": { "ref": 65, "han": 63, "one": 63, "pas": 55, "pos": 64, "aer": 64, "pac": 42, "sta": 52, "str": 64, "vis": 48, "com": 62, "ldr": 55 },
-      "wage": 20000, "contract": "2013-06-30", "verify": true },
+      "wage": 20000, "contract": "2013-06-30" },
     { "id": "branislav-ivanovic-1984", "name": "Branislav Ivanović", "birth": "1984-02-22", "nation": "SRB", "height": 188, "foot": "R", "number": 2, "pos": "RB", "alt": ["CB"],
       "attrs": { "sho": 58, "pas": 71, "dri": 65, "tac": 84, "pos": 80, "aer": 84, "pac": 75, "sta": 84, "str": 86, "vis": 61, "com": 77, "ldr": 77 },
       "wage": 90000, "contract": "2016-06-30" },
@@ -29,7 +30,7 @@
       "wage": 90000, "contract": "2017-06-30" },
     { "id": "oriol-romeu-1991", "name": "Oriol Romeu", "birth": "1991-09-24", "nation": "ESP", "height": 183, "foot": "R", "number": 6, "pos": "DM",
       "attrs": { "sho": 52, "pas": 72, "dri": 64, "tac": 73, "pos": 71, "aer": 65, "pac": 60, "sta": 76, "str": 72, "vis": 65, "com": 67, "ldr": 54 },
-      "wage": 30000, "contract": "2016-06-30", "verify": true },
+      "wage": 30000, "contract": "2016-06-30" },
     { "id": "ramires-1987", "name": "Ramires", "birth": "1987-03-24", "nation": "BRA", "height": 180, "foot": "R", "number": 7, "pos": "CM",
       "attrs": { "sho": 66, "pas": 74, "dri": 76, "tac": 75, "pos": 70, "aer": 55, "pac": 82, "sta": 92, "str": 66, "vis": 70, "com": 71, "ldr": 58 },
       "wage": 90000, "contract": "2017-06-30", "traits": ["engine"] },
@@ -59,7 +60,7 @@
       "wage": 60000, "contract": "2013-06-30" },
     { "id": "marko-marin-1989", "name": "Marko Marin", "birth": "1989-03-13", "nation": "GER", "height": 170, "foot": "R", "number": 21, "pos": "LW", "alt": ["AM"],
       "attrs": { "sho": 66, "pas": 74, "dri": 82, "tac": 32, "pos": 42, "aer": 32, "pac": 82, "sta": 70, "str": 50, "vis": 74, "com": 66, "ldr": 44 },
-      "wage": 60000, "contract": "2016-06-30", "verify": true },
+      "wage": 60000, "contract": "2016-06-30" },
     { "id": "daniel-sturridge-1989", "name": "Daniel Sturridge", "birth": "1989-09-01", "nation": "ENG", "height": 188, "foot": "L", "number": 23, "pos": "ST", "alt": ["RW"],
       "attrs": { "sho": 79, "pas": 67, "dri": 81, "tac": 35, "pos": 42, "aer": 57, "pac": 85, "sta": 73, "str": 68, "vis": 66, "com": 71, "ldr": 51 },
       "wage": 80000, "contract": "2015-06-30" },
@@ -74,6 +75,6 @@
       "wage": 60000, "contract": "2017-06-30" },
     { "id": "ryan-bertrand-1989", "name": "Ryan Bertrand", "birth": "1989-08-05", "nation": "ENG", "height": 179, "foot": "L", "number": 34, "pos": "LB",
       "attrs": { "sho": 48, "pas": 67, "dri": 68, "tac": 71, "pos": 67, "aer": 61, "pac": 76, "sta": 78, "str": 68, "vis": 59, "com": 64, "ldr": 52 },
-      "wage": 30000, "contract": "2017-06-30", "verify": true }
+      "wage": 30000, "contract": "2017-06-30" }
   ]
 }

@@ -6,6 +6,7 @@
   "finance": { "balance": 36000000, "transferBudget": 20000000, "wageBudget": 1650000 },
   "facilities": { "training": 5, "youth": 4 },
   "stadiumCapacity": 38419,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "david-seaman-1963", "name": "David Seaman", "birth": "1963-09-19", "nation": "ENG", "height": 193, "foot": "R", "number": 1, "pos": "GK",
@@ -58,7 +59,7 @@
     { "id": "edu-1978", "name": "Edu", "fullName": "Eduardo César Daude Gaspar", "birth": "1978-05-15", "nation": "BRA", "height": 186, "foot": "L", "number": 17, "pos": "CM", "alt": ["DM"],
       "attrs": { "sho": 71, "pas": 79, "dri": 75, "tac": 73, "pos": 73, "aer": 66, "pac": 66, "sta": 78, "str": 72, "vis": 76, "com": 74, "ldr": 59 },
       "wage": 36000, "contract": "2005-06-30" },
-    { "id": "pascal-cygan-1974", "name": "Pascal Cygan", "birth": "1974-04-19", "nation": "FRA", "height": 194, "foot": "L", "number": 18, "pos": "CB",
+    { "id": "pascal-cygan-1974", "name": "Pascal Cygan", "birth": "1974-04-29", "nation": "FRA", "height": 194, "foot": "L", "number": 18, "pos": "CB",
       "looks": { "hair": "bald", "beard": "none" },
       "attrs": { "sho": 42, "pas": 62, "dri": 50, "tac": 74, "pos": 71, "aer": 80, "pac": 58, "sta": 70, "str": 80, "vis": 51, "com": 65, "ldr": 59 },
       "wage": 32000, "contract": "2006-06-30" },

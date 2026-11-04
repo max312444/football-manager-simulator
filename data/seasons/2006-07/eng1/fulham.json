@@ -6,6 +6,7 @@
   "finance": { "balance": 5000000, "transferBudget": 8000000, "wageBudget": 850000 },
   "facilities": { "training": 3, "youth": 3 },
   "stadiumCapacity": 24600,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "antti-niemi-1972", "name": "Antti Niemi", "birth": "1972-05-31", "nation": "FIN", "height": 185, "foot": "R", "number": 1, "pos": "GK",
@@ -53,7 +54,7 @@
     { "id": "tomasz-radzinski-1973", "name": "Tomasz Radzinski", "birth": "1973-12-14", "nation": "CAN", "nation2": "POL", "height": 172, "foot": "R", "number": 16, "pos": "ST", "alt": ["LW"],
       "attrs": { "sho": 71, "pas": 63, "dri": 73, "tac": 39, "pos": 52, "aer": 57, "pac": 78, "sta": 71, "str": 62, "vis": 61, "com": 67, "ldr": 51 },
       "wage": 30000, "contract": "2007-06-30" },
-    { "id": "liam-rosenior-1984", "name": "Liam Rosenior", "birth": "1984-07-15", "nation": "ENG", "height": 175, "foot": "R", "number": 17, "pos": "RB", "alt": ["LB"],
+    { "id": "liam-rosenior-1984", "name": "Liam Rosenior", "birth": "1984-07-09", "nation": "ENG", "height": 175, "foot": "R", "number": 17, "pos": "RB", "alt": ["LB"],
       "attrs": { "sho": 44, "pas": 62, "dri": 64, "tac": 68, "pos": 64, "aer": 60, "pac": 74, "sta": 76, "str": 65, "vis": 51, "com": 59, "ldr": 46 },
       "wage": 12000, "contract": "2009-06-30" },
     { "id": "brian-mcbride-1972", "name": "Brian McBride", "birth": "1972-06-19", "nation": "USA", "height": 185, "foot": "R", "number": 20, "pos": "ST",

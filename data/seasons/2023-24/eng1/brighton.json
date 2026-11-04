@@ -6,6 +6,7 @@
   "finance": { "balance": 80000000, "transferBudget": 40000000, "wageBudget": 1900000 },
   "facilities": { "training": 5, "youth": 4 },
   "stadiumCapacity": 31876,
+  "formation": "4-2-3-1",
   "estimated": true,
   "squad": [
     { "id": "bart-verbruggen-2002", "name": "Bart Verbruggen", "birth": "2002-08-18", "nation": "NED", "height": 193, "foot": "R", "number": 1, "pos": "GK",
@@ -16,7 +17,7 @@
       "wage": 25000, "contract": "2026-06-30" },
     { "id": "tom-mcgill-2000", "name": "Tom McGill", "birth": "2000-03-25", "nation": "CAN", "height": 183, "foot": "R", "number": 38, "pos": "GK",
       "attrs": { "ref": 60, "han": 56, "one": 58, "pas": 53, "pos": 58, "aer": 56, "pac": 35, "sta": 47, "str": 54, "vis": 44, "com": 56, "ldr": 51 },
-      "wage": 5000, "contract": "2026-06-30", "verify": true },
+      "wage": 5000, "contract": "2026-06-30" },
     { "id": "tariq-lamptey-2000", "name": "Tariq Lamptey", "birth": "2000-09-30", "nation": "GHA", "nation2": "ENG", "height": 163, "foot": "R", "number": 2, "pos": "RB",
       "attrs": { "sho": 58, "pas": 69, "dri": 82, "tac": 73, "pos": 69, "aer": 64, "pac": 93, "sta": 77, "str": 58, "vis": 67, "com": 69, "ldr": 60 },
       "wage": 45000, "contract": "2025-06-30" },

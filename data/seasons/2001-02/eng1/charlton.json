@@ -6,6 +6,7 @@
   "finance": { "balance": 6000000, "transferBudget": 6000000, "wageBudget": 520000 },
   "facilities": { "training": 3, "youth": 4 },
   "stadiumCapacity": 26875,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "dean-kiely-1970", "name": "Dean Kiely", "birth": "1970-10-10", "nation": "IRL", "height": 185, "foot": "R", "number": 1, "pos": "GK",
@@ -26,9 +27,6 @@
     { "id": "andy-todd-1974", "name": "Andy Todd", "birth": "1974-09-21", "nation": "ENG", "height": 178, "foot": "R", "number": 6, "pos": "CB", "alt": ["DM"],
       "attrs": { "sho": 42, "pas": 56, "dri": 50, "tac": 73, "pos": 67, "aer": 72, "pac": 60, "sta": 71, "str": 77, "vis": 44, "com": 61, "ldr": 59 },
       "wage": 16000, "contract": "2004-06-30", "verify": true },
-    { "id": "shaun-newton-1975", "name": "Shaun Newton", "birth": "1975-08-20", "nation": "ENG", "height": 175, "foot": "R", "number": 7, "pos": "RM",
-      "attrs": { "sho": 53, "pas": 65, "dri": 71, "tac": 53, "pos": 57, "aer": 47, "pac": 75, "sta": 77, "str": 59, "vis": 59, "com": 63, "ldr": 49 },
-      "wage": 12000, "contract": "2003-06-30", "verify": true },
     { "id": "mark-kinsella-1972", "name": "Mark Kinsella", "birth": "1972-08-12", "nation": "IRL", "height": 175, "foot": "R", "number": 8, "pos": "CM",
       "attrs": { "sho": 68, "pas": 74, "dri": 66, "tac": 68, "pos": 69, "aer": 56, "pac": 56, "sta": 76, "str": 66, "vis": 73, "com": 73, "ldr": 73 },
       "wage": 20000, "contract": "2003-06-30", "traits": ["leader", "long_shot"] },

@@ -6,6 +6,7 @@
   "finance": { "balance": 25000000, "transferBudget": 25000000, "wageBudget": 1500000 },
   "facilities": { "training": 5, "youth": 5 },
   "stadiumCapacity": 45362,
+  "formation": "4-4-2",
   "estimated": true,
   "squad": [
     { "id": "jerzy-dudek-1973", "name": "Jerzy Dudek", "birth": "1973-03-23", "nation": "POL", "height": 187, "foot": "R", "number": 1, "pos": "GK",
@@ -39,9 +40,6 @@
     { "id": "michael-owen-1979", "name": "Michael Owen", "birth": "1979-12-14", "nation": "ENG", "height": 173, "foot": "R", "number": 10, "pos": "ST",
       "attrs": { "sho": 86, "pas": 67, "dri": 81, "tac": 34, "pos": 46, "aer": 62, "pac": 91, "sta": 76, "str": 64, "vis": 71, "com": 81, "ldr": 63 },
       "wage": 96000, "contract": "2005-06-30", "traits": ["speedster", "big_game", "injury_prone"] },
-    { "id": "jamie-redknapp-1973", "name": "Jamie Redknapp", "birth": "1973-06-25", "nation": "ENG", "height": 183, "foot": "R", "number": 11, "pos": "CM",
-      "attrs": { "sho": 72, "pas": 82, "dri": 70, "tac": 66, "pos": 69, "aer": 58, "pac": 62, "sta": 70, "str": 66, "vis": 81, "com": 77, "ldr": 77 },
-      "wage": 48000, "contract": "2003-06-30", "traits": ["injury_prone", "long_shot"] },
     { "id": "salif-diao-1977", "name": "Salif Diao", "birth": "1977-02-10", "nation": "SEN", "height": 185, "foot": "R", "number": 12, "pos": "DM",
       "attrs": { "sho": 46, "pas": 58, "dri": 56, "tac": 68, "pos": 64, "aer": 62, "pac": 64, "sta": 76, "str": 72, "vis": 50, "com": 56, "ldr": 46 },
       "wage": 32000, "contract": "2007-06-30", "verify": true },

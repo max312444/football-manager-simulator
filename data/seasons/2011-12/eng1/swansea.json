@@ -6,6 +6,7 @@
   "finance": { "balance": 8000000, "transferBudget": 8000000, "wageBudget": 700000 },
   "facilities": { "training": 2, "youth": 3 },
   "stadiumCapacity": 20532,
+  "formation": "4-3-3",
   "estimated": true,
   "squad": [
     { "id": "michel-vorm-1983", "name": "Michel Vorm", "birth": "1983-10-20", "nation": "NED", "height": 183, "foot": "R", "number": 1, "pos": "GK",
@@ -59,7 +60,7 @@
     { "id": "andrea-orlandi-1984", "name": "Andrea Orlandi", "birth": "1984-08-03", "nation": "ESP", "height": 180, "foot": "L", "number": 20, "pos": "CM", "alt": ["AM"],
       "attrs": { "sho": 64, "pas": 72, "dri": 70, "tac": 50, "pos": 52, "aer": 48, "pac": 60, "sta": 66, "str": 58, "vis": 70, "com": 64, "ldr": 48 },
       "wage": 15000, "contract": "2012-06-30", "verify": true },
-    { "id": "angel-rangel-1982", "name": "Àngel Rangel", "birth": "1982-10-28", "nation": "ESP", "height": 180, "foot": "R", "number": 22, "pos": "RB",
+    { "id": "angel-rangel-1982", "name": "Àngel Rangel", "birth": "1982-11-28", "nation": "ESP", "height": 180, "foot": "R", "number": 22, "pos": "RB",
       "attrs": { "sho": 48, "pas": 70, "dri": 66, "tac": 72, "pos": 70, "aer": 62, "pac": 70, "sta": 80, "str": 70, "vis": 60, "com": 70, "ldr": 64 },
       "wage": 20000, "contract": "2013-06-30" },
     { "id": "joe-allen-1990", "name": "Joe Allen", "birth": "1990-03-14", "nation": "WAL", "height": 168, "foot": "R", "number": 24, "pos": "CM",
