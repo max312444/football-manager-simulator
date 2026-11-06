@@ -100,4 +100,40 @@ async function resolveTitles(titles, opts) {
   return out;
 }
 
-module.exports = { squadAt, firstTeamPlayers, resolveTitles };
+// 문서 본문의 일반 문서 링크 목록 (시즌 문서에서 참가 구단 찾기용)
+async function pageLinks(title, opts) {
+  const j = await getJson('wikipedia', `${API}&action=parse&prop=links&redirects=1&page=${encodeURIComponent(title)}`, opts);
+  return (j.parse?.links || []).filter(l => l.ns === 0 && l.exists).map(l => l.title);
+}
+
+// 시즌 문서의 리그 순위표에 있는 구단 문서 제목만 뽑는다
+//  - {{#invoke:Sports table|...|team1=RMA|...|name_RMA=[[Real Madrid CF|Real Madrid]]}}
+//  - 옛 형식 {{Fb cl team |p=1 |t=[[Real Madrid C.F.|Real Madrid]] ...}}
+function leagueTableTeams(wikitext) {
+  const out = [];
+  for (const body of findTemplates(wikitext, ['#invoke:\\s*[Ss]ports table'])) {
+    const f = {};
+    splitParams(body).forEach(p => { const k = p.indexOf('='); if (k > 0) f[p.slice(0, k).trim()] = p.slice(k + 1).trim(); });
+    const codes = Object.keys(f).filter(k => /^team\d+$/.test(k)).sort((a, b) => +a.slice(4) - +b.slice(4)).map(k => f[k]);
+    const titles = codes.map(c => linkTitle(f[`name_${c}`] || '')).filter(Boolean);
+    if (titles.length >= 16) { out.push(titles); }
+  }
+  if (!out.length) {
+    const titles = findTemplates(wikitext, ['[Ff]b cl team'])
+      .map(b => { const m = splitParams(b).find(p => /^\s*t\s*=/.test(p)); return m ? linkTitle(m) : null; })
+      .filter(Boolean);
+    if (titles.length >= 16) out.push(titles);
+  }
+  // 문서에 표가 여러 개(전반기·후반기 등)면 첫 번째 정규 리그 표
+  return out[0] || [];
+}
+
+async function seasonTableTeams(title, opts) {
+  const url = `${API}&action=query&prop=revisions&rvprop=ids|content&rvslots=main&rvlimit=1&redirects=1&titles=${encodeURIComponent(title)}`;
+  const j = await getJson('wikipedia', url, opts);
+  const rev = j.query?.pages?.[0]?.revisions?.[0];
+  if (!rev) return { title, revid: null, teams: [] };
+  return { title, revid: rev.revid, teams: leagueTableTeams(rev.slots.main.content) };
+}
+
+module.exports = { squadAt, firstTeamPlayers, resolveTitles, pageLinks, seasonTableTeams, leagueTableTeams };

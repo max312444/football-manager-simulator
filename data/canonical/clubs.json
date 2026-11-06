@@ -1,4 +1,22 @@
 {
+  "alaves": {
+    "label": "Deportivo Alavés",
+    "method": "league-participant:suffix",
+    "status": "valid",
+    "wikidata": "Q223620"
+  },
+  "albacete": {
+    "label": "Albacete Balompié",
+    "method": "league-participant:prefix",
+    "status": "valid",
+    "wikidata": "Q576285"
+  },
+  "almeria": {
+    "label": "UD Almería",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10407"
+  },
   "arsenal": {
     "label": "Arsenal F.C.",
     "method": "search+country",
@@ -10,6 +28,24 @@
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q18711"
+  },
+  "athletic-bilbao": {
+    "label": "Athletic Bilbao",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8687"
+  },
+  "atletico-madrid": {
+    "label": "Atlético Madrid",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8701"
+  },
+  "barcelona": {
+    "label": "FC Barcelona",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q7156"
   },
   "birmingham": {
     "label": "Birmingham City F.C.",
@@ -65,11 +101,23 @@
     "status": "valid",
     "wikidata": "Q19458"
   },
+  "cadiz": {
+    "label": "Cádiz CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q460448"
+  },
   "cardiff": {
     "label": "Cardiff City F.C.",
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q18662"
+  },
+  "celta-vigo": {
+    "label": "RC Celta de Vigo",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8749"
   },
   "charlton": {
     "label": "Charlton Athletic F.C.",
@@ -83,6 +131,12 @@
     "status": "valid",
     "wikidata": "Q9616"
   },
+  "cordoba": {
+    "label": "Córdoba CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10499"
+  },
   "coventry": {
     "label": "Coventry City F.C.",
     "method": "search+country",
@@ -95,11 +149,35 @@
     "status": "valid",
     "wikidata": "Q19467"
   },
+  "deportivo": {
+    "label": "Deportivo de A Coruña",
+    "method": "league-participant:prefix",
+    "status": "valid",
+    "wikidata": "Q8760"
+  },
   "derby": {
     "label": "Derby County F.C.",
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q19470"
+  },
+  "eibar": {
+    "label": "SD Eibar",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q770740"
+  },
+  "elche": {
+    "label": "Elche CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10512"
+  },
+  "espanyol": {
+    "label": "RCD Espanyol",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8780"
   },
   "everton": {
     "label": "Everton F.C.",
@@ -113,11 +191,47 @@
     "status": "valid",
     "wikidata": "Q18708"
   },
+  "getafe": {
+    "label": "Getafe CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8806"
+  },
+  "gimnastic": {
+    "label": "Gimnàstic de Tarragona",
+    "method": "league-participant:prefix",
+    "status": "valid",
+    "wikidata": "Q257984"
+  },
+  "girona": {
+    "label": "Girona FC",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q11945"
+  },
+  "granada": {
+    "label": "Granada CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8812"
+  },
+  "hercules": {
+    "label": "Hércules CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q11963"
+  },
   "huddersfield": {
     "label": "Huddersfield Town A.F.C.",
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q19473"
+  },
+  "huesca": {
+    "label": "SD Huesca",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q11971"
   },
   "hull": {
     "label": "Hull City A.F.C.",
@@ -131,17 +245,35 @@
     "status": "valid",
     "wikidata": "Q9653"
   },
+  "las-palmas": {
+    "label": "UD Las Palmas",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q11979"
+  },
   "leeds": {
     "label": "Leeds United F.C.",
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q1128631"
   },
+  "leganes": {
+    "label": "CD Leganés",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q856119"
+  },
   "leicester": {
     "label": "Leicester City F.C.",
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q19481"
+  },
+  "levante": {
+    "label": "Levante UD",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8823"
   },
   "liverpool": {
     "label": "Liverpool F.C.",
@@ -154,6 +286,18 @@
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q18520"
+  },
+  "malaga": {
+    "label": "Málaga CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8857"
+  },
+  "mallorca": {
+    "label": "RCD Mallorca",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8835"
   },
   "man-city": {
     "label": "Manchester City F.C.",
@@ -191,6 +335,18 @@
     "status": "valid",
     "wikidata": "Q19490"
   },
+  "numancia": {
+    "label": "CD Numancia",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q12158"
+  },
+  "osasuna": {
+    "label": "CA Osasuna",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10286"
+  },
   "portsmouth": {
     "label": "Portsmouth F.C.",
     "method": "search+country",
@@ -203,11 +359,77 @@
     "status": "valid",
     "wikidata": "Q18723"
   },
+  "racing-santander": {
+    "label": "Racing de Santander",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q12236"
+  },
+  "rayo-vallecano": {
+    "label": "Rayo Vallecano",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10300"
+  },
   "reading": {
     "label": "Reading F.C.",
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q18729"
+  },
+  "real-betis": {
+    "label": "Real Betis",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8723"
+  },
+  "real-madrid": {
+    "label": "Real Madrid CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q8682"
+  },
+  "real-murcia": {
+    "label": "Real Murcia CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q12230"
+  },
+  "real-oviedo": {
+    "label": "Real Oviedo",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q271574"
+  },
+  "real-sociedad": {
+    "label": "Real Sociedad",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10315"
+  },
+  "real-valladolid": {
+    "label": "Real Valladolid",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10319"
+  },
+  "real-zaragoza": {
+    "label": "Real Zaragoza",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10308"
+  },
+  "recreativo": {
+    "label": "Recreativo de Huelva",
+    "method": "league-participant:prefix",
+    "status": "valid",
+    "wikidata": "Q12249"
+  },
+  "sevilla": {
+    "label": "Sevilla FC",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10329"
   },
   "sheffield-utd": {
     "label": "Sheffield United F.C.",
@@ -220,6 +442,12 @@
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q18732"
+  },
+  "sporting-gijon": {
+    "label": "Sporting de Gijón",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q12278"
   },
   "stoke": {
     "label": "Stoke City F.C.",
@@ -239,11 +467,29 @@
     "status": "valid",
     "wikidata": "Q18659"
   },
+  "tenerife": {
+    "label": "CD Tenerife",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q216661"
+  },
   "tottenham": {
     "label": "Tottenham Hotspur F.C.",
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q18741"
+  },
+  "valencia": {
+    "label": "Valencia CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q10333"
+  },
+  "villarreal": {
+    "label": "Villarreal CF",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q12297"
   },
   "watford": {
     "label": "Watford F.C.",
@@ -274,5 +520,11 @@
     "method": "search+country",
     "status": "valid",
     "wikidata": "Q19500"
+  },
+  "xerez": {
+    "label": "Xerez CD",
+    "method": "league-participant:exact",
+    "status": "valid",
+    "wikidata": "Q12308"
   }
 }

@@ -71,6 +71,9 @@ for (const season of fs.existsSync(seasonsDir) ? fs.readdirSync(seasonsDir).sort
 }
 
 function checkClubSeason(d, where, season, league, clubFile, seasonStart, seenInSeason) {
+  // 출처 기반으로 만든 파일(source 있음)은 출처에 없는 값을 지어내지 않고 null로 둔다
+  const sourced = !!d.source;
+  const optional = (v) => sourced && v == null;
   if (d.season !== season) err(where, `season 값(${d.season})이 폴더와 다름`);
   if (d.league !== league) err(where, `league 값(${d.league})이 폴더와 다름`);
   if (d.club !== clubFile) err(where, `club 값(${d.club})이 파일 이름과 다름`);
@@ -81,7 +84,7 @@ function checkClubSeason(d, where, season, league, clubFile, seasonStart, seenIn
   }
   inRange(d.facilities?.training, 1, 5, where, 'facilities.training');
   inRange(d.facilities?.youth, 1, 5, where, 'facilities.youth');
-  if (!Number.isInteger(d.stadiumCapacity)) err(where, 'stadiumCapacity 누락');
+  if (!Number.isInteger(d.stadiumCapacity) && !optional(d.stadiumCapacity)) err(where, 'stadiumCapacity 누락');
   if (!d.formation) warn(where, 'formation 없음');
   else if (!FORMATIONS.includes(d.formation)) err(where, `알 수 없는 포메이션: ${d.formation}`);
   if (!Array.isArray(d.squad)) { err(where, 'squad 누락'); return; }
@@ -102,10 +105,11 @@ function checkClubSeason(d, where, season, league, clubFile, seasonStart, seenIn
     else if (m && m[2] !== p.birth.slice(0, 4)) err(pw, 'id의 출생연도와 birth가 다름');
     if (!nations.has(p.nation)) err(pw, `알 수 없는 국가 코드: ${p.nation}`);
     if (p.nation2 && !nations.has(p.nation2)) err(pw, `알 수 없는 국가 코드: ${p.nation2}`);
-    inRange(p.height, 155, 210, pw, 'height');
-    if (!['L', 'R', 'B'].includes(p.foot)) err(pw, 'foot은 L/R/B');
+    if (!optional(p.height)) inRange(p.height, 155, 210, pw, 'height');
+    if (!['L', 'R', 'B'].includes(p.foot) && !optional(p.foot)) err(pw, 'foot은 L/R/B');
 
-    if (!Number.isInteger(p.number) || p.number < 1 || p.number > 99) err(pw, 'number는 1~99');
+    if (optional(p.number)) { /* 등번호 미상 */ }
+    else if (!Number.isInteger(p.number) || p.number < 1 || p.number > 99) err(pw, 'number는 1~99');
     else if (numbers.has(p.number)) err(pw, `등번호 중복: ${p.number}`);
     else numbers.add(p.number);
 
@@ -117,7 +121,8 @@ function checkClubSeason(d, where, season, league, clubFile, seasonStart, seenIn
     for (const k of Object.keys(p.attrs || {})) if (!keys.includes(k)) err(pw, `포지션에 맞지 않는 능력치: ${k}`);
 
     if (!Number.isInteger(p.wage) || p.wage <= 0) err(pw, 'wage 누락');
-    if (!DATE_RE.test(p.contract || '')) err(pw, 'contract 형식 오류');
+    if (optional(p.contract)) { /* 계약 만료일 미상 */ }
+    else if (!DATE_RE.test(p.contract || '')) err(pw, 'contract 형식 오류');
     else if (p.contract < seasonStart) err(pw, `계약이 시즌 시작 전에 만료됨: ${p.contract}`);
     if (p.loan && !clubs.has(p.loan)) warn(pw, `clubs/에 없는 임대 원소속 구단: ${p.loan}`);
 

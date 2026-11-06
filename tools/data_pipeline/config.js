@@ -32,11 +32,12 @@ module.exports = {
 
   // 출처로 새로 구축하는 리그 (Wikidata 리그 항목)
   LEAGUES: {
-    eng1: { wikidata: 'Q9448', nation: 'ENG', level: 1 },
-    esp1: { wikidata: 'Q324867', nation: 'ESP', level: 1 },
-    ita1: { wikidata: 'Q15804', nation: 'ITA', level: 1 },
-    ger1: { wikidata: 'Q82595', nation: 'GER', level: 1 },
-    fra1: { wikidata: 'Q13394', nation: 'FRA', level: 1 },
+    // enwiki: 위키백과 시즌 문서 제목의 리그 이름 ("2019–20 La Liga")
+    eng1: { wikidata: 'Q9448', nation: 'ENG', level: 1, enwiki: 'Premier League' },
+    esp1: { wikidata: 'Q324867', nation: 'ESP', level: 1, enwiki: 'La Liga' },
+    ita1: { wikidata: 'Q15804', nation: 'ITA', level: 1, enwiki: 'Serie A' },
+    ger1: { wikidata: 'Q82595', nation: 'GER', level: 1, enwiki: 'Bundesliga' },
+    fra1: { wikidata: 'Q13394', nation: 'FRA', level: 1, enwiki: 'Ligue 1' },
   },
   FIRST_SEASON: 2000,
   LAST_SEASON: 2025,

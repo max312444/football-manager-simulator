@@ -122,18 +122,63 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   // ① 시즌·참가 구단
   log('① 시즌 참가 구단');
   const bySeason = new Map();
+  const known = new Map();      // 이 리그에 한 번이라도 참가한 구단 (시즌 보완용)
+  const allCounts = [];
   for (const s of await wikidata.leagueSeasons(cfg.wikidata)) {
     const season = seasonOfLabel(s.label);
     if (!season || +season.slice(0, 4) < FIRST_SEASON || +season.slice(0, 4) > LAST_SEASON) continue;
+    for (const t of s.teams) known.set(t.qid, t);
+    if (s.teams.length >= 16) allCounts.push(s.teams.length);
     if (seasonFilter && season !== seasonFilter) continue;
     if (!bySeason.has(season) || bySeason.get(season).teams.length < s.teams.length) bySeason.set(season, s);
   }
-  const seasons = [...bySeason.keys()].sort();
-  const missingSeasons = [];
+  const counts = allCounts.sort((a, b) => a - b);
+  const typical = counts[counts.length >> 1] ?? 20;
+  let missingSeasons = [];
+  const incomplete = [];
   for (let y = FIRST_SEASON; y <= LAST_SEASON; y++) {
     const s = `${y}-${String((y + 1) % 100).padStart(2, '0')}`;
-    if ((!seasonFilter || s === seasonFilter) && (bySeason.get(s)?.teams.length ?? 0) < 16) missingSeasons.push(s);
+    if (seasonFilter && s !== seasonFilter) continue;
+    const n = bySeason.get(s)?.teams.length ?? 0;
+    if (n < 16) missingSeasons.push(s);
+    else if (n < typical) incomplete.push(s);
   }
+  const wikiTeams = async (season) => {
+    const title = `${season.slice(0, 4)}–${season.slice(5)} ${cfg.enwiki}`;
+    // 순위표 템플릿의 구단만 사용 (문서 전체 링크는 다른 시즌 구단이 섞임)
+    const { teams: tableTitles } = await wikipedia.seasonTableTeams(title);
+    const canon = await wikipedia.resolveTitles(tableTitles);
+    const hits = await wikidata.byEnwikiTitles([...new Set(Object.values(canon).filter(Boolean))]);
+    return { title, teams: [...new Set(hits.map(h => h.qid))].filter(q => known.has(q)).map(q => known.get(q)) };
+  };
+  // Wikidata 참가 구단이 평소보다 적은 시즌 → 위키백과 시즌 문서에서 빠진 구단을 찾는다.
+  // 합친 결과가 평소 구단 수와 정확히 같을 때만 반영 (다른 시즌 구단이 섞이는 것 방지)
+  if (incomplete.length && cfg.enwiki) {
+    for (const season of incomplete) {
+      const cur = bySeason.get(season);
+      const { title, teams } = await wikiTeams(season);
+      const have = new Set(cur.teams.map(t => t.qid));
+      const add = teams.filter(t => !have.has(t.qid));
+      if (cur.teams.length + add.length === typical) {
+        bySeason.set(season, { ...cur, teams: [...cur.teams, ...add], supplementedFromWikipedia: add.map(t => t.qid) });
+        log(`  ${season}: 참가 구단 ${cur.teams.length}개 → 위키백과 "${title}"에서 ${add.length}개 보완 (${add.map(t => t.enwiki || t.label).join(', ')})`);
+      } else log(`  ${season}: 참가 구단 ${cur.teams.length}개 (평소 ${typical}개) · 위키백과 후보 ${add.length}개라 보완하지 않음 → 검토 필요`);
+    }
+  }
+  // Wikidata에 참가 구단이 없는 시즌 → 위키백과 시즌 문서("2019–20 La Liga")의 링크 중
+  // 같은 리그의 다른 시즌에 참가한 구단만 골라 채운다. 구단 수가 평소와 2개 넘게 다르면 채우지 않는다
+  if (missingSeasons.length && cfg.enwiki) {
+    for (const season of missingSeasons) {
+      const { title, teams } = await wikiTeams(season);
+      if (Math.abs(teams.length - typical) <= 2) {
+        bySeason.set(season, { qid: null, label: title, teams, fromWikipedia: true });
+        log(`  ${season}: 위키백과 "${title}"에서 참가 구단 ${teams.length}개 보완`);
+      } else log(`  ${season}: 위키백과에서 찾은 구단 ${teams.length}개 (평소 ${typical}개) → 보완하지 않음`);
+    }
+    missingSeasons = missingSeasons.filter(s => (bySeason.get(s)?.teams.length ?? 0) < 16);
+  }
+  for (const s of [...bySeason.keys()]) if (bySeason.get(s).teams.length < 16) bySeason.delete(s);
+  const seasons = [...bySeason.keys()].sort();
   log(`  시즌 ${seasons.length}개${missingSeasons.length ? ` · 참가 구단 정보 없음: ${missingSeasons.join(', ')}` : ''}`);
 
   // ② 구단 ID 연결
