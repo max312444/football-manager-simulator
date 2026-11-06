@@ -32,13 +32,7 @@ export function PitchArt() {
           <stop offset="0.35" stopColor="#39ff14" stopOpacity="0.22" />
           <stop offset="1" stopColor="#39ff14" stopOpacity="0.5" />
         </linearGradient>
-        <radialGradient id="glow" cx="0.5" cy="0.62" r="0.55">
-          <stop offset="0" stopColor="#39ff14" stopOpacity="0.10" />
-          <stop offset="1" stopColor="#39ff14" stopOpacity="0" />
-        </radialGradient>
-        <filter id="soft"><feGaussianBlur stdDeviation="2.2" /></filter>
       </defs>
-      <rect width={W} height={H} fill="url(#glow)" />
       {/* 잔디 줄무늬 */}
       {Array.from({ length: 10 }, (_, i) => (
         <path key={i} d={rect(0, i / 10, 1, (i + 0.5) / 10) + ' Z'} fill="#39ff14" opacity={0.012} />
@@ -54,8 +48,6 @@ export function PitchArt() {
         <path d={rect(0.37, 0.945, 0.63, 1)} />
         <path d={ellipse(0.5, 0.84, 0.1, 0.045, Math.PI, Math.PI * 2)} />
       </g>
-      {/* 센터 서클 위 은은한 빛 */}
-      <path d={ellipse(0.5, 0.5, 0.135, 0.09)} stroke="#39ff14" strokeOpacity="0.35" strokeWidth="3" fill="none" filter="url(#soft)" />
     </svg>
   );
 }

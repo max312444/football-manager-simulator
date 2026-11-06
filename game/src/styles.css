@@ -1,36 +1,39 @@
 @import 'tailwindcss';
 @import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
+@import '@fontsource-variable/jetbrains-mono/wght.css';
 
 /* ── 디자인 토큰 ─────────────────────────────────────────────
-   기본은 무채색에 가까운 검정, 네온 그린은 "강조" 에만 쓴다.
-   (버튼 하나, 활성 메뉴, 핵심 숫자) — 면적이 넓어지면 유치해진다. */
+   세계: 야간 경기장. 바탕은 거의 무채색 검정, 네온 그린은 LED 전광판 색.
+   네온은 진행 버튼 · 점수판 · 전술 피치 · 높은 수치에만. 빛 번짐 효과는 쓰지 않는다.
+   고유 디테일: 숫자는 전광판처럼 고정폭 글꼴(.tnum). */
 @theme {
   --font-sans: 'Pretendard Variable', Pretendard, -apple-system, 'Segoe UI', 'Malgun Gothic', sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'Cascadia Mono', monospace;
 
-  --color-ink-950: #060807;
-  --color-ink-900: #0a0d0b;
-  --color-ink-850: #0f1311;
-  --color-ink-800: #141916;
-  --color-ink-750: #1a201c;
-  --color-ink-700: #222924;
+  --color-ink-950: #090b0a;
+  --color-ink-900: #0d100e;
+  --color-ink-850: #121513;
+  --color-ink-800: #171b18;
+  --color-ink-750: #1d211e;
+  --color-ink-700: #252a26;
 
-  --color-line: rgb(255 255 255 / 0.06);
-  --color-line-strong: rgb(255 255 255 / 0.11);
+  --color-line: rgb(233 238 234 / 0.07);
+  --color-line-strong: rgb(233 238 234 / 0.12);
 
   --color-hi: #e9eeea;
-  --color-mid: #98a29b;
-  --color-lo: #5c6660;
+  --color-mid: #a3aca5;
+  --color-lo: #7f8982;
 
   --color-neon: #39ff14;
   --color-neon-dim: #2bd10c;
-  --color-neon-ghost: rgb(57 255 20 / 0.08);
-  --color-neon-soft: rgb(57 255 20 / 0.16);
+  --color-neon-ghost: rgb(57 255 20 / 0.07);
+  --color-neon-soft: rgb(57 255 20 / 0.14);
 
-  --color-amber: #f2b33d;
-  --color-red: #ff5a52;
-  --color-sky: #5aaeff;
+  --color-amber: #e6b24a;
+  --color-red: #e5484d;
+  --color-sky: #6aa9e8;
 
-  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-quart: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @layer base {
@@ -39,29 +42,28 @@
     background: var(--color-ink-950);
     color: var(--color-hi);
     font-family: var(--font-sans);
-    font-feature-settings: 'tnum' 0;
     -webkit-font-smoothing: antialiased;
-    letter-spacing: -0.01em;
     word-break: keep-all;
     overflow: hidden;
   }
   ::selection { background: var(--color-neon-soft); color: var(--color-hi); }
-
-  /* 얇은 스크롤바 */
+  :focus-visible { outline: 1px solid rgb(57 255 20 / 0.5); outline-offset: -1px; }
   * { scrollbar-width: thin; scrollbar-color: var(--color-ink-700) transparent; }
 }
 
 @layer utilities {
   .tnum { font-variant-numeric: tabular-nums; }
-  .text-glow { text-shadow: 0 0 18px rgb(57 255 20 / 0.45); }
+  /* 고유 디테일 — 전광판 숫자: 점수 · 경기 시간 · D-day · 능력치 · 승점처럼 숫자만 있는 곳에만 */
+  .led { font-family: var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: 0; }
   .panel {
     background: var(--color-ink-850);
     border: 1px solid var(--color-line);
-    border-radius: 6px;
+    border-radius: 12px;
   }
-  .hairline-b { box-shadow: inset 0 -1px 0 var(--color-line); }
+  /* 어두운 버튼 위쪽의 아주 옅은 하이라이트 (빛 번짐 대신 깊이) */
+  .lift { box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.08); }
 }
 
-@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slide { 0% { transform: translateX(-100%); } 100% { transform: translateX(300%); } }

@@ -64,7 +64,7 @@ export function SquadView() {
   return (
     <div className="flex h-full min-h-0 gap-5 p-6">
       <section className="flex min-w-0 flex-1 flex-col">
-        <div className="mb-5 grid grid-cols-4 gap-px overflow-hidden rounded-[6px] border border-line bg-line">
+        <div className="mb-5 grid grid-cols-4 gap-px overflow-hidden rounded-lg border border-line bg-line">
           {([
             ['선수', `${rows.length}명`, ''],
             ['주전 11명 평균', (top11.reduce((s, r) => s + r.ovr, 0) / top11.length).toFixed(0), 'text-neon'],
@@ -73,7 +73,7 @@ export function SquadView() {
           ] as const).map(([k, v, c]) => (
             <div key={k} className="bg-ink-850 px-5 py-4">
               <div className="text-[12px] text-lo">{k}</div>
-              <div className={`tnum mt-1 text-[22px] font-bold tracking-[-0.03em] ${c}`}>{v}</div>
+              <div className={`tnum mt-1 text-[22px] font-semibold ${c}`}>{v}</div>
             </div>
           ))}
         </div>
@@ -81,14 +81,14 @@ export function SquadView() {
         <div className="mb-3 flex items-center gap-1">
           {GROUPS.map((g) => (
             <button key={g.key} onClick={() => setGroup(g.key)}
-              className={`h-8 rounded-[4px] px-3.5 text-[13px] transition-colors ${group === g.key ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>
+              className={`h-8 rounded-md px-4 text-[13px] transition-colors ${group === g.key ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>
               {g.label}
             </button>
           ))}
         </div>
 
         <div className="panel min-h-0 flex-1 overflow-auto">
-          <table className="w-full border-collapse text-[13.5px]">
+          <table className="w-full border-collapse text-[14px]">
             <thead className="sticky top-0 z-10 bg-ink-800 text-left text-[12px] text-lo">
               <tr className="h-9 shadow-[inset_0_-1px_0_var(--color-line)]">
                 <th className="w-12 px-3 text-center font-medium">번호</th>
@@ -114,8 +114,8 @@ export function SquadView() {
                     <td className="px-3">
                       <div className="flex items-center gap-2">
                         <span className="font-semibold text-hi">{ko}</span>
-                        {p.injury && <span title={`${p.injury.label} · ${p.injury.days}일`} className="rounded-[3px] bg-red/15 px-1 text-[10px] font-bold text-red">부상 {p.injury.days}일</span>}
-                        {p.suspension > 0 && <span className="rounded-[3px] bg-amber/15 px-1 text-[10px] font-bold text-amber">징계 {p.suspension}</span>}
+                        {p.injury && <span title={`${p.injury.label} · ${p.injury.days}일`} className="rounded bg-red/15 px-1 text-[11px] font-semibold text-red">부상 {p.injury.days}일</span>}
+                        {p.suspension > 0 && <span className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">징계 {p.suspension}</span>}
                       </div>
                     </td>
                     <td className="px-3"><PosTag pos={p.pos} /></td>
@@ -123,7 +123,7 @@ export function SquadView() {
                     <td className="px-3 text-center"><ConditionIcon value={p.condition} /></td>
                     <td className="px-3"><FitnessBar value={p.fitness} /></td>
                     <td className={`tnum px-3 text-right ${p.recentRatings.length ? ratingTone(form * 11) : 'text-lo'}`}>{p.recentRatings.length ? form.toFixed(1) : '–'}</td>
-                    <td className={`tnum px-3 text-right text-[15px] font-bold ${ratingTone(ovr)}`}>{ovr}</td>
+                    <td className={`tnum px-3 text-right text-[15px] font-semibold ${ratingTone(ovr)}`}>{ovr}</td>
                     <td className="tnum px-3 text-right text-mid">{p.stats.apps}{p.stats.subApps ? <span className="text-lo"> ({p.stats.subApps})</span> : ''}</td>
                     <td className="tnum px-3 text-right text-mid">{p.stats.goals || '–'}</td>
                     <td className="tnum px-3 text-right text-mid">{money(p.wage)}</td>

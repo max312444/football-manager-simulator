@@ -32,7 +32,7 @@ export function slotXY(slots: Position[]): { x: number; y: number }[] {
 
 export function Pitch({ children }: { children: React.ReactNode }) {
   return (
-    <div className="relative aspect-[68/90] w-full overflow-hidden rounded-[6px] bg-[linear-gradient(180deg,#0d1a10,#0a130c)] ring-1 ring-line">
+    <div className="relative aspect-[68/90] w-full overflow-hidden rounded-lg bg-[linear-gradient(180deg,#0d1a10,#0a130c)] ring-1 ring-line">
       <svg viewBox="0 0 68 90" className="absolute inset-0 h-full w-full" preserveAspectRatio="none" aria-hidden>
         <g stroke="rgb(57 255 20 / 0.16)" strokeWidth="0.35" fill="none">
           <rect x="2" y="2" width="64" height="86" /><line x1="2" y1="45" x2="66" y2="45" /><circle cx="34" cy="45" r="7" />
@@ -55,9 +55,9 @@ export function TacticsView() {
   const pos = slotXY(lineup.starters.map((s) => s.slot));
 
   const seg = <T extends number>(opts: { v: T; label: string }[], value: T, on: (v: T) => void) => (
-    <div className="flex gap-1 rounded-[5px] bg-ink-900 p-1">
+    <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
       {opts.map((o) => (
-        <button key={o.v} onClick={() => on(o.v)} className={`h-8 flex-1 rounded-[4px] text-[12.5px] transition-colors ${value === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
+        <button key={o.v} onClick={() => on(o.v)} className={`h-8 flex-1 rounded-md text-[13px] transition-colors ${value === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
       ))}
     </div>
   );
@@ -71,9 +71,9 @@ export function TacticsView() {
             const r = Math.round(slotRating(p, s.slot));
             return (
               <div key={s.id} className="absolute flex w-24 -translate-x-1/2 -translate-y-1/2 flex-col items-center" style={{ left: `${pos[i].x}%`, top: `${pos[i].y}%` }}>
-                <div className="grid h-9 w-9 place-items-center rounded-full bg-ink-950/90 text-[13px] font-bold ring-2 ring-neon/70 shadow-[0_0_14px_rgb(57_255_20/0.25)]">{p.number ?? ''}</div>
-                <div className="mt-1 max-w-full truncate rounded-[3px] bg-ink-950/80 px-1.5 text-[11.5px] font-semibold">{playerKo(p.id, p.name).split(' ').slice(-1)[0]}</div>
-                <div className="text-[10.5px] text-lo">{s.slot} · <span className={ratingTone(r)}>{r}</span></div>
+                <div className="grid h-9 w-9 place-items-center rounded-full bg-ink-950/90 text-[13px] font-semibold ring-2 ring-neon/70">{p.number ?? ''}</div>
+                <div className="mt-1 max-w-full truncate rounded bg-ink-950/80 px-1.5 text-[12px] font-semibold">{playerKo(p.id, p.name).split(' ').slice(-1)[0]}</div>
+                <div className="text-[11px] text-lo">{s.slot} · <span className={ratingTone(r)}>{r}</span></div>
               </div>
             );
           })}
@@ -81,10 +81,10 @@ export function TacticsView() {
       </div>
       <div className="flex min-w-0 flex-1 flex-col gap-4">
         <Card title="포메이션">
-          <div className="grid grid-cols-5 gap-1.5 p-4">
+          <div className="grid grid-cols-5 gap-2 p-4">
             {Object.keys(FORMATIONS).map((f) => (
               <button key={f} onClick={() => setClubTactics({ formation: f })}
-                className={`tnum h-9 rounded-[4px] text-[13px] transition-colors ${t.formation === f ? 'bg-neon font-bold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>{f}</button>
+                className={`tnum h-9 rounded-md text-[13px] transition-colors ${t.formation === f ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>{f}</button>
             ))}
           </div>
         </Card>
@@ -97,7 +97,7 @@ export function TacticsView() {
         <Card title="후보 (자동 선택)" className="flex-1">
           <div className="grid grid-cols-2 gap-x-6 px-5 py-3 text-[13px]">
             {lineup.bench.map((id) => { const p = w.players[id]; return (
-              <div key={id} className="flex items-center gap-2 py-1"><span className="w-9 text-[11px] font-bold text-lo">{p.pos}</span><span className="truncate">{playerKo(p.id, p.name)}</span></div>
+              <div key={id} className="flex items-center gap-2 py-1"><span className="w-9 text-[11px] font-semibold text-lo">{p.pos}</span><span className="truncate">{playerKo(p.id, p.name)}</span></div>
             ); })}
           </div>
           <p className="px-5 pb-4 text-[12px] text-lo">선발은 체력과 자리 적합도로 자동 선택됩니다. 직접 지정은 다음 단계에서 추가됩니다.</p>

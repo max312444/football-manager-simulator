@@ -7,7 +7,7 @@ const GROUP_TONE: Record<string, string> = {
   GK: 'text-[#f2c14e] bg-[#f2c14e]/10', DF: 'text-sky bg-sky/10', MF: 'text-neon bg-neon/10', FW: 'text-red bg-red/10',
 };
 export function PosTag({ pos, className = '' }: { pos: Position; className?: string }) {
-  return <span className={`inline-block w-11 rounded-[3px] py-0.5 text-center text-[11px] font-bold ${GROUP_TONE[posGroup(pos)]} ${className}`}>{pos}</span>;
+  return <span className={`inline-block w-11 rounded py-0.5 text-center text-[11px] font-semibold ${GROUP_TONE[posGroup(pos)]} ${className}`}>{pos}</span>;
 }
 
 /** 컨디션 5단계 화살표 */
@@ -30,7 +30,7 @@ export function FitnessBar({ value }: { value: number }) {
   const c = value >= 85 ? 'bg-neon' : value >= 70 ? 'bg-[#a6f08a]' : value >= 55 ? 'bg-amber' : 'bg-red';
   return (
     <div className="flex items-center gap-2" title={`체력 ${Math.round(value)}%`}>
-      <div className="h-[5px] w-14 overflow-hidden rounded-full bg-ink-700"><div className={`h-full rounded-full ${c}`} style={{ width: `${value}%` }} /></div>
+      <div className="h-1 w-14 overflow-hidden rounded-full bg-ink-700"><div className={`h-full rounded-full ${c}`} style={{ width: `${value}%` }} /></div>
       <span className="tnum w-7 text-[12px] text-mid">{Math.round(value)}</span>
     </div>
   );
@@ -38,7 +38,7 @@ export function FitnessBar({ value }: { value: number }) {
 
 export function ResultDot({ r }: { r: 'W' | 'D' | 'L' }) {
   const c = r === 'W' ? 'bg-neon text-ink-950' : r === 'D' ? 'bg-ink-700 text-mid' : 'bg-red/80 text-ink-950';
-  return <span className={`inline-grid h-[18px] w-[18px] place-items-center rounded-[3px] text-[10px] font-black ${c}`}>{r === 'W' ? '승' : r === 'D' ? '무' : '패'}</span>;
+  return <span className={`inline-grid h-5 w-5 place-items-center rounded text-[11px] font-semibold ${c}`}>{r === 'W' ? '승' : r === 'D' ? '무' : '패'}</span>;
 }
 
 export function Card({ title, action, children, className = '' }: { title?: string; action?: React.ReactNode; children: React.ReactNode; className?: string }) {

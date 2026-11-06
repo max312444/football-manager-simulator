@@ -53,21 +53,20 @@ export function MatchScreen() {
     <div className="flex h-full flex-col bg-ink-950">
       {/* 점수판 */}
       <header className="relative shrink-0 overflow-hidden border-b border-line bg-ink-900">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgb(57_255_20/0.09),transparent_65%)]" />
         <div className="relative mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <TeamHead club={s.home.clubId} mine={m.side === 'home'} align="right" />
           <div className="flex flex-col items-center">
-            <div className="text-[11px] font-semibold tracking-[0.18em] text-lo">{lg} · {m.fixture.round}라운드</div>
-            <div className="tnum mt-1 text-[52px] leading-none font-black tracking-[-0.05em]">
+            <div className="text-[11px] font-semibold text-lo">{lg} · {m.fixture.round}라운드</div>
+            <div className="led mt-2 text-[56px] leading-none font-medium text-neon">
               {goalsSoFar.home}<span className="mx-3 text-lo">:</span>{goalsSoFar.away}
             </div>
-            <div className={`tnum mt-2 rounded-[4px] px-2.5 py-0.5 text-[13px] font-bold ${m.phase === 'live' ? 'bg-neon/15 text-neon' : 'bg-ink-700 text-mid'}`}>
+            <div className={`led mt-2 rounded-md px-2.5 py-0.5 text-[13px] font-semibold ${m.phase === 'live' ? 'bg-neon/15 text-neon' : 'bg-ink-700 text-mid'}`}>
               {m.phase === 'pre' ? '경기 전' : m.phase === 'full' ? '경기 종료' : `${minute}'`}
             </div>
           </div>
           <TeamHead club={s.away.clubId} mine={m.side === 'away'} align="left" />
         </div>
-        <div className="h-[3px] w-full bg-ink-800"><div className="h-full bg-neon shadow-[0_0_10px_rgb(57_255_20/0.8)] transition-all duration-500" style={{ width: `${(s.segment / SEGMENTS) * 100}%` }} /></div>
+        <div className="h-1 w-full bg-ink-800"><div className="h-full origin-left bg-neon transition-transform duration-500 ease-[var(--ease-out-quart)]" style={{ transform: `scaleX(${s.segment / SEGMENTS})` }} /></div>
       </header>
 
       <div className="grid min-h-0 flex-1 grid-cols-[340px_1fr_380px] gap-5 p-5">
@@ -77,11 +76,11 @@ export function MatchScreen() {
           <div className="min-h-0 flex-1 overflow-auto px-2 py-2">
             {evs.length === 0 && <div className="px-3 py-4 text-[13px] text-lo">{m.phase === 'pre' ? '킥오프를 기다리는 중' : '아직 큰 사건이 없습니다'}</div>}
             {evs.map((e, i) => (
-              <div key={i} className={`flex items-center gap-3 rounded-[4px] px-3 py-2 text-[13px] ${e.kind === 'goal' ? 'bg-neon-ghost' : ''}`}>
+              <div key={i} className={`flex items-center gap-3 rounded-md px-3 py-2 text-[13px] ${e.kind === 'goal' ? 'bg-neon-ghost' : ''}`}>
                 <span className="tnum w-8 text-right text-lo">{e.minute}'</span>
                 <EventIcon kind={e.kind} />
                 <div className="min-w-0 flex-1">
-                  <div className={`truncate ${e.kind === 'goal' ? 'font-bold' : ''}`}>{e.text}</div>
+                  <div className={`truncate ${e.kind === 'goal' ? 'font-semibold' : ''}`}>{e.text}</div>
                   {e.sub && <div className="truncate text-[11px] text-lo">{e.sub}</div>}
                 </div>
                 <Crest clubId={s[e.side].clubId} size={14} />
@@ -100,10 +99,10 @@ export function MatchScreen() {
               ['기대 득점', xg.home, xg.away, (v: number) => v.toFixed(2)],
             ] as const).map(([k, h, a, fmt]) => (
               <div key={k} className="mb-3 last:mb-0">
-                <div className="mb-1 flex justify-between text-[12.5px]"><span className="tnum font-semibold">{fmt(h)}</span><span className="text-lo">{k}</span><span className="tnum font-semibold">{fmt(a)}</span></div>
+                <div className="mb-1 flex justify-between text-[13px]"><span className="tnum font-semibold">{fmt(h)}</span><span className="text-lo">{k}</span><span className="tnum font-semibold">{fmt(a)}</span></div>
                 <div className="flex h-1.5 gap-1">
-                  <div className="flex-1 overflow-hidden rounded-full bg-ink-700"><div className="ml-auto h-full rounded-full bg-neon transition-all" style={{ width: `${(h / (h + a || 1)) * 100}%` }} /></div>
-                  <div className="flex-1 overflow-hidden rounded-full bg-ink-700"><div className="h-full rounded-full bg-mid transition-all" style={{ width: `${(a / (h + a || 1)) * 100}%` }} /></div>
+                  <div className="flex-1 overflow-hidden rounded-full bg-ink-700"><div className={`ml-auto h-full rounded-full ${m.side === 'home' ? 'bg-neon' : 'bg-mid'}`} style={{ width: `${(h / (h + a || 1)) * 100}%` }} /></div>
+                  <div className="flex-1 overflow-hidden rounded-full bg-ink-700"><div className={`h-full rounded-full ${m.side === 'away' ? 'bg-neon' : 'bg-mid'}`} style={{ width: `${(a / (h + a || 1)) * 100}%` }} /></div>
                 </div>
               </div>
             ))}
@@ -112,19 +111,19 @@ export function MatchScreen() {
           <div className="panel space-y-4 px-6 py-5">
             <div>
               <div className="mb-2 text-[12px] text-lo">공격 · 수비 성향</div>
-              <div className="flex gap-1 rounded-[5px] bg-ink-900 p-1">
+              <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
                 {MENTALITY.map((o) => (
                   <button key={o.v} disabled={m.phase === 'full'} onClick={() => changeTactics({ mentality: o.v })}
-                    className={`h-8 flex-1 rounded-[4px] text-[12px] ${me.tactics.mentality === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
+                    className={`h-8 flex-1 rounded-md text-[12px] ${me.tactics.mentality === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
                 ))}
               </div>
             </div>
             <div>
               <div className="mb-2 text-[12px] text-lo">압박 강도</div>
-              <div className="flex gap-1 rounded-[5px] bg-ink-900 p-1">
+              <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
                 {PRESSING.map((o) => (
                   <button key={o.v} disabled={m.phase === 'full'} onClick={() => changeTactics({ pressing: o.v })}
-                    className={`h-8 flex-1 rounded-[4px] text-[12px] ${me.tactics.pressing === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
+                    className={`h-8 flex-1 rounded-md text-[12px] ${me.tactics.pressing === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
                 ))}
               </div>
             </div>
@@ -132,24 +131,24 @@ export function MatchScreen() {
 
           <div className="mt-auto flex items-center gap-2">
             {m.phase === 'pre' && (
-              <button onClick={kickOff} className="flex h-12 flex-1 items-center justify-center gap-2 rounded-[6px] bg-neon text-[15px] font-bold text-ink-950 shadow-[0_8px_30px_-8px_rgb(57_255_20/0.6)] hover:bg-[#5bff3d]">
+              <button onClick={kickOff} className="flex h-12 flex-1 items-center justify-center gap-2 rounded-lg bg-neon text-[15px] font-semibold text-ink-950 hover:bg-[#5bff3d]">
                 킥오프 <Icon name="arrow" size={18} />
               </button>
             )}
             {m.phase === 'live' && (
               <>
-                <button onClick={() => setPlaying((p) => !p)} className="h-12 w-28 rounded-[6px] bg-ink-700 text-[14px] font-bold hover:bg-ink-750">{playing ? '일시정지' : '재개'}</button>
-                <div className="flex h-12 flex-1 gap-1 rounded-[6px] bg-ink-900 p-1">
+                <button onClick={() => setPlaying((p) => !p)} className="h-12 w-28 rounded-lg bg-ink-700 text-[14px] font-semibold hover:bg-ink-750">{playing ? '일시정지' : '재개'}</button>
+                <div className="flex h-12 flex-1 gap-1 rounded-lg bg-ink-900 p-1">
                   {SPEEDS.map((sp, i) => (
-                    <button key={sp.label} onClick={() => setSpeed(i)} className={`flex-1 rounded-[4px] text-[12.5px] ${speed === i ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{sp.label}</button>
+                    <button key={sp.label} onClick={() => setSpeed(i)} className={`flex-1 rounded-md text-[13px] ${speed === i ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{sp.label}</button>
                   ))}
                 </div>
               </>
             )}
             {m.phase !== 'full' ? (
-              <button onClick={closeMatch} className="h-12 rounded-[6px] px-4 text-[13px] text-lo ring-1 ring-line hover:text-hi">결과만 보기</button>
+              <button onClick={closeMatch} className="h-12 rounded-lg px-4 text-[13px] text-lo ring-1 ring-line hover:text-hi">결과만 보기</button>
             ) : (
-              <button onClick={closeMatch} className="flex h-12 flex-1 items-center justify-center gap-2 rounded-[6px] bg-neon text-[15px] font-bold text-ink-950 hover:bg-[#5bff3d]">
+              <button onClick={closeMatch} className="flex h-12 flex-1 items-center justify-center gap-2 rounded-lg bg-neon text-[15px] font-semibold text-ink-950 hover:bg-[#5bff3d]">
                 계속 <Icon name="arrow" size={18} />
               </button>
             )}
@@ -164,7 +163,7 @@ export function MatchScreen() {
           </h3>
           <div className="min-h-0 flex-1 overflow-auto">
             <TeamList team={me} selectable={m.phase === 'live' && me.subsUsed < me.maxSubs} selected={subOut} onSelect={(id) => setSubOut(id === subOut ? null : id)} ratings={sum.ratings} />
-            <div className="px-5 pt-3 pb-1 text-[11px] font-semibold tracking-[0.14em] text-lo">
+            <div className="px-5 pt-3 pb-1 text-[11px] font-semibold text-lo">
               후보 {subOut && <span className="ml-1 font-normal tracking-normal text-neon">— {name(subOut)} 대신 투입할 선수 선택</span>}
             </div>
             {me.bench.map((id) => {
@@ -175,7 +174,7 @@ export function MatchScreen() {
                   className={`flex w-full items-center gap-3 px-5 py-2 text-left text-[13px] ${subOut ? 'hover:bg-neon-ghost' : 'opacity-70'}`}>
                   <PosTag pos={p.pos} />
                   <span className="flex-1 truncate">{name(id)}</span>
-                  {outSlot && <span className={`tnum text-[12px] font-bold ${ratingTone(slotRating(p, outSlot))}`}>{Math.round(slotRating(p, outSlot))}</span>}
+                  {outSlot && <span className={`tnum text-[12px] font-semibold ${ratingTone(slotRating(p, outSlot))}`}>{Math.round(slotRating(p, outSlot))}</span>}
                   <ConditionIcon value={p.condition} />
                 </button>
               );
@@ -193,7 +192,7 @@ function TeamHead({ club, mine, align }: { club: string; mine: boolean; align: '
     <div className={`flex w-[320px] items-center gap-4 ${align === 'right' ? 'flex-row-reverse text-right' : ''}`}>
       <Crest clubId={club} size={48} />
       <div>
-        <div className="text-[20px] font-black tracking-[-0.03em]">{clubKo(club)}</div>
+        <div className="text-[20px] font-semibold">{clubKo(club)}</div>
         {mine && <div className="text-[11px] font-semibold text-neon">내 구단</div>}
       </div>
     </div>
@@ -210,10 +209,10 @@ function TeamList({ team, selectable, selected, onSelect, ratings }: { team: Tea
         return (
           <button key={o.id} disabled={!selectable} onClick={() => onSelect(o.id)}
             className={`flex w-full items-center gap-3 px-5 py-1.5 text-left text-[13px] ${selected === o.id ? 'bg-neon-ghost' : selectable ? 'hover:bg-ink-800' : ''}`}>
-            <span className="w-8 text-[11px] font-bold text-lo">{o.slot}</span>
+            <span className="w-8 text-[11px] font-semibold text-lo">{o.slot}</span>
             <span className="flex-1 truncate">{playerKo(p.id, p.name)}{o.yellow && <span className="ml-1.5 inline-block h-3 w-2 rounded-[1px] bg-amber align-middle" />}</span>
             {ratings[o.id] != null && <span className="tnum text-[12px] text-mid">{ratings[o.id].toFixed(1)}</span>}
-            <div className="h-[5px] w-12 overflow-hidden rounded-full bg-ink-700" title={`체력 ${Math.round(o.fitness)}`}><div className={`h-full rounded-full ${c}`} style={{ width: `${o.fitness}%` }} /></div>
+            <div className="h-1 w-12 overflow-hidden rounded-full bg-ink-700" title={`체력 ${Math.round(o.fitness)}`}><div className={`h-full rounded-full ${c}`} style={{ width: `${o.fitness}%` }} /></div>
           </button>
         );
       })}
@@ -222,9 +221,24 @@ function TeamList({ team, selectable, selected, onSelect, ratings }: { team: Tea
 }
 
 function EventIcon({ kind }: { kind: 'goal' | 'yellow' | 'red' | 'injury' | 'sub' }) {
-  if (kind === 'goal') return <span className="grid h-5 w-5 place-items-center rounded-full bg-neon text-[10px] font-black text-ink-950">G</span>;
+  if (kind === 'goal') return <BallIcon />;
   if (kind === 'yellow') return <span className="mx-1.5 inline-block h-4 w-3 rounded-[2px] bg-amber" />;
   if (kind === 'red') return <span className="mx-1.5 inline-block h-4 w-3 rounded-[2px] bg-red" />;
-  if (kind === 'injury') return <span className="grid h-5 w-5 place-items-center rounded-full bg-red/20 text-[12px] font-black text-red">+</span>;
+  if (kind === 'injury') return <span className="grid h-5 w-5 place-items-center rounded-full bg-red/20 text-[12px] font-semibold text-red">+</span>;
   return <span className="grid h-5 w-5 place-items-center text-sky"><Icon name="transfers" size={15} /></span>;
+}
+
+/** 골 표시용 축구공 */
+function BallIcon() {
+  return (
+    <svg width={20} height={20} viewBox="-12 -12 24 24" aria-label="골" className="shrink-0">
+      <circle r={11} fill="#f4f4f2" stroke="#0d100e" strokeWidth={0.8} />
+      <path d="M0 -4.2 L4 -1.3 L2.5 3.4 L-2.5 3.4 L-4 -1.3 Z" fill="#141414" />
+      <path d="M0 -4.2 V-8.5 M4 -1.3 L8.2 -2.6 M2.5 3.4 L5 7.2 M-2.5 3.4 L-5 7.2 M-4 -1.3 L-8.2 -2.6" stroke="#141414" strokeWidth={0.9} fill="none" />
+      <g fill="#141414">
+        <path d="M-2.6 -10.6 L2.6 -10.6 L0 -8.5 Z" /><path d="M10.4 -1 L9 3.6 L8.2 -2.6 Z" /><path d="M-10.4 -1 L-9 3.6 L-8.2 -2.6 Z" />
+        <path d="M3.2 10.4 L7.5 7.6 L5 7.2 Z" /><path d="M-3.2 10.4 L-7.5 7.6 L-5 7.2 Z" />
+      </g>
+    </svg>
+  );
 }

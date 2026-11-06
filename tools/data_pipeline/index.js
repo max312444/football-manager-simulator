@@ -5,6 +5,7 @@
 //   node tools/data_pipeline sync     --league eng1 | --club arsenal | --all  [--apply] [--force]
 //   node tools/data_pipeline report   --league eng1
 //   node tools/data_pipeline merge    <중복 ID> <남길 ID>
+//   node tools/data_pipeline rename-club <바꿀 구단 ID> <고정 구단 ID> [--apply]
 //   node tools/data_pipeline names    --league eng1 [--lang ko] [--apply]
 //   node tools/data_pipeline build    --league esp1 [--season 2025-26] [--apply] [--overwrite]
 // 순서: 구단 식별 → 수집 → 선수 식별 → 검증 → 내보내기. 내보내기는 --apply 없이는 미리보기만.
@@ -21,6 +22,7 @@ const { exportFixes } = require('./steps/export');
 const { mergePlayers } = require('./steps/merge');
 const { fillNames } = require('./steps/names');
 const { buildLeague } = require('./steps/build');
+const { renameClub } = require('./steps/renameClub');
 
 const args = process.argv.slice(2);
 const cmd = args[0];
@@ -130,6 +132,7 @@ function report(league, { t0, summary } = {}) {
   let leagues = opt('all') ? leaguesWithData() : [typeof opt('league') === 'string' ? opt('league') : clubFilter && leagueOfClub(clubFilter)].filter(Boolean);
 
   if (cmd === 'report') return leagues.forEach(l => report(l));
+  if (cmd === 'rename-club') return renameClub(args[1], args[2], { apply: args.includes('--apply'), log });
   if (cmd === 'merge') return mergePlayers(args[1], args[2], { log });
   if (cmd === 'build') {
     const t0 = Date.now();

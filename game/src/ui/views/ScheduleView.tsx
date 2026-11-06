@@ -31,15 +31,15 @@ export function ScheduleView() {
           const today = f.date === w.date && !f.result;
           return (
             <button key={f.id} onClick={() => f.result && setOpen(f.id)}
-              className={`flex h-12 w-full items-center gap-4 px-5 text-left text-[13.5px] shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${
+              className={`flex h-12 w-full items-center gap-4 px-5 text-left text-[14px] shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${
                 open === f.id ? 'bg-neon-ghost' : today ? 'bg-ink-800' : f.result ? 'hover:bg-ink-800' : ''}`}>
               <span className="tnum w-8 text-[12px] text-lo">R{f.round}</span>
               <span className="tnum w-40 text-mid">{koDate(f.date)}</span>
-              <span className={`w-10 rounded-[3px] py-0.5 text-center text-[11px] font-bold ${home ? 'bg-ink-700 text-hi' : 'text-lo ring-1 ring-line'}`}>{home ? '홈' : '원정'}</span>
+              <span className={`w-10 rounded py-0.5 text-center text-[11px] font-semibold ${home ? 'bg-ink-700 text-hi' : 'text-lo ring-1 ring-line'}`}>{home ? '홈' : '원정'}</span>
               <Crest clubId={opp} size={18} />
               <span className="flex-1 truncate font-semibold">{clubKo(opp)}</span>
               {f.result ? (
-                <><span className="tnum w-14 text-right font-bold">{home ? `${f.result.homeGoals} - ${f.result.awayGoals}` : `${f.result.awayGoals} - ${f.result.homeGoals}`}</span><ResultDot r={r!} /></>
+                <><span className="tnum w-14 text-right font-semibold">{home ? `${f.result.homeGoals} - ${f.result.awayGoals}` : `${f.result.awayGoals} - ${f.result.homeGoals}`}</span><ResultDot r={r!} /></>
               ) : today ? <span className="text-[12px] font-semibold text-neon">오늘</span> : <span className="text-[12px] text-lo">예정</span>}
             </button>
           );
@@ -66,7 +66,7 @@ export function MatchReport({ f }: { f: Fixture }) {
         {[f.home, f.away].map((c, i) => (
           <div key={c} className={`flex w-24 flex-col items-center gap-2 ${i ? 'order-3' : ''}`}><Crest clubId={c} size={34} /><span className="text-center text-[12px] font-semibold">{clubKo(c)}</span></div>
         ))}
-        <div className="tnum order-2 text-[34px] font-black tracking-[-0.04em]">{r.homeGoals} <span className="text-lo">-</span> {r.awayGoals}</div>
+        <div className="tnum order-2 text-[34px] font-semibold">{r.homeGoals} <span className="text-lo">-</span> {r.awayGoals}</div>
       </div>
       <div className="space-y-1 border-t border-line px-6 py-4 text-[13px]">
         {r.goals.map((g, i) => (

@@ -30,8 +30,8 @@ export function InboxView() {
         {list.map((e, i) => {
           const d = describe(e, w);
           return (
-            <div key={i} className="flex items-center gap-5 px-6 py-3.5 shadow-[inset_0_-1px_0_var(--color-line)]">
-              <span className={`w-10 text-[12px] font-bold ${d.tone}`}>{d.tag}</span>
+            <div key={i} className="flex items-center gap-5 px-6 py-4 shadow-[inset_0_-1px_0_var(--color-line)]">
+              <span className={`w-10 text-[12px] font-semibold ${d.tone}`}>{d.tag}</span>
               <div className="min-w-0 flex-1">
                 <div className="truncate text-[14px] font-semibold">{d.title}</div>
                 {d.body && <div className="truncate text-[12px] text-lo">{d.body}</div>}

@@ -38,12 +38,12 @@ export function TitleScreen() {
       {/* 왼쪽 메뉴 */}
       <div className="relative z-10 flex h-full w-full max-w-[560px] flex-col justify-between px-16 py-14">
         <header className="animate-[rise_0.8s_var(--ease-out-quart)_both]">
-          <div className="flex items-center gap-3 text-[11px] font-semibold tracking-[0.32em] text-lo">
+          <div className="flex items-center gap-3 text-[11px] font-semibold text-lo">
             <span className="h-px w-8 bg-neon" />
-            FOOTBALL MANAGEMENT
+            축구 감독 시뮬레이션
           </div>
-          <h1 className="mt-5 text-[64px] leading-[0.92] font-black tracking-[-0.045em] text-hi">
-            PITCH<br />BOSS<span className="text-neon text-glow">.</span>
+          <h1 className="mt-5 text-[64px] leading-[0.92] font-semibold tracking-[-0.03em] text-hi">
+            PITCH<br />BOSS<span className="text-neon">.</span>
           </h1>
           <p className="mt-5 max-w-[400px] text-[15px] leading-relaxed text-mid">
             2000/01부터 지금까지, 실제 선수단으로 시작하는 감독 커리어.
@@ -60,24 +60,24 @@ export function TitleScreen() {
                 onMouseEnter={() => setHover(it.key)}
                 onClick={it.action}
                 style={{ animationDelay: `${120 + i * 60}ms` }}
-                className="group relative flex animate-[rise_0.7s_var(--ease-out-quart)_both] items-baseline gap-5 py-[11px] text-left outline-none disabled:cursor-default"
+                className="group relative flex animate-[rise_0.7s_var(--ease-out-quart)_both] items-baseline gap-5 py-3 text-left outline-none disabled:cursor-default"
               >
                 <span
-                  className={`absolute top-1/2 -left-6 h-6 w-[3px] -translate-y-1/2 rounded-full bg-neon transition-all duration-300 ${active ? 'opacity-100 shadow-[0_0_12px_rgb(57_255_20/0.8)]' : 'opacity-0'}`}
+                  className={`absolute top-1/2 -left-6 h-6 w-0.5 -translate-y-1/2 rounded-full bg-neon transition-colors duration-300 ${active ? 'opacity-100' : 'opacity-0'}`}
                 />
                 <span className={`tnum w-6 text-[12px] font-medium transition-colors ${active ? 'text-neon' : 'text-lo'}`}>
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <span className="flex flex-col">
                   <span
-                    className={`text-[26px] font-bold tracking-[-0.03em] transition-all duration-300 ${
+                    className={`text-[26px] font-semibold transition-colors duration-300 ${
                       it.disabled ? 'text-[#3b433e]' : active ? 'translate-x-1 text-hi' : 'text-mid group-focus-visible:text-hi'
                     }`}
                   >
                     {it.label}
                   </span>
                   <span
-                    className={`overflow-hidden text-[13px] text-mid transition-all duration-300 ${active ? 'mt-1 max-h-6 opacity-100' : 'max-h-0 opacity-0'}`}
+                    className={`overflow-hidden text-[13px] text-mid transition-colors duration-300 ${active ? 'mt-1 max-h-6 opacity-100' : 'max-h-0 opacity-0'}`}
                   >
                     {it.desc}
                   </span>
@@ -89,7 +89,7 @@ export function TitleScreen() {
 
         <footer className="flex items-end justify-between text-[12px] text-lo">
           <div className="space-y-2">
-            <div className="text-[11px] font-semibold tracking-[0.2em] text-lo">수록 데이터</div>
+            <div className="text-[11px] font-semibold text-lo">수록 데이터</div>
             <div className="flex flex-wrap gap-x-5 gap-y-1">
               {dataStatus.map((l) => (
                 <div key={l.id} className="flex items-center gap-2">
