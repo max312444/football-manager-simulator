@@ -124,13 +124,14 @@ async function labels(qids, lang, opts) {
 const time = (v, p) => (v ? { value: v.value.slice(0, 10), precision: Number(p.value) } : null);
 
 // 리그의 시즌 항목과 시즌별 참가 구단
+// 참가 구단이 "남자 축구팀" 항목(Q103229495)이고 상위 구단(P831)이 명시돼 있으면 상위 구단으로 통일한다
+// (2020/21 이후 분데스리가 등: "FC Bayern München" 팀 항목 → "FC Bayern Munich" 구단 항목)
+// 주의: 쿼리 문자열 안에 # 주석을 넣지 않는다 (요청 시 줄바꿈이 사라져 뒤 내용이 전부 주석이 됨)
 async function leagueSeasons(leagueQid, opts) {
   const rows = await sparql(`
     SELECT ?s ?sLabel ?t ?tLabel ?tTitle WHERE {
       ?s wdt:P3450 wd:${leagueQid} .
       OPTIONAL { ?s wdt:P1923 ?t0 .
-        # 참가 구단이 "남자 축구팀" 항목(Q103229495)이고 상위 구단(P831)이 명시돼 있으면 상위 구단으로 통일
-        # (2020/21 이후 분데스리가 등: "FC Bayern München" 팀 항목 → "FC Bayern Munich" 구단 항목)
         OPTIONAL { ?t0 wdt:P31 wd:Q103229495 ; wdt:P831 ?par . }
         BIND(COALESCE(?par, ?t0) AS ?t)
         OPTIONAL { ?ta schema:about ?t ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?tTitle . } }
