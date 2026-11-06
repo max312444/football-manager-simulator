@@ -56,7 +56,7 @@ export function HomeView() {
           <LeagueTable league={club.league} compact />
         </Card>
         <Card title="최근 소식" action={<button onClick={() => setTab('inbox')} className="text-[12px] text-lo hover:text-hi">받은편지함</button>} className="flex-1">
-          {news.length === 0 ? <div className="px-5 py-6 text-[13px] text-lo">우측 상단 "계속"을 눌러 시즌을 시작하세요.</div> :
+          {news.length === 0 ? <div className="px-5 py-6 text-[13px] text-lo">아래 "계속" 버튼(또는 Space 키)을 눌러 시즌을 시작하세요.</div> :
             news.map((e, i) => { const d = describe(e, w); return (
               <div key={i} className="flex items-center gap-4 px-5 py-2.5 text-[13px] shadow-[inset_0_-1px_0_var(--color-line)]">
                 <span className={`w-9 text-[11px] font-bold ${d.tone}`}>{d.tag}</span>

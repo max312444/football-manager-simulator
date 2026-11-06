@@ -1,5 +1,6 @@
 import { Sidebar } from '../components/Sidebar';
 import { TopBar } from '../components/TopBar';
+import { ContinueBar } from '../components/ContinueBar';
 import { useApp, type HubTab } from '../../store/app';
 import { clubKo } from '../../data/db';
 import { useWorld } from '../hooks';
@@ -39,6 +40,7 @@ export function HubScreen() {
             </div>
           )}
         </div>
+        <ContinueBar />
       </main>
     </div>
   );
