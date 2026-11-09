@@ -7,7 +7,7 @@ import { clubKo, leagues, playerKo } from '../../data/db';
 import { posGroup } from '../../data/rating';
 import { Crest } from '../components/Crest';
 import { Card, PosTag, ResultDot } from '../components/bits';
-import { money, ratingTone } from '../format';
+import { money, ratingTone, roundLabel } from '../format';
 import { useWorld } from '../hooks';
 import { useApp } from '../../store/app';
 import { LeagueTable } from './TableView';
@@ -58,7 +58,7 @@ export function HomeView() {
   return (
     <div className="h-full overflow-auto">
       <div className="mx-auto flex max-w-[1440px] flex-col gap-6 p-6">
-        {next ? <NextMatch w={w} home={next.home} away={next.away} date={next.date} round={next.round} league={lg} />
+        {next ? <NextMatch w={w} home={next.home} away={next.away} date={next.date} round={roundLabel(next)} league={lg} />
           : <section className="panel px-8 py-6 text-[15px]">시즌이 끝났습니다 · 최종 {pos}위 · 승점 {row.pts}</section>}
 
         <div className="grid grid-cols-1 items-start gap-6 xl:grid-cols-3">
@@ -138,14 +138,14 @@ export function HomeView() {
   );
 }
 
-function NextMatch({ w, home, away, date, round, league }: { w: World; home: string; away: string; date: string; round: number; league: string }) {
+function NextMatch({ w, home, away, date, round, league }: { w: World; home: string; away: string; date: string; round: string; league: string }) {
   const mine = w.userClubId;
   const sh = strength(w, home), sa = strength(w, away);
   const d = new Date(date + 'T00:00:00');
   return (
     <section className="panel grid grid-cols-1 items-center gap-6 px-8 py-6 lg:grid-cols-[200px_1fr_240px]">
       <div>
-        <div className="text-[12px] text-lo">다음 경기 · {league} {round}라운드</div>
+        <div className="text-[12px] text-lo">다음 경기 · {league} {round}</div>
         <div className="mt-2 text-[22px] font-semibold whitespace-nowrap">{d.getMonth() + 1}월 {d.getDate()}일 <span className="font-normal text-mid">{'일월화수목금토'[d.getDay()]}요일</span></div>
         <div className="mt-1 text-[13px] text-mid">{home === mine ? '홈 경기' : '원정 경기'}</div>
       </div>

@@ -50,3 +50,10 @@ export function josa(word: string, a: string, b: string): string {
   if (c < 0xac00 || c > 0xd7a3) return b;
   return (c - 0xac00) % 28 ? a : b;
 }
+
+/** 경기 라운드 표시: 정규 리그 "12라운드", 플레이오프 "승격 PO 준결승 1차전" 등 */
+export function roundLabel(f: { round: number; stage?: string; leg?: number }): string {
+  if (!f.stage) return `${f.round}라운드`;
+  const name = ({ semi: '승격 PO 준결승', final: '승격 PO 결승', ladder: '승격 PO', barrage: '승강 플레이오프' } as Record<string, string>)[f.stage] ?? '플레이오프';
+  return f.leg ? `${name} ${f.leg}차전` : name;
+}

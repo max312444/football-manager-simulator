@@ -15,7 +15,7 @@ export function NewGameScreen() {
   const setTab = useApp((s) => s.setTab);
   const { newGame, loading } = useGame();
 
-  const top = useMemo(() => leagues.filter((l) => l.level === 1 && availableSeasons(l.id).length), []);
+  const top = useMemo(() => leagues.filter((l) => l.level <= 2 && availableSeasons(l.id).length), []);
   const allSeasons = useMemo(() => [...new Set(top.flatMap((l) => availableSeasons(l.id)))].sort(), [top]);
 
   const [season, setSeason] = useState<string>(allSeasons[allSeasons.length - 1]);

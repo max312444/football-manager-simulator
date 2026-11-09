@@ -10,7 +10,7 @@ import { Crest } from '../components/Crest';
 import { Icon } from '../components/Icon';
 import { Card, ConditionIcon, FitnessBar, PosTag, ResultDot } from '../components/bits';
 import { MENTALITY, PRESSING, Pitch, slotXY } from '../views/TacticsView';
-import { koDate, ratingTone } from '../format';
+import { koDate, ratingTone, roundLabel } from '../format';
 
 export function MatchPrep() {
   const w = useWorld();
@@ -80,7 +80,7 @@ export function MatchPrep() {
       <header className="shrink-0 border-b border-line bg-ink-900">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between px-8 py-5">
           <div>
-            <div className="text-[12px] text-lo">경기 전 스쿼드 설정 · {lg} {f.round}라운드</div>
+            <div className="text-[12px] text-lo">경기 전 스쿼드 설정 · {lg} {roundLabel(f)}</div>
             <div className="mt-1 text-[15px] text-mid">{koDate(f.date)} · {m.side === 'home' ? '홈 경기' : '원정 경기'}</div>
           </div>
           <div className="flex items-center gap-6">

@@ -108,11 +108,17 @@ export interface Fixture {
   home: string;
   away: string;
   result?: MatchSummary;
+  /** 플레이오프 경기 (순위표에 넣지 않음) */
+  stage?: 'semi' | 'final' | 'ladder' | 'barrage';
+  /** 2경기 합산 대결의 몇 차전 */
+  leg?: number;
 }
 
 export interface MatchSummary {
   homeGoals: number;
   awayGoals: number;
+  /** 승부차기 승자 (플레이오프) */
+  pens?: Side;
   goals: { minute: number; side: Side; scorer: string; assist?: string }[];
   cards: { minute: number; side: Side; player: string; red: boolean }[];
   injuries: { minute: number; side: Side; player: string }[];
@@ -133,6 +139,8 @@ export interface Competition {
   season: string;
   fixtures: Fixture[];
   table: Record<string, TableRow>;
+  /** 2부 리그 승격 · 승강 플레이오프 진행 */
+  playoff?: import('./pyramid').PlayoffState;
 }
 
 export type GameEvent =

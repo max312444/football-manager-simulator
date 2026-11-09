@@ -19,6 +19,7 @@ import { FORMATIONS, guessFormation } from './squad';
 import { boardReview, prizeMoney } from './finance';
 import { traitSeasonEnd } from './traits';
 import { overall } from './ratings';
+import { levelOf, pairRule, PAIRS, poolOf } from './pyramid';
 import { cleanOffers } from './transfer';
 import { money } from '../ui/format';
 import { seasonAwards } from './awards';
@@ -111,49 +112,125 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   const dataPlayers = new Map<string, { club: string; league: string; sp: (typeof next.leagues)[number]['clubs'][number]['squad'][number] }>();
   for (const lg of next.leagues) for (const c of lg.clubs) for (const sp of c.squad) if (!dataPlayers.has(sp.id)) dataPlayers.set(sp.id, { club: c.club, league: lg.id, sp });
 
-  // ── 리그 구성 (강등 · 승격) ──────────────────────────
+  // ── 리그 구성 (승격 · 강등) ──────────────────────────
+  // 1부 · 2부가 모두 게임에 있으면 게임 순위와 플레이오프 결과로 정한다 (실제와 달라도 게임 세계를 따름).
+  // 리그 크기는 실제 다음 시즌 데이터가 있으면 거기에 맞춘다. 2부에서 떨어진 구단은 대기(3부, 경기 없음)로 가고,
+  // 2부 빈자리는 실제 데이터의 3부 승격 구단, 없으면 대기 구단 중 명성 순으로 채운다.
   const newMembers: Record<string, string[]> = {};
-  for (const [lgId, comp] of Object.entries(w.competitions)) {
-    const cur = Object.keys(comp.table);
-    const nl = nextLeague.get(lgId);
-    if (!nl) { newMembers[lgId] = cur; continue; }   // 데이터 없음 → 같은 구단 유지
-    const real = nl.clubs.map((c) => c.club);
-    const promoted = real.filter((c) => !cur.includes(c));
-    const order = sortTable(comp.table).map((r) => r.club);
-    const down: string[] = [];
-    for (let i = order.length - 1; i >= 0 && down.length < promoted.length; i--) {
-      if (order[i] === w.userClubId) { report.userKept = true; continue; }
-      down.push(order[i]);
-    }
-    newMembers[lgId] = [...cur.filter((c) => !down.includes(c)), ...promoted];
-    report.relegated[lgId] = down;
-    report.promoted[lgId] = promoted;
-    for (const c of down) w.clubs[c].league = `${lgId}-lower`;
-  }
+  const prevLevel = new Map(Object.values(w.clubs).map((c) => [c.id, levelOf(c.league)]));
+  const handled = new Set<string>();
+  const byRep = (ids: string[]) => [...ids].sort((a, b) => (w.clubs[b]?.reputation ?? 0) - (w.clubs[a]?.reputation ?? 0));
+  for (const [nation, [top, second]] of Object.entries(PAIRS)) {
+    const T = w.competitions[top];
+    if (!T) continue;
+    handled.add(top);
+    const rule = pairRule(nation, from);
+    const S = w.competitions[second];
+    const realTop = nextLeague.get(top)?.clubs.map((c) => c.club);
+    const realSecond = nextLeague.get(second)?.clubs.map((c) => c.club);
+    const topCur = Object.keys(T.table);
+    const topOrder = sortTable(T.table).map((r) => r.club);
 
-  // 승격 구단 생성 (실제 다음 시즌 선수단으로)
-  for (const lg of next.leagues) for (const c of lg.clubs) {
-    if (!newMembers[lg.id]?.includes(c.club)) continue;
-    const existing = w.clubs[c.club];
-    if (existing) {
-      existing.league = lg.id;
-      existing.reputation = c.reputation;
+    if (S) {
+      handled.add(second);
+      const secCur = Object.keys(S.table);
+      const secOrder = sortTable(S.table).map((r) => r.club);
+      const up = secOrder.slice(0, rule.up);
+      const down = topOrder.slice(topOrder.length - rule.topDown);
+      const po = S.playoff;
+      if (rule.barrage) {
+        const b = po?.barrage;
+        if (b && b.winner === b.challenger) { up.push(b.challenger); down.push(b.top); }
+      } else if (rule.playoff) up.push(po?.winner ?? secOrder[rule.up]);
+      // 1부 크기 맞추기
+      const tSize = realTop?.length ?? topCur.length;
+      let topNext = [...topCur.filter((c) => !down.includes(c)), ...up];
+      while (topNext.length > tSize) { const c = [...topOrder].reverse().find((x) => topNext.includes(x))!; topNext = topNext.filter((x) => x !== c); down.push(c); }
+      for (const c of secOrder) { if (topNext.length >= tSize) break; if (!topNext.includes(c)) { topNext.push(c); up.push(c); } }
+      // 2부: 아래로 떨어질 구단 (내 구단은 3부가 없어 잔류)
+      const rest = secOrder.filter((c) => !up.includes(c));
+      const sDown: string[] = [];
+      for (let i = rest.length - 1; i >= 0 && sDown.length < rule.secondDown; i--) {
+        if (rest[i] === w.userClubId) { report.userKept = true; continue; }
+        sDown.push(rest[i]);
+      }
+      let secNext = [...secCur.filter((c) => !up.includes(c) && !sDown.includes(c)), ...down];
+      const sSize = realSecond?.length ?? secCur.length;
+      const fromReal = realSecond ? realSecond.filter((c) => !topCur.includes(c) && !secCur.includes(c)) : [];
+      const fromPool = byRep(Object.values(w.clubs).filter((c) => c.league === poolOf(second) && !fromReal.includes(c.id)).map((c) => c.id));
+      const fromBelow: string[] = [];
+      for (const c of [...fromReal, ...fromPool]) { if (secNext.length >= sSize) break; secNext.push(c); fromBelow.push(c); }
+      while (secNext.length > sSize) {
+        const c = [...secOrder].reverse().find((x) => secNext.includes(x) && x !== w.userClubId && !down.includes(x));
+        if (!c) break;
+        secNext = secNext.filter((x) => x !== c); sDown.push(c);
+      }
+      newMembers[top] = topNext; newMembers[second] = secNext;
+      for (const c of up) w.clubs[c].league = top;
+      for (const c of down) w.clubs[c].league = second;
+      for (const c of sDown) w.clubs[c].league = poolOf(second);
+      for (const c of fromBelow) if (w.clubs[c]) w.clubs[c].league = second;
+      report.promoted[top] = up; report.relegated[top] = down;
+      report.promoted[second] = fromBelow; report.relegated[second] = sDown;
       continue;
     }
-    w.clubs[c.club] = {
-      id: c.club, league: lg.id, reputation: c.reputation, squad: [],
-      tactics: { formation: c.formation && FORMATIONS[c.formation] ? c.formation : '4-4-2', mentality: 0, pressing: 1 },
-      finance: { ...c.finance }, lineup: null,
+
+    // 2부가 아직 게임에 없음: 1부는 실제 다음 시즌 승격 구단 수만큼 아래에서 강등
+    if (!realTop) { newMembers[top] = topCur; continue; }
+    const promoted = realTop.filter((c) => !topCur.includes(c));
+    const down: string[] = [];
+    for (let i = topOrder.length - 1; i >= 0 && down.length < promoted.length; i--) {
+      // 내려갈 2부가 없으면 내 구단은 잔류
+      if (topOrder[i] === w.userClubId && !realSecond) { report.userKept = true; continue; }
+      down.push(topOrder[i]);
+    }
+    const topNext = [...topCur.filter((c) => !down.includes(c)), ...promoted];
+    newMembers[top] = topNext;
+    report.promoted[top] = promoted; report.relegated[top] = down;
+    for (const c of promoted) if (w.clubs[c]) w.clubs[c].league = top;
+    if (realSecond) {
+      // 이번 시즌부터 2부 리그 시작: 실제 2부 구단 + 게임에서 강등된 구단, 크기는 실제에 맞춤
+      handled.add(second);
+      let secNext = [...new Set([...down, ...realSecond.filter((c) => !topNext.includes(c))])];
+      while (secNext.length > realSecond.length) { const c = [...secNext].reverse().find((x) => !down.includes(x)); if (!c) break; secNext = secNext.filter((x) => x !== c); }
+      newMembers[second] = secNext;
+      for (const c of down) w.clubs[c].league = second;
+      for (const c of secNext) if (w.clubs[c]) w.clubs[c].league = second;
+    } else for (const c of down) w.clubs[c].league = `${top}-lower`;
+  }
+  for (const [lgId, comp] of Object.entries(w.competitions)) if (!handled.has(lgId) && !newMembers[lgId]) newMembers[lgId] = Object.keys(comp.table);
+
+  // 새로 들어오는 구단 만들기 (실제 다음 시즌 데이터로)
+  const dataClub = new Map(next.leagues.flatMap((lg) => lg.clubs.map((c) => [c.club, { lg: lg.id, c }] as const)));
+  for (const [lgId, members] of Object.entries(newMembers)) for (const id of members) {
+    const existing = w.clubs[id];
+    if (existing) { existing.league = lgId; continue; }
+    const d = dataClub.get(id);
+    if (!d) continue;
+    w.clubs[id] = {
+      id, league: lgId, reputation: d.c.reputation, squad: [],
+      tactics: { formation: d.c.formation && FORMATIONS[d.c.formation] ? d.c.formation : '4-4-2', mentality: 0, pressing: 1 },
+      finance: { ...d.c.finance }, lineup: null,
     };
   }
+  for (const [lgId, members] of Object.entries(newMembers)) newMembers[lgId] = members.filter((id) => w.clubs[id]);
 
-  // 기존 구단: 명성 · 재정은 실제 다음 시즌 값이 있으면 따른다
-  for (const lg of next.leagues) for (const c of lg.clubs) {
-    const club = w.clubs[c.club];
-    if (!club) continue;
-    club.reputation = c.reputation;
-    if (c.club !== w.userClubId) club.finance = { ...c.finance };
-    else report.board = { ...boardReview(w, c.finance, to), prize: w.lastPrize ?? 0 };
+  // 명성 · 재정: 실제 다음 시즌 값이 있으면 따르되, 게임 속 리그 수준이 실제와 다르면 보정
+  //  (1단계 올라가면 명성 +4 · 재정 ×2, 내려가면 명성 −5 · 재정 ×0.45)
+  const adjust = (fin: { balance: number; transferBudget: number; wageBudget: number }, steps: number) => {
+    const f = steps > 0 ? 2 ** steps : 0.45 ** -steps;
+    return steps ? { balance: Math.round(fin.balance * (steps > 0 ? 1 : 0.8)), transferBudget: Math.round(fin.transferBudget * f), wageBudget: Math.round(fin.wageBudget * f) } : fin;
+  };
+  for (const club of Object.values(w.clubs)) {
+    const d = dataClub.get(club.id);
+    const baseLevel = d ? levelOf(d.lg) : prevLevel.get(club.id) ?? levelOf(club.league);
+    const steps = baseLevel - levelOf(club.league);    // 양수 = 실제(또는 지난 시즌)보다 위 리그
+    if (!d && !steps) continue;
+    const rep = (d ? d.c.reputation : club.reputation) + (steps > 0 ? 4 * steps : 5 * steps);
+    club.reputation = Math.max(30, Math.min(99, rep));
+    const fin = adjust(d ? d.c.finance : club.finance, steps);
+    if (club.id !== w.userClubId) club.finance = { ...fin };
+    else report.board = { ...boardReview(w, fin, to), prize: w.lastPrize ?? 0 };
   }
 
   // ── 선수 ────────────────────────────────────────

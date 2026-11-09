@@ -17,6 +17,8 @@ const { CLUBS_FILE } = require('./clubs');
 const model = require('./model');
 
 const ALIASES_FILE = path.join(CANONICAL_DIR, 'club-aliases.json'); // { "정규화된 위키백과 제목": "club-id" }
+// 같은 구단이 시대별로 Wikidata 항목이 나뉜 경우 (사람이 확인한 것만): 여러 항목이 같은 ID로 연결돼도 허용하고 소속 기록을 합친다
+const SAME_FILE = path.join(CANONICAL_DIR, 'club-same.json'); // ["club-id", ...]
 const STRIP = new Set(['fc', 'cf', 'cd', 'rcd', 'sd', 'ud', 'ca', 'rc', 'ac', 'as', 'ss', 'us', 'ssc', 'afc', 'sc', 'bc', 'acf', 'uc',
   'cfc', 'calcio', 'club', 'de', 'del', 'futbol', 'vfb', 'vfl', 'fsv', 'bsc', 'rb', 'msv', 'spvgg', 'osc', 'ogc', 'hsc', 'aj', 'sco',
   'es', 'fco', 'acr', 'acn', 'ssd', 'sv', 'tsg', 'f', 'c', 'a', 'l', 'r']);
@@ -144,7 +146,8 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
     else if (n < typical) incomplete.push(s);
   }
   const wikiTeams = async (season) => {
-    const title = `${season.slice(0, 4)}–${season.slice(5)} ${cfg.enwiki}`;
+    const name = typeof cfg.enwiki === 'function' ? cfg.enwiki(+season.slice(0, 4)) : cfg.enwiki;
+    const title = `${season.slice(0, 4)}–${season.slice(5)} ${name}`;
     // 순위표 템플릿의 구단만 사용 (문서 전체 링크는 다른 시즌 구단이 섞임)
     const { teams: tableTitles } = await wikipedia.seasonTableTeams(title);
     const canon = await wikipedia.resolveTitles(tableTitles);
@@ -193,7 +196,8 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   }
   const idCount = new Map();
   for (const id of teamIds.values()) idCount.set(id, (idCount.get(id) || 0) + 1);
-  const clashes = [...idCount].filter(([, n]) => n > 1).map(([id]) => id);
+  const same = new Set(readJson(SAME_FILE, []));
+  const clashes = [...idCount].filter(([id, n]) => n > 1 && !same.has(id)).map(([id]) => id);
   log(`② 구단 ${teamIds.size}개 연결 · ${JSON.stringify({ ...clubReport, new: clubReport.new.length })}`);
   if (clubReport.new.length) log(`  고정 목록에 없는 구단: ${clubReport.new.join(', ')}`);
   if (clashes.length) throw new Error(`서로 다른 구단이 같은 ID로 연결됨: ${clashes.join(', ')} — club-aliases.json에 지정 필요`);
@@ -202,7 +206,7 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   log('③ 구단 정보·소속 기록 수집');
   const clubInfo = await wikidata.clubProfiles([...teamIds.keys()]);
   const memberships = {};
-  for (const [q, id] of teamIds) memberships[id] = await wikidata.clubMemberships(q);
+  for (const [q, id] of teamIds) memberships[id] = [...(memberships[id] ?? []), ...await wikidata.clubMemberships(q)];
 
   // ④ 시즌별 후보 선수 → 신상 조회
   //   2007/08 이후는 위키백과 구단 문서의 그 시점 판(1군 선수단 표)이 1순위, 16명 미만이면 Wikidata 소속 기록

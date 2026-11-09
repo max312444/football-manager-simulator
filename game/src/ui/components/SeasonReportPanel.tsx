@@ -82,10 +82,19 @@ export function SeasonReportPanel() {
 
           <section className="bg-ink-850 px-8 py-6">
             <h3 className="mb-4 text-[13px] font-semibold text-mid">강등 · 승격</h3>
+            {(() => {
+              const me = w.userClubId;
+              const up = Object.entries(r.promoted).find(([, cs]) => cs.includes(me));
+              const down = Object.entries(r.relegated).find(([, cs]) => cs.includes(me));
+              if (!up && !down) return null;
+              return <div className={`mb-4 rounded-lg px-4 py-3 text-[14px] font-semibold ${up ? 'bg-neon-ghost text-neon' : 'bg-red/10 text-red'}`}>
+                {up ? `▲ ${clubKo(me)} ${lgName(up[0])} 승격!` : `▼ ${clubKo(me)} ${lgName(w.clubs[me].league)}로 강등`}
+              </div>;
+            })()}
             <div className="space-y-4">
               {Object.keys(r.relegated).map((lg) => (
                 <div key={lg}>
-                  <div className="mb-2 text-[12px] text-lo">{lgName(lg)}</div>
+                  <div className="mb-2 text-[12px] text-lo">{lgName(lg)}{/2$/.test(lg) ? ' · ▼ 3부로 강등 · ▲ 3부에서 승격' : /1$/.test(lg) && r.relegated[lg].length ? ' · ▼ 2부로 강등 · ▲ 2부에서 승격' : ''}</div>
                   <div className="flex flex-wrap gap-x-4 gap-y-2 text-[13px]">
                     {r.relegated[lg].map((c) => <span key={c} className="flex items-center gap-2 text-mid"><span className="text-red">▼</span>{clubKo(c)}</span>)}
                     {r.promoted[lg].map((c) => <span key={c} className="flex items-center gap-2"><span className="text-neon">▲</span>{clubKo(c)}</span>)}
@@ -94,7 +103,7 @@ export function SeasonReportPanel() {
                 </div>
               ))}
               {!Object.keys(r.relegated).length && <div className="text-[13px] text-lo">실제 데이터가 끝난 시즌이라 리그 구성이 그대로 유지됩니다</div>}
-              {r.userKept && <div className="text-[12px] text-amber">강등권이었지만 2부 리그가 아직 없어 잔류 처리됐습니다</div>}
+              {r.userKept && <div className="text-[12px] text-amber">강등권이었지만 아래 리그가 게임에 없어 잔류 처리됐습니다</div>}
             </div>
           </section>
 

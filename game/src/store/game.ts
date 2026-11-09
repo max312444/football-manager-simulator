@@ -20,9 +20,9 @@ import { readSave, writeSave } from './save';
 import type { Ceremony } from '../ui/components/TransferCeremony';
 import type { Award } from '../engine/awards';
 
-/** 시즌 데이터 불러오기: 그 시즌 데이터가 있는 1부 리그 전부 */
+/** 시즌 데이터 불러오기: 그 시즌 데이터가 있는 1부 · 2부 리그 전부 */
 async function loadSeasonInput(season: string, mustInclude?: string): Promise<SeasonInput> {
-  const ids = leagues.filter((l) => l.level === 1 && availableSeasons(l.id).includes(season)).map((l) => l.id);
+  const ids = leagues.filter((l) => l.level <= 2 && availableSeasons(l.id).includes(season)).map((l) => l.id);
   if (mustInclude && !ids.includes(mustInclude) && availableSeasons(mustInclude).includes(season)) ids.unshift(mustInclude);
   const loaded = await Promise.all(ids.map(async (id) => ({ id, clubs: (await loadLeagueSeason(season, id)).clubs })));
   return { season, leagues: loaded };

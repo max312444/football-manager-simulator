@@ -38,6 +38,12 @@ module.exports = {
     ita1: { wikidata: 'Q15804', nation: 'ITA', level: 1, enwiki: 'Serie A' },
     ger1: { wikidata: 'Q82595', nation: 'GER', level: 1, enwiki: 'Bundesliga' },
     fra1: { wikidata: 'Q13394', nation: 'FRA', level: 1, enwiki: 'Ligue 1' },
+    // 2부 리그: 시대마다 위키백과 시즌 문서 이름이 다르다 (시즌 시작 연도 기준)
+    eng2: { wikidata: 'Q19510', nation: 'ENG', level: 2, enwiki: (y) => (y >= 2016 ? 'EFL Championship' : y >= 2004 ? 'Football League Championship' : 'Football League First Division') },
+    esp2: { wikidata: 'Q35615', nation: 'ESP', level: 2, enwiki: 'Segunda División' },
+    ita2: { wikidata: 'Q194052', nation: 'ITA', level: 2, enwiki: 'Serie B' },
+    ger2: { wikidata: 'Q152665', nation: 'GER', level: 2, enwiki: '2. Bundesliga' },
+    fra2: { wikidata: 'Q217374', nation: 'FRA', level: 2, enwiki: (y) => (y >= 2002 ? 'Ligue 2' : 'French Division 2') },
   },
   FIRST_SEASON: 2000,
   LAST_SEASON: 2025,

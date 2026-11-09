@@ -10,7 +10,7 @@ import { Icon } from '../components/Icon';
 import { ConditionIcon, PosTag } from '../components/bits';
 import { MENTALITY, PRESSING } from '../views/TacticsView';
 import { MatchPrep } from './MatchPrep';
-import { ratingTone } from '../format';
+import { ratingTone, roundLabel } from '../format';
 
 const SPEEDS = [{ label: '보통', ms: 1100 }, { label: '빠르게', ms: 450 }, { label: '매우 빠르게', ms: 150 }];
 
@@ -59,7 +59,7 @@ export function MatchScreen() {
         <div className="relative mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <TeamHead club={s.home.clubId} mine={m.side === 'home'} align="right" />
           <div className="flex flex-col items-center">
-            <div className="text-[11px] font-semibold text-lo">{lg} · {m.fixture.round}라운드</div>
+            <div className="text-[11px] font-semibold text-lo">{lg} · {roundLabel(m.fixture)}</div>
             <div className="led mt-2 text-[56px] leading-none font-medium text-neon">
               {goalsSoFar.home}<span className="mx-3 text-lo">:</span>{goalsSoFar.away}
             </div>

@@ -7,7 +7,7 @@
 const crypto = require('crypto');
 
 const MODEL_VERSION = 'pipeline-derived-v1';
-const LEAGUE_STRENGTH = { eng1: 1.0, esp1: 1.0, ita1: 0.98, ger1: 0.97, fra1: 0.93 };
+const LEAGUE_STRENGTH = { eng1: 1.0, esp1: 1.0, ita1: 0.98, ger1: 0.97, fra1: 0.93, eng2: 0.86, ger2: 0.83, esp2: 0.82, ita2: 0.82, fra2: 0.8 };
 
 const POSITION_WEIGHTS = {
   // 포지션별 능력치 편차 (OVR 대비 +/-)

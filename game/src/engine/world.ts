@@ -17,6 +17,7 @@ import { emptyLog, traitMonth } from './traits';
 import type { Lineup } from './squad';
 import { boostMonth, matchFans } from './awards';
 import { contractCheck } from './contract';
+import { playoffDay } from './pyramid';
 
 export interface SeasonInput {
   season: string;
@@ -140,7 +141,7 @@ export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?
 export function applyMatch(w: World, f: Fixture, m: MatchState) {
   const s = m.summary;
   f.result = s;
-  applyResult(w.competitions[f.league].table, f.home, f.away, s.homeGoals, s.awayGoals);
+  if (!f.stage) applyResult(w.competitions[f.league].table, f.home, f.away, s.homeGoals, s.awayGoals);
   gateIncome(w, f.home, f.away);
   matchFans(w, f.home, f.away, s.homeGoals, s.awayGoals);
   if (s.pom) { const p = w.players[s.pom]; p.stats.pom = (p.stats.pom ?? 0) + 1; p.morale = Math.min(100, p.morale + 5); }
@@ -229,7 +230,13 @@ export function advanceDay(w: World): GameEvent[] {
         events.push({ type: 'injury', date: today, player: p.id, club: p.clubId ?? '', days: p.injury?.days ?? 0, label: p.injury?.label ?? '' });
       }
     }
-    if (!comp.fixtures.some((f) => !f.result) && !w.inbox.some((e) => e.type === 'seasonEnd' && e.league === comp.id)) {
+  }
+
+  // 승격 · 승강 플레이오프 대진 (정규 시즌이 끝난 리그)
+  playoffDay(w);
+  // 리그 종료 (플레이오프까지 모두 끝난 리그)
+  for (const comp of Object.values(w.competitions)) {
+    if (!comp.fixtures.some((f) => !f.result) && !w.inbox.some((e) => e.type === 'seasonEnd' && e.league === comp.id && e.date >= seasonStart(comp.season))) {
       events.push({ type: 'seasonEnd', date: today, league: comp.id, champion: sortTable(comp.table)[0].club });
     }
   }

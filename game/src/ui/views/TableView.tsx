@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useApp } from '../../store/app';
 import { sortTable } from '../../engine/standings';
+import { levelOf, pairRule, nationOf, zoneOf, type Tie } from '../../engine/pyramid';
 import { clubKo, leagues } from '../../data/db';
 import { Crest } from '../components/Crest';
 import { ResultDot } from '../components/bits';
@@ -16,7 +17,16 @@ export function LeagueTable({ league, compact = false }: { league: string; compa
   const n = rows.length;
   const me = rows.findIndex((r) => r.club === w.userClubId);
   const shown = compact ? rows.map((r, i) => ({ r, i })).filter(({ i }) => (started ? i < 3 || Math.abs(i - me) <= 2 || i === n - 1 : i < 5 || Math.abs(i - me) <= 1 || i === n - 1)) : rows.map((r, i) => ({ r, i }));
-  const zone = (i: number) => (!started ? 'bg-transparent' : i < 4 ? 'bg-neon' : i === 4 ? 'bg-sky' : i >= n - 3 ? 'bg-red' : 'bg-transparent');
+  const season = w.competitions[league].season;
+  const second = levelOf(league) === 2;
+  const zone = (i: number) => {
+    if (!started) return 'bg-transparent';
+    const z = zoneOf(league, season, i + 1, n);
+    if (z === 'down') return 'bg-red';
+    if (z === 'barrage') return 'bg-amber';
+    if (second) return z === 'up' ? 'bg-neon' : z === 'playoff' ? 'bg-sky' : 'bg-transparent';
+    return i < 4 ? 'bg-neon' : i === 4 ? 'bg-sky' : 'bg-transparent';   // 1부: 유럽 대회 (대회는 아직 없음)
+  };
 
   return (
     <table className="w-full border-collapse text-[13px]">
@@ -74,13 +84,53 @@ export function TableView() {
             {leagues.find((l) => l.id === id)?.ko ?? id}
           </button>
         ))}
-        <div className="ml-auto flex items-center gap-4 text-[12px] text-lo">
-          <span className="flex items-center gap-2"><span className="h-2.5 w-0.5 rounded bg-neon" />챔피언스리그</span>
-          <span className="flex items-center gap-2"><span className="h-2.5 w-0.5 rounded bg-sky" />유로파리그</span>
-          <span className="flex items-center gap-2"><span className="h-2.5 w-0.5 rounded bg-red" />강등</span>
-        </div>
+        <Legend league={league} />
       </div>
-      <div className="panel min-h-0 flex-1 overflow-auto"><LeagueTable league={league} /></div>
+      <div className="flex min-h-0 flex-1 gap-4">
+        <div className="panel min-h-0 flex-1 overflow-auto"><LeagueTable league={league} /></div>
+        {w.competitions[league]?.playoff?.ties.length ? <Playoffs league={league} /> : null}
+      </div>
     </div>
+  );
+}
+
+function Legend({ league }: { league: string }) {
+  const w = useWorld();
+  const n = nationOf(league);
+  const r = n ? pairRule(n, w.competitions[league].season) : null;
+  const item = (cls: string, t: string) => <span key={t} className="flex items-center gap-2"><span className={`h-2.5 w-0.5 rounded ${cls}`} />{t}</span>;
+  const items = levelOf(league) === 2 && r
+    ? [item('bg-neon', `자동 승격 (${r.up}팀)`), r.playoff && item('bg-sky', `승격 플레이오프 (${r.playoff.seeds.join('·')}위)`), r.barrage && !r.playoff && item('bg-amber', `승강 플레이오프 (${r.up + 1}위)`), item('bg-red', `3부 강등 (${r.secondDown}팀)`)]
+    : [item('bg-neon', '챔피언스리그권'), item('bg-sky', '유로파리그권'), r?.barrage && item('bg-amber', '승강 플레이오프'), item('bg-red', r ? `2부 강등 (${r.topDown}팀)` : '강등')];
+  return <div className="ml-auto flex items-center gap-4 text-[12px] text-lo">{items.filter(Boolean)}</div>;
+}
+
+/** 승격 · 승강 플레이오프 대진과 결과 */
+function Playoffs({ league }: { league: string }) {
+  const w = useWorld();
+  const c = w.competitions[league];
+  const st = c.playoff!;
+  const name: Record<Tie['kind'], string> = { semi: '준결승', final: '결승', ladder: '플레이오프', barrage: '승강 플레이오프' };
+  const score = (t: Tie) => t.legs.map((id) => c.fixtures.find((f) => f.id === id)).map((f) => (f?.result ? `${f.home === t.a ? f.result.homeGoals : f.result.awayGoals}-${f.home === t.a ? f.result.awayGoals : f.result.homeGoals}` : '–'));
+  return (
+    <aside className="panel w-[300px] shrink-0 overflow-auto px-5 py-4">
+      <div className="mb-3 text-[13px] font-semibold text-mid">플레이오프</div>
+      <div className="space-y-3">
+        {st.ties.map((t, i) => (
+          <div key={i} className="rounded-lg bg-ink-900 px-3 py-2.5">
+            <div className="mb-1.5 text-[11px] font-semibold text-lo">{name[t.kind]}{t.legs.length === 2 ? ' · 2경기 합산' : ''}</div>
+            {[t.a, t.b].map((id, k) => (
+              <div key={id} className={`flex items-center gap-2 py-0.5 text-[13px] ${t.winner === id ? 'font-semibold text-hi' : t.winner ? 'text-lo' : 'text-mid'} ${id === w.userClubId ? 'text-neon' : ''}`}>
+                <Crest clubId={id} size={14} /><span className="min-w-0 flex-1 truncate">{clubKo(id)}</span>
+                <span className="tnum text-[12px]">{score(t).map((x) => x.split('-')[k]).join(' · ')}</span>
+              </div>
+            ))}
+            {t.winner && <div className="mt-1 text-[11px] text-lo">{t.agg ? `합산 ${t.agg[0]}-${t.agg[1]}` : ''}{t.pens ? ' · 승부차기' : ''}</div>}
+          </div>
+        ))}
+        {st.winner && <div className="text-[12px] text-neon">승격 플레이오프 승자: {clubKo(st.winner)}</div>}
+        {st.barrage && <div className="text-[12px] text-amber">승강 플레이오프: {clubKo(st.barrage.winner)} {st.barrage.winner === st.barrage.top ? '1부 잔류' : '1부 승격'}</div>}
+      </div>
+    </aside>
   );
 }
