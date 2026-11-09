@@ -3,7 +3,7 @@ import { useMemo, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
 import { overall } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
-import { askingPrice, marketValue, nextWindow, wageBill, wageDemand, windowOpen } from '../../engine/transfer';
+import { askingPrice, marketValue, nextWindow, wageBill, wageDemand, wageRoom, windowOpen } from '../../engine/transfer';
 import { clubKo, leagues, playerKo } from '../../data/db';
 import { posGroup } from '../../data/rating';
 import { useGame } from '../../store/game';
@@ -245,7 +245,12 @@ function BuyCard({ p, shortlisted, onShort, onDone }: { p: PlayerState; shortlis
                 {[1, 2, 3, 4, 5].map((y) => <option key={y} value={y}>{y}년</option>)}
               </select>
             </label>
-            <button onClick={doSign} className="h-10 w-full rounded-lg bg-neon text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">계약 제안</button>
+            {(() => {
+              const after = wageRoom(w, w.userClubId) - wage * 1000;
+              return <div className="flex items-center justify-between text-[12px]"><span className="text-lo">계약 후 주급 여유</span><span className={`tnum font-semibold ${after < 0 ? 'text-red' : 'text-mid'}`}>{after < 0 ? `예산 초과 ${money(-after)}` : money(after)}</span></div>;
+            })()}
+            <button onClick={doSign} disabled={wageRoom(w, w.userClubId) - wage * 1000 < 0}
+              className="h-10 w-full rounded-lg bg-neon text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">계약 제안</button>
           </div>
         </Card>
       )}

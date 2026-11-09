@@ -9,7 +9,7 @@ import { availableSeasons, clubs as clubMasters, dataset, leagues, loadLeagueSea
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
-import { completeTransfer, evaluateBid, playerWillJoin, releasePlayer, wageDemand, windowOpen, type BidResult } from '../engine/transfer';
+import { completeTransfer, evaluateBid, playerWillJoin, releasePlayer, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
 import { matchRules, pickLineup } from '../engine/squad';
 import type { Mentality, Pressing } from '../engine/types';
 import { readSave, writeSave } from './save';
@@ -234,6 +234,10 @@ export const useGame = create<GameStore>((set, get) => {
     sign(playerId, fee, wage, years) {
       const w = get().world!;
       const p = w.players[playerId];
+      if (p.clubId && !windowOpen(w.season, w.date)) return { ok: false, reason: '이적시장이 닫혀 있습니다 (자유계약 선수만 가능)' };
+      // 주급 한도: 계약 후 주급 합계가 주급 예산을 넘으면 안 됨
+      const room = wageRoom(w, w.userClubId);
+      if (wage > room) return { ok: false, reason: `주급 예산 초과 — 남은 주급 여유 ${Math.max(0, Math.round(room / 1000))}K 유로. 선수를 팔거나 방출해 주급을 줄여야 합니다` };
       const r = playerWillJoin(w, p, w.userClubId, wage);
       if (!r.ok) return r;
       const from = p.clubId;

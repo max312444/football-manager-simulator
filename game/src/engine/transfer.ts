@@ -83,6 +83,8 @@ export function wageDemand(w: World, p: PlayerState): number {
 }
 
 export const wageBill = (w: World, clubId: string) => w.clubs[clubId].squad.reduce((s, id) => s + w.players[id].wage, 0);
+/** 주급 예산에서 남은 여유 (음수면 이미 초과) */
+export const wageRoom = (w: World, clubId: string) => w.clubs[clubId].finance.wageBudget - wageBill(w, clubId);
 
 /** 구단 안에서 능력 순위 (1부터) */
 function rankInClub(w: World, p: PlayerState): number {
