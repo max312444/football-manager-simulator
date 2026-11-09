@@ -79,13 +79,18 @@ const KO_GENERIC = new Set(['유나이티드', '시티', 'FC', 'CF', 'AC', 'AS',
 const EN_GENERIC = new Set(['united', 'city', 'fc', 'cf', 'ac', 'as', 'sc', 'ss', 'ssc', 'us', 'ud', 'cd', 'rc', 'rcd', 'sd', 'ca', 'afc', 'real', 'atletico', 'athletic', 'sporting', 'olympique', 'deportivo', 'racing', 'and', 'hove', 'vfb', 'vfl', 'tsg', 'sv', 'spvgg', 'borussia', 'stade', 'calcio', 'club', 'wanderers', 'rovers', 'albion', 'town', 'county', 'de', 'del', 'la', 'le', 'of', 'the', 'hotspur', '1.', 'fk', 'bk', 'if']);
 /** 이름에서 바꿀 핵심 단어 (흔한 단어 제외, 가장 긴 것) */
 function coreWord(name, generic) {
-  const words = name.split(/\s+/).filter((w) => !generic.has(w.toLowerCase()) && !generic.has(w));
+  const words = name.split(/\s+/).filter((w) => !generic.has(w.toLowerCase()) && !generic.has(w) && !/^[0-9.]+$/.test(w));
   return words.sort((a, b) => b.length - a.length)[0] ?? name.split(/\s+/)[0];
 }
 function parodyClubKo(name, key) {
-  const core = coreWord(name, KO_GENERIC);
+  // 한글 낱말이 있으면 그중에서 고른다 (ACR 같은 약자보다 이름 부분을 바꾸기)
+  const hangul = name.split(/\s+/).filter((w) => /[가-힣]/.test(w)).join(' ');
+  const core = coreWord(hangul || name, KO_GENERIC);
   const out = name.replace(core, parodyKoWord(core, key));
-  return out === name ? name.replace(core, core + '오') : out;
+  if (out !== name) return out;
+  // 한글이 없는 이름(예: SPAL)은 영문 철자를 바꾼다
+  const en = name.replace(core, parodyEnWord(core.length >= 4 ? core : core + 'o', key));
+  return en !== name ? en : name.replace(core, core + '오');
 }
 function parodyClubEn(name, key) {
   const plain = plainAscii(name);
@@ -169,11 +174,17 @@ async function publish({ apply = false, log = console.log } = {}) {
     }
     usedNames.add(en); usedNames.add(ko);
     const core = coreWord(plainAscii(en), EN_GENERIC).replace(/[^A-Za-z]/g, '').toUpperCase();
-    let short = core.slice(0, 3);
-    for (let n = 2; usedShort.has(short); n++) short = core.slice(0, 2) + n;
+    // 약칭: 핵심 단어 앞 세 글자 → 겹치면 첫 글자 + 뒤쪽 글자 조합 → 다른 낱말 머리글자 (숫자는 쓰지 않음)
+    const letters = core.split('');
+    const initials = plainAscii(en).split(/\s+/).map((w) => w[0]).filter((x) => /[A-Za-z]/.test(x)).join('').toUpperCase();
+    const cands = [core.slice(0, 3)];
+    for (let a = 1; a < letters.length; a++) for (let b = a + 1; b < letters.length; b++) cands.push(letters[0] + letters[a] + letters[b]);
+    if (initials.length >= 2) cands.push(initials.slice(0, 3), (initials + core).slice(0, 3));
+    let short = cands.find((x) => x.length === 3 && !usedShort.has(x)) ?? core.slice(0, 3) + usedShort.size;
     usedShort.add(short);
     const crest = crestFor(c);
-    clubMap[c.id] = { id: slug(en), ko, en, short, crest: { ...crest, mark: short } };
+    // 구단 ID는 이름과 무관한 고정 코드 (패러디 이름을 다듬어도 세이브가 깨지지 않게)
+    clubMap[c.id] = { id: 'c' + hash('club:' + c.id).toString(36).padStart(6, '0'), ko, en, short, crest: { ...crest, mark: short } };
   }
 
   // ③ 선수 ID · 이름
@@ -238,6 +249,8 @@ async function publish({ apply = false, log = console.log } = {}) {
     }),
   });
   out.set(path.join('meta', 'nations.json'), readJson(path.join(DATA, 'meta', 'nations.json')));
+  // 데이터 형식 버전: ID 체계가 바뀌면 올린다 (게임이 옛 세이브를 알아보는 데 씀)
+  out.set(path.join('meta', 'version.json'), { idScheme: 2 });
   const koOut = {};
   for (const pm of Object.values(playerMap)) if (pm.ko) koOut[pm.id] = { name: pm.ko, short: pm.ko.split(' ').slice(-1)[0] };
   out.set(path.join('locale', 'ko', 'players.json'), koOut);

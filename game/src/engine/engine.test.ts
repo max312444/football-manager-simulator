@@ -168,3 +168,83 @@ describe('출전 시간과 충성도', () => {
     expect(benchPenalty(10)).toBeGreaterThan(benchPenalty(4));
   });
 });
+
+import { askingPrice, completeTransfer, evaluateBid, marketValue, playerWillJoin, wageDemand, windowOpen } from './transfer';
+import { overall } from './ratings';
+
+describe('이적', () => {
+  it('이적시장 기간: 여름 · 겨울만 열림, 2020/21은 10월 5일까지', () => {
+    expect(windowOpen('2013-14', '2013-07-15')).toBe('summer');
+    expect(windowOpen('2013-14', '2013-09-02')).toBe(null);
+    expect(windowOpen('2013-14', '2014-01-20')).toBe('winter');
+    expect(windowOpen('2013-14', '2014-03-01')).toBe(null);
+    expect(windowOpen('2020-21', '2020-10-01')).toBe('summer');
+  });
+
+  it('몸값: 능력이 높을수록, 같은 능력이면 젊을수록 비쌈 · 제안 판단', () => {
+    const w = createWorld(loadSeason('2025-26', 'eng1'), USER, 21);
+    const others = Object.values(w.players).filter((p) => p.clubId && p.clubId !== USER);
+    const byOvr = [...others].sort((a, b) => overall(b) - overall(a));
+    expect(marketValue(w, byOvr[0])).toBeGreaterThan(marketValue(w, byOvr[byOvr.length - 1]));
+    // 가장 비싼 선수는 수천만~1억 유로대, 같은 능력이면 젊은 선수가 더 비쌈
+    const star = [...others].sort((a, b) => marketValue(w, b) - marketValue(w, a))[0];
+    expect(marketValue(w, star)).toBeGreaterThan(40e6);
+    expect(marketValue(w, star)).toBeLessThan(250e6);
+    const ask = askingPrice(w, star);
+    expect(evaluateBid(w, star, USER, ask * 0.3).decision).toBe('reject');
+    // 중위권 선수는 부르는 값이면 판다
+    const mid = byOvr[Math.floor(byOvr.length / 2)];
+    expect(evaluateBid(w, mid, USER, askingPrice(w, mid)).decision).toBe('accept');
+    expect(playerWillJoin(w, mid, USER, wageDemand(w, mid) * 0.5).ok).toBe(false);
+  });
+
+  it('이적 실행: 선수 · 선수단 · 재정이 맞게 바뀜', () => {
+    const w = createWorld(loadSeason('2025-26', 'eng1'), USER, 22);
+    const p = Object.values(w.players).find((x) => x.clubId && x.clubId !== USER)!;
+    const from = p.clubId!;
+    const fee = 10e6, before = w.clubs[USER].finance.balance;
+    const ev = completeTransfer(w, p, USER, fee, 50000, 3);
+    expect(ev.type).toBe('transfer');
+    expect(p.clubId).toBe(USER);
+    expect(w.clubs[USER].squad).toContain(p.id);
+    expect(w.clubs[from].squad).not.toContain(p.id);
+    expect(w.clubs[USER].finance.balance).toBe(before - fee);
+    expect(p.wage).toBe(50000);
+  });
+
+  it('여름 이적시장 동안 AI 이적이 적당히 일어나고 선수단이 꼬이지 않음', () => {
+    const w = createWorld(loadSeason('2025-26', 'eng1'), USER, 23);
+    const before = new Map(Object.values(w.players).map((p) => [p.id, p.clubId]));
+    while (w.date <= '2025-09-01') advanceDay(w);
+    const moved = Object.values(w.players).filter((p) => before.get(p.id) !== p.clubId).length;
+    expect(moved).toBeGreaterThan(5);
+    expect(moved).toBeLessThan(250);
+    const seen = new Set<string>();
+    for (const c of Object.values(w.clubs)) for (const id of c.squad) {
+      expect(seen.has(id)).toBe(false);
+      seen.add(id);
+      expect(w.players[id].clubId).toBe(c.id);
+    }
+    // 사용자 구단은 AI가 손대지 않음
+    expect(w.clubs[USER].squad.every((id) => before.get(id) === USER)).toBe(true);
+  });
+});
+
+import { performanceFactor } from './transfer';
+
+describe('활약에 따른 몸값', () => {
+  it('잘하면 오르고 못하면 내림, 우승 구단 선수는 오름', () => {
+    const w = createWorld(loadSeason('2025-26', 'eng1'), USER, 31);
+    const p = Object.values(w.players).find((x) => x.clubId === USER && ['ST', 'LW', 'RW', 'AM'].includes(x.pos))!;
+    const base = marketValue(w, p);
+    expect(performanceFactor(w, p)).toBe(1);                    // 기록이 없으면 그대로
+    p.stats = { ...p.stats, apps: 20, subApps: 0, ratingSum: 20 * 7.6, goals: 15, assists: 6 };
+    const hot = marketValue(w, p);
+    expect(hot).toBeGreaterThan(base * 1.3);
+    p.stats = { ...p.stats, apps: 20, subApps: 0, ratingSum: 20 * 6.0, goals: 0, assists: 0 };
+    expect(marketValue(w, p)).toBeLessThan(base);
+    p.stats = { ...p.stats, apps: 0, subApps: 0, ratingSum: 0, goals: 0, assists: 0 };
+    w.history.push({ season: '2024-25', league: 'eng1', table: [], champion: USER, topScorer: null });
+    expect(marketValue(w, p)).toBeGreaterThan(base);
+  });
+});

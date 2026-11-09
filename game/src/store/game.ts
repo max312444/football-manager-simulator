@@ -5,13 +5,15 @@ import type { Fixture, GameEvent, Side, Tactics, World } from '../engine/types';
 import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, type SeasonInput } from '../engine/world';
 import { playToEnd, setTactics, step, substitute, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
-import { availableSeasons, dataset, leagues, loadLeagueSeason, realAvailable, setDataset } from '../data/db';
+import { availableSeasons, clubs as clubMasters, dataset, leagues, loadLeagueSeason, realAvailable, setDataset } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
+import { completeTransfer, evaluateBid, playerWillJoin, releasePlayer, wageDemand, windowOpen, type BidResult } from '../engine/transfer';
 import { matchRules, pickLineup } from '../engine/squad';
 import type { Mentality, Pressing } from '../engine/types';
 import { readSave, writeSave } from './save';
+import type { Ceremony } from '../ui/components/TransferCeremony';
 
 /** 시즌 데이터 불러오기: 그 시즌 데이터가 있는 1부 리그 전부 */
 async function loadSeasonInput(season: string, mustInclude?: string): Promise<SeasonInput> {
@@ -63,6 +65,11 @@ interface GameStore {
   lastEvents: GameEvent[];
   seasonReport: SeasonReport | null;
   savedAt: string | null;
+  /** 불러오기 실패 이유 (화면 안내용) */
+  loadError: string | null;
+  /** 이적 확정 연출 */
+  ceremony: Ceremony | null;
+  closeCeremony(): void;
   nextSeason(): Promise<void>;
   dismissReport(): void;
   save(slot: string): Promise<void>;
@@ -73,6 +80,14 @@ interface GameStore {
   updateDraft(change: Partial<MatchDraft>): void;
   resetDraft(): void;
   confirmLineup(): void;
+  /** 이적: 구단에 이적료 제안 (수락되면 계약 협상 단계로) */
+  bid(playerId: string, fee: number): BidResult & { blocked?: string };
+  /** 이적: 선수에게 계약 제안 (fee는 합의된 이적료, 자유계약이면 0) */
+  sign(playerId: string, fee: number, wage: number, years: number): { ok: boolean; reason: string };
+  toggleShortlist(playerId: string): void;
+  toggleTransferList(playerId: string): void;
+  release(playerId: string): void;
+  answerOffer(offerId: string, accept: boolean): string;
   stepMatch(n?: number): void;
   changeTactics(t: Partial<Tactics>): void;
   sub(outId: string, inId: string): boolean;
@@ -84,7 +99,9 @@ interface GameStore {
 export const useGame = create<GameStore>((set, get) => {
   const bump = () => set((s) => ({ rev: s.rev + 1 }));
   return {
-    world: null, rev: 0, loading: false, match: null, lastEvents: [], seasonReport: null, savedAt: null,
+    world: null, rev: 0, loading: false, match: null, lastEvents: [], seasonReport: null, savedAt: null, loadError: null, ceremony: null,
+
+    closeCeremony() { set({ ceremony: null }); },
 
     async newGame(season, league, clubId) {
       set({ loading: true });
@@ -206,6 +223,75 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
     },
 
+    bid(playerId, fee) {
+      const w = get().world!;
+      const p = w.players[playerId];
+      if (p.clubId && !windowOpen(w.season, w.date)) return { decision: 'reject', ask: 0, reason: '', blocked: '이적시장이 닫혀 있어 다른 구단 선수는 영입할 수 없습니다 (자유계약 선수는 가능)' };
+      if (p.clubId && fee > w.clubs[w.userClubId].finance.transferBudget) return { decision: 'reject', ask: 0, reason: '', blocked: '이적 예산이 부족합니다' };
+      return evaluateBid(w, p, w.userClubId, fee);
+    },
+
+    sign(playerId, fee, wage, years) {
+      const w = get().world!;
+      const p = w.players[playerId];
+      const r = playerWillJoin(w, p, w.userClubId, wage);
+      if (!r.ok) return r;
+      const from = p.clubId;
+      const ev = completeTransfer(w, p, w.userClubId, fee, wage, years);
+      w.inbox.push(ev);
+      set({ ceremony: { player: p.id, playerName: p.name, from, to: w.userClubId, fee, wage, years, kind: 'in' } });
+      autosave(w);
+      bump();
+      return { ok: true, reason: '계약을 마쳤습니다' };
+    },
+
+    toggleShortlist(playerId) {
+      const w = get().world!;
+      const s = (w.shortlist ??= []);
+      w.shortlist = s.includes(playerId) ? s.filter((x) => x !== playerId) : [...s, playerId];
+      bump();
+    },
+
+    toggleTransferList(playerId) {
+      const w = get().world!;
+      const s = (w.transferList ??= []);
+      w.transferList = s.includes(playerId) ? s.filter((x) => x !== playerId) : [...s, playerId];
+      autosave(w);
+      bump();
+    },
+
+    release(playerId) {
+      const w = get().world!;
+      releasePlayer(w, w.players[playerId]);
+      const c = w.clubs[w.userClubId];
+      if (c.lineup) c.lineup = { starters: c.lineup.starters.map((x) => (x === playerId ? null : x)), bench: c.lineup.bench.filter((x) => x !== playerId) };
+      autosave(w);
+      bump();
+    },
+
+    answerOffer(offerId, accept) {
+      const w = get().world!;
+      const o = (w.offers ?? []).find((x) => x.id === offerId);
+      if (!o) return '이미 끝난 제안입니다';
+      w.offers = (w.offers ?? []).filter((x) => x.id !== offerId);
+      let msg = '제안을 거절했습니다';
+      if (accept) {
+        const p = w.players[o.player];
+        // 사는 구단은 선수가 원하는 주급을 맞춰 준다
+        const wage = wageDemand(w, p);
+        const r = playerWillJoin(w, p, o.from, wage);
+        if (!r.ok) msg = `선수가 이적을 원하지 않아 무산됐습니다 (${r.reason})`;
+        else {
+          w.inbox.push(completeTransfer(w, p, o.from, o.fee, wage, 3));
+          set({ ceremony: { player: p.id, playerName: p.name, from: w.userClubId, to: o.from, fee: o.fee, wage, years: 3, kind: 'out' } });
+          msg = `이적이 성사됐습니다 · 이적료 ${Math.round(o.fee / 1e5) / 10}M 유로`;
+        }
+      }
+      autosave(w);
+      bump();
+      return msg;
+    },
+
     async nextSeason() {
       const w = get().world;
       if (!w || !seasonOver(w)) return;
@@ -238,6 +324,12 @@ export const useGame = create<GameStore>((set, get) => {
         setDataset(need);
         return false;
       }
+      // 데이터 형식이 바뀌기 전에 만든 세이브 (구단을 찾을 수 없음)
+      if (!clubMasters.has(world.userClubId) || !Object.keys(world.clubs).every((id) => clubMasters.has(id) || !world.competitions[world.clubs[id].league])) {
+        set({ loadError: '이전 형식의 데이터로 만든 세이브라 불러올 수 없습니다. 새 게임으로 시작해 주세요.' });
+        return false;
+      }
+      set({ loadError: null });
       set({ world, match: null, lastEvents: [], seasonReport: null });
       bump();
       return true;

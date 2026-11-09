@@ -1,0 +1,746 @@
+{
+  "club": "c83d96l",
+  "estimated": true,
+  "facilities": {
+    "training": 4,
+    "youth": 4
+  },
+  "finance": {
+    "balance": 40000000,
+    "transferBudget": 40000000,
+    "wageBudget": 2600000
+  },
+  "formation": "4-4-2",
+  "league": "eng1",
+  "reputation": 85,
+  "season": "2011-12",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 60,
+        "han": 64,
+        "ldr": 50,
+        "one": 66,
+        "pac": 50,
+        "pas": 56,
+        "pos": 62,
+        "ref": 68,
+        "sta": 58,
+        "str": 66,
+        "vis": 48
+      },
+      "birth": "1982-03-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0aqhpf9",
+      "name": "Brad Junes",
+      "nation": "AUS",
+      "number": 1,
+      "pos": "GK",
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 80,
+        "com": 84,
+        "han": 82,
+        "ldr": 80,
+        "one": 82,
+        "pac": 58,
+        "pas": 78,
+        "pos": 84,
+        "ref": 84,
+        "sta": 66,
+        "str": 74,
+        "vis": 70
+      },
+      "birth": "1982-08-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1kj1t1w",
+      "name": "Pepe Raina",
+      "nation": "ESP",
+      "number": 25,
+      "pos": "GK",
+      "traits": [
+        "sweeper_keeper"
+      ],
+      "wage": 100000
+    },
+    {
+      "attrs": {
+        "aer": 70,
+        "com": 62,
+        "han": 68,
+        "ldr": 56,
+        "one": 68,
+        "pac": 44,
+        "pas": 60,
+        "pos": 66,
+        "ref": 72,
+        "sta": 56,
+        "str": 72,
+        "vis": 52
+      },
+      "birth": "1979-10-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "fullName": "Alexander Doni",
+      "height": 193,
+      "id": "p050r2fy",
+      "name": "Duni",
+      "nation": "BRA",
+      "number": 32,
+      "pos": "GK",
+      "verify": true,
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 64,
+        "com": 72,
+        "dri": 80,
+        "ldr": 56,
+        "pac": 84,
+        "pas": 76,
+        "pos": 66,
+        "sho": 62,
+        "sta": 80,
+        "str": 72,
+        "tac": 72,
+        "vis": 68
+      },
+      "birth": "1984-08-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 182,
+      "id": "p1ck0uz0",
+      "name": "Glen Johnsun",
+      "nation": "ENG",
+      "number": 2,
+      "pos": "RB",
+      "wage": 120000
+    },
+    {
+      "attrs": {
+        "aer": 68,
+        "com": 70,
+        "dri": 72,
+        "ldr": 58,
+        "pac": 84,
+        "pas": 70,
+        "pos": 70,
+        "sho": 50,
+        "sta": 84,
+        "str": 82,
+        "tac": 76,
+        "vis": 60
+      },
+      "birth": "1986-01-01",
+      "contract": "2016-06-30",
+      "foot": "L",
+      "height": 184,
+      "id": "p1u59o6v",
+      "name": "Jose Enriqua",
+      "nation": "ESP",
+      "number": 3,
+      "pos": "LB",
+      "wage": 65000
+    },
+    {
+      "attrs": {
+        "aer": 82,
+        "com": 78,
+        "dri": 68,
+        "ldr": 72,
+        "pac": 70,
+        "pas": 78,
+        "pos": 80,
+        "sho": 56,
+        "sta": 72,
+        "str": 78,
+        "tac": 82,
+        "vis": 70
+      },
+      "birth": "1984-12-01",
+      "contract": "2014-06-30",
+      "foot": "L",
+      "height": 191,
+      "id": "p12eyg7e",
+      "name": "Daniel Aggar",
+      "nation": "DEN",
+      "number": 5,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 70000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 78,
+        "dri": 90,
+        "ldr": 66,
+        "pac": 82,
+        "pas": 82,
+        "pos": 50,
+        "sho": 86,
+        "sta": 86,
+        "str": 74,
+        "tac": 46,
+        "vis": 84
+      },
+      "birth": "1987-01-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 182,
+      "id": "p1m7y5w3",
+      "name": "Luis Suaraz",
+      "nation": "URU",
+      "number": 7,
+      "pos": "ST",
+      "traits": [
+        "flair",
+        "engine"
+      ],
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 70,
+        "com": 84,
+        "dri": 80,
+        "ldr": 90,
+        "pac": 70,
+        "pas": 86,
+        "pos": 70,
+        "sho": 86,
+        "sta": 76,
+        "str": 78,
+        "tac": 68,
+        "vis": 86
+      },
+      "birth": "1980-05-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p1iwnk3r",
+      "name": "Steven Garrard",
+      "nation": "ENG",
+      "number": 8,
+      "pos": "CM",
+      "traits": [
+        "leader",
+        "long_shot",
+        "big_game"
+      ],
+      "wage": 140000
+    },
+    {
+      "attrs": {
+        "aer": 90,
+        "com": 68,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 64,
+        "pos": 46,
+        "sho": 76,
+        "sta": 70,
+        "str": 86,
+        "tac": 40,
+        "vis": 60
+      },
+      "birth": "1989-01-01",
+      "contract": "2016-06-30",
+      "foot": "L",
+      "height": 193,
+      "id": "p108gb85",
+      "looks": {
+        "beard": "full",
+        "hair": "ponytail",
+        "hairColor": "brown"
+      },
+      "name": "Andy Cerroll",
+      "nation": "ENG",
+      "number": 9,
+      "pos": "ST",
+      "traits": [
+        "target_man",
+        "aerial_threat"
+      ],
+      "wage": 90000
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 76,
+        "dri": 76,
+        "ldr": 64,
+        "pac": 66,
+        "pas": 76,
+        "pos": 56,
+        "sho": 76,
+        "sta": 70,
+        "str": 64,
+        "tac": 52,
+        "vis": 74
+      },
+      "birth": "1981-01-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p09rbk7s",
+      "name": "Maxi Rodriguaz",
+      "nation": "ARG",
+      "number": 11,
+      "pos": "AM",
+      "wage": 65000
+    },
+    {
+      "alt": [
+        "RM"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 66,
+        "dri": 70,
+        "ldr": 58,
+        "pac": 72,
+        "pas": 76,
+        "pos": 64,
+        "sho": 64,
+        "sta": 86,
+        "str": 66,
+        "tac": 66,
+        "vis": 74
+      },
+      "birth": "1990-06-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 182,
+      "id": "p1yv2ua8",
+      "name": "Jordan Handerson",
+      "nation": "ENG",
+      "number": 14,
+      "pos": "CM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 60000
+    },
+    {
+      "attrs": {
+        "aer": 82,
+        "com": 64,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 56,
+        "pas": 60,
+        "pos": 70,
+        "sho": 42,
+        "sta": 66,
+        "str": 78,
+        "tac": 74,
+        "vis": 52
+      },
+      "birth": "1990-10-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 196,
+      "id": "p0hwkcfl",
+      "name": "Sebastian Coetes",
+      "nation": "URU",
+      "number": 16,
+      "pos": "CB",
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 68,
+        "com": 78,
+        "dri": 72,
+        "ldr": 72,
+        "pac": 70,
+        "pas": 72,
+        "pos": 62,
+        "sho": 76,
+        "sta": 90,
+        "str": 76,
+        "tac": 58,
+        "vis": 70
+      },
+      "birth": "1980-07-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p14ru94q",
+      "looks": {
+        "beard": "none",
+        "hair": "short",
+        "hairColor": "blonde"
+      },
+      "name": "Dirk Kuit",
+      "nation": "NED",
+      "number": 18,
+      "pos": "RW",
+      "traits": [
+        "engine",
+        "big_game"
+      ],
+      "wage": 85000
+    },
+    {
+      "alt": [
+        "RW"
+      ],
+      "attrs": {
+        "aer": 50,
+        "com": 70,
+        "dri": 80,
+        "ldr": 56,
+        "pac": 78,
+        "pas": 78,
+        "pos": 48,
+        "sho": 70,
+        "sta": 80,
+        "str": 62,
+        "tac": 40,
+        "vis": 76
+      },
+      "birth": "1984-07-01",
+      "contract": "2015-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p0cp1v67",
+      "name": "Stewart Downyng",
+      "nation": "ENG",
+      "number": 19,
+      "pos": "LW",
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 50,
+        "com": 62,
+        "dri": 62,
+        "ldr": 56,
+        "pac": 64,
+        "pas": 66,
+        "pos": 64,
+        "sho": 52,
+        "sta": 80,
+        "str": 64,
+        "tac": 72,
+        "vis": 60
+      },
+      "birth": "1988-11-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 168,
+      "id": "p1t8z3ye",
+      "name": "Jay Spearyng",
+      "nation": "ENG",
+      "number": 20,
+      "pos": "DM",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 66,
+        "com": 74,
+        "dri": 66,
+        "ldr": 62,
+        "pac": 66,
+        "pas": 76,
+        "pos": 80,
+        "sho": 52,
+        "sta": 84,
+        "str": 74,
+        "tac": 82,
+        "vis": 68
+      },
+      "birth": "1987-01-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 179,
+      "id": "p1nofuxf",
+      "name": "Lucas Leive",
+      "nation": "BRA",
+      "number": 21,
+      "pos": "DM",
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 70,
+        "com": 56,
+        "dri": 52,
+        "ldr": 48,
+        "pac": 60,
+        "pas": 58,
+        "pos": 62,
+        "sho": 38,
+        "sta": 64,
+        "str": 72,
+        "tac": 68,
+        "vis": 50
+      },
+      "birth": "1991-12-01",
+      "contract": "2015-06-30",
+      "foot": "L",
+      "height": 188,
+      "id": "p0oumi1n",
+      "name": "Danny Wilsun",
+      "nation": "SCO",
+      "number": 22,
+      "pos": "CB",
+      "verify": true,
+      "wage": 15000
+    },
+    {
+      "attrs": {
+        "aer": 78,
+        "com": 82,
+        "dri": 52,
+        "ldr": 90,
+        "pac": 56,
+        "pas": 64,
+        "pos": 86,
+        "sho": 40,
+        "sta": 72,
+        "str": 78,
+        "tac": 82,
+        "vis": 58
+      },
+      "birth": "1978-01-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p19s6wdz",
+      "name": "Jamie Cerragher",
+      "nation": "ENG",
+      "number": 23,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 72,
+        "dri": 66,
+        "ldr": 64,
+        "pac": 50,
+        "pas": 82,
+        "pos": 62,
+        "sho": 72,
+        "sta": 70,
+        "str": 74,
+        "tac": 62,
+        "vis": 82
+      },
+      "birth": "1985-12-01",
+      "contract": "2015-06-30",
+      "foot": "L",
+      "height": 185,
+      "id": "p123zc7v",
+      "name": "Charlie Adem",
+      "nation": "SCO",
+      "number": 26,
+      "pos": "CM",
+      "traits": [
+        "free_kick",
+        "long_shot"
+      ],
+      "wage": 60000
+    },
+    {
+      "attrs": {
+        "aer": 34,
+        "com": 50,
+        "dri": 72,
+        "ldr": 34,
+        "pac": 84,
+        "pas": 54,
+        "pos": 34,
+        "sho": 48,
+        "sta": 66,
+        "str": 46,
+        "tac": 26,
+        "vis": 54
+      },
+      "birth": "1994-12-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 170,
+      "id": "p0bwv4c4",
+      "name": "Raheem Starling",
+      "nation": "ENG",
+      "number": 31,
+      "pos": "RW",
+      "verify": true,
+      "wage": 3000
+    },
+    {
+      "attrs": {
+        "aer": 56,
+        "com": 62,
+        "dri": 66,
+        "ldr": 48,
+        "pac": 64,
+        "pas": 72,
+        "pos": 54,
+        "sho": 66,
+        "sta": 70,
+        "str": 64,
+        "tac": 54,
+        "vis": 72
+      },
+      "birth": "1992-02-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0ungic2",
+      "name": "Jonjo Shelvei",
+      "nation": "ENG",
+      "number": 33,
+      "pos": "CM",
+      "wage": 15000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 62,
+        "dri": 60,
+        "ldr": 52,
+        "pac": 72,
+        "pas": 62,
+        "pos": 66,
+        "sho": 42,
+        "sta": 76,
+        "str": 76,
+        "tac": 72,
+        "vis": 52
+      },
+      "birth": "1990-04-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0m65p5c",
+      "name": "Martin Kelli",
+      "nation": "ENG",
+      "number": 34,
+      "pos": "RB",
+      "wage": 20000
+    },
+    {
+      "attrs": {
+        "aer": 86,
+        "com": 74,
+        "dri": 52,
+        "ldr": 72,
+        "pac": 70,
+        "pas": 62,
+        "pos": 80,
+        "sho": 48,
+        "sta": 76,
+        "str": 86,
+        "tac": 84,
+        "vis": 52
+      },
+      "birth": "1984-12-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p11rfgpp",
+      "looks": {
+        "beard": "none",
+        "hair": "bald"
+      },
+      "name": "Martin Skrtal",
+      "nation": "SVK",
+      "number": 37,
+      "pos": "CB",
+      "wage": 60000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 58,
+        "com": 56,
+        "dri": 58,
+        "ldr": 46,
+        "pac": 70,
+        "pas": 58,
+        "pos": 60,
+        "sho": 40,
+        "sta": 74,
+        "str": 64,
+        "tac": 66,
+        "vis": 50
+      },
+      "birth": "1993-01-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0zx93zq",
+      "name": "Jon Flenagan",
+      "nation": "ENG",
+      "number": 38,
+      "pos": "RB",
+      "verify": true,
+      "wage": 5000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 46,
+        "com": 74,
+        "dri": 78,
+        "ldr": 70,
+        "pac": 82,
+        "pas": 76,
+        "pos": 46,
+        "sho": 80,
+        "sta": 70,
+        "str": 58,
+        "tac": 40,
+        "vis": 74
+      },
+      "birth": "1979-07-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p0ic2ji5",
+      "name": "Craig Bellemy",
+      "nation": "WAL",
+      "number": 39,
+      "pos": "ST",
+      "wage": 50000
+    }
+  ],
+  "stadiumCapacity": 45276
+}

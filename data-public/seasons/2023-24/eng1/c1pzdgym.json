@@ -1,0 +1,850 @@
+{
+  "club": "c1pzdgym",
+  "estimated": true,
+  "facilities": {
+    "training": 5,
+    "youth": 5
+  },
+  "finance": {
+    "balance": 80000000,
+    "transferBudget": 60000000,
+    "wageBudget": 4400000
+  },
+  "formation": "4-2-3-1",
+  "league": "eng1",
+  "reputation": 86,
+  "season": "2023-24",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 77,
+        "com": 73,
+        "han": 73,
+        "ldr": 66,
+        "one": 77,
+        "pac": 53,
+        "pas": 76,
+        "pos": 76,
+        "ref": 77,
+        "sta": 65,
+        "str": 73,
+        "vis": 65
+      },
+      "birth": "1997-11-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 197,
+      "id": "p0yy3t7z",
+      "name": "Robert Sanchaz",
+      "nation": "ESP",
+      "number": 1,
+      "pos": "GK",
+      "wage": 68000
+    },
+    {
+      "attrs": {
+        "aer": 74,
+        "com": 68,
+        "han": 68,
+        "ldr": 56,
+        "one": 74,
+        "pac": 46,
+        "pas": 62,
+        "pos": 72,
+        "ref": 75,
+        "sta": 64,
+        "str": 72,
+        "vis": 56
+      },
+      "birth": "1999-10-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 194,
+      "id": "p15xjzmn",
+      "name": "Đorde Petrovyc",
+      "nation": "SRB",
+      "number": 28,
+      "pos": "GK",
+      "wage": 52000
+    },
+    {
+      "attrs": {
+        "aer": 61,
+        "com": 59,
+        "han": 60,
+        "ldr": 56,
+        "one": 61,
+        "pac": 42,
+        "pas": 55,
+        "pos": 61,
+        "ref": 62,
+        "sta": 53,
+        "str": 58,
+        "vis": 49
+      },
+      "birth": "1992-05-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 194,
+      "id": "p0xij4h7",
+      "name": "Marcus Bettinelly",
+      "nation": "ENG",
+      "number": 13,
+      "pos": "GK",
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 81,
+        "com": 75,
+        "dri": 66,
+        "ldr": 71,
+        "pac": 71,
+        "pas": 74,
+        "pos": 79,
+        "sho": 47,
+        "sta": 74,
+        "str": 80,
+        "tac": 80,
+        "vis": 63
+      },
+      "birth": "1998-03-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 190,
+      "id": "p0ytr0rh",
+      "name": "Axel Disasy",
+      "nation": "FRA",
+      "number": 2,
+      "pos": "CB",
+      "wage": 137000
+    },
+    {
+      "alt": [
+        "LWB"
+      ],
+      "attrs": {
+        "aer": 65,
+        "com": 75,
+        "dri": 75,
+        "ldr": 66,
+        "pac": 79,
+        "pas": 73,
+        "pos": 73,
+        "sho": 54,
+        "sta": 86,
+        "str": 69,
+        "tac": 75,
+        "vis": 68
+      },
+      "birth": "1998-07-01",
+      "contract": "2028-06-30",
+      "foot": "L",
+      "height": 172,
+      "id": "p02rvtqn",
+      "looks": {
+        "beard": "stubble",
+        "hair": "long",
+        "hairColor": "brown"
+      },
+      "name": "Marc Cucorella",
+      "nation": "ESP",
+      "number": 3,
+      "pos": "LB",
+      "wage": 203000
+    },
+    {
+      "attrs": {
+        "aer": 75,
+        "com": 71,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 72,
+        "pas": 69,
+        "pos": 73,
+        "sho": 37,
+        "sta": 68,
+        "str": 76,
+        "tac": 73,
+        "vis": 57
+      },
+      "birth": "2001-03-01",
+      "contract": "2030-06-30",
+      "foot": "L",
+      "height": 194,
+      "id": "p13qxmnb",
+      "name": "Benoit Badiashyle",
+      "nation": "FRA",
+      "number": 5,
+      "pos": "CB",
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 81,
+        "com": 91,
+        "dri": 65,
+        "ldr": 90,
+        "pac": 55,
+        "pas": 79,
+        "pos": 83,
+        "sho": 39,
+        "sta": 64,
+        "str": 82,
+        "tac": 81,
+        "vis": 62
+      },
+      "birth": "1984-09-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 181,
+      "id": "p0fgmmim",
+      "name": "Thiago Silve",
+      "nation": "BRA",
+      "number": 6,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 130000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 79,
+        "com": 76,
+        "dri": 64,
+        "ldr": 67,
+        "pac": 72,
+        "pas": 70,
+        "pos": 78,
+        "sho": 47,
+        "sta": 74,
+        "str": 79,
+        "tac": 77,
+        "vis": 63
+      },
+      "birth": "1999-07-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 190,
+      "id": "p0kdi7uj",
+      "name": "Trevoh Chelobah",
+      "nation": "ENG",
+      "number": 14,
+      "pos": "CB",
+      "wage": 73000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 77,
+        "dri": 77,
+        "ldr": 71,
+        "pac": 83,
+        "pas": 78,
+        "pos": 76,
+        "sho": 58,
+        "sta": 83,
+        "str": 70,
+        "tac": 78,
+        "vis": 70
+      },
+      "birth": "1996-12-01",
+      "contract": "2027-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p1hug0jz",
+      "name": "Ben Chilwall",
+      "nation": "ENG",
+      "number": 21,
+      "pos": "LB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 225000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 65,
+        "com": 78,
+        "dri": 79,
+        "ldr": 73,
+        "pac": 81,
+        "pas": 84,
+        "pos": 77,
+        "sho": 75,
+        "sta": 80,
+        "str": 83,
+        "tac": 79,
+        "vis": 75
+      },
+      "birth": "1999-12-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 182,
+      "id": "p0tdyuk1",
+      "name": "Reece Jamas",
+      "nation": "ENG",
+      "number": 24,
+      "pos": "RB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 177000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 73,
+        "com": 69,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 76,
+        "pos": 71,
+        "sho": 42,
+        "sta": 69,
+        "str": 71,
+        "tac": 74,
+        "vis": 59
+      },
+      "birth": "2003-02-01",
+      "contract": "2029-06-30",
+      "foot": "L",
+      "height": 187,
+      "id": "p1c99mto",
+      "name": "Levi Culwill",
+      "nation": "ENG",
+      "number": 26,
+      "pos": "CB",
+      "wage": 117000
+    },
+    {
+      "attrs": {
+        "aer": 56,
+        "com": 70,
+        "dri": 76,
+        "ldr": 54,
+        "pac": 81,
+        "pas": 74,
+        "pos": 68,
+        "sho": 54,
+        "sta": 79,
+        "str": 65,
+        "tac": 70,
+        "vis": 68
+      },
+      "birth": "2003-05-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 179,
+      "id": "p1etqaal",
+      "name": "Malo Gustu",
+      "nation": "FRA",
+      "number": 27,
+      "pos": "RB",
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 81,
+        "com": 77,
+        "dri": 67,
+        "ldr": 64,
+        "pac": 84,
+        "pas": 72,
+        "pos": 81,
+        "sho": 41,
+        "sta": 75,
+        "str": 81,
+        "tac": 81,
+        "vis": 64
+      },
+      "birth": "2000-12-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 190,
+      "id": "p0sus7lh",
+      "name": "Wesley Fofena",
+      "nation": "FRA",
+      "number": 33,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 123000
+    },
+    {
+      "alt": [
+        "LWB"
+      ],
+      "attrs": {
+        "aer": 52,
+        "com": 68,
+        "dri": 76,
+        "ldr": 52,
+        "pac": 79,
+        "pas": 72,
+        "pos": 62,
+        "sho": 54,
+        "sta": 77,
+        "str": 59,
+        "tac": 66,
+        "vis": 68
+      },
+      "birth": "2002-03-01",
+      "contract": "2025-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p1vu8ay4",
+      "name": "Ian Meatsen",
+      "nation": "NED",
+      "number": 29,
+      "pos": "LB",
+      "wage": 51000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 50,
+        "com": 59,
+        "dri": 58,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 58,
+        "pos": 59,
+        "sho": 41,
+        "sta": 64,
+        "str": 55,
+        "tac": 59,
+        "vis": 53
+      },
+      "birth": "2003-11-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1c4ias0",
+      "name": "Alfie Gilchryst",
+      "nation": "ENG",
+      "number": 42,
+      "pos": "RB",
+      "verify": true,
+      "wage": 11000
+    },
+    {
+      "attrs": {
+        "aer": 61,
+        "com": 79,
+        "dri": 79,
+        "ldr": 77,
+        "pac": 68,
+        "pas": 83,
+        "pos": 75,
+        "sho": 73,
+        "sta": 86,
+        "str": 68,
+        "tac": 71,
+        "vis": 83
+      },
+      "birth": "2001-01-01",
+      "contract": "2032-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0etrurh",
+      "name": "Enzo Fernendez",
+      "nation": "ARG",
+      "number": 8,
+      "pos": "CM",
+      "wage": 189000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 69,
+        "com": 75,
+        "dri": 80,
+        "ldr": 69,
+        "pac": 77,
+        "pas": 81,
+        "pos": 80,
+        "sho": 63,
+        "sta": 89,
+        "str": 78,
+        "tac": 87,
+        "vis": 73
+      },
+      "birth": "2001-11-01",
+      "contract": "2031-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1nja7pc",
+      "name": "Moises Caicado",
+      "nation": "ECU",
+      "number": 25,
+      "pos": "DM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 158000
+    },
+    {
+      "attrs": {
+        "aer": 60,
+        "com": 65,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 60,
+        "pas": 68,
+        "pos": 69,
+        "sho": 55,
+        "sta": 65,
+        "str": 65,
+        "tac": 70,
+        "vis": 66
+      },
+      "birth": "2004-01-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 181,
+      "id": "p05rc0pe",
+      "name": "Romeo Lavya",
+      "nation": "BEL",
+      "number": 45,
+      "pos": "DM",
+      "wage": 86000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 77,
+        "dri": 78,
+        "ldr": 68,
+        "pac": 70,
+        "pas": 80,
+        "pos": 73,
+        "sho": 74,
+        "sta": 94,
+        "str": 70,
+        "tac": 71,
+        "vis": 76
+      },
+      "birth": "2000-02-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 182,
+      "id": "p18mu43x",
+      "name": "Conor Gellagher",
+      "nation": "ENG",
+      "number": 23,
+      "pos": "CM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 53,
+        "com": 62,
+        "dri": 64,
+        "ldr": 55,
+        "pac": 60,
+        "pas": 66,
+        "pos": 58,
+        "sho": 62,
+        "sta": 66,
+        "str": 61,
+        "tac": 60,
+        "vis": 65
+      },
+      "birth": "2003-10-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0ql5c5a",
+      "name": "Carney Chukwoemeka",
+      "nation": "ENG",
+      "number": 17,
+      "pos": "CM",
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 67,
+        "com": 63,
+        "dri": 63,
+        "ldr": 51,
+        "pac": 66,
+        "pas": 65,
+        "pos": 69,
+        "sho": 47,
+        "sta": 74,
+        "str": 76,
+        "tac": 71,
+        "vis": 57
+      },
+      "birth": "2004-03-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 190,
+      "id": "p1i1lcel",
+      "name": "Lesley Ugochukwo",
+      "nation": "FRA",
+      "number": 16,
+      "pos": "DM",
+      "wage": 41000
+    },
+    {
+      "alt": [
+        "RW"
+      ],
+      "attrs": {
+        "aer": 53,
+        "com": 80,
+        "dri": 78,
+        "ldr": 62,
+        "pac": 66,
+        "pas": 78,
+        "pos": 54,
+        "sho": 74,
+        "sta": 70,
+        "str": 61,
+        "tac": 48,
+        "vis": 79
+      },
+      "birth": "2002-05-01",
+      "contract": "2030-06-30",
+      "foot": "L",
+      "height": 189,
+      "id": "p0r9hpzz",
+      "name": "Cole Pelmer",
+      "nation": "ENG",
+      "number": 20,
+      "pos": "AM",
+      "wage": 80000
+    },
+    {
+      "alt": [
+        "RW"
+      ],
+      "attrs": {
+        "aer": 53,
+        "com": 77,
+        "dri": 87,
+        "ldr": 67,
+        "pac": 88,
+        "pas": 76,
+        "pos": 51,
+        "sho": 81,
+        "sta": 78,
+        "str": 62,
+        "tac": 50,
+        "vis": 76
+      },
+      "birth": "1994-12-01",
+      "contract": "2027-06-30",
+      "foot": "R",
+      "height": 170,
+      "id": "p0bwv4c4",
+      "name": "Raheem Starling",
+      "nation": "ENG",
+      "number": 7,
+      "pos": "LW",
+      "wage": 380000
+    },
+    {
+      "attrs": {
+        "aer": 50,
+        "com": 68,
+        "dri": 80,
+        "ldr": 61,
+        "pac": 89,
+        "pas": 73,
+        "pos": 52,
+        "sho": 72,
+        "sta": 76,
+        "str": 64,
+        "tac": 49,
+        "vis": 72
+      },
+      "birth": "2001-01-01",
+      "contract": "2031-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p1g52ve0",
+      "name": "Mykhailo Modryk",
+      "nation": "UKR",
+      "number": 10,
+      "pos": "LW",
+      "traits": [
+        "speedster"
+      ],
+      "wage": 67000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 44,
+        "com": 68,
+        "dri": 82,
+        "ldr": 48,
+        "pac": 83,
+        "pas": 68,
+        "pos": 41,
+        "sho": 72,
+        "sta": 71,
+        "str": 59,
+        "tac": 36,
+        "vis": 66
+      },
+      "birth": "2002-03-01",
+      "contract": "2030-06-30",
+      "foot": "L",
+      "height": 182,
+      "id": "p0l4djyt",
+      "name": "Noni Madueka",
+      "nation": "ENG",
+      "nation2": "NGA",
+      "number": 11,
+      "pos": "RW",
+      "traits": [
+        "flair"
+      ],
+      "wage": 27000
+    },
+    {
+      "attrs": {
+        "aer": 75,
+        "com": 70,
+        "dri": 76,
+        "ldr": 64,
+        "pac": 82,
+        "pas": 70,
+        "pos": 51,
+        "sho": 77,
+        "sta": 75,
+        "str": 79,
+        "tac": 46,
+        "vis": 67
+      },
+      "birth": "2001-06-01",
+      "contract": "2031-06-30",
+      "foot": "R",
+      "height": 186,
+      "id": "p14a27ss",
+      "name": "Nicolas Jacksun",
+      "nation": "SEN",
+      "number": 15,
+      "pos": "ST",
+      "wage": 94000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 82,
+        "dri": 86,
+        "ldr": 71,
+        "pac": 78,
+        "pas": 86,
+        "pos": 65,
+        "sho": 84,
+        "sta": 82,
+        "str": 70,
+        "tac": 60,
+        "vis": 87
+      },
+      "birth": "1997-11-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p14xrnlu",
+      "name": "Christopher Nkonku",
+      "nation": "FRA",
+      "number": 18,
+      "pos": "AM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 264000
+    },
+    {
+      "attrs": {
+        "aer": 63,
+        "com": 63,
+        "dri": 64,
+        "ldr": 51,
+        "pac": 80,
+        "pas": 61,
+        "pos": 45,
+        "sho": 68,
+        "sta": 65,
+        "str": 80,
+        "tac": 39,
+        "vis": 59
+      },
+      "birth": "2001-09-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0rlg440",
+      "name": "Armando Bruja",
+      "nation": "ALB",
+      "number": 19,
+      "pos": "ST",
+      "wage": 70000
+    },
+    {
+      "attrs": {
+        "aer": 60,
+        "com": 62,
+        "dri": 61,
+        "ldr": 51,
+        "pac": 64,
+        "pas": 54,
+        "pos": 37,
+        "sho": 64,
+        "sta": 61,
+        "str": 65,
+        "tac": 30,
+        "vis": 53
+      },
+      "birth": "2005-06-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p0obk93l",
+      "name": "Deivid Weshington",
+      "nation": "BRA",
+      "number": 36,
+      "pos": "ST",
+      "wage": 10000
+    }
+  ],
+  "stadiumCapacity": 40343
+}

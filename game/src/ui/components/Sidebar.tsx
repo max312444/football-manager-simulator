@@ -14,7 +14,7 @@ const NAV: { key: HubTab; label: string; icon: string; ready?: boolean }[] = [
   { key: 'tactics', label: '전술', icon: 'tactics', ready: true },
   { key: 'schedule', label: '일정', icon: 'schedule', ready: true },
   { key: 'table', label: '순위', icon: 'table', ready: true },
-  { key: 'transfers', label: '이적', icon: 'transfers' },
+  { key: 'transfers', label: '이적', icon: 'transfers', ready: true },
   { key: 'finance', label: '재정', icon: 'finance' },
   { key: 'club', label: '구단', icon: 'club' },
 ];

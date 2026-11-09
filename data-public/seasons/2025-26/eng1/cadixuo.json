@@ -1,0 +1,708 @@
+{
+  "club": "cadixuo",
+  "estimated": true,
+  "facilities": {
+    "training": 5,
+    "youth": 4
+  },
+  "finance": {
+    "balance": 80000000,
+    "transferBudget": 40000000,
+    "wageBudget": 2300000
+  },
+  "formation": "4-2-3-1",
+  "league": "eng1",
+  "reputation": 78,
+  "season": "2025-26",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 74,
+        "com": 74,
+        "han": 72,
+        "ldr": 62,
+        "one": 76,
+        "pac": 52,
+        "pas": 82,
+        "pos": 74,
+        "ref": 79,
+        "sta": 68,
+        "str": 70,
+        "vis": 72
+      },
+      "birth": "2002-08-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 193,
+      "id": "p1pbmjef",
+      "name": "Bart Verbroggen",
+      "nation": "NED",
+      "number": 1,
+      "pos": "GK",
+      "traits": [
+        "sweeper_keeper"
+      ],
+      "wage": 60000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 68,
+        "han": 72,
+        "ldr": 64,
+        "one": 66,
+        "pac": 42,
+        "pas": 70,
+        "pos": 68,
+        "ref": 68,
+        "sta": 60,
+        "str": 64,
+        "vis": 62
+      },
+      "birth": "1990-08-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1448jib",
+      "name": "Jason Steale",
+      "nation": "ENG",
+      "number": 23,
+      "pos": "GK",
+      "wage": 25000
+    },
+    {
+      "attrs": {
+        "aer": 84,
+        "com": 80,
+        "dri": 64,
+        "ldr": 86,
+        "pac": 52,
+        "pas": 80,
+        "pos": 82,
+        "sho": 52,
+        "sta": 66,
+        "str": 82,
+        "tac": 78,
+        "vis": 72
+      },
+      "birth": "1991-11-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 192,
+      "id": "p1gs85ct",
+      "name": "Lewis Donk",
+      "nation": "ENG",
+      "number": 5,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 70000
+    },
+    {
+      "attrs": {
+        "aer": 80,
+        "com": 78,
+        "dri": 70,
+        "ldr": 70,
+        "pac": 72,
+        "pas": 78,
+        "pos": 80,
+        "sho": 46,
+        "sta": 76,
+        "str": 80,
+        "tac": 82,
+        "vis": 66
+      },
+      "birth": "2000-06-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 189,
+      "id": "p1obc1b3",
+      "name": "Jan Paul van Hecka",
+      "nation": "NED",
+      "number": 6,
+      "pos": "CB",
+      "wage": 70000
+    },
+    {
+      "attrs": {
+        "aer": 76,
+        "com": 74,
+        "dri": 64,
+        "ldr": 64,
+        "pac": 66,
+        "pas": 74,
+        "pos": 76,
+        "sho": 40,
+        "sta": 64,
+        "str": 74,
+        "tac": 76,
+        "vis": 64
+      },
+      "birth": "1995-01-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p1mmfujo",
+      "name": "Adam Wabster",
+      "nation": "ENG",
+      "number": 4,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 74,
+        "com": 70,
+        "dri": 64,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 72,
+        "pos": 74,
+        "sho": 44,
+        "sta": 72,
+        "str": 74,
+        "tac": 76,
+        "vis": 60
+      },
+      "birth": "1998-02-01",
+      "contract": "2027-06-30",
+      "foot": "L",
+      "height": 185,
+      "id": "p1b7oor6",
+      "name": "Igor Julyo",
+      "nation": "BRA",
+      "number": 3,
+      "pos": "CB",
+      "verify": true,
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 66,
+        "com": 74,
+        "dri": 64,
+        "ldr": 70,
+        "pac": 66,
+        "pas": 72,
+        "pos": 74,
+        "sho": 46,
+        "sta": 70,
+        "str": 68,
+        "tac": 74,
+        "vis": 62
+      },
+      "birth": "1992-01-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p05cbuxt",
+      "name": "Joel Valtman",
+      "nation": "NED",
+      "number": 34,
+      "pos": "RB",
+      "wage": 45000
+    },
+    {
+      "alt": [
+        "RB",
+        "LW"
+      ],
+      "attrs": {
+        "aer": 56,
+        "com": 74,
+        "dri": 82,
+        "ldr": 60,
+        "pac": 82,
+        "pas": 76,
+        "pos": 70,
+        "sho": 62,
+        "sta": 80,
+        "str": 60,
+        "tac": 72,
+        "vis": 72
+      },
+      "birth": "1999-10-01",
+      "contract": "2029-06-30",
+      "foot": "L",
+      "height": 174,
+      "id": "p11aht19",
+      "name": "Ferdi Kadıuglu",
+      "nation": "TUR",
+      "nation2": "NED",
+      "number": 24,
+      "pos": "LB",
+      "wage": 70000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 72,
+        "com": 72,
+        "dri": 72,
+        "ldr": 62,
+        "pac": 72,
+        "pas": 76,
+        "pos": 76,
+        "sho": 56,
+        "sta": 80,
+        "str": 76,
+        "tac": 78,
+        "vis": 70
+      },
+      "birth": "1999-11-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p13uk8tq",
+      "name": "Mats Wyeffer",
+      "nation": "NED",
+      "number": 27,
+      "pos": "RB",
+      "wage": 70000
+    },
+    {
+      "alt": [
+        "LWB"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 70,
+        "dri": 76,
+        "ldr": 56,
+        "pac": 80,
+        "pas": 76,
+        "pos": 68,
+        "sho": 60,
+        "sta": 80,
+        "str": 66,
+        "tac": 70,
+        "vis": 70
+      },
+      "birth": "2000-12-01",
+      "contract": "2030-06-30",
+      "foot": "L",
+      "height": 179,
+      "id": "p12pvxrr",
+      "name": "Maxim De Cuiper",
+      "nation": "BEL",
+      "number": 29,
+      "pos": "LB",
+      "wage": 60000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 72,
+        "dri": 66,
+        "ldr": 62,
+        "pac": 68,
+        "pas": 72,
+        "pos": 74,
+        "sho": 42,
+        "sta": 72,
+        "str": 70,
+        "tac": 74,
+        "vis": 62
+      },
+      "birth": "1997-11-01",
+      "contract": "2029-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p1vlyekt",
+      "name": "Olivier Boscegli",
+      "nation": "FRA",
+      "number": 21,
+      "pos": "CB",
+      "verify": true,
+      "wage": 45000
+    },
+    {
+      "attrs": {
+        "aer": 76,
+        "com": 66,
+        "dri": 58,
+        "ldr": 54,
+        "pac": 68,
+        "pas": 64,
+        "pos": 70,
+        "sho": 38,
+        "sta": 70,
+        "str": 76,
+        "tac": 74,
+        "vis": 54
+      },
+      "birth": "2003-12-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 192,
+      "id": "p11d2qby",
+      "name": "Diego Cuppola",
+      "nation": "ITA",
+      "number": 42,
+      "pos": "CB",
+      "verify": true,
+      "wage": 35000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 72,
+        "com": 76,
+        "dri": 80,
+        "ldr": 62,
+        "pac": 80,
+        "pas": 78,
+        "pos": 76,
+        "sho": 62,
+        "sta": 86,
+        "str": 82,
+        "tac": 82,
+        "vis": 72
+      },
+      "birth": "2004-01-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 179,
+      "id": "p0n23cy0",
+      "name": "Carlos Beleba",
+      "nation": "CMR",
+      "number": 17,
+      "pos": "DM",
+      "wage": 70000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 62,
+        "com": 70,
+        "dri": 70,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 72,
+        "pos": 68,
+        "sho": 58,
+        "sta": 78,
+        "str": 66,
+        "tac": 70,
+        "vis": 68
+      },
+      "birth": "2005-04-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0m1wjcb",
+      "name": "Jack Hinshalwood",
+      "nation": "ENG",
+      "number": 41,
+      "pos": "CM",
+      "verify": true,
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 56,
+        "com": 72,
+        "dri": 76,
+        "ldr": 56,
+        "pac": 70,
+        "pas": 76,
+        "pos": 68,
+        "sho": 64,
+        "sta": 80,
+        "str": 64,
+        "tac": 68,
+        "vis": 74
+      },
+      "birth": "2003-10-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p0qh6b5a",
+      "name": "Yasin Ayeri",
+      "nation": "SWE",
+      "number": 26,
+      "pos": "CM",
+      "verify": true,
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 62,
+        "com": 72,
+        "dri": 76,
+        "ldr": 58,
+        "pac": 74,
+        "pas": 76,
+        "pos": 68,
+        "sho": 72,
+        "sta": 82,
+        "str": 70,
+        "tac": 66,
+        "vis": 72
+      },
+      "birth": "2003-03-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0x58z78",
+      "name": "Diego Gumez",
+      "nation": "PAR",
+      "number": 8,
+      "pos": "CM",
+      "verify": true,
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 58,
+        "com": 82,
+        "dri": 66,
+        "ldr": 88,
+        "pac": 50,
+        "pas": 76,
+        "pos": 72,
+        "sho": 60,
+        "sta": 70,
+        "str": 62,
+        "tac": 66,
+        "vis": 76
+      },
+      "birth": "1986-01-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p1ad6njg",
+      "name": "James Milnar",
+      "nation": "ENG",
+      "number": 20,
+      "pos": "CM",
+      "traits": [
+        "leader"
+      ],
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "LWB"
+      ],
+      "attrs": {
+        "aer": 48,
+        "com": 72,
+        "dri": 76,
+        "ldr": 60,
+        "pac": 72,
+        "pas": 76,
+        "pos": 58,
+        "sho": 68,
+        "sta": 72,
+        "str": 58,
+        "tac": 54,
+        "vis": 76
+      },
+      "birth": "1994-07-01",
+      "contract": "2026-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p1rnl7sk",
+      "name": "Solly Merch",
+      "nation": "ENG",
+      "number": 7,
+      "pos": "RW",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 60000
+    },
+    {
+      "attrs": {
+        "aer": 52,
+        "com": 76,
+        "dri": 86,
+        "ldr": 60,
+        "pac": 84,
+        "pas": 72,
+        "pos": 52,
+        "sho": 76,
+        "sta": 76,
+        "str": 62,
+        "tac": 46,
+        "vis": 72
+      },
+      "birth": "1997-05-01",
+      "contract": "2027-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0k18afc",
+      "name": "Kaoru Mituma",
+      "nation": "JPN",
+      "number": 22,
+      "pos": "LW",
+      "wage": 80000
+    },
+    {
+      "attrs": {
+        "aer": 46,
+        "com": 68,
+        "dri": 80,
+        "ldr": 50,
+        "pac": 90,
+        "pas": 68,
+        "pos": 48,
+        "sho": 70,
+        "sta": 78,
+        "str": 62,
+        "tac": 42,
+        "vis": 66
+      },
+      "birth": "2004-07-01",
+      "contract": "2029-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p1xrt8h1",
+      "name": "Yankuba Mynteh",
+      "nation": "GAM",
+      "number": 11,
+      "pos": "RW",
+      "traits": [
+        "speedster"
+      ],
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 74,
+        "dri": 82,
+        "ldr": 58,
+        "pac": 78,
+        "pas": 76,
+        "pos": 52,
+        "sho": 72,
+        "sta": 76,
+        "str": 70,
+        "tac": 44,
+        "vis": 76
+      },
+      "birth": "2002-04-01",
+      "contract": "2029-06-30",
+      "foot": "R",
+      "height": 182,
+      "id": "p15mvji6",
+      "name": "Georginio Rotter",
+      "nation": "FRA",
+      "number": 10,
+      "pos": "AM",
+      "wage": 70000
+    },
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 78,
+        "dri": 74,
+        "ldr": 74,
+        "pac": 66,
+        "pas": 72,
+        "pos": 54,
+        "sho": 76,
+        "sta": 66,
+        "str": 74,
+        "tac": 46,
+        "vis": 70
+      },
+      "birth": "1990-11-01",
+      "contract": "2027-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1lbuyd9",
+      "name": "Danny Walbeck",
+      "nation": "ENG",
+      "number": 18,
+      "pos": "ST",
+      "wage": 60000
+    },
+    {
+      "attrs": {
+        "aer": 68,
+        "com": 64,
+        "dri": 68,
+        "ldr": 50,
+        "pac": 76,
+        "pas": 60,
+        "pos": 44,
+        "sho": 68,
+        "sta": 72,
+        "str": 74,
+        "tac": 38,
+        "vis": 54
+      },
+      "birth": "2006-01-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1va6a8u",
+      "name": "Stefanos Tzymas",
+      "nation": "GRE",
+      "number": 9,
+      "pos": "ST",
+      "verify": true,
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 60,
+        "dri": 64,
+        "ldr": 42,
+        "pac": 72,
+        "pas": 56,
+        "pos": 40,
+        "sho": 62,
+        "sta": 66,
+        "str": 72,
+        "tac": 34,
+        "vis": 50
+      },
+      "birth": "2007-05-01",
+      "contract": "2030-06-30",
+      "foot": "R",
+      "height": 190,
+      "id": "p1vykonm",
+      "name": "Charalampos Kostuulas",
+      "nation": "GRE",
+      "number": 19,
+      "pos": "ST",
+      "verify": true,
+      "wage": 25000
+    }
+  ],
+  "stadiumCapacity": 31876
+}

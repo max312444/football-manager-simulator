@@ -1,0 +1,714 @@
+{
+  "club": "c1j017u7",
+  "estimated": true,
+  "facilities": {
+    "training": 3,
+    "youth": 3
+  },
+  "finance": {
+    "balance": 3000000,
+    "transferBudget": 4000000,
+    "wageBudget": 550000
+  },
+  "formation": "4-5-1",
+  "league": "eng1",
+  "reputation": 66,
+  "season": "2004-05",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 74,
+        "com": 74,
+        "han": 76,
+        "ldr": 62,
+        "one": 78,
+        "pac": 56,
+        "pas": 58,
+        "pos": 76,
+        "ref": 80,
+        "sta": 66,
+        "str": 74,
+        "vis": 54
+      },
+      "birth": "1975-04-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0fa30ob",
+      "name": "Jussi Jaeskelainen",
+      "nation": "FIN",
+      "number": 22,
+      "pos": "GK",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 60,
+        "com": 62,
+        "han": 62,
+        "ldr": 56,
+        "one": 58,
+        "pac": 40,
+        "pas": 50,
+        "pos": 62,
+        "ref": 60,
+        "sta": 50,
+        "str": 60,
+        "vis": 46
+      },
+      "birth": "1963-07-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1r6auk8",
+      "name": "Kevin Poola",
+      "nation": "ENG",
+      "number": 1,
+      "pos": "GK",
+      "wage": 5000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 58,
+        "dri": 60,
+        "ldr": 44,
+        "pac": 72,
+        "pas": 60,
+        "pos": 62,
+        "sho": 42,
+        "sta": 76,
+        "str": 66,
+        "tac": 66,
+        "vis": 48
+      },
+      "birth": "1983-09-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0rts5sr",
+      "name": "Nicky Hont",
+      "nation": "ENG",
+      "number": 18,
+      "pos": "RB",
+      "wage": 10000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 62,
+        "dri": 56,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 60,
+        "pos": 64,
+        "sho": 40,
+        "sta": 70,
+        "str": 64,
+        "tac": 66,
+        "vis": 50
+      },
+      "birth": "1973-02-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p091re3s",
+      "name": "Anthony Berness",
+      "nation": "ENG",
+      "number": 2,
+      "pos": "RB",
+      "wage": 12000
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 64,
+        "com": 64,
+        "dri": 70,
+        "ldr": 54,
+        "pac": 78,
+        "pas": 66,
+        "pos": 66,
+        "sho": 54,
+        "sta": 78,
+        "str": 70,
+        "tac": 70,
+        "vis": 56
+      },
+      "birth": "1978-09-01",
+      "contract": "2007-06-30",
+      "foot": "L",
+      "height": 175,
+      "id": "p1aykfwx",
+      "name": "Ricardo Gerdner",
+      "nation": "JAM",
+      "number": 11,
+      "pos": "LB",
+      "wage": 20000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 74,
+        "com": 64,
+        "dri": 54,
+        "ldr": 52,
+        "pac": 70,
+        "pas": 56,
+        "pos": 70,
+        "sho": 40,
+        "sta": 76,
+        "str": 76,
+        "tac": 74,
+        "vis": 46
+      },
+      "birth": "1982-03-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p018lstf",
+      "name": "Tal Ben Heim",
+      "nation": "ISR",
+      "number": 26,
+      "pos": "CB",
+      "wage": 15000
+    },
+    {
+      "attrs": {
+        "aer": 84,
+        "com": 66,
+        "dri": 50,
+        "ldr": 60,
+        "pac": 58,
+        "pas": 56,
+        "pos": 72,
+        "sho": 52,
+        "sta": 70,
+        "str": 82,
+        "tac": 74,
+        "vis": 48
+      },
+      "birth": "1975-08-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 189,
+      "id": "p13gk98a",
+      "name": "Radhi Jaidy",
+      "nation": "TUN",
+      "number": 15,
+      "pos": "CB",
+      "traits": [
+        "aerial_threat"
+      ],
+      "wage": 18000
+    },
+    {
+      "attrs": {
+        "aer": 76,
+        "com": 76,
+        "dri": 56,
+        "ldr": 70,
+        "pac": 58,
+        "pas": 66,
+        "pos": 78,
+        "sho": 50,
+        "sta": 66,
+        "str": 78,
+        "tac": 76,
+        "vis": 56
+      },
+      "birth": "1971-06-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p14ztv3i",
+      "name": "Bruno Ngotti",
+      "nation": "FRA",
+      "number": 5,
+      "pos": "CB",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 76,
+        "com": 84,
+        "dri": 58,
+        "ldr": 86,
+        "pac": 40,
+        "pas": 76,
+        "pos": 82,
+        "sho": 60,
+        "sta": 56,
+        "str": 72,
+        "tac": 72,
+        "vis": 72
+      },
+      "birth": "1968-03-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p07qg1jd",
+      "name": "Fernando Hierru",
+      "nation": "ESP",
+      "number": 20,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 72,
+        "dri": 64,
+        "ldr": 62,
+        "pac": 58,
+        "pas": 70,
+        "pos": 74,
+        "sho": 50,
+        "sta": 72,
+        "str": 74,
+        "tac": 74,
+        "vis": 64
+      },
+      "birth": "1974-02-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p0lw7acs",
+      "looks": {
+        "beard": "none",
+        "hair": "curly",
+        "hairColor": "black"
+      },
+      "name": "Ivan Cempo",
+      "nation": "ESP",
+      "number": 16,
+      "pos": "DM",
+      "wage": 35000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 74,
+        "com": 66,
+        "dri": 68,
+        "ldr": 66,
+        "pac": 66,
+        "pas": 68,
+        "pos": 66,
+        "sho": 72,
+        "sta": 82,
+        "str": 76,
+        "tac": 64,
+        "vis": 64
+      },
+      "birth": "1982-06-01",
+      "contract": "2009-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0nfflhs",
+      "name": "Kevin Nulan",
+      "nation": "ENG",
+      "number": 4,
+      "pos": "CM",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 78,
+        "com": 78,
+        "dri": 66,
+        "ldr": 80,
+        "pac": 54,
+        "pas": 76,
+        "pos": 74,
+        "sho": 66,
+        "sta": 74,
+        "str": 72,
+        "tac": 70,
+        "vis": 74
+      },
+      "birth": "1969-09-01",
+      "contract": "2006-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p0mjd32y",
+      "name": "Gary Spead",
+      "nation": "WAL",
+      "number": 6,
+      "pos": "CM",
+      "traits": [
+        "leader"
+      ],
+      "wage": 35000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 54,
+        "com": 80,
+        "dri": 88,
+        "ldr": 70,
+        "pac": 70,
+        "pas": 82,
+        "pos": 56,
+        "sho": 74,
+        "sta": 66,
+        "str": 66,
+        "tac": 46,
+        "vis": 84
+      },
+      "birth": "1973-08-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 173,
+      "id": "p14polit",
+      "name": "Jay-Jay Okucha",
+      "nation": "NGA",
+      "number": 10,
+      "pos": "AM",
+      "traits": [
+        "flair",
+        "free_kick"
+      ],
+      "wage": 60000
+    },
+    {
+      "alt": [
+        "LM",
+        "AM"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 72,
+        "dri": 76,
+        "ldr": 60,
+        "pac": 74,
+        "pas": 72,
+        "pos": 64,
+        "sho": 70,
+        "sta": 82,
+        "str": 64,
+        "tac": 56,
+        "vis": 70
+      },
+      "birth": "1974-07-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 173,
+      "id": "p18yqjs5",
+      "name": "Stelios Giannakopoolos",
+      "nation": "GRE",
+      "number": 7,
+      "pos": "RM",
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 56,
+        "com": 54,
+        "dri": 58,
+        "ldr": 40,
+        "pac": 66,
+        "pas": 60,
+        "pos": 58,
+        "sho": 50,
+        "sta": 70,
+        "str": 60,
+        "tac": 62,
+        "vis": 54
+      },
+      "birth": "1986-02-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0z7czxb",
+      "name": "Joey O'Brian",
+      "nation": "IRL",
+      "number": 33,
+      "pos": "CM",
+      "wage": 3000
+    },
+    {
+      "attrs": {
+        "aer": 86,
+        "com": 64,
+        "dri": 62,
+        "ldr": 66,
+        "pac": 64,
+        "pas": 62,
+        "pos": 64,
+        "sho": 64,
+        "sta": 80,
+        "str": 88,
+        "tac": 56,
+        "vis": 58
+      },
+      "birth": "1977-03-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0xy7rzy",
+      "name": "Kevin Davyes",
+      "nation": "ENG",
+      "number": 14,
+      "pos": "ST",
+      "traits": [
+        "target_man",
+        "aerial_threat"
+      ],
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 64,
+        "dri": 66,
+        "ldr": 50,
+        "pac": 76,
+        "pas": 60,
+        "pos": 54,
+        "sho": 70,
+        "sta": 76,
+        "str": 70,
+        "tac": 44,
+        "vis": 56
+      },
+      "birth": "1975-06-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 186,
+      "id": "p14breoq",
+      "name": "Henrik Pedarsen",
+      "nation": "DEN",
+      "number": 9,
+      "pos": "ST",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 58,
+        "com": 64,
+        "dri": 78,
+        "ldr": 50,
+        "pac": 80,
+        "pas": 66,
+        "pos": 56,
+        "sho": 68,
+        "sta": 74,
+        "str": 66,
+        "tac": 46,
+        "vis": 64
+      },
+      "birth": "1981-01-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0l3rdr3",
+      "loan": "c83d96l",
+      "name": "El Hadji Dyouf",
+      "nation": "SEN",
+      "number": 21,
+      "pos": "RW",
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 78,
+        "com": 68,
+        "dri": 56,
+        "ldr": 66,
+        "pac": 50,
+        "pas": 56,
+        "pos": 48,
+        "sho": 68,
+        "sta": 50,
+        "str": 74,
+        "tac": 36,
+        "vis": 54
+      },
+      "birth": "1966-12-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0fzjv8g",
+      "name": "Les Fardinand",
+      "nation": "ENG",
+      "number": 23,
+      "pos": "ST",
+      "wage": 20000
+    },
+    {
+      "alt": [
+        "RW"
+      ],
+      "attrs": {
+        "aer": 54,
+        "com": 52,
+        "dri": 66,
+        "ldr": 36,
+        "pac": 74,
+        "pas": 54,
+        "pos": 44,
+        "sho": 60,
+        "sta": 64,
+        "str": 56,
+        "tac": 34,
+        "vis": 50
+      },
+      "birth": "1986-10-01",
+      "contract": "2008-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p1vnbf6s",
+      "name": "Ricardu Vaz Te",
+      "nation": "POR",
+      "number": 28,
+      "pos": "ST",
+      "wage": 4000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 62,
+        "dri": 56,
+        "ldr": 50,
+        "pac": 64,
+        "pas": 60,
+        "pos": 66,
+        "sho": 40,
+        "sta": 68,
+        "str": 72,
+        "tac": 68,
+        "vis": 50
+      },
+      "birth": "1978-11-01",
+      "contract": "2005-06-30",
+      "foot": "L",
+      "fullName": "Júlio César Santos Correa",
+      "height": 185,
+      "id": "p0w3vrbr",
+      "name": "Julio Ceser",
+      "nation": "BRA",
+      "number": 3,
+      "pos": "CB",
+      "wage": 15000
+    },
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 66,
+        "dri": 50,
+        "ldr": 62,
+        "pac": 56,
+        "pas": 60,
+        "pos": 70,
+        "sho": 38,
+        "sta": 62,
+        "str": 72,
+        "tac": 70,
+        "vis": 50
+      },
+      "birth": "1973-08-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0z4kn62",
+      "name": "Florent Lavilla",
+      "nation": "FRA",
+      "number": 17,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 20000
+    },
+    {
+      "attrs": {
+        "aer": 52,
+        "com": 58,
+        "dri": 60,
+        "ldr": 44,
+        "pac": 64,
+        "pas": 62,
+        "pos": 58,
+        "sho": 56,
+        "sta": 70,
+        "str": 66,
+        "tac": 58,
+        "vis": 56
+      },
+      "birth": "1978-03-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0d110tz",
+      "name": "Blessing Kako",
+      "nation": "NGA",
+      "number": 24,
+      "pos": "CM",
+      "wage": 8000
+    },
+    {
+      "attrs": {
+        "aer": 77,
+        "com": 79,
+        "dri": 81,
+        "ldr": 59,
+        "pac": 76,
+        "pas": 73,
+        "pos": 55,
+        "sho": 85,
+        "sta": 76,
+        "str": 75,
+        "tac": 41,
+        "vis": 71
+      },
+      "birth": "1978-08-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1mnrnol",
+      "name": "Michael Bridgas",
+      "nation": "ENG",
+      "number": 8,
+      "pos": "ST",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 30000
+    }
+  ],
+  "stadiumCapacity": 28723
+}

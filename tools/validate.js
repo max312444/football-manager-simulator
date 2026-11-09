@@ -147,7 +147,8 @@ function checkClubSeason(d, where, season, league, clubFile, seasonStart, seenIn
     const prev = identities.get(p.id);
     if (!prev) identities.set(p.id, { name: p.name, birth: p.birth, nation: p.nation, where });
     else for (const k of ['name', 'birth', 'nation']) {
-      if (prev[k] !== p[k]) err(pw, `${k} 불일치: "${p[k]}" vs "${prev[k]}" (${prev.where})`);
+      // 국적은 이중 국적 선수가 시즌마다 다르게 기록될 수 있어 경고로만 (이름 · 생년월일은 오류)
+      if (prev[k] !== p[k]) (k === 'nation' ? warn : err)(pw, `${k} 불일치: "${p[k]}" vs "${prev[k]}" (${prev.where})`);
     }
   }
 }

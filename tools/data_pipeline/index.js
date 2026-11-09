@@ -5,6 +5,7 @@
 //   node tools/data_pipeline sync     --league eng1 | --club arsenal | --all  [--apply] [--force]
 //   node tools/data_pipeline report   --league eng1
 //   node tools/data_pipeline merge    <중복 ID> <남길 ID>
+//   node tools/data_pipeline dedupe [--apply]    같은 시즌 중복 소속 정리
 //   node tools/data_pipeline publish [--apply]   공개용 패러디 데이터(data-public/) 만들기
 //   node tools/data_pipeline rename-club <바꿀 구단 ID> <고정 구단 ID> [--apply]
 //   node tools/data_pipeline names    --league eng1 [--lang ko] [--apply]
@@ -25,6 +26,8 @@ const { fillNames } = require('./steps/names');
 const { buildLeague } = require('./steps/build');
 const { renameClub } = require('./steps/renameClub');
 const { publish } = require('./steps/publish');
+const { dedupe } = require('./steps/dedupe');
+const { unifyNames } = require('./steps/unify');
 
 const args = process.argv.slice(2);
 const cmd = args[0];
@@ -134,6 +137,8 @@ function report(league, { t0, summary } = {}) {
   let leagues = opt('all') ? leaguesWithData() : [typeof opt('league') === 'string' ? opt('league') : clubFilter && leagueOfClub(clubFilter)].filter(Boolean);
 
   if (cmd === 'report') return leagues.forEach(l => report(l));
+  if (cmd === 'unify-names') return unifyNames({ apply: args.includes('--apply'), log });
+  if (cmd === 'dedupe') return dedupe({ apply: args.includes('--apply'), log });
   if (cmd === 'publish') return publish({ apply: args.includes('--apply'), log });
   if (cmd === 'rename-club') return renameClub(args[1], args[2], { apply: args.includes('--apply'), log });
   if (cmd === 'merge') return mergePlayers(args[1], args[2], { log });

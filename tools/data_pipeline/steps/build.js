@@ -361,11 +361,21 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   if (!apply) return { stats, outputs, missingSeasons, preview: true };
 
   // ⑥ 쓰기
-  let written = 0, skipped = 0;
+  let written = 0, skipped = 0, guarded = 0;
   const leagueFiles = new Map();
   for (const o of outputs) {
     const p = path.join(SEASONS_DIR, o.season, league, `${o.club}.json`);
     if (fs.existsSync(p) && !overwrite) { skipped++; continue; }
+    // 안전장치: 이미 선수단이 충분한 파일을 훨씬 적은 선수단으로 덮어쓰지 않는다 (출처 조회 실패로 빈 명단이 나온 경우)
+    if (fs.existsSync(p)) {
+      const prev = readJson(p, { squad: [] }).squad.length;
+      if (prev >= 16 && o.file.squad.length < Math.max(16, prev * 0.6)) {
+        guarded++;
+        log(`  ⚠ ${o.season} ${o.club}: 새 선수단 ${o.file.squad.length}명 < 기존 ${prev}명 → 기존 파일 유지`);
+        (leagueFiles.get(o.season) || leagueFiles.set(o.season, []).get(o.season)).push(o.club);
+        continue;
+      }
+    }
     if (writeSeasonFile(p, o.file)) written++;
     (leagueFiles.get(o.season) || leagueFiles.set(o.season, []).get(o.season)).push(o.club);
     writeClubMaster(o.club, o.info, cfg.nation);
@@ -383,7 +393,7 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
     note: 'Wikidata 지명도·국가대표 출전·나이·리그 수준으로 추정. 실제 능력치 아님',
   };
   writeJsonIfChanged(metaFile, meta);
-  log(`⑥ 파일 ${written}개 작성 · 이미 있어서 건너뜀 ${skipped}개`);
+  log(`⑥ 파일 ${written}개 작성 · 이미 있어서 건너뜀 ${skipped}개${guarded ? ` · 안전장치로 유지 ${guarded}개` : ""}`);
   return { stats, written, skipped, missingSeasons };
 }
 

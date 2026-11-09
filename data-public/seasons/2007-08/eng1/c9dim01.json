@@ -1,0 +1,771 @@
+{
+  "club": "c9dim01",
+  "estimated": true,
+  "facilities": {
+    "training": 3,
+    "youth": 4
+  },
+  "finance": {
+    "balance": 10000000,
+    "transferBudget": 20000000,
+    "wageBudget": 1400000
+  },
+  "formation": "4-4-2",
+  "league": "eng1",
+  "reputation": 72,
+  "season": "2007-08",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 78,
+        "com": 80,
+        "han": 77,
+        "ldr": 75,
+        "one": 80,
+        "pac": 60,
+        "pas": 62,
+        "pos": 79,
+        "ref": 79,
+        "sta": 69,
+        "str": 73,
+        "vis": 57
+      },
+      "birth": "1980-01-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0r2cn48",
+      "name": "Robert Grean",
+      "nation": "ENG",
+      "number": 1,
+      "pos": "GK",
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 64,
+        "com": 72,
+        "dri": 69,
+        "ldr": 80,
+        "pac": 76,
+        "pas": 66,
+        "pos": 75,
+        "sho": 50,
+        "sta": 80,
+        "str": 67,
+        "tac": 76,
+        "vis": 60
+      },
+      "birth": "1978-03-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p1hzjowo",
+      "name": "Lucas Naill",
+      "nation": "AUS",
+      "number": 2,
+      "pos": "RB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 70000
+    },
+    {
+      "attrs": {
+        "aer": 59,
+        "com": 64,
+        "dri": 62,
+        "ldr": 62,
+        "pac": 76,
+        "pas": 66,
+        "pos": 68,
+        "sho": 44,
+        "sta": 73,
+        "str": 65,
+        "tac": 74,
+        "vis": 55
+      },
+      "birth": "1981-04-01",
+      "contract": "2011-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p0xhz9tv",
+      "name": "George McCertney",
+      "nation": "NIR",
+      "number": 3,
+      "pos": "LB",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 71,
+        "com": 69,
+        "dri": 47,
+        "ldr": 67,
+        "pac": 62,
+        "pas": 54,
+        "pos": 71,
+        "sho": 29,
+        "sta": 62,
+        "str": 74,
+        "tac": 71,
+        "vis": 42
+      },
+      "birth": "1979-08-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0rrvbct",
+      "name": "Danny Gabbydon",
+      "nation": "WAL",
+      "number": 4,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 76,
+        "com": 69,
+        "dri": 45,
+        "ldr": 58,
+        "pac": 61,
+        "pas": 54,
+        "pos": 72,
+        "sho": 32,
+        "sta": 64,
+        "str": 72,
+        "tac": 76,
+        "vis": 43
+      },
+      "birth": "1985-02-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1cy479j",
+      "name": "Anton Ferdynand",
+      "nation": "ENG",
+      "number": 5,
+      "pos": "CB",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 61,
+        "com": 66,
+        "dri": 60,
+        "ldr": 68,
+        "pac": 61,
+        "pas": 64,
+        "pos": 72,
+        "sho": 49,
+        "sta": 72,
+        "str": 70,
+        "tac": 74,
+        "vis": 59
+      },
+      "birth": "1979-03-01",
+      "contract": "2009-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p16ic058",
+      "name": "Hayden Mollins",
+      "nation": "ENG",
+      "number": 6,
+      "pos": "DM",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "RM"
+      ],
+      "attrs": {
+        "aer": 46,
+        "com": 69,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 64,
+        "pas": 71,
+        "pos": 56,
+        "sho": 60,
+        "sta": 74,
+        "str": 55,
+        "tac": 54,
+        "vis": 68
+      },
+      "birth": "1978-12-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 170,
+      "id": "p0266ek0",
+      "name": "Kieron Dier",
+      "nation": "ENG",
+      "number": 7,
+      "pos": "CM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 80000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 59,
+        "com": 80,
+        "dri": 78,
+        "ldr": 69,
+        "pac": 72,
+        "pas": 81,
+        "pos": 67,
+        "sho": 67,
+        "sta": 88,
+        "str": 65,
+        "tac": 81,
+        "vis": 77
+      },
+      "birth": "1980-10-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p126hi5h",
+      "name": "Scott Perker",
+      "nation": "ENG",
+      "number": 8,
+      "pos": "CM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 69,
+        "com": 73,
+        "dri": 70,
+        "ldr": 60,
+        "pac": 71,
+        "pas": 62,
+        "pos": 37,
+        "sho": 80,
+        "sta": 68,
+        "str": 70,
+        "tac": 29,
+        "vis": 63
+      },
+      "birth": "1983-11-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p057pewr",
+      "name": "Dean Ashtun",
+      "nation": "ENG",
+      "number": 9,
+      "pos": "ST",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 79,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 89,
+        "pas": 67,
+        "pos": 47,
+        "sho": 82,
+        "sta": 71,
+        "str": 73,
+        "tac": 35,
+        "vis": 66
+      },
+      "birth": "1979-07-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p0ic2ji5",
+      "name": "Craig Bellemy",
+      "nation": "WAL",
+      "number": 10,
+      "pos": "ST",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 60000
+    },
+    {
+      "attrs": {
+        "aer": 41,
+        "com": 66,
+        "dri": 74,
+        "ldr": 57,
+        "pac": 80,
+        "pas": 66,
+        "pos": 40,
+        "sho": 64,
+        "sta": 69,
+        "str": 54,
+        "tac": 33,
+        "vis": 66
+      },
+      "birth": "1981-08-01",
+      "contract": "2009-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p10i402d",
+      "name": "Matthew Etharington",
+      "nation": "ENG",
+      "number": 11,
+      "pos": "LM",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 68,
+        "dri": 66,
+        "ldr": 55,
+        "pac": 72,
+        "pas": 60,
+        "pos": 37,
+        "sho": 74,
+        "sta": 66,
+        "str": 83,
+        "tac": 32,
+        "vis": 60
+      },
+      "birth": "1983-10-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p1vnf3ci",
+      "name": "Carlton Cola",
+      "nation": "ENG",
+      "number": 12,
+      "pos": "ST",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 45,
+        "com": 67,
+        "dri": 74,
+        "ldr": 63,
+        "pac": 71,
+        "pas": 67,
+        "pos": 44,
+        "sho": 63,
+        "sta": 72,
+        "str": 51,
+        "tac": 36,
+        "vis": 63
+      },
+      "birth": "1977-08-01",
+      "contract": "2011-06-30",
+      "foot": "L",
+      "height": 177,
+      "id": "p0gzkmbo",
+      "name": "Luis Boa Morta",
+      "nation": "POR",
+      "number": 14,
+      "pos": "LW",
+      "verify": true,
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 44,
+        "com": 65,
+        "dri": 65,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 73,
+        "pos": 53,
+        "sho": 58,
+        "sta": 74,
+        "str": 57,
+        "tac": 56,
+        "vis": 70
+      },
+      "birth": "1987-05-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p15edjyf",
+      "name": "Mark Nobla",
+      "nation": "ENG",
+      "number": 16,
+      "pos": "CM",
+      "traits": [
+        "penalty"
+      ],
+      "wage": 15000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 51,
+        "com": 59,
+        "dri": 57,
+        "ldr": 47,
+        "pac": 69,
+        "pas": 56,
+        "pos": 64,
+        "sho": 40,
+        "sta": 67,
+        "str": 57,
+        "tac": 66,
+        "vis": 47
+      },
+      "birth": "1986-03-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0ru9bf0",
+      "name": "Jonathan Spactor",
+      "nation": "USA",
+      "number": 17,
+      "pos": "RB",
+      "wage": 12000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 36,
+        "com": 61,
+        "dri": 69,
+        "ldr": 51,
+        "pac": 73,
+        "pas": 63,
+        "pos": 39,
+        "sho": 60,
+        "sta": 69,
+        "str": 47,
+        "tac": 30,
+        "vis": 61
+      },
+      "birth": "1983-08-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0rgei8y",
+      "name": "Julien Faobert",
+      "nation": "FRA",
+      "number": 18,
+      "pos": "RM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 80,
+        "com": 74,
+        "dri": 48,
+        "ldr": 68,
+        "pac": 64,
+        "pas": 56,
+        "pos": 79,
+        "sho": 32,
+        "sta": 69,
+        "str": 77,
+        "tac": 76,
+        "vis": 48
+      },
+      "birth": "1983-08-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1aoufns",
+      "name": "James Cullins",
+      "nation": "WAL",
+      "number": 19,
+      "pos": "CB",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 52,
+        "com": 75,
+        "dri": 74,
+        "ldr": 61,
+        "pac": 66,
+        "pas": 76,
+        "pos": 62,
+        "sho": 64,
+        "sta": 71,
+        "str": 55,
+        "tac": 48,
+        "vis": 77
+      },
+      "birth": "1974-12-01",
+      "contract": "2008-06-30",
+      "foot": "R",
+      "height": 172,
+      "id": "p0z3mlwf",
+      "name": "Nolberto Solanu",
+      "nation": "PER",
+      "number": 20,
+      "pos": "RM",
+      "traits": [
+        "free_kick"
+      ],
+      "verify": true,
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 71,
+        "com": 63,
+        "dri": 46,
+        "ldr": 59,
+        "pac": 63,
+        "pas": 53,
+        "pos": 69,
+        "sho": 29,
+        "sta": 65,
+        "str": 70,
+        "tac": 71,
+        "vis": 44
+      },
+      "birth": "1983-01-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0jo9d1l",
+      "name": "Calum Devenport",
+      "nation": "ENG",
+      "number": 21,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 25000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 67,
+        "han": 64,
+        "ldr": 68,
+        "one": 66,
+        "pac": 41,
+        "pas": 50,
+        "pos": 64,
+        "ref": 67,
+        "sta": 51,
+        "str": 55,
+        "vis": 40
+      },
+      "birth": "1973-07-01",
+      "contract": "2009-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0p1unrh",
+      "name": "Jimmy Walkar",
+      "nation": "ENG",
+      "number": 22,
+      "pos": "GK",
+      "wage": 15000
+    },
+    {
+      "alt": [
+        "CM",
+        "LM"
+      ],
+      "attrs": {
+        "aer": 64,
+        "com": 82,
+        "dri": 82,
+        "ldr": 64,
+        "pac": 80,
+        "pas": 76,
+        "pos": 71,
+        "sho": 78,
+        "sta": 82,
+        "str": 62,
+        "tac": 60,
+        "vis": 78
+      },
+      "birth": "1977-04-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "fullName": "Karl Fredrik Ljungberg",
+      "height": 175,
+      "id": "p0h2iqs6",
+      "name": "Freddie Ljongberg",
+      "nation": "SWE",
+      "number": 23,
+      "pos": "RM",
+      "traits": [
+        "injury_prone"
+      ],
+      "verify": true,
+      "wage": 70000
+    },
+    {
+      "attrs": {
+        "aer": 65,
+        "com": 70,
+        "dri": 65,
+        "ldr": 62,
+        "pac": 71,
+        "pas": 59,
+        "pos": 34,
+        "sho": 78,
+        "sta": 61,
+        "str": 69,
+        "tac": 27,
+        "vis": 59
+      },
+      "birth": "1981-01-01",
+      "contract": "2010-06-30",
+      "foot": "L",
+      "height": 185,
+      "id": "p1cwpx3q",
+      "name": "Bobby Zamore",
+      "nation": "ENG",
+      "number": 25,
+      "pos": "ST",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "RM"
+      ],
+      "attrs": {
+        "aer": 59,
+        "com": 69,
+        "dri": 69,
+        "ldr": 57,
+        "pac": 66,
+        "pas": 71,
+        "pos": 65,
+        "sho": 69,
+        "sta": 80,
+        "str": 62,
+        "tac": 65,
+        "vis": 67
+      },
+      "birth": "1977-01-01",
+      "contract": "2009-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p0otffvv",
+      "name": "Lee Buwyer",
+      "nation": "ENG",
+      "number": 29,
+      "pos": "CM",
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 69,
+        "com": 64,
+        "han": 69,
+        "ldr": 55,
+        "one": 69,
+        "pac": 51,
+        "pas": 55,
+        "pos": 68,
+        "ref": 71,
+        "sta": 60,
+        "str": 70,
+        "vis": 49
+      },
+      "birth": "1977-11-01",
+      "contract": "2009-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p12sivuh",
+      "name": "Richard Wryght",
+      "nation": "ENG",
+      "number": 30,
+      "pos": "GK",
+      "verify": true,
+      "wage": 20000
+    },
+    {
+      "attrs": {
+        "aer": 61,
+        "com": 71,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 59,
+        "pas": 56,
+        "pos": 29,
+        "sho": 73,
+        "sta": 56,
+        "str": 63,
+        "tac": 21,
+        "vis": 52
+      },
+      "birth": "1977-05-01",
+      "contract": "2008-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p025h3am",
+      "loan": "cgytqbt",
+      "name": "Henri Cemara",
+      "nation": "SEN",
+      "number": 34,
+      "pos": "ST",
+      "verify": true,
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 58,
+        "com": 67,
+        "dri": 64,
+        "ldr": 62,
+        "pac": 75,
+        "pas": 64,
+        "pos": 69,
+        "sho": 46,
+        "sta": 75,
+        "str": 63,
+        "tac": 73,
+        "vis": 56
+      },
+      "birth": "1981-06-01",
+      "contract": "2009-06-30",
+      "foot": "R",
+      "height": 177,
+      "id": "p17nm07c",
+      "name": "John Pantsyl",
+      "nation": "GHA",
+      "number": 35,
+      "pos": "RB",
+      "verify": true,
+      "wage": 20000
+    }
+  ],
+  "stadiumCapacity": 35303
+}

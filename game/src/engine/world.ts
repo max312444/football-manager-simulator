@@ -11,6 +11,7 @@ import { createMatch, finalFitness, minutesPlayed, playToEnd, type MatchState } 
 import { dailyUpdate } from './condition';
 import { initialLoyalty, updatePlaytime } from './loyalty';
 import { recommend } from './ai';
+import { aiTransferDay } from './transfer';
 import type { Lineup } from './squad';
 
 export interface SeasonInput {
@@ -194,6 +195,9 @@ export function advanceDay(w: World): GameEvent[] {
     }
   }
 
+  // 이적시장: AI 구단 이적 (기간이 아니면 아무것도 안 함)
+  events.push(...aiTransferDay(w, rng));
+
   // 컨디션 (오늘 뛴 선수는 경기 후 체력 그대로, 회복은 내일부터)
   const recent = recentPlayers(w, today);
   for (const p of Object.values(w.players)) {
@@ -205,7 +209,8 @@ export function advanceDay(w: World): GameEvent[] {
   w.rng = rng.state();
   // 받은편지함에는 사용자 구단 관련과 시즌 종료만 남긴다
   for (const e of events) {
-    if (e.type === 'seasonEnd' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)) w.inbox.push(e);
+    if (e.type === 'seasonEnd' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
+      || (e.type === 'transfer' && (e.user || e.fee >= 30e6))) w.inbox.push(e);
   }
   if (w.inbox.length > 300) w.inbox.splice(0, w.inbox.length - 300);
   return events;

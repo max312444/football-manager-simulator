@@ -28,7 +28,7 @@ export function ContinueBar() {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.code !== 'Space') return;
+      if (e.code !== 'Space' || useGame.getState().ceremony || useGame.getState().seasonReport) return;   // 연출 · 결산 창이 떠 있으면 무시
       const t = e.target as HTMLElement;
       if (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA') return;
       e.preventDefault();

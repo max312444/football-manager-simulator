@@ -1,0 +1,904 @@
+{
+  "club": "c1px4ort",
+  "estimated": true,
+  "facilities": {
+    "training": 5,
+    "youth": 5
+  },
+  "finance": {
+    "balance": 60000000,
+    "transferBudget": 40000000,
+    "wageBudget": 3400000
+  },
+  "formation": "4-4-2",
+  "league": "eng1",
+  "reputation": 93,
+  "season": "2010-11",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 83,
+        "com": 90,
+        "han": 85,
+        "ldr": 84,
+        "one": 82,
+        "pac": 34,
+        "pas": 74,
+        "pos": 86,
+        "ref": 84,
+        "sta": 62,
+        "str": 74,
+        "vis": 66
+      },
+      "birth": "1970-10-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 197,
+      "id": "p1j3vox7",
+      "name": "Edwyn van der Sar",
+      "nation": "NED",
+      "number": 1,
+      "pos": "GK",
+      "traits": [
+        "leader"
+      ],
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 75,
+        "com": 77,
+        "han": 78,
+        "ldr": 72,
+        "one": 75,
+        "pac": 56,
+        "pas": 63,
+        "pos": 76,
+        "ref": 77,
+        "sta": 62,
+        "str": 68,
+        "vis": 52
+      },
+      "birth": "1982-03-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0j86ufl",
+      "name": "Tomasz Kuszczek",
+      "nation": "POL",
+      "number": 29,
+      "pos": "GK",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 57,
+        "com": 53,
+        "han": 57,
+        "ldr": 41,
+        "one": 59,
+        "pac": 50,
+        "pas": 49,
+        "pos": 55,
+        "ref": 59,
+        "sta": 56,
+        "str": 60,
+        "vis": 43
+      },
+      "birth": "1990-04-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1kabdo7",
+      "name": "Ben Amus",
+      "nation": "ENG",
+      "number": 40,
+      "pos": "GK",
+      "verify": true,
+      "wage": 10000
+    },
+    {
+      "attrs": {
+        "aer": 60,
+        "com": 75,
+        "dri": 69,
+        "ldr": 88,
+        "pac": 58,
+        "pas": 66,
+        "pos": 76,
+        "sho": 50,
+        "sta": 69,
+        "str": 62,
+        "tac": 75,
+        "vis": 62
+      },
+      "birth": "1975-02-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0wh08kf",
+      "name": "Gary Naville",
+      "nation": "ENG",
+      "number": 2,
+      "pos": "RB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 71,
+        "com": 78,
+        "dri": 78,
+        "ldr": 78,
+        "pac": 83,
+        "pas": 76,
+        "pos": 79,
+        "sho": 57,
+        "sta": 89,
+        "str": 75,
+        "tac": 80,
+        "vis": 69
+      },
+      "birth": "1981-05-01",
+      "contract": "2014-06-30",
+      "foot": "L",
+      "height": 175,
+      "id": "p027zunm",
+      "name": "Patrice Evre",
+      "nation": "FRA",
+      "number": 3,
+      "pos": "LB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 88000
+    },
+    {
+      "alt": [
+        "RM"
+      ],
+      "attrs": {
+        "aer": 69,
+        "com": 78,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 68,
+        "pas": 77,
+        "pos": 77,
+        "sho": 62,
+        "sta": 68,
+        "str": 76,
+        "tac": 80,
+        "vis": 72
+      },
+      "birth": "1981-01-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0zu2h3x",
+      "name": "Owen Hargreavas",
+      "nation": "ENG",
+      "nation2": "CAN",
+      "number": 4,
+      "pos": "DM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 85,
+        "com": 87,
+        "dri": 66,
+        "ldr": 85,
+        "pac": 73,
+        "pas": 77,
+        "pos": 89,
+        "sho": 44,
+        "sta": 75,
+        "str": 83,
+        "tac": 88,
+        "vis": 68
+      },
+      "birth": "1978-11-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 189,
+      "id": "p0wzrdgh",
+      "name": "Rio Ferdynand",
+      "nation": "ENG",
+      "number": 5,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 133000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 78,
+        "com": 73,
+        "dri": 55,
+        "ldr": 70,
+        "pac": 65,
+        "pas": 63,
+        "pos": 77,
+        "sho": 40,
+        "sta": 67,
+        "str": 78,
+        "tac": 80,
+        "vis": 53
+      },
+      "birth": "1979-10-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0o45wm4",
+      "name": "Wes Bruwn",
+      "nation": "ENG",
+      "number": 6,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 57000
+    },
+    {
+      "attrs": {
+        "aer": 63,
+        "com": 83,
+        "dri": 74,
+        "ldr": 68,
+        "pac": 73,
+        "pas": 68,
+        "pos": 43,
+        "sho": 82,
+        "sta": 62,
+        "str": 65,
+        "tac": 33,
+        "vis": 68
+      },
+      "birth": "1979-12-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 173,
+      "id": "p0pbb20d",
+      "name": "Michael Owan",
+      "nation": "ENG",
+      "number": 7,
+      "pos": "ST",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 93000
+    },
+    {
+      "attrs": {
+        "aer": 56,
+        "com": 72,
+        "dri": 78,
+        "ldr": 57,
+        "pac": 71,
+        "pas": 78,
+        "pos": 63,
+        "sho": 68,
+        "sta": 77,
+        "str": 74,
+        "tac": 66,
+        "vis": 76
+      },
+      "birth": "1988-04-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "fullName": "Anderson Luís de Abreu Oliveira",
+      "height": 176,
+      "id": "p1ar3bxw",
+      "name": "Andarson",
+      "nation": "BRA",
+      "number": 8,
+      "pos": "CM",
+      "wage": 63000
+    },
+    {
+      "attrs": {
+        "aer": 74,
+        "com": 89,
+        "dri": 87,
+        "ldr": 69,
+        "pac": 67,
+        "pas": 82,
+        "pos": 46,
+        "sho": 86,
+        "sta": 70,
+        "str": 77,
+        "tac": 37,
+        "vis": 86
+      },
+      "birth": "1981-01-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 189,
+      "id": "p0ne3jpb",
+      "name": "Dimitar Berbatuv",
+      "nation": "BUL",
+      "number": 9,
+      "pos": "ST",
+      "traits": [
+        "flair"
+      ],
+      "wage": 120000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 75,
+        "com": 85,
+        "dri": 85,
+        "ldr": 75,
+        "pac": 81,
+        "pas": 81,
+        "pos": 54,
+        "sho": 91,
+        "sta": 87,
+        "str": 84,
+        "tac": 51,
+        "vis": 85
+      },
+      "birth": "1985-10-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 176,
+      "id": "p0rogrqe",
+      "name": "Wayne Roonay",
+      "nation": "ENG",
+      "number": 10,
+      "pos": "ST",
+      "traits": [
+        "big_game",
+        "engine"
+      ],
+      "wage": 110000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 52,
+        "com": 82,
+        "dri": 81,
+        "ldr": 81,
+        "pac": 67,
+        "pas": 84,
+        "pos": 57,
+        "sho": 73,
+        "sta": 68,
+        "str": 60,
+        "tac": 49,
+        "vis": 86
+      },
+      "birth": "1973-11-01",
+      "contract": "2012-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p1iwgsb0",
+      "name": "Ryan Gyggs",
+      "nation": "WAL",
+      "number": 11,
+      "pos": "LM",
+      "traits": [
+        "playmaker"
+      ],
+      "wage": 90000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 78,
+        "com": 66,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 75,
+        "pas": 60,
+        "pos": 72,
+        "sho": 38,
+        "sta": 75,
+        "str": 79,
+        "tac": 76,
+        "vis": 50
+      },
+      "birth": "1989-11-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 194,
+      "id": "p1higf60",
+      "name": "Chris Smallyng",
+      "nation": "ENG",
+      "number": 12,
+      "pos": "CB",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 55,
+        "com": 76,
+        "dri": 77,
+        "ldr": 70,
+        "pac": 78,
+        "pas": 76,
+        "pos": 66,
+        "sho": 69,
+        "sta": 93,
+        "str": 63,
+        "tac": 69,
+        "vis": 75
+      },
+      "birth": "1981-02-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p0v1onkn",
+      "name": "Park Jy-sung",
+      "nation": "KOR",
+      "number": 13,
+      "pos": "RM",
+      "traits": [
+        "engine",
+        "big_game"
+      ],
+      "wage": 73000
+    },
+    {
+      "attrs": {
+        "aer": 69,
+        "com": 79,
+        "dri": 73,
+        "ldr": 53,
+        "pac": 82,
+        "pas": 63,
+        "pos": 39,
+        "sho": 81,
+        "sta": 76,
+        "str": 64,
+        "tac": 31,
+        "vis": 63
+      },
+      "birth": "1988-06-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p0ph5x3t",
+      "name": "Javier Harnandez",
+      "nation": "MEX",
+      "number": 14,
+      "pos": "ST",
+      "traits": [
+        "clutch"
+      ],
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 90,
+        "com": 86,
+        "dri": 60,
+        "ldr": 88,
+        "pac": 73,
+        "pas": 69,
+        "pos": 88,
+        "sho": 50,
+        "sta": 81,
+        "str": 90,
+        "tac": 90,
+        "vis": 62
+      },
+      "birth": "1981-10-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 189,
+      "id": "p1kublm3",
+      "name": "Nemanja Vydic",
+      "nation": "SRB",
+      "number": 15,
+      "pos": "CB",
+      "traits": [
+        "leader",
+        "aerial_threat"
+      ],
+      "wage": 123000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 85,
+        "dri": 74,
+        "ldr": 71,
+        "pac": 64,
+        "pas": 87,
+        "pos": 77,
+        "sho": 66,
+        "sta": 81,
+        "str": 72,
+        "tac": 74,
+        "vis": 86
+      },
+      "birth": "1981-07-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1u13ods",
+      "name": "Michael Carryck",
+      "nation": "ENG",
+      "number": 16,
+      "pos": "CM",
+      "traits": [
+        "playmaker"
+      ],
+      "wage": 85000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 48,
+        "com": 72,
+        "dri": 87,
+        "ldr": 55,
+        "pac": 87,
+        "pas": 76,
+        "pos": 45,
+        "sho": 77,
+        "sta": 76,
+        "str": 63,
+        "tac": 38,
+        "vis": 75
+      },
+      "birth": "1986-11-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "fullName": "Luís Carlos Almeida da Cunha",
+      "height": 177,
+      "id": "p15z5gpc",
+      "name": "Neni",
+      "nation": "POR",
+      "number": 17,
+      "pos": "RW",
+      "traits": [
+        "flair",
+        "long_shot"
+      ],
+      "wage": 70000
+    },
+    {
+      "attrs": {
+        "aer": 55,
+        "com": 86,
+        "dri": 77,
+        "ldr": 84,
+        "pac": 53,
+        "pas": 89,
+        "pos": 69,
+        "sho": 76,
+        "sta": 72,
+        "str": 66,
+        "tac": 61,
+        "vis": 89
+      },
+      "birth": "1974-11-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 170,
+      "id": "p1cwmt8b",
+      "looks": {
+        "beard": "none",
+        "hair": "short",
+        "hairColor": "red"
+      },
+      "name": "Paul Schules",
+      "nation": "ENG",
+      "number": 18,
+      "pos": "CM",
+      "traits": [
+        "playmaker",
+        "long_shot"
+      ],
+      "wage": 83000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 54,
+        "com": 60,
+        "dri": 67,
+        "ldr": 45,
+        "pac": 76,
+        "pas": 64,
+        "pos": 64,
+        "sho": 47,
+        "sta": 75,
+        "str": 60,
+        "tac": 69,
+        "vis": 56
+      },
+      "birth": "1990-07-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 172,
+      "id": "p1gslj96",
+      "name": "Fabyo",
+      "nation": "BRA",
+      "number": 20,
+      "pos": "LB",
+      "wage": 23000
+    },
+    {
+      "attrs": {
+        "aer": 58,
+        "com": 63,
+        "dri": 69,
+        "ldr": 50,
+        "pac": 81,
+        "pas": 67,
+        "pos": 68,
+        "sho": 50,
+        "sta": 79,
+        "str": 63,
+        "tac": 73,
+        "vis": 58
+      },
+      "birth": "1990-07-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 172,
+      "id": "p0vx8m68",
+      "name": "Rafaal",
+      "nation": "BRA",
+      "number": 21,
+      "pos": "RB",
+      "wage": 26000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 72,
+        "com": 73,
+        "dri": 62,
+        "ldr": 71,
+        "pac": 67,
+        "pas": 67,
+        "pos": 76,
+        "sho": 46,
+        "sta": 75,
+        "str": 75,
+        "tac": 77,
+        "vis": 59
+      },
+      "birth": "1981-04-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p09ebsch",
+      "name": "John O'Shaa",
+      "nation": "IRL",
+      "number": 22,
+      "pos": "CB",
+      "wage": 57000
+    },
+    {
+      "attrs": {
+        "aer": 81,
+        "com": 74,
+        "dri": 59,
+        "ldr": 64,
+        "pac": 67,
+        "pas": 67,
+        "pos": 78,
+        "sho": 42,
+        "sta": 73,
+        "str": 80,
+        "tac": 80,
+        "vis": 55
+      },
+      "birth": "1988-01-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1y4s2j2",
+      "name": "Jonny Evens",
+      "nation": "NIR",
+      "number": 23,
+      "pos": "CB",
+      "wage": 43000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 79,
+        "dri": 72,
+        "ldr": 73,
+        "pac": 67,
+        "pas": 79,
+        "pos": 72,
+        "sho": 64,
+        "sta": 87,
+        "str": 70,
+        "tac": 73,
+        "vis": 75
+      },
+      "birth": "1984-02-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p1pdxus4",
+      "name": "Darren Fletchar",
+      "nation": "SCO",
+      "number": 24,
+      "pos": "CM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 68000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 55,
+        "com": 73,
+        "dri": 81,
+        "ldr": 60,
+        "pac": 88,
+        "pas": 77,
+        "pos": 55,
+        "sho": 68,
+        "sta": 83,
+        "str": 83,
+        "tac": 55,
+        "vis": 68
+      },
+      "birth": "1985-08-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 181,
+      "id": "p01wyjnh",
+      "name": "Antonio Valencya",
+      "nation": "ECU",
+      "number": 25,
+      "pos": "RM",
+      "traits": [
+        "speedster"
+      ],
+      "wage": 62000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 46,
+        "com": 54,
+        "dri": 74,
+        "ldr": 38,
+        "pac": 85,
+        "pas": 60,
+        "pos": 36,
+        "sho": 54,
+        "sta": 69,
+        "str": 65,
+        "tac": 30,
+        "vis": 56
+      },
+      "birth": "1989-02-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 186,
+      "id": "p1099zot",
+      "name": "Gabriel Obartan",
+      "nation": "FRA",
+      "number": 26,
+      "pos": "RW",
+      "wage": 12000
+    },
+    {
+      "attrs": {
+        "aer": 59,
+        "com": 61,
+        "dri": 67,
+        "ldr": 41,
+        "pac": 70,
+        "pas": 57,
+        "pos": 35,
+        "sho": 65,
+        "sta": 66,
+        "str": 68,
+        "tac": 29,
+        "vis": 55
+      },
+      "birth": "1991-08-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 184,
+      "id": "p0xy3ae5",
+      "name": "Federico Mecheda",
+      "nation": "ITA",
+      "number": 27,
+      "pos": "ST",
+      "wage": 13000
+    },
+    {
+      "attrs": {
+        "aer": 49,
+        "com": 65,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 57,
+        "pas": 72,
+        "pos": 58,
+        "sho": 70,
+        "sta": 69,
+        "str": 61,
+        "tac": 58,
+        "vis": 68
+      },
+      "birth": "1987-10-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0ndyo6w",
+      "name": "Darron Gybson",
+      "nation": "IRL",
+      "number": 28,
+      "pos": "CM",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 57,
+        "com": 60,
+        "dri": 59,
+        "ldr": 43,
+        "pac": 61,
+        "pas": 53,
+        "pos": 33,
+        "sho": 62,
+        "sta": 57,
+        "str": 63,
+        "tac": 26,
+        "vis": 50
+      },
+      "birth": "1990-07-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 190,
+      "id": "p11g4aqj",
+      "name": "Beba",
+      "nation": "POR",
+      "number": 33,
+      "pos": "ST",
+      "wage": 9000
+    }
+  ],
+  "stadiumCapacity": 75957
+}

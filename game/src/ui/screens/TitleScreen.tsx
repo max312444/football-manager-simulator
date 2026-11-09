@@ -13,11 +13,13 @@ export function TitleScreen() {
   const go = useApp((s) => s.go);
   const hasWorld = useGame((s) => !!s.world);
   const load = useGame((s) => s.load);
+  const loadError = useGame((s) => s.loadError);
   const [hover, setHover] = useState<string | null>(null);
   const [saves, setSaves] = useState<SaveMeta[]>([]);
   const [loadOpen, setLoadOpen] = useState(false);
   // 안내: 새 게임을 처음 시작할 때 한 번 (또는 '고지 보기')
-  const [notice, setNotice] = useState<null | 'start' | 'view'>(null);
+  // 처음 실행하면 바로 안내 팝업 (확인하면 다음부터는 안 뜸, '고지 보기'로 다시 볼 수 있음)
+  const [notice, setNotice] = useState<null | 'start' | 'view' | 'first'>(() => (noticeSeen() ? null : 'first'));
   useEffect(() => { listSaves().then(setSaves).catch(() => setSaves([])); }, []);
   const latest = saves[0];
   const resume = async () => { if (hasWorld) return go('hub'); if (latest && await load(latest.slot)) go('hub'); };
@@ -113,10 +115,11 @@ export function TitleScreen() {
           </div>
           <div className="tnum">v0.1</div>
         </footer>
+        {loadError && <p className="mt-4 max-w-[440px] text-[13px] text-amber">{loadError}</p>}
         <button onClick={() => setNotice('view')} className="mt-4 self-start text-[11px] text-lo transition-colors hover:text-mid">비공식 팬 프로젝트 · 고지 보기</button>
       </div>
 
-      {notice && <NoticeDialog confirmLabel={notice === 'start' ? '확인하고 시작' : '닫기'} onClose={() => { const n = notice; setNotice(null); if (n === 'start') go('newgame'); }} />}
+      {notice && <NoticeDialog confirmLabel={notice === 'start' ? '확인하고 시작' : notice === 'first' ? '확인' : '닫기'} onClose={() => { const n = notice; setNotice(null); if (n === 'start') go('newgame'); }} />}
 
       {loadOpen && (
         <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-8 backdrop-blur-sm" onClick={() => setLoadOpen(false)}>
@@ -126,6 +129,7 @@ export function TitleScreen() {
               <button onClick={() => setLoadOpen(false)} className="text-[13px] text-lo hover:text-hi">닫기</button>
             </header>
             <SaveSlots mode="load" onPick={async (slot) => { if (await load(slot)) go('hub'); }} />
+            {loadError && <p className="border-t border-line px-6 py-3 text-[13px] text-amber">{loadError}</p>}
           </div>
         </div>
       )}

@@ -115,7 +115,19 @@ export type GameEvent =
   | { type: 'match'; date: string; fixtureId: string; league: string; home: string; away: string; score: [number, number]; user: boolean }
   | { type: 'injury'; date: string; player: string; club: string; days: number; label: string }
   | { type: 'seasonEnd'; date: string; league: string; champion: string }
-  | { type: 'info'; date: string; text: string };
+  | { type: 'info'; date: string; text: string }
+  | { type: 'transfer'; date: string; player: string; from: string | null; to: string; fee: number; user: boolean }
+  | { type: 'offer'; date: string; player: string; from: string; fee: number };
+
+/** 사용자 선수에게 들어온 영입 제안 */
+export interface TransferOffer {
+  id: string;
+  player: string;
+  from: string;      // 제안한 구단
+  fee: number;
+  date: string;
+  expires: string;
+}
 
 export interface SeasonRecord {
   season: string;
@@ -142,4 +154,10 @@ export interface World {
   history: SeasonRecord[];   // 지난 시즌 최종 순위
   /** 어느 데이터로 만든 세이브인지 (public: 패러디 이름, real: 실명). 없으면 옛 세이브 = real */
   dataset?: 'public' | 'real';
+  /** 이적 명단에 올린 내 선수 */
+  transferList?: string[];
+  /** 내 선수에게 들어온 제안 */
+  offers?: TransferOffer[];
+  /** 관심 목록 */
+  shortlist?: string[];
 }

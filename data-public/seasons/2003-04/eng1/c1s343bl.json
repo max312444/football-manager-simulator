@@ -1,0 +1,660 @@
+{
+  "club": "c1s343bl",
+  "estimated": true,
+  "facilities": {
+    "training": 4,
+    "youth": 4
+  },
+  "finance": {
+    "balance": 3000000,
+    "transferBudget": 5000000,
+    "wageBudget": 750000
+  },
+  "formation": "4-4-2",
+  "league": "eng1",
+  "reputation": 66,
+  "season": "2003-04",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 81,
+        "com": 80,
+        "han": 81,
+        "ldr": 72,
+        "one": 81,
+        "pac": 55,
+        "pas": 65,
+        "pos": 81,
+        "ref": 85,
+        "sta": 66,
+        "str": 77,
+        "vis": 56
+      },
+      "birth": "1971-05-01",
+      "contract": "2008-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p0m3lo9j",
+      "name": "Brad Friadel",
+      "nation": "USA",
+      "number": 1,
+      "pos": "GK",
+      "wage": 36000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 67,
+        "han": 64,
+        "ldr": 61,
+        "one": 62,
+        "pac": 44,
+        "pas": 52,
+        "pos": 65,
+        "ref": 64,
+        "sta": 53,
+        "str": 64,
+        "vis": 51
+      },
+      "birth": "1968-08-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p11qvgew",
+      "name": "Alan Kelli",
+      "nation": "IRL",
+      "number": 13,
+      "pos": "GK",
+      "verify": true,
+      "wage": 12000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 69,
+        "com": 68,
+        "dri": 63,
+        "ldr": 64,
+        "pac": 74,
+        "pas": 65,
+        "pos": 73,
+        "sho": 49,
+        "sta": 83,
+        "str": 74,
+        "tac": 77,
+        "vis": 56
+      },
+      "birth": "1978-03-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p1hzjowo",
+      "name": "Lucas Naill",
+      "nation": "AUS",
+      "number": 2,
+      "pos": "RB",
+      "wage": 31500
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 57,
+        "com": 58,
+        "dri": 63,
+        "ldr": 48,
+        "pac": 74,
+        "pas": 65,
+        "pos": 61,
+        "sho": 55,
+        "sta": 73,
+        "str": 66,
+        "tac": 63,
+        "vis": 56
+      },
+      "birth": "1977-07-01",
+      "contract": "2006-06-30",
+      "foot": "L",
+      "height": 184,
+      "id": "p1nvchdw",
+      "name": "Vratislav Gresku",
+      "nation": "SVK",
+      "number": 3,
+      "pos": "LB",
+      "verify": true,
+      "wage": 20000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 72,
+        "com": 60,
+        "dri": 52,
+        "ldr": 50,
+        "pac": 70,
+        "pas": 56,
+        "pos": 68,
+        "sho": 40,
+        "sta": 73,
+        "str": 73,
+        "tac": 72,
+        "vis": 44
+      },
+      "birth": "1980-01-01",
+      "contract": "2007-06-30",
+      "foot": "L",
+      "height": 186,
+      "id": "p0yipttk",
+      "name": "Nils-Eric Juhansson",
+      "nation": "SWE",
+      "number": 26,
+      "pos": "CB",
+      "wage": 18000
+    },
+    {
+      "attrs": {
+        "aer": 76,
+        "com": 63,
+        "dri": 49,
+        "ldr": 61,
+        "pac": 59,
+        "pas": 55,
+        "pos": 69,
+        "sho": 41,
+        "sta": 68,
+        "str": 78,
+        "tac": 74,
+        "vis": 43
+      },
+      "birth": "1974-09-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0l2y6e1",
+      "name": "Andy Tudd",
+      "nation": "ENG",
+      "number": 27,
+      "pos": "CB",
+      "verify": true,
+      "wage": 17500
+    },
+    {
+      "attrs": {
+        "aer": 80,
+        "com": 70,
+        "dri": 46,
+        "ldr": 72,
+        "pac": 49,
+        "pas": 54,
+        "pos": 76,
+        "sho": 38,
+        "sta": 58,
+        "str": 75,
+        "tac": 74,
+        "vis": 42
+      },
+      "birth": "1968-06-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p0f1vgoz",
+      "name": "Craig Shurt",
+      "nation": "ENG",
+      "number": 6,
+      "pos": "CB",
+      "verify": true,
+      "wage": 13500
+    },
+    {
+      "attrs": {
+        "aer": 81,
+        "com": 68,
+        "dri": 51,
+        "ldr": 70,
+        "pac": 55,
+        "pas": 61,
+        "pos": 73,
+        "sho": 55,
+        "sta": 60,
+        "str": 81,
+        "tac": 73,
+        "vis": 50
+      },
+      "birth": "1971-06-01",
+      "contract": "2006-06-30",
+      "foot": "L",
+      "height": 188,
+      "id": "p13e3tbc",
+      "looks": {
+        "beard": "stubble",
+        "hair": "long",
+        "hairColor": "brown"
+      },
+      "name": "Lorenzo Amuruso",
+      "nation": "ITA",
+      "number": 25,
+      "pos": "CB",
+      "wage": 27000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 74,
+        "com": 74,
+        "dri": 60,
+        "ldr": 68,
+        "pac": 63,
+        "pas": 66,
+        "pos": 76,
+        "sho": 51,
+        "sta": 69,
+        "str": 76,
+        "tac": 76,
+        "vis": 57
+      },
+      "birth": "1972-09-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 190,
+      "id": "p0xpvsj9",
+      "loan": "c83d96l",
+      "name": "Markus Babbal",
+      "nation": "GER",
+      "number": 14,
+      "pos": "CB",
+      "verify": true,
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 74,
+        "com": 54,
+        "dri": 44,
+        "ldr": 48,
+        "pac": 58,
+        "pas": 48,
+        "pos": 64,
+        "sho": 34,
+        "sta": 65,
+        "str": 77,
+        "tac": 68,
+        "vis": 38
+      },
+      "birth": "1979-11-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 193,
+      "id": "p12z0caf",
+      "name": "Martin Teylor",
+      "nation": "ENG",
+      "number": 15,
+      "pos": "CB",
+      "wage": 10000
+    },
+    {
+      "attrs": {
+        "aer": 61,
+        "com": 70,
+        "dri": 69,
+        "ldr": 74,
+        "pac": 64,
+        "pas": 77,
+        "pos": 71,
+        "sho": 63,
+        "sta": 79,
+        "str": 70,
+        "tac": 71,
+        "vis": 74
+      },
+      "birth": "1978-02-01",
+      "contract": "2008-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0v2jnn9",
+      "name": "Barry Farguson",
+      "nation": "SCO",
+      "number": 4,
+      "pos": "CM",
+      "traits": [
+        "leader"
+      ],
+      "wage": 45000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 64,
+        "com": 69,
+        "dri": 60,
+        "ldr": 71,
+        "pac": 60,
+        "pas": 68,
+        "pos": 72,
+        "sho": 58,
+        "sta": 77,
+        "str": 72,
+        "tac": 74,
+        "vis": 61
+      },
+      "birth": "1972-11-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0yaddxo",
+      "name": "Garry Flitcruft",
+      "nation": "ENG",
+      "number": 7,
+      "pos": "DM",
+      "verify": true,
+      "wage": 27000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 57,
+        "com": 80,
+        "dri": 73,
+        "ldr": 64,
+        "pac": 53,
+        "pas": 83,
+        "pos": 71,
+        "sho": 67,
+        "sta": 66,
+        "str": 65,
+        "tac": 65,
+        "vis": 82
+      },
+      "birth": "1970-08-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p1mz76tx",
+      "looks": {
+        "beard": "full",
+        "hair": "long",
+        "hairColor": "black"
+      },
+      "name": "Tugay Kerimuglu",
+      "nation": "TUR",
+      "number": 19,
+      "pos": "CM",
+      "traits": [
+        "playmaker",
+        "long_shot"
+      ],
+      "verify": true,
+      "wage": 27000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 59,
+        "com": 62,
+        "dri": 71,
+        "ldr": 52,
+        "pac": 82,
+        "pas": 67,
+        "pos": 61,
+        "sho": 61,
+        "sta": 85,
+        "str": 70,
+        "tac": 59,
+        "vis": 60
+      },
+      "birth": "1979-02-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p13vh5vo",
+      "name": "Brett Emarton",
+      "nation": "AUS",
+      "number": 8,
+      "pos": "RM",
+      "wage": 27000
+    },
+    {
+      "alt": [
+        "RM"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 60,
+        "dri": 64,
+        "ldr": 50,
+        "pac": 70,
+        "pas": 64,
+        "pos": 60,
+        "sho": 64,
+        "sta": 79,
+        "str": 69,
+        "tac": 60,
+        "vis": 58
+      },
+      "birth": "1981-03-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0mpvca5",
+      "name": "Steven Reyd",
+      "nation": "IRL",
+      "number": 20,
+      "pos": "CM",
+      "wage": 15000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 52,
+        "com": 65,
+        "dri": 69,
+        "ldr": 54,
+        "pac": 67,
+        "pas": 73,
+        "pos": 62,
+        "sho": 68,
+        "sta": 75,
+        "str": 60,
+        "tac": 58,
+        "vis": 69
+      },
+      "birth": "1977-09-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 170,
+      "id": "p0tof4qn",
+      "name": "David Thompsun",
+      "nation": "ENG",
+      "number": 16,
+      "pos": "RM",
+      "traits": [
+        "injury_prone"
+      ],
+      "verify": true,
+      "wage": 27000
+    },
+    {
+      "attrs": {
+        "aer": 55,
+        "com": 53,
+        "dri": 57,
+        "ldr": 41,
+        "pac": 65,
+        "pas": 59,
+        "pos": 57,
+        "sho": 51,
+        "sta": 74,
+        "str": 65,
+        "tac": 61,
+        "vis": 51
+      },
+      "birth": "1981-11-01",
+      "contract": "2007-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p10toamw",
+      "name": "Jonathan Dougles",
+      "nation": "IRL",
+      "number": 28,
+      "pos": "CM",
+      "verify": true,
+      "wage": 3000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 51,
+        "dri": 58,
+        "ldr": 35,
+        "pac": 67,
+        "pas": 52,
+        "pos": 42,
+        "sho": 58,
+        "sta": 62,
+        "str": 63,
+        "tac": 32,
+        "vis": 49
+      },
+      "birth": "1984-08-01",
+      "contract": "2008-06-30",
+      "foot": "L",
+      "height": 185,
+      "id": "p1cdkgvi",
+      "name": "Paul Gellagher",
+      "nation": "SCO",
+      "number": 32,
+      "pos": "ST",
+      "verify": true,
+      "wage": 2000
+    },
+    {
+      "attrs": {
+        "aer": 61,
+        "com": 79,
+        "dri": 72,
+        "ldr": 58,
+        "pac": 74,
+        "pas": 66,
+        "pos": 49,
+        "sho": 80,
+        "sta": 69,
+        "str": 68,
+        "tac": 36,
+        "vis": 64
+      },
+      "birth": "1971-10-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p125y0y6",
+      "name": "Andy Cola",
+      "nation": "ENG",
+      "number": 9,
+      "pos": "ST",
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 66,
+        "com": 74,
+        "dri": 73,
+        "ldr": 61,
+        "pac": 65,
+        "pas": 72,
+        "pos": 54,
+        "sho": 73,
+        "sta": 64,
+        "str": 71,
+        "tac": 39,
+        "vis": 70
+      },
+      "birth": "1971-11-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1nn5u2o",
+      "name": "Dwight Yurke",
+      "nation": "TRI",
+      "number": 12,
+      "pos": "ST",
+      "wage": 45000
+    },
+    {
+      "attrs": {
+        "aer": 63,
+        "com": 58,
+        "dri": 65,
+        "ldr": 42,
+        "pac": 66,
+        "pas": 61,
+        "pos": 49,
+        "sho": 65,
+        "sta": 59,
+        "str": 64,
+        "tac": 37,
+        "vis": 56
+      },
+      "birth": "1977-10-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0dkuj6q",
+      "name": "Matt Jansan",
+      "nation": "ENG",
+      "number": 17,
+      "pos": "ST",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 22500
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 60,
+        "dri": 66,
+        "ldr": 48,
+        "pac": 73,
+        "pas": 58,
+        "pos": 48,
+        "sho": 66,
+        "sta": 67,
+        "str": 67,
+        "tac": 36,
+        "vis": 54
+      },
+      "birth": "1975-07-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p051ty7i",
+      "name": "Corrado Grabby",
+      "nation": "ITA",
+      "number": 10,
+      "pos": "ST",
+      "verify": true,
+      "wage": 25000
+    }
+  ],
+  "stadiumCapacity": 31367
+}

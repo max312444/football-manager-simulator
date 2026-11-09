@@ -2,6 +2,8 @@ import { Sidebar } from '../components/Sidebar';
 import { TopBar } from '../components/TopBar';
 import { ContinueBar } from '../components/ContinueBar';
 import { SeasonReportPanel } from '../components/SeasonReportPanel';
+import { TransferCeremony } from '../components/TransferCeremony';
+import { useGame } from '../../store/game';
 import { useApp, type HubTab } from '../../store/app';
 import { clubKo } from '../../data/db';
 import { useWorld } from '../hooks';
@@ -11,6 +13,7 @@ import { TableView } from '../views/TableView';
 import { ScheduleView } from '../views/ScheduleView';
 import { InboxView } from '../views/InboxView';
 import { TacticsView } from '../views/TacticsView';
+import { TransfersView } from '../views/TransfersView';
 
 const TITLES: Record<HubTab, string> = {
   home: '홈', inbox: '받은편지함', squad: '선수단', tactics: '전술', schedule: '일정',
@@ -20,9 +23,11 @@ const TITLES: Record<HubTab, string> = {
 export function HubScreen() {
   const tab = useApp((s) => s.tab);
   const w = useWorld();
+  const ceremony = useGame((s) => s.ceremony);
+  const closeCeremony = useGame((s) => s.closeCeremony);
   const view = {
     home: <HomeView />, squad: <SquadView />, table: <TableView />, schedule: <ScheduleView />,
-    inbox: <InboxView />, tactics: <TacticsView />,
+    inbox: <InboxView />, tactics: <TacticsView />, transfers: <TransfersView />,
   }[tab as string];
 
   return (
@@ -44,6 +49,7 @@ export function HubScreen() {
         <ContinueBar />
       </main>
       <SeasonReportPanel />
+      {ceremony && <TransferCeremony c={ceremony} onClose={closeCeremony} />}
     </div>
   );
 }

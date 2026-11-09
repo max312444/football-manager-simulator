@@ -110,13 +110,25 @@ async function pageLinks(title, opts) {
 //  - {{#invoke:Sports table|...|team1=RMA|...|name_RMA=[[Real Madrid CF|Real Madrid]]}}
 //  - 옛 형식 {{Fb cl team |p=1 |t=[[Real Madrid C.F.|Real Madrid]] ...}}
 function leagueTableTeams(wikitext) {
+  wikitext = wikitext.replace(/<!--[\s\S]*?-->/g, '');   // HTML 주석 제거
   const out = [];
   for (const body of findTemplates(wikitext, ['#invoke:\\s*[Ss]ports table'])) {
     const f = {};
     splitParams(body).forEach(p => { const k = p.indexOf('='); if (k > 0) f[p.slice(0, k).trim()] = p.slice(k + 1).trim(); });
-    const codes = Object.keys(f).filter(k => /^team\d+$/.test(k)).sort((a, b) => +a.slice(4) - +b.slice(4)).map(k => f[k]);
+    let codes = Object.keys(f).filter(k => /^team\d+$/.test(k)).sort((a, b) => +a.slice(4) - +b.slice(4)).map(k => f[k]);
+    if (!codes.length && f.team_order) codes = f.team_order.split(',').map(x => x.trim()).filter(Boolean);
     const titles = codes.map(c => linkTitle(f[`name_${c}`] || '')).filter(Boolean);
     if (titles.length >= 16) { out.push(titles); }
+  }
+  // 최근 문서: 순위표는 별도 틀로 빼고, 같은 문서의 결과표({{#invoke:sports results|team_order=…|name_XXX=…}})에 전체 구단이 있다
+  if (!out.length) {
+    for (const body of findTemplates(wikitext, ['#invoke:\\s*[Ss]ports results'])) {
+      const f = {};
+      splitParams(body).forEach(p => { const k = p.indexOf('='); if (k > 0) f[p.slice(0, k).trim()] = p.slice(k + 1).trim(); });
+      const codes = (f.team_order || '').split(',').map(s => s.trim()).filter(Boolean);
+      const titles = codes.map(c => linkTitle(f[`name_${c}`] || '')).filter(Boolean);
+      if (titles.length >= 16) { out.push(titles); break; }
+    }
   }
   if (!out.length) {
     const titles = findTemplates(wikitext, ['[Ff]b cl team'])
