@@ -5,7 +5,8 @@ import type { Fixture, GameEvent, Side, Tactics, World } from '../engine/types';
 import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, type SeasonInput } from '../engine/world';
 import { playToEnd, setTactics, step, substitute, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
-import { availableSeasons, clubs as clubMasters, dataset, leagues, loadLeagueSeason, realAvailable, setDataset } from '../data/db';
+import { seedTraits } from '../engine/traits';
+import { availableSeasons, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, realAvailable, setDataset } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
@@ -110,6 +111,9 @@ export const useGame = create<GameStore>((set, get) => {
       const seed = (Date.now() ^ Math.floor(Math.random() * 1e9)) >>> 0;
       const world = createWorld(input, clubId, seed);
       world.dataset = dataset;
+      // 베테랑 · 스타 선수 시작 호칭 (실제 시즌 기록 기준)
+      const hist = await loadHistory();
+      if (hist) seedTraits(world, hist, createRng((seed ^ 0x7a17) >>> 0));
       set({ world, loading: false, match: null, lastEvents: [], seasonReport: null });
       autosave(world);
       bump();

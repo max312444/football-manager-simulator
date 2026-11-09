@@ -4,6 +4,7 @@ import type { Rng } from './rng';
 import { overall } from './ratings';
 import { ageOn } from './condition';
 import { posGroup } from '../data/rating';
+import { book } from './finance';
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 const addDays = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
@@ -139,16 +140,17 @@ export function completeTransfer(w: World, p: PlayerState, to: string, fee: numb
   if (from) {
     const s = w.clubs[from];
     s.squad = s.squad.filter((id) => id !== p.id);
-    s.finance.balance += fee;
+    book(w, from, 'sales', fee);
     s.finance.transferBudget += Math.round(fee * 0.5);
     if (s.lineup) s.lineup = { starters: s.lineup.starters.map((x) => (x === p.id ? null : x)), bench: s.lineup.bench.filter((x) => x !== p.id) };
   }
   const b = w.clubs[to];
   b.squad.push(p.id);
-  b.finance.balance -= fee;
+  book(w, to, 'purchases', fee);
   b.finance.transferBudget = Math.max(0, b.finance.transferBudget - fee);
   p.clubId = to;
   p.wage = wage;
+  p.lastFee = fee;
   p.contract = `${+w.date.slice(0, 4) + years + (w.date.slice(5) >= '07-01' ? 1 : 0)}-06-30`;
   p.loyalty = 50 + p.hidden.loyalty;          // 새 구단에서 다시 시작
   p.benchStreak = 0;

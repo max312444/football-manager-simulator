@@ -6,6 +6,7 @@
 import type {
   ClubMaster, ClubSeasonFile, LeagueMeta, LeagueSeasonFile, LocaleName, NationMeta,
 } from './types';
+import type { PlayerHistory } from '../engine/traits';
 
 type Meta<T> = Record<string, T>;
 const SETS = {
@@ -14,12 +15,14 @@ const SETS = {
     clubs: import.meta.glob<ClubMaster>('@pub/clubs/*.json', { eager: true, import: 'default' }),
     ko: import.meta.glob<Record<string, LocaleName>>('@pub/locale/ko/players*.json', { eager: true, import: 'default' }),
     seasons: import.meta.glob<ClubSeasonFile | LeagueSeasonFile>('@pub/seasons/*/*/*.json', { import: 'default' }),
+    history: import.meta.glob<PlayerHistory>('@pub/history/players.json', { import: 'default' }),
   },
   real: {
     meta: import.meta.glob<unknown>('@data/meta/*.json', { eager: true, import: 'default' }) as Meta<unknown>,
     clubs: import.meta.glob<ClubMaster>('@data/clubs/*.json', { eager: true, import: 'default' }),
     ko: import.meta.glob<Record<string, LocaleName>>('@data/locale/ko/players*.json', { eager: true, import: 'default' }),
     seasons: import.meta.glob<ClubSeasonFile | LeagueSeasonFile>('@data/seasons/*/*/*.json', { import: 'default' }),
+    history: import.meta.glob<PlayerHistory>('@data/history/players.json', { import: 'default' }),
   },
 };
 
@@ -65,6 +68,12 @@ export async function loadLeagueSeason(season: string, league: string) {
   if (!meta) throw new Error(`데이터 없음: ${season} ${league}`);
   const clubsData = await Promise.all(meta.clubs.map((id) => index.get(`${season}/${league}/${id}`)!() as Promise<ClubSeasonFile>));
   return { meta, clubs: clubsData };
+}
+
+/** 선수 이력 (시작 호칭 계산용). 파일이 없으면 null → npm run history 로 만들 수 있음 */
+export async function loadHistory(): Promise<PlayerHistory | null> {
+  const f = Object.values(S.history)[0];
+  return f ? await f() : null;
 }
 
 export const playerKo = (id: string, fallback: string) => koNames.get(id)?.name ?? fallback;

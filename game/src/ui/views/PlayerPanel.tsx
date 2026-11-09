@@ -4,6 +4,33 @@ import { POS_KO } from '../../data/rating';
 import { ATTR_GROUPS, ATTR_KO, GK_GROUP, money, ratingBar, ratingTone } from '../format';
 import { ConditionIcon, FitnessBar } from '../components/bits';
 import { loyaltyLabel, UNHAPPY } from '../../engine/loyalty';
+import { TRAIT, type TraitKind } from '../../engine/traits';
+
+const KIND: Record<TraitKind, { label: string; cls: string }> = {
+  positive: { label: '긍정', cls: 'border-neon/40 text-neon' },
+  double: { label: '양날의 검', cls: 'border-amber/40 text-amber' },
+  negative: { label: '부정', cls: 'border-red/40 text-red' },
+};
+
+function Traits({ p }: { p: PlayerState }) {
+  return (
+    <div className="mb-5">
+      <div className="mb-2 flex items-baseline justify-between"><span className="text-[11px] font-semibold text-lo">호칭</span><span className="text-[11px] text-lo">{p.traits.length}/3</span></div>
+      {p.traits.length === 0 ? <div className="text-[12px] leading-relaxed text-lo">아직 호칭이 없습니다. 경기에서 보여준 플레이가 쌓이면 낮은 확률로 붙습니다.</div> : (
+        <div className="space-y-2">
+          {p.traits.map((id) => { const t = TRAIT.get(id); if (!t) return null; const k = KIND[t.kind]; return (
+            <div key={id} className="rounded-lg bg-ink-900 px-3 py-2.5">
+              <div className="flex items-center gap-2"><span className={`rounded border px-1.5 py-px text-[13px] font-semibold ${k.cls}`}>{t.ko}</span><span className="text-[11px] text-lo">{k.label}{t.permanent ? ' · 영구' : ''}</span></div>
+              <div className="mt-1.5 text-[12px] text-lo">{t.how}</div>
+              <div className="mt-1 flex flex-wrap gap-x-3 text-[12px]">{t.plus && <span className="text-neon">+ {t.plus}</span>}{t.minus && <span className="text-red">− {t.minus}</span>}</div>
+            </div>
+          ); })}
+          <div className="text-[11px] text-lo">이 세이브에서 게임이 만든 평가이며 실제 선수와 무관합니다</div>
+        </div>
+      )}
+    </div>
+  );
+}
 
 // 숨은 속성은 숫자 대신 게임 속 언론 평가 문장으로 (이 세이브에서 생성된 값, 실제 선수와 무관)
 function pressNotes(p: PlayerState): string[] {
@@ -84,6 +111,7 @@ export function PlayerPanel({ p, age, ko, nation }: { p: PlayerState; age: numbe
             </div>
           );
         })}
+        <Traits p={p} />
         <div className="mb-2 text-[11px] font-semibold text-lo">언론 평가</div>
         <ul className="space-y-1 text-[13px] text-mid">
           {pressNotes(p).map((n) => <li key={n} className="flex gap-2"><span className="mt-[7px] h-1 w-1 shrink-0 rounded-full bg-neon/70" />{n}</li>)}

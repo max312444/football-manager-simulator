@@ -12,6 +12,8 @@ import { dailyUpdate } from './condition';
 import { initialLoyalty, updatePlaytime } from './loyalty';
 import { recommend } from './ai';
 import { aiTransferDay } from './transfer';
+import { financeDay, gateIncome } from './finance';
+import { emptyLog, traitMonth } from './traits';
 import type { Lineup } from './squad';
 
 export interface SeasonInput {
@@ -119,6 +121,20 @@ export function applyMatch(w: World, f: Fixture, m: MatchState) {
   const s = m.summary;
   f.result = s;
   applyResult(w.competitions[f.league].table, f.home, f.away, s.homeGoals, s.awayGoals);
+  gateIncome(w, f.home, f.away);
+  // 호칭 판정용 기록: 부상 · 막판 동점/결승골 · 강팀전 평점
+  const log = (id: string) => (w.players[id].tlog ??= emptyLog());
+  for (const inj of s.injuries) log(inj.player).inj++;
+  let hg = 0, ag = 0;
+  for (const g of [...s.goals].sort((a, b) => a.minute - b.minute)) {
+    if (g.side === 'home') hg++; else ag++;
+    const diff = g.side === 'home' ? hg - ag : ag - hg;
+    if (g.minute >= 75 && (diff === 0 || diff === 1)) log(g.scorer).late++;
+  }
+  for (const [side, opp] of [['home', f.away], ['away', f.home]] as const) {
+    if ((w.clubs[opp]?.reputation ?? 0) < 80) continue;
+    for (const id of Object.keys(m[side].played)) { const r = s.ratings[id]; if (r != null) { const l = log(id); l.bigN++; l.bigSum += r; } }
+  }
 
   const fit = finalFitness(m);
   const mins = minutesPlayed(m);
@@ -197,6 +213,7 @@ export function advanceDay(w: World): GameEvent[] {
 
   // 이적시장: AI 구단 이적 (기간이 아니면 아무것도 안 함)
   events.push(...aiTransferDay(w, rng));
+  events.push(...traitMonth(w, rng));
 
   // 컨디션 (오늘 뛴 선수는 경기 후 체력 그대로, 회복은 내일부터)
   const recent = recentPlayers(w, today);
@@ -205,11 +222,12 @@ export function advanceDay(w: World): GameEvent[] {
     dailyUpdate(p, today, rng, recent.has(p.id));
   }
 
+  financeDay(w);
   w.date = addDay(today);
   w.rng = rng.state();
   // 받은편지함에는 사용자 구단 관련과 시즌 종료만 남긴다
   for (const e of events) {
-    if (e.type === 'seasonEnd' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
+    if (e.type === 'seasonEnd' || e.type === 'info' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
       || (e.type === 'transfer' && (e.user || e.fee >= 30e6))) w.inbox.push(e);
   }
   if (w.inbox.length > 300) w.inbox.splice(0, w.inbox.length - 300);

@@ -14,6 +14,7 @@ import { ScheduleView } from '../views/ScheduleView';
 import { InboxView } from '../views/InboxView';
 import { TacticsView } from '../views/TacticsView';
 import { TransfersView } from '../views/TransfersView';
+import { FinanceView } from '../views/FinanceView';
 
 const TITLES: Record<HubTab, string> = {
   home: '홈', inbox: '받은편지함', squad: '선수단', tactics: '전술', schedule: '일정',
@@ -28,7 +29,7 @@ export function HubScreen() {
   const closeCeremony = useGame((s) => s.closeCeremony);
   const view = {
     home: <HomeView />, squad: <SquadView />, table: <TableView />, schedule: <ScheduleView />,
-    inbox: <InboxView />, tactics: <TacticsView />, transfers: <TransfersView key={preset ? preset.label + preset.minOvr : 'free'} />,
+    inbox: <InboxView />, finance: <FinanceView />, tactics: <TacticsView />, transfers: <TransfersView key={preset ? preset.label + preset.minOvr : 'free'} />,
   }[tab as string];
 
   return (
@@ -42,7 +43,7 @@ export function HubScreen() {
               <div className="text-center">
                 <div className="mx-auto mb-4 h-px w-10 bg-neon" />
                 <div className="text-[17px] font-semibold">{TITLES[tab]} 화면은 준비 중입니다</div>
-                <div className="mt-1 text-[13px] text-lo">이적·재정은 다음 단계(2차 시스템)에서 구현됩니다.</div>
+                <div className="mt-1 text-[13px] text-lo">다음 단계에서 구현됩니다.</div>
               </div>
             </div>
           )}

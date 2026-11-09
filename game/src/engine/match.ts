@@ -6,6 +6,7 @@ import type { MatchSummary, PlayerState, Side, Tactics } from './types';
 import type { Rng } from './rng';
 import { attr, familiarity, fitnessFactor, preMatchFactor, slotRating } from './ratings';
 import type { Lineup } from './squad';
+import { traitForm, traitMul } from './traits';
 
 export const SEGMENTS = 18;
 const SEG_MIN = 5;
@@ -100,10 +101,11 @@ function unitValue(p: PlayerState, u: Unit): number {
 
 /** 경기 당일 컨디션 뽑기: 평소 컨디션 + 랜덤, 꾸준함이 낮을수록 폭이 큼 */
 function rollDayForm(p: PlayerState, rng: Rng, bigMatch: boolean): { factor: number; z: number } {
-  const spread = 0.5 * (1.45 - p.hidden.consistency / 20);
+  const spread = 0.5 * (1.45 - p.hidden.consistency / 20) * traitMul(p, 'spread');
   const z = clamp(0.6 * p.condition + rng.normal() * spread, -1, 1);
   let f = preMatchFactor(p) * (1 + TUNING.dayFormSpread * z);
   if (bigMatch) f *= 1 + (p.hidden.bigMatch - 10) * 0.003;
+  if (p.traits.length) f *= 1 + traitForm(p, bigMatch);
   return { factor: f, z };
 }
 
@@ -263,7 +265,7 @@ export function step(m: MatchState, ctx: MatchCtx): void {
     // 카드
     const aggression = 1 + 0.1 * (me.tactics.pressing - 1);
     if (rng.chance(TUNING.yellowPerSeg * aggression)) {
-      const c = pickPlayer(me, ctx, (op, p) => CARD_W[op.slot] * (21 - p.hidden.temperament) / 10);
+      const c = pickPlayer(me, ctx, (op, p) => CARD_W[op.slot] * (21 - p.hidden.temperament) / 10 * traitMul(p, 'card'));
       if (c) {
         const minute = m.segment * SEG_MIN + rng.int(1, SEG_MIN);
         if (c.yellow) { if (rng.chance(0.45)) sendOff(m, side, c, minute); }
@@ -271,13 +273,13 @@ export function step(m: MatchState, ctx: MatchCtx): void {
       }
     }
     if (rng.chance(TUNING.redPerSeg)) {
-      const c = pickPlayer(me, ctx, (op, p) => CARD_W[op.slot] * (21 - p.hidden.temperament) / 10);
+      const c = pickPlayer(me, ctx, (op, p) => CARD_W[op.slot] * (21 - p.hidden.temperament) / 10 * traitMul(p, 'card'));
       if (c) sendOff(m, side, c, m.segment * SEG_MIN + rng.int(1, SEG_MIN));
     }
 
     // 부상
     if (rng.chance(TUNING.injuryPerSeg)) {
-      const v = pickPlayer(me, ctx, (op, p) => (p.hidden.injuryProne / 10) * (op.fitness < 50 ? 2 : 1));
+      const v = pickPlayer(me, ctx, (op, p) => (p.hidden.injuryProne / 10) * (op.fitness < 50 ? 2 : 1) * traitMul(p, 'injury'));
       if (v) {
         const minute = m.segment * SEG_MIN + rng.int(1, SEG_MIN);
         const inj = injuryDays(rng);

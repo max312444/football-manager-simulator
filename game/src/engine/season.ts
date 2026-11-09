@@ -16,6 +16,9 @@ import { emptyRow, sortTable } from './standings';
 import { createRng, type Rng } from './rng';
 import { ageOn } from './condition';
 import { FORMATIONS, guessFormation } from './squad';
+import { boardReview, prizeMoney } from './finance';
+import { traitSeasonEnd } from './traits';
+import { money } from '../ui/format';
 
 export const MAX_SQUAD = 32;
 export const nextSeasonOf = (s: string) => {
@@ -35,6 +38,8 @@ export interface SeasonReport {
   updated: number;       // 실제 데이터로 능력치가 갱신된 선수 수
   aged: number;          // 성장 엔진으로 바뀐 선수 수
   userKept: boolean;     // 사용자 구단이 강등권이었지만 잔류 처리됐는지
+  /** 이사회 예산 배정 결과 */
+  board?: { net: number; prize: number; transferBudget: number; wageBudget: number; balance: number };
 }
 
 /** 1) 지난 시즌 마감: 순위 기록 · 선수 커리어 기록 */
@@ -54,6 +59,12 @@ export function closeSeason(w: World): SeasonRecord[] {
     const apps = p.stats.apps + p.stats.subApps;
     p.career.push({ season: w.season, club: p.clubId, apps, goals: p.stats.goals, assists: p.stats.assists, rating: apps ? Math.round((p.stats.ratingSum / apps) * 100) / 100 : null });
   }
+  // 플레이가 끊긴 호칭 정리
+  w.lostTraits = traitSeasonEnd(w, createRng((w.rng ^ 0x5eed) >>> 0));
+  // 리그 상금 (내 구단)
+  const mine = recs.find((r) => r.league === w.clubs[w.userClubId].league);
+  const pos = mine ? mine.table.findIndex((r) => r.club === w.userClubId) + 1 : 0;
+  w.lastPrize = pos > 0 ? prizeMoney(w, pos, mine!.table.length) : 0;
   w.history.push(...recs);
   return recs;
 }
@@ -134,6 +145,7 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     if (!club) continue;
     club.reputation = c.reputation;
     if (c.club !== w.userClubId) club.finance = { ...c.finance };
+    else report.board = { ...boardReview(w, c.finance, to), prize: w.lastPrize ?? 0 };
   }
 
   // ── 선수 ────────────────────────────────────────
@@ -191,11 +203,14 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     };
   }
 
+  // 실제 다음 시즌 데이터에 내 구단이 없으면 현재 예산을 기준으로 배정
+  if (!report.board) report.board = { ...boardReview(w, { ...w.clubs[w.userClubId].finance }, to), prize: w.lastPrize ?? 0 };
   w.season = to;
   w.date = startDate;
   w.rng = rng.state();
   w.inbox = w.inbox.filter((e) => e.date >= `${from.slice(0, 4)}-07-01`).slice(-100);
   w.inbox.push({ type: 'info', date: startDate, text: `${to.replace('-', '/')} 시즌 시작 · 새로 등장한 선수 ${report.debuts.length}명 · 은퇴 ${report.retired.length}명` });
+  if (report.board) w.inbox.push({ type: 'info', date: startDate, text: `이사회 예산 배정 · 이적 예산 ${money(report.board.transferBudget)} · 주급 예산 ${money(report.board.wageBudget)}/주` });
   if (report.userKept) w.inbox.push({ type: 'info', date: startDate, text: '강등권이었지만 2부 리그가 아직 없어 잔류 처리됐습니다' });
   return report;
 }
@@ -214,6 +229,7 @@ function releasePlayer(w: World, p: PlayerState) {
 
 function resetSeason(p: PlayerState) {
   p.stats = emptyStats();
+  p.tlog = undefined;
   p.yellowCount = 0;
   p.suspension = 0;
   p.fitness = Math.max(p.fitness, 90);

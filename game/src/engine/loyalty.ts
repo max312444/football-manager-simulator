@@ -4,6 +4,7 @@
 //  - 부상 · 징계(· 나중에 국가대표 차출)로 빠진 경기는 계산하지 않는다
 //  - 야망이 큰 선수일수록 벤치에 더 민감, 충성도가 낮아지면 사기도 떨어진다
 import type { PlayerState, World } from './types';
+import { traitMul } from './traits';
 
 export const UNHAPPY = 30;   // 이 아래로 떨어지면 불만 (받은편지함 알림)
 const clamp = (v: number) => Math.max(0, Math.min(100, v));
@@ -54,7 +55,7 @@ export function updatePlaytime(w: World, clubs: string[], minutes: Record<string
         if (p.injury || p.suspension > 0) continue;
         p.benchStreak += 1;
         const ambition = 0.6 + p.hidden.ambition / 25;           // 0.64 ~ 1.4
-        p.loyalty = clamp(p.loyalty - benchPenalty(p.benchStreak) * ambition * (expect.get(id) ?? 0.5));
+        p.loyalty = clamp(p.loyalty - benchPenalty(p.benchStreak) * ambition * (expect.get(id) ?? 0.5) * traitMul(p, 'bench'));
         if (p.benchStreak >= 4 && (expect.get(id) ?? 0) >= 0.7) p.morale = Math.max(0, p.morale - 1);
       }
       // 불만 알림 (사용자 구단, 한 번만) · 회복되면 다시 알릴 수 있게 해제

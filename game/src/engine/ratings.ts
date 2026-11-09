@@ -1,8 +1,9 @@
 // 능력치 계산: 경기에 쓰는 능력치 = 실제 기준선 + 육성 보정 + (호칭) + 컨디션 보정
 import type { AttrKey, Position } from '../data/types';
 import type { PlayerState } from './types';
+import { traitAttr } from './traits';
 
-export const attr = (p: PlayerState, k: AttrKey): number => (p.base[k] ?? 50) + (p.growth[k] ?? 0);
+export const attr = (p: PlayerState, k: AttrKey): number => (p.base[k] ?? 50) + (p.growth[k] ?? 0) + traitAttr(p, k);
 
 // 포지션별 종합 능력 가중치
 const OVR_W: Record<string, Partial<Record<AttrKey, number>>> = {

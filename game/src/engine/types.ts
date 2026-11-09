@@ -57,6 +57,15 @@ export interface PlayerState {
   loyalty: number;     // 충성도 0~100 (출전 시간에 따라 변함)
   benchStreak: number; // 뛸 수 있는데 연속으로 못 나간 경기 수
   unhappy?: boolean;   // 출전 시간 불만 알림을 보냈는지
+  /** 호칭 판정용 시즌 행동 기록 */
+  tlog?: import('./traits').TraitLog;
+  /** 마지막 이적료 (먹튀 판정) */
+  lastFee?: number;
+  /** 전성기 능력 (하락세 판정) */
+  peak?: number;
+  /** 게임 시작 전 실제 기록상 현 구단 연속 시즌 수 · 원클럽 여부 */
+  seedClubSeasons?: number;
+  seedOneClub?: boolean;
 
   stats: SeasonStats;
   /** 지난 시즌 기록 (시즌이 끝날 때 쌓임) */
@@ -77,6 +86,8 @@ export interface ClubState {
   finance: { balance: number; transferBudget: number; wageBudget: number };
   /** 사용자가 직접 정한 선발 (없으면 자동 선택). 자리 순서는 포메이션 자리 순서 */
   lineup?: { starters: (string | null)[]; bench: string[] } | null;
+  /** 내 구단 재정 장부 */
+  ledger?: import('./finance').Ledger;
 }
 
 export interface Fixture {
@@ -143,6 +154,10 @@ export interface World {
   version: typeof WORLD_VERSION;
   seed: number;
   rng: number;               // 난수 상태 (이어서 진행용)
+  /** 지난 시즌 내 구단 리그 상금 */
+  lastPrize?: number;
+  /** 지난 시즌 말 사라진 내 선수 호칭 */
+  lostTraits?: string[];
   date: string;
   season: string;
   userClubId: string;
