@@ -11,18 +11,24 @@ import { useWorld } from '../hooks';
 import { Crest } from '../components/Crest';
 import { Card, PosTag } from '../components/bits';
 import { koDate, money, ratingTone } from '../format';
+import { useApp } from '../../store/app';
+import { analyzeClub, searchPreset } from '../../engine/analysis';
+import type { Position } from '../../data/types';
 
 type Tab = 'search' | 'shortlist' | 'mine' | 'offers';
 type Group = 'ALL' | 'GK' | 'DF' | 'MF' | 'FW';
 
 export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
   const w = useWorld();
+  const preset = useApp((s) => s.transferPreset);
   const { toggleShortlist, toggleTransferList, release, answerOffer } = useGame();
   const [tab, setTab] = useState<Tab>('search');
   const [group, setGroup] = useState<Group>(initialGroup ?? 'ALL');
   const [league, setLeague] = useState<string>('ALL');
-  const [maxAge, setMaxAge] = useState(40);
-  const [minOvr, setMinOvr] = useState(60);
+  const [maxAge, setMaxAge] = useState(preset?.maxAge ?? 40);
+  const [minOvr, setMinOvr] = useState(preset?.minOvr ?? 60);
+  const [posSet, setPosSet] = useState<{ positions: Position[]; label: string } | null>(preset ? { positions: preset.positions, label: preset.label } : null);
+  const advice = useMemo(() => analyzeClub(w, w.userClubId).priorities, [w, w.clubs[w.userClubId].squad.length]);
   const [maxValue, setMaxValue] = useState(0);   // 0 = 제한 없음
   const [q, setQ] = useState('');
   const [sel, setSel] = useState<string | null>(null);
@@ -43,13 +49,13 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
     else {
       ps = Object.values(w.players).filter((p) => !p.retired && p.clubId !== w.userClubId
         && (league === 'ALL' || (league === 'FA' ? !p.clubId : p.clubId && w.clubs[p.clubId]?.league === league)));
-      ps = ps.filter((p) => (group === 'ALL' || posGroup(p.pos) === group) && ageOn(p.birth, w.date) <= maxAge && overall(p) >= minOvr
+      ps = ps.filter((p) => (posSet ? posSet.positions.includes(p.pos) : group === 'ALL' || posGroup(p.pos) === group) && ageOn(p.birth, w.date) <= maxAge && overall(p) >= minOvr
         && (!q || name(p).includes(q) || p.name.toLowerCase().includes(q.toLowerCase())));
       if (maxValue) ps = ps.filter((p) => marketValue(w, p) <= maxValue);
     }
     return ps.map((p) => ({ p, ovr: overall(p), age: ageOn(p.birth, w.date), value: marketValue(w, p) }))
       .sort((a, b) => b.ovr - a.ovr || a.age - b.age).slice(0, 200);
-  }, [w, tab, group, league, maxAge, minOvr, maxValue, q, shortlist, club.squad]);
+  }, [w, tab, group, league, maxAge, minOvr, maxValue, q, shortlist, club.squad, posSet]);
 
   const selected = sel ? w.players[sel] : null;
 
@@ -76,11 +82,27 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
           ))}
         </div>
 
+        {tab === 'search' && advice.length > 0 && (
+          <div className="mb-3 flex flex-wrap items-center gap-2 text-[12px]">
+            <span className="text-lo">추천 보강</span>
+            {advice.map((a) => {
+              const pr = searchPreset(a);
+              const on = posSet?.label === pr.label;
+              return (
+                <button key={a.unit.key} onClick={() => { if (on) { setPosSet(null); return; } setPosSet({ positions: pr.positions, label: pr.label }); setMinOvr(pr.minOvr); setMaxAge(pr.maxAge); }}
+                  className={`h-7 rounded-md px-3 transition-colors ${on ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-850 text-mid ring-1 ring-line hover:text-hi'}`}>
+                  {a.unit.label} · 능력 {pr.minOvr}+
+                </button>
+              );
+            })}
+          </div>
+        )}
         {tab === 'search' && (
           <div className="mb-3 flex flex-wrap items-center gap-2 text-[13px]">
+            {posSet && <button onClick={() => setPosSet(null)} className="h-8 rounded-lg bg-neon-ghost px-3 text-[12px] text-neon ring-1 ring-line-strong">{posSet.label} ({posSet.positions.join('·')}) ✕</button>}
             <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
               {(['ALL', 'GK', 'DF', 'MF', 'FW'] as const).map((g) => (
-                <button key={g} onClick={() => setGroup(g)} className={`h-7 rounded-md px-3 text-[12px] transition-colors ${group === g ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>
+                <button key={g} onClick={() => { setGroup(g); setPosSet(null); }} className={`h-7 rounded-md px-3 text-[12px] transition-colors ${group === g ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>
                   {{ ALL: '전체', GK: '골키퍼', DF: '수비수', MF: '미드필더', FW: '공격수' }[g]}
                 </button>
               ))}

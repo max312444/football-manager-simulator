@@ -24,10 +24,11 @@ export function HubScreen() {
   const tab = useApp((s) => s.tab);
   const w = useWorld();
   const ceremony = useGame((s) => s.ceremony);
+  const preset = useApp((s) => s.transferPreset);
   const closeCeremony = useGame((s) => s.closeCeremony);
   const view = {
     home: <HomeView />, squad: <SquadView />, table: <TableView />, schedule: <ScheduleView />,
-    inbox: <InboxView />, tactics: <TacticsView />, transfers: <TransfersView />,
+    inbox: <InboxView />, tactics: <TacticsView />, transfers: <TransfersView key={preset ? preset.label + preset.minOvr : 'free'} />,
   }[tab as string];
 
   return (

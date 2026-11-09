@@ -248,3 +248,20 @@ describe('활약에 따른 몸값', () => {
     expect(marketValue(w, p)).toBeGreaterThan(base);
   });
 });
+
+import { analyzeClub } from './analysis';
+
+describe('구단 분석', () => {
+  it('포지션별 분석과 요약이 나오고, 주전을 빼면 그 포지션이 약점으로 잡힘', () => {
+    const w = createWorld(loadSeason('2025-26', 'eng1'), USER, 41);
+    const a = analyzeClub(w, USER);
+    expect(a.units).toHaveLength(6);
+    expect(a.summary.length).toBeGreaterThan(10);
+    // 센터백을 모두 빼면 센터백이 가장 시급
+    const club = w.clubs[USER];
+    club.squad = club.squad.filter((id) => w.players[id].pos !== 'CB');
+    const b = analyzeClub(w, USER);
+    expect(b.priorities[0].unit.key).toBe('CB');
+    expect(b.units.find((u) => u.unit.key === 'CB')!.verdict).toBe('weak');
+  });
+});
