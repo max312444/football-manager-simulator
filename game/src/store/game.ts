@@ -10,8 +10,10 @@ import { availableSeasons, clubs as clubMasters, dataset, leagues, loadHistory, 
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { fillContracts, seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
-import { breakTalks, completeTransfer, counterOffer, evaluateBid, MAX_TRIES, playerWillJoin, releasePlayer, talkBanned, talkOf, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
+import { breakTalks, cleanOffers, completeTransfer, counterOffer, offerValid, evaluateBid, MAX_TRIES, playerWillJoin, releasePlayer, talkBanned, talkOf, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
 import type { RetireNews, TransferOffer } from '../engine/types';
+import { applyRenewal, evaluateRenewal } from '../engine/contract';
+const addDaysIso = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
 import { matchRules, pickLineup } from '../engine/squad';
 import type { Mentality, Pressing } from '../engine/types';
 import { readSave, writeSave } from './save';
@@ -87,6 +89,10 @@ interface GameStore {
   /** 이적료 제안. left = 남은 기회, broken = 협상 결렬 (이번 이적시장 동안 다시 협상 불가) */
   bid(playerId: string, fee: number): BidResult & { blocked?: string; left?: number; broken?: boolean };
   /** 이적: 선수에게 계약 제안 (fee는 합의된 이적료, 자유계약이면 0) */
+  /** 재계약 요청 팝업 닫기 */
+  clearRenewals(): void;
+  /** 내 선수 재계약 제안 */
+  renew(playerId: string, wage: number, years: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   /** 개인 계약 제안 (이적료는 합의된 금액, 자유계약은 0) */
   sign(playerId: string, wage: number, years: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   toggleShortlist(playerId: string): void;
@@ -301,6 +307,37 @@ export const useGame = create<GameStore>((set, get) => {
       return { ok: true, reason: '계약을 마쳤습니다' };
     },
 
+    clearRenewals() {
+      const w = get().world!;
+      w.pendingRenewals = undefined;
+      autosave(w);
+      bump();
+    },
+
+    renew(playerId, wage, years) {
+      const w = get().world!;
+      const p = w.players[playerId];
+      const key = `renew:${playerId}`;
+      const ban = talkBanned(w, key);
+      if (ban) return { ok: false, reason: `재계약 협상이 결렬됐습니다. ${ban.slice(5).replace('-', '/')} 이후 다시 시도할 수 있습니다` };
+      // 주급이 오르는 만큼만 주급 예산에서 확인
+      const room = wageRoom(w, w.userClubId);
+      if (wage - p.wage > room) return { ok: false, reason: `주급 예산 초과 — 남은 주급 여유 ${Math.max(0, Math.round(room / 1000))}K 유로` };
+      const t = talkOf(w, key);
+      const r = evaluateRenewal(w, p, wage, years);
+      if (!r.ok) {
+        if (r.low) t.wage++;
+        const left = r.low ? MAX_TRIES - t.wage : 0;
+        if (left <= 0) { (w.talkBan ??= {})[key] = addDaysIso(w.date, 30); if (w.talks) delete w.talks[key]; }
+        autosave(w); bump();
+        return { ok: false, reason: r.reason, left, broken: left <= 0 };
+      }
+      applyRenewal(w, p, wage, years);
+      if (w.talks) delete w.talks[key];
+      autosave(w); bump();
+      return { ok: true, reason: `재계약 완료 · ${p.contract!.slice(0, 4)}년 6월까지` };
+    },
+
     toggleShortlist(playerId) {
       const w = get().world!;
       const s = (w.shortlist ??= []);
@@ -328,7 +365,7 @@ export const useGame = create<GameStore>((set, get) => {
     answerOffer(offerId, accept) {
       const w = get().world!;
       const o = (w.offers ?? []).find((x) => x.id === offerId);
-      if (!o) return '이미 끝난 제안입니다';
+      if (!o || !offerValid(w, o)) { cleanOffers(w); w.offers = (w.offers ?? []).filter((x) => x.id !== offerId); bump(); return '이미 끝난 제안입니다 (선수가 팀을 떠났거나 기한 · 이적시장이 끝났습니다)'; }
       w.offers = (w.offers ?? []).filter((x) => x.id !== offerId);
       const msg = accept ? sellTo(o).msg : '제안을 거절했습니다';
       autosave(w);
@@ -339,7 +376,7 @@ export const useGame = create<GameStore>((set, get) => {
     counter(offerId, ask) {
       const w = get().world!;
       const o = (w.offers ?? []).find((x) => x.id === offerId);
-      if (!o) return { result: 'gone', fee: 0, reason: '이미 끝난 제안입니다' };
+      if (!o || !offerValid(w, o)) { cleanOffers(w); w.offers = (w.offers ?? []).filter((x) => x.id !== offerId); bump(); return { result: 'gone', fee: 0, reason: '이미 끝난 제안입니다 (선수가 팀을 떠났거나 기한 · 이적시장이 끝났습니다)' }; }
       const r = counterOffer(w, o, ask);
       let out: ReturnType<GameStore['counter']> = r;
       if (r.result === 'accept') {

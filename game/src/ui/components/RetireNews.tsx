@@ -35,20 +35,24 @@ export function RetireNews() {
   const seasons = new Set<string>();
   for (const sp of spells) { let y = +sp.from.slice(0, 4); while (y <= +sp.to.slice(0, 4)) seasons.add(String(y++)); }
   const honours = p.honours ?? [];
+  const leave = n.kind === 'leave';
+  const club = n.club ? clubKo(n.club) : '';
 
   return (
     <div className="fixed inset-0 z-[55] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-6 backdrop-blur-sm" onClick={next}>
       <article key={i} className="panel w-[620px] max-w-[94vw] animate-[fade_0.3s_ease-out] overflow-hidden" onClick={(e) => e.stopPropagation()}>
         <header className="flex items-center justify-between border-b border-line px-7 py-3 text-[12px]">
-          <span className="flex items-center gap-2 font-semibold text-amber"><span className="h-2 w-2 rounded-full bg-amber" />은퇴 발표{n.mine && <span className="rounded bg-neon-ghost px-1.5 text-neon">우리 구단</span>}</span>
+          <span className={`flex items-center gap-2 font-semibold ${leave ? 'text-sky' : 'text-amber'}`}><span className={`h-2 w-2 rounded-full ${leave ? 'bg-sky' : 'bg-amber'}`} />{leave ? '계약 만료 · 팀 이탈' : '은퇴 발표'}{n.mine && <span className="rounded bg-neon-ghost px-1.5 text-neon">우리 구단</span>}</span>
           <span className="tnum text-lo">{n.season.replace('-', '/')} 시즌 종료 · {i + 1} / {list!.length}</span>
         </header>
         <div className="px-7 pt-6 pb-5">
           <h2 className="text-[22px] leading-snug font-semibold">
-            {n.season.replace('-', '/')} 시즌을 끝으로 <span className="text-neon">{name}</span>{josa(name, '은', '는')} 은퇴하기로 하였습니다
+            {leave
+              ? <><span className="text-neon">{name}</span>{josa(name, '이', '가')} 계약 만료로 {club}{josa(club, '을', '를')} 떠났습니다</>
+              : <>{n.season.replace('-', '/')} 시즌을 끝으로 <span className="text-neon">{name}</span>{josa(name, '은', '는')} 은퇴하기로 하였습니다</>}
           </h2>
           <div className="mt-3 flex items-center gap-2 text-[13px] text-mid">
-            {POS_KO[p.pos]} · {ageOn(p.birth, w.date)}세 · 마지막 소속
+            {POS_KO[p.pos]} · {ageOn(p.birth, w.date)}세 · 능력 {n.ovr} · {leave ? '떠난 구단' : '마지막 소속'}
             {n.club ? <><Crest clubId={n.club} size={18} /><span className="text-hi">{clubKo(n.club)}</span></> : ' 없음'}
           </div>
 
@@ -80,7 +84,7 @@ export function RetireNews() {
           )}
         </div>
         <footer className="flex items-center justify-between border-t border-line px-7 py-4">
-          <span className="text-[12px] text-lo">게임 속 소식이며 실제 선수의 은퇴와 무관합니다</span>
+          <span className="text-[12px] text-lo">{leave ? (n.mine ? '재계약하지 않아 자유계약(FA) 선수가 됐습니다' : '자유계약(FA) 선수 · 이적 화면 FA 목록에서 영입할 수 있습니다') : '게임 속 소식이며 실제 선수의 은퇴와 무관합니다'}</span>
           <button onClick={next} className="h-10 rounded-lg bg-neon px-6 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">{i < list!.length - 1 ? '다음 소식' : '시즌 결산 보기'}</button>
         </footer>
       </article>

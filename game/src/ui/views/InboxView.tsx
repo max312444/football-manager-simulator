@@ -26,6 +26,15 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       return { tag: '은퇴', tone: e.club === w.userClubId ? 'text-neon' : 'text-amber', title: `${e.season.replace('-', '/')} 시즌을 끝으로 ${name}${josa(name, '은', '는')} 은퇴하기로 하였습니다`, body: e.club ? `마지막 소속: ${clubKo(e.club)}` : undefined };
     }
+    case 'contract':
+      return { tag: '계약', tone: 'text-amber', title: `재계약 요청 · ${e.players.length}명`, body: `${e.players.map((id) => playerKo(id, w.players[id]?.name ?? id)).join(', ')} · ${koDate(e.until)} 만료. 직접 재계약하지 않으면 자유계약으로 떠납니다 (선수단 화면에서 재계약)` };
+    case 'renewed':
+      return { tag: '계약', tone: 'text-neon', title: `자동 재계약 · ${e.players.length}명`, body: e.players.map((id) => { const p = w.players[id]; return p ? `${playerKo(id, p.name)} (${p.contract?.slice(0, 4)}년까지)` : id; }).join(', ') };
+    case 'leave': {
+      const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
+      const mine = !e.club || e.club === w.userClubId;
+      return { tag: '계약', tone: mine ? 'text-red' : 'text-amber', title: `${name}${josa(name, '이', '가')} 계약 만료로 ${mine ? '팀을' : `${clubKo(e.club!)}${josa(clubKo(e.club!), '을', '를')}`} 떠났습니다`, body: mine ? '재계약하지 않아 자유계약(FA) 선수가 됐습니다' : '자유계약(FA) 선수가 됐습니다 · 이적 화면 FA 목록에서 영입할 수 있습니다' };
+    }
     default:
       return { tag: '알림', tone: 'text-mid', title: e.text };
   }

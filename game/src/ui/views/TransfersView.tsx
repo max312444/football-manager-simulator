@@ -3,11 +3,12 @@ import { useMemo, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
 import { overall } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
-import { marketValue, nextWindow, talkBanned, wageBill, wageDemand, windowOpen } from '../../engine/transfer';
+import { marketValue, nextWindow, offerValid, talkBanned, wageBill, wageDemand, windowOpen } from '../../engine/transfer';
 import { clubKo, leagues, nations, playerKo } from '../../data/db';
 import { PlayerPanel } from './PlayerPanel';
 import { NegotiationModal } from '../components/NegotiationModal';
 import { SellNegotiationModal } from '../components/SellNegotiationModal';
+import { ContractBox } from '../components/ContractBox';
 import { posGroup } from '../../data/rating';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
@@ -42,7 +43,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
   const club = w.clubs[w.userClubId];
   const win = windowOpen(w.season, w.date);
   const bill = wageBill(w, w.userClubId);
-  const offers = w.offers ?? [];
+  const offers = (w.offers ?? []).filter((o) => offerValid(w, o));
   const shortlist = w.shortlist ?? [];
   const listed = new Set(w.transferList ?? []);
 
@@ -198,10 +199,11 @@ function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk
   const actions = mine ? (
     <div>
       <div className="mb-3 text-[12px] text-lo">시장 가치 <span className="tnum text-mid">{money(value)}</span> · 이적 명단에 올리면 이적시장 동안 다른 구단이 제안해 옵니다</div>
-      <div className="flex gap-2">
+      <div className="mb-4 flex gap-2">
         <button onClick={onList} className={`h-10 flex-1 rounded-lg text-[13px] font-semibold transition-colors ${listed ? 'bg-amber/15 text-amber' : 'bg-ink-700 text-hi hover:bg-ink-750'}`}>{listed ? '이적 명단에서 빼기' : '이적 명단에 올리기'}</button>
         <button onClick={onRelease} className="h-10 rounded-lg px-4 text-[13px] text-red ring-1 ring-line transition-colors hover:bg-red/10">방출</button>
       </div>
+      <ContractBox p={p} />
     </div>
   ) : (
     <div>

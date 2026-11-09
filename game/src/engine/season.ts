@@ -19,6 +19,7 @@ import { FORMATIONS, guessFormation } from './squad';
 import { boardReview, prizeMoney } from './finance';
 import { traitSeasonEnd } from './traits';
 import { overall } from './ratings';
+import { cleanOffers } from './transfer';
 import { money } from '../ui/format';
 import { seasonAwards } from './awards';
 
@@ -157,6 +158,9 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
 
   // ── 선수 ────────────────────────────────────────
   const news: RetireNews[] = [];
+  // 구단 안 능력 순위 (시즌 전환 전 기준): 계약 만료로 떠나는 핵심 선수 소식용
+  const rankOf = new Map<string, number>();
+  for (const c of Object.values(w.clubs)) c.squad.map((id) => w.players[id]).sort((a, b) => overall(b) - overall(a)).forEach((p, i) => rankOf.set(p.id, i + 1));
   for (const p of Object.values(w.players)) {
     resetSeason(p);
     if (p.retired) continue;
@@ -185,16 +189,28 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
       report.retired.push(p.id);
       continue;
     }
-    // 계약 만료: 사용자 구단은 계약 화면이 생기기 전까지 2년 자동 연장, AI 구단은 실제로 남아 있거나 핵심이면 연장
     if (p.clubId && p.contract && p.contract < startDate) {
-      const keep = p.clubId === w.userClubId || d?.club === p.clubId || rng.chance(0.55);
+      // 내 구단은 재계약하지 않았으면 떠난다 (자동 연장 없음). AI 구단은 실제로 남아 있거나 확률로 연장
+      const keep = p.clubId !== w.userClubId && (d?.club === p.clubId || rng.chance(0.55));
       if (keep) p.contract = `${+startDate.slice(0, 4) + 2}-06-30`;
-      else { if (p.clubId === w.userClubId) report.userLeft.push({ player: p.id, why: 'release' }); releasePlayer(w, p); report.released.push(p.id); }
+      else {
+        const mine = p.clubId === w.userClubId, ovr = overall(p);
+        if (mine) report.userLeft.push({ player: p.id, why: 'release' });
+        // 내 선수 · 다른 팀 핵심 선수 (팀 내 능력 3위 안 · 능력 78 이상, 또는 능력 82 이상) 는 소식으로
+        if (mine || ovr >= 82 || (ovr >= 78 && (rankOf.get(p.id) ?? 99) <= 3)) {
+          news.push({ kind: 'leave', player: p.id, club: p.clubId, season: from, ovr, mine });
+          w.inbox.push({ type: 'leave', date: startDate, player: p.id, club: p.clubId });
+        }
+        releasePlayer(w, p);
+        report.released.push(p.id);
+      }
     }
   }
 
   // 내 선수 먼저, 그다음 능력 높은 순 · 최대 8명
-  w.pendingNews = news.sort((a, b) => +b.mine - +a.mine || b.ovr - a.ovr).slice(0, 8);
+  // 팀을 떠난 선수 먼저, 그다음 은퇴. 각각 내 선수 먼저 · 능력 높은 순 · 최대 8명
+  const order = (xs: RetireNews[]) => xs.sort((a, b) => +b.mine - +a.mine || b.ovr - a.ovr).slice(0, 8);
+  w.pendingNews = [...order(news.filter((n) => n.kind === 'leave')), ...order(news.filter((n) => n.kind !== 'leave'))];
 
   // 미래 선수 등장
   for (const [id, d] of dataPlayers) {
@@ -226,6 +242,7 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   if (!report.board) report.board = { ...boardReview(w, { ...w.clubs[w.userClubId].finance }, to), prize: w.lastPrize ?? 0 };
   w.season = to;
   w.date = startDate;
+  cleanOffers(w);   // 떠난 · 은퇴한 선수에게 온 제안 정리
   w.rng = rng.state();
   w.inbox = w.inbox.filter((e) => e.date >= `${from.slice(0, 4)}-07-01`).slice(-100);
   w.inbox.push({ type: 'info', date: startDate, text: `${to.replace('-', '/')} 시즌 시작 · 새로 등장한 선수 ${report.debuts.length}명 · 은퇴 ${report.retired.length}명` });

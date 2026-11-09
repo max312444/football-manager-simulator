@@ -10,6 +10,7 @@ import { marketValue, talkBanned, wageDemand, windowOpen } from '../../engine/tr
 import { POS_ORDER } from '../../data/rating';
 import { PlayerPanel } from '../views/PlayerPanel';
 import { NegotiationModal } from './NegotiationModal';
+import { ContractBox } from './ContractBox';
 import { Crest } from './Crest';
 import { PosTag } from './bits';
 import { money, ratingTone } from '../format';
@@ -42,7 +43,7 @@ function ProfileModal() {
   const short = (w.shortlist ?? []).includes(p.id);
   const closed = !!p.clubId && !windowOpen(w.season, w.date);
   const actions = mine ? (
-    <button onClick={() => { close(null); setTab('squad'); }} className="h-10 w-full rounded-lg bg-ink-700 text-[13px] font-semibold text-hi hover:bg-ink-750">선수단 화면으로</button>
+    <ContractBox p={p} extra={<button onClick={() => { close(null); setTab('squad'); }} className="h-10 rounded-lg px-4 text-[13px] text-mid ring-1 ring-line hover:text-hi">선수단</button>} />
   ) : (
     <div>
       <div className="mb-3 flex justify-between text-[12px] text-lo">

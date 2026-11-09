@@ -38,7 +38,7 @@ export function AwardCeremony() {
         <div className="mt-6 flex items-center justify-between">
           <span className="tnum text-[12px] text-lo">{i + 1} / {list.length}</span>
           <button onClick={next} className="h-11 rounded-lg bg-neon px-8 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">
-            {i < list.length - 1 ? '다음' : hasNews ? '은퇴 소식 보기' : '시즌 결산 보기'}
+            {i < list.length - 1 ? '다음' : hasNews ? '시즌 소식 보기' : '시즌 결산 보기'}
           </button>
         </div>
       </div>

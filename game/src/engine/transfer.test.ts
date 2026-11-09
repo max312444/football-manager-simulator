@@ -65,9 +65,13 @@ describe('협상 결렬 · 은퇴 소식', () => {
     closeSeason(w);
     const r = startNextSeason(w, loadSeason('2025-26'));
     const news = w.pendingNews ?? [];
-    console.log('은퇴', r.retired.length, '명 · 소식', news.map((n) => `${w.players[n.player].name}(${n.ovr}${n.mine ? ' 리버풀' : ''})`).join(', '));
-    expect(news.every((n) => w.players[n.player].retired)).toBe(true);
-    expect(w.inbox.filter((e) => e.type === 'retire').length).toBeGreaterThanOrEqual(news.length);
+    console.log('은퇴', r.retired.length, '명 · 소식', news.map((n) => `${n.kind === 'leave' ? '이탈 ' : '은퇴 '}${w.players[n.player].name}(${n.ovr}${n.mine ? ' 리버풀' : ''})`).join(', '));
+    expect(news.filter((n) => n.kind !== 'leave').every((n) => w.players[n.player].retired)).toBe(true);
+    expect(news.filter((n) => n.kind === 'leave').every((n) => !w.players[n.player].clubId)).toBe(true);
+    expect(w.inbox.filter((e) => e.type === 'retire').length).toBeGreaterThanOrEqual(news.filter((n) => n.kind !== 'leave').length);
+    // 팀을 떠난 소식이 은퇴 소식보다 먼저
+    const r0 = news.findIndex((n) => n.kind !== 'leave');
+    expect(r0 === -1 || news.slice(r0).every((n) => n.kind !== 'leave')).toBe(true);
   }, 60000);
 });
 

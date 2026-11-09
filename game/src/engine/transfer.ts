@@ -191,6 +191,7 @@ export function completeTransfer(w: World, p: PlayerState, to: string, fee: numb
 
 export function releasePlayer(w: World, p: PlayerState): void {
   if (!p.clubId) return;
+  w.offers = (w.offers ?? []).filter((o) => o.player !== p.id);
   const c = w.clubs[p.clubId];
   c.squad = c.squad.filter((id) => id !== p.id);
   p.clubId = null;
@@ -275,9 +276,16 @@ export function counterOffer(w: World, o: TransferOffer, ask: number): { result:
  * 하루치 AI 이적. 실제 이적시장처럼 너무 많지 않게: 하루 최대 몇 건.
  * 사용자 선수는 이적 명단에 올린 경우에만 제안이 들어온다 (제안은 받은편지함으로).
  */
+/** 유효한 제안만 남긴다: 기한 안 · 아직 내 선수 · 이적시장이 열려 있음 · 은퇴하지 않음 */
+export const offerValid = (w: World, o: TransferOffer) => o.expires >= w.date && !!windowOpen(w.season, w.date)
+  && w.players[o.player]?.clubId === w.userClubId && !w.players[o.player]?.retired;
+export function cleanOffers(w: World) {
+  if (w.offers?.length) w.offers = w.offers.filter((o) => offerValid(w, o));
+}
+
 export function aiTransferDay(w: World, rng: Rng): GameEvent[] {
   const events: GameEvent[] = [];
-  if (!windowOpen(w.season, w.date)) return events;
+  if (!windowOpen(w.season, w.date)) { cleanOffers(w); return events; }
   const active = Object.values(w.clubs).filter((c) => c.id !== w.userClubId && w.competitions[c.league]);
   const players = Object.values(w.players).filter((p) => !p.retired);
   const tries = 6;
@@ -319,6 +327,6 @@ export function aiTransferDay(w: World, rng: Rng): GameEvent[] {
   }
   userOffers(w, rng, active);
   // 기한 지난 제안 정리
-  if (w.offers) w.offers = w.offers.filter((o) => o.expires >= w.date && w.players[o.player]?.clubId === w.userClubId);
+  cleanOffers(w);
   return events;
 }

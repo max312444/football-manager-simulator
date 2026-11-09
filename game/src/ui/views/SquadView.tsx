@@ -8,6 +8,8 @@ import { money, ratingTone } from '../format';
 import { useWorld } from '../hooks';
 import { ConditionIcon, FitnessBar, PosTag } from '../components/bits';
 import { PlayerPanel } from './PlayerPanel';
+import { ContractBox } from '../components/ContractBox';
+import { expiring } from '../../engine/contract';
 import { TRAIT } from '../../engine/traits';
 
 type Group = 'ALL' | 'GK' | 'DF' | 'MF' | 'FW';
@@ -118,6 +120,7 @@ export function SquadView() {
                         {p.injury && <span title={`${p.injury.label} · ${p.injury.days}일`} className="rounded bg-red/15 px-1 text-[11px] font-semibold text-red">부상 {p.injury.days}일</span>}
                         {p.suspension > 0 && <span className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">징계 {p.suspension}</span>}
                         {p.traits.map((id) => { const tr = TRAIT.get(id); return tr && <span key={id} title={tr.how} className={`rounded px-1 text-[11px] font-semibold ${tr.kind === 'positive' ? 'bg-neon/10 text-neon' : tr.kind === 'negative' ? 'bg-red/15 text-red' : 'bg-amber/15 text-amber'}`}>{tr.ko}</span>; })}
+                        {expiring(w, p) && <span title={`계약 ${p.contract} 만료`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">계약 만료 임박</span>}
                         {p.unhappy && <span title={`충성도 ${Math.round(p.loyalty)} · 연속 ${p.benchStreak}경기 결장`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">출전 불만</span>}
                       </div>
                     </td>
@@ -137,7 +140,7 @@ export function SquadView() {
           </table>
         </div>
       </section>
-      {sel && <PlayerPanel p={sel.p} age={sel.age} ko={sel.ko} nation={nations.get(sel.p.nation)?.ko ?? sel.p.nation} />}
+      {sel && <PlayerPanel p={sel.p} age={sel.age} ko={sel.ko} nation={nations.get(sel.p.nation)?.ko ?? sel.p.nation} actions={<ContractBox p={sel.p} />} />}
     </div>
   );
 }

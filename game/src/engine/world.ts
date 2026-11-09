@@ -16,6 +16,7 @@ import { financeDay, gateIncome } from './finance';
 import { emptyLog, traitMonth } from './traits';
 import type { Lineup } from './squad';
 import { boostMonth, matchFans } from './awards';
+import { contractCheck } from './contract';
 
 export interface SeasonInput {
   season: string;
@@ -246,6 +247,7 @@ export function advanceDay(w: World): GameEvent[] {
 
   financeDay(w);
   boostMonth(w);
+  contractCheck(w);
   w.date = addDay(today);
   w.rng = rng.state();
   // 받은편지함에는 사용자 구단 관련과 시즌 종료만 남긴다
@@ -311,9 +313,11 @@ export function advanceToUserMatch(w: World, maxDays = 120): { events: GameEvent
     const f = userFixtureToday(w);
     if (f) return { events, matchToday: f };
     if (seasonOver(w)) break;
+    const had = !!w.pendingRenewals?.length;
     const ev = advanceDay(w);
     events.push(...ev);
     if (ev.some((e) => e.type === 'seasonEnd' || (e.type === 'injury' && e.club === w.userClubId))) break;
+    if (!had && w.pendingRenewals?.length) break;   // 재계약 요청이 새로 오면 멈춰서 팝업
   }
   return { events, matchToday: userFixtureToday(w) };
 }

@@ -142,10 +142,13 @@ export type GameEvent =
   | { type: 'info'; date: string; text: string }
   | { type: 'transfer'; date: string; player: string; from: string | null; to: string; fee: number; user: boolean }
   | { type: 'offer'; date: string; player: string; from: string; fee: number }
-  | { type: 'retire'; date: string; player: string; club: string | null; season: string };
+  | { type: 'retire'; date: string; player: string; club: string | null; season: string }
+  | { type: 'contract'; date: string; players: string[]; until: string }
+  | { type: 'renewed'; date: string; players: string[] }
+  | { type: 'leave'; date: string; player: string; club?: string };
 
 /** 은퇴 소식 (내 구단 선수 · 스타 선수) */
-export interface RetireNews { player: string; club: string | null; season: string; ovr: number; mine: boolean }
+export interface RetireNews { player: string; club: string | null; season: string; ovr: number; mine: boolean; /** leave = 계약 만료로 팀을 떠남 (없으면 은퇴) */ kind?: 'retire' | 'leave' }
 
 /** 영입 협상 진행 상황 (창을 닫았다 열어도 유지) */
 export interface Talk { fee: number; wage: number; agreed?: number; until: string }
@@ -208,6 +211,8 @@ export interface World {
   talks?: Record<string, Talk>;
   /** 협상 결렬로 이 날짜까지 다시 협상 불가 (선수 ID별) */
   talkBan?: Record<string, string>;
+  /** 재계약 요청 팝업에 띄울 내 선수 (불만이 있거나 주급 예산이 모자라 자동 재계약이 안 된 선수) */
+  pendingRenewals?: { player: string; reason: string }[];
   /** 화면에 보여줄 은퇴 소식 (시즌 전환 때) */
   pendingNews?: RetireNews[];
 }

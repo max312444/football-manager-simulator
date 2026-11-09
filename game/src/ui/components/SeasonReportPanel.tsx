@@ -125,7 +125,7 @@ export function SeasonReportPanel() {
                 {r.userLeft.map((x) => <div key={x.player} className="flex justify-between"><span>{playerKo(x.player, w.players[x.player]?.name ?? x.player)}</span><span className="text-lo">{x.why === 'retire' ? '은퇴' : '계약 만료'}</span></div>)}
               </div>
             )}
-            <p className="mt-4 text-[12px] leading-relaxed text-lo">능력치는 그 시즌 실제 데이터를 따르고, 소속은 게임 세계를 따릅니다. 내 구단 선수의 계약은 계약 화면이 생기기 전까지 자동 연장됩니다.</p>
+            <p className="mt-4 text-[12px] leading-relaxed text-lo">능력치는 그 시즌 실제 데이터를 따르고, 소속은 게임 세계를 따릅니다. 내 구단 선수는 재계약하지 않으면 계약이 끝날 때 자유계약(FA)으로 떠납니다.</p>
           </section>
         </div>
 

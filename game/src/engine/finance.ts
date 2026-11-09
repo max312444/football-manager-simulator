@@ -43,10 +43,10 @@ export function book(w: World, clubId: string, kind: IncomeKind | ExpenseKind, a
   if (isIncome) l.income[kind as IncomeKind] += amount; else l.expense[kind as ExpenseKind] += amount;
 }
 
-/** 연 매출 기준값: 시즌 시작 때 주급 총액(최소 주급 예산의 절반) × 52주 ÷ 0.62 (주급이 매출의 약 62%) */
+/** 연 매출 기준값: 시즌 시작 때 주급 총액(최소 주급 예산의 절반) × 52주 ÷ 0.60 (주급이 매출의 약 60%) */
 function baseOf(w: World) {
   const c = w.clubs[w.userClubId];
-  return Math.round((Math.max(wageBillOf(w, c.id), c.finance.wageBudget * 0.5) * 52) / 0.62);
+  return Math.round((Math.max(wageBillOf(w, c.id), c.finance.wageBudget * 0.5) * 52) / 0.6);
 }
 export const revenueBase = (w: World) => ledgerOf(w).current.base;
 export const wageBillOf = (w: World, clubId: string) => w.clubs[clubId].squad.reduce((s, id) => s + w.players[id].wage, 0);
