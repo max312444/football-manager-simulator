@@ -1,10 +1,64 @@
-import type { PlayerState } from '../../engine/types';
+import type { PlayerState, World } from '../../engine/types';
 import { attr, overall, formAvg } from '../../engine/ratings';
 import { POS_KO } from '../../data/rating';
 import { ATTR_GROUPS, ATTR_KO, GK_GROUP, money, ratingBar, ratingTone } from '../format';
 import { ConditionIcon, FitnessBar } from '../components/bits';
 import { loyaltyLabel, UNHAPPY } from '../../engine/loyalty';
-import { TRAIT, type TraitKind } from '../../engine/traits';
+import { TRAIT, type PlayerHistory, type TraitKind } from '../../engine/traits';
+import { AWARD_KO } from '../../engine/awards';
+import type { ReactNode } from 'react';
+import { clubKo } from '../../data/db';
+import { useHistory, useWorld } from '../hooks';
+import { Crest } from '../components/Crest';
+
+export interface Spell { from: string; to: string; club: string; seasons: number; apps: number; goals: number; ovr: [number, number] | null }
+
+/** 경력: 게임 시작 전 시즌은 시즌 데이터 이력, 이후는 이 세이브에서 뛴 기록. 같은 구단 연속 시즌은 한 줄로 */
+export function careerSpells(w: World, p: PlayerState, hist: PlayerHistory | null): Spell[] {
+  const start = w.history.reduce((m, h) => (h.season < m ? h.season : m), w.season);
+  const rows: { season: string; club: string; apps: number; goals: number; ovr: number | null }[] = [];
+  for (const e of hist?.p[p.id]?.split(',') ?? []) {
+    const [si, ci, o] = e.split('.').map(Number);
+    const season = hist!.seasons[si];
+    if (season < start) rows.push({ season, club: hist!.clubs[ci], apps: 0, goals: 0, ovr: o });
+  }
+  for (const c of p.career) if (c.club) rows.push({ season: c.season, club: c.club, apps: c.apps, goals: c.goals, ovr: null });
+  if (p.clubId && !p.career.some((c) => c.season === w.season)) rows.push({ season: w.season, club: p.clubId, apps: p.stats.apps + p.stats.subApps, goals: p.stats.goals, ovr: null });
+  const spells: Spell[] = [];
+  for (const r of rows) {
+    const last = spells.at(-1);
+    if (last && last.club === r.club) {
+      if (last.to !== r.season) last.seasons++;
+      last.to = r.season; last.apps += r.apps; last.goals += r.goals;
+      if (r.ovr != null) last.ovr = last.ovr ? [last.ovr[0], r.ovr] : [r.ovr, r.ovr];
+    } else spells.push({ from: r.season, to: r.season, club: r.club, seasons: 1, apps: r.apps, goals: r.goals, ovr: r.ovr != null ? [r.ovr, r.ovr] : null });
+  }
+  return spells;
+}
+
+function Career({ p }: { p: PlayerState }) {
+  const w = useWorld();
+  const hist = useHistory();
+  const spells = careerSpells(w, p, hist);
+  const yy = (s: string) => s.slice(2, 4) + '/' + s.slice(5, 7);
+  return (
+    <div className="mb-5">
+      <div className="mb-2 flex items-baseline justify-between"><span className="text-[11px] font-semibold text-lo">경력</span>{p.lastFee ? <span className="text-[11px] text-lo">최근 이적료 {money(p.lastFee)}</span> : null}</div>
+      {!spells.length ? <div className="text-[12px] text-lo">{hist === null && !p.career.length ? '이력을 불러오는 중…' : '기록된 경력이 없습니다'}</div> : (
+        <ul className="space-y-1.5">
+          {[...spells].reverse().map((sp, i) => (
+            <li key={i} className={`flex items-center gap-2 rounded-md px-2 py-1.5 text-[12px] ${i === 0 && sp.club === p.clubId ? 'bg-ink-900' : ''}`}>
+              <span className="tnum w-[74px] shrink-0 text-lo">{sp.from === sp.to ? yy(sp.from) : `${yy(sp.from)}–${yy(sp.to)}`}</span>
+              <Crest clubId={sp.club} size={16} />
+              <span className="min-w-0 flex-1 truncate text-hi">{clubKo(sp.club)}</span>
+              <span className="tnum shrink-0 text-lo">{sp.ovr ? (sp.ovr[0] === sp.ovr[1] ? `능력 ${sp.ovr[0]}` : `능력 ${sp.ovr[0]}→${sp.ovr[1]}`) : `${sp.apps}경기 ${sp.goals}골`}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
 
 const KIND: Record<TraitKind, { label: string; cls: string }> = {
   positive: { label: '긍정', cls: 'border-neon/40 text-neon' },
@@ -48,7 +102,7 @@ function pressNotes(p: PlayerState): string[] {
   return out;
 }
 
-export function PlayerPanel({ p, age, ko, nation }: { p: PlayerState; age: number; ko: string; nation: string }) {
+export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerState; age: number; ko: string; nation: string; actions?: ReactNode; club?: boolean }) {
   const ovr = overall(p);
   const groups = p.pos === 'GK' ? [GK_GROUP, ...ATTR_GROUPS] : ATTR_GROUPS;
   const s = p.stats;
@@ -62,6 +116,7 @@ export function PlayerPanel({ p, age, ko, nation }: { p: PlayerState; age: numbe
             <div className="text-[12px] font-semibold text-lo">{POS_KO[p.pos]}</div>
             <div className="mt-1 truncate text-[22px] leading-tight font-semibold">{ko}</div>
             <div className="truncate text-[12px] text-lo">{p.name} · {nation} · {age}세</div>
+            {club && <div className="mt-1 flex items-center gap-1.5 text-[12px] text-mid">{p.clubId ? <><Crest clubId={p.clubId} size={14} />{clubKo(p.clubId)}</> : <span className="text-neon">자유계약 (FA)</span>}</div>}
           </div>
           <div className="flex flex-col items-center rounded-lg border border-line bg-ink-900 px-3 py-2">
             <div className={`tnum text-[28px] leading-none font-semibold ${ratingTone(ovr)}`}>{ovr}</div>
@@ -112,12 +167,24 @@ export function PlayerPanel({ p, age, ko, nation }: { p: PlayerState; age: numbe
           );
         })}
         <Traits p={p} />
+        <Career p={p} />
+        {(p.honours?.length || p.boost) ? (
+          <div className="mb-5">
+            <div className="mb-2 flex items-baseline justify-between"><span className="text-[11px] font-semibold text-lo">수상 경력</span>{p.boost && <span className="text-[11px] text-neon">수상 효과 능력 +{p.boost.amount} · {p.boost.months}개월 남음</span>}</div>
+            <ul className="space-y-1 text-[12px]">
+              {[...(p.honours ?? [])].reverse().map((h, i) => (
+                <li key={i} className="flex justify-between"><span className={h.kind === 'champion' ? 'text-[#f2c94c]' : 'text-hi'}>{AWARD_KO[h.kind]}</span><span className="tnum text-lo">{h.season.replace('-', '/')}</span></li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
         <div className="mb-2 text-[11px] font-semibold text-lo">언론 평가</div>
         <ul className="space-y-1 text-[13px] text-mid">
           {pressNotes(p).map((n) => <li key={n} className="flex gap-2"><span className="mt-[7px] h-1 w-1 shrink-0 rounded-full bg-neon/70" />{n}</li>)}
         </ul>
-        <div className="mt-4 text-[12px] text-lo">주급 {money(p.wage)} · 계약 {p.contract ? p.contract.replace(/-/g, '.') : '정보 없음'} · 최근 폼 {p.recentRatings.length ? formAvg(p).toFixed(1) : '–'}</div>
+        <div className="mt-4 text-[12px] text-lo">주급 {money(p.wage)} · 계약 {p.contract ? p.contract.slice(0, 7).replace('-', '.') + (p.contractGen ? ' (게임 설정)' : '') : p.clubId ? '정보 없음' : '없음 (FA)'} · 최근 폼 {p.recentRatings.length ? formAvg(p).toFixed(1) : '–'}</div>
       </div>
+      {actions && <div className="shrink-0 border-t border-line px-5 py-4">{actions}</div>}
     </aside>
   );
 }

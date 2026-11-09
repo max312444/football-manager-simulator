@@ -15,6 +15,7 @@ import { aiTransferDay } from './transfer';
 import { financeDay, gateIncome } from './finance';
 import { emptyLog, traitMonth } from './traits';
 import type { Lineup } from './squad';
+import { boostMonth, matchFans } from './awards';
 
 export interface SeasonInput {
   season: string;
@@ -36,16 +37,34 @@ export function genHidden(id: string, seed: number): Hidden {
 }
 
 /** 데이터 선수 → 월드 선수 (새 게임 · 다음 시즌 신규 등장 공통) */
-export function newPlayer(sp: SquadPlayer, clubId: string | null, seed: number): PlayerState {
+export function newPlayer(sp: SquadPlayer, clubId: string | null, seed: number, season?: string): PlayerState {
   const hidden = genHidden(sp.id, seed);
+  const gen = !sp.contract && !!clubId && !!season;
   return {
     id: sp.id, name: sp.name, birth: sp.birth, nation: sp.nation, pos: sp.pos, number: sp.number,
-    clubId, base: { ...sp.attrs }, growth: {}, wage: sp.wage, contract: sp.contract,
+    clubId, base: { ...sp.attrs }, growth: {}, wage: sp.wage, contract: gen ? genContract(sp, season!, seed) : sp.contract,
+    ...(gen ? { contractGen: true } : {}),
     hidden, traits: [],
     fitness: 100, condition: 0, morale: 60, sharpness: 70, recentRatings: [],
     injury: null, suspension: 0, yellowCount: 0, loyalty: initialLoyalty({ hidden }), benchStreak: 0,
     stats: emptyStats(), career: [],
   };
+}
+
+/**
+ * 데이터에 계약 정보가 없는 소속 선수: 게임이 남은 계약 기간을 정한다 (세이브 시드 기반, 실제 계약 아님)
+ * 젊을수록 길게 (1~5년), 33세 이상은 1~2년
+ */
+function genContract(sp: { id: string; birth: string }, season: string, seed: number): string {
+  const r = createRng(hashSeed(sp.id + ':contract') ^ seed);
+  const age = +season.slice(0, 4) - +sp.birth.slice(0, 4);
+  const max = age <= 23 ? 5 : age <= 28 ? 4 : age <= 32 ? 3 : 2;
+  return `${+season.slice(0, 4) + r.int(1, max)}-06-30`;
+}
+
+/** 예전 세이브: 계약 정보가 없는 소속 선수에게 계약을 정해 준다 */
+export function fillContracts(w: World): void {
+  for (const p of Object.values(w.players)) if (p.clubId && !p.contract && !p.retired) { p.contract = genContract(p, w.season, w.seed); p.contractGen = true; }
 }
 
 export const emptyStats = () => ({ apps: 0, subApps: 0, goals: 0, assists: 0, yellow: 0, red: 0, cleanSheets: 0, ratingSum: 0 });
@@ -66,7 +85,7 @@ export function createWorld(input: SeasonInput, userClubId: string, seed: number
           warnings.push(`중복 소속: ${sp.id} (${players[sp.id].clubId} / ${c.club})`);
           continue;
         }
-        players[sp.id] = newPlayer(sp, c.club, seed);
+        players[sp.id] = newPlayer(sp, c.club, seed, input.season);
         squad.push(sp.id);
       }
       const formation = c.formation && FORMATIONS[c.formation] ? c.formation : guessFormation(squad.map((id) => players[id]));
@@ -122,6 +141,9 @@ export function applyMatch(w: World, f: Fixture, m: MatchState) {
   f.result = s;
   applyResult(w.competitions[f.league].table, f.home, f.away, s.homeGoals, s.awayGoals);
   gateIncome(w, f.home, f.away);
+  matchFans(w, f.home, f.away, s.homeGoals, s.awayGoals);
+  if (s.pom) { const p = w.players[s.pom]; p.stats.pom = (p.stats.pom ?? 0) + 1; p.morale = Math.min(100, p.morale + 5); }
+  if (s.worst && s.worst !== s.pom) { const p = w.players[s.worst]; p.morale = Math.max(0, p.morale - 3); }
   // 호칭 판정용 기록: 부상 · 막판 동점/결승골 · 강팀전 평점
   const log = (id: string) => (w.players[id].tlog ??= emptyLog());
   for (const inj of s.injuries) log(inj.player).inj++;
@@ -223,6 +245,7 @@ export function advanceDay(w: World): GameEvent[] {
   }
 
   financeDay(w);
+  boostMonth(w);
   w.date = addDay(today);
   w.rng = rng.state();
   // 받은편지함에는 사용자 구단 관련과 시즌 종료만 남긴다

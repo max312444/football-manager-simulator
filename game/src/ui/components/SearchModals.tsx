@@ -1,0 +1,115 @@
+// 검색에서 연 창: 선수 정보 (영입 협상 · 관심) · 구단 선수단
+import { useEffect, useState } from 'react';
+import { useApp } from '../../store/app';
+import { useGame } from '../../store/game';
+import { useWorld } from '../hooks';
+import { clubKo, leagues, nations, playerKo } from '../../data/db';
+import { overall } from '../../engine/ratings';
+import { ageOn } from '../../engine/condition';
+import { marketValue, talkBanned, wageDemand, windowOpen } from '../../engine/transfer';
+import { POS_ORDER } from '../../data/rating';
+import { PlayerPanel } from '../views/PlayerPanel';
+import { NegotiationModal } from './NegotiationModal';
+import { Crest } from './Crest';
+import { PosTag } from './bits';
+import { money, ratingTone } from '../format';
+
+function useEsc(onClose: () => void, on: boolean) {
+  useEffect(() => {
+    if (!on) return;
+    const k = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', k);
+    return () => window.removeEventListener('keydown', k);
+  }, [onClose, on]);
+}
+
+export function SearchModals() {
+  return <><ClubModal /><ProfileModal /></>;
+}
+
+function ProfileModal() {
+  const w = useWorld();
+  const id = useApp((s) => s.profile);
+  const close = useApp((s) => s.openProfile);
+  const setTab = useApp((s) => s.setTab);
+  const { toggleShortlist } = useGame();
+  const [talk, setTalk] = useState(false);
+  useEsc(() => close(null), !!id && !talk);
+  const p = id ? w.players[id] : null;
+  if (!p) return null;
+  const mine = p.clubId === w.userClubId;
+  const ban = talkBanned(w, p.id);
+  const short = (w.shortlist ?? []).includes(p.id);
+  const closed = !!p.clubId && !windowOpen(w.season, w.date);
+  const actions = mine ? (
+    <button onClick={() => { close(null); setTab('squad'); }} className="h-10 w-full rounded-lg bg-ink-700 text-[13px] font-semibold text-hi hover:bg-ink-750">선수단 화면으로</button>
+  ) : (
+    <div>
+      <div className="mb-3 flex justify-between text-[12px] text-lo">
+        <span>{p.clubId ? <>시장 가치 <span className="tnum text-mid">{money(marketValue(w, p))}</span></> : <span className="text-neon">자유계약 · 이적료 없음</span>}</span>
+        <span>원하는 주급 약 <span className="tnum text-mid">{money(wageDemand(w, p))}</span></span>
+      </div>
+      {(ban || closed) && <div className="mb-2 rounded-lg border border-line bg-ink-900 px-3 py-2 text-[12px] text-amber">{ban ? `협상 결렬 · ${ban.slice(5).replace('-', '/')}까지 협상 불가` : '이적시장이 닫혀 있어 지금은 영입할 수 없습니다'}</div>}
+      <div className="flex gap-2">
+        <button disabled={!!ban || closed} onClick={() => setTalk(true)} className="h-10 flex-1 rounded-lg bg-neon text-[14px] font-semibold text-ink-950 hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">{p.clubId ? '영입 협상' : '계약 협상 (FA)'}</button>
+        <button onClick={() => toggleShortlist(p.id)} className={`h-10 rounded-lg px-4 text-[13px] ring-1 ring-line ${short ? 'text-neon' : 'text-mid hover:text-hi'}`}>{short ? '관심 ✓' : '관심'}</button>
+      </div>
+    </div>
+  );
+  return (
+    <div className="fixed inset-0 z-[45] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/75 p-6 backdrop-blur-sm" onClick={() => close(null)}>
+      <div className="flex h-[86vh] max-h-[860px]" onClick={(e) => e.stopPropagation()}>
+        <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club actions={actions} />
+      </div>
+      {talk && <div onClick={(e) => e.stopPropagation()}><NegotiationModal p={p} onClose={() => setTalk(false)} /></div>}
+    </div>
+  );
+}
+
+function ClubModal() {
+  const w = useWorld();
+  const id = useApp((s) => s.clubView);
+  const { openClub, openProfile, openTable } = useApp();
+  const profileOpen = useApp((s) => !!s.profile);
+  useEsc(() => openClub(null), !!id && !profileOpen);
+  const c = id ? w.clubs[id] : null;
+  if (!c) return null;
+  const ps = c.squad.map((x) => w.players[x]).sort((a, b) => POS_ORDER.indexOf(a.pos) - POS_ORDER.indexOf(b.pos) || overall(b) - overall(a));
+  const top = [...ps].map(overall).sort((a, b) => b - a).slice(0, 11);
+  const lv = Math.round(top.reduce((a, b) => a + b, 0) / Math.max(1, top.length));
+  const lg = leagues.find((l) => l.id === c.league)?.ko ?? c.league;
+  return (
+    <div className="fixed inset-0 z-40 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/75 p-6 backdrop-blur-sm" onClick={() => openClub(null)}>
+      <div className="panel flex max-h-[86vh] w-[640px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
+        <header className="flex items-center gap-4 border-b border-line px-6 py-5">
+          <Crest clubId={c.id} size={44} />
+          <div className="min-w-0 flex-1">
+            <div className="truncate text-[20px] font-semibold">{clubKo(c.id)}{c.id === w.userClubId && <span className="ml-2 align-middle text-[12px] text-neon">내 구단</span>}</div>
+            <button onClick={() => openTable(c.league)} className="text-[12px] text-lo hover:text-hi">{lg} · 순위 보기</button>
+          </div>
+          <dl className="flex gap-5 text-center text-[12px] text-lo">
+            <div><dd className="tnum text-[18px] font-semibold text-hi">{lv}</dd><dt>주전 평균</dt></div>
+            <div><dd className="tnum text-[18px] font-semibold text-hi">{c.squad.length}</dd><dt>선수</dt></div>
+            <div><dd className="tnum text-[18px] font-semibold text-hi">{c.reputation}</dd><dt>명성</dt></div>
+          </dl>
+          <button onClick={() => openClub(null)} className="h-8 w-8 rounded-md text-[18px] text-lo hover:bg-ink-800 hover:text-hi" aria-label="닫기">×</button>
+        </header>
+        <div className="min-h-0 flex-1 overflow-auto">
+          <table className="w-full text-[13px]">
+            <tbody>
+              {ps.map((p) => { const o = overall(p); return (
+                <tr key={p.id} onClick={() => openProfile(p.id)} className="h-10 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] hover:bg-ink-800">
+                  <td className="w-14 pl-6"><PosTag pos={p.pos} /></td>
+                  <td className="font-medium">{playerKo(p.id, p.name)}</td>
+                  <td className="tnum w-12 text-right text-mid">{ageOn(p.birth, w.date)}</td>
+                  <td className="tnum w-24 text-right text-mid">{money(marketValue(w, p))}</td>
+                  <td className={`tnum w-16 pr-6 text-right font-semibold ${ratingTone(o)}`}>{o}</td>
+                </tr>
+              ); })}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}

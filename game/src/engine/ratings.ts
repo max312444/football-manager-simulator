@@ -3,7 +3,7 @@ import type { AttrKey, Position } from '../data/types';
 import type { PlayerState } from './types';
 import { traitAttr } from './traits';
 
-export const attr = (p: PlayerState, k: AttrKey): number => (p.base[k] ?? 50) + (p.growth[k] ?? 0) + traitAttr(p, k);
+export const attr = (p: PlayerState, k: AttrKey): number => (p.base[k] ?? 50) + (p.growth[k] ?? 0) + traitAttr(p, k) + (p.boost ? p.boost.amount : 0);
 
 // 포지션별 종합 능력 가중치
 const OVR_W: Record<string, Partial<Record<AttrKey, number>>> = {

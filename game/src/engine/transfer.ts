@@ -18,6 +18,13 @@ export function windowOpen(season: string, date: string): 'summer' | 'winter' | 
   if (date >= `${y + 1}-01-01` && date <= `${y + 1}-01-31`) return 'winter';
   return null;
 }
+/** 지금 열린 이적시장이 끝나는 날 (닫혀 있으면 null) */
+export function windowEnd(season: string, date: string): string | null {
+  const win = windowOpen(season, date);
+  if (!win) return null;
+  const y = +season.slice(0, 4);
+  return win === 'summer' ? (season === '2020-21' ? '2020-10-05' : `${y}-09-01`) : `${y + 1}-01-31`;
+}
 export function nextWindow(season: string, date: string): string {
   const y = +season.slice(0, 4);
   return date < `${y + 1}-01-01` ? `${y + 1}-01-01` : `${y + 1}-07-01`;
@@ -115,14 +122,14 @@ export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number
   // 핵심 선수는 비슷한 급 이상 구단이 크게 쓸 때만
   if (rank <= 2 && w.clubs[buyer].reputation + 5 < seller.reputation && fee < ask * 1.5) return { decision: 'reject', ask, reason: '팀의 핵심 선수라 팔 생각이 없다고 합니다' };
   if (fee >= ask) return { decision: 'accept', ask, reason: '제안을 받아들였습니다' };
-  if (fee >= ask * 0.75) return { decision: 'counter', ask, reason: `${Math.round(ask / 1e5) / 10}M 유로면 보내겠다고 합니다` };
-  return { decision: 'reject', ask, reason: '제안 금액이 너무 낮다고 합니다' };
+  if (fee >= ask * 0.75) return { decision: 'counter', ask, reason: `원하는 가격보다 낮습니다. ${Math.round(ask / 1e5) / 10}M 유로면 보내겠다고 합니다` };
+  return { decision: 'reject', ask, reason: '원하는 가격보다 한참 낮습니다. 금액을 크게 올려야 합니다' };
 }
 
 /** 선수가 이 구단으로 오겠는지 */
-export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number): { ok: boolean; reason: string } {
+export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number): { ok: boolean; reason: string; low?: boolean } {
   const demand = wageDemand(w, p);
-  if (wage < demand * 0.9) return { ok: false, reason: `주급 ${Math.round(demand / 1000)}K 유로 이상을 원합니다` };
+  if (wage < demand * 0.9) return { ok: false, low: true, reason: `원하는 주급보다 낮습니다. 주급 ${Math.round(demand / 1000)}K 유로 정도를 원합니다` };
   const buyerRep = w.clubs[buyer].reputation;
   const curRep = p.clubId ? w.clubs[p.clubId].reputation : 30;
   const diff = buyerRep - curRep;
@@ -132,6 +139,26 @@ export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: nu
   if ((w.transferList ?? []).includes(p.id)) score += 1.5;
   if (!p.clubId) score += 1.5;
   return score > -0.6 ? { ok: true, reason: '이적에 동의했습니다' } : { ok: false, reason: diff < 0 ? '더 큰 구단으로 가고 싶어 합니다' : '지금 구단에 남고 싶어 합니다' };
+}
+
+// ── 협상 횟수 · 결렬 ──────────────────────────────
+/** 이적료 · 주급 각각 이 횟수 안에 합의 못 하면 협상 결렬 */
+export const MAX_TRIES = 3;
+/** 결렬되면 이 날짜까지 다시 협상 불가: 이적시장 중이면 그 이적시장 끝까지, 닫혀 있으면(자유계약) 30일 */
+export const banUntil = (w: World) => windowEnd(w.season, w.date) ?? addDays(w.date, 30);
+export function talkBanned(w: World, playerId: string): string | null {
+  const until = w.talkBan?.[playerId];
+  return until && until >= w.date ? until : null;
+}
+/** 진행 중인 협상 (없거나 기한이 지났으면 새로) */
+export function talkOf(w: World, playerId: string) {
+  const t = w.talks?.[playerId];
+  if (t && t.until >= w.date) return t;
+  return ((w.talks ??= {})[playerId] = { fee: 0, wage: 0, until: banUntil(w) });
+}
+export function breakTalks(w: World, playerId: string) {
+  (w.talkBan ??= {})[playerId] = banUntil(w);
+  if (w.talks) delete w.talks[playerId];
 }
 
 // ── 이적 실행 ────────────────────────────────────────
@@ -158,6 +185,7 @@ export function completeTransfer(w: World, p: PlayerState, to: string, fee: numb
   p.morale = Math.min(100, p.morale + 10);
   w.transferList = (w.transferList ?? []).filter((id) => id !== p.id);
   w.offers = (w.offers ?? []).filter((o) => o.player !== p.id);
+  if (w.talks) delete w.talks[p.id];
   return { type: 'transfer', date: w.date, player: p.id, from, to, fee, user: from === w.userClubId || to === w.userClubId };
 }
 
@@ -178,6 +206,69 @@ function needs(w: World, clubId: string): string[] {
   const out: string[] = [];
   for (const [g, n] of Object.entries(MIN_GROUP)) if (ps.filter((p) => posGroup(p.pos) === g).length < n) out.push(g);
   return out;
+}
+
+/** 구단 주전 11명 평균 능력 */
+function clubLevel(w: World, clubId: string): number {
+  const mine = w.clubs[clubId].squad.map((id) => overall(w.players[id])).sort((a, b) => b - a);
+  return mine.slice(0, 11).reduce((a, b) => a + b, 0) / Math.max(1, Math.min(11, mine.length));
+}
+
+/**
+ * 내 선수에게 오는 영입 제안 (이적시장 동안 매일)
+ *  - 이적 명단 선수: 자주 (하루 18%). 시장 가치의 75~105%로 시작, 최대 95~120%까지 올릴 수 있음
+ *  - 명단에 없는 선수: 가끔 (하루 0.6%). 팔 생각이 없는 선수라 100~125%로 시작, 최대 120~160%
+ * 관심 구단 = 이 선수가 주전 · 로테이션급인 구단 (팀 수준 −7 ~ +4), 이적료 · 주급을 감당할 수 있고 선수도 갈 마음이 있는 곳.
+ * 최대 금액(max)은 화면에 보이지 않고, 감독이 역제안하면 이 안에서 협상한다.
+ */
+function userOffers(w: World, rng: Rng, active: World['clubs'][string][]) {
+  const offers = (w.offers ??= []);
+  const listed = new Set(w.transferList ?? []);
+  for (const id of w.clubs[w.userClubId].squad) {
+    const p = w.players[id];
+    const onList = listed.has(id);
+    if (!rng.chance(onList ? 0.18 : 0.006)) continue;
+    if (offers.filter((o) => o.player === id).length >= 3) continue;
+    const ovr = overall(p);
+    const value = Math.max(marketValue(w, p), 250000);
+    const wage = wageDemand(w, p);
+    const cands = active.filter((c) => {
+      if (offers.some((o) => o.player === id && o.from === c.id) || talkBanned(w, `${id}:${c.id}`)) return false;
+      const lv = clubLevel(w, c.id);
+      return ovr >= lv - 7 && ovr <= lv + 4 && c.finance.transferBudget >= value * (onList ? 0.6 : 1)
+        && wageBill(w, c.id) + wage <= c.finance.wageBudget * 1.1 && playerWillJoin(w, p, c.id, wage).ok;
+    });
+    if (!cands.length) continue;
+    const club = rng.pick(cands);
+    const budget = club.finance.transferBudget;
+    const r50 = (v: number) => Math.round(v / 50000) * 50000;
+    const fee = r50(Math.min(value * (onList ? 0.75 + rng.next() * 0.3 : 1 + rng.next() * 0.25), budget));
+    const max = Math.max(fee, r50(Math.min(value * (onList ? 0.95 + rng.next() * 0.25 : 1.2 + rng.next() * 0.4), budget)));
+    offers.push({ id: `${w.date}-${club.id}-${id}`, player: id, from: club.id, fee, max, tries: 0, date: w.date, expires: addDays(w.date, 7), ...(onList ? {} : { unsolicited: true }) });
+    w.inbox.push({ type: 'offer', date: w.date, player: id, from: club.id, fee });
+  }
+}
+
+/** 받은 제안에 내가 부른 값: 받아들이거나, 금액을 올리거나, 거절. 3번 안에 합의 못 하면 그 구단은 이번 이적시장 동안 손을 뗀다 */
+export function counterOffer(w: World, o: TransferOffer, ask: number): { result: 'accept' | 'raise' | 'reject' | 'withdraw'; fee: number; reason: string } {
+  const max = o.max ?? Math.round(o.fee * 1.15 / 50000) * 50000;
+  o.tries = (o.tries ?? 0) + 1;
+  const M = (v: number) => `${Math.round(v / 1e5) / 10}M 유로`;
+  // 지금 제안보다 낮게 부르면 지금 제안 금액 그대로
+  if (ask <= max) { o.fee = Math.max(ask, o.fee); return { result: 'accept', fee: o.fee, reason: `${M(o.fee)}에 동의했습니다` }; }
+  const left = MAX_TRIES - o.tries;
+  if (left <= 0) {
+    w.offers = (w.offers ?? []).filter((x) => x.id !== o.id);
+    (w.talkBan ??= {})[`${o.player}:${o.from}`] = banUntil(w);
+    return { result: 'withdraw', fee: o.fee, reason: '원하는 가격이 너무 높다며 영입을 포기했습니다. 이번 이적시장 동안 다시 제안하지 않습니다' };
+  }
+  if (ask <= max * 1.3) {
+    // 부른 값과 한도 사이에서 조금씩 올린다 (마지막 기회면 한도까지)
+    const step = left === 1 ? max : Math.round((o.fee + (max - o.fee) * 0.6) / 50000) * 50000;
+    o.fee = Math.max(o.fee, Math.min(max, step));
+    return { result: 'raise', fee: o.fee, reason: `원하는 가격보다 높습니다. ${M(o.fee)}까지 올리겠습니다` };
+  }
+  return { result: 'reject', fee: o.fee, reason: `너무 비쌉니다. ${M(o.fee)} 제안은 그대로 유효합니다` };
 }
 
 /**
@@ -215,7 +306,8 @@ export function aiTransferDay(w: World, rng: Rng): GameEvent[] {
       if (!playerWillJoin(w, target, club.id, wage).ok) continue;
       const offers = (w.offers ??= []);
       if (!offers.some((o) => o.player === target.id && o.from === club.id)) {
-        const offer: TransferOffer = { id: `${w.date}-${club.id}-${target.id}`, player: target.id, from: club.id, fee: Math.round((fee * (0.85 + rng.next() * 0.25)) / 50000) * 50000, date: w.date, expires: addDays(w.date, 7) };
+        const f0 = Math.round((fee * (0.85 + rng.next() * 0.25)) / 50000) * 50000;
+        const offer: TransferOffer = { id: `${w.date}-${club.id}-${target.id}`, player: target.id, from: club.id, fee: f0, max: Math.max(f0, Math.round(Math.min(fee * 1.2, club.finance.transferBudget) / 50000) * 50000), tries: 0, date: w.date, expires: addDays(w.date, 7) };
         offers.push(offer);
         w.inbox.push({ type: 'offer', date: w.date, player: target.id, from: club.id, fee: offer.fee });
       }
@@ -225,6 +317,7 @@ export function aiTransferDay(w: World, rng: Rng): GameEvent[] {
     if (!playerWillJoin(w, target, club.id, wage).ok) continue;
     events.push(completeTransfer(w, target, club.id, fee, wage, rng.int(2, 5)));
   }
+  userOffers(w, rng, active);
   // 기한 지난 제안 정리
   if (w.offers) w.offers = w.offers.filter((o) => o.expires >= w.date && w.players[o.player]?.clubId === w.userClubId);
   return events;

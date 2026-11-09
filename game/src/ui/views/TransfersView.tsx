@@ -3,13 +3,16 @@ import { useMemo, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
 import { overall } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
-import { askingPrice, marketValue, nextWindow, wageBill, wageDemand, wageRoom, windowOpen } from '../../engine/transfer';
-import { clubKo, leagues, playerKo } from '../../data/db';
+import { marketValue, nextWindow, talkBanned, wageBill, wageDemand, windowOpen } from '../../engine/transfer';
+import { clubKo, leagues, nations, playerKo } from '../../data/db';
+import { PlayerPanel } from './PlayerPanel';
+import { NegotiationModal } from '../components/NegotiationModal';
+import { SellNegotiationModal } from '../components/SellNegotiationModal';
 import { posGroup } from '../../data/rating';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { Crest } from '../components/Crest';
-import { Card, PosTag } from '../components/bits';
+import { PosTag } from '../components/bits';
 import { koDate, money, ratingTone } from '../format';
 import { useApp } from '../../store/app';
 import { analyzeClub, searchPreset } from '../../engine/analysis';
@@ -33,6 +36,8 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
   const [q, setQ] = useState('');
   const [sel, setSel] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
+  const [talkWith, setTalkWith] = useState<string | null>(null);
+  const [sellTalk, setSellTalk] = useState<string | null>(null);
 
   const club = w.clubs[w.userClubId];
   const win = windowOpen(w.season, w.date);
@@ -130,8 +135,9 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
                 <Crest clubId={o.from} size={24} />
                 <div className="min-w-0 flex-1">
                   <div className="text-[14px] font-medium">{playerKo(p.id, p.name)} <span className="text-lo">← {clubKo(o.from)}</span></div>
-                  <div className="text-[12px] text-lo">제안 이적료 {money(o.fee)} · 시장 가치 {money(marketValue(w, p))} · {koDate(o.expires)}까지</div>
+                  <div className="text-[12px] text-lo">제안 이적료 <span className="tnum font-semibold text-neon">{money(o.fee)}</span> · 시장 가치 {money(marketValue(w, p))} · {koDate(o.expires)}까지{o.unsolicited ? ' · 이적 명단에 없는 선수' : ''}{o.tries ? ` · 역제안 ${o.tries}회` : ''}</div>
                 </div>
+                <button onClick={() => setSellTalk(o.id)} className="h-9 rounded-lg bg-ink-700 px-4 text-[13px] font-semibold text-hi transition-colors hover:bg-ink-750">협상</button>
                 <button onClick={() => setNotice(answerOffer(o.id, false))} className="h-9 rounded-lg px-4 text-[13px] text-mid ring-1 ring-line transition-colors hover:text-hi">거절</button>
                 <button onClick={() => setNotice(answerOffer(o.id, true))} className="h-9 rounded-lg bg-neon px-4 text-[13px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">수락</button>
               </div>
@@ -150,18 +156,19 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
               <tbody>
                 {rows.length === 0 && <tr><td colSpan={8} className="px-4 py-10 text-center text-lo">조건에 맞는 선수가 없습니다</td></tr>}
                 {rows.map(({ p, ovr, age, value }) => (
-                  <tr key={p.id} onClick={() => setSel(p.id)} className={`h-11 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${sel === p.id ? 'bg-neon-ghost' : 'hover:bg-ink-800'}`}>
-                    <td className="px-4"><span className="font-medium">{playerKo(p.id, p.name)}</span>
+                  <tr key={p.id} onClick={() => setSel(p.id)} className={`h-11 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${sel === p.id ? 'bg-neon-ghost' : p.clubId ? 'hover:bg-ink-800' : 'bg-sky/[0.06] hover:bg-sky/10'}`}>
+                    <td className={`px-4 ${p.clubId ? '' : 'shadow-[inset_3px_0_0_var(--color-sky)]'}`}><span className="font-medium">{playerKo(p.id, p.name)}</span>
+                      {!p.clubId && <span className="ml-2 rounded bg-sky/15 px-1.5 py-px text-[11px] font-semibold text-sky">FA</span>}
                       {listed.has(p.id) && <span className="ml-2 rounded bg-amber/15 px-1 text-[11px] text-amber">이적 명단</span>}
                       {shortlist.includes(p.id) && tab !== 'shortlist' && <span className="ml-2 text-[11px] text-neon">관심</span>}
                     </td>
                     <td className="px-2"><PosTag pos={p.pos} /></td>
                     <td className="tnum px-2 text-right text-mid">{age}</td>
-                    <td className="px-3"><span className="flex items-center gap-2">{p.clubId ? <><Crest clubId={p.clubId} size={16} /><span className="truncate text-mid">{clubKo(p.clubId)}</span></> : <span className="text-neon">자유계약</span>}</span></td>
+                    <td className="px-3"><span className="flex items-center gap-2">{p.clubId ? <><Crest clubId={p.clubId} size={16} /><span className="truncate text-mid">{clubKo(p.clubId)}</span></> : <span className="text-sky">소속 없음 · 이적료 없음</span>}</span></td>
                     <td className={`tnum px-2 text-right font-semibold ${ratingTone(ovr)}`}>{ovr}</td>
                     <td className="tnum px-3 text-right">{p.clubId ? money(value) : '–'}</td>
                     <td className="tnum px-3 text-right text-mid">{money(p.wage)}</td>
-                    <td className="tnum px-4 text-right text-mid">{p.contract ? p.contract.slice(0, 7).replace('-', '.') : '–'}</td>
+                    <td className="tnum px-4 text-right text-mid">{p.contract ? p.contract.slice(0, 7).replace('-', '.') : p.clubId ? '–' : <span className="text-sky">FA</span>}</td>
                   </tr>
                 ))}
               </tbody>
@@ -171,109 +178,45 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
         {notice && <div className="mt-3 rounded-lg bg-ink-800 px-4 py-3 text-[13px] text-mid">{notice}</div>}
       </section>
 
-      {selected && (tab === 'mine'
-        ? <MyPlayerCard p={selected} listed={listed.has(selected.id)} onList={() => toggleTransferList(selected.id)}
-            onRelease={() => { release(selected.id); setSel(null); setNotice(`${playerKo(selected.id, selected.name)} 방출`); }} />
-        : <BuyCard key={selected.id} p={selected} shortlisted={shortlist.includes(selected.id)} onShort={() => toggleShortlist(selected.id)} onDone={(m) => { setNotice(m); setSel(null); }} />)}
+      {selected && <Side p={selected} mine={selected.clubId === w.userClubId} listed={listed.has(selected.id)} shortlisted={shortlist.includes(selected.id)}
+        onList={() => toggleTransferList(selected.id)} onShort={() => toggleShortlist(selected.id)} onTalk={() => setTalkWith(selected.id)}
+        onRelease={() => { release(selected.id); setSel(null); setNotice(`${playerKo(selected.id, selected.name)} 방출`); }} />}
+      {sellTalk && <SellNegotiationModal offerId={sellTalk} onClose={() => setSellTalk(null)} />}
+      {talkWith && w.players[talkWith] && <NegotiationModal p={w.players[talkWith]} onClose={() => { setTalkWith(null); if (w.players[talkWith].clubId === w.userClubId) setSel(null); }} />}
     </div>
   );
 }
 
-function BuyCard({ p, shortlisted, onShort, onDone }: { p: PlayerState; shortlisted: boolean; onShort: () => void; onDone: (m: string) => void }) {
+/** 오른쪽 선수 정보 + 할 수 있는 일 (영입 협상 · 관심 목록 / 이적 명단 · 방출) */
+function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk }: {
+  p: PlayerState; mine: boolean; listed: boolean; shortlisted: boolean; onList: () => void; onShort: () => void; onRelease: () => void; onTalk: () => void;
+}) {
   const w = useWorld();
-  const { bid, sign } = useGame();
-  const ask = p.clubId ? askingPrice(w, p) : 0;
-  const demand = wageDemand(w, p);
-  const [fee, setFee] = useState(Math.round(ask * 0.85 / 1e5) / 10);    // 백만 유로 단위 입력
-  const [agreed, setAgreed] = useState<number | null>(p.clubId ? null : 0);
-  const [wage, setWage] = useState(Math.round(demand / 1000));          // 천 유로 단위 입력
-  const [years, setYears] = useState(3);
-  const [msg, setMsg] = useState<string | null>(null);
-  const ovr = overall(p);
-
-  const doBid = () => {
-    const r = bid(p.id, fee * 1e6);
-    if (r.blocked) return setMsg(r.blocked);
-    if (r.decision === 'accept') { setAgreed(fee * 1e6); setMsg(`${clubKo(p.clubId!)}: 제안 수락 — 이제 선수와 계약을 협상하세요`); }
-    else if (r.decision === 'counter') { setFee(Math.round(r.ask / 1e5) / 10); setMsg(`${clubKo(p.clubId!)}: ${r.reason}`); }
-    else setMsg(`${clubKo(p.clubId!)}: ${r.reason}`);
-  };
-  const doSign = () => {
-    const r = sign(p.id, agreed ?? 0, wage * 1000, years);
-    setMsg(r.reason);
-    if (r.ok) onDone(`${playerKo(p.id, p.name)} 영입 완료 · 이적료 ${money(agreed ?? 0)} · 주급 ${money(wage * 1000)} · ${years}년`);
-  };
-
-  return (
-    <aside className="flex w-[360px] shrink-0 flex-col gap-4">
-      <Card title="선수">
-        <div className="px-5 py-4">
-          <div className="flex items-center justify-between">
-            <div className="min-w-0">
-              <div className="truncate text-[18px] font-semibold">{playerKo(p.id, p.name)}</div>
-              <div className="text-[12px] text-lo">{p.pos} · {ageOn(p.birth, w.date)}세 · {p.clubId ? clubKo(p.clubId) : '자유계약'}</div>
-            </div>
-            <div className={`tnum text-[28px] font-semibold ${ratingTone(ovr)}`}>{ovr}</div>
-          </div>
-          <dl className="mt-4 grid grid-cols-2 gap-3 text-[13px]">
-            <div><dt className="text-[12px] text-lo">시장 가치</dt><dd className="tnum font-semibold">{p.clubId ? money(marketValue(w, p)) : '–'}</dd></div>
-            <div><dt className="text-[12px] text-lo">구단 요구액 (예상)</dt><dd className="tnum font-semibold">{p.clubId ? money(ask) : '없음'}</dd></div>
-            <div><dt className="text-[12px] text-lo">현재 주급</dt><dd className="tnum">{money(p.wage)}</dd></div>
-            <div><dt className="text-[12px] text-lo">원하는 주급</dt><dd className="tnum">{money(demand)}</dd></div>
-          </dl>
-          <button onClick={onShort} className="mt-4 text-[12px] text-mid transition-colors hover:text-hi">{shortlisted ? '관심 목록에서 빼기' : '관심 목록에 추가'}</button>
-        </div>
-      </Card>
-
-      {agreed === null ? (
-        <Card title="이적료 제안">
-          <div className="space-y-3 px-5 py-4">
-            <label className="flex items-center justify-between text-[13px] text-mid">이적료 (백만 유로)
-              <input type="number" step={0.5} min={0} value={fee} onChange={(e) => setFee(+e.target.value)} className="tnum h-9 w-28 rounded-lg border border-line bg-ink-900 px-3 text-right text-hi" />
-            </label>
-            <button onClick={doBid} className="h-10 w-full rounded-lg bg-neon text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">제안 보내기</button>
-          </div>
-        </Card>
-      ) : (
-        <Card title={p.clubId ? '계약 협상 (이적료 합의됨)' : '계약 협상 (자유계약)'}>
-          <div className="space-y-3 px-5 py-4 text-[13px]">
-            <label className="flex items-center justify-between text-mid">주급 (천 유로)
-              <input type="number" min={1} value={wage} onChange={(e) => setWage(+e.target.value)} className="tnum h-9 w-28 rounded-lg border border-line bg-ink-900 px-3 text-right text-hi" />
-            </label>
-            <label className="flex items-center justify-between text-mid">계약 기간
-              <select value={years} onChange={(e) => setYears(+e.target.value)} className="h-9 w-28 rounded-lg border border-line bg-ink-900 px-3 text-hi">
-                {[1, 2, 3, 4, 5].map((y) => <option key={y} value={y}>{y}년</option>)}
-              </select>
-            </label>
-            {(() => {
-              const after = wageRoom(w, w.userClubId) - wage * 1000;
-              return <div className="flex items-center justify-between text-[12px]"><span className="text-lo">계약 후 주급 여유</span><span className={`tnum font-semibold ${after < 0 ? 'text-red' : 'text-mid'}`}>{after < 0 ? `예산 초과 ${money(-after)}` : money(after)}</span></div>;
-            })()}
-            <button onClick={doSign} disabled={wageRoom(w, w.userClubId) - wage * 1000 < 0}
-              className="h-10 w-full rounded-lg bg-neon text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">계약 제안</button>
-          </div>
-        </Card>
-      )}
-      {msg && <div className="rounded-lg bg-ink-800 px-4 py-3 text-[13px] text-mid">{msg}</div>}
-    </aside>
+  const ban = talkBanned(w, p.id);
+  const talk = w.talks?.[p.id];
+  const value = marketValue(w, p);
+  const actions = mine ? (
+    <div>
+      <div className="mb-3 text-[12px] text-lo">시장 가치 <span className="tnum text-mid">{money(value)}</span> · 이적 명단에 올리면 이적시장 동안 다른 구단이 제안해 옵니다</div>
+      <div className="flex gap-2">
+        <button onClick={onList} className={`h-10 flex-1 rounded-lg text-[13px] font-semibold transition-colors ${listed ? 'bg-amber/15 text-amber' : 'bg-ink-700 text-hi hover:bg-ink-750'}`}>{listed ? '이적 명단에서 빼기' : '이적 명단에 올리기'}</button>
+        <button onClick={onRelease} className="h-10 rounded-lg px-4 text-[13px] text-red ring-1 ring-line transition-colors hover:bg-red/10">방출</button>
+      </div>
+    </div>
+  ) : (
+    <div>
+      <div className="mb-3 flex justify-between text-[12px] text-lo">
+        <span>{p.clubId ? <>시장 가치 <span className="tnum text-mid">{money(value)}</span></> : <span className="text-neon">자유계약 · 이적료 없음</span>}</span>
+        <span>원하는 주급 약 <span className="tnum text-mid">{money(wageDemand(w, p))}</span></span>
+      </div>
+      {ban && <div className="mb-2 rounded-lg border border-red/40 bg-red/10 px-3 py-2 text-[12px] text-red">협상 결렬 · {koDate(ban)}까지 협상 불가</div>}
+      <div className="flex gap-2">
+        <button onClick={onTalk} disabled={!!ban} className="h-10 flex-1 rounded-lg bg-neon text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">
+          {talk?.agreed != null ? '개인 계약 협상 계속' : talk && (talk.fee || talk.wage) ? '협상 계속' : p.clubId ? '영입 협상' : '계약 협상 (FA)'}
+        </button>
+        <button onClick={onShort} className={`h-10 rounded-lg px-4 text-[13px] ring-1 ring-line transition-colors ${shortlisted ? 'text-neon' : 'text-mid hover:text-hi'}`}>{shortlisted ? '관심 ✓' : '관심'}</button>
+      </div>
+    </div>
   );
-}
-
-function MyPlayerCard({ p, listed, onList, onRelease }: { p: PlayerState; listed: boolean; onList: () => void; onRelease: () => void }) {
-  const w = useWorld();
-  return (
-    <aside className="w-[360px] shrink-0">
-      <Card title="내 선수">
-        <div className="px-5 py-4">
-          <div className="text-[18px] font-semibold">{playerKo(p.id, p.name)}</div>
-          <div className="text-[12px] text-lo">{p.pos} · {ageOn(p.birth, w.date)}세 · 시장 가치 {money(marketValue(w, p))}</div>
-          <p className="mt-3 text-[12px] leading-relaxed text-lo">이적 명단에 올리면 이적시장 동안 다른 구단의 제안이 들어옵니다. 방출하면 자유계약 선수가 됩니다.</p>
-          <div className="mt-4 flex gap-2">
-            <button onClick={onList} className={`h-9 flex-1 rounded-lg text-[13px] transition-colors ${listed ? 'bg-amber/15 text-amber' : 'bg-ink-700 text-hi hover:bg-ink-750'}`}>{listed ? '이적 명단에서 빼기' : '이적 명단에 올리기'}</button>
-            <button onClick={onRelease} className="h-9 rounded-lg px-4 text-[13px] text-red ring-1 ring-line transition-colors hover:bg-red/10">방출</button>
-          </div>
-        </div>
-      </Card>
-    </aside>
-  );
+  return <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club actions={actions} />;
 }

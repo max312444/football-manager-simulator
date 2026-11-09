@@ -43,3 +43,10 @@ export function koDate(iso: string): string {
   const w = '일월화수목금토'[d.getDay()];
   return `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일 (${w})`;
 }
+
+/** 한국어 조사: 마지막 글자에 받침이 있으면 a, 없으면 b (한글이 아니면 b) */
+export function josa(word: string, a: string, b: string): string {
+  const c = word.trim().charCodeAt(word.trim().length - 1);
+  if (c < 0xac00 || c > 0xd7a3) return b;
+  return (c - 0xac00) % 28 ? a : b;
+}

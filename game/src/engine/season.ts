@@ -8,7 +8,7 @@
 //  - 강등 · 승격: 실제 다음 시즌에 새로 올라온 구단 수만큼 게임 순위 하위 구단을 내린다
 //    (2부 리그는 아직 없음 → 사용자 구단이 강등권이면 잔류 처리하고 그 위 구단을 내림)
 import type { AttrKey } from '../data/types';
-import type { PlayerState, SeasonRecord, World } from './types';
+import type { PlayerState, RetireNews, SeasonRecord, World } from './types';
 import type { SeasonInput } from './world';
 import { emptyStats, newPlayer } from './world';
 import { buildFixtures, seasonStart } from './fixtures';
@@ -18,7 +18,9 @@ import { ageOn } from './condition';
 import { FORMATIONS, guessFormation } from './squad';
 import { boardReview, prizeMoney } from './finance';
 import { traitSeasonEnd } from './traits';
+import { overall } from './ratings';
 import { money } from '../ui/format';
+import { seasonAwards } from './awards';
 
 export const MAX_SQUAD = 32;
 export const nextSeasonOf = (s: string) => {
@@ -35,6 +37,8 @@ export interface SeasonReport {
   retired: string[];
   debuts: string[];
   released: string[];
+  /** 시즌 전환 때 내 구단을 떠난 선수 (은퇴 · 계약 만료) */
+  userLeft: { player: string; why: 'retire' | 'release' }[];
   updated: number;       // 실제 데이터로 능력치가 갱신된 선수 수
   aged: number;          // 성장 엔진으로 바뀐 선수 수
   userKept: boolean;     // 사용자 구단이 강등권이었지만 잔류 처리됐는지
@@ -59,6 +63,9 @@ export function closeSeason(w: World): SeasonRecord[] {
     const apps = p.stats.apps + p.stats.subApps;
     p.career.push({ season: w.season, club: p.clubId, apps, goals: p.stats.goals, assists: p.stats.assists, rating: apps ? Math.round((p.stats.ratingSum / apps) * 100) / 100 : null });
   }
+  // 시즌 수상 (보상 포함)
+  const awards = seasonAwards(w);
+  for (const r of recs) r.awards = awards.filter((a) => a.league === r.league);
   // 플레이가 끊긴 호칭 정리
   w.lostTraits = traitSeasonEnd(w, createRng((w.rng ^ 0x5eed) >>> 0));
   // 리그 상금 (내 구단)
@@ -96,7 +103,7 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   const rng = createRng(w.rng ^ 0x5eed);
   const from = w.season, to = next.season;
   const startDate = seasonStart(to);
-  const report: SeasonReport = { from, to, champions: {}, relegated: {}, promoted: {}, retired: [], debuts: [], released: [], updated: 0, aged: 0, userKept: false };
+  const report: SeasonReport = { from, to, champions: {}, relegated: {}, promoted: {}, retired: [], debuts: [], released: [], userLeft: [], updated: 0, aged: 0, userKept: false };
   for (const r of w.history.filter((h) => h.season === from)) report.champions[r.league] = r.champion;
 
   const nextLeague = new Map(next.leagues.map((l) => [l.id, l]));
@@ -149,6 +156,7 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   }
 
   // ── 선수 ────────────────────────────────────────
+  const news: RetireNews[] = [];
   for (const p of Object.values(w.players)) {
     resetSeason(p);
     if (p.retired) continue;
@@ -165,6 +173,14 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     }
     // 은퇴: 다음 시즌 데이터에 없고 나이가 많으면 확률적으로
     if (!d && rng.chance(retireChance(age, Object.values(p.base).reduce((a, b) => a + (b ?? 0), 0) / Math.max(1, Object.keys(p.base).length)))) {
+      // 은퇴 소식: 내 구단 선수 · 스타 선수 (전성기 능력 82 이상, 수상 경력, 레전드 호칭)
+      const ovr = overall(p);
+      const mine = p.clubId === w.userClubId;
+      if (mine || Math.max(ovr, p.peak ?? 0) >= 82 || p.honours?.length || p.traits.includes('legend')) {
+        news.push({ player: p.id, club: p.clubId, season: from, ovr, mine });
+        w.inbox.push({ type: 'retire', date: startDate, player: p.id, club: p.clubId, season: from });
+      }
+      if (mine) report.userLeft.push({ player: p.id, why: 'retire' });
       retire(w, p);
       report.retired.push(p.id);
       continue;
@@ -173,16 +189,19 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     if (p.clubId && p.contract && p.contract < startDate) {
       const keep = p.clubId === w.userClubId || d?.club === p.clubId || rng.chance(0.55);
       if (keep) p.contract = `${+startDate.slice(0, 4) + 2}-06-30`;
-      else { releasePlayer(w, p); report.released.push(p.id); }
+      else { if (p.clubId === w.userClubId) report.userLeft.push({ player: p.id, why: 'release' }); releasePlayer(w, p); report.released.push(p.id); }
     }
   }
+
+  // 내 선수 먼저, 그다음 능력 높은 순 · 최대 8명
+  w.pendingNews = news.sort((a, b) => +b.mine - +a.mine || b.ovr - a.ovr).slice(0, 8);
 
   // 미래 선수 등장
   for (const [id, d] of dataPlayers) {
     if (w.players[id]) continue;
     const club = w.clubs[d.club];
     const join = club && newMembers[club.league]?.includes(club.id) && club.squad.length < MAX_SQUAD ? club.id : null;
-    const p = newPlayer(d.sp, join, w.seed);
+    const p = newPlayer(d.sp, join, w.seed, to);
     w.players[id] = p;
     if (join) club!.squad.push(id);
     report.debuts.push(id);

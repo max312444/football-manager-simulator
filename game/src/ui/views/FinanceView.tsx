@@ -1,6 +1,7 @@
 // 재정 화면: 잔고 · 예산 · 이번 시즌 수입/지출 · 잔고 추이 · 지난 시즌 장부
 import { EXPENSE_LABEL, INCOME_LABEL, ledgerOf, revenueBase, sum, wageBillOf, type ExpenseKind, type IncomeKind } from '../../engine/finance';
 import { useWorld } from '../hooks';
+import { baseFans, fanFactor, fansOf } from '../../engine/awards';
 import { Card } from '../components/bits';
 import { money } from '../format';
 
@@ -17,6 +18,7 @@ export function FinanceView() {
   const wageRatio = bill / Math.max(1, f.wageBudget);
   const maxRow = Math.max(1, ...Object.values(cur.income), ...Object.values(cur.expense));
   const R = revenueBase(w);
+  const fans = fansOf(w, club.id), fanBase = baseFans(club.reputation), ff = fanFactor(w, club.id);
 
   return (
     <div className="h-full overflow-auto px-8 py-6">
@@ -51,7 +53,12 @@ export function FinanceView() {
             <Trend points={cur.balances} />
           </Card>
           <Card title="돈은 어떻게 움직이나">
+            <div className="flex items-end justify-between border-b border-line px-5 py-4">
+              <div><div className="text-[12px] text-lo">팬</div><div className="tnum mt-1 text-[20px] font-semibold">{(fans / 1e6).toFixed(2)}M 명</div></div>
+              <div className="text-right text-[12px] text-lo">구단 규모 기준 대비 <span className={`tnum font-semibold ${fans >= fanBase ? 'text-neon' : 'text-red'}`}>{fans >= fanBase ? '+' : ''}{(((fans / fanBase) - 1) * 100).toFixed(1)}%</span><br />경기장 · 스폰서 수입 ×{ff.toFixed(2)}</div>
+            </div>
             <ul className="space-y-2 px-5 py-4 text-[13px] leading-relaxed text-mid">
+              <li>· 이기면 팬이 늘고 지면 조금 줄어듭니다. 우승하면 8%, 개인 수상자가 나오면 2% 늘어납니다.</li>
               <li>· 매주 월요일 선수 주급이 나갑니다.</li>
               <li>· 매월 1일 스폰서 수입과 운영비, 8월~5월에는 중계권료가 들어옵니다.</li>
               <li>· 홈 경기마다 입장 수입이 들어오고, 상대가 강할수록 많습니다.</li>

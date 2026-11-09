@@ -15,6 +15,9 @@ import { InboxView } from '../views/InboxView';
 import { TacticsView } from '../views/TacticsView';
 import { TransfersView } from '../views/TransfersView';
 import { FinanceView } from '../views/FinanceView';
+import { AwardCeremony } from '../components/AwardCeremony';
+import { RetireNews } from '../components/RetireNews';
+import { SearchModals } from '../components/SearchModals';
 
 const TITLES: Record<HubTab, string> = {
   home: '홈', inbox: '받은편지함', squad: '선수단', tactics: '전술', schedule: '일정',
@@ -52,6 +55,9 @@ export function HubScreen() {
       </main>
       <SeasonReportPanel />
       {ceremony && <TransferCeremony c={ceremony} onClose={closeCeremony} />}
+      <AwardCeremony />
+      <RetireNews />
+      <SearchModals />
     </div>
   );
 }

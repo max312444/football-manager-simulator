@@ -8,13 +8,15 @@ import { createRng, type Rng } from '../engine/rng';
 import { seedTraits } from '../engine/traits';
 import { availableSeasons, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, realAvailable, setDataset } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
-import { seasonOver } from '../engine/world';
+import { fillContracts, seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
-import { completeTransfer, evaluateBid, playerWillJoin, releasePlayer, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
+import { breakTalks, completeTransfer, counterOffer, evaluateBid, MAX_TRIES, playerWillJoin, releasePlayer, talkBanned, talkOf, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
+import type { RetireNews, TransferOffer } from '../engine/types';
 import { matchRules, pickLineup } from '../engine/squad';
 import type { Mentality, Pressing } from '../engine/types';
 import { readSave, writeSave } from './save';
 import type { Ceremony } from '../ui/components/TransferCeremony';
+import type { Award } from '../engine/awards';
 
 /** 시즌 데이터 불러오기: 그 시즌 데이터가 있는 1부 리그 전부 */
 async function loadSeasonInput(season: string, mustInclude?: string): Promise<SeasonInput> {
@@ -82,27 +84,50 @@ interface GameStore {
   resetDraft(): void;
   confirmLineup(): void;
   /** 이적: 구단에 이적료 제안 (수락되면 계약 협상 단계로) */
-  bid(playerId: string, fee: number): BidResult & { blocked?: string };
+  /** 이적료 제안. left = 남은 기회, broken = 협상 결렬 (이번 이적시장 동안 다시 협상 불가) */
+  bid(playerId: string, fee: number): BidResult & { blocked?: string; left?: number; broken?: boolean };
   /** 이적: 선수에게 계약 제안 (fee는 합의된 이적료, 자유계약이면 0) */
-  sign(playerId: string, fee: number, wage: number, years: number): { ok: boolean; reason: string };
+  /** 개인 계약 제안 (이적료는 합의된 금액, 자유계약은 0) */
+  sign(playerId: string, wage: number, years: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   toggleShortlist(playerId: string): void;
   toggleTransferList(playerId: string): void;
   release(playerId: string): void;
   answerOffer(offerId: string, accept: boolean): string;
+  /** 받은 제안에 역제안 (이적료). done = 이적 성사, gone = 제안이 사라짐 */
+  counter(offerId: string, ask: number): { result: 'accept' | 'raise' | 'reject' | 'withdraw' | 'gone'; fee: number; reason: string; done?: boolean };
   stepMatch(n?: number): void;
   changeTactics(t: Partial<Tactics>): void;
   sub(outId: string, inId: string): boolean;
   setClubTactics(t: Partial<Tactics>): void;
   closeMatch(): void;
+  /** 시즌 말 내 구단 수상 연출 */
+  awards: Award[] | null;
+  closeAwards(): void;
+  /** 은퇴 소식 (수상 연출 다음, 시즌 결산 전) */
+  news: RetireNews[] | null;
+  closeNews(): void;
   quit(): void;
 }
 
 export const useGame = create<GameStore>((set, get) => {
   const bump = () => set((s) => ({ rev: s.rev + 1 }));
+  /** 내 선수를 제안한 구단으로 보낸다 (사는 구단은 선수가 원하는 주급을 맞춰 준다) */
+  const sellTo = (o: TransferOffer): { ok: boolean; msg: string } => {
+    const w = get().world!;
+    const p = w.players[o.player];
+    const wage = wageDemand(w, p);
+    const r = playerWillJoin(w, p, o.from, wage);
+    if (!r.ok) return { ok: false, msg: `선수가 이적을 원하지 않아 무산됐습니다 (${r.reason})` };
+    w.inbox.push(completeTransfer(w, p, o.from, o.fee, wage, 3));
+    set({ ceremony: { player: p.id, playerName: p.name, from: w.userClubId, to: o.from, fee: o.fee, wage, years: 3, kind: 'out' } });
+    return { ok: true, msg: `이적이 성사됐습니다 · 이적료 ${Math.round(o.fee / 1e5) / 10}M 유로` };
+  };
   return {
-    world: null, rev: 0, loading: false, match: null, lastEvents: [], seasonReport: null, savedAt: null, loadError: null, ceremony: null,
+    world: null, rev: 0, loading: false, match: null, lastEvents: [], seasonReport: null, savedAt: null, loadError: null, ceremony: null, awards: null, news: null,
 
     closeCeremony() { set({ ceremony: null }); },
+    closeAwards() { set({ awards: null }); },
+    closeNews() { set({ news: null }); },
 
     async newGame(season, league, clubId) {
       set({ loading: true });
@@ -230,20 +255,43 @@ export const useGame = create<GameStore>((set, get) => {
     bid(playerId, fee) {
       const w = get().world!;
       const p = w.players[playerId];
+      const ban = talkBanned(w, playerId);
+      if (ban) return { decision: 'reject', ask: 0, reason: '', blocked: `협상이 결렬된 선수입니다. ${ban.slice(5).replace('-', '/')}까지 다시 협상할 수 없습니다` };
       if (p.clubId && !windowOpen(w.season, w.date)) return { decision: 'reject', ask: 0, reason: '', blocked: '이적시장이 닫혀 있어 다른 구단 선수는 영입할 수 없습니다 (자유계약 선수는 가능)' };
       if (p.clubId && fee > w.clubs[w.userClubId].finance.transferBudget) return { decision: 'reject', ask: 0, reason: '', blocked: '이적 예산이 부족합니다' };
-      return evaluateBid(w, p, w.userClubId, fee);
+      const t = talkOf(w, playerId);
+      const r = evaluateBid(w, p, w.userClubId, fee);
+      if (r.decision === 'accept') { t.agreed = fee; autosave(w); bump(); return { ...r, left: MAX_TRIES - t.fee }; }
+      t.fee++;
+      const left = MAX_TRIES - t.fee;
+      if (left <= 0) breakTalks(w, playerId);
+      autosave(w);
+      bump();
+      return { ...r, left, broken: left <= 0 };
     },
 
-    sign(playerId, fee, wage, years) {
+    sign(playerId, wage, years) {
       const w = get().world!;
       const p = w.players[playerId];
+      const ban = talkBanned(w, playerId);
+      if (ban) return { ok: false, reason: `협상이 결렬된 선수입니다. ${ban.slice(5).replace('-', '/')}까지 다시 협상할 수 없습니다` };
       if (p.clubId && !windowOpen(w.season, w.date)) return { ok: false, reason: '이적시장이 닫혀 있습니다 (자유계약 선수만 가능)' };
-      // 주급 한도: 계약 후 주급 합계가 주급 예산을 넘으면 안 됨
+      const t = talkOf(w, playerId);
+      if (p.clubId && t.agreed == null) return { ok: false, reason: '먼저 구단과 이적료를 합의해야 합니다' };
+      const fee = p.clubId ? t.agreed! : 0;
+      // 주급 한도: 계약 후 주급 합계가 주급 예산을 넘으면 안 됨 (기회는 줄지 않음)
       const room = wageRoom(w, w.userClubId);
       if (wage > room) return { ok: false, reason: `주급 예산 초과 — 남은 주급 여유 ${Math.max(0, Math.round(room / 1000))}K 유로. 선수를 팔거나 방출해 주급을 줄여야 합니다` };
       const r = playerWillJoin(w, p, w.userClubId, wage);
-      if (!r.ok) return r;
+      if (!r.ok) {
+        // 주급이 낮으면 기회 1번 소모, 구단 자체가 싫다면 바로 결렬
+        if (r.low) t.wage++;
+        const left = r.low ? MAX_TRIES - t.wage : 0;
+        if (left <= 0) breakTalks(w, playerId);
+        autosave(w);
+        bump();
+        return { ok: false, reason: r.reason, left, broken: left <= 0 };
+      }
       const from = p.clubId;
       const ev = completeTransfer(w, p, w.userClubId, fee, wage, years);
       w.inbox.push(ev);
@@ -282,22 +330,26 @@ export const useGame = create<GameStore>((set, get) => {
       const o = (w.offers ?? []).find((x) => x.id === offerId);
       if (!o) return '이미 끝난 제안입니다';
       w.offers = (w.offers ?? []).filter((x) => x.id !== offerId);
-      let msg = '제안을 거절했습니다';
-      if (accept) {
-        const p = w.players[o.player];
-        // 사는 구단은 선수가 원하는 주급을 맞춰 준다
-        const wage = wageDemand(w, p);
-        const r = playerWillJoin(w, p, o.from, wage);
-        if (!r.ok) msg = `선수가 이적을 원하지 않아 무산됐습니다 (${r.reason})`;
-        else {
-          w.inbox.push(completeTransfer(w, p, o.from, o.fee, wage, 3));
-          set({ ceremony: { player: p.id, playerName: p.name, from: w.userClubId, to: o.from, fee: o.fee, wage, years: 3, kind: 'out' } });
-          msg = `이적이 성사됐습니다 · 이적료 ${Math.round(o.fee / 1e5) / 10}M 유로`;
-        }
-      }
+      const msg = accept ? sellTo(o).msg : '제안을 거절했습니다';
       autosave(w);
       bump();
       return msg;
+    },
+
+    counter(offerId, ask) {
+      const w = get().world!;
+      const o = (w.offers ?? []).find((x) => x.id === offerId);
+      if (!o) return { result: 'gone', fee: 0, reason: '이미 끝난 제안입니다' };
+      const r = counterOffer(w, o, ask);
+      let out: ReturnType<GameStore['counter']> = r;
+      if (r.result === 'accept') {
+        w.offers = (w.offers ?? []).filter((x) => x.id !== offerId);
+        const s = sellTo(o);
+        out = { ...r, reason: `${r.reason} · ${s.msg}`, done: s.ok };
+      }
+      autosave(w);
+      bump();
+      return out;
     },
 
     async nextSeason() {
@@ -307,7 +359,11 @@ export const useGame = create<GameStore>((set, get) => {
       closeSeason(w);
       const input = await loadSeasonInput(nextSeasonOf(w.season));
       const report = startNextSeason(w, input);
-      set({ loading: false, seasonReport: report });
+      const awards = w.pendingAwards?.length ? w.pendingAwards : null;
+      const news = w.pendingNews?.length ? w.pendingNews : null;
+      w.pendingAwards = undefined;
+      w.pendingNews = undefined;
+      set({ loading: false, seasonReport: report, awards, news });
       autosave(w);
       bump();
     },
@@ -338,6 +394,7 @@ export const useGame = create<GameStore>((set, get) => {
         return false;
       }
       set({ loadError: null });
+      fillContracts(world);
       set({ world, match: null, lastEvents: [], seasonReport: null });
       bump();
       return true;
@@ -357,4 +414,6 @@ export const useGame = create<GameStore>((set, get) => {
 
 // 개발 중 이 파일(게임 상태)이 바뀌면 화면 일부만 교체하지 않고 페이지 전체를 새로 고친다.
 // 일부만 교체되면 화면마다 서로 다른 월드를 보게 되어 순위 등이 어긋난다. (자동 저장에서 이어하기로 복구)
+// 개발 모드 전용: 브라우저 테스트에서 상태를 직접 확인 · 설정
+if (import.meta.env.DEV) (window as unknown as { __game: typeof useGame }).__game = useGame;
 if (import.meta.hot) import.meta.hot.accept(() => location.reload());

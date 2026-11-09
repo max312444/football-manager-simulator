@@ -1,6 +1,6 @@
 import type { GameEvent, World } from '../../engine/types';
 import { clubKo, leagues, playerKo } from '../../data/db';
-import { koDate, money } from '../format';
+import { josa, koDate, money } from '../format';
 import { useWorld } from '../hooks';
 
 export function describe(e: GameEvent, w: World): { tag: string; tone: string; title: string; body?: string } {
@@ -21,7 +21,11 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       return { tag: '이적', tone: e.user ? 'text-neon' : 'text-sky', title: `${name} · ${from} → ${clubKo(e.to)}`, body: e.fee > 0 ? `이적료 ${money(e.fee)}` : '이적료 없음 (자유계약)' };
     }
     case 'offer':
-      return { tag: '제안', tone: 'text-amber', title: `${playerKo(e.player, w.players[e.player]?.name ?? e.player)} 영입 제안 · ${clubKo(e.from)}`, body: `이적료 ${money(e.fee)} · 이적 화면에서 수락 또는 거절` };
+      return { tag: '제안', tone: 'text-amber', title: `${playerKo(e.player, w.players[e.player]?.name ?? e.player)} 영입 제안 · ${clubKo(e.from)}`, body: `이적료 ${money(e.fee)} · 이적 화면 '받은 제안'에서 수락 · 거절 · 역제안` };
+    case 'retire': {
+      const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
+      return { tag: '은퇴', tone: e.club === w.userClubId ? 'text-neon' : 'text-amber', title: `${e.season.replace('-', '/')} 시즌을 끝으로 ${name}${josa(name, '은', '는')} 은퇴하기로 하였습니다`, body: e.club ? `마지막 소속: ${clubKo(e.club)}` : undefined };
+    }
     default:
       return { tag: '알림', tone: 'text-mid', title: e.text };
   }

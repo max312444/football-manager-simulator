@@ -111,6 +111,12 @@ export function MatchScreen() {
             ))}
           </div>
 
+          {m.phase === 'full' && sum.pom ? (
+            <div className="grid grid-cols-2 gap-3">
+              <PomCard kind="pom" id={sum.pom} rating={sum.ratings[sum.pom]} club={w.players[sum.pom].clubId} name={name(sum.pom)} pos={w.players[sum.pom].pos} goals={sum.goals} />
+              {sum.worst && <PomCard kind="worst" id={sum.worst} rating={sum.ratings[sum.worst]} club={w.players[sum.worst].clubId} name={name(sum.worst)} pos={w.players[sum.worst].pos} goals={sum.goals} />}
+            </div>
+          ) : (
           <div className="panel space-y-4 px-6 py-5">
             <div>
               <div className="mb-2 text-[12px] text-lo">공격 · 수비 성향</div>
@@ -131,6 +137,7 @@ export function MatchScreen() {
               </div>
             </div>
           </div>
+          )}
 
           <div className="mt-auto flex items-center gap-2">
             {m.phase === 'live' && (
@@ -238,5 +245,27 @@ function BallIcon() {
         <path d="M3.2 10.4 L7.5 7.6 L5 7.2 Z" /><path d="M-3.2 10.4 L-7.5 7.6 L-5 7.2 Z" />
       </g>
     </svg>
+  );
+}
+
+/** 경기 종료 후 POM · 워스트 카드 */
+function PomCard({ kind, rating, club, name, pos, goals, id }: { kind: 'pom' | 'worst'; id: string; rating: number; club: string | null; name: string; pos: import('../../data/types').Position; goals: { scorer: string; assist?: string }[] }) {
+  const pom = kind === 'pom';
+  const g = goals.filter((x) => x.scorer === id).length, a = goals.filter((x) => x.assist === id).length;
+  return (
+    <div className={`panel relative overflow-hidden px-5 py-4 ${pom ? 'ring-1 ring-neon/40' : ''}`} style={{ animation: 'fade .4s ease-out both' }}>
+      <div className="flex items-center justify-between">
+        <span className={`text-[12px] font-semibold ${pom ? 'text-neon' : 'text-red'}`}>{pom ? '경기 최우수 선수' : '오늘의 워스트'}</span>
+        {club && <Crest clubId={club} size={18} />}
+      </div>
+      <div className="mt-3 flex items-end justify-between gap-3">
+        <div className="min-w-0">
+          <div className="truncate text-[18px] font-semibold">{name}</div>
+          <div className="mt-1 flex items-center gap-2 text-[12px] text-lo"><PosTag pos={pos} />{g ? `${g}골` : ''}{g && a ? ' · ' : ''}{a ? `${a}도움` : ''}</div>
+        </div>
+        <div className={`tnum text-[32px] leading-none font-semibold ${pom ? 'text-neon' : 'text-red'}`}>{rating.toFixed(1)}</div>
+      </div>
+      <div className="mt-3 text-[11px] text-lo">{pom ? '사기 상승 · 시즌 POM 기록' : '사기 소폭 하락'}</div>
+    </div>
   );
 }

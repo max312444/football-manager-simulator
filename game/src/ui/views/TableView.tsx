@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useApp } from '../../store/app';
 import { sortTable } from '../../engine/standings';
 import { clubKo, leagues } from '../../data/db';
 import { Crest } from '../components/Crest';
@@ -61,7 +62,9 @@ export function LeagueTable({ league, compact = false }: { league: string; compa
 export function TableView() {
   const w = useWorld();
   const ids = Object.keys(w.competitions);
-  const [league, setLeague] = useState(w.clubs[w.userClubId].league);
+  const want = useApp((a) => a.tableLeague);
+  const [league, setLeague] = useState(want && w.competitions[want] ? want : w.clubs[w.userClubId].league);
+  useEffect(() => { if (want && w.competitions[want]) setLeague(want); }, [want]);
   return (
     <div className="flex h-full flex-col p-6">
       <div className="mb-3 flex items-center gap-1">

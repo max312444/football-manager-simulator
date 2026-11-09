@@ -352,6 +352,13 @@ function finish(m: MatchState, ctx: MatchCtx) {
       s.ratings[id] = Math.round(clamp(r, 3, 10) * 10) / 10;
     }
   }
+  // POM · 워스트: 30분 이상 뛴 선수 중 최고 · 최저 평점 (같으면 공격 포인트로)
+  const pool = (['home', 'away'] as Side[]).flatMap((side) => Object.entries(m[side].played).filter(([id, pl]) => (pl.to ?? 90) - pl.from >= 30 && s.ratings[id] != null).map(([id]) => id));
+  const pts = (id: string) => s.goals.filter((g) => g.scorer === id || g.assist === id).length;
+  if (pool.length) {
+    s.pom = pool.reduce((a, b) => (s.ratings[b] + pts(b) * 0.01 > s.ratings[a] + pts(a) * 0.01 ? b : a));
+    s.worst = pool.reduce((a, b) => (s.ratings[b] < s.ratings[a] ? b : a));
+  }
 }
 
 /** 끝까지 진행 */

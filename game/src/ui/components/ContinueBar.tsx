@@ -5,6 +5,7 @@ import { Crest } from './Crest';
 import { koDate } from '../format';
 import { useWorld } from '../hooks';
 import { useGame } from '../../store/game';
+import { useApp } from '../../store/app';
 import { nextUserFixture, seasonOver } from '../../engine/world';
 import { clubKo } from '../../data/db';
 import { sortTable } from '../../engine/standings';
@@ -28,7 +29,7 @@ export function ContinueBar() {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.code !== 'Space' || useGame.getState().ceremony || useGame.getState().seasonReport) return;   // 연출 · 결산 창이 떠 있으면 무시
+      if (e.code !== 'Space' || useGame.getState().ceremony || useGame.getState().seasonReport || useGame.getState().awards || useGame.getState().news || useApp.getState().profile || useApp.getState().clubView) return;   // 연출 · 결산 창이 떠 있으면 무시
       const t = e.target as HTMLElement;
       if (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA') return;
       e.preventDefault();

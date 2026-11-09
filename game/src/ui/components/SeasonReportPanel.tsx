@@ -13,7 +13,8 @@ export function SeasonReportPanel() {
   const r = useGame((s) => s.seasonReport);
   const dismiss = useGame((s) => s.dismissReport);
   const openTransfers = useApp((s) => s.openTransfers);
-  if (!r) return null;
+  const awardsOpen = useGame((s) => !!s.awards || !!s.news);
+  if (!r || awardsOpen) return null;
   // 새 시즌 선수단 기준 분석 (실제 데이터로 능력치가 갱신된 뒤)
   const analysis = analyzeClub(w, w.userClubId);
   const myLeague = w.clubs[w.userClubId].league;
@@ -118,6 +119,12 @@ export function SeasonReportPanel() {
               <div><dt className="text-[12px] text-lo">은퇴</dt><dd className="tnum mt-1 text-[18px] font-semibold">{r.retired.length}명</dd></div>
               <div><dt className="text-[12px] text-lo">계약 만료로 FA</dt><dd className="tnum mt-1 text-[18px] font-semibold">{r.released.length}명</dd></div>
             </dl>
+            {(r.userLeft ?? []).length > 0 && (
+              <div className="mt-4 rounded-lg bg-ink-900 px-4 py-3 text-[13px]">
+                <div className="mb-1 text-[12px] font-semibold text-amber">내 구단을 떠난 선수</div>
+                {r.userLeft.map((x) => <div key={x.player} className="flex justify-between"><span>{playerKo(x.player, w.players[x.player]?.name ?? x.player)}</span><span className="text-lo">{x.why === 'retire' ? '은퇴' : '계약 만료'}</span></div>)}
+              </div>
+            )}
             <p className="mt-4 text-[12px] leading-relaxed text-lo">능력치는 그 시즌 실제 데이터를 따르고, 소속은 게임 세계를 따릅니다. 내 구단 선수의 계약은 계약 화면이 생기기 전까지 자동 연장됩니다.</p>
           </section>
         </div>

@@ -106,6 +106,7 @@ export function HomeView() {
                     <ResultDot r={resultFor(f, w.userClubId)!} />
                     <span className="w-8 shrink-0 text-[12px] text-lo">{home ? '홈' : '원정'}</span>
                     <Crest clubId={opp} size={18} /><span className="min-w-0 flex-1 truncate">{clubKo(opp)}</span>
+                    {f.result!.pom && <span className="hidden max-w-[120px] truncate text-[11px] text-lo sm:inline" title="경기 최우수 선수">POM {playerKo(f.result!.pom, w.players[f.result!.pom]?.name ?? '')}</span>}
                     <span className="tnum font-medium">{home ? `${f.result!.homeGoals}-${f.result!.awayGoals}` : `${f.result!.awayGoals}-${f.result!.homeGoals}`}</span>
                   </Row>
                 ); })}

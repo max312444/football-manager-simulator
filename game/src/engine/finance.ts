@@ -1,6 +1,7 @@
 // 재정: 내 구단의 수입 · 지출 흐름과 시즌 장부, 이사회 예산 배정
 // 규모는 구단 주급 예산(데이터)에서 나온 '연 매출 기준값'으로 정한다 → 시대 · 리그 · 구단 크기가 자연스럽게 반영됨
 import type { ClubState, World } from './types';
+import { fanFactor } from './awards';
 
 export type IncomeKind = 'tv' | 'gate' | 'commercial' | 'prize' | 'sales';
 export type ExpenseKind = 'wages' | 'operations' | 'purchases';
@@ -64,7 +65,7 @@ export function financeDay(w: World) {
   if (d.getUTCDate() === 1) {
     const m = d.getUTCMonth() + 1;
     if (m >= 8 || m <= 5) book(w, c.id, 'tv', Math.round((R * 0.4) / 10));      // 8월~5월 10회
-    book(w, c.id, 'commercial', Math.round((R * 0.25) / 12));
+    book(w, c.id, 'commercial', Math.round(((R * 0.25) / 12) * fanFactor(w, c.id)));
     book(w, c.id, 'operations', Math.round((R * 0.25) / 12));
   }
 }
@@ -74,7 +75,7 @@ export function gateIncome(w: World, home: string, away: string) {
   if (home !== w.userClubId) return;
   const R = revenueBase(w);
   const opp = w.clubs[away]?.reputation ?? 70;
-  book(w, home, 'gate', Math.round((R * 0.2) / 19 * (0.8 + 0.4 * opp / 100)));
+  book(w, home, 'gate', Math.round((R * 0.2) / 19 * (0.8 + 0.4 * opp / 100) * fanFactor(w, home)));
 }
 
 /** 리그 상금: 매출의 15% 기준, 1위 1.6배 ~ 꼴찌 0.4배 */
