@@ -116,6 +116,7 @@ export function SquadView() {
                         <span className="font-semibold text-hi">{ko}</span>
                         {p.injury && <span title={`${p.injury.label} · ${p.injury.days}일`} className="rounded bg-red/15 px-1 text-[11px] font-semibold text-red">부상 {p.injury.days}일</span>}
                         {p.suspension > 0 && <span className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">징계 {p.suspension}</span>}
+                        {p.unhappy && <span title={`충성도 ${Math.round(p.loyalty)} · 연속 ${p.benchStreak}경기 결장`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">출전 불만</span>}
                       </div>
                     </td>
                     <td className="px-3"><PosTag pos={p.pos} /></td>

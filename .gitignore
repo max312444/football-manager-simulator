@@ -35,3 +35,14 @@ desktop.ini
 data/_pipeline/cache/
 data/_pipeline/sources/
 *.tmp
+
+# 실명 데이터 (각자 파이프라인으로 만들어 내 PC에만 둔다 — 저장소에는 data-public/의 패러디 데이터만)
+data/seasons/
+data/clubs/
+data/locale/
+data/_audit/
+data/_pipeline/
+data/canonical/clubs.json
+data/canonical/players.json
+data/canonical/attribute-sources.json
+data/canonical/public-map.json

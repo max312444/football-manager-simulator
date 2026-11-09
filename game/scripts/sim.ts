@@ -6,7 +6,8 @@ import { createWorld, advanceDay, seasonOver } from '../src/engine/world';
 import { sortTable } from '../src/engine/standings';
 import type { ClubSeasonFile, LeagueSeasonFile } from '../src/data/types';
 
-const DATA = path.resolve(__dirname, '../../data');
+// 기본은 공개용(패러디) 데이터, --dataset real 이면 내 PC의 실명 데이터
+const DATA = path.resolve(__dirname, process.argv.includes('real') ? '../../data' : '../../data-public');
 const arg = (k: string, d: string) => { const i = process.argv.indexOf(`--${k}`); return i > 0 ? process.argv[i + 1] : d; };
 const season = arg('season', '2025-26');
 const leagueIds = arg('league', 'eng1').split(',');

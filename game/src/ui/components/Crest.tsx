@@ -1,11 +1,11 @@
 // 구단 엠블럼
 // 1) assets/crests/<id> 파일이 있으면 그 이미지
-// 2) 디자인 설정(crests/styles.ts): 모양 · 색 · 무늬 · 가운데 문장 · 머리글자
+// 2) 구단 파일의 crest 항목 (파이프라인 publish 단계에서 넣음): 모양 · 색 · 무늬 · 가운데 문장 · 머리글자
 // 3) 설정이 없으면 유니폼 색 기반 기본형
 // 실제 로고 그림은 복제하지 않는다. 문장(대포 · 새 · 왕관 …)은 일반적인 문장 요소로 직접 그린 것.
 import { useId } from 'react';
 import { clubs } from '../../data/db';
-import { CREST_STYLES, NATION_SHAPE, type CrestCharge, type CrestPattern, type CrestShape, type CrestStyle } from '../crests/styles';
+import { NATION_SHAPE, type CrestCharge, type CrestPattern, type CrestShape, type CrestStyle } from '../crests/types';
 
 const files = import.meta.glob<string>('../../assets/crests/*.{png,svg,webp}', { eager: true, import: 'default', query: '?url' });
 const FILE = new Map(Object.entries(files).map(([p, url]) => [p.split('/').pop()!.replace(/\.\w+$/, ''), url]));
@@ -128,7 +128,7 @@ export function Crest({ clubId, size = 36 }: { clubId: string; size?: number }) 
   const file = FILE.get(clubId);
   if (file) return <img src={file} width={size} height={size * 1.16} alt={name} style={{ objectFit: 'contain', flexShrink: 0 }} />;
 
-  const st = CREST_STYLES[clubId] ?? fallbackStyle(clubId);
+  const st = master?.crest ?? fallbackStyle(clubId);
   const charge: CrestCharge = st.charge ?? 'letters';
   const [base, second, rim] = st.colors;
   // 문장이 있으면 가운데 띠 무늬는 쓰지 않는다 (문장과 겹침)

@@ -1,0 +1,777 @@
+{
+  "club": "tottenhem-hotspur",
+  "estimated": true,
+  "facilities": {
+    "training": 4,
+    "youth": 4
+  },
+  "finance": {
+    "balance": 10000000,
+    "transferBudget": 12000000,
+    "wageBudget": 1100000
+  },
+  "formation": "4-4-2",
+  "league": "eng1",
+  "reputation": 76,
+  "season": "2002-03",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 75,
+        "han": 74,
+        "ldr": 63,
+        "one": 76,
+        "pac": 54,
+        "pas": 56,
+        "pos": 75,
+        "ref": 80,
+        "sta": 62,
+        "str": 72,
+        "vis": 51
+      },
+      "birth": "1970-02-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p099i0bm",
+      "name": "Neil Sulliven",
+      "nation": "SCO",
+      "number": 1,
+      "pos": "GK",
+      "wage": 32000
+    },
+    {
+      "attrs": {
+        "aer": 64,
+        "com": 73,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 78,
+        "pas": 71,
+        "pos": 76,
+        "sho": 53,
+        "sta": 83,
+        "str": 72,
+        "tac": 80,
+        "vis": 61
+      },
+      "birth": "1976-08-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p17jmcs3",
+      "name": "Stephen Cerr",
+      "nation": "IRL",
+      "number": 2,
+      "pos": "RB",
+      "wage": 36000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 57,
+        "com": 67,
+        "dri": 63,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 64,
+        "pos": 69,
+        "sho": 43,
+        "sta": 76,
+        "str": 65,
+        "tac": 73,
+        "vis": 55
+      },
+      "birth": "1973-03-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p1iexv8r",
+      "name": "Mauricio Tericco",
+      "nation": "ARG",
+      "number": 3,
+      "pos": "LB",
+      "wage": 28000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 61,
+        "com": 73,
+        "dri": 61,
+        "ldr": 71,
+        "pac": 59,
+        "pas": 69,
+        "pos": 77,
+        "sho": 45,
+        "sta": 79,
+        "str": 69,
+        "tac": 79,
+        "vis": 63
+      },
+      "birth": "1970-01-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p1eqp7r9",
+      "name": "Steffen Freond",
+      "nation": "GER",
+      "number": 4,
+      "pos": "DM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 28000
+    },
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 67,
+        "dri": 52,
+        "ldr": 61,
+        "pac": 60,
+        "pas": 62,
+        "pos": 71,
+        "sho": 40,
+        "sta": 68,
+        "str": 74,
+        "tac": 72,
+        "vis": 53
+      },
+      "birth": "1973-02-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 190,
+      "id": "p0vlrcd8",
+      "name": "Goran Bonjevcevic",
+      "nation": "SRB",
+      "number": 5,
+      "pos": "CB",
+      "verify": true,
+      "wage": 24000
+    },
+    {
+      "attrs": {
+        "aer": 71,
+        "com": 71,
+        "dri": 52,
+        "ldr": 63,
+        "pac": 67,
+        "pas": 57,
+        "pos": 76,
+        "sho": 38,
+        "sta": 70,
+        "str": 70,
+        "tac": 77,
+        "vis": 49
+      },
+      "birth": "1973-04-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p04dm96a",
+      "name": "Chris Parry",
+      "nation": "ENG",
+      "number": 6,
+      "pos": "CB",
+      "wage": 28000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 56,
+        "com": 77,
+        "dri": 72,
+        "ldr": 65,
+        "pac": 66,
+        "pas": 82,
+        "pos": 61,
+        "sho": 70,
+        "sta": 64,
+        "str": 62,
+        "tac": 52,
+        "vis": 81
+      },
+      "birth": "1972-03-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1old9ah",
+      "name": "Darren Andarton",
+      "nation": "ENG",
+      "number": 7,
+      "pos": "RM",
+      "traits": [
+        "injury_prone",
+        "free_kick"
+      ],
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 65,
+        "com": 75,
+        "dri": 63,
+        "ldr": 77,
+        "pac": 52,
+        "pas": 75,
+        "pos": 71,
+        "sho": 63,
+        "sta": 70,
+        "str": 68,
+        "tac": 71,
+        "vis": 73
+      },
+      "birth": "1969-02-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0ak3h3b",
+      "name": "Tim Sharwood",
+      "nation": "ENG",
+      "number": 8,
+      "pos": "CM",
+      "traits": [
+        "leader"
+      ],
+      "wage": 32000
+    },
+    {
+      "attrs": {
+        "aer": 80,
+        "com": 70,
+        "dri": 62,
+        "ldr": 66,
+        "pac": 58,
+        "pas": 58,
+        "pos": 48,
+        "sho": 72,
+        "sta": 56,
+        "str": 75,
+        "tac": 35,
+        "vis": 56
+      },
+      "birth": "1966-12-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0fzjv8g",
+      "name": "Les Fardinand",
+      "nation": "ENG",
+      "number": 9,
+      "pos": "ST",
+      "traits": [
+        "aerial_threat",
+        "injury_prone"
+      ],
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 74,
+        "com": 89,
+        "dri": 74,
+        "ldr": 75,
+        "pac": 49,
+        "pas": 82,
+        "pos": 53,
+        "sho": 80,
+        "sta": 59,
+        "str": 67,
+        "tac": 36,
+        "vis": 89
+      },
+      "birth": "1966-04-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1kdfwmj",
+      "name": "Teddy Sheryngham",
+      "nation": "ENG",
+      "number": 10,
+      "pos": "ST",
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 56,
+        "com": 74,
+        "dri": 78,
+        "ldr": 60,
+        "pac": 78,
+        "pas": 72,
+        "pos": 52,
+        "sho": 78,
+        "sta": 78,
+        "str": 64,
+        "tac": 40,
+        "vis": 74
+      },
+      "birth": "1980-07-01",
+      "contract": "2008-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p15etxxs",
+      "name": "Robbie Keene",
+      "nation": "IRL",
+      "number": 11,
+      "pos": "ST",
+      "verify": true,
+      "wage": 56000
+    },
+    {
+      "attrs": {
+        "aer": 58,
+        "com": 77,
+        "dri": 70,
+        "ldr": 77,
+        "pac": 62,
+        "pas": 82,
+        "pos": 69,
+        "sho": 72,
+        "sta": 70,
+        "str": 66,
+        "tac": 66,
+        "vis": 81
+      },
+      "birth": "1973-06-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0y6hlrw",
+      "name": "Jamie Redknepp",
+      "nation": "ENG",
+      "number": 12,
+      "pos": "CM",
+      "traits": [
+        "injury_prone",
+        "long_shot"
+      ],
+      "verify": true,
+      "wage": 32000
+    },
+    {
+      "attrs": {
+        "aer": 75,
+        "com": 75,
+        "han": 77,
+        "ldr": 67,
+        "one": 77,
+        "pac": 53,
+        "pas": 59,
+        "pos": 75,
+        "ref": 79,
+        "sta": 63,
+        "str": 75,
+        "vis": 53
+      },
+      "birth": "1969-11-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p0ouixx0",
+      "name": "Kasey Kellar",
+      "nation": "USA",
+      "number": 13,
+      "pos": "GK",
+      "wage": 24000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 78,
+        "com": 79,
+        "dri": 72,
+        "ldr": 71,
+        "pac": 55,
+        "pas": 76,
+        "pos": 63,
+        "sho": 76,
+        "sta": 67,
+        "str": 69,
+        "tac": 58,
+        "vis": 77
+      },
+      "birth": "1967-11-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p022htno",
+      "name": "Gustavo Poyat",
+      "nation": "URU",
+      "number": 14,
+      "pos": "AM",
+      "traits": [
+        "aerial_threat"
+      ],
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "LM",
+        "LWB"
+      ],
+      "attrs": {
+        "aer": 66,
+        "com": 75,
+        "dri": 74,
+        "ldr": 67,
+        "pac": 72,
+        "pas": 78,
+        "pos": 69,
+        "sho": 70,
+        "sta": 76,
+        "str": 74,
+        "tac": 70,
+        "vis": 73
+      },
+      "birth": "1972-02-01",
+      "contract": "2004-06-30",
+      "foot": "L",
+      "height": 185,
+      "id": "p0214f9b",
+      "name": "Christian Ziega",
+      "nation": "GER",
+      "number": 15,
+      "pos": "LB",
+      "traits": [
+        "free_kick"
+      ],
+      "verify": true,
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 75,
+        "com": 59,
+        "dri": 50,
+        "ldr": 52,
+        "pac": 58,
+        "pas": 54,
+        "pos": 64,
+        "sho": 47,
+        "sta": 66,
+        "str": 75,
+        "tac": 68,
+        "vis": 45
+      },
+      "birth": "1980-01-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p00woeuj",
+      "name": "Gary Doherti",
+      "nation": "IRL",
+      "number": 16,
+      "pos": "CB",
+      "verify": true,
+      "wage": 12000
+    },
+    {
+      "attrs": {
+        "aer": 74,
+        "com": 72,
+        "dri": 72,
+        "ldr": 56,
+        "pac": 74,
+        "pas": 66,
+        "pos": 50,
+        "sho": 78,
+        "sta": 74,
+        "str": 74,
+        "tac": 38,
+        "vis": 62
+      },
+      "birth": "1976-11-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0jmv4t3",
+      "name": "Steffen Iversan",
+      "nation": "NOR",
+      "number": 17,
+      "pos": "ST",
+      "verify": true,
+      "wage": 32000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 48,
+        "com": 64,
+        "dri": 70,
+        "ldr": 50,
+        "pac": 60,
+        "pas": 74,
+        "pos": 52,
+        "sho": 66,
+        "sta": 64,
+        "str": 60,
+        "tac": 44,
+        "vis": 74
+      },
+      "birth": "1977-02-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1oe2kbr",
+      "name": "Milenko Acimuvic",
+      "nation": "SVN",
+      "number": 18,
+      "pos": "AM",
+      "verify": true,
+      "wage": 28000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 68,
+        "com": 62,
+        "dri": 56,
+        "ldr": 58,
+        "pac": 67,
+        "pas": 57,
+        "pos": 69,
+        "sho": 39,
+        "sta": 74,
+        "str": 76,
+        "tac": 74,
+        "vis": 46
+      },
+      "birth": "1975-11-01",
+      "contract": "2004-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p13tx0tl",
+      "name": "Ben Thetcher",
+      "nation": "WAL",
+      "number": 19,
+      "pos": "LB",
+      "wage": 24000
+    },
+    {
+      "attrs": {
+        "aer": 81,
+        "com": 70,
+        "dri": 51,
+        "ldr": 66,
+        "pac": 63,
+        "pas": 59,
+        "pos": 74,
+        "sho": 45,
+        "sta": 71,
+        "str": 81,
+        "tac": 77,
+        "vis": 48
+      },
+      "birth": "1974-06-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1cz4ebe",
+      "name": "Dean Rychards",
+      "nation": "ENG",
+      "number": 20,
+      "pos": "CB",
+      "verify": true,
+      "wage": 36000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 54,
+        "com": 66,
+        "dri": 73,
+        "ldr": 50,
+        "pac": 73,
+        "pas": 71,
+        "pos": 60,
+        "sho": 64,
+        "sta": 78,
+        "str": 61,
+        "tac": 53,
+        "vis": 68
+      },
+      "birth": "1979-10-01",
+      "contract": "2006-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1i52f93",
+      "name": "Simon Devies",
+      "nation": "WAL",
+      "number": 22,
+      "pos": "RM",
+      "verify": true,
+      "wage": 20000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 57,
+        "com": 62,
+        "dri": 63,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 68,
+        "pos": 63,
+        "sho": 54,
+        "sta": 76,
+        "str": 64,
+        "tac": 66,
+        "vis": 62
+      },
+      "birth": "1978-03-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p105xqj7",
+      "name": "Stephen Clemenca",
+      "nation": "ENG",
+      "number": 23,
+      "pos": "CM",
+      "verify": true,
+      "wage": 16000
+    },
+    {
+      "attrs": {
+        "aer": 42,
+        "com": 58,
+        "dri": 71,
+        "ldr": 45,
+        "pac": 80,
+        "pas": 63,
+        "pos": 45,
+        "sho": 55,
+        "sta": 70,
+        "str": 54,
+        "tac": 36,
+        "vis": 59
+      },
+      "birth": "1981-08-01",
+      "contract": "2005-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p10i402d",
+      "name": "Matthew Etharington",
+      "nation": "ENG",
+      "number": 25,
+      "pos": "LM",
+      "verify": true,
+      "wage": 10000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 78,
+        "com": 76,
+        "dri": 61,
+        "ldr": 67,
+        "pac": 79,
+        "pas": 64,
+        "pos": 80,
+        "sho": 47,
+        "sta": 77,
+        "str": 79,
+        "tac": 83,
+        "vis": 56
+      },
+      "birth": "1980-10-01",
+      "contract": "2006-06-30",
+      "foot": "L",
+      "height": 188,
+      "id": "p1xlk79l",
+      "name": "Ledley Kyng",
+      "nation": "ENG",
+      "number": 26,
+      "pos": "CB",
+      "verify": true,
+      "wage": 20000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 67,
+        "com": 57,
+        "dri": 51,
+        "ldr": 47,
+        "pac": 69,
+        "pas": 53,
+        "pos": 65,
+        "sho": 37,
+        "sta": 69,
+        "str": 71,
+        "tac": 69,
+        "vis": 43
+      },
+      "birth": "1980-09-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0fzcmi2",
+      "name": "Alton Thelwall",
+      "nation": "ENG",
+      "number": 27,
+      "pos": "CB",
+      "verify": true,
+      "wage": 6000
+    },
+    {
+      "attrs": {
+        "aer": 77,
+        "com": 59,
+        "dri": 49,
+        "ldr": 51,
+        "pac": 69,
+        "pas": 53,
+        "pos": 66,
+        "sho": 37,
+        "sta": 70,
+        "str": 78,
+        "tac": 71,
+        "vis": 44
+      },
+      "birth": "1980-09-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 196,
+      "id": "p0wbe10p",
+      "name": "Anthony Gerdner",
+      "nation": "ENG",
+      "number": 30,
+      "pos": "CB",
+      "verify": true,
+      "wage": 16000
+    }
+  ],
+  "stadiumCapacity": 36240
+}

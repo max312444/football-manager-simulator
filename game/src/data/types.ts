@@ -48,6 +48,8 @@ export interface ClubMaster {
   founded?: number;
   kits?: { home: Kit; away?: Kit };
   rivals?: string[];
+  /** 엠블럼 디자인 (publish 단계에서 넣음) */
+  crest?: import('../ui/crests/types').CrestStyle;
 }
 
 export interface LeagueSeasonFile { season: string; league: string; clubs: string[] }

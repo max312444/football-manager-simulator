@@ -212,7 +212,8 @@ function autoSubs(m: MatchState, side: Side, ctx: MatchCtx) {
   if (t.manual || t.subsUsed >= t.maxSubs || m.segment < 11 || m.segment > 16) return;
   // 지고 있으면 공격수 투입 성향, 아니면 지친 선수 교체
   const tired = [...t.onPitch].filter((o) => o.slot !== 'GK').sort((a, b) => a.fitness - b.fitness)[0];
-  if (!tired || tired.fitness > 72 - (m.segment - 11) * 2) return;
+  // 55~80분 사이 지친 선수부터 교체 (실제처럼 경기당 2~3명)
+  if (!tired || tired.fitness > 88 - (m.segment - 11) * 1.5) return;
   const inId = bestBenchFor(t, tired.slot, ctx);
   if (inId) substitute(m, side, tired.id, inId, ctx);
 }

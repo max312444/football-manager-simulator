@@ -1,0 +1,780 @@
+{
+  "club": "chelsaa",
+  "estimated": true,
+  "facilities": {
+    "training": 4,
+    "youth": 3
+  },
+  "finance": {
+    "balance": 25000000,
+    "transferBudget": 30000000,
+    "wageBudget": 1450000
+  },
+  "formation": "4-4-2",
+  "league": "eng1",
+  "reputation": 84,
+  "season": "2000-01",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 80,
+        "com": 74,
+        "han": 74,
+        "ldr": 66,
+        "one": 72,
+        "pac": 48,
+        "pas": 60,
+        "pos": 74,
+        "ref": 76,
+        "sta": 60,
+        "str": 76,
+        "vis": 52
+      },
+      "birth": "1966-12-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 198,
+      "id": "p03wwsp0",
+      "name": "Ed de Goei",
+      "nation": "NED",
+      "number": 1,
+      "pos": "GK",
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 72,
+        "han": 74,
+        "ldr": 58,
+        "one": 78,
+        "pac": 62,
+        "pas": 62,
+        "pos": 72,
+        "ref": 78,
+        "sta": 66,
+        "str": 70,
+        "vis": 54
+      },
+      "birth": "1973-09-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 186,
+      "id": "p0ii8400",
+      "name": "Carlo Cudicyni",
+      "nation": "ITA",
+      "number": 23,
+      "pos": "GK",
+      "wage": 20000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 66,
+        "han": 62,
+        "ldr": 60,
+        "one": 60,
+        "pac": 44,
+        "pas": 52,
+        "pos": 64,
+        "ref": 62,
+        "sta": 54,
+        "str": 64,
+        "vis": 48
+      },
+      "birth": "1962-10-01",
+      "contract": "2001-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1cdy9oi",
+      "name": "Kevin Hytchcock",
+      "nation": "ENG",
+      "number": 13,
+      "pos": "GK",
+      "wage": 10000
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 68,
+        "dri": 76,
+        "ldr": 54,
+        "pac": 82,
+        "pas": 70,
+        "pos": 66,
+        "sho": 54,
+        "sta": 80,
+        "str": 66,
+        "tac": 72,
+        "vis": 60
+      },
+      "birth": "1978-08-01",
+      "contract": "2004-06-30",
+      "foot": "L",
+      "height": 175,
+      "id": "p0vwoaql",
+      "name": "Celestine Babeyaro",
+      "nation": "NGA",
+      "number": 3,
+      "pos": "LB",
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 80,
+        "dri": 62,
+        "ldr": 72,
+        "pac": 56,
+        "pas": 80,
+        "pos": 80,
+        "sho": 60,
+        "sta": 66,
+        "str": 70,
+        "tac": 78,
+        "vis": 76
+      },
+      "birth": "1968-01-01",
+      "contract": "2001-06-30",
+      "foot": "R",
+      "height": 184,
+      "id": "p04lax05",
+      "looks": {
+        "beard": "none",
+        "hair": "bald"
+      },
+      "name": "Frank Leboeof",
+      "nation": "FRA",
+      "number": 5,
+      "pos": "CB",
+      "traits": [
+        "penalty"
+      ],
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 84,
+        "com": 86,
+        "dri": 64,
+        "ldr": 88,
+        "pac": 76,
+        "pas": 72,
+        "pos": 88,
+        "sho": 50,
+        "sta": 78,
+        "str": 88,
+        "tac": 88,
+        "vis": 66
+      },
+      "birth": "1968-09-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0mk4sj0",
+      "name": "Marcel Deseilly",
+      "nation": "FRA",
+      "number": 6,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 75000
+    },
+    {
+      "alt": [
+        "CM",
+        "ST"
+      ],
+      "attrs": {
+        "aer": 66,
+        "com": 72,
+        "dri": 76,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 74,
+        "pos": 64,
+        "sho": 74,
+        "sta": 76,
+        "str": 72,
+        "tac": 60,
+        "vis": 72
+      },
+      "birth": "1972-04-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 184,
+      "id": "p1fuzii6",
+      "name": "Mario Stenic",
+      "nation": "CRO",
+      "number": 12,
+      "pos": "RM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 45000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 80,
+        "com": 78,
+        "dri": 74,
+        "ldr": 70,
+        "pac": 60,
+        "pas": 78,
+        "pos": 62,
+        "sho": 78,
+        "sta": 72,
+        "str": 74,
+        "tac": 60,
+        "vis": 76
+      },
+      "birth": "1967-11-01",
+      "contract": "2002-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p022htno",
+      "name": "Gustavo Poyat",
+      "nation": "URU",
+      "number": 8,
+      "pos": "AM",
+      "traits": [
+        "aerial_threat"
+      ],
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 70,
+        "com": 82,
+        "dri": 78,
+        "ldr": 64,
+        "pac": 80,
+        "pas": 70,
+        "pos": 48,
+        "sho": 88,
+        "sta": 76,
+        "str": 84,
+        "tac": 36,
+        "vis": 70
+      },
+      "birth": "1972-03-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0uo9yig",
+      "looks": {
+        "beard": "none",
+        "hair": "bald"
+      },
+      "name": "Jimmy Floyd Hasselbaynk",
+      "nation": "NED",
+      "number": 9,
+      "pos": "ST",
+      "traits": [
+        "free_kick",
+        "long_shot"
+      ],
+      "wage": 60000
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 46,
+        "com": 80,
+        "dri": 74,
+        "ldr": 86,
+        "pac": 58,
+        "pas": 80,
+        "pos": 70,
+        "sho": 66,
+        "sta": 74,
+        "str": 60,
+        "tac": 70,
+        "vis": 78
+      },
+      "birth": "1966-12-01",
+      "contract": "2001-06-30",
+      "foot": "R",
+      "height": 168,
+      "id": "p0jd0vj6",
+      "name": "Dennis Wyse",
+      "nation": "ENG",
+      "number": 11,
+      "pos": "CM",
+      "traits": [
+        "leader",
+        "free_kick"
+      ],
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 66,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 74,
+        "pas": 64,
+        "pos": 70,
+        "sho": 44,
+        "sta": 76,
+        "str": 74,
+        "tac": 74,
+        "vis": 54
+      },
+      "birth": "1976-11-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p07rtog3",
+      "name": "Mario Melchyot",
+      "nation": "NED",
+      "number": 15,
+      "pos": "RB",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 56,
+        "com": 74,
+        "dri": 72,
+        "ldr": 64,
+        "pac": 72,
+        "pas": 78,
+        "pos": 72,
+        "sho": 58,
+        "sta": 74,
+        "str": 64,
+        "tac": 74,
+        "vis": 70
+      },
+      "birth": "1968-10-01",
+      "contract": "2003-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p0hrjsi9",
+      "name": "Graeme Le Seux",
+      "nation": "ENG",
+      "number": 14,
+      "pos": "LB",
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "RB",
+        "DM"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 64,
+        "dri": 56,
+        "ldr": 52,
+        "pac": 66,
+        "pas": 60,
+        "pos": 68,
+        "sho": 40,
+        "sta": 68,
+        "str": 72,
+        "tac": 70,
+        "vis": 50
+      },
+      "birth": "1971-05-01",
+      "contract": "2002-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p0mee6rq",
+      "name": "Bernard Lambourda",
+      "nation": "FRA",
+      "number": 21,
+      "pos": "CB",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 80,
+        "dri": 72,
+        "ldr": 70,
+        "pac": 62,
+        "pas": 80,
+        "pos": 74,
+        "sho": 74,
+        "sta": 76,
+        "str": 70,
+        "tac": 72,
+        "vis": 78
+      },
+      "birth": "1970-05-01",
+      "contract": "2002-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p05ohgkb",
+      "name": "Roberto Di Matteu",
+      "nation": "ITA",
+      "number": 16,
+      "pos": "CM",
+      "wage": 45000
+    },
+    {
+      "attrs": {
+        "aer": 54,
+        "com": 74,
+        "dri": 66,
+        "ldr": 66,
+        "pac": 70,
+        "pas": 68,
+        "pos": 74,
+        "sho": 44,
+        "sta": 74,
+        "str": 62,
+        "tac": 76,
+        "vis": 58
+      },
+      "birth": "1970-06-01",
+      "contract": "2002-06-30",
+      "foot": "R",
+      "height": 170,
+      "id": "p1gjsele",
+      "name": "Albert Farrer",
+      "nation": "ESP",
+      "number": 17,
+      "pos": "RB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 68,
+        "com": 76,
+        "dri": 78,
+        "ldr": 56,
+        "pac": 70,
+        "pas": 76,
+        "pos": 48,
+        "sho": 78,
+        "sta": 72,
+        "str": 74,
+        "tac": 36,
+        "vis": 76
+      },
+      "birth": "1978-09-01",
+      "contract": "2005-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1toaxsm",
+      "name": "Eiður Guðjohnsan",
+      "nation": "ISL",
+      "number": 22,
+      "pos": "ST",
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 84,
+        "com": 74,
+        "dri": 72,
+        "ldr": 56,
+        "pac": 64,
+        "pas": 66,
+        "pos": 48,
+        "sho": 78,
+        "sta": 70,
+        "str": 76,
+        "tac": 34,
+        "vis": 64
+      },
+      "birth": "1973-06-01",
+      "contract": "2002-06-30",
+      "foot": "R",
+      "height": 193,
+      "id": "p0fbxokh",
+      "name": "Tore Andra Flo",
+      "nation": "NOR",
+      "number": 19,
+      "pos": "ST",
+      "traits": [
+        "aerial_threat"
+      ],
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 68,
+        "com": 70,
+        "dri": 66,
+        "ldr": 64,
+        "pac": 76,
+        "pas": 70,
+        "pos": 76,
+        "sho": 56,
+        "sta": 78,
+        "str": 72,
+        "tac": 78,
+        "vis": 62
+      },
+      "birth": "1973-04-01",
+      "contract": "2001-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p0z9hh3d",
+      "loan": "intar-milan",
+      "name": "Christian Panocci",
+      "nation": "ITA",
+      "number": 2,
+      "pos": "RB",
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 42,
+        "com": 66,
+        "dri": 72,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 72,
+        "pos": 60,
+        "sho": 58,
+        "sta": 76,
+        "str": 54,
+        "tac": 62,
+        "vis": 68
+      },
+      "birth": "1978-12-01",
+      "contract": "2003-06-30",
+      "foot": "R",
+      "height": 165,
+      "id": "p0wplj0i",
+      "name": "Jody Murris",
+      "nation": "ENG",
+      "number": 20,
+      "pos": "CM",
+      "wage": 20000
+    },
+    {
+      "attrs": {
+        "aer": 58,
+        "com": 64,
+        "dri": 66,
+        "ldr": 50,
+        "pac": 64,
+        "pas": 70,
+        "pos": 62,
+        "sho": 60,
+        "sta": 74,
+        "str": 66,
+        "tac": 64,
+        "vis": 64
+      },
+      "birth": "1981-02-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0b4mttm",
+      "name": "Sam Dalla Buna",
+      "nation": "ITA",
+      "number": 24,
+      "pos": "CM",
+      "wage": 10000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 44,
+        "com": 88,
+        "dri": 90,
+        "ldr": 76,
+        "pac": 70,
+        "pas": 86,
+        "pos": 46,
+        "sho": 84,
+        "sta": 64,
+        "str": 52,
+        "tac": 30,
+        "vis": 90
+      },
+      "birth": "1966-07-01",
+      "contract": "2001-06-30",
+      "foot": "R",
+      "height": 168,
+      "id": "p1hyqx3n",
+      "name": "Gianfranco Zole",
+      "nation": "ITA",
+      "number": 25,
+      "pos": "AM",
+      "traits": [
+        "free_kick",
+        "flair",
+        "playmaker"
+      ],
+      "wage": 60000
+    },
+    {
+      "attrs": {
+        "aer": 78,
+        "com": 68,
+        "dri": 54,
+        "ldr": 66,
+        "pac": 62,
+        "pas": 58,
+        "pos": 72,
+        "sho": 42,
+        "sta": 72,
+        "str": 78,
+        "tac": 76,
+        "vis": 52
+      },
+      "birth": "1980-12-01",
+      "contract": "2004-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p192jnb0",
+      "name": "John Tarry",
+      "nation": "ENG",
+      "number": 26,
+      "pos": "CB",
+      "wage": 8000
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 52,
+        "com": 60,
+        "dri": 64,
+        "ldr": 46,
+        "pac": 72,
+        "pas": 64,
+        "pos": 60,
+        "sho": 46,
+        "sta": 72,
+        "str": 58,
+        "tac": 64,
+        "vis": 56
+      },
+      "birth": "1979-09-01",
+      "contract": "2003-06-30",
+      "foot": "L",
+      "height": 175,
+      "id": "p0w63zv1",
+      "name": "Jon Herley",
+      "nation": "ENG",
+      "number": 34,
+      "pos": "LB",
+      "wage": 10000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 76,
+        "com": 70,
+        "dri": 62,
+        "ldr": 60,
+        "pac": 66,
+        "pas": 64,
+        "pos": 72,
+        "sho": 42,
+        "sta": 70,
+        "str": 82,
+        "tac": 74,
+        "vis": 54
+      },
+      "birth": "1970-10-01",
+      "contract": "2004-06-30",
+      "foot": "L",
+      "height": 191,
+      "id": "p0y42w78",
+      "name": "Winston Bugarde",
+      "nation": "NED",
+      "number": 7,
+      "pos": "CB",
+      "wage": 55000
+    },
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 64,
+        "dri": 48,
+        "ldr": 68,
+        "pac": 54,
+        "pas": 56,
+        "pos": 70,
+        "sho": 38,
+        "sta": 66,
+        "str": 72,
+        "tac": 72,
+        "vis": 48
+      },
+      "birth": "1966-05-01",
+      "contract": "2001-06-30",
+      "foot": "R",
+      "height": 186,
+      "id": "p0l4z1y3",
+      "name": "Jes Hugh",
+      "nation": "DEN",
+      "number": 4,
+      "pos": "CB",
+      "wage": 25000
+    },
+    {
+      "attrs": {
+        "aer": 44,
+        "com": 58,
+        "dri": 68,
+        "ldr": 48,
+        "pac": 72,
+        "pas": 60,
+        "pos": 50,
+        "sho": 56,
+        "sta": 66,
+        "str": 50,
+        "tac": 40,
+        "vis": 58
+      },
+      "birth": "1973-08-01",
+      "contract": "2003-06-30",
+      "foot": "L",
+      "height": 177,
+      "id": "p0xcve2g",
+      "name": "Gabriele Ambrusetti",
+      "nation": "ITA",
+      "number": 18,
+      "pos": "LM",
+      "wage": 22000
+    }
+  ],
+  "stadiumCapacity": 42449
+}

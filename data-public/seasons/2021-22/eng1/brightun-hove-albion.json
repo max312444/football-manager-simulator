@@ -1,0 +1,673 @@
+{
+  "club": "brightun-hove-albion",
+  "estimated": true,
+  "facilities": {
+    "training": 4,
+    "youth": 4
+  },
+  "finance": {
+    "balance": 40000000,
+    "transferBudget": 60000000,
+    "wageBudget": 2000000
+  },
+  "formation": "3-4-2-1",
+  "league": "eng1",
+  "reputation": 76,
+  "season": "2021-22",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 75,
+        "com": 72,
+        "han": 71,
+        "ldr": 66,
+        "one": 74,
+        "pac": 51,
+        "pas": 72,
+        "pos": 74,
+        "ref": 74,
+        "sta": 62,
+        "str": 71,
+        "vis": 60
+      },
+      "birth": "1997-11-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 197,
+      "id": "p0yy3t7z",
+      "name": "Robert Sanchaz",
+      "nation": "ESP",
+      "number": 1,
+      "pos": "GK",
+      "wage": 25000
+    },
+    {
+      "attrs": {
+        "aer": 69,
+        "com": 68,
+        "han": 67,
+        "ldr": 63,
+        "one": 67,
+        "pac": 50,
+        "pas": 72,
+        "pos": 69,
+        "ref": 68,
+        "sta": 59,
+        "str": 67,
+        "vis": 56
+      },
+      "birth": "1990-08-01",
+      "contract": "2023-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1448jib",
+      "name": "Jason Steale",
+      "nation": "ENG",
+      "number": 23,
+      "pos": "GK",
+      "wage": 15000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 52,
+        "han": 59,
+        "ldr": 46,
+        "one": 57,
+        "pac": 34,
+        "pas": 46,
+        "pos": 57,
+        "ref": 59,
+        "sta": 44,
+        "str": 51,
+        "vis": 40
+      },
+      "birth": "2000-01-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 204,
+      "id": "p0hhdruj",
+      "name": "Kjell Scherpan",
+      "nation": "NED",
+      "number": 16,
+      "pos": "GK",
+      "wage": 15000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 60,
+        "com": 65,
+        "dri": 78,
+        "ldr": 56,
+        "pac": 89,
+        "pas": 65,
+        "pos": 65,
+        "sho": 54,
+        "sta": 73,
+        "str": 54,
+        "tac": 69,
+        "vis": 63
+      },
+      "birth": "2000-09-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 163,
+      "id": "p1i63v14",
+      "name": "Tariq Lamptay",
+      "nation": "GHA",
+      "nation2": "ENG",
+      "number": 2,
+      "pos": "RWB",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 84,
+        "com": 68,
+        "dri": 57,
+        "ldr": 71,
+        "pac": 55,
+        "pas": 63,
+        "pos": 72,
+        "sho": 37,
+        "sta": 69,
+        "str": 84,
+        "tac": 75,
+        "vis": 58
+      },
+      "birth": "1992-05-01",
+      "contract": "2022-06-30",
+      "foot": "L",
+      "height": 201,
+      "id": "p03wsgos",
+      "name": "Dan Born",
+      "nation": "ENG",
+      "number": 33,
+      "pos": "CB",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 78,
+        "com": 75,
+        "dri": 63,
+        "ldr": 71,
+        "pac": 69,
+        "pas": 77,
+        "pos": 76,
+        "sho": 42,
+        "sta": 74,
+        "str": 78,
+        "tac": 77,
+        "vis": 62
+      },
+      "birth": "1995-01-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p1mmfujo",
+      "name": "Adam Wabster",
+      "nation": "ENG",
+      "number": 4,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 86,
+        "com": 75,
+        "dri": 60,
+        "ldr": 84,
+        "pac": 57,
+        "pas": 77,
+        "pos": 78,
+        "sho": 44,
+        "sta": 70,
+        "str": 77,
+        "tac": 77,
+        "vis": 58
+      },
+      "birth": "1991-11-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 192,
+      "id": "p1gs85ct",
+      "name": "Lewis Donk",
+      "nation": "ENG",
+      "number": 5,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 60000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 58,
+        "com": 71,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 74,
+        "pas": 70,
+        "pos": 68,
+        "sho": 53,
+        "sta": 78,
+        "str": 67,
+        "tac": 73,
+        "vis": 64
+      },
+      "birth": "1992-01-01",
+      "contract": "2023-06-30",
+      "foot": "R",
+      "height": 184,
+      "id": "p05cbuxt",
+      "name": "Joel Valtman",
+      "nation": "NED",
+      "number": 34,
+      "pos": "RB",
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 62,
+        "com": 72,
+        "dri": 72,
+        "ldr": 60,
+        "pac": 79,
+        "pas": 69,
+        "pos": 68,
+        "sho": 51,
+        "sta": 85,
+        "str": 66,
+        "tac": 70,
+        "vis": 64
+      },
+      "birth": "1998-07-01",
+      "contract": "2026-06-30",
+      "foot": "L",
+      "height": 172,
+      "id": "p02rvtqn",
+      "looks": {
+        "beard": "stubble",
+        "hair": "long",
+        "hairColor": "brown"
+      },
+      "name": "Marc Cucorella",
+      "nation": "ESP",
+      "number": 3,
+      "pos": "LWB",
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 86,
+        "com": 65,
+        "dri": 54,
+        "ldr": 65,
+        "pac": 60,
+        "pas": 61,
+        "pos": 69,
+        "sho": 43,
+        "sta": 65,
+        "str": 74,
+        "tac": 72,
+        "vis": 55
+      },
+      "birth": "1992-01-01",
+      "contract": "2022-06-30",
+      "foot": "L",
+      "height": 193,
+      "id": "p0qjgxwn",
+      "name": "Shane Duffi",
+      "nation": "IRL",
+      "number": 24,
+      "pos": "CB",
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 60,
+        "com": 72,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 62,
+        "pas": 71,
+        "pos": 65,
+        "sho": 63,
+        "sta": 73,
+        "str": 65,
+        "tac": 67,
+        "vis": 70
+      },
+      "birth": "1998-01-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 186,
+      "id": "p0y2b7c8",
+      "name": "Enock Mwapu",
+      "nation": "ZAM",
+      "number": 12,
+      "pos": "CM",
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 57,
+        "com": 72,
+        "dri": 75,
+        "ldr": 72,
+        "pac": 60,
+        "pas": 80,
+        "pos": 67,
+        "sho": 67,
+        "sta": 68,
+        "str": 63,
+        "tac": 64,
+        "vis": 80
+      },
+      "birth": "1988-05-01",
+      "contract": "2023-06-30",
+      "foot": "R",
+      "height": 172,
+      "id": "p0c9ugrt",
+      "name": "Adam Lallena",
+      "nation": "ENG",
+      "number": 14,
+      "pos": "CM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 70000
+    },
+    {
+      "alt": [
+        "RM"
+      ],
+      "attrs": {
+        "aer": 49,
+        "com": 70,
+        "dri": 77,
+        "ldr": 59,
+        "pac": 77,
+        "pas": 78,
+        "pos": 53,
+        "sho": 70,
+        "sta": 84,
+        "str": 61,
+        "tac": 49,
+        "vis": 70
+      },
+      "birth": "1994-07-01",
+      "contract": "2023-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p1rnl7sk",
+      "name": "Solly Merch",
+      "nation": "ENG",
+      "number": 20,
+      "pos": "LWB",
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 67,
+        "com": 72,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 66,
+        "pas": 74,
+        "pos": 75,
+        "sho": 63,
+        "sta": 76,
+        "str": 75,
+        "tac": 82,
+        "vis": 70
+      },
+      "birth": "1996-08-01",
+      "contract": "2023-06-30",
+      "foot": "R",
+      "height": 182,
+      "id": "p003q2ri",
+      "name": "Yves Bissoume",
+      "nation": "MLI",
+      "number": 8,
+      "pos": "DM",
+      "wage": 45000
+    },
+    {
+      "attrs": {
+        "aer": 60,
+        "com": 75,
+        "dri": 73,
+        "ldr": 68,
+        "pac": 63,
+        "pas": 85,
+        "pos": 70,
+        "sho": 75,
+        "sta": 79,
+        "str": 62,
+        "tac": 62,
+        "vis": 84
+      },
+      "birth": "1991-06-01",
+      "contract": "2023-06-30",
+      "foot": "R",
+      "height": 181,
+      "id": "p03o6rtr",
+      "name": "Pascal Gruss",
+      "nation": "GER",
+      "number": 13,
+      "pos": "AM",
+      "traits": [
+        "free_kick",
+        "playmaker"
+      ],
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 58,
+        "com": 63,
+        "dri": 68,
+        "ldr": 54,
+        "pac": 63,
+        "pas": 69,
+        "pos": 62,
+        "sho": 65,
+        "sta": 72,
+        "str": 61,
+        "tac": 60,
+        "vis": 68
+      },
+      "birth": "1998-09-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p1a6cxq2",
+      "name": "Steven Alzata",
+      "nation": "COL",
+      "nation2": "ENG",
+      "number": 17,
+      "pos": "CM",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 56,
+        "com": 80,
+        "dri": 72,
+        "ldr": 64,
+        "pac": 63,
+        "pas": 80,
+        "pos": 67,
+        "sho": 75,
+        "sta": 73,
+        "str": 62,
+        "tac": 67,
+        "vis": 79
+      },
+      "birth": "1998-12-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 174,
+      "id": "p0evt9f0",
+      "name": "Alexis Mac Allyster",
+      "nation": "ARG",
+      "number": 10,
+      "pos": "CM",
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 54,
+        "com": 67,
+        "dri": 64,
+        "ldr": 61,
+        "pac": 62,
+        "pas": 68,
+        "pos": 62,
+        "sho": 59,
+        "sta": 65,
+        "str": 60,
+        "tac": 59,
+        "vis": 65
+      },
+      "birth": "1999-04-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0weh4sv",
+      "name": "Jakub Muder",
+      "nation": "POL",
+      "number": 15,
+      "pos": "CM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 53,
+        "com": 81,
+        "dri": 80,
+        "ldr": 63,
+        "pac": 77,
+        "pas": 73,
+        "pos": 55,
+        "sho": 74,
+        "sta": 75,
+        "str": 61,
+        "tac": 49,
+        "vis": 76
+      },
+      "birth": "1994-12-01",
+      "contract": "2025-06-30",
+      "foot": "B",
+      "height": 172,
+      "id": "p0ytqxov",
+      "name": "Leandro Trosserd",
+      "nation": "BEL",
+      "number": 11,
+      "pos": "LW",
+      "traits": [
+        "clutch"
+      ],
+      "wage": 45000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 73,
+        "dri": 71,
+        "ldr": 60,
+        "pac": 71,
+        "pas": 65,
+        "pos": 50,
+        "sho": 73,
+        "sta": 69,
+        "str": 69,
+        "tac": 45,
+        "vis": 65
+      },
+      "birth": "1996-08-01",
+      "contract": "2023-06-30",
+      "foot": "R",
+      "height": 171,
+      "id": "p1518rcp",
+      "name": "Neal Meupay",
+      "nation": "FRA",
+      "number": 9,
+      "pos": "ST",
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 76,
+        "com": 74,
+        "dri": 70,
+        "ldr": 69,
+        "pac": 77,
+        "pas": 67,
+        "pos": 55,
+        "sho": 75,
+        "sta": 73,
+        "str": 76,
+        "tac": 45,
+        "vis": 66
+      },
+      "birth": "1990-11-01",
+      "contract": "2022-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1lbuyd9",
+      "name": "Danny Walbeck",
+      "nation": "ENG",
+      "number": 18,
+      "pos": "ST",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 59,
+        "com": 65,
+        "dri": 63,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 60,
+        "pos": 46,
+        "sho": 70,
+        "sta": 63,
+        "str": 65,
+        "tac": 43,
+        "vis": 59
+      },
+      "birth": "2000-01-01",
+      "contract": "2023-06-30",
+      "foot": "R",
+      "height": 174,
+      "id": "p142hgvs",
+      "name": "Aaron Connully",
+      "nation": "IRL",
+      "number": 7,
+      "pos": "ST",
+      "wage": 25000
+    },
+    {
+      "attrs": {
+        "aer": 33,
+        "com": 50,
+        "dri": 55,
+        "ldr": 39,
+        "pac": 57,
+        "pas": 50,
+        "pos": 38,
+        "sho": 51,
+        "sta": 53,
+        "str": 41,
+        "tac": 36,
+        "vis": 49
+      },
+      "birth": "2002-06-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p1148pfr",
+      "name": "Jeremy Sarmientu",
+      "nation": "ECU",
+      "nation2": "ENG",
+      "number": 19,
+      "pos": "LW",
+      "verify": true,
+      "wage": 10000
+    }
+  ],
+  "stadiumCapacity": 31800
+}

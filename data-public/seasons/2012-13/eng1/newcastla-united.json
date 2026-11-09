@@ -1,0 +1,760 @@
+{
+  "club": "newcastla-united",
+  "estimated": true,
+  "facilities": {
+    "training": 3,
+    "youth": 3
+  },
+  "finance": {
+    "balance": 20000000,
+    "transferBudget": 15000000,
+    "wageBudget": 1500000
+  },
+  "formation": "4-3-3",
+  "league": "eng1",
+  "reputation": 74,
+  "season": "2012-13",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 63,
+        "com": 57,
+        "han": 63,
+        "ldr": 48,
+        "one": 63,
+        "pac": 48,
+        "pas": 53,
+        "pos": 61,
+        "ref": 65,
+        "sta": 57,
+        "str": 65,
+        "vis": 47
+      },
+      "birth": "1986-04-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p1ntpir5",
+      "name": "Rob Ellyot",
+      "nation": "IRL",
+      "number": 21,
+      "pos": "GK",
+      "wage": 10000
+    },
+    {
+      "attrs": {
+        "aer": 74,
+        "com": 72,
+        "han": 72,
+        "ldr": 62,
+        "one": 80,
+        "pac": 58,
+        "pas": 59,
+        "pos": 74,
+        "ref": 82,
+        "sta": 64,
+        "str": 72,
+        "vis": 54
+      },
+      "birth": "1988-04-01",
+      "contract": "2017-06-30",
+      "foot": "R",
+      "height": 193,
+      "id": "p1msg3nh",
+      "name": "Tim Krol",
+      "nation": "NED",
+      "number": 1,
+      "pos": "GK",
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 69,
+        "com": 69,
+        "han": 71,
+        "ldr": 70,
+        "one": 69,
+        "pac": 43,
+        "pas": 57,
+        "pos": 71,
+        "ref": 71,
+        "sta": 55,
+        "str": 65,
+        "vis": 53
+      },
+      "birth": "1975-03-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1wn98p6",
+      "name": "Steve Herper",
+      "nation": "ENG",
+      "number": 37,
+      "pos": "GK",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 80,
+        "com": 81,
+        "dri": 65,
+        "ldr": 81,
+        "pac": 62,
+        "pas": 73,
+        "pos": 83,
+        "sho": 46,
+        "sta": 75,
+        "str": 76,
+        "tac": 83,
+        "vis": 65
+      },
+      "birth": "1982-01-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0qrtuib",
+      "looks": {
+        "beard": "none",
+        "hair": "curly",
+        "hairColor": "brown"
+      },
+      "name": "Fabricio Culoccini",
+      "nation": "ARG",
+      "number": 2,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 80000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 64,
+        "com": 64,
+        "dri": 72,
+        "ldr": 48,
+        "pac": 82,
+        "pas": 68,
+        "pos": 66,
+        "sho": 50,
+        "sta": 80,
+        "str": 72,
+        "tac": 72,
+        "vis": 60
+      },
+      "birth": "1991-01-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p0tr7n1n",
+      "name": "Davide Senton",
+      "nation": "ITA",
+      "number": 3,
+      "pos": "LB",
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 56,
+        "com": 80,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 67,
+        "pas": 84,
+        "pos": 70,
+        "sho": 76,
+        "sta": 82,
+        "str": 62,
+        "tac": 69,
+        "vis": 82
+      },
+      "birth": "1986-01-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p0yvxbyr",
+      "name": "Yohan Cebaye",
+      "nation": "FRA",
+      "number": 4,
+      "pos": "CM",
+      "traits": [
+        "free_kick"
+      ],
+      "wage": 60000
+    },
+    {
+      "attrs": {
+        "aer": 80,
+        "com": 66,
+        "dri": 49,
+        "ldr": 64,
+        "pac": 61,
+        "pas": 58,
+        "pos": 74,
+        "sho": 37,
+        "sta": 69,
+        "str": 80,
+        "tac": 75,
+        "vis": 48
+      },
+      "birth": "1983-11-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 193,
+      "id": "p1vt2vo7",
+      "name": "Mike Wylliamson",
+      "nation": "ENG",
+      "number": 6,
+      "pos": "CB",
+      "wage": 35000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 48,
+        "com": 56,
+        "dri": 76,
+        "ldr": 40,
+        "pac": 86,
+        "pas": 62,
+        "pos": 39,
+        "sho": 57,
+        "sta": 70,
+        "str": 66,
+        "tac": 33,
+        "vis": 57
+      },
+      "birth": "1989-02-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 186,
+      "id": "p1099zot",
+      "name": "Gabriel Obartan",
+      "nation": "FRA",
+      "number": 25,
+      "pos": "RW",
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 42,
+        "com": 65,
+        "dri": 69,
+        "ldr": 49,
+        "pac": 69,
+        "pas": 72,
+        "pos": 66,
+        "sho": 50,
+        "sta": 80,
+        "str": 58,
+        "tac": 70,
+        "vis": 64
+      },
+      "birth": "1989-04-01",
+      "contract": "2017-06-30",
+      "foot": "R",
+      "height": 168,
+      "id": "p0pyhpfp",
+      "name": "Vurnon Anyta",
+      "nation": "NED",
+      "number": 8,
+      "pos": "CM",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 71,
+        "com": 71,
+        "dri": 69,
+        "ldr": 49,
+        "pac": 75,
+        "pas": 55,
+        "pos": 40,
+        "sho": 81,
+        "sta": 71,
+        "str": 75,
+        "tac": 31,
+        "vis": 55
+      },
+      "birth": "1985-06-01",
+      "contract": "2017-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0zpmy1r",
+      "name": "Papiss Cysse",
+      "nation": "SEN",
+      "number": 9,
+      "pos": "ST",
+      "wage": 60000
+    },
+    {
+      "alt": [
+        "RW"
+      ],
+      "attrs": {
+        "aer": 42,
+        "com": 72,
+        "dri": 88,
+        "ldr": 46,
+        "pac": 82,
+        "pas": 76,
+        "pos": 40,
+        "sho": 76,
+        "sta": 66,
+        "str": 66,
+        "tac": 32,
+        "vis": 76
+      },
+      "birth": "1987-03-01",
+      "contract": "2014-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p1wc9uhn",
+      "name": "Hatem Ben Arfe",
+      "nation": "FRA",
+      "number": 10,
+      "pos": "AM",
+      "traits": [
+        "flair"
+      ],
+      "wage": 55000
+    },
+    {
+      "attrs": {
+        "aer": 61,
+        "com": 67,
+        "dri": 66,
+        "ldr": 55,
+        "pac": 78,
+        "pas": 64,
+        "pos": 69,
+        "sho": 44,
+        "sta": 80,
+        "str": 70,
+        "tac": 74,
+        "vis": 56
+      },
+      "birth": "1987-01-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1std6gp",
+      "name": "Danny Sympson",
+      "nation": "ENG",
+      "number": 5,
+      "pos": "RB",
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 66,
+        "com": 62,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 60,
+        "pos": 66,
+        "sho": 44,
+        "sta": 76,
+        "str": 74,
+        "tac": 72,
+        "vis": 52
+      },
+      "birth": "1985-09-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p1a2o70g",
+      "name": "James Parch",
+      "nation": "ENG",
+      "number": 14,
+      "pos": "RB",
+      "wage": 20000
+    },
+    {
+      "attrs": {
+        "aer": 54,
+        "com": 59,
+        "dri": 64,
+        "ldr": 47,
+        "pac": 66,
+        "pas": 64,
+        "pos": 59,
+        "sho": 60,
+        "sta": 73,
+        "str": 63,
+        "tac": 61,
+        "vis": 60
+      },
+      "birth": "1990-02-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1fai3bm",
+      "name": "Dan Goslyng",
+      "nation": "ENG",
+      "number": 15,
+      "pos": "CM",
+      "wage": 20000
+    },
+    {
+      "alt": [
+        "RM"
+      ],
+      "attrs": {
+        "aer": 56,
+        "com": 66,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 72,
+        "pos": 62,
+        "sho": 70,
+        "sta": 76,
+        "str": 64,
+        "tac": 66,
+        "vis": 66
+      },
+      "birth": "1984-08-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 173,
+      "id": "p0dkqd32",
+      "name": "Ryan Taylur",
+      "nation": "ENG",
+      "number": 16,
+      "pos": "LB",
+      "traits": [
+        "free_kick"
+      ],
+      "wage": 25000
+    },
+    {
+      "attrs": {
+        "aer": 44,
+        "com": 52,
+        "dri": 66,
+        "ldr": 40,
+        "pac": 76,
+        "pas": 60,
+        "pos": 52,
+        "sho": 50,
+        "sta": 72,
+        "str": 56,
+        "tac": 54,
+        "vis": 54
+      },
+      "birth": "1991-07-01",
+      "contract": "2015-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p14i2k43",
+      "name": "Shane Fergusun",
+      "nation": "NIR",
+      "number": 31,
+      "pos": "LW",
+      "wage": 8000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 52,
+        "com": 66,
+        "dri": 74,
+        "ldr": 56,
+        "pac": 73,
+        "pas": 68,
+        "pos": 62,
+        "sho": 58,
+        "sta": 90,
+        "str": 64,
+        "tac": 62,
+        "vis": 64
+      },
+      "birth": "1983-07-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0jzr9es",
+      "name": "Jonas Gutyerrez",
+      "nation": "ARG",
+      "number": 18,
+      "pos": "LM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 76,
+        "com": 74,
+        "dri": 74,
+        "ldr": 56,
+        "pac": 76,
+        "pas": 64,
+        "pos": 40,
+        "sho": 81,
+        "sta": 72,
+        "str": 82,
+        "tac": 34,
+        "vis": 62
+      },
+      "birth": "1985-05-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 189,
+      "id": "p01zd0f0",
+      "looks": {
+        "beard": "full",
+        "hair": "short",
+        "hairColor": "black"
+      },
+      "name": "Dembe Ba",
+      "nation": "SEN",
+      "number": 19,
+      "pos": "ST",
+      "wage": 75000
+    },
+    {
+      "attrs": {
+        "aer": 46,
+        "com": 56,
+        "dri": 66,
+        "ldr": 42,
+        "pac": 66,
+        "pas": 64,
+        "pos": 52,
+        "sho": 56,
+        "sta": 70,
+        "str": 62,
+        "tac": 50,
+        "vis": 60
+      },
+      "birth": "1989-08-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 181,
+      "id": "p1hgvqoq",
+      "name": "Romain Amelfitano",
+      "nation": "FRA",
+      "number": 17,
+      "pos": "AM",
+      "wage": 15000
+    },
+    {
+      "attrs": {
+        "aer": 77,
+        "com": 66,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 54,
+        "pas": 64,
+        "pos": 40,
+        "sho": 69,
+        "sta": 63,
+        "str": 77,
+        "tac": 34,
+        "vis": 60
+      },
+      "birth": "1981-10-01",
+      "contract": "2014-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p13ngbz2",
+      "name": "Shola Ameubi",
+      "nation": "ENG",
+      "nation2": "NGA",
+      "number": 23,
+      "pos": "ST",
+      "wage": 35000
+    },
+    {
+      "attrs": {
+        "aer": 67,
+        "com": 69,
+        "dri": 65,
+        "ldr": 62,
+        "pac": 69,
+        "pas": 69,
+        "pos": 77,
+        "sho": 50,
+        "sta": 85,
+        "str": 82,
+        "tac": 85,
+        "vis": 61
+      },
+      "birth": "1986-06-01",
+      "contract": "2017-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p09yu6e3",
+      "name": "Cheick Tiota",
+      "nation": "CIV",
+      "number": 24,
+      "pos": "DM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 45000
+    },
+    {
+      "attrs": {
+        "aer": 82,
+        "com": 66,
+        "dri": 52,
+        "ldr": 70,
+        "pac": 61,
+        "pas": 60,
+        "pos": 74,
+        "sho": 44,
+        "sta": 69,
+        "str": 80,
+        "tac": 77,
+        "vis": 52
+      },
+      "birth": "1986-01-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p19ogydx",
+      "name": "Steven Taylur",
+      "nation": "ENG",
+      "number": 27,
+      "pos": "CB",
+      "wage": 40000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 54,
+        "com": 53,
+        "dri": 71,
+        "ldr": 38,
+        "pac": 73,
+        "pas": 55,
+        "pos": 36,
+        "sho": 53,
+        "sta": 65,
+        "str": 62,
+        "tac": 30,
+        "vis": 53
+      },
+      "birth": "1992-05-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p1hiw4wk",
+      "name": "Sammy Ameubi",
+      "nation": "ENG",
+      "number": 28,
+      "pos": "LW",
+      "wage": 8000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 55,
+        "com": 56,
+        "dri": 63,
+        "ldr": 38,
+        "pac": 60,
+        "pas": 62,
+        "pos": 52,
+        "sho": 58,
+        "sta": 60,
+        "str": 62,
+        "tac": 36,
+        "vis": 60
+      },
+      "birth": "1992-08-01",
+      "contract": "2015-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p0klzxli",
+      "name": "Haris Vuckyc",
+      "nation": "SVN",
+      "number": 29,
+      "pos": "AM",
+      "verify": true,
+      "wage": 8000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 40,
+        "com": 66,
+        "dri": 78,
+        "ldr": 50,
+        "pac": 74,
+        "pas": 74,
+        "pos": 48,
+        "sho": 68,
+        "sta": 66,
+        "str": 54,
+        "tac": 40,
+        "vis": 72
+      },
+      "birth": "1986-04-01",
+      "contract": "2016-06-30",
+      "foot": "R",
+      "height": 173,
+      "id": "p0ky5p8k",
+      "name": "Sylvain Marvaaux",
+      "nation": "FRA",
+      "number": 22,
+      "pos": "LM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 44,
+        "com": 52,
+        "dri": 64,
+        "ldr": 40,
+        "pac": 70,
+        "pas": 62,
+        "pos": 54,
+        "sho": 50,
+        "sta": 76,
+        "str": 60,
+        "tac": 58,
+        "vis": 56
+      },
+      "birth": "1993-10-01",
+      "contract": "2017-06-30",
+      "foot": "R",
+      "height": 176,
+      "id": "p12m82xl",
+      "name": "Gael Bigyrimana",
+      "nation": "ENG",
+      "nation2": "BDI",
+      "number": 20,
+      "pos": "CM",
+      "wage": 10000
+    }
+  ],
+  "stadiumCapacity": 52387
+}

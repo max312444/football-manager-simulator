@@ -9,13 +9,14 @@ import { Crest } from '../components/Crest';
 import { Icon } from '../components/Icon';
 import { ConditionIcon, PosTag } from '../components/bits';
 import { MENTALITY, PRESSING } from '../views/TacticsView';
+import { MatchPrep } from './MatchPrep';
 import { ratingTone } from '../format';
 
 const SPEEDS = [{ label: '보통', ms: 1100 }, { label: '빠르게', ms: 450 }, { label: '매우 빠르게', ms: 150 }];
 
 export function MatchScreen() {
   const w = useWorld();
-  const { match: m, kickOff, stepMatch, changeTactics, sub, closeMatch } = useGame();
+  const { match: m, stepMatch, changeTactics, sub, closeMatch } = useGame();
   const [playing, setPlaying] = useState(true);
   const [speed, setSpeed] = useState(0);
   const [subOut, setSubOut] = useState<string | null>(null);
@@ -28,6 +29,8 @@ export function MatchScreen() {
   }, [live, playing, speed, stepMatch]);
 
   if (!m) return null;
+  // 경기 전: 스쿼드 설정 화면 (선발 확정하면 바로 킥오프)
+  if (m.phase === 'squad' || !m.state) return <MatchPrep />;
   const s = m.state, sum = s.summary;
   const me = s[m.side], opp = s[m.side === 'home' ? 'away' : 'home'];
   const minute = Math.min(90, s.segment * 5);
@@ -61,7 +64,7 @@ export function MatchScreen() {
               {goalsSoFar.home}<span className="mx-3 text-lo">:</span>{goalsSoFar.away}
             </div>
             <div className={`led mt-2 rounded-md px-2.5 py-0.5 text-[13px] font-semibold ${m.phase === 'live' ? 'bg-neon/15 text-neon' : 'bg-ink-700 text-mid'}`}>
-              {m.phase === 'pre' ? '경기 전' : m.phase === 'full' ? '경기 종료' : `${minute}'`}
+              {m.phase === 'full' ? '경기 종료' : `${minute}'`}
             </div>
           </div>
           <TeamHead club={s.away.clubId} mine={m.side === 'away'} align="left" />
@@ -74,7 +77,7 @@ export function MatchScreen() {
         <section className="panel flex min-h-0 flex-col">
           <h3 className="flex h-11 shrink-0 items-center px-5 text-[13px] font-semibold text-mid shadow-[inset_0_-1px_0_var(--color-line)]">경기 기록</h3>
           <div className="min-h-0 flex-1 overflow-auto px-2 py-2">
-            {evs.length === 0 && <div className="px-3 py-4 text-[13px] text-lo">{m.phase === 'pre' ? '킥오프를 기다리는 중' : '아직 큰 사건이 없습니다'}</div>}
+            {evs.length === 0 && <div className="px-3 py-4 text-[13px] text-lo">아직 큰 사건이 없습니다</div>}
             {evs.map((e, i) => (
               <div key={i} className={`flex items-center gap-3 rounded-md px-3 py-2 text-[13px] ${e.kind === 'goal' ? 'bg-neon-ghost' : ''}`}>
                 <span className="tnum w-8 text-right text-lo">{e.minute}'</span>
@@ -130,11 +133,6 @@ export function MatchScreen() {
           </div>
 
           <div className="mt-auto flex items-center gap-2">
-            {m.phase === 'pre' && (
-              <button onClick={kickOff} className="flex h-12 flex-1 items-center justify-center gap-2 rounded-lg bg-neon text-[15px] font-semibold text-ink-950 hover:bg-[#5bff3d]">
-                킥오프 <Icon name="arrow" size={18} />
-              </button>
-            )}
             {m.phase === 'live' && (
               <>
                 <button onClick={() => setPlaying((p) => !p)} className="h-12 w-28 rounded-lg bg-ink-700 text-[14px] font-semibold hover:bg-ink-750">{playing ? '일시정지' : '재개'}</button>

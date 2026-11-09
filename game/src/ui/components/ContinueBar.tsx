@@ -7,35 +7,44 @@ import { useWorld } from '../hooks';
 import { useGame } from '../../store/game';
 import { nextUserFixture, seasonOver } from '../../engine/world';
 import { clubKo } from '../../data/db';
+import { sortTable } from '../../engine/standings';
 
 const daysBetween = (a: string, b: string) => Math.round((Date.parse(b) - Date.parse(a)) / 86400000);
 
 export function ContinueBar() {
   const w = useWorld();
   const continueGame = useGame((s) => s.continueGame);
+  const nextSeason = useGame((s) => s.nextSeason);
+  const loading = useGame((s) => s.loading);
   const next = nextUserFixture(w);
   const over = seasonOver(w);
   const today = next?.date === w.date;
   const home = next?.home === w.userClubId;
   const opp = next ? (home ? next.away : next.home) : null;
   const dday = next ? daysBetween(w.date, next.date) : 0;
+  const league = w.clubs[w.userClubId].league;
+  const finalPos = over && w.competitions[league] ? sortTable(w.competitions[league].table).findIndex((r) => r.club === w.userClubId) + 1 : 0;
+  const go = over ? () => { if (!loading) void nextSeason(); } : continueGame;
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.code !== 'Space' || over) return;
+      if (e.code !== 'Space') return;
       const t = e.target as HTMLElement;
       if (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA') return;
       e.preventDefault();
-      continueGame();
+      go();
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [continueGame, over]);
+  }, [go]);
 
   return (
     <footer className="flex h-[72px] shrink-0 items-center gap-6 border-t border-line bg-ink-900/90 px-6 backdrop-blur">
       {over ? (
-        <div className="text-[14px] font-semibold text-mid">시즌이 끝났습니다 — 다음 시즌 진행은 곧 추가됩니다</div>
+        <div>
+          <div className="text-[14px] font-semibold">{w.season.replace('-', '/')} 시즌 종료 · 최종 {finalPos}위</div>
+          <div className="text-[12px] text-lo">다음 시즌으로 넘어가면 실제 능력치 갱신 · 승격팀 합류 · 새 선수 등장이 진행됩니다</div>
+        </div>
       ) : next && opp ? (
         <div className="flex min-w-0 items-center gap-4">
           <div className={`grid h-11 w-14 shrink-0 place-items-center rounded-lg ${today ? 'bg-neon/15 text-neon' : 'bg-ink-800 text-mid'}`}>
@@ -58,9 +67,9 @@ export function ContinueBar() {
         <span className="hidden text-[12px] text-lo lg:inline">
           <kbd className="rounded border border-line-strong px-1.5 py-0.5 text-[11px] text-mid">Space</kbd> 로도 진행
         </span>
-        <button onClick={continueGame} disabled={over}
+        <button onClick={go} disabled={loading}
           className="group flex h-12 min-w-[200px] items-center justify-center gap-3 rounded-lg bg-neon px-8 text-[15px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] active:scale-[0.98] disabled:bg-ink-700 disabled:text-lo">
-          {today ? '경기 준비' : '계속'}
+          {over ? (loading ? '준비 중…' : '다음 시즌으로') : today ? '경기 준비' : '계속'}
           <Icon name="arrow" size={18} />
         </button>
       </div>

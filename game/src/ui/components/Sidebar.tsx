@@ -3,6 +3,9 @@ import { Icon } from './Icon';
 import { useApp, type HubTab } from '../../store/app';
 import { clubKo, leagues } from '../../data/db';
 import { useWorld } from '../hooks';
+import { useState } from 'react';
+import { useGame } from '../../store/game';
+import { SaveSlots } from './SaveSlots';
 
 const NAV: { key: HubTab; label: string; icon: string; ready?: boolean }[] = [
   { key: 'home', label: '홈', icon: 'home', ready: true },
@@ -21,6 +24,8 @@ export function Sidebar() {
   const w = useWorld();
   const club = w.clubs[w.userClubId];
   const lg = leagues.find((l) => l.id === club.league);
+  const save = useGame((s) => s.save);
+  const [saveOpen, setSaveOpen] = useState(false);
   const unreadInjuries = club.squad.filter((id) => w.players[id].injury).length;
   return (
     <aside className="flex w-60 shrink-0 flex-col border-r border-line bg-ink-900">
@@ -51,7 +56,19 @@ export function Sidebar() {
         })}
       </nav>
 
-      <div className="border-t border-line p-3">
+      <div className="relative border-t border-line p-3">
+        {saveOpen && (
+          <div className="panel absolute bottom-full left-3 z-40 mb-2 w-[340px] overflow-hidden">
+            <div className="flex items-center justify-between border-b border-line px-5 py-3"><span className="text-[13px] font-semibold">저장하기</span><button onClick={() => setSaveOpen(false)} className="text-[12px] text-lo hover:text-hi">닫기</button></div>
+            <SaveSlots mode="save" onPick={async (slot) => { await save(slot); }} />
+            <div className="border-t border-line px-5 py-2 text-[12px] text-lo">진행할 때마다 자동 저장도 됩니다</div>
+          </div>
+        )}
+        <button onClick={() => setSaveOpen((v) => !v)}
+          className="mb-1 flex h-9 w-full items-center gap-3 rounded-lg px-3 text-[13px] text-mid transition-colors hover:bg-ink-800 hover:text-hi">
+          <Icon name="inbox" size={16} />
+          저장하기
+        </button>
         <button onClick={() => go('title')}
           className="flex h-9 w-full items-center gap-3 rounded-lg px-3 text-[13px] text-lo transition-colors hover:bg-ink-800 hover:text-mid">
           <Icon name="settings" size={16} />

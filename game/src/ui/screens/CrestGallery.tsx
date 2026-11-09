@@ -1,10 +1,9 @@
 // 개발용: 엠블럼 전체 보기 (http://localhost:5179/?crests)
 import { clubs, clubKo } from '../../data/db';
-import { CREST_STYLES } from '../crests/styles';
 import { Crest } from '../components/Crest';
 
 export function CrestGallery() {
-  const ids = [...new Set([...Object.keys(CREST_STYLES), ...clubs.keys()])];
+  const ids = [...clubs.keys()];
   return (
     <div className="h-full overflow-auto bg-ink-950 p-8">
       <div className="grid grid-cols-[repeat(auto-fill,minmax(120px,1fr))] gap-6">

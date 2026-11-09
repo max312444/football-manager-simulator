@@ -37,8 +37,9 @@ const FILL_ORDER: Position[] = ['GK', 'ST', 'CB', 'DM', 'AM', 'LB', 'RB', 'LWB',
 /**
  * AI 자동 선발. 자리별로 (자리 적합 능력 × 체력 보정)이 가장 높은 선수를 고른다.
  * 체력이 낮은 선수는 자연스럽게 로테이션된다.
+ * fixed: 사용자가 정한 자리별 선수(없거나 못 뛰면 자동으로 채움), fixedBench: 정한 후보
  */
-export function pickLineup(players: PlayerState[], formation: string, benchSize: number): Lineup {
+export function pickLineup(players: PlayerState[], formation: string, benchSize: number, fixed?: (string | null)[], fixedBench?: string[]): Lineup {
   const slots = FORMATIONS[formation] ?? FORMATIONS[DEFAULT_FORMATION];
   const pool = players.filter(available);
   const used = new Set<string>();
@@ -46,7 +47,12 @@ export function pickLineup(players: PlayerState[], formation: string, benchSize:
 
   const order = slots.map((s, i) => ({ s, i })).sort((a, b) => FILL_ORDER.indexOf(a.s) - FILL_ORDER.indexOf(b.s));
   const starters: { id: string; slot: Position }[] = new Array(slots.length);
+  if (fixed) slots.forEach((s, i) => {
+    const id = fixed[i];
+    if (id && !used.has(id) && pool.some((p) => p.id === id)) { used.add(id); starters[i] = { id, slot: s }; }
+  });
   for (const { s, i } of order) {
+    if (starters[i]) continue;
     let best: PlayerState | null = null, bs = -1;
     for (const p of pool) {
       if (used.has(p.id)) continue;
@@ -59,13 +65,15 @@ export function pickLineup(players: PlayerState[], formation: string, benchSize:
   // 후보: 골키퍼 1명 + 나머지는 능력순 (포지션이 겹치지 않게 조금 분산)
   const rest = pool.filter((p) => !used.has(p.id));
   const bench: string[] = [];
+  for (const id of fixedBench ?? []) if (bench.length < benchSize && rest.some((p) => p.id === id)) bench.push(id);
   const gk = rest.filter((p) => p.pos === 'GK').sort((a, b) => slotRating(b, 'GK') - slotRating(a, 'GK'))[0];
-  if (gk) bench.push(gk.id);
+  if (gk && !bench.some((id) => players.find((p) => p.id === id)?.pos === 'GK') && bench.length < benchSize) bench.push(gk.id);
   const outfield = rest.filter((p) => p.pos !== 'GK').sort((a, b) => slotRating(b, b.pos) - slotRating(a, a.pos));
   const groupCount: Record<string, number> = {};
   const group = (p: PlayerState) => (['CB', 'LB', 'RB', 'LWB', 'RWB'].includes(p.pos) ? 'D' : ['DM', 'CM', 'AM', 'LM', 'RM'].includes(p.pos) ? 'M' : 'F');
   for (const p of outfield) {
     if (bench.length >= benchSize) break;
+    if (bench.includes(p.id)) continue;
     const g = group(p);
     if ((groupCount[g] ?? 0) >= Math.ceil(benchSize / 3) + 1) continue;
     groupCount[g] = (groupCount[g] ?? 0) + 1;

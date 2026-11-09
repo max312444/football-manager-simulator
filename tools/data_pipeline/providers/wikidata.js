@@ -128,20 +128,26 @@ const time = (v, p) => (v ? { value: v.value.slice(0, 10), precision: Number(p.v
 // (2020/21 이후 분데스리가 등: "FC Bayern München" 팀 항목 → "FC Bayern Munich" 구단 항목)
 // 주의: 쿼리 문자열 안에 # 주석을 넣지 않는다 (요청 시 줄바꿈이 사라져 뒤 내용이 전부 주석이 됨)
 async function leagueSeasons(leagueQid, opts) {
+  // 팀 항목(?t0)과 상위 구단(?par)의 위키백과 제목을 따로 가져온다 (BIND 후 조인은 느려서 시간 초과)
   const rows = await sparql(`
-    SELECT ?s ?sLabel ?t ?tLabel ?tTitle WHERE {
+    SELECT ?s ?sLabel ?t0 ?t0Label ?t0Title ?par ?parLabel ?parTitle WHERE {
       ?s wdt:P3450 wd:${leagueQid} .
       OPTIONAL { ?s wdt:P1923 ?t0 .
-        OPTIONAL { ?t0 wdt:P31 wd:Q103229495 ; wdt:P831 ?par . }
-        BIND(COALESCE(?par, ?t0) AS ?t)
-        OPTIONAL { ?ta schema:about ?t ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?tTitle . } }
+        OPTIONAL { ?a0 schema:about ?t0 ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?t0Title . }
+        OPTIONAL { ?t0 wdt:P31 wd:Q103229495 ; wdt:P831 ?par .
+          OPTIONAL { ?a1 schema:about ?par ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?parTitle . } } }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
     }`, opts);
   const seasons = new Map();
   for (const r of rows) {
     const id = qid(r.s.value);
     const s = seasons.get(id) || seasons.set(id, { qid: id, label: r.sLabel?.value, teams: [] }).get(id);
-    if (r.t && !s.teams.some(t => t.qid === qid(r.t.value))) s.teams.push({ qid: qid(r.t.value), label: r.tLabel?.value, enwiki: r.tTitle?.value ?? null });
+    if (!r.t0) continue;
+    // 팀 항목에 상위 구단이 있으면 상위 구단을 쓴다
+    const t = r.par
+      ? { qid: qid(r.par.value), label: r.parLabel?.value, enwiki: r.parTitle?.value ?? null }
+      : { qid: qid(r.t0.value), label: r.t0Label?.value, enwiki: r.t0Title?.value ?? null };
+    if (!s.teams.some((x) => x.qid === t.qid)) s.teams.push(t);
   }
   return [...seasons.values()];
 }
@@ -231,4 +237,26 @@ async function clubProfiles(qids, opts) {
   return out;
 }
 
-module.exports = { searchClub, clubMemberships, byEnwikiTitles, playerFacts, labels, leagueSeasons, playerProfiles, clubProfiles };
+// 구단 연고 도시: 본부 소재지(P159) → 없으면 소재 행정구역(P131). 한국어 · 영어 표기
+async function clubCities(qids, opts) {
+  const out = {};
+  for (let i = 0; i < qids.length; i += 100) {
+    const chunk = qids.slice(i, i + 100);
+    const rows = await sparql(`
+      SELECT ?club ?hq ?hqKo ?hqEn ?loc ?locKo ?locEn WHERE {
+        VALUES ?club { ${chunk.map(q => `wd:${q}`).join(' ')} }
+        OPTIONAL { ?club wdt:P159 ?hq . OPTIONAL { ?hq rdfs:label ?hqKo FILTER(lang(?hqKo) = "ko") } OPTIONAL { ?hq rdfs:label ?hqEn FILTER(lang(?hqEn) = "en") } }
+        OPTIONAL { ?club wdt:P131 ?loc . OPTIONAL { ?loc rdfs:label ?locKo FILTER(lang(?locKo) = "ko") } OPTIONAL { ?loc rdfs:label ?locEn FILTER(lang(?locEn) = "en") } }
+      }`, opts);
+    for (const r of rows) {
+      const id = qid(r.club.value);
+      if (out[id]?.ko) continue;
+      const ko = r.hqKo?.value ?? r.locKo?.value ?? null;
+      const en = r.hqEn?.value ?? r.locEn?.value ?? null;
+      if (ko || en) out[id] = { ko, en };
+    }
+  }
+  return out;
+}
+
+module.exports = { clubCities, searchClub, clubMemberships, byEnwikiTitles, playerFacts, labels, leagueSeasons, playerProfiles, clubProfiles };

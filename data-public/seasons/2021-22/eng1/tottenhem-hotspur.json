@@ -1,0 +1,707 @@
+{
+  "club": "tottenhem-hotspur",
+  "estimated": true,
+  "facilities": {
+    "training": 5,
+    "youth": 4
+  },
+  "finance": {
+    "balance": 80000000,
+    "transferBudget": 100000000,
+    "wageBudget": 3800000
+  },
+  "formation": "3-4-3",
+  "league": "eng1",
+  "reputation": 87,
+  "season": "2021-22",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 81,
+        "han": 81,
+        "ldr": 85,
+        "one": 84,
+        "pac": 49,
+        "pas": 64,
+        "pos": 84,
+        "ref": 87,
+        "sta": 63,
+        "str": 74,
+        "vis": 65
+      },
+      "birth": "1986-12-01",
+      "contract": "2022-06-30",
+      "foot": "L",
+      "height": 188,
+      "id": "p1n66mxh",
+      "name": "Hugo Lluris",
+      "nation": "FRA",
+      "number": 1,
+      "pos": "GK",
+      "traits": [
+        "leader"
+      ],
+      "wage": 115000
+    },
+    {
+      "attrs": {
+        "aer": 75,
+        "com": 73,
+        "han": 71,
+        "ldr": 65,
+        "one": 72,
+        "pac": 49,
+        "pas": 59,
+        "pos": 72,
+        "ref": 75,
+        "sta": 61,
+        "str": 66,
+        "vis": 55
+      },
+      "birth": "1995-03-01",
+      "contract": "2022-06-30",
+      "foot": "R",
+      "height": 194,
+      "id": "p1i2nu3n",
+      "loan": "atalante-bc",
+      "name": "Pierluigi Gullini",
+      "nation": "ITA",
+      "number": 22,
+      "pos": "GK",
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 55,
+        "com": 65,
+        "dri": 66,
+        "ldr": 61,
+        "pac": 74,
+        "pas": 66,
+        "pos": 67,
+        "sho": 52,
+        "sta": 72,
+        "str": 64,
+        "tac": 67,
+        "vis": 60
+      },
+      "birth": "1999-01-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p1ykelol",
+      "name": "Emerson Roial",
+      "nation": "BRA",
+      "number": 12,
+      "pos": "RB",
+      "wage": 75000
+    },
+    {
+      "alt": [
+        "LWB"
+      ],
+      "attrs": {
+        "aer": 64,
+        "com": 74,
+        "dri": 75,
+        "ldr": 66,
+        "pac": 80,
+        "pas": 77,
+        "pos": 73,
+        "sho": 58,
+        "sta": 80,
+        "str": 69,
+        "tac": 76,
+        "vis": 71
+      },
+      "birth": "1996-12-01",
+      "contract": "2025-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p07xsnam",
+      "name": "Sergio Reguilun",
+      "nation": "ESP",
+      "number": 3,
+      "pos": "LB",
+      "wage": 75000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 72,
+        "com": 72,
+        "dri": 62,
+        "ldr": 68,
+        "pac": 70,
+        "pas": 69,
+        "pos": 74,
+        "sho": 44,
+        "sta": 69,
+        "str": 74,
+        "tac": 76,
+        "vis": 60
+      },
+      "birth": "1993-04-01",
+      "contract": "2024-06-30",
+      "foot": "L",
+      "height": 181,
+      "id": "p1s6bhs8",
+      "name": "Ben Davyes",
+      "nation": "WAL",
+      "number": 33,
+      "pos": "LB",
+      "wage": 75000
+    },
+    {
+      "alt": [
+        "DM"
+      ],
+      "attrs": {
+        "aer": 81,
+        "com": 76,
+        "dri": 64,
+        "ldr": 69,
+        "pac": 67,
+        "pas": 78,
+        "pos": 76,
+        "sho": 45,
+        "sta": 75,
+        "str": 80,
+        "tac": 79,
+        "vis": 62
+      },
+      "birth": "1994-01-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p0l17x1j",
+      "name": "Eric Diar",
+      "nation": "ENG",
+      "number": 15,
+      "pos": "CB",
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 75,
+        "com": 72,
+        "dri": 61,
+        "ldr": 62,
+        "pac": 81,
+        "pas": 65,
+        "pos": 74,
+        "sho": 41,
+        "sta": 69,
+        "str": 77,
+        "tac": 75,
+        "vis": 57
+      },
+      "birth": "1996-06-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p03wa24k",
+      "name": "Davinson Senchez",
+      "nation": "COL",
+      "number": 6,
+      "pos": "CB",
+      "wage": 85000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 68,
+        "dri": 59,
+        "ldr": 60,
+        "pac": 65,
+        "pas": 63,
+        "pos": 68,
+        "sho": 42,
+        "sta": 67,
+        "str": 68,
+        "tac": 71,
+        "vis": 56
+      },
+      "birth": "1999-03-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 184,
+      "id": "p0x2lq42",
+      "name": "Japhet Tangenga",
+      "nation": "ENG",
+      "number": 25,
+      "pos": "CB",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 82,
+        "com": 80,
+        "dri": 67,
+        "ldr": 75,
+        "pac": 73,
+        "pas": 75,
+        "pos": 83,
+        "sho": 41,
+        "sta": 78,
+        "str": 83,
+        "tac": 85,
+        "vis": 62
+      },
+      "birth": "1998-04-01",
+      "contract": "2022-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0b987dj",
+      "loan": "atalante-bc",
+      "name": "Cristian Rumero",
+      "nation": "ARG",
+      "number": 4,
+      "pos": "CB",
+      "wage": 75000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 61,
+        "com": 67,
+        "dri": 68,
+        "ldr": 64,
+        "pac": 75,
+        "pas": 68,
+        "pos": 69,
+        "sho": 58,
+        "sta": 78,
+        "str": 66,
+        "tac": 69,
+        "vis": 64
+      },
+      "birth": "1992-01-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 182,
+      "id": "p0v8s2hp",
+      "name": "Matt Doharty",
+      "nation": "IRL",
+      "number": 2,
+      "pos": "RWB",
+      "wage": 85000
+    },
+    {
+      "attrs": {
+        "aer": 73,
+        "com": 67,
+        "dri": 53,
+        "ldr": 63,
+        "pac": 57,
+        "pas": 61,
+        "pos": 69,
+        "sho": 35,
+        "sta": 65,
+        "str": 73,
+        "tac": 69,
+        "vis": 51
+      },
+      "birth": "1997-10-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 193,
+      "id": "p0l7v5z5",
+      "name": "Joe Rodun",
+      "nation": "WAL",
+      "number": 14,
+      "pos": "CB",
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 59,
+        "com": 67,
+        "dri": 80,
+        "ldr": 51,
+        "pac": 86,
+        "pas": 73,
+        "pos": 68,
+        "sho": 69,
+        "sta": 80,
+        "str": 63,
+        "tac": 58,
+        "vis": 69
+      },
+      "birth": "2000-05-01",
+      "contract": "2024-06-30",
+      "foot": "L",
+      "height": 178,
+      "id": "p0xwvc8o",
+      "name": "Ryan Sessagnon",
+      "nation": "ENG",
+      "number": 19,
+      "pos": "LB",
+      "wage": 45000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 68,
+        "com": 76,
+        "dri": 70,
+        "ldr": 81,
+        "pac": 63,
+        "pas": 76,
+        "pos": 78,
+        "sho": 63,
+        "sta": 86,
+        "str": 74,
+        "tac": 81,
+        "vis": 73
+      },
+      "birth": "1995-08-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1k5wzug",
+      "name": "Pierre-Emile Hojbjarg",
+      "nation": "DEN",
+      "number": 5,
+      "pos": "DM",
+      "traits": [
+        "leader"
+      ],
+      "wage": 80000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 63,
+        "com": 69,
+        "dri": 63,
+        "ldr": 59,
+        "pac": 66,
+        "pas": 70,
+        "pos": 69,
+        "sho": 57,
+        "sta": 72,
+        "str": 70,
+        "tac": 72,
+        "vis": 67
+      },
+      "birth": "2000-09-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p0672k6b",
+      "name": "Oliver Skypp",
+      "nation": "ENG",
+      "number": 29,
+      "pos": "DM",
+      "wage": 30000
+    },
+    {
+      "attrs": {
+        "aer": 46,
+        "com": 76,
+        "dri": 74,
+        "ldr": 58,
+        "pac": 64,
+        "pas": 82,
+        "pos": 70,
+        "sho": 52,
+        "sta": 80,
+        "str": 54,
+        "tac": 66,
+        "vis": 76
+      },
+      "birth": "1996-02-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1fimv5i",
+      "name": "Harry Wynks",
+      "nation": "ENG",
+      "number": 8,
+      "pos": "CM",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 80000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 57,
+        "com": 81,
+        "dri": 82,
+        "ldr": 66,
+        "pac": 66,
+        "pas": 82,
+        "pos": 57,
+        "sho": 78,
+        "sta": 71,
+        "str": 59,
+        "tac": 53,
+        "vis": 82
+      },
+      "birth": "1996-04-01",
+      "contract": "2024-06-30",
+      "foot": "L",
+      "height": 177,
+      "id": "p0s3hl0v",
+      "name": "Giovani Lo Celsu",
+      "nation": "ARG",
+      "number": 18,
+      "pos": "CM",
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 62,
+        "com": 77,
+        "dri": 74,
+        "ldr": 68,
+        "pac": 72,
+        "pas": 79,
+        "pos": 70,
+        "sho": 70,
+        "sta": 82,
+        "str": 69,
+        "tac": 69,
+        "vis": 77
+      },
+      "birth": "1996-12-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 181,
+      "id": "p1aymb40",
+      "name": "Tanguy Ndombale",
+      "nation": "FRA",
+      "number": 28,
+      "pos": "CM",
+      "wage": 175000
+    },
+    {
+      "attrs": {
+        "aer": 69,
+        "com": 71,
+        "dri": 75,
+        "ldr": 68,
+        "pac": 68,
+        "pas": 71,
+        "pos": 77,
+        "sho": 75,
+        "sta": 74,
+        "str": 66,
+        "tac": 55,
+        "vis": 71
+      },
+      "birth": "1996-04-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p03tgv3c",
+      "name": "Dele Ally",
+      "nation": "ENG",
+      "number": 20,
+      "pos": "AM",
+      "traits": [
+        "big_game"
+      ],
+      "wage": 115000
+    },
+    {
+      "alt": [
+        "RW"
+      ],
+      "attrs": {
+        "aer": 46,
+        "com": 65,
+        "dri": 69,
+        "ldr": 52,
+        "pac": 67,
+        "pas": 63,
+        "pos": 47,
+        "sho": 65,
+        "sta": 62,
+        "str": 53,
+        "tac": 47,
+        "vis": 60
+      },
+      "birth": "2001-02-01",
+      "contract": "2026-06-30",
+      "foot": "L",
+      "height": 175,
+      "id": "p1c978qk",
+      "name": "Brian Gil",
+      "nation": "ESP",
+      "number": 11,
+      "pos": "LW",
+      "wage": 60000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 48,
+        "com": 69,
+        "dri": 83,
+        "ldr": 61,
+        "pac": 78,
+        "pas": 69,
+        "pos": 57,
+        "sho": 68,
+        "sta": 69,
+        "str": 56,
+        "tac": 44,
+        "vis": 69
+      },
+      "birth": "1992-08-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 172,
+      "id": "p1jwh8yi",
+      "name": "Lucas Moure",
+      "nation": "BRA",
+      "number": 27,
+      "pos": "RW",
+      "traits": [
+        "speedster"
+      ],
+      "wage": 95000
+    },
+    {
+      "alt": [
+        "RW"
+      ],
+      "attrs": {
+        "aer": 54,
+        "com": 66,
+        "dri": 77,
+        "ldr": 57,
+        "pac": 82,
+        "pas": 71,
+        "pos": 54,
+        "sho": 70,
+        "sta": 73,
+        "str": 60,
+        "tac": 46,
+        "vis": 69
+      },
+      "birth": "1997-10-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1f7d6aw",
+      "name": "Steven Bargwijn",
+      "nation": "NED",
+      "number": 23,
+      "pos": "LW",
+      "wage": 75000
+    },
+    {
+      "alt": [
+        "ST"
+      ],
+      "attrs": {
+        "aer": 55,
+        "com": 85,
+        "dri": 86,
+        "ldr": 70,
+        "pac": 87,
+        "pas": 79,
+        "pos": 64,
+        "sho": 87,
+        "sta": 80,
+        "str": 64,
+        "tac": 51,
+        "vis": 78
+      },
+      "birth": "1992-07-01",
+      "contract": "2025-06-30",
+      "foot": "B",
+      "height": 183,
+      "id": "p0fv7zw4",
+      "name": "Son Heong-min",
+      "nation": "KOR",
+      "number": 7,
+      "pos": "LW",
+      "traits": [
+        "clutch",
+        "long_shot"
+      ],
+      "wage": 220000
+    },
+    {
+      "attrs": {
+        "aer": 82,
+        "com": 91,
+        "dri": 79,
+        "ldr": 84,
+        "pac": 70,
+        "pas": 85,
+        "pos": 60,
+        "sho": 92,
+        "sta": 79,
+        "str": 84,
+        "tac": 43,
+        "vis": 87
+      },
+      "birth": "1993-07-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p18m9ouq",
+      "name": "Harry Kana",
+      "nation": "ENG",
+      "number": 10,
+      "pos": "ST",
+      "traits": [
+        "penalty",
+        "big_game",
+        "playmaker"
+      ],
+      "wage": 230000
+    },
+    {
+      "attrs": {
+        "aer": 53,
+        "com": 52,
+        "dri": 55,
+        "ldr": 41,
+        "pac": 56,
+        "pas": 47,
+        "pos": 37,
+        "sho": 59,
+        "sta": 53,
+        "str": 52,
+        "tac": 21,
+        "vis": 50
+      },
+      "birth": "2004-03-01",
+      "contract": "2023-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0cnn8q5",
+      "name": "Dane Scarlatt",
+      "nation": "ENG",
+      "number": 44,
+      "pos": "ST",
+      "verify": true,
+      "wage": 5000
+    }
+  ],
+  "stadiumCapacity": 62850
+}

@@ -1,12 +1,17 @@
 // 월드 생성과 하루 진행 (advanceDay)
 import type { ClubSeasonFile } from '../data/types';
 import type { ClubState, Competition, Fixture, GameEvent, Hidden, PlayerState, Tactics, World } from './types';
+import { WORLD_VERSION } from './types';
+import type { SquadPlayer } from '../data/types';
 import { createRng, hashSeed, type Rng } from './rng';
 import { buildFixtures, seasonStart } from './fixtures';
 import { applyResult, emptyRow, sortTable } from './standings';
-import { DEFAULT_FORMATION, FORMATIONS, guessFormation, matchRules, pickLineup } from './squad';
+import { DEFAULT_FORMATION, FORMATIONS, guessFormation, matchRules } from './squad';
 import { createMatch, finalFitness, minutesPlayed, playToEnd, type MatchState } from './match';
 import { dailyUpdate } from './condition';
+import { initialLoyalty, updatePlaytime } from './loyalty';
+import { recommend } from './ai';
+import type { Lineup } from './squad';
 
 export interface SeasonInput {
   season: string;
@@ -17,7 +22,7 @@ const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v
 const addDay = (iso: string, n = 1) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
 
 /** 숨은 속성 생성: 세이브 시드 + 선수 ID 기반 (출처 데이터 아님, 세이브마다 다름) */
-function genHidden(id: string, seed: number): Hidden {
+export function genHidden(id: string, seed: number): Hidden {
   const r = createRng(hashSeed(id) ^ seed);
   // 평균 10~11, 대부분 6~16
   const v = () => clamp(Math.round(10.5 + r.normal() * 3.2), 1, 20);
@@ -27,7 +32,20 @@ function genHidden(id: string, seed: number): Hidden {
   };
 }
 
-const emptyStats = () => ({ apps: 0, subApps: 0, goals: 0, assists: 0, yellow: 0, red: 0, cleanSheets: 0, ratingSum: 0 });
+/** 데이터 선수 → 월드 선수 (새 게임 · 다음 시즌 신규 등장 공통) */
+export function newPlayer(sp: SquadPlayer, clubId: string | null, seed: number): PlayerState {
+  const hidden = genHidden(sp.id, seed);
+  return {
+    id: sp.id, name: sp.name, birth: sp.birth, nation: sp.nation, pos: sp.pos, number: sp.number,
+    clubId, base: { ...sp.attrs }, growth: {}, wage: sp.wage, contract: sp.contract,
+    hidden, traits: [],
+    fitness: 100, condition: 0, morale: 60, sharpness: 70, recentRatings: [],
+    injury: null, suspension: 0, yellowCount: 0, loyalty: initialLoyalty({ hidden }), benchStreak: 0,
+    stats: emptyStats(), career: [],
+  };
+}
+
+export const emptyStats = () => ({ apps: 0, subApps: 0, goals: 0, assists: 0, yellow: 0, red: 0, cleanSheets: 0, ratingSum: 0 });
 
 export function createWorld(input: SeasonInput, userClubId: string, seed: number): World {
   const rng = createRng(seed);
@@ -45,13 +63,7 @@ export function createWorld(input: SeasonInput, userClubId: string, seed: number
           warnings.push(`중복 소속: ${sp.id} (${players[sp.id].clubId} / ${c.club})`);
           continue;
         }
-        players[sp.id] = {
-          id: sp.id, name: sp.name, birth: sp.birth, nation: sp.nation, pos: sp.pos, number: sp.number,
-          clubId: c.club, base: { ...sp.attrs }, growth: {}, wage: sp.wage, contract: sp.contract,
-          hidden: genHidden(sp.id, seed), traits: [],
-          fitness: 100, condition: 0, morale: 60, sharpness: 70, recentRatings: [],
-          injury: null, suspension: 0, yellowCount: 0, stats: emptyStats(),
-        };
+        players[sp.id] = newPlayer(sp, c.club, seed);
         squad.push(sp.id);
       }
       const formation = c.formation && FORMATIONS[c.formation] ? c.formation : guessFormation(squad.map((id) => players[id]));
@@ -70,23 +82,32 @@ export function createWorld(input: SeasonInput, userClubId: string, seed: number
   }
 
   return {
-    version: 1, seed, rng: rng.state(), date: seasonStart(input.season), season: input.season, userClubId,
-    players, clubs, competitions, inbox: [], warnings,
+    version: WORLD_VERSION, seed, rng: rng.state(), date: seasonStart(input.season), season: input.season, userClubId,
+    players, clubs, competitions, inbox: [], warnings, history: [],
   };
 }
 
-const squadOf = (w: World, clubId: string) => w.clubs[clubId].squad.map((id) => w.players[id]);
 
 /** 경기 하나 준비 (사용자 경기는 화면에서 이걸 받아 직접 진행할 수 있음) */
-export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?: 'home' | 'away'; tactics?: Partial<Record<'home' | 'away', Tactics>> } = {}): MatchState {
+/**
+ * 경기 하나 준비. lineups/tactics를 주면 그대로 쓰고(사용자가 확정한 선발),
+ * 없으면 AI가 상대에 맞춰 추천한 포메이션 · 성향 · 선발을 쓴다.
+ */
+export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?: 'home' | 'away'; tactics?: Partial<Record<'home' | 'away', Tactics>>; lineups?: Partial<Record<'home' | 'away', Lineup>> } = {}): MatchState {
   const rules = matchRules(w.season);
   const h = w.clubs[f.home], a = w.clubs[f.away];
-  const ht = opts.tactics?.home ?? h.tactics, at = opts.tactics?.away ?? a.tactics;
+  const plan = (side: 'home' | 'away') => {
+    const given = opts.lineups?.[side];
+    const club = side === 'home' ? f.home : f.away, opp = side === 'home' ? f.away : f.home;
+    if (given) return { lineup: given, tactics: { ...w.clubs[club].tactics, ...opts.tactics?.[side], formation: given.formation } };
+    const r = recommend(w, club, opp, side === 'home');
+    return { lineup: r.lineup, tactics: { ...r.tactics, ...opts.tactics?.[side] } };
+  };
+  const hp = plan('home'), ap = plan('away');
   return createMatch({
     home: f.home, away: f.away,
-    homeLineup: pickLineup(squadOf(w, f.home), ht.formation, rules.benchSize),
-    awayLineup: pickLineup(squadOf(w, f.away), at.formation, rules.benchSize),
-    homeTactics: ht, awayTactics: at, maxSubs: rules.maxSubs,
+    homeLineup: hp.lineup, awayLineup: ap.lineup,
+    homeTactics: hp.tactics, awayTactics: ap.tactics, maxSubs: rules.maxSubs,
     bigMatch: h.reputation >= 80 && a.reputation >= 80,
     manualSide: opts.manualSide,
   }, { players: w.players, rng });
@@ -133,6 +154,10 @@ export function applyMatch(w: World, f: Fixture, m: MatchState) {
     const delta = diff > 0 ? 4 : diff === 0 ? 0 : -4;
     for (const id of w.clubs[t.clubId].squad) w.players[id].morale = clamp(w.players[id].morale + delta, 0, 100);
   }
+  // 출전 시간 → 충성도 (징계 소진 전에: 경기 시작 때 징계 중이던 선수를 제외하기 위해)
+  const started = new Set([...Object.entries(m.home.played), ...Object.entries(m.away.played)].filter(([, pl]) => pl.from === 0).map(([id]) => id));
+  updatePlaytime(w, [f.home, f.away], mins, started);
+
   // 이번 경기에 징계로 못 뛴 선수: 정지 1경기 소진
   for (const club of [f.home, f.away]) for (const id of w.clubs[club].squad) {
     const p = w.players[id];

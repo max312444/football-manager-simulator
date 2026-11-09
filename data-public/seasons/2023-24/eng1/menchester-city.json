@@ -1,0 +1,732 @@
+{
+  "club": "menchester-city",
+  "estimated": true,
+  "facilities": {
+    "training": 5,
+    "youth": 5
+  },
+  "finance": {
+    "balance": 200000000,
+    "transferBudget": 80000000,
+    "wageBudget": 5200000
+  },
+  "formation": "4-3-3",
+  "league": "eng1",
+  "reputation": 94,
+  "season": "2023-24",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 85,
+        "com": 88,
+        "han": 84,
+        "ldr": 81,
+        "one": 86,
+        "pac": 60,
+        "pas": 93,
+        "pos": 90,
+        "ref": 86,
+        "sta": 71,
+        "str": 78,
+        "vis": 84
+      },
+      "birth": "1993-08-01",
+      "contract": "2026-06-30",
+      "foot": "L",
+      "height": 188,
+      "id": "p1urofti",
+      "name": "Edarson",
+      "nation": "BRA",
+      "number": 31,
+      "pos": "GK",
+      "traits": [
+        "sweeper_keeper"
+      ],
+      "wage": 175000
+    },
+    {
+      "attrs": {
+        "aer": 74,
+        "com": 77,
+        "han": 75,
+        "ldr": 70,
+        "one": 75,
+        "pac": 52,
+        "pas": 79,
+        "pos": 78,
+        "ref": 76,
+        "sta": 66,
+        "str": 71,
+        "vis": 63
+      },
+      "birth": "1992-11-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0njwekz",
+      "name": "Stefan Ortege",
+      "nation": "GER",
+      "number": 18,
+      "pos": "GK",
+      "wage": 67000
+    },
+    {
+      "attrs": {
+        "aer": 58,
+        "com": 58,
+        "han": 56,
+        "ldr": 61,
+        "one": 59,
+        "pac": 27,
+        "pas": 50,
+        "pos": 57,
+        "ref": 60,
+        "sta": 39,
+        "str": 53,
+        "vis": 49
+      },
+      "birth": "1985-09-01",
+      "contract": "2024-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p1tp0cuh",
+      "name": "Scott Carsun",
+      "nation": "ENG",
+      "number": 33,
+      "pos": "GK",
+      "wage": 20000
+    },
+    {
+      "attrs": {
+        "aer": 72,
+        "com": 71,
+        "han": 75,
+        "ldr": 63,
+        "one": 75,
+        "pac": 49,
+        "pas": 59,
+        "pos": 72,
+        "ref": 76,
+        "sta": 59,
+        "str": 66,
+        "vis": 58
+      },
+      "birth": "1995-04-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 191,
+      "id": "p0sx3trx",
+      "name": "Zack Staffen",
+      "nation": "USA",
+      "number": 13,
+      "pos": "GK",
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 67,
+        "com": 79,
+        "dri": 76,
+        "ldr": 79,
+        "pac": 87,
+        "pas": 79,
+        "pos": 79,
+        "sho": 52,
+        "sta": 80,
+        "str": 79,
+        "tac": 81,
+        "vis": 70
+      },
+      "birth": "1990-05-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0nixe49",
+      "name": "Kyle Walkar",
+      "nation": "ENG",
+      "number": 2,
+      "pos": "RB",
+      "traits": [
+        "speedster"
+      ],
+      "wage": 205000
+    },
+    {
+      "attrs": {
+        "aer": 89,
+        "com": 87,
+        "dri": 69,
+        "ldr": 87,
+        "pac": 77,
+        "pas": 78,
+        "pos": 89,
+        "sho": 44,
+        "sta": 82,
+        "str": 85,
+        "tac": 88,
+        "vis": 69
+      },
+      "birth": "1997-05-01",
+      "contract": "2027-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p12h7c70",
+      "name": "Ruben Dies",
+      "nation": "POR",
+      "number": 3,
+      "pos": "CB",
+      "traits": [
+        "leader"
+      ],
+      "wage": 233000
+    },
+    {
+      "alt": [
+        "RB",
+        "DM"
+      ],
+      "attrs": {
+        "aer": 85,
+        "com": 86,
+        "dri": 77,
+        "ldr": 77,
+        "pac": 75,
+        "pas": 85,
+        "pos": 86,
+        "sho": 51,
+        "sta": 76,
+        "str": 83,
+        "tac": 87,
+        "vis": 75
+      },
+      "birth": "1994-05-01",
+      "contract": "2026-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p00ns3fr",
+      "name": "John Stonas",
+      "nation": "ENG",
+      "number": 5,
+      "pos": "CB",
+      "traits": [
+        "injury_prone"
+      ],
+      "wage": 213000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 79,
+        "com": 81,
+        "dri": 70,
+        "ldr": 71,
+        "pac": 73,
+        "pas": 75,
+        "pos": 81,
+        "sho": 45,
+        "sta": 74,
+        "str": 80,
+        "tac": 81,
+        "vis": 67
+      },
+      "birth": "1995-02-01",
+      "contract": "2027-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p0ed8c5g",
+      "name": "Nethan Ake",
+      "nation": "NED",
+      "number": 6,
+      "pos": "CB",
+      "wage": 138000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 78,
+        "com": 76,
+        "dri": 74,
+        "ldr": 68,
+        "pac": 77,
+        "pas": 76,
+        "pos": 78,
+        "sho": 60,
+        "sta": 79,
+        "str": 79,
+        "tac": 80,
+        "vis": 68
+      },
+      "birth": "2002-01-01",
+      "contract": "2028-06-30",
+      "foot": "L",
+      "height": 185,
+      "id": "p145igh9",
+      "name": "Josko Gvardiul",
+      "nation": "CRO",
+      "number": 24,
+      "pos": "CB",
+      "wage": 200000
+    },
+    {
+      "alt": [
+        "RB"
+      ],
+      "attrs": {
+        "aer": 78,
+        "com": 79,
+        "dri": 65,
+        "ldr": 70,
+        "pac": 80,
+        "pas": 81,
+        "pos": 81,
+        "sho": 42,
+        "sta": 70,
+        "str": 80,
+        "tac": 80,
+        "vis": 59
+      },
+      "birth": "1995-07-01",
+      "contract": "2027-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p0u7xzff",
+      "name": "Manuel Akanjy",
+      "nation": "SUI",
+      "number": 25,
+      "pos": "CB",
+      "wage": 120000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 51,
+        "com": 71,
+        "dri": 67,
+        "ldr": 50,
+        "pac": 69,
+        "pas": 75,
+        "pos": 62,
+        "sho": 51,
+        "sta": 71,
+        "str": 55,
+        "tac": 63,
+        "vis": 63
+      },
+      "birth": "2004-11-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 169,
+      "id": "p0xeesuw",
+      "name": "Rico Lawis",
+      "nation": "ENG",
+      "number": 82,
+      "pos": "RB",
+      "wage": 33000
+    },
+    {
+      "attrs": {
+        "aer": 61,
+        "com": 67,
+        "dri": 70,
+        "ldr": 56,
+        "pac": 71,
+        "pas": 69,
+        "pos": 66,
+        "sho": 58,
+        "sta": 72,
+        "str": 63,
+        "tac": 70,
+        "vis": 66
+      },
+      "birth": "2000-09-01",
+      "contract": "2026-06-30",
+      "foot": "L",
+      "height": 171,
+      "id": "p05vdaza",
+      "name": "Sergio Gumez",
+      "nation": "ESP",
+      "number": 21,
+      "pos": "LB",
+      "wage": 40000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 77,
+        "dri": 70,
+        "ldr": 66,
+        "pac": 62,
+        "pas": 81,
+        "pos": 76,
+        "sho": 62,
+        "sta": 84,
+        "str": 70,
+        "tac": 77,
+        "vis": 69
+      },
+      "birth": "1995-12-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p0ijgohb",
+      "name": "Kalvin Phyllips",
+      "nation": "ENG",
+      "number": 4,
+      "pos": "DM",
+      "wage": 175000
+    },
+    {
+      "attrs": {
+        "aer": 63,
+        "com": 82,
+        "dri": 87,
+        "ldr": 71,
+        "pac": 70,
+        "pas": 86,
+        "pos": 71,
+        "sho": 69,
+        "sta": 82,
+        "str": 70,
+        "tac": 69,
+        "vis": 78
+      },
+      "birth": "1994-05-01",
+      "contract": "2027-06-30",
+      "foot": "R",
+      "height": 177,
+      "id": "p10ebqz4",
+      "name": "Mateo Kovacyc",
+      "nation": "CRO",
+      "number": 8,
+      "pos": "CM",
+      "wage": 180000
+    },
+    {
+      "attrs": {
+        "aer": 83,
+        "com": 90,
+        "dri": 77,
+        "ldr": 83,
+        "pac": 62,
+        "pas": 89,
+        "pos": 90,
+        "sho": 75,
+        "sta": 82,
+        "str": 83,
+        "tac": 85,
+        "vis": 87
+      },
+      "birth": "1996-06-01",
+      "contract": "2027-06-30",
+      "foot": "R",
+      "fullName": "Rodrigo Hernández Cascante",
+      "height": 191,
+      "id": "p1uzs07f",
+      "name": "Rodry",
+      "nation": "ESP",
+      "number": 16,
+      "pos": "DM",
+      "traits": [
+        "playmaker"
+      ],
+      "wage": 223000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 63,
+        "com": 90,
+        "dri": 86,
+        "ldr": 84,
+        "pac": 74,
+        "pas": 94,
+        "pos": 63,
+        "sho": 88,
+        "sta": 83,
+        "str": 73,
+        "tac": 58,
+        "vis": 95
+      },
+      "birth": "1991-06-01",
+      "contract": "2025-06-30",
+      "foot": "R",
+      "height": 181,
+      "id": "p0pctxhp",
+      "name": "Kevin De Broyne",
+      "nation": "BEL",
+      "number": 17,
+      "pos": "AM",
+      "traits": [
+        "playmaker",
+        "big_game",
+        "long_shot"
+      ],
+      "wage": 470000
+    },
+    {
+      "alt": [
+        "RW",
+        "CM"
+      ],
+      "attrs": {
+        "aer": 57,
+        "com": 89,
+        "dri": 89,
+        "ldr": 78,
+        "pac": 75,
+        "pas": 87,
+        "pos": 65,
+        "sho": 80,
+        "sta": 91,
+        "str": 66,
+        "tac": 67,
+        "vis": 87
+      },
+      "birth": "1994-08-01",
+      "contract": "2026-06-30",
+      "foot": "L",
+      "height": 173,
+      "id": "p1uz5jaq",
+      "name": "Bernardo Silve",
+      "nation": "POR",
+      "number": 20,
+      "pos": "AM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 310000
+    },
+    {
+      "attrs": {
+        "aer": 65,
+        "com": 77,
+        "dri": 83,
+        "ldr": 67,
+        "pac": 75,
+        "pas": 82,
+        "pos": 70,
+        "sho": 69,
+        "sta": 84,
+        "str": 72,
+        "tac": 69,
+        "vis": 78
+      },
+      "birth": "1998-08-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0h955jq",
+      "name": "Matheus Nunas",
+      "nation": "POR",
+      "number": 27,
+      "pos": "CM",
+      "wage": 144000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 53,
+        "com": 80,
+        "dri": 87,
+        "ldr": 67,
+        "pac": 81,
+        "pas": 83,
+        "pos": 54,
+        "sho": 73,
+        "sta": 77,
+        "str": 71,
+        "tac": 50,
+        "vis": 82
+      },
+      "birth": "1995-09-01",
+      "contract": "2027-06-30",
+      "foot": "R",
+      "height": 180,
+      "id": "p1cy5po9",
+      "name": "Jack Greelish",
+      "nation": "ENG",
+      "number": 10,
+      "pos": "LW",
+      "traits": [
+        "flair"
+      ],
+      "wage": 350000
+    },
+    {
+      "alt": [
+        "RW"
+      ],
+      "attrs": {
+        "aer": 40,
+        "com": 68,
+        "dri": 86,
+        "ldr": 50,
+        "pac": 89,
+        "pas": 70,
+        "pos": 42,
+        "sho": 66,
+        "sta": 73,
+        "str": 65,
+        "tac": 36,
+        "vis": 70
+      },
+      "birth": "2002-05-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 173,
+      "id": "p0m2u4aa",
+      "name": "Jeremy Doko",
+      "nation": "BEL",
+      "number": 11,
+      "pos": "LW",
+      "traits": [
+        "speedster",
+        "flair"
+      ],
+      "wage": 144000
+    },
+    {
+      "alt": [
+        "AM",
+        "RW"
+      ],
+      "attrs": {
+        "aer": 52,
+        "com": 85,
+        "dri": 89,
+        "ldr": 70,
+        "pac": 83,
+        "pas": 84,
+        "pos": 58,
+        "sho": 83,
+        "sta": 79,
+        "str": 64,
+        "tac": 54,
+        "vis": 85
+      },
+      "birth": "2000-05-01",
+      "contract": "2027-06-30",
+      "foot": "L",
+      "height": 171,
+      "id": "p0h71m4w",
+      "name": "Phil Fuden",
+      "nation": "ENG",
+      "number": 47,
+      "pos": "LW",
+      "traits": [
+        "flair"
+      ],
+      "wage": 273000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 36,
+        "com": 66,
+        "dri": 76,
+        "ldr": 44,
+        "pac": 79,
+        "pas": 68,
+        "pos": 40,
+        "sho": 62,
+        "sta": 69,
+        "str": 53,
+        "tac": 34,
+        "vis": 68
+      },
+      "birth": "2003-07-01",
+      "contract": "2028-06-30",
+      "foot": "L",
+      "height": 174,
+      "id": "p1j7qhjf",
+      "name": "Oscar Bubb",
+      "nation": "NOR",
+      "number": 52,
+      "pos": "RW",
+      "wage": 45000
+    },
+    {
+      "attrs": {
+        "aer": 85,
+        "com": 89,
+        "dri": 79,
+        "ldr": 67,
+        "pac": 89,
+        "pas": 67,
+        "pos": 61,
+        "sho": 93,
+        "sta": 83,
+        "str": 91,
+        "tac": 47,
+        "vis": 70
+      },
+      "birth": "2000-07-01",
+      "contract": "2027-06-30",
+      "foot": "L",
+      "height": 194,
+      "id": "p0aj93cl",
+      "looks": {
+        "beard": "none",
+        "hair": "bun",
+        "hairColor": "blonde"
+      },
+      "name": "Erling Haeland",
+      "nation": "NOR",
+      "number": 9,
+      "pos": "ST",
+      "traits": [
+        "big_game",
+        "speedster"
+      ],
+      "wage": 497000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 72,
+        "com": 84,
+        "dri": 79,
+        "ldr": 69,
+        "pac": 82,
+        "pas": 73,
+        "pos": 58,
+        "sho": 86,
+        "sta": 90,
+        "str": 80,
+        "tac": 60,
+        "vis": 72
+      },
+      "birth": "2000-01-01",
+      "contract": "2028-06-30",
+      "foot": "R",
+      "height": 170,
+      "id": "p13p8011",
+      "name": "Julian Alverez",
+      "nation": "ARG",
+      "number": 19,
+      "pos": "ST",
+      "traits": [
+        "engine"
+      ],
+      "wage": 85000
+    }
+  ],
+  "stadiumCapacity": 53400
+}

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useApp } from '../../store/app';
 import { useGame } from '../../store/game';
-import { availableSeasons, clubKo, clubs as clubMasters, leagues, loadLeagueSeason, playerKo } from '../../data/db';
+import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadLeagueSeason, playerKo, realAvailable, setDataset } from '../../data/db';
 import { overall } from '../../data/rating';
 import type { ClubSeasonFile } from '../../data/types';
 import { Crest } from '../components/Crest';
@@ -71,6 +71,18 @@ export function NewGameScreen() {
             </li>
           ))}
         </ol>
+        {realAvailable && (
+          <div className="mt-10">
+            <div className="mb-2 text-[12px] text-lo">이름 데이터</div>
+            <div className="flex gap-1 rounded-lg bg-ink-850 p-1">
+              {([['public', '가상 이름'], ['real', '실명 (내 PC)']] as const).map(([k, label]) => (
+                <button key={k} onClick={() => k !== dataset && setDataset(k)}
+                  className={`h-8 flex-1 rounded-md text-[12px] transition-colors ${dataset === k ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{label}</button>
+              ))}
+            </div>
+            <p className="mt-2 text-[11px] leading-relaxed text-lo">실명 데이터는 이 PC에서 파이프라인으로 만든 것이며 저장소에는 없습니다.</p>
+          </div>
+        )}
         <p className="mt-auto text-[12px] leading-relaxed text-lo">
           고른 시즌의 실제 선수단으로 시작합니다. 7월 1일 프리시즌부터 진행되며, 여름 이적시장이 열려 있습니다.
         </p>

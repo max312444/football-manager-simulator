@@ -1,4 +1,7 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { listSaves, type SaveMeta } from '../../store/save';
+import { SaveSlots } from '../components/SaveSlots';
+import { NoticeDialog, noticeSeen } from '../components/NoticeDialog';
 import { PitchArt } from '../components/PitchArt';
 import { useApp } from '../../store/app';
 import { useGame } from '../../store/game';
@@ -9,7 +12,15 @@ interface MenuItem { key: string; label: string; desc: string; disabled?: boolea
 export function TitleScreen() {
   const go = useApp((s) => s.go);
   const hasWorld = useGame((s) => !!s.world);
+  const load = useGame((s) => s.load);
   const [hover, setHover] = useState<string | null>(null);
+  const [saves, setSaves] = useState<SaveMeta[]>([]);
+  const [loadOpen, setLoadOpen] = useState(false);
+  // 안내: 새 게임을 처음 시작할 때 한 번 (또는 '고지 보기')
+  const [notice, setNotice] = useState<null | 'start' | 'view'>(null);
+  useEffect(() => { listSaves().then(setSaves).catch(() => setSaves([])); }, []);
+  const latest = saves[0];
+  const resume = async () => { if (hasWorld) return go('hub'); if (latest && await load(latest.slot)) go('hub'); };
 
   const dataStatus = useMemo(() =>
     leagues.filter((l) => l.level === 1 && l.tier === 'A')
@@ -18,9 +29,9 @@ export function TitleScreen() {
   []);
 
   const items: MenuItem[] = [
-    { key: 'new', label: '새 게임', desc: '시즌과 리그, 구단을 골라 감독 커리어를 시작합니다', action: () => go('newgame') },
-    { key: 'continue', label: '이어하기', desc: hasWorld ? '진행 중인 게임으로 돌아갑니다' : '저장된 게임이 없습니다', disabled: !hasWorld, action: () => go('hub') },
-    { key: 'load', label: '불러오기', desc: '저장 슬롯에서 게임을 불러옵니다', disabled: true },
+    { key: 'new', label: '새 게임', desc: '시즌과 리그, 구단을 골라 감독 커리어를 시작합니다', action: () => (noticeSeen() ? go('newgame') : setNotice('start')) },
+    { key: 'continue', label: '이어하기', desc: hasWorld ? '진행 중인 게임으로 돌아갑니다' : latest ? `가장 최근 저장 · ${latest.season.replace('-', '/')} ${latest.date.slice(5).replace('-', '.')}` : '저장된 게임이 없습니다', disabled: !hasWorld && !latest, action: () => void resume() },
+    { key: 'load', label: '불러오기', desc: '저장 슬롯에서 게임을 불러옵니다', disabled: !saves.length, action: () => setLoadOpen(true) },
     { key: 'db', label: '데이터베이스', desc: '수록된 리그·구단·선수를 둘러봅니다', disabled: true },
     { key: 'settings', label: '설정', desc: '언어, 화면, 진행 속도', disabled: true },
   ];
@@ -100,9 +111,24 @@ export function TitleScreen() {
               ))}
             </div>
           </div>
-          <div className="tnum">v0.0.1 · M0</div>
+          <div className="tnum">v0.1</div>
         </footer>
+        <button onClick={() => setNotice('view')} className="mt-4 self-start text-[11px] text-lo transition-colors hover:text-mid">비공식 팬 프로젝트 · 고지 보기</button>
       </div>
+
+      {notice && <NoticeDialog confirmLabel={notice === 'start' ? '확인하고 시작' : '닫기'} onClose={() => { const n = notice; setNotice(null); if (n === 'start') go('newgame'); }} />}
+
+      {loadOpen && (
+        <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-8 backdrop-blur-sm" onClick={() => setLoadOpen(false)}>
+          <div className="panel w-full max-w-[520px] overflow-hidden" onClick={(e) => e.stopPropagation()}>
+            <header className="flex items-center justify-between border-b border-line px-6 py-4">
+              <h2 className="text-[15px] font-semibold">불러오기</h2>
+              <button onClick={() => setLoadOpen(false)} className="text-[13px] text-lo hover:text-hi">닫기</button>
+            </header>
+            <SaveSlots mode="load" onPick={async (slot) => { if (await load(slot)) go('hub'); }} />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

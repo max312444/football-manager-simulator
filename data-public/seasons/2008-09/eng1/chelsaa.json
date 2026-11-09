@@ -1,0 +1,782 @@
+{
+  "club": "chelsaa",
+  "estimated": true,
+  "facilities": {
+    "training": 5,
+    "youth": 4
+  },
+  "finance": {
+    "balance": 80000000,
+    "transferBudget": 50000000,
+    "wageBudget": 3400000
+  },
+  "formation": "4-3-3",
+  "league": "eng1",
+  "reputation": 90,
+  "season": "2008-09",
+  "squad": [
+    {
+      "attrs": {
+        "aer": 88,
+        "com": 88,
+        "han": 90,
+        "ldr": 86,
+        "one": 88,
+        "pac": 68,
+        "pas": 73,
+        "pos": 91,
+        "ref": 91,
+        "sta": 79,
+        "str": 81,
+        "vis": 66
+      },
+      "birth": "1982-05-01",
+      "contract": "2010-06-30",
+      "foot": "L",
+      "height": 196,
+      "id": "p1pozzhj",
+      "name": "Petr Cach",
+      "nation": "CZE",
+      "number": 1,
+      "pos": "GK",
+      "wage": 100000
+    },
+    {
+      "attrs": {
+        "aer": 75,
+        "com": 82,
+        "han": 78,
+        "ldr": 86,
+        "one": 78,
+        "pac": 52,
+        "pas": 65,
+        "pos": 77,
+        "ref": 81,
+        "sta": 60,
+        "str": 68,
+        "vis": 55
+      },
+      "birth": "1973-09-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 186,
+      "id": "p0ii8400",
+      "name": "Carlo Cudicyni",
+      "nation": "ITA",
+      "number": 23,
+      "pos": "GK",
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 66,
+        "com": 72,
+        "han": 72,
+        "ldr": 78,
+        "one": 72,
+        "pac": 47,
+        "pas": 54,
+        "pos": 69,
+        "ref": 70,
+        "sta": 57,
+        "str": 64,
+        "vis": 46
+      },
+      "birth": "1975-10-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "fullName": "Henrique Hilário Meireles Alves Sampaio",
+      "height": 188,
+      "id": "p16yemmq",
+      "name": "Hylario",
+      "nation": "POR",
+      "number": 40,
+      "pos": "GK",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "CB"
+      ],
+      "attrs": {
+        "aer": 67,
+        "com": 73,
+        "dri": 74,
+        "ldr": 63,
+        "pac": 82,
+        "pas": 71,
+        "pos": 80,
+        "sho": 54,
+        "sta": 84,
+        "str": 86,
+        "tac": 79,
+        "vis": 66
+      },
+      "birth": "1984-02-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p1531wqi",
+      "name": "Branislav Ivanovyc",
+      "nation": "SRB",
+      "number": 2,
+      "pos": "RB",
+      "wage": 45000
+    },
+    {
+      "attrs": {
+        "aer": 76,
+        "com": 82,
+        "dri": 82,
+        "ldr": 77,
+        "pac": 88,
+        "pas": 81,
+        "pos": 85,
+        "sho": 61,
+        "sta": 91,
+        "str": 76,
+        "tac": 84,
+        "vis": 74
+      },
+      "birth": "1980-12-01",
+      "contract": "2012-06-30",
+      "foot": "L",
+      "height": 176,
+      "id": "p1a5701k",
+      "name": "Ashley Cola",
+      "nation": "ENG",
+      "number": 3,
+      "pos": "LB",
+      "traits": [
+        "speedster"
+      ],
+      "wage": 110000
+    },
+    {
+      "alt": [
+        "DM",
+        "RB"
+      ],
+      "attrs": {
+        "aer": 65,
+        "com": 87,
+        "dri": 87,
+        "ldr": 77,
+        "pac": 78,
+        "pas": 91,
+        "pos": 72,
+        "sho": 80,
+        "sta": 94,
+        "str": 90,
+        "tac": 87,
+        "vis": 88
+      },
+      "birth": "1982-12-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 178,
+      "id": "p1bh5jrh",
+      "name": "Michael Essyen",
+      "nation": "GHA",
+      "number": 5,
+      "pos": "CM",
+      "traits": [
+        "engine"
+      ],
+      "wage": 110000
+    },
+    {
+      "attrs": {
+        "aer": 91,
+        "com": 88,
+        "dri": 65,
+        "ldr": 88,
+        "pac": 77,
+        "pas": 69,
+        "pos": 89,
+        "sho": 48,
+        "sta": 83,
+        "str": 91,
+        "tac": 92,
+        "vis": 62
+      },
+      "birth": "1978-05-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p10nk1lg",
+      "name": "Ricardo Cervalho",
+      "nation": "POR",
+      "number": 6,
+      "pos": "CB",
+      "wage": 90000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 65,
+        "com": 90,
+        "dri": 87,
+        "ldr": 86,
+        "pac": 80,
+        "pas": 88,
+        "pos": 76,
+        "sho": 89,
+        "sta": 90,
+        "str": 78,
+        "tac": 74,
+        "vis": 87
+      },
+      "birth": "1978-06-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 184,
+      "id": "p1af88r1",
+      "name": "Frank Lempard",
+      "nation": "ENG",
+      "number": 8,
+      "pos": "CM",
+      "traits": [
+        "long_shot",
+        "penalty",
+        "big_game"
+      ],
+      "wage": 190000
+    },
+    {
+      "attrs": {
+        "aer": 58,
+        "com": 58,
+        "dri": 60,
+        "ldr": 42,
+        "pac": 59,
+        "pas": 53,
+        "pos": 25,
+        "sho": 68,
+        "sta": 56,
+        "str": 57,
+        "tac": 20,
+        "vis": 51
+      },
+      "birth": "1989-04-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 192,
+      "id": "p15q47dw",
+      "name": "Franco Di Santu",
+      "nation": "ARG",
+      "number": 9,
+      "pos": "ST",
+      "wage": 25000
+    },
+    {
+      "alt": [
+        "AM",
+        "RW"
+      ],
+      "attrs": {
+        "aer": 51,
+        "com": 81,
+        "dri": 87,
+        "ldr": 67,
+        "pac": 86,
+        "pas": 80,
+        "pos": 53,
+        "sho": 77,
+        "sta": 82,
+        "str": 61,
+        "tac": 46,
+        "vis": 76
+      },
+      "birth": "1981-11-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p10ol3wd",
+      "name": "Joe Cule",
+      "nation": "ENG",
+      "number": 10,
+      "pos": "LW",
+      "traits": [
+        "flair"
+      ],
+      "wage": 90000
+    },
+    {
+      "attrs": {
+        "aer": 89,
+        "com": 90,
+        "dri": 81,
+        "ldr": 80,
+        "pac": 84,
+        "pas": 74,
+        "pos": 53,
+        "sho": 89,
+        "sta": 77,
+        "str": 92,
+        "tac": 43,
+        "vis": 75
+      },
+      "birth": "1978-03-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 189,
+      "id": "p0a8j5m2",
+      "name": "Didier Drogbe",
+      "nation": "CIV",
+      "number": 11,
+      "pos": "ST",
+      "traits": [
+        "target_man",
+        "big_game"
+      ],
+      "wage": 120000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 69,
+        "com": 71,
+        "dri": 67,
+        "ldr": 66,
+        "pac": 69,
+        "pas": 74,
+        "pos": 79,
+        "sho": 58,
+        "sta": 82,
+        "str": 81,
+        "tac": 85,
+        "vis": 68
+      },
+      "birth": "1987-04-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 188,
+      "id": "p0rhxseq",
+      "name": "John Obi Mykel",
+      "nation": "NGA",
+      "number": 12,
+      "pos": "DM",
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 84,
+        "com": 87,
+        "dri": 82,
+        "ldr": 86,
+        "pac": 62,
+        "pas": 87,
+        "pos": 71,
+        "sho": 85,
+        "sta": 86,
+        "str": 72,
+        "tac": 69,
+        "vis": 85
+      },
+      "birth": "1976-09-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 189,
+      "id": "p0cu62ov",
+      "name": "Michael Balleck",
+      "nation": "GER",
+      "number": 13,
+      "pos": "CM",
+      "traits": [
+        "leader",
+        "long_shot"
+      ],
+      "wage": 160000
+    },
+    {
+      "alt": [
+        "LM"
+      ],
+      "attrs": {
+        "aer": 49,
+        "com": 79,
+        "dri": 82,
+        "ldr": 69,
+        "pac": 84,
+        "pas": 78,
+        "pos": 49,
+        "sho": 73,
+        "sta": 82,
+        "str": 59,
+        "tac": 43,
+        "vis": 76
+      },
+      "birth": "1980-06-01",
+      "contract": "2011-06-30",
+      "foot": "L",
+      "height": 182,
+      "id": "p0wrmp9o",
+      "name": "Florent Maluuda",
+      "nation": "FRA",
+      "number": 15,
+      "pos": "LW",
+      "wage": 85000
+    },
+    {
+      "attrs": {
+        "aer": 69,
+        "com": 80,
+        "dri": 77,
+        "ldr": 70,
+        "pac": 86,
+        "pas": 78,
+        "pos": 81,
+        "sho": 59,
+        "sta": 84,
+        "str": 74,
+        "tac": 85,
+        "vis": 67
+      },
+      "birth": "1982-08-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0lmyyhc",
+      "name": "Jose Bosingwe",
+      "nation": "POR",
+      "number": 17,
+      "pos": "RB",
+      "wage": 75000
+    },
+    {
+      "attrs": {
+        "aer": 65,
+        "com": 72,
+        "dri": 70,
+        "ldr": 71,
+        "pac": 80,
+        "pas": 71,
+        "pos": 75,
+        "sho": 52,
+        "sta": 78,
+        "str": 69,
+        "tac": 78,
+        "vis": 61
+      },
+      "birth": "1980-08-01",
+      "contract": "2011-06-30",
+      "foot": "L",
+      "height": 180,
+      "id": "p1a7vfka",
+      "name": "Wayne Bridga",
+      "nation": "ENG",
+      "number": 18,
+      "pos": "LB",
+      "wage": 60000
+    },
+    {
+      "alt": [
+        "AM"
+      ],
+      "attrs": {
+        "aer": 64,
+        "com": 88,
+        "dri": 86,
+        "ldr": 84,
+        "pac": 62,
+        "pas": 89,
+        "pos": 72,
+        "sho": 77,
+        "sta": 89,
+        "str": 74,
+        "tac": 69,
+        "vis": 88
+      },
+      "birth": "1977-08-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "fullName": "Anderson Luís de Souza",
+      "height": 174,
+      "id": "p11eatf7",
+      "name": "Daco",
+      "nation": "POR",
+      "nation2": "BRA",
+      "number": 20,
+      "pos": "CM",
+      "traits": [
+        "playmaker"
+      ],
+      "wage": 120000
+    },
+    {
+      "alt": [
+        "LB"
+      ],
+      "attrs": {
+        "aer": 62,
+        "com": 75,
+        "dri": 68,
+        "ldr": 68,
+        "pac": 76,
+        "pas": 71,
+        "pos": 74,
+        "sho": 51,
+        "sta": 81,
+        "str": 65,
+        "tac": 75,
+        "vis": 59
+      },
+      "birth": "1979-01-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p0k91diq",
+      "name": "Paulo Farreira",
+      "nation": "POR",
+      "number": 19,
+      "pos": "RB",
+      "wage": 55000
+    },
+    {
+      "alt": [
+        "ST",
+        "LW"
+      ],
+      "attrs": {
+        "aer": 46,
+        "com": 72,
+        "dri": 81,
+        "ldr": 58,
+        "pac": 86,
+        "pas": 74,
+        "pos": 49,
+        "sho": 72,
+        "sta": 79,
+        "str": 57,
+        "tac": 39,
+        "vis": 70
+      },
+      "birth": "1985-08-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "height": 184,
+      "id": "p04fi0ub",
+      "name": "Salomon Kaloo",
+      "nation": "CIV",
+      "number": 21,
+      "pos": "RW",
+      "wage": 50000
+    },
+    {
+      "attrs": {
+        "aer": 90,
+        "com": 89,
+        "dri": 67,
+        "ldr": 95,
+        "pac": 68,
+        "pas": 73,
+        "pos": 90,
+        "sho": 50,
+        "sta": 85,
+        "str": 93,
+        "tac": 89,
+        "vis": 65
+      },
+      "birth": "1980-12-01",
+      "contract": "2013-06-30",
+      "foot": "R",
+      "height": 187,
+      "id": "p192jnb0",
+      "name": "John Tarry",
+      "nation": "ENG",
+      "number": 26,
+      "pos": "CB",
+      "traits": [
+        "leader",
+        "aerial_threat"
+      ],
+      "wage": 170000
+    },
+    {
+      "attrs": {
+        "aer": 85,
+        "com": 82,
+        "dri": 61,
+        "ldr": 78,
+        "pac": 71,
+        "pas": 69,
+        "pos": 87,
+        "sho": 70,
+        "sta": 76,
+        "str": 88,
+        "tac": 88,
+        "vis": 55
+      },
+      "birth": "1982-06-01",
+      "contract": "2011-06-30",
+      "foot": "R",
+      "fullName": "Alex Rodrigo Dias da Costa",
+      "height": 188,
+      "id": "p0vpak3s",
+      "name": "Alax",
+      "nation": "BRA",
+      "number": 33,
+      "pos": "CB",
+      "traits": [
+        "long_shot"
+      ],
+      "wage": 50000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 63,
+        "com": 74,
+        "dri": 68,
+        "ldr": 73,
+        "pac": 73,
+        "pas": 68,
+        "pos": 76,
+        "sho": 72,
+        "sta": 79,
+        "str": 67,
+        "tac": 79,
+        "vis": 61
+      },
+      "birth": "1976-06-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 175,
+      "id": "p03mgwyx",
+      "name": "Juliano Bellatti",
+      "nation": "BRA",
+      "number": 35,
+      "pos": "RB",
+      "traits": [
+        "long_shot"
+      ],
+      "wage": 55000
+    },
+    {
+      "attrs": {
+        "aer": 77,
+        "com": 86,
+        "dri": 79,
+        "ldr": 78,
+        "pac": 86,
+        "pas": 72,
+        "pos": 50,
+        "sho": 86,
+        "sta": 74,
+        "str": 80,
+        "tac": 40,
+        "vis": 71
+      },
+      "birth": "1979-03-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 185,
+      "id": "p0v2gugc",
+      "name": "Nicolas Analka",
+      "nation": "FRA",
+      "number": 39,
+      "pos": "ST",
+      "wage": 110000
+    },
+    {
+      "alt": [
+        "CM"
+      ],
+      "attrs": {
+        "aer": 70,
+        "com": 68,
+        "dri": 61,
+        "ldr": 70,
+        "pac": 62,
+        "pas": 68,
+        "pos": 70,
+        "sho": 59,
+        "sta": 72,
+        "str": 75,
+        "tac": 73,
+        "vis": 67
+      },
+      "birth": "1975-08-01",
+      "contract": "2009-06-30",
+      "foot": "R",
+      "fullName": "Carlos Luciano da Silva",
+      "height": 177,
+      "id": "p1dscdcz",
+      "name": "Myneiro",
+      "nation": "BRA",
+      "number": 27,
+      "pos": "DM",
+      "wage": 30000
+    },
+    {
+      "alt": [
+        "RB",
+        "DM"
+      ],
+      "attrs": {
+        "aer": 68,
+        "com": 64,
+        "dri": 44,
+        "ldr": 60,
+        "pac": 56,
+        "pas": 52,
+        "pos": 68,
+        "sho": 37,
+        "sta": 60,
+        "str": 73,
+        "tac": 66,
+        "vis": 47
+      },
+      "birth": "1988-01-01",
+      "contract": "2012-06-30",
+      "foot": "R",
+      "height": 183,
+      "id": "p1tb0zse",
+      "name": "Michael Mencienne",
+      "nation": "ENG",
+      "number": 42,
+      "pos": "CB",
+      "wage": 19000
+    },
+    {
+      "alt": [
+        "LW"
+      ],
+      "attrs": {
+        "aer": 49,
+        "com": 54,
+        "dri": 67,
+        "ldr": 39,
+        "pac": 67,
+        "pas": 59,
+        "pos": 44,
+        "sho": 61,
+        "sta": 63,
+        "str": 50,
+        "tac": 41,
+        "vis": 58
+      },
+      "birth": "1989-10-01",
+      "contract": "2010-06-30",
+      "foot": "R",
+      "height": 168,
+      "id": "p0s2zxhc",
+      "name": "Miroslav Stuch",
+      "nation": "SVK",
+      "number": 43,
+      "pos": "RW",
+      "wage": 8000
+    }
+  ],
+  "stadiumCapacity": 42055
+}

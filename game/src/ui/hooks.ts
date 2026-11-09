@@ -6,3 +6,6 @@ export function useWorld(): World {
   useGame((s) => s.rev);
   return useGame((s) => s.world)!;
 }
+
+// 개발 중 변경 시 페이지 전체 새로 고침 (상태 어긋남 방지)
+if (import.meta.hot) import.meta.hot.accept(() => location.reload());

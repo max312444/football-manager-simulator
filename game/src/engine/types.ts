@@ -54,8 +54,18 @@ export interface PlayerState {
   injury: { days: number; label: string } | null;
   suspension: number;  // 남은 출장 정지 경기 수
   yellowCount: number; // 누적 경고 (리그)
+  loyalty: number;     // 충성도 0~100 (출전 시간에 따라 변함)
+  benchStreak: number; // 뛸 수 있는데 연속으로 못 나간 경기 수
+  unhappy?: boolean;   // 출전 시간 불만 알림을 보냈는지
 
   stats: SeasonStats;
+  /** 지난 시즌 기록 (시즌이 끝날 때 쌓임) */
+  career: CareerEntry[];
+  retired?: boolean;
+}
+
+export interface CareerEntry {
+  season: string; club: string | null; apps: number; goals: number; assists: number; rating: number | null;
 }
 
 export interface ClubState {
@@ -65,6 +75,8 @@ export interface ClubState {
   squad: string[];
   tactics: Tactics;
   finance: { balance: number; transferBudget: number; wageBudget: number };
+  /** 사용자가 직접 정한 선발 (없으면 자동 선택). 자리 순서는 포메이션 자리 순서 */
+  lineup?: { starters: (string | null)[]; bench: string[] } | null;
 }
 
 export interface Fixture {
@@ -105,8 +117,18 @@ export type GameEvent =
   | { type: 'seasonEnd'; date: string; league: string; champion: string }
   | { type: 'info'; date: string; text: string };
 
+export interface SeasonRecord {
+  season: string;
+  league: string;
+  table: TableRow[];
+  champion: string;
+  topScorer: { player: string; club: string | null; goals: number } | null;
+}
+
+export const WORLD_VERSION = 2;
+
 export interface World {
-  version: 1;
+  version: typeof WORLD_VERSION;
   seed: number;
   rng: number;               // 난수 상태 (이어서 진행용)
   date: string;
@@ -117,4 +139,7 @@ export interface World {
   competitions: Record<string, Competition>;
   inbox: GameEvent[];
   warnings: string[];        // 데이터 문제 (중복 소속 등)
+  history: SeasonRecord[];   // 지난 시즌 최종 순위
+  /** 어느 데이터로 만든 세이브인지 (public: 패러디 이름, real: 실명). 없으면 옛 세이브 = real */
+  dataset?: 'public' | 'real';
 }

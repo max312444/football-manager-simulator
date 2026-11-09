@@ -1,11 +1,12 @@
+import { useState } from 'react';
 import type { Position } from '../../data/types';
-import { FORMATIONS, matchRules, pickLineup } from '../../engine/squad';
+import { available, FORMATIONS, matchRules, pickLineup } from '../../engine/squad';
 import { slotRating } from '../../engine/ratings';
 import { playerKo } from '../../data/db';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { ratingTone } from '../format';
-import { Card } from '../components/bits';
+import { Card, ConditionIcon, FitnessBar, PosTag } from '../components/bits';
 import type { Mentality, Pressing } from '../../engine/types';
 
 export const MENTALITY: { v: Mentality; label: string }[] = [
@@ -48,60 +49,130 @@ export function Pitch({ children }: { children: React.ReactNode }) {
 export function TacticsView() {
   const w = useWorld();
   const setClubTactics = useGame((s) => s.setClubTactics);
+  const setLineup = useGame((s) => s.setLineup);
+  const [sel, setSel] = useState<number | null>(null);
   const club = w.clubs[w.userClubId];
   const t = club.tactics;
   const squad = club.squad.map((id) => w.players[id]);
-  const lineup = pickLineup(squad, t.formation, matchRules(w.season).benchSize);
-  const pos = slotXY(lineup.starters.map((s) => s.slot));
+  const rules = matchRules(w.season);
+  const lineup = pickLineup(squad, t.formation, rules.benchSize, club.lineup?.starters, club.lineup?.bench);
+  const slots = FORMATIONS[lineup.formation];
+  const pos = slotXY(slots);
+  const fixed = club.lineup?.starters ?? [];
+  // 자리 순서대로 현재 선발 (자동 선택분 포함)
+  const current: (string | null)[] = slots.map((_, i) => lineup.starters[i]?.id ?? null);
+
+  const assign = (slotIdx: number, id: string) => {
+    const next = slots.map((_, i) => fixed[i] ?? null);
+    const from = next.indexOf(id);
+    if (from >= 0) next[from] = next[slotIdx];      // 다른 자리에 직접 지정돼 있던 선수면 맞바꿈
+    next[slotIdx] = id;
+    setLineup(next, club.lineup?.bench ?? []);
+    setSel(null);
+  };
+  const fixAll = () => setLineup(current, lineup.bench);
+  const changeFormation = (f: string) => {
+    if (f === t.formation) return;
+    setClubTactics({ formation: f });
+    setLineup(null);                                // 자리 구성이 바뀌므로 직접 지정 초기화
+    setSel(null);
+  };
 
   const seg = <T extends number>(opts: { v: T; label: string }[], value: T, on: (v: T) => void) => (
     <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
       {opts.map((o) => (
-        <button key={o.v} onClick={() => on(o.v)} className={`h-8 flex-1 rounded-md text-[13px] transition-colors ${value === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
+        <button key={o.v} onClick={() => on(o.v)}
+          className={`h-8 flex-1 rounded-md text-[13px] transition-colors ${value === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
       ))}
     </div>
   );
 
+  const candidates = sel == null ? [] : [...squad].sort((a, b) => slotRating(b, slots[sel]) - slotRating(a, slots[sel]));
+
   return (
-    <div className="flex h-full gap-5 p-6">
+    <div className="flex h-full gap-6 p-6">
       <div className="w-[440px] shrink-0">
         <Pitch>
-          {lineup.starters.map((s, i) => {
-            const p = w.players[s.id];
-            const r = Math.round(slotRating(p, s.slot));
+          {slots.map((slot, i) => {
+            const id = current[i];
+            const p = id ? w.players[id] : null;
+            const r = p ? Math.round(slotRating(p, slot)) : 0;
+            const isFixed = !!fixed[i] && fixed[i] === id;
+            const ring = sel === i ? 'bg-neon text-ink-950 ring-2 ring-neon' : isFixed ? 'ring-2 ring-neon/80' : 'ring-1 ring-mid/40';
             return (
-              <div key={s.id} className="absolute flex w-24 -translate-x-1/2 -translate-y-1/2 flex-col items-center" style={{ left: `${pos[i].x}%`, top: `${pos[i].y}%` }}>
-                <div className="grid h-9 w-9 place-items-center rounded-full bg-ink-950/90 text-[13px] font-semibold ring-2 ring-neon/70">{p.number ?? ''}</div>
-                <div className="mt-1 max-w-full truncate rounded bg-ink-950/80 px-1.5 text-[12px] font-semibold">{playerKo(p.id, p.name).split(' ').slice(-1)[0]}</div>
-                <div className="text-[11px] text-lo">{s.slot} · <span className={ratingTone(r)}>{r}</span></div>
-              </div>
+              <button key={i} onClick={() => setSel(sel === i ? null : i)}
+                className="absolute flex w-24 -translate-x-1/2 -translate-y-1/2 flex-col items-center"
+                style={{ left: `${pos[i].x}%`, top: `${pos[i].y}%` }}>
+                <div className={`grid h-9 w-9 place-items-center rounded-full bg-ink-950/90 text-[13px] font-semibold transition-colors ${ring}`}>{p?.number ?? ''}</div>
+                <div className="mt-1 max-w-full truncate rounded bg-ink-950/80 px-1.5 text-[12px] font-semibold">{p ? playerKo(p.id, p.name).split(' ').slice(-1)[0] : '빈 자리'}</div>
+                <div className="text-[11px] text-lo">{slot}{p && <> · <span className={ratingTone(r)}>{r}</span></>}</div>
+              </button>
             );
           })}
         </Pitch>
+        <div className="mt-3 flex items-center justify-between text-[12px] text-lo">
+          <span className="flex items-center gap-4">
+            <span className="flex items-center gap-2"><span className="inline-block h-3 w-3 rounded-full ring-2 ring-neon/80" />직접 지정</span>
+            <span className="flex items-center gap-2"><span className="inline-block h-3 w-3 rounded-full ring-1 ring-mid/40" />자동 선택</span>
+          </span>
+          <span className="flex gap-4">
+            <button onClick={fixAll} className="text-mid transition-colors hover:text-hi">현재 선발 고정</button>
+            <button onClick={() => setLineup(null)} disabled={!club.lineup} className="text-mid transition-colors hover:text-hi disabled:opacity-40">모두 자동으로</button>
+          </span>
+        </div>
       </div>
+
       <div className="flex min-w-0 flex-1 flex-col gap-4">
-        <Card title="포메이션">
-          <div className="grid grid-cols-5 gap-2 p-4">
-            {Object.keys(FORMATIONS).map((f) => (
-              <button key={f} onClick={() => setClubTactics({ formation: f })}
-                className={`tnum h-9 rounded-md text-[13px] transition-colors ${t.formation === f ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>{f}</button>
-            ))}
-          </div>
-        </Card>
-        <Card title="팀 성향">
-          <div className="space-y-4 p-4">
-            <div><div className="mb-2 text-[12px] text-lo">공격 · 수비 성향</div>{seg(MENTALITY, t.mentality, (v) => setClubTactics({ mentality: v }))}</div>
-            <div><div className="mb-2 text-[12px] text-lo">압박 강도 <span className="text-lo">— 높으면 상대 기회 ↓, 체력 소모 ↑</span></div>{seg(PRESSING, t.pressing, (v) => setClubTactics({ pressing: v }))}</div>
-          </div>
-        </Card>
-        <Card title="후보 (자동 선택)" className="flex-1">
-          <div className="grid grid-cols-2 gap-x-6 px-5 py-3 text-[13px]">
-            {lineup.bench.map((id) => { const p = w.players[id]; return (
-              <div key={id} className="flex items-center gap-2 py-1"><span className="w-9 text-[11px] font-semibold text-lo">{p.pos}</span><span className="truncate">{playerKo(p.id, p.name)}</span></div>
-            ); })}
-          </div>
-          <p className="px-5 pb-4 text-[12px] text-lo">선발은 체력과 자리 적합도로 자동 선택됩니다. 직접 지정은 다음 단계에서 추가됩니다.</p>
-        </Card>
+        {sel != null ? (
+          <Card title={`${slots[sel]} 자리에 넣을 선수`} action={<button onClick={() => setSel(null)} className="text-[12px] text-lo hover:text-hi">닫기</button>} className="min-h-0 flex-1">
+            <div className="h-full overflow-auto">
+              {candidates.map((p) => {
+                const r = Math.round(slotRating(p, slots[sel]));
+                const where = current.indexOf(p.id);
+                const ok = available(p);
+                return (
+                  <button key={p.id} disabled={!ok} onClick={() => assign(sel, p.id)}
+                    className="flex w-full items-center gap-3 px-5 py-2 text-left text-[13px] shadow-[inset_0_-1px_0_var(--color-line)] transition-colors enabled:hover:bg-ink-800 disabled:opacity-40">
+                    <PosTag pos={p.pos} />
+                    <span className="min-w-0 flex-1 truncate">
+                      {playerKo(p.id, p.name)}
+                      {where >= 0 && <span className="ml-2 text-[12px] text-lo">선발 {slots[where]}</span>}
+                      {!ok && <span className="ml-2 text-[12px] text-red">{p.injury ? '부상' : '징계'}</span>}
+                    </span>
+                    <ConditionIcon value={p.condition} />
+                    <FitnessBar value={p.fitness} />
+                    <span className={`tnum w-7 text-right font-semibold ${ratingTone(r)}`}>{r}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </Card>
+        ) : (
+          <>
+            <Card title="포메이션">
+              <div className="grid grid-cols-5 gap-2 p-4">
+                {Object.keys(FORMATIONS).map((f) => (
+                  <button key={f} onClick={() => changeFormation(f)}
+                    className={`tnum h-9 rounded-md text-[13px] transition-colors ${t.formation === f ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>{f}</button>
+                ))}
+              </div>
+            </Card>
+            <Card title="팀 성향">
+              <div className="space-y-4 p-4">
+                <div><div className="mb-2 text-[12px] text-lo">공격 · 수비 성향</div>{seg(MENTALITY, t.mentality, (v) => setClubTactics({ mentality: v }))}</div>
+                <div><div className="mb-2 text-[12px] text-lo">압박 강도 — 높으면 상대 기회 ↓, 체력 소모 ↑</div>{seg(PRESSING, t.pressing, (v) => setClubTactics({ pressing: v }))}</div>
+              </div>
+            </Card>
+            <Card title={`후보 ${lineup.bench.length}명`} className="flex-1">
+              <div className="grid grid-cols-2 gap-x-6 px-5 py-3 text-[13px]">
+                {lineup.bench.map((id) => { const p = w.players[id]; return (
+                  <div key={id} className="flex items-center gap-2 py-1"><span className="w-9 text-[11px] font-semibold text-lo">{p.pos}</span><span className="truncate">{playerKo(p.id, p.name)}</span></div>
+                ); })}
+              </div>
+              <p className="px-5 pb-4 text-[12px] leading-relaxed text-lo">피치의 자리를 눌러 선수를 바꿀 수 있습니다. 직접 지정하지 않은 자리와 부상 · 징계로 빠진 자리는 체력과 자리 적합도로 자동 선택됩니다.</p>
+            </Card>
+          </>
+        )}
       </div>
     </div>
   );

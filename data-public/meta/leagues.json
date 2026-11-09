@@ -1,0 +1,361 @@
+{
+  "_tiers": {
+    "A": "메인 리그 — 전체 시뮬레이션, 감독 가능, 전체 선수단 실데이터",
+    "B": "서브 리그 — 전체 시뮬레이션, 감독 가능, 주요 선수 실데이터 + 나머지 자동 생성",
+    "C": "선수 풀 — 경기 시뮬레이션 없음, 이적 대상 선수만 존재 (이후 유명해진 선수 위주)"
+  },
+  "leagues": [
+    {
+      "en": "English Premier Division",
+      "id": "eng1",
+      "ko": "잉글리시 프리미어 디비전",
+      "level": 1,
+      "nation": "ENG",
+      "tier": "A"
+    },
+    {
+      "en": "English First Division",
+      "id": "eng2",
+      "ko": "잉글리시 퍼스트 디비전",
+      "level": 2,
+      "nation": "ENG",
+      "tier": "A"
+    },
+    {
+      "en": "Liga Iberica",
+      "id": "esp1",
+      "ko": "리가 이베리카",
+      "level": 1,
+      "nation": "ESP",
+      "tier": "A"
+    },
+    {
+      "en": "Liga Iberica 2",
+      "id": "esp2",
+      "ko": "리가 이베리카 2",
+      "level": 2,
+      "nation": "ESP",
+      "tier": "A"
+    },
+    {
+      "en": "Deutsche Division",
+      "id": "ger1",
+      "ko": "도이체 디비전",
+      "level": 1,
+      "nation": "GER",
+      "tier": "A"
+    },
+    {
+      "en": "Deutsche Division 2",
+      "id": "ger2",
+      "ko": "도이체 디비전 2",
+      "level": 2,
+      "nation": "GER",
+      "tier": "A"
+    },
+    {
+      "en": "Calcio Division",
+      "id": "ita1",
+      "ko": "칼초 디비전",
+      "level": 1,
+      "nation": "ITA",
+      "tier": "A"
+    },
+    {
+      "en": "Calcio Division 2",
+      "id": "ita2",
+      "ko": "칼초 디비전 2",
+      "level": 2,
+      "nation": "ITA",
+      "tier": "A"
+    },
+    {
+      "en": "Ligue Francaise",
+      "id": "fra1",
+      "ko": "리그 프랑세즈",
+      "level": 1,
+      "nation": "FRA",
+      "tier": "A"
+    },
+    {
+      "en": "Ligue Francaise 2",
+      "id": "fra2",
+      "ko": "리그 프랑세즈 2",
+      "level": 2,
+      "nation": "FRA",
+      "tier": "A"
+    },
+    {
+      "en": "NED Division 1",
+      "id": "ned1",
+      "ko": "NED 1부 리그",
+      "level": 1,
+      "nation": "NED",
+      "tier": "B"
+    },
+    {
+      "en": "POR Division 1",
+      "id": "por1",
+      "ko": "POR 1부 리그",
+      "level": 1,
+      "nation": "POR",
+      "tier": "B"
+    },
+    {
+      "en": "BEL Division 1",
+      "id": "bel1",
+      "ko": "BEL 1부 리그",
+      "level": 1,
+      "nation": "BEL",
+      "tier": "B"
+    },
+    {
+      "en": "SCO Division 1",
+      "id": "sco1",
+      "ko": "SCO 1부 리그",
+      "level": 1,
+      "nation": "SCO",
+      "tier": "B"
+    },
+    {
+      "en": "TUR Division 1",
+      "id": "tur1",
+      "ko": "TUR 1부 리그",
+      "level": 1,
+      "nation": "TUR",
+      "tier": "B"
+    },
+    {
+      "en": "BRA Division 1",
+      "id": "bra1",
+      "ko": "BRA 1부 리그",
+      "level": 1,
+      "nation": "BRA",
+      "tier": "B"
+    },
+    {
+      "en": "ARG Division 1",
+      "id": "arg1",
+      "ko": "ARG 1부 리그",
+      "level": 1,
+      "nation": "ARG",
+      "tier": "B"
+    },
+    {
+      "en": "USA Division 1",
+      "id": "usa1",
+      "ko": "USA 1부 리그",
+      "level": 1,
+      "nation": "USA",
+      "tier": "B"
+    },
+    {
+      "en": "KOR Division 1",
+      "id": "kor1",
+      "ko": "KOR 1부 리그",
+      "level": 1,
+      "nation": "KOR",
+      "tier": "B"
+    },
+    {
+      "en": "JPN Division 1",
+      "id": "jpn1",
+      "ko": "JPN 1부 리그",
+      "level": 1,
+      "nation": "JPN",
+      "tier": "B"
+    },
+    {
+      "en": "KSA Division 1",
+      "id": "ksa1",
+      "ko": "KSA 1부 리그",
+      "level": 1,
+      "nation": "KSA",
+      "tier": "B"
+    },
+    {
+      "en": "AUT Division 1",
+      "id": "aut1",
+      "ko": "AUT 1부 리그",
+      "level": 1,
+      "nation": "AUT",
+      "tier": "C"
+    },
+    {
+      "en": "SUI Division 1",
+      "id": "sui1",
+      "ko": "SUI 1부 리그",
+      "level": 1,
+      "nation": "SUI",
+      "tier": "C"
+    },
+    {
+      "en": "DEN Division 1",
+      "id": "den1",
+      "ko": "DEN 1부 리그",
+      "level": 1,
+      "nation": "DEN",
+      "tier": "C"
+    },
+    {
+      "en": "NOR Division 1",
+      "id": "nor1",
+      "ko": "NOR 1부 리그",
+      "level": 1,
+      "nation": "NOR",
+      "tier": "C"
+    },
+    {
+      "en": "SWE Division 1",
+      "id": "swe1",
+      "ko": "SWE 1부 리그",
+      "level": 1,
+      "nation": "SWE",
+      "tier": "C"
+    },
+    {
+      "en": "GRE Division 1",
+      "id": "gre1",
+      "ko": "GRE 1부 리그",
+      "level": 1,
+      "nation": "GRE",
+      "tier": "C"
+    },
+    {
+      "en": "CRO Division 1",
+      "id": "cro1",
+      "ko": "CRO 1부 리그",
+      "level": 1,
+      "nation": "CRO",
+      "tier": "C"
+    },
+    {
+      "en": "SRB Division 1",
+      "id": "srb1",
+      "ko": "SRB 1부 리그",
+      "level": 1,
+      "nation": "SRB",
+      "tier": "C"
+    },
+    {
+      "en": "CZE Division 1",
+      "id": "cze1",
+      "ko": "CZE 1부 리그",
+      "level": 1,
+      "nation": "CZE",
+      "tier": "C"
+    },
+    {
+      "en": "POL Division 1",
+      "id": "pol1",
+      "ko": "POL 1부 리그",
+      "level": 1,
+      "nation": "POL",
+      "tier": "C"
+    },
+    {
+      "en": "UKR Division 1",
+      "id": "ukr1",
+      "ko": "UKR 1부 리그",
+      "level": 1,
+      "nation": "UKR",
+      "tier": "C"
+    },
+    {
+      "en": "RUS Division 1",
+      "id": "rus1",
+      "ko": "RUS 1부 리그",
+      "level": 1,
+      "nation": "RUS",
+      "tier": "C"
+    },
+    {
+      "en": "MEX Division 1",
+      "id": "mex1",
+      "ko": "MEX 1부 리그",
+      "level": 1,
+      "nation": "MEX",
+      "tier": "C"
+    },
+    {
+      "en": "URU Division 1",
+      "id": "uru1",
+      "ko": "URU 1부 리그",
+      "level": 1,
+      "nation": "URU",
+      "tier": "C"
+    },
+    {
+      "en": "COL Division 1",
+      "id": "col1",
+      "ko": "COL 1부 리그",
+      "level": 1,
+      "nation": "COL",
+      "tier": "C"
+    },
+    {
+      "en": "CHI Division 1",
+      "id": "chi1",
+      "ko": "CHI 1부 리그",
+      "level": 1,
+      "nation": "CHI",
+      "tier": "C"
+    },
+    {
+      "en": "ECU Division 1",
+      "id": "ecu1",
+      "ko": "ECU 1부 리그",
+      "level": 1,
+      "nation": "ECU",
+      "tier": "C"
+    },
+    {
+      "en": "CHN Division 1",
+      "id": "chn1",
+      "ko": "CHN 1부 리그",
+      "level": 1,
+      "nation": "CHN",
+      "tier": "C"
+    },
+    {
+      "en": "QAT Division 1",
+      "id": "qat1",
+      "ko": "QAT 1부 리그",
+      "level": 1,
+      "nation": "QAT",
+      "tier": "C"
+    },
+    {
+      "en": "UAE Division 1",
+      "id": "uae1",
+      "ko": "UAE 1부 리그",
+      "level": 1,
+      "nation": "UAE",
+      "tier": "C"
+    },
+    {
+      "en": "AUS Division 1",
+      "id": "aus1",
+      "ko": "AUS 1부 리그",
+      "level": 1,
+      "nation": "AUS",
+      "tier": "C"
+    },
+    {
+      "en": "null Division 1",
+      "id": "afr",
+      "ko": "null 1부 리그",
+      "level": 1,
+      "nation": null,
+      "tier": "C"
+    },
+    {
+      "en": "null Division 1",
+      "id": "etc",
+      "ko": "null 1부 리그",
+      "level": 1,
+      "nation": null,
+      "tier": "C"
+    }
+  ]
+}
