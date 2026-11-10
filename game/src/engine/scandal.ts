@@ -3,6 +3,7 @@
 //  - 매달 8일 · 23일, 내 구단 선수: 기질 · 프로의식이 낮을수록 잘 터짐 · 20일에 한 번까지 · 하나씩
 //  - 터지면 바로 조금 영향 (팬 여론 · 팀 분위기 · 신뢰도), 대응에 따라 더 바뀜: 감싸기 · 내부 징계 · 공개 비판 · 무시 (+ 동료 언쟁은 중재)
 //  - 논란이 쌓인 선수는 사가 (이적 요청 · 연봉 요구) 를 일으키기 쉬워짐 (saga.ts) · 기자회견에서 그 일을 묻는다 (press.ts)
+import { freqOf } from './gameSettings';
 import type { GameEvent, PlayerState, World } from './types';
 import type { Rng } from './rng';
 import { overall } from './ratings';
@@ -40,7 +41,7 @@ export function scandalDay(w: World, rng: Rng): GameEvent[] {
   for (const p of rng.next() < 0.5 ? squad : [...squad].reverse()) {
     // 위험도: 기질 (침착함) · 프로의식이 낮을수록, 논란 전력이 있으면 조금 더
     const risk = (20 - p.hidden.temperament) / 10 + (20 - p.hidden.professionalism) / 10 + (p.scandals ?? 0) * 0.2;   // 0 ~ 4
-    if (!rng.chance(0.0009 * risk * risk)) continue;
+    if (!rng.chance(0.0009 * risk * risk * freqOf(w, 'scandal'))) continue;
     const kinds: ScandalKind[] = ['nightlife', 'social', 'late', 'teammate', 'criticize', 'gesture'];
     const kind = rng.pick(kinds.filter((k) => k !== 'criticize' || p.morale < 50 || p.unhappy));
     const other = kind === 'teammate' ? rng.pick(squad.filter((q) => q.id !== p.id)).id : undefined;

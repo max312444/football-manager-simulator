@@ -19,7 +19,7 @@ import { applyBudgetFactor } from './board';
 import { boardNewSeason, fansSeasonEnd } from './boardEvents';
 import { ageOn } from './condition';
 import { FORMATIONS, guessFormation } from './squad';
-import { boardReview, prizeMoney, seasonBudgets } from './finance';
+import { boardReview, book, clubRevenue, prizeMoney, seasonBudgets } from './finance';
 import { traitSeasonEnd } from './traits';
 import { overall } from './ratings';
 import { levelOf, pairRule, PAIRS, poolOf } from './pyramid';
@@ -255,6 +255,9 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     // 강등 임금 삭감 조항: 지난 시즌보다 아래 리그로 내려가면 선수 주급 40% 삭감 (실제 계약의 강등 조항처럼, 모든 구단 같음)
     if (levelOf(club.league) > (prevLevel.get(club.id) ?? levelOf(club.league)))
       for (const id of club.squad) w.players[id].wage = Math.max(500, Math.round((w.players[id].wage * 0.6) / 500) * 500);
+    // 현금을 무한정 쌓지 않는다: 잔고가 연 매출의 60% 를 넘으면 넘는 돈의 60% 는 구단주 배당 · 부채 상환 (모든 구단 같은 규칙)
+    const rev = clubRevenue(w, club.id);
+    if (w.competitions[club.league] && club.finance.balance > rev * 0.6) book(w, club.id, 'owner', Math.round((club.finance.balance - rev * 0.6) * 0.6));
     const fin = adjust(d ? d.c.finance : club.finance, steps);
     club.sales = 0;   // 재정 규정의 판매 수입은 시즌마다 새로
     if (club.id !== w.userClubId) seasonBudgets(club, fin);
@@ -286,7 +289,9 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
       report.aged++;
     }
     // 은퇴: 다음 시즌 데이터에 없고 나이가 많으면 확률적으로
-    if (!d && rng.chance(retireChance(age, Object.values(p.base).reduce((a, b) => a + (b ?? 0), 0) / Math.max(1, Object.keys(p.base).length)))) {
+    // 자유계약으로 시즌을 넘긴 선수: 29세 이상 · 또는 22세 이상이면서 능력 62 미만이면 은퇴 (FA 가 끝없이 쌓이지 않게)
+    const faDone = !p.clubId && !d && (age >= 29 || (age >= 22 && overall(p) < 62));
+    if (faDone || (!d && rng.chance(retireChance(age, Object.values(p.base).reduce((a, b) => a + (b ?? 0), 0) / Math.max(1, Object.keys(p.base).length))))) {
       // 은퇴 소식: 내 구단 선수 · 스타 선수 (전성기 능력 82 이상, 수상 경력, 레전드 호칭)
       const ovr = overall(p);
       const mine = p.clubId === w.userClubId;

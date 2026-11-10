@@ -3,6 +3,8 @@ import { listSaves, type SaveMeta } from '../../store/save';
 import { SaveSlots } from '../components/SaveSlots';
 import { NoticeDialog, noticeSeen } from '../components/NoticeDialog';
 import { PitchArt } from '../components/PitchArt';
+import { DatabaseDialog } from '../components/DatabaseDialog';
+import { SettingsDialog } from '../components/SettingsDialog';
 import { useApp } from '../../store/app';
 import { useGame } from '../../store/game';
 import { availableSeasons, leagues } from '../../data/db';
@@ -17,6 +19,8 @@ export function TitleScreen() {
   const [hover, setHover] = useState<string | null>(null);
   const [saves, setSaves] = useState<SaveMeta[]>([]);
   const [loadOpen, setLoadOpen] = useState(false);
+  const [dbOpen, setDbOpen] = useState(false);
+  const [setOpen, setSetOpen] = useState(false);
   // 안내: 새 게임을 처음 시작할 때 한 번 (또는 '고지 보기')
   // 처음 실행하면 바로 안내 팝업 (확인하면 다음부터는 안 뜸, '고지 보기'로 다시 볼 수 있음)
   const [notice, setNotice] = useState<null | 'start' | 'view' | 'first'>(() => (noticeSeen() ? null : 'first'));
@@ -34,8 +38,8 @@ export function TitleScreen() {
     { key: 'new', label: '새 게임', desc: '시즌과 리그, 구단을 골라 감독 커리어를 시작합니다', action: () => (noticeSeen() ? go('newgame') : setNotice('start')) },
     { key: 'continue', label: '이어하기', desc: hasWorld ? '진행 중인 게임으로 돌아갑니다' : latest ? `가장 최근 저장 · ${latest.season.replace('-', '/')} ${latest.date.slice(5).replace('-', '.')}` : '저장된 게임이 없습니다', disabled: !hasWorld && !latest, action: () => void resume() },
     { key: 'load', label: '불러오기', desc: '저장 슬롯에서 게임을 불러옵니다', disabled: !saves.length, action: () => setLoadOpen(true) },
-    { key: 'db', label: '데이터베이스', desc: '수록된 리그·구단·선수를 둘러봅니다', disabled: true },
-    { key: 'settings', label: '설정', desc: '언어, 화면, 진행 속도', disabled: true },
+    { key: 'db', label: '데이터베이스', desc: '실명 데이터 · 선수 사진 넣기 / 빼기 · 수록 데이터', action: () => setDbOpen(true) },
+    { key: 'settings', label: '설정', desc: '진행 방식 · 팝업 · 난이도 · 경기 · 저장 · 화면', action: () => setSetOpen(true) },
   ];
 
   return (
@@ -120,6 +124,9 @@ export function TitleScreen() {
       </div>
 
       {notice && <NoticeDialog confirmLabel={notice === 'start' ? '확인하고 시작' : notice === 'first' ? '확인' : '닫기'} onClose={() => { const n = notice; setNotice(null); if (n === 'start') go('newgame'); }} />}
+
+      {dbOpen && <DatabaseDialog onClose={() => setDbOpen(false)} />}
+      {setOpen && <SettingsDialog onClose={() => setSetOpen(false)} />}
 
       {loadOpen && (
         <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-8 backdrop-blur-sm" onClick={() => setLoadOpen(false)}>

@@ -16,6 +16,7 @@
 //  이탈리아 1 · 2부: 2025-26~ 인건비 비율 70% (그 전 유동성 지수는 영입 한도가 아니라 기본 캡)
 //  독일 1 · 2부: 2027-28~ 선수단 비용 규정 70% (그 전에는 리그 한도 없음)
 //  프랑스 1 · 2부: 리그 한도 없음 · DNCG 개별 통제
+import { rulesFactor } from './gameSettings';
 import type { ClubState, PlayerState, World } from './types';
 import { SHARE, TRAINING_COST, clubRevenue, wageBillOf } from './finance';
 import { nationOf } from './pyramid';
@@ -95,6 +96,8 @@ export function costLimit(w: World, clubId: string): { rule: CostRule; limit: nu
   if (u) { const l = limitOf(w, c, u); if (l < best.limit) best = { rule: { ...u, dncg: lr.dncg }, limit: l }; }
   // 완전 랜덤으로 시작한 첫 시즌: 내 구단 한도 +5% (다음 시즌엔 없음)
   if (w.randomBonus?.season === w.season && clubId === w.userClubId) best = { ...best, limit: best.limit * (best.limit > 0 ? 1.05 : 1) };
+  // 설정: 재정 규정 엄격도 (내 구단만)
+  if (clubId === w.userClubId && best.limit > 0) best = { ...best, limit: best.limit * rulesFactor(w) };
   return best;
 }
 

@@ -12,6 +12,7 @@ import { fillContracts, seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
 import { withinRules } from '../engine/rules';
 import { trainingOf, type Training } from '../engine/training';
+import { syncWorld, useSettings } from './settings';
 import { acceptOffer, chooseJob, declineOffer, ensureManager } from '../engine/manager';
 import { askBoard, type BoardAsk } from '../engine/board';
 import { resolveBoardEvent } from '../engine/boardEvents';
@@ -43,7 +44,24 @@ async function loadSeasonInput(season: string, mustInclude?: string): Promise<Se
 
 // 자동 저장: 진행 중 연속 호출을 묶어서 한 번만
 let autoTimer: ReturnType<typeof setTimeout> | null = null;
-function autosave(w: World) {
+/** 자동 저장 (설정: 진행할 때마다 · 1주 · 1달 · 안 함) */
+let lastAutoDate = '';
+/** 큰 경기: 유럽 대회 · 컵 결승 · 플레이오프 · 비슷하거나 강한 상대 (설정 '중요한 일만' 에서 직접 지휘) */
+function bigMatch(w: World, f: Fixture): boolean {
+  if (f.stage && f.stage !== 'cup') return true;
+  if (f.stage === 'cup' && /결승|준결승/.test(f.name ?? '')) return true;
+  const opp = f.home === w.userClubId ? f.away : f.home;
+  return (w.clubs[opp]?.reputation ?? 0) >= w.clubs[w.userClubId].reputation - 3;
+}
+
+function autosave(w: World, force = false) {
+  const every = useSettings.getState().s.autosave;
+  if (!force) {
+    if (every === 'off') return;
+    const gap = every === 'week' ? 7 : every === 'month' ? 30 : 0;
+    if (gap && lastAutoDate && Math.abs(Date.parse(w.date) - Date.parse(lastAutoDate)) < gap * 864e5) return;
+  }
+  lastAutoDate = w.date;
   if (autoTimer) clearTimeout(autoTimer);
   autoTimer = setTimeout(() => { writeSave('auto', w).catch((e) => console.error('자동 저장 실패', e)); }, 800);
 }
@@ -189,6 +207,7 @@ export const useGame = create<GameStore>((set, get) => {
         world.randomBonus = { season };
         world.inbox.push({ type: 'info', date: world.date, text: '완전 랜덤으로 맡은 구단 · 이번 시즌만 이적 예산 +10% · 주급 예산 +5% · 재정 규정 한도 +5%' });
       }
+      syncWorld(world);
       set({ world, loading: false, match: null, lastEvents: [], seasonReport: null });
       autosave(world);
       bump();
@@ -197,17 +216,36 @@ export const useGame = create<GameStore>((set, get) => {
     continueGame() {
       const w = get().world;
       if (!w || get().match || w.manager?.pendingJob) return;   // 감독: 새 구단을 골라야 하면 진행 멈춤
-      const { events, matchToday } = advanceToUserMatch(w);
-      registerGeneratedNames(w.players);   // 월드컵 국내파 가상 선수 한국어 이름
-      set({ lastEvents: events });
-      if (matchToday) {
+      syncWorld(w);   // 설정 (팝업 · 난이도) 을 이 게임에 반영
+      const st = useSettings.getState().s;
+      const startWindow = windowOpen(w.season, w.date);
+      const all: GameEvent[] = [];
+      // 설정 '계속이 멈추는 곳': 내 경기마다 (기본) · 중요한 일만 · 이적시장 · 시즌 끝까지
+      for (let guard = 0; guard < 400; guard++) {
+        const { events, matchToday } = advanceToUserMatch(w);
+        registerGeneratedNames(w.players);   // 월드컵 국내파 가상 선수 한국어 이름
+        all.push(...events);
+        const m = w.manager;
+        const halt = !!(m?.pendingJob || m?.boardEvent || m?.press || w.sagaPrompt || w.scandalPrompt || w.pendingRenewals?.length || seasonOver(w)
+          || events.some((e) => e.type === 'seasonEnd' || (e.type === 'injury' && e.club === w.userClubId && (st.stopAt === 'match' || e.days >= 28))));   // 내 경기마다가 아니면 4주 이상 큰 부상만
+        if (!matchToday) { if (halt || st.stopAt === 'match') break; continue; }   // 경기 말고 다른 일로 멈춤 (부상 · 재계약 요청 · 시즌 끝 등)
         const side: Side = matchToday.home === w.userClubId ? 'home' : 'away';
         const rng = createRng(w.rng);
-        // 바로 경기하지 않고 경기 전 스쿼드 설정으로: 상대에 맞춘 AI 추천을 먼저 채워 둔다
+        // 경기 전 스쿼드 설정: 상대에 맞춘 AI 추천을 먼저 채워 둔다
         const opp = side === 'home' ? matchToday.away : matchToday.home;
         const rec = recommend(w, w.userClubId, opp, side === 'home');
         set({ match: { fixture: matchToday, side, rng, phase: 'squad', rec, draft: draftFrom(rec), state: null } });
+        const big = bigMatch(w, matchToday);
+        const auto = st.matchMode === 'result' || (st.stopAt === 'important' && !big) || st.stopAt === 'window';
+        if (!auto || halt) break;                 // 직접 지휘 (스쿼드 설정 화면)
+        get().closeMatch();                       // 결과만: 지금 선발로 바로 경기
+        all.push(...get().lastEvents);
+        const after = w.manager;
+        if (get().ceremony || after?.pendingJob || after?.boardEvent || after?.press || w.sagaPrompt || w.scandalPrompt || w.pendingRenewals?.length || seasonOver(w)) break;
+        if (st.stopAt === 'match') break;         // 내 경기마다: 결과를 보고 멈춤
+        if (st.stopAt === 'window' && windowOpen(w.season, w.date) !== startWindow) break;   // 이적시장이 열리거나 닫히면
       }
+      set({ lastEvents: all });
       autosave(w);
       bump();
     },
@@ -583,6 +621,7 @@ export const useGame = create<GameStore>((set, get) => {
       set({ loadError: null });
       fillContracts(world);
       registerGeneratedNames(world.players);   // 유스 선수 한국어 이름
+      syncWorld(world);
       set({ world, match: null, lastEvents: [], seasonReport: null });
       bump();
       return true;

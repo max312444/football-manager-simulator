@@ -87,7 +87,10 @@ export async function loadHistory(): Promise<PlayerHistory | null> {
   return f ? await f() : null;
 }
 
-export const playerKo = (id: string, fallback: string) => koNames.get(id)?.name ?? fallback;
+/** 선수 이름 표기 (설정): 전체 이름 · 짧은 이름 */
+let nameStyle: 'full' | 'short' = 'full';
+export function setNameStyle(s: 'full' | 'short') { nameStyle = s; }
+export const playerKo = (id: string, fallback: string) => { const e = koNames.get(id); return (nameStyle === 'short' ? e?.short ?? e?.name : e?.name) ?? fallback; };
 /** 구단 이름. 월드컵 경기용 대표팀(nt-나라)은 '나라 대표팀' */
 export const clubKo = (id: string) => (id.startsWith('nt-') ? `${nations.get(id.slice(3))?.ko ?? id.slice(3)} 대표팀` : clubs.get(id)?.ko ?? clubs.get(id)?.name ?? id);
 /** 나라 이름 */

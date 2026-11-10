@@ -1,6 +1,7 @@
 // 감독 (사용자): 계약 · 이사회 신뢰도 · 재계약 · 다른 구단 제안 (러브콜) · 경질 · 구단 이동 · 따라오는 선수
 //  - 감독 연봉은 다루지 않는다
 //  - 실업 상태는 없다: 경질 · 계약 만료 · 재계약 거절이면 갈 수 있는 구단 몇 곳 중 하나를 고른다 (pendingJob)
+import { patienceOf } from './gameSettings';
 import type { GameEvent, PlayerState, SeasonRecord, World } from './types';
 import type { Rng } from './rng';
 import { overall } from './ratings';
@@ -179,10 +180,12 @@ export function managerDay(w: World, rng: Rng): GameEvent[] {
   // 신뢰도: 목표 순위와 비교 (매달 1일, 시즌 중)
   if (day === '01' && started && pos > 0 && (mon >= 9 || mon <= 5)) {
     const target = boardTarget(w);
-    m.confidence = clamp(m.confidence + clamp((target - pos) * 1.5, -8, 6) + (club.finance.balance < 0 ? -3 : 0), 0, 100);
+    const pat = patienceOf(w);   // 설정: 이사회 인내심
+    const dlt = clamp((target - pos) * 1.5, -8, 6) + (club.finance.balance < 0 ? -3 : 0);
+    m.confidence = clamp(m.confidence + (dlt < 0 ? dlt * pat.drop : dlt), 0, 100);
     // 시즌 중 경질 (10월 ~ 4월, 신뢰도 15 미만)
     // 팬 여론이 높으면 (70+) 이사회가 쉽게 경질하지 못한다
-    if (m.confidence < ((m.fanMood ?? 60) >= 70 ? 10 : 15) && (mon >= 10 || mon <= 4)) {
+    if (m.confidence < pat.mid - ((m.fanMood ?? 60) >= 70 ? 5 : 0) && (mon >= 10 || mon <= 4)) {
       m.pendingJob = { reason: 'sacked', clubs: jobOffers(w, rng) };
       m.reputation = clamp(m.reputation - 4, 20, 99);
       events.push({ type: 'manager', date: d, kind: 'sacked', club: club.id });
@@ -194,7 +197,7 @@ export function managerDay(w: World, rng: Rng): GameEvent[] {
   if (d.slice(5) === '03-01' && m.contract <= `${endYear(w.season)}-06-30` && m.renewal?.contract !== m.contract) {
     if (m.confidence >= 45) {
       const years = m.confidence >= 75 ? 3 : 2;
-      m.offers.push({ club: club.id, date: d, until: addDays(d, 45), kind: 'renew', years });
+      m.offers.push({ club: club.id, date: d, until: m.contract, kind: 'renew', years });   // 계약 만료일까지 유효 (놓치지 않게)
       m.renewal = { contract: m.contract, result: 'renew' };
       events.push({ type: 'manager', date: d, kind: 'renew', club: club.id, years });
     } else {
@@ -272,7 +275,7 @@ export function managerSeasonEnd(w: World, recs: SeasonRecord[]): { titles: numb
     const won = [...(pos === 1 ? [`${w.season} ${club.league}`] : []), ...(w.cupHistory ?? []).filter((h) => h.season === w.season && h.winner === club.id).map((h) => `${w.season} ${h.cup}`)];
     cur.titles = [...(cur.titles ?? []), ...won];
   }
-  if (m.confidence < 25) m.sackAtEnd = true;
+  if (m.confidence < patienceOf(w).end) m.sackAtEnd = true;
   return { titles, relegated, met: pos <= target };
 }
 

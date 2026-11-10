@@ -292,6 +292,8 @@ export interface World {
   manager?: import('./manager').ManagerState;
   /** 완전 랜덤으로 시작한 첫 시즌 보정 (이 시즌에만: 이적 예산 +10% · 주급 예산 +5% · 재정 규정 한도 +5%) */
   randomBonus?: { season: string };
+  /** 게임 규칙 설정 (팝업 빈도 · 난이도), gameSettings.ts */
+  settings?: import('./gameSettings').GameSettings;
   /** 대응을 기다리는 선수 사가 (선수 ID) */
   sagaPrompt?: string;
   /** 대응을 기다리는 선수 논란 · 마지막 논란 날짜 */

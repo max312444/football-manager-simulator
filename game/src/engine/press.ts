@@ -1,7 +1,8 @@
 // 기자회견 (언론 플레이): 큰 경기 전 · 눈에 띄는 경기 후 · 이사회 갈등 · 이적설
 //  질문 1~2개, 답변 3개 (+ 불참). 답변에 따라 선수 사기 · 팬 여론 · 이사회 관계 · 신뢰도가 바뀐다
 //  경기 전 도발: 사기 · 여론이 오르지만 그 경기를 지면 여론이 크게 깎인다 (이기면 더 오름)
-//  10일에 한 번까지
+//  35일에 한 번까지 (시즌 3~4번 정도)
+import { freqOf } from './gameSettings';
 import type { Fixture, GameEvent, World } from './types';
 import type { Rng } from './rng';
 import { ensureManager } from './manager';
@@ -110,7 +111,8 @@ export function pressDay(w: World, todays: GameEvent[], rng: Rng, next: Fixture 
     }
   }
   if (m.press || m.boardEvent || m.pendingJob) return out;
-  if (m.lastPress && days(m.lastPress, w.date) < 10) return out;
+  const f = freqOf(w, 'press');
+  if (m.lastPress && days(m.lastPress, w.date) < 35 / f) return out;   // 35일에 한 번까지 (시즌 3~4번)
 
   let conf: PressConference | null = null;
   // 경기 후: 대승 · 대패 · 이변
@@ -120,7 +122,7 @@ export function pressDay(w: World, todays: GameEvent[], rng: Rng, next: Fixture 
     const opp = mine.home === me ? mine.away : mine.home;
     const diff = (w.clubs[opp]?.reputation ?? 0) - w.clubs[me].reputation;
     const result = g - o >= 3 ? 'bigwin' : o - g >= 3 ? 'bigloss' : g > o && diff >= 6 ? 'upsetwin' : o > g && diff <= -6 ? 'upsetloss' : null;
-    if (result && rng.chance(0.7)) {
+    if (result && rng.chance(0.25 * f)) {
       const qs = questions(w, 'post', { opp, result }, rng);
       if (qs.length) conf = { date: w.date, kind: 'post', fixture: mine.fixtureId, opp, questions: qs };
     }
@@ -130,7 +132,7 @@ export function pressDay(w: World, todays: GameEvent[], rng: Rng, next: Fixture 
     const opp = next.home === me ? next.away : next.home;
     const strong = (w.clubs[opp]?.reputation ?? 0) >= w.clubs[me].reputation - 3;
     const big = next.stage === 'euro' || next.name?.includes('결승') || strong;
-    if (big && rng.chance(0.6)) {
+    if (big && rng.chance(0.15 * f)) {
       const qs = questions(w, 'pre', { opp, big }, rng);
       if (qs.length) conf = { date: w.date, kind: 'pre', fixture: next.id, opp, questions: qs };
     }

@@ -1,4 +1,5 @@
 // 이적 엔진: 몸값 · 이적시장 기간 · 영입 제안 판단 · 계약 · AI 구단 이적
+import { transferFactor } from './gameSettings';
 import type { GameEvent, PlayerState, TransferOffer, World } from './types';
 import type { Rng } from './rng';
 import { overall } from './ratings';
@@ -162,7 +163,7 @@ export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number
   const seller = w.clubs[p.clubId];
   // 태업하며 이 구단을 지목한 선수: 단계마다 10% 싸게, 핵심 선수 규칙 없이
   const forcing = p.saga?.kind === 'move' && p.saga.target === buyer && p.saga.club === p.clubId ? p.saga.stage : 0;
-  const ask = askingPrice(w, p) * (1 - 0.1 * forcing);
+  const ask = askingPrice(w, p) * (1 - 0.1 * forcing) * (buyer === w.userClubId ? transferFactor(w).ask : 1);   // 설정: 이적 협상 난이도
   const rank = forcing ? 99 : rankInClub(w, p);
   if (seller.squad.length <= 18) return { decision: 'reject', ask, reason: '선수단 인원이 부족해 팔 수 없다고 합니다' };
   // 핵심 선수는 비슷한 급 이상 구단이 크게 쓸 때만
@@ -182,6 +183,7 @@ export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: nu
   let score = diff / 10 + (wage / Math.max(1, p.wage) - 1) * 2 + ((p.hidden.ambition - 10) / 10) * (diff > 0 ? 1 : -0.6) - (p.loyalty - 50) / 40;
   if (p.unhappy) score += 1;
   if (p.saga?.kind === 'move' && p.saga.target === buyer) score += 3;   // 가고 싶다고 지목한 구단
+  if (buyer === w.userClubId) score += transferFactor(w).will;   // 설정: 이적 협상 난이도
   // 구단이 이적 명단에 올린 선수는 "팀에서 원하지 않는다"고 느껴 작은 구단 이적도 받아들이기 쉽다
   if ((w.transferList ?? []).includes(p.id)) score += 1.5;
   if (!p.clubId) score += 1.5;

@@ -17,6 +17,13 @@ interface Manifest {
   files: Record<string, PhotoCredit>;
 }
 
+/** 게임에서 사진 표시 (첫 화면 데이터베이스에서 켜고 끔, 기본 켬) */
+const PHOTO_KEY = 'pitchboss.photos';
+export const photosEnabled = () => { try { return localStorage.getItem(PHOTO_KEY) !== 'off'; } catch { return true; } };
+export function setPhotosEnabled(on: boolean) { try { localStorage.setItem(PHOTO_KEY, on ? 'on' : 'off'); } catch { /* 무시 */ } listeners.forEach((l) => l(manifest)); }
+/** 사진 수 (데이터베이스 화면용) */
+export const photoStats = (m: Manifest | null) => ({ players: Object.values(m?.players ?? {}).filter((e) => Object.keys(e.seasons).length).length, files: Object.keys(m?.files ?? {}).length, user: Object.values(m?.files ?? {}).filter((x) => x.user).length });
+
 let manifest: Manifest | null = null;
 let loading: Promise<Manifest | null> | null = null;
 let loadedAt = 0;
@@ -70,6 +77,7 @@ export function usePhotos(playerId: string, season: string) {
     loadPhotos().then(l);
     return () => { alive = false; listeners.delete(l); };
   }, []);
-  return { ph: photoOf(m, playerId, season), cands: candsOf(m, playerId, season), ready: !!m };
+  const on = photosEnabled();
+  return { ph: on ? photoOf(m, playerId, season) : null, cands: on ? candsOf(m, playerId, season) : [], ready: !!m && on };
 }
 export const usePhoto = (playerId: string, season: string) => usePhotos(playerId, season).ph;

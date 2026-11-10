@@ -1,3 +1,4 @@
+import { useSettings } from '../../store/settings';
 import { useEffect, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
@@ -18,7 +19,7 @@ export function MatchScreen() {
   const w = useWorld();
   const { match: m, stepMatch, changeTactics, sub, closeMatch } = useGame();
   const [playing, setPlaying] = useState(true);
-  const [speed, setSpeed] = useState(0);
+  const [speed, setSpeed] = useState<number>(useSettings.getState().s.matchSpeed);   // 설정: 기본 경기 속도
   const [subOut, setSubOut] = useState<string | null>(null);
 
   const live = m?.phase === 'live';

@@ -6,6 +6,7 @@
 //  - 이적 요청: 지목한 구단이 실제로 제안 (단계가 오를수록 이적료를 깎음, 우리 협상력 ↓)
 //  - 영향: 1단계+ 팀 사기 −, 2단계 훈련 성장 − · 사기 바닥, 3단계 선발 불가
 //  - 대응 (사용자): 대화 · 약속, 징계 (벌금), 공개 비판, 판매 허락 (이적 명단)
+import { freqOf } from './gameSettings';
 import type { GameEvent, PlayerState, World } from './types';
 import type { Rng } from './rng';
 import { overall } from './ratings';
@@ -87,7 +88,7 @@ export function sagaDay(w: World, rng: Rng): GameEvent[] {
       if (temper <= 0) continue;
       const fair = wageForAbility(w, overall(p));
       // 연봉 인상 요구: 시세의 70% 미만
-      if (p.wage < fair * 0.7 && rng.chance(0.05 * temper)) {
+      if (p.wage < fair * 0.7 && rng.chance(0.05 * temper * freqOf(w, 'saga'))) {
         const want = Math.round((fair * 0.95) / 500) * 500;
         p.saga = { kind: 'wage', stage: 0, since: w.date, next: addDays(w.date, 14), wantWage: want, club: club.id };
         out.push({ type: 'saga', date: w.date, player: p.id, kind: 'wage', stage: 0, step: 'start' });
@@ -95,7 +96,7 @@ export function sagaDay(w: World, rng: Rng): GameEvent[] {
       }
       // 이적 요청: 빅클럽 관심 · 출전 불만 · 사기 낮음일수록
       const push = (p.unhappy ? 0.04 : 0) + (p.morale < 40 ? 0.02 : 0) + 0.012 * amb;
-      if (rng.chance(push * temper)) {
+      if (rng.chance(push * temper * freqOf(w, 'saga'))) {
         const target = dreamClub(w, p, rng);
         if (!target) continue;
         p.saga = { kind: 'move', stage: 0, since: w.date, next: addDays(w.date, 14), target, club: club.id };

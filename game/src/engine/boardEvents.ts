@@ -3,6 +3,7 @@
 //    - 높으면 (70+) 이사회가 쉽게 경질하지 못한다 · 낮으면 (30-) 이사회 관계가 매달 떨어진다 · 내 구단 상업 수입 ±5%
 //  이사회 이벤트 (선택지가 있는 갈등 · 요구): 스타 판매 요구 · 유스 기용 요구 · 이사회가 원하는 선수 · 감독 교체 소문 · 팬 시위
 //    + 자동: 우승 보너스 예산 · 구단주 교체 (드물게, 새 시즌)
+import { freqOf } from './gameSettings';
 import type { GameEvent, PlayerState, World } from './types';
 import type { Rng } from './rng';
 import { ensureManager } from './manager';
@@ -10,7 +11,8 @@ import { addRelation } from './board';
 import { overall } from './ratings';
 import { ageOn } from './condition';
 import { clubRevenue } from './finance';
-import { marketValue } from './transfer';
+import { marketValue, windowEnd, windowOpen } from './transfer';
+import { clubRevenue as revenueOf } from './finance';
 
 export type BoardEventKind = 'sellStar' | 'youth' | 'wanted' | 'rumour' | 'protest';
 export interface BoardEvent { kind: BoardEventKind; date: string; player?: string; options: { key: string; label: string; hint: string }[] }
@@ -75,7 +77,7 @@ export function boardEventDay(w: World, todays: GameEvent[], rng: Rng): GameEven
 
   // 새 이벤트: 매달 10일 (9월 ~ 4월), 이전 이벤트 뒤 45일 넘게, 하나씩
   const mon = +w.date.slice(5, 7);
-  if (!m.boardEvent && w.date.slice(8) === '10' && (mon >= 9 || mon <= 4) && (!m.lastBoardEvent || days(m.lastBoardEvent, w.date) > 45)) {
+  if (!m.boardEvent && w.date.slice(8) === '10' && (mon >= 8 || mon <= 4) && (!m.lastBoardEvent || days(m.lastBoardEvent, w.date) > 45)) {
     const ev = pickEvent(w, rng);
     if (ev) {
       m.boardEvent = ev; m.lastBoardEvent = w.date;
@@ -97,10 +99,14 @@ function pickEvent(w: World, rng: Rng): BoardEvent | null {
   if (m.confidence < 35 && rng.chance(0.6)) return { kind: 'rumour', date: d, options: [
     { key: 'rebut', label: '기자회견에서 공개 반박한다', hint: '팬 여론 + · 이사회 관계 −' },
     { key: 'silent', label: '침묵한다', hint: '신뢰도 조금 −' }] };
-  if (!rng.chance(0.3)) return null;
+  if (!rng.chance(0.3 * freqOf(w, 'board'))) return null;
   const cands: (() => BoardEvent | null)[] = [];
-  if (c.finance.balance < 0) cands.push(() => {
-    const star = [...squad].sort((a, b) => marketValue(w, b) - marketValue(w, a))[0];
+  // 이적이 가능한 때만: 이적시장이 열려 있을 때 (판매 요구 · 원하는 선수)
+  const market = !!windowOpen(w.season, w.date);
+  // 판매 요구: 재정이 실제로 나쁠 때 (잔고가 매출의 8% 이상 마이너스) · 팀 핵심 (능력 상위 3명) 은 빼고 주급이 가장 큰 선수
+  if (market && c.finance.balance < -revenueOf(w, c.id) * 0.08) cands.push(() => {
+    const core = new Set([...squad].sort((a, b) => overall(b) - overall(a)).slice(0, 3).map((p) => p.id));
+    const star = squad.filter((p) => !core.has(p.id)).sort((a, b) => b.wage - a.wage)[0];
     return star ? { kind: 'sellStar', date: d, player: star.id, options: [
       { key: 'accept', label: '이적 명단에 올린다', hint: '이사회 관계 + · 팬 여론 −' },
       { key: 'refuse', label: '팔지 않겠다고 맞선다', hint: '이사회 관계 크게 − · 다음 시즌 예산 −' }] } : null;
@@ -111,8 +117,8 @@ function pickEvent(w: World, rng: Rng): BoardEvent | null {
   const wantPool = Object.values(w.players).filter((p): p is PlayerState => !!p.clubId && p.clubId !== c.id && !p.retired && !p.clubId.startsWith('nt-')
     && ageOn(p.birth, d) >= 22 && ageOn(p.birth, d) <= 29 && marketValue(w, p) <= c.finance.transferBudget * 1.3 && marketValue(w, p) >= c.finance.transferBudget * 0.25)
     .sort((a, b) => overall(b) - overall(a)).slice(0, 12);
-  if (wantPool.length) cands.push(() => ({ kind: 'wanted', date: d, player: rng.pick(wantPool).id, options: [
-    { key: 'accept', label: '영입을 추진하겠다', hint: '이적료 일부를 이사회가 지원 · 60일 안에 데려오면 관계 +' },
+  if (market && wantPool.length) cands.push(() => ({ kind: 'wanted', date: d, player: rng.pick(wantPool).id, options: [
+    { key: 'accept', label: '영입을 추진하겠다', hint: '이적료 일부를 이사회가 지원 · 이번 이적시장 안에 데려오면 관계 +' },
     { key: 'refuse', label: '전력에 필요 없다', hint: '이사회 관계 조금 −' }] }));
   return cands.length ? rng.pick(cands)() : null;
 }
@@ -137,7 +143,7 @@ export function resolveBoardEvent(w: World, key: string): GameEvent[] {
       if (key === 'accept' && p) {
         const support = Math.round((marketValue(w, p) * 0.2) / 1e5) * 1e5;
         c.finance.transferBudget += support;
-        m.wanted = { player: p.id, until: addDays(w.date, 60) };
+        m.wanted = { player: p.id, until: windowEnd(w.season, w.date) ?? addDays(w.date, 21) };   // 이번 이적시장이 닫히는 날까지
         if (!(w.shortlist ?? []).includes(p.id)) w.shortlist = [...(w.shortlist ?? []), p.id];
         return say(`이사회가 원하는 선수 영입을 추진합니다 · 이사회가 이적 예산 ${Math.round(support / 1e5) / 10}M 유로를 지원했습니다 (관심 목록에 추가)`);
       }

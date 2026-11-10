@@ -6,6 +6,7 @@ import { createWorld, type SeasonInput } from './world';
 import { boardEventDay, fanMoodOf, resolveBoardEvent } from './boardEvents';
 import { ensureManager, managerDay } from './manager';
 import { relationOf } from './board';
+import { overall } from './ratings';
 import { createRng } from './rng';
 import type { GameEvent } from './types';
 import type { ClubSeasonFile, LeagueSeasonFile } from '../data/types';
@@ -26,7 +27,7 @@ function until(w: ReturnType<typeof fresh>, kind: string) {
   const m = ensureManager(w);
   for (let s = 1; s < 200; s++) {
     m.boardEvent = undefined; m.lastBoardEvent = undefined;
-    w.date = '2025-10-10';
+    w.date = '2025-08-10';   // 여름 이적시장 (판매 요구 · 원하는 선수는 이적시장에만)
     boardEventDay(w, [], createRng(s));
     const ev = ensureManager(w).boardEvent;   // (위에서 undefined 로 둔 값을 타입이 그대로 기억하지 않도록 다시 읽음)
     if (ev?.kind === kind) return ev;
@@ -35,6 +36,16 @@ function until(w: ReturnType<typeof fresh>, kind: string) {
 }
 
 describe('팬 여론 · 이사회 이벤트', () => {
+  it('이적시장이 아닐 때는 판매 요구 · 원하는 선수 이벤트가 나오지 않는다', () => {
+    const w = fresh();
+    w.clubs[LIV].finance.balance = -200e6;
+    const m = ensureManager(w);
+    const kinds = new Set<string>();
+    for (let s = 1; s < 300; s++) { m.boardEvent = undefined; m.lastBoardEvent = undefined; w.date = '2025-10-10'; boardEventDay(w, [], createRng(s)); const ev = ensureManager(w).boardEvent; if (ev) kinds.add(ev.kind); }
+    expect(kinds.has('sellStar')).toBe(false);
+    expect(kinds.has('wanted')).toBe(false);
+  });
+
   it('팬 여론은 기대 대비 결과: 이기면 +, 지면 −, 강팀 상대 패배는 덜 · 약팀 상대 패배는 더 깎인다', () => {
     const delta = (g: number, o: number, oppRep: number) => {
       const w = fresh();
@@ -53,11 +64,13 @@ describe('팬 여론 · 이사회 이벤트', () => {
     expect(delta(1, 0, rep + 15)).toBeGreaterThan(delta(1, 0, rep - 15)); // 강팀을 이기면 더 오름
   });
 
-  it('스타 판매 요구 (잔고 마이너스): 수락하면 이적 명단 · 관계 +, 거절하면 관계 − · 다음 시즌 예산 감점', () => {
+  it('판매 요구 (큰 적자 · 이적시장, 핵심 3명은 제외): 수락하면 이적 명단 · 관계 +, 거절하면 관계 − · 다음 시즌 예산 감점', () => {
     const w = fresh();
-    w.clubs[LIV].finance.balance = -10e6;
+    w.clubs[LIV].finance.balance = -200e6;   // 매출의 8% 이상 적자
     const ev = until(w, 'sellStar');
     expect(ev?.player).toBeTruthy();
+    const top3 = w.clubs[LIV].squad.map((id) => w.players[id]).sort((a, b) => overall(b) - overall(a)).slice(0, 3).map((p) => p.id);
+    expect(top3).not.toContain(ev!.player);   // 팀 핵심은 팔라고 하지 않는다
     const r0 = relationOf(w);
     resolveBoardEvent(w, 'accept');
     expect(w.transferList).toContain(ev!.player);

@@ -1,4 +1,5 @@
 // 월드 생성과 하루 진행 (advanceDay)
+import { autoResolve } from './autoResolve';
 import type { ClubSeasonFile } from '../data/types';
 import type { ClubState, Competition, Fixture, GameEvent, Hidden, PlayerState, Tactics, World } from './types';
 import { WORLD_VERSION } from './types';
@@ -329,6 +330,7 @@ export function advanceDay(w: World): GameEvent[] {
   if (prompt && prompt.type === 'saga') w.sagaPrompt = prompt.player;
   events.push(...scandalDay(w, rng));   // 선수 논란
   events.push(...pressDay(w, events, rng, nextUserFixture(w)));   // 기자회견
+  events.push(...autoResolve(w, rng));   // 설정에서 끈 팝업은 무난하게 자동 처리
   financeDay(w);
   boostMonth(w);
   contractCheck(w);

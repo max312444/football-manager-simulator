@@ -1,4 +1,5 @@
 import { Crest } from './Crest';
+import { SettingsDialog } from './SettingsDialog';
 import { Icon } from './Icon';
 import { useApp, type HubTab } from '../../store/app';
 import { clubKo, leagues } from '../../data/db';
@@ -26,6 +27,7 @@ export function Sidebar() {
   const lg = leagues.find((l) => l.id === club.league);
   const save = useGame((s) => s.save);
   const [saveOpen, setSaveOpen] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const unreadInjuries = club.squad.filter((id) => w.players[id].injury).length;
   return (
     <aside className="flex w-60 shrink-0 flex-col border-r border-line bg-ink-900">
@@ -69,6 +71,12 @@ export function Sidebar() {
           <Icon name="inbox" size={16} />
           저장하기
         </button>
+        <button onClick={() => setSettingsOpen(true)}
+          className="mb-1 flex h-9 w-full items-center gap-3 rounded-lg px-3 text-[13px] text-mid transition-colors hover:bg-ink-800 hover:text-hi">
+          <Icon name="settings" size={16} />
+          설정
+        </button>
+        {settingsOpen && <SettingsDialog onClose={() => setSettingsOpen(false)} />}
         <button onClick={() => go('title')}
           className="flex h-9 w-full items-center gap-3 rounded-lg px-3 text-[13px] text-lo transition-colors hover:bg-ink-800 hover:text-mid">
           <Icon name="settings" size={16} />
