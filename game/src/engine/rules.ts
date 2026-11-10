@@ -3,7 +3,7 @@
 // 선수단 비용 = 연 주급 총액 + 이적료 상각 (이적료 ÷ 계약 연수). 한도 안에서만 영입 · 재계약할 수 있다
 //  - 비율 규정: 한도 = (매출 + 이번 시즌 선수 판매 수입) × 비율
 //  - 손실 한도 규정: 한도 = (매출 + 판매 수입) × (1 − 운영비 비율) + 1년 허용 손실 (3년 한도 ÷ 3)
-//  - 규정이 없는 시대: 기본 샐러리 캡 — 선수단 비용 매출의 70%
+//  - 규정이 없는 시대: 기본 샐러리 캡 — 선수단 비용 매출의 80% (게임 기본값)
 //  - 유럽 대회에 나가는 구단은 UEFA 규정도 지켜야 해서 둘 중 엄격한 쪽
 //  - 프랑스 DNCG: 리그 전체 한도는 없고 (기본 캡), 잔고가 마이너스인 구단은 주급 총액을 늘리는 영입 금지 (급여 통제)
 //
@@ -35,8 +35,8 @@ export interface CostRule {
 }
 
 const y0 = (season: string) => +season.slice(0, 4);
-export const DEFAULT_CAP = 0.7;
-const DEFAULT: CostRule = { name: '기본 샐러리 캡 (매출의 70%)', kind: 'ratio', ratio: DEFAULT_CAP };
+export const DEFAULT_CAP = 0.8;
+const DEFAULT: CostRule = { name: '기본 샐러리 캡 (매출의 80%)', kind: 'ratio', ratio: DEFAULT_CAP };
 
 /** 리그 규정 */
 export function leagueRule(league: string, season: string): CostRule {
@@ -93,6 +93,8 @@ export function costLimit(w: World, clubId: string): { rule: CostRule; limit: nu
   let best = { rule: lr, limit: limitOf(w, c, lr) };
   const u = inEurope(w, clubId) ? uefaRule(w.season) : null;
   if (u) { const l = limitOf(w, c, u); if (l < best.limit) best = { rule: { ...u, dncg: lr.dncg }, limit: l }; }
+  // 완전 랜덤으로 시작한 첫 시즌: 내 구단 한도 +5% (다음 시즌엔 없음)
+  if (w.randomBonus?.season === w.season && clubId === w.userClubId) best = { ...best, limit: best.limit * (best.limit > 0 ? 1.05 : 1) };
   return best;
 }
 
@@ -120,3 +122,14 @@ export function withinRules(w: World, clubId: string, addWage: number, fee = 0, 
 
 /** 주급으로 환산한 남은 여유 (주) — 이적료 상각 없이 주급만 더할 때 */
 export const ruleWageRoom = (w: World, clubId: string) => Math.floor(withinRules(w, clubId, 0).room / 52);
+
+/** 화면용 주급 여유 (주): 예산 여유 · 규정 여유 (이적료가 있으면 그 상각만큼 뺀 값) · 실제로 쓸 수 있는 값 · 어느 쪽이 막는지 */
+/** 주급 예산 여유 배율: 예산을 10% 넘겨도 계약 가능 (너무 빡빡하지 않게) */
+export const WAGE_SLACK = 1.1;
+
+export function wageRoomInfo(w: World, clubId: string, fee = 0, years = 1) {
+  const budget = w.clubs[clubId].finance.wageBudget * WAGE_SLACK - wageBillOf(w, clubId);
+  const amortWeek = fee > 0 ? fee / Math.max(1, years) / 52 : 0;
+  const rule = Math.floor(withinRules(w, clubId, 0).room / 52 - amortWeek);
+  return { budget, rule, amortWeek: Math.round(amortWeek), ruleName: costLimit(w, clubId).rule.name, room: Math.min(budget, rule), by: budget <= rule ? 'budget' as const : 'rule' as const };
+}

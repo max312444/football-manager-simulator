@@ -82,6 +82,8 @@ export interface PlayerState {
   stats: SeasonStats;
   /** 이번 시즌 컵 대회 기록 (리그 기록과 따로) */
   cupStats?: { apps: number; goals: number; assists: number };
+  /** 월드컵 기록 (대회가 있는 시즌) */
+  intlStats?: { apps: number; goals: number; assists: number };
   /** 지난 시즌 기록 (시즌이 끝날 때 쌓임) */
   career: CareerEntry[];
   retired?: boolean;
@@ -120,6 +122,12 @@ export interface ClubState {
   training?: import('./training').Training;
   /** 이번 시즌 선수 판매 수입 (재정 규정 한도에 더해짐, 시즌마다 초기화) */
   sales?: number;
+  /** 시설 수준 1~5 (훈련장 · 유스) · 경기장 수용 인원 (데이터, 시즌마다 갱신) */
+  facilities?: { training: number; youth: number };
+  /** 시설 공사 중 · 투자로 올린 단계 (다음 시즌 데이터보다 낮아지지 않음) */
+  building?: { kind: 'training' | 'youth'; level: number; done: string; cost: number }[];
+  built?: { training?: number; youth?: number };
+  stadium?: number;
 }
 
 export interface Fixture {
@@ -131,7 +139,7 @@ export interface Fixture {
   away: string;
   result?: MatchSummary;
   /** 플레이오프 · 컵 경기 (순위표에 넣지 않음). 컵 경기는 league 가 컵 ID */
-  stage?: 'semi' | 'final' | 'ladder' | 'barrage' | 'cup' | 'euro';
+  stage?: 'semi' | 'final' | 'ladder' | 'barrage' | 'cup' | 'euro' | 'intl';
   /** 유럽 대회 조별리그 조 이름 */
   group?: string;
   /** 컵 라운드 이름 (예: "16강") */
@@ -174,6 +182,12 @@ export type GameEvent =
   | { type: 'injury'; date: string; player: string; club: string; days: number; label: string }
   | { type: 'seasonEnd'; date: string; league: string; champion: string }
   | { type: 'info'; date: string; text: string }
+  /** 감독: 제안 · 재계약 · 경질 · 이동 · 따라오는 선수 */
+  /** 기자회견 열림 */
+  | { type: 'press'; date: string; kind: 'pre' | 'post' | 'free'; opp?: string }
+  /** 이사회 이벤트 (선택지) · 구단주 교체 */
+  | { type: 'board'; date: string; kind: import('./boardEvents').BoardEventKind | 'ownerRich' | 'ownerCut'; player?: string }
+  | { type: 'manager'; date: string; kind: 'offer' | 'renew' | 'norenew' | 'renewed' | 'sacked' | 'expired' | 'moved' | 'follow' | 'followDone' | 'followFail'; club: string; from?: string; years?: number; players?: string[]; fee?: number }
   | { type: 'transfer'; date: string; player: string; from: string | null; to: string; fee: number; user: boolean }
   | { type: 'offer'; date: string; player: string; from: string; fee: number }
   | { type: 'retire'; date: string; player: string; club: string | null; season: string }
@@ -181,7 +195,9 @@ export type GameEvent =
   | { type: 'renewed'; date: string; players: string[] }
   | { type: 'leave'; date: string; player: string; club?: string }
   | { type: 'cup'; date: string; cup: string; club: string; round: string; result: 'through' | 'out' | 'champion'; prize?: number }
-  | { type: 'youth'; date: string; players: string[]; star?: string };
+  | { type: 'youth'; date: string; players: string[]; star?: string }
+  | { type: 'callup'; date: string; players: string[]; injured: string[] }
+  | { type: 'worldcup'; date: string; year: number; result: 'start' | 'champion'; nation: string; players?: string[]; text?: string; scorer?: string };
 
 /** 은퇴 소식 (내 구단 선수 · 스타 선수) */
 export interface RetireNews { player: string; club: string | null; season: string; ovr: number; mine: boolean; /** leave = 계약 만료로 팀을 떠남 (없으면 은퇴) */ kind?: 'retire' | 'leave' }
@@ -236,6 +252,10 @@ export interface World {
   cups?: Record<string, import('./cup').Cup>;
   /** 유럽 대회 (챔피언스리그 · 유로파리그, 이번 시즌) */
   europe?: Record<string, import('./europe').EuroComp>;
+  /** 월드컵 (이번 시즌 끝에 열리면) */
+  worldCup?: import('./worldcup').WorldCupState;
+  /** 지난 월드컵 기록 */
+  worldCupHistory?: import('./worldcup').WorldCupRecord[];
   /** 지난 컵 대회 우승 기록 */
   cupHistory?: import('./cup').CupRecord[];
   /** 이번 시즌 내 구단 컵 우승 (시즌 말 수상 연출에 합침) */
@@ -259,4 +279,8 @@ export interface World {
   pendingRenewals?: { player: string; reason: string }[];
   /** 화면에 보여줄 은퇴 소식 (시즌 전환 때) */
   pendingNews?: RetireNews[];
+  /** 감독 (사용자): 계약 · 이사회 신뢰도 · 제안 · 경력 */
+  manager?: import('./manager').ManagerState;
+  /** 완전 랜덤으로 시작한 첫 시즌 보정 (이 시즌에만: 이적 예산 +10% · 주급 예산 +5% · 재정 규정 한도 +5%) */
+  randomBonus?: { season: string };
 }

@@ -5,7 +5,7 @@ import { overall } from './ratings';
 import { ageOn } from './condition';
 import { posGroup } from '../data/rating';
 import { book } from './finance';
-import { ruleWageRoom, withinRules } from './rules';
+import { WAGE_SLACK, ruleWageRoom, withinRules } from './rules';
 import { youthIntake } from './youth';
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
@@ -84,9 +84,44 @@ export function performanceFactor(w: World, p: PlayerState): number {
   return clamp(f, 0.6, 1.9);
 }
 
-/** 능력에 맞는 주급 (데이터 economy 단계와 같은 규모: 능력 70 ≈ 2024년 주 €120K, 능력 1당 약 13%, 1년 전마다 약 7% 적게) */
+/** 공식 주급 (시장 표본이 모자랄 때만): 능력 70 ≈ 2024년 주 €120K, 능력 1당 약 13%, 1년 전마다 약 7% 적게 */
+const formulaWage = (w: World, ovr: number) => 120000 * 1.128 ** (ovr - 70) * Math.min(1.3, 1.07 ** (+w.season.slice(0, 4) - 2024));
+
+/** 주급 시세표 (하루에 한 번): 지금 세계의 1부 · 2부 구단 선수 중 능력이 비슷한 선수들의 주급 중간값.
+ *  데이터 주급(시대 · 리그 규모가 반영된 값)을 따라가므로 시대마다 따로 맞출 필요가 없다 */
+const marketCache = new WeakMap<World, { date: string; table: Map<number, number> }>();
+function marketTable(w: World): Map<number, number> {
+  const hit = marketCache.get(w);
+  if (hit && hit.date === w.date) return hit.table;
+  const byOvr = new Map<number, number[]>();
+  for (const p of Object.values(w.players)) {
+    if (p.retired || !p.clubId || p.generated || p.clubId.startsWith('nt-') || p.wage < 1000) continue;
+    const o = overall(p);
+    (byOvr.get(o) ?? byOvr.set(o, []).get(o)!).push(p.wage);
+  }
+  const table = new Map<number, number>();
+  for (let o = 40; o <= 99; o++) {
+    let pool: number[] = [];
+    for (let r = 1; r <= 3 && pool.length < 8; r++) { pool = []; for (let k = o - r; k <= o + r; k++) pool.push(...(byOvr.get(k) ?? [])); }
+    if (pool.length >= 8) { pool.sort((a, b) => a - b); table.set(o, pool[pool.length >> 1]); }
+  }
+  // 위로 갈수록 줄지 않게 (표본이 적은 최상위 구간 보정)
+  let prev = 0;
+  for (let o = 40; o <= 99; o++) { const v = table.get(o); if (v != null) { prev = Math.max(prev, v); table.set(o, prev); } }
+  marketCache.set(w, { date: w.date, table });
+  return table;
+}
+
+/** 능력에 맞는 주급 (유로/주): 같은 시대 · 비슷한 능력 선수들의 주급 중간값. 표본이 없는 능력은 가장 가까운 시세에서 (위로 6% · 아래로 13%씩) */
 export function wageForAbility(w: World, ovr: number): number {
-  return 120000 * 1.128 ** (ovr - 70) * Math.min(1.3, 1.07 ** (+w.season.slice(0, 4) - 2024));
+  const t = marketTable(w);
+  const o = Math.round(ovr);
+  if (t.has(o)) return t.get(o)!;
+  for (let d = 1; d <= 30; d++) {
+    if (t.has(o - d)) return t.get(o - d)! * 1.06 ** d;   // 시세표 위쪽 (최상위 몇 명): 능력 1당 6%만
+    if (t.has(o + d)) return t.get(o + d)! / 1.128 ** d;
+  }
+  return formulaWage(w, ovr);
 }
 /** 선수가 바라는 주급 (유로/주). 소속 선수는 지금 주급보다 10% 이상, 자유계약 선수는 능력 기준 (예전 주급은 따지지 않음) */
 export function wageDemand(w: World, p: PlayerState): number {
@@ -98,7 +133,7 @@ export function wageDemand(w: World, p: PlayerState): number {
 export const wageBill = (w: World, clubId: string) => w.clubs[clubId].squad.reduce((s, id) => s + w.players[id].wage, 0);
 /** 주급 예산에서 남은 여유 (음수면 이미 초과) */
 /** 주급 여유 (주): 주급 예산과 재정 규정(샐러리 캡) 중 더 좁은 쪽 */
-export const wageRoom = (w: World, clubId: string) => Math.min(w.clubs[clubId].finance.wageBudget - wageBill(w, clubId), ruleWageRoom(w, clubId));
+export const wageRoom = (w: World, clubId: string) => Math.min(w.clubs[clubId].finance.wageBudget * WAGE_SLACK - wageBill(w, clubId), ruleWageRoom(w, clubId));
 /** 영입 가능한지: 이적료는 이적 예산 안, 주급은 주급 여유 안, 주급 + 이적료 상각은 재정 규정 안 — AI · 사용자 같은 규칙 */
 export const canAfford = (w: World, clubId: string, fee: number, wage: number, years = 3) =>
   fee <= w.clubs[clubId].finance.transferBudget && wage <= wageRoom(w, clubId) && withinRules(w, clubId, wage, fee, years).ok;

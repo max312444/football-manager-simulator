@@ -21,6 +21,7 @@ module.exports = {
     wikidataApi: { minIntervalMs: 300, ttlDays: 90 },
     // 과거 판(revision)은 바뀌지 않으므로 캐시를 오래 둔다
     wikipedia: { minIntervalMs: 300, ttlDays: 3650 },
+    commons: { minIntervalMs: 300, ttlDays: 365 },
   },
   MAX_RETRIES: 5,
 
@@ -37,7 +38,7 @@ module.exports = {
     esp1: { wikidata: 'Q324867', nation: 'ESP', level: 1, enwiki: 'La Liga' },
     ita1: { wikidata: 'Q15804', nation: 'ITA', level: 1, enwiki: 'Serie A' },
     ger1: { wikidata: 'Q82595', nation: 'GER', level: 1, enwiki: 'Bundesliga' },
-    fra1: { wikidata: 'Q13394', nation: 'FRA', level: 1, enwiki: 'Ligue 1' },
+    fra1: { wikidata: 'Q13394', nation: 'FRA', level: 1, enwiki: (y) => (y >= 2002 ? 'Ligue 1' : 'French Division 1') },
     // 2부 리그: 시대마다 위키백과 시즌 문서 이름이 다르다 (시즌 시작 연도 기준)
     eng2: { wikidata: 'Q19510', nation: 'ENG', level: 2, enwiki: (y) => (y >= 2016 ? 'EFL Championship' : y >= 2004 ? 'Football League Championship' : 'Football League First Division') },
     esp2: { wikidata: 'Q35615', nation: 'ESP', level: 2, enwiki: 'Segunda División' },

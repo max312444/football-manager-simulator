@@ -3,7 +3,8 @@ import { useMemo, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
 import { overall } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
-import { marketValue, nextWindow, offerValid, talkBanned, wageBill, wageDemand, windowOpen } from '../../engine/transfer';
+import { marketValue, nextWindow, offerValid, talkBanned, wageDemand, windowOpen } from '../../engine/transfer';
+import { wageRoomInfo } from '../../engine/rules';
 import { clubKo, compKo, nations, playerKo } from '../../data/db';
 import { PlayerPanel } from './PlayerPanel';
 import { NegotiationModal } from '../components/NegotiationModal';
@@ -42,7 +43,8 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
 
   const club = w.clubs[w.userClubId];
   const win = windowOpen(w.season, w.date);
-  const bill = wageBill(w, w.userClubId);
+  const ri = wageRoomInfo(w, w.userClubId);
+  const signedMoney = (v: number) => (v < 0 ? `−${money(-v)}` : money(v));
   const offers = (w.offers ?? []).filter((o) => offerValid(w, o));
   const shortlist = w.shortlist ?? [];
   const listed = new Set(w.transferList ?? []);
@@ -76,7 +78,10 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
             <div className="text-[12px] text-lo">{win ? '다른 구단 선수 영입 가능' : `다음: ${koDate(nextWindow(w.season, w.date))} · 자유계약은 가능`}</div>
           </div>
           <div className="bg-ink-850 px-5 py-4"><div className="text-[12px] text-lo">이적 예산</div><div className="tnum mt-1 text-[20px] font-semibold">{money(club.finance.transferBudget)}</div></div>
-          <div className="bg-ink-850 px-5 py-4"><div className="text-[12px] text-lo">주급 여유</div><div className={`tnum mt-1 text-[20px] font-semibold ${club.finance.wageBudget - bill < 0 ? 'text-amber' : ''}`}>{money(club.finance.wageBudget - bill)}</div></div>
+          <div className="bg-ink-850 px-5 py-4">
+            <div className="text-[12px] text-lo">주급 여유</div>
+            <div className={`tnum mt-1 text-[20px] font-semibold ${ri.room < 0 ? 'text-amber' : ''}`}>{signedMoney(ri.room)}</div>
+          </div>
           <div className="bg-ink-850 px-5 py-4"><div className="text-[12px] text-lo">선수단</div><div className="tnum mt-1 text-[20px] font-semibold">{club.squad.length}명</div></div>
         </div>
 

@@ -44,6 +44,8 @@ const metaFile = <T,>(name: string): T => Object.entries(S.meta).find(([p]) => p
 
 export const leagues: LeagueMeta[] = metaFile<{ leagues: LeagueMeta[] }>('leagues').leagues;
 export const cups: CupMeta[] = metaFile<{ cups?: CupMeta[] }>('leagues').cups ?? [];
+/** 실제 월드컵 참가국 · 조 (없으면 빈 값 → 게임이 전력으로 정함) */
+export const worldCupsMeta = (Object.entries(S.meta).find(([p]) => p.endsWith('/meta/worldcups.json'))?.[1] ?? {}) as Record<string, import('../engine/worldcup').WorldCupMeta>;
 /** 리그 · 컵 대회 이름 */
 export const compKo = (id: string) => leagues.find((l) => l.id === id)?.ko ?? cups.find((c) => c.id === id)?.ko ?? id;
 export const nations = new Map<string, NationMeta>(metaFile<{ nations: NationMeta[] }>('nations').nations.map((n) => [n.code, n]));
@@ -86,7 +88,10 @@ export async function loadHistory(): Promise<PlayerHistory | null> {
 }
 
 export const playerKo = (id: string, fallback: string) => koNames.get(id)?.name ?? fallback;
-export const clubKo = (id: string) => clubs.get(id)?.ko ?? clubs.get(id)?.name ?? id;
+/** 구단 이름. 월드컵 경기용 대표팀(nt-나라)은 '나라 대표팀' */
+export const clubKo = (id: string) => (id.startsWith('nt-') ? `${nations.get(id.slice(3))?.ko ?? id.slice(3)} 대표팀` : clubs.get(id)?.ko ?? clubs.get(id)?.name ?? id);
+/** 나라 이름 */
+export const nationKo = (code: string) => nations.get(code)?.ko ?? code;
 
 /**
  * 게임이 만든 선수(유스)의 한국어 이름 등록: 이름을 가져온 선수들의 한국어 이름에서 이름 · 성을 섞는다.

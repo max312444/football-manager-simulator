@@ -1,7 +1,7 @@
 // 게임 시작 전 안내: 감독 시뮬레이터이며 실제 선수 · 평가 · 보도가 아님을 한 번 알린다
 import { Icon } from './Icon';
 
-const KEY = 'pitchboss.notice.v1';
+const KEY = 'pitchboss.notice.v2';   // v2: 사진 출처 안내 추가
 export const noticeSeen = () => { try { return localStorage.getItem(KEY) === '1'; } catch { return false; } };
 const markSeen = () => { try { localStorage.setItem(KEY, '1'); } catch { /* 저장 못 해도 진행 */ } };
 
@@ -22,6 +22,8 @@ export function NoticeDialog({ onClose, confirmLabel = '확인하고 시작' }: 
               <span>경기 결과와 이적은 시뮬레이션으로 정해지며, 세이브마다 다른 이야기가 펼쳐집니다.</span></li>
             <li className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-neon" />
               <span>비공식 팬 프로젝트로, 어떤 리그 · 구단 · 게임사의 승인도 받지 않았습니다.</span></li>
+            <li className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-neon" />
+              <span>선수 사진은 게임에 들어 있지 않습니다. <span className="text-hi">선수 사진은 개인이 추가하셔야 합니다.</span></span></li>
           </ul>
         </div>
         <footer className="flex items-center justify-between border-t border-line px-8 py-5">

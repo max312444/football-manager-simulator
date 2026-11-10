@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { clubKo, compKo, playerKo } from '../../data/db';
+import { clubKo, playerKo } from '../../data/db';
 import { SEGMENTS, type TeamInMatch } from '../../engine/match';
 import { slotRating } from '../../engine/ratings';
 import type { Side } from '../../engine/types';
 import { Crest } from '../components/Crest';
 import { Icon } from '../components/Icon';
-import { ConditionIcon, PosTag } from '../components/bits';
+import { CompBadge, ConditionIcon, PosTag } from '../components/bits';
 import { MENTALITY, PRESSING } from '../views/TacticsView';
 import { MatchPrep } from './MatchPrep';
 import { ratingTone, roundLabel } from '../format';
@@ -35,7 +35,6 @@ export function MatchScreen() {
   const me = s[m.side], opp = s[m.side === 'home' ? 'away' : 'home'];
   const minute = Math.min(90, s.segment * 5);
   const name = (id: string) => playerKo(id, w.players[id]?.name ?? id);
-  const lg = compKo(m.fixture.league);
 
   // 사건 목록 (골·카드·부상·교체)
   type Ev = { minute: number; side: Side; kind: 'goal' | 'yellow' | 'red' | 'injury' | 'sub'; text: string; sub?: string };
@@ -59,7 +58,7 @@ export function MatchScreen() {
         <div className="relative mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <TeamHead club={s.home.clubId} mine={m.side === 'home'} align="right" />
           <div className="flex flex-col items-center">
-            <div className="text-[11px] font-semibold text-lo">{lg} · {roundLabel(m.fixture)}</div>
+            <div className="flex items-center gap-2 text-[11px] font-semibold text-lo"><CompBadge f={m.fixture} /> {roundLabel(m.fixture)}</div>
             <div className="led mt-2 text-[56px] leading-none font-medium text-neon">
               {goalsSoFar.home}<span className="mx-3 text-lo">:</span>{goalsSoFar.away}
             </div>

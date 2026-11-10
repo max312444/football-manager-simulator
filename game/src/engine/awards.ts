@@ -4,11 +4,11 @@ import type { PlayerState, World } from './types';
 import { sortTable } from './standings';
 import { book, clubRevenue } from './finance';
 
-export type AwardKind = 'champion' | 'mvp' | 'boot' | 'assist' | 'young' | 'glove' | 'cup' | 'euro';
+export type AwardKind = 'champion' | 'mvp' | 'boot' | 'assist' | 'young' | 'glove' | 'cup' | 'euro' | 'wc';
 /** 우승 트로피 (리그 · 컵 · 유럽) */
-export const isTrophy = (k: AwardKind) => k === 'champion' || k === 'cup' || k === 'euro';
+export const isTrophy = (k: AwardKind) => k === 'champion' || k === 'cup' || k === 'euro' || k === 'wc';
 export const AWARD_KO: Record<AwardKind, string> = {
-  champion: '리그 우승', cup: '컵 우승', euro: '유럽 대회 우승', mvp: '시즌 MVP', boot: '득점왕', assist: '도움왕', young: '올해의 영플레이어', glove: '골든글러브',
+  champion: '리그 우승', cup: '컵 우승', euro: '유럽 대회 우승', wc: '월드컵 우승', mvp: '시즌 MVP', boot: '득점왕', assist: '도움왕', young: '올해의 영플레이어', glove: '골든글러브',
 };
 export interface Award {
   kind: AwardKind;

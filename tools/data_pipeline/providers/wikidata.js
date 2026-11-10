@@ -290,4 +290,4 @@ async function clubCities(qids, opts) {
   return out;
 }
 
-module.exports = { clubCities, searchClub, clubMemberships, byEnwikiTitles, playerFacts, labels, leagueSeasons, playerProfiles, clubProfiles, parentClubs };
+module.exports = { sparql, clubCities, searchClub, clubMemberships, byEnwikiTitles, playerFacts, labels, leagueSeasons, playerProfiles, clubProfiles, parentClubs };

@@ -144,6 +144,7 @@ const CUP_PARODY = {
   'fra-cup': ['쿠프 프랑세즈', 'Coupe Francaise'],
   ucl: ['컨티넨탈 챔피언스 컵', 'Continental Champions Cup'],
   uel: ['컨티넨탈 리그', 'Continental League'],
+  wc: ['월드 풋볼 챔피언십', 'World Football Championship'],
 };
 
 const slug = (s) => plainAscii(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -264,6 +265,8 @@ async function publish({ apply = false, log = console.log } = {}) {
     }),
   });
   out.set(path.join('meta', 'nations.json'), readJson(path.join(DATA, 'meta', 'nations.json')));
+  // 월드컵 참가국 · 조 (나라 단위 사실 정보라 그대로)
+  if (fs.existsSync(path.join(DATA, 'meta', 'worldcups.json'))) out.set(path.join('meta', 'worldcups.json'), readJson(path.join(DATA, 'meta', 'worldcups.json')));
   // 데이터 형식 버전: ID 체계가 바뀌면 올린다 (게임이 옛 세이브를 알아보는 데 씀)
   out.set(path.join('meta', 'version.json'), { idScheme: 2 });
   const koOut = {};
@@ -280,7 +283,8 @@ async function publish({ apply = false, log = console.log } = {}) {
   if (!apply) return;
 
   // 쓰기: 기존 data-public을 지우고 새로 (남은 옛 파일 방지)
-  fs.rmSync(PUB, { recursive: true, force: true });
+  //  history/ 는 지우지 않는다 — 선수 이력은 publish 가 아니라 게임 쪽 `npm run history` 로 따로 만든다
+  if (fs.existsSync(PUB)) for (const name of fs.readdirSync(PUB)) if (name !== 'history') fs.rmSync(path.join(PUB, name), { recursive: true, force: true });
   for (const [rel, data] of out) writeJsonIfChanged(path.join(PUB, rel), data);
   fs.writeFileSync(path.join(PUB, 'README.md'), [
     '# 공개용 게임 데이터 (data-public)',

@@ -1,4 +1,6 @@
 // 작은 공용 표시 요소
+import type { World } from '../../engine/types';
+import { compKo } from '../../data/db';
 import { conditionLevel } from '../../engine/condition';
 import { posGroup } from '../../data/rating';
 import type { Position } from '../../data/types';
@@ -53,4 +55,30 @@ export function Card({ title, action, children, className = '' }: { title?: stri
       <div className="min-h-0 flex-1">{children}</div>
     </section>
   );
+}
+
+/** 대회 종류: 리그 · 국내 컵 · 챔스 · 유로파 · 월드컵 (경기마다 색으로 구분) */
+export type CompKind = 'league' | 'po' | 'cup' | 'ucl' | 'uel' | 'intl';
+export function compKind(f: { league: string; stage?: string }, w?: World): CompKind {
+  if (f.stage === 'intl' || f.league === 'wc' || f.league.startsWith('nt-')) return 'intl';
+  if (f.league === 'ucl') return 'ucl';
+  if (f.league === 'uel') return 'uel';
+  if (f.stage === 'euro') return 'ucl';
+  if (f.stage === 'cup' || w?.cups?.[f.league]) return 'cup';
+  if (f.stage) return 'po';
+  return 'league';
+}
+export const COMP_TONE: Record<CompKind, { pill: string; bar: string; text: string; short: string }> = {
+  league: { pill: 'bg-ink-700 text-mid', bar: 'bg-line-strong', text: 'text-mid', short: '리그' },
+  po: { pill: 'bg-ink-700 text-hi', bar: 'bg-hi/40', text: 'text-hi', short: 'PO' },
+  cup: { pill: 'bg-amber/15 text-amber', bar: 'bg-amber', text: 'text-amber', short: '컵' },
+  ucl: { pill: 'bg-sky/15 text-sky', bar: 'bg-sky', text: 'text-sky', short: '챔스' },
+  uel: { pill: 'bg-[#f0883e]/15 text-[#f0883e]', bar: 'bg-[#f0883e]', text: 'text-[#f0883e]', short: '유로파' },
+  intl: { pill: 'bg-[#b48cf2]/15 text-[#b48cf2]', bar: 'bg-[#b48cf2]', text: 'text-[#b48cf2]', short: 'A매치' },
+};
+/** 대회 배지. short면 '리그' · '컵' · '챔스' 같은 짧은 표시 */
+export function CompBadge({ f, short = false, className = '' }: { f: { league: string; stage?: string }; short?: boolean; className?: string }) {
+  const t = COMP_TONE[compKind(f)];
+  const name = compKo(f.league) ?? f.league;
+  return <span title={name} className={`inline-block max-w-full shrink-0 truncate rounded px-1.5 py-0.5 align-middle text-[11px] font-semibold ${t.pill} ${className}`}>{short ? t.short : name}</span>;
 }

@@ -1,3 +1,4 @@
+import { PhotoCredit, PlayerPhoto } from '../components/PlayerPhoto';
 import type { PlayerState, World } from '../../engine/types';
 import { attr, overall, formAvg } from '../../engine/ratings';
 import { POS_KO } from '../../data/rating';
@@ -112,7 +113,8 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
       <div className="relative overflow-hidden border-b border-line px-5 pt-5 pb-4">
         <div className="tnum pointer-events-none absolute -top-6 -right-2 text-[120px] leading-none font-semibold text-white/[0.03]">{p.number ?? ''}</div>
         <div className="flex items-start justify-between gap-3">
-          <div className="min-w-0">
+          <PlayerPhoto id={p.id} name={ko} />
+          <div className="min-w-0 flex-1">
             <div className="text-[12px] font-semibold text-lo">{POS_KO[p.pos]}</div>
             <div className="mt-1 truncate text-[22px] leading-tight font-semibold">{ko}</div>
             <div className="truncate text-[12px] text-lo">{p.name} · {nation} · {age}세</div>
@@ -143,6 +145,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
           ))}
         </div>
         {p.cupStats?.apps ? <div className="mt-2 text-center text-[11px] text-lo">리그 기록 · 컵 대회 {p.cupStats.apps}경기 {p.cupStats.goals}골 {p.cupStats.assists}도움</div> : null}
+        {p.intlStats?.apps ? <div className="mt-1 text-center text-[11px] text-sky">월드컵 {p.intlStats.apps}경기 {p.intlStats.goals}골 {p.intlStats.assists}도움</div> : null}
       </div>
 
       <div className="flex-1 overflow-auto px-5 py-4">
@@ -192,6 +195,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
         </ul>
         <div className="mt-4 text-[12px] text-lo">주급 {money(p.wage)} · 계약 {p.contract ? p.contract.slice(0, 7).replace('-', '.') + (p.contractGen ? ' (게임 설정)' : '') : p.clubId ? '정보 없음' : '없음 (FA)'} · 최근 폼 {p.recentRatings.length ? formAvg(p).toFixed(1) : '–'}</div>
       </div>
+      <PhotoCredit id={p.id} />
       {actions && <div className="shrink-0 border-t border-line px-5 py-4">{actions}</div>}
     </aside>
   );

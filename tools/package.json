@@ -1,0 +1,9 @@
+{
+  "name": "pitch-boss-tools",
+  "private": true,
+  "description": "데이터 파이프라인 도구 (사진 얼굴 · 선명도 분석에만 외부 패키지 사용)",
+  "devDependencies": {
+    "@vladmandic/face-api": "^1.7.15",
+    "playwright-core": "^1.49.1"
+  }
+}

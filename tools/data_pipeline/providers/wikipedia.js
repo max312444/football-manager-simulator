@@ -116,16 +116,29 @@ async function pageLinks(title, opts) {
 // 시즌 문서의 리그 순위표에 있는 구단 문서 제목만 뽑는다
 //  - {{#invoke:Sports table|...|team1=RMA|...|name_RMA=[[Real Madrid CF|Real Madrid]]}}
 //  - 옛 형식 {{Fb cl team |p=1 |t=[[Real Madrid C.F.|Real Madrid]] ...}}
-function leagueTableTeams(wikitext) {
+function leagueTableTeams(wikitext, info = {}) {
   wikitext = wikitext.replace(/<!--[\s\S]*?-->/g, '');   // HTML 주석 제거
   const out = [];
+  const updates = [];
   for (const body of findTemplates(wikitext, ['#invoke:\\s*[Ss]ports table'])) {
     const f = {};
     splitParams(body).forEach(p => { const k = p.indexOf('='); if (k > 0) f[p.slice(0, k).trim()] = p.slice(k + 1).trim(); });
     let codes = Object.keys(f).filter(k => /^team\d+$/.test(k)).sort((a, b) => +a.slice(4) - +b.slice(4)).map(k => f[k]);
     if (!codes.length && f.team_order) codes = f.team_order.split(',').map(x => x.trim()).filter(Boolean);
     const titles = codes.map(c => linkTitle(f[`name_${c}`] || '')).filter(Boolean);
-    if (titles.length >= 16) { out.push(titles); }
+    if (titles.length >= 16) { out.push(titles); updates.push(f.update || ''); }
+  }
+  // 순위 순서가 필요하면 (info.order) 결과표는 쓰지 않는다: 결과표의 구단 순서는 알파벳 순
+  if (info.order) {
+    if (!out.length) {
+      const titles = findTemplates(wikitext, ['[Ff]b cl team'])
+        .map(b => { const m = splitParams(b).find(p => /^\s*t\s*=/.test(p)); return m ? linkTitle(m) : null; })
+        .filter(Boolean);
+      if (titles.length >= 16) { out.push(titles); updates.push(''); }
+    }
+    // 끝난 시즌 표는 update=complete (값이 없으면 옛 틀 → 끝난 시즌으로 본다)
+    info.ongoing = out.length ? !!updates[0] && !/complet|finish|final|end/i.test(updates[0]) : false;
+    return out[0] || [];
   }
   // 최근 문서: 순위표는 별도 틀로 빼고, 같은 문서의 결과표({{#invoke:sports results|team_order=…|name_XXX=…}})에 전체 구단이 있다
   if (!out.length) {
@@ -147,12 +160,29 @@ function leagueTableTeams(wikitext) {
   return out[0] || [];
 }
 
-async function seasonTableTeams(title, opts) {
-  const url = `${API}&action=query&prop=revisions&rvprop=ids|content&rvslots=main&rvlimit=1&redirects=1&titles=${encodeURIComponent(title)}`;
-  const j = await getJson('wikipedia', url, opts);
-  const rev = j.query?.pages?.[0]?.revisions?.[0];
+async function seasonTableTeams(title, opts = {}) {
+  const fetchPage = async (t) => {
+    const url = `${API}&action=query&prop=revisions&rvprop=ids|content&rvslots=main&rvlimit=1&redirects=1&titles=${encodeURIComponent(t)}`;
+    const j = await getJson('wikipedia', url, opts);
+    return j.query?.pages?.[0]?.revisions?.[0] ?? null;
+  };
+  const rev = await fetchPage(title);
   if (!rev) return { title, revid: null, teams: [] };
-  return { title, revid: rev.revid, teams: leagueTableTeams(rev.slots.main.content) };
+  const info = { order: !!opts.order };
+  let teams = leagueTableTeams(rev.slots.main.content, info);
+  let revid = rev.revid;
+  // 순위표를 별도 틀로 빼 둔 문서: {{2023–24 La Liga table}} 같은 틀을 따라가 읽는다
+  if (opts.order && !teams.length) {
+    const subs = [...rev.slots.main.content.matchAll(/\{\{\s*(?:Template:)?([^{}|]*\btable\b[^{}|]*?)\s*[|}]/gi)].map((m) => m[1].trim()).filter((t) => !/^[#:]|sports table/i.test(t));
+    for (const t of [...new Set(subs)].slice(0, 3)) {
+      const r2 = await fetchPage(`Template:${t}`);
+      if (!r2) continue;
+      const i2 = { order: true };
+      const t2 = leagueTableTeams(r2.slots.main.content, i2);
+      if (t2.length) { teams = t2; info.ongoing = i2.ongoing; revid = `${revid}+${r2.revid}`; break; }
+    }
+  }
+  return { title, revid, teams, ongoing: !!info.ongoing };
 }
 
 module.exports = { squadAt, firstTeamPlayers, resolveTitles, pageLinks, seasonTableTeams, leagueTableTeams };

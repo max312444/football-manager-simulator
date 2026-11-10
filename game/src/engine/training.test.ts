@@ -28,7 +28,7 @@ describe('훈련 · 선수 육성', () => {
     const p = w.players[w.clubs[LIV].squad[0]];
     p.birth = '2007-01-01';
     p.hidden = { ...p.hidden, professionalism: 10.5, ambition: 10.5 };
-    w.clubs[LIV].reputation = 70;
+    w.clubs[LIV].facilities = { training: 3, youth: 3 };   // 훈련 시설 3단계 = 평균
     expect(Math.abs(monthlyDev(w, p))).toBeLessThan(0.02);                      // 평균 조건 ≈ 0
     p.hidden = { ...p.hidden, professionalism: 20, ambition: 18 };
     w.clubs[LIV].training = { focus: 'balanced', intensity: 2 };

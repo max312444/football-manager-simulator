@@ -43,6 +43,22 @@ export function NewGameScreen() {
   };
   const sel = clubsData?.find((c) => c.club === club);
 
+  /** 완전 랜덤: 시즌 · 리그 · 구단 모두 무작위 (첫 시즌만 예산 · 샐러리 캡 보정) */
+  const [rolling, setRolling] = useState(false);
+  const randomStart = async () => {
+    setRolling(true);
+    const s = allSeasons[Math.floor(Math.random() * allSeasons.length)];
+    const lgs = top.filter((l) => availableSeasons(l.id).includes(s));
+    const lg = lgs[Math.floor(Math.random() * lgs.length)];
+    const r = await loadLeagueSeason(s, lg.id);
+    const c = r.clubs[Math.floor(Math.random() * r.clubs.length)];
+    setSeason(s); setLeague(lg.id); setClub(c.club);
+    await newGame(s, lg.id, c.club, { random: true });
+    setRolling(false);
+    setTab('home');
+    go('hub');
+  };
+
   const start = async () => {
     if (!club) return;
     await newGame(season, league, club);
@@ -60,6 +76,11 @@ export function NewGameScreen() {
           <Icon name="back" size={15} /> 메인 메뉴
         </button>
         <h1 className="mt-2 text-[26px] font-semibold">새 게임</h1>
+        <button onClick={randomStart} disabled={loading || rolling} title="시즌 · 리그 · 구단을 모두 무작위로 고릅니다"
+          className="mt-5 flex h-11 w-full items-center justify-center gap-2 rounded-lg border border-dashed border-neon/50 text-[13px] font-semibold text-neon transition-colors hover:bg-neon-ghost disabled:opacity-50">
+          {rolling ? '구단 고르는 중…' : '완전 랜덤으로 시작'}
+        </button>
+        <div className="mt-1.5 text-[11px] leading-relaxed text-lo">시즌 · 리그 · 구단 모두 무작위 · 첫 시즌만 살짝 보정 (이적 예산 +10% · 주급 예산 +5% · 샐러리 캡 +5%)</div>
         <ol className="mt-10 space-y-6">
           {[['시즌', fmtSeason(season)], ['리그', compKo(league)], ['구단', club ? clubKo(club) : '–']].map(([k, v], i) => (
             <li key={k} className="flex gap-4">

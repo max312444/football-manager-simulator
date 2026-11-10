@@ -16,7 +16,7 @@ const NAV: { key: HubTab; label: string; icon: string; ready?: boolean }[] = [
   { key: 'table', label: '순위', icon: 'table', ready: true },
   { key: 'transfers', label: '이적', icon: 'transfers', ready: true },
   { key: 'finance', label: '재정', icon: 'finance' },
-  { key: 'club', label: '구단', icon: 'club' },
+  { key: 'club', label: '구단', icon: 'club', ready: true },
 ];
 
 export function Sidebar() {

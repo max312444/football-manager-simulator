@@ -2,11 +2,12 @@ import type { PlayerState, World } from '../../engine/types';
 import { nextUserFixture } from '../../engine/world';
 import { overall } from '../../engine/ratings';
 import { sortTable } from '../../engine/standings';
+import { levelOf } from '../../engine/pyramid';
 import { ageOn } from '../../engine/condition';
-import { clubKo, compKo, playerKo } from '../../data/db';
+import { clubKo, playerKo } from '../../data/db';
 import { posGroup } from '../../data/rating';
 import { Crest } from '../components/Crest';
-import { Card, PosTag, ResultDot } from '../components/bits';
+import { COMP_TONE, Card, CompBadge, PosTag, ResultDot, compKind } from '../components/bits';
 import { money, ratingTone, roundLabel } from '../format';
 import { useWorld } from '../hooks';
 import { useApp } from '../../store/app';
@@ -15,14 +16,20 @@ import { describe } from './InboxView';
 import { resultFor, userFixtures } from './ScheduleView';
 
 /** 주전 11명 평균 능력 */
-const strength = (w: World, club: string) => {
+export const strength = (w: World, club: string) => {
   const top = w.clubs[club].squad.map((id) => overall(w.players[id])).sort((a, b) => b - a).slice(0, 11);
   return Math.round(top.reduce((a, b) => a + b, 0) / Math.max(1, top.length));
 };
 const formOf = (w: World, club: string) => w.competitions[w.clubs[club].league].table[club]?.form ?? [];
 
 /** 주전 전력 순위로 정하는 이사회 목표 (게임 규칙) */
-function objective(rank: number, n: number) {
+export function objective(rank: number, n: number, level = 1) {
+  if (level >= 2) {
+    if (rank <= 2) return { goal: '1부 승격', detail: '자동 승격권 (2위 이내)', target: 2 };
+    if (rank <= 6) return { goal: '승격 플레이오프', detail: '6위 이내', target: 6 };
+    if (rank <= n - 6) return { goal: '중위권 안착', detail: `${Math.ceil(n / 2)}위 이내`, target: Math.ceil(n / 2) };
+    return { goal: '2부 리그 잔류', detail: `${n - 3}위 이내`, target: n - 3 };
+  }
   if (rank === 1) return { goal: '리그 우승', detail: '우승 후보로 평가받고 있습니다', target: 1 };
   if (rank <= 4) return { goal: '챔피언스리그 진출', detail: '4위 이내', target: 4 };
   if (rank <= 7) return { goal: '유럽 대항전 진출', detail: '7위 이내', target: 7 };
@@ -57,7 +64,7 @@ export function HomeView() {
   return (
     <div className="h-full overflow-auto">
       <div className="mx-auto flex max-w-[1440px] flex-col gap-6 p-6">
-        {next ? <NextMatch w={w} home={next.home} away={next.away} date={next.date} round={roundLabel(next)} league={compKo(next.league)} />
+        {next ? <NextMatch w={w} home={next.home} away={next.away} date={next.date} round={roundLabel(next)} fx={next} />
           : <section className="panel px-8 py-6 text-[15px]">시즌이 끝났습니다 · 최종 {pos}위 · 승점 {row.pts}</section>}
 
         <div className="grid grid-cols-1 items-start gap-6 xl:grid-cols-3">
@@ -91,6 +98,7 @@ export function HomeView() {
                   <Row key={f.id}>
                     <span className="tnum w-11 shrink-0 text-[12px] text-lo">{f.date.slice(5).replace('-', '.')}</span>
                     <span className={`w-8 shrink-0 text-[12px] ${home ? 'text-hi' : 'text-lo'}`}>{home ? '홈' : '원정'}</span>
+                    <CompBadge f={f} short className="w-12 text-center" />
                     <Crest clubId={opp} size={18} />
                     <span className="min-w-0 flex-1 truncate">{clubKo(opp)}</span>
                     <span className={`tnum text-[12px] ${ratingTone(strength(w, opp))}`}>{strength(w, opp)}</span>
@@ -104,6 +112,7 @@ export function HomeView() {
                   <Row key={f.id}>
                     <ResultDot r={resultFor(f, w.userClubId)!} />
                     <span className="w-8 shrink-0 text-[12px] text-lo">{home ? '홈' : '원정'}</span>
+                    <CompBadge f={f} short className="w-12 text-center" />
                     <Crest clubId={opp} size={18} /><span className="min-w-0 flex-1 truncate">{clubKo(opp)}</span>
                     {f.result!.pom && <span className="hidden max-w-[120px] truncate text-[11px] text-lo sm:inline" title="경기 최우수 선수">POM {playerKo(f.result!.pom, w.players[f.result!.pom]?.name ?? '')}</span>}
                     <span className="tnum font-medium">{home ? `${f.result!.homeGoals}-${f.result!.awayGoals}` : `${f.result!.awayGoals}-${f.result!.homeGoals}`}</span>
@@ -137,14 +146,16 @@ export function HomeView() {
   );
 }
 
-function NextMatch({ w, home, away, date, round, league }: { w: World; home: string; away: string; date: string; round: string; league: string }) {
+function NextMatch({ w, home, away, date, round, fx }: { w: World; home: string; away: string; date: string; round: string; fx: { league: string; stage?: string } }) {
+  const k = compKind(fx);
   const mine = w.userClubId;
   const sh = strength(w, home), sa = strength(w, away);
   const d = new Date(date + 'T00:00:00');
   return (
-    <section className="panel grid grid-cols-1 items-center gap-6 px-8 py-6 lg:grid-cols-[200px_1fr_240px]">
+    <section className="panel relative grid grid-cols-1 items-center gap-6 overflow-hidden px-8 py-6 lg:grid-cols-[200px_1fr_240px]">
+      <span className={`absolute top-0 bottom-0 left-0 w-1 ${COMP_TONE[k].bar}`} />
       <div>
-        <div className="text-[12px] text-lo">다음 경기 · {league} {round}</div>
+        <div className="flex flex-wrap items-center gap-2 text-[12px] text-lo">다음 경기 <CompBadge f={fx} /> <span className={k === 'league' ? '' : COMP_TONE[k].text}>{round}</span></div>
         <div className="mt-2 text-[22px] font-semibold whitespace-nowrap">{d.getMonth() + 1}월 {d.getDate()}일 <span className="font-normal text-mid">{'일월화수목금토'[d.getDay()]}요일</span></div>
         <div className="mt-1 text-[13px] text-mid">{home === mine ? '홈 경기' : '원정 경기'}</div>
       </div>
@@ -189,7 +200,7 @@ function SeasonGoal({ w, pos }: { w: World; pos: number | null }) {
   const ids = Object.keys(w.competitions[club.league].table);
   const ranked = [...ids].sort((a, b) => strength(w, b) - strength(w, a));
   const rank = ranked.indexOf(club.id) + 1;
-  const o = objective(rank, ids.length);
+  const o = objective(rank, ids.length, levelOf(club.league));
   const onTrack = pos == null ? null : pos <= o.target;
   return (
     <Card title="시즌 목표">

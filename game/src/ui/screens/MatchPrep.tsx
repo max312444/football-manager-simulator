@@ -1,20 +1,21 @@
 // 경기 전 스쿼드 설정: AI가 상대에 맞춰 추천한 선발로 시작 → 사용자가 수정 → 선발 확정하면 바로 킥오프
+import { useApp } from '../../store/app';
 import { useEffect, useMemo, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { clubKo, compKo, playerKo } from '../../data/db';
+import { clubKo, playerKo } from '../../data/db';
 import { FORMATIONS, available } from '../../engine/squad';
 import { overall, slotRating } from '../../engine/ratings';
 import { recommend, teamStrength } from '../../engine/ai';
 import { Crest } from '../components/Crest';
 import { Icon } from '../components/Icon';
-import { Card, ConditionIcon, FitnessBar, PosTag, ResultDot } from '../components/bits';
+import { Card, CompBadge, ConditionIcon, FitnessBar, PosTag, ResultDot } from '../components/bits';
 import { MENTALITY, PRESSING, Pitch, slotXY } from '../views/TacticsView';
 import { koDate, ratingTone, roundLabel } from '../format';
 
 export function MatchPrep() {
   const w = useWorld();
-  const { match: m, updateDraft, resetDraft, confirmLineup, closeMatch } = useGame();
+  const { match: m, updateDraft, resetDraft, confirmLineup, closeMatch, leaveMatch } = useGame();
   const [sel, setSel] = useState<number | null>(null);
 
   useEffect(() => {
@@ -42,7 +43,6 @@ export function MatchPrep() {
   const squad = w.clubs[w.userClubId].squad.map((id) => w.players[id]);
   const name = (id: string) => playerKo(id, w.players[id]?.name ?? id);
   const short = (id: string) => name(id).split(' ').slice(-1)[0];
-  const lg = compKo(f.league);
   const changed = JSON.stringify([d.formation, d.mentality, d.pressing, d.starters]) !== JSON.stringify([m.rec.lineup.formation, m.rec.tactics.mentality, m.rec.tactics.pressing, m.rec.lineup.starters.map((x) => x.id)]);
   const myStr = teamStrength(w, w.userClubId), oppStr = teamStrength(w, oppId);
   const oppForm = w.competitions[w.clubs[oppId].league]?.table[oppId]?.form ?? [];
@@ -80,7 +80,7 @@ export function MatchPrep() {
       <header className="shrink-0 border-b border-line bg-ink-900">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between px-8 py-5">
           <div>
-            <div className="text-[12px] text-lo">경기 전 스쿼드 설정 · {lg} {roundLabel(f)}</div>
+            <div className="flex items-center gap-2 text-[12px] text-lo">경기 전 스쿼드 설정 <CompBadge f={f} /> {roundLabel(f)}</div>
             <div className="mt-1 text-[15px] text-mid">{koDate(f.date)} · {m.side === 'home' ? '홈 경기' : '원정 경기'}</div>
           </div>
           <div className="flex items-center gap-6">
@@ -218,6 +218,7 @@ export function MatchPrep() {
 
       {/* 아래: 확정 */}
       <footer className="flex h-[72px] shrink-0 items-center gap-4 border-t border-line bg-ink-900/90 px-6">
+        <button onClick={() => { useApp.getState().setTab('home'); leaveMatch(); }} className="flex h-12 items-center gap-2 rounded-lg px-4 text-[13px] text-mid ring-1 ring-line transition-colors hover:text-hi" title="경기는 그대로 남습니다 · 계속을 누르면 다시 이 화면"><span className="inline-block rotate-180"><Icon name="arrow" size={16} /></span>홈으로</button>
         <div className="text-[13px] text-mid">{changed ? '직접 수정한 선발로 나갑니다' : 'AI 추천 선발로 나갑니다'}</div>
         <div className="ml-auto flex items-center gap-4">
           <span className="hidden text-[12px] text-lo lg:inline"><kbd className="rounded border border-line-strong px-1.5 py-0.5 text-[11px] text-mid">Space</kbd> 로 확정</span>

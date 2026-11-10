@@ -6,7 +6,8 @@ import { useEffect, useRef, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
 import { overall } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
-import { MAX_TRIES, marketValue, talkBanned, wageDemand, wageRoom } from '../../engine/transfer';
+import { MAX_TRIES, marketValue, talkBanned, wageDemand } from '../../engine/transfer';
+import { wageRoomInfo } from '../../engine/rules';
 import { clubKo, playerKo } from '../../data/db';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
@@ -69,7 +70,9 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
     push({ who: r.left === undefined ? 'sys' : 'player', tone: 'warn', text: r.reason });
     if (r.broken) fail();
   };
-  const room = wageRoom(w, w.userClubId) - wage * 1000;
+  // 계약 후 여유: 예산 · 규정 중 좁은 쪽. 규정에는 합의한 이적료의 상각 (이적료 ÷ 계약 연수)도 들어간다
+  const ri = wageRoomInfo(w, w.userClubId, fa ? 0 : w.talks?.[p.id]?.agreed ?? 0, years);
+  const room = ri.room - wage * 1000;
   const ovr = overall(p);
 
   return (

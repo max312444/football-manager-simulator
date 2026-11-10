@@ -8,6 +8,7 @@ import { ResultDot } from '../components/bits';
 import { useWorld } from '../hooks';
 import { CupView } from './CupView';
 import { EuroView } from './EuroView';
+import { WorldCupView } from './WorldCupView';
 
 /** 리그 순위표. compact면 홈 화면용 (내 구단 주변만) */
 export function LeagueTable({ league, compact = false }: { league: string; compact?: boolean }) {
@@ -76,8 +77,8 @@ export function TableView() {
   const ids = Object.keys(w.competitions);
   const cupIds = Object.keys(w.cups ?? {});
   const want = useApp((a) => a.tableLeague);
-  const euroIds = Object.keys(w.europe ?? {});
-  const known = (id: string | null | undefined): id is string => !!id && (!!w.competitions[id] || !!w.cups?.[id] || !!w.europe?.[id]);
+  const euroIds = [...Object.keys(w.europe ?? {}), ...(w.worldCup || w.worldCupHistory?.length ? ['wc'] : [])];
+  const known = (id: string | null | undefined): id is string => !!id && (!!w.competitions[id] || !!w.cups?.[id] || !!w.europe?.[id] || id === 'wc');
   const [league, setLeague] = useState(known(want) ? want : w.clubs[w.userClubId].league);
   useEffect(() => { if (known(want)) setLeague(want); }, [want]);
   const isCup = !w.competitions[league];
@@ -101,7 +102,7 @@ export function TableView() {
           {cupIds.map((id) => tab(id, true))}
         </div>
       )}
-      {w.europe?.[league] ? <EuroView id={league} /> : isCup ? <CupView cupId={league} /> : (
+      {league === 'wc' ? <WorldCupView /> : w.europe?.[league] ? <EuroView id={league} /> : isCup ? <CupView cupId={league} /> : (
         <div className="flex min-h-0 flex-1 gap-4">
           <div className="panel min-h-0 flex-1 overflow-auto"><LeagueTable league={league} /></div>
           {w.competitions[league]?.playoff?.ties.length ? <Playoffs league={league} /> : null}

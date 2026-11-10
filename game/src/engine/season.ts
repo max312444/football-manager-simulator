@@ -14,6 +14,9 @@ import { emptyStats, newPlayer } from './world';
 import { buildFixtures, seasonStart } from './fixtures';
 import { emptyRow, sortTable } from './standings';
 import { createRng, type Rng } from './rng';
+import { managerNewSeason, managerSeasonEnd } from './manager';
+import { applyBudgetFactor } from './board';
+import { boardNewSeason, fansSeasonEnd } from './boardEvents';
 import { ageOn } from './condition';
 import { FORMATIONS, guessFormation } from './squad';
 import { boardReview, prizeMoney, seasonBudgets } from './finance';
@@ -26,6 +29,7 @@ import { seasonAwards } from './awards';
 import { createCups } from './cup';
 import { growTowardPotential, youthIntake } from './youth';
 import { createEurope } from './europe';
+import { clearWorldCup, createWorldCup } from './worldcup';
 
 export const MAX_SQUAD = 32;
 export const nextSeasonOf = (s: string) => {
@@ -83,6 +87,8 @@ export function closeSeason(w: World): SeasonRecord[] {
     if (row.club === w.userClubId) w.lastPrize = amount;
   });
   w.history.push(...recs);
+  const mres = managerSeasonEnd(w, recs);   // 감독: 신뢰도 · 명성 (시즌 끝에 경질 판정)
+  if (mres) fansSeasonEnd(w, mres);         // 팬 여론 · 우승 보너스 예약
   return recs;
 }
 
@@ -112,6 +118,8 @@ const retireChance = (age: number, ovrish: number) => (age < 33 ? 0 : age < 35 ?
  * 월드를 직접 수정하고 보고서를 돌려준다.
  */
 export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
+  // 월드컵이 있었으면 경기용 대표팀 구단 · 가상 선수 정리 (기록은 worldCupHistory)
+  clearWorldCup(w);
   const rng = createRng(w.rng ^ 0x5eed);
   const from = w.season, to = next.season;
   const startDate = seasonStart(to);
@@ -224,6 +232,8 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     };
   }
   for (const [lgId, members] of Object.entries(newMembers)) newMembers[lgId] = members.filter((id) => w.clubs[id]);
+  // 시설 · 경기장: 실제 다음 시즌 데이터가 있으면 갱신
+  for (const [id, { c }] of dataClub) if (w.clubs[id]) { w.clubs[id].facilities = c.facilities ? { training: Math.max(c.facilities.training, w.clubs[id].built?.training ?? 0), youth: Math.max(c.facilities.youth, w.clubs[id].built?.youth ?? 0) } : w.clubs[id].facilities; w.clubs[id].stadium = c.stadiumCapacity ?? w.clubs[id].stadium; }
 
   // 명성 · 재정: 실제 다음 시즌 값이 있으면 따르되, 게임 속 리그 수준이 실제와 다르면 보정
   //  (1단계 올라가면 명성 +4 · 재정 ×2, 내려가면 명성 −5 · 재정 ×0.45)
@@ -264,6 +274,11 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     if (d) {
       p.base = { ...d.sp.attrs };          // 실제 능력치 (기준선)
       p.pos = d.sp.pos;
+      // AI 구단: 실제로도 같은 구단에 남아 있고 실제 주급이 더 높으면 실제 재계약 반영 (내 구단 선수는 직접 재계약)
+      if (p.clubId && p.clubId !== w.userClubId && d.club === p.clubId && d.sp.wage > p.wage) {
+        p.wage = d.sp.wage;
+        if (d.sp.contract && (!p.contract || d.sp.contract > p.contract)) p.contract = d.sp.contract;
+      }
       report.updated++;
     } else if (!nextLeague.has(p.clubId ? w.clubs[p.clubId]?.league ?? '' : '')) {
       // 이 선수의 리그에 다음 시즌 데이터가 없으면 성장 · 노화 엔진
@@ -347,17 +362,24 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   // 유럽 대회 (방금 끝난 시즌 순위로) · 국내 컵 대회 (새 리그 구성으로)
   w.europe = createEurope(w, rng);
   w.cups = createCups(w, rng);
+  // 월드컵 (이번 시즌 끝에 열리면): 실제 참가국 · 조가 있으면 그대로, 없으면 대표팀 전력 + 대륙 쿼터
+  w.worldCup = createWorldCup(w, to, next.worldCups);
 
   // 실제 다음 시즌 데이터에 내 구단이 없으면 현재 예산을 기준으로 배정
   if (!report.board) report.board = { ...boardReview(w, { ...w.clubs[w.userClubId].finance }, to), prize: w.lastPrize ?? 0 };
   w.season = to;
-  w.date = startDate;
+  // 월드컵이 7월까지 이어졌으면 날짜를 되돌리지 않는다
+  w.date = w.date > startDate ? w.date : startDate;
   cleanOffers(w);   // 떠난 · 은퇴한 선수에게 온 제안 정리
   w.rng = rng.state();
   w.inbox = w.inbox.filter((e) => e.date >= `${from.slice(0, 4)}-07-01`).slice(-100);
   w.inbox.push({ type: 'info', date: startDate, text: `${to.replace('-', '/')} 시즌 시작 · 새로 등장한 선수 ${report.debuts.length}명 · 은퇴 ${report.retired.length}명` });
   if (report.board) w.inbox.push({ type: 'info', date: startDate, text: `이사회 예산 배정 · 이적 예산 ${money(report.board.transferBudget)} · 주급 예산 ${money(report.board.wageBudget)}/주` });
   if (report.userKept) w.inbox.push({ type: 'info', date: startDate, text: '강등권이었지만 2부 리그가 아직 없어 잔류 처리됐습니다' });
+  // 감독: 경질 · 계약 만료면 새 구단 고르기
+  const mrng = createRng((w.rng ^ 0x3a9e) >>> 0);
+  w.inbox.push(...managerNewSeason(w, mrng));
+  if (!w.manager?.pendingJob) w.inbox.push(...applyBudgetFactor(w), ...boardNewSeason(w, mrng));   // 이사회 관계에 따라 예산 ±15% · 우승 보너스 · 구단주 교체
   return report;
 }
 
@@ -378,6 +400,7 @@ function releasePlayer(w: World, p: PlayerState) {
 function resetSeason(p: PlayerState) {
   p.stats = emptyStats();
   p.cupStats = undefined;
+  p.intlStats = undefined;
   p.tlog = undefined;
   p.yellowCount = 0;
   p.suspension = 0;

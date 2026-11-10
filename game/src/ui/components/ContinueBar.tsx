@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { Icon } from './Icon';
 import { Crest } from './Crest';
 import { koDate, roundLabel } from '../format';
+import { CompBadge } from './bits';
 import { useWorld } from '../hooks';
 import { useGame } from '../../store/game';
 import { useApp } from '../../store/app';
@@ -59,7 +60,7 @@ export function ContinueBar() {
             <div className="truncate text-[14px] font-semibold">
               {clubKo(opp)} <span className="font-medium text-lo">{home ? '(홈)' : '(원정)'}</span>
             </div>
-            <div className="tnum text-[12px] text-lo">{koDate(next.date)} · {roundLabel(next)}</div>
+            <div className="tnum flex items-center gap-2 text-[12px] text-lo"><CompBadge f={next} className="max-w-[140px]" />{koDate(next.date)} · {roundLabel(next)}</div>
           </div>
         </div>
       ) : <div />}

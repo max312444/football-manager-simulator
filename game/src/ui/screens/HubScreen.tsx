@@ -1,3 +1,6 @@
+import { JobModal } from '../components/ManagerCard';
+import { BoardEventModal } from '../components/BoardEventModal';
+import { PressModal } from '../components/PressModal';
 import { Sidebar } from '../components/Sidebar';
 import { TopBar } from '../components/TopBar';
 import { ContinueBar } from '../components/ContinueBar';
@@ -15,6 +18,7 @@ import { InboxView } from '../views/InboxView';
 import { TacticsView } from '../views/TacticsView';
 import { TransfersView } from '../views/TransfersView';
 import { FinanceView } from '../views/FinanceView';
+import { ClubView } from '../views/ClubView';
 import { AwardCeremony } from '../components/AwardCeremony';
 import { RetireNews } from '../components/RetireNews';
 import { SearchModals } from '../components/SearchModals';
@@ -33,7 +37,7 @@ export function HubScreen() {
   const closeCeremony = useGame((s) => s.closeCeremony);
   const view = {
     home: <HomeView />, squad: <SquadView />, table: <TableView />, schedule: <ScheduleView />,
-    inbox: <InboxView />, finance: <FinanceView />, tactics: <TacticsView />, transfers: <TransfersView key={preset ? preset.label + preset.minOvr : 'free'} />,
+    inbox: <InboxView />, finance: <FinanceView />, club: <ClubView />, tactics: <TacticsView />, transfers: <TransfersView key={preset ? preset.label + preset.minOvr : 'free'} />,
   }[tab as string];
 
   return (
@@ -60,6 +64,9 @@ export function HubScreen() {
       <RetireNews />
       <SearchModals />
       <RenewalRequests />
+      <JobModal />
+      <BoardEventModal />
+      <PressModal />
     </div>
   );
 }

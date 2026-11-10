@@ -1,7 +1,9 @@
 import type { GameEvent, World } from '../../engine/types';
-import { clubKo, compKo, playerKo } from '../../data/db';
+import { clubKo, compKo, nationKo, playerKo } from '../../data/db';
 import { josa, koDate, money } from '../format';
 import { useWorld } from '../hooks';
+import { boardEventText } from '../components/BoardEventModal';
+import { COMP_TONE, compKind } from '../components/bits';
 
 export function describe(e: GameEvent, w: World): { tag: string; tone: string; title: string; body?: string } {
   switch (e.type) {
@@ -9,7 +11,8 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const mineHome = e.home === w.userClubId;
       const [g, o] = mineHome ? e.score : [e.score[1], e.score[0]];
       const res = g > o ? '승리' : g === o ? '무승부' : '패배';
-      return { tag: '경기', tone: g > o ? 'text-neon' : g === o ? 'text-mid' : 'text-red', title: `${clubKo(e.home)} ${e.score[0]} - ${e.score[1]} ${clubKo(e.away)}`, body: `${res} · ${compKo(e.league) ?? ''}` };
+      const k = compKind({ league: e.league }, w);
+      return { tag: k === 'league' || k === 'po' ? '경기' : COMP_TONE[k].short, tone: g > o ? 'text-neon' : g === o ? 'text-mid' : 'text-red', title: `${clubKo(e.home)} ${e.score[0]} - ${e.score[1]} ${clubKo(e.away)}`, body: `${res} · ${compKo(e.league) ?? ''}` };
     }
     case 'injury':
       return { tag: '부상', tone: 'text-red', title: `${playerKo(e.player, w.players[e.player]?.name ?? e.player)} 부상`, body: `${e.label} · 약 ${e.days}일 결장 예상` };
@@ -48,6 +51,41 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const names = e.players.map((id) => playerKo(id, w.players[id]?.name ?? id));
       const star = e.star ? playerKo(e.star, w.players[e.star]?.name ?? e.star) : null;
       return { tag: '유스', tone: star ? 'text-[#f2c94c]' : 'text-neon', title: `유스 선수 ${e.players.length}명 입단${star ? ` · 코치진이 ${star}${josa(star, '을', '를')} 주목합니다` : ''}`, body: names.join(', ') };
+    }
+    case 'callup': {
+      const names = e.players.map((id) => playerKo(id, w.players[id]?.name ?? id));
+      const hurt = e.injured.map((id) => playerKo(id, w.players[id]?.name ?? id));
+      return { tag: '대표', tone: hurt.length ? 'text-amber' : 'text-sky', title: `A매치 기간 · 대표팀 차출 ${names.length}명`, body: `${names.join(', ')} · 체력이 떨어져 돌아옵니다${hurt.length ? ` · 부상: ${hurt.join(', ')}` : ''}` };
+    }
+    case 'worldcup': {
+      const cup = compKo('wc');
+      const mine = (e.players ?? []).map((id) => `${playerKo(id, w.players[id]?.name ?? id)}(${nationKo(w.players[id]?.nation ?? '')})`);
+      if (e.result === 'start') return { tag: '월드컵', tone: 'text-sky', title: `${e.year} ${cup} 대표 선발 · 우리 선수 ${mine.length}명`, body: mine.join(', ') };
+      return { tag: '월드컵', tone: 'text-[#f2c94c]', title: `${e.year} ${cup} 우승 · ${nationKo(e.nation)}`, body: [mine.length ? `우승 멤버: ${mine.join(', ')}` : '', e.scorer ? `득점왕 ${playerKo(e.scorer, e.text ?? '')}` : e.text ?? ''].filter(Boolean).join(' · ') };
+    }
+    case 'press':
+      return { tag: '언론', tone: 'text-sky', title: e.kind === 'pre' ? `경기 전 기자회견${e.opp ? ` · 상대 ${clubKo(e.opp)}` : ''}` : `경기 후 기자회견${e.opp ? ` · ${clubKo(e.opp)}전` : ''}`, body: '답변 결과는 아래 소식에 나옵니다' };
+    case 'board': {
+      const t = boardEventText(w, e.kind, e.player);
+      const owner = e.kind === 'ownerRich' || e.kind === 'ownerCut';
+      return { tag: owner ? '구단' : e.kind === 'rumour' ? '언론' : e.kind === 'protest' ? '팬' : '이사회', tone: e.kind === 'ownerRich' ? 'text-neon' : 'text-amber', title: t.title, body: owner ? t.body : '선택한 결과는 아래 소식에 나옵니다' };
+    }
+    case 'manager': {
+      const c = clubKo(e.club);
+      const names = (e.players ?? []).map((id) => playerKo(id, w.players[id]?.name ?? id)).join(', ');
+      switch (e.kind) {
+        case 'offer': return { tag: '감독', tone: 'text-sky', title: `${c}에서 감독 제안이 왔습니다`, body: '구단 메뉴 · 감독 카드에서 수락하거나 거절하세요 (3주 안에)' };
+        case 'renew': return { tag: '감독', tone: 'text-neon', title: `이사회가 ${e.years}년 재계약을 제안했습니다`, body: '구단 메뉴 · 감독 카드에서 수락하거나 거절하세요' };
+        case 'norenew': return { tag: '감독', tone: 'text-amber', title: '이사회가 재계약하지 않기로 했습니다', body: '시즌이 끝나면 계약이 만료됩니다 · 다른 구단 제안을 받아 보세요' };
+        case 'renewed': return { tag: '감독', tone: 'text-neon', title: `${c}와 ${e.years}년 재계약했습니다` };
+        case 'sacked': return { tag: '감독', tone: 'text-red', title: `${c} 감독직에서 경질됐습니다`, body: '새로 맡을 구단을 고르세요' };
+        case 'expired': return { tag: '감독', tone: 'text-amber', title: `${c}와 계약이 끝났습니다`, body: '새로 맡을 구단을 고르세요' };
+        case 'moved': return { tag: '감독', tone: 'text-neon', title: `${c} 감독으로 부임했습니다`, body: e.from ? `전 구단: ${clubKo(e.from)}` : undefined };
+        case 'follow': return { tag: '감독', tone: 'text-sky', title: `${names} — 감독님을 따라가고 싶어 합니다`, body: `${c} 소속 · 이적시장이 열리면 시장가로 영입을 시도합니다` };
+        case 'followDone': return { tag: '이적', tone: 'text-neon', title: `${names}이(가) 감독님을 따라 ${clubKo(w.userClubId)}에 합류했습니다`, body: `이적료 ${money(e.fee ?? 0)}` };
+        case 'followFail': return { tag: '이적', tone: 'text-amber', title: `${names} 영입 무산`, body: `이적료 ${money(e.fee ?? 0)} · 예산 또는 재정 규정 때문에 데려올 수 없었습니다` };
+      }
+      return { tag: '감독', tone: 'text-mid', title: c };
     }
     default:
       return { tag: '알림', tone: 'text-mid', title: e.text };

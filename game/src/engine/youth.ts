@@ -7,6 +7,7 @@
 //    지금 능력은 잠재력보다 15~30 낮게 시작해서 25세 무렵 잠재력에 닿도록 성장 (season.ts ageAttributes)
 //  - 이름: 같은 국적 선수들의 이름과 성을 섞어서 만든 가상 이름 (한국어 이름도 같은 방식, 화면에서 등록)
 //  - 국적: 같은 리그 선수 국적 분포에서 뽑음 (외국인 비율이 자연스럽게 따라감)
+import { facilityLevel } from './facilities';
 import type { AttrKey, Position } from '../data/types';
 import type { ClubState, PlayerState, World } from './types';
 import { createRng, hashSeed, type Rng } from './rng';
@@ -38,11 +39,12 @@ const MIN_GROUP: Record<string, number> = { GK: 3, DF: 8, MF: 8, FW: 5 };
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 
 /** 잠재력: 명성 기준 평균에서 흔들림 + 에이스 확률 */
-export function rollPotential(reputation: number, rng: Rng): number {
+export function rollPotential(reputation: number, rng: Rng, youth = 3): number {
   const r = rng.next();
-  if (r < 0.03) return rng.int(86, 94);                // 월드클래스 유망주
-  if (r < 0.13) return rng.int(78, 86);                // 주전급 유망주
-  const mean = 60 + (reputation - 60) * 0.35;          // 명성 90 구단 ≈ 70, 명성 60 ≈ 60
+  const f = 1 + (youth - 3) * 0.3;                     // 유스 시설 1단계 ×0.4 · 3단계 ×1 · 5단계 ×1.6
+  if (r < 0.03 * f) return rng.int(86, 94);            // 월드클래스 유망주
+  if (r < 0.13 * f) return rng.int(78, 86);            // 주전급 유망주
+  const mean = 60 + (reputation - 60) * 0.35 + (youth - 3) * 2;   // 명성 90 구단 ≈ 70, 명성 60 ≈ 60 · 유스 시설 단계마다 ±2
   return clamp(Math.round(mean + rng.normal() * 5), 48, 80);
 }
 
@@ -99,7 +101,7 @@ export function youthIntake(w: World, clubs: ClubState[], season: string, maxSqu
       const short = Object.keys(MIN_GROUP).filter((g) => counts[g] < MIN_GROUP[g]);
       const cands = POSITIONS.filter(([pos]) => !short.length || short.includes(GROUP[pos]));
       const pos: Position = opts.academy && counts.GK === 0 ? 'GK' : rng.weighted(cands, ([, wt]) => wt)[0];
-      const potential = rollPotential(club.reputation, rng);
+      const potential = rollPotential(club.reputation, rng, facilityLevel(club, 'youth'));
       const age = rng.int(16, 18);
       const ovr = clamp(potential - rng.int(15, 30) + (age - 16) * 2, 38, 64);
       // 국적 · 이름

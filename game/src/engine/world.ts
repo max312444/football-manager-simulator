@@ -14,12 +14,19 @@ import { recommend } from './ai';
 import { aiTransferDay } from './transfer';
 import { financeDay, gateIncome } from './finance';
 import { emptyLog, traitMonth } from './traits';
+import { managerDay } from './manager';
+import { boardMonth } from './board';
+import { boardEventDay } from './boardEvents';
+import { pressDay } from './press';
+import { facilityDay, facilityLevel } from './facilities';
 import type { Lineup } from './squad';
 import { boostMonth, matchFans } from './awards';
 import { contractCheck } from './contract';
 import { playoffDay } from './pyramid';
 import { createCups, cupDay, shootout } from './cup';
 import { createEurope, euroDay, onEuroResult } from './europe';
+import { createWorldCup, onWorldCupResult, worldCupDay } from './worldcup';
+import { intlBreakDay } from './national';
 import { effectiveTraining, recoveryFactor, trainingInjuryChance, trainingMonth } from './training';
 
 export interface SeasonInput {
@@ -27,6 +34,8 @@ export interface SeasonInput {
   leagues: { id: string; clubs: ClubSeasonFile[] }[];
   /** 실제 지난 시즌 최종 순위 (리그별, 첫 시즌 유럽 대회 출전권용) */
   prevStandings?: Record<string, string[]>;
+  /** 실제 월드컵 참가국 · 조 (meta/worldcups.json) */
+  worldCups?: Record<string, import('./worldcup').WorldCupMeta>;
 }
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
@@ -100,6 +109,7 @@ export function createWorld(input: SeasonInput, userClubId: string, seed: number
         id: c.club, league: lg.id, reputation: c.reputation, squad,
         tactics: { formation: formation || DEFAULT_FORMATION, mentality: 0, pressing: 1 },
         finance: { ...c.finance },
+        facilities: c.facilities, stadium: c.stadiumCapacity ?? undefined,
       };
     }
     const ids = lg.clubs.map((c) => c.club);
@@ -116,6 +126,7 @@ export function createWorld(input: SeasonInput, userClubId: string, seed: number
   };
   w.europe = createEurope(w, rng, input.prevStandings);
   w.cups = createCups(w, rng);
+  w.worldCup = createWorldCup(w, input.season, input.worldCups);
   w.rng = rng.state();
   return w;
 }
@@ -126,6 +137,7 @@ export function allFixtures(w: World): Fixture[] {
   for (const c of Object.values(w.competitions)) out.push(...c.fixtures);
   for (const c of Object.values(w.cups ?? {})) out.push(...c.fixtures);
   for (const c of Object.values(w.europe ?? {})) out.push(...c.fixtures);
+  if (w.worldCup) out.push(...w.worldCup.fixtures);
   return out;
 }
 
@@ -158,12 +170,14 @@ export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?
 /** 경기 결과를 월드에 반영 (순위, 선수 기록, 체력, 징계, 사기) */
 export function applyMatch(w: World, f: Fixture, m: MatchState) {
   const s = m.summary;
-  const cup = f.stage === 'cup' || f.stage === 'euro';   // 컵 · 유럽 대회: 기록은 cupStats, 순위표 · 경고 누적 제외
-  const cs = (id: string) => (w.players[id].cupStats ??= { apps: 0, goals: 0, assists: 0 });
+  const cup = f.stage === 'cup' || f.stage === 'euro' || f.stage === 'intl';   // 컵 · 유럽 · 국가대표: 순위표 · 경고 누적 제외
+  // 기록: 컵 · 유럽 대회는 cupStats, 월드컵은 intlStats (리그 기록 stats 와 따로)
+  const cs = (id: string) => (f.stage === 'intl' ? (w.players[id].intlStats ??= { apps: 0, goals: 0, assists: 0 }) : (w.players[id].cupStats ??= { apps: 0, goals: 0, assists: 0 }));
   // 컵 경기는 비기면 바로 승부차기
   if (f.stage === 'cup' && s.homeGoals === s.awayGoals) s.pens = shootout(w, f.home, f.away, f.id);
   f.result = s;
   if (f.stage === 'euro') onEuroResult(w, f);
+  if (f.stage === 'intl') onWorldCupResult(w, f);
   if (!f.stage) applyResult(w.competitions[f.league].table, f.home, f.away, s.homeGoals, s.awayGoals);
   gateIncome(w, f.home, f.away);
   matchFans(w, f.home, f.away, s.homeGoals, s.awayGoals);
@@ -227,6 +241,8 @@ export function applyMatch(w: World, f: Fixture, m: MatchState) {
   }
   // 출전 시간 → 충성도 (징계 소진 전에: 경기 시작 때 징계 중이던 선수를 제외하기 위해)
   const started = new Set([...Object.entries(m.home.played), ...Object.entries(m.away.played)].filter(([, pl]) => pl.from === 0).map(([id]) => id));
+  // 국가대표 경기는 구단 충성도 · 구단 징계와 관계없다
+  if (f.stage === 'intl') return;
   updatePlaytime(w, [f.home, f.away], mins, started);
 
   // 이번 경기에 징계로 못 뛴 선수: 정지 1경기 소진
@@ -265,6 +281,9 @@ export function advanceDay(w: World): GameEvent[] {
   // 컵 대회: 끝난 라운드 정리 · 다음 라운드 추첨 · 우승
   events.push(...cupDay(w));
   events.push(...euroDay(w));
+  // 월드컵 · A매치 기간 차출
+  events.push(...worldCupDay(w));
+  events.push(...intlBreakDay(w, rng));
   // 리그 종료 (플레이오프까지 모두 끝난 리그)
   for (const comp of Object.values(w.competitions)) {
     if (!comp.fixtures.some((f) => !f.result) && !w.inbox.some((e) => e.type === 'seasonEnd' && e.league === comp.id && e.date >= seasonStart(comp.season))) {
@@ -275,6 +294,9 @@ export function advanceDay(w: World): GameEvent[] {
   // 이적시장: AI 구단 이적 (기간이 아니면 아무것도 안 함)
   events.push(...aiTransferDay(w, rng));
   events.push(...traitMonth(w, rng));
+  events.push(...managerDay(w, rng));
+  events.push(...facilityDay(w));   // 시설 공사 완료
+  boardMonth(w);   // 이사회 관계: 성적에 따라 조금씩   // 감독: 신뢰도 · 재계약 · 다른 구단 제안 · 경질
   // 훈련 · 선수 육성 (매달 1일)
   trainingMonth(w, rng);
 
@@ -284,7 +306,7 @@ export function advanceDay(w: World): GameEvent[] {
     if (playedToday.has(p.id)) continue;
     const club = p.clubId ? w.clubs[p.clubId] : null;
     const t = club ? effectiveTraining(club) : null;
-    dailyUpdate(p, today, rng, recent.has(p.id), t ? recoveryFactor(t) : 1);
+    dailyUpdate(p, today, rng, recent.has(p.id), t && club ? recoveryFactor(t, facilityLevel(club, 'training')) : 1);
     if (t && club && w.competitions[club.league] && !p.injury && rng.chance(trainingInjuryChance(t, p.hidden.injuryProne))) {
       const days = rng.int(4, 21);
       p.injury = { days, label: '훈련 중 부상' };
@@ -292,6 +314,8 @@ export function advanceDay(w: World): GameEvent[] {
     }
   }
 
+  events.push(...boardEventDay(w, events, rng));   // 팬 여론 · 이사회 이벤트
+  events.push(...pressDay(w, events, rng, nextUserFixture(w)));   // 기자회견
   financeDay(w);
   boostMonth(w);
   contractCheck(w);
@@ -301,7 +325,8 @@ export function advanceDay(w: World): GameEvent[] {
   for (const e of events) {
     if (e.type === 'seasonEnd' || e.type === 'info' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
       || (e.type === 'transfer' && (e.user || e.fee >= 30e6))
-      || (e.type === 'cup' && (e.club === w.userClubId || e.result === 'champion'))) w.inbox.push(e);
+      || (e.type === 'cup' && (e.club === w.userClubId || e.result === 'champion'))
+      || e.type === 'callup' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
   }
   if (w.inbox.length > 300) w.inbox.splice(0, w.inbox.length - 300);
   return events;
@@ -320,7 +345,7 @@ function recentPlayers(w: World, today: string): Set<string> {
 
 /** 모든 리그 · 컵 일정이 끝났는지 */
 export const seasonOver = (w: World) => allFixtures(w).every((f) => f.result)
-  && Object.values(w.cups ?? {}).every((c) => c.winner) && Object.values(w.europe ?? {}).every((c) => c.winner);
+  && Object.values(w.cups ?? {}).every((c) => c.winner) && Object.values(w.europe ?? {}).every((c) => c.winner) && (!w.worldCup || !!w.worldCup.winner);
 
 /** 다음 이벤트(사용자 경기 등)까지 진행 — "계속" 버튼 */
 export function advanceUntilEvent(w: World, maxDays = 60): GameEvent[] {
@@ -363,6 +388,9 @@ export function advanceToUserMatch(w: World, maxDays = 120): { events: GameEvent
     events.push(...ev);
     if (ev.some((e) => e.type === 'seasonEnd' || (e.type === 'injury' && e.club === w.userClubId))) break;
     if (!had && w.pendingRenewals?.length) break;   // 재계약 요청이 새로 오면 멈춰서 팝업
+    if (w.manager?.pendingJob) break;   // 경질 · 계약 만료: 새 구단 고르기
+    if (ev.some((e) => e.type === 'board' && w.manager?.boardEvent)) break;   // 이사회 이벤트: 멈춰서 선택
+    if (ev.some((e) => e.type === 'press') && w.manager?.press) break;   // 기자회견: 멈춰서 답변
   }
   return { events, matchToday: userFixtureToday(w) };
 }

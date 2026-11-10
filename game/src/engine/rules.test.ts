@@ -74,3 +74,22 @@ describe('재정 규정 (샐러리 캡)', () => {
     expect(withinRules(w, c, 0).ok).toBe(true);
   });
 });
+
+describe('완전 랜덤 시작 보정', () => {
+  it('재정 규정 한도: 랜덤으로 시작한 그 시즌 · 내 구단만 +5%, 다음 시즌엔 없음', async () => {
+    const { createWorld } = await import('./world');
+    const fs = await import('node:fs');
+    const path = await import('node:path');
+    const D = path.resolve(__dirname, '../../../data-public/seasons/2025-26/eng1');
+    const meta = JSON.parse(fs.readFileSync(path.join(D, '_league.json'), 'utf8'));
+    const w = createWorld({ season: '2025-26', leagues: [{ id: 'eng1', clubs: meta.clubs.map((c: string) => JSON.parse(fs.readFileSync(path.join(D, c + '.json'), 'utf8'))) }] }, 'c83d96l', 1);
+    const base = costLimit(w, 'c83d96l').limit;
+    const other = Object.keys(w.clubs).find((c) => c !== 'c83d96l')!;
+    const otherBase = costLimit(w, other).limit;
+    w.randomBonus = { season: '2025-26' };
+    expect(costLimit(w, 'c83d96l').limit).toBeCloseTo(base * 1.05);
+    expect(costLimit(w, other).limit).toBeCloseTo(otherBase);
+    w.season = '2026-27';
+    expect(costLimit(w, 'c83d96l').limit).not.toBeCloseTo(base * 1.05);
+  });
+});

@@ -6,12 +6,16 @@ import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, 
 import { playToEnd, setTactics, step, substitute, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
 import { seedTraits } from '../engine/traits';
-import { availableSeasons, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, realAvailable, registerGeneratedNames, setDataset } from '../data/db';
+import { availableSeasons, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { fillContracts, seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
 import { withinRules } from '../engine/rules';
 import { trainingOf, type Training } from '../engine/training';
+import { acceptOffer, chooseJob, declineOffer, ensureManager } from '../engine/manager';
+import { askBoard, type BoardAsk } from '../engine/board';
+import { resolveBoardEvent } from '../engine/boardEvents';
+import { answerPress } from '../engine/press';
 import { breakTalks, cleanOffers, completeTransfer, counterOffer, offerValid, evaluateBid, MAX_TRIES, playerWillJoin, releasePlayer, talkBanned, talkOf, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
 import type { RetireNews, TransferOffer } from '../engine/types';
 import { applyRenewal, evaluateRenewal } from '../engine/contract';
@@ -32,7 +36,7 @@ async function loadSeasonInput(season: string, mustInclude?: string): Promise<Se
   const prev = `${y}-${String((y + 1) % 100).padStart(2, '0')}`;
   const prevStandings: Record<string, string[]> = {};
   for (const id of ids) { const st = await loadStandings(prev, id); if (st) prevStandings[id] = st; }
-  return { season, leagues: loaded, prevStandings };
+  return { season, leagues: loaded, prevStandings, worldCups: worldCupsMeta };
 }
 
 // 자동 저장: 진행 중 연속 호출을 묶어서 한 번만
@@ -87,7 +91,8 @@ interface GameStore {
   save(slot: string): Promise<void>;
   load(slot: string): Promise<boolean>;
   setLineup(starters: (string | null)[] | null, bench?: string[]): void;
-  newGame(season: string, league: string, clubId: string): Promise<void>;
+  /** random: 완전 랜덤으로 고른 구단 → 첫 시즌만 예산 · 재정 규정 한도 보정 */
+  newGame(season: string, league: string, clubId: string, opts?: { random?: boolean }): Promise<void>;
   continueGame(): void;
   updateDraft(change: Partial<MatchDraft>): void;
   resetDraft(): void;
@@ -114,7 +119,22 @@ interface GameStore {
   setClubTactics(t: Partial<Tactics>): void;
   /** 훈련 초점 · 강도 */
   setTraining(t: Partial<Training>): void;
+  /** 감독: 제안 수락 · 거절 · 새 구단 고르기 · 다른 구단 제안 받기 */
+  managerAccept(idx: number): void;
+  managerDecline(idx: number): void;
+  managerChoose(club: string): void;
+  managerSetOpen(open: boolean): void;
+  /** 시설 투자 (구단 돈 · 공사 기간) */
+  upgradeFacility(kind: 'training' | 'youth'): { ok: boolean; reason?: string };
+  /** 이사회에 요청 (추가 예산 · 시설) → 확률로 찬성 · 반대 */
+  boardAsk(a: BoardAsk): { ok: boolean; text: string };
+  /** 이사회 이벤트 선택 */
+  boardChoose(key: string): void;
+  /** 기자회견 답변 (질문 하나씩, skip = 불참) */
+  pressAnswer(key: string): void;
   closeMatch(): void;
+  /** 킥오프 전 스쿼드 설정에서 홈으로 (경기는 그대로 남고, 계속을 누르면 다시 열림) */
+  leaveMatch(): void;
   /** 시즌 말 내 구단 수상 연출 */
   awards: Award[] | null;
   closeAwards(): void;
@@ -144,7 +164,7 @@ export const useGame = create<GameStore>((set, get) => {
     closeAwards() { set({ awards: null }); },
     closeNews() { set({ news: null }); },
 
-    async newGame(season, league, clubId) {
+    async newGame(season, league, clubId, opts = {}) {
       set({ loading: true });
       // 그 시즌 데이터가 있는 1부 리그를 모두 불러와 함께 진행한다
       const input = await loadSeasonInput(season, league);
@@ -154,6 +174,13 @@ export const useGame = create<GameStore>((set, get) => {
       // 베테랑 · 스타 선수 시작 호칭 (실제 시즌 기록 기준)
       const hist = await loadHistory();
       if (hist) seedTraits(world, hist, createRng((seed ^ 0x7a17) >>> 0));
+      if (opts.random) {
+        const f = world.clubs[clubId].finance;
+        f.transferBudget = Math.round(f.transferBudget * 1.1);
+        f.wageBudget = Math.round(f.wageBudget * 1.05);
+        world.randomBonus = { season };
+        world.inbox.push({ type: 'info', date: world.date, text: '완전 랜덤으로 맡은 구단 · 이번 시즌만 이적 예산 +10% · 주급 예산 +5% · 재정 규정 한도 +5%' });
+      }
       set({ world, loading: false, match: null, lastEvents: [], seasonReport: null });
       autosave(world);
       bump();
@@ -161,8 +188,9 @@ export const useGame = create<GameStore>((set, get) => {
 
     continueGame() {
       const w = get().world;
-      if (!w || get().match) return;
+      if (!w || get().match || w.manager?.pendingJob) return;   // 감독: 새 구단을 골라야 하면 진행 멈춤
       const { events, matchToday } = advanceToUserMatch(w);
+      registerGeneratedNames(w.players);   // 월드컵 국내파 가상 선수 한국어 이름
       set({ lastEvents: events });
       if (matchToday) {
         const side: Side = matchToday.home === w.userClubId ? 'home' : 'away';
@@ -249,6 +277,69 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
     },
 
+    managerAccept(idx) {
+      const w = get().world;
+      if (!w) return;
+      const rng = createRng((w.rng ^ 0x77) >>> 0);
+      w.inbox.push(...acceptOffer(w, idx, rng));
+      w.rng = rng.state();
+      registerGeneratedNames(w.players);
+      autosave(w);
+      bump();
+    },
+    managerDecline(idx) {
+      const w = get().world;
+      if (!w) return;
+      declineOffer(w, idx);
+      autosave(w);
+      bump();
+    },
+    managerChoose(club) {
+      const w = get().world;
+      if (!w) return;
+      const rng = createRng((w.rng ^ 0x78) >>> 0);
+      w.inbox.push(...chooseJob(w, club, rng));
+      w.rng = rng.state();
+      autosave(w);
+      bump();
+    },
+    upgradeFacility(kind) {
+      const r = get().boardAsk({ kind: 'facility', facility: kind });
+      return { ok: r.ok, reason: r.text };
+    },
+    pressAnswer(key) {
+      const w = get().world;
+      if (!w) return;
+      w.inbox.push(...answerPress(w, key));
+      autosave(w);
+      bump();
+    },
+    boardChoose(key) {
+      const w = get().world;
+      if (!w) return;
+      w.inbox.push(...resolveBoardEvent(w, key));
+      autosave(w);
+      bump();
+    },
+    boardAsk(a) {
+      const w = get().world;
+      if (!w) return { ok: false, text: '' };
+      const rng = createRng((w.rng ^ 0xb0a7) >>> 0);
+      const r = askBoard(w, a, rng);
+      w.rng = (w.rng + 1) >>> 0;
+      w.inbox.push(...r.events);
+      autosave(w);
+      bump();
+      return r;
+    },
+    managerSetOpen(open) {
+      const w = get().world;
+      if (!w) return;
+      ensureManager(w).open = open;
+      autosave(w);
+      bump();
+    },
+
     setTraining(t) {
       const w = get().world;
       if (!w) return;
@@ -256,6 +347,10 @@ export const useGame = create<GameStore>((set, get) => {
       c.training = { ...trainingOf(c), ...t };
       autosave(w);
       bump();
+    },
+
+    leaveMatch() {
+      if (get().match?.phase === 'squad') set({ match: null });
     },
 
     closeMatch() {

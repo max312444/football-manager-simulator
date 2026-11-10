@@ -10,9 +10,9 @@ import type { ClubState, World } from './types';
 import { fanFactor } from './awards';
 
 export type IncomeKind = 'tv' | 'gate' | 'commercial' | 'prize' | 'sales';
-export type ExpenseKind = 'wages' | 'operations' | 'training' | 'purchases';
+export type ExpenseKind = 'wages' | 'operations' | 'training' | 'purchases' | 'facility';
 export const INCOME_LABEL: Record<IncomeKind, string> = { tv: '중계권', gate: '경기장 수입', commercial: '스폰서 · 상품', prize: '상금 (리그 · 컵 · 유럽)', sales: '선수 판매' };
-export const EXPENSE_LABEL: Record<ExpenseKind, string> = { wages: '선수 주급', operations: '운영비', training: '훈련비', purchases: '선수 영입' };
+export const EXPENSE_LABEL: Record<ExpenseKind, string> = { wages: '선수 주급', operations: '운영비', training: '훈련비', purchases: '선수 영입', facility: '시설 투자' };
 
 /** 매출 대비 비율 */
 export const SHARE = { tv: 0.4, commercial: 0.25, gate: 0.2, prize: 0.15, operations: 0.14 } as const;
@@ -37,7 +37,7 @@ export interface Ledger { current: SeasonLedger; past: (Omit<SeasonLedger, 'bala
 const emptyLedger = (season: string, balance: number, date: string, base: number): SeasonLedger => ({
   season, base,
   income: { tv: 0, gate: 0, commercial: 0, prize: 0, sales: 0 },
-  expense: { wages: 0, operations: 0, training: 0, purchases: 0 },
+  expense: { wages: 0, operations: 0, training: 0, purchases: 0, facility: 0 },
   balances: [{ date, balance }],
 });
 
@@ -49,6 +49,9 @@ export function ledgerOf(w: World): Ledger {
 export const sum = (r: Record<string, number>) => Object.values(r).reduce((a, b) => a + b, 0);
 
 /** 돈의 움직임. 모든 구단 잔고에 반영하고, 내 구단은 장부에도 기록 */
+/** 팬 여론 (감독에 대한 여론, 내 구단만) 이 수입에 주는 배율: 0 → 0.95 · 60 → 1.01 · 100 → 1.05 */
+const moodIncome = (w: World, clubId: string) => (clubId === w.userClubId && w.manager ? 0.95 + (w.manager.fanMood ?? 60) / 1000 : 1);
+
 export function book(w: World, clubId: string, kind: IncomeKind | ExpenseKind, amount: number) {
   const c = w.clubs[clubId];
   if (!c || !amount) return;
@@ -84,7 +87,7 @@ export function financeDay(w: World) {
     if (monday) book(w, c.id, 'wages', wageBillOf(w, c.id));
     if (first) {
       if (m >= 8 || m <= 5) book(w, c.id, 'tv', Math.round((R * SHARE.tv) / 10));
-      book(w, c.id, 'commercial', Math.round(((R * SHARE.commercial) / 12) * fanFactor(w, c.id)));
+      book(w, c.id, 'commercial', Math.round(((R * SHARE.commercial) / 12) * fanFactor(w, c.id) * moodIncome(w, c.id)));
       book(w, c.id, 'operations', Math.round((R * SHARE.operations) / 12));
     }
   }
@@ -102,7 +105,7 @@ export function gateIncome(w: World, home: string, away: string) {
   const homeGames = Math.max(1, Object.keys(w.competitions[c.league]?.table ?? {}).length - 1) + 3;
   const opp = w.clubs[away]?.reputation ?? 70;
   const oppF = Math.max(0.85, Math.min(1.15, 1 + (opp - 70) / 150));
-  book(w, home, 'gate', Math.round(((clubRevenue(w, home) * SHARE.gate) / homeGames) * oppF * fanFactor(w, home)));
+  book(w, home, 'gate', Math.round(((clubRevenue(w, home) * SHARE.gate) / homeGames) * oppF * fanFactor(w, home) * moodIncome(w, home)));
 }
 
 /** 리그 상금 (모든 구단): 매출의 15% 기준, 1위 1.6배 ~ 꼴찌 0.4배 */

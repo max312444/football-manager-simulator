@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import type { Fixture, World } from '../../engine/types';
-import { clubKo, compKo, playerKo } from '../../data/db';
+import { clubKo, playerKo } from '../../data/db';
 import { allFixtures } from '../../engine/world';
 import { Crest } from '../components/Crest';
-import { ResultDot } from '../components/bits';
+import { COMP_TONE, CompBadge, ResultDot, compKind as kind } from '../components/bits';
 import { koDate, roundLabel } from '../format';
 import { useWorld } from '../hooks';
 
@@ -32,11 +32,13 @@ export function ScheduleView() {
           const today = f.date === w.date && !f.result;
           return (
             <button key={f.id} onClick={() => f.result && setOpen(f.id)}
-              className={`flex h-12 w-full items-center gap-4 px-5 text-left text-[14px] shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${
-                open === f.id ? 'bg-neon-ghost' : today ? 'bg-ink-800' : f.result ? 'hover:bg-ink-800' : ''}`}>
-              {f.stage === 'cup' || f.stage === 'euro'
-                ? <span className={`w-44 truncate text-[12px] font-semibold ${f.stage === 'euro' ? 'text-sky' : 'text-amber'}`} title={compKo(f.league)}>{compKo(f.league)} · {f.name}</span>
-                : <span className="tnum w-44 truncate text-[12px] text-lo">{f.stage ? roundLabel(f) : `R${f.round}`}</span>}
+              className={`relative flex h-12 w-full items-center gap-4 px-5 text-left text-[14px] shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${
+                open === f.id ? 'bg-neon-ghost' : today ? 'bg-ink-800' : `${kind(f) !== 'league' ? 'bg-ink-850' : ''} ${f.result ? 'hover:bg-ink-800' : ''}`}`}>
+              <span className={`absolute top-1.5 bottom-1.5 left-0 w-1 rounded-r ${COMP_TONE[kind(f)].bar}`} />
+              <span className="flex w-56 min-w-0 items-center gap-2">
+                <CompBadge f={f} className="max-w-[130px]" />
+                <span className={`tnum truncate text-[12px] ${kind(f) === 'league' ? 'text-lo' : COMP_TONE[kind(f)].text}`}>{f.stage ? roundLabel(f) : `${f.round}R`}</span>
+              </span>
               <span className="tnum w-40 text-mid">{koDate(f.date)}</span>
               <span className={`w-10 rounded py-0.5 text-center text-[11px] font-semibold ${home ? 'bg-ink-700 text-hi' : 'text-lo ring-1 ring-line'}`}>{home ? '홈' : '원정'}</span>
               <Crest clubId={opp} size={18} />
