@@ -8,6 +8,7 @@ import { ensureManager } from './manager';
 import { addRelation, relationOf } from './board';
 import { addFanMood } from './boardEvents';
 import { overall } from './ratings';
+import { recentScandal, SCANDAL_TITLE } from './scandal';
 
 export interface PressEffect { morale?: number; player?: string; playerMorale?: number; fan?: number; relation?: number; confidence?: number; boast?: boolean }
 export interface PressAnswer { key: string; label: string; hint: string; fx: PressEffect }
@@ -60,6 +61,24 @@ function questions(w: World, kind: 'pre' | 'post' | 'free', ctx: { opp?: string;
       A('criticize', '"솔직히 더 많은 지원이 필요하다" (이사회 비판)', { fan: 4, relation: -8 }),
       A('support', '"이사회와 같은 방향을 보고 있다"', { relation: 4, fan: -1 }),
       A('nocomment', '"노코멘트"', {}),
+    ] });
+  }
+  // 최근 논란이 있었던 선수
+  const sc = recentScandal(w);
+  if (qs.length < 2 && sc?.lastScandal) {
+    qs.push({ topic: 'rumour', player: sc.id, text: `{player}의 '${SCANDAL_TITLE[sc.lastScandal.kind]}' 논란에 대해 한마디 해 주십시오.`, answers: [
+      A('defend', '"선수도 사람이다. 우리가 감싸겠다"', { player: sc.id, playerMorale: 6, fan: -2 }),
+      A('criticize', '"프로답지 못한 행동이다. 용납하지 않겠다"', { player: sc.id, playerMorale: -12, fan: 3, relation: 1 }),
+      A('nocomment', '"내부에서 처리할 문제다"', {}),
+    ] });
+  }
+  // 선수 언론 플레이 (공개 인터뷰 이상) 중인 선수가 있으면 그 선수부터
+  const saga = me.squad.map((id) => w.players[id]).find((p) => (p.saga?.stage ?? 0) >= 1);
+  if (qs.length < 2 && saga?.saga) {
+    qs.push({ topic: 'rumour', player: saga.id, text: saga.saga.kind === 'wage' ? '{player}가 공개적으로 연봉 인상을 요구했습니다.' : '{player}가 공개적으로 이적을 원한다고 말했습니다.', answers: [
+      A('criticize', '"구단보다 큰 선수는 없다" (공개 비판)', { player: saga.id, playerMorale: -20, fan: 4 }),
+      A('support', '"선수의 마음을 이해한다. 대화로 풀겠다"', { player: saga.id, playerMorale: 6, fan: -2 }),
+      A('nocomment', '"내부 문제는 내부에서 해결한다"', {}),
     ] });
   }
   // 이적설: 이적 명단에 오른 선수 또는 팀 핵심 선수

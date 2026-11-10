@@ -16,6 +16,8 @@ import { acceptOffer, chooseJob, declineOffer, ensureManager } from '../engine/m
 import { askBoard, type BoardAsk } from '../engine/board';
 import { resolveBoardEvent } from '../engine/boardEvents';
 import { answerPress } from '../engine/press';
+import { sagaRespond, type SagaAction } from '../engine/saga';
+import { scandalRespond, type ScandalAction } from '../engine/scandal';
 import { breakTalks, cleanOffers, completeTransfer, counterOffer, offerValid, evaluateBid, MAX_TRIES, playerWillJoin, releasePlayer, talkBanned, talkOf, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
 import type { RetireNews, TransferOffer } from '../engine/types';
 import { applyRenewal, evaluateRenewal } from '../engine/contract';
@@ -132,6 +134,12 @@ interface GameStore {
   boardChoose(key: string): void;
   /** 기자회견 답변 (질문 하나씩, skip = 불참) */
   pressAnswer(key: string): void;
+  /** 선수 언론 플레이 대응 · 창 닫기 · 창 열기 */
+  sagaRespond(playerId: string, action: SagaAction): string;
+  sagaClose(): void;
+  sagaOpen(playerId: string): void;
+  /** 선수 논란 대응 */
+  scandalRespond(action: ScandalAction): string;
   closeMatch(): void;
   /** 킥오프 전 스쿼드 설정에서 홈으로 (경기는 그대로 남고, 계속을 누르면 다시 열림) */
   leaveMatch(): void;
@@ -307,6 +315,31 @@ export const useGame = create<GameStore>((set, get) => {
       const r = get().boardAsk({ kind: 'facility', facility: kind });
       return { ok: r.ok, reason: r.text };
     },
+    sagaRespond(playerId, action) {
+      const w = get().world;
+      if (!w) return '';
+      const rng = createRng((w.rng ^ 0x5a6a) >>> 0);
+      const r = sagaRespond(w, playerId, action, rng);
+      w.rng = (w.rng + 7) >>> 0;
+      w.inbox.push(...r.events);
+      w.sagaPrompt = undefined;
+      autosave(w);
+      bump();
+      return r.text;
+    },
+    scandalRespond(action) {
+      const w = get().world;
+      if (!w) return '';
+      const rng = createRng((w.rng ^ 0x5c4d) >>> 0);
+      const r = scandalRespond(w, action, rng);
+      w.rng = (w.rng + 11) >>> 0;
+      w.inbox.push(...r.events);
+      autosave(w);
+      bump();
+      return r.text;
+    },
+    sagaClose() { const w = get().world; if (!w) return; w.sagaPrompt = undefined; bump(); },
+    sagaOpen(playerId) { const w = get().world; if (!w) return; w.sagaPrompt = playerId; bump(); },
     pressAnswer(key) {
       const w = get().world;
       if (!w) return;

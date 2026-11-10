@@ -22,7 +22,8 @@ export const FORMATIONS: Record<string, Position[]> = {
 };
 export const DEFAULT_FORMATION = '4-4-2';
 
-export const available = (p: PlayerState) => !p.injury && p.suspension === 0;
+/** 뛸 수 있는 선수 (부상 · 징계 · 출전 거부 태업이면 불가) */
+export const available = (p: PlayerState) => !p.injury && p.suspension === 0 && (p.saga?.stage ?? 0) < 3;
 
 export interface Lineup {
   formation: string;

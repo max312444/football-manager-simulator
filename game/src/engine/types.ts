@@ -97,6 +97,11 @@ export interface PlayerState {
   nameFrom?: [string | null, string | null];
   /** 게임이 만든 선수의 한국어 이름 */
   ko?: string;
+  /** 언론 플레이 (연봉 인상 요구 · 이적 요청 → 태업), saga.ts */
+  saga?: import('./saga').Saga;
+  /** 논란 횟수 · 마지막 논란 (scandal.ts) */
+  scandals?: number;
+  lastScandal?: { kind: import('./scandal').ScandalKind; date: string };
 }
 
 export interface CareerEntry {
@@ -183,6 +188,10 @@ export type GameEvent =
   | { type: 'seasonEnd'; date: string; league: string; champion: string }
   | { type: 'info'; date: string; text: string }
   /** 감독: 제안 · 재계약 · 경질 · 이동 · 따라오는 선수 */
+  /** 선수 언론 플레이: 시작 · 커짐 · 해결 */
+  | { type: 'saga'; date: string; player: string; kind: import('./saga').SagaKind; stage: number; step: 'start' | 'escalate' | 'resolved' | 'forced' | 'wantsUs'; target?: string; from?: string; fee?: number }
+  /** 선수 논란 (게임이 만든 가벼운 논란) */
+  | { type: 'scandal'; date: string; player: string; kind: import('./scandal').ScandalKind; other?: string }
   /** 기자회견 열림 */
   | { type: 'press'; date: string; kind: 'pre' | 'post' | 'free'; opp?: string }
   /** 이사회 이벤트 (선택지) · 구단주 교체 */
@@ -283,4 +292,9 @@ export interface World {
   manager?: import('./manager').ManagerState;
   /** 완전 랜덤으로 시작한 첫 시즌 보정 (이 시즌에만: 이적 예산 +10% · 주급 예산 +5% · 재정 규정 한도 +5%) */
   randomBonus?: { season: string };
+  /** 대응을 기다리는 선수 사가 (선수 ID) */
+  sagaPrompt?: string;
+  /** 대응을 기다리는 선수 논란 · 마지막 논란 날짜 */
+  scandalPrompt?: import('./scandal').Scandal;
+  lastScandal?: string;
 }

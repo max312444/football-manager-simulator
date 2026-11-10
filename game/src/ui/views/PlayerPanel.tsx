@@ -1,3 +1,5 @@
+import { sagaSummary } from '../../engine/saga';
+import { useGame } from '../../store/game';
 import { PhotoCredit, PlayerPhoto } from '../components/PlayerPhoto';
 import type { PlayerState, World } from '../../engine/types';
 import { attr, overall, formAvg } from '../../engine/ratings';
@@ -125,6 +127,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
             <div className="mt-1 text-[11px] font-semibold text-lo">능력</div>
           </div>
         </div>
+        <SagaBadge p={p} />
         <div className="mt-4 flex items-center justify-between rounded-lg bg-ink-900 px-3 py-3">
           <div className="flex items-center gap-2 text-[12px] text-mid"><ConditionIcon value={p.condition} />컨디션</div>
           <FitnessBar value={p.fitness} />
@@ -198,5 +201,20 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
       <PhotoCredit id={p.id} />
       {actions && <div className="shrink-0 border-t border-line px-5 py-4">{actions}</div>}
     </aside>
+  );
+}
+
+/** 언론 플레이 중이면 표시 · 내 선수면 대응 버튼 */
+function SagaBadge({ p }: { p: PlayerState }) {
+  const w = useWorld();
+  const open = useGame((s) => s.sagaOpen);
+  const t = sagaSummary(p);
+  if (!t) return null;
+  const hot = (p.saga?.stage ?? 0) >= 2;
+  return (
+    <div className={`mt-3 flex items-center gap-2 rounded-lg px-3 py-2 text-[12px] ${hot ? 'bg-red/10 text-red' : 'bg-amber/10 text-amber'}`}>
+      <span className="min-w-0 flex-1 truncate font-semibold">{t}</span>
+      {p.clubId === w.userClubId && <button onClick={() => open(p.id)} className="shrink-0 rounded-md px-2 py-0.5 ring-1 ring-current hover:bg-white/5">대응</button>}
+    </div>
   );
 }

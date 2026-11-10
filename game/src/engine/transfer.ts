@@ -87,12 +87,12 @@ export function performanceFactor(w: World, p: PlayerState): number {
 /** 공식 주급 (시장 표본이 모자랄 때만): 능력 70 ≈ 2024년 주 €120K, 능력 1당 약 13%, 1년 전마다 약 7% 적게 */
 const formulaWage = (w: World, ovr: number) => 120000 * 1.128 ** (ovr - 70) * Math.min(1.3, 1.07 ** (+w.season.slice(0, 4) - 2024));
 
-/** 주급 시세표 (하루에 한 번): 지금 세계의 1부 · 2부 구단 선수 중 능력이 비슷한 선수들의 주급 중간값.
+/** 주급 시세표 (일주일에 한 번): 지금 세계의 1부 · 2부 구단 선수 중 능력이 비슷한 선수들의 주급 중간값.
  *  데이터 주급(시대 · 리그 규모가 반영된 값)을 따라가므로 시대마다 따로 맞출 필요가 없다 */
 const marketCache = new WeakMap<World, { date: string; table: Map<number, number> }>();
 function marketTable(w: World): Map<number, number> {
   const hit = marketCache.get(w);
-  if (hit && hit.date === w.date) return hit.table;
+  if (hit && Math.abs(Date.parse(w.date) - Date.parse(hit.date)) < 7 * 864e5) return hit.table;   // 일주일에 한 번만 다시 계산 (시세는 천천히 변함)
   const byOvr = new Map<number, number[]>();
   for (const p of Object.values(w.players)) {
     if (p.retired || !p.clubId || p.generated || p.clubId.startsWith('nt-') || p.wage < 1000) continue;
@@ -160,8 +160,10 @@ export function askingPrice(w: World, p: PlayerState): number {
 export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number): BidResult {
   if (!p.clubId) return { decision: 'accept', ask: 0, reason: '자유계약 선수' };
   const seller = w.clubs[p.clubId];
-  const ask = askingPrice(w, p);
-  const rank = rankInClub(w, p);
+  // 태업하며 이 구단을 지목한 선수: 단계마다 10% 싸게, 핵심 선수 규칙 없이
+  const forcing = p.saga?.kind === 'move' && p.saga.target === buyer && p.saga.club === p.clubId ? p.saga.stage : 0;
+  const ask = askingPrice(w, p) * (1 - 0.1 * forcing);
+  const rank = forcing ? 99 : rankInClub(w, p);
   if (seller.squad.length <= 18) return { decision: 'reject', ask, reason: '선수단 인원이 부족해 팔 수 없다고 합니다' };
   // 핵심 선수는 비슷한 급 이상 구단이 크게 쓸 때만
   if (rank <= 2 && w.clubs[buyer].reputation + 5 < seller.reputation && fee < ask * 1.5) return { decision: 'reject', ask, reason: '팀의 핵심 선수라 팔 생각이 없다고 합니다' };
@@ -179,6 +181,7 @@ export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: nu
   const diff = buyerRep - curRep;
   let score = diff / 10 + (wage / Math.max(1, p.wage) - 1) * 2 + ((p.hidden.ambition - 10) / 10) * (diff > 0 ? 1 : -0.6) - (p.loyalty - 50) / 40;
   if (p.unhappy) score += 1;
+  if (p.saga?.kind === 'move' && p.saga.target === buyer) score += 3;   // 가고 싶다고 지목한 구단
   // 구단이 이적 명단에 올린 선수는 "팀에서 원하지 않는다"고 느껴 작은 구단 이적도 받아들이기 쉽다
   if ((w.transferList ?? []).includes(p.id)) score += 1.5;
   if (!p.clubId) score += 1.5;
@@ -260,7 +263,7 @@ function needs(w: World, clubId: string): string[] {
 }
 
 /** 구단 주전 11명 평균 능력 */
-function clubLevel(w: World, clubId: string): number {
+export function clubLevel(w: World, clubId: string): number {
   const mine = w.clubs[clubId].squad.map((id) => overall(w.players[id])).sort((a, b) => b - a);
   return mine.slice(0, 11).reduce((a, b) => a + b, 0) / Math.max(1, Math.min(11, mine.length));
 }

@@ -3,6 +3,7 @@ import { clubKo, compKo, nationKo, playerKo } from '../../data/db';
 import { josa, koDate, money } from '../format';
 import { useWorld } from '../hooks';
 import { boardEventText } from '../components/BoardEventModal';
+import { SCANDAL_KO, SCANDAL_TITLE } from '../../engine/scandal';
 import { COMP_TONE, compKind } from '../components/bits';
 
 export function describe(e: GameEvent, w: World): { tag: string; tone: string; title: string; body?: string } {
@@ -62,6 +63,19 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const mine = (e.players ?? []).map((id) => `${playerKo(id, w.players[id]?.name ?? id)}(${nationKo(w.players[id]?.nation ?? '')})`);
       if (e.result === 'start') return { tag: '월드컵', tone: 'text-sky', title: `${e.year} ${cup} 대표 선발 · 우리 선수 ${mine.length}명`, body: mine.join(', ') };
       return { tag: '월드컵', tone: 'text-[#f2c94c]', title: `${e.year} ${cup} 우승 · ${nationKo(e.nation)}`, body: [mine.length ? `우승 멤버: ${mine.join(', ')}` : '', e.scorer ? `득점왕 ${playerKo(e.scorer, e.text ?? '')}` : e.text ?? ''].filter(Boolean).join(' · ') };
+    }
+    case 'scandal': {
+      const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
+      return { tag: '논란', tone: 'text-red', title: `${name} · ${SCANDAL_TITLE[e.kind]}`, body: SCANDAL_KO[e.kind] };
+    }
+    case 'saga': {
+      const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
+      const what = e.kind === 'wage' ? '연봉 인상 요구' : `이적 요청${e.target ? ` (${clubKo(e.target)})` : ''}`;
+      if (e.step === 'resolved') return { tag: '선수', tone: 'text-neon', title: `${name} · 연봉 문제가 해결됐습니다`, body: '요구 주급 이상으로 재계약' };
+      if (e.step === 'forced') return { tag: '이적', tone: 'text-sky', title: `${name}, 태업 끝에 ${clubKo(e.target ?? '')} 이적`, body: `${clubKo(e.from ?? '')}가 결국 ${money(e.fee ?? 0)}에 팔았습니다` };
+      if (e.step === 'wantsUs') return { tag: '이적', tone: 'text-neon', title: `${name}: "${clubKo(e.target ?? '')}에서 뛰고 싶다"`, body: `${clubKo(e.from ?? '')} 소속 · 태업이 길어질수록 원래 구단이 싸게 팝니다 (이적 화면에서 영입 제안)` };
+      const stage = ['에이전트 발언', '공개 인터뷰', '훈련 불참', '출전 거부'][e.stage] ?? '';
+      return { tag: '선수', tone: e.stage >= 2 ? 'text-red' : 'text-amber', title: `${name} · ${what} · ${stage}`, body: '선수단 화면에서 선수를 눌러 대응할 수 있습니다' };
     }
     case 'press':
       return { tag: '언론', tone: 'text-sky', title: e.kind === 'pre' ? `경기 전 기자회견${e.opp ? ` · 상대 ${clubKo(e.opp)}` : ''}` : `경기 후 기자회견${e.opp ? ` · ${clubKo(e.opp)}전` : ''}`, body: '답변 결과는 아래 소식에 나옵니다' };

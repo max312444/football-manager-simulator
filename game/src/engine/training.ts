@@ -52,6 +52,8 @@ export const GROWTH_MIN = -6, GROWTH_MAX = 10;
 export function monthlyDev(w: World, p: PlayerState, rng?: Rng): number {
   const club = p.clubId ? w.clubs[p.clubId] : null;
   if (!club) return 0;
+  // 태업 (훈련 불참) 중이면 성장 대신 떨어진다
+  if ((p.saga?.stage ?? 0) >= 2) return -0.15;
   const a = ageFactor(ageOn(p.birth, w.date));
   if (!a) return 0;
   const pro = (p.hidden.professionalism - 10.5) / 10;

@@ -11,13 +11,15 @@ import { createMatch, finalFitness, minutesPlayed, playToEnd, type MatchState } 
 import { dailyUpdate } from './condition';
 import { initialLoyalty, updatePlaytime } from './loyalty';
 import { recommend } from './ai';
-import { aiTransferDay } from './transfer';
+import { aiTransferDay, canAfford, completeTransfer, wageDemand } from './transfer';
 import { financeDay, gateIncome } from './finance';
 import { emptyLog, traitMonth } from './traits';
 import { managerDay } from './manager';
 import { boardMonth } from './board';
 import { boardEventDay } from './boardEvents';
 import { pressDay } from './press';
+import { aiSagaDay, sagaDay } from './saga';
+import { scandalDay } from './scandal';
 import { facilityDay, facilityLevel } from './facilities';
 import type { Lineup } from './squad';
 import { boostMonth, matchFans } from './awards';
@@ -315,6 +317,17 @@ export function advanceDay(w: World): GameEvent[] {
   }
 
   events.push(...boardEventDay(w, events, rng));   // 팬 여론 · 이사회 이벤트
+  const sagas = sagaDay(w, rng);   // 선수 언론 플레이 (연봉 요구 · 이적 요청 · 태업)
+  events.push(...sagas);
+  events.push(...aiSagaDay(w, rng, (p, to, fee) => {
+    const wage = Math.max(p.wage, wageDemand(w, p));
+    if (!canAfford(w, to, fee, wage, 4)) return false;
+    events.push(completeTransfer(w, p, to, fee, wage, 4));
+    return true;
+  }));
+  const prompt = sagas.find((e) => e.type === 'saga' && e.step !== 'resolved');
+  if (prompt && prompt.type === 'saga') w.sagaPrompt = prompt.player;
+  events.push(...scandalDay(w, rng));   // 선수 논란
   events.push(...pressDay(w, events, rng, nextUserFixture(w)));   // 기자회견
   financeDay(w);
   boostMonth(w);
@@ -326,7 +339,7 @@ export function advanceDay(w: World): GameEvent[] {
     if (e.type === 'seasonEnd' || e.type === 'info' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
       || (e.type === 'transfer' && (e.user || e.fee >= 30e6))
       || (e.type === 'cup' && (e.club === w.userClubId || e.result === 'champion'))
-      || e.type === 'callup' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
+      || e.type === 'callup' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || e.type === 'saga' || e.type === 'scandal' || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
   }
   if (w.inbox.length > 300) w.inbox.splice(0, w.inbox.length - 300);
   return events;
@@ -391,6 +404,7 @@ export function advanceToUserMatch(w: World, maxDays = 120): { events: GameEvent
     if (w.manager?.pendingJob) break;   // 경질 · 계약 만료: 새 구단 고르기
     if (ev.some((e) => e.type === 'board' && w.manager?.boardEvent)) break;   // 이사회 이벤트: 멈춰서 선택
     if (ev.some((e) => e.type === 'press') && w.manager?.press) break;   // 기자회견: 멈춰서 답변
+    if (w.sagaPrompt || w.scandalPrompt) break;   // 선수 언론 플레이 · 논란: 멈춰서 대응
   }
   return { events, matchToday: userFixtureToday(w) };
 }

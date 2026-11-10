@@ -1,6 +1,8 @@
 import { JobModal } from '../components/ManagerCard';
 import { BoardEventModal } from '../components/BoardEventModal';
 import { PressModal } from '../components/PressModal';
+import { SagaModal } from '../components/SagaModal';
+import { ScandalModal } from '../components/ScandalModal';
 import { Sidebar } from '../components/Sidebar';
 import { TopBar } from '../components/TopBar';
 import { ContinueBar } from '../components/ContinueBar';
@@ -67,6 +69,8 @@ export function HubScreen() {
       <JobModal />
       <BoardEventModal />
       <PressModal />
+      <SagaModal />
+      <ScandalModal />
     </div>
   );
 }

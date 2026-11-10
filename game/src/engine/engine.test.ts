@@ -123,7 +123,7 @@ describe('시즌 전환', () => {
     // 새 시즌도 끝까지 돌아감
     playOut(w);
     expect(seasonOver(w)).toBe(true);
-  });
+  }, 30000);   // 한 시즌 진행 (경기 능력치 계산이 대부분, 5초 기본 제한을 넘음)
 
   it('데이터가 끝난 뒤(2026/27~): 같은 구단으로 계속, 성장 엔진 적용', () => {
     const w = createWorld(loadSeason('2025-26', 'eng1'), USER, 4);
