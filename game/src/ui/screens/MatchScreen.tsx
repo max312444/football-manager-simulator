@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { clubKo, leagues, playerKo } from '../../data/db';
+import { clubKo, compKo, playerKo } from '../../data/db';
 import { SEGMENTS, type TeamInMatch } from '../../engine/match';
 import { slotRating } from '../../engine/ratings';
 import type { Side } from '../../engine/types';
@@ -35,7 +35,7 @@ export function MatchScreen() {
   const me = s[m.side], opp = s[m.side === 'home' ? 'away' : 'home'];
   const minute = Math.min(90, s.segment * 5);
   const name = (id: string) => playerKo(id, w.players[id]?.name ?? id);
-  const lg = leagues.find((l) => l.id === m.fixture.league)?.ko;
+  const lg = compKo(m.fixture.league);
 
   // 사건 목록 (골·카드·부상·교체)
   type Ev = { minute: number; side: Side; kind: 'goal' | 'yellow' | 'red' | 'injury' | 'sub'; text: string; sub?: string };
@@ -64,7 +64,7 @@ export function MatchScreen() {
               {goalsSoFar.home}<span className="mx-3 text-lo">:</span>{goalsSoFar.away}
             </div>
             <div className={`led mt-2 rounded-md px-2.5 py-0.5 text-[13px] font-semibold ${m.phase === 'live' ? 'bg-neon/15 text-neon' : 'bg-ink-700 text-mid'}`}>
-              {m.phase === 'full' ? '경기 종료' : `${minute}'`}
+              {m.phase === 'full' ? (sum.pens ? `경기 종료 · 승부차기 ${clubKo(sum.pens === 'home' ? s.home.clubId : s.away.clubId)} 승` : '경기 종료') : `${minute}'`}
             </div>
           </div>
           <TeamHead club={s.away.clubId} mine={m.side === 'away'} align="left" />

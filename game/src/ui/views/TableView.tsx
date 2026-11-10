@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react';
 import { useApp } from '../../store/app';
 import { sortTable } from '../../engine/standings';
 import { levelOf, pairRule, nationOf, zoneOf, type Tie } from '../../engine/pyramid';
-import { clubKo, leagues } from '../../data/db';
+import { clubKo, compKo } from '../../data/db';
 import { Crest } from '../components/Crest';
 import { ResultDot } from '../components/bits';
 import { useWorld } from '../hooks';
+import { CupView } from './CupView';
+import { EuroView } from './EuroView';
 
 /** 리그 순위표. compact면 홈 화면용 (내 구단 주변만) */
 export function LeagueTable({ league, compact = false }: { league: string; compact?: boolean }) {
@@ -72,24 +74,39 @@ export function LeagueTable({ league, compact = false }: { league: string; compa
 export function TableView() {
   const w = useWorld();
   const ids = Object.keys(w.competitions);
+  const cupIds = Object.keys(w.cups ?? {});
   const want = useApp((a) => a.tableLeague);
-  const [league, setLeague] = useState(want && w.competitions[want] ? want : w.clubs[w.userClubId].league);
-  useEffect(() => { if (want && w.competitions[want]) setLeague(want); }, [want]);
+  const euroIds = Object.keys(w.europe ?? {});
+  const known = (id: string | null | undefined): id is string => !!id && (!!w.competitions[id] || !!w.cups?.[id] || !!w.europe?.[id]);
+  const [league, setLeague] = useState(known(want) ? want : w.clubs[w.userClubId].league);
+  useEffect(() => { if (known(want)) setLeague(want); }, [want]);
+  const isCup = !w.competitions[league];
+  const tab = (id: string, small = false) => (
+    <button key={id} onClick={() => setLeague(id)}
+      className={`shrink-0 rounded-md ${small ? 'h-7 px-3 text-[12px]' : 'h-8 px-4 text-[13px]'} ${league === id ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>
+      {compKo(id)}
+    </button>
+  );
   return (
     <div className="flex h-full flex-col p-6">
-      <div className="mb-3 flex items-center gap-1">
-        {ids.map((id) => (
-          <button key={id} onClick={() => setLeague(id)}
-            className={`h-8 rounded-md px-4 text-[13px] ${league === id ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>
-            {leagues.find((l) => l.id === id)?.ko ?? id}
-          </button>
-        ))}
-        <Legend league={league} />
+      <div className="mb-1 flex items-center gap-1 overflow-x-auto">
+        {ids.map((id) => tab(id))}
+        {!isCup && <Legend league={league} />}
       </div>
-      <div className="flex min-h-0 flex-1 gap-4">
-        <div className="panel min-h-0 flex-1 overflow-auto"><LeagueTable league={league} /></div>
-        {w.competitions[league]?.playoff?.ties.length ? <Playoffs league={league} /> : null}
-      </div>
+      {(euroIds.length > 0 || cupIds.length > 0) && (
+        <div className="mb-3 flex items-center gap-1 overflow-x-auto">
+          <span className="mr-1 shrink-0 text-[11px] text-lo">대회</span>
+          {euroIds.map((id) => tab(id, true))}
+          {euroIds.length > 0 && cupIds.length > 0 && <span className="mx-2 h-4 w-px shrink-0 bg-line" />}
+          {cupIds.map((id) => tab(id, true))}
+        </div>
+      )}
+      {w.europe?.[league] ? <EuroView id={league} /> : isCup ? <CupView cupId={league} /> : (
+        <div className="flex min-h-0 flex-1 gap-4">
+          <div className="panel min-h-0 flex-1 overflow-auto"><LeagueTable league={league} /></div>
+          {w.competitions[league]?.playoff?.ties.length ? <Playoffs league={league} /> : null}
+        </div>
+      )}
     </div>
   );
 }

@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 2535000,
-    "transferBudget": 1690000,
-    "wageBudget": 92950
+    "balance": 6800000,
+    "revenue": 35400000,
+    "revenueSource": "model",
+    "transferBudget": 3600000,
+    "wageBudget": 422000
   },
   "league": "ger1",
-  "reputation": 66,
+  "reputation": 71,
   "season": "2006-07",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,34 +48,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 10000
-    },
-    {
-      "attrs": {
-        "aer": 75,
-        "com": 73,
-        "dri": 62,
-        "ldr": 69,
-        "pac": 66,
-        "pas": 68,
-        "pos": 75,
-        "sho": 45,
-        "sta": 73,
-        "str": 79,
-        "tac": 74,
-        "vis": 59
-      },
-      "birth": "1973-08-01",
-      "contract": null,
-      "foot": null,
-      "height": 186,
-      "id": "p1eg9qlc",
-      "name": "Gregg Berhelter",
-      "nation": "USA",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 8500
+      "wage": 26000
     },
     {
       "alt": [
@@ -102,7 +77,7 @@
       "nation": "CAN",
       "number": null,
       "pos": "CB",
-      "wage": 8500
+      "wage": 26000
     },
     {
       "attrs": {
@@ -129,7 +104,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 7000
+      "wage": 26000
     },
     {
       "attrs": {
@@ -156,7 +131,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 4000
+      "wage": 26000
     },
     {
       "attrs": {
@@ -182,7 +157,7 @@
       "nation": "HUN",
       "number": null,
       "pos": "CB",
-      "wage": 4000
+      "wage": 18500
     },
     {
       "attrs": {
@@ -209,7 +184,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 3000
+      "wage": 17000
     },
     {
       "attrs": {
@@ -236,34 +211,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 3000
-    },
-    {
-      "attrs": {
-        "aer": 69,
-        "com": 62,
-        "dri": 50,
-        "ldr": 66,
-        "pac": 64,
-        "pas": 58,
-        "pos": 73,
-        "sho": 37,
-        "sta": 66,
-        "str": 68,
-        "tac": 72,
-        "vis": 51
-      },
-      "birth": "1975-09-01",
-      "contract": null,
-      "foot": null,
-      "height": 183,
-      "id": "p1cjqbpw",
-      "name": "Martin Hisky",
-      "nation": "CZE",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 3000
+      "wage": 15000
     },
     {
       "attrs": {
@@ -289,7 +237,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 3000
+      "wage": 21000
     },
     {
       "attrs": {
@@ -315,7 +263,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1500
+      "wage": 10000
     },
     {
       "alt": [
@@ -344,7 +292,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1500
+      "wage": 14000
     },
     {
       "attrs": {
@@ -370,7 +318,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 8500
     },
     {
       "attrs": {
@@ -397,7 +345,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1500
+      "wage": 7000
     },
     {
       "attrs": {
@@ -423,7 +371,7 @@
       "nation": "ROU",
       "number": null,
       "pos": "ST",
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -449,7 +397,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1500
+      "wage": 8000
     },
     {
       "attrs": {
@@ -475,7 +423,7 @@
       "nation": "BIH",
       "number": null,
       "pos": "GK",
-      "wage": 1500
+      "wage": 9000
     },
     {
       "attrs": {
@@ -502,7 +450,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 11000
     },
     {
       "attrs": {
@@ -528,7 +476,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -554,7 +502,7 @@
       "nation": "GER",
       "number": null,
       "pos": "RB",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -580,7 +528,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -607,7 +555,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -634,7 +582,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -660,7 +608,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -686,7 +634,7 @@
       "nation": "POL",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -713,7 +661,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -739,7 +687,7 @@
       "nation": "GHA",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -766,35 +714,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 55,
-        "com": 56,
-        "dri": 54,
-        "ldr": 49,
-        "pac": 56,
-        "pas": 50,
-        "pos": 35,
-        "sho": 61,
-        "sta": 52,
-        "str": 52,
-        "tac": 23,
-        "vis": 45
-      },
-      "birth": "1984-10-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p0eszt5h",
-      "name": "Kenan Sehin",
-      "nation": "TUR",
-      "nation2": "GER",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -821,7 +741,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -848,7 +768,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -874,7 +794,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -901,7 +821,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -928,7 +848,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -954,7 +874,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -981,7 +901,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -1008,7 +928,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     }
   ],
   "stadiumCapacity": 22528

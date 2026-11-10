@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 3900000,
-    "transferBudget": 2600000,
-    "wageBudget": 143000
+    "balance": 15200000,
+    "revenue": 49900000,
+    "revenueSource": "model",
+    "transferBudget": 7700000,
+    "wageBudget": 595000
   },
   "league": "ger1",
-  "reputation": 71,
+  "reputation": 79,
   "season": "2001-02",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -48,7 +50,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 11000
+      "wage": 35500
     },
     {
       "attrs": {
@@ -74,7 +76,7 @@
       "nation": "SRB",
       "number": null,
       "pos": "CB",
-      "wage": 11000
+      "wage": 37000
     },
     {
       "attrs": {
@@ -100,7 +102,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 11000
+      "wage": 37000
     },
     {
       "attrs": {
@@ -126,7 +128,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 9500
+      "wage": 37000
     },
     {
       "attrs": {
@@ -153,7 +155,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 8000
+      "wage": 37000
     },
     {
       "attrs": {
@@ -179,7 +181,7 @@
       "nation": "CAN",
       "number": null,
       "pos": "CB",
-      "wage": 6000
+      "wage": 22500
     },
     {
       "attrs": {
@@ -205,7 +207,7 @@
       "nation": "SRB",
       "number": null,
       "pos": "ST",
-      "wage": 6000
+      "wage": 19500
     },
     {
       "attrs": {
@@ -232,7 +234,7 @@
       "nation2": "UKR",
       "number": null,
       "pos": "CB",
-      "wage": 6000
+      "wage": 24500
     },
     {
       "attrs": {
@@ -259,7 +261,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 4500
+      "wage": 28500
     },
     {
       "attrs": {
@@ -286,7 +288,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 4500
+      "wage": 17500
     },
     {
       "attrs": {
@@ -312,7 +314,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 3500
+      "wage": 23000
     },
     {
       "attrs": {
@@ -338,7 +340,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 3500
+      "wage": 20000
     },
     {
       "attrs": {
@@ -365,7 +367,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3500
+      "wage": 24000
     },
     {
       "attrs": {
@@ -391,7 +393,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "ST",
-      "wage": 3000
+      "wage": 13000
     },
     {
       "attrs": {
@@ -417,35 +419,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 3000
-    },
-    {
-      "attrs": {
-        "aer": 58,
-        "com": 70,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 62,
-        "pas": 73,
-        "pos": 65,
-        "sho": 64,
-        "sta": 72,
-        "str": 65,
-        "tac": 66,
-        "vis": 70
-      },
-      "birth": "1968-12-01",
-      "contract": null,
-      "foot": null,
-      "height": 187,
-      "id": "p0x3hpxi",
-      "name": "Yuriy Maksymuv",
-      "nation": "RUS",
-      "nation2": "UKR",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 3000
+      "wage": 19500
     },
     {
       "attrs": {
@@ -472,7 +446,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 2500
+      "wage": 10500
     },
     {
       "attrs": {
@@ -499,35 +473,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 57,
-        "com": 66,
-        "dri": 65,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 66,
-        "pos": 65,
-        "sho": 62,
-        "sta": 68,
-        "str": 58,
-        "tac": 58,
-        "vis": 64
-      },
-      "birth": "1978-08-01",
-      "contract": null,
-      "foot": null,
-      "height": 195,
-      "id": "p186vllw",
-      "name": "Christoph Dabrowsky",
-      "nation": "GER",
-      "nation2": "POL",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1500
+      "wage": 16500
     },
     {
       "attrs": {
@@ -554,7 +500,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -581,7 +527,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1500
+      "wage": 8000
     },
     {
       "attrs": {
@@ -607,7 +553,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -633,7 +579,7 @@
       "nation": "NED",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -660,7 +606,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -686,7 +632,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -712,7 +658,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -739,7 +685,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -766,7 +712,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -792,7 +738,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -819,61 +765,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 50,
-        "com": 54,
-        "han": 59,
-        "ldr": 52,
-        "one": 52,
-        "pac": 37,
-        "pas": 45,
-        "pos": 59,
-        "ref": 58,
-        "sta": 40,
-        "str": 51,
-        "vis": 46
-      },
-      "birth": "1967-08-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p07r4lm5",
-      "name": "Stefan Brases",
-      "nation": "GER",
-      "number": null,
-      "pos": "GK",
-      "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 41,
-        "com": 51,
-        "dri": 52,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 53,
-        "pos": 55,
-        "sho": 46,
-        "sta": 53,
-        "str": 47,
-        "tac": 53,
-        "vis": 56
-      },
-      "birth": "1965-08-01",
-      "contract": null,
-      "foot": null,
-      "height": 177,
-      "id": "p0vdktt3",
-      "name": "Bernhard Treres",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -900,7 +792,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -927,7 +819,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {
@@ -955,7 +847,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 42500

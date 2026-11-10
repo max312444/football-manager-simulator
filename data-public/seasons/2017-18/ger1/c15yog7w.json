@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 7200000,
-    "transferBudget": 4800000,
-    "wageBudget": 264000
+    "balance": 29700000,
+    "revenue": 109200000,
+    "revenueSource": "model",
+    "transferBudget": 15300000,
+    "wageBudget": 1302000
   },
   "league": "ger1",
-  "reputation": 72,
+  "reputation": 76,
   "season": "2017-18",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -45,7 +47,7 @@
       "nation": "POL",
       "number": null,
       "pos": "CM",
-      "wage": 30500
+      "wage": 81000
     },
     {
       "attrs": {
@@ -71,7 +73,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 30500
+      "wage": 81000
     },
     {
       "attrs": {
@@ -97,7 +99,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CM",
-      "wage": 19000
+      "wage": 81000
     },
     {
       "attrs": {
@@ -124,7 +126,7 @@
       "nation2": "GER",
       "number": null,
       "pos": "RB",
-      "wage": 16500
+      "wage": 81000
     },
     {
       "attrs": {
@@ -151,7 +153,7 @@
       "nation2": "GUI",
       "number": null,
       "pos": "CM",
-      "wage": 16500
+      "wage": 81000
     },
     {
       "attrs": {
@@ -177,34 +179,7 @@
       "nation": "BEL",
       "number": null,
       "pos": "GK",
-      "wage": 16500
-    },
-    {
-      "attrs": {
-        "aer": 62,
-        "com": 73,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 78,
-        "pas": 71,
-        "pos": 74,
-        "sho": 54,
-        "sta": 75,
-        "str": 72,
-        "tac": 74,
-        "vis": 67
-      },
-      "birth": "1987-09-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p1q1nw6e",
-      "name": "Christian Tresch",
-      "nation": "GER",
-      "number": null,
-      "pos": "RB",
-      "verify": true,
-      "wage": 14000
+      "wage": 74000
     },
     {
       "attrs": {
@@ -230,7 +205,7 @@
       "nation": "BEL",
       "number": null,
       "pos": "ST",
-      "wage": 14000
+      "wage": 57000
     },
     {
       "attrs": {
@@ -256,7 +231,7 @@
       "nation": "GER",
       "number": null,
       "pos": "RB",
-      "wage": 12000
+      "wage": 56000
     },
     {
       "attrs": {
@@ -282,7 +257,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 10000
+      "wage": 77500
     },
     {
       "attrs": {
@@ -310,7 +285,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 10000
+      "wage": 69500
     },
     {
       "attrs": {
@@ -336,7 +311,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 8500
+      "wage": 68500
     },
     {
       "attrs": {
@@ -362,7 +337,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 7500
+      "wage": 53500
     },
     {
       "attrs": {
@@ -389,7 +364,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 5500
+      "wage": 32500
     },
     {
       "attrs": {
@@ -416,7 +391,7 @@
       "nation2": "FRA",
       "number": null,
       "pos": "CB",
-      "wage": 5500
+      "wage": 36500
     },
     {
       "attrs": {
@@ -443,7 +418,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 5500
+      "wage": 28500
     },
     {
       "attrs": {
@@ -469,34 +444,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "ST",
-      "wage": 4500
-    },
-    {
-      "attrs": {
-        "aer": 57,
-        "com": 60,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 59,
-        "pas": 55,
-        "pos": 39,
-        "sho": 63,
-        "sta": 55,
-        "str": 60,
-        "tac": 29,
-        "vis": 57
-      },
-      "birth": "1997-01-01",
-      "contract": null,
-      "foot": null,
-      "height": 187,
-      "id": "p0nwdard",
-      "name": "Leandro Putero",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 2000
+      "wage": 24500
     },
     {
       "attrs": {
@@ -522,7 +470,7 @@
       "nation": "BEL",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -548,7 +496,7 @@
       "nation": "POL",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 7000
     }
   ],
   "stadiumCapacity": 30000

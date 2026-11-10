@@ -135,6 +135,17 @@ const LEAGUE_PARODY = {
   fra2: ['리그 프랑세즈 2', 'Ligue Francaise 2'],
 };
 
+// 컵 · 유럽 대회 이름 (실명 → 가상)
+const CUP_PARODY = {
+  'eng-cup': ['잉글리시 챌린지 컵', 'English Challenge Cup'],
+  'esp-cup': ['코파 이베리카', 'Copa Iberica'],
+  'ita-cup': ['코파 칼초', 'Coppa Calcio'],
+  'ger-cup': ['도이체 포칼', 'Deutscher Pokal'],
+  'fra-cup': ['쿠프 프랑세즈', 'Coupe Francaise'],
+  ucl: ['컨티넨탈 챔피언스 컵', 'Continental Champions Cup'],
+  uel: ['컨티넨탈 리그', 'Continental League'],
+};
+
 const slug = (s) => plainAscii(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function crestFor(club) {
@@ -213,7 +224,7 @@ async function publish({ apply = false, log = console.log } = {}) {
     for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json'))) {
       const j = readJson(path.join(dir, f));
       if (f === '_league.json') {
-        out.set(path.join('seasons', s, l, '_league.json'), { ...j, clubs: j.clubs.map(mapClub).sort() });
+        out.set(path.join('seasons', s, l, '_league.json'), { ...j, clubs: j.clubs.map(mapClub).sort(), ...(j.standings ? { standings: j.standings.map(mapClub) } : {}) });
         continue;
       }
       const squad = j.squad.map((p) => {
@@ -246,6 +257,10 @@ async function publish({ apply = false, log = console.log } = {}) {
     leagues: leagues.leagues.map((l) => {
       const [ko, en] = LEAGUE_PARODY[l.id] || [`${l.nation} ${l.level}부 리그`, `${l.nation} Division ${l.level}`];
       return { ...l, ko, en };
+    }),
+    cups: (leagues.cups || []).map((c) => {
+      const [ko, en] = CUP_PARODY[c.id] || [`${c.nation} 컵`, `${c.nation} Cup`];
+      return { ...c, ko, en };
     }),
   });
   out.set(path.join('meta', 'nations.json'), readJson(path.join(DATA, 'meta', 'nations.json')));

@@ -5,9 +5,9 @@ import { ATTR_GROUPS, ATTR_KO, GK_GROUP, money, ratingBar, ratingTone } from '..
 import { ConditionIcon, FitnessBar } from '../components/bits';
 import { loyaltyLabel, UNHAPPY } from '../../engine/loyalty';
 import { TRAIT, type PlayerHistory, type TraitKind } from '../../engine/traits';
-import { AWARD_KO } from '../../engine/awards';
+import { AWARD_KO, isTrophy } from '../../engine/awards';
 import type { ReactNode } from 'react';
-import { clubKo } from '../../data/db';
+import { clubKo, compKo } from '../../data/db';
 import { useHistory, useWorld } from '../hooks';
 import { Crest } from '../components/Crest';
 
@@ -142,9 +142,13 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
             <div key={k}><div className="tnum text-[16px] font-semibold">{v}</div><div className="text-[11px] text-lo">{k}</div></div>
           ))}
         </div>
+        {p.cupStats?.apps ? <div className="mt-2 text-center text-[11px] text-lo">리그 기록 · 컵 대회 {p.cupStats.apps}경기 {p.cupStats.goals}골 {p.cupStats.assists}도움</div> : null}
       </div>
 
       <div className="flex-1 overflow-auto px-5 py-4">
+        {p.clubId && (p.dev ?? 0) !== 0 && (
+          <div className="mb-3 text-[12px] text-lo">지난달 훈련 성장 <span className={(p.dev ?? 0) > 0.05 ? 'text-neon' : (p.dev ?? 0) < -0.05 ? 'text-red' : 'text-mid'}>{(p.dev ?? 0) > 0.05 ? '↑ 잘 자라는 중' : (p.dev ?? 0) < -0.05 ? '↓ 정체 · 하락' : '→ 보통'}</span> · 오른쪽 작은 숫자는 훈련으로 바뀐 만큼</div>
+        )}
         {groups.map((g) => {
           const keys = g.keys.filter((k) => p.base[k] != null);
           if (!keys.length) return null;
@@ -159,6 +163,10 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
                       <span className="w-[72px] shrink-0 text-mid">{ATTR_KO[k]}</span>
                       <div className="h-1 flex-1 overflow-hidden rounded-full bg-ink-700"><div className={`h-full rounded-full ${ratingBar(v)}`} style={{ width: `${v}%` }} /></div>
                       <span className={`tnum w-7 text-right font-semibold ${ratingTone(v)}`}>{v}</span>
+                      {/* 훈련으로 바뀐 만큼 (실제 기준선 대비) */}
+                      <span className={`tnum w-7 text-right text-[11px] ${(p.growth[k] ?? 0) >= 0.5 ? 'text-neon' : (p.growth[k] ?? 0) <= -0.5 ? 'text-red' : 'text-transparent'}`}>
+                        {Math.abs(p.growth[k] ?? 0) >= 0.5 ? `${(p.growth[k] ?? 0) > 0 ? '+' : ''}${Math.round(p.growth[k] ?? 0)}` : '0'}
+                      </span>
                     </div>
                   );
                 })}
@@ -173,7 +181,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
             <div className="mb-2 flex items-baseline justify-between"><span className="text-[11px] font-semibold text-lo">수상 경력</span>{p.boost && <span className="text-[11px] text-neon">수상 효과 능력 +{p.boost.amount} · {p.boost.months}개월 남음</span>}</div>
             <ul className="space-y-1 text-[12px]">
               {[...(p.honours ?? [])].reverse().map((h, i) => (
-                <li key={i} className="flex justify-between"><span className={h.kind === 'champion' ? 'text-[#f2c94c]' : 'text-hi'}>{AWARD_KO[h.kind]}</span><span className="tnum text-lo">{h.season.replace('-', '/')}</span></li>
+                <li key={i} className="flex justify-between"><span className={isTrophy(h.kind) ? 'text-[#f2c94c]' : 'text-hi'}>{AWARD_KO[h.kind]}{isTrophy(h.kind) ? ` · ${compKo(h.league)}` : ''}</span><span className="tnum text-lo">{h.season.replace('-', '/')}</span></li>
               ))}
             </ul>
           </div>

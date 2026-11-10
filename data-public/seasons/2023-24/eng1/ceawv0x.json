@@ -6,13 +6,15 @@
     "youth": 3
   },
   "finance": {
-    "balance": 10000000,
-    "transferBudget": 10000000,
-    "wageBudget": 900000
+    "balance": 53100000,
+    "revenue": 181700000,
+    "revenueSource": "model",
+    "transferBudget": 27200000,
+    "wageBudget": 2166000
   },
   "formation": "3-5-2",
   "league": "eng1",
-  "reputation": 60,
+  "reputation": 78,
   "season": "2023-24",
   "squad": [
     {
@@ -39,7 +41,7 @@
       "nation": "ENG",
       "number": 18,
       "pos": "GK",
-      "wage": 15000
+      "wage": 67500
     },
     {
       "attrs": {
@@ -65,34 +67,7 @@
       "nation": "WAL",
       "number": 1,
       "pos": "GK",
-      "wage": 7000
-    },
-    {
-      "attrs": {
-        "aer": 64,
-        "com": 64,
-        "han": 65,
-        "ldr": 58,
-        "one": 64,
-        "pac": 43,
-        "pas": 60,
-        "pos": 65,
-        "ref": 68,
-        "sta": 55,
-        "str": 62,
-        "vis": 52
-      },
-      "birth": "1996-01-01",
-      "contract": "2025-06-30",
-      "foot": "R",
-      "height": 196,
-      "id": "p1sypq33",
-      "name": "Ivo Grbyc",
-      "nation": "CRO",
-      "number": 13,
-      "pos": "GK",
-      "verify": true,
-      "wage": 11000
+      "wage": 39000
     },
     {
       "attrs": {
@@ -119,7 +94,7 @@
       "nation2": "GRE",
       "number": 2,
       "pos": "RWB",
-      "wage": 23000
+      "wage": 95000
     },
     {
       "attrs": {
@@ -145,7 +120,7 @@
       "nation": "ENG",
       "number": 3,
       "pos": "LWB",
-      "wage": 8000
+      "wage": 43500
     },
     {
       "attrs": {
@@ -171,7 +146,7 @@
       "nation": "USA",
       "number": 5,
       "pos": "CB",
-      "wage": 16000
+      "wage": 71000
     },
     {
       "attrs": {
@@ -197,7 +172,7 @@
       "nation": "ENG",
       "number": 6,
       "pos": "CB",
-      "wage": 10000
+      "wage": 51000
     },
     {
       "attrs": {
@@ -223,7 +198,7 @@
       "nation": "IRL",
       "number": 12,
       "pos": "CB",
-      "wage": 30000
+      "wage": 112500
     },
     {
       "attrs": {
@@ -249,7 +224,7 @@
       "nation": "BIH",
       "number": 15,
       "pos": "CB",
-      "wage": 21000
+      "wage": 87500
     },
     {
       "attrs": {
@@ -275,7 +250,7 @@
       "nation": "ENG",
       "number": 19,
       "pos": "CB",
-      "wage": 10000
+      "wage": 52000
     },
     {
       "attrs": {
@@ -301,7 +276,7 @@
       "nation": "ENG",
       "number": 20,
       "pos": "RB",
-      "wage": 28000
+      "wage": 107500
     },
     {
       "attrs": {
@@ -327,7 +302,7 @@
       "nation": "WAL",
       "number": 33,
       "pos": "LWB",
-      "wage": 8000
+      "wage": 42000
     },
     {
       "attrs": {
@@ -354,7 +329,7 @@
       "nation": "ALG",
       "number": 27,
       "pos": "LWB",
-      "wage": 6000
+      "wage": 34000
     },
     {
       "attrs": {
@@ -381,7 +356,7 @@
       "nation": "ENG",
       "number": 14,
       "pos": "LB",
-      "wage": 26000
+      "wage": 102500
     },
     {
       "attrs": {
@@ -407,7 +382,7 @@
       "nation": "SCO",
       "number": 4,
       "pos": "CM",
-      "wage": 24000
+      "wage": 98000
     },
     {
       "attrs": {
@@ -433,7 +408,7 @@
       "nation": "NED",
       "number": 8,
       "pos": "CM",
-      "wage": 30000
+      "wage": 114000
     },
     {
       "attrs": {
@@ -460,7 +435,7 @@
       "nation2": "ENG",
       "number": 16,
       "pos": "CM",
-      "wage": 23000
+      "wage": 95000
     },
     {
       "attrs": {
@@ -486,7 +461,7 @@
       "nation": "BRA",
       "number": 21,
       "pos": "DM",
-      "wage": 18000
+      "wage": 78000
     },
     {
       "attrs": {
@@ -512,7 +487,7 @@
       "nation": "ENG",
       "number": 23,
       "pos": "LM",
-      "wage": 10000
+      "wage": 49500
     },
     {
       "attrs": {
@@ -539,7 +514,7 @@
       "nation": "ENG",
       "number": 28,
       "pos": "AM",
-      "wage": 14000
+      "wage": 66500
     },
     {
       "attrs": {
@@ -565,7 +540,7 @@
       "nation": "TUN",
       "number": 25,
       "pos": "CM",
-      "wage": 12000
+      "wage": 59500
     },
     {
       "attrs": {
@@ -596,7 +571,7 @@
       "nation": "ENG",
       "number": 22,
       "pos": "CM",
-      "wage": 20000
+      "wage": 83500
     },
     {
       "attrs": {
@@ -623,7 +598,7 @@
       "number": 17,
       "pos": "CM",
       "verify": true,
-      "wage": 8000
+      "wage": 30000
     },
     {
       "attrs": {
@@ -650,7 +625,7 @@
       "number": 35,
       "pos": "AM",
       "verify": true,
-      "wage": 5000
+      "wage": 13000
     },
     {
       "attrs": {
@@ -676,7 +651,7 @@
       "nation": "SCO",
       "number": 9,
       "pos": "ST",
-      "wage": 19000
+      "wage": 82000
     },
     {
       "attrs": {
@@ -702,7 +677,7 @@
       "nation": "ENG",
       "number": 10,
       "pos": "ST",
-      "wage": 17000
+      "wage": 76000
     },
     {
       "attrs": {
@@ -731,7 +706,7 @@
       "traits": [
         "injury_prone"
       ],
-      "wage": 9000
+      "wage": 49000
     },
     {
       "attrs": {
@@ -757,7 +732,7 @@
       "nation": "ENG",
       "number": 36,
       "pos": "ST",
-      "wage": 5000
+      "wage": 29000
     },
     {
       "attrs": {
@@ -783,7 +758,7 @@
       "nation": "DEN",
       "number": 32,
       "pos": "ST",
-      "wage": 8000
+      "wage": 44500
     },
     {
       "alt": [
@@ -812,7 +787,7 @@
       "nation": "CIV",
       "number": 11,
       "pos": "LW",
-      "wage": 10000
+      "wage": 50000
     }
   ],
   "stadiumCapacity": 32050

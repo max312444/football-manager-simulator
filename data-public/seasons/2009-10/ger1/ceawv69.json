@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 2520000,
-    "transferBudget": 1680000,
-    "wageBudget": 92400
+    "balance": 8700000,
+    "revenue": 44000000,
+    "revenueSource": "model",
+    "transferBudget": 4600000,
+    "wageBudget": 524000
   },
   "league": "ger1",
-  "reputation": 66,
+  "reputation": 71,
   "season": "2009-10",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "FRA",
       "number": 1,
       "pos": "GK",
-      "wage": 2000
+      "wage": 15000
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "CZE",
       "number": 2,
       "pos": "CB",
-      "wage": 2000
+      "wage": 14500
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "GER",
       "number": 3,
       "pos": "CM",
-      "wage": 2000
+      "wage": 20500
     },
     {
       "attrs": {
@@ -124,7 +126,7 @@
       "nation": "GER",
       "number": 5,
       "pos": "CB",
-      "wage": 2000
+      "wage": 13000
     },
     {
       "attrs": {
@@ -150,7 +152,7 @@
       "nation": "KOR",
       "number": 6,
       "pos": "RB",
-      "wage": 15000
+      "wage": 32500
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "nation2": "COD",
       "number": 7,
       "pos": "CM",
-      "wage": 2500
+      "wage": 25000
     },
     {
       "attrs": {
@@ -203,7 +205,7 @@
       "nation": "CMR",
       "number": 8,
       "pos": "ST",
-      "wage": 13000
+      "wage": 32500
     },
     {
       "attrs": {
@@ -230,7 +232,7 @@
       "nation2": "FRA",
       "number": 10,
       "pos": "CM",
-      "wage": 4500
+      "wage": 32500
     },
     {
       "attrs": {
@@ -256,7 +258,7 @@
       "nation": "FRA",
       "number": 11,
       "pos": "ST",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -282,33 +284,7 @@
       "nation": "DEN",
       "number": 13,
       "pos": "ST",
-      "wage": 3500
-    },
-    {
-      "attrs": {
-        "aer": 67,
-        "com": 64,
-        "dri": 46,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 54,
-        "pos": 66,
-        "sho": 39,
-        "sta": 60,
-        "str": 66,
-        "tac": 69,
-        "vis": 49
-      },
-      "birth": "1989-05-01",
-      "contract": null,
-      "foot": null,
-      "height": 173,
-      "id": "p1fvgk9d",
-      "name": "Verena Schwears",
-      "nation": "GER",
-      "number": 14,
-      "pos": "CB",
-      "wage": 1500
+      "wage": 19000
     },
     {
       "attrs": {
@@ -334,7 +310,7 @@
       "nation": "GER",
       "number": 15,
       "pos": "CB",
-      "wage": 1000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -360,7 +336,7 @@
       "nation": "GER",
       "number": 16,
       "pos": "ST",
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -386,7 +362,7 @@
       "nation": "CMR",
       "number": 17,
       "pos": "CM",
-      "wage": 1000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -412,7 +388,7 @@
       "nation": "GER",
       "number": 18,
       "pos": "CM",
-      "wage": 1000
+      "wage": 13000
     },
     {
       "alt": [
@@ -441,7 +417,7 @@
       "nation": "GER",
       "number": 19,
       "pos": "CM",
-      "wage": 1000
+      "wage": 9500
     },
     {
       "attrs": {
@@ -467,7 +443,7 @@
       "nation": "CRO",
       "number": 20,
       "pos": "CM",
-      "wage": 2500
+      "wage": 23500
     },
     {
       "attrs": {
@@ -493,7 +469,7 @@
       "nation": "AUT",
       "number": 21,
       "pos": "GK",
-      "wage": 2500
+      "wage": 19500
     },
     {
       "attrs": {
@@ -519,7 +495,7 @@
       "nation": "NGA",
       "number": 22,
       "pos": "CM",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -545,7 +521,7 @@
       "nation": "GER",
       "number": 23,
       "pos": "CM",
-      "wage": 2500
+      "wage": 20000
     },
     {
       "attrs": {
@@ -572,7 +548,7 @@
       "nation2": "BIH",
       "number": 24,
       "pos": "CM",
-      "wage": 8000
+      "wage": 32500
     },
     {
       "attrs": {
@@ -598,7 +574,7 @@
       "nation": "GER",
       "number": 26,
       "pos": "GK",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -624,7 +600,7 @@
       "nation": "GER",
       "number": 27,
       "pos": "ST",
-      "wage": 1500
+      "wage": 10500
     },
     {
       "attrs": {
@@ -651,189 +627,7 @@
       "nation2": "TUR",
       "number": 38,
       "pos": "CB",
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 68,
-        "com": 70,
-        "han": 68,
-        "ldr": 66,
-        "one": 70,
-        "pac": 50,
-        "pas": 54,
-        "pos": 66,
-        "ref": 69,
-        "sta": 54,
-        "str": 63,
-        "vis": 57
-      },
-      "birth": "1982-05-01",
-      "contract": null,
-      "foot": null,
-      "height": 176,
-      "id": "p1oj5d4u",
-      "name": "Marisa Bronner",
-      "nation": "SUI",
-      "number": null,
-      "pos": "GK",
-      "wage": 3000
-    },
-    {
-      "attrs": {
-        "aer": 55,
-        "com": 59,
-        "dri": 56,
-        "ldr": 52,
-        "pac": 57,
-        "pas": 53,
-        "pos": 38,
-        "sho": 63,
-        "sta": 57,
-        "str": 59,
-        "tac": 31,
-        "vis": 49
-      },
-      "birth": "1988-02-01",
-      "contract": null,
-      "foot": null,
-      "height": 168,
-      "id": "p0ajanmc",
-      "name": "Susanne Hertel",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 60,
-        "com": 53,
-        "dri": 45,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 48,
-        "pos": 64,
-        "sho": 29,
-        "sta": 51,
-        "str": 61,
-        "tac": 63,
-        "vis": 47
-      },
-      "birth": "1991-03-01",
-      "contract": null,
-      "foot": null,
-      "height": 178,
-      "id": "p1g6i995",
-      "name": "Valeria Klainer",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 46,
-        "com": 56,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 55,
-        "pas": 57,
-        "pos": 55,
-        "sho": 53,
-        "sta": 57,
-        "str": 50,
-        "tac": 52,
-        "vis": 56
-      },
-      "birth": "1986-04-01",
-      "contract": null,
-      "foot": null,
-      "height": 157,
-      "id": "p1hgtl41",
-      "name": "Martina Mosar",
-      "nation": "SUI",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 55,
-        "com": 57,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 52,
-        "pas": 49,
-        "pos": 32,
-        "sho": 55,
-        "sta": 53,
-        "str": 52,
-        "tac": 24,
-        "vis": 48
-      },
-      "birth": "1990-01-01",
-      "contract": null,
-      "foot": null,
-      "height": 170,
-      "id": "p0j7sqvb",
-      "name": "Julia Zyrnstein",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 41,
-        "com": 55,
-        "dri": 54,
-        "ldr": 52,
-        "pac": 46,
-        "pas": 55,
-        "pos": 52,
-        "sho": 50,
-        "sta": 58,
-        "str": 45,
-        "tac": 49,
-        "vis": 56
-      },
-      "birth": "1983-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 163,
-      "id": "p1clfacq",
-      "name": "Jeanne Haeg",
-      "nation": "FRA",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 38,
-        "com": 49,
-        "dri": 45,
-        "ldr": 48,
-        "pac": 46,
-        "pas": 55,
-        "pos": 48,
-        "sho": 46,
-        "sta": 53,
-        "str": 44,
-        "tac": 49,
-        "vis": 51
-      },
-      "birth": "1987-04-01",
-      "contract": null,
-      "foot": null,
-      "height": 168,
-      "id": "p1iohetk",
-      "name": "Juliane Meier",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
+      "wage": 15500
     }
   ],
   "stadiumCapacity": 34700

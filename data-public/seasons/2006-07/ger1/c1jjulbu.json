@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 8055000,
-    "transferBudget": 5370000,
-    "wageBudget": 295350
+    "balance": 34300000,
+    "revenue": 97300000,
+    "revenueSource": "money-league:2006-07",
+    "transferBudget": 17300000,
+    "wageBudget": 1160000
   },
   "league": "ger1",
-  "reputation": 75,
+  "reputation": 83,
   "season": "2006-07",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation2": "POL",
       "number": null,
       "pos": "ST",
-      "wage": 34500
+      "wage": 72000
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "ST",
-      "wage": 18500
+      "wage": 64500
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 18500
+      "wage": 72000
     },
     {
       "attrs": {
@@ -125,7 +127,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 15500
+      "wage": 72000
     },
     {
       "attrs": {
@@ -152,7 +154,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 13500
+      "wage": 49000
     },
     {
       "attrs": {
@@ -178,7 +180,7 @@
       "nation": "DEN",
       "number": null,
       "pos": "CM",
-      "wage": 13500
+      "wage": 72000
     },
     {
       "alt": [
@@ -207,7 +209,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 13500
+      "wage": 53500
     },
     {
       "attrs": {
@@ -233,7 +235,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CM",
-      "wage": 11500
+      "wage": 67000
     },
     {
       "alt": [
@@ -262,7 +264,7 @@
       "nation": "FIN",
       "number": null,
       "pos": "CB",
-      "wage": 11500
+      "wage": 50500
     },
     {
       "attrs": {
@@ -289,7 +291,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 11500
+      "wage": 50500
     },
     {
       "attrs": {
@@ -316,7 +318,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 10000
+      "wage": 47000
     },
     {
       "attrs": {
@@ -342,7 +344,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 10000
+      "wage": 51000
     },
     {
       "attrs": {
@@ -369,7 +371,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 8500
+      "wage": 32500
     },
     {
       "attrs": {
@@ -395,7 +397,7 @@
       "nation": "GER",
       "number": null,
       "pos": "RB",
-      "wage": 7000
+      "wage": 34500
     },
     {
       "attrs": {
@@ -423,7 +425,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 6000
+      "wage": 41000
     },
     {
       "alt": [
@@ -452,7 +454,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 5000
+      "wage": 27500
     },
     {
       "attrs": {
@@ -479,34 +481,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 5000
-    },
-    {
-      "attrs": {
-        "aer": 62,
-        "com": 71,
-        "dri": 65,
-        "ldr": 66,
-        "pac": 63,
-        "pas": 69,
-        "pos": 64,
-        "sho": 64,
-        "sta": 69,
-        "str": 61,
-        "tac": 65,
-        "vis": 69
-      },
-      "birth": "1982-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 182,
-      "id": "p0gzibai",
-      "name": "Pekka Legerblom",
-      "nation": "FIN",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 4000
+      "wage": 29000
     },
     {
       "attrs": {
@@ -532,7 +507,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 3500
+      "wage": 27500
     },
     {
       "attrs": {
@@ -559,7 +534,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 3000
+      "wage": 18500
     },
     {
       "alt": [
@@ -588,7 +563,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CB",
-      "wage": 3000
+      "wage": 17000
     },
     {
       "attrs": {
@@ -614,7 +589,7 @@
       "nation": "DEN",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -640,34 +615,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 60,
-        "com": 53,
-        "dri": 45,
-        "ldr": 55,
-        "pac": 55,
-        "pas": 49,
-        "pos": 59,
-        "sho": 30,
-        "sta": 56,
-        "str": 62,
-        "tac": 60,
-        "vis": 44
-      },
-      "birth": "1985-07-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p01tqaef",
-      "name": "Francis Benecki",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -693,34 +641,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 52,
-        "com": 56,
-        "dri": 56,
-        "ldr": 48,
-        "pac": 56,
-        "pas": 49,
-        "pos": 34,
-        "sho": 58,
-        "sta": 55,
-        "str": 59,
-        "tac": 25,
-        "vis": 49
-      },
-      "birth": "1988-01-01",
-      "contract": null,
-      "foot": null,
-      "height": 187,
-      "id": "p0ik622p",
-      "name": "John Mosquara",
-      "nation": "COL",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -748,7 +669,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     }
   ],
   "stadiumCapacity": 42500

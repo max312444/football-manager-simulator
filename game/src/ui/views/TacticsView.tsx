@@ -5,9 +5,11 @@ import { slotRating } from '../../engine/ratings';
 import { playerKo } from '../../data/db';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { ratingTone } from '../format';
+import { ATTR_KO, money, ratingTone } from '../format';
 import { Card, ConditionIcon, FitnessBar, PosTag } from '../components/bits';
 import type { Mentality, Pressing } from '../../engine/types';
+import { FOCUS_ATTRS, FOCUS_KO, INTENSITY_KO, trainingCost, trainingOf, type Intensity, type TrainFocus } from '../../engine/training';
+import { ageOn } from '../../engine/condition';
 
 export const MENTALITY: { v: Mentality; label: string }[] = [
   { v: -2, label: '매우 수비적' }, { v: -1, label: '수비적' }, { v: 0, label: '균형' }, { v: 1, label: '공격적' }, { v: 2, label: '매우 공격적' },
@@ -163,6 +165,7 @@ export function TacticsView() {
                 <div><div className="mb-2 text-[12px] text-lo">압박 강도 — 높으면 상대 기회 ↓, 체력 소모 ↑</div>{seg(PRESSING, t.pressing, (v) => setClubTactics({ pressing: v }))}</div>
               </div>
             </Card>
+            <TrainingCard />
             <Card title={`후보 ${lineup.bench.length}명`} className="flex-1">
               <div className="grid grid-cols-2 gap-x-6 px-5 py-3 text-[13px]">
                 {lineup.bench.map((id) => { const p = w.players[id]; return (
@@ -175,5 +178,45 @@ export function TacticsView() {
         )}
       </div>
     </div>
+  );
+}
+
+/** 훈련 설정: 초점 · 강도 (매달 선수 성장에 반영) */
+function TrainingCard() {
+  const w = useWorld();
+  const setTraining = useGame((s) => s.setTraining);
+  const club = w.clubs[w.userClubId];
+  const tr = trainingOf(club);
+  const btn = (on: boolean) => `h-8 flex-1 rounded-md text-[13px] transition-colors ${on ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`;
+  // 성장 추세 (지난달): 22세 이하 선수 평균
+  const young = club.squad.map((id) => w.players[id]).filter((p) => ageOn(p.birth, w.date) <= 22);
+  const avg = young.length ? young.reduce((s, p) => s + (p.dev ?? 0), 0) / young.length : 0;
+  return (
+    <Card title="훈련">
+      <div className="space-y-4 p-4">
+        <div>
+          <div className="mb-2 text-[12px] text-lo">훈련 초점 — 고른 영역 능력치가 더 많이 오릅니다</div>
+          <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
+            {(Object.keys(FOCUS_KO) as TrainFocus[]).map((f) => (
+              <button key={f} onClick={() => setTraining({ focus: f })} className={btn(tr.focus === f)} title={FOCUS_ATTRS[f].length ? FOCUS_ATTRS[f].map((k) => ATTR_KO[k] ?? k).join(' · ') : '모든 능력치 고르게'}>{FOCUS_KO[f]}</button>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div className="mb-2 text-[12px] text-lo">훈련 강도 — 높으면 성장 ↑, 체력 회복 ↓ · 훈련 중 부상 위험</div>
+          <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
+            {INTENSITY_KO.map((l, i) => <button key={l} onClick={() => setTraining({ intensity: i as Intensity })} className={btn(tr.intensity === i)}>{l}</button>)}
+          </div>
+          <div className="mt-2 text-[12px] text-lo">
+            훈련비 (한 번에, 매달 1일 · 8~5월): {INTENSITY_KO.map((l, i) => <span key={l} className={tr.intensity === i ? 'text-hi' : ''}>{i ? ' · ' : ''}{l} {money(trainingCost(w, club, i as Intensity))}</span>)}
+            {club.finance.balance < 0 && <div className="mt-1 text-amber">잔고가 마이너스라 훈련비를 감당할 수 없어 강도 낮음으로만 훈련합니다</div>}
+          </div>
+        </div>
+        <p className="text-[12px] leading-relaxed text-lo">
+          매달 1일 (8월~5월) 선수 능력이 조금씩 변합니다. 어릴수록, 프로의식 · 야망이 높을수록, 많이 뛸수록, 구단 시설이 좋을수록 잘 자랍니다.
+          {young.length > 0 && <> 지난달 22세 이하 {young.length}명 평균 성장 <span className={avg > 0.02 ? 'text-neon' : avg < -0.02 ? 'text-red' : 'text-mid'}>{avg > 0 ? '+' : ''}{avg.toFixed(2)}</span></>}
+        </p>
+      </div>
+    </Card>
   );
 }

@@ -5,6 +5,8 @@ import { overall } from './ratings';
 import { ageOn } from './condition';
 import { posGroup } from '../data/rating';
 import { book } from './finance';
+import { ruleWageRoom, withinRules } from './rules';
+import { youthIntake } from './youth';
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 const addDays = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
@@ -82,17 +84,24 @@ export function performanceFactor(w: World, p: PlayerState): number {
   return clamp(f, 0.6, 1.9);
 }
 
-/** 선수가 바라는 주급 (유로/주) */
+/** 능력에 맞는 주급 (데이터 economy 단계와 같은 규모: 능력 70 ≈ 2024년 주 €120K, 능력 1당 약 13%, 1년 전마다 약 7% 적게) */
+export function wageForAbility(w: World, ovr: number): number {
+  return 120000 * 1.128 ** (ovr - 70) * Math.min(1.3, 1.07 ** (+w.season.slice(0, 4) - 2024));
+}
+/** 선수가 바라는 주급 (유로/주). 소속 선수는 지금 주급보다 10% 이상, 자유계약 선수는 능력 기준 (예전 주급은 따지지 않음) */
 export function wageDemand(w: World, p: PlayerState): number {
-  const ovr = overall(p);
-  const byAbility = 1000 * 1.17 ** (ovr - 55) * era(w.season);
-  const base = Math.max(byAbility, p.wage * (p.clubId ? 1.1 : 0.9));
-  return Math.round(base / 500) * 500;
+  const byAbility = wageForAbility(w, overall(p));
+  const base = p.clubId ? Math.max(byAbility, p.wage * 1.1) : byAbility;
+  return Math.max(500, Math.round(base / 500) * 500);
 }
 
 export const wageBill = (w: World, clubId: string) => w.clubs[clubId].squad.reduce((s, id) => s + w.players[id].wage, 0);
 /** 주급 예산에서 남은 여유 (음수면 이미 초과) */
-export const wageRoom = (w: World, clubId: string) => w.clubs[clubId].finance.wageBudget - wageBill(w, clubId);
+/** 주급 여유 (주): 주급 예산과 재정 규정(샐러리 캡) 중 더 좁은 쪽 */
+export const wageRoom = (w: World, clubId: string) => Math.min(w.clubs[clubId].finance.wageBudget - wageBill(w, clubId), ruleWageRoom(w, clubId));
+/** 영입 가능한지: 이적료는 이적 예산 안, 주급은 주급 여유 안, 주급 + 이적료 상각은 재정 규정 안 — AI · 사용자 같은 규칙 */
+export const canAfford = (w: World, clubId: string, fee: number, wage: number, years = 3) =>
+  fee <= w.clubs[clubId].finance.transferBudget && wage <= wageRoom(w, clubId) && withinRules(w, clubId, wage, fee, years).ok;
 
 /** 구단 안에서 능력 순위 (1부터) */
 function rankInClub(w: World, p: PlayerState): number {
@@ -168,6 +177,7 @@ export function completeTransfer(w: World, p: PlayerState, to: string, fee: numb
     const s = w.clubs[from];
     s.squad = s.squad.filter((id) => id !== p.id);
     book(w, from, 'sales', fee);
+    s.sales = (s.sales ?? 0) + fee;               // 재정 규정 한도에 더해지는 판매 수입
     s.finance.transferBudget += Math.round(fee * 0.5);
     if (s.lineup) s.lineup = { starters: s.lineup.starters.map((x) => (x === p.id ? null : x)), bench: s.lineup.bench.filter((x) => x !== p.id) };
   }
@@ -179,6 +189,9 @@ export function completeTransfer(w: World, p: PlayerState, to: string, fee: numb
   p.wage = wage;
   p.lastFee = fee;
   p.contract = `${+w.date.slice(0, 4) + years + (w.date.slice(5) >= '07-01' ? 1 : 0)}-06-30`;
+  // 이적료 상각: 계약 기간 동안 해마다 이적료 ÷ 연수 (재정 규정의 선수단 비용)
+  p.amort = fee > 0 ? Math.round(fee / Math.max(1, years)) : undefined;
+  p.amortEnd = fee > 0 ? p.contract : undefined;
   p.loyalty = 50 + p.hidden.loyalty;          // 새 구단에서 다시 시작
   p.benchStreak = 0;
   p.unhappy = false;
@@ -196,6 +209,8 @@ export function releasePlayer(w: World, p: PlayerState): void {
   c.squad = c.squad.filter((id) => id !== p.id);
   p.clubId = null;
   p.contract = null;
+  p.amort = undefined;   // 방출하면 남은 상각은 없어진 것으로 (단순화)
+  p.amortEnd = undefined;
   w.transferList = (w.transferList ?? []).filter((id) => id !== p.id);
 }
 
@@ -237,7 +252,7 @@ function userOffers(w: World, rng: Rng, active: World['clubs'][string][]) {
       if (offers.some((o) => o.player === id && o.from === c.id) || talkBanned(w, `${id}:${c.id}`)) return false;
       const lv = clubLevel(w, c.id);
       return ovr >= lv - 7 && ovr <= lv + 4 && c.finance.transferBudget >= value * (onList ? 0.6 : 1)
-        && wageBill(w, c.id) + wage <= c.finance.wageBudget * 1.1 && playerWillJoin(w, p, c.id, wage).ok;
+        && wage <= wageRoom(w, c.id) && withinRules(w, c.id, wage, value, 3).ok && playerWillJoin(w, p, c.id, wage).ok;
     });
     if (!cands.length) continue;
     const club = rng.pick(cands);
@@ -283,47 +298,111 @@ export function cleanOffers(w: World) {
   if (w.offers?.length) w.offers = w.offers.filter((o) => offerValid(w, o));
 }
 
-export function aiTransferDay(w: World, rng: Rng): GameEvent[] {
+/**
+ * 선수단 긴급 보강 (매일, 이적시장과 관계없이 · 자유계약 선수만): 인원(25명)이 모자라거나 포지션 최소 인원이 안 되는 AI 구단.
+ * 구단마다 하루 1명. 자유계약 선수 중 그 포지션에서 능력이 가장 높은 선수 (구단 수준보다 너무 높지 않게), 35세 이하.
+ * 이적료가 없는 자유계약 선수만, 주급은 주급 예산의 남은 여유 안에서 (AI · 사용자 같은 규칙).
+ * 일자리가 없는 선수라 요구 주급의 60%까지는 받아들인다. 여유 안에서 데려올 수 있는 선수가 없으면 보강하지 않는다
+ */
+export const MIN_SQUAD = 25;
+export function aiFillSquads(w: World, rng: Rng): GameEvent[] {
   const events: GameEvent[] = [];
-  if (!windowOpen(w.season, w.date)) { cleanOffers(w); return events; }
-  const active = Object.values(w.clubs).filter((c) => c.id !== w.userClubId && w.competitions[c.league]);
-  const players = Object.values(w.players).filter((p) => !p.retired);
-  const tries = 6;
-  for (let t = 0; t < tries; t++) {
-    const club = active[rng.int(0, active.length - 1)];
+  const fa = Object.values(w.players).filter((p) => !p.clubId && !p.retired && ageOn(p.birth, w.date) <= 35);
+  if (!fa.length) return events;
+  const taken = new Set<string>();
+  for (const club of Object.values(w.clubs)) {
+    if (club.id === w.userClubId || !w.competitions[club.league]) continue;
     const need = needs(w, club.id);
-    if (!need.length && club.squad.length >= 24 && !rng.chance(0.15)) continue;   // 필요할 때 위주로
-    const group = need.length ? rng.pick(need) : rng.pick(['DF', 'MF', 'FW']);
-    const mine = club.squad.map((id) => overall(w.players[id])).sort((a, b) => b - a);
-    const level = mine.slice(0, 11).reduce((a, b) => a + b, 0) / Math.max(1, Math.min(11, mine.length));
-    const listed = new Set(w.transferList ?? []);
-    const pool = players.filter((p) => posGroup(p.pos) === group && p.clubId !== club.id
-      && (p.clubId !== w.userClubId || listed.has(p.id))
-      && overall(p) >= level - 4 && overall(p) <= level + 5 && ageOn(p.birth, w.date) <= 32);
-    if (!pool.length) continue;
-    // 이적 명단에 오른 선수는 관심을 더 받는다 (실제 시장처럼)
-    const onList = pool.filter((p) => listed.has(p.id));
-    const target = onList.length && rng.chance(0.45) ? rng.pick(onList) : rng.pick(pool.slice(0, 400));
-    const fee = target.clubId ? askingPrice(w, target) : 0;
-    if (fee > club.finance.transferBudget) continue;
-    const wage = wageDemand(w, target);
-    if (wageBill(w, club.id) + wage > club.finance.wageBudget * 1.05) continue;
-
-    if (target.clubId === w.userClubId) {
-      // 사용자 선수: 제안만 넣는다 (선수가 그 구단으로 갈 마음이 있을 때만)
-      if (!playerWillJoin(w, target, club.id, wage).ok) continue;
-      const offers = (w.offers ??= []);
-      if (!offers.some((o) => o.player === target.id && o.from === club.id)) {
-        const f0 = Math.round((fee * (0.85 + rng.next() * 0.25)) / 50000) * 50000;
-        const offer: TransferOffer = { id: `${w.date}-${club.id}-${target.id}`, player: target.id, from: club.id, fee: f0, max: Math.max(f0, Math.round(Math.min(fee * 1.2, club.finance.transferBudget) / 50000) * 50000), tries: 0, date: w.date, expires: addDays(w.date, 7) };
-        offers.push(offer);
-        w.inbox.push({ type: 'offer', date: w.date, player: target.id, from: club.id, fee: offer.fee });
+    if (!need.length && club.squad.length >= MIN_SQUAD) continue;
+    // 골키퍼가 가장 급하다
+    const group = need.includes('GK') ? 'GK' : need.length ? rng.pick(need) : rng.pick(['DF', 'MF', 'FW']);
+    const level = clubLevel(w, club.id);
+    // 급할 때(20명 미만 · 골키퍼 없음)는 이사회 주급 예산 대신 재정 규정 한도(매출 기준 상한)까지 쓸 수 있다
+    const urgent = club.squad.length < 20 || need.includes('GK');
+    const room = urgent ? Math.max(wageRoom(w, club.id), ruleWageRoom(w, club.id)) : wageRoom(w, club.id);
+    // 한 명에게 쓸 수 있는 주급 = 남은 여유 ÷ 채울 자리 수 (한 명에게 여유를 다 쓰지 않게)
+    const perSlot = room / Math.max(1, MIN_SQUAD - club.squad.length);
+    const pool = fa.filter((p) => !taken.has(p.id) && posGroup(p.pos) === group && wageDemand(w, p) * 0.6 <= perSlot)
+      .sort((a, b) => overall(b) - overall(a));
+    const target = pool.find((p) => overall(p) <= level + 3) ?? pool.at(-1);
+    if (!target) {
+      // 데려올 수 있는 선수가 없는데 골키퍼가 없거나 16명이 안 되면: 아카데미 선수를 최저 주급으로 승격 (경기를 치를 수 있게)
+      if (need.includes('GK') || club.squad.length < 16) {
+        const made = youthIntake(w, [club], w.season, 40, { count: 1, academy: true });
+        for (const y of made) for (const id of y.players) events.push({ type: 'transfer', date: w.date, player: id, from: null, to: club.id, fee: 0, user: club.id === w.userClubId });
       }
       continue;
     }
-    if (target.clubId && evaluateBid(w, target, club.id, fee).decision !== 'accept') continue;
-    if (!playerWillJoin(w, target, club.id, wage).ok) continue;
-    events.push(completeTransfer(w, target, club.id, fee, wage, rng.int(2, 5)));
+    taken.add(target.id);
+    events.push(completeTransfer(w, target, club.id, 0, Math.max(500, Math.min(wageDemand(w, target), Math.floor(perSlot / 500) * 500)), rng.int(1, 3)));
+  }
+  return events;
+}
+
+export function aiTransferDay(w: World, rng: Rng): GameEvent[] {
+  const events: GameEvent[] = aiFillSquads(w, rng);
+  if (!windowOpen(w.season, w.date)) { cleanOffers(w); return events; }
+  const active = Object.values(w.clubs).filter((c) => c.id !== w.userClubId && w.competitions[c.league]);
+  const players = Object.values(w.players).filter((p) => !p.retired);
+  const listed = new Set(w.transferList ?? []);
+  // 이적시장 동안 구단마다 하루 8% 확률로 영입 시도 (시즌 약 7번). 목적:
+  //  - 포지션 최소 인원 · 25명이 안 되면 보강 (구단 수준 −5 ~ +4)
+  //  - 인원이 충분하고 이적 예산이 있으면 전력 보강 (주전 평균보다 나은 선수, +1 ~ +7)
+  //  - 30명이 넘으면 가장 약한 선수를 내보냄
+  // 후보 몇 명을 보고 예산 · 재정 규정 · 상대 구단 · 선수 마음이 맞는 첫 선수와 계약 (AI · 사용자 같은 규칙)
+  for (const club of active) {
+    if (!rng.chance(0.08)) continue;
+    if (club.squad.length > 30) {
+      const weakest = club.squad.map((id) => w.players[id]).sort((a, b) => overall(a) - overall(b))[0];
+      releasePlayer(w, weakest);
+      continue;
+    }
+    const need = needs(w, club.id);
+    const upgrade = !need.length && club.squad.length >= 25;
+    if (upgrade && club.finance.transferBudget < 1e6) continue;
+    const group = need.length ? rng.pick(need) : rng.pick(['DF', 'MF', 'MF', 'FW', 'FW']);
+    const level = clubLevel(w, club.id);
+    const [lo, hi] = upgrade ? [level + 1, level + 7] : [level - 8, level + 4];
+    // 인원을 채울 때는 남은 주급 여유를 채울 자리 수로 나눈 만큼 (×1.5) 안의 선수만 — 비싼 선수 한 명에 여유를 다 쓰지 않게
+    const perSlot = upgrade ? Infinity : (wageRoom(w, club.id) / Math.max(1, 25 - club.squad.length)) * 1.5;
+    const pool = players.filter((p) => posGroup(p.pos) === group && p.clubId !== club.id
+      && (p.clubId !== w.userClubId || listed.has(p.id))
+      && overall(p) >= lo && overall(p) <= hi && ageOn(p.birth, w.date) <= 32 && wageDemand(w, p) <= perSlot);
+    if (!pool.length) continue;
+    // 이적 명단에 오른 선수는 관심을 더 받는다 (실제 시장처럼)
+    const onList = pool.filter((p) => listed.has(p.id));
+    const cands = [...(onList.length && rng.chance(0.45) ? [rng.pick(onList)] : []), ...Array.from({ length: 6 }, () => rng.pick(pool))]
+      .sort((a, b) => overall(b) - overall(a));
+    for (const target of cands) {
+      const fee = target.clubId ? askingPrice(w, target) : 0;
+      const wage = wageDemand(w, target);
+      const years = rng.int(2, 5);
+      if (!canAfford(w, club.id, fee, wage, years)) continue;
+      // 전력 보강은 25명까지 채울 주급 여유를 남겨 둘 때만 (값싼 선수 기준)
+      if (upgrade && wageRoom(w, club.id) - wage < Math.max(0, 25 - club.squad.length - 1) * wageForAbility(w, level - 8) * 0.6) continue;
+
+      if (target.clubId === w.userClubId) {
+        // 사용자 선수: 제안만 넣는다 (선수가 그 구단으로 갈 마음이 있을 때만)
+        if (!playerWillJoin(w, target, club.id, wage).ok) continue;
+        const offers = (w.offers ??= []);
+        if (!offers.some((o) => o.player === target.id && o.from === club.id)) {
+          const f0 = Math.round((fee * (0.85 + rng.next() * 0.25)) / 50000) * 50000;
+          const offer: TransferOffer = { id: `${w.date}-${club.id}-${target.id}`, player: target.id, from: club.id, fee: f0, max: Math.max(f0, Math.round(Math.min(fee * 1.2, club.finance.transferBudget) / 50000) * 50000), tries: 0, date: w.date, expires: addDays(w.date, 7) };
+          offers.push(offer);
+          w.inbox.push({ type: 'offer', date: w.date, player: target.id, from: club.id, fee: offer.fee });
+        }
+        break;
+      }
+      if (target.clubId && evaluateBid(w, target, club.id, fee).decision !== 'accept') continue;
+      if (!playerWillJoin(w, target, club.id, wage).ok) continue;
+      events.push(completeTransfer(w, target, club.id, fee, wage, years));
+      // 선수단 정리: 26명이 넘으면 같은 포지션 묶음에서 가장 약한 선수를 내보낸다 (주급 부담 줄이기)
+      if (club.squad.length > 26) {
+        const out = club.squad.map((id) => w.players[id]).filter((p) => p.id !== target.id && posGroup(p.pos) === posGroup(target.pos)).sort((a, b) => overall(a) - overall(b))[0];
+        if (out && overall(out) < overall(target)) releasePlayer(w, out);
+      }
+      break;
+    }
   }
   userOffers(w, rng, active);
   // 기한 지난 제안 정리

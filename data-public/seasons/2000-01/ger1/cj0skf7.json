@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 2790000,
-    "transferBudget": 1860000,
-    "wageBudget": 102300
+    "balance": 10900000,
+    "revenue": 39600000,
+    "revenueSource": "model",
+    "transferBudget": 5600000,
+    "wageBudget": 472000
   },
   "league": "ger1",
-  "reputation": 69,
+  "reputation": 77,
   "season": "2000-01",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 7500
+      "wage": 22000
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CM",
-      "wage": 7500
+      "wage": 29500
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "ROU",
       "number": null,
       "pos": "ST",
-      "wage": 6500
+      "wage": 23000
     },
     {
       "attrs": {
@@ -124,7 +126,7 @@
       "nation": "BUL",
       "number": null,
       "pos": "CM",
-      "wage": 6500
+      "wage": 29500
     },
     {
       "attrs": {
@@ -151,7 +153,7 @@
       "nation2": "GUI",
       "number": null,
       "pos": "CM",
-      "wage": 5500
+      "wage": 29500
     },
     {
       "attrs": {
@@ -178,7 +180,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 4500
+      "wage": 15500
     },
     {
       "attrs": {
@@ -204,7 +206,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 4000
+      "wage": 20000
     },
     {
       "attrs": {
@@ -230,7 +232,7 @@
       "nation": "RSA",
       "number": null,
       "pos": "CM",
-      "wage": 3500
+      "wage": 20500
     },
     {
       "attrs": {
@@ -256,7 +258,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 3500
+      "wage": 20000
     },
     {
       "attrs": {
@@ -282,7 +284,7 @@
       "nation": "HUN",
       "number": null,
       "pos": "CM",
-      "wage": 3500
+      "wage": 18500
     },
     {
       "attrs": {
@@ -309,7 +311,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3000
+      "wage": 19000
     },
     {
       "attrs": {
@@ -335,7 +337,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 3000
+      "wage": 14000
     },
     {
       "attrs": {
@@ -362,7 +364,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 2500
+      "wage": 13500
     },
     {
       "attrs": {
@@ -389,7 +391,7 @@
       "nation2": "RSA",
       "number": null,
       "pos": "ST",
-      "wage": 2000
+      "wage": 9500
     },
     {
       "attrs": {
@@ -415,7 +417,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CB",
-      "wage": 2000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -441,7 +443,7 @@
       "nation": "EGY",
       "number": null,
       "pos": "ST",
-      "wage": 1500
+      "wage": 8000
     },
     {
       "attrs": {
@@ -468,7 +470,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1500
+      "wage": 11500
     },
     {
       "attrs": {
@@ -494,34 +496,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 63,
-        "com": 66,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 65,
-        "pas": 57,
-        "pos": 43,
-        "sho": 65,
-        "sta": 59,
-        "str": 59,
-        "tac": 32,
-        "vis": 52
-      },
-      "birth": "1978-04-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p0jnjgyr",
-      "name": "Nico Frommar",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -547,7 +522,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -574,7 +549,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -601,7 +576,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -628,7 +603,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -654,7 +629,7 @@
       "nation": "SRB",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -681,7 +656,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -707,7 +682,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "alt": [
@@ -737,7 +712,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -763,7 +738,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -791,7 +766,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -818,60 +793,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 57,
-        "com": 59,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 55,
-        "pas": 50,
-        "pos": 39,
-        "sho": 60,
-        "sta": 57,
-        "str": 56,
-        "tac": 29,
-        "vis": 47
-      },
-      "birth": "1981-12-01",
-      "contract": null,
-      "foot": null,
-      "height": 181,
-      "id": "p157zv68",
-      "name": "Ioannis Amanetidis",
-      "nation": "GRE",
-      "number": null,
-      "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 54,
-        "com": 56,
-        "han": 61,
-        "ldr": 55,
-        "one": 58,
-        "pac": 37,
-        "pas": 50,
-        "pos": 60,
-        "ref": 56,
-        "sta": 46,
-        "str": 53,
-        "vis": 47
-      },
-      "birth": "1973-09-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p1yr86yn",
-      "name": "Achim Holleriath",
-      "nation": "GER",
-      "number": null,
-      "pos": "GK",
-      "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -897,7 +819,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -924,7 +846,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -951,7 +873,7 @@
       "nation2": "POR",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "alt": [
@@ -981,7 +903,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -1007,7 +929,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -1034,7 +956,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -1062,7 +984,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {

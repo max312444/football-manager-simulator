@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 6315000,
-    "transferBudget": 4210000,
-    "wageBudget": 231550
+    "balance": 25200000,
+    "revenue": 98800000,
+    "revenueSource": "model",
+    "transferBudget": 13100000,
+    "wageBudget": 1178000
   },
   "league": "ger1",
-  "reputation": 71,
+  "reputation": 75,
   "season": "2017-18",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "GER",
       "number": 1,
       "pos": "GK",
-      "wage": 16500
+      "wage": 65500
     },
     {
       "attrs": {
@@ -73,7 +75,7 @@
       "nation2": "GER",
       "number": 2,
       "pos": "RB",
-      "wage": 10000
+      "wage": 49000
     },
     {
       "attrs": {
@@ -100,7 +102,7 @@
       "nation2": "GER",
       "number": 3,
       "pos": "CB",
-      "wage": 5500
+      "wage": 31000
     },
     {
       "attrs": {
@@ -127,7 +129,7 @@
       "nation2": "SEN",
       "number": 4,
       "pos": "CB",
-      "wage": 6500
+      "wage": 35000
     },
     {
       "attrs": {
@@ -153,7 +155,7 @@
       "nation": "ESP",
       "number": 5,
       "pos": "CM",
-      "wage": 4500
+      "wage": 32000
     },
     {
       "attrs": {
@@ -179,7 +181,7 @@
       "nation": "GER",
       "number": 6,
       "pos": "CM",
-      "wage": 14000
+      "wage": 70500
     },
     {
       "attrs": {
@@ -206,7 +208,7 @@
       "nation2": "GHA",
       "number": 7,
       "pos": "CM",
-      "wage": 10000
+      "wage": 55500
     },
     {
       "attrs": {
@@ -233,7 +235,7 @@
       "nation2": "TUR",
       "number": 8,
       "pos": "CM",
-      "wage": 6500
+      "wage": 40500
     },
     {
       "attrs": {
@@ -259,7 +261,7 @@
       "nation": "JPN",
       "number": 9,
       "pos": "ST",
-      "wage": 22500
+      "wage": 68000
     },
     {
       "attrs": {
@@ -285,7 +287,7 @@
       "nation": "ROU",
       "number": 10,
       "pos": "CM",
-      "wage": 14000
+      "wage": 70500
     },
     {
       "attrs": {
@@ -311,7 +313,7 @@
       "nation": "DEN",
       "number": 11,
       "pos": "ST",
-      "wage": 3000
+      "wage": 15500
     },
     {
       "attrs": {
@@ -338,7 +340,7 @@
       "nation2": "GER",
       "number": 13,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -364,7 +366,7 @@
       "nation": "DEN",
       "number": 14,
       "pos": "ST",
-      "wage": 12000
+      "wage": 43500
     },
     {
       "attrs": {
@@ -390,7 +392,7 @@
       "nation": "GER",
       "number": 16,
       "pos": "CB",
-      "wage": 10000
+      "wage": 43500
     },
     {
       "attrs": {
@@ -416,7 +418,7 @@
       "nation": "ESP",
       "number": 17,
       "pos": "CM",
-      "wage": 4500
+      "wage": 35000
     },
     {
       "attrs": {
@@ -442,7 +444,7 @@
       "nation": "GER",
       "number": 18,
       "pos": "CB",
-      "wage": 7500
+      "wage": 30500
     },
     {
       "attrs": {
@@ -469,7 +471,7 @@
       "nation2": "ESP",
       "number": 19,
       "pos": "ST",
-      "wage": 6500
+      "wage": 30500
     },
     {
       "attrs": {
@@ -495,7 +497,7 @@
       "nation": "SUI",
       "number": 20,
       "pos": "CM",
-      "wage": 16500
+      "wage": 73000
     },
     {
       "attrs": {
@@ -521,7 +523,7 @@
       "nation": "AUT",
       "number": 21,
       "pos": "ST",
-      "wage": 4500
+      "wage": 24500
     },
     {
       "attrs": {
@@ -547,7 +549,7 @@
       "nation": "GER",
       "number": 22,
       "pos": "GK",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -573,7 +575,7 @@
       "nation": "GER",
       "number": 23,
       "pos": "CM",
-      "wage": 3000
+      "wage": 24000
     },
     {
       "attrs": {
@@ -599,7 +601,7 @@
       "nation": "FRA",
       "number": 24,
       "pos": "RB",
-      "wage": 6500
+      "wage": 35500
     },
     {
       "attrs": {
@@ -626,7 +628,7 @@
       "nation2": "FRA",
       "number": 25,
       "pos": "CM",
-      "wage": 4000
+      "wage": 33000
     },
     {
       "attrs": {
@@ -652,7 +654,7 @@
       "nation": "GER",
       "number": 26,
       "pos": "CB",
-      "wage": 6500
+      "wage": 32000
     },
     {
       "attrs": {
@@ -678,7 +680,7 @@
       "nation": "GER",
       "number": 28,
       "pos": "CM",
-      "wage": 3000
+      "wage": 22000
     },
     {
       "attrs": {
@@ -704,7 +706,7 @@
       "nation": "ARG",
       "number": 32,
       "pos": "ST",
-      "wage": 3500
+      "wage": 19000
     },
     {
       "attrs": {
@@ -730,33 +732,7 @@
       "nation": "GER",
       "number": 33,
       "pos": "GK",
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 58,
-        "com": 60,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 60,
-        "pas": 52,
-        "pos": 42,
-        "sho": 64,
-        "sta": 55,
-        "str": 60,
-        "tac": 34,
-        "vis": 56
-      },
-      "birth": "1996-02-01",
-      "contract": null,
-      "foot": null,
-      "height": 199,
-      "id": "p0t9iov1",
-      "name": "Aaron Saydel",
-      "nation": "GER",
-      "number": 36,
-      "pos": "ST",
-      "wage": 2000
+      "wage": 12500
     },
     {
       "attrs": {
@@ -783,7 +759,7 @@
       "nation2": "PHI",
       "number": 38,
       "pos": "CM",
-      "wage": 1500
+      "wage": 13000
     },
     {
       "attrs": {
@@ -809,7 +785,7 @@
       "nation": "GER",
       "number": 42,
       "pos": "CB",
-      "wage": 2000
+      "wage": 13500
     }
   ],
   "stadiumCapacity": 34034

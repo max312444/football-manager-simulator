@@ -153,10 +153,26 @@ async function leagueSeasons(leagueQid, opts) {
 }
 
 // 선수 신상 + 모든 구단·대표팀 소속 기록 (최대 80명씩)
+// 응답이 잘리면 (Wikidata 쪽 오류) 묶음을 반으로 나눠 다시, 1명까지 나눠도 안 되면 그 선수만 건너뛴다
 async function playerProfiles(qids, opts) {
   const out = {};
-  for (let i = 0; i < qids.length; i += 80) {
-    const chunk = qids.slice(i, i + 80);
+  const skipped = [];
+  const run = async (chunk) => {
+    try { await profileChunk(chunk, out, opts); } catch (e) {
+      if (!/잘린 응답/.test(e.message)) throw e;
+      if (chunk.length === 1) { skipped.push(chunk[0]); return; }
+      const half = Math.ceil(chunk.length / 2);
+      await run(chunk.slice(0, half));
+      await run(chunk.slice(half));
+    }
+  };
+  for (let i = 0; i < qids.length; i += 80) await run(qids.slice(i, i + 80));
+  if (skipped.length) console.log(`  응답이 계속 잘려 건너뛴 선수 ${skipped.length}명: ${skipped.join(', ')}`);
+  return out;
+}
+
+async function profileChunk(chunk, out, opts) {
+  {
     const values = chunk.map(q => `wd:${q}`).join(' ');
     const facts = await sparql(`
       SELECT ?p ?label ?title ?dob ?dobPrec ?height ?posLabel ?sportCountry ?citizen ?sl ?footballer WHERE {
@@ -204,6 +220,21 @@ async function playerProfiles(qids, opts) {
       });
     }
   }
+  return out;
+}
+
+// 팀 항목(1군 팀 등)이 속한 상위 구단: 일부(P361) · 소유(P127) · 모기업(P749). 상위 구단의 영어 위키백과 문서와 함께
+async function parentClubs(qids, opts) {
+  if (!qids.length) return {};
+  const rows = await sparql(`
+    SELECT ?t ?parent ?title WHERE {
+      VALUES ?t { ${qids.map(q => `wd:${q}`).join(' ')} }
+      ?t wdt:P361|wdt:P127|wdt:P749 ?parent .
+      ?parent wdt:P31/wdt:P279* wd:Q476028 .
+      OPTIONAL { ?art schema:about ?parent ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?title . }
+    }`, opts);
+  const out = {};
+  for (const r of rows) out[qid(r.t.value)] ??= { qid: qid(r.parent.value), enwiki: r.title?.value ?? null };
   return out;
 }
 
@@ -259,4 +290,4 @@ async function clubCities(qids, opts) {
   return out;
 }
 
-module.exports = { clubCities, searchClub, clubMemberships, byEnwikiTitles, playerFacts, labels, leagueSeasons, playerProfiles, clubProfiles };
+module.exports = { clubCities, searchClub, clubMemberships, byEnwikiTitles, playerFacts, labels, leagueSeasons, playerProfiles, clubProfiles, parentClubs };

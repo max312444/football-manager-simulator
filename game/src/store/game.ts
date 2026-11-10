@@ -6,10 +6,12 @@ import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, 
 import { playToEnd, setTactics, step, substitute, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
 import { seedTraits } from '../engine/traits';
-import { availableSeasons, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, realAvailable, setDataset } from '../data/db';
+import { availableSeasons, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, realAvailable, registerGeneratedNames, setDataset } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { fillContracts, seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
+import { withinRules } from '../engine/rules';
+import { trainingOf, type Training } from '../engine/training';
 import { breakTalks, cleanOffers, completeTransfer, counterOffer, offerValid, evaluateBid, MAX_TRIES, playerWillJoin, releasePlayer, talkBanned, talkOf, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
 import type { RetireNews, TransferOffer } from '../engine/types';
 import { applyRenewal, evaluateRenewal } from '../engine/contract';
@@ -25,7 +27,12 @@ async function loadSeasonInput(season: string, mustInclude?: string): Promise<Se
   const ids = leagues.filter((l) => l.level <= 2 && availableSeasons(l.id).includes(season)).map((l) => l.id);
   if (mustInclude && !ids.includes(mustInclude) && availableSeasons(mustInclude).includes(season)) ids.unshift(mustInclude);
   const loaded = await Promise.all(ids.map(async (id) => ({ id, clubs: (await loadLeagueSeason(season, id)).clubs })));
-  return { season, leagues: loaded };
+  // 첫 시즌 유럽 대회 출전권: 실제 지난 시즌 순위 (있는 리그만)
+  const y = +season.slice(0, 4) - 1;
+  const prev = `${y}-${String((y + 1) % 100).padStart(2, '0')}`;
+  const prevStandings: Record<string, string[]> = {};
+  for (const id of ids) { const st = await loadStandings(prev, id); if (st) prevStandings[id] = st; }
+  return { season, leagues: loaded, prevStandings };
 }
 
 // 자동 저장: 진행 중 연속 호출을 묶어서 한 번만
@@ -105,6 +112,8 @@ interface GameStore {
   changeTactics(t: Partial<Tactics>): void;
   sub(outId: string, inId: string): boolean;
   setClubTactics(t: Partial<Tactics>): void;
+  /** 훈련 초점 · 강도 */
+  setTraining(t: Partial<Training>): void;
   closeMatch(): void;
   /** 시즌 말 내 구단 수상 연출 */
   awards: Award[] | null;
@@ -240,6 +249,15 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
     },
 
+    setTraining(t) {
+      const w = get().world;
+      if (!w) return;
+      const c = w.clubs[w.userClubId];
+      c.training = { ...trainingOf(c), ...t };
+      autosave(w);
+      bump();
+    },
+
     closeMatch() {
       const { match: m, world: w } = get();
       if (!m || !w) return;
@@ -288,6 +306,9 @@ export const useGame = create<GameStore>((set, get) => {
       // 주급 한도: 계약 후 주급 합계가 주급 예산을 넘으면 안 됨 (기회는 줄지 않음)
       const room = wageRoom(w, w.userClubId);
       if (wage > room) return { ok: false, reason: `주급 예산 초과 — 남은 주급 여유 ${Math.max(0, Math.round(room / 1000))}K 유로. 선수를 팔거나 방출해 주급을 줄여야 합니다` };
+      // 재정 규정 (샐러리 캡): 주급 + 이적료 상각 (이적료 ÷ 계약 연수) — AI와 같은 규칙
+      const rule = withinRules(w, w.userClubId, wage, fee, years);
+      if (!rule.ok) return { ok: false, reason: rule.reason! };
       const r = playerWillJoin(w, p, w.userClubId, wage);
       if (!r.ok) {
         // 주급이 낮으면 기회 1번 소모, 구단 자체가 싫다면 바로 결렬
@@ -396,6 +417,7 @@ export const useGame = create<GameStore>((set, get) => {
       closeSeason(w);
       const input = await loadSeasonInput(nextSeasonOf(w.season));
       const report = startNextSeason(w, input);
+      registerGeneratedNames(w.players);   // 유스 선수 한국어 이름
       const awards = w.pendingAwards?.length ? w.pendingAwards : null;
       const news = w.pendingNews?.length ? w.pendingNews : null;
       w.pendingAwards = undefined;
@@ -432,6 +454,7 @@ export const useGame = create<GameStore>((set, get) => {
       }
       set({ loadError: null });
       fillContracts(world);
+      registerGeneratedNames(world.players);   // 유스 선수 한국어 이름
       set({ world, match: null, lastEvents: [], seasonReport: null });
       bump();
       return true;

@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 3660000,
-    "transferBudget": 2440000,
-    "wageBudget": 134200
+    "balance": 13700000,
+    "revenue": 46800000,
+    "revenueSource": "model",
+    "transferBudget": 7000000,
+    "wageBudget": 558000
   },
   "league": "ger1",
-  "reputation": 70,
+  "reputation": 78,
   "season": "2001-02",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 13000
+      "wage": 33000
     },
     {
       "attrs": {
@@ -73,7 +75,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 13000
+      "wage": 34500
     },
     {
       "attrs": {
@@ -100,7 +102,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 8000
+      "wage": 34500
     },
     {
       "attrs": {
@@ -126,7 +128,7 @@
       "nation": "NOR",
       "number": null,
       "pos": "CB",
-      "wage": 8000
+      "wage": 29000
     },
     {
       "attrs": {
@@ -152,7 +154,7 @@
       "nation": "BUL",
       "number": null,
       "pos": "CM",
-      "wage": 7000
+      "wage": 33500
     },
     {
       "attrs": {
@@ -178,7 +180,7 @@
       "nation": "AUT",
       "number": null,
       "pos": "CM",
-      "wage": 7000
+      "wage": 34500
     },
     {
       "alt": [
@@ -207,7 +209,7 @@
       "nation": "GER",
       "number": null,
       "pos": "AM",
-      "wage": 7000
+      "wage": 25000
     },
     {
       "attrs": {
@@ -233,7 +235,7 @@
       "nation": "AUS",
       "number": null,
       "pos": "ST",
-      "wage": 6000
+      "wage": 21000
     },
     {
       "attrs": {
@@ -259,7 +261,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "CM",
-      "wage": 5000
+      "wage": 26000
     },
     {
       "attrs": {
@@ -286,7 +288,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 4500
+      "wage": 26500
     },
     {
       "attrs": {
@@ -312,7 +314,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 3500
+      "wage": 18500
     },
     {
       "attrs": {
@@ -338,7 +340,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 3000
+      "wage": 13000
     },
     {
       "attrs": {
@@ -364,7 +366,7 @@
       "nation": "AUT",
       "number": null,
       "pos": "CB",
-      "wage": 3000
+      "wage": 15000
     },
     {
       "attrs": {
@@ -390,7 +392,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 2500
+      "wage": 14500
     },
     {
       "attrs": {
@@ -417,7 +419,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2500
+      "wage": 10500
     },
     {
       "attrs": {
@@ -445,7 +447,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 2500
+      "wage": 10000
     },
     {
       "attrs": {
@@ -471,7 +473,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "CB",
-      "wage": 2500
+      "wage": 10500
     },
     {
       "attrs": {
@@ -497,7 +499,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 2500
+      "wage": 11000
     },
     {
       "attrs": {
@@ -524,7 +526,7 @@
       "nation2": "POL",
       "number": null,
       "pos": "ST",
-      "wage": 1500
+      "wage": 8000
     },
     {
       "attrs": {
@@ -551,7 +553,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1500
+      "wage": 9500
     },
     {
       "attrs": {
@@ -578,7 +580,7 @@
       "nation2": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -604,7 +606,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -630,7 +632,7 @@
       "nation": "AUT",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -657,7 +659,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -683,34 +685,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 51,
-        "com": 62,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 58,
-        "pas": 66,
-        "pos": 61,
-        "sho": 58,
-        "sta": 63,
-        "str": 58,
-        "tac": 54,
-        "vis": 59
-      },
-      "birth": "1976-02-01",
-      "contract": null,
-      "foot": null,
-      "height": 178,
-      "id": "p03n5kmp",
-      "name": "Danny Fochs",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -737,7 +712,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -763,7 +738,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -789,7 +764,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -815,7 +790,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -841,7 +816,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -869,34 +844,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 53,
-        "com": 48,
-        "dri": 36,
-        "ldr": 50,
-        "pac": 47,
-        "pas": 46,
-        "pos": 53,
-        "sho": 24,
-        "sta": 51,
-        "str": 54,
-        "tac": 54,
-        "vis": 39
-      },
-      "birth": "1976-07-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p1p2j62w",
-      "name": "Sven Krasin",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -923,7 +871,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -949,7 +897,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 15000

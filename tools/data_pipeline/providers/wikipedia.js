@@ -40,15 +40,22 @@ const plain = (s) => s?.replace(/\[\[(?:[^|\]]*\|)?([^\]]*)\]\]/g, '$1').replace
 
 const EXCLUDE_SECTION = /loan|reserve|youth|academy|primavera|giovanili|juniors?|amateur|next gen|under[- ]?\d|u-?\d{2}|\bb team|\bii\b|\bb squad|retired|former|notable|staff|women|futsal|record|captain|history|kit|sponsor|transfer/i;
 
+const OTHER_TEAM_SECTION = /women|ladies|frauen|femenin|féminin|femminile|youth|academy|reserve|\bb team|\bii\b|futsal|under[- ]?\d|u-?\d{2}\b|primavera|giovanili/i;
+
 // 1군 선수단 섹션(제목에 squad/players)의 Fs player만 모은다. 임대 나감·유스·B팀 섹션은 제외
 function firstTeamPlayers(wikitext) {
   const parts = wikitext.split(/^(=+)\s*(.*?)\s*\1\s*$/m);
   // parts: [앞부분, 등호, 제목, 본문, 등호, 제목, 본문, ...]
   const rows = [];
-  let inSquad = false, squadLevel = 0;
+  let inSquad = false, squadLevel = 0, skipBelow = Infinity;
   for (let i = 1; i < parts.length; i += 3) {
     const level = parts[i].length, heading = parts[i + 1], body = parts[i + 2] || '';
-    if (/squad|players/i.test(heading) && !EXCLUDE_SECTION.test(heading)) { inSquad = true; squadLevel = level; }
+    // 여자팀 · 유스 · B팀 같은 상위 제목 아래의 하위 제목("Current squad" 등)은 모두 제외
+    if (level <= skipBelow) skipBelow = Infinity;
+    if (OTHER_TEAM_SECTION.test(heading)) { skipBelow = Math.min(skipBelow, level); inSquad = false; continue; }
+    if (skipBelow < Infinity) continue;
+    // "Players and staff" 같은 상위 제목도 선수단 섹션으로 본다 (하위 제목 "Men's team" 아래에 표가 있음)
+    if (/squad|players/i.test(heading) && !EXCLUDE_SECTION.test(heading.replace(/\s*(and|&)\s*staff\b/i, ''))) { inSquad = true; squadLevel = level; }
     else if (inSquad && level <= squadLevel) inSquad = false;
     if (!inSquad || EXCLUDE_SECTION.test(heading)) continue;
     // 같은 섹션 안의 "out on loan" 표 이후는 제외

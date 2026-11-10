@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 3030000,
-    "transferBudget": 2020000,
-    "wageBudget": 111100
+    "balance": 9800000,
+    "revenue": 41900000,
+    "revenueSource": "model",
+    "transferBudget": 5100000,
+    "wageBudget": 499000
   },
   "league": "esp1",
-  "reputation": 68,
+  "reputation": 72,
   "season": "2007-08",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -47,7 +49,7 @@
       "nation2": "BEL",
       "number": 1,
       "pos": "GK",
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -73,7 +75,7 @@
       "nation": "ESP",
       "number": 2,
       "pos": "RB",
-      "wage": 2000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -99,7 +101,7 @@
       "nation": "ESP",
       "number": 3,
       "pos": "CB",
-      "wage": 1500
+      "wage": 8000
     },
     {
       "attrs": {
@@ -125,7 +127,7 @@
       "nation": "BRA",
       "number": 4,
       "pos": "CB",
-      "wage": 4500
+      "wage": 18500
     },
     {
       "attrs": {
@@ -151,7 +153,7 @@
       "nation": "ITA",
       "number": 5,
       "pos": "CB",
-      "wage": 7500
+      "wage": 24500
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "nation": "ESP",
       "number": 6,
       "pos": "CM",
-      "wage": 4500
+      "wage": 24500
     },
     {
       "attrs": {
@@ -203,7 +205,7 @@
       "nation": "CIV",
       "number": 7,
       "pos": "CM",
-      "wage": 4000
+      "wage": 21500
     },
     {
       "attrs": {
@@ -229,7 +231,7 @@
       "nation": "ESP",
       "number": 8,
       "pos": "CM",
-      "wage": 2000
+      "wage": 12500
     },
     {
       "attrs": {
@@ -256,7 +258,7 @@
       "nation2": "RUS",
       "number": 9,
       "pos": "ST",
-      "wage": 10000
+      "wage": 30000
     },
     {
       "alt": [],
@@ -274,7 +276,7 @@
         "tac": 45,
         "vis": 64
       },
-      "birth": "1978-09-01",
+      "birth": "1981-10-01",
       "contract": null,
       "foot": null,
       "height": 179,
@@ -283,7 +285,7 @@
       "nation": "NED",
       "number": 10,
       "pos": "ST",
-      "wage": 8500
+      "wage": 24500
     },
     {
       "attrs": {
@@ -309,7 +311,7 @@
       "nation": "FRA",
       "number": 12,
       "pos": "CM",
-      "wage": 2000
+      "wage": 13000
     },
     {
       "attrs": {
@@ -335,7 +337,7 @@
       "nation": "ITA",
       "number": 13,
       "pos": "GK",
-      "wage": 4500
+      "wage": 21500
     },
     {
       "attrs": {
@@ -361,7 +363,7 @@
       "nation": "ESP",
       "number": 14,
       "pos": "CM",
-      "wage": 2500
+      "wage": 18500
     },
     {
       "attrs": {
@@ -387,7 +389,7 @@
       "nation": "ITA",
       "number": 15,
       "pos": "CM",
-      "wage": 10000
+      "wage": 31000
     },
     {
       "attrs": {
@@ -413,7 +415,7 @@
       "nation": "ESP",
       "number": 16,
       "pos": "CM",
-      "wage": 2000
+      "wage": 13500
     },
     {
       "alt": [
@@ -442,7 +444,7 @@
       "nation": "ESP",
       "number": 17,
       "pos": "CB",
-      "wage": 3500
+      "wage": 15500
     },
     {
       "attrs": {
@@ -468,7 +470,7 @@
       "nation": "ESP",
       "number": 18,
       "pos": "CB",
-      "wage": 4000
+      "wage": 15000
     },
     {
       "attrs": {
@@ -495,7 +497,7 @@
       "nation2": "ESP",
       "number": 19,
       "pos": "ST",
-      "wage": 2000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -521,7 +523,7 @@
       "nation": "ITA",
       "number": 20,
       "pos": "ST",
-      "wage": 2000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -547,7 +549,7 @@
       "nation": "FRA",
       "number": 21,
       "pos": "CM",
-      "wage": 1500
+      "wage": 12000
     },
     {
       "attrs": {
@@ -573,7 +575,7 @@
       "nation": "ESP",
       "number": 22,
       "pos": "CM",
-      "wage": 2000
+      "wage": 11000
     },
     {
       "attrs": {
@@ -599,7 +601,7 @@
       "nation": "ESP",
       "number": 23,
       "pos": "CB",
-      "wage": 1500
+      "wage": 9000
     },
     {
       "attrs": {
@@ -625,7 +627,7 @@
       "nation": "ESP",
       "number": 24,
       "pos": "CB",
-      "wage": 2500
+      "wage": 12000
     },
     {
       "attrs": {
@@ -651,7 +653,7 @@
       "nation": "FRA",
       "number": 25,
       "pos": "CM",
-      "wage": 6500
+      "wage": 29000
     },
     {
       "attrs": {
@@ -677,7 +679,7 @@
       "nation": "ARG",
       "number": null,
       "pos": "GK",
-      "wage": 8500
+      "wage": 31000
     }
   ],
   "stadiumCapacity": 26354

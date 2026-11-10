@@ -29,7 +29,8 @@ export interface ClubSeasonFile {
   club: string;
   league: string;
   reputation: number;
-  finance: { balance: number; transferBudget: number; wageBudget: number };
+  /** 재정 (자체 추정 모델). revenue = 연 매출 추정 (유로, 실제 매출 공개 자료가 있으면 그 값 기준) */
+  finance: { balance: number; transferBudget: number; wageBudget: number; revenue?: number };
   facilities: { training: number; youth: number };
   stadiumCapacity: number | null;
   formation: string;
@@ -52,8 +53,9 @@ export interface ClubMaster {
   crest?: import('../ui/crests/types').CrestStyle;
 }
 
-export interface LeagueSeasonFile { season: string; league: string; clubs: string[] }
+export interface LeagueSeasonFile { season: string; league: string; clubs: string[]; /** 실제 최종 순위 (1위부터) */ standings?: string[] }
 
 export interface LeagueMeta { id: string; ko: string; en: string; nation: string; level: number; tier: 'A' | 'B' | 'C' }
+export interface CupMeta { id: string; nation: string; ko: string; en: string }
 export interface NationMeta { code: string; ko: string; en: string; region: string }
 export interface LocaleName { name: string; short?: string }

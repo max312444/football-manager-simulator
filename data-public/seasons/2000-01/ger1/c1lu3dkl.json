@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 1815000,
-    "transferBudget": 1210000,
-    "wageBudget": 66550
+    "balance": 5300000,
+    "revenue": 25600000,
+    "revenueSource": "model",
+    "transferBudget": 2800000,
+    "wageBudget": 305000
   },
   "league": "ger1",
-  "reputation": 65,
+  "reputation": 72,
   "season": "2000-01",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 7500
+      "wage": 19000
     },
     {
       "attrs": {
@@ -74,34 +76,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 5500
-    },
-    {
-      "attrs": {
-        "aer": 67,
-        "com": 70,
-        "dri": 71,
-        "ldr": 64,
-        "pac": 73,
-        "pas": 61,
-        "pos": 51,
-        "sho": 72,
-        "sta": 70,
-        "str": 69,
-        "tac": 43,
-        "vis": 67
-      },
-      "birth": "1967-08-01",
-      "contract": null,
-      "foot": null,
-      "height": 190,
-      "id": "p1cxqda3",
-      "name": "Ralph Hesenhuttl",
-      "nation": "AUT",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 4500
+      "wage": 19000
     },
     {
       "attrs": {
@@ -127,7 +102,7 @@
       "nation": "SVN",
       "number": null,
       "pos": "CB",
-      "wage": 4000
+      "wage": 19000
     },
     {
       "attrs": {
@@ -154,7 +129,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3000
+      "wage": 19000
     },
     {
       "attrs": {
@@ -180,7 +155,7 @@
       "nation": "BUL",
       "number": null,
       "pos": "ST",
-      "wage": 2500
+      "wage": 12000
     },
     {
       "attrs": {
@@ -207,7 +182,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2000
+      "wage": 11000
     },
     {
       "attrs": {
@@ -233,7 +208,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 2000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -260,7 +235,7 @@
       "nation2": "POL",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 9500
     },
     {
       "attrs": {
@@ -287,7 +262,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -313,7 +288,7 @@
       "nation": "ZAM",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -339,7 +314,7 @@
       "nation": "GER",
       "number": null,
       "pos": "RB",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -367,7 +342,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -394,7 +369,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -420,7 +395,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -446,7 +421,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -472,7 +447,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -498,7 +473,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -524,7 +499,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -551,7 +526,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -578,7 +553,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -605,7 +580,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -631,7 +606,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -657,7 +632,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -684,7 +659,7 @@
       "nation2": "POL",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -711,7 +686,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -738,7 +713,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -764,7 +739,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -791,7 +766,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -817,7 +792,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -843,7 +818,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -869,7 +844,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {
@@ -895,7 +870,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -921,7 +896,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {
@@ -948,7 +923,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     }
   ],
   "stadiumCapacity": 46195

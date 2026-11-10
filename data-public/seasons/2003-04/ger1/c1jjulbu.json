@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 3795000,
-    "transferBudget": 2530000,
-    "wageBudget": 139150
+    "balance": 14800000,
+    "revenue": 51700000,
+    "revenueSource": "model",
+    "transferBudget": 7600000,
+    "wageBudget": 617000
   },
   "league": "ger1",
-  "reputation": 71,
+  "reputation": 78,
   "season": "2003-04",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -48,7 +50,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 12000
+      "wage": 38500
     },
     {
       "attrs": {
@@ -74,7 +76,7 @@
       "nation": "SRB",
       "number": null,
       "pos": "CB",
-      "wage": 12000
+      "wage": 38500
     },
     {
       "attrs": {
@@ -100,7 +102,7 @@
       "nation": "GRE",
       "number": null,
       "pos": "ST",
-      "wage": 10000
+      "wage": 32500
     },
     {
       "attrs": {
@@ -126,7 +128,7 @@
       "nation": "CAN",
       "number": null,
       "pos": "CB",
-      "wage": 10000
+      "wage": 38000
     },
     {
       "attrs": {
@@ -154,7 +156,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 10000
+      "wage": 35000
     },
     {
       "attrs": {
@@ -180,7 +182,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "CM",
-      "wage": 8500
+      "wage": 38500
     },
     {
       "attrs": {
@@ -206,7 +208,7 @@
       "nation": "SUI",
       "number": null,
       "pos": "RB",
-      "wage": 8500
+      "wage": 34000
     },
     {
       "attrs": {
@@ -232,7 +234,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 7500
+      "wage": 38500
     },
     {
       "attrs": {
@@ -259,7 +261,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 7500
+      "wage": 38500
     },
     {
       "attrs": {
@@ -285,7 +287,7 @@
       "nation": "HUN",
       "number": null,
       "pos": "CM",
-      "wage": 5500
+      "wage": 31000
     },
     {
       "attrs": {
@@ -311,7 +313,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "ST",
-      "wage": 4000
+      "wage": 18500
     },
     {
       "attrs": {
@@ -338,7 +340,7 @@
       "nation2": "UKR",
       "number": null,
       "pos": "CB",
-      "wage": 4000
+      "wage": 16500
     },
     {
       "attrs": {
@@ -364,7 +366,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "ST",
-      "wage": 3500
+      "wage": 15000
     },
     {
       "alt": [
@@ -393,7 +395,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 3000
+      "wage": 20500
     },
     {
       "attrs": {
@@ -420,7 +422,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2500
+      "wage": 12500
     },
     {
       "attrs": {
@@ -447,34 +449,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 69,
-        "com": 66,
-        "dri": 51,
-        "ldr": 65,
-        "pac": 61,
-        "pas": 60,
-        "pos": 66,
-        "sho": 39,
-        "sta": 65,
-        "str": 67,
-        "tac": 72,
-        "vis": 50
-      },
-      "birth": "1977-03-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p0tuaxq8",
-      "name": "Stefan Blenk",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 2000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -500,7 +475,7 @@
       "nation": "PAR",
       "number": null,
       "pos": "ST",
-      "wage": 2000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -526,7 +501,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1500
+      "wage": 9500
     },
     {
       "attrs": {
@@ -553,7 +528,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1500
+      "wage": 9500
     },
     {
       "attrs": {
@@ -580,7 +555,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 8000
     },
     {
       "alt": [
@@ -609,7 +584,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -635,7 +610,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 9500
     },
     {
       "attrs": {
@@ -662,7 +637,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -689,7 +664,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -716,7 +691,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -742,7 +717,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -769,7 +744,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     }
   ],
   "stadiumCapacity": 42500

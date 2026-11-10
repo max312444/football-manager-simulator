@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 8085000,
-    "transferBudget": 5390000,
-    "wageBudget": 296450
+    "balance": 29400000,
+    "revenue": 92000000,
+    "revenueSource": "model",
+    "transferBudget": 14900000,
+    "wageBudget": 1097000
   },
   "league": "ger1",
-  "reputation": 74,
+  "reputation": 80,
   "season": "2009-10",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "SUI",
       "number": 1,
       "pos": "GK",
-      "wage": 20500
+      "wage": 67500
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "BRA",
       "number": 3,
       "pos": "CB",
-      "wage": 1500
+      "wage": 10000
     },
     {
       "alt": [
@@ -101,7 +103,7 @@
       "nation": "GER",
       "number": 4,
       "pos": "RB",
-      "wage": 8000
+      "wage": 34000
     },
     {
       "attrs": {
@@ -127,7 +129,7 @@
       "nation": "CZE",
       "number": 6,
       "pos": "CB",
-      "wage": 3500
+      "wage": 17000
     },
     {
       "attrs": {
@@ -153,7 +155,7 @@
       "nation": "BRA",
       "number": 7,
       "pos": "CM",
-      "wage": 13000
+      "wage": 56000
     },
     {
       "attrs": {
@@ -179,7 +181,7 @@
       "nation": "DEN",
       "number": 8,
       "pos": "CM",
-      "wage": 15000
+      "wage": 62000
     },
     {
       "attrs": {
@@ -205,7 +207,7 @@
       "nation": "BIH",
       "number": 9,
       "pos": "ST",
-      "wage": 15000
+      "wage": 44500
     },
     {
       "attrs": {
@@ -232,7 +234,7 @@
       "nation2": "SRB",
       "number": 10,
       "pos": "CM",
-      "wage": 17500
+      "wage": 68000
     },
     {
       "attrs": {
@@ -258,7 +260,7 @@
       "nation": "NGA",
       "number": 11,
       "pos": "ST",
-      "wage": 5000
+      "wage": 20000
     },
     {
       "attrs": {
@@ -284,7 +286,7 @@
       "nation": "GER",
       "number": 12,
       "pos": "GK",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "alt": [
@@ -313,7 +315,7 @@
       "nation": "JPN",
       "number": 13,
       "pos": "CM",
-      "wage": 13000
+      "wage": 59500
     },
     {
       "attrs": {
@@ -340,7 +342,7 @@
       "nation2": "ARG",
       "number": 14,
       "pos": "CM",
-      "wage": 11000
+      "wage": 57500
     },
     {
       "attrs": {
@@ -367,7 +369,7 @@
       "nation2": "FRA",
       "number": 15,
       "pos": "CM",
-      "wage": 13000
+      "wage": 56500
     },
     {
       "attrs": {
@@ -394,7 +396,7 @@
       "nation2": "USA",
       "number": 16,
       "pos": "CB",
-      "wage": 5000
+      "wage": 24500
     },
     {
       "attrs": {
@@ -420,33 +422,7 @@
       "nation": "GER",
       "number": 17,
       "pos": "RB",
-      "wage": 8000
-    },
-    {
-      "attrs": {
-        "aer": 65,
-        "com": 70,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 71,
-        "pas": 58,
-        "pos": 48,
-        "sho": 72,
-        "sta": 62,
-        "str": 69,
-        "tac": 39,
-        "vis": 64
-      },
-      "birth": "1984-02-01",
-      "contract": null,
-      "foot": null,
-      "height": 167,
-      "id": "p1noo17z",
-      "name": "Shelley Thompsun",
-      "nation": "GER",
-      "number": 18,
-      "pos": "ST",
-      "wage": 4500
+      "wage": 29500
     },
     {
       "attrs": {
@@ -472,7 +448,7 @@
       "nation": "SVK",
       "number": 19,
       "pos": "RB",
-      "wage": 9500
+      "wage": 39500
     },
     {
       "attrs": {
@@ -498,33 +474,7 @@
       "nation": "GER",
       "number": 20,
       "pos": "RB",
-      "wage": 9500
-    },
-    {
-      "attrs": {
-        "aer": 53,
-        "com": 57,
-        "dri": 60,
-        "ldr": 54,
-        "pac": 54,
-        "pas": 65,
-        "pos": 61,
-        "sho": 54,
-        "sta": 59,
-        "str": 52,
-        "tac": 59,
-        "vis": 61
-      },
-      "birth": "1988-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 168,
-      "id": "p1luvwak",
-      "name": "Nathalie Buck",
-      "nation": "GER",
-      "number": 21,
-      "pos": "CM",
-      "wage": 1000
+      "wage": 38500
     },
     {
       "attrs": {
@@ -550,7 +500,7 @@
       "nation": "BRA",
       "number": 23,
       "pos": "ST",
-      "wage": 8000
+      "wage": 30000
     },
     {
       "attrs": {
@@ -577,7 +527,7 @@
       "nation2": "IRN",
       "number": 24,
       "pos": "CM",
-      "wage": 9500
+      "wage": 49500
     },
     {
       "attrs": {
@@ -603,7 +553,7 @@
       "nation": "GER",
       "number": 25,
       "pos": "CM",
-      "wage": 8000
+      "wage": 45500
     },
     {
       "attrs": {
@@ -629,7 +579,7 @@
       "nation": "GER",
       "number": 27,
       "pos": "ST",
-      "wage": 2500
+      "wage": 10500
     },
     {
       "attrs": {
@@ -655,7 +605,7 @@
       "nation": "GER",
       "number": 28,
       "pos": "CM",
-      "wage": 5000
+      "wage": 28000
     },
     {
       "attrs": {
@@ -682,7 +632,7 @@
       "nation2": "POL",
       "number": 32,
       "pos": "CM",
-      "wage": 5000
+      "wage": 32000
     },
     {
       "attrs": {
@@ -708,7 +658,7 @@
       "nation": "SUI",
       "number": 35,
       "pos": "GK",
-      "wage": 3000
+      "wage": 17500
     },
     {
       "attrs": {
@@ -734,191 +684,7 @@
       "nation": "ITA",
       "number": 43,
       "pos": "CB",
-      "wage": 24000
-    },
-    {
-      "attrs": {
-        "aer": 76,
-        "com": 76,
-        "dri": 72,
-        "ldr": 66,
-        "pac": 78,
-        "pas": 70,
-        "pos": 54,
-        "sho": 81,
-        "sta": 68,
-        "str": 77,
-        "tac": 42,
-        "vis": 65
-      },
-      "birth": "1980-04-01",
-      "contract": null,
-      "foot": null,
-      "height": 161,
-      "id": "p0ut0dsy",
-      "name": "Martina Mullar",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "wage": 11000
-    },
-    {
-      "alt": [],
-      "attrs": {
-        "aer": 64,
-        "com": 71,
-        "dri": 73,
-        "ldr": 69,
-        "pac": 68,
-        "pas": 75,
-        "pos": 71,
-        "sho": 65,
-        "sta": 76,
-        "str": 65,
-        "tac": 65,
-        "vis": 74
-      },
-      "birth": "1981-11-01",
-      "contract": null,
-      "foot": null,
-      "height": 175,
-      "id": "p1rwu3c4",
-      "name": "Navina Omylade",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 7000
-    },
-    {
-      "attrs": {
-        "aer": 72,
-        "com": 69,
-        "dri": 55,
-        "ldr": 67,
-        "pac": 66,
-        "pas": 65,
-        "pos": 77,
-        "sho": 47,
-        "sta": 69,
-        "str": 75,
-        "tac": 74,
-        "vis": 58
-      },
-      "birth": "1981-06-01",
-      "contract": null,
-      "foot": null,
-      "height": 174,
-      "id": "p1masvs6",
-      "name": "Rebecca Smyth",
-      "nation": "NZL",
-      "nation2": "USA",
-      "number": null,
-      "pos": "CB",
-      "wage": 7000
-    },
-    {
-      "attrs": {
-        "aer": 61,
-        "com": 68,
-        "dri": 65,
-        "ldr": 57,
-        "pac": 61,
-        "pas": 58,
-        "pos": 39,
-        "sho": 67,
-        "sta": 60,
-        "str": 62,
-        "tac": 35,
-        "vis": 55
-      },
-      "birth": "1987-02-01",
-      "contract": null,
-      "foot": null,
-      "height": 166,
-      "id": "p0o3zdpg",
-      "name": "Anna Blesse",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 47,
-        "com": 54,
-        "dri": 55,
-        "ldr": 49,
-        "pac": 50,
-        "pas": 57,
-        "pos": 55,
-        "sho": 50,
-        "sta": 57,
-        "str": 48,
-        "tac": 52,
-        "vis": 56
-      },
-      "birth": "1984-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 168,
-      "id": "p0yakhll",
-      "name": "Andrea Wylkens",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 43,
-        "com": 55,
-        "dri": 54,
-        "ldr": 50,
-        "pac": 49,
-        "pas": 53,
-        "pos": 48,
-        "sho": 45,
-        "sta": 55,
-        "str": 48,
-        "tac": 47,
-        "vis": 57
-      },
-      "birth": "1989-06-01",
-      "contract": null,
-      "foot": null,
-      "height": 157,
-      "id": "p0ae224l",
-      "name": "Eve Chendraratne",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 36,
-        "com": 49,
-        "dri": 47,
-        "ldr": 44,
-        "pac": 42,
-        "pas": 54,
-        "pos": 46,
-        "sho": 44,
-        "sta": 54,
-        "str": 46,
-        "tac": 43,
-        "vis": 48
-      },
-      "birth": "1989-02-01",
-      "contract": null,
-      "foot": null,
-      "height": 162,
-      "id": "p1per3yj",
-      "name": "Stephanie Bunta",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
+      "wage": 68000
     }
   ],
   "stadiumCapacity": 30000

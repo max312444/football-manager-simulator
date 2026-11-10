@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { clubKo, leagues, playerKo } from '../../data/db';
+import { clubKo, compKo, playerKo } from '../../data/db';
 import { FORMATIONS, available } from '../../engine/squad';
 import { overall, slotRating } from '../../engine/ratings';
 import { recommend, teamStrength } from '../../engine/ai';
@@ -42,10 +42,10 @@ export function MatchPrep() {
   const squad = w.clubs[w.userClubId].squad.map((id) => w.players[id]);
   const name = (id: string) => playerKo(id, w.players[id]?.name ?? id);
   const short = (id: string) => name(id).split(' ').slice(-1)[0];
-  const lg = leagues.find((l) => l.id === f.league)?.ko;
+  const lg = compKo(f.league);
   const changed = JSON.stringify([d.formation, d.mentality, d.pressing, d.starters]) !== JSON.stringify([m.rec.lineup.formation, m.rec.tactics.mentality, m.rec.tactics.pressing, m.rec.lineup.starters.map((x) => x.id)]);
   const myStr = teamStrength(w, w.userClubId), oppStr = teamStrength(w, oppId);
-  const oppForm = w.competitions[f.league].table[oppId]?.form ?? [];
+  const oppForm = w.competitions[w.clubs[oppId].league]?.table[oppId]?.form ?? [];
   const oppKey = w.clubs[oppId].squad.map((id) => w.players[id]).filter(available).sort((a, b) => overall(b) - overall(a)).slice(0, 5);
 
   const assign = (slotIdx: number, id: string) => {

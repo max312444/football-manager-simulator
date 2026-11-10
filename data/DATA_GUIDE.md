@@ -94,8 +94,12 @@ ID는 여러 시즌에서 같은 선수를 이어주는 열쇠이므로, 다른 
   "finance": {
     "balance": 150000000,          // 보유 자금 (EUR)
     "transferBudget": 120000000,   // 이적 예산 (EUR)
-    "wageBudget": 5200000          // 주급 총액 한도 (EUR / 주)
+    "wageBudget": 5200000,         // 주급 총액 한도 (EUR / 주)
+    "revenue": 715000000,          // 연 매출 기준값 (EUR) — 게임 속 모든 수입 · 지출의 기준
+    "revenueSource": "money-league:2023-24"   // money-league:<시즌> = 위키백과 Deloitte Football Money League 실제 매출 / model = 자체 추정
   },
+  // reputation · finance · 선수 wage 는 `node tools/data_pipeline economy --apply` 가 모든 리그 · 시즌을 같은 기준으로 다시 정한다
+  //  (실제 매출 → 주급 예산 = 매출 × 0.62 ÷ 52, 주급 총액 = 매출 × 0.55 를 능력 비중으로, 잔고 · 이적 예산은 매출과 부 순위로, 명성은 시대 보정 매출로)
   "facilities": { "training": 5, "youth": 5 },   // 1~5
   "stadiumCapacity": 60704,
   "formation": "4-3-3",            // 그 시즌 실제로 가장 많이 쓴 포메이션 (AI 선발 기준)

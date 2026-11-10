@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 6015000,
-    "transferBudget": 4010000,
-    "wageBudget": 220550
+    "balance": 33000000,
+    "revenue": 92900000,
+    "revenueSource": "money-league:2004-05",
+    "transferBudget": 16600000,
+    "wageBudget": 1108000
   },
   "league": "fra1",
-  "reputation": 73,
+  "reputation": 84,
   "season": "2005-06",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -48,7 +50,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "CB",
-      "wage": 17500
+      "wage": 69000
     },
     {
       "attrs": {
@@ -75,7 +77,7 @@
       "nation2": "ESP",
       "number": null,
       "pos": "CM",
-      "wage": 15000
+      "wage": 69000
     },
     {
       "alt": [
@@ -104,7 +106,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "CB",
-      "wage": 13000
+      "wage": 64000
     },
     {
       "alt": [
@@ -133,7 +135,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "LW",
-      "wage": 13000
+      "wage": 47500
     },
     {
       "attrs": {
@@ -160,7 +162,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 13000
+      "wage": 53500
     },
     {
       "attrs": {
@@ -186,7 +188,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "ST",
-      "wage": 13000
+      "wage": 51000
     },
     {
       "attrs": {
@@ -212,7 +214,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "ST",
-      "wage": 13000
+      "wage": 56500
     },
     {
       "attrs": {
@@ -239,7 +241,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 9500
+      "wage": 63000
     },
     {
       "attrs": {
@@ -266,7 +268,7 @@
       "nation2": "POR",
       "number": null,
       "pos": "CB",
-      "wage": 8000
+      "wage": 38500
     },
     {
       "attrs": {
@@ -292,7 +294,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "GK",
-      "wage": 8000
+      "wage": 47500
     },
     {
       "attrs": {
@@ -319,7 +321,7 @@
       "nation2": "FRA",
       "number": null,
       "pos": "CB",
-      "wage": 8000
+      "wage": 44500
     },
     {
       "attrs": {
@@ -346,7 +348,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 7000
+      "wage": 36500
     },
     {
       "attrs": {
@@ -373,7 +375,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 6000
+      "wage": 51500
     },
     {
       "attrs": {
@@ -399,7 +401,7 @@
       "nation": "MLI",
       "number": null,
       "pos": "CM",
-      "wage": 5000
+      "wage": 44500
     },
     {
       "attrs": {
@@ -425,7 +427,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "ST",
-      "wage": 4500
+      "wage": 25500
     },
     {
       "attrs": {
@@ -452,7 +454,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 3500
+      "wage": 22500
     },
     {
       "attrs": {
@@ -479,7 +481,7 @@
       "nation2": "FRA",
       "number": null,
       "pos": "CB",
-      "wage": 3000
+      "wage": 23500
     },
     {
       "attrs": {
@@ -507,7 +509,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 2500
+      "wage": 25000
     },
     {
       "attrs": {
@@ -533,7 +535,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "CB",
-      "wage": 2500
+      "wage": 17500
     },
     {
       "attrs": {
@@ -559,7 +561,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "CB",
-      "wage": 2000
+      "wage": 16500
     },
     {
       "attrs": {
@@ -586,7 +588,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -612,7 +614,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -639,7 +641,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -666,7 +668,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -693,7 +695,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -720,34 +722,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 58,
-        "com": 55,
-        "dri": 43,
-        "ldr": 52,
-        "pac": 49,
-        "pas": 48,
-        "pos": 56,
-        "sho": 25,
-        "sta": 53,
-        "str": 56,
-        "tac": 59,
-        "vis": 43
-      },
-      "birth": "1982-06-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p0r6s106",
-      "name": "Alexis Genat",
-      "nation": "FRA",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -774,7 +749,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -800,7 +775,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -827,7 +802,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -853,7 +828,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -880,7 +855,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -907,7 +882,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -934,7 +909,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 59286

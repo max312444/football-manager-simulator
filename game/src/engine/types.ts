@@ -65,6 +65,10 @@ export interface PlayerState {
   tlog?: import('./traits').TraitLog;
   /** 마지막 이적료 (먹튀 판정) */
   lastFee?: number;
+  /** 이적료 상각 (연, 유로) = 이적료 ÷ 계약 연수. 계약이 끝나거나 떠나면 없어짐 */
+  amort?: number;
+  /** 상각이 끝나는 날 (처음 계약 만료일) */
+  amortEnd?: string;
   /** 전성기 능력 (하락세 판정) */
   peak?: number;
   /** 수상 경력 */
@@ -76,13 +80,26 @@ export interface PlayerState {
   seedOneClub?: boolean;
 
   stats: SeasonStats;
+  /** 이번 시즌 컵 대회 기록 (리그 기록과 따로) */
+  cupStats?: { apps: number; goals: number; assists: number };
   /** 지난 시즌 기록 (시즌이 끝날 때 쌓임) */
   career: CareerEntry[];
   retired?: boolean;
+  /** 게임이 만든 선수 (유스 · 신규) */
+  generated?: boolean;
+  /** 지난달 훈련 성장 크기 (화면의 성장 추세 표시) */
+  dev?: number;
+  /** 잠재력 (숨은 값, 게임이 만든 선수만): 25세 무렵 이 종합 능력에 닿도록 성장 */
+  potential?: number;
+  /** 이름을 가져온 선수 [이름, 성] (한국어 이름 만들기용) */
+  nameFrom?: [string | null, string | null];
+  /** 게임이 만든 선수의 한국어 이름 */
+  ko?: string;
 }
 
 export interface CareerEntry {
   season: string; club: string | null; apps: number; goals: number; assists: number; rating: number | null;
+  cupApps?: number; cupGoals?: number;
 }
 
 export interface ClubState {
@@ -91,13 +108,18 @@ export interface ClubState {
   reputation: number;
   squad: string[];
   tactics: Tactics;
-  finance: { balance: number; transferBudget: number; wageBudget: number };
+  /** revenue = 연 매출 기준값 (데이터 · 시즌 시작 때 정함). 모든 구단이 이 매출로 수입 · 지출이 생긴다 */
+  finance: { balance: number; transferBudget: number; wageBudget: number; revenue?: number };
   /** 사용자가 직접 정한 선발 (없으면 자동 선택). 자리 순서는 포메이션 자리 순서 */
   lineup?: { starters: (string | null)[]; bench: string[] } | null;
   /** 팬 수 */
   fans?: number;
   /** 내 구단 재정 장부 */
   ledger?: import('./finance').Ledger;
+  /** 훈련 설정 (없으면 균형 · 보통) */
+  training?: import('./training').Training;
+  /** 이번 시즌 선수 판매 수입 (재정 규정 한도에 더해짐, 시즌마다 초기화) */
+  sales?: number;
 }
 
 export interface Fixture {
@@ -108,8 +130,12 @@ export interface Fixture {
   home: string;
   away: string;
   result?: MatchSummary;
-  /** 플레이오프 경기 (순위표에 넣지 않음) */
-  stage?: 'semi' | 'final' | 'ladder' | 'barrage';
+  /** 플레이오프 · 컵 경기 (순위표에 넣지 않음). 컵 경기는 league 가 컵 ID */
+  stage?: 'semi' | 'final' | 'ladder' | 'barrage' | 'cup' | 'euro';
+  /** 유럽 대회 조별리그 조 이름 */
+  group?: string;
+  /** 컵 라운드 이름 (예: "16강") */
+  name?: string;
   /** 2경기 합산 대결의 몇 차전 */
   leg?: number;
 }
@@ -153,7 +179,9 @@ export type GameEvent =
   | { type: 'retire'; date: string; player: string; club: string | null; season: string }
   | { type: 'contract'; date: string; players: string[]; until: string }
   | { type: 'renewed'; date: string; players: string[] }
-  | { type: 'leave'; date: string; player: string; club?: string };
+  | { type: 'leave'; date: string; player: string; club?: string }
+  | { type: 'cup'; date: string; cup: string; club: string; round: string; result: 'through' | 'out' | 'champion'; prize?: number }
+  | { type: 'youth'; date: string; players: string[]; star?: string };
 
 /** 은퇴 소식 (내 구단 선수 · 스타 선수) */
 export interface RetireNews { player: string; club: string | null; season: string; ovr: number; mine: boolean; /** leave = 계약 만료로 팀을 떠남 (없으면 은퇴) */ kind?: 'retire' | 'leave' }
@@ -204,6 +232,14 @@ export interface World {
   players: Record<string, PlayerState>;
   clubs: Record<string, ClubState>;
   competitions: Record<string, Competition>;
+  /** 국내 컵 대회 (이번 시즌) */
+  cups?: Record<string, import('./cup').Cup>;
+  /** 유럽 대회 (챔피언스리그 · 유로파리그, 이번 시즌) */
+  europe?: Record<string, import('./europe').EuroComp>;
+  /** 지난 컵 대회 우승 기록 */
+  cupHistory?: import('./cup').CupRecord[];
+  /** 이번 시즌 내 구단 컵 우승 (시즌 말 수상 연출에 합침) */
+  cupAwards?: import('./awards').Award[];
   inbox: GameEvent[];
   warnings: string[];        // 데이터 문제 (중복 소속 등)
   history: SeasonRecord[];   // 지난 시즌 최종 순위

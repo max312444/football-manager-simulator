@@ -6,13 +6,15 @@
     "youth": 4
   },
   "finance": {
-    "balance": 6000000,
-    "transferBudget": 6000000,
-    "wageBudget": 480000
+    "balance": 16200000,
+    "revenue": 51100000,
+    "revenueSource": "model",
+    "transferBudget": 8200000,
+    "wageBudget": 610000
   },
   "formation": "4-4-2",
   "league": "eng1",
-  "reputation": 60,
+  "reputation": 80,
   "season": "2000-01",
   "squad": [
     {
@@ -39,7 +41,7 @@
       "nation": "IRL",
       "number": 1,
       "pos": "GK",
-      "wage": 12000
+      "wage": 32500
     },
     {
       "attrs": {
@@ -65,7 +67,7 @@
       "nation": "SRB",
       "number": 13,
       "pos": "GK",
-      "wage": 8000
+      "wage": 18000
     },
     {
       "alt": [
@@ -95,7 +97,7 @@
       "nation": "BUL",
       "number": 2,
       "pos": "RB",
-      "wage": 14000
+      "wage": 32000
     },
     {
       "attrs": {
@@ -121,7 +123,7 @@
       "nation": "ENG",
       "number": 3,
       "pos": "LB",
-      "wage": 14000
+      "wage": 31500
     },
     {
       "alt": [
@@ -151,7 +153,7 @@
       "nation": "ENG",
       "number": 4,
       "pos": "CM",
-      "wage": 15000
+      "wage": 32500
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "nation": "ENG",
       "number": 5,
       "pos": "CB",
-      "wage": 15000
+      "wage": 28000
     },
     {
       "alt": [
@@ -206,7 +208,7 @@
       "nation": "ENG",
       "number": 19,
       "pos": "CB",
-      "wage": 10000
+      "wage": 19000
     },
     {
       "attrs": {
@@ -232,7 +234,7 @@
       "nation": "ENG",
       "number": 7,
       "pos": "RM",
-      "wage": 10000
+      "wage": 17000
     },
     {
       "attrs": {
@@ -262,7 +264,7 @@
         "leader",
         "long_shot"
       ],
-      "wage": 15000
+      "wage": 38000
     },
     {
       "attrs": {
@@ -288,7 +290,7 @@
       "nation": "ENG",
       "number": 9,
       "pos": "ST",
-      "wage": 14000
+      "wage": 15500
     },
     {
       "attrs": {
@@ -317,7 +319,7 @@
       "traits": [
         "injury_prone"
       ],
-      "wage": 12000
+      "wage": 13000
     },
     {
       "alt": [
@@ -346,7 +348,7 @@
       "nation": "WAL",
       "number": 11,
       "pos": "RM",
-      "wage": 12000
+      "wage": 22500
     },
     {
       "alt": [
@@ -376,7 +378,7 @@
       "nation": "ENG",
       "number": 12,
       "pos": "CB",
-      "wage": 8000
+      "wage": 18000
     },
     {
       "attrs": {
@@ -402,7 +404,7 @@
       "nation": "SWE",
       "number": 14,
       "pos": "ST",
-      "wage": 10000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -428,7 +430,7 @@
       "nation": "ENG",
       "number": 15,
       "pos": "CB",
-      "wage": 8000
+      "wage": 12500
     },
     {
       "attrs": {
@@ -454,7 +456,7 @@
       "nation": "ENG",
       "number": 6,
       "pos": "CB",
-      "wage": 10000
+      "wage": 13500
     },
     {
       "attrs": {
@@ -480,7 +482,7 @@
       "nation": "SWE",
       "number": 26,
       "pos": "ST",
-      "wage": 12000
+      "wage": 15500
     },
     {
       "alt": [
@@ -509,7 +511,7 @@
       "nation": "ENG",
       "number": 18,
       "pos": "LB",
-      "wage": 6000
+      "wage": 15500
     },
     {
       "alt": [
@@ -538,7 +540,7 @@
       "nation": "FIN",
       "number": 21,
       "pos": "ST",
-      "wage": 18000
+      "wage": 19000
     },
     {
       "alt": [
@@ -568,7 +570,7 @@
       "nation": "DEN",
       "number": 20,
       "pos": "CM",
-      "wage": 18000
+      "wage": 31500
     },
     {
       "alt": [
@@ -598,7 +600,7 @@
       "nation2": "ENG",
       "number": 29,
       "pos": "ST",
-      "wage": 6000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -624,7 +626,7 @@
       "nation": "ENG",
       "number": 24,
       "pos": "CB",
-      "wage": 4000
+      "wage": 7500
     },
     {
       "alt": [
@@ -653,7 +655,7 @@
       "nation": "ENG",
       "number": 17,
       "pos": "CM",
-      "wage": 8000
+      "wage": 29500
     },
     {
       "attrs": {
@@ -679,7 +681,7 @@
       "nation": "ENG",
       "number": 22,
       "pos": "GK",
-      "wage": 6000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -705,7 +707,7 @@
       "nation": "SCO",
       "number": 16,
       "pos": "RB",
-      "wage": 10000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -731,7 +733,7 @@
       "nation": "ENG",
       "number": 28,
       "pos": "LM",
-      "wage": 15000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -757,7 +759,7 @@
       "nation": "IRN",
       "number": 31,
       "pos": "CM",
-      "wage": 15000
+      "wage": 21000
     }
   ],
   "stadiumCapacity": 20043

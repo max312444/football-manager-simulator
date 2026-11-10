@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 2550000,
-    "transferBudget": 1700000,
-    "wageBudget": 93500
+    "balance": 11400000,
+    "revenue": 45700000,
+    "revenueSource": "model",
+    "transferBudget": 5900000,
+    "wageBudget": 545000
   },
   "league": "ger1",
-  "reputation": 67,
+  "reputation": 73,
   "season": "2007-08",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "GER",
       "number": 1,
       "pos": "GK",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "GER",
       "number": 2,
       "pos": "RB",
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "BRA",
       "number": 3,
       "pos": "CB",
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -124,7 +126,7 @@
       "nation": "CZE",
       "number": 4,
       "pos": "CB",
-      "wage": 3500
+      "wage": 19000
     },
     {
       "attrs": {
@@ -150,7 +152,7 @@
       "nation": "GER",
       "number": 5,
       "pos": "CM",
-      "wage": 1000
+      "wage": 12000
     },
     {
       "attrs": {
@@ -176,7 +178,7 @@
       "nation": "GER",
       "number": 6,
       "pos": "CB",
-      "wage": 1500
+      "wage": 9500
     },
     {
       "attrs": {
@@ -202,7 +204,7 @@
       "nation": "GER",
       "number": 7,
       "pos": "CM",
-      "wage": 6500
+      "wage": 34000
     },
     {
       "attrs": {
@@ -228,7 +230,7 @@
       "nation": "GER",
       "number": 8,
       "pos": "CB",
-      "wage": 5500
+      "wage": 30000
     },
     {
       "attrs": {
@@ -254,7 +256,7 @@
       "nation": "GER",
       "number": 9,
       "pos": "ST",
-      "wage": 1500
+      "wage": 9000
     },
     {
       "attrs": {
@@ -280,7 +282,7 @@
       "nation": "GER",
       "number": 10,
       "pos": "CM",
-      "wage": 2000
+      "wage": 19500
     },
     {
       "attrs": {
@@ -306,7 +308,7 @@
       "nation": "CZE",
       "number": 11,
       "pos": "CM",
-      "wage": 4000
+      "wage": 28000
     },
     {
       "attrs": {
@@ -332,7 +334,7 @@
       "nation": "GER",
       "number": 13,
       "pos": "CM",
-      "wage": 3000
+      "wage": 23000
     },
     {
       "attrs": {
@@ -358,7 +360,7 @@
       "nation": "DEN",
       "number": 14,
       "pos": "ST",
-      "wage": 3500
+      "wage": 15500
     },
     {
       "attrs": {
@@ -385,7 +387,7 @@
       "nation2": "GER",
       "number": 15,
       "pos": "ST",
-      "wage": 4000
+      "wage": 18500
     },
     {
       "attrs": {
@@ -411,7 +413,7 @@
       "nation": "CRO",
       "number": 16,
       "pos": "CB",
-      "wage": 4000
+      "wage": 21000
     },
     {
       "attrs": {
@@ -438,7 +440,7 @@
       "nation2": "GER",
       "number": 17,
       "pos": "CM",
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -464,7 +466,7 @@
       "nation": "POL",
       "number": 18,
       "pos": "ST",
-      "wage": 4500
+      "wage": 22000
     },
     {
       "attrs": {
@@ -490,7 +492,7 @@
       "nation": "GER",
       "number": 19,
       "pos": "CB",
-      "wage": 4000
+      "wage": 19000
     },
     {
       "attrs": {
@@ -516,7 +518,7 @@
       "nation": "GER",
       "number": 20,
       "pos": "CM",
-      "wage": 4500
+      "wage": 30000
     },
     {
       "attrs": {
@@ -542,7 +544,7 @@
       "nation": "GER",
       "number": 21,
       "pos": "CB",
-      "wage": 1500
+      "wage": 9500
     },
     {
       "attrs": {
@@ -568,7 +570,7 @@
       "nation": "RSA",
       "number": 22,
       "pos": "ST",
-      "wage": 8500
+      "wage": 30500
     },
     {
       "attrs": {
@@ -595,7 +597,7 @@
       "nation2": "GER",
       "number": 23,
       "pos": "GK",
-      "wage": 6500
+      "wage": 30500
     },
     {
       "attrs": {
@@ -621,7 +623,7 @@
       "nation": "GER",
       "number": 24,
       "pos": "ST",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "alt": [
@@ -650,7 +652,7 @@
       "nation": "RSA",
       "number": 25,
       "pos": "CM",
-      "wage": 4500
+      "wage": 32500
     },
     {
       "attrs": {
@@ -676,34 +678,7 @@
       "nation": "GRE",
       "number": 27,
       "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 44,
-        "com": 44,
-        "han": 47,
-        "ldr": 41,
-        "one": 44,
-        "pac": 27,
-        "pas": 36,
-        "pos": 44,
-        "ref": 45,
-        "sta": 33,
-        "str": 40,
-        "vis": 31
-      },
-      "birth": "1986-12-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p1n91o18",
-      "name": "Daniel Riamer",
-      "nation": "GER",
-      "nation2": "USA",
-      "number": 28,
-      "pos": "GK",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -729,7 +704,7 @@
       "nation": "GER",
       "number": 29,
       "pos": "CM",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -755,7 +730,7 @@
       "nation": "GER",
       "number": 30,
       "pos": "CB",
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -781,7 +756,7 @@
       "nation": "CZE",
       "number": 31,
       "pos": "CM",
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -807,7 +782,7 @@
       "nation": "GER",
       "number": 32,
       "pos": "CM",
-      "wage": 1000
+      "wage": 7000
     }
   ],
   "stadiumCapacity": 27300

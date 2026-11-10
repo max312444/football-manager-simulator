@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { clubs, clubKo, leagues, playerKo } from '../../data/db';
-import { AWARD_KO, type Award } from '../../engine/awards';
+import { clubs, clubKo, compKo, playerKo } from '../../data/db';
+import { AWARD_KO, isTrophy, type Award } from '../../engine/awards';
 import { Crest } from './Crest';
 import { PosTag } from './bits';
 
@@ -34,7 +34,7 @@ export function AwardCeremony() {
         @keyframes ac-shine { from { transform: translateX(-120%) skewX(-20deg) } to { transform: translateX(220%) skewX(-20deg) } }
       `}</style>
       <div key={i} className="relative w-[600px] max-w-[92vw]" onClick={(e) => e.stopPropagation()}>
-        {a.kind === 'champion' ? <Champion a={a} /> : <Individual a={a} />}
+        {isTrophy(a.kind) ? <Champion a={a} /> : <Individual a={a} />}
         <div className="mt-6 flex items-center justify-between">
           <span className="tnum text-[12px] text-lo">{i + 1} / {list.length}</span>
           <button onClick={next} className="h-11 rounded-lg bg-neon px-8 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">
@@ -66,7 +66,7 @@ function Rewards({ a }: { a: Award }) {
 }
 
 function Champion({ a }: { a: Award }) {
-  const lg = leagues.find((l) => l.id === a.league)?.ko ?? a.league;
+  const lg = compKo(a.league) ?? a.league;
   const c = colorOf(a.club);
   return (
     <div className="panel relative overflow-hidden px-10 pt-10 pb-9 text-center">
@@ -90,7 +90,7 @@ function Champion({ a }: { a: Award }) {
           <Crest clubId={a.club} size={40} />
           <div className="text-[30px] font-semibold">{clubKo(a.club)}</div>
         </div>
-        <div className="mt-1 text-[18px] font-semibold text-[#f2c94c]" style={{ animation: 'ac-rise .5s .6s both' }}>리그 우승</div>
+        <div className="mt-1 text-[18px] font-semibold text-[#f2c94c]" style={{ animation: 'ac-rise .5s .6s both' }}>{AWARD_KO[a.kind]}</div>
         <div className="tnum mt-1 text-[13px] text-mid" style={{ animation: 'ac-rise .5s .7s both' }}>{a.value}</div>
         <Rewards a={a} />
       </div>
@@ -101,7 +101,7 @@ function Champion({ a }: { a: Award }) {
 function Individual({ a }: { a: Award }) {
   const w = useWorld();
   const p = w.players[a.player!];
-  const lg = leagues.find((l) => l.id === a.league)?.ko ?? a.league;
+  const lg = compKo(a.league) ?? a.league;
   const c = colorOf(a.club);
   return (
     <div className="panel relative overflow-hidden px-10 pt-9 pb-9 text-center">

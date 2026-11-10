@@ -3,7 +3,7 @@ import { nextUserFixture } from '../../engine/world';
 import { overall } from '../../engine/ratings';
 import { sortTable } from '../../engine/standings';
 import { ageOn } from '../../engine/condition';
-import { clubKo, leagues, playerKo } from '../../data/db';
+import { clubKo, compKo, playerKo } from '../../data/db';
 import { posGroup } from '../../data/rating';
 import { Crest } from '../components/Crest';
 import { Card, PosTag, ResultDot } from '../components/bits';
@@ -53,12 +53,11 @@ export function HomeView() {
   const squad = club.squad.map((id) => w.players[id]);
   const key = [...squad].sort((a, b) => overall(b) - overall(a)).slice(0, 6);
   const news = [...w.inbox].reverse().slice(0, 5);
-  const lg = leagues.find((l) => l.id === club.league)?.ko ?? '';
 
   return (
     <div className="h-full overflow-auto">
       <div className="mx-auto flex max-w-[1440px] flex-col gap-6 p-6">
-        {next ? <NextMatch w={w} home={next.home} away={next.away} date={next.date} round={roundLabel(next)} league={lg} />
+        {next ? <NextMatch w={w} home={next.home} away={next.away} date={next.date} round={roundLabel(next)} league={compKo(next.league)} />
           : <section className="panel px-8 py-6 text-[15px]">시즌이 끝났습니다 · 최종 {pos}위 · 승점 {row.pts}</section>}
 
         <div className="grid grid-cols-1 items-start gap-6 xl:grid-cols-3">

@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 2745000,
-    "transferBudget": 1830000,
-    "wageBudget": 100650
+    "balance": 10100000,
+    "revenue": 38300000,
+    "revenueSource": "model",
+    "transferBudget": 5200000,
+    "wageBudget": 456000
   },
   "league": "ger1",
-  "reputation": 68,
+  "reputation": 75,
   "season": "2002-03",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 8500
+      "wage": 28500
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "ROU",
       "number": null,
       "pos": "ST",
-      "wage": 7000
+      "wage": 23000
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 7000
+      "wage": 28000
     },
     {
       "attrs": {
@@ -125,7 +127,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 6000
+      "wage": 28500
     },
     {
       "attrs": {
@@ -151,7 +153,7 @@
       "nation": "RSA",
       "number": null,
       "pos": "CM",
-      "wage": 6000
+      "wage": 28500
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CM",
-      "wage": 5000
+      "wage": 28500
     },
     {
       "attrs": {
@@ -203,7 +205,7 @@
       "nation": "BUL",
       "number": null,
       "pos": "CM",
-      "wage": 4500
+      "wage": 25000
     },
     {
       "attrs": {
@@ -229,33 +231,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 4000
-    },
-    {
-      "attrs": {
-        "aer": 68,
-        "com": 68,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 67,
-        "pas": 62,
-        "pos": 45,
-        "sho": 74,
-        "sta": 65,
-        "str": 67,
-        "tac": 36,
-        "vis": 62
-      },
-      "birth": "1981-12-01",
-      "contract": null,
-      "foot": null,
-      "height": 181,
-      "id": "p157zv68",
-      "name": "Ioannis Amanetidis",
-      "nation": "GRE",
-      "number": null,
-      "pos": "ST",
-      "wage": 3500
+      "wage": 20500
     },
     {
       "attrs": {
@@ -281,7 +257,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "ST",
-      "wage": 3000
+      "wage": 12500
     },
     {
       "attrs": {
@@ -308,7 +284,7 @@
       "nation2": "HUN",
       "number": null,
       "pos": "ST",
-      "wage": 3000
+      "wage": 12500
     },
     {
       "attrs": {
@@ -334,7 +310,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CB",
-      "wage": 3000
+      "wage": 12500
     },
     {
       "attrs": {
@@ -361,7 +337,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 2500
+      "wage": 17000
     },
     {
       "attrs": {
@@ -387,7 +363,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 2500
+      "wage": 12500
     },
     {
       "attrs": {
@@ -414,7 +390,7 @@
       "nation2": "RSA",
       "number": null,
       "pos": "ST",
-      "wage": 2500
+      "wage": 11000
     },
     {
       "attrs": {
@@ -440,7 +416,7 @@
       "nation": "GER",
       "number": null,
       "pos": "RB",
-      "wage": 2000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -466,7 +442,7 @@
       "nation": "ANG",
       "number": null,
       "pos": "CB",
-      "wage": 2000
+      "wage": 11000
     },
     {
       "attrs": {
@@ -492,7 +468,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1500
+      "wage": 14500
     },
     {
       "alt": [
@@ -521,7 +497,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 9000
     },
     {
       "attrs": {
@@ -547,7 +523,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1500
+      "wage": 13500
     },
     {
       "attrs": {
@@ -573,7 +549,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -599,34 +575,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1500
-    },
-    {
-      "attrs": {
-        "aer": 59,
-        "com": 59,
-        "dri": 46,
-        "ldr": 60,
-        "pac": 51,
-        "pas": 53,
-        "pos": 61,
-        "sho": 29,
-        "sta": 55,
-        "str": 58,
-        "tac": 61,
-        "vis": 43
-      },
-      "birth": "1972-11-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p0mbno97",
-      "name": "Jochen Endrass",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 1000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -653,7 +602,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -679,7 +628,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -705,7 +654,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -731,7 +680,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -758,7 +707,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -784,7 +733,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -810,7 +759,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -837,7 +786,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {
@@ -864,7 +813,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {
@@ -891,7 +840,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -917,7 +866,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 60058

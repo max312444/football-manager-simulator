@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useApp } from '../../store/app';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { clubKo, leagues, nations, playerKo } from '../../data/db';
+import { clubKo, compKo, nations, playerKo } from '../../data/db';
 import { overall } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
 import { marketValue, talkBanned, wageDemand, windowOpen } from '../../engine/transfer';
@@ -78,7 +78,7 @@ function ClubModal() {
   const ps = c.squad.map((x) => w.players[x]).sort((a, b) => POS_ORDER.indexOf(a.pos) - POS_ORDER.indexOf(b.pos) || overall(b) - overall(a));
   const top = [...ps].map(overall).sort((a, b) => b - a).slice(0, 11);
   const lv = Math.round(top.reduce((a, b) => a + b, 0) / Math.max(1, top.length));
-  const lg = leagues.find((l) => l.id === c.league)?.ko ?? c.league;
+  const lg = compKo(c.league) ?? c.league;
   return (
     <div className="fixed inset-0 z-40 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/75 p-6 backdrop-blur-sm" onClick={() => openClub(null)}>
       <div className="panel flex max-h-[86vh] w-[640px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>

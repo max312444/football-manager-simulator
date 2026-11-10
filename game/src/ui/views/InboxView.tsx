@@ -1,5 +1,5 @@
 import type { GameEvent, World } from '../../engine/types';
-import { clubKo, leagues, playerKo } from '../../data/db';
+import { clubKo, compKo, playerKo } from '../../data/db';
 import { josa, koDate, money } from '../format';
 import { useWorld } from '../hooks';
 
@@ -9,12 +9,12 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const mineHome = e.home === w.userClubId;
       const [g, o] = mineHome ? e.score : [e.score[1], e.score[0]];
       const res = g > o ? '승리' : g === o ? '무승부' : '패배';
-      return { tag: '경기', tone: g > o ? 'text-neon' : g === o ? 'text-mid' : 'text-red', title: `${clubKo(e.home)} ${e.score[0]} - ${e.score[1]} ${clubKo(e.away)}`, body: `${res} · ${leagues.find((l) => l.id === e.league)?.ko ?? ''}` };
+      return { tag: '경기', tone: g > o ? 'text-neon' : g === o ? 'text-mid' : 'text-red', title: `${clubKo(e.home)} ${e.score[0]} - ${e.score[1]} ${clubKo(e.away)}`, body: `${res} · ${compKo(e.league) ?? ''}` };
     }
     case 'injury':
       return { tag: '부상', tone: 'text-red', title: `${playerKo(e.player, w.players[e.player]?.name ?? e.player)} 부상`, body: `${e.label} · 약 ${e.days}일 결장 예상` };
     case 'seasonEnd':
-      return { tag: '시즌', tone: 'text-amber', title: `${leagues.find((l) => l.id === e.league)?.ko} 시즌 종료`, body: `우승: ${clubKo(e.champion)}` };
+      return { tag: '시즌', tone: 'text-amber', title: `${compKo(e.league)} 시즌 종료`, body: `우승: ${clubKo(e.champion)}` };
     case 'transfer': {
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       const from = e.from ? clubKo(e.from) : '자유계약';
@@ -34,6 +34,20 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       const mine = !e.club || e.club === w.userClubId;
       return { tag: '계약', tone: mine ? 'text-red' : 'text-amber', title: `${name}${josa(name, '이', '가')} 계약 만료로 ${mine ? '팀을' : `${clubKo(e.club!)}${josa(clubKo(e.club!), '을', '를')}`} 떠났습니다`, body: mine ? '재계약하지 않아 자유계약(FA) 선수가 됐습니다' : '자유계약(FA) 선수가 됐습니다 · 이적 화면 FA 목록에서 영입할 수 있습니다' };
+    }
+    case 'cup': {
+      const cup = compKo(e.cup);
+      if (e.result === 'champion') {
+        const mine = e.club === w.userClubId;
+        return { tag: '컵', tone: mine ? 'text-[#f2c94c]' : 'text-amber', title: `${cup} 우승 · ${clubKo(e.club)}`, body: mine ? `결승 승리 · 상금 ${money(e.prize ?? 0)}` : undefined };
+      }
+      if (e.result === 'through') return { tag: '컵', tone: 'text-neon', title: `${cup} ${e.round} 통과`, body: e.prize ? `상금 ${money(e.prize)}` : undefined };
+      return { tag: '컵', tone: 'text-red', title: `${cup} ${e.round}${e.round === '결승' ? ' 패배 · 준우승' : ' 탈락'}` };
+    }
+    case 'youth': {
+      const names = e.players.map((id) => playerKo(id, w.players[id]?.name ?? id));
+      const star = e.star ? playerKo(e.star, w.players[e.star]?.name ?? e.star) : null;
+      return { tag: '유스', tone: star ? 'text-[#f2c94c]' : 'text-neon', title: `유스 선수 ${e.players.length}명 입단${star ? ` · 코치진이 ${star}${josa(star, '을', '를')} 주목합니다` : ''}`, body: names.join(', ') };
     }
     default:
       return { tag: '알림', tone: 'text-mid', title: e.text };

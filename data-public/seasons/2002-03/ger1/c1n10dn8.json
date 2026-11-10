@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 3540000,
-    "transferBudget": 2360000,
-    "wageBudget": 129800
+    "balance": 9200000,
+    "revenue": 36900000,
+    "revenueSource": "model",
+    "transferBudget": 4800000,
+    "wageBudget": 440000
   },
   "league": "ger1",
-  "reputation": 69,
+  "reputation": 75,
   "season": "2002-03",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 13500
+      "wage": 27500
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "ALB",
       "number": null,
       "pos": "CM",
-      "wage": 10000
+      "wage": 27500
     },
     {
       "attrs": {
@@ -99,7 +101,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 10000
+      "wage": 25500
     },
     {
       "attrs": {
@@ -126,7 +128,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 8500
+      "wage": 26500
     },
     {
       "attrs": {
@@ -152,7 +154,7 @@
       "nation": "USA",
       "number": null,
       "pos": "RB",
-      "wage": 7000
+      "wage": 27500
     },
     {
       "attrs": {
@@ -179,7 +181,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 6000
+      "wage": 23500
     },
     {
       "attrs": {
@@ -206,62 +208,7 @@
       "nation2": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 4500
-    },
-    {
-      "attrs": {
-        "aer": 61,
-        "com": 69,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 69,
-        "pas": 76,
-        "pos": 69,
-        "sho": 68,
-        "sta": 73,
-        "str": 64,
-        "tac": 69,
-        "vis": 71
-      },
-      "birth": "1972-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p1lya1np",
-      "name": "Michel Mazingo-Dinzey",
-      "nation": "GER",
-      "nation2": "COD",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 4500
-    },
-    {
-      "attrs": {
-        "aer": 63,
-        "com": 68,
-        "dri": 65,
-        "ldr": 66,
-        "pac": 64,
-        "pas": 69,
-        "pos": 71,
-        "sho": 63,
-        "sta": 70,
-        "str": 67,
-        "tac": 69,
-        "vis": 74
-      },
-      "birth": "1975-02-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p07defkt",
-      "name": "Igoris Murinas",
-      "nation": "LTU",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 4000
+      "wage": 18000
     },
     {
       "attrs": {
@@ -288,34 +235,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3500
-    },
-    {
-      "attrs": {
-        "aer": 72,
-        "com": 69,
-        "dri": 56,
-        "ldr": 64,
-        "pac": 60,
-        "pas": 60,
-        "pos": 70,
-        "sho": 41,
-        "sta": 63,
-        "str": 68,
-        "tac": 69,
-        "vis": 58
-      },
-      "birth": "1976-09-01",
-      "contract": null,
-      "foot": null,
-      "height": 187,
-      "id": "p11w29dp",
-      "name": "Marco Ruse",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 3500
+      "wage": 19500
     },
     {
       "attrs": {
@@ -342,7 +262,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3000
+      "wage": 18000
     },
     {
       "attrs": {
@@ -368,35 +288,7 @@
       "nation": "SRB",
       "number": null,
       "pos": "CM",
-      "wage": 3000
-    },
-    {
-      "attrs": {
-        "aer": 68,
-        "com": 69,
-        "dri": 68,
-        "ldr": 59,
-        "pac": 69,
-        "pas": 62,
-        "pos": 42,
-        "sho": 70,
-        "sta": 60,
-        "str": 70,
-        "tac": 40,
-        "vis": 60
-      },
-      "birth": "1975-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 176,
-      "id": "p0fdp6lq",
-      "name": "Salif Kaita",
-      "nation": "BEL",
-      "nation2": "SEN",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 2500
+      "wage": 20000
     },
     {
       "attrs": {
@@ -423,7 +315,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1500
+      "wage": 11500
     },
     {
       "attrs": {
@@ -449,7 +341,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 8500
     },
     {
       "attrs": {
@@ -476,7 +368,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1500
+      "wage": 9000
     },
     {
       "attrs": {
@@ -502,7 +394,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1500
+      "wage": 6000
     },
     {
       "attrs": {
@@ -528,7 +420,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "ST",
-      "wage": 1500
+      "wage": 6000
     },
     {
       "attrs": {
@@ -555,34 +447,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1500
-    },
-    {
-      "attrs": {
-        "aer": 55,
-        "com": 60,
-        "dri": 61,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 63,
-        "pos": 61,
-        "sho": 54,
-        "sta": 63,
-        "str": 55,
-        "tac": 57,
-        "vis": 67
-      },
-      "birth": "1972-07-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p1rpvs8b",
-      "name": "Mourad Boonoua",
-      "nation": "MAR",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1500
+      "wage": 7000
     },
     {
       "attrs": {
@@ -609,7 +474,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -636,7 +501,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -662,7 +527,7 @@
       "nation": "POL",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -688,34 +553,7 @@
       "nation": "NED",
       "number": null,
       "pos": "RB",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 48,
-        "com": 57,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 63,
-        "pos": 55,
-        "sho": 54,
-        "sta": 59,
-        "str": 52,
-        "tac": 55,
-        "vis": 63
-      },
-      "birth": "1981-05-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p0k2b98r",
-      "name": "Christian Mikolajczek",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -742,7 +580,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -769,7 +607,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -795,7 +633,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -822,7 +660,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -849,7 +687,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -876,7 +714,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -903,7 +741,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -929,7 +767,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -956,7 +794,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -982,34 +820,7 @@
       "nation": "SEN",
       "number": null,
       "pos": "CB",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 44,
-        "com": 57,
-        "dri": 51,
-        "ldr": 47,
-        "pac": 50,
-        "pas": 53,
-        "pos": 52,
-        "sho": 50,
-        "sta": 55,
-        "str": 50,
-        "tac": 51,
-        "vis": 58
-      },
-      "birth": "1982-02-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p1a1bvuk",
-      "name": "Heiner Backhaos",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -1035,7 +846,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -1061,7 +872,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -1087,7 +898,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {
@@ -1113,7 +924,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 2000
     }
   ],
   "stadiumCapacity": 49000

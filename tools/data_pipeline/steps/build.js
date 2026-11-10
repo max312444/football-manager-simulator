@@ -34,6 +34,8 @@ function slugClub(title) {
 }
 
 function clubIdFor(team, ctx) {
+  // Wikidata 항목 번호로 지정한 별칭이 가장 우선 (이름이 같은 서로 다른 항목을 나눌 때)
+  if (ctx.aliases[team.qid]) return { id: ctx.aliases[team.qid], method: 'alias' };
   if (ctx.byQid.has(team.qid)) return { id: ctx.byQid.get(team.qid), method: 'known' };
   const title = team.enwiki || team.label || team.qid;
   const alias = ctx.aliases[normName(title)];
@@ -152,7 +154,10 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
     const { teams: tableTitles } = await wikipedia.seasonTableTeams(title);
     const canon = await wikipedia.resolveTitles(tableTitles);
     const hits = await wikidata.byEnwikiTitles([...new Set(Object.values(canon).filter(Boolean))]);
-    return { title, teams: [...new Set(hits.map(h => h.qid))].filter(q => known.has(q)).map(q => known.get(q)) };
+    // 순위표 구단은 그 시즌 구단이 확실하므로, Wikidata에 이 리그 참가 기록이 없는 구단(오랜만에 승격한 구단 등)도 넣는다
+    const byQid = new Map(hits.map(h => [h.qid, h]));
+    const teams = [...byQid.keys()].map(q => known.get(q) ?? { qid: q, enwiki: byQid.get(q).enwiki, label: byQid.get(q).enwiki });
+    return { title, teams, unknown: teams.filter(t => !known.has(t.qid)).map(t => t.enwiki) };
   };
   // Wikidata 참가 구단이 평소보다 적은 시즌 → 위키백과 시즌 문서에서 빠진 구단을 찾는다.
   // 합친 결과가 평소 구단 수와 정확히 같을 때만 반영 (다른 시즌 구단이 섞이는 것 방지)
@@ -172,10 +177,10 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   // 같은 리그의 다른 시즌에 참가한 구단만 골라 채운다. 구단 수가 평소와 2개 넘게 다르면 채우지 않는다
   if (missingSeasons.length && cfg.enwiki) {
     for (const season of missingSeasons) {
-      const { title, teams } = await wikiTeams(season);
+      const { title, teams, unknown } = await wikiTeams(season);
       if (Math.abs(teams.length - typical) <= 2) {
         bySeason.set(season, { qid: null, label: title, teams, fromWikipedia: true });
-        log(`  ${season}: 위키백과 "${title}"에서 참가 구단 ${teams.length}개 보완`);
+        log(`  ${season}: 위키백과 "${title}"에서 참가 구단 ${teams.length}개 보완${unknown.length ? ` (이 리그 첫 기록: ${unknown.join(", ")})` : ""}`);
       } else log(`  ${season}: 위키백과에서 찾은 구단 ${teams.length}개 (평소 ${typical}개) → 보완하지 않음`);
     }
     missingSeasons = missingSeasons.filter(s => (bySeason.get(s)?.teams.length ?? 0) < 16);
@@ -187,7 +192,10 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   // ② 구단 ID 연결
   const teamIds = new Map();
   const clubReport = { known: 0, alias: 0, exact: 0, suffix: 0, prefix: 0, new: [] };
-  for (const s of bySeason.values()) for (const t of s.teams) {
+  const seasonTeams = new Map();   // qid → "이름 (시즌들)" (충돌 보고용)
+  for (const [season, s] of bySeason) for (const t of s.teams) {
+    const prev = seasonTeams.get(t.qid);
+    seasonTeams.set(t.qid, prev ? `${prev}, ${season}` : `${t.enwiki || t.label}: ${season}`);
     if (teamIds.has(t.qid)) continue;
     const r = clubIdFor(t, ctx);
     teamIds.set(t.qid, r.id);
@@ -200,13 +208,23 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   const clashes = [...idCount].filter(([id, n]) => n > 1 && !same.has(id)).map(([id]) => id);
   log(`② 구단 ${teamIds.size}개 연결 · ${JSON.stringify({ ...clubReport, new: clubReport.new.length })}`);
   if (clubReport.new.length) log(`  고정 목록에 없는 구단: ${clubReport.new.join(', ')}`);
-  if (clashes.length) throw new Error(`서로 다른 구단이 같은 ID로 연결됨: ${clashes.join(', ')} — club-aliases.json에 지정 필요`);
+  if (clashes.length) {
+    const who = clashes.map((id) => `${id} [${[...teamIds].filter(([, v]) => v === id).map(([q]) => `${q} ${seasonTeams.get(q) ?? ''}`).join(' / ')}]`);
+    throw new Error(`서로 다른 구단이 같은 ID로 연결됨: ${who.join(', ')} — club-aliases.json에 지정 필요 (같은 구단이 시대별로 나뉜 경우만 club-same.json)`);
+  }
 
   // ③ 구단 신상 · 소속 기록
   log('③ 구단 정보·소속 기록 수집');
   const clubInfo = await wikidata.clubProfiles([...teamIds.keys()]);
+  // 위키백과 문서가 없는 팀 항목(예: "SSV Jahn 2000 Regensburg" 1군 팀)은 Wikidata 상위 구단의 문서 · 소속 기록을 함께 쓴다
+  const parents = await wikidata.parentClubs([...teamIds.keys()].filter((q) => !clubInfo[q]?.enwiki));
+  const enwikiOf = (q) => clubInfo[q]?.enwiki ?? parents[q]?.enwiki ?? null;
+  if (Object.keys(parents).length) log(`  상위 구단으로 보완: ${Object.entries(parents).map(([q, p]) => `${teamIds.get(q)} ← ${p.enwiki ?? p.qid}`).join(', ')}`);
   const memberships = {};
-  for (const [q, id] of teamIds) memberships[id] = [...(memberships[id] ?? []), ...await wikidata.clubMemberships(q)];
+  for (const [q, id] of teamIds) {
+    memberships[id] = [...(memberships[id] ?? []), ...await wikidata.clubMemberships(q)];
+    if (parents[q]) memberships[id].push(...await wikidata.clubMemberships(parents[q].qid));
+  }
 
   // ④ 시즌별 후보 선수 → 신상 조회
   //   2007/08 이후는 위키백과 구단 문서의 그 시점 판(1군 선수단 표)이 1순위, 16명 미만이면 Wikidata 소속 기록
@@ -216,7 +234,7 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   for (const season of seasons) {
     if (+season.slice(0, 4) < WIKIPEDIA_FROM) continue;
     for (const t of bySeason.get(season).teams) {
-      const title = clubInfo[t.qid]?.enwiki;
+      const title = enwikiOf(t.qid);
       if (!title) continue;
       let r = await wikipedia.squadAt(title, snapshotDate(season));
       let players = r.players.filter(p => p.title);
@@ -227,7 +245,22 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
   }
   const titleMap = await wikipedia.resolveTitles([...new Set([...wpRosters.values()].flatMap(r => r.players.map(p => p.title)))]);
   const qidOfTitle = new Map();
-  for (const h of await wikidata.byEnwikiTitles([...new Set(Object.values(titleMap).filter(Boolean))])) qidOfTitle.set(h.enwiki, h.qid);
+  const dobOfQid = new Map();
+  for (const h of await wikidata.byEnwikiTitles([...new Set(Object.values(titleMap).filter(Boolean))])) { qidOfTitle.set(h.enwiki, h.qid); dobOfQid.set(h.qid, h.dob); }
+  // 명단 링크가 지금은 동명이인 안내 문서 등(생년월일 없는 항목)으로 넘겨지는 경우: 그 구단 소속 기록(Wikidata P54) 중
+  // 기준일에 소속이 겹치고 이름이 같은 사람이 한 명뿐일 때만 그 사람으로 본다 (성만 같으면 verify 표시)
+  const byMembership = (clubId, p, date) => {
+    const full = new Set([normName(p.name), normName((p.title || '').replace(/\s*\(.*?\)\s*/g, ''))].filter(Boolean));
+    const rows = (memberships[clubId] || []).filter((m) => m.dob && membershipAt(m, date) !== 'none');
+    const nameOf = (m) => normName((m.enwiki || m.label || '').replace(/\s*\(.*?\)\s*/g, ''));
+    const uniq = (list) => [...new Set(list.map((m) => m.qid))];
+    const exact = uniq(rows.filter((m) => full.has(nameOf(m)) || full.has(normName(m.label || ''))));
+    if (exact.length === 1) return { qid: exact[0], weak: false };
+    if (exact.length > 1) return null;
+    const last = normName(p.name).split(' ').pop();
+    const sur = uniq(rows.filter((m) => last && last.length > 2 && nameOf(m).split(' ').pop() === last));
+    return sur.length === 1 ? { qid: sur[0], weak: true } : null;
+  };
   log(`  위키백과 선수단 ${wpRosters.size}개 구단 시즌 · 문서 제목 → Wikidata ${qidOfTitle.size}명 연결`);
 
   for (const season of seasons) {
@@ -238,10 +271,15 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
       if (wp) {
         const cands = [];
         for (const p of wp.players) {
-          const q = qidOfTitle.get(titleMap[p.title]);
+          let q = qidOfTitle.get(titleMap[p.title]);
+          let weak = false;
+          if (!q || !dobOfQid.get(q)) {
+            const alt = byMembership(id, p, date);
+            if (alt) { q = alt.qid; weak = alt.weak; }
+          }
           if (!q) { wp.unresolved = (wp.unresolved || 0) + 1; continue; }
           if (cands.some(c => c.qid === q)) continue;
-          cands.push({ qid: q, number: p.number, nat: p.nat, posGroup: p.posGroup, loanFrom: p.loanFrom, presence: 'definite', fromWikipedia: true });
+          cands.push({ qid: q, number: p.number, nat: p.nat, posGroup: p.posGroup, loanFrom: p.loanFrom, presence: 'definite', fromWikipedia: true, ...(weak ? { weak } : {}) });
           allQids.add(q);
         }
         candBySeasonClub.set(`${season}/${id}`, { club: id, clubQid: t.qid, season, date, cands, source: { roster: 'wikipedia', revid: wp.revid, unresolved: wp.unresolved || 0 } });
@@ -308,7 +346,7 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
       const position = group ? (group.includes(pos) ? pos : group[0]) : (pos ?? 'CM');
       const exactEnd = c.end?.precision >= 11 && c.end.value >= date ? c.end.value : null;
       const loan = c.loanFrom ? clubIdFor({ qid: null, enwiki: c.loanFrom }, ctx).id : null;
-      const verify = (!pos && !group) || p.dob.precision < 11 || c.presence === 'possible';
+      const verify = (!pos && !group) || p.dob.precision < 11 || c.presence === 'possible' || !!c.weak;
       if (verify) stats.verify++;
       squad.push({
         id,
@@ -349,7 +387,7 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
         stadiumCapacity: info.capacity ?? null,
         estimated: true,
         source: source.roster === 'wikipedia'
-          ? { roster: `enwiki:${clubInfo[clubQid]?.enwiki}@${source.revid}`, rosterLicense: 'CC BY-SA 4.0', facts: 'wikidata', license: 'CC0-1.0', derived: model.MODEL_VERSION, snapshot: date }
+          ? { roster: `enwiki:${enwikiOf(clubQid)}@${source.revid}`, rosterLicense: 'CC BY-SA 4.0', facts: 'wikidata', license: 'CC0-1.0', derived: model.MODEL_VERSION, snapshot: date }
           : { roster: 'wikidata', facts: 'wikidata', license: 'CC0-1.0', derived: model.MODEL_VERSION, snapshot: date },
         squad,
       },
@@ -384,8 +422,11 @@ async function buildLeague({ league, apply, overwrite, seasonFilter, log }) {
     (leagueFiles.get(o.season) || leagueFiles.set(o.season, []).get(o.season)).push(o.club);
     writeClubMaster(o.club, o.info, cfg.nation);
   }
+  // 이미 있는 _league.json(순위 등)은 유지하고 참가 구단 목록만 합친다 (건너뛴 기존 파일 구단이 목록에서 빠지지 않게)
   for (const [season, clubs] of leagueFiles) {
-    writeJsonIfChanged(path.join(SEASONS_DIR, season, league, '_league.json'), { season, league, clubs: clubs.sort() });
+    const lp = path.join(SEASONS_DIR, season, league, '_league.json');
+    const prev = readJson(lp, {});
+    writeJsonIfChanged(lp, { ...prev, season, league, clubs: [...new Set([...(prev.clubs || []), ...clubs])].sort() });
   }
   writeJsonIfChanged(CLUBS_FILE, clubMap);
   writeJsonIfChanged(PLAYERS_FILE, playerMap);

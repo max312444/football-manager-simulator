@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 2385000,
-    "transferBudget": 1590000,
-    "wageBudget": 87450
+    "balance": 8200000,
+    "revenue": 32400000,
+    "revenueSource": "model",
+    "transferBudget": 4200000,
+    "wageBudget": 386000
   },
   "league": "ger1",
-  "reputation": 68,
+  "reputation": 74,
   "season": "2000-01",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -45,7 +47,7 @@
       "nation": "POL",
       "number": null,
       "pos": "ST",
-      "wage": 7500
+      "wage": 24000
     },
     {
       "attrs": {
@@ -71,7 +73,7 @@
       "nation": "ROU",
       "number": null,
       "pos": "CM",
-      "wage": 7500
+      "wage": 24000
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 6500
+      "wage": 24000
     },
     {
       "attrs": {
@@ -126,7 +128,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 6500
+      "wage": 21500
     },
     {
       "attrs": {
@@ -152,7 +154,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 4500
+      "wage": 24000
     },
     {
       "attrs": {
@@ -178,34 +180,7 @@
       "nation": "DEN",
       "number": null,
       "pos": "CB",
-      "wage": 4500
-    },
-    {
-      "attrs": {
-        "aer": 69,
-        "com": 68,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 72,
-        "pas": 64,
-        "pos": 50,
-        "sho": 72,
-        "sta": 68,
-        "str": 68,
-        "tac": 43,
-        "vis": 63
-      },
-      "birth": "1974-06-01",
-      "contract": null,
-      "foot": null,
-      "height": 170,
-      "id": "p0y123j9",
-      "name": "Jean-Kasongo Banze",
-      "nation": "COD",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 3500
+      "wage": 18500
     },
     {
       "attrs": {
@@ -232,7 +207,7 @@
       "nation2": "NGA",
       "number": null,
       "pos": "ST",
-      "wage": 3000
+      "wage": 12000
     },
     {
       "attrs": {
@@ -259,34 +234,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3000
-    },
-    {
-      "attrs": {
-        "aer": 59,
-        "com": 67,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 60,
-        "pas": 70,
-        "pos": 67,
-        "sho": 59,
-        "sta": 68,
-        "str": 64,
-        "tac": 61,
-        "vis": 67
-      },
-      "birth": "1973-06-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p03lcbb4",
-      "name": "Christian Wock",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 2500
+      "wage": 17000
     },
     {
       "attrs": {
@@ -312,7 +260,7 @@
       "nation": "POL",
       "number": null,
       "pos": "CM",
-      "wage": 2000
+      "wage": 15500
     },
     {
       "attrs": {
@@ -339,7 +287,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -365,7 +313,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 2000
+      "wage": 12000
     },
     {
       "attrs": {
@@ -392,34 +340,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1500
-    },
-    {
-      "attrs": {
-        "aer": 54,
-        "com": 67,
-        "dri": 63,
-        "ldr": 63,
-        "pac": 58,
-        "pas": 64,
-        "pos": 61,
-        "sho": 55,
-        "sta": 63,
-        "str": 56,
-        "tac": 59,
-        "vis": 65
-      },
-      "birth": "1968-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 182,
-      "id": "p0mbhwmn",
-      "name": "Detlev Dammeiar",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1500
+      "wage": 8500
     },
     {
       "attrs": {
@@ -445,7 +366,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -472,7 +393,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 11000
     },
     {
       "attrs": {
@@ -498,7 +419,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -524,7 +445,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -550,7 +471,7 @@
       "nation": "POL",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -577,7 +498,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -604,34 +525,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 50,
-        "com": 57,
-        "dri": 59,
-        "ldr": 59,
-        "pac": 55,
-        "pas": 65,
-        "pos": 57,
-        "sho": 56,
-        "sta": 61,
-        "str": 53,
-        "tac": 59,
-        "vis": 60
-      },
-      "birth": "1971-08-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p1srb9lc",
-      "name": "Nico Debritz",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -658,7 +552,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -684,7 +578,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -710,7 +604,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -737,7 +631,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -763,7 +657,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -789,7 +683,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -816,7 +710,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -844,7 +738,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -871,7 +765,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -898,7 +792,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -926,34 +820,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 54,
-        "com": 52,
-        "dri": 38,
-        "ldr": 48,
-        "pac": 43,
-        "pas": 42,
-        "pos": 54,
-        "sho": 24,
-        "sta": 48,
-        "str": 51,
-        "tac": 55,
-        "vis": 40
-      },
-      "birth": "1967-09-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p1wfbpbi",
-      "name": "Holger Ballwenz",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -980,7 +847,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 30000

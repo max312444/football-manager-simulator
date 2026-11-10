@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 2280000,
-    "transferBudget": 1520000,
-    "wageBudget": 83600
+    "balance": 6200000,
+    "revenue": 38000000,
+    "revenueSource": "model",
+    "transferBudget": 3400000,
+    "wageBudget": 453000
   },
   "league": "fra1",
-  "reputation": 65,
+  "reputation": 69,
   "season": "2010-11",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "FRA",
       "number": 1,
       "pos": "GK",
-      "wage": 1500
+      "wage": 10000
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "ESP",
       "number": 2,
       "pos": "RB",
-      "wage": 3000
+      "wage": 14000
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "MAR",
       "number": 4,
       "pos": "CB",
-      "wage": 6000
+      "wage": 24500
     },
     {
       "attrs": {
@@ -124,7 +126,7 @@
       "nation": "CIV",
       "number": 5,
       "pos": "CB",
-      "wage": 1500
+      "wage": 9000
     },
     {
       "attrs": {
@@ -151,7 +153,7 @@
       "nation2": "MAR",
       "number": 6,
       "pos": "CM",
-      "wage": 1500
+      "wage": 17000
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "nation": "FRA",
       "number": 7,
       "pos": "CM",
-      "wage": 1000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -203,7 +205,7 @@
       "nation": "FRA",
       "number": 8,
       "pos": "CM",
-      "wage": 1500
+      "wage": 15000
     },
     {
       "attrs": {
@@ -229,7 +231,7 @@
       "nation": "GRE",
       "number": 9,
       "pos": "ST",
-      "wage": 18000
+      "wage": 28000
     },
     {
       "attrs": {
@@ -257,7 +259,7 @@
       "nation2": "FRA",
       "number": 10,
       "pos": "CM",
-      "wage": 5000
+      "wage": 28000
     },
     {
       "alt": [
@@ -287,7 +289,7 @@
       "nation2": "FRA",
       "number": 11,
       "pos": "CM",
-      "wage": 7000
+      "wage": 28000
     },
     {
       "attrs": {
@@ -314,7 +316,7 @@
       "nation": "FRA",
       "number": 13,
       "pos": "RB",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -341,7 +343,7 @@
       "nation2": "MAR",
       "number": 14,
       "pos": "ST",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -367,7 +369,7 @@
       "nation": "FRA",
       "number": 15,
       "pos": "CB",
-      "wage": 1500
+      "wage": 8000
     },
     {
       "attrs": {
@@ -393,7 +395,7 @@
       "nation": "FRA",
       "number": 16,
       "pos": "GK",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -419,7 +421,7 @@
       "nation": "FRA",
       "number": 17,
       "pos": "CM",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -446,7 +448,7 @@
       "nation": "FRA",
       "number": 18,
       "pos": "ST",
-      "wage": 1500
+      "wage": 9000
     },
     {
       "attrs": {
@@ -473,7 +475,7 @@
       "nation2": "FRA",
       "number": 19,
       "pos": "ST",
-      "wage": 2000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -500,7 +502,7 @@
       "nation": "FRA",
       "number": 23,
       "pos": "RB",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -526,7 +528,7 @@
       "nation": "FRA",
       "number": 24,
       "pos": "CM",
-      "wage": 1000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -552,7 +554,7 @@
       "nation": "GRE",
       "number": 26,
       "pos": "CM",
-      "wage": 8500
+      "wage": 28000
     },
     {
       "attrs": {
@@ -578,7 +580,7 @@
       "nation": "SEN",
       "number": 27,
       "pos": "CM",
-      "wage": 1500
+      "wage": 11500
     },
     {
       "attrs": {
@@ -605,7 +607,7 @@
       "nation2": "ALG",
       "number": 28,
       "pos": "CM",
-      "wage": 3000
+      "wage": 22000
     },
     {
       "attrs": {
@@ -632,7 +634,7 @@
       "nation2": "FRA",
       "number": 29,
       "pos": "ST",
-      "wage": 4500
+      "wage": 19000
     },
     {
       "attrs": {
@@ -658,7 +660,7 @@
       "nation": "GUI",
       "number": null,
       "pos": "GK",
-      "wage": 1500
+      "wage": 10000
     }
   ],
   "stadiumCapacity": 17518

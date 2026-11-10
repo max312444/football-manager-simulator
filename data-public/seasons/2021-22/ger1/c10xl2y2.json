@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 8880000,
-    "transferBudget": 5920000,
-    "wageBudget": 325600
+    "balance": 54600000,
+    "revenue": 177200000,
+    "revenueSource": "model",
+    "transferBudget": 27800000,
+    "wageBudget": 2112000
   },
   "league": "ger1",
-  "reputation": 73,
+  "reputation": 79,
   "season": "2021-22",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "GER",
       "number": 1,
       "pos": "GK",
-      "wage": 18000
+      "wage": 106000
     },
     {
       "attrs": {
@@ -73,7 +75,7 @@
       "nation2": "NED",
       "number": 2,
       "pos": "RB",
-      "wage": 8000
+      "wage": 56000
     },
     {
       "alt": [
@@ -102,7 +104,7 @@
       "nation": "CZE",
       "number": 3,
       "pos": "CB",
-      "wage": 21000
+      "wage": 113500
     },
     {
       "attrs": {
@@ -129,7 +131,7 @@
       "nation2": "GER",
       "number": 4,
       "pos": "RB",
-      "wage": 9500
+      "wage": 65000
     },
     {
       "attrs": {
@@ -155,7 +157,7 @@
       "nation": "NOR",
       "number": 6,
       "pos": "CM",
-      "wage": 21000
+      "wage": 131000
     },
     {
       "attrs": {
@@ -181,7 +183,7 @@
       "nation": "DEN",
       "number": 7,
       "pos": "RW",
-      "wage": 3000
+      "wage": 24000
     },
     {
       "attrs": {
@@ -207,7 +209,7 @@
       "nation": "GER",
       "number": 8,
       "pos": "CM",
-      "wage": 1500
+      "wage": 25000
     },
     {
       "attrs": {
@@ -234,7 +236,7 @@
       "nation2": "GER",
       "number": 9,
       "pos": "ST",
-      "wage": 4500
+      "wage": 29500
     },
     {
       "attrs": {
@@ -260,7 +262,7 @@
       "nation": "ISR",
       "number": 10,
       "pos": "ST",
-      "wage": 15500
+      "wage": 70500
     },
     {
       "attrs": {
@@ -286,7 +288,7 @@
       "nation": "AUT",
       "number": 11,
       "pos": "CM",
-      "wage": 21000
+      "wage": 131000
     },
     {
       "attrs": {
@@ -312,7 +314,7 @@
       "nation": "GER",
       "number": 12,
       "pos": "GK",
-      "wage": 1000
+      "wage": 12500
     },
     {
       "attrs": {
@@ -338,7 +340,7 @@
       "nation": "GER",
       "number": 13,
       "pos": "CM",
-      "wage": 4500
+      "wage": 51000
     },
     {
       "attrs": {
@@ -364,7 +366,7 @@
       "nation": "AUT",
       "number": 14,
       "pos": "CM",
-      "wage": 9500
+      "wage": 79000
     },
     {
       "attrs": {
@@ -390,7 +392,7 @@
       "nation": "GHA",
       "number": 15,
       "pos": "CB",
-      "wage": 4500
+      "wage": 35500
     },
     {
       "alt": [
@@ -419,7 +421,7 @@
       "nation": "GER",
       "number": 16,
       "pos": "CM",
-      "wage": 24500
+      "wage": 131000
     },
     {
       "attrs": {
@@ -445,7 +447,7 @@
       "nation": "GER",
       "number": 17,
       "pos": "CB",
-      "wage": 13000
+      "wage": 77500
     },
     {
       "attrs": {
@@ -471,7 +473,7 @@
       "nation": "MLI",
       "number": 18,
       "pos": "CM",
-      "wage": 6000
+      "wage": 51000
     },
     {
       "attrs": {
@@ -498,7 +500,7 @@
       "nation2": "ALB",
       "number": 20,
       "pos": "CM",
-      "wage": 18000
+      "wage": 128000
     },
     {
       "attrs": {
@@ -524,7 +526,7 @@
       "nation": "GER",
       "number": 21,
       "pos": "CB",
-      "wage": 3000
+      "wage": 27000
     },
     {
       "alt": [
@@ -553,7 +555,7 @@
       "nation": "GER",
       "number": 22,
       "pos": "CB",
-      "wage": 13000
+      "wage": 78500
     },
     {
       "attrs": {
@@ -579,7 +581,7 @@
       "nation": "ARM",
       "number": 23,
       "pos": "ST",
-      "wage": 5000
+      "wage": 32500
     },
     {
       "attrs": {
@@ -606,7 +608,7 @@
       "nation2": "GER",
       "number": 25,
       "pos": "CB",
-      "wage": 15500
+      "wage": 77000
     },
     {
       "attrs": {
@@ -632,7 +634,7 @@
       "nation": "CRO",
       "number": 27,
       "pos": "ST",
-      "wage": 33500
+      "wage": 131000
     },
     {
       "attrs": {
@@ -658,7 +660,7 @@
       "nation": "DEN",
       "number": 29,
       "pos": "ST",
-      "wage": 9500
+      "wage": 57500
     },
     {
       "attrs": {
@@ -684,7 +686,7 @@
       "nation": "GER",
       "number": 30,
       "pos": "CM",
-      "wage": 1000
+      "wage": 9500
     },
     {
       "attrs": {
@@ -711,7 +713,7 @@
       "nation2": "SUR",
       "number": 32,
       "pos": "CB",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -737,33 +739,7 @@
       "nation": "FRA",
       "number": 33,
       "pos": "ST",
-      "wage": 2500
-    },
-    {
-      "attrs": {
-        "aer": 57,
-        "com": 59,
-        "dri": 59,
-        "ldr": 53,
-        "pac": 56,
-        "pas": 48,
-        "pos": 38,
-        "sho": 61,
-        "sta": 53,
-        "str": 61,
-        "tac": 30,
-        "vis": 52
-      },
-      "birth": "2002-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 182,
-      "id": "p1l61ds7",
-      "name": "Maximilian Beyer",
-      "nation": "GER",
-      "number": 35,
-      "pos": "ST",
-      "wage": 1000
+      "wage": 21500
     },
     {
       "attrs": {
@@ -789,7 +765,7 @@
       "nation": "AUT",
       "number": 38,
       "pos": "CB",
-      "wage": 4500
+      "wage": 32500
     },
     {
       "attrs": {
@@ -816,7 +792,7 @@
       "nation": "USA",
       "number": null,
       "pos": "CB",
-      "wage": 2500
+      "wage": 19500
     }
   ],
   "stadiumCapacity": 30150

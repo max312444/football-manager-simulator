@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 8025000,
-    "transferBudget": 5350000,
-    "wageBudget": 294250
+    "balance": 24600000,
+    "revenue": 76500000,
+    "revenueSource": "model",
+    "transferBudget": 12500000,
+    "wageBudget": 912000
   },
   "league": "ger1",
-  "reputation": 74,
+  "reputation": 80,
   "season": "2006-07",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -45,7 +47,7 @@
       "nation": "DEN",
       "number": null,
       "pos": "ST",
-      "wage": 18500
+      "wage": 41000
     },
     {
       "attrs": {
@@ -71,7 +73,7 @@
       "nation": "SUI",
       "number": null,
       "pos": "RB",
-      "wage": 15500
+      "wage": 44000
     },
     {
       "attrs": {
@@ -97,7 +99,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 15500
+      "wage": 43500
     },
     {
       "attrs": {
@@ -123,7 +125,7 @@
       "nation": "POR",
       "number": null,
       "pos": "CB",
-      "wage": 13500
+      "wage": 36500
     },
     {
       "attrs": {
@@ -150,7 +152,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 13500
+      "wage": 52500
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 13500
+      "wage": 39000
     },
     {
       "attrs": {
@@ -203,33 +205,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 13500
-    },
-    {
-      "attrs": {
-        "aer": 71,
-        "com": 76,
-        "dri": 76,
-        "ldr": 67,
-        "pac": 73,
-        "pas": 69,
-        "pos": 55,
-        "sho": 80,
-        "sta": 72,
-        "str": 73,
-        "tac": 45,
-        "vis": 65
-      },
-      "birth": "1981-06-01",
-      "contract": null,
-      "foot": null,
-      "height": 195,
-      "id": "p0y91uh9",
-      "name": "Marco Straller",
-      "nation": "SUI",
-      "number": null,
-      "pos": "ST",
-      "wage": 11500
+      "wage": 52000
     },
     {
       "attrs": {
@@ -256,7 +232,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 11500
+      "wage": 34500
     },
     {
       "attrs": {
@@ -283,34 +259,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 11500
-    },
-    {
-      "attrs": {
-        "aer": 76,
-        "com": 74,
-        "dri": 59,
-        "ldr": 74,
-        "pac": 68,
-        "pas": 66,
-        "pos": 78,
-        "sho": 51,
-        "sta": 70,
-        "str": 79,
-        "tac": 80,
-        "vis": 60
-      },
-      "birth": "1975-11-01",
-      "contract": null,
-      "foot": null,
-      "height": 182,
-      "id": "p06xn7ep",
-      "name": "Boris Zivkuvic",
-      "nation": "CRO",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 10000
+      "wage": 45000
     },
     {
       "attrs": {
@@ -336,7 +285,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 10000
+      "wage": 28500
     },
     {
       "attrs": {
@@ -363,7 +312,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 8500
+      "wage": 30500
     },
     {
       "attrs": {
@@ -389,7 +338,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 8500
+      "wage": 24500
     },
     {
       "attrs": {
@@ -415,7 +364,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 7000
+      "wage": 33000
     },
     {
       "attrs": {
@@ -441,7 +390,7 @@
       "nation": "FRA",
       "number": null,
       "pos": "RB",
-      "wage": 7000
+      "wage": 22500
     },
     {
       "attrs": {
@@ -468,7 +417,7 @@
       "nation2": "BRA",
       "number": null,
       "pos": "ST",
-      "wage": 6000
+      "wage": 20000
     },
     {
       "alt": [
@@ -498,7 +447,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 4500
+      "wage": 16500
     },
     {
       "attrs": {
@@ -526,7 +475,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 4500
+      "wage": 23000
     },
     {
       "attrs": {
@@ -553,7 +502,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 4000
+      "wage": 19500
     },
     {
       "attrs": {
@@ -579,7 +528,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CM",
-      "wage": 4000
+      "wage": 20000
     },
     {
       "attrs": {
@@ -605,7 +554,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 3500
+      "wage": 17000
     },
     {
       "attrs": {
@@ -632,7 +581,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3500
+      "wage": 16500
     },
     {
       "attrs": {
@@ -659,7 +608,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 3500
+      "wage": 13500
     },
     {
       "attrs": {
@@ -686,7 +635,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3500
+      "wage": 20000
     },
     {
       "attrs": {
@@ -713,7 +662,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 3000
+      "wage": 13000
     },
     {
       "attrs": {
@@ -739,7 +688,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 2500
+      "wage": 14500
     },
     {
       "attrs": {
@@ -766,7 +715,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 2000
+      "wage": 13500
     },
     {
       "attrs": {
@@ -794,7 +743,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -820,7 +769,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CM",
-      "wage": 1500
+      "wage": 12000
     },
     {
       "attrs": {
@@ -847,33 +796,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1500
-    },
-    {
-      "attrs": {
-        "aer": 51,
-        "com": 59,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 63,
-        "pos": 57,
-        "sho": 57,
-        "sta": 67,
-        "str": 54,
-        "tac": 57,
-        "vis": 66
-      },
-      "birth": "1973-01-01",
-      "contract": null,
-      "foot": null,
-      "height": 176,
-      "id": "p10ca7t9",
-      "name": "Silvio Maissner",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1500
+      "wage": 10000
     },
     {
       "attrs": {
@@ -900,7 +823,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -927,7 +850,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -955,7 +878,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -982,7 +905,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -1008,7 +931,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -1035,7 +958,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -1061,7 +984,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -1088,7 +1011,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -1115,7 +1038,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 60058

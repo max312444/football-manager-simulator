@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 5385000,
-    "transferBudget": 3590000,
-    "wageBudget": 197450
+    "balance": 22200000,
+    "revenue": 80000000,
+    "revenueSource": "model",
+    "transferBudget": 11400000,
+    "wageBudget": 953000
   },
   "league": "ger1",
-  "reputation": 71,
+  "reputation": 76,
   "season": "2012-13",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "DEN",
       "number": 2,
       "pos": "CB",
-      "wage": 4000
+      "wage": 20000
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "CZE",
       "number": 3,
       "pos": "CB",
-      "wage": 7500
+      "wage": 35000
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "MKD",
       "number": 4,
       "pos": "CB",
-      "wage": 7500
+      "wage": 32000
     },
     {
       "attrs": {
@@ -124,7 +126,7 @@
       "nation": "GER",
       "number": 6,
       "pos": "CM",
-      "wage": 4500
+      "wage": 31000
     },
     {
       "attrs": {
@@ -151,7 +153,7 @@
       "nation2": "GER",
       "number": 7,
       "pos": "CM",
-      "wage": 16500
+      "wage": 59000
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "nation": "SVK",
       "number": 8,
       "pos": "CB",
-      "wage": 14000
+      "wage": 50000
     },
     {
       "attrs": {
@@ -204,7 +206,7 @@
       "nation2": "GER",
       "number": 10,
       "pos": "ST",
-      "wage": 14000
+      "wage": 47500
     },
     {
       "attrs": {
@@ -231,33 +233,7 @@
       "nation2": "TUR",
       "number": 11,
       "pos": "CM",
-      "wage": 4000
-    },
-    {
-      "attrs": {
-        "aer": 63,
-        "com": 62,
-        "dri": 63,
-        "ldr": 58,
-        "pac": 61,
-        "pas": 55,
-        "pos": 39,
-        "sho": 67,
-        "sta": 60,
-        "str": 65,
-        "tac": 33,
-        "vis": 58
-      },
-      "birth": "1990-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p1hoo7w1",
-      "name": "Anthony Ujeh",
-      "nation": "NGA",
-      "number": 13,
-      "pos": "ST",
-      "wage": 2000
+      "wage": 28500
     },
     {
       "attrs": {
@@ -283,7 +259,7 @@
       "nation": "AUT",
       "number": 14,
       "pos": "CM",
-      "wage": 12000
+      "wage": 58000
     },
     {
       "attrs": {
@@ -309,7 +285,7 @@
       "nation": "GER",
       "number": 15,
       "pos": "CB",
-      "wage": 5500
+      "wage": 25500
     },
     {
       "attrs": {
@@ -335,7 +311,7 @@
       "nation": "GER",
       "number": 16,
       "pos": "CB",
-      "wage": 3000
+      "wage": 17000
     },
     {
       "alt": [
@@ -365,7 +341,7 @@
       "nation2": "NGA",
       "number": 17,
       "pos": "CM",
-      "wage": 5500
+      "wage": 35000
     },
     {
       "attrs": {
@@ -391,7 +367,7 @@
       "nation": "COL",
       "number": 19,
       "pos": "CM",
-      "wage": 7500
+      "wage": 40500
     },
     {
       "alt": [
@@ -420,7 +396,7 @@
       "nation": "CRC",
       "number": 20,
       "pos": "CB",
-      "wage": 14000
+      "wage": 48500
     },
     {
       "attrs": {
@@ -446,7 +422,7 @@
       "nation": "GER",
       "number": 23,
       "pos": "CM",
-      "wage": 3500
+      "wage": 26500
     },
     {
       "attrs": {
@@ -472,7 +448,7 @@
       "nation": "GER",
       "number": 24,
       "pos": "CB",
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -498,7 +474,7 @@
       "nation": "AUT",
       "number": 25,
       "pos": "CM",
-      "wage": 19500
+      "wage": 59000
     },
     {
       "attrs": {
@@ -524,7 +500,7 @@
       "nation": "GER",
       "number": 26,
       "pos": "CB",
-      "wage": 5500
+      "wage": 27500
     },
     {
       "attrs": {
@@ -550,7 +526,7 @@
       "nation": "GER",
       "number": 27,
       "pos": "CM",
-      "wage": 3000
+      "wage": 23000
     },
     {
       "attrs": {
@@ -576,7 +552,7 @@
       "nation": "HUN",
       "number": 28,
       "pos": "ST",
-      "wage": 12000
+      "wage": 41500
     },
     {
       "attrs": {
@@ -602,7 +578,7 @@
       "nation": "GER",
       "number": 29,
       "pos": "GK",
-      "wage": 3500
+      "wage": 20500
     },
     {
       "attrs": {
@@ -628,7 +604,7 @@
       "nation": "GER",
       "number": 33,
       "pos": "GK",
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -655,7 +631,7 @@
       "nation2": "UKR",
       "number": null,
       "pos": "CM",
-      "wage": 9000
+      "wage": 53500
     }
   ],
   "stadiumCapacity": 34034

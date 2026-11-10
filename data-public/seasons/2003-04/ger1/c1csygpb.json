@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 7380000,
-    "transferBudget": 4920000,
-    "wageBudget": 270600
+    "balance": 23600000,
+    "revenue": 71200000,
+    "revenueSource": "model",
+    "transferBudget": 12000000,
+    "wageBudget": 849000
   },
   "league": "ger1",
-  "reputation": 74,
+  "reputation": 82,
   "season": "2003-04",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -45,7 +47,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CB",
-      "wage": 16500
+      "wage": 47000
     },
     {
       "attrs": {
@@ -71,7 +73,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 16500
+      "wage": 45500
     },
     {
       "alt": [
@@ -100,7 +102,7 @@
       "nation": "GER",
       "number": null,
       "pos": "AM",
-      "wage": 14000
+      "wage": 42000
     },
     {
       "attrs": {
@@ -126,7 +128,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 14000
+      "wage": 40500
     },
     {
       "attrs": {
@@ -152,7 +154,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 12000
+      "wage": 49500
     },
     {
       "attrs": {
@@ -178,7 +180,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CB",
-      "wage": 12000
+      "wage": 41500
     },
     {
       "attrs": {
@@ -204,7 +206,7 @@
       "nation": "ARG",
       "number": null,
       "pos": "RB",
-      "wage": 10000
+      "wage": 30500
     },
     {
       "attrs": {
@@ -231,7 +233,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 10000
+      "wage": 35000
     },
     {
       "attrs": {
@@ -259,7 +261,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 8500
+      "wage": 30500
     },
     {
       "attrs": {
@@ -285,7 +287,7 @@
       "nation": "BUL",
       "number": null,
       "pos": "ST",
-      "wage": 8500
+      "wage": 28500
     },
     {
       "attrs": {
@@ -311,7 +313,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "ST",
-      "wage": 8500
+      "wage": 25500
     },
     {
       "attrs": {
@@ -337,7 +339,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 8500
+      "wage": 32500
     },
     {
       "attrs": {
@@ -364,7 +366,7 @@
       "nation2": "TUR",
       "number": null,
       "pos": "CM",
-      "wage": 8500
+      "wage": 43500
     },
     {
       "attrs": {
@@ -391,7 +393,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 7500
+      "wage": 29000
     },
     {
       "attrs": {
@@ -418,7 +420,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 7500
+      "wage": 38500
     },
     {
       "attrs": {
@@ -444,7 +446,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 5500
+      "wage": 23500
     },
     {
       "attrs": {
@@ -470,7 +472,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 4500
+      "wage": 25500
     },
     {
       "attrs": {
@@ -496,7 +498,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "RB",
-      "wage": 4500
+      "wage": 21500
     },
     {
       "attrs": {
@@ -523,7 +525,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 4000
+      "wage": 16500
     },
     {
       "attrs": {
@@ -550,7 +552,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 4000
+      "wage": 15000
     },
     {
       "attrs": {
@@ -577,7 +579,7 @@
       "number": null,
       "pos": "RB",
       "verify": true,
-      "wage": 3500
+      "wage": 16500
     },
     {
       "attrs": {
@@ -603,7 +605,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 3500
+      "wage": 14500
     },
     {
       "attrs": {
@@ -629,7 +631,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 3000
+      "wage": 18500
     },
     {
       "attrs": {
@@ -655,7 +657,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 2500
+      "wage": 13500
     },
     {
       "attrs": {
@@ -681,61 +683,7 @@
       "nation": "AUS",
       "number": null,
       "pos": "GK",
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 70,
-        "com": 66,
-        "dri": 55,
-        "ldr": 62,
-        "pac": 63,
-        "pas": 59,
-        "pos": 68,
-        "sho": 40,
-        "sta": 64,
-        "str": 67,
-        "tac": 71,
-        "vis": 53
-      },
-      "birth": "1977-12-01",
-      "contract": null,
-      "foot": null,
-      "height": 191,
-      "id": "p1r23myb",
-      "name": "Thomas Klaine",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 47,
-        "com": 56,
-        "dri": 55,
-        "ldr": 52,
-        "pac": 52,
-        "pas": 58,
-        "pos": 59,
-        "sho": 50,
-        "sta": 63,
-        "str": 51,
-        "tac": 54,
-        "vis": 57
-      },
-      "birth": "1980-09-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p15vky1g",
-      "name": "Anel Dzake",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1000
+      "wage": 12000
     },
     {
       "attrs": {
@@ -761,7 +709,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -787,7 +735,7 @@
       "nation": "GER",
       "number": null,
       "pos": "RB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -814,7 +762,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -841,7 +789,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -867,7 +815,7 @@
       "nation": "TUR",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {
@@ -895,7 +843,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 30210

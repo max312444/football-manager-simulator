@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 1785000,
-    "transferBudget": 1190000,
-    "wageBudget": 65450
+    "balance": 4500000,
+    "revenue": 23500000,
+    "revenueSource": "model",
+    "transferBudget": 2400000,
+    "wageBudget": 280000
   },
   "league": "esp1",
-  "reputation": 65,
+  "reputation": 71,
   "season": "2000-01",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 6500
+      "wage": 17500
     },
     {
       "attrs": {
@@ -73,7 +75,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 6500
+      "wage": 17500
     },
     {
       "alt": [
@@ -102,7 +104,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CM",
-      "wage": 4000
+      "wage": 17500
     },
     {
       "attrs": {
@@ -128,7 +130,7 @@
       "nation": "POL",
       "number": null,
       "pos": "ST",
-      "wage": 3500
+      "wage": 13000
     },
     {
       "attrs": {
@@ -154,7 +156,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "ST",
-      "wage": 3000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -180,7 +182,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CM",
-      "wage": 3000
+      "wage": 17000
     },
     {
       "attrs": {
@@ -207,7 +209,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2500
+      "wage": 12000
     },
     {
       "attrs": {
@@ -234,7 +236,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2000
+      "wage": 9500
     },
     {
       "attrs": {
@@ -260,7 +262,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -287,7 +289,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1500
+      "wage": 6500
     },
     {
       "attrs": {
@@ -313,7 +315,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -340,34 +342,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 66,
-        "com": 61,
-        "dri": 48,
-        "ldr": 59,
-        "pac": 56,
-        "pas": 53,
-        "pos": 69,
-        "sho": 39,
-        "sta": 60,
-        "str": 62,
-        "tac": 68,
-        "vis": 52
-      },
-      "birth": "1970-11-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p09n7qc2",
-      "name": "Petar Vasiljavic",
-      "nation": "SRB",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -394,7 +369,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 8500
     },
     {
       "alt": [
@@ -423,7 +398,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "DM",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -450,7 +425,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -476,7 +451,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -502,7 +477,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -529,7 +504,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -555,7 +530,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -582,7 +557,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -608,7 +583,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -635,7 +610,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -661,7 +636,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -687,7 +662,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "RB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -714,7 +689,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -741,7 +716,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -767,7 +742,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 3000
     },
     {
       "alt": [
@@ -798,7 +773,7 @@
       "number": null,
       "pos": "RW",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     },
     {
       "alt": [
@@ -827,7 +802,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "RB",
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -853,7 +828,7 @@
       "nation": "ESP",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 23576

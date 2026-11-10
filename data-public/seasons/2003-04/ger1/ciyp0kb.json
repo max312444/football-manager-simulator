@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 4185000,
-    "transferBudget": 2790000,
-    "wageBudget": 153450
+    "balance": 12200000,
+    "revenue": 45800000,
+    "revenueSource": "model",
+    "transferBudget": 6300000,
+    "wageBudget": 547000
   },
   "league": "ger1",
-  "reputation": 71,
+  "reputation": 76,
   "season": "2003-04",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -21,33 +23,6 @@
     "snapshot": "2003-09-01"
   },
   "squad": [
-    {
-      "attrs": {
-        "aer": 64,
-        "com": 78,
-        "dri": 77,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 76,
-        "pos": 74,
-        "sho": 69,
-        "sta": 77,
-        "str": 75,
-        "tac": 72,
-        "vis": 77
-      },
-      "birth": "1977-08-01",
-      "contract": null,
-      "foot": null,
-      "height": 188,
-      "id": "p0nu7u9b",
-      "name": "Marek Heynz",
-      "nation": "CZE",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 12000
-    },
     {
       "attrs": {
         "aer": 69,
@@ -73,7 +48,7 @@
       "nation2": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 12000
+      "wage": 34000
     },
     {
       "attrs": {
@@ -100,7 +75,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 12000
+      "wage": 31500
     },
     {
       "attrs": {
@@ -126,7 +101,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "CB",
-      "wage": 12000
+      "wage": 34000
     },
     {
       "attrs": {
@@ -152,7 +127,7 @@
       "nation": "BIH",
       "number": null,
       "pos": "CM",
-      "wage": 10000
+      "wage": 34000
     },
     {
       "attrs": {
@@ -178,7 +153,7 @@
       "nation": "DEN",
       "number": null,
       "pos": "RB",
-      "wage": 7500
+      "wage": 28000
     },
     {
       "attrs": {
@@ -205,7 +180,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 7500
+      "wage": 28500
     },
     {
       "attrs": {
@@ -231,7 +206,7 @@
       "nation": "ARG",
       "number": null,
       "pos": "ST",
-      "wage": 5500
+      "wage": 17500
     },
     {
       "attrs": {
@@ -258,7 +233,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 5500
+      "wage": 29500
     },
     {
       "attrs": {
@@ -284,7 +259,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "CB",
-      "wage": 5500
+      "wage": 21500
     },
     {
       "attrs": {
@@ -310,7 +285,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 3000
+      "wage": 13500
     },
     {
       "attrs": {
@@ -336,7 +311,7 @@
       "nation": "SUI",
       "number": null,
       "pos": "CM",
-      "wage": 3000
+      "wage": 20000
     },
     {
       "attrs": {
@@ -363,7 +338,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3000
+      "wage": 18000
     },
     {
       "attrs": {
@@ -390,7 +365,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3000
+      "wage": 17500
     },
     {
       "attrs": {
@@ -416,7 +391,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 2500
+      "wage": 12500
     },
     {
       "attrs": {
@@ -443,7 +418,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 2000
+      "wage": 15500
     },
     {
       "attrs": {
@@ -470,7 +445,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -496,34 +471,7 @@
       "nation": "ARG",
       "number": null,
       "pos": "CM",
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 61,
-        "com": 62,
-        "dri": 61,
-        "ldr": 55,
-        "pac": 66,
-        "pas": 54,
-        "pos": 40,
-        "sho": 68,
-        "sta": 58,
-        "str": 63,
-        "tac": 30,
-        "vis": 58
-      },
-      "birth": "1969-08-01",
-      "contract": null,
-      "foot": null,
-      "height": 189,
-      "id": "p0dx7xwd",
-      "name": "Erik Meyjer",
-      "nation": "NED",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 1500
+      "wage": 13500
     },
     {
       "attrs": {
@@ -551,7 +499,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -577,7 +525,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -604,7 +552,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -630,7 +578,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -657,7 +605,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -683,7 +631,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -710,7 +658,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -736,7 +684,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -763,34 +711,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 50,
-        "com": 57,
-        "dri": 54,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 63,
-        "pos": 54,
-        "sho": 50,
-        "sta": 58,
-        "str": 55,
-        "tac": 56,
-        "vis": 59
-      },
-      "birth": "1969-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 181,
-      "id": "p10v8n5z",
-      "name": "Martin Gruth",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -816,7 +737,7 @@
       "nation": "NED",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -843,7 +764,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -871,7 +792,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -898,7 +819,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -925,7 +846,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -953,7 +874,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -980,7 +901,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -1008,7 +929,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 57000

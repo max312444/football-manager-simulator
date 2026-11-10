@@ -5,7 +5,7 @@ import { useHistory, useWorld } from '../hooks';
 import { clubKo, playerKo } from '../../data/db';
 import { POS_KO } from '../../data/rating';
 import { ageOn } from '../../engine/condition';
-import { AWARD_KO } from '../../engine/awards';
+import { AWARD_KO, isTrophy } from '../../engine/awards';
 import { TRAIT } from '../../engine/traits';
 import { careerSpells } from '../views/PlayerPanel';
 import { Crest } from './Crest';
@@ -78,7 +78,7 @@ export function RetireNews() {
 
           {(honours.length > 0 || p.traits.length > 0) && (
             <div className="mt-5 flex flex-wrap gap-2 text-[12px]">
-              {honours.map((h, k) => <span key={k} className={`rounded-md px-2 py-1 ${h.kind === 'champion' ? 'bg-[#f2c94c]/10 text-[#f2c94c]' : 'bg-ink-800 text-hi'}`}>{AWARD_KO[h.kind]} {h.season.slice(2, 4)}/{h.season.slice(5, 7)}</span>)}
+              {honours.map((h, k) => <span key={k} className={`rounded-md px-2 py-1 ${isTrophy(h.kind) ? 'bg-[#f2c94c]/10 text-[#f2c94c]' : 'bg-ink-800 text-hi'}`}>{AWARD_KO[h.kind]} {h.season.slice(2, 4)}/{h.season.slice(5, 7)}</span>)}
               {p.traits.map((t) => <span key={t} className="rounded-md bg-ink-800 px-2 py-1 text-mid">「{TRAIT.get(t)?.ko ?? t}」</span>)}
             </div>
           )}

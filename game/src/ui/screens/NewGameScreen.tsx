@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useApp } from '../../store/app';
 import { useGame } from '../../store/game';
-import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadLeagueSeason, playerKo, realAvailable, setDataset } from '../../data/db';
+import { availableSeasons, clubKo, compKo, clubs as clubMasters, dataset, leagues, loadLeagueSeason, playerKo, realAvailable, setDataset } from '../../data/db';
 import { overall } from '../../data/rating';
 import type { ClubSeasonFile } from '../../data/types';
 import { Crest } from '../components/Crest';
@@ -61,7 +61,7 @@ export function NewGameScreen() {
         </button>
         <h1 className="mt-2 text-[26px] font-semibold">새 게임</h1>
         <ol className="mt-10 space-y-6">
-          {[['시즌', fmtSeason(season)], ['리그', leagues.find((l) => l.id === league)?.ko], ['구단', club ? clubKo(club) : '–']].map(([k, v], i) => (
+          {[['시즌', fmtSeason(season)], ['리그', compKo(league)], ['구단', club ? clubKo(club) : '–']].map(([k, v], i) => (
             <li key={k} className="flex gap-4">
               <span className="tnum mt-0.5 text-[12px] font-semibold text-neon">{String(i + 1).padStart(2, '0')}</span>
               <div>

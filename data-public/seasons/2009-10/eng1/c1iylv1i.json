@@ -6,13 +6,15 @@
     "youth": 2
   },
   "finance": {
-    "balance": 2000000,
-    "transferBudget": 5000000,
-    "wageBudget": 600000
+    "balance": 20000000,
+    "revenue": 70500000,
+    "revenueSource": "model",
+    "transferBudget": 10200000,
+    "wageBudget": 841000
   },
   "formation": "4-5-1",
   "league": "eng1",
-  "reputation": 54,
+  "reputation": 77,
   "season": "2009-10",
   "squad": [
     {
@@ -39,7 +41,7 @@
       "nation": "WAL",
       "number": 1,
       "pos": "GK",
-      "wage": 18000
+      "wage": 52000
     },
     {
       "attrs": {
@@ -65,7 +67,7 @@
       "nation": "ENG",
       "number": 13,
       "pos": "GK",
-      "wage": 8000
+      "wage": 23000
     },
     {
       "alt": [
@@ -96,7 +98,7 @@
       "number": 22,
       "pos": "CB",
       "verify": true,
-      "wage": 21000
+      "wage": 28500
     },
     {
       "attrs": {
@@ -122,7 +124,7 @@
       "nation": "ENG",
       "number": 3,
       "pos": "LB",
-      "wage": 12000
+      "wage": 33500
     },
     {
       "attrs": {
@@ -151,7 +153,7 @@
       "traits": [
         "leader"
       ],
-      "wage": 15000
+      "wage": 51000
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "nation": "GUI",
       "number": 6,
       "pos": "CB",
-      "wage": 15000
+      "wage": 38000
     },
     {
       "alt": [
@@ -206,7 +208,7 @@
       "nation": "ENG",
       "number": 7,
       "pos": "AM",
-      "wage": 15000
+      "wage": 15500
     },
     {
       "attrs": {
@@ -232,7 +234,7 @@
       "nation": "ENG",
       "number": 8,
       "pos": "CM",
-      "wage": 13000
+      "wage": 29500
     },
     {
       "attrs": {
@@ -258,7 +260,7 @@
       "nation": "GAB",
       "number": 9,
       "pos": "ST",
-      "wage": 25000
+      "wage": 24000
     },
     {
       "alt": [
@@ -288,7 +290,7 @@
       "number": 10,
       "pos": "LM",
       "verify": true,
-      "wage": 26000
+      "wage": 36000
     },
     {
       "alt": [
@@ -317,7 +319,7 @@
       "nation": "ENG",
       "number": 11,
       "pos": "RW",
-      "wage": 12000
+      "wage": 17000
     },
     {
       "attrs": {
@@ -345,7 +347,7 @@
       "number": 12,
       "pos": "ST",
       "verify": true,
-      "wage": 6000
+      "wage": 19500
     },
     {
       "alt": [
@@ -374,7 +376,7 @@
       "nation": "FRA",
       "number": 15,
       "pos": "RM",
-      "wage": 15000
+      "wage": 16000
     },
     {
       "attrs": {
@@ -403,7 +405,7 @@
       "traits": [
         "injury_prone"
       ],
-      "wage": 20000
+      "wage": 34500
     },
     {
       "attrs": {
@@ -430,7 +432,7 @@
       "number": 18,
       "pos": "CM",
       "verify": true,
-      "wage": 20000
+      "wage": 37500
     },
     {
       "attrs": {
@@ -456,7 +458,7 @@
       "nation": "ENG",
       "number": 19,
       "pos": "CM",
-      "wage": 12000
+      "wage": 19500
     },
     {
       "alt": [
@@ -490,7 +492,7 @@
         "long_shot",
         "free_kick"
       ],
-      "wage": 25000
+      "wage": 50000
     },
     {
       "alt": [
@@ -519,7 +521,7 @@
       "nation": "AUS",
       "number": 23,
       "pos": "RM",
-      "wage": 12000
+      "wage": 14500
     },
     {
       "attrs": {
@@ -550,7 +552,7 @@
         "free_kick"
       ],
       "verify": true,
-      "wage": 35000
+      "wage": 52000
     },
     {
       "alt": [
@@ -580,7 +582,7 @@
       "number": 25,
       "pos": "RW",
       "verify": true,
-      "wage": 8000
+      "wage": 26500
     },
     {
       "attrs": {
@@ -608,7 +610,7 @@
       "number": 27,
       "pos": "CB",
       "verify": true,
-      "wage": 20000
+      "wage": 36500
     },
     {
       "attrs": {
@@ -635,7 +637,7 @@
       "number": 28,
       "pos": "CB",
       "verify": true,
-      "wage": 9000
+      "wage": 30000
     },
     {
       "attrs": {
@@ -665,7 +667,7 @@
         "target_man"
       ],
       "verify": true,
-      "wage": 11000
+      "wage": 37000
     }
   ],
   "stadiumCapacity": 25404

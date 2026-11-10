@@ -14,8 +14,9 @@ export function ageOn(birth: string, date: string): number {
 /**
  * 하루 경과.
  * @param congested 최근 3일 안에 경기를 뛰었는지 (일정 밀도)
+ * @param recovery 체력 회복 배율 (훈련 강도: 낮음 1.08 · 보통 1 · 높음 0.9)
  */
-export function dailyUpdate(p: PlayerState, date: string, rng: Rng, congested: boolean) {
+export function dailyUpdate(p: PlayerState, date: string, rng: Rng, congested: boolean, recovery = 1) {
   const age = ageOn(p.birth, date);
   const pro = p.hidden.professionalism / 20;
 
@@ -26,7 +27,7 @@ export function dailyUpdate(p: PlayerState, date: string, rng: Rng, congested: b
   }
 
   // 체력 회복: 젊고 체력 좋고 프로의식 높을수록 빠름
-  const rec = 9 * (0.8 + attr(p, 'sta') / 250) * (age >= 31 ? 0.85 : 1) * (0.9 + 0.2 * pro);
+  const rec = 9 * (0.8 + attr(p, 'sta') / 250) * (age >= 31 ? 0.85 : 1) * (0.9 + 0.2 * pro) * recovery;   // recovery = 훈련 강도 배율
   p.fitness = clamp(p.fitness + (p.injury ? 2 : rec), 0, 100);
 
   // 몸 상태: 평균으로 돌아가려는 랜덤 워크. 일정이 빡빡하면 떨어지고, 프로의식이 높으면 덜 흔들림

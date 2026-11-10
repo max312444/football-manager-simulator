@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 9120000,
-    "transferBudget": 6080000,
-    "wageBudget": 334400
+    "balance": 40800000,
+    "revenue": 134900000,
+    "revenueSource": "model",
+    "transferBudget": 20800000,
+    "wageBudget": 1609000
   },
   "league": "ger1",
-  "reputation": 73,
+  "reputation": 79,
   "season": "2017-18",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,33 +48,7 @@
       "nation": "GER",
       "number": 1,
       "pos": "GK",
-      "wage": 16500
-    },
-    {
-      "attrs": {
-        "aer": 55,
-        "com": 50,
-        "dri": 40,
-        "ldr": 52,
-        "pac": 44,
-        "pas": 44,
-        "pos": 53,
-        "sho": 27,
-        "sta": 46,
-        "str": 56,
-        "tac": 56,
-        "vis": 36
-      },
-      "birth": "1999-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 160,
-      "id": "p0z4rtjn",
-      "name": "Sarai Lindar",
-      "nation": "GER",
-      "number": 2,
-      "pos": "CB",
-      "wage": 1000
+      "wage": 75500
     },
     {
       "alt": [
@@ -101,7 +77,7 @@
       "nation": "CZE",
       "number": 3,
       "pos": "CB",
-      "wage": 16500
+      "wage": 62500
     },
     {
       "attrs": {
@@ -128,7 +104,7 @@
       "nation2": "GER",
       "number": 4,
       "pos": "RB",
-      "wage": 10000
+      "wage": 48000
     },
     {
       "attrs": {
@@ -154,7 +130,7 @@
       "nation": "NOR",
       "number": 6,
       "pos": "CM",
-      "wage": 19000
+      "wage": 100000
     },
     {
       "attrs": {
@@ -180,7 +156,7 @@
       "nation": "GER",
       "number": 7,
       "pos": "CM",
-      "wage": 8500
+      "wage": 62500
     },
     {
       "attrs": {
@@ -207,7 +183,7 @@
       "nation2": "GER",
       "number": 8,
       "pos": "CM",
-      "wage": 19000
+      "wage": 100000
     },
     {
       "attrs": {
@@ -234,7 +210,7 @@
       "nation2": "TUR",
       "number": 10,
       "pos": "CM",
-      "wage": 8500
+      "wage": 62000
     },
     {
       "attrs": {
@@ -260,59 +236,7 @@
       "nation": "AUT",
       "number": 11,
       "pos": "CM",
-      "wage": 7500
-    },
-    {
-      "attrs": {
-        "aer": 52,
-        "com": 63,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 56,
-        "pas": 60,
-        "pos": 56,
-        "sho": 56,
-        "sta": 59,
-        "str": 56,
-        "tac": 56,
-        "vis": 64
-      },
-      "birth": "1992-09-01",
-      "contract": null,
-      "foot": null,
-      "height": 171,
-      "id": "p0x0phkq",
-      "name": "Stephanie Breitnar",
-      "nation": "GER",
-      "number": 12,
-      "pos": "CM",
-      "wage": 1500
-    },
-    {
-      "attrs": {
-        "aer": 61,
-        "com": 53,
-        "dri": 39,
-        "ldr": 55,
-        "pac": 46,
-        "pas": 50,
-        "pos": 55,
-        "sho": 31,
-        "sta": 48,
-        "str": 55,
-        "tac": 61,
-        "vis": 44
-      },
-      "birth": "1997-08-01",
-      "contract": null,
-      "foot": null,
-      "height": 169,
-      "id": "p105wv37",
-      "name": "Isabella Hertig",
-      "nation": "GER",
-      "number": 13,
-      "pos": "CB",
-      "wage": 1000
+      "wage": 55000
     },
     {
       "attrs": {
@@ -338,7 +262,7 @@
       "nation": "GER",
       "number": 14,
       "pos": "ST",
-      "wage": 12000
+      "wage": 49000
     },
     {
       "attrs": {
@@ -364,7 +288,7 @@
       "nation": "GER",
       "number": 16,
       "pos": "CB",
-      "wage": 12000
+      "wage": 58500
     },
     {
       "attrs": {
@@ -390,7 +314,7 @@
       "nation": "SUI",
       "number": 17,
       "pos": "CM",
-      "wage": 22500
+      "wage": 100000
     },
     {
       "attrs": {
@@ -416,7 +340,7 @@
       "nation": "GER",
       "number": 18,
       "pos": "CM",
-      "wage": 5500
+      "wage": 41500
     },
     {
       "attrs": {
@@ -442,7 +366,7 @@
       "nation": "GER",
       "number": 19,
       "pos": "ST",
-      "wage": 4000
+      "wage": 23000
     },
     {
       "attrs": {
@@ -468,7 +392,7 @@
       "nation": "AUT",
       "number": 20,
       "pos": "CM",
-      "wage": 8500
+      "wage": 63000
     },
     {
       "attrs": {
@@ -494,7 +418,7 @@
       "nation": "GER",
       "number": 21,
       "pos": "CB",
-      "wage": 3500
+      "wage": 23000
     },
     {
       "alt": [],
@@ -521,7 +445,7 @@
       "nation": "GER",
       "number": 22,
       "pos": "CM",
-      "wage": 12000
+      "wage": 79000
     },
     {
       "attrs": {
@@ -547,7 +471,7 @@
       "nation": "NED",
       "number": 24,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -574,34 +498,7 @@
       "nation2": "NGA",
       "number": 25,
       "pos": "CB",
-      "wage": 6500
-    },
-    {
-      "attrs": {
-        "aer": 68,
-        "com": 59,
-        "dri": 47,
-        "ldr": 63,
-        "pac": 57,
-        "pas": 57,
-        "pos": 66,
-        "sho": 35,
-        "sta": 58,
-        "str": 63,
-        "tac": 64,
-        "vis": 48
-      },
-      "birth": "1993-09-01",
-      "contract": null,
-      "foot": null,
-      "height": 175,
-      "id": "p1hz0a6o",
-      "name": "Sophie Howerd",
-      "nation": "SCO",
-      "nation2": "GER",
-      "number": 26,
-      "pos": "CB",
-      "wage": 2000
+      "wage": 34500
     },
     {
       "attrs": {
@@ -627,7 +524,7 @@
       "nation": "CRO",
       "number": 27,
       "pos": "ST",
-      "wage": 30500
+      "wage": 91000
     },
     {
       "attrs": {
@@ -653,7 +550,7 @@
       "nation": "HUN",
       "number": 28,
       "pos": "ST",
-      "wage": 16500
+      "wage": 61000
     },
     {
       "attrs": {
@@ -681,7 +578,7 @@
       "nation2": "CIV",
       "number": 29,
       "pos": "CM",
-      "wage": 30500
+      "wage": 100000
     },
     {
       "attrs": {
@@ -707,33 +604,7 @@
       "nation": "GER",
       "number": 30,
       "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 60,
-        "com": 55,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 48,
-        "pos": 65,
-        "sho": 35,
-        "sta": 57,
-        "str": 61,
-        "tac": 60,
-        "vis": 42
-      },
-      "birth": "1994-05-01",
-      "contract": null,
-      "foot": null,
-      "height": 178,
-      "id": "p15ia815",
-      "name": "Tamar Dongos",
-      "nation": "GER",
-      "number": 32,
-      "pos": "CB",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -759,7 +630,7 @@
       "nation": "GER",
       "number": 33,
       "pos": "GK",
-      "wage": 1500
+      "wage": 12500
     },
     {
       "attrs": {
@@ -785,399 +656,7 @@
       "nation": "SUI",
       "number": 36,
       "pos": "GK",
-      "wage": 3500
-    },
-    {
-      "attrs": {
-        "aer": 66,
-        "com": 60,
-        "dri": 53,
-        "ldr": 65,
-        "pac": 55,
-        "pas": 55,
-        "pos": 68,
-        "sho": 37,
-        "sta": 57,
-        "str": 63,
-        "tac": 70,
-        "vis": 49
-      },
-      "birth": "1990-01-01",
-      "contract": null,
-      "foot": null,
-      "height": 165,
-      "id": "p083c6q9",
-      "name": "Leonie Penkratz",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "wage": 2500
-    },
-    {
-      "attrs": {
-        "aer": 61,
-        "com": 63,
-        "dri": 65,
-        "ldr": 57,
-        "pac": 66,
-        "pas": 53,
-        "pos": 39,
-        "sho": 69,
-        "sta": 59,
-        "str": 65,
-        "tac": 37,
-        "vis": 55
-      },
-      "birth": "1996-03-01",
-      "contract": null,
-      "foot": null,
-      "height": 168,
-      "id": "p1fh0qvy",
-      "name": "Nicole Bylla",
-      "nation": "AUT",
-      "number": null,
-      "pos": "ST",
-      "wage": 2500
-    },
-    {
-      "attrs": {
-        "aer": 57,
-        "com": 65,
-        "dri": 65,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 67,
-        "pos": 62,
-        "sho": 60,
-        "sta": 68,
-        "str": 60,
-        "tac": 62,
-        "vis": 63
-      },
-      "birth": "1995-03-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p0a04nl7",
-      "name": "Sharon Back",
-      "nation": "GER",
-      "nation2": "ISR",
-      "number": null,
-      "pos": "CM",
-      "wage": 2500
-    },
-    {
-      "attrs": {
-        "aer": 54,
-        "com": 60,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 61,
-        "pos": 59,
-        "sho": 53,
-        "sta": 61,
-        "str": 56,
-        "tac": 60,
-        "vis": 66
-      },
-      "birth": "1994-05-01",
-      "contract": null,
-      "foot": null,
-      "height": 177,
-      "id": "p1wdhnis",
-      "name": "Fabienne Dungus",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 2000
-    },
-    {
-      "attrs": {
-        "aer": 58,
-        "com": 57,
-        "han": 59,
-        "ldr": 54,
-        "one": 63,
-        "pac": 44,
-        "pas": 47,
-        "pos": 64,
-        "ref": 63,
-        "sta": 48,
-        "str": 55,
-        "vis": 47
-      },
-      "birth": "1994-07-01",
-      "contract": null,
-      "foot": null,
-      "height": 178,
-      "id": "p15pag6w",
-      "name": "Friederike Rapohl",
-      "nation": "GER",
-      "number": null,
-      "pos": "GK",
-      "wage": 1500
-    },
-    {
-      "attrs": {
-        "aer": 63,
-        "com": 58,
-        "dri": 44,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 53,
-        "pos": 60,
-        "sho": 30,
-        "sta": 58,
-        "str": 58,
-        "tac": 64,
-        "vis": 44
-      },
-      "birth": "1993-11-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p1khhq22",
-      "name": "Maximiliane Rell",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 47,
-        "com": 61,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 58,
-        "pos": 55,
-        "sho": 49,
-        "sta": 60,
-        "str": 51,
-        "tac": 54,
-        "vis": 59
-      },
-      "birth": "2000-05-01",
-      "contract": null,
-      "foot": null,
-      "height": 176,
-      "id": "p1wgkl2f",
-      "name": "Lena Lattweyn",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 53,
-        "com": 60,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 58,
-        "pas": 49,
-        "pos": 36,
-        "sho": 64,
-        "sta": 54,
-        "str": 60,
-        "tac": 25,
-        "vis": 48
-      },
-      "birth": "1996-08-01",
-      "contract": null,
-      "foot": null,
-      "height": 170,
-      "id": "p1xawz3c",
-      "name": "Tabea Sellnar",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 51,
-        "com": 55,
-        "dri": 53,
-        "ldr": 50,
-        "pac": 53,
-        "pas": 50,
-        "pos": 31,
-        "sho": 57,
-        "sta": 49,
-        "str": 56,
-        "tac": 23,
-        "vis": 49
-      },
-      "birth": "1995-01-01",
-      "contract": null,
-      "foot": null,
-      "height": 166,
-      "id": "p16iedtl",
-      "name": "Dora Zellar",
-      "nation": "HUN",
-      "number": null,
-      "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 41,
-        "com": 52,
-        "dri": 55,
-        "ldr": 48,
-        "pac": 52,
-        "pas": 53,
-        "pos": 55,
-        "sho": 48,
-        "sta": 57,
-        "str": 50,
-        "tac": 53,
-        "vis": 54
-      },
-      "birth": "1995-05-01",
-      "contract": null,
-      "foot": null,
-      "height": 167,
-      "id": "p1hegnod",
-      "name": "Anne Fuhnar",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 41,
-        "com": 51,
-        "dri": 54,
-        "ldr": 52,
-        "pac": 51,
-        "pas": 53,
-        "pos": 52,
-        "sho": 50,
-        "sta": 56,
-        "str": 50,
-        "tac": 49,
-        "vis": 57
-      },
-      "birth": "1995-09-01",
-      "contract": null,
-      "foot": null,
-      "height": 161,
-      "id": "p0zi76m7",
-      "name": "Judith Stainert",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 53,
-        "com": 50,
-        "han": 51,
-        "ldr": 52,
-        "one": 52,
-        "pac": 33,
-        "pas": 44,
-        "pos": 57,
-        "ref": 55,
-        "sta": 44,
-        "str": 51,
-        "vis": 43
-      },
-      "birth": "1994-07-01",
-      "contract": null,
-      "foot": null,
-      "height": 167,
-      "id": "p1cu08pi",
-      "name": "Martina Tofekovic",
-      "nation": "CRO",
-      "nation2": "GER",
-      "number": null,
-      "pos": "GK",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 55,
-        "com": 48,
-        "dri": 37,
-        "ldr": 50,
-        "pac": 49,
-        "pas": 46,
-        "pos": 52,
-        "sho": 25,
-        "sta": 50,
-        "str": 52,
-        "tac": 56,
-        "vis": 40
-      },
-      "birth": "1997-02-01",
-      "contract": null,
-      "foot": null,
-      "height": 168,
-      "id": "p1a69kv0",
-      "name": "Michaela Spacht",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 38,
-        "com": 46,
-        "dri": 46,
-        "ldr": 45,
-        "pac": 41,
-        "pas": 48,
-        "pos": 49,
-        "sho": 40,
-        "sta": 50,
-        "str": 45,
-        "tac": 45,
-        "vis": 49
-      },
-      "birth": "1997-07-01",
-      "contract": null,
-      "foot": null,
-      "height": 182,
-      "id": "p1bgy84d",
-      "name": "Franziska Hersch",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 44,
-        "com": 48,
-        "han": 48,
-        "ldr": 43,
-        "one": 48,
-        "pac": 29,
-        "pas": 36,
-        "pos": 52,
-        "ref": 53,
-        "sta": 39,
-        "str": 46,
-        "vis": 35
-      },
-      "birth": "1999-04-01",
-      "contract": null,
-      "foot": null,
-      "height": 184,
-      "id": "p1tx1nus",
-      "name": "Janina Leitzyg",
-      "nation": "GER",
-      "number": null,
-      "pos": "GK",
-      "wage": 1000
+      "wage": 24500
     }
   ],
   "stadiumCapacity": 30150

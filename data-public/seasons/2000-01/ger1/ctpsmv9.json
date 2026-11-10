@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 3150000,
-    "transferBudget": 2100000,
-    "wageBudget": 115500
+    "balance": 12300000,
+    "revenue": 42700000,
+    "revenueSource": "model",
+    "transferBudget": 6300000,
+    "wageBudget": 510000
   },
   "league": "ger1",
-  "reputation": 70,
+  "reputation": 78,
   "season": "2000-01",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -45,7 +47,7 @@
       "nation": "AUS",
       "number": null,
       "pos": "CB",
-      "wage": 12000
+      "wage": 31500
     },
     {
       "attrs": {
@@ -71,7 +73,7 @@
       "nation": "BUL",
       "number": null,
       "pos": "CM",
-      "wage": 7500
+      "wage": 31500
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 7500
+      "wage": 31500
     },
     {
       "alt": [
@@ -127,7 +129,7 @@
       "nation": "GER",
       "number": null,
       "pos": "AM",
-      "wage": 7500
+      "wage": 27500
     },
     {
       "attrs": {
@@ -154,7 +156,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 7500
+      "wage": 27500
     },
     {
       "attrs": {
@@ -180,7 +182,7 @@
       "nation": "AUT",
       "number": null,
       "pos": "CM",
-      "wage": 6500
+      "wage": 29500
     },
     {
       "attrs": {
@@ -207,7 +209,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 5500
+      "wage": 31000
     },
     {
       "attrs": {
@@ -233,35 +235,7 @@
       "nation": "AUS",
       "number": null,
       "pos": "ST",
-      "wage": 4500
-    },
-    {
-      "attrs": {
-        "aer": 61,
-        "com": 70,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 75,
-        "pos": 68,
-        "sho": 66,
-        "sta": 73,
-        "str": 68,
-        "tac": 69,
-        "vis": 70
-      },
-      "birth": "1972-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 180,
-      "id": "p1lya1np",
-      "name": "Michel Mazingo-Dinzey",
-      "nation": "GER",
-      "nation2": "COD",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 4000
+      "wage": 17000
     },
     {
       "attrs": {
@@ -287,7 +261,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "CM",
-      "wage": 3500
+      "wage": 21500
     },
     {
       "attrs": {
@@ -314,7 +288,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 3000
+      "wage": 15000
     },
     {
       "attrs": {
@@ -340,7 +314,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 2500
+      "wage": 10000
     },
     {
       "attrs": {
@@ -367,7 +341,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 2500
+      "wage": 16000
     },
     {
       "attrs": {
@@ -393,7 +367,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 2500
+      "wage": 11500
     },
     {
       "attrs": {
@@ -419,7 +393,7 @@
       "nation": "AUT",
       "number": null,
       "pos": "CB",
-      "wage": 2000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -445,7 +419,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "CB",
-      "wage": 2000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -472,7 +446,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 2000
+      "wage": 12500
     },
     {
       "attrs": {
@@ -499,7 +473,7 @@
       "nation2": "POL",
       "number": null,
       "pos": "ST",
-      "wage": 2000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -526,7 +500,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 2000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -552,7 +526,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -578,7 +552,7 @@
       "nation": "AUT",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -605,7 +579,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -632,7 +606,7 @@
       "nation2": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 8500
     },
     {
       "attrs": {
@@ -659,7 +633,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -685,7 +659,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -711,7 +685,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -737,7 +711,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -763,7 +737,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -790,7 +764,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -817,7 +791,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -844,7 +818,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -870,34 +844,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 58,
-        "com": 58,
-        "dri": 40,
-        "ldr": 58,
-        "pac": 48,
-        "pas": 52,
-        "pos": 58,
-        "sho": 29,
-        "sta": 52,
-        "str": 60,
-        "tac": 63,
-        "vis": 42
-      },
-      "birth": "1973-06-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p058ix10",
-      "name": "Guido Gorgas",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 1000
+      "wage": 3000
     },
     {
       "attrs": {
@@ -925,7 +872,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -951,7 +898,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 1500
     },
     {
       "attrs": {
@@ -978,7 +925,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -1005,7 +952,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 1500
     }
   ],
   "stadiumCapacity": 15000

@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 6885000,
-    "transferBudget": 4590000,
-    "wageBudget": 252450
+    "balance": 24300000,
+    "revenue": 96400000,
+    "revenueSource": "model",
+    "transferBudget": 12600000,
+    "wageBudget": 1149000
   },
   "league": "esp1",
-  "reputation": 72,
+  "reputation": 74,
   "season": "2018-19",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "ESP",
       "number": 1,
       "pos": "GK",
-      "wage": 23000
+      "wage": 71500
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "ESP",
       "number": 2,
       "pos": "CB",
-      "wage": 16500
+      "wage": 63000
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "ESP",
       "number": 3,
       "pos": "RB",
-      "wage": 7500
+      "wage": 36500
     },
     {
       "attrs": {
@@ -124,7 +126,7 @@
       "nation": "ARG",
       "number": 4,
       "pos": "CB",
-      "wage": 6500
+      "wage": 32500
     },
     {
       "attrs": {
@@ -150,7 +152,7 @@
       "nation": "ARG",
       "number": 5,
       "pos": "CM",
-      "wage": 1000
+      "wage": 11000
     },
     {
       "attrs": {
@@ -176,7 +178,7 @@
       "nation": "ESP",
       "number": 6,
       "pos": "CB",
-      "wage": 12000
+      "wage": 53500
     },
     {
       "attrs": {
@@ -202,7 +204,7 @@
       "nation": "ESP",
       "number": 7,
       "pos": "ST",
-      "wage": 14500
+      "wage": 45000
     },
     {
       "attrs": {
@@ -228,7 +230,7 @@
       "nation": "ESP",
       "number": 8,
       "pos": "CM",
-      "wage": 3000
+      "wage": 23500
     },
     {
       "attrs": {
@@ -254,7 +256,7 @@
       "nation": "COL",
       "number": 9,
       "pos": "ST",
-      "wage": 7500
+      "wage": 29000
     },
     {
       "attrs": {
@@ -281,7 +283,7 @@
       "nation2": "GER",
       "number": 10,
       "pos": "ST",
-      "wage": 16500
+      "wage": 58000
     },
     {
       "attrs": {
@@ -307,7 +309,7 @@
       "nation": "ESP",
       "number": 11,
       "pos": "CB",
-      "wage": 10500
+      "wage": 42500
     },
     {
       "attrs": {
@@ -333,7 +335,7 @@
       "nation": "ESP",
       "number": 13,
       "pos": "GK",
-      "wage": 3500
+      "wage": 18500
     },
     {
       "attrs": {
@@ -359,7 +361,7 @@
       "nation": "ESP",
       "number": 14,
       "pos": "CM",
-      "wage": 9000
+      "wage": 50000
     },
     {
       "attrs": {
@@ -385,7 +387,7 @@
       "nation": "ESP",
       "number": 15,
       "pos": "RB",
-      "wage": 1000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -411,7 +413,7 @@
       "nation": "ESP",
       "number": 16,
       "pos": "CM",
-      "wage": 5000
+      "wage": 31500
     },
     {
       "attrs": {
@@ -438,7 +440,7 @@
       "nation2": "FRA",
       "number": 17,
       "pos": "ST",
-      "wage": 7500
+      "wage": 31500
     },
     {
       "attrs": {
@@ -464,7 +466,7 @@
       "nation": "ESP",
       "number": 18,
       "pos": "CM",
-      "wage": 5500
+      "wage": 39500
     },
     {
       "attrs": {
@@ -490,7 +492,7 @@
       "nation": "ESP",
       "number": 19,
       "pos": "CM",
-      "wage": 23000
+      "wage": 71500
     },
     {
       "attrs": {
@@ -516,7 +518,7 @@
       "nation": "ESP",
       "number": 21,
       "pos": "CM",
-      "wage": 10500
+      "wage": 52500
     },
     {
       "attrs": {
@@ -542,7 +544,7 @@
       "nation": "ESP",
       "number": 22,
       "pos": "CM",
-      "wage": 1500
+      "wage": 14000
     },
     {
       "attrs": {
@@ -568,7 +570,7 @@
       "nation": "ITA",
       "number": 23,
       "pos": "RB",
-      "wage": 9000
+      "wage": 41500
     },
     {
       "attrs": {
@@ -594,7 +596,7 @@
       "nation": "MEX",
       "number": 24,
       "pos": "RB",
-      "wage": 27000
+      "wage": 71500
     },
     {
       "attrs": {
@@ -620,7 +622,7 @@
       "nation": "ARG",
       "number": 25,
       "pos": "GK",
-      "wage": 3000
+      "wage": 21500
     },
     {
       "attrs": {
@@ -646,7 +648,7 @@
       "nation": "ESP",
       "number": 28,
       "pos": "CM",
-      "wage": 1000
+      "wage": 8000
     },
     {
       "attrs": {
@@ -673,33 +675,7 @@
       "nation2": "ARG",
       "number": 29,
       "pos": "CM",
-      "wage": 3500
-    },
-    {
-      "attrs": {
-        "aer": 38,
-        "com": 50,
-        "dri": 44,
-        "ldr": 43,
-        "pac": 41,
-        "pas": 47,
-        "pos": 46,
-        "sho": 40,
-        "sta": 49,
-        "str": 41,
-        "tac": 47,
-        "vis": 49
-      },
-      "birth": "1996-11-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p1jhc3cp",
-      "name": "Bea Predes",
-      "nation": "ESP",
-      "number": 32,
-      "pos": "CM",
-      "wage": 1000
+      "wage": 27000
     }
   ],
   "stadiumCapacity": 24891

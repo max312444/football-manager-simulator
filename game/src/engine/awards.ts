@@ -2,11 +2,13 @@
 // 보상: 구단(팬 증가 · 우승 보너스), 선수(사기 · 충성도 · 몇 달 동안 능력치 상승 · 수상 경력)
 import type { PlayerState, World } from './types';
 import { sortTable } from './standings';
-import { book, revenueBase } from './finance';
+import { book, clubRevenue } from './finance';
 
-export type AwardKind = 'champion' | 'mvp' | 'boot' | 'assist' | 'young' | 'glove';
+export type AwardKind = 'champion' | 'mvp' | 'boot' | 'assist' | 'young' | 'glove' | 'cup' | 'euro';
+/** 우승 트로피 (리그 · 컵 · 유럽) */
+export const isTrophy = (k: AwardKind) => k === 'champion' || k === 'cup' || k === 'euro';
 export const AWARD_KO: Record<AwardKind, string> = {
-  champion: '리그 우승', mvp: '시즌 MVP', boot: '득점왕', assist: '도움왕', young: '올해의 영플레이어', glove: '골든글러브',
+  champion: '리그 우승', cup: '컵 우승', euro: '유럽 대회 우승', mvp: '시즌 MVP', boot: '득점왕', assist: '도움왕', young: '올해의 영플레이어', glove: '골든글러브',
 };
 export interface Award {
   kind: AwardKind;
@@ -65,16 +67,14 @@ export function seasonAwards(w: World): Award[] {
 
   // 보상
   for (const a of out) {
-    const user = a.club === w.userClubId;
     if (a.kind === 'champion') {
       const before = fansOf(w, a.club);
       addFans(w, a.club, 1.08);
       a.rewards.push(`팬 +${Math.round((fansOf(w, a.club) - before) / 1000).toLocaleString()}천 명`);
-      if (user) {
-        const bonus = Math.round(revenueBase(w) * 0.08);
-        book(w, a.club, 'prize', bonus);
-        a.rewards.push(`우승 보너스 €${(bonus / 1e6).toFixed(1)}M`);
-      }
+      // 우승 보너스 (모든 구단): 매출의 8%
+      const bonus = Math.round(clubRevenue(w, a.club) * 0.08);
+      book(w, a.club, 'prize', bonus);
+      a.rewards.push(`우승 보너스 €${(bonus / 1e6).toFixed(1)}M`);
       // 우승 멤버: 사기 · 충성도 · 수상 경력
       for (const id of w.clubs[a.club].squad) {
         const p = w.players[id];
@@ -95,7 +95,8 @@ export function seasonAwards(w: World): Award[] {
       a.rewards.push(`능력치 +${amount} (다음 시즌 초반 몇 달)`, '사기 · 충성도 상승', '구단 팬 +2%');
     }
   }
-  w.pendingAwards = out.filter((a) => a.club === w.userClubId);
+  w.pendingAwards = [...out.filter((a) => a.club === w.userClubId), ...(w.cupAwards ?? [])];
+  w.cupAwards = [];
   return out;
 }
 

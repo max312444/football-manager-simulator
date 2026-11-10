@@ -1,7 +1,7 @@
 // 시즌 전환 결산: 우승 · 내 순위 · 강등/승격 · 새 선수 · 은퇴
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { clubKo, leagues, playerKo } from '../../data/db';
+import { clubKo, compKo, playerKo } from '../../data/db';
 import { overall } from '../../engine/ratings';
 import { Crest } from './Crest';
 import { Icon } from './Icon';
@@ -23,7 +23,7 @@ export function SeasonReportPanel() {
   const myPts = myRec?.table.find((t) => t.club === w.userClubId)?.pts;
   const debutsMine = r.debuts.filter((id) => w.players[id]?.clubId === w.userClubId);
   const notableDebuts = [...r.debuts].filter((id) => w.players[id]?.clubId).sort((a, b) => overall(w.players[b]) - overall(w.players[a])).slice(0, 6);
-  const lgName = (id: string) => leagues.find((l) => l.id === id)?.ko ?? id;
+  const lgName = (id: string) => compKo(id) ?? id;
 
   return (
     <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-8 backdrop-blur-sm">
@@ -78,6 +78,22 @@ export function SeasonReportPanel() {
                 );
               })}
             </div>
+            {(w.cupHistory ?? []).some((h) => h.season === r.from) && (
+              <>
+                <h3 className="mt-6 mb-4 text-[13px] font-semibold text-mid">컵 우승</h3>
+                <div className="space-y-3">
+                  {(w.cupHistory ?? []).filter((h) => h.season === r.from).map((h) => (
+                    <div key={h.cup} className="flex items-center gap-3">
+                      <Crest clubId={h.winner} size={24} />
+                      <div className="min-w-0 flex-1">
+                        <div className={`text-[14px] font-medium ${h.winner === w.userClubId ? 'text-[#f2c94c]' : ''}`}>{clubKo(h.winner)}</div>
+                        <div className="truncate text-[12px] text-lo">{lgName(h.cup)} · 결승 상대 {clubKo(h.runnerUp)}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
           </section>
 
           <section className="bg-ink-850 px-8 py-6">

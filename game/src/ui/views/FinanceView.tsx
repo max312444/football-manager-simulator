@@ -1,6 +1,7 @@
 // 재정 화면: 잔고 · 예산 · 이번 시즌 수입/지출 · 잔고 추이 · 지난 시즌 장부
 import { EXPENSE_LABEL, INCOME_LABEL, ledgerOf, revenueBase, sum, wageBillOf, type ExpenseKind, type IncomeKind } from '../../engine/finance';
 import { useWorld } from '../hooks';
+import { costLimit, squadCost } from '../../engine/rules';
 import { baseFans, fanFactor, fansOf } from '../../engine/awards';
 import { Card } from '../components/bits';
 import { money } from '../format';
@@ -35,6 +36,27 @@ export function FinanceView() {
           <Kpi label={`${cur.season.replace('-', '/')} 시즌 손익`} value={signed(net)} neg={net < 0} pos={net > 0} sub={`수입 ${money(inc)} · 지출 ${money(exp)}`} />
         </div>
 
+        {/* 재정 규정 (샐러리 캡) */}
+        {(() => {
+          const { rule, limit } = costLimit(w, club.id);
+          const cost = squadCost(w, club.id);
+          const r = cost / Math.max(1, limit);
+          return (
+            <div className="rounded-xl border border-line bg-ink-850 px-5 py-4">
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <div className="text-[13px] font-semibold">재정 규정 · {rule.name}</div>
+                <div className="tnum text-[13px]"><span className={r > 1 ? 'text-red' : r > 0.95 ? 'text-amber' : ''}>{money(cost)}</span> <span className="text-lo">/ 연 한도 {money(limit)} ({Math.round(r * 100)}%)</span></div>
+              </div>
+              <div className="mt-2 h-1 overflow-hidden rounded-full bg-ink-700"><div className={`h-full rounded-full ${r > 1 ? 'bg-red' : r > 0.95 ? 'bg-amber' : 'bg-sky'}`} style={{ width: `${Math.min(1, r) * 100}%` }} /></div>
+              <div className="mt-2 text-[12px] text-lo">
+                선수단 비용 = 연 주급 총액 + 이적료 상각 (이적료 ÷ 계약 연수). 한도를 넘는 영입 · 재계약은 할 수 없습니다 (AI 구단도 같은 규칙).
+                {rule.dncg && ' 잔고가 마이너스가 되면 DNCG 급여 통제로 주급 총액을 늘릴 수 없습니다.'}
+                {rule.debt && ' 잔고가 마이너스면 부채 상환분만큼 한도가 줄어듭니다.'}
+              </div>
+            </div>
+          );
+        })()}
+
         <div className="grid gap-4 lg:grid-cols-2">
           <Card title="이번 시즌 수입">
             <div className="px-5 py-3">
@@ -43,7 +65,7 @@ export function FinanceView() {
           </Card>
           <Card title="이번 시즌 지출">
             <div className="px-5 py-3">
-              {(Object.keys(EXPENSE_LABEL) as ExpenseKind[]).map((k) => <Bar key={k} label={EXPENSE_LABEL[k]} v={cur.expense[k]} max={maxRow} tone="bg-red" />)}
+              {(Object.keys(EXPENSE_LABEL) as ExpenseKind[]).map((k) => <Bar key={k} label={EXPENSE_LABEL[k]} v={cur.expense[k] ?? 0} max={maxRow} tone="bg-red" />)}
             </div>
           </Card>
         </div>

@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 4125000,
-    "transferBudget": 2750000,
-    "wageBudget": 151250
+    "balance": 13500000,
+    "revenue": 50600000,
+    "revenueSource": "model",
+    "transferBudget": 6900000,
+    "wageBudget": 603000
   },
   "league": "ger1",
-  "reputation": 70,
+  "reputation": 75,
   "season": "2006-07",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -45,7 +47,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "CM",
-      "wage": 11500
+      "wage": 37500
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 11500
+      "wage": 35500
     },
     {
       "alt": [
@@ -101,7 +103,7 @@
       "nation": "SVK",
       "number": null,
       "pos": "CM",
-      "wage": 11500
+      "wage": 37500
     },
     {
       "attrs": {
@@ -127,7 +129,7 @@
       "nation": "TUN",
       "number": null,
       "pos": "CM",
-      "wage": 10000
+      "wage": 37500
     },
     {
       "attrs": {
@@ -154,7 +156,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 8500
+      "wage": 30500
     },
     {
       "attrs": {
@@ -181,7 +183,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 8500
+      "wage": 37500
     },
     {
       "attrs": {
@@ -208,7 +210,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 8500
+      "wage": 30000
     },
     {
       "attrs": {
@@ -235,7 +237,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 6000
+      "wage": 32000
     },
     {
       "attrs": {
@@ -262,7 +264,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 4500
+      "wage": 24000
     },
     {
       "attrs": {
@@ -288,7 +290,7 @@
       "nation": "RUS",
       "number": null,
       "pos": "ST",
-      "wage": 3500
+      "wage": 13000
     },
     {
       "attrs": {
@@ -315,7 +317,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 3500
+      "wage": 13500
     },
     {
       "attrs": {
@@ -341,7 +343,7 @@
       "nation": "GER",
       "number": null,
       "pos": "ST",
-      "wage": 3500
+      "wage": 12000
     },
     {
       "attrs": {
@@ -367,7 +369,7 @@
       "nation": "SVK",
       "number": null,
       "pos": "ST",
-      "wage": 3500
+      "wage": 13000
     },
     {
       "attrs": {
@@ -395,7 +397,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3000
+      "wage": 19000
     },
     {
       "attrs": {
@@ -422,7 +424,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 3000
+      "wage": 13000
     },
     {
       "attrs": {
@@ -448,7 +450,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 3000
+      "wage": 15000
     },
     {
       "attrs": {
@@ -474,7 +476,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 2500
+      "wage": 11500
     },
     {
       "attrs": {
@@ -500,34 +502,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CM",
-      "wage": 2500
-    },
-    {
-      "attrs": {
-        "aer": 71,
-        "com": 65,
-        "dri": 52,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 59,
-        "pos": 65,
-        "sho": 39,
-        "sta": 60,
-        "str": 67,
-        "tac": 66,
-        "vis": 52
-      },
-      "birth": "1976-03-01",
-      "contract": null,
-      "foot": null,
-      "height": 174,
-      "id": "p1mguqbn",
-      "name": "Lars Moller",
-      "nation": "GER",
-      "number": null,
-      "pos": "CB",
-      "verify": true,
-      "wage": 2000
+      "wage": 15000
     },
     {
       "attrs": {
@@ -553,7 +528,7 @@
       "nation": "CZE",
       "number": null,
       "pos": "CB",
-      "wage": 2000
+      "wage": 10000
     },
     {
       "attrs": {
@@ -580,34 +555,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1500
-    },
-    {
-      "attrs": {
-        "aer": 55,
-        "com": 66,
-        "dri": 63,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 63,
-        "pos": 60,
-        "sho": 60,
-        "sta": 65,
-        "str": 58,
-        "tac": 63,
-        "vis": 64
-      },
-      "birth": "1980-04-01",
-      "contract": null,
-      "foot": null,
-      "height": 191,
-      "id": "p1szksuo",
-      "name": "Sven Mullar",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1500
+      "wage": 9000
     },
     {
       "attrs": {
@@ -634,7 +582,7 @@
       "nation2": "ITA",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 8000
     },
     {
       "attrs": {
@@ -662,7 +610,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 1500
+      "wage": 10500
     },
     {
       "attrs": {
@@ -688,7 +636,7 @@
       "nation": "GER",
       "number": null,
       "pos": "RB",
-      "wage": 1500
+      "wage": 9500
     },
     {
       "attrs": {
@@ -714,34 +662,7 @@
       "nation": "BRA",
       "number": null,
       "pos": "CB",
-      "wage": 1500
-    },
-    {
-      "attrs": {
-        "aer": 61,
-        "com": 61,
-        "han": 63,
-        "ldr": 56,
-        "one": 65,
-        "pac": 43,
-        "pas": 52,
-        "pos": 62,
-        "ref": 61,
-        "sta": 48,
-        "str": 58,
-        "vis": 48
-      },
-      "birth": "1985-11-01",
-      "contract": null,
-      "foot": null,
-      "height": 196,
-      "id": "p0bxpquv",
-      "name": "Philipp Tschaoner",
-      "nation": "GER",
-      "number": null,
-      "pos": "GK",
-      "verify": true,
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -767,34 +688,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 57,
-        "com": 61,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 59,
-        "pas": 53,
-        "pos": 36,
-        "sho": 63,
-        "sta": 57,
-        "str": 64,
-        "tac": 29,
-        "vis": 50
-      },
-      "birth": "1980-09-01",
-      "contract": null,
-      "foot": null,
-      "height": 185,
-      "id": "p1rdfpf8",
-      "name": "Markus Deun",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 1000
+      "wage": 7500
     },
     {
       "attrs": {
@@ -821,34 +715,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 50,
-        "com": 57,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 57,
-        "pos": 57,
-        "sho": 49,
-        "sta": 59,
-        "str": 50,
-        "tac": 53,
-        "vis": 57
-      },
-      "birth": "1981-02-01",
-      "contract": null,
-      "foot": null,
-      "height": null,
-      "id": "p0fskq0b",
-      "name": "Maik Wagefald",
-      "nation": "GER",
-      "number": null,
-      "pos": "CM",
-      "verify": true,
-      "wage": 1000
+      "wage": 4500
     },
     {
       "attrs": {
@@ -874,7 +741,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -901,7 +768,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -927,7 +794,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 2000
     }
   ],
   "stadiumCapacity": 50000

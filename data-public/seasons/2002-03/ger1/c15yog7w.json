@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 3870000,
-    "transferBudget": 2580000,
-    "wageBudget": 141900
+    "balance": 12700000,
+    "revenue": 44700000,
+    "revenueSource": "model",
+    "transferBudget": 6500000,
+    "wageBudget": 532000
   },
   "league": "ger1",
-  "reputation": 71,
+  "reputation": 77,
   "season": "2002-03",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -45,7 +47,7 @@
       "nation": "GHA",
       "number": null,
       "pos": "RB",
-      "wage": 11500
+      "wage": 33000
     },
     {
       "attrs": {
@@ -71,7 +73,7 @@
       "nation": "SVK",
       "number": null,
       "pos": "CM",
-      "wage": 10000
+      "wage": 33000
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation2": "CRO",
       "number": null,
       "pos": "ST",
-      "wage": 10000
+      "wage": 30000
     },
     {
       "attrs": {
@@ -125,7 +127,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 8500
+      "wage": 33000
     },
     {
       "attrs": {
@@ -152,7 +154,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 8500
+      "wage": 33000
     },
     {
       "attrs": {
@@ -179,7 +181,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 7000
+      "wage": 33000
     },
     {
       "attrs": {
@@ -205,7 +207,7 @@
       "nation": "ROU",
       "number": null,
       "pos": "CM",
-      "wage": 6000
+      "wage": 33000
     },
     {
       "attrs": {
@@ -231,7 +233,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 5000
+      "wage": 30500
     },
     {
       "attrs": {
@@ -257,7 +259,7 @@
       "nation": "DEN",
       "number": null,
       "pos": "CB",
-      "wage": 4500
+      "wage": 19500
     },
     {
       "attrs": {
@@ -284,7 +286,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 4000
+      "wage": 16500
     },
     {
       "attrs": {
@@ -311,7 +313,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 3500
+      "wage": 11500
     },
     {
       "attrs": {
@@ -338,7 +340,7 @@
       "number": null,
       "pos": "CM",
       "verify": true,
-      "wage": 3500
+      "wage": 19000
     },
     {
       "attrs": {
@@ -365,7 +367,7 @@
       "nation2": "BRA",
       "number": null,
       "pos": "ST",
-      "wage": 3000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -391,33 +393,7 @@
       "nation": "ARG",
       "number": null,
       "pos": "ST",
-      "wage": 2500
-    },
-    {
-      "attrs": {
-        "aer": 66,
-        "com": 65,
-        "dri": 52,
-        "ldr": 63,
-        "pac": 60,
-        "pas": 56,
-        "pos": 71,
-        "sho": 37,
-        "sta": 61,
-        "str": 69,
-        "tac": 68,
-        "vis": 48
-      },
-      "birth": "1977-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 184,
-      "id": "p1td0nuv",
-      "name": "Emeka Ifejiegwa",
-      "nation": "NGA",
-      "number": null,
-      "pos": "CB",
-      "wage": 1500
+      "wage": 10500
     },
     {
       "attrs": {
@@ -443,7 +419,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1500
+      "wage": 8000
     },
     {
       "attrs": {
@@ -470,7 +446,7 @@
       "number": null,
       "pos": "ST",
       "verify": true,
-      "wage": 1500
+      "wage": 7500
     },
     {
       "attrs": {
@@ -496,7 +472,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1500
+      "wage": 10000
     },
     {
       "attrs": {
@@ -523,7 +499,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -549,7 +525,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 7000
     },
     {
       "attrs": {
@@ -576,7 +552,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -603,34 +579,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 51,
-        "com": 58,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 61,
-        "pas": 59,
-        "pos": 59,
-        "sho": 39,
-        "sta": 60,
-        "str": 53,
-        "tac": 59,
-        "vis": 55
-      },
-      "birth": "1978-03-01",
-      "contract": null,
-      "foot": null,
-      "height": 179,
-      "id": "p01kv7dc",
-      "name": "Gernot Plassnagger",
-      "nation": "AUT",
-      "number": null,
-      "pos": "RB",
-      "verify": true,
-      "wage": 1000
+      "wage": 6000
     },
     {
       "attrs": {
@@ -656,7 +605,7 @@
       "nation": "CRO",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -683,34 +632,7 @@
       "nation2": "BIH",
       "number": null,
       "pos": "GK",
-      "wage": 1000
-    },
-    {
-      "attrs": {
-        "aer": 59,
-        "com": 59,
-        "dri": 58,
-        "ldr": 50,
-        "pac": 62,
-        "pas": 48,
-        "pos": 39,
-        "sho": 61,
-        "sta": 57,
-        "str": 62,
-        "tac": 27,
-        "vis": 49
-      },
-      "birth": "1970-10-01",
-      "contract": null,
-      "foot": null,
-      "height": 177,
-      "id": "p184o2vj",
-      "name": "Jurgen Rischa",
-      "nation": "GER",
-      "number": null,
-      "pos": "ST",
-      "verify": true,
-      "wage": 1000
+      "wage": 5500
     },
     {
       "attrs": {
@@ -736,7 +658,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CB",
-      "wage": 1000
+      "wage": 5000
     },
     {
       "attrs": {
@@ -762,7 +684,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 6500
     },
     {
       "attrs": {
@@ -790,7 +712,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 3500
     },
     {
       "attrs": {
@@ -816,7 +738,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 4000
     },
     {
       "attrs": {
@@ -842,7 +764,7 @@
       "nation": "GER",
       "number": null,
       "pos": "GK",
-      "wage": 1000
+      "wage": 2500
     },
     {
       "attrs": {
@@ -869,7 +791,7 @@
       "number": null,
       "pos": "GK",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -896,7 +818,7 @@
       "number": null,
       "pos": "CB",
       "verify": true,
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -922,7 +844,7 @@
       "nation": "POL",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -948,7 +870,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {
@@ -974,7 +896,7 @@
       "nation": "GER",
       "number": null,
       "pos": "CM",
-      "wage": 1000
+      "wage": 2000
     },
     {
       "attrs": {

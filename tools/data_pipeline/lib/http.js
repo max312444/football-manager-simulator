@@ -1,6 +1,6 @@
 // 캐시·재시도·요청 간격을 갖춘 JSON 요청
 // - 같은 URL은 캐시 유효 기간 동안 다시 요청하지 않는다
-// - 429 / 5xx / 네트워크 오류만 지수 백오프로 재시도, 그 외 4xx는 바로 실패
+// - 429 / 5xx / 네트워크 오류 / 잘린 JSON 은 지수 백오프로 재시도, 그 외 4xx는 바로 실패
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
@@ -46,7 +46,14 @@ async function getJson(provider, url, { force = false, accept = 'application/jso
       continue;
     }
     if (res.ok) {
-      const body = await res.json();
+      // 200인데 본문이 중간에 잘린 경우 (SPARQL 시간 초과 등) → 한 번만 재시도 (같은 질의는 보통 또 잘린다)
+      let body;
+      try { body = JSON.parse(await res.text()); } catch (e) {
+        if (attempt >= 1) { stats.failures++; throw new Error(`잘린 응답 (${e.message}): ${url.slice(0, 200)}`); }
+        stats.retries++;
+        await sleep(backoff(attempt));
+        continue;
+      }
       fs.mkdirSync(path.dirname(file), { recursive: true });
       fs.writeFileSync(file, JSON.stringify({ provider, url, retrievedAt: new Date().toISOString(), status: res.status, body }));
       return body;

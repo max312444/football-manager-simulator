@@ -4,7 +4,7 @@ import type { PlayerState } from '../../engine/types';
 import { overall } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
 import { marketValue, nextWindow, offerValid, talkBanned, wageBill, wageDemand, windowOpen } from '../../engine/transfer';
-import { clubKo, leagues, nations, playerKo } from '../../data/db';
+import { clubKo, compKo, nations, playerKo } from '../../data/db';
 import { PlayerPanel } from './PlayerPanel';
 import { NegotiationModal } from '../components/NegotiationModal';
 import { SellNegotiationModal } from '../components/SellNegotiationModal';
@@ -115,7 +115,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
             </div>
             <select value={league} onChange={(e) => setLeague(e.target.value)} className="h-9 rounded-lg border border-line bg-ink-850 px-3 text-mid">
               <option value="ALL">모든 리그</option>
-              {Object.keys(w.competitions).map((id) => <option key={id} value={id}>{leagues.find((l) => l.id === id)?.ko ?? id}</option>)}
+              {Object.keys(w.competitions).map((id) => <option key={id} value={id}>{compKo(id) ?? id}</option>)}
               <option value="FA">자유계약 (FA)</option>
             </select>
             <label className="flex items-center gap-2 text-lo">나이 ≤ <input type="number" value={maxAge} min={16} max={45} onChange={(e) => setMaxAge(+e.target.value || 40)} className="tnum h-9 w-16 rounded-lg border border-line bg-ink-850 px-2 text-hi" /></label>

@@ -8,7 +8,7 @@
 //  - 강등 · 승격: 실제 다음 시즌에 새로 올라온 구단 수만큼 게임 순위 하위 구단을 내린다
 //    (2부 리그는 아직 없음 → 사용자 구단이 강등권이면 잔류 처리하고 그 위 구단을 내림)
 import type { AttrKey } from '../data/types';
-import type { PlayerState, RetireNews, SeasonRecord, World } from './types';
+import type { ClubState, PlayerState, RetireNews, SeasonRecord, World } from './types';
 import type { SeasonInput } from './world';
 import { emptyStats, newPlayer } from './world';
 import { buildFixtures, seasonStart } from './fixtures';
@@ -16,13 +16,16 @@ import { emptyRow, sortTable } from './standings';
 import { createRng, type Rng } from './rng';
 import { ageOn } from './condition';
 import { FORMATIONS, guessFormation } from './squad';
-import { boardReview, prizeMoney } from './finance';
+import { boardReview, prizeMoney, seasonBudgets } from './finance';
 import { traitSeasonEnd } from './traits';
 import { overall } from './ratings';
 import { levelOf, pairRule, PAIRS, poolOf } from './pyramid';
 import { cleanOffers } from './transfer';
 import { money } from '../ui/format';
 import { seasonAwards } from './awards';
+import { createCups } from './cup';
+import { growTowardPotential, youthIntake } from './youth';
+import { createEurope } from './europe';
 
 export const MAX_SQUAD = 32;
 export const nextSeasonOf = (s: string) => {
@@ -46,6 +49,8 @@ export interface SeasonReport {
   userKept: boolean;     // 사용자 구단이 강등권이었지만 잔류 처리됐는지
   /** 이사회 예산 배정 결과 */
   board?: { net: number; prize: number; transferBudget: number; wageBudget: number; balance: number };
+  /** 유스 입단 (데이터가 끝난 뒤) */
+  youth?: import('./youth').YouthIntake[];
 }
 
 /** 1) 지난 시즌 마감: 순위 기록 · 선수 커리어 기록 */
@@ -63,17 +68,20 @@ export function closeSeason(w: World): SeasonRecord[] {
   for (const p of Object.values(w.players)) {
     if (p.retired) continue;
     const apps = p.stats.apps + p.stats.subApps;
-    p.career.push({ season: w.season, club: p.clubId, apps, goals: p.stats.goals, assists: p.stats.assists, rating: apps ? Math.round((p.stats.ratingSum / apps) * 100) / 100 : null });
+    p.career.push({ season: w.season, club: p.clubId, apps, goals: p.stats.goals, assists: p.stats.assists, rating: apps ? Math.round((p.stats.ratingSum / apps) * 100) / 100 : null,
+      ...(p.cupStats?.apps ? { cupApps: p.cupStats.apps, cupGoals: p.cupStats.goals } : {}) });
   }
   // 시즌 수상 (보상 포함)
   const awards = seasonAwards(w);
   for (const r of recs) r.awards = awards.filter((a) => a.league === r.league);
   // 플레이가 끊긴 호칭 정리
   w.lostTraits = traitSeasonEnd(w, createRng((w.rng ^ 0x5eed) >>> 0));
-  // 리그 상금 (내 구단)
-  const mine = recs.find((r) => r.league === w.clubs[w.userClubId].league);
-  const pos = mine ? mine.table.findIndex((r) => r.club === w.userClubId) + 1 : 0;
-  w.lastPrize = pos > 0 ? prizeMoney(w, pos, mine!.table.length) : 0;
+  // 리그 상금 (모든 구단, 순위별)
+  w.lastPrize = 0;
+  for (const r of recs) r.table.forEach((row, i) => {
+    const amount = prizeMoney(w, row.club, i + 1, r.table.length);
+    if (row.club === w.userClubId) w.lastPrize = amount;
+  });
   w.history.push(...recs);
   return recs;
 }
@@ -82,6 +90,8 @@ export function closeSeason(w: World): SeasonRecord[] {
 function ageAttributes(p: PlayerState, age: number, rng: Rng) {
   const physical: AttrKey[] = ['pac', 'sta', 'str'];
   const minutesBonus = Math.min(1, (p.career.at(-1)?.apps ?? 0) / 25);
+  // 게임이 만든 유망주: 잠재력을 향해 성장 (25세 무렵 도달)
+  if (growTowardPotential(p, age, minutesBonus, rng)) return;
   for (const k of Object.keys(p.base) as AttrKey[]) {
     let d: number;
     if (age <= 21) d = rng.int(1, 4) + (minutesBonus > 0.5 ? 1 : 0);
@@ -217,19 +227,27 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
 
   // 명성 · 재정: 실제 다음 시즌 값이 있으면 따르되, 게임 속 리그 수준이 실제와 다르면 보정
   //  (1단계 올라가면 명성 +4 · 재정 ×2, 내려가면 명성 −5 · 재정 ×0.45)
-  const adjust = (fin: { balance: number; transferBudget: number; wageBudget: number }, steps: number) => {
+  // 재정: 잔고는 게임 속 돈을 그대로 이어가고, 매출 · 예산 기준은 실제 다음 시즌 데이터(없으면 지금 값)를 따른다.
+  //  리그 수준이 데이터와 다르면 (승격 · 강등) 1단계마다 매출 · 예산 ×2 또는 ×0.45. 모든 구단 같은 규칙 (seasonBudgets)
+  const adjust = (fin: ClubState['finance'], steps: number): ClubState['finance'] => {
+    if (!steps) return fin;
     const f = steps > 0 ? 2 ** steps : 0.45 ** -steps;
-    return steps ? { balance: Math.round(fin.balance * (steps > 0 ? 1 : 0.8)), transferBudget: Math.round(fin.transferBudget * f), wageBudget: Math.round(fin.wageBudget * f) } : fin;
+    return { ...fin, transferBudget: Math.round(fin.transferBudget * f), wageBudget: Math.round(fin.wageBudget * f), ...(fin.revenue ? { revenue: Math.round(fin.revenue * f) } : {}) };
   };
   for (const club of Object.values(w.clubs)) {
     const d = dataClub.get(club.id);
     const baseLevel = d ? levelOf(d.lg) : prevLevel.get(club.id) ?? levelOf(club.league);
     const steps = baseLevel - levelOf(club.league);    // 양수 = 실제(또는 지난 시즌)보다 위 리그
-    if (!d && !steps) continue;
-    const rep = (d ? d.c.reputation : club.reputation) + (steps > 0 ? 4 * steps : 5 * steps);
-    club.reputation = Math.max(30, Math.min(99, rep));
+    if (d || steps) {
+      const rep = (d ? d.c.reputation : club.reputation) + (steps > 0 ? 4 * steps : 5 * steps);
+      club.reputation = Math.max(30, Math.min(99, rep));
+    }
+    // 강등 임금 삭감 조항: 지난 시즌보다 아래 리그로 내려가면 선수 주급 40% 삭감 (실제 계약의 강등 조항처럼, 모든 구단 같음)
+    if (levelOf(club.league) > (prevLevel.get(club.id) ?? levelOf(club.league)))
+      for (const id of club.squad) w.players[id].wage = Math.max(500, Math.round((w.players[id].wage * 0.6) / 500) * 500);
     const fin = adjust(d ? d.c.finance : club.finance, steps);
-    if (club.id !== w.userClubId) club.finance = { ...fin };
+    club.sales = 0;   // 재정 규정의 판매 수입은 시즌마다 새로
+    if (club.id !== w.userClubId) seasonBudgets(club, fin);
     else report.board = { ...boardReview(w, fin, to), prize: w.lastPrize ?? 0 };
   }
 
@@ -268,7 +286,9 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     }
     if (p.clubId && p.contract && p.contract < startDate) {
       // 내 구단은 재계약하지 않았으면 떠난다 (자동 연장 없음). AI 구단은 실제로 남아 있거나 확률로 연장
-      const keep = p.clubId !== w.userClubId && (d?.club === p.clubId || rng.chance(0.55));
+      // AI: 실제로 남아 있으면 연장, 아니면 핵심 선수(구단 능력 18위 안 · 32세 이하)는 85%, 나머지 40% 확률로 연장
+      const core = (rankOf.get(p.id) ?? 99) <= 18 && age <= 32;
+      const keep = p.clubId !== w.userClubId && (d?.club === p.clubId || rng.chance(core ? 0.85 : 0.4));
       if (keep) p.contract = `${+startDate.slice(0, 4) + 2}-06-30`;
       else {
         const mine = p.clubId === w.userClubId, ovr = overall(p);
@@ -300,6 +320,15 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     report.debuts.push(id);
   }
 
+  // 유스 입단: 다음 시즌 실제 데이터가 없는 리그의 구단 (데이터가 있으면 실제 신인이 등장하므로)
+  const youthClubs = Object.values(w.clubs).filter((c) => newMembers[c.league]?.includes(c.id) && !nextLeague.has(c.league));
+  report.youth = youthIntake(w, youthClubs, to, MAX_SQUAD);
+  const myYouth = report.youth.find((y) => y.club === w.userClubId);
+  if (myYouth) {
+    const best = myYouth.players.map((id) => w.players[id]).sort((a, b) => (b.potential ?? 0) - (a.potential ?? 0))[0];
+    w.inbox.push({ type: 'youth', date: startDate, players: myYouth.players, star: (best.potential ?? 0) >= 78 ? best.id : undefined });
+  }
+
   // 포메이션 다시 확인 (선수단이 바뀌었으니)
   for (const c of Object.values(w.clubs)) {
     if (!FORMATIONS[c.tactics.formation]) c.tactics.formation = guessFormation(c.squad.map((id) => w.players[id]));
@@ -314,6 +343,10 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
       table: Object.fromEntries(members.map((c) => [c, emptyRow(c)])),
     };
   }
+
+  // 유럽 대회 (방금 끝난 시즌 순위로) · 국내 컵 대회 (새 리그 구성으로)
+  w.europe = createEurope(w, rng);
+  w.cups = createCups(w, rng);
 
   // 실제 다음 시즌 데이터에 내 구단이 없으면 현재 예산을 기준으로 배정
   if (!report.board) report.board = { ...boardReview(w, { ...w.clubs[w.userClubId].finance }, to), prize: w.lastPrize ?? 0 };
@@ -338,10 +371,13 @@ function releasePlayer(w: World, p: PlayerState) {
   if (p.clubId) w.clubs[p.clubId].squad = w.clubs[p.clubId].squad.filter((id) => id !== p.id);
   p.clubId = null;
   p.contract = null;
+  p.amort = undefined;
+  p.amortEnd = undefined;
 }
 
 function resetSeason(p: PlayerState) {
   p.stats = emptyStats();
+  p.cupStats = undefined;
   p.tlog = undefined;
   p.yellowCount = 0;
   p.suspension = 0;

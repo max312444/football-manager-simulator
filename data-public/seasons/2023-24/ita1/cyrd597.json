@@ -6,12 +6,14 @@
     "youth": 3
   },
   "finance": {
-    "balance": 4230000,
-    "transferBudget": 2820000,
-    "wageBudget": 155100
+    "balance": 13800000,
+    "revenue": 85000000,
+    "revenueSource": "model",
+    "transferBudget": 7500000,
+    "wageBudget": 1013000
   },
   "league": "ita1",
-  "reputation": 67,
+  "reputation": 69,
   "season": "2023-24",
   "source": {
     "derived": "pipeline-derived-v1",
@@ -46,7 +48,7 @@
       "nation": "ITA",
       "number": 1,
       "pos": "GK",
-      "wage": 7500
+      "wage": 45500
     },
     {
       "attrs": {
@@ -72,7 +74,7 @@
       "nation": "CRO",
       "number": 3,
       "pos": "CB",
-      "wage": 3000
+      "wage": 22500
     },
     {
       "attrs": {
@@ -98,7 +100,7 @@
       "nation": "AUT",
       "number": 5,
       "pos": "CB",
-      "wage": 2500
+      "wage": 21000
     },
     {
       "attrs": {
@@ -124,7 +126,7 @@
       "nation": "FRA",
       "number": 6,
       "pos": "CM",
-      "wage": 3000
+      "wage": 35000
     },
     {
       "attrs": {
@@ -151,7 +153,7 @@
       "nation": "ARG",
       "number": 7,
       "pos": "ST",
-      "wage": 1000
+      "wage": 9000
     },
     {
       "attrs": {
@@ -177,7 +179,7 @@
       "nation": "NOR",
       "number": 8,
       "pos": "CM",
-      "wage": 2500
+      "wage": 25500
     },
     {
       "attrs": {
@@ -204,7 +206,7 @@
       "nation2": "FRA",
       "number": 10,
       "pos": "ST",
-      "wage": 22000
+      "wage": 63000
     },
     {
       "attrs": {
@@ -230,7 +232,7 @@
       "nation": "NOR",
       "number": 11,
       "pos": "ST",
-      "wage": 2000
+      "wage": 17000
     },
     {
       "attrs": {
@@ -256,7 +258,7 @@
       "nation": "MEX",
       "number": 13,
       "pos": "GK",
-      "wage": 10000
+      "wage": 56500
     },
     {
       "attrs": {
@@ -282,7 +284,7 @@
       "nation": "CHI",
       "number": 14,
       "pos": "ST",
-      "wage": 2000
+      "wage": 15500
     },
     {
       "attrs": {
@@ -308,7 +310,7 @@
       "nation": "ARG",
       "number": 17,
       "pos": "RB",
-      "wage": 10000
+      "wage": 59000
     },
     {
       "attrs": {
@@ -334,7 +336,7 @@
       "nation": "MLI",
       "number": 18,
       "pos": "CM",
-      "wage": 4000
+      "wage": 33500
     },
     {
       "attrs": {
@@ -360,7 +362,7 @@
       "nation": "CYP",
       "number": 20,
       "pos": "CM",
-      "wage": 6500
+      "wage": 54500
     },
     {
       "attrs": {
@@ -387,7 +389,7 @@
       "nation": "CPV",
       "number": 21,
       "pos": "ST",
-      "wage": 4000
+      "wage": 24000
     },
     {
       "attrs": {
@@ -413,7 +415,7 @@
       "nation": "NGA",
       "number": 22,
       "pos": "ST",
-      "wage": 1000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -439,7 +441,7 @@
       "nation": "SVK",
       "number": 23,
       "pos": "CB",
-      "wage": 19000
+      "wage": 63000
     },
     {
       "attrs": {
@@ -465,7 +467,7 @@
       "nation": "ITA",
       "number": 25,
       "pos": "CM",
-      "wage": 2500
+      "wage": 26500
     },
     {
       "attrs": {
@@ -492,7 +494,7 @@
       "nation2": "FRA",
       "number": 28,
       "pos": "CB",
-      "wage": 6500
+      "wage": 39500
     },
     {
       "attrs": {
@@ -518,7 +520,7 @@
       "nation": "ITA",
       "number": 30,
       "pos": "CM",
-      "wage": 3000
+      "wage": 32000
     },
     {
       "attrs": {
@@ -544,7 +546,7 @@
       "nation": "FRA",
       "number": 56,
       "pos": "GK",
-      "wage": 4500
+      "wage": 33500
     },
     {
       "attrs": {
@@ -570,7 +572,7 @@
       "nation": "ITA",
       "number": 66,
       "pos": "CB",
-      "wage": 2000
+      "wage": 15500
     },
     {
       "attrs": {
@@ -596,7 +598,7 @@
       "nation": "SEN",
       "number": 78,
       "pos": "CM",
-      "wage": 2000
+      "wage": 23500
     },
     {
       "attrs": {
@@ -622,7 +624,7 @@
       "nation": "ITA",
       "number": 87,
       "pos": "CM",
-      "wage": 12000
+      "wage": 63000
     },
     {
       "attrs": {
@@ -648,7 +650,7 @@
       "nation": "ITA",
       "number": 98,
       "pos": "CB",
-      "wage": 1000
+      "wage": 10500
     },
     {
       "attrs": {
@@ -674,7 +676,7 @@
       "nation": "POL",
       "number": 99,
       "pos": "CM",
-      "wage": 1000
+      "wage": 11500
     },
     {
       "attrs": {
@@ -700,7 +702,7 @@
       "nation": "NGA",
       "number": null,
       "pos": "ST",
-      "wage": 4500
+      "wage": 26500
     },
     {
       "attrs": {
@@ -726,7 +728,7 @@
       "nation": "JAM",
       "number": null,
       "pos": "ST",
-      "wage": 1000
+      "wage": 9000
     }
   ],
   "stadiumCapacity": 37245

@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import type { Fixture, World } from '../../engine/types';
-import { clubKo, playerKo } from '../../data/db';
+import { clubKo, compKo, playerKo } from '../../data/db';
+import { allFixtures } from '../../engine/world';
 import { Crest } from '../components/Crest';
 import { ResultDot } from '../components/bits';
-import { koDate } from '../format';
+import { koDate, roundLabel } from '../format';
 import { useWorld } from '../hooks';
 
 export const userFixtures = (w: World): Fixture[] =>
-  Object.values(w.competitions).flatMap((c) => c.fixtures).filter((f) => f.home === w.userClubId || f.away === w.userClubId).sort((a, b) => a.date.localeCompare(b.date));
+  allFixtures(w).filter((f) => f.home === w.userClubId || f.away === w.userClubId).sort((a, b) => a.date.localeCompare(b.date));
 
 export function resultFor(f: Fixture, club: string): 'W' | 'D' | 'L' | null {
   if (!f.result) return null;
@@ -33,13 +34,16 @@ export function ScheduleView() {
             <button key={f.id} onClick={() => f.result && setOpen(f.id)}
               className={`flex h-12 w-full items-center gap-4 px-5 text-left text-[14px] shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${
                 open === f.id ? 'bg-neon-ghost' : today ? 'bg-ink-800' : f.result ? 'hover:bg-ink-800' : ''}`}>
-              <span className="tnum w-8 text-[12px] text-lo">R{f.round}</span>
+              {f.stage === 'cup' || f.stage === 'euro'
+                ? <span className={`w-44 truncate text-[12px] font-semibold ${f.stage === 'euro' ? 'text-sky' : 'text-amber'}`} title={compKo(f.league)}>{compKo(f.league)} · {f.name}</span>
+                : <span className="tnum w-44 truncate text-[12px] text-lo">{f.stage ? roundLabel(f) : `R${f.round}`}</span>}
               <span className="tnum w-40 text-mid">{koDate(f.date)}</span>
               <span className={`w-10 rounded py-0.5 text-center text-[11px] font-semibold ${home ? 'bg-ink-700 text-hi' : 'text-lo ring-1 ring-line'}`}>{home ? '홈' : '원정'}</span>
               <Crest clubId={opp} size={18} />
               <span className="flex-1 truncate font-semibold">{clubKo(opp)}</span>
               {f.result ? (
-                <><span className="tnum w-14 text-right font-semibold">{home ? `${f.result.homeGoals} - ${f.result.awayGoals}` : `${f.result.awayGoals} - ${f.result.homeGoals}`}</span><ResultDot r={r!} /></>
+                <>{f.result.pens && <span className="text-[11px] text-lo" title="승부차기">PK {(f.result.pens === 'home') === home ? '승' : '패'}</span>}
+                  <span className="tnum w-14 text-right font-semibold">{home ? `${f.result.homeGoals} - ${f.result.awayGoals}` : `${f.result.awayGoals} - ${f.result.homeGoals}`}</span><ResultDot r={r!} /></>
               ) : today ? <span className="text-[12px] font-semibold text-neon">오늘</span> : <span className="text-[12px] text-lo">예정</span>}
             </button>
           );

@@ -4,7 +4,7 @@
 //  - public: data-public/ (패러디 이름 · 가상 리그 이름, 저장소에 포함) — 기본
 //  - real:   data/        (실명, 각자 파이프라인으로 만든 내 PC의 데이터) — 있을 때만 설정에서 선택 가능
 import type {
-  ClubMaster, ClubSeasonFile, LeagueMeta, LeagueSeasonFile, LocaleName, NationMeta,
+  ClubMaster, ClubSeasonFile, CupMeta, LeagueMeta, LeagueSeasonFile, LocaleName, NationMeta,
 } from './types';
 import type { PlayerHistory } from '../engine/traits';
 
@@ -43,6 +43,9 @@ const S = SETS[dataset];
 const metaFile = <T,>(name: string): T => Object.entries(S.meta).find(([p]) => p.endsWith(`/meta/${name}.json`))![1] as T;
 
 export const leagues: LeagueMeta[] = metaFile<{ leagues: LeagueMeta[] }>('leagues').leagues;
+export const cups: CupMeta[] = metaFile<{ cups?: CupMeta[] }>('leagues').cups ?? [];
+/** 리그 · 컵 대회 이름 */
+export const compKo = (id: string) => leagues.find((l) => l.id === id)?.ko ?? cups.find((c) => c.id === id)?.ko ?? id;
 export const nations = new Map<string, NationMeta>(metaFile<{ nations: NationMeta[] }>('nations').nations.map((n) => [n.code, n]));
 export const clubs = new Map<string, ClubMaster>(Object.values(S.clubs).map((c) => [c.id, c]));
 
@@ -63,6 +66,12 @@ export function availableSeasons(league: string): string[] {
   return [...out].sort();
 }
 
+/** 실제 최종 순위 (데이터에 있을 때만) */
+export async function loadStandings(season: string, league: string): Promise<string[] | undefined> {
+  const meta = (await index.get(`${season}/${league}/_league`)?.()) as LeagueSeasonFile | undefined;
+  return meta?.standings;
+}
+
 export async function loadLeagueSeason(season: string, league: string) {
   const meta = (await index.get(`${season}/${league}/_league`)?.()) as LeagueSeasonFile | undefined;
   if (!meta) throw new Error(`데이터 없음: ${season} ${league}`);
@@ -78,3 +87,20 @@ export async function loadHistory(): Promise<PlayerHistory | null> {
 
 export const playerKo = (id: string, fallback: string) => koNames.get(id)?.name ?? fallback;
 export const clubKo = (id: string) => clubs.get(id)?.ko ?? clubs.get(id)?.name ?? id;
+
+/**
+ * 게임이 만든 선수(유스)의 한국어 이름 등록: 이름을 가져온 선수들의 한국어 이름에서 이름 · 성을 섞는다.
+ * 만든 이름은 선수에 저장(p.ko)해서 세이브를 불러와도 같게
+ */
+export function registerGeneratedNames(players: Record<string, { generated?: boolean; ko?: string; name: string; nameFrom?: [string | null, string | null] }>) {
+  const split = (s: string) => { const t = s.trim().split(/\s+/); return { first: t.length > 1 ? t.slice(0, -1).join(' ') : null, last: t.at(-1)! }; };
+  for (const [id, p] of Object.entries(players)) {
+    if (!p.generated) continue;
+    if (!p.ko && p.nameFrom) {
+      const [fId, lId] = p.nameFrom;
+      const f = fId ? koNames.get(fId)?.name : null, l = lId ? koNames.get(lId)?.name : null;
+      if (l) p.ko = [f ? split(f).first ?? split(f).last : null, split(l).last].filter(Boolean).join(' ');
+    }
+    if (p.ko) koNames.set(id, { name: p.ko, short: p.ko.split(' ').at(-1) });
+  }
+}
