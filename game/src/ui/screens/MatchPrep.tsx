@@ -1,5 +1,6 @@
 // 경기 전 스쿼드 설정: AI가 상대에 맞춰 추천한 선발로 시작 → 사용자가 수정 → 선발 확정하면 바로 킥오프
 import { useApp } from '../../store/app';
+import { OvrText } from '../components/Scout';
 import { useEffect, useMemo, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
@@ -120,7 +121,7 @@ export function MatchPrep() {
               {oppKey.map((p) => (
                 <div key={p.id} className="flex items-center gap-3 px-5 py-2 text-[13px]">
                   <PosTag pos={p.pos} /><span className="min-w-0 flex-1 truncate">{name(p.id)}</span>
-                  <span className={`tnum font-semibold ${ratingTone(overall(p))}`}>{overall(p)}</span>
+                  <OvrText w={w} p={p} />
                 </div>
               ))}
             </div>
@@ -194,7 +195,7 @@ export function MatchPrep() {
                   <div className="grid grid-cols-5 gap-2">
                     {Object.keys(FORMATIONS).map((fm) => (
                       <button key={fm} onClick={() => updateDraft({ formation: fm })}
-                        className={`tnum relative h-8 rounded-md text-[12px] transition-colors ${d.formation === fm ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>
+                        title={fm} className={`tnum relative h-8 truncate rounded-md px-1 text-[12px] transition-colors ${d.formation === fm ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>
                         {fm}
                         {m.rec.lineup.formation === fm && d.formation !== fm && <span className="absolute top-1 right-1 h-1.5 w-1.5 rounded-full bg-neon" title="AI 추천" />}
                       </button>

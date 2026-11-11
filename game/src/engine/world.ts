@@ -1,5 +1,6 @@
 // 월드 생성과 하루 진행 (advanceDay)
 import { coachDay } from './coaches';
+import { scoutDay, scoutMatch } from './scout';
 import { aiLoanDay } from './loan';
 import { autoResolve } from './autoResolve';
 import type { ClubSeasonFile } from '../data/types';
@@ -185,6 +186,7 @@ export function applyMatch(w: World, f: Fixture, m: MatchState) {
   if (f.stage === 'intl') onWorldCupResult(w, f);
   if (!f.stage) applyResult(w.competitions[f.league].table, f.home, f.away, s.homeGoals, s.awayGoals);
   gateIncome(w, f.home, f.away);
+  if (f.home === w.userClubId || f.away === w.userClubId) scoutMatch(w, Object.keys(s.ratings));   // 맞붙은 상대 선수를 조금 알게 됨
   matchFans(w, f.home, f.away, s.homeGoals, s.awayGoals);
   if (s.pom) { const p = w.players[s.pom]; if (!cup) p.stats.pom = (p.stats.pom ?? 0) + 1; p.morale = Math.min(100, p.morale + 5); }
   if (s.worst && s.worst !== s.pom) { const p = w.players[s.worst]; p.morale = Math.max(0, p.morale - 3); }
@@ -302,6 +304,7 @@ export function advanceDay(w: World): GameEvent[] {
   events.push(...traitMonth(w, rng));
   events.push(...managerDay(w, rng));
   events.push(...coachDay(w, rng));     // AI 구단 감독: 신뢰도 · 경질 · 공석이면 나에게 제안
+  events.push(...scoutDay(w));        // 스카우트 보고서
   events.push(...facilityDay(w));   // 시설 공사 완료
   boardMonth(w);   // 이사회 관계: 성적에 따라 조금씩   // 감독: 신뢰도 · 재계약 · 다른 구단 제안 · 경질
   // 훈련 · 선수 육성 (매달 1일)
@@ -345,7 +348,7 @@ export function advanceDay(w: World): GameEvent[] {
     if (e.type === 'seasonEnd' || e.type === 'info' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
       || (e.type === 'transfer' && (e.user || e.fee >= 30e6))
       || (e.type === 'cup' && (e.club === w.userClubId || e.result === 'champion'))
-      || e.type === 'callup' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || e.type === 'saga' || e.type === 'scandal' || (e.type === 'loan' && e.user) || (e.type === 'coach' && e.news) || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
+      || e.type === 'callup' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || e.type === 'saga' || e.type === 'scandal' || (e.type === 'loan' && e.user) || (e.type === 'coach' && e.news) || e.type === 'scout' || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
   }
   if (w.inbox.length > 300) w.inbox.splice(0, w.inbox.length - 300);
   return events;

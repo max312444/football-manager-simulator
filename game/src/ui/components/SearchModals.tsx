@@ -1,5 +1,6 @@
 // 검색에서 연 창: 선수 정보 (영입 협상 · 관심) · 구단 선수단
 import { useEffect, useState } from 'react';
+import { OvrText } from './Scout';
 import { useApp } from '../../store/app';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
@@ -13,7 +14,7 @@ import { NegotiationModal } from './NegotiationModal';
 import { ContractBox } from './ContractBox';
 import { Crest } from './Crest';
 import { PosTag } from './bits';
-import { money, ratingTone } from '../format';
+import { money } from '../format';
 
 function useEsc(onClose: () => void, on: boolean) {
   useEffect(() => {
@@ -98,13 +99,13 @@ function ClubModal() {
         <div className="min-h-0 flex-1 overflow-auto">
           <table className="w-full text-[13px]">
             <tbody>
-              {ps.map((p) => { const o = overall(p); return (
+              {ps.map((p) => { return (
                 <tr key={p.id} onClick={() => openProfile(p.id)} className="h-10 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] hover:bg-ink-800">
                   <td className="w-14 pl-6"><PosTag pos={p.pos} /></td>
                   <td className="font-medium">{playerKo(p.id, p.name)}</td>
                   <td className="tnum w-12 text-right text-mid">{ageOn(p.birth, w.date)}</td>
                   <td className="tnum w-24 text-right text-mid">{money(marketValue(w, p))}</td>
-                  <td className={`tnum w-16 pr-6 text-right font-semibold ${ratingTone(o)}`}>{o}</td>
+                  <td className="w-20 pr-6 text-right"><OvrText w={w} p={p} /></td>
                 </tr>
               ); })}
             </tbody>

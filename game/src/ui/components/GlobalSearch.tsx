@@ -1,8 +1,8 @@
 // 상단 검색창: 선수 · 구단 · 리그. "/" 또는 Ctrl+K 로 바로 입력, ↑↓ Enter 로 선택
 //  선수 → 선수 정보 창, 구단 → 구단 선수단 창, 리그 → 순위 화면
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { estOverall } from '../../engine/scout';
 import { clubKo, compKo, clubs as clubMasters, leagues, playerKo } from '../../data/db';
-import { overall } from '../../engine/ratings';
 import { useApp } from '../../store/app';
 import { useWorld } from '../hooks';
 import { Crest } from './Crest';
@@ -47,7 +47,7 @@ export function GlobalSearch() {
       .sort((a, b) => b.reputation - a.reputation).slice(0, 5)
       .map<Hit>((c) => ({ kind: 'club', id: c.id, label: clubKo(c.id), sub: `${compKo(c.league) ?? c.league} · 선수 ${c.squad.length}명` }));
     const pl = Object.values(w.players).filter((p) => !p.retired && has(playerKo(p.id, p.name), p.name))
-      .map((p) => ({ p, o: overall(p) })).sort((a, b) => +(b.p.clubId === w.userClubId) - +(a.p.clubId === w.userClubId) || b.o - a.o).slice(0, 8)
+      .map((p) => ({ p, o: estOverall(w, p) })).sort((a, b) => +(b.p.clubId === w.userClubId) - +(a.p.clubId === w.userClubId) || b.o - a.o).slice(0, 8)
       .map<Hit>(({ p, o }) => ({ kind: 'player', id: p.id, label: playerKo(p.id, p.name), sub: p.clubId ? clubKo(p.clubId) : '자유계약', ovr: o, pos: p.pos, club: p.clubId }));
     return [...pl, ...cl, ...lg];
   }, [q, w]);

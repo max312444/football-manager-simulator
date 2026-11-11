@@ -73,6 +73,9 @@ export function SettingsDialog({ onClose }: { onClose: () => void }) {
             <Row label="이적 협상" hint="파는 구단의 요구 금액 · 선수가 우리 구단에 올 마음">
               <Seg value={s.transfers} options={[['easy', '쉬움'], ['normal', '보통'], ['hard', '어려움']]} onChange={(v) => change({ transfers: v })} />
             </Row>
+            <Row label="스카우트" hint="켬: 다른 구단 선수 능력치가 아는 만큼만 범위로 보임 (스카우트를 보내면 정확히) · 끔: 모두 정확히">
+              <Seg value={s.scoutFog === false ? 'off' : 'on'} options={[['on', '켬'], ['off', '끔']]} onChange={(v) => change({ scoutFog: v === 'on' })} />
+            </Row>
           </Section>
 
           <Section title="경기">

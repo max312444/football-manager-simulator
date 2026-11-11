@@ -2,6 +2,7 @@
 import { create } from 'zustand';
 import type { Freq, GameSettings, PopupKind } from '../engine/gameSettings';
 import type { World } from '../engine/types';
+import { registerFormations } from '../engine/squad';
 import { setNameStyle } from '../data/db';
 
 export interface Settings {
@@ -15,6 +16,8 @@ export interface Settings {
   patience: NonNullable<GameSettings['patience']>;
   rules: NonNullable<GameSettings['rules']>;
   transfers: NonNullable<GameSettings['transfers']>;
+  /** 스카우트: 다른 구단 선수 능력치를 아는 만큼만 (끄면 모두 정확히) */
+  scoutFog: boolean;
   /** 자동 저장: 진행할 때마다 · 1주 · 1달 · 안 함 */
   autosave: 'day' | 'week' | 'month' | 'off';
   /** 글자 크기 (화면 배율) */
@@ -26,7 +29,7 @@ export interface Settings {
 export const DEFAULT_SETTINGS: Settings = {
   stopAt: 'match', matchMode: 'manage', matchSpeed: 0,
   popups: { press: 'normal', board: 'normal', scandal: 'normal', saga: 'normal' },
-  patience: 'normal', rules: 'normal', transfers: 'normal',
+  patience: 'normal', rules: 'normal', transfers: 'normal', scoutFog: true,
   autosave: 'day', fontScale: 1, names: 'full',
 };
 
@@ -45,8 +48,8 @@ function apply(s: Settings) {
 }
 
 /** 게임 규칙 설정만 골라 세이브에 */
-export const gameSettingsOf = (s: Settings): GameSettings => ({ popups: { ...s.popups }, patience: s.patience, rules: s.rules, transfers: s.transfers });
-export function syncWorld(w: World | null, s = useSettings.getState().s) { if (w) w.settings = gameSettingsOf(s); }
+export const gameSettingsOf = (s: Settings): GameSettings => ({ popups: { ...s.popups }, patience: s.patience, rules: s.rules, transfers: s.transfers, scoutFog: s.scoutFog !== false });
+export function syncWorld(w: World | null, s = useSettings.getState().s) { if (w) { w.settings = gameSettingsOf(s); registerFormations(w.customFormations); } }
 
 export const useSettings = create<{ s: Settings; set(change: Partial<Settings>): void; reset(): void }>((setState, get) => ({
   s: read(),

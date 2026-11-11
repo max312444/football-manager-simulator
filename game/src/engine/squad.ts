@@ -22,6 +22,59 @@ export const FORMATIONS: Record<string, Position[]> = {
 };
 export const DEFAULT_FORMATION = '4-4-2';
 
+// ── 사용자 포메이션 (내 구단 전용, 세이브에 저장 w.customFormations) ──
+//  이름 앞에 ★ 를 붙여 기본 포메이션과 구분. 게임을 불러올 때 FORMATIONS 에 끼워 넣는다 (AI 는 기본 포메이션만 씀)
+export const CUSTOM_MARK = '★';
+export const MAX_CUSTOM = 6;
+export const isCustom = (f: string) => f.startsWith(CUSTOM_MARK);
+export function registerFormations(custom?: Record<string, Position[]>) {
+  for (const k of Object.keys(FORMATIONS)) if (isCustom(k)) delete FORMATIONS[k];
+  for (const [k, v] of Object.entries(custom ?? {})) if (isCustom(k) && !validateFormation(v).length) FORMATIONS[k] = v;
+}
+
+/** 필드 선수가 고를 수 있는 자리 */
+export const OUTFIELD: Position[] = ['CB', 'LB', 'RB', 'LWB', 'RWB', 'DM', 'CM', 'LM', 'RM', 'AM', 'LW', 'RW', 'ST'];
+
+/**
+ * 사용자 포메이션 검사: 말이 안 되는 구성이면 이유 목록 (빈 배열이면 통과)
+ *  실제 축구에서 쓰는 범위 — 수비 3~5명 · 센터백 2~3명 · 한쪽 측면에 같은 줄 2명 금지 · 중앙 미드 1명 이상 · 공격수 1~3명
+ */
+export function validateFormation(slots: Position[]): string[] {
+  const n = (ps: Position[]) => slots.filter((x) => ps.includes(x)).length;
+  const out: string[] = [];
+  if (slots.length !== 11) out.push('11명이어야 합니다');
+  if (slots[0] !== 'GK' || n(['GK']) !== 1) out.push('골키퍼는 1명');
+  const cb = n(['CB']), back = n(['CB', 'LB', 'RB', 'LWB', 'RWB']);
+  if (cb < 2 || cb > 3) out.push(`센터백은 2~3명 (지금 ${cb}명)`);
+  if (back < 3 || back > 5) out.push(`수비(센터백 · 풀백 · 윙백)는 3~5명 (지금 ${back}명)`);
+  if (n(['LB', 'LWB']) > 1) out.push('왼쪽 풀백 · 윙백은 1명까지');
+  if (n(['RB', 'RWB']) > 1) out.push('오른쪽 풀백 · 윙백은 1명까지');
+  if (cb === 2 && (n(['LB', 'LWB']) < 1 || n(['RB', 'RWB']) < 1)) out.push('센터백 2명이면 양쪽 풀백(또는 윙백)이 필요합니다');
+  if (n(['LM', 'LW']) > 1) out.push('왼쪽 미드필더 · 윙어는 1명까지');
+  if (n(['RM', 'RW']) > 1) out.push('오른쪽 미드필더 · 윙어는 1명까지');
+  if (n(['DM', 'CM']) < 1) out.push('중앙 미드필더(DM · CM)는 1명 이상');
+  if (n(['DM']) > 2) out.push('수비형 미드필더는 2명까지');
+  if (n(['CM']) > 3) out.push('중앙 미드필더(CM)는 3명까지');
+  if (n(['AM']) > 3) out.push('공격형 미드필더는 3명까지');
+  if (n(['DM', 'CM', 'AM']) > 5) out.push('중앙 미드필더는 모두 합쳐 5명까지');
+  const st = n(['ST']);
+  if (st < 1 || st > 3) out.push(`스트라이커는 1~3명 (지금 ${st}명)`);
+  if (n(['ST', 'LW', 'RW', 'AM']) > 5) out.push('공격 자원(ST · 윙어 · AM)은 5명까지');
+  return out;
+}
+
+/** 모양 이름 (수비-미드-공격형-공격, 예: 4-2-3-1) */
+export function formationShape(slots: Position[]): string {
+  const n = (ps: Position[]) => slots.filter((x) => ps.includes(x)).length;
+  // 3백(풀백 없음)에서 윙백은: 같은 쪽에 측면 미드가 없고, 중앙 미드가 2명 이하거나 윙어가 있으면 미드필더 줄 (3-4-3 · 3-4-2-1), 아니면 수비 줄 (5-3-2 · 5-4-1)
+  const wbMid = n(['CB']) === 3 && n(['LB', 'RB']) === 0 && n(['LM', 'RM']) === 0 && (n(['DM', 'CM']) <= 2 || n(['LW', 'RW']) > 0);
+  const d = n(['CB', 'LB', 'RB']) + (wbMid ? 0 : n(['LWB', 'RWB']));
+  const m = n(['DM', 'CM', 'LM', 'RM']) + (wbMid ? n(['LWB', 'RWB']) : 0);
+  // 공격형 미드가 있으면 윙어는 그 줄로 센다 (4-2-3-1)
+  const am = n(['AM']) ? n(['AM', 'LW', 'RW']) : 0, f = n(['AM']) ? n(['ST']) : n(['ST', 'LW', 'RW']);
+  return [d, m, am, f].filter((x, i) => x > 0 || i === 0).join('-');
+}
+
 /** 뛸 수 있는 선수 (부상 · 징계 · 출전 거부 태업이면 불가) */
 export const available = (p: PlayerState) => !p.injury && p.suspension === 0 && (p.saga?.stage ?? 0) < 3;
 

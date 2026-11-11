@@ -1,11 +1,11 @@
 // AI 경기 준비: 상대에 맞춘 포메이션 · 성향 · 압박 · 선발 추천
 // 사용자에게는 "추천"으로 보여주고, AI 구단은 그대로 쓴다.
 import type { Mentality, PlayerState, Pressing, Tactics, World } from './types';
-import { FORMATIONS, matchRules, pickLineup, type Lineup } from './squad';
+import { FORMATIONS, isCustom, matchRules, pickLineup, type Lineup } from './squad';
 import { overall, slotRating } from './ratings';
 
 const ATTACKING = ['4-3-3', '4-2-3-1', '3-4-3', '4-4-2', '3-4-2-1'];
-const BALANCED = Object.keys(FORMATIONS);
+const BALANCED = Object.keys(FORMATIONS).filter((f) => !isCustom(f));
 const DEFENSIVE = ['4-2-3-1', '4-1-4-1', '4-5-1', '5-3-2', '5-4-1', '4-4-1-1'];
 
 /** 주전 11명 평균 능력 */
@@ -50,6 +50,13 @@ export function recommend(w: World, clubId: string, oppId: string, home: boolean
   if (club.lineup?.starters.some(Boolean)) {
     const lineup = pickLineup(players, club.tactics.formation, bench, club.lineup.starters, club.lineup.bench);
     reasons.push(`직접 정한 선발 유지 (${lineup.formation})`);
+    return { tactics: { formation: lineup.formation, mentality, pressing }, lineup, edge, reasons };
+  }
+
+  // 내가 만든 포메이션을 골라 두었으면 그 포메이션 유지 (선수만 자동으로)
+  if (isCustom(club.tactics.formation) && FORMATIONS[club.tactics.formation]) {
+    const lineup = pickLineup(players, club.tactics.formation, bench);
+    reasons.push(`내 포메이션 유지 (${lineup.formation})`);
     return { tactics: { formation: lineup.formation, mentality, pressing }, lineup, edge, reasons };
   }
 

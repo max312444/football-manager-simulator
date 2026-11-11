@@ -26,7 +26,9 @@ import { breakTalks, cleanOffers, completeTransfer, counterOffer, offerValid, ev
 import type { RetireNews, TransferOffer } from '../engine/types';
 import { applyRenewal, evaluateRenewal } from '../engine/contract';
 const addDaysIso = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
-import { matchRules, pickLineup } from '../engine/squad';
+import { CUSTOM_MARK, formationShape, guessFormation, matchRules, MAX_CUSTOM, pickLineup, registerFormations, validateFormation } from '../engine/squad';
+import type { Position } from '../data/types';
+import { startScout } from '../engine/scout';
 import type { Mentality, Pressing } from '../engine/types';
 import { exportSaveFile, readSave, readSaveFile, writeSave } from './save';
 import type { Ceremony } from '../ui/components/TransferCeremony';
@@ -146,6 +148,11 @@ interface GameStore {
   changeTactics(t: Partial<Tactics>): void;
   sub(outId: string, inId: string): boolean;
   setClubTactics(t: Partial<Tactics>): void;
+  /** 내 포메이션 저장 (prev: 고치는 포메이션 이름) → 오류 문구 또는 null */
+  saveFormation(prev: string | null, name: string, slots: Position[]): string | null;
+  deleteFormation(key: string): void;
+  /** 스카우트 보내기: 선수 한 명 · 리그 전체 */
+  scout(kind: 'player' | 'league', target: string): { ok: boolean; reason?: string };
   /** 훈련 초점 · 강도 */
   setTraining(t: Partial<Training>): void;
   /** 감독: 제안 수락 · 거절 · 새 구단 고르기 · 다른 구단 제안 받기 */
@@ -327,6 +334,46 @@ export const useGame = create<GameStore>((set, get) => {
       const ok = substitute(m.state, m.side, outId, inId, { players: w.players, rng: m.rng });
       bump();
       return ok;
+    },
+
+    saveFormation(prev, name, slots) {
+      const w = get().world;
+      if (!w) return '게임이 없습니다';
+      const errs = validateFormation(slots);
+      if (errs.length) return errs[0];
+      const key = `${CUSTOM_MARK} ${name.trim() || formationShape(slots)}`.slice(0, 24);
+      const all = (w.customFormations ??= {});
+      if (key !== prev && all[key]) return '같은 이름의 포메이션이 있습니다';
+      if (!prev && Object.keys(all).length >= MAX_CUSTOM) return `내 포메이션은 ${MAX_CUSTOM}개까지`;
+      const c = w.clubs[w.userClubId];
+      const using = prev && c.tactics.formation === prev;
+      const same = prev && JSON.stringify(all[prev]) === JSON.stringify(slots);
+      if (prev && prev !== key) delete all[prev];
+      all[key] = [...slots];
+      registerFormations(all);
+      if (using) { c.tactics = { ...c.tactics, formation: key }; if (!same) c.lineup = null; }
+      autosave(w);
+      bump();
+      return null;
+    },
+
+    scout(kind, target) {
+      const w = get().world;
+      if (!w) return { ok: false, reason: '게임이 없습니다' };
+      const r = startScout(w, kind, target);
+      if (r.ok) { autosave(w); bump(); }
+      return r;
+    },
+
+    deleteFormation(key) {
+      const w = get().world;
+      if (!w?.customFormations?.[key]) return;
+      delete w.customFormations[key];
+      registerFormations(w.customFormations);
+      const c = w.clubs[w.userClubId];
+      if (c.tactics.formation === key) { c.tactics = { ...c.tactics, formation: guessFormation(c.squad.map((id) => w.players[id])) }; c.lineup = null; }
+      autosave(w);
+      bump();
     },
 
     setClubTactics(t) {

@@ -1,7 +1,8 @@
 // 이적 화면: 선수 검색 · 관심 목록 · 내 선수(이적 명단 · 방출) · 받은 제안
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
-import { overall } from '../../engine/ratings';
+import { estOverall, seenOverall } from '../../engine/scout';
+import { OvrText } from '../components/Scout';
 import { ageOn } from '../../engine/condition';
 import { marketValue, nextWindow, offerValid, talkBanned, wageDemand, windowOpen } from '../../engine/transfer';
 import { wageRoomInfo } from '../../engine/rules';
@@ -16,7 +17,7 @@ import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { Crest } from '../components/Crest';
 import { PosTag } from '../components/bits';
-import { koDate, money, ratingTone } from '../format';
+import { koDate, money } from '../format';
 import { useApp } from '../../store/app';
 import { analyzeClub, searchPreset } from '../../engine/analysis';
 import type { Position } from '../../data/types';
@@ -64,11 +65,12 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
     else {
       ps = Object.values(w.players).filter((p) => !p.retired && p.clubId !== w.userClubId
         && (clubPick ? p.clubId === clubPick : league === 'ALL' || (league === 'FA' ? !p.clubId : p.clubId && w.clubs[p.clubId]?.league === league)));
-      ps = ps.filter((p) => (posSet ? posSet.positions.includes(p.pos) : pos.length ? pos.includes(p.pos) : group === 'ALL' || posGroup(p.pos) === group) && ageOn(p.birth, w.date) <= maxAge && overall(p) >= minOvr
+      ps = ps.filter((p) => (posSet ? posSet.positions.includes(p.pos) : pos.length ? pos.includes(p.pos) : group === 'ALL' || posGroup(p.pos) === group) && ageOn(p.birth, w.date) <= maxAge && seenOverall(w, p)[1] >= minOvr
         && (!q || name(p).includes(q) || p.name.toLowerCase().includes(q.toLowerCase())));
       if (maxValue) ps = ps.filter((p) => marketValue(w, p) <= maxValue);
     }
-    return ps.map((p) => ({ p, ovr: overall(p), age: ageOn(p.birth, w.date), value: marketValue(w, p) }))
+    // 능력은 아는 만큼 (스카우트): 범위 가운데 값으로 정렬
+    return ps.map((p) => ({ p, ovr: estOverall(w, p), age: ageOn(p.birth, w.date), value: marketValue(w, p) }))
       .sort((a, b) => b.ovr - a.ovr || a.age - b.age).slice(0, 200);
   }, [w, tab, group, league, maxAge, minOvr, maxValue, q, shortlist, club.squad, posSet, pos, clubPick]);
   // 조건을 바꾸면 목록을 맨 위로
@@ -209,7 +211,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
               </thead>
               <tbody>
                 {rows.length === 0 && <tr><td colSpan={8} className="px-4 py-10 text-center text-lo">조건에 맞는 선수가 없습니다</td></tr>}
-                {rows.map(({ p, ovr, age, value }) => (
+                {rows.map(({ p, age, value }) => (
                   <tr key={p.id} onClick={() => setSel(p.id)} className={`h-11 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${sel === p.id ? 'bg-neon-ghost' : p.clubId ? 'hover:bg-ink-800' : 'bg-sky/[0.06] hover:bg-sky/10'}`}>
                     <td className={`px-4 ${p.clubId ? '' : 'shadow-[inset_3px_0_0_var(--color-sky)]'}`}><span className="font-medium">{playerKo(p.id, p.name)}</span>
                       {!p.clubId && <span className="ml-2 rounded bg-sky/15 px-1.5 py-px text-[11px] font-semibold text-sky">FA</span>}
@@ -220,7 +222,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
                     <td className="px-2"><PosTag pos={p.pos} /></td>
                     <td className="tnum px-2 text-right text-mid">{age}</td>
                     <td className="px-3"><span className="flex items-center gap-2">{p.clubId ? <button title={p.clubId === w.userClubId ? '' : '이 구단 선수만 보기'} onClick={(e) => { if (p.clubId === w.userClubId) return; e.stopPropagation(); setTab('search'); pickClub(p.clubId); }} className="flex min-w-0 items-center gap-2 hover:text-hi"><Crest clubId={p.clubId} size={16} /><span className="truncate text-mid underline-offset-2 hover:underline">{clubKo(p.clubId)}</span></button> : <span className="text-sky">소속 없음 · 이적료 없음</span>}</span></td>
-                    <td className={`tnum px-2 text-right font-semibold ${ratingTone(ovr)}`}>{ovr}</td>
+                    <td className="px-2 text-right"><OvrText w={w} p={p} /></td>
                     <td className="tnum px-3 text-right">{p.clubId ? money(value) : '–'}</td>
                     <td className="tnum px-3 text-right text-mid">{money(p.wage)}</td>
                     <td className="tnum px-4 text-right text-mid">{p.contract ? p.contract.slice(0, 7).replace('-', '.') : p.clubId ? '–' : <span className="text-sky">FA</span>}</td>

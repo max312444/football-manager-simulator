@@ -1,3 +1,4 @@
+import { GAME_VERSION } from '../../version';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { listSaves, type SaveMeta } from '../../store/save';
 import { SaveSlots } from '../components/SaveSlots';
@@ -125,7 +126,7 @@ export function TitleScreen() {
               ))}
             </div>
           </div>
-          <div className="tnum">v0.1</div>
+          <div className="tnum">v{GAME_VERSION}</div>
         </footer>
         {loadError && <p className="mt-4 max-w-[440px] text-[13px] text-amber">{loadError}</p>}
         <button onClick={() => setNotice('view')} className="mt-4 self-start text-[11px] text-lo transition-colors hover:text-mid">비공식 팬 프로젝트 · 고지 보기</button>

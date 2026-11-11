@@ -12,6 +12,8 @@ export interface GameSettings {
   patience?: 'lenient' | 'normal' | 'strict';
   rules?: 'relaxed' | 'normal' | 'strict';
   transfers?: 'easy' | 'normal' | 'hard';
+  /** 스카우트: 다른 구단 선수 능력치를 아는 만큼만 보기 (기본 켬) */
+  scoutFog?: boolean;
 }
 
 const FACTOR: Record<Freq, number> = { off: 1, rare: 0.5, normal: 1, often: 1.6 };

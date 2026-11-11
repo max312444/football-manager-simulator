@@ -3,9 +3,10 @@
 //  ② 개인 계약: 선수와 주급 · 계약 기간 합의
 // 이적료 · 주급 각각 3번 안에 합의 못 하면 협상 결렬 → 이번 이적시장 동안 이 선수와 다시 협상 불가
 import { autoRole, ROLE_KO, ROLES, type Role } from '../../engine/roles';
+import { OvrText } from './Scout';
+import { seenOverall } from '../../engine/scout';
 import { useEffect, useRef, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
-import { overall } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
 import { MAX_TRIES, marketValue, talkBanned, wageDemand } from '../../engine/transfer';
 import { wageRoomInfo } from '../../engine/rules';
@@ -14,7 +15,7 @@ import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { Crest } from './Crest';
 import { PosTag } from './bits';
-import { money, ratingTone } from '../format';
+import { money } from '../format';
 
 export type Who = 'me' | 'club' | 'player' | 'sys';
 export interface Msg { who: Who; text: string; tone?: 'ok' | 'warn' | 'bad' }
@@ -75,14 +76,13 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
   // 계약 후 여유: 예산 · 규정 중 좁은 쪽. 규정에는 합의한 이적료의 상각 (이적료 ÷ 계약 연수)도 들어간다
   const ri = wageRoomInfo(w, w.userClubId, fa ? 0 : w.talks?.[p.id]?.agreed ?? 0, years);
   const room = ri.room - wage * 1000;
-  const ovr = overall(p);
 
   return (
     <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-6 backdrop-blur-sm" onClick={onClose}>
       <div className="panel flex max-h-[88vh] w-[580px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
         {/* 선수 */}
         <header className="flex items-center gap-4 border-b border-line px-6 py-5">
-          <div className={`tnum grid h-12 w-12 shrink-0 place-items-center rounded-lg border border-line bg-ink-900 text-[22px] font-semibold ${ratingTone(ovr)}`}>{ovr}</div>
+          <div className="tnum grid h-12 min-w-12 shrink-0 place-items-center rounded-lg border border-line bg-ink-900 px-1.5 text-[22px]"><OvrText w={w} p={p} className={seenOverall(w, p)[0] === seenOverall(w, p)[1] ? '' : 'text-[15px]'} /></div>
           <div className="min-w-0 flex-1">
             <div className="truncate text-[20px] font-semibold">{playerKo(p.id, p.name)}</div>
             <div className="mt-0.5 flex items-center gap-2 text-[12px] text-lo">

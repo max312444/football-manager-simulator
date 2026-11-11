@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { Position } from '../../data/types';
-import { available, FORMATIONS, matchRules, pickLineup } from '../../engine/squad';
+import { available, FORMATIONS, isCustom, matchRules, MAX_CUSTOM, pickLineup } from '../../engine/squad';
+import { FormationEditor } from '../components/FormationEditor';
 import { slotRating } from '../../engine/ratings';
 import { playerKo } from '../../data/db';
 import { useGame } from '../../store/game';
@@ -18,7 +19,7 @@ export const PRESSING: { v: Pressing; label: string }[] = [{ v: 0, label: '낮�
 
 // 피치 위 자리 좌표 (가로 0~100, 세로 0=상대 골문 ~ 100=우리 골문)
 export function slotXY(slots: Position[]): { x: number; y: number }[] {
-  const rowY: Record<string, number> = { GK: 92, CB: 75, LB: 72, RB: 72, LWB: 62, RWB: 62, DM: 60, CM: 48, LM: 44, RM: 44, AM: 32, LW: 24, RW: 24, ST: 13 };
+  const rowY: Record<string, number> = { GK: 92, CB: 75, LB: 72, RB: 72, LWB: 62, RWB: 62, DM: 63, CM: 47, LM: 44, RM: 44, AM: 32, LW: 24, RW: 24, ST: 13 };
   const rows = new Map<number, number[]>();
   slots.forEach((s, i) => { const y = rowY[s]; rows.set(y, [...(rows.get(y) ?? []), i]); });
   const out: { x: number; y: number }[] = new Array(slots.length);
@@ -53,6 +54,7 @@ export function TacticsView() {
   const setClubTactics = useGame((s) => s.setClubTactics);
   const setLineup = useGame((s) => s.setLineup);
   const [sel, setSel] = useState<number | null>(null);
+  const [editor, setEditor] = useState<{ edit?: string } | null>(null);
   const club = w.clubs[w.userClubId];
   const t = club.tactics;
   const squad = club.squad.map((id) => w.players[id]);
@@ -93,6 +95,7 @@ export function TacticsView() {
 
   return (
     <div className="flex h-full gap-6 p-6">
+      {editor && <FormationEditor edit={editor.edit} base={t.formation} onClose={() => setEditor(null)} />}
       <div className="w-[440px] shrink-0">
         <Pitch>
           {slots.map((slot, i) => {
@@ -153,10 +156,25 @@ export function TacticsView() {
           <>
             <Card title="포메이션">
               <div className="grid grid-cols-5 gap-2 p-4">
-                {Object.keys(FORMATIONS).map((f) => (
+                {Object.keys(FORMATIONS).filter((f) => !isCustom(f)).map((f) => (
                   <button key={f} onClick={() => changeFormation(f)}
                     className={`tnum h-9 rounded-md text-[13px] transition-colors ${t.formation === f ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>{f}</button>
                 ))}
+              </div>
+              <div className="border-t border-line px-4 py-3">
+                <div className="mb-2 flex items-center justify-between text-[12px] text-lo">
+                  <span>내 포메이션</span>
+                  {Object.keys(w.customFormations ?? {}).length < MAX_CUSTOM && <button onClick={() => setEditor({})} className="text-neon hover:underline">+ 만들기</button>}
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {Object.keys(w.customFormations ?? {}).map((f) => (
+                    <span key={f} className={`flex h-9 items-center rounded-md text-[13px] ${t.formation === f ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line'}`}>
+                      <button onClick={() => changeFormation(f)} className="tnum h-full pl-3 pr-2 hover:text-hi">{f}</button>
+                      <button onClick={() => setEditor({ edit: f })} title="고치기" className="h-full border-l border-current/20 px-2 text-[11px] opacity-70 hover:opacity-100">고치기</button>
+                    </span>
+                  ))}
+                  {!Object.keys(w.customFormations ?? {}).length && <span className="text-[12px] text-lo">기본 포메이션을 본떠 자리마다 포지션을 바꿔 나만의 포메이션을 만들 수 있습니다.</span>}
+                </div>
               </div>
             </Card>
             <Card title="팀 성향">

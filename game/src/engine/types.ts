@@ -195,6 +195,8 @@ export type GameEvent =
   | { type: 'injury'; date: string; player: string; club: string; days: number; label: string }
   | { type: 'seasonEnd'; date: string; league: string; champion: string }
   | { type: 'info'; date: string; text: string }
+  /** 스카우트 보고서: 선수 한 명 · 리그 관찰 */
+  | { type: 'scout'; date: string; player?: string; league?: string; count?: number }
   /** 감독: 제안 · 재계약 · 경질 · 이동 · 따라오는 선수 */
   /** AI 구단 감독 교체 (season: 시즌 중 경질 · end: 시즌 끝 교체), news = 받은편지함에 남길 만한 소식 */
   | { type: 'coach'; date: string; club: string; when: 'season' | 'end'; news: boolean }
@@ -282,6 +284,10 @@ export interface World {
   /** 이번 시즌 내 구단 컵 우승 (시즌 말 수상 연출에 합침) */
   cupAwards?: import('./awards').Award[];
   inbox: GameEvent[];
+  /** 내가 만든 포메이션 (이름 '★ …' → 자리 11개) */
+  customFormations?: Record<string, import('../data/types').Position[]>;
+  /** 스카우트: 선수별 앎 · 진행 중인 스카우트 */
+  scout?: import('./scout').ScoutState;
   warnings: string[];        // 데이터 문제 (중복 소속 등)
   history: SeasonRecord[];   // 지난 시즌 최종 순위
   /** 어느 데이터로 만든 세이브인지 (public: 패러디 이름, real: 실명). 없으면 옛 세이브 = real */

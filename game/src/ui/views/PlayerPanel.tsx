@@ -1,9 +1,11 @@
 import { sagaSummary } from '../../engine/saga';
+import { HiddenTraits, ScoutBox } from '../components/Scout';
+import { knowledge, seenOverall, seenRange } from '../../engine/scout';
 import { ROLE_HINT, ROLE_KO, ROLES, roleOf, type Role } from '../../engine/roles';
 import { useGame } from '../../store/game';
 import { PhotoCredit, PlayerPhoto } from '../components/PlayerPhoto';
 import type { PlayerState, World } from '../../engine/types';
-import { attr, overall, formAvg } from '../../engine/ratings';
+import { attr, formAvg } from '../../engine/ratings';
 import { POS_KO } from '../../data/rating';
 import { ATTR_GROUPS, ATTR_KO, GK_GROUP, money, ratingBar, ratingTone } from '../format';
 import { ConditionIcon, FitnessBar } from '../components/bits';
@@ -107,7 +109,10 @@ function pressNotes(p: PlayerState): string[] {
 }
 
 export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerState; age: number; ko: string; nation: string; actions?: ReactNode; club?: boolean }) {
-  const ovr = overall(p);
+  const w = useWorld();
+  const [ovrLo, ovrHi] = seenOverall(w, p);
+  const ovr = ovrLo;
+  const kn = knowledge(w, p);
   const groups = p.pos === 'GK' ? [GK_GROUP, ...ATTR_GROUPS] : ATTR_GROUPS;
   const s = p.stats;
   const apps = s.apps + s.subApps;
@@ -124,7 +129,9 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
             {club && <div className="mt-1 flex items-center gap-1.5 text-[12px] text-mid">{p.clubId ? <><Crest clubId={p.clubId} size={14} />{clubKo(p.clubId)}</> : <span className="text-neon">자유계약 (FA)</span>}</div>}
           </div>
           <div className="flex flex-col items-center rounded-lg border border-line bg-ink-900 px-3 py-2">
-            <div className={`tnum text-[28px] leading-none font-semibold ${ratingTone(ovr)}`}>{ovr}</div>
+            {ovrLo === ovrHi
+              ? <div className={`tnum text-[28px] leading-none font-semibold ${ratingTone(ovr)}`}>{ovr}</div>
+              : <div className="tnum text-[20px] leading-none font-semibold whitespace-nowrap text-mid" title="스카우트하면 정확히 알 수 있습니다">{ovrLo}<span className="text-lo">–</span>{ovrHi}</div>}
             <div className="mt-1 text-[11px] font-semibold text-lo">능력</div>
           </div>
         </div>
@@ -157,6 +164,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
         {p.clubId && (p.dev ?? 0) !== 0 && (
           <div className="mb-3 text-[12px] text-lo">지난달 훈련 성장 <span className={(p.dev ?? 0) > 0.05 ? 'text-neon' : (p.dev ?? 0) < -0.05 ? 'text-red' : 'text-mid'}>{(p.dev ?? 0) > 0.05 ? '↑ 잘 자라는 중' : (p.dev ?? 0) < -0.05 ? '↓ 정체 · 하락' : '→ 보통'}</span> · 오른쪽 작은 숫자는 훈련으로 바뀐 만큼</div>
         )}
+        <ScoutBox p={p} />
         {groups.map((g) => {
           const keys = g.keys.filter((k) => p.base[k] != null);
           if (!keys.length) return null;
@@ -166,6 +174,14 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
               <div className="space-y-2">
                 {keys.map((k) => {
                   const v = Math.round(attr(p, k));
+                  const [lo, hi] = seenRange(w, p, k, v, kn);
+                  if (lo !== hi) return (
+                    <div key={k} className="flex items-center gap-3 text-[13px]">
+                      <span className="w-[72px] shrink-0 text-mid">{ATTR_KO[k]}</span>
+                      <div className="relative h-1 flex-1 overflow-hidden rounded-full bg-ink-700"><div className="absolute h-full rounded-full bg-mid/50" style={{ left: `${lo}%`, width: `${hi - lo}%` }} /></div>
+                      <span className="tnum w-[62px] text-right text-[12px] font-semibold whitespace-nowrap text-mid">{lo}–{hi}</span>
+                    </div>
+                  );
                   return (
                     <div key={k} className="flex items-center gap-3 text-[13px]">
                       <span className="w-[72px] shrink-0 text-mid">{ATTR_KO[k]}</span>
@@ -182,6 +198,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
             </div>
           );
         })}
+        <HiddenTraits p={p} />
         <Traits p={p} />
         <Career p={p} />
         {(p.honours?.length || p.boost) ? (

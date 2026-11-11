@@ -1,5 +1,6 @@
 import type { PlayerState, World } from '../../engine/types';
 import { nextUserFixture } from '../../engine/world';
+import { OvrText } from '../components/Scout';
 import { overall } from '../../engine/ratings';
 import { sortTable } from '../../engine/standings';
 import { levelOf } from '../../engine/pyramid';
@@ -289,7 +290,7 @@ function LeagueLeaders({ w, league, started }: { w: World; league: string; start
             <div className={`truncate ${p.clubId === w.userClubId ? 'font-semibold' : ''}`}>{playerKo(p.id, p.name)}</div>
             <div className="truncate text-[12px] text-lo">{clubKo(p.clubId!)}</div>
           </div>
-          <span className={`tnum text-[15px] font-semibold ${started ? '' : ratingTone(overall(p))}`}>{started ? `${p.stats.goals}골` : overall(p)}</span>
+          {started ? <span className="tnum text-[15px] font-semibold">{p.stats.goals}골</span> : <OvrText w={w} p={p} className="text-[15px]" />}
         </Row>
       ))}
     </Card>
