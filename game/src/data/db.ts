@@ -3,10 +3,12 @@
 // 데이터는 두 가지
 //  - public: data-public/ (패러디 이름 · 가상 리그 이름, 저장소에 포함) — 기본
 //  - real:   data/        (실명, 각자 파이프라인으로 만든 내 PC의 데이터) — 있을 때만 설정에서 선택 가능
+//            웹 배포판은 data/ 가 비어 있으므로, '데이터베이스'에서 고른 폴더를 이 브라우저에 넣어 둔 것(realStore.ts)을 쓴다
 import type {
   ClubMaster, ClubSeasonFile, CupMeta, LeagueMeta, LeagueSeasonFile, LocaleName, NationMeta,
 } from './types';
 import type { PlayerHistory } from '../engine/traits';
+import { realBoot } from './realStore';
 
 type Meta<T> = Record<string, T>;
 const SETS = {
@@ -17,7 +19,7 @@ const SETS = {
     seasons: import.meta.glob<ClubSeasonFile | LeagueSeasonFile>('@pub/seasons/*/*/*.json', { import: 'default' }),
     history: import.meta.glob<PlayerHistory>('@pub/history/players.json', { import: 'default' }),
   },
-  real: {
+  dev: {
     meta: import.meta.glob<unknown>('@data/meta/*.json', { eager: true, import: 'default' }) as Meta<unknown>,
     clubs: import.meta.glob<ClubMaster>('@data/clubs/*.json', { eager: true, import: 'default' }),
     ko: import.meta.glob<Record<string, LocaleName>>('@data/locale/ko/players*.json', { eager: true, import: 'default' }),
@@ -25,13 +27,18 @@ const SETS = {
     history: import.meta.glob<PlayerHistory>('@data/history/players.json', { import: 'default' }),
   },
 };
+/** 저장소의 data/ 폴더가 있으면 그것, 없으면 브라우저에 넣어 둔 실명 데이터 */
+const devReal = Object.keys(SETS.dev.seasons).length > 0;
+const REAL = (devReal ? SETS.dev : realBoot.pack ?? SETS.dev) as typeof SETS.dev;
 
-export type Dataset = keyof typeof SETS;
+export type Dataset = 'public' | 'real';
 const KEY = 'pitchboss.dataset';
 /** 실명 데이터가 이 PC에 있는지 (시즌 파일이 하나라도 있으면) */
-export const realAvailable = Object.keys(SETS.real.seasons).length > 0;
+export const realAvailable = devReal || !!realBoot.pack || realBoot.available;
+/** 실명 데이터가 어디서 왔나: 저장소 data/ 폴더 · 이 브라우저에 넣은 것 */
+export const realSource: 'folder' | 'browser' | null = devReal ? 'folder' : realBoot.available ? 'browser' : null;
 export const dataset: Dataset = (() => {
-  try { return realAvailable && localStorage.getItem(KEY) === 'real' ? 'real' : 'public'; } catch { return 'public'; }
+  try { return (devReal || realBoot.pack) && localStorage.getItem(KEY) === 'real' ? 'real' : 'public'; } catch { return 'public'; }
 })();
 /** 데이터 바꾸기: 다시 불러와야 적용된다 */
 export function setDataset(d: Dataset) {
@@ -39,7 +46,7 @@ export function setDataset(d: Dataset) {
   location.reload();
 }
 
-const S = SETS[dataset];
+const S = dataset === 'real' ? REAL : SETS.public;
 const metaFile = <T,>(name: string): T => Object.entries(S.meta).find(([p]) => p.endsWith(`/meta/${name}.json`))![1] as T;
 
 export const leagues: LeagueMeta[] = metaFile<{ leagues: LeagueMeta[] }>('leagues').leagues;
