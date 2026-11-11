@@ -40,7 +40,7 @@ export function MatchScreen() {
   // 사건 목록 (골·카드·부상·교체)
   type Ev = { minute: number; side: Side; kind: 'goal' | 'yellow' | 'red' | 'injury' | 'sub'; text: string; sub?: string };
   const evs: Ev[] = [
-    ...sum.goals.map((g) => ({ minute: g.minute, side: g.side, kind: 'goal' as const, text: name(g.scorer), sub: g.assist ? `도움 ${name(g.assist)}` : undefined })),
+    ...sum.goals.map((g) => ({ minute: g.minute, side: g.side, kind: 'goal' as const, text: name(g.scorer) + (g.kind === 'pen' ? ' (PK)' : ''), sub: [g.kind === 'set' ? '세트피스' : '', g.assist ? `도움 ${name(g.assist)}` : ''].filter(Boolean).join(' · ') || undefined })),
     ...sum.cards.map((c) => ({ minute: c.minute, side: c.side, kind: c.red ? 'red' as const : 'yellow' as const, text: name(c.player) })),
     ...sum.injuries.map((c) => ({ minute: c.minute, side: c.side, kind: 'injury' as const, text: name(c.player), sub: w.players[c.player].injury?.label })),
     ...(['home', 'away'] as Side[]).flatMap((side) => Object.entries(s[side].played).filter(([, p]) => p.from > 0)

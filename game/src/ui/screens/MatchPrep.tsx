@@ -5,7 +5,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { clubKo, playerKo } from '../../data/db';
-import { FORMATIONS, available } from '../../engine/squad';
+import { FORMATIONS, available, famOf } from '../../engine/squad';
+import { FamBar } from '../views/TacticsView';
 import { overall, slotRating } from '../../engine/ratings';
 import { recommend, teamStrength } from '../../engine/ai';
 import { Crest } from '../components/Crest';
@@ -195,8 +196,9 @@ export function MatchPrep() {
                   <div className="grid grid-cols-5 gap-2">
                     {Object.keys(FORMATIONS).map((fm) => (
                       <button key={fm} onClick={() => updateDraft({ formation: fm })}
-                        title={fm} className={`tnum relative h-8 truncate rounded-md px-1 text-[12px] transition-colors ${d.formation === fm ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>
+                        title={`${fm} · 숙련도 ${Math.round(famOf(w.clubs[w.userClubId], fm))}%`} className={`tnum relative h-9 truncate rounded-md px-1 text-[12px] transition-colors ${d.formation === fm ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>
                         {fm}
+                        <FamBar v={famOf(w.clubs[w.userClubId], fm)} on={d.formation === fm} />
                         {m.rec.lineup.formation === fm && d.formation !== fm && <span className="absolute top-1 right-1 h-1.5 w-1.5 rounded-full bg-neon" title="AI 추천" />}
                       </button>
                     ))}

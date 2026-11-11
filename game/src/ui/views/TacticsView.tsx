@@ -1,6 +1,18 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { Position } from '../../data/types';
-import { available, FORMATIONS, isCustom, matchRules, MAX_CUSTOM, pickLineup } from '../../engine/squad';
+import { available, famOf, FORMATIONS, isCustom, matchRules, MAX_CUSTOM, pickLineup } from '../../engine/squad';
+import type { Instr } from '../../engine/types';
+import { attr } from '../../engine/ratings';
+
+export const INSTR_KO: Record<Instr, { label: string; short: string; desc: string }> = {
+  attack: { label: '공격 가담', short: '공격', desc: '공격에 더 자주 올라가고 슈팅을 노립니다. 수비 공백이 생기고 조금 더 지칩니다.' },
+  hold: { label: '수비 위치 유지', short: '수비', desc: '자리를 지키며 수비에 집중합니다. 공격 기여는 줄어듭니다.' },
+  press: { label: '강한 압박', short: '압박', desc: '상대를 적극적으로 압박해 중원 · 수비에 보탬이 됩니다. 체력 소모가 크고 카드를 받기 쉽습니다.' },
+};
+/** 숙련도 표시 (막대 + 숫자) */
+export function FamBar({ v, on }: { v: number; on?: boolean }) {
+  return <span className="mt-0.5 block h-0.5 w-full overflow-hidden rounded-full bg-black/20"><span className={`block h-full ${on ? 'bg-ink-950/60' : v >= 80 ? 'bg-neon/70' : v >= 55 ? 'bg-mid/60' : 'bg-amber/60'}`} style={{ width: `${v}%` }} /></span>;
+}
 import { FormationEditor } from '../components/FormationEditor';
 import { slotRating } from '../../engine/ratings';
 import { playerKo } from '../../data/db';
@@ -55,8 +67,12 @@ export function TacticsView() {
   const setLineup = useGame((s) => s.setLineup);
   const [sel, setSel] = useState<number | null>(null);
   const [editor, setEditor] = useState<{ edit?: string } | null>(null);
+  const col = useRef<HTMLDivElement>(null);
+  useEffect(() => { col.current?.scrollTo({ top: 0 }); }, [sel]);   // 자리를 고르면 오른쪽 맨 위(지시 · 후보)부터
   const club = w.clubs[w.userClubId];
   const t = club.tactics;
+  const instrList = t.instr?.formation === t.formation ? t.instr.list : [];
+  const setInstr = (i: number, v: Instr | null) => { const list = [...instrList]; while (list.length < 11) list.push(null); list[i] = v; setClubTactics({ instr: { formation: t.formation, list } }); };
   const squad = club.squad.map((id) => w.players[id]);
   const rules = matchRules(w.season);
   const lineup = pickLineup(squad, t.formation, rules.benchSize, club.lineup?.starters, club.lineup?.bench);
@@ -110,7 +126,7 @@ export function TacticsView() {
                 style={{ left: `${pos[i].x}%`, top: `${pos[i].y}%` }}>
                 <div className={`grid h-9 w-9 place-items-center rounded-full bg-ink-950/90 text-[13px] font-semibold transition-colors ${ring}`}>{p?.number ?? ''}</div>
                 <div className="mt-1 max-w-full truncate rounded bg-ink-950/80 px-1.5 text-[12px] font-semibold">{p ? playerKo(p.id, p.name).split(' ').slice(-1)[0] : '빈 자리'}</div>
-                <div className="text-[11px] text-lo">{slot}{p && <> · <span className={ratingTone(r)}>{r}</span></>}</div>
+                <div className="text-[11px] text-lo">{slot}{p && <> · <span className={ratingTone(r)}>{r}</span></>}{instrList[i] && <span className="ml-1 rounded bg-sky/20 px-1 text-sky">{INSTR_KO[instrList[i]!].short}</span>}</div>
               </button>
             );
           })}
@@ -127,10 +143,22 @@ export function TacticsView() {
         </div>
       </div>
 
-      <div className="flex min-w-0 flex-1 flex-col gap-4">
+      <div ref={col} className="flex min-h-0 min-w-0 flex-1 flex-col gap-4 overflow-y-auto">
         {sel != null ? (
-          <Card title={`${slots[sel]} 자리에 넣을 선수`} action={<button onClick={() => setSel(null)} className="text-[12px] text-lo hover:text-hi">닫기</button>} className="min-h-0 flex-1">
-            <div className="h-full overflow-auto">
+          <Card title={`${slots[sel]} 자리에 넣을 선수`} action={<button onClick={() => setSel(null)} className="text-[12px] text-lo hover:text-hi">닫기</button>} className="shrink-0">
+            {slots[sel] !== 'GK' && (
+              <div className="border-b border-line px-5 py-3">
+                <div className="mb-2 text-[12px] text-lo">이 자리 지시</div>
+                <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
+                  {([null, 'attack', 'hold', 'press'] as (Instr | null)[]).map((v) => (
+                    <button key={v ?? 'none'} onClick={() => setInstr(sel, v)}
+                      className={`h-8 flex-1 rounded-md text-[12px] transition-colors ${(instrList[sel] ?? null) === v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{v ? INSTR_KO[v].label : '기본'}</button>
+                  ))}
+                </div>
+                <div className="mt-2 text-[12px] text-lo">{instrList[sel] ? INSTR_KO[instrList[sel]!].desc : '포지션에 맞게 평소대로 뜁니다.'}</div>
+              </div>
+            )}
+            <div>
               {candidates.map((p) => {
                 const r = Math.round(slotRating(p, slots[sel]));
                 const where = current.indexOf(p.id);
@@ -153,14 +181,16 @@ export function TacticsView() {
             </div>
           </Card>
         ) : (
-          <>
+          <div className="flex flex-col gap-4 pb-2">
             <Card title="포메이션">
               <div className="grid grid-cols-5 gap-2 p-4">
                 {Object.keys(FORMATIONS).filter((f) => !isCustom(f)).map((f) => (
                   <button key={f} onClick={() => changeFormation(f)}
-                    className={`tnum h-9 rounded-md text-[13px] transition-colors ${t.formation === f ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>{f}</button>
+                    title={`숙련도 ${Math.round(famOf(club, f))}%`}
+                    className={`tnum flex h-10 flex-col items-center justify-center rounded-md px-2 text-[13px] transition-colors ${t.formation === f ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>{f}<FamBar v={famOf(club, f)} on={t.formation === f} /></button>
                 ))}
               </div>
+              <div className="px-4 pb-2 text-[12px] text-lo">숙련도 (막대): 지금 포메이션 <b className="text-hi">{Math.round(famOf(club, t.formation))}%</b> · 경기를 치를수록 오르고 안 쓰면 천천히 내려갑니다. 낮으면 경기력이 조금 떨어집니다.</div>
               <div className="border-t border-line px-4 py-3">
                 <div className="mb-2 flex items-center justify-between text-[12px] text-lo">
                   <span>내 포메이션</span>
@@ -169,7 +199,7 @@ export function TacticsView() {
                 <div className="flex flex-wrap gap-2">
                   {Object.keys(w.customFormations ?? {}).map((f) => (
                     <span key={f} className={`flex h-9 items-center rounded-md text-[13px] ${t.formation === f ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line'}`}>
-                      <button onClick={() => changeFormation(f)} className="tnum h-full pl-3 pr-2 hover:text-hi">{f}</button>
+                      <button onClick={() => changeFormation(f)} title={`숙련도 ${Math.round(famOf(club, f))}%`} className="tnum h-full pl-3 pr-2 hover:text-hi">{f} <span className="text-[11px] opacity-70">{Math.round(famOf(club, f))}%</span></button>
                       <button onClick={() => setEditor({ edit: f })} title="고치기" className="h-full border-l border-current/20 px-2 text-[11px] opacity-70 hover:opacity-100">고치기</button>
                     </span>
                   ))}
@@ -183,8 +213,9 @@ export function TacticsView() {
                 <div><div className="mb-2 text-[12px] text-lo">압박 강도 — 높으면 상대 기회 ↓, 체력 소모 ↑</div>{seg(PRESSING, t.pressing, (v) => setClubTactics({ pressing: v }))}</div>
               </div>
             </Card>
+            <SetPieceCard />
             <TrainingCard />
-            <Card title={`후보 ${lineup.bench.length}명`} className="flex-1">
+            <Card title={`후보 ${lineup.bench.length}명`}>
               <div className="grid grid-cols-2 gap-x-6 px-5 py-3 text-[13px]">
                 {lineup.bench.map((id) => { const p = w.players[id]; return (
                   <div key={id} className="flex items-center gap-2 py-1"><span className="w-9 text-[11px] font-semibold text-lo">{p.pos}</span><span className="truncate">{playerKo(p.id, p.name)}</span></div>
@@ -192,10 +223,43 @@ export function TacticsView() {
               </div>
               <p className="px-5 pb-4 text-[12px] leading-relaxed text-lo">피치의 자리를 눌러 선수를 바꿀 수 있습니다. 직접 지정하지 않은 자리와 부상 · 징계로 빠진 자리는 체력과 자리 적합도로 자동 선택됩니다.</p>
             </Card>
-          </>
+          </div>
         )}
       </div>
     </div>
+  );
+}
+
+/** 세트피스 키커 · 페널티 키커 (자동이면 가장 잘 차는 선수) */
+function SetPieceCard() {
+  const w = useWorld();
+  const setClubTactics = useGame((s) => s.setClubTactics);
+  const club = w.clubs[w.userClubId];
+  const tk = club.tactics.takers ?? {};
+  const squad = club.squad.map((id) => w.players[id]).filter((p) => p.pos !== 'GK');
+  const setQ = (p: typeof squad[0]) => Math.round((attr(p, 'pas') + 0.5 * attr(p, 'vis') + 0.3 * attr(p, 'sho')) / 1.8);
+  const penQ = (p: typeof squad[0]) => Math.round((attr(p, 'sho') * 2 + attr(p, 'com')) / 3);
+  const row = (kind: 'set' | 'pen', label: string, q: (p: typeof squad[0]) => number) => {
+    const list = [...squad].sort((a, b) => q(b) - q(a));
+    return (
+      <div className="flex items-center gap-3">
+        <span className="w-[120px] shrink-0 text-[12px] text-lo">{label}</span>
+        <select value={tk[kind] ?? ''} onChange={(e) => setClubTactics({ takers: { ...tk, [kind]: e.target.value || undefined } })}
+          className="h-8 min-w-0 flex-1 rounded-md bg-ink-900 px-2 text-[13px] ring-1 ring-line outline-none">
+          <option value="">자동 (가장 잘 차는 선수: {list[0] ? playerKo(list[0].id, list[0].name) : '-'})</option>
+          {list.map((p) => <option key={p.id} value={p.id}>{playerKo(p.id, p.name)} · {q(p)}</option>)}
+        </select>
+      </div>
+    );
+  };
+  return (
+    <Card title="세트피스">
+      <div className="space-y-2 p-4">
+        {row('set', '코너킥 · 프리킥', setQ)}
+        {row('pen', '페널티킥', penQ)}
+        <p className="pt-1 text-[12px] text-lo">코너킥 · 프리킥은 키커의 정확도와 헤더가 좋은 선수(센터백 · 스트라이커)가 많을수록 득점이 늘어납니다. 지정한 선수가 경기에 없으면 자동으로 정합니다.</p>
+      </div>
+    </Card>
   );
 }
 

@@ -2,7 +2,7 @@
 // 구간마다 양 팀 공격·중원·수비 전력으로 득점 기대값(xG)을 계산하고 결과를 뽑는다.
 // 경기 도중 전술 변경·교체를 하면 다음 구간부터 바로 반영된다.
 import type { AttrKey, Position } from '../data/types';
-import type { MatchSummary, PlayerState, Side, Tactics } from './types';
+import type { Instr, MatchSummary, PlayerState, Side, Tactics } from './types';
 import type { Rng } from './rng';
 import { attr, playerFamiliarity, fitnessFactor, preMatchFactor, slotRating } from './ratings';
 import type { Lineup } from './squad';
@@ -21,6 +21,16 @@ export const TUNING = {
   yellowPerSeg: 0.088,
   redPerSeg: 0.0016,
   injuryPerSeg: 0.0072,
+  openShare: 0.8,        // 일반 공격 xG 비율 (나머지는 세트피스 · 페널티)
+  setXg: 0.0115,         // 구간당 세트피스(코너 · 프리킥) 기본 xG
+  penPerSeg: 0.0095,     // 구간당 페널티 얻을 확률
+};
+
+// 선수별 지시: 유닛별 기여 배율 · 체력 소모 · 득점 · 카드
+const INSTR: Record<Instr, { u: Partial<Record<'att' | 'mid' | 'def', number>>; tire: number; score: number; card: number }> = {
+  attack: { u: { att: 1.1, def: 0.88 }, tire: 1.1, score: 1.3, card: 1 },
+  hold: { u: { att: 0.85, def: 1.1 }, tire: 0.95, score: 0.6, card: 1 },
+  press: { u: { mid: 1.06, def: 1.03 }, tire: 1.3, score: 1, card: 1.3 },
 };
 
 type Unit = 'att' | 'mid' | 'def' | 'gk';
@@ -58,6 +68,8 @@ export interface OnPitch {
   dayZ: number;      // 당일 컨디션 (-1~1), 평점에 반영
   yellow: boolean;
   fromMinute: number;
+  /** 이 자리 선수 지시 (교체돼도 자리에 남음) */
+  instr?: Instr | null;
 }
 
 export interface TeamInMatch {
@@ -74,6 +86,8 @@ export interface TeamInMatch {
   goals: number; shots: number; onTarget: number; xg: number; possSum: number;
   /** 사용자가 직접 교체하는 팀이면 true → 자동 교체는 부상 때만 */
   manual: boolean;
+  /** 포메이션 숙련도 배율 */
+  famMult: number;
 }
 
 export interface MatchState {
@@ -109,27 +123,29 @@ function rollDayForm(p: PlayerState, rng: Rng, bigMatch: boolean): { factor: num
   return { factor: f, z };
 }
 
-function team(clubId: string, lineup: Lineup, tactics: Tactics, maxSubs: number, ctx: MatchCtx, bigMatch: boolean, manual: boolean): TeamInMatch {
-  const onPitch = lineup.starters.map(({ id, slot }) => {
+function team(clubId: string, lineup: Lineup, tactics: Tactics, maxSubs: number, ctx: MatchCtx, bigMatch: boolean, manual: boolean, fam = 75): TeamInMatch {
+  const ins = tactics.instr?.formation === lineup.formation ? tactics.instr.list : [];
+  const onPitch = lineup.starters.map(({ id, slot }, i) => {
     const p = ctx.players[id];
     const { factor, z } = rollDayForm(p, ctx.rng, bigMatch);
-    return { id, slot, fitness: p.fitness, factor, dayZ: z, yellow: false, fromMinute: 0 };
+    return { id, slot, fitness: p.fitness, factor, dayZ: z, yellow: false, fromMinute: 0, instr: ins[i] ?? null };
   });
   const played: TeamInMatch['played'] = {};
   for (const o of onPitch) played[o.id] = { from: 0, to: null };
   return {
     clubId, tactics: { ...tactics, formation: lineup.formation }, onPitch, bench: [...lineup.bench], subsUsed: 0, maxSubs, sentOff: [],
     played, exitFitness: {}, goals: 0, shots: 0, onTarget: 0, xg: 0, possSum: 0, manual,
+    famMult: 0.94 + 0.06 * (Math.max(0, Math.min(100, fam)) / 100),
   };
 }
 
 export function createMatch(
-  args: { home: string; away: string; homeLineup: Lineup; awayLineup: Lineup; homeTactics: Tactics; awayTactics: Tactics; maxSubs: number; bigMatch?: boolean; manualSide?: Side },
+  args: { home: string; away: string; homeLineup: Lineup; awayLineup: Lineup; homeTactics: Tactics; awayTactics: Tactics; maxSubs: number; bigMatch?: boolean; manualSide?: Side; homeFam?: number; awayFam?: number },
   ctx: MatchCtx,
 ): MatchState {
   const bigMatch = !!args.bigMatch;
-  const home = team(args.home, args.homeLineup, args.homeTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'home');
-  const away = team(args.away, args.awayLineup, args.awayTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'away');
+  const home = team(args.home, args.homeLineup, args.homeTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'home', args.homeFam);
+  const away = team(args.away, args.awayLineup, args.awayTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'away', args.awayFam);
   return {
     segment: 0, home, away, bigMatch, done: false,
     summary: {
@@ -143,9 +159,10 @@ function strengths(t: TeamInMatch, ctx: MatchCtx) {
   const acc: Record<Unit, { s: number; w: number }> = { att: { s: 0, w: 0 }, mid: { s: 0, w: 0 }, def: { s: 0, w: 0 }, gk: { s: 0, w: 0 } };
   for (const o of t.onPitch) {
     const p = ctx.players[o.id];
-    const mult = o.factor * fitnessFactor(o.fitness) * (0.7 + 0.3 * playerFamiliarity(p, o.slot));
+    const mult = o.factor * fitnessFactor(o.fitness) * (0.7 + 0.3 * playerFamiliarity(p, o.slot)) * t.famMult;
+    const ins = o.instr ? INSTR[o.instr].u : null;
     for (const [u, c] of Object.entries(CONTRIB[o.slot]) as [Unit, number][]) {
-      const v = u === 'gk' && p.pos !== 'GK' ? 25 : unitValue(p, u) * mult;
+      const v = u === 'gk' && p.pos !== 'GK' ? 25 : unitValue(p, u) * mult * (ins?.[u as 'att'] ?? 1);
       acc[u].s += v * c; acc[u].w += c;
     }
   }
@@ -199,7 +216,7 @@ export function substitute(m: MatchState, side: Side, outId: string, inId: strin
   t.played[outId].to = minute;
   t.exitFitness[outId] = t.onPitch[i].fitness;
   t.played[inId] = { from: minute, to: null };
-  t.onPitch[i] = { id: inId, slot: t.onPitch[i].slot, fitness: p.fitness, factor, dayZ: z, yellow: false, fromMinute: minute };
+  t.onPitch[i] = { id: inId, slot: t.onPitch[i].slot, fitness: p.fitness, factor, dayZ: z, yellow: false, fromMinute: minute, instr: t.onPitch[i].instr };
   t.bench = t.bench.filter((b) => b !== inId);
   t.subsUsed++;
   return true;
@@ -226,6 +243,7 @@ export function step(m: MatchState, ctx: MatchCtx): void {
   const { rng } = ctx;
   const sides: Side[] = ['home', 'away'];
   const str = { home: strengths(m.home, ctx), away: strengths(m.away, ctx) };
+  const air = { home: aerial(m.home, ctx), away: aerial(m.away, ctx) };   // 세트피스용 (구간마다 한 번)
 
   const midH = str.home.mid ** TUNING.possExp, midA = str.away.mid ** TUNING.possExp;
   const possHome = clamp(midH / (midH + midA) + 0.03, 0.25, 0.75);
@@ -243,16 +261,17 @@ export function step(m: MatchState, ctx: MatchCtx): void {
       * (1 + 0.1 * me.tactics.mentality)      // 내가 공격적이면 기회 ↑
       * (1 + 0.08 * opp.tactics.mentality)    // 상대가 공격적이면 뒷공간 ↑
       * (1 - 0.04 * (opp.tactics.pressing - 1));
-    me.xg += xg;
-    const shots = poisson(xg * 9.5, rng);
-    const scored = rng.chance(Math.min(0.85, xg));
+    const openXg = xg * TUNING.openShare;
+    me.xg += openXg;
+    const shots = poisson(openXg * 9.5, rng);
+    const scored = rng.chance(Math.min(0.85, openXg));
     const totalShots = Math.max(shots, scored ? 1 : 0);
     me.shots += totalShots;
     me.onTarget += (scored ? 1 : 0) + Array.from({ length: Math.max(0, totalShots - (scored ? 1 : 0)) }).filter(() => rng.chance(0.3)).length;
 
     if (scored) {
       const minute = m.segment * SEG_MIN + rng.int(1, SEG_MIN);
-      const scorer = pickPlayer(me, ctx, (op, p) => SCORE_W[op.slot] * (attr(p, 'sho') / 70) ** 2 + (op.slot === 'CB' ? (attr(p, 'aer') / 70) ** 3 * 0.05 : 0));
+      const scorer = pickPlayer(me, ctx, (op, p) => (SCORE_W[op.slot] * (attr(p, 'sho') / 70) ** 2 + (op.slot === 'CB' ? (attr(p, 'aer') / 70) ** 3 * 0.05 : 0)) * (op.instr ? INSTR[op.instr].score : 1));
       if (scorer) {
         const assist = rng.chance(0.72)
           ? pickPlayer(me, ctx, (op, p) => ASSIST_W[op.slot] * ((attr(p, 'pas') * attr(p, 'vis')) / 4900) ** 2, scorer.id)
@@ -262,10 +281,12 @@ export function step(m: MatchState, ctx: MatchCtx): void {
       }
     }
 
+    setPieces(m, side, ctx, air[side], air[side === 'home' ? 'away' : 'home']);
+
     // 카드
     const aggression = 1 + 0.1 * (me.tactics.pressing - 1);
     if (rng.chance(TUNING.yellowPerSeg * aggression)) {
-      const c = pickPlayer(me, ctx, (op, p) => CARD_W[op.slot] * (21 - p.hidden.temperament) / 10 * traitMul(p, 'card'));
+      const c = pickPlayer(me, ctx, (op, p) => CARD_W[op.slot] * (21 - p.hidden.temperament) / 10 * traitMul(p, 'card') * (op.instr ? INSTR[op.instr].card : 1));
       if (c) {
         const minute = m.segment * SEG_MIN + rng.int(1, SEG_MIN);
         if (c.yellow) { if (rng.chance(0.45)) sendOff(m, side, c, minute); }
@@ -298,13 +319,63 @@ export function step(m: MatchState, ctx: MatchCtx): void {
     const pressMult = 1 + 0.25 * (me.tactics.pressing - 1);
     for (const op of me.onPitch) {
       const p = ctx.players[op.id];
-      op.fitness = Math.max(0, op.fitness - 1.45 * pressMult * (1.25 - attr(p, 'sta') / 200) * (op.slot === 'GK' ? 0.3 : 1));
+      op.fitness = Math.max(0, op.fitness - 1.45 * pressMult * (1.25 - attr(p, 'sta') / 200) * (op.slot === 'GK' ? 0.3 : 1) * (op.instr ? INSTR[op.instr].tire : 1));
     }
   }
 
   m.segment++;
   for (const side of sides) autoSubs(m, side, ctx);
   if (m.segment >= SEGMENTS) finish(m, ctx);
+}
+
+// ── 세트피스 · 페널티 ──
+const outfield = (t: TeamInMatch) => t.onPitch.filter((o) => o.slot !== 'GK');
+/** 공중 경합 힘: 필드 선수 중 상위 4명의 (헤더 + 힘 0.4) 평균 */
+function aerial(t: TeamInMatch, ctx: MatchCtx): number {
+  const v = outfield(t).map((o) => { const p = ctx.players[o.id]; return ((attr(p, 'aer') + 0.4 * attr(p, 'str')) / 1.4) * o.factor * fitnessFactor(o.fitness); }).sort((a, b) => b - a).slice(0, 4);
+  return v.length ? v.reduce((a, b) => a + b, 0) / v.length : 40;
+}
+/** 키커: 지정한 선수가 뛰고 있으면 그 선수, 아니면 가장 잘 차는 선수 */
+export function taker(t: TeamInMatch, ctx: MatchCtx, kind: 'set' | 'pen'): OnPitch | null {
+  const want = t.tactics.takers?.[kind];
+  const on = outfield(t);
+  const chosen = want ? on.find((o) => o.id === want) : undefined;
+  if (chosen) return chosen;
+  const score = (o: OnPitch) => { const p = ctx.players[o.id]; return kind === 'pen' ? attr(p, 'sho') * 2 + attr(p, 'com') : attr(p, 'pas') + 0.5 * attr(p, 'vis') + 0.3 * attr(p, 'sho'); };
+  return on.length ? on.reduce((a, b) => (score(b) > score(a) ? b : a)) : null;
+}
+function goalAt(m: MatchState, side: Side, scorer: string, assist: string | undefined, kind: 'pen' | 'set', rng: Rng) {
+  const me = m[side];
+  me.goals++; me.shots++; me.onTarget++;
+  m.summary.goals.push({ minute: m.segment * SEG_MIN + rng.int(1, SEG_MIN), side, scorer, ...(assist ? { assist } : {}), kind });
+}
+function setPieces(m: MatchState, side: Side, ctx: MatchCtx, myAir: number, theirAir: number) {
+  const { rng } = ctx;
+  const me = m[side], opp = m[side === 'home' ? 'away' : 'home'];
+  if (!outfield(me).length) return;
+  const home = side === 'home' ? TUNING.homeAdv : 2 - TUNING.homeAdv;
+  // 코너 · 프리킥: 우리 공중 경합 / 상대 공중 경합 (골키퍼 공중볼 조금) · 키커 정확도
+  const k = taker(me, ctx, 'set');
+  const kq = k ? (attr(ctx.players[k.id], 'pas') + 0.5 * attr(ctx.players[k.id], 'vis')) / 1.5 / 70 : 0.8;
+  const gk = opp.onPitch.find((o) => o.slot === 'GK');
+  const oppAir = theirAir * 0.85 + (gk ? attr(ctx.players[gk.id], 'aer') : 40) * 0.15;
+  const setXg = TUNING.setXg * clamp((myAir / oppAir) ** 2, 0.4, 2.2) * clamp(kq, 0.6, 1.4) * home;
+  me.xg += setXg;
+  if (rng.chance(setXg)) {
+    const direct = !!k && rng.chance(0.15 * clamp(attr(ctx.players[k.id], 'sho') / 75, 0.5, 1.3));   // 직접 프리킥
+    const scorer = direct ? k : pickPlayer(me, ctx, (o, p) => (o.slot === 'GK' ? 0 : ((attr(p, 'aer') + 0.4 * attr(p, 'str')) / 100) ** 4 * (o.slot === 'CB' || o.slot === 'ST' ? 1 : 0.5)), k?.id);
+    if (scorer) goalAt(m, side, scorer.id, !direct && k && rng.chance(0.75) ? k.id : undefined, 'set', rng);
+  }
+  // 페널티: 공격적일수록 조금 더 얻음 · 키커 슈팅 · 침착함 vs 골키퍼
+  if (rng.chance(TUNING.penPerSeg * (1 + 0.1 * me.tactics.mentality) * home)) {
+    const pk = taker(me, ctx, 'pen');
+    if (!pk) return;
+    const p = ctx.players[pk.id];
+    const conv = clamp(0.58 + (attr(p, 'sho') + attr(p, 'com') - 140) / 220 - (gk ? (attr(ctx.players[gk.id], 'ref') - 70) / 400 : -0.1), 0.55, 0.92);
+    me.xg += 0.76;
+    if (rng.chance(conv)) goalAt(m, side, pk.id, undefined, 'pen', rng);
+    else { me.shots++; if (rng.chance(0.6)) me.onTarget++; }
+  }
 }
 
 function sendOff(m: MatchState, side: Side, o: OnPitch, minute: number) {

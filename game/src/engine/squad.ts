@@ -75,6 +75,20 @@ export function formationShape(slots: Position[]): string {
   return [d, m, am, f].filter((x, i) => x > 0 || i === 0).join('-');
 }
 
+// ── 포메이션 숙련도 ──
+//  경기를 치른 포메이션 +5 (100까지), 나머지는 경기마다 −1 (30까지). 처음엔 원래 포메이션 75 · 다른 포메이션 50 · 내가 만든 포메이션 30
+//  경기에서 전력 배율 0.94 + 0.06 × 숙련도/100 (모든 구단 같은 규칙)
+export function famOf(c: { tactics: { formation: string }; formFam?: Record<string, number> }, f: string): number {
+  return c.formFam?.[f] ?? (isCustom(f) ? 30 : f === c.tactics.formation ? 75 : 50);
+}
+export function trainFamiliarity(c: { tactics: { formation: string }; formFam?: Record<string, number> }, used: string) {
+  const fam = (c.formFam ??= {});
+  const now = famOf(c, used);
+  for (const k of Object.keys(fam)) if (k !== used) fam[k] = Math.max(30, fam[k] - 1);
+  fam[used] = Math.min(100, now + 5);
+}
+export const famMult = (fam: number) => 0.94 + 0.06 * (fam / 100);
+
 /** 뛸 수 있는 선수 (부상 · 징계 · 출전 거부 태업이면 불가) */
 export const available = (p: PlayerState) => !p.injury && p.suspension === 0 && (p.saga?.stage ?? 0) < 3;
 

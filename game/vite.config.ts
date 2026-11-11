@@ -15,5 +15,6 @@ export default defineConfig({
   resolve: { alias: { '@': path.resolve(__dirname, 'src'), '@data': path.resolve(__dirname, publicOnly ? 'empty-data' : '../data'), '@pub': path.resolve(__dirname, '../data-public') } },
   // 게임 데이터는 저장소 루트의 data/ 폴더를 그대로 읽는다
   server: { fs: { allow: ['..'] } },
-  test: { include: ['src/**/*.test.ts'] },
+  // 시즌을 통째로 돌리는 테스트가 많아 기본 제한 시간을 넉넉히
+  test: { include: ['src/**/*.test.ts'], testTimeout: 20000 },
 });

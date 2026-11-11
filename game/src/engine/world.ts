@@ -10,7 +10,7 @@ import type { SquadPlayer } from '../data/types';
 import { createRng, hashSeed, type Rng } from './rng';
 import { buildFixtures, seasonStart } from './fixtures';
 import { applyResult, emptyRow, sortTable } from './standings';
-import { DEFAULT_FORMATION, FORMATIONS, guessFormation, matchRules } from './squad';
+import { DEFAULT_FORMATION, famOf, FORMATIONS, guessFormation, matchRules, trainFamiliarity } from './squad';
 import { createMatch, finalFitness, minutesPlayed, playToEnd, type MatchState } from './match';
 import { dailyUpdate } from './condition';
 import { initialLoyalty, updatePlaytime } from './loyalty';
@@ -159,9 +159,11 @@ export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?
   const plan = (side: 'home' | 'away') => {
     const given = opts.lineups?.[side];
     const club = side === 'home' ? f.home : f.away, opp = side === 'home' ? f.away : f.home;
-    if (given) return { lineup: given, tactics: { ...w.clubs[club].tactics, ...opts.tactics?.[side], formation: given.formation } };
+    const base = w.clubs[club].tactics;
+    if (given) return { lineup: given, tactics: { ...base, ...opts.tactics?.[side], formation: given.formation } };
     const r = recommend(w, club, opp, side === 'home');
-    return { lineup: r.lineup, tactics: { ...r.tactics, ...opts.tactics?.[side] } };
+    // 선수 지시 · 키커는 구단 전술에서 (지시는 같은 포메이션일 때만 적용)
+    return { lineup: r.lineup, tactics: { instr: base.instr, takers: base.takers, ...r.tactics, ...opts.tactics?.[side] } };
   };
   const hp = plan('home'), ap = plan('away');
   return createMatch({
@@ -169,6 +171,7 @@ export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?
     homeLineup: hp.lineup, awayLineup: ap.lineup,
     homeTactics: hp.tactics, awayTactics: ap.tactics, maxSubs: rules.maxSubs,
     bigMatch: h.reputation >= 80 && a.reputation >= 80,
+    homeFam: famOf(h, hp.lineup.formation), awayFam: famOf(a, ap.lineup.formation),
     manualSide: opts.manualSide,
   }, { players: w.players, rng });
 }
@@ -186,6 +189,9 @@ export function applyMatch(w: World, f: Fixture, m: MatchState) {
   if (f.stage === 'intl') onWorldCupResult(w, f);
   if (!f.stage) applyResult(w.competitions[f.league].table, f.home, f.away, s.homeGoals, s.awayGoals);
   gateIncome(w, f.home, f.away);
+  // 포메이션 숙련도: 이번 경기 포메이션 +, 나머지 조금 −
+  if (w.clubs[f.home]) trainFamiliarity(w.clubs[f.home], m.home.tactics.formation);
+  if (w.clubs[f.away]) trainFamiliarity(w.clubs[f.away], m.away.tactics.formation);
   if (f.home === w.userClubId || f.away === w.userClubId) scoutMatch(w, Object.keys(s.ratings));   // 맞붙은 상대 선수를 조금 알게 됨
   matchFans(w, f.home, f.away, s.homeGoals, s.awayGoals);
   if (s.pom) { const p = w.players[s.pom]; if (!cup) p.stats.pom = (p.stats.pom ?? 0) + 1; p.morale = Math.min(100, p.morale + 5); }

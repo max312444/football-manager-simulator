@@ -78,7 +78,7 @@ export function MatchReport({ f }: { f: Fixture }) {
         {r.goals.map((g, i) => (
           <div key={i} className={`flex gap-2 ${g.side === 'away' ? 'flex-row-reverse text-right' : ''}`}>
             <span className="tnum w-8 text-lo">{g.minute}'</span>
-            <span><span className="font-semibold">{name(g.scorer)}</span>{g.assist && <span className="text-lo"> ({name(g.assist)})</span>}</span>
+            <span><span className="font-semibold">{name(g.scorer)}</span>{g.kind === 'pen' && <span className="text-lo"> PK</span>}{g.kind === 'set' && <span className="text-lo"> 세트피스</span>}{g.assist && <span className="text-lo"> ({name(g.assist)})</span>}</span>
           </div>
         ))}
         {r.cards.filter((c) => c.red).map((c, i) => (

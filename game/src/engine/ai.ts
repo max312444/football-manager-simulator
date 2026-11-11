@@ -1,7 +1,7 @@
 // AI 경기 준비: 상대에 맞춘 포메이션 · 성향 · 압박 · 선발 추천
 // 사용자에게는 "추천"으로 보여주고, AI 구단은 그대로 쓴다.
 import type { Mentality, PlayerState, Pressing, Tactics, World } from './types';
-import { FORMATIONS, isCustom, matchRules, pickLineup, type Lineup } from './squad';
+import { famOf, FORMATIONS, isCustom, matchRules, pickLineup, type Lineup } from './squad';
 import { overall, slotRating } from './ratings';
 
 const ATTACKING = ['4-3-3', '4-2-3-1', '3-4-3', '4-4-2', '3-4-2-1'];
@@ -53,8 +53,9 @@ export function recommend(w: World, clubId: string, oppId: string, home: boolean
     return { tactics: { formation: lineup.formation, mentality, pressing }, lineup, edge, reasons };
   }
 
-  // 내가 만든 포메이션을 골라 두었으면 그 포메이션 유지 (선수만 자동으로)
-  if (isCustom(club.tactics.formation) && FORMATIONS[club.tactics.formation]) {
+  // 내가 만든 포메이션을 골랐거나, 지금 포메이션에 선수별 지시를 줬으면 그 포메이션 유지 (선수만 자동으로)
+  const instructed = club.tactics.instr?.formation === club.tactics.formation && club.tactics.instr.list.some(Boolean);
+  if ((isCustom(club.tactics.formation) || instructed) && FORMATIONS[club.tactics.formation]) {
     const lineup = pickLineup(players, club.tactics.formation, bench);
     reasons.push(`내 포메이션 유지 (${lineup.formation})`);
     return { tactics: { formation: lineup.formation, mentality, pressing }, lineup, edge, reasons };
@@ -65,7 +66,8 @@ export function recommend(w: World, clubId: string, oppId: string, home: boolean
   for (const f of pool) {
     const lineup = pickLineup(players, f, bench);
     if (lineup.starters.length < 11) continue;
-    const score = lineupScore(players, lineup) + (f === club.tactics.formation ? 0.6 : 0);
+    // 익숙한 포메이션 우대 (숙련도 100 이면 +1.5, 50 이면 0)
+    const score = lineupScore(players, lineup) + (famOf(club, f) - 50) * 0.03;
     if (!best || score > best.score) best = { lineup, score };
   }
   const lineup = best?.lineup ?? pickLineup(players, club.tactics.formation, bench);

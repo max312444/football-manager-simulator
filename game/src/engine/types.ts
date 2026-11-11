@@ -5,10 +5,17 @@ export type Side = 'home' | 'away';
 export type Mentality = -2 | -1 | 0 | 1 | 2;   // 매우 수비 ~ 매우 공격
 export type Pressing = 0 | 1 | 2;              // 낮음 · 보통 · 높음
 
+/** 선수별 지시: 공격 가담 · 수비 위치 유지 · 강한 압박 */
+export type Instr = 'attack' | 'hold' | 'press';
+
 export interface Tactics {
   formation: string;
   mentality: Mentality;
   pressing: Pressing;
+  /** 자리별 선수 지시 (이 포메이션일 때만, 자리 순서) */
+  instr?: { formation: string; list: (Instr | null)[] };
+  /** 세트피스 키커 (코너 · 프리킥) · 페널티 키커. 없거나 못 뛰면 자동 */
+  takers?: { set?: string; pen?: string };
 }
 
 /** 숨은 속성 (1~20). 게임이 생성한 값 — 출처 데이터가 아님 */
@@ -125,6 +132,8 @@ export interface ClubState {
   reputation: number;
   squad: string[];
   tactics: Tactics;
+  /** 포메이션 숙련도 (0~100, 경기를 치를수록 오름) */
+  formFam?: Record<string, number>;
   /** revenue = 연 매출 기준값 (데이터 · 시즌 시작 때 정함). 모든 구단이 이 매출로 수입 · 지출이 생긴다 */
   finance: { balance: number; transferBudget: number; wageBudget: number; revenue?: number };
   /** 사용자가 직접 정한 선발 (없으면 자동 선택). 자리 순서는 포메이션 자리 순서 */
@@ -172,7 +181,7 @@ export interface MatchSummary {
   awayGoals: number;
   /** 승부차기 승자 (플레이오프) */
   pens?: Side;
-  goals: { minute: number; side: Side; scorer: string; assist?: string }[];
+  goals: { minute: number; side: Side; scorer: string; assist?: string; kind?: 'pen' | 'set' }[];
   cards: { minute: number; side: Side; player: string; red: boolean }[];
   injuries: { minute: number; side: Side; player: string }[];
   stats: Record<Side, { shots: number; onTarget: number; xg: number; possession: number }>;
