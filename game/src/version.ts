@@ -1,12 +1,17 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 아래 CHANGELOG 맨 위에 한 줄 요약을 넣고, README 개발 현황에도 적는다
 //  첫 화면은 새 버전을 처음 본 뒤 24시간 동안 '업데이트 소식'을 보여 준다 (UpdateNotes.tsx)
-export const GAME_VERSION = '0.4.1';
+export const GAME_VERSION = '0.5';
 
 export interface ChangeEntry { version: string; date: string; items: string[] }
 
 /** 업데이트 내역 (새 것이 위). 플레이어가 읽는 글이므로 쉬운 말로 */
 export const CHANGELOG: ChangeEntry[] = [
+  { version: '0.5', date: '2026-11-11', items: [
+    '처음 게임에 들어가면 기본 조작을 알려 주는 튜토리얼이 나옵니다 (건너뛰기 가능)',
+    '도움말 · 사용 설명서: 첫 화면 메뉴와 게임 안 사이드바에서 열 수 있습니다',
+    '도움말에서 튜토리얼을 언제든 다시 볼 수 있습니다',
+  ] },
   { version: '0.4.1', date: '2026-11-11', items: [
     '첫 화면에 업데이트 소식이 하루 동안 표시됩니다',
   ] },

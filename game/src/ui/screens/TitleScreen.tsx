@@ -1,5 +1,6 @@
 import { GAME_VERSION } from '../../version';
 import { UpdateNotes } from '../components/UpdateNotes';
+import { HelpDialog } from '../components/HelpDialog';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { listSaves, type SaveMeta } from '../../store/save';
 import { SaveSlots } from '../components/SaveSlots';
@@ -26,6 +27,7 @@ export function TitleScreen() {
   const [dbOpen, setDbOpen] = useState(false);
   const [setOpen, setSetOpen] = useState(false);
   const [hallOpen, setHallOpen] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
   const importFile = useGame((s) => s.importFile);
   const fileRef = useRef<HTMLInputElement>(null);
   // 인트로: 브라우저를 켜고 처음 들어오면 한 번 (끝나면 고지가 이어서)
@@ -50,6 +52,7 @@ export function TitleScreen() {
     { key: 'hall', label: '명예의 전당', desc: '이 PC에서 지휘한 감독 커리어 순위', action: () => setHallOpen(true) },
     { key: 'db', label: '데이터베이스', desc: '실명 데이터 · 선수 사진 넣기 / 빼기 · 수록 데이터', action: () => setDbOpen(true) },
     { key: 'settings', label: '설정', desc: '진행 방식 · 팝업 · 난이도 · 경기 · 저장 · 화면', action: () => setSetOpen(true) },
+    { key: 'help', label: '도움말', desc: '조작법 · 사용 설명서 · 튜토리얼 다시 보기', action: () => setHelpOpen(true) },
   ];
 
   return (
@@ -134,6 +137,7 @@ export function TitleScreen() {
       </div>
 
       {!intro && <UpdateNotes />}
+      {helpOpen && <HelpDialog onClose={() => setHelpOpen(false)} />}
       {intro && <IntroScreen onClose={() => setIntro(false)} />}
       {!intro && (
         <button onClick={() => setIntro(true)} className="absolute right-8 bottom-6 z-10 text-[11px] text-lo transition-colors hover:text-mid">인트로 다시 보기</button>

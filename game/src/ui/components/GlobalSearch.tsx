@@ -67,7 +67,7 @@ export function GlobalSearch() {
   const group = (k: Hit['kind']) => ({ player: '선수', club: '구단', league: '리그' })[k];
 
   return (
-    <div ref={box} className="relative mx-auto w-full max-w-[420px]">
+    <div ref={box} data-tour="search" className="relative mx-auto w-full max-w-[420px]">
       <label className={`flex h-9 items-center gap-2 rounded-lg border bg-ink-850 px-3 text-[13px] transition-colors ${open ? 'border-line-strong' : 'border-line'}`}>
         <Icon name="search" size={15} />
         <input ref={input} value={q} onChange={(e) => { setQ(e.target.value); setCur(0); setOpen(true); }} onFocus={() => setOpen(true)} onKeyDown={onKey}

@@ -7,6 +7,7 @@ import { useWorld } from '../hooks';
 import { useState } from 'react';
 import { useGame } from '../../store/game';
 import { SaveSlots } from './SaveSlots';
+import { HelpDialog } from './HelpDialog';
 
 const NAV: { key: HubTab; label: string; icon: string; ready?: boolean }[] = [
   { key: 'home', label: '홈', icon: 'home', ready: true },
@@ -28,6 +29,7 @@ export function Sidebar() {
   const save = useGame((s) => s.save);
   const [saveOpen, setSaveOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
   const exportFile = useGame((g) => g.exportFile);
   const unreadInjuries = club.squad.filter((id) => w.players[id].injury).length;
   return (
@@ -45,7 +47,7 @@ export function Sidebar() {
         {NAV.map((n) => {
           const active = tab === n.key;
           return (
-            <button key={n.key} onClick={() => setTab(n.key)}
+            <button key={n.key} data-tour={`nav-${n.key}`} onClick={() => setTab(n.key)}
               className={`group relative flex h-10 items-center gap-3 rounded-lg px-3 text-[14px] transition-colors ${
                 active ? 'bg-neon-ghost font-semibold text-hi' : n.ready ? 'text-mid hover:bg-ink-800 hover:text-hi' : 'text-lo hover:bg-ink-800'}`}>
               {active && <span className="absolute top-2 bottom-2 -left-3 w-0.5 rounded-r-full bg-neon" />}
@@ -71,12 +73,18 @@ export function Sidebar() {
             <div className="border-t border-line px-5 py-2 text-[12px] text-lo">진행할 때마다 자동 저장도 됩니다 (브라우저 안)</div>
           </div>
         )}
-        <button onClick={() => setSaveOpen((v) => !v)}
+        <button data-tour="save" onClick={() => setSaveOpen((v) => !v)}
           className="mb-1 flex h-9 w-full items-center gap-3 rounded-lg px-3 text-[13px] text-mid transition-colors hover:bg-ink-800 hover:text-hi">
           <Icon name="inbox" size={16} />
           저장하기
         </button>
-        <button onClick={() => setSettingsOpen(true)}
+        <button data-tour="help" onClick={() => setHelpOpen(true)}
+          className="mb-1 flex h-9 w-full items-center gap-3 rounded-lg px-3 text-[13px] text-mid transition-colors hover:bg-ink-800 hover:text-hi">
+          <Icon name="help" size={16} />
+          도움말
+        </button>
+        {helpOpen && <HelpDialog inGame onClose={() => setHelpOpen(false)} />}
+        <button data-tour="settings" onClick={() => setSettingsOpen(true)}
           className="mb-1 flex h-9 w-full items-center gap-3 rounded-lg px-3 text-[13px] text-mid transition-colors hover:bg-ink-800 hover:text-hi">
           <Icon name="settings" size={16} />
           설정

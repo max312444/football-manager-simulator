@@ -41,7 +41,7 @@ export function ContinueBar() {
   }, [go]);
 
   return (
-    <footer className="flex h-[72px] shrink-0 items-center gap-6 border-t border-line bg-ink-900/90 px-6 backdrop-blur">
+    <footer data-tour="continue" className="flex h-[72px] shrink-0 items-center gap-6 border-t border-line bg-ink-900/90 px-6 backdrop-blur">
       {over ? (
         <div>
           <div className="text-[14px] font-semibold">{w.season.replace('-', '/')} 시즌 종료 · 최종 {finalPos}위</div>

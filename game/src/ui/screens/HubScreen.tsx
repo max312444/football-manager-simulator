@@ -4,6 +4,7 @@ import { PressModal } from '../components/PressModal';
 import { SagaModal } from '../components/SagaModal';
 import { ScandalModal } from '../components/ScandalModal';
 import { EventResultModal } from '../components/EventResult';
+import { Tour } from '../components/Tour';
 import { Sidebar } from '../components/Sidebar';
 import { TopBar } from '../components/TopBar';
 import { ContinueBar } from '../components/ContinueBar';
@@ -73,6 +74,7 @@ export function HubScreen() {
       <SagaModal />
       <ScandalModal />
       <EventResultModal />
+      <Tour />
     </div>
   );
 }

@@ -1,0 +1,119 @@
+// 도움말 · 사용 설명서 (첫 화면 메뉴 · 게임 안 사이드바). 기능을 바꾸면 여기 설명도 같이 고친다
+import { useEffect, useState } from 'react';
+import { resetTutorial, useTour } from './Tour';
+
+interface Section { key: string; title: string; items: [string, string][] }
+const SECTIONS: Section[] = [
+  { key: 'start', title: '시작하기', items: [
+    ['게임 목표', '감독이 되어 구단을 운영합니다. 이사회가 정한 시즌 목표(우승 · 유럽 대회 · 잔류 등)를 이루고, 팬과 이사회의 신뢰를 지키며 커리어를 이어 가세요.'],
+    ['새 게임', '시작 시즌(2000/01 ~ 지금), 리그, 구단을 고릅니다. 그 시즌의 실제 선수단으로 시작합니다. 완전 랜덤으로 고르면 첫 시즌 예산 보너스가 조금 붙습니다.'],
+    ['이어하기 · 불러오기', '이어하기는 가장 최근 자동 저장으로 돌아갑니다. 불러오기에서는 저장 슬롯이나 내 PC의 저장 파일(.pitchboss)을 고릅니다.'],
+    ['명예의 전당', '이 PC에서 지휘한 커리어 순위입니다. 챔피언스리그 12 · 1부 리그 10 · 유로파리그 6 · 2부 리그 4 · 국내 컵 4점, 지휘한 시즌마다 0.5점.'],
+  ] },
+  { key: 'flow', title: '진행 · 저장', items: [
+    ['계속', "아래쪽 '계속'(스페이스 키)을 누르면 날짜가 흐릅니다. 경기 날이나 중요한 일이 생기면 멈춥니다. 어디서 멈출지는 설정 → '계속이 멈추는 곳'에서 바꿉니다."],
+    ['자동 저장', '진행할 때마다 이 브라우저에 자동 저장됩니다 (간격은 설정에서). 브라우저 데이터를 지우면 사라지니 중요한 게임은 파일로도 보관하세요.'],
+    ['저장 슬롯 · 파일', "사이드바 '저장하기'에서 슬롯 3개에 저장하거나 '파일로 내보내기'로 .pitchboss 파일을 받습니다. 다른 PC에서도 그 파일로 이어서 할 수 있습니다."],
+  ] },
+  { key: 'match', title: '경기', items: [
+    ['경기 준비', '경기 날에는 상대 정보와 AI 추천 선발 · 포메이션이 나옵니다. 그대로 써도 되고, 자리를 눌러 선수를 바꾸거나 포메이션 · 성향을 바꾼 뒤 킥오프합니다.'],
+    ['경기 중', '경기 화면에서 교체, 성향 · 압박 변경을 할 수 있습니다. 교체 인원은 시대 규정을 따릅니다 (2020년 이후 5명).'],
+    ['결과만 보기', "직접 지휘하지 않고 결과만 받으려면 '결과만 보기'를 누르거나, 설정 → 경기 방식을 '결과만 보기'로 바꿉니다."],
+  ] },
+  { key: 'squad', title: '선수단 · 선수', items: [
+    ['능력', '포지션에 맞춰 계산한 종합 능력입니다. 선수 정보의 세부 능력치(기술 · 정신 · 신체)로 이루어집니다.'],
+    ['포지션별 능력', '주 포지션과 보조 포지션에서는 능력이 그대로이고, 그 밖 자리에서는 익숙하지 않은 만큼 깎입니다. 선수 정보의 포지션 표에서 확인하세요.'],
+    ['체력 · 컨디션 · 사기 · 경기 감각', '체력이 낮으면 경기력이 떨어지고 다치기 쉽습니다. 사기는 결과 · 출전 시간 · 대화로, 경기 감각은 꾸준히 뛰어야 오릅니다.'],
+    ['충성도 · 역할', '계약할 때 약속한 역할(핵심 · 주전 · 로테이션 · 유망주 · 백업)보다 덜 뛰면 충성도가 떨어지고 불만을 드러냅니다. 역할은 선수 정보에서 바꿀 수 있습니다.'],
+    ['계약', '계약이 끝나면 선수가 떠납니다. 선수 정보에서 재계약을 협상하세요. 선수가 먼저 재계약을 요청하기도 합니다.'],
+    ['성장', '젊을수록, 프로의식 · 야망이 높을수록, 많이 뛸수록, 훈련 시설이 좋을수록 잘 자랍니다. 나이가 들면 능력이 떨어집니다.'],
+  ] },
+  { key: 'tactics', title: '전술 · 훈련', items: [
+    ['포메이션 · 선발', '전술에서 포메이션을 고르고 피치의 자리를 눌러 선수를 지정합니다. 지정하지 않은 자리와 부상 · 징계로 빠진 자리는 자동으로 채워집니다.'],
+    ['내 포메이션', "'내 포메이션 + 만들기'에서 자리마다 포지션을 바꿔 저장합니다 (6개까지). 수비 3~5명 · 센터백 2~3명 · 스트라이커 1~3명처럼 실제 축구에서 쓰는 범위만 됩니다."],
+    ['성향 · 압박', '공격적일수록 골은 많아지지만 실점도 늘어납니다. 높은 압박은 상대 기회를 줄이지만 체력을 많이 씁니다.'],
+    ['훈련', '매달 훈련 초점(공격 · 수비 · 체력 · 기술)과 강도를 정합니다. 강도가 높으면 성장은 빠르지만 체력 회복이 느리고 부상 위험이 있으며 비용이 듭니다.'],
+  ] },
+  { key: 'transfer', title: '이적 · 임대 · 스카우트', items: [
+    ['이적시장', '여름 · 겨울 이적시장 기간에만 영입 · 판매할 수 있습니다. 이적 화면에서 리그 · 포지션 · 나이 · 몸값으로 선수를 찾습니다.'],
+    ['영입 협상', '구단에 이적료를 제안하고, 합의하면 선수와 주급 · 계약 기간 · 역할을 협상합니다. 세 번 안에 합의하지 못하면 이번 이적시장 동안 다시 협상할 수 없습니다.'],
+    ['예산 · 재정 규정', "이적 예산과 주급 여유 안에서만 영입할 수 있습니다. 선수단 비용이 매출 대비 한도를 넘으면 안 됩니다 (재정 화면)."],
+    ['임대', "다른 구단 선수를 이번 시즌 끝까지 빌립니다 (주급 분담 · 임대료 · 완전 영입 옵션). 내 선수를 '임대 보내기'로 다른 구단에 보낼 수도 있습니다."],
+    ['판매', "선수를 이적 명단에 올리면 이적시장 동안 제안이 들어옵니다. 받은 제안은 수락 · 거절 · 역제안할 수 있습니다."],
+    ['스카우트', "다른 구단 선수의 능력치는 아는 만큼만 범위(예: 78–86)로 보입니다. '스카우트 보내기'(7~14일)로 정확한 능력치와 숨은 성향을, 리그 전체 관찰(28일)로 그 리그 선수들을 알아봅니다. 설정에서 끌 수 있습니다."],
+  ] },
+  { key: 'club', title: '구단 · 재정 · 이사회', items: [
+    ['재정', '중계권 · 스폰서 · 입장 · 상금이 들어오고 주급 · 운영비 · 훈련비 · 영입비가 나갑니다. 모든 구단이 같은 규칙을 따릅니다.'],
+    ['이사회', '성적과 약속에 따라 이사회 관계가 오르내리고, 관계가 좋으면 다음 시즌 예산이 늘어납니다. 구단 메뉴에서 예산 · 시설 투자를 요청할 수 있습니다.'],
+    ['팬 여론', '경기 결과, 큰 영입, 스타 판매, 기자회견 답변으로 바뀝니다. 여론이 높으면 이사회가 쉽게 경질하지 못합니다.'],
+    ['감독 커리어', '성적이 계속 나쁘면 경질될 수 있습니다. 명성이 오르면 다른 구단에서 감독 제안이 오고, 옮길 때 일부 선수가 따라오고 싶어 합니다.'],
+    ['시설', '훈련 시설은 성장, 유스 시설은 유망주 수준에 영향을 줍니다. 공사에는 돈과 시간이 듭니다.'],
+  ] },
+  { key: 'events', title: '이벤트', items: [
+    ['기자회견', '큰 경기 전후에 열립니다. 답변에 따라 선수 사기 · 팬 여론 · 이사회 관계가 바뀝니다. 결과는 고른 뒤에 나옵니다.'],
+    ['이사회 · 구단 이벤트', '스타 판매 요구, 유스 기용 요구, 원하는 선수, 스폰서 제안, 해외 투어, 자선 행사, 선수단 미팅 요청 등.'],
+    ['선수 논란 · 언론 플레이', '선수가 SNS · 지각 같은 가벼운 논란을 일으키거나, 연봉 인상 · 이적을 공개적으로 요구하기도 합니다. 대화 · 약속 · 징계 등으로 대응합니다.'],
+    ['빈도 조절', '설정 → 팝업에서 종류별로 끄기 · 드물게 · 보통 · 자주를 고릅니다. 끄면 무난한 선택으로 자동 처리되고 결과만 받은편지함에 남습니다.'],
+  ] },
+  { key: 'comps', title: '대회', items: [
+    ['리그', '1부 하위 팀은 2부로 강등되고 2부 상위 팀이 승격합니다 (나라별 플레이오프 포함). 2부 데이터가 있는 나라만 2부 리그가 열립니다.'],
+    ['국내 컵 · 유럽 대회', '국내 컵은 토너먼트, 유럽 대회(챔피언스리그 · 유로파리그)는 지난 시즌 성적으로 진출합니다.'],
+    ['월드컵', '월드컵이 있는 시즌에는 시즌 뒤에 열리고, 내 선수가 뽑히면 결과가 받은편지함에 나옵니다.'],
+  ] },
+  { key: 'data', title: '데이터 · 사진', items: [
+    ['기본 데이터', '기본은 이름을 바꾼 패러디 데이터입니다. 실제 리그 · 구단 · 선수와 관계없는 비공식 팬 프로젝트입니다.'],
+    ['실명 데이터', "실명 데이터는 게임에 들어 있지 않습니다. 직접 가진 실명 데이터 폴더를 첫 화면 '데이터베이스'에 끌어다 놓거나 폴더를 고르면 이 브라우저에만 저장되어 쓰입니다 (어디로도 전송되지 않음)."],
+    ['선수 사진', '선수 사진은 직접 PC에서 실행할 때(개발 서버)만 넣을 수 있습니다. 데이터베이스 화면의 안내를 보세요.'],
+  ] },
+  { key: 'keys', title: '단축키', items: [
+    ['스페이스', "계속 진행 · 경기 준비에서 선발 확정 · 시상식 넘기기"],
+    ['/  또는  Ctrl + K', '검색창으로 이동'],
+    ['Esc', '창 닫기 · 검색 닫기'],
+    ['← → Enter', '튜토리얼 넘기기'],
+  ] },
+];
+
+export function HelpDialog({ onClose, inGame }: { onClose: () => void; inGame?: boolean }) {
+  const [cur, setCur] = useState(SECTIONS[0].key);
+  const [msg, setMsg] = useState<string | null>(null);
+  const start = useTour((s) => s.start);
+  const sec = SECTIONS.find((s) => s.key === cur)!;
+  useEffect(() => { const k = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); }; window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k); }, [onClose]);
+  return (
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-8 backdrop-blur-sm" onClick={onClose}>
+      <div className="panel flex h-[min(720px,100%)] w-full max-w-[960px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
+        <header className="flex items-center justify-between border-b border-line px-7 py-4">
+          <div>
+            <h2 className="text-[17px] font-semibold">도움말 · 사용 설명서</h2>
+            <div className="mt-0.5 text-[12px] text-lo">조작법과 게임의 규칙을 정리했습니다</div>
+          </div>
+          <div className="flex items-center gap-4">
+            {msg && <span className="text-[12px] text-neon">{msg}</span>}
+            <button onClick={() => { if (inGame) { onClose(); start(); } else { resetTutorial(); setMsg('다음에 게임에 들어가면 튜토리얼이 다시 나옵니다'); } }}
+              className="rounded-md border border-line px-3 py-1.5 text-[12px] text-mid hover:text-hi">튜토리얼 다시 보기</button>
+            <button onClick={onClose} className="text-[13px] text-lo hover:text-hi">닫기</button>
+          </div>
+        </header>
+        <div className="flex min-h-0 flex-1">
+          <nav className="w-[200px] shrink-0 overflow-auto border-r border-line p-3">
+            {SECTIONS.map((s) => (
+              <button key={s.key} onClick={() => setCur(s.key)}
+                className={`mb-0.5 w-full rounded-md px-3 py-2 text-left text-[13px] transition-colors ${cur === s.key ? 'bg-neon-ghost font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>{s.title}</button>
+            ))}
+          </nav>
+          <div className="min-w-0 flex-1 overflow-auto px-8 py-6">
+            <h3 className="mb-4 text-[18px] font-semibold">{sec.title}</h3>
+            <dl className="space-y-4">
+              {sec.items.map(([k, v]) => (
+                <div key={k}>
+                  <dt className="text-[14px] font-semibold text-hi">{k}</dt>
+                  <dd className="mt-1 text-[13px] leading-relaxed text-mid">{v}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
