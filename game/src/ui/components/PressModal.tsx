@@ -7,6 +7,8 @@ export function PressModal() {
   const w = useWorld();
   const conf = w.manager?.press;
   const answer = useGame((s) => s.pressAnswer);
+  const result = useGame((s) => s.eventResult);
+  if (result) return null;
   if (!conf || w.manager?.pendingJob || w.manager?.boardEvent) return null;
   const q = conf.questions[0];
   if (!q) return null;
@@ -24,12 +26,11 @@ export function PressModal() {
           {q.answers.map((a) => (
             <button key={a.key} onClick={() => answer(a.key)} className="w-full rounded-xl bg-ink-900 px-4 py-3 text-left transition-colors hover:bg-ink-800">
               <div className="text-[14px] font-semibold">{a.label}</div>
-              <div className="mt-0.5 text-[12px] text-lo">{a.hint}</div>
             </button>
           ))}
         </div>
         <div className="border-t border-line px-7 py-3 text-right">
-          <button onClick={() => answer('skip')} className="text-[12px] text-lo hover:text-hi">기자회견 불참 (팬 여론 · 이사회 관계 조금 −)</button>
+          <button onClick={() => answer('skip')} className="text-[12px] text-lo hover:text-hi">기자회견 불참</button>
         </div>
       </div>
     </div>

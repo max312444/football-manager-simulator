@@ -34,6 +34,27 @@ export function hintOf(fx: PressEffect): string {
 }
 const A = (key: string, label: string, fx: PressEffect): PressAnswer => ({ key, label, fx, hint: hintOf(fx) });
 
+/** 답변 뒤 반응 (숫자 대신 문장, 고른 다음에만 보여 준다) */
+export function pressReaction(fx: PressEffect, playerName = '선수'): string[] {
+  const s: string[] = [];
+  if (fx.morale) s.push(fx.morale > 0 ? '선수들이 감독의 말에 힘을 얻었습니다' : '라커룸 분위기가 싸늘해졌습니다');
+  if (fx.playerMorale) s.push(fx.playerMorale > 0 ? `${playerName}이(가) 고마워합니다` : `${playerName}이(가) 크게 서운해합니다`);
+  if (fx.fan) s.push(fx.fan > 0 ? '팬들의 반응이 뜨겁습니다' : '팬들의 반응은 미지근합니다');
+  if (fx.relation) s.push(fx.relation > 0 ? '이사회가 만족스러워합니다' : '이사회가 불편한 기색을 보입니다');
+  if (fx.confidence) s.push(fx.confidence > 0 ? '이사회가 차분한 태도를 높이 삽니다' : '감독에 대한 신뢰가 조금 흔들립니다');
+  if (fx.boast) s.push('이제 이 경기 결과가 더 중요해졌습니다 — 지면 후폭풍이 클 겁니다');
+  return s.length ? s : ['기자들이 다음 질문으로 넘어갑니다'];
+}
+
+/** 리그 순위 (1부터) · 경기 수 */
+function rankOf(w: World): { rank: number; n: number; played: number } | null {
+  const c = w.clubs[w.userClubId];
+  const t = w.competitions[c.league]?.table;
+  if (!t?.[c.id]) return null;
+  const rows = Object.values(t).sort((a, b) => b.pts - a.pts || (b.gf - b.ga) - (a.gf - a.ga) || b.gf - a.gf);
+  return { rank: rows.findIndex((r) => r.club === c.id) + 1, n: rows.length, played: t[c.id].p };
+}
+
 function questions(w: World, kind: 'pre' | 'post' | 'free', ctx: { opp?: string; big?: boolean; result?: 'bigwin' | 'bigloss' | 'upsetwin' | 'upsetloss' }, rng: Rng): PressQuestion[] {
   const qs: PressQuestion[] = [];
   const me = w.clubs[w.userClubId];
@@ -54,6 +75,29 @@ function questions(w: World, kind: 'pre' | 'post' | 'free', ctx: { opp?: string;
       A('blameplayers', '"선수들이 기대에 못 미쳤다"', { morale: -5, fan: 1, relation: 1 }),
       A('blameself', '"모든 책임은 감독인 나에게 있다"', { morale: 3, fan: 2, confidence: -2 }),
       A('referee', '"오늘 판정은 납득하기 어렵다"', { fan: 2, relation: -2, morale: 1 }),
+    ] });
+  }
+  // 순위: 우승 경쟁 · 강등권 (10경기 이상)
+  const rk = rankOf(w);
+  if (qs.length < 2 && rk && rk.played >= 10 && rng.chance(0.5)) {
+    if (rk.rank <= 2) qs.push({ topic: 'big', text: `리그 ${rk.rank}위로 우승 경쟁 중입니다. 우승할 수 있다고 보십니까?`, answers: [
+      A('title', '"우승이 목표다. 숨길 생각 없다"', { morale: 3, fan: 3 }),
+      A('step', '"한 경기씩 치를 뿐이다"', { relation: 1, confidence: 1 }),
+      A('pressure', '"부담은 상대 팀이 더 클 것이다"', { morale: 2, fan: 2, relation: -1 }),
+    ] });
+    else if (rk.rank > rk.n - 3) qs.push({ topic: 'loss', text: `강등권(${rk.rank}위)입니다. 살아남을 수 있습니까?`, answers: [
+      A('fight', '"끝까지 싸운다. 포기는 없다"', { morale: 3, fan: 2 }),
+      A('honest', '"쉽지 않지만 방법을 찾겠다"', { relation: 1, confidence: 1 }),
+      A('excuse', '"부상자가 너무 많았다"', { morale: 1, fan: -1, relation: -1 }),
+    ] });
+  }
+  // 핵심 선수 장기 부상
+  const hurt = me.squad.map((id) => w.players[id]).sort((a, b) => overall(b) - overall(a)).slice(0, 3).find((p) => (p.injury?.days ?? 0) >= 21);
+  if (qs.length < 2 && hurt && rng.chance(0.5)) {
+    qs.push({ topic: 'rumour', player: hurt.id, text: '{player}의 부상 공백을 어떻게 메우겠습니까?', answers: [
+      A('trust', '"남은 선수들을 믿는다"', { morale: 4 }),
+      A('sign', '"보강을 검토하겠다"', { fan: 2, morale: -2, relation: -1 }),
+      A('young', '"어린 선수들에게 기회다"', { relation: 2, morale: 1 }),
     ] });
   }
   // 이사회와 사이가 나쁠 때

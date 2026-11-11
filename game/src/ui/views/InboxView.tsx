@@ -2,7 +2,7 @@ import type { GameEvent, World } from '../../engine/types';
 import { clubKo, compKo, nationKo, playerKo } from '../../data/db';
 import { josa, koDate, money } from '../format';
 import { useWorld } from '../hooks';
-import { boardEventText } from '../components/BoardEventModal';
+import { boardEventText, boardTag } from '../components/BoardEventModal';
 import { SCANDAL_KO, SCANDAL_TITLE } from '../../engine/scandal';
 import { COMP_TONE, compKind } from '../components/bits';
 
@@ -95,7 +95,7 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
     case 'board': {
       const t = boardEventText(w, e.kind, e.player);
       const owner = e.kind === 'ownerRich' || e.kind === 'ownerCut';
-      return { tag: owner ? '구단' : e.kind === 'rumour' ? '언론' : e.kind === 'protest' ? '팬' : '이사회', tone: e.kind === 'ownerRich' ? 'text-neon' : 'text-amber', title: t.title, body: owner ? t.body : '선택한 결과는 아래 소식에 나옵니다' };
+      return { tag: boardTag(e.kind), tone: e.kind === 'ownerRich' ? 'text-neon' : 'text-amber', title: t.title, body: owner ? t.body : '선택한 결과는 아래 소식에 나옵니다' };
     }
     case 'manager': {
       const c = clubKo(e.club);

@@ -1,5 +1,4 @@
 // 선수 언론 플레이 대응 창: 연봉 인상 요구 · 이적 요청 · 태업 단계 → 대화 · 약속 · 징계 · 공개 비판 · 판매 허락
-import { useState } from 'react';
 import { SAGA_STAGE_KO, type SagaAction } from '../../engine/saga';
 import { overall } from '../../engine/ratings';
 import { clubKo, playerKo } from '../../data/db';
@@ -19,7 +18,6 @@ export function SagaModal() {
   const w = useWorld();
   const id = w.sagaPrompt;
   const { sagaRespond, sagaClose } = useGame();
-  const [msg, setMsg] = useState('');
   const p = id ? w.players[id] : null;
   const s = p?.saga;
   if (!p || !s || p.clubId !== w.userClubId || w.manager?.pendingJob) return null;
@@ -48,12 +46,10 @@ export function SagaModal() {
         </div>
         <div className="space-y-1.5 px-7 pb-4">
           {opts.map((o) => (
-            <button key={o.a} onClick={() => setMsg(sagaRespond(p.id, o.a))} className="w-full rounded-xl bg-ink-900 px-4 py-2.5 text-left transition-colors hover:bg-ink-800">
+            <button key={o.a} onClick={() => sagaRespond(p.id, o.a, o.label)} className="w-full rounded-xl bg-ink-900 px-4 py-2.5 text-left transition-colors hover:bg-ink-800">
               <div className="text-[14px] font-semibold">{o.label}</div>
-              <div className="mt-0.5 text-[12px] text-lo">{o.hint}</div>
             </button>
           ))}
-          {msg && <div className="pt-1 text-[12px] text-neon">{msg}</div>}
         </div>
         <div className="border-t border-line px-7 py-3 text-right">
           <button onClick={sagaClose} className="text-[12px] text-lo hover:text-hi">지금은 두고 보기</button>

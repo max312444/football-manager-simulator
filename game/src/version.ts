@@ -1,3 +1,3 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 README 개발 현황에도 적는다
-export const GAME_VERSION = '0.3';
+export const GAME_VERSION = '0.4';

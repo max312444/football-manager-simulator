@@ -2,6 +2,7 @@
 //  팬 여론 (0~100, 감독에 대한 여론): 경기 결과 · 큰 영입 · 스타 판매 · 시즌 결과로 오르내린다
 //    - 높으면 (70+) 이사회가 쉽게 경질하지 못한다 · 낮으면 (30-) 이사회 관계가 매달 떨어진다 · 내 구단 상업 수입 ±5%
 //  이사회 이벤트 (선택지가 있는 갈등 · 요구): 스타 판매 요구 · 유스 기용 요구 · 이사회가 원하는 선수 · 감독 교체 소문 · 팬 시위
+//    + 구단 생활: 스폰서 제안 · 해외 친선 투어 초청 · 자선 행사 · 선수단 미팅 요청
 //    + 자동: 우승 보너스 예산 · 구단주 교체 (드물게, 새 시즌)
 import { freqOf } from './gameSettings';
 import type { GameEvent, PlayerState, World } from './types';
@@ -10,11 +11,11 @@ import { ensureManager } from './manager';
 import { addRelation } from './board';
 import { overall } from './ratings';
 import { ageOn } from './condition';
-import { clubRevenue } from './finance';
+import { book, clubRevenue } from './finance';
 import { marketValue, windowEnd, windowOpen } from './transfer';
 import { clubRevenue as revenueOf } from './finance';
 
-export type BoardEventKind = 'sellStar' | 'youth' | 'wanted' | 'rumour' | 'protest';
+export type BoardEventKind = 'sellStar' | 'youth' | 'wanted' | 'rumour' | 'protest' | 'sponsor' | 'tour' | 'charity' | 'meeting';
 export interface BoardEvent { kind: BoardEventKind; date: string; player?: string; options: { key: string; label: string; hint: string }[] }
 
 const clamp = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
@@ -77,7 +78,7 @@ export function boardEventDay(w: World, todays: GameEvent[], rng: Rng): GameEven
 
   // 새 이벤트: 매달 10일 (9월 ~ 4월), 이전 이벤트 뒤 45일 넘게, 하나씩
   const mon = +w.date.slice(5, 7);
-  if (!m.boardEvent && w.date.slice(8) === '10' && (mon >= 8 || mon <= 4) && (!m.lastBoardEvent || days(m.lastBoardEvent, w.date) > 45)) {
+  if (!m.boardEvent && w.date.slice(8) === '10' && (mon >= 8 || mon <= 4) && (!m.lastBoardEvent || days(m.lastBoardEvent, w.date) > 40)) {
     const ev = pickEvent(w, rng);
     if (ev) {
       m.boardEvent = ev; m.lastBoardEvent = w.date;
@@ -99,7 +100,7 @@ function pickEvent(w: World, rng: Rng): BoardEvent | null {
   if (m.confidence < 35 && rng.chance(0.6)) return { kind: 'rumour', date: d, options: [
     { key: 'rebut', label: '기자회견에서 공개 반박한다', hint: '팬 여론 + · 이사회 관계 −' },
     { key: 'silent', label: '침묵한다', hint: '신뢰도 조금 −' }] };
-  if (!rng.chance(0.3 * freqOf(w, 'board'))) return null;
+  if (!rng.chance(0.38 * freqOf(w, 'board'))) return null;
   const cands: (() => BoardEvent | null)[] = [];
   // 이적이 가능한 때만: 이적시장이 열려 있을 때 (판매 요구 · 원하는 선수)
   const market = !!windowOpen(w.season, w.date);
@@ -120,6 +121,16 @@ function pickEvent(w: World, rng: Rng): BoardEvent | null {
   if (market && wantPool.length) cands.push(() => ({ kind: 'wanted', date: d, player: rng.pick(wantPool).id, options: [
     { key: 'accept', label: '영입을 추진하겠다', hint: '이적료 일부를 이사회가 지원 · 이번 이적시장 안에 데려오면 관계 +' },
     { key: 'refuse', label: '전력에 필요 없다', hint: '이사회 관계 조금 −' }] }));
+  // 구단 생활 (조건 없이 가끔)
+  cands.push(() => ({ kind: 'sponsor', date: d, options: [
+    { key: 'accept', label: '계약한다', hint: '' }, { key: 'refuse', label: '구단 이미지에 맞지 않는다며 거절한다', hint: '' }] }));
+  if ([9, 10, 11, 3].includes(+d.slice(5, 7))) cands.push(() => ({ kind: 'tour', date: d, options: [
+    { key: 'accept', label: '초청에 응한다', hint: '' }, { key: 'refuse', label: '선수들을 쉬게 하겠다', hint: '' }] }));
+  cands.push(() => ({ kind: 'charity', date: d, options: [
+    { key: 'attend', label: '감독과 주장이 직접 참석한다', hint: '' }, { key: 'skip', label: '구단 직원만 보낸다', hint: '' }] }));
+  const avgMorale = squad.reduce((s, p) => s + p.morale, 0) / Math.max(1, squad.length);
+  if (avgMorale < 52) cands.push(() => ({ kind: 'meeting', date: d, options: [
+    { key: 'hold', label: '선수단 미팅을 연다', hint: '' }, { key: 'refuse', label: '"훈련장에서 증명하라"', hint: '' }] }));
   return cands.length ? rng.pick(cands)() : null;
 }
 
@@ -151,6 +162,31 @@ export function resolveBoardEvent(w: World, key: string): GameEvent[] {
     case 'rumour':
       if (key === 'rebut') { addFanMood(w, 5); addRelation(w, -6); return say('감독 교체 소문을 공개 반박했습니다 · 팬들은 지지하지만 이사회는 불편해합니다'); }
       m.confidence = clamp(m.confidence - 3, 0, 100); return say('소문에 침묵했습니다');
+    case 'sponsor': {
+      const rev = clubRevenue(w, c.id);
+      if (key === 'accept') { const v = Math.round((rev * 0.015) / 1e5) * 1e5; book(w, c.id, 'commercial', v); addFanMood(w, -3); return say(`베팅 회사와 스폰서 계약 · ${Math.round(v / 1e5) / 10}M 유로가 들어왔습니다 · 일부 팬들은 불만을 드러냅니다`); }
+      addFanMood(w, 2); addRelation(w, -2); return say('스폰서 제안을 거절했습니다 · 팬들은 반기지만 이사회는 아쉬워합니다');
+    }
+    case 'tour': {
+      if (key === 'accept') {
+        const v = Math.round((clubRevenue(w, c.id) * 0.006) / 1e5) * 1e5;
+        book(w, c.id, 'commercial', v); addRelation(w, 2);
+        for (const id of c.squad) { const q = w.players[id]; q.fitness = Math.max(50, q.fitness - 10); }
+        return say(`해외 친선 투어 · 수입 ${Math.round(v / 1e5) / 10}M 유로 · 선수들이 지친 채로 돌아왔습니다`);
+      }
+      addRelation(w, -1); return say('투어 초청을 거절했습니다 · 선수들은 휴식을 취했습니다');
+    }
+    case 'charity':
+      if (key === 'attend') { addFanMood(w, 4); for (const id of c.squad) { const q = w.players[id]; q.morale = clamp(q.morale + 2, 0, 100); } return say('자선 행사에 직접 참석했습니다 · 지역 언론과 팬들이 호평합니다'); }
+      addFanMood(w, -1); return say('구단 직원만 행사에 보냈습니다 · 큰 관심을 받지 못했습니다');
+    case 'meeting':
+      if (key === 'hold') {
+        const ok = ((Math.floor(Date.parse(w.date) / 864e5) + w.seed) % 10) < 7;   // 70% (날짜 · 시드로 정해짐, 다시 해도 같음)
+        for (const id of c.squad) { const q = w.players[id]; q.morale = clamp(q.morale + (ok ? 6 : 1), 0, 100); }
+        return say(ok ? '선수단 미팅 · 쌓였던 이야기를 털어놓고 분위기가 살아났습니다' : '선수단 미팅 · 서로 할 말만 하고 끝났습니다 · 분위기는 그대로입니다');
+      }
+      for (const id of c.squad) { const q = w.players[id]; q.morale = clamp(q.morale - 3, 0, 100); }
+      return say('미팅 요청을 거절했습니다 · 라커룸이 조용해졌습니다');
     case 'protest':
       if (key === 'talk') { addFanMood(w, 8); m.confidence = clamp(m.confidence - 2, 0, 100); return say('팬들과 직접 대화했습니다 · 분위기가 조금 누그러졌습니다'); }
       addRelation(w, -8); m.confidence = clamp(m.confidence - 5, 0, 100); return say('팬 시위를 무시했습니다 · 이사회가 우려를 표했습니다');

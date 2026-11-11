@@ -1,6 +1,8 @@
 // 스카우트 화면 조각: 보이는 능력(범위) · 숨은 성향 · 스카우트 보내기
 import type { PlayerState, World } from '../../engine/types';
 import type { Hidden } from '../../engine/types';
+import type { Position } from '../../data/types';
+import { altPositions, slotRating } from '../../engine/ratings';
 import { fogOn, hiddenKnown, knowledge, MAX_PLAYER_JOBS, REPORT_K, scoutCost, scoutDays, seenOverall, seenRange } from '../../engine/scout';
 import { compKo } from '../../data/db';
 import { useGame } from '../../store/game';
@@ -69,6 +71,41 @@ export function ScoutBox({ p }: { p: PlayerState }) {
           <button onClick={() => { const r = scout('league', league); if (!r.ok) alert(r.reason); }} className="mt-1.5 w-full text-left text-lo hover:text-hi">
             또는 {compKo(league)} 전체 관찰 · {money(scoutCost(w, 'league'))} · 28일 →
           </button>))}
+    </div>
+  );
+}
+
+// ── 포지션별 능력 (선수 정보) ──
+const POS_ROWS: Position[][] = [['ST'], ['LW', 'AM', 'RW'], ['LM', 'CM', 'RM'], ['LWB', 'DM', 'RWB'], ['LB', 'CB', 'RB']];
+/** 주 포지션 · 보조 포지션(능력 그대로) · 그 밖 자리 능력 (깎인 값). 모르는 선수는 범위 */
+export function PositionRatings({ p }: { p: PlayerState }) {
+  const w = useWorld();
+  if (p.pos === 'GK') return null;
+  const alts = altPositions(p);
+  const k = knowledge(w, p);
+  return (
+    <div className="mb-5">
+      <div className="mb-2 flex items-baseline justify-between">
+        <span className="text-[11px] font-semibold text-lo">포지션별 능력</span>
+        <span className="text-[11px] text-lo"><span className="text-neon">■</span> 주 포지션 · <span className="text-neon/70">□</span> 보조 (안 깎임)</span>
+      </div>
+      <div className="space-y-1">
+        {POS_ROWS.map((row, i) => (
+          <div key={i} className="grid grid-cols-3 gap-1">
+            {(row.length === 1 ? [null, row[0], null] : row).map((s, j) => {
+              if (!s) return <div key={j} />;
+              const [lo, hi] = seenRange(w, p, 'pos:' + s, slotRating(p, s), k);
+              const main = s === p.pos, alt = alts.includes(s);
+              return (
+                <div key={j} className={`flex items-center justify-between rounded px-2 py-1 text-[11px] ${main ? 'bg-neon/20 ring-1 ring-neon' : alt ? 'bg-neon/5 ring-1 ring-neon/50' : 'bg-ink-900'}`}>
+                  <span className={main || alt ? 'font-semibold text-hi' : 'text-lo'}>{s}</span>
+                  <span className={`tnum font-semibold ${lo === hi ? (main || alt ? ratingTone(lo) : 'text-mid') : 'text-lo'}`}>{lo === hi ? lo : `${lo}–${hi}`}</span>
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

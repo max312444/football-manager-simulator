@@ -36,6 +36,12 @@ export interface PlayerState {
   birth: string;
   nation: string;
   pos: Position;
+  /** 데이터의 보조 포지션 */
+  dataAlt?: Position[];
+  /** 주발 (데이터에 있을 때) */
+  foot?: 'L' | 'R' | 'B' | null;
+  /** 능력이 깎이지 않는 보조 포지션 (데이터 + 능력치로 정함, positions.ts). 없으면 처음 쓸 때 계산 */
+  alt?: Position[];
   number: number | null;
   clubId: string | null;
   /** 그 시즌 실제 능력치 (기준선) */

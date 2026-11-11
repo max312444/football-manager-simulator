@@ -275,12 +275,15 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   for (const c of Object.values(w.clubs)) c.squad.map((id) => w.players[id]).sort((a, b) => overall(b) - overall(a)).forEach((p, i) => rankOf.set(p.id, i + 1));
   for (const p of Object.values(w.players)) {
     resetSeason(p);
+    p.alt = undefined;   // 보조 포지션은 새 능력치로 다시 정한다
     if (p.retired) continue;
     const age = ageOn(p.birth, startDate);
     const d = dataPlayers.get(p.id);
     if (d) {
       p.base = { ...d.sp.attrs };          // 실제 능력치 (기준선)
       p.pos = d.sp.pos;
+      p.dataAlt = d.sp.alt?.length ? d.sp.alt : undefined;
+      if (d.sp.foot) p.foot = d.sp.foot;
       // AI 구단: 실제로도 같은 구단에 남아 있고 실제 주급이 더 높으면 실제 재계약 반영 (내 구단 선수는 직접 재계약)
       if (p.clubId && p.clubId !== w.userClubId && d.club === p.clubId && d.sp.wage > p.wage) {
         p.wage = d.sp.wage;

@@ -17,6 +17,8 @@ export interface SquadPlayer {
   foot: 'L' | 'R' | 'B' | null;
   number: number | null;
   pos: Position;
+  /** 보조 포지션 (Wikidata 에 있을 때만) */
+  alt?: Position[];
   attrs: Partial<Record<AttrKey, number>>;
   wage: number;
   contract: string | null;

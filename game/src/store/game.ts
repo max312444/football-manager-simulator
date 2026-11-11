@@ -8,7 +8,7 @@ import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, 
 import { playToEnd, setTactics, step, substitute, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
 import { seedTraits } from '../engine/traits';
-import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
+import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, playerKo, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { fillContracts, seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
@@ -18,7 +18,7 @@ import { syncWorld, useSettings } from './settings';
 import { acceptOffer, chooseJob, declineOffer, ensureManager } from '../engine/manager';
 import { askBoard, type BoardAsk } from '../engine/board';
 import { resolveBoardEvent } from '../engine/boardEvents';
-import { answerPress } from '../engine/press';
+import { answerPress, pressReaction } from '../engine/press';
 import { sagaRespond, type SagaAction } from '../engine/saga';
 import { scandalRespond, type ScandalAction } from '../engine/scandal';
 import { evaluateLoan, exerciseBuy, loanMove, loanReturn, playerWillLoan, type LoanTerms } from '../engine/loan';
@@ -73,6 +73,9 @@ function autosave(w: World, force = false) {
 }
 
 /** 경기 전 스쿼드 설정 (AI 추천으로 시작, 사용자가 수정) */
+/** 이벤트 선택 결과 (팝업 자리에 이어서 보여 줌) */
+export interface EventResult { tag: string; tone: string; choice?: string; lines: string[]; next?: string }
+
 export interface MatchDraft {
   formation: string;
   mentality: Mentality;
@@ -106,6 +109,9 @@ interface GameStore {
   match: LiveMatch | null;
   lastEvents: GameEvent[];
   seasonReport: SeasonReport | null;
+  /** 이벤트 팝업에서 고른 뒤 보여 줄 결과 (같은 자리에 이어서) */
+  eventResult: EventResult | null;
+  closeEventResult(): void;
   savedAt: string | null;
   /** 불러오기 실패 이유 (화면 안내용) */
   loadError: string | null;
@@ -169,11 +175,11 @@ interface GameStore {
   /** 기자회견 답변 (질문 하나씩, skip = 불참) */
   pressAnswer(key: string): void;
   /** 선수 언론 플레이 대응 · 창 닫기 · 창 열기 */
-  sagaRespond(playerId: string, action: SagaAction): string;
+  sagaRespond(playerId: string, action: SagaAction, label?: string): string;
   sagaClose(): void;
   sagaOpen(playerId: string): void;
   /** 선수 논란 대응 */
-  scandalRespond(action: ScandalAction): string;
+  scandalRespond(action: ScandalAction, label?: string): string;
   /** 임대: 다른 구단 선수 빌려 오기 · 내 선수 보내기 · 완전 영입 옵션 행사 */
   loanIn(playerId: string, terms: LoanTerms): { ok: boolean; msg: string };
   loanOut(playerId: string, club: string, terms: LoanTerms): { ok: boolean; msg: string };
@@ -204,7 +210,7 @@ export const useGame = create<GameStore>((set, get) => {
     return { ok: true, msg: `이적이 성사됐습니다 · 이적료 ${Math.round(o.fee / 1e5) / 10}M 유로` };
   };
   return {
-    world: null, rev: 0, loading: false, match: null, lastEvents: [], seasonReport: null, savedAt: null, loadError: null, ceremony: null, awards: null, news: null,
+    world: null, rev: 0, loading: false, match: null, lastEvents: [], seasonReport: null, eventResult: null, savedAt: null, loadError: null, ceremony: null, awards: null, news: null,
 
     closeCeremony() { set({ ceremony: null }); },
     closeAwards() { set({ awards: null }); },
@@ -414,7 +420,9 @@ export const useGame = create<GameStore>((set, get) => {
       const r = get().boardAsk({ kind: 'facility', facility: kind });
       return { ok: r.ok, reason: r.text };
     },
-    sagaRespond(playerId, action) {
+    closeEventResult() { set({ eventResult: null }); },
+
+    sagaRespond(playerId, action, label) {
       const w = get().world;
       if (!w) return '';
       const rng = createRng((w.rng ^ 0x5a6a) >>> 0);
@@ -422,6 +430,7 @@ export const useGame = create<GameStore>((set, get) => {
       w.rng = (w.rng + 7) >>> 0;
       w.inbox.push(...r.events);
       w.sagaPrompt = undefined;
+      set({ eventResult: { tag: '선수 · 대응 결과', tone: 'text-amber', choice: label, lines: [r.text || '아직 별다른 반응은 없습니다'] } });
       autosave(w);
       bump();
       return r.text;
@@ -463,13 +472,14 @@ export const useGame = create<GameStore>((set, get) => {
       autosave(w); bump();
       return { ok: true, msg: '완전 영입 옵션을 행사했습니다' };
     },
-    scandalRespond(action) {
+    scandalRespond(action, label) {
       const w = get().world;
       if (!w) return '';
       const rng = createRng((w.rng ^ 0x5c4d) >>> 0);
       const r = scandalRespond(w, action, rng);
       w.rng = (w.rng + 11) >>> 0;
       w.inbox.push(...r.events);
+      set({ eventResult: { tag: '선수 논란 · 대응 결과', tone: 'text-red', choice: label, lines: [r.text || '조용히 지나갔습니다'] } });
       autosave(w);
       bump();
       return r.text;
@@ -479,14 +489,24 @@ export const useGame = create<GameStore>((set, get) => {
     pressAnswer(key) {
       const w = get().world;
       if (!w) return;
+      const q = w.manager?.press?.questions[0];
+      const a = q?.answers.find((x) => x.key === key);
+      const pname = q?.player && w.players[q.player] ? playerKo(q.player, w.players[q.player].name) : '선수';
+      const left = (w.manager?.press?.questions.length ?? 1) - 1;
       w.inbox.push(...answerPress(w, key));
+      set({ eventResult: key === 'skip'
+        ? { tag: '기자회견', tone: 'text-sky', choice: '기자회견 불참', lines: ['기자들이 불만을 드러냅니다 · 내일 신문이 곱지 않을 겁니다'] }
+        : { tag: '기자회견 · 반응', tone: 'text-sky', choice: a?.label, lines: a ? pressReaction(a.fx, pname) : [], next: left > 0 ? `다음 질문 (${left}개 남음)` : undefined } });
       autosave(w);
       bump();
     },
     boardChoose(key) {
       const w = get().world;
       if (!w) return;
-      w.inbox.push(...resolveBoardEvent(w, key));
+      const opt = w.manager?.boardEvent?.options.find((o) => o.key === key);
+      const evs = resolveBoardEvent(w, key);
+      w.inbox.push(...evs);
+      set({ eventResult: { tag: '결과', tone: 'text-amber', choice: opt?.label, lines: evs.flatMap((e) => (e.type === 'info' ? [e.text] : [])) } });
       autosave(w);
       bump();
     },

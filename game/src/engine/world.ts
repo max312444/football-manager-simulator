@@ -63,7 +63,7 @@ export function newPlayer(sp: SquadPlayer, clubId: string | null, seed: number, 
   const hidden = genHidden(sp.id, seed);
   const gen = !sp.contract && !!clubId && !!season;
   return {
-    id: sp.id, name: sp.name, birth: sp.birth, nation: sp.nation, pos: sp.pos, number: sp.number,
+    id: sp.id, name: sp.name, birth: sp.birth, nation: sp.nation, pos: sp.pos, ...(sp.alt?.length ? { dataAlt: sp.alt } : {}), ...(sp.foot ? { foot: sp.foot } : {}), number: sp.number,
     clubId, base: { ...sp.attrs }, growth: {}, wage: sp.wage, contract: gen ? genContract(sp, season!, seed) : sp.contract,
     ...(gen ? { contractGen: true } : {}),
     hidden, traits: [],

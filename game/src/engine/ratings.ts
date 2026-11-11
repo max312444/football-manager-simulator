@@ -50,9 +50,35 @@ export function familiarity(natural: Position, slot: Position): number {
   return FAM.get(natural + slot) ?? 0.6;
 }
 
+/**
+ * 선수가 편하게 뛰는 보조 포지션 (능력이 깎이지 않음, 최대 3개)
+ *  1) 데이터(Wikidata)에 있는 보조 포지션
+ *  2) 가까운 포지션(친숙도 0.8 이상) 중 그 자리 능력이 주 포지션과 거의 같으면 (1 이내, 능력치로 정하는 건 2개까지) — 예: 슈팅 좋은 윙어 → ST
+ *     반대쪽 측면(LW↔RW · LB↔RB 등)은 능력치로는 구분이 안 되므로 데이터에 있거나 양발일 때만
+ *  선수에 저장해 두고 시즌이 바뀌면 새 능력치로 다시 정한다
+ */
+const mirror = (a: Position, b: Position) => a.length === b.length && a.length >= 2 && a.slice(1) === b.slice(1) && ((a[0] === 'L' && b[0] === 'R') || (a[0] === 'R' && b[0] === 'L'));
+export function altPositions(p: PlayerState): Position[] {
+  if (p.alt) return p.alt;
+  const gk = (x: Position) => (x === 'GK') === (p.pos === 'GK');
+  const out = (p.dataAlt ?? []).filter((x) => x !== p.pos && gk(x)).slice(0, 3);
+  if (p.pos !== 'GK' && out.length < 3) {
+    const main = ratingAt(p, p.pos);
+    const near = NEAR.flatMap(([a, b, v]) => (v >= 0.8 ? (a === p.pos ? [b] : b === p.pos ? [a] : []) : []))
+      .filter((x, i, arr) => arr.indexOf(x) === i && !out.includes(x) && (p.foot === 'B' || !mirror(p.pos, x)))
+      .map((x) => ({ x, r: ratingAt(p, x) })).filter((c) => c.r >= main - 1).sort((a, b) => b.r - a.r);
+    let added = 0;
+    for (const c of near) { if (out.length >= 3 || added >= 2) break; out.push(c.x); added++; }
+  }
+  p.alt = out;
+  return out;
+}
+/** 이 선수의 그 자리 친숙도: 주 포지션 · 보조 포지션 1, 그 밖은 포지션 거리로 */
+export const playerFamiliarity = (p: PlayerState, slot: Position) => (slot === p.pos || altPositions(p).includes(slot) ? 1 : familiarity(p.pos, slot));
+
 /** 자리 적합 능력 = 그 자리 능력 × (0.7 + 0.3 × 친숙도) */
 export function slotRating(p: PlayerState, slot: Position): number {
-  return ratingAt(p, slot) * (0.7 + 0.3 * familiarity(p.pos, slot));
+  return ratingAt(p, slot) * (0.7 + 0.3 * playerFamiliarity(p, slot));
 }
 
 /** 본래 포지션 종합 능력 */

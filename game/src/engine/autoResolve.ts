@@ -8,7 +8,7 @@ import { resolveBoardEvent } from './boardEvents';
 import { sagaRespond } from './saga';
 import { scandalRespond } from './scandal';
 
-const BOARD_SAFE: Record<string, string> = { sellStar: 'accept', youth: 'accept', wanted: 'refuse', rumour: 'silent', protest: 'talk' };
+const BOARD_SAFE: Record<string, string> = { sellStar: 'accept', youth: 'accept', wanted: 'refuse', rumour: 'silent', protest: 'talk', sponsor: 'refuse', tour: 'refuse', charity: 'attend', meeting: 'hold' };
 
 export function autoResolve(w: World, rng: Rng): GameEvent[] {
   const out: GameEvent[] = [];

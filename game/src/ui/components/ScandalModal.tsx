@@ -30,9 +30,8 @@ export function ScandalModal() {
         </div>
         <div className="space-y-1.5 px-7 pb-6">
           {opts.map((o) => (
-            <button key={o.a} onClick={() => respond(o.a)} className="w-full rounded-xl bg-ink-900 px-4 py-2.5 text-left transition-colors hover:bg-ink-800">
+            <button key={o.a} onClick={() => respond(o.a, o.label)} className="w-full rounded-xl bg-ink-900 px-4 py-2.5 text-left transition-colors hover:bg-ink-800">
               <div className="text-[14px] font-semibold">{o.label}</div>
-              <div className="mt-0.5 text-[12px] text-lo">{o.hint}</div>
             </button>
           ))}
         </div>

@@ -1,11 +1,11 @@
 import { sagaSummary } from '../../engine/saga';
-import { HiddenTraits, ScoutBox } from '../components/Scout';
+import { HiddenTraits, PositionRatings, ScoutBox } from '../components/Scout';
 import { knowledge, seenOverall, seenRange } from '../../engine/scout';
 import { ROLE_HINT, ROLE_KO, ROLES, roleOf, type Role } from '../../engine/roles';
 import { useGame } from '../../store/game';
 import { PhotoCredit, PlayerPhoto } from '../components/PlayerPhoto';
 import type { PlayerState, World } from '../../engine/types';
-import { attr, formAvg } from '../../engine/ratings';
+import { altPositions, attr, formAvg } from '../../engine/ratings';
 import { POS_KO } from '../../data/rating';
 import { ATTR_GROUPS, ATTR_KO, GK_GROUP, money, ratingBar, ratingTone } from '../format';
 import { ConditionIcon, FitnessBar } from '../components/bits';
@@ -123,7 +123,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
         <div className="flex items-start justify-between gap-3">
           <PlayerPhoto id={p.id} name={ko} />
           <div className="min-w-0 flex-1">
-            <div className="text-[12px] font-semibold text-lo">{POS_KO[p.pos]}</div>
+            <div className="text-[12px] font-semibold text-lo">{POS_KO[p.pos]}{altPositions(p).length ? <span className="font-normal"> · 보조 {altPositions(p).join(', ')}</span> : null}</div>
             <div className="mt-1 truncate text-[22px] leading-tight font-semibold">{ko}</div>
             <div className="truncate text-[12px] text-lo">{p.name} · {nation} · {age}세</div>
             {club && <div className="mt-1 flex items-center gap-1.5 text-[12px] text-mid">{p.clubId ? <><Crest clubId={p.clubId} size={14} />{clubKo(p.clubId)}</> : <span className="text-neon">자유계약 (FA)</span>}</div>}
@@ -165,6 +165,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
           <div className="mb-3 text-[12px] text-lo">지난달 훈련 성장 <span className={(p.dev ?? 0) > 0.05 ? 'text-neon' : (p.dev ?? 0) < -0.05 ? 'text-red' : 'text-mid'}>{(p.dev ?? 0) > 0.05 ? '↑ 잘 자라는 중' : (p.dev ?? 0) < -0.05 ? '↓ 정체 · 하락' : '→ 보통'}</span> · 오른쪽 작은 숫자는 훈련으로 바뀐 만큼</div>
         )}
         <ScoutBox p={p} />
+        <PositionRatings p={p} />
         {groups.map((g) => {
           const keys = g.keys.filter((k) => p.base[k] != null);
           if (!keys.length) return null;

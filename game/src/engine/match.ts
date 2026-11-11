@@ -4,7 +4,7 @@
 import type { AttrKey, Position } from '../data/types';
 import type { MatchSummary, PlayerState, Side, Tactics } from './types';
 import type { Rng } from './rng';
-import { attr, familiarity, fitnessFactor, preMatchFactor, slotRating } from './ratings';
+import { attr, playerFamiliarity, fitnessFactor, preMatchFactor, slotRating } from './ratings';
 import type { Lineup } from './squad';
 import { traitForm, traitMul } from './traits';
 
@@ -143,7 +143,7 @@ function strengths(t: TeamInMatch, ctx: MatchCtx) {
   const acc: Record<Unit, { s: number; w: number }> = { att: { s: 0, w: 0 }, mid: { s: 0, w: 0 }, def: { s: 0, w: 0 }, gk: { s: 0, w: 0 } };
   for (const o of t.onPitch) {
     const p = ctx.players[o.id];
-    const mult = o.factor * fitnessFactor(o.fitness) * (0.7 + 0.3 * familiarity(p.pos, o.slot));
+    const mult = o.factor * fitnessFactor(o.fitness) * (0.7 + 0.3 * playerFamiliarity(p, o.slot));
     for (const [u, c] of Object.entries(CONTRIB[o.slot]) as [Unit, number][]) {
       const v = u === 'gk' && p.pos !== 'GK' ? 25 : unitValue(p, u) * mult;
       acc[u].s += v * c; acc[u].w += c;
