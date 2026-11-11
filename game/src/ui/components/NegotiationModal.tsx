@@ -2,6 +2,7 @@
 //  ① 이적료: 파는 구단과 합의 (자유계약 선수는 건너뜀)
 //  ② 개인 계약: 선수와 주급 · 계약 기간 합의
 // 이적료 · 주급 각각 3번 안에 합의 못 하면 협상 결렬 → 이번 이적시장 동안 이 선수와 다시 협상 불가
+import { autoRole, ROLE_KO, ROLES, type Role } from '../../engine/roles';
 import { useEffect, useRef, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
 import { overall } from '../../engine/ratings';
@@ -30,6 +31,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
   const [fee, setFee] = useState(Math.round((talk?.agreed ?? value * 0.9) / 1e5) / 10);
   const [wage, setWage] = useState(Math.round(demand / 1000));
   const [years, setYears] = useState(3);
+  const [role, setRole] = useState<Role>(() => autoRole(w, p, w.userClubId));
   const [broken, setBroken] = useState(!!talkBanned(w, p.id));
   const [msgs, setMsgs] = useState<Msg[]>(() => [
     fa ? { who: 'sys', text: '자유계약 선수입니다. 이적료 없이 주급과 계약 기간만 협상하면 됩니다.' }
@@ -64,7 +66,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
     if (r.broken) fail();
   };
   const sendContract = () => {
-    const r = sign(p.id, wage * 1000, years);
+    const r = sign(p.id, wage * 1000, years, role);
     push({ who: 'me', text: `주급 ${money(wage * 1000)} · ${years}년 계약 제안` });
     if (r.ok) { onClose(); return; }
     push({ who: r.left === undefined ? 'sys' : 'player', tone: 'warn', text: r.reason });
@@ -128,6 +130,9 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
                 <label className="flex h-11 flex-1 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">주급
                   <input autoFocus type="number" min={1} value={wage} onChange={(e) => setWage(+e.target.value)} onKeyDown={(e) => e.key === 'Enter' && sendContract()} className="tnum min-w-0 flex-1 bg-transparent text-right text-[16px] font-semibold text-hi outline-none" />천 유로
                 </label>
+                <select value={role} onChange={(e) => setRole(e.target.value as Role)} title="약속하는 역할: 높을수록 선수가 오려고 하지만, 약속만큼 못 뛰면 불만이 빨리 생깁니다" className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi">
+                  {ROLES.map((x) => <option key={x} value={x}>{ROLE_KO[x]}</option>)}
+                </select>
                 <select value={years} onChange={(e) => setYears(+e.target.value)} className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi">
                   {[1, 2, 3, 4, 5].map((y) => <option key={y} value={y}>{y}년</option>)}
                 </select>

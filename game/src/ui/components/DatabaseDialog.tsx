@@ -68,7 +68,9 @@ export function DatabaseDialog({ onClose }: { onClose: () => void }) {
               선수 사진은 게임에 들어 있지 않습니다. 개인이 추가해야 합니다.
               <ul className="mt-1.5 list-disc space-y-0.5 pl-4 text-lo">
                 <li><b className="text-mid">게임 안에서</b>: 선수 정보의 사진 칸(없으면 '+ 사진')을 누르고 파일을 끌어다 놓거나, 복사한 이미지를 Ctrl+V, 또는 이미지 주소를 붙여 넣습니다. 얼굴 위치는 자동으로 맞춥니다.</li>
-                <li><b className="text-mid">한꺼번에</b>: <Code>tools</Code> 폴더에서 <Code>npm i</Code> 한 번, 그다음 <Code>node tools/data_pipeline photos --club liverpool --season 2025-26</Code></li>
+                <li><b className="text-mid">직접 모은 사진 한꺼번에</b>: <Code>node tools/data_pipeline photos-ids --club liverpool</Code> 로 선수 ID 목록(CSV)을 뽑고,
+                  사진을 <Code>data/photos/inbox/선수ID/2025-26.jpg</Code> 처럼 넣은 뒤 <Code>node tools/data_pipeline photos-import</Code>. 얼굴 위치는 자동으로 맞춥니다.</li>
+                <li><b className="text-mid">공개 사진 자동 수집</b>: <Code>tools</Code> 폴더에서 <Code>npm i</Code> 한 번, 그다음 <Code>node tools/data_pipeline photos --club liverpool --season 2025-26</Code></li>
                 <li>사진은 <Code>data/photos/</Code> 에만 저장되고 저장소에 올라가지 않습니다. 끄면 사진이 숨겨지고, 폴더를 지우면 완전히 빠집니다.</li>
               </ul>
             </div>

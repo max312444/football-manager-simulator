@@ -3,7 +3,7 @@
 //  2) 공용 분류의 사진 목록 + 촬영 날짜 · 작가 · 라이선스
 //  3) 시즌마다 (7월 1일 ~ 다음 해 6월 30일 촬영) 이름이 들어 있고 세로로 긴 사진을 고른다. 없으면 그 시즌은 비움 (게임이 이전 시즌 사진 → 대표 사진 순으로 씀)
 //  → data/photos/files/{해시}.jpg (가로 320px) · data/photos/manifest.json (선수 · 시즌 → 파일, 파일 → 출처 · 작가 · 라이선스)
-//  node tools/data_pipeline photos [--club liverpool] [--season 2025-26] [--limit 100]
+//  node tools/data_pipeline photos [--club liverpool] [--season 2025-26] [--league eng1,esp1,ita1,ger1,fra1] [--limit 100]
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
@@ -19,12 +19,13 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const strip = (html) => String(html ?? '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
 
 /** 데이터에 나오는 선수 → 시즌 목록 · 이름 */
-function appearances({ club, season }) {
+function appearances({ club, season, leagues }) {
   const out = new Map();
   const root = path.join(DATA, 'seasons');
   for (const s of fs.readdirSync(root)) {
     if (season && s !== season) continue;
     for (const lg of fs.readdirSync(path.join(root, s))) {
+      if (leagues && !leagues.includes(lg)) continue;
       for (const f of fs.readdirSync(path.join(root, s, lg))) {
         if (f.startsWith('_') || !f.endsWith('.json')) continue;
         if (club && f !== `${club}.json`) continue;
@@ -65,17 +66,33 @@ async function download(url, file) {
   return false;
 }
 
-async function photos({ club, season, limit, log }) {
+async function photos({ club, season, league, limit, log }) {
+  const leagues = league ? league.split(',').map((x) => x.trim()).filter(Boolean) : undefined;   // --league eng1,esp1 (여러 개는 쉼표)
   log(`\n■ 선수 사진 (위키미디어 공용 · 개인 보관용)${club ? ` · ${club}` : ''}${season ? ` · ${season}` : ''}`);
   const qids = readJson(path.join(DATA, 'canonical', 'players.json'));
-  const apps = appearances({ club, season });
+  const apps = appearances({ club, season, leagues });
   let ids = [...apps.keys()].filter((id) => qids[id]?.wikidata);
   if (limit) ids = ids.slice(0, limit);
   log(`  대상 선수 ${ids.length}명`);
 
   const manifestFile = path.join(OUT, 'manifest.json');
   const manifest = fs.existsSync(manifestFile) ? readJson(manifestFile) : { players: {}, files: {} };
-  const save = () => { fs.mkdirSync(OUT, { recursive: true }); fs.writeFileSync(manifestFile, JSON.stringify(manifest)); };
+  // 저장: 다른 창(동시에 돌리는 수집 · 게임에서 고른 사진)이 바꾼 내용을 지우지 않게 디스크의 최신 목록과 합쳐서 저장
+  const save = () => {
+    fs.mkdirSync(OUT, { recursive: true });
+    const disk = fs.existsSync(manifestFile) ? readJson(manifestFile) : { players: {}, files: {} };
+    for (const [k, v] of Object.entries(manifest.files)) disk.files[k] ??= v;
+    for (const [id, e] of Object.entries(manifest.players)) {
+      const d = (disk.players[id] ??= { seasons: {} });
+      for (const [s, k] of Object.entries(e.seasons ?? {})) if (!d.picked?.[s] && !d.seasons[s]) d.seasons[s] = k;   // 이미 있는 (직접 고른 · 다른 창이 찾은) 사진은 그대로
+      if (e.cands) d.cands = { ...e.cands, ...(d.cands ?? {}) };
+      if (!d.default && e.default) d.default = e.default;
+    }
+    const tmp = manifestFile + '.' + process.pid + '.tmp';
+    fs.writeFileSync(tmp, JSON.stringify(disk));
+    fs.renameSync(tmp, manifestFile);
+    Object.assign(manifest, disk);
+  };
 
   // 1) 위키데이터: 대표 사진 · 공용 분류 (200명씩)
   const info = new Map();
@@ -238,9 +255,10 @@ async function photos({ club, season, limit, log }) {
     // 시즌별: 그 시즌에 찍힌 사진 중 이 선수 얼굴이 크고 선명한 사진. 기본 점수 (그 시즌 구단 경기 사진 · 유명한 사진) 를 더한다
     for (const s of a0.seasons) {
       if (entry.picked?.[s]) continue;   // 직접 고른 사진은 그대로
+      if (entry.seasons[s] && !process.env.PHOTO_REDO) continue;   // 이미 찾은 시즌은 건너뜀 (중간에 멈춰도 이어서) · 다시 고르려면 PHOTO_REDO=1
       const [a, b] = seasonWindow(s);
       const inSeason = pool.filter((c) => { const d = photoDate(c.extmetadata); return d && d >= a && d <= b; })
-        .map((c) => ({ c, sc: score(c, a0.clubs[s]) })).sort((x, y) => y.sc - x.sc).slice(0, 16);
+        .map((c) => ({ c, sc: score(c, a0.clubs[s]) })).sort((x, y) => y.sc - x.sc).slice(0, 8);   // 후보 8장까지만 받아 얼굴 분석 (속도)
       const ok = [];
       for (const x of inSeason) {
         const an = await facesOf(x.c);

@@ -1,4 +1,5 @@
 // 이적 엔진: 몸값 · 이적시장 기간 · 영입 제안 판단 · 계약 · AI 구단 이적
+import { ROLE_JOIN, type Role } from './roles';
 import { transferFactor } from './gameSettings';
 import type { GameEvent, PlayerState, TransferOffer, World } from './types';
 import type { Rng } from './rng';
@@ -131,7 +132,7 @@ export function wageDemand(w: World, p: PlayerState): number {
   return Math.max(500, Math.round(base / 500) * 500);
 }
 
-export const wageBill = (w: World, clubId: string) => w.clubs[clubId].squad.reduce((s, id) => s + w.players[id].wage, 0);
+export const wageBill = (w: World, clubId: string) => { const c = w.clubs[clubId]; let s = 0; for (const id of c.squad) { const p = w.players[id]; s += p.loan ? p.wage * p.loan.share : p.wage; } for (const id of c.loanedOut ?? []) { const p = w.players[id]; if (p?.loan) s += p.wage * (1 - p.loan.share); } return Math.round(s); };
 /** 주급 예산에서 남은 여유 (음수면 이미 초과) */
 /** 주급 여유 (주): 주급 예산과 재정 규정(샐러리 캡) 중 더 좁은 쪽 */
 export const wageRoom = (w: World, clubId: string) => Math.min(w.clubs[clubId].finance.wageBudget * WAGE_SLACK - wageBill(w, clubId), ruleWageRoom(w, clubId));
@@ -160,6 +161,7 @@ export function askingPrice(w: World, p: PlayerState): number {
 /** 파는 구단의 판단 */
 export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number): BidResult {
   if (!p.clubId) return { decision: 'accept', ask: 0, reason: '자유계약 선수' };
+  if (p.loan) return { decision: 'reject', ask: 0, reason: '임대 중인 선수라 지금은 이적할 수 없습니다' };
   const seller = w.clubs[p.clubId];
   // 태업하며 이 구단을 지목한 선수: 단계마다 10% 싸게, 핵심 선수 규칙 없이
   const forcing = p.saga?.kind === 'move' && p.saga.target === buyer && p.saga.club === p.clubId ? p.saga.stage : 0;
@@ -174,7 +176,7 @@ export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number
 }
 
 /** 선수가 이 구단으로 오겠는지 */
-export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number): { ok: boolean; reason: string; low?: boolean } {
+export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number, role?: Role): { ok: boolean; reason: string; low?: boolean } {
   const demand = wageDemand(w, p);
   if (wage < demand * 0.9) return { ok: false, low: true, reason: `원하는 주급보다 낮습니다. 주급 ${Math.round(demand / 1000)}K 유로 정도를 원합니다` };
   const buyerRep = w.clubs[buyer].reputation;
@@ -184,6 +186,7 @@ export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: nu
   if (p.unhappy) score += 1;
   if (p.saga?.kind === 'move' && p.saga.target === buyer) score += 3;   // 가고 싶다고 지목한 구단
   if (buyer === w.userClubId) score += transferFactor(w).will;   // 설정: 이적 협상 난이도
+  if (role) score += ROLE_JOIN[role];   // 약속한 역할: 높을수록 오려고 한다
   // 구단이 이적 명단에 올린 선수는 "팀에서 원하지 않는다"고 느껴 작은 구단 이적도 받아들이기 쉽다
   if ((w.transferList ?? []).includes(p.id)) score += 1.5;
   if (!p.clubId) score += 1.5;
@@ -213,6 +216,7 @@ export function breakTalks(w: World, playerId: string) {
 // ── 이적 실행 ────────────────────────────────────────
 export function completeTransfer(w: World, p: PlayerState, to: string, fee: number, wage: number, years: number): GameEvent {
   const from = p.clubId;
+  p.role = undefined;   // 새 구단에서 역할은 새로 (사용자는 계약 때 약속)
   if (from) {
     const s = w.clubs[from];
     s.squad = s.squad.filter((id) => id !== p.id);
@@ -282,6 +286,7 @@ function userOffers(w: World, rng: Rng, active: World['clubs'][string][]) {
   const listed = new Set(w.transferList ?? []);
   for (const id of w.clubs[w.userClubId].squad) {
     const p = w.players[id];
+    if (p.loan) continue;   // 빌려 온 선수에게는 제안이 오지 않는다
     const onList = listed.has(id);
     if (!rng.chance(onList ? 0.18 : 0.006)) continue;
     if (offers.filter((o) => o.player === id).length >= 3) continue;

@@ -28,6 +28,7 @@ export function Sidebar() {
   const save = useGame((s) => s.save);
   const [saveOpen, setSaveOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const exportFile = useGame((g) => g.exportFile);
   const unreadInjuries = club.squad.filter((id) => w.players[id].injury).length;
   return (
     <aside className="flex w-60 shrink-0 flex-col border-r border-line bg-ink-900">
@@ -63,7 +64,11 @@ export function Sidebar() {
           <div className="panel absolute bottom-full left-3 z-40 mb-2 w-[340px] overflow-hidden">
             <div className="flex items-center justify-between border-b border-line px-5 py-3"><span className="text-[13px] font-semibold">저장하기</span><button onClick={() => setSaveOpen(false)} className="text-[12px] text-lo hover:text-hi">닫기</button></div>
             <SaveSlots mode="save" onPick={async (slot) => { await save(slot); }} />
-            <div className="border-t border-line px-5 py-2 text-[12px] text-lo">진행할 때마다 자동 저장도 됩니다</div>
+            <div className="flex items-center justify-between border-t border-line px-5 py-2.5 text-[12px] text-lo">
+              <span>내 PC에 파일로 보관 (.pitchboss)</span>
+              <button onClick={() => void exportFile()} className="h-7 rounded-md bg-ink-700 px-2.5 text-[12px] font-semibold text-hi hover:bg-ink-750">파일로 내보내기</button>
+            </div>
+            <div className="border-t border-line px-5 py-2 text-[12px] text-lo">진행할 때마다 자동 저장도 됩니다 (브라우저 안)</div>
           </div>
         )}
         <button onClick={() => setSaveOpen((v) => !v)}

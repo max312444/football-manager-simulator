@@ -1,0 +1,44 @@
+# GitHub Pages 배포: master 에 푸시하면 게임을 빌드해서 올린다
+#  - 공개 데이터(data-public, 패러디 이름)만 들어간다. 실명 데이터(data/)는 저장소에 없고, PUBLIC_ONLY=1 로 빌드에서도 막는다
+#  - 처음 한 번: 저장소 Settings → Pages → Source 를 'GitHub Actions' 로
+name: deploy
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: game/package-lock.json
+      - run: npm ci
+        working-directory: game
+      - run: npm run build
+        working-directory: game
+        env:
+          PUBLIC_ONLY: '1'
+          BASE: /pitch-boss/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: game/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

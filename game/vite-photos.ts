@@ -37,6 +37,20 @@ export function photosPlugin(dataDir: string, toolsDir: string): Plugin {
   const mfFile = path.join(root, 'manifest.json');
   const readMf = () => (fs.existsSync(mfFile) ? JSON.parse(fs.readFileSync(mfFile, 'utf8')) : { players: {}, files: {} });
   const writeMf = (m: unknown) => { fs.mkdirSync(root, { recursive: true }); fs.writeFileSync(mfFile, JSON.stringify(m)); };
+  // 공개 데이터 (패러디 이름) 의 선수 ID ↔ 실명 ID (data/canonical/public-map.json, 내 PC 에만): 사진은 실명 ID 로 저장하고 공개 ID 로도 보이게
+  let pubMap: { at: number; toPub: Record<string, string>; toReal: Map<string, string> } | null = null;
+  const publicMap = () => {
+    const file = path.join(dataDir, 'canonical', 'public-map.json');
+    if (!fs.existsSync(file)) return null;
+    const at = fs.statSync(file).mtimeMs;
+    if (!pubMap || pubMap.at !== at) {
+      const toPub: Record<string, string> = JSON.parse(fs.readFileSync(file, 'utf8')).players ?? {};
+      pubMap = { at, toPub, toReal: new Map(Object.entries(toPub).map(([r, p]) => [p, r])) };
+    }
+    return pubMap;
+  };
+  /** 공개 ID 로 온 요청은 실명 ID 로 바꿔 저장 */
+  const realId = (id: string) => publicMap()?.toReal.get(id) ?? id;
   const valid = (player: unknown, season: unknown) => typeof player === 'string' && /^[a-z0-9-]+$/.test(player) && typeof season === 'string' && /^\d{4}-\d{2}$/.test(season);
 
   // 얼굴 분석기 (도구가 설치돼 있으면, 처음 쓸 때 크롬을 띄우고 계속 씀)
@@ -85,7 +99,7 @@ export function photosPlugin(dataDir: string, toolsDir: string): Plugin {
         const key = crypto.createHash('sha1').update(c.title).digest('hex').slice(0, 16);
         if (!fs.existsSync(path.join(root, 'files', `${key}.jpg`))) saveFile(await fetchImage(c.src!), key, 'jpg');
         const m = readMf();
-        const e = (m.players[player as string] ??= { seasons: {} });
+        const e = (m.players[realId(player as string)] ??= { seasons: {} });
         e.seasons[season as string] = key;
         (e.picked ??= {})[season as string] = true;
         m.files[key] = { title: c.title, author: c.author, license: c.license, date: c.date, url: c.url, w: c.w, h: c.h, face: c.face };
@@ -104,7 +118,7 @@ export function photosPlugin(dataDir: string, toolsDir: string): Plugin {
         saveFile(b, key, ext);
         const meta = await faceOf(b);
         const m = readMf();
-        const e = (m.players[player as string] ??= { seasons: {} });
+        const e = (m.players[realId(player as string)] ??= { seasons: {} });
         e.seasons[season as string] = key;
         (e.picked ??= {})[season as string] = true;
         m.files[key] = { title: '직접 넣은 사진', author: '', license: '', date: null, url: typeof url === 'string' ? url : '', user: true, ext, ...meta };
@@ -114,7 +128,7 @@ export function photosPlugin(dataDir: string, toolsDir: string): Plugin {
       server.middlewares.use('/photos/remove', post(async ({ player, season }) => {
         if (!valid(player, season)) throw new Error('잘못된 요청');
         const m = readMf();
-        const e = (m.players[player as string] ??= { seasons: {} });
+        const e = (m.players[realId(player as string)] ??= { seasons: {} });
         delete e.seasons[season as string];
         (e.picked ??= {})[season as string] = true;   // 다시 수집해도 채우지 않음
         writeMf(m);
@@ -128,6 +142,15 @@ export function photosPlugin(dataDir: string, toolsDir: string): Plugin {
           return next();
         }
         const ext = path.extname(file).slice(1);
+        if (rel === 'manifest.json') {
+          // 공개 데이터에서도 같은 사진: 실명 ID 항목을 공개 ID 로도 붙여 보낸다
+          const m = JSON.parse(fs.readFileSync(file, 'utf8'));
+          const map = publicMap();
+          if (map) for (const [id, e] of Object.entries(m.players ?? {})) { const p = map.toPub[id]; if (p && !m.players[p]) m.players[p] = e; }
+          res.setHeader('Content-Type', 'application/json');
+          res.setHeader('Cache-Control', 'no-store');
+          return res.end(JSON.stringify(m));
+        }
         res.setHeader('Content-Type', TYPES[ext] ?? 'application/octet-stream');
         res.setHeader('Cache-Control', ext === 'json' ? 'no-store' : 'max-age=86400');
         fs.createReadStream(file).pipe(res);

@@ -32,6 +32,7 @@ const listeners = new Set<(m: Manifest | null) => void>();
 /** 사진 목록 불러오기 (5분마다 · force 면 바로 새로). 개발 서버가 없으면 null (사진 기능 없음) */
 export function loadPhotos(force = false): Promise<Manifest | null> {
   if (!force && manifest && Date.now() - loadedAt < 5 * 60e3) return Promise.resolve(manifest);
+  if (import.meta.env.PROD) return Promise.resolve(null);   // 배포판에는 사진 기능 없음 (개발 서버 전용)
   loading ??= fetch('/photos/manifest.json', { cache: 'no-store' })
     .then((r) => (r.ok && r.headers.get('content-type')?.includes('json') ? r.json() : null))
     .then((m: Manifest | null) => { manifest = m ?? manifest; loadedAt = Date.now(); listeners.forEach((l) => l(manifest)); return manifest; })

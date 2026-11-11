@@ -1,10 +1,12 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { listSaves, type SaveMeta } from '../../store/save';
 import { SaveSlots } from '../components/SaveSlots';
 import { NoticeDialog, noticeSeen } from '../components/NoticeDialog';
 import { PitchArt } from '../components/PitchArt';
 import { DatabaseDialog } from '../components/DatabaseDialog';
 import { SettingsDialog } from '../components/SettingsDialog';
+import { HallOfFame } from '../components/HallOfFame';
+import { IntroScreen, introSeen } from '../components/IntroScreen';
 import { useApp } from '../../store/app';
 import { useGame } from '../../store/game';
 import { availableSeasons, leagues } from '../../data/db';
@@ -21,6 +23,11 @@ export function TitleScreen() {
   const [loadOpen, setLoadOpen] = useState(false);
   const [dbOpen, setDbOpen] = useState(false);
   const [setOpen, setSetOpen] = useState(false);
+  const [hallOpen, setHallOpen] = useState(false);
+  const importFile = useGame((s) => s.importFile);
+  const fileRef = useRef<HTMLInputElement>(null);
+  // 인트로: 브라우저를 켜고 처음 들어오면 한 번 (끝나면 고지가 이어서)
+  const [intro, setIntro] = useState(() => !introSeen());
   // 안내: 새 게임을 처음 시작할 때 한 번 (또는 '고지 보기')
   // 처음 실행하면 바로 안내 팝업 (확인하면 다음부터는 안 뜸, '고지 보기'로 다시 볼 수 있음)
   const [notice, setNotice] = useState<null | 'start' | 'view' | 'first'>(() => (noticeSeen() ? null : 'first'));
@@ -37,7 +44,8 @@ export function TitleScreen() {
   const items: MenuItem[] = [
     { key: 'new', label: '새 게임', desc: '시즌과 리그, 구단을 골라 감독 커리어를 시작합니다', action: () => (noticeSeen() ? go('newgame') : setNotice('start')) },
     { key: 'continue', label: '이어하기', desc: hasWorld ? '진행 중인 게임으로 돌아갑니다' : latest ? `가장 최근 저장 · ${latest.season.replace('-', '/')} ${latest.date.slice(5).replace('-', '.')}` : '저장된 게임이 없습니다', disabled: !hasWorld && !latest, action: () => void resume() },
-    { key: 'load', label: '불러오기', desc: '저장 슬롯에서 게임을 불러옵니다', disabled: !saves.length, action: () => setLoadOpen(true) },
+    { key: 'load', label: '불러오기', desc: '저장 슬롯 또는 내 PC의 저장 파일(.pitchboss)에서 불러옵니다', action: () => setLoadOpen(true) },
+    { key: 'hall', label: '명예의 전당', desc: '이 PC에서 지휘한 감독 커리어 순위', action: () => setHallOpen(true) },
     { key: 'db', label: '데이터베이스', desc: '실명 데이터 · 선수 사진 넣기 / 빼기 · 수록 데이터', action: () => setDbOpen(true) },
     { key: 'settings', label: '설정', desc: '진행 방식 · 팝업 · 난이도 · 경기 · 저장 · 화면', action: () => setSetOpen(true) },
   ];
@@ -123,10 +131,15 @@ export function TitleScreen() {
         <button onClick={() => setNotice('view')} className="mt-4 self-start text-[11px] text-lo transition-colors hover:text-mid">비공식 팬 프로젝트 · 고지 보기</button>
       </div>
 
-      {notice && <NoticeDialog confirmLabel={notice === 'start' ? '확인하고 시작' : notice === 'first' ? '확인' : '닫기'} onClose={() => { const n = notice; setNotice(null); if (n === 'start') go('newgame'); }} />}
+      {intro && <IntroScreen onClose={() => setIntro(false)} />}
+      {!intro && (
+        <button onClick={() => setIntro(true)} className="absolute right-8 bottom-6 z-10 text-[11px] text-lo transition-colors hover:text-mid">인트로 다시 보기</button>
+      )}
+      {notice && !intro && <NoticeDialog confirmLabel={notice === 'start' ? '확인하고 시작' : notice === 'first' ? '확인' : '닫기'} onClose={() => { const n = notice; setNotice(null); if (n === 'start') go('newgame'); }} />}
 
       {dbOpen && <DatabaseDialog onClose={() => setDbOpen(false)} />}
       {setOpen && <SettingsDialog onClose={() => setSetOpen(false)} />}
+      {hallOpen && <HallOfFame onClose={() => setHallOpen(false)} />}
 
       {loadOpen && (
         <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-8 backdrop-blur-sm" onClick={() => setLoadOpen(false)}>
@@ -136,6 +149,11 @@ export function TitleScreen() {
               <button onClick={() => setLoadOpen(false)} className="text-[13px] text-lo hover:text-hi">닫기</button>
             </header>
             <SaveSlots mode="load" onPick={async (slot) => { if (await load(slot)) go('hub'); }} />
+            <div className="flex items-center justify-between border-t border-line px-6 py-3">
+              <span className="text-[12px] text-lo">내 PC에 저장한 파일 (.pitchboss)</span>
+              <button onClick={() => fileRef.current?.click()} className="h-8 rounded-lg bg-ink-700 px-3 text-[12px] font-semibold hover:bg-ink-750">파일에서 불러오기</button>
+              <input ref={fileRef} type="file" accept=".pitchboss,.json,.gz" className="hidden" onChange={async (e) => { const f = e.target.files?.[0]; e.target.value = ''; if (f && await importFile(f)) go('hub'); }} />
+            </div>
             {loadError && <p className="border-t border-line px-6 py-3 text-[13px] text-amber">{loadError}</p>}
           </div>
         </div>

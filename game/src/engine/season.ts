@@ -7,6 +7,8 @@
 //  - 데이터가 끝난 뒤(2026/27~): 나이에 따른 성장 · 노화 엔진
 //  - 강등 · 승격: 실제 다음 시즌에 새로 올라온 구단 수만큼 게임 순위 하위 구단을 내린다
 //    (2부 리그는 아직 없음 → 사용자 구단이 강등권이면 잔류 처리하고 그 위 구단을 내림)
+import { coachSeasonEnd } from './coaches';
+import { endLoans } from './loan';
 import type { AttrKey } from '../data/types';
 import type { ClubState, PlayerState, RetireNews, SeasonRecord, World } from './types';
 import type { SeasonInput } from './world';
@@ -89,6 +91,7 @@ export function closeSeason(w: World): SeasonRecord[] {
   w.history.push(...recs);
   const mres = managerSeasonEnd(w, recs);   // 감독: 신뢰도 · 명성 (시즌 끝에 경질 판정)
   if (mres) fansSeasonEnd(w, mres);         // 팬 여론 · 우승 보너스 예약
+  w.inbox.push(...coachSeasonEnd(w, recs, createRng((w.rng ^ 0xc0ac) >>> 0)).filter((e) => e.type === 'coach' && e.news));   // AI 구단 감독 교체
   return recs;
 }
 
@@ -120,6 +123,7 @@ const retireChance = (age: number, ovrish: number) => (age < 33 ? 0 : age < 35 ?
 export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   // 월드컵이 있었으면 경기용 대표팀 구단 · 가상 선수 정리 (기록은 worldCupHistory)
   clearWorldCup(w);
+  w.inbox.push(...endLoans(w).filter((e) => e.type === 'loan' && e.user));   // 임대 종료: 복귀 · 완전 영입 옵션
   const rng = createRng(w.rng ^ 0x5eed);
   const from = w.season, to = next.season;
   const startDate = seasonStart(to);

@@ -99,6 +99,10 @@ export interface PlayerState {
   ko?: string;
   /** 언론 플레이 (연봉 인상 요구 · 이적 요청 → 태업), saga.ts */
   saga?: import('./saga').Saga;
+  /** 임대 (빌린 구단에서 뛰는 중, 원소속 · 기간 · 주급 분담), loan.ts */
+  loan?: import('./loan').Loan;
+  /** 약속한 역할 (내 구단, 없으면 선수단 순위로), roles.ts */
+  role?: import('./roles').Role;
   /** 논란 횟수 · 마지막 논란 (scandal.ts) */
   scandals?: number;
   lastScandal?: { kind: import('./scandal').ScandalKind; date: string };
@@ -127,6 +131,10 @@ export interface ClubState {
   training?: import('./training').Training;
   /** 이번 시즌 선수 판매 수입 (재정 규정 한도에 더해짐, 시즌마다 초기화) */
   sales?: number;
+  /** 임대 보낸 선수 (주급 분담 계산용) */
+  loanedOut?: string[];
+  /** AI 구단 감독 신뢰도 (coaches.ts) */
+  coach?: import('./coaches').Coach;
   /** 시설 수준 1~5 (훈련장 · 유스) · 경기장 수용 인원 (데이터, 시즌마다 갱신) */
   facilities?: { training: number; youth: number };
   /** 시설 공사 중 · 투자로 올린 단계 (다음 시즌 데이터보다 낮아지지 않음) */
@@ -188,6 +196,10 @@ export type GameEvent =
   | { type: 'seasonEnd'; date: string; league: string; champion: string }
   | { type: 'info'; date: string; text: string }
   /** 감독: 제안 · 재계약 · 경질 · 이동 · 따라오는 선수 */
+  /** AI 구단 감독 교체 (season: 시즌 중 경질 · end: 시즌 끝 교체), news = 받은편지함에 남길 만한 소식 */
+  | { type: 'coach'; date: string; club: string; when: 'season' | 'end'; news: boolean }
+  /** 임대: 시작 · 복귀 · 완전 영입 */
+  | { type: 'loan'; date: string; player: string; from: string; to: string; kind: 'start' | 'return' | 'bought'; share?: number; fee?: number; user: boolean }
   /** 선수 언론 플레이: 시작 · 커짐 · 해결 */
   | { type: 'saga'; date: string; player: string; kind: import('./saga').SagaKind; stage: number; step: 'start' | 'escalate' | 'resolved' | 'forced' | 'wantsUs'; target?: string; from?: string; fee?: number }
   /** 선수 논란 (게임이 만든 가벼운 논란) */
@@ -296,6 +308,8 @@ export interface World {
   settings?: import('./gameSettings').GameSettings;
   /** 대응을 기다리는 선수 사가 (선수 ID) */
   sagaPrompt?: string;
+  /** 감독 커리어 ID (명예의 전당 기록, store/careers.ts) */
+  careerId?: string;
   /** 대응을 기다리는 선수 논란 · 마지막 논란 날짜 */
   scandalPrompt?: import('./scandal').Scandal;
   lastScandal?: string;

@@ -3,6 +3,7 @@
 //  - 뛸 수 있는데 못 나가면: 1~2경기는 유지, 연속 벤치가 길어질수록 점점 크게 ↓
 //  - 부상 · 징계(· 나중에 국가대표 차출)로 빠진 경기는 계산하지 않는다
 //  - 야망이 큰 선수일수록 벤치에 더 민감, 충성도가 낮아지면 사기도 떨어진다
+import { ROLE_EXPECT, ROLE_KO, ROLE_PROMISE, roleOf } from './roles';
 import type { PlayerState, World } from './types';
 import { traitMul } from './traits';
 
@@ -42,6 +43,7 @@ export function expectations(w: World, clubId: string): Map<string, number> {
 export function updatePlaytime(w: World, clubs: string[], minutes: Record<string, number>, startedIds: Set<string>) {
   for (const clubId of clubs) {
     const expect = expectations(w, clubId);
+    const mine = clubId === w.userClubId;
     for (const id of w.clubs[clubId].squad) {
       const p = w.players[id];
       const played = (minutes[id] ?? 0) > 0;
@@ -55,14 +57,18 @@ export function updatePlaytime(w: World, clubs: string[], minutes: Record<string
         if (p.injury || p.suspension > 0) continue;
         p.benchStreak += 1;
         const ambition = 0.6 + p.hidden.ambition / 25;           // 0.64 ~ 1.4
-        p.loyalty = clamp(p.loyalty - benchPenalty(p.benchStreak) * ambition * (expect.get(id) ?? 0.5) * traitMul(p, 'bench'));
-        if (p.benchStreak >= 4 && (expect.get(id) ?? 0) >= 0.7) p.morale = Math.max(0, p.morale - 1);
+        // 내 구단: 약속한 역할의 출전 기대치 × 약속 배율 (핵심 · 주전은 더 민감, 로테이션 · 백업은 덜)
+        const role = mine ? roleOf(w, p) : null;
+        const exp = role ? ROLE_EXPECT[role] * (p.role ? ROLE_PROMISE[role] : 1) : expect.get(id) ?? 0.5;
+        p.loyalty = clamp(p.loyalty - benchPenalty(p.benchStreak) * ambition * exp * traitMul(p, 'bench'));
+        if (p.benchStreak >= 4 && exp >= 0.7) p.morale = Math.max(0, p.morale - 1);
       }
       // 불만 알림 (사용자 구단, 한 번만) · 회복되면 다시 알릴 수 있게 해제
       if (clubId === w.userClubId) {
         if (p.loyalty < UNHAPPY && !p.unhappy) {
           p.unhappy = true;
-          w.inbox.push({ type: 'info', date: w.date, text: `${p.name} — 출전 시간이 부족하다며 불만을 드러냈습니다 (연속 ${p.benchStreak}경기 결장)` });
+          const r = roleOf(w, p);
+          w.inbox.push({ type: 'info', date: w.date, text: `${p.name} — ${p.role && (r === 'key' || r === 'regular') ? `'${ROLE_KO[r]}'로 약속받았는데 ` : ''}출전 시간이 부족하다며 불만을 드러냈습니다 (연속 ${p.benchStreak}경기 결장)` });
         } else if (p.loyalty >= UNHAPPY + 10 && p.unhappy) {
           p.unhappy = false;
         }

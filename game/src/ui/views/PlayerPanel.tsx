@@ -1,4 +1,5 @@
 import { sagaSummary } from '../../engine/saga';
+import { ROLE_HINT, ROLE_KO, ROLES, roleOf, type Role } from '../../engine/roles';
 import { useGame } from '../../store/game';
 import { PhotoCredit, PlayerPhoto } from '../components/PlayerPhoto';
 import type { PlayerState, World } from '../../engine/types';
@@ -128,6 +129,7 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
           </div>
         </div>
         <SagaBadge p={p} />
+        <RoleRow p={p} />
         <div className="mt-4 flex items-center justify-between rounded-lg bg-ink-900 px-3 py-3">
           <div className="flex items-center gap-2 text-[12px] text-mid"><ConditionIcon value={p.condition} />컨디션</div>
           <FitnessBar value={p.fitness} />
@@ -215,6 +217,23 @@ function SagaBadge({ p }: { p: PlayerState }) {
     <div className={`mt-3 flex items-center gap-2 rounded-lg px-3 py-2 text-[12px] ${hot ? 'bg-red/10 text-red' : 'bg-amber/10 text-amber'}`}>
       <span className="min-w-0 flex-1 truncate font-semibold">{t}</span>
       {p.clubId === w.userClubId && <button onClick={() => open(p.id)} className="shrink-0 rounded-md px-2 py-0.5 ring-1 ring-current hover:bg-white/5">대응</button>}
+    </div>
+  );
+}
+
+/** 역할 (내 선수): 약속한 출전 기대치 · 바꾸기 */
+function RoleRow({ p }: { p: PlayerState }) {
+  const w = useWorld();
+  const setRole = useGame((s) => s.setRole);
+  if (p.clubId !== w.userClubId) return null;
+  const r = roleOf(w, p);
+  return (
+    <div className="mt-3 flex items-center gap-2 rounded-lg bg-ink-900 px-3 py-2 text-[12px]">
+      <span className="text-lo">역할</span>
+      <select value={r} onChange={(e) => setRole(p.id, e.target.value as Role)} className="h-7 rounded-md border border-line bg-ink-850 px-2 text-hi">
+        {ROLES.map((x) => <option key={x} value={x}>{ROLE_KO[x]}</option>)}
+      </select>
+      <span className="min-w-0 flex-1 truncate text-lo" title="올려 주면 사기 +, 내리면 사기 · 충성도 −">{ROLE_HINT[r]}{p.role ? ' · 약속함' : ' · 자동'}</span>
     </div>
   );
 }

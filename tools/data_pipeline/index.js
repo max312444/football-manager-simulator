@@ -8,7 +8,9 @@
 //   node tools/data_pipeline dedupe [--apply]    같은 시즌 중복 소속 정리
 //   node tools/data_pipeline worldcups [--apply]   월드컵 참가국 · 조 (위키백과 squads 문서)
 //   node tools/data_pipeline standings [--league esp1] [--season 2019-20] [--apply]   실제 최종 순위 (위키백과 순위표)
-//   node tools/data_pipeline photos [--club liverpool] [--season 2025-26] [--limit 100]   선수 사진 (위키미디어 공용, 개인 보관용 · Git 제외)
+//   node tools/data_pipeline photos [--club liverpool] [--season 2025-26] [--league eng1,esp1] [--limit 100]   선수 사진 (위키미디어 공용, 개인 보관용 · Git 제외)
+//   node tools/data_pipeline photos-ids [--season 2025-26] [--league eng1] [--club liverpool]   사진 넣을 선수 ID 목록 (CSV)
+//   node tools/data_pipeline photos-import   data/photos/inbox/<선수ID>/<시즌>.jpg 사진 가져오기
 //   node tools/data_pipeline economy [--season 2024-25] [--apply]   구단 재정 · 명성 · 주급 다시 맞추기 (Money League 실제 매출 + 추정)
 //   node tools/data_pipeline publish [--apply]   공개용 패러디 데이터(data-public/) 만들기
 //   node tools/data_pipeline rename-club <바꿀 구단 ID> <고정 구단 ID> [--apply]
@@ -144,7 +146,9 @@ function report(league, { t0, summary } = {}) {
   if (cmd === 'unify-names') return unifyNames({ apply: args.includes('--apply'), log });
   if (cmd === 'worldcups') return require('./steps/worldcups').worldcups({ apply: args.includes('--apply'), log });
   if (cmd === 'standings') return require('./steps/standings').standings({ apply: args.includes('--apply'), leagueFilter: typeof opt('league') === 'string' ? opt('league') : undefined, seasonFilter: typeof opt('season') === 'string' ? opt('season') : undefined, log });
-  if (cmd === 'photos') return require('./steps/photos').photos({ club: typeof opt('club') === 'string' ? opt('club') : undefined, season: typeof opt('season') === 'string' ? opt('season') : undefined, limit: typeof opt('limit') === 'string' ? +opt('limit') : undefined, log });
+  if (cmd === 'photos') return require('./steps/photos').photos({ club: typeof opt('club') === 'string' ? opt('club') : undefined, league: typeof opt('league') === 'string' ? opt('league') : undefined, season: typeof opt('season') === 'string' ? opt('season') : undefined, limit: typeof opt('limit') === 'string' ? +opt('limit') : undefined, log });
+  if (cmd === 'photos-ids') return require('./steps/photoImport').photoIds({ season: typeof opt('season') === 'string' ? opt('season') : undefined, league: typeof opt('league') === 'string' ? opt('league') : undefined, club: typeof opt('club') === 'string' ? opt('club') : undefined, log });
+  if (cmd === 'photos-import') return require('./steps/photoImport').photoImport({ log });
   if (cmd === 'economy') return require('./steps/economy').economy({ apply: args.includes('--apply'), seasonFilter: typeof opt('season') === 'string' ? opt('season') : undefined, log });
   if (cmd === 'dedupe') return dedupe({ apply: args.includes('--apply'), log });
   if (cmd === 'publish') return publish({ apply: args.includes('--apply'), log });

@@ -71,7 +71,8 @@ export function clubRevenue(w: World, clubId: string): number {
 }
 /** 내 구단 연 매출 기준값 (화면 · 수상 보너스용) */
 export const revenueBase = (w: World) => ledgerOf(w).current.base;
-export const wageBillOf = (w: World, clubId: string) => w.clubs[clubId].squad.reduce((s, id) => s + w.players[id].wage, 0);
+/** 주급 합계: 빌린 선수는 분담 몫만, 임대 보낸 선수는 원소속 구단이 내는 나머지 몫 */
+export const wageBillOf = (w: World, clubId: string) => { const c = w.clubs[clubId]; let s = 0; for (const id of c.squad) { const p = w.players[id]; s += p.loan ? p.wage * p.loan.share : p.wage; } for (const id of c.loanedOut ?? []) { const p = w.players[id]; if (p?.loan) s += p.wage * (1 - p.loan.share); } return Math.round(s); };
 
 /** 경기하는 구단 (리그에 소속돼 일정이 있는 구단) */
 const playing = (w: World) => Object.values(w.clubs).filter((c) => w.competitions[c.league]);

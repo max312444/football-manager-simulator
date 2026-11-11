@@ -64,6 +64,14 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       if (e.result === 'start') return { tag: '월드컵', tone: 'text-sky', title: `${e.year} ${cup} 대표 선발 · 우리 선수 ${mine.length}명`, body: mine.join(', ') };
       return { tag: '월드컵', tone: 'text-[#f2c94c]', title: `${e.year} ${cup} 우승 · ${nationKo(e.nation)}`, body: [mine.length ? `우승 멤버: ${mine.join(', ')}` : '', e.scorer ? `득점왕 ${playerKo(e.scorer, e.text ?? '')}` : e.text ?? ''].filter(Boolean).join(' · ') };
     }
+    case 'coach':
+      return { tag: '감독', tone: 'text-mid', title: `${clubKo(e.club)} 감독 ${e.when === 'season' ? '경질' : '교체'}`, body: e.when === 'season' ? '성적 부진으로 경질 · 새 감독 부임 (전술 성향이 바뀝니다)' : '시즌을 마치고 새 감독 선임 (전술 성향이 바뀝니다)' };
+    case 'loan': {
+      const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
+      if (e.kind === 'start') return { tag: '임대', tone: 'text-sky', title: `${name} 임대 · ${clubKo(e.from)} → ${clubKo(e.to)}`, body: `이번 시즌 끝까지 · 주급 ${Math.round((e.share ?? 1) * 100)}% 부담${e.fee ? ` · 임대료 ${money(e.fee)}` : ''}` };
+      if (e.kind === 'bought') return { tag: '이적', tone: 'text-neon', title: `${name} 완전 영입 · ${clubKo(e.from)} → ${clubKo(e.to)}`, body: `완전 영입 옵션 ${money(e.fee ?? 0)}` };
+      return { tag: '임대', tone: 'text-mid', title: `${name} 임대 종료 · ${clubKo(e.to)} 복귀` };
+    }
     case 'scandal': {
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       return { tag: '논란', tone: 'text-red', title: `${name} · ${SCANDAL_TITLE[e.kind]}`, body: SCANDAL_KO[e.kind] };

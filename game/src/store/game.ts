@@ -1,12 +1,14 @@
 // 게임 진행 상태: 월드(엔진 상태) + 진행 중인 사용자 경기.
 // 엔진은 월드를 직접 수정하므로, 화면 갱신은 rev 숫자를 올려서 알린다.
+import { newCareerId, recordCareer } from './careers';
+import { changeRole, type Role } from '../engine/roles';
 import { create } from 'zustand';
 import type { Fixture, GameEvent, Side, Tactics, World } from '../engine/types';
 import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, type SeasonInput } from '../engine/world';
 import { playToEnd, setTactics, step, substitute, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
 import { seedTraits } from '../engine/traits';
-import { availableSeasons, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
+import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { fillContracts, seasonOver } from '../engine/world';
 import { recommend, type Recommendation } from '../engine/ai';
@@ -19,13 +21,14 @@ import { resolveBoardEvent } from '../engine/boardEvents';
 import { answerPress } from '../engine/press';
 import { sagaRespond, type SagaAction } from '../engine/saga';
 import { scandalRespond, type ScandalAction } from '../engine/scandal';
+import { evaluateLoan, exerciseBuy, loanMove, loanReturn, playerWillLoan, type LoanTerms } from '../engine/loan';
 import { breakTalks, cleanOffers, completeTransfer, counterOffer, offerValid, evaluateBid, MAX_TRIES, playerWillJoin, releasePlayer, talkBanned, talkOf, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
 import type { RetireNews, TransferOffer } from '../engine/types';
 import { applyRenewal, evaluateRenewal } from '../engine/contract';
 const addDaysIso = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
 import { matchRules, pickLineup } from '../engine/squad';
 import type { Mentality, Pressing } from '../engine/types';
-import { readSave, writeSave } from './save';
+import { exportSaveFile, readSave, readSaveFile, writeSave } from './save';
 import type { Ceremony } from '../ui/components/TransferCeremony';
 import type { Award } from '../engine/awards';
 
@@ -55,6 +58,7 @@ function bigMatch(w: World, f: Fixture): boolean {
 }
 
 function autosave(w: World, force = false) {
+  recordCareer(w);   // 명예의 전당 기록 (저장 간격과 상관없이)
   const every = useSettings.getState().s.autosave;
   if (!force) {
     if (every === 'off') return;
@@ -110,6 +114,9 @@ interface GameStore {
   dismissReport(): void;
   save(slot: string): Promise<void>;
   load(slot: string): Promise<boolean>;
+  /** 파일로 내보내기 · 파일에서 불러오기 (.pitchboss) */
+  exportFile(): Promise<void>;
+  importFile(file: File): Promise<boolean>;
   setLineup(starters: (string | null)[] | null, bench?: string[]): void;
   /** random: 완전 랜덤으로 고른 구단 → 첫 시즌만 예산 · 재정 규정 한도 보정 */
   newGame(season: string, league: string, clubId: string, opts?: { random?: boolean }): Promise<void>;
@@ -126,7 +133,9 @@ interface GameStore {
   /** 내 선수 재계약 제안 */
   renew(playerId: string, wage: number, years: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   /** 개인 계약 제안 (이적료는 합의된 금액, 자유계약은 0) */
-  sign(playerId: string, wage: number, years: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
+  sign(playerId: string, wage: number, years: number, role?: Role): { ok: boolean; reason: string; left?: number; broken?: boolean };
+  /** 내 선수 역할 바꾸기 */
+  setRole(playerId: string, role: Role): void;
   toggleShortlist(playerId: string): void;
   toggleTransferList(playerId: string): void;
   release(playerId: string): void;
@@ -158,6 +167,10 @@ interface GameStore {
   sagaOpen(playerId: string): void;
   /** 선수 논란 대응 */
   scandalRespond(action: ScandalAction): string;
+  /** 임대: 다른 구단 선수 빌려 오기 · 내 선수 보내기 · 완전 영입 옵션 행사 */
+  loanIn(playerId: string, terms: LoanTerms): { ok: boolean; msg: string };
+  loanOut(playerId: string, club: string, terms: LoanTerms): { ok: boolean; msg: string };
+  loanBuy(playerId: string): { ok: boolean; msg: string };
   closeMatch(): void;
   /** 킥오프 전 스쿼드 설정에서 홈으로 (경기는 그대로 남고, 계속을 누르면 다시 열림) */
   leaveMatch(): void;
@@ -197,6 +210,7 @@ export const useGame = create<GameStore>((set, get) => {
       const seed = (Date.now() ^ Math.floor(Math.random() * 1e9)) >>> 0;
       const world = createWorld(input, clubId, seed);
       world.dataset = dataset;
+      world.careerId = newCareerId();
       // 베테랑 · 스타 선수 시작 호칭 (실제 시즌 기록 기준)
       const hist = await loadHistory();
       if (hist) seedTraits(world, hist, createRng((seed ^ 0x7a17) >>> 0));
@@ -365,6 +379,43 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
       return r.text;
     },
+    loanIn(playerId, terms) {
+      const w = get().world!;
+      const p = w.players[playerId];
+      const c = evaluateLoan(w, p, w.userClubId, terms);
+      if (!c.ok) return { ok: false, msg: c.reason };
+      const pw = playerWillLoan(w, p, w.userClubId);
+      if (!pw.ok) return { ok: false, msg: pw.reason };
+      if (terms.fee > w.clubs[w.userClubId].finance.transferBudget) return { ok: false, msg: '이적 예산이 모자랍니다 (임대료)' };
+      if (Math.round(p.wage * terms.share) > wageRoom(w, w.userClubId)) return { ok: false, msg: '주급 여유가 모자랍니다' };
+      if (terms.fee) w.clubs[w.userClubId].finance.transferBudget -= terms.fee;
+      w.inbox.push(loanMove(w, p, w.userClubId, terms));
+      autosave(w); bump();
+      return { ok: true, msg: `${p.name} 임대 영입 · 이번 시즌 끝까지` };
+    },
+    loanOut(playerId, club, terms) {
+      const w = get().world!;
+      const p = w.players[playerId];
+      if (!windowOpen(w.season, w.date)) return { ok: false, msg: '이적시장이 닫혀 있습니다' };
+      if (p.loan) return { ok: false, msg: '빌려 온 선수는 다시 임대 보낼 수 없습니다' };
+      const pw = playerWillLoan(w, p, club);
+      if (!pw.ok) return { ok: false, msg: pw.reason };
+      w.inbox.push(loanMove(w, p, club, terms));
+      const c = w.clubs[w.userClubId];
+      if (c.lineup) c.lineup = { starters: c.lineup.starters.map((x) => (x === playerId ? null : x)), bench: c.lineup.bench.filter((x) => x !== playerId) };
+      autosave(w); bump();
+      return { ok: true, msg: '임대를 보냈습니다 · 시즌이 끝나면 돌아옵니다' };
+    },
+    loanBuy(playerId) {
+      const w = get().world!;
+      const p = w.players[playerId];
+      const fee = p.loan?.buy;
+      if (!fee || p.clubId !== w.userClubId) return { ok: false, msg: '완전 영입 옵션이 없습니다' };
+      if (fee > w.clubs[w.userClubId].finance.transferBudget) return { ok: false, msg: '이적 예산이 모자랍니다' };
+      w.inbox.push(...exerciseBuy(w, p));
+      autosave(w); bump();
+      return { ok: true, msg: '완전 영입 옵션을 행사했습니다' };
+    },
     scandalRespond(action) {
       const w = get().world;
       if (!w) return '';
@@ -460,7 +511,12 @@ export const useGame = create<GameStore>((set, get) => {
       return { ...r, left, broken: left <= 0 };
     },
 
-    sign(playerId, wage, years) {
+    setRole(playerId, role) {
+      const w = get().world!;
+      changeRole(w, w.players[playerId], role);
+      autosave(w); bump();
+    },
+    sign(playerId, wage, years, role) {
       const w = get().world!;
       const p = w.players[playerId];
       const ban = talkBanned(w, playerId);
@@ -475,7 +531,7 @@ export const useGame = create<GameStore>((set, get) => {
       // 재정 규정 (샐러리 캡): 주급 + 이적료 상각 (이적료 ÷ 계약 연수) — AI와 같은 규칙
       const rule = withinRules(w, w.userClubId, wage, fee, years);
       if (!rule.ok) return { ok: false, reason: rule.reason! };
-      const r = playerWillJoin(w, p, w.userClubId, wage);
+      const r = playerWillJoin(w, p, w.userClubId, wage, role);
       if (!r.ok) {
         // 주급이 낮으면 기회 1번 소모, 구단 자체가 싫다면 바로 결렬
         if (r.low) t.wage++;
@@ -487,6 +543,7 @@ export const useGame = create<GameStore>((set, get) => {
       }
       const from = p.clubId;
       const ev = completeTransfer(w, p, w.userClubId, fee, wage, years);
+      if (role) p.role = role;   // 약속한 역할
       w.inbox.push(ev);
       set({ ceremony: { player: p.id, playerName: p.name, from, to: w.userClubId, fee, wage, years, kind: 'in' } });
       autosave(w);
@@ -542,7 +599,8 @@ export const useGame = create<GameStore>((set, get) => {
 
     release(playerId) {
       const w = get().world!;
-      releasePlayer(w, w.players[playerId]);
+      // 빌려 온 선수는 방출 대신 원소속 구단으로 돌려보냄
+      if (w.players[playerId].loan) { const e = loanReturn(w, w.players[playerId]); if (e) w.inbox.push(e); } else releasePlayer(w, w.players[playerId]);
       const c = w.clubs[w.userClubId];
       if (c.lineup) c.lineup = { starters: c.lineup.starters.map((x) => (x === playerId ? null : x)), bench: c.lineup.bench.filter((x) => x !== playerId) };
       autosave(w);
@@ -602,6 +660,19 @@ export const useGame = create<GameStore>((set, get) => {
       set({ savedAt: meta.savedAt });
     },
 
+    async exportFile() {
+      const w = get().world;
+      if (!w) return;
+      recordCareer(w);
+      await exportSaveFile(w, clubKo(w.userClubId));
+    },
+    async importFile(file) {
+      try {
+        const world = await readSaveFile(file);
+        await writeSave('auto', world);   // 자동 저장 슬롯에 넣고 (데이터가 다르면 바꾼 뒤 이어서) 불러온다
+        return await get().load('auto');
+      } catch (e) { set({ loadError: e instanceof Error ? e.message : String(e) }); return false; }
+    },
     async load(slot) {
       const world = await readSave(slot);
       if (!world) return false;
@@ -619,6 +690,7 @@ export const useGame = create<GameStore>((set, get) => {
         return false;
       }
       set({ loadError: null });
+      world.careerId ??= newCareerId();
       fillContracts(world);
       registerGeneratedNames(world.players);   // 유스 선수 한국어 이름
       syncWorld(world);
