@@ -1,4 +1,5 @@
 import { GAME_VERSION } from '../../version';
+import { UpdateNotes } from '../components/UpdateNotes';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { listSaves, type SaveMeta } from '../../store/save';
 import { SaveSlots } from '../components/SaveSlots';
@@ -132,6 +133,7 @@ export function TitleScreen() {
         <button onClick={() => setNotice('view')} className="mt-4 self-start text-[11px] text-lo transition-colors hover:text-mid">비공식 팬 프로젝트 · 고지 보기</button>
       </div>
 
+      {!intro && <UpdateNotes />}
       {intro && <IntroScreen onClose={() => setIntro(false)} />}
       {!intro && (
         <button onClick={() => setIntro(true)} className="absolute right-8 bottom-6 z-10 text-[11px] text-lo transition-colors hover:text-mid">인트로 다시 보기</button>
