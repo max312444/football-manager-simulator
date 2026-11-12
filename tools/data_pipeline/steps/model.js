@@ -27,7 +27,7 @@ const LEGACY_WEIGHTS = { ...POSITION_WEIGHTS };
 // 스트라이커의 위치 선정(pos)은 게임에서 공격 위치 선정으로 쓰인다 → 예전 -20 은 스트라이커를 자기 자리에서 가장 낮게 만들었음 (2026-11 수정)
 POSITION_WEIGHTS.ST = { ...POSITION_WEIGHTS.ST, pos: 0 };
 // 측면 미드필더 · 윙백 (2026-11 추가)
-POSITION_WEIGHTS.LM = POSITION_WEIGHTS.RM = { sho: -6, pas: 2, dri: 3, tac: -10, pos: -8, aer: -12, pac: 5, sta: 5, str: -6, vis: 0, com: 0, ldr: -4 };
+POSITION_WEIGHTS.LM = POSITION_WEIGHTS.RM = { sho: -6, pas: 4, dri: 1, tac: -6, pos: -8, aer: -12, pac: 3, sta: 7, str: -6, vis: 1, com: 0, ldr: -4 };   // 측면 미드: 체력 · 패스 위주 (윙어보다 측면 미드 능력이 높게, 2026-11 조정)
 POSITION_WEIGHTS.LWB = POSITION_WEIGHTS.RWB = { sho: -15, pas: -1, dri: 0, tac: 0, pos: -2, aer: -8, pac: 6, sta: 6, str: -4, vis: -5, com: -2, ldr: -4 };
 /** 예전 빌드의 포지션 편차 (없는 포지션은 CM) */
 const deltaOf = (pos, k) => (LEGACY_WEIGHTS[pos] || LEGACY_WEIGHTS.CM)[k] ?? 0;

@@ -111,7 +111,8 @@ export function pickLineup(players: PlayerState[], formation: string, benchSize:
   const slots = FORMATIONS[formation] ?? FORMATIONS[DEFAULT_FORMATION];
   const pool = players.filter(available);
   const used = new Set<string>();
-  const score = (p: PlayerState, slot: Position) => slotRating(p, slot) * (p.fitness >= 85 ? 1 : 0.6 + 0.4 * (p.fitness / 85) ** 2);
+  // 주 포지션 선수 우선: 보조 · 다른 자리는 3% 낮게 (비슷하면 자기 자리 선수, 확실히 나으면 그대로 기용)
+  const score = (p: PlayerState, slot: Position) => slotRating(p, slot) * (slot === p.pos ? 1 : 0.97) * (p.fitness >= 85 ? 1 : 0.6 + 0.4 * (p.fitness / 85) ** 2);
 
   const order = slots.map((s, i) => ({ s, i })).sort((a, b) => FILL_ORDER.indexOf(a.s) - FILL_ORDER.indexOf(b.s));
   const starters: { id: string; slot: Position }[] = new Array(slots.length);
@@ -121,13 +122,17 @@ export function pickLineup(players: PlayerState[], formation: string, benchSize:
   });
   for (const { s, i } of order) {
     if (starters[i]) continue;
-    let best: PlayerState | null = null, bs = -1;
+    // 가장 나은 선수 · 그 자리가 주 포지션인 선수 중 가장 나은 선수. 주 포지션 선수가 7% 이내면 그 선수
+    // (예: 파비뉴(DM)를 CB에, 아놀드(RB)를 DM에 돌려 막지 않고 각자 자리에)
+    let best: PlayerState | null = null, bs = -1, own: PlayerState | null = null, os = -1;
     for (const p of pool) {
       if (used.has(p.id)) continue;
       const v = score(p, s);
       if (v > bs) { bs = v; best = p; }
+      if (p.pos === s && v > os) { os = v; own = p; }
     }
-    if (best) { used.add(best.id); starters[i] = { id: best.id, slot: s }; }
+    const pick = own && os >= bs * 0.93 ? own : best;
+    if (pick) { used.add(pick.id); starters[i] = { id: pick.id, slot: s }; }
   }
 
   // 후보: 골키퍼 1명 + 나머지는 능력순 (포지션이 겹치지 않게 조금 분산)

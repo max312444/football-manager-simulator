@@ -53,8 +53,8 @@ export function marketValue(w: World, p: PlayerState): number {
   const yl = yearsLeft(p, w.date);
   const contractF = !p.clubId ? 0 : !p.contract ? 0.6 : yl >= 3 ? 1 : yl >= 2 ? 0.85 : yl >= 1 ? 0.65 : 0.4;
   const league = p.clubId ? w.clubs[p.clubId]?.league ?? '' : '';
-  // 기준: 능력 70 · 전성기 · 계약 3년 이상 · 2025년 ≈ 300만 유로, 능력 1당 약 23%씩 오름 (능력 87 전성기 ≈ 1억 유로)
-  const v = 3.0e6 * 1.23 ** (ovr - 70) * ageF * contractF * era(w.season) * (LEAGUE_MULT[league] ?? 0.8) * performanceFactor(w, p);
+  // 기준: 능력 70 · 전성기 · 계약 3년 이상 · 2025년 ≈ 300만 유로, 능력 1당 약 23%씩 (85부터는 10%씩) 오름 (능력 88 전성기 ≈ 9천만 · 94 ≈ 1억 6천만 유로)
+  const v = 3.0e6 * 1.23 ** (Math.min(ovr, 85) - 70) * 1.1 ** Math.max(0, ovr - 85) * ageF * contractF * era(w.season) * (LEAGUE_MULT[league] ?? 0.8) * performanceFactor(w, p);
   return Math.round(v / 50000) * 50000;
 }
 

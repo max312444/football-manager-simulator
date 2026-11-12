@@ -51,6 +51,26 @@ def rating_at(attrs, pos):
     return sum(attrs.get(k, 50) * v for k, v in w.items()) / sum(w.values())
 
 
+FIELD_KEYS = ['sho', 'pas', 'dri', 'tac', 'pos', 'aer', 'pac', 'sta', 'str', 'vis', 'com']
+
+
+def rebalance(p):
+    """자리를 바꿨는데 다른 자리가 더 높으면: 실력(가장 높은 오버롤)은 그대로 두고 주 포지션이 가장 높게.
+    주 포지션 쪽 능력치를 올린 뒤(ensure_main_best) 모든 필드 능력치를 같은 만큼 내려 최고값을 원래대로 (부풀림 없음)"""
+    if p['pos'] == 'GK':
+        return False
+    best = max(rating_at(p['attrs'], x) for x in OUTFIELD)
+    if rating_at(p['attrs'], p['pos']) >= best - 0.05:
+        return False
+    ensure_main_best(p)
+    d = round(rating_at(p['attrs'], p['pos']) - best)
+    if d > 0:
+        for k in FIELD_KEYS:
+            if k in p['attrs']:
+                p['attrs'][k] = max(1, p['attrs'][k] - d)
+    return True
+
+
 def ensure_main_best(p):
     """주 포지션이 가장 높은 능력이 되도록, 주 포지션이 경쟁 자리보다 더 중요하게 쓰는 능력치만 1씩 올린다 (positionCheck.js 와 같은 규칙)"""
     if p['pos'] == 'GK':
@@ -285,7 +305,8 @@ def apply():
                 else: p.pop('alt', None)
             elif 'alt' in p:
                 p['alt'] = [x for x in p['alt'] if x != p['pos']] or p.pop('alt')
-            ensure_main_best(p)
+            # 능력치를 부풀리지 않는다: 다른 자리가 더 높을 때만 균형을 옮기고 최고값은 그대로 (rebalance)
+            rebalance(p)
             after = (p['pos'], list(p.get('alt', [])), dict(p['attrs']))
             if after == before:
                 n['same'] += 1

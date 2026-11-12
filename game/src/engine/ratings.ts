@@ -22,14 +22,24 @@ const ROLE: Record<Position, keyof typeof OVR_W> = {
   DM: 'DM', CM: 'CM', AM: 'AM', LM: 'WM', RM: 'WM', LW: 'W', RW: 'W', ST: 'ST',
 };
 
-/** 특정 포지션에서의 종합 능력 (선수 본래 포지션과 무관하게 계산) */
-export function ratingAt(p: PlayerState, slot: Position): number {
+/** 능력치 공식 그대로의 그 자리 능력 */
+function rawAt(p: PlayerState, slot: Position): number {
   const w = OVR_W[ROLE[slot]];
   let s = 0, t = 0;
   for (const [k, v] of Object.entries(w)) { s += attr(p, k as AttrKey) * v!; t += v!; }
-  // 필드 플레이어가 GK 자리에 서거나 그 반대면 사실상 못 뛴다
-  if ((slot === 'GK') !== (p.pos === 'GK')) return (s / t) * 0.35;
   return s / t;
+}
+
+/**
+ * 특정 포지션에서의 종합 능력.
+ * 다른 자리 능력은 주 포지션 능력을 넘지 않는다 (호칭 보너스 · 성장으로 공식상 다른 자리가 높아져도 주 포지션이 가장 높게).
+ * 경기 중 힘은 공격 · 중원 · 수비 능력치로 따로 계산하므로 (match.ts unitValue) 이 상한은 표시 · 선발 판단에만 쓰인다
+ */
+export function ratingAt(p: PlayerState, slot: Position): number {
+  const r = rawAt(p, slot);
+  // 필드 플레이어가 GK 자리에 서거나 그 반대면 사실상 못 뛴다
+  if ((slot === 'GK') !== (p.pos === 'GK')) return r * 0.35;
+  return slot === p.pos ? r : Math.min(r, rawAt(p, p.pos));
 }
 
 // 포지션 친숙도 (0~1)

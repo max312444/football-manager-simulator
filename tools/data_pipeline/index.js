@@ -10,6 +10,7 @@
 //   node tools/data_pipeline standings [--league esp1] [--season 2019-20] [--apply]   실제 최종 순위 (위키백과 순위표)
 //   node tools/data_pipeline photos [--club liverpool] [--season 2025-26] [--league eng1,esp1] [--limit 100]   선수 사진 (위키미디어 공용, 개인 보관용 · Git 제외)
 //   node tools/data_pipeline positions-check [--season 2025-26] [--league esp1]   포지션 · 능력 점검 (읽기만)
+//   node tools/data_pipeline rebuild [--apply]    능력치 재구성: 원래 기준 실력 + 새 실력 공식 + 실제 포지션 (steps/rebuild.js)
 //   node tools/data_pipeline positions [--apply]   선수 포지션을 위키백과 인포박스 기준으로 바로잡기 (미리보기 → 적용)
 //   node tools/data_pipeline photos-ids [--season 2025-26] [--league eng1] [--club liverpool]   사진 넣을 선수 ID 목록 (CSV)
 //   node tools/data_pipeline photos-import   data/photos/inbox/<선수ID>/<시즌>.jpg 사진 가져오기
@@ -156,6 +157,7 @@ function report(league, { t0, summary } = {}) {
   if (cmd === 'publish') return publish({ apply: args.includes('--apply'), log });
   if (cmd === 'positions') return require('./steps/positions').positions({ apply: args.includes('--apply'), log });
   if (cmd === 'positions-check') return require('./steps/positionCheck').positionCheck({ season: typeof opt('season') === 'string' ? opt('season') : undefined, league: typeof opt('league') === 'string' ? opt('league') : undefined, log });
+  if (cmd === 'rebuild') return require('./steps/rebuild').rebuild({ apply: args.includes('--apply'), log });
   if (cmd === 'rename-club') return renameClub(args[1], args[2], { apply: args.includes('--apply'), log });
   if (cmd === 'merge') return mergePlayers(args[1], args[2], { log });
   if (cmd === 'build') {
