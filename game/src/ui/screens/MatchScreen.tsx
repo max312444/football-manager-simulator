@@ -232,6 +232,9 @@ export function MatchScreen() {
   );
 }
 
+/** 중계 줄 앞 그림: 골 · 페널티 실축 · 경고 · 퇴장 */
+const FEED_ICON: Record<string, string> = { goal: '⚽', penMiss: '⚽', yellow: '🟨', red: '🟥' };
+
 /** 문자 중계: 최근 줄이 위 · 캐스터는 장면, 해설은 의견 (이름 토큰을 화면 이름으로) */
 function Feed({ lines }: { lines: FeedLine[] }) {
   const w = useWorld();
@@ -248,6 +251,7 @@ function Feed({ lines }: { lines: FeedLine[] }) {
           <span className="tnum w-8 shrink-0 pt-px text-right text-lo">{l.minute}'</span>
           <div className="min-w-0 flex-1">
             {l.voice === 'pundit' && <span className="mr-1.5 rounded bg-sky/15 px-1.5 py-px text-[11px] font-semibold text-sky">해설</span>}
+            {FEED_ICON[l.kind] && <span className="mr-1.5" aria-hidden>{FEED_ICON[l.kind]}</span>}
             <span className={`${l.big ? 'font-semibold text-hi' : l.voice === 'pundit' ? 'text-mid' : 'text-hi'}`}>{fill(l.text)}</span>
           </div>
         </div>
