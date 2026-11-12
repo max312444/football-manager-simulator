@@ -1,5 +1,7 @@
 // 설정 창: 진행 · 알림 / 팝업 · 난이도 · 경기 · 저장 · 화면 (첫 화면 · 게임 안 사이드바)
-import type { ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
+import { ChangelogList } from './UpdateNotes';
+import { CHANGELOG, GAME_VERSION } from '../../version';
 import { DEFAULT_SETTINGS, syncWorld, useSettings, type Settings } from '../../store/settings';
 import { useGame } from '../../store/game';
 import type { Freq, PopupKind } from '../../engine/gameSettings';
@@ -38,16 +40,27 @@ export function SettingsDialog({ onClose }: { onClose: () => void }) {
   const { s, set, reset } = useSettings();
   const world = useGame((g) => g.world);
   const change = (c: Partial<Settings>) => { set(c); syncWorld(world, { ...s, ...c, popups: { ...s.popups, ...(c.popups ?? {}) } }); };
+  const [view, setView] = useState<'settings' | 'changelog'>('settings');
   return (
     <div className="fixed inset-0 z-[90] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-6 backdrop-blur-sm" onClick={onClose}>
       <div className="panel flex max-h-full w-full max-w-[680px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
         <header className="flex items-center justify-between border-b border-line px-4 sm:px-7 py-4">
-          <h2 className="text-[17px] font-semibold">설정</h2>
+          <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
+            {([['settings', '설정'], ['changelog', '업데이트 내역']] as const).map(([k, label]) => (
+              <button key={k} onClick={() => setView(k)} className={`h-8 rounded-md px-3 text-[14px] whitespace-nowrap transition-colors ${view === k ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{label}</button>
+            ))}
+          </div>
           <div className="flex items-center gap-4">
-            <button onClick={() => { reset(); syncWorld(world, DEFAULT_SETTINGS); }} className="text-[12px] text-lo hover:text-hi">기본값으로</button>
+            {view === 'settings' && <button onClick={() => { reset(); syncWorld(world, DEFAULT_SETTINGS); }} className="text-[12px] text-lo hover:text-hi">기본값으로</button>}
             <button onClick={onClose} className="text-[13px] text-lo hover:text-hi">닫기</button>
           </div>
         </header>
+        {view === 'changelog' ? (
+          <div className="overflow-auto px-4 sm:px-7 py-5">
+            <div className="mb-4 text-[12px] text-lo">지금 버전 v{GAME_VERSION} · 버전 기록 {CHANGELOG.length}개 · 새 것이 위</div>
+            <ChangelogList />
+          </div>
+        ) : (
         <div className="space-y-6 overflow-auto px-4 sm:px-7 py-5">
           <Section title="진행">
             <Row label="'계속'이 멈추는 곳" hint="중요한 일만: 큰 경기 · 이사회 · 기자회견 · 논란 · 부상 때만 멈추고 나머지 경기는 결과만">
@@ -102,6 +115,7 @@ export function SettingsDialog({ onClose }: { onClose: () => void }) {
             </Row>
           </Section>
         </div>
+        )}
       </div>
     </div>
   );
