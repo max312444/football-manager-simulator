@@ -134,6 +134,9 @@ cd game && npm run history                 # 선수 이력 (data-public/history/
 > 버전: `game/src/version.ts` (첫 화면 표시). 기능 추가 +0.1 · 작은 수정 +0.0.1, 바꿀 때마다 여기에 적는다.
 > 같은 파일의 `CHANGELOG` 맨 위에 플레이어용 한 줄 요약도 넣는다 → 첫 화면 '업데이트 소식' (새 버전을 처음 본 뒤 24시간 표시, `UpdateNotes.tsx`).
 
+0. **v0.8.2 새 게임 구단 목록 간소화 · 휴대폰 구단 팝업** (2026-11-12): 막대 그래프 빼고 로고 · 이름 · 평균 능력. 휴대폰은 구단을 누르면 아래에서 팝업(history.pushState 로 뒤로 가기 = 닫기), 팝업 안 시작 버튼.
+0. **v0.8.1 잘린 글자 흐르기** (2026-11-12): `ui/marquee.ts` 가 화면 전체의 `.truncate` 칸 중 잘린 것에 `mq-run` (text-indent 애니메이션, styles.css). 글자 · 칸 너비가 그대로면 다시 재지 않음 · 동작 줄이기 설정이면 끔 · `data-no-marquee` 로 제외.
+   버전 원칙: v1.0 은 휴대폰 실명 데이터 · 사진 넣기까지 끝나고 실제 기기에서 확인한 뒤 (그때까지 0.x).
 0. **v0.8 끌어다 놓기 · 경기 후 홈 · 휴대폰 지원 2단계** (2026-11-12)
    - 피치 끌어다 놓기 (`PitchDrag.tsx usePitchDrag`, Pointer Events · touch-action none): 전술 · 경기 준비 공통, 짧게 누르면 선택 · 끌면 두 자리 맞바꿈.
    - `closeMatch` 끝에 `useApp.setTab('home')` — 경기가 끝나면 항상 홈.

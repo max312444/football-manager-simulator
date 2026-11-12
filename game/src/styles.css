@@ -84,3 +84,8 @@
 @keyframes intro-place { 0% { opacity: 0; transform: translate(var(--fx, 0px), var(--fy, 40px)) scale(0.4); } 100% { opacity: 1; transform: none; } }
 @keyframes intro-zoom { 0% { opacity: 0; transform: scale(1.12); letter-spacing: 0.08em; } 100% { opacity: 1; transform: none; } }
 @keyframes intro-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+/* 잘린 글자 흐르기 (ui/marquee.ts 가 잘린 칸에 mq-run 을 붙임) */
+@keyframes mq { 0%, 15% { text-indent: 0; } 45%, 60% { text-indent: var(--mq); } 90%, 100% { text-indent: 0; } }
+.mq-run { text-overflow: clip !important; animation: mq var(--mq-t, 6s) ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .mq-run { animation: none; text-overflow: ellipsis !important; } }

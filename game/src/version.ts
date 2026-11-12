@@ -1,12 +1,19 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 아래 CHANGELOG 맨 위에 한 줄 요약을 넣고, README 개발 현황에도 적는다
 //  첫 화면은 새 버전을 처음 본 뒤 24시간 동안 '업데이트 소식'을 보여 준다 (UpdateNotes.tsx)
-export const GAME_VERSION = '0.8';
+export const GAME_VERSION = '0.8.2';
 
 export interface ChangeEntry { version: string; date: string; items: string[] }
 
 /** 업데이트 내역 (새 것이 위). 플레이어가 읽는 글이므로 쉬운 말로 */
 export const CHANGELOG: ChangeEntry[] = [
+  { version: '0.8.2', date: '2026-11-12', items: [
+    '새 게임 구단 목록을 로고 · 이름 · 평균 능력만으로 간단하게',
+    '휴대폰: 구단을 누르면 구단 정보 · 핵심 선수가 팝업으로 뜨고, 팝업에서 바로 시작 (닫기 · 뒤로 가기로 돌아감)',
+  ] },
+  { version: '0.8.1', date: '2026-11-12', items: [
+    '긴 이름이 칸에 다 안 들어가면 잘린 부분까지 천천히 흘려서 보여 줍니다',
+  ] },
   { version: '0.8', date: '2026-11-12', items: [
     '전술 · 경기 준비: 피치의 선수를 끌어다 다른 자리에 놓으면 두 선수 자리가 바뀝니다 (PC · 휴대폰 모두)',
     '경기가 끝나면 어느 화면에서 시작했든 홈으로 돌아와 결과 · 순위를 먼저 보여 줍니다',

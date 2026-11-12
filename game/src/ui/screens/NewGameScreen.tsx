@@ -42,6 +42,15 @@ export function NewGameScreen() {
     return Math.round(t.reduce((a, b) => a + b, 0) / Math.max(1, t.length));
   };
   const sel = clubsData?.find((c) => c.club === club);
+  // 휴대폰: 구단을 누르면 팝업 (닫기 · 뒤로 가기로 닫힘)
+  const [sheet, setSheet] = useState(false);
+  useEffect(() => {
+    const onPop = () => setSheet(false);
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, []);
+  const openSheet = () => { if (window.innerWidth >= 1024) return; setSheet(true); history.pushState({ pbSheet: 1 }, ''); };
+  const closeSheet = () => { if (history.state?.pbSheet) history.back(); else setSheet(false); };
 
   /** 완전 랜덤: 시즌 · 리그 · 구단 모두 무작위 (첫 시즌만 예산 · 샐러리 캡 보정) */
   const [rolling, setRolling] = useState(false);
@@ -69,7 +78,7 @@ export function NewGameScreen() {
   const decades = [['2000년대', '2000', '2009'], ['2010년대', '2010', '2019'], ['2020년대', '2020', '2029']] as const;
 
   return (
-    <div className="flex h-full animate-[fade_0.3s_ease-out] flex-col overflow-y-auto bg-ink-950 pb-[calc(84px+env(safe-area-inset-bottom))] lg:flex-row lg:overflow-hidden lg:pb-0">
+    <div className="flex h-full animate-[fade_0.3s_ease-out] flex-col overflow-y-auto bg-ink-950 pb-[env(safe-area-inset-bottom)] lg:flex-row lg:overflow-hidden lg:pb-0">
       {/* 왼쪽: 단계 */}
       <aside className="flex w-full shrink-0 flex-col border-b border-line bg-ink-900 px-4 pt-[max(16px,env(safe-area-inset-top))] pb-5 lg:w-[260px] lg:border-r lg:border-b-0 lg:px-7 lg:py-8">
         <button onClick={() => go('title')} className="mb-4 flex items-center gap-2 text-[13px] text-lo hover:text-hi lg:mb-10">
@@ -133,10 +142,10 @@ export function NewGameScreen() {
               );
             })}
           </div>
-          <div className="mt-6 flex gap-2">
+          <div className="-mx-4 mt-5 flex gap-2 overflow-x-auto px-4 pb-1 lg:mx-0 lg:mt-6 lg:px-0 lg:pb-0">
             {lgOptions.map((l) => (
               <button key={l.id} onClick={() => setLeague(l.id)}
-                className={`h-10 rounded-lg px-5 text-[14px] font-semibold transition-colors ${
+                className={`h-10 shrink-0 rounded-lg px-4 text-[14px] font-semibold whitespace-nowrap transition-colors lg:px-5 ${
                   l.id === league ? 'bg-ink-700 text-hi ring-1 ring-line-strong' : 'bg-ink-850 text-mid ring-1 ring-line hover:text-hi'}`}>
                 {l.ko}
               </button>
@@ -145,24 +154,19 @@ export function NewGameScreen() {
         </section>
 
         <section className="px-4 py-5 lg:min-h-0 lg:flex-1 lg:overflow-auto lg:px-8 lg:py-6">
-          <h2 className="mb-4 text-[13px] font-semibold text-mid">구단 <span className="text-lo">· 명성 순</span></h2>
+          <h2 className="mb-3 text-[13px] font-semibold text-mid lg:mb-4">구단 <span className="text-lo">· 명성 순 · 숫자는 주전 평균 능력</span></h2>
           {!clubsData ? <div className="text-[13px] text-lo">불러오는 중…</div> : (
-            <div className="grid grid-cols-[repeat(auto-fill,minmax(min(250px,100%),1fr))] gap-2">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(min(220px,100%),1fr))] gap-1.5 lg:gap-2">
               {clubsData.map((c) => {
                 const on = c.club === club;
                 const st = strength(c);
                 return (
-                  <button key={c.club} onClick={() => setClub(c.club)}
-                    className={`group flex items-center gap-4 rounded-lg p-4 text-left transition-colors ${
+                  <button key={c.club} onClick={() => { setClub(c.club); openSheet(); }}
+                    className={`group flex items-center gap-3 rounded-lg px-3 py-2.5 text-left transition-colors ${
                       on ? 'bg-neon-ghost ring-1 ring-line-strong' : 'bg-ink-850 ring-1 ring-line hover:bg-ink-800 hover:ring-line-strong'}`}>
-                    <Crest clubId={c.club} size={30} />
-                    <div className="min-w-0 flex-1">
-                      <div className="truncate text-[14px] font-semibold">{clubKo(c.club)}</div>
-                      <div className="mt-2 h-1 w-full overflow-hidden rounded-full bg-ink-700">
-                        <div className={`h-full rounded-full ${on ? 'bg-neon' : 'bg-mid/60'}`} style={{ width: `${c.reputation}%` }} />
-                      </div>
-                    </div>
-                    <div className={`tnum text-[18px] font-semibold ${ratingTone(st)}`}>{st}</div>
+                    <Crest clubId={c.club} size={26} />
+                    <div className="min-w-0 flex-1 truncate text-[14px] font-semibold">{clubKo(c.club)}</div>
+                    <div className={`tnum text-[17px] font-semibold ${ratingTone(st)}`}>{st}</div>
                   </button>
                 );
               })}
@@ -171,10 +175,12 @@ export function NewGameScreen() {
         </section>
       </main>
 
-      {/* 오른쪽: 요약 */}
-      <aside className="flex w-full shrink-0 flex-col border-t border-line bg-ink-900 lg:w-[340px] lg:border-t-0 lg:border-l">
+      {/* 오른쪽: 요약 (휴대폰은 구단을 눌렀을 때 팝업) */}
+      {sheet && <div className="fixed inset-0 z-40 animate-[fade_0.2s_ease-out] bg-ink-950/75 lg:hidden" onClick={closeSheet} />}
+      <aside className={`flex w-full shrink-0 flex-col border-line bg-ink-900 lg:static lg:w-[340px] lg:border-l ${sheet ? 'fixed inset-x-0 top-[6dvh] bottom-0 z-50 animate-[rise_0.25s_ease-out] overflow-y-auto rounded-t-2xl border-t' : 'max-lg:hidden'}`}>
         {sel ? (
           <>
+            <button onClick={closeSheet} className="flex h-11 shrink-0 items-center justify-between border-b border-line px-5 text-[14px] text-mid lg:hidden"><span>구단 정보</span><span>닫기 ✕</span></button>
             <div className="relative overflow-hidden px-7 pt-8 pb-6">
               <div className="absolute -top-10 -right-10 opacity-[0.07]"><Crest clubId={sel.club} size={200} /></div>
               <Crest clubId={sel.club} size={54} />
@@ -208,11 +214,10 @@ export function NewGameScreen() {
                 </div>
               ))}
             </div>
-            {/* 휴대폰: 시작 버튼은 화면 아래에 고정 */}
-            <div className="fixed inset-x-0 bottom-0 z-20 flex items-center gap-3 border-t border-line bg-ink-900/95 px-4 pt-3 pb-[max(12px,env(safe-area-inset-bottom))] backdrop-blur lg:static lg:block lg:bg-transparent lg:p-5">
-              <div className="min-w-0 flex-1 lg:hidden"><div className="truncate text-[14px] font-semibold">{clubKo(sel.club)}</div><div className="text-[11px] text-lo">{season.replace('-', '/')} · 명성 {sel.reputation}</div></div>
+            {/* 휴대폰 팝업: 시작 버튼은 팝업 아래에 붙어 있음 */}
+            <div className="sticky bottom-0 border-t border-line bg-ink-900 p-4 pb-[max(16px,env(safe-area-inset-bottom))] lg:static lg:p-5">
               <button onClick={start} disabled={loading}
-                className="group flex h-12 shrink-0 items-center justify-center gap-2 rounded-lg bg-neon px-5 text-[15px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:opacity-60 lg:w-full">
+                className="group flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-neon px-5 text-[15px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:opacity-60">
                 {loading ? '세계를 만드는 중…' : '감독 커리어 시작'}
                 {!loading && <Icon name="arrow" size={18} className="transition-transform" />}
               </button>

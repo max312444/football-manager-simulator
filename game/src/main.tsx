@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 import { boot } from './data/realStore';
+import { startMarquee } from './ui/marquee';
 
 // 배포판: 홈 화면 앱 · 오프라인 실행 (public/sw.js)
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
@@ -18,4 +19,5 @@ boot(wantReal)
         <App />
       </StrictMode>,
     );
+    startMarquee();   // 잘린 이름 · 글자 흐르기
   });
