@@ -9,6 +9,7 @@ import { posGroup } from '../data/rating';
 import { book } from './finance';
 import { WAGE_SLACK, ruleWageRoom, withinRules } from './rules';
 import { youthIntake } from './youth';
+import { aiBuyoutRaids, buyoutOf, buyoutWageFactor } from './clauses';
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 const addDays = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
@@ -162,6 +163,8 @@ export function askingPrice(w: World, p: PlayerState): number {
 export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number): BidResult {
   if (!p.clubId) return { decision: 'accept', ask: 0, reason: '자유계약 선수' };
   if (p.loan) return { decision: 'reject', ask: 0, reason: '임대 중인 선수라 지금은 이적할 수 없습니다' };
+  const clause = buyoutOf(w, p);
+  if (clause > 0 && fee >= clause) return { decision: 'accept', ask: clause, reason: '바이아웃 금액을 냈습니다. 구단은 거절할 수 없습니다' };
   const seller = w.clubs[p.clubId];
   // 태업하며 이 구단을 지목한 선수: 단계마다 10% 싸게, 핵심 선수 규칙 없이
   const forcing = p.saga?.kind === 'move' && p.saga.target === buyer && p.saga.club === p.clubId ? p.saga.stage : 0;
@@ -176,8 +179,8 @@ export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number
 }
 
 /** 선수가 이 구단으로 오겠는지 */
-export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number, role?: Role): { ok: boolean; reason: string; low?: boolean } {
-  const demand = wageDemand(w, p);
+export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number, role?: Role, clause?: number): { ok: boolean; reason: string; low?: boolean } {
+  const demand = wageDemand(w, p) * (clause == null ? 1 : buyoutWageFactor(w, p, clause));   // 계약에 거는 바이아웃 (낮을수록 덜 요구)
   if (wage < demand * 0.9) return { ok: false, low: true, reason: `원하는 주급보다 낮습니다. 주급 ${Math.round(demand / 1000)}K 유로 정도를 원합니다` };
   const buyerRep = w.clubs[buyer].reputation;
   const curRep = p.clubId ? w.clubs[p.clubId].reputation : 30;
@@ -237,6 +240,7 @@ export function completeTransfer(w: World, p: PlayerState, to: string, fee: numb
   p.amort = fee > 0 ? Math.round(fee / Math.max(1, years)) : undefined;
   p.amortEnd = fee > 0 ? p.contract : undefined;
   p.loyalty = 50 + p.hidden.loyalty;          // 새 구단에서 다시 시작
+  p.buyout = undefined; p.buyoutClub = undefined;   // 바이아웃은 새 계약에서 새로 (내 구단은 계약 때 정함)
   p.benchStreak = 0;
   p.unhappy = false;
   p.morale = Math.min(100, p.morale + 10);
@@ -449,6 +453,7 @@ export function aiTransferDay(w: World, rng: Rng): GameEvent[] {
       break;
     }
   }
+  events.push(...aiBuyoutRaids(w, rng));   // 내 선수 바이아웃 (거절 불가)
   userOffers(w, rng, active);
   // 기한 지난 제안 정리
   cleanOffers(w);

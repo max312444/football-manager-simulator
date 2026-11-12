@@ -16,6 +16,22 @@ import { useWorld } from '../hooks';
 import { Crest } from './Crest';
 import { PosTag } from './bits';
 import { money } from '../format';
+import { buyoutOf, buyoutOptions, buyoutWageFactor } from '../../engine/clauses';
+import type { World } from '../../engine/types';
+
+/** 계약에 거는 바이아웃 선택 (낮을수록 선수가 주급을 덜 요구 · 다른 구단이 내고 데려가기 쉬움) */
+export function BuyoutSelect({ w, p, value, onChange }: { w: World; p: PlayerState; value: number; onChange: (v: number) => void }) {
+  const opts = buyoutOptions(w, p, w.userClubId);
+  if (!opts.some((o) => o.fee === value)) opts.unshift({ mult: -1, fee: value });   // 지금 계약 조건 (재계약)
+  return (
+    <select value={value} onChange={(e) => onChange(+e.target.value)} title="바이아웃 (선택): 넣으면 선수가 주급을 깎아 줍니다 (낮을수록 더). 대신 이 금액 이상을 내는 구단에는 거절 못 하고 보내야 합니다"
+      className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi max-sm:flex-1">
+      {opts.map((o) => <option key={o.mult} value={o.fee}>{o.fee ? `바이아웃 ${money(o.fee)}` : '바이아웃 없음'}{o.mult < 0 ? ' (지금)' : ''}</option>)}
+    </select>
+  );
+}
+/** 기본 선택: 바이아웃 없음 (일반 계약). 스페인처럼 의무인 리그는 가장 높은 값 */
+export const defaultBuyout = (w: World, p: PlayerState) => buyoutOptions(w, p, w.userClubId).find((o) => o.mult === 0)?.fee ?? buyoutOptions(w, p, w.userClubId).at(-1)!.fee;
 
 export type Who = 'me' | 'club' | 'player' | 'sys';
 export interface Msg { who: Who; text: string; tone?: 'ok' | 'warn' | 'bad' }
@@ -27,7 +43,9 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
   const club = p.clubId;
   const talk = w.talks?.[p.id];
   const value = marketValue(w, p);
-  const demand = wageDemand(w, p);
+  const [clause, setClause] = useState(() => defaultBuyout(w, p));
+  const demand = Math.round(wageDemand(w, p) * buyoutWageFactor(w, p, clause) / 500) * 500;
+  const theirClause = club ? buyoutOf(w, p) : 0;
   const [stage, setStage] = useState<'fee' | 'contract'>(fa || talk?.agreed != null ? 'contract' : 'fee');
   const [fee, setFee] = useState(Math.round((talk?.agreed ?? value * 0.9) / 1e5) / 10);
   const [wage, setWage] = useState(Math.round(demand / 1000));
@@ -53,12 +71,12 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
   const push = (...m: Msg[]) => setMsgs((x) => [...x, ...m]);
   const fail = () => { setBroken(true); push({ who: 'sys', tone: 'bad', text: '협상 결렬 — 이번 이적시장 동안 이 선수와는 다시 협상할 수 없습니다.' }); };
 
-  const sendFee = () => {
-    const r = bid(p.id, fee * 1e6);
-    push({ who: 'me', text: `이적료 ${money(fee * 1e6)} 제안` });
+  const sendFee = (f = fee) => {
+    const r = bid(p.id, f * 1e6);
+    push({ who: 'me', text: f * 1e6 >= theirClause && theirClause > 0 ? `바이아웃 ${money(f * 1e6)} 지불` : `이적료 ${money(f * 1e6)} 제안` });
     if (r.blocked) return push({ who: 'sys', tone: 'warn', text: r.blocked });
     if (r.decision === 'accept') {
-      push({ who: 'club', tone: 'ok', text: `좋습니다. ${money(fee * 1e6)}에 보내겠습니다.` }, { who: 'sys', text: '이적료 합의 완료 — 이제 선수와 개인 계약을 협상하세요.' });
+      push(f * 1e6 >= theirClause && theirClause > 0 ? { who: 'club', tone: 'warn', text: '바이아웃 조항이라 거절할 수 없습니다. 선수와 이야기해 보시죠.' } : { who: 'club', tone: 'ok', text: `좋습니다. ${money(f * 1e6)}에 보내겠습니다.` }, { who: 'sys', text: '이적료 합의 완료 — 이제 선수와 개인 계약을 협상하세요.' });
       setStage('contract');
       return;
     }
@@ -67,8 +85,8 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
     if (r.broken) fail();
   };
   const sendContract = () => {
-    const r = sign(p.id, wage * 1000, years, role);
-    push({ who: 'me', text: `주급 ${money(wage * 1000)} · ${years}년 계약 제안` });
+    const r = sign(p.id, wage * 1000, years, role, clause);
+    push({ who: 'me', text: `주급 ${money(wage * 1000)} · ${years}년 · ${clause ? `바이아웃 ${money(clause)}` : '바이아웃 없음'} 제안` });
     if (r.ok) { onClose(); return; }
     push({ who: r.left === undefined ? 'sys' : 'player', tone: 'warn', text: r.reason });
     if (r.broken) fail();
@@ -114,17 +132,24 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
             <button onClick={onClose} className="h-11 w-full rounded-lg bg-ink-700 text-[14px] font-semibold text-hi transition-colors hover:bg-ink-750">닫기</button>
           ) : stage === 'fee' ? (
             <div className="space-y-3">
-              <div className="flex justify-between text-[12px] text-lo"><span>시장 가치 <span className="tnum text-mid">{money(value)}</span></span><span>이적 예산 <span className="tnum text-mid">{money(w.clubs[w.userClubId].finance.transferBudget)}</span></span></div>
+              <div className="flex justify-between text-[12px] text-lo"><span>시장 가치 <span className="tnum text-mid">{money(value)}</span> · 바이아웃 <span className="tnum text-mid">{theirClause ? money(theirClause) : '없음'}</span></span><span>이적 예산 <span className="tnum text-mid">{money(w.clubs[w.userClubId].finance.transferBudget)}</span></span></div>
               <div className="flex flex-wrap gap-2">
                 <label className="flex h-11 min-w-0 flex-1 basis-full sm:basis-0 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">이적료
                   <input autoFocus type="number" step={0.5} min={0} value={fee} onChange={(e) => setFee(+e.target.value)} onKeyDown={(e) => e.key === 'Enter' && sendFee()} className="tnum min-w-0 flex-1 bg-transparent text-right text-[16px] font-semibold text-hi outline-none" />백만 유로
                 </label>
-                <button onClick={sendFee} className="h-11 rounded-lg bg-neon px-6 max-sm:flex-1 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">제안</button>
+                <button onClick={() => sendFee()} className="h-11 rounded-lg bg-neon px-6 max-sm:flex-1 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">제안</button>
               </div>
+              {theirClause > 0 && (
+                <button onClick={() => { setFee(theirClause / 1e6); sendFee(theirClause / 1e6); }} disabled={theirClause > w.clubs[w.userClubId].finance.transferBudget}
+                  title="바이아웃 금액을 내면 구단은 거절할 수 없습니다 (선수 동의는 따로)"
+                  className="h-10 w-full rounded-lg border border-amber/50 text-[13px] font-semibold text-amber transition-colors hover:bg-amber/10 disabled:border-line disabled:text-lo">
+                  바이아웃 {money(theirClause)} 지불{theirClause > w.clubs[w.userClubId].finance.transferBudget ? ' (이적 예산 부족)' : ''}
+                </button>
+              )}
             </div>
           ) : (
             <div className="space-y-3">
-              <div className="flex justify-between text-[12px] text-lo"><span>현재 주급 <span className="tnum text-mid">{money(p.wage)}</span> · 원하는 주급 약 <span className="tnum text-mid">{money(demand)}</span></span>
+              <div className="flex flex-wrap justify-between gap-x-3 text-[12px] text-lo"><span>현재 주급 <span className="tnum text-mid">{money(p.wage)}</span> · 원하는 주급 약 <span className="tnum text-mid">{money(demand)}</span></span>
                 <span className={room < 0 ? 'text-red' : ''}>계약 후 주급 여유 <span className="tnum">{room < 0 ? `−${money(-room)}` : money(room)}</span></span></div>
               <div className="flex flex-wrap gap-2">
                 <label className="flex h-11 min-w-0 flex-1 basis-full sm:basis-0 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">주급
@@ -136,6 +161,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
                 <select value={years} onChange={(e) => setYears(+e.target.value)} className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi max-sm:flex-1">
                   {[1, 2, 3, 4, 5].map((y) => <option key={y} value={y}>{y}년</option>)}
                 </select>
+                <BuyoutSelect w={w} p={p} value={clause} onChange={(v) => { setClause(v); setWage(Math.round(wageDemand(w, p) * buyoutWageFactor(w, p, v) / 1000)); }} />
                 <button onClick={sendContract} disabled={room < 0} className="h-11 rounded-lg bg-neon px-6 max-sm:flex-1 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">계약 제안</button>
               </div>
             </div>

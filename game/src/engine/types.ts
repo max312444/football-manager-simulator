@@ -78,6 +78,9 @@ export interface PlayerState {
   tlog?: import('./traits').TraitLog;
   /** 마지막 이적료 (먹튀 판정) */
   lastFee?: number;
+  /** 바이아웃 금액 (0 = 없음) · 정한 구단 (구단이 바뀌면 새로 정함, clauses.ts) */
+  buyout?: number;
+  buyoutClub?: string;
   /** 이적료 상각 (연, 유로) = 이적료 ÷ 계약 연수. 계약이 끝나거나 떠나면 없어짐 */
   amort?: number;
   /** 상각이 끝나는 날 (처음 계약 만료일) */
@@ -228,6 +231,8 @@ export type GameEvent =
   | { type: 'manager'; date: string; kind: 'offer' | 'renew' | 'norenew' | 'renewed' | 'sacked' | 'expired' | 'moved' | 'follow' | 'followDone' | 'followFail'; club: string; from?: string; years?: number; players?: string[]; fee?: number }
   | { type: 'transfer'; date: string; player: string; from: string | null; to: string; fee: number; user: boolean }
   | { type: 'offer'; date: string; player: string; from: string; fee: number }
+  /** 다른 구단이 내 선수의 바이아웃을 내고 데려감 */
+  | { type: 'buyout'; date: string; player: string; to: string; fee: number }
   | { type: 'retire'; date: string; player: string; club: string | null; season: string }
   | { type: 'contract'; date: string; players: string[]; until: string }
   | { type: 'renewed'; date: string; players: string[] }

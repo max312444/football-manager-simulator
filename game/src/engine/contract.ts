@@ -6,6 +6,7 @@ import type { PlayerState, World } from './types';
 import { overall } from './ratings';
 import { ageOn } from './condition';
 import { wageDemand, wageRoom, yearsLeft } from './transfer';
+import { buyoutOf, buyoutWageFactor, setBuyout } from './clauses';
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 
@@ -38,19 +39,20 @@ export function willStay(w: World, p: PlayerState): { ok: boolean; reason: strin
 }
 
 /** 재계약 판단 (기회 소모 · 결렬은 store에서) */
-export function evaluateRenewal(w: World, p: PlayerState, wage: number, years: number): { ok: boolean; reason: string; low?: boolean } {
+export function evaluateRenewal(w: World, p: PlayerState, wage: number, years: number, clause?: number): { ok: boolean; reason: string; low?: boolean } {
   const stay = willStay(w, p);
   if (!stay.ok) return stay;
   const age = ageOn(p.birth, w.date);
   if (age >= 33 && years > 2) return { ok: false, low: true, reason: '나이가 있어 1~2년 계약을 원합니다' };
-  const demand = renewDemand(w, p);
+  const demand = renewDemand(w, p) * (clause == null ? 1 : buyoutWageFactor(w, p, clause));
   // 길게 묶을수록 조금 더 원한다 (4년 이상 +5%)
   const need = demand * (years >= 4 ? 1.05 : 1) * 0.95;
   if (wage < need) return { ok: false, low: true, reason: `원하는 주급보다 낮습니다. 주급 ${Math.round((demand * (years >= 4 ? 1.05 : 1)) / 1000)}K 유로 정도를 원합니다` };
   return { ok: true, reason: '재계약에 합의했습니다' };
 }
 
-export function applyRenewal(w: World, p: PlayerState, wage: number, years: number) {
+export function applyRenewal(w: World, p: PlayerState, wage: number, years: number, clause?: number) {
+  setBuyout(p, clause ?? buyoutOf(w, p));   // 바이아웃: 정하지 않으면 지금 조건 그대로
   p.wage = wage;
   p.contract = renewEnd(w, years);
   p.contractGen = false;

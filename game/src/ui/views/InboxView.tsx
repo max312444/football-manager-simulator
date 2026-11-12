@@ -26,6 +26,10 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
     }
     case 'offer':
       return { tag: '제안', tone: 'text-amber', title: `${playerKo(e.player, w.players[e.player]?.name ?? e.player)} 영입 제안 · ${clubKo(e.from)}`, body: `이적료 ${money(e.fee)} · 이적 화면 '받은 제안'에서 수락 · 거절 · 역제안` };
+    case 'buyout': {
+      const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
+      return { tag: '이적', tone: 'text-red', title: `${clubKo(e.to)}${josa(clubKo(e.to), '이', '가')} ${name}의 바이아웃을 냈습니다`, body: `바이아웃 ${money(e.fee)} · 계약 조항이라 거절할 수 없어 선수가 팀을 떠났습니다 (바이아웃은 재계약 때 높일 수 있습니다)` };
+    }
     case 'retire': {
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       return { tag: '은퇴', tone: e.club === w.userClubId ? 'text-neon' : 'text-amber', title: `${e.season.replace('-', '/')} 시즌을 끝으로 ${name}${josa(name, '은', '는')} 은퇴하기로 하였습니다`, body: e.club ? `마지막 소속: ${clubKo(e.club)}` : undefined };

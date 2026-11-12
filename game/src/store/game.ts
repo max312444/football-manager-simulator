@@ -26,6 +26,7 @@ import { evaluateLoan, exerciseBuy, loanMove, loanReturn, playerWillLoan, type L
 import { breakTalks, cleanOffers, completeTransfer, counterOffer, offerValid, evaluateBid, MAX_TRIES, playerWillJoin, releasePlayer, talkBanned, talkOf, wageDemand, wageRoom, windowOpen, type BidResult } from '../engine/transfer';
 import type { RetireNews, TransferOffer } from '../engine/types';
 import { applyRenewal, evaluateRenewal } from '../engine/contract';
+import { buyoutMandatory, setBuyout } from '../engine/clauses';
 const addDaysIso = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
 import { CUSTOM_MARK, formationShape, guessFormation, matchRules, MAX_CUSTOM, pickLineup, registerFormations, validateFormation } from '../engine/squad';
 import type { Position } from '../data/types';
@@ -140,9 +141,9 @@ interface GameStore {
   /** 재계약 요청 팝업 닫기 */
   clearRenewals(): void;
   /** 내 선수 재계약 제안 */
-  renew(playerId: string, wage: number, years: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
+  renew(playerId: string, wage: number, years: number, clause?: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   /** 개인 계약 제안 (이적료는 합의된 금액, 자유계약은 0) */
-  sign(playerId: string, wage: number, years: number, role?: Role): { ok: boolean; reason: string; left?: number; broken?: boolean };
+  sign(playerId: string, wage: number, years: number, role?: Role, clause?: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   /** 내 선수 역할 바꾸기 */
   setRole(playerId: string, role: Role): void;
   toggleShortlist(playerId: string): void;
@@ -594,7 +595,7 @@ export const useGame = create<GameStore>((set, get) => {
       changeRole(w, w.players[playerId], role);
       autosave(w); bump();
     },
-    sign(playerId, wage, years, role) {
+    sign(playerId, wage, years, role, clause) {
       const w = get().world!;
       const p = w.players[playerId];
       const ban = talkBanned(w, playerId);
@@ -609,7 +610,8 @@ export const useGame = create<GameStore>((set, get) => {
       // 재정 규정 (샐러리 캡): 주급 + 이적료 상각 (이적료 ÷ 계약 연수) — AI와 같은 규칙
       const rule = withinRules(w, w.userClubId, wage, fee, years);
       if (!rule.ok) return { ok: false, reason: rule.reason! };
-      const r = playerWillJoin(w, p, w.userClubId, wage, role);
+      if (clause === 0 && buyoutMandatory(w, w.userClubId)) return { ok: false, reason: '이 리그는 모든 선수 계약에 바이아웃이 있어야 합니다' };
+      const r = playerWillJoin(w, p, w.userClubId, wage, role, clause);
       if (!r.ok) {
         // 주급이 낮으면 기회 1번 소모, 구단 자체가 싫다면 바로 결렬
         if (r.low) t.wage++;
@@ -622,6 +624,7 @@ export const useGame = create<GameStore>((set, get) => {
       const from = p.clubId;
       const ev = completeTransfer(w, p, w.userClubId, fee, wage, years);
       if (role) p.role = role;   // 약속한 역할
+      if (clause != null) setBuyout(p, clause);   // 계약에 건 바이아웃
       w.inbox.push(ev);
       set({ ceremony: { player: p.id, playerName: p.name, from, to: w.userClubId, fee, wage, years, kind: 'in' } });
       autosave(w);
@@ -636,7 +639,7 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
     },
 
-    renew(playerId, wage, years) {
+    renew(playerId, wage, years, clause) {
       const w = get().world!;
       const p = w.players[playerId];
       const key = `renew:${playerId}`;
@@ -646,7 +649,8 @@ export const useGame = create<GameStore>((set, get) => {
       const room = wageRoom(w, w.userClubId);
       if (wage - p.wage > room) return { ok: false, reason: `주급 예산 초과 — 남은 주급 여유 ${Math.max(0, Math.round(room / 1000))}K 유로` };
       const t = talkOf(w, key);
-      const r = evaluateRenewal(w, p, wage, years);
+      if (clause === 0 && buyoutMandatory(w, w.userClubId)) return { ok: false, reason: '이 리그는 모든 선수 계약에 바이아웃이 있어야 합니다' };
+      const r = evaluateRenewal(w, p, wage, years, clause);
       if (!r.ok) {
         if (r.low) t.wage++;
         const left = r.low ? MAX_TRIES - t.wage : 0;
@@ -654,7 +658,7 @@ export const useGame = create<GameStore>((set, get) => {
         autosave(w); bump();
         return { ok: false, reason: r.reason, left, broken: left <= 0 };
       }
-      applyRenewal(w, p, wage, years);
+      applyRenewal(w, p, wage, years, clause);
       if (w.talks) delete w.talks[key];
       autosave(w); bump();
       return { ok: true, reason: `재계약 완료 · ${p.contract!.slice(0, 4)}년 6월까지` };
