@@ -1,5 +1,7 @@
 import { GAME_VERSION } from '../../version';
 import { UpdateNotes } from '../components/UpdateNotes';
+/** 휴대폰: 업데이트 소식을 로고와 메뉴 사이에 (스크롤로 다 볼 수 있게) */
+const UpdateNotesSlot = () => <div className="mt-6 sm:hidden"><UpdateNotes inline /></div>;
 import { HelpDialog } from '../components/HelpDialog';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { listSaves, type SaveMeta } from '../../store/save';
@@ -66,13 +68,13 @@ export function TitleScreen() {
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-ink-950 to-transparent" />
 
       {/* 왼쪽 메뉴 */}
-      <div className="relative z-10 flex h-full w-full max-w-[560px] flex-col justify-between px-16 py-14">
+      <div className="relative z-10 flex h-full w-full max-w-[560px] flex-col justify-between overflow-y-auto px-6 pt-[max(32px,env(safe-area-inset-top))] pb-[max(24px,env(safe-area-inset-bottom))] sm:px-16 sm:py-14">
         <header className="animate-[rise_0.8s_var(--ease-out-quart)_both]">
           <div className="flex items-center gap-3 text-[11px] font-semibold text-lo">
             <span className="h-px w-8 bg-neon" />
             축구 감독 시뮬레이션
           </div>
-          <h1 className="mt-5 text-[64px] leading-[0.92] font-semibold tracking-[-0.03em] text-hi">
+          <h1 className="mt-5 text-[48px] leading-[0.92] font-semibold tracking-[-0.03em] text-hi sm:text-[64px]">
             PITCH<br />BOSS<span className="text-neon">.</span>
           </h1>
           <p className="mt-5 max-w-[400px] text-[15px] leading-relaxed text-mid">
@@ -80,7 +82,8 @@ export function TitleScreen() {
           </p>
         </header>
 
-        <nav className="my-10 flex flex-col" onMouseLeave={() => setHover(null)}>
+        <UpdateNotesSlot />
+        <nav className="my-6 flex flex-col sm:my-10" onMouseLeave={() => setHover(null)}>
           {items.map((it, i) => {
             const active = hover === it.key && !it.disabled;
             return (
@@ -140,7 +143,7 @@ export function TitleScreen() {
       {helpOpen && <HelpDialog onClose={() => setHelpOpen(false)} />}
       {intro && <IntroScreen onClose={() => setIntro(false)} />}
       {!intro && (
-        <button onClick={() => setIntro(true)} className="absolute right-8 bottom-6 z-10 text-[11px] text-lo transition-colors hover:text-mid">인트로 다시 보기</button>
+        <button onClick={() => setIntro(true)} className="absolute top-[max(16px,env(safe-area-inset-top))] right-4 z-10 text-[11px] text-lo transition-colors hover:text-mid sm:top-auto sm:right-8 sm:bottom-6">인트로 다시 보기</button>
       )}
       {notice && !intro && <NoticeDialog confirmLabel={notice === 'start' ? '확인하고 시작' : notice === 'first' ? '확인' : '닫기'} onClose={() => { const n = notice; setNotice(null); if (n === 'start') go('newgame'); }} />}
 
@@ -149,7 +152,7 @@ export function TitleScreen() {
       {hallOpen && <HallOfFame onClose={() => setHallOpen(false)} />}
 
       {loadOpen && (
-        <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-8 backdrop-blur-sm" onClick={() => setLoadOpen(false)}>
+        <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-2 sm:p-8 backdrop-blur-sm" onClick={() => setLoadOpen(false)}>
           <div className="panel w-full max-w-[520px] overflow-hidden" onClick={(e) => e.stopPropagation()}>
             <header className="flex items-center justify-between border-b border-line px-6 py-4">
               <h2 className="text-[15px] font-semibold">불러오기</h2>

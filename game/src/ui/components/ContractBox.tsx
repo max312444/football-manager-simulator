@@ -69,8 +69,8 @@ export function RenewModal({ p, onClose }: { p: PlayerState; onClose: () => void
   const ovr = overall(p);
 
   return (
-    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-6 backdrop-blur-sm" onClick={(e) => { e.stopPropagation(); onClose(); }}>
-      <div className="panel flex max-h-[88vh] w-[580px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-2 sm:p-6 backdrop-blur-sm" onClick={(e) => { e.stopPropagation(); onClose(); }}>
+      <div className="panel flex max-h-[88vh] w-full max-w-[580px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
         <header className="flex items-center gap-4 border-b border-line px-6 py-5">
           <div className={`tnum grid h-12 w-12 shrink-0 place-items-center rounded-lg border border-line bg-ink-900 text-[22px] font-semibold ${ratingTone(ovr)}`}>{ovr}</div>
           <div className="min-w-0 flex-1">
@@ -94,14 +94,14 @@ export function RenewModal({ p, onClose }: { p: PlayerState; onClose: () => void
             <div className="space-y-3">
               <div className="flex justify-between text-[12px] text-lo"><span>새 계약 종료 {koDate(renewEnd(w, years))}</span>
                 <span className={room < 0 ? 'text-red' : ''}>계약 후 주급 여유 <span className="tnum">{room < 0 ? `−${money(-room)}` : money(room)}</span></span></div>
-              <div className="flex gap-2">
-                <label className="flex h-11 flex-1 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">주급
+              <div className="flex flex-wrap gap-2">
+                <label className="flex h-11 min-w-0 flex-1 basis-full sm:basis-0 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">주급
                   <input autoFocus type="number" min={1} value={wage} onChange={(e) => setWage(+e.target.value)} onKeyDown={(e) => e.key === 'Enter' && send()} className="tnum min-w-0 flex-1 bg-transparent text-right text-[16px] font-semibold text-hi outline-none" />천 유로
                 </label>
-                <select value={years} onChange={(e) => setYears(+e.target.value)} className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi">
+                <select value={years} onChange={(e) => setYears(+e.target.value)} className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi max-sm:flex-1">
                   {[1, 2, 3, 4, 5].map((y) => <option key={y} value={y}>{y}년</option>)}
                 </select>
-                <button onClick={send} disabled={room < 0} className="h-11 rounded-lg bg-neon px-6 text-[14px] font-semibold text-ink-950 hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">제안</button>
+                <button onClick={send} disabled={room < 0} className="h-11 rounded-lg bg-neon px-6 max-sm:flex-1 text-[14px] font-semibold text-ink-950 hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">제안</button>
               </div>
             </div>
           )}

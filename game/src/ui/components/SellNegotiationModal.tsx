@@ -51,8 +51,8 @@ export function SellNegotiationModal({ offerId, onClose }: { offerId: string; on
   const ovr = overall(p);
 
   return (
-    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-6 backdrop-blur-sm" onClick={onClose}>
-      <div className="panel flex max-h-[88vh] w-[580px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-2 sm:p-6 backdrop-blur-sm" onClick={onClose}>
+      <div className="panel flex max-h-[88vh] w-full max-w-[580px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
         <header className="flex items-center gap-4 border-b border-line px-6 py-5">
           <div className={`tnum grid h-12 w-12 shrink-0 place-items-center rounded-lg border border-line bg-ink-900 text-[22px] font-semibold ${ratingTone(ovr)}`}>{ovr}</div>
           <div className="min-w-0 flex-1">
@@ -74,8 +74,8 @@ export function SellNegotiationModal({ offerId, onClose }: { offerId: string; on
             <button onClick={onClose} className="h-11 w-full rounded-lg bg-ink-700 text-[14px] font-semibold text-hi hover:bg-ink-750">닫기</button>
           ) : (
             <div className="space-y-3">
-              <div className="flex gap-2">
-                <label className="flex h-11 flex-1 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">역제안
+              <div className="flex flex-wrap gap-2">
+                <label className="flex h-11 min-w-0 flex-1 basis-full sm:basis-0 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">역제안
                   <input autoFocus type="number" step={0.5} min={0} value={ask} onChange={(e) => setAsk(+e.target.value)} onKeyDown={(e) => e.key === 'Enter' && sendCounter()} className="tnum min-w-0 flex-1 bg-transparent text-right text-[16px] font-semibold text-hi outline-none" />백만 유로
                 </label>
                 <button onClick={sendCounter} className="h-11 rounded-lg bg-ink-700 px-5 text-[14px] font-semibold text-hi hover:bg-ink-750">역제안</button>

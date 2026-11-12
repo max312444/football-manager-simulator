@@ -55,12 +55,12 @@ export function MatchScreen() {
   return (
     <div className="flex h-full flex-col bg-ink-950">
       {/* 점수판 */}
-      <header className="relative shrink-0 overflow-hidden border-b border-line bg-ink-900">
-        <div className="relative mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
+      <header className="relative shrink-0 overflow-hidden border-b border-line bg-ink-900 pt-[env(safe-area-inset-top)]">
+        <div className="relative mx-auto flex max-w-[1100px] items-center justify-between gap-2 px-3 py-3 lg:px-8 lg:py-5">
           <TeamHead club={s.home.clubId} mine={m.side === 'home'} align="right" />
-          <div className="flex flex-col items-center">
-            <div className="flex items-center gap-2 text-[11px] font-semibold text-lo"><CompBadge f={m.fixture} /> {roundLabel(m.fixture)}</div>
-            <div className="led mt-2 text-[56px] leading-none font-medium text-neon">
+          <div className="flex shrink-0 flex-col items-center">
+            <div className="flex items-center gap-2 text-[11px] font-semibold text-lo"><span className="hidden sm:inline"><CompBadge f={m.fixture} /></span> {roundLabel(m.fixture)}</div>
+            <div className="led mt-2 text-[40px] leading-none font-medium whitespace-nowrap text-neon lg:text-[56px]">
               {goalsSoFar.home}<span className="mx-3 text-lo">:</span>{goalsSoFar.away}
             </div>
             <div className={`led mt-2 rounded-md px-2.5 py-0.5 text-[13px] font-semibold ${m.phase === 'live' ? 'bg-neon/15 text-neon' : 'bg-ink-700 text-mid'}`}>
@@ -72,9 +72,10 @@ export function MatchScreen() {
         <div className="h-1 w-full bg-ink-800"><div className="h-full origin-left bg-neon transition-transform duration-500 ease-[var(--ease-out-quart)]" style={{ transform: `scaleX(${s.segment / SEGMENTS})` }} /></div>
       </header>
 
-      <div className="grid min-h-0 flex-1 grid-cols-[340px_1fr_380px] gap-5 p-5">
+      {/* 휴대폰: 통계 · 전술 → 경기 기록 → 내 팀 순서로 세로 스크롤, 진행 버튼은 아래 고정 */}
+      <div className="flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto p-3 pb-[calc(84px+env(safe-area-inset-bottom))] lg:grid lg:grid-cols-[340px_1fr_380px] lg:gap-5 lg:overflow-hidden lg:p-5">
         {/* 상대 선수 / 경기 기록 */}
-        <section className="panel flex min-h-0 flex-col">
+        <section className="panel order-2 flex shrink-0 flex-col max-lg:max-h-[45dvh] lg:order-none lg:min-h-0 lg:shrink">
           <h3 className="flex h-11 shrink-0 items-center px-5 text-[13px] font-semibold text-mid shadow-[inset_0_-1px_0_var(--color-line)]">경기 기록</h3>
           <div className="min-h-0 flex-1 overflow-auto px-2 py-2">
             {evs.length === 0 && <div className="px-3 py-4 text-[13px] text-lo">아직 큰 사건이 없습니다</div>}
@@ -93,7 +94,7 @@ export function MatchScreen() {
         </section>
 
         {/* 가운데: 통계 + 조작 */}
-        <section className="flex min-h-0 flex-col gap-5">
+        <section className="order-1 flex shrink-0 flex-col gap-4 lg:order-none lg:min-h-0 lg:shrink lg:gap-5">
           <div className="panel px-6 py-5">
             {([
               ['점유율', poss, 100 - poss, (v: number) => `${v}%`],
@@ -139,19 +140,19 @@ export function MatchScreen() {
           </div>
           )}
 
-          <div className="mt-auto flex items-center gap-2">
+          <div className="mt-auto flex items-center gap-2 max-lg:fixed max-lg:inset-x-0 max-lg:bottom-0 max-lg:z-20 max-lg:border-t max-lg:border-line max-lg:bg-ink-900/95 max-lg:px-3 max-lg:pt-2 max-lg:pb-[max(8px,env(safe-area-inset-bottom))] max-lg:backdrop-blur">
             {m.phase === 'live' && (
               <>
-                <button onClick={() => setPlaying((p) => !p)} className="h-12 w-28 rounded-lg bg-ink-700 text-[14px] font-semibold hover:bg-ink-750">{playing ? '일시정지' : '재개'}</button>
+                <button onClick={() => setPlaying((p) => !p)} className="h-12 w-20 shrink-0 rounded-lg bg-ink-700 text-[14px] font-semibold hover:bg-ink-750 lg:w-28">{playing ? '일시정지' : '재개'}</button>
                 <div className="flex h-12 flex-1 gap-1 rounded-lg bg-ink-900 p-1">
                   {SPEEDS.map((sp, i) => (
-                    <button key={sp.label} onClick={() => setSpeed(i)} className={`flex-1 rounded-md text-[13px] ${speed === i ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{sp.label}</button>
+                    <button key={sp.label} onClick={() => setSpeed(i)} className={`flex-1 rounded-md text-[12px] whitespace-nowrap lg:text-[13px] ${speed === i ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{sp.label}</button>
                   ))}
                 </div>
               </>
             )}
             {m.phase !== 'full' ? (
-              <button onClick={closeMatch} className="h-12 rounded-lg px-4 text-[13px] text-lo ring-1 ring-line hover:text-hi">결과만 보기</button>
+              <button onClick={closeMatch} className="h-12 shrink-0 rounded-lg px-3 text-[13px] whitespace-nowrap text-lo ring-1 ring-line hover:text-hi lg:px-4"><span className="sm:hidden">결과만</span><span className="hidden sm:inline">결과만 보기</span></button>
             ) : (
               <button onClick={closeMatch} className="flex h-12 flex-1 items-center justify-center gap-2 rounded-lg bg-neon text-[15px] font-semibold text-ink-950 hover:bg-[#5bff3d]">
                 계속 <Icon name="arrow" size={18} />
@@ -161,7 +162,7 @@ export function MatchScreen() {
         </section>
 
         {/* 내 팀: 선수 상태 · 교체 */}
-        <section className="panel flex min-h-0 flex-col">
+        <section className="panel order-3 flex shrink-0 flex-col lg:order-none lg:min-h-0 lg:shrink">
           <h3 className="flex h-11 shrink-0 items-center justify-between px-5 text-[13px] font-semibold text-mid shadow-[inset_0_-1px_0_var(--color-line)]">
             <span>{clubKo(me.clubId)} · {me.tactics.formation}</span>
             <span className="tnum text-[12px] text-lo">교체 {me.subsUsed}/{me.maxSubs}</span>
@@ -194,10 +195,10 @@ export function MatchScreen() {
 
 function TeamHead({ club, mine, align }: { club: string; mine: boolean; align: 'left' | 'right' }) {
   return (
-    <div className={`flex w-[320px] items-center gap-4 ${align === 'right' ? 'flex-row-reverse text-right' : ''}`}>
-      <Crest clubId={club} size={48} />
-      <div>
-        <div className="text-[20px] font-semibold">{clubKo(club)}</div>
+    <div className={`flex min-w-0 flex-1 flex-col items-center gap-1.5 text-center lg:w-[320px] lg:flex-none lg:gap-4 ${align === 'right' ? 'lg:flex-row-reverse lg:text-right' : 'lg:flex-row lg:text-left'}`}>
+      <Crest clubId={club} size={40} />
+      <div className="min-w-0 max-w-full">
+        <div className="truncate text-[14px] font-semibold lg:text-[20px]">{clubKo(club)}</div>
         {mine && <div className="text-[11px] font-semibold text-neon">내 구단</div>}
       </div>
     </div>

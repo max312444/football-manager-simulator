@@ -24,16 +24,17 @@ function dismiss() {
   try { const raw = localStorage.getItem(KEY); if (raw) localStorage.setItem(KEY, JSON.stringify({ ...JSON.parse(raw), at: 0 })); } catch { /* 무시 */ }
 }
 
-export function UpdateNotes() {
+/** inline: 휴대폰 첫 화면에서 메뉴 아래 흐름 안에 */
+export function UpdateNotes({ inline }: { inline?: boolean }) {
   const [list, setList] = useState(notesToShow);
   if (!list.length) return null;
   return (
-    <aside className="absolute top-8 right-8 z-10 w-[360px] animate-[fade_0.4s_ease-out] rounded-xl border border-line bg-ink-900/90 p-5 backdrop-blur-sm">
+    <aside className={inline ? 'mb-6 rounded-xl border border-line bg-ink-900/90 p-5 sm:hidden' : 'absolute top-8 right-8 z-20 hidden w-[360px] animate-[fade_0.4s_ease-out] rounded-xl border border-line bg-ink-900/90 p-5 backdrop-blur-sm sm:block'}>
       <div className="mb-3 flex items-center justify-between">
         <span className="text-[12px] font-semibold text-neon">업데이트 소식</span>
         <button onClick={() => { dismiss(); setList([]); }} className="text-[11px] text-lo hover:text-hi">닫기</button>
       </div>
-      <div className="max-h-[420px] space-y-4 overflow-auto pr-1">
+      <div className={inline ? 'space-y-4' : 'max-h-[420px] space-y-4 overflow-auto pr-1'}>
         {list.map((e) => (
           <div key={e.version}>
             <div className="mb-1.5 flex items-baseline gap-2"><span className="tnum text-[14px] font-semibold">v{e.version}</span><span className="tnum text-[11px] text-lo">{e.date.replace(/-/g, '.')}</span></div>

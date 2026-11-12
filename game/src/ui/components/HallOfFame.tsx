@@ -8,9 +8,9 @@ const KINDS: TitleKind[] = ['ucl', 'league1', 'uel', 'league2', 'cup'];
 export function HallOfFame({ onClose }: { onClose: () => void }) {
   const [list, setList] = useState(listCareers);
   return (
-    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-8 backdrop-blur-sm" onClick={onClose}>
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-8 backdrop-blur-sm" onClick={onClose}>
       <div className="panel flex max-h-full w-full max-w-[860px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
-        <header className="flex items-center justify-between border-b border-line px-7 py-4">
+        <header className="flex items-center justify-between border-b border-line px-4 sm:px-7 py-4">
           <div>
             <h2 className="text-[17px] font-semibold">명예의 전당</h2>
             <div className="mt-0.5 text-[12px] text-lo">이 PC에서 지휘한 감독 커리어 순위 · 점수: {KINDS.map((k) => `${TITLE_KO[k]} ${TITLE_POINTS[k]}`).join(' · ')} · 시즌당 {SEASON_POINTS}</div>
@@ -22,7 +22,7 @@ export function HallOfFame({ onClose }: { onClose: () => void }) {
           {list.map((c, i) => {
             const cur = c.clubs[c.clubs.length - 1];
             return (
-              <div key={c.id} className="flex items-center gap-5 px-7 py-4 shadow-[inset_0_-1px_0_var(--color-line)]">
+              <div key={c.id} className="flex items-center gap-5 px-4 sm:px-7 py-4 shadow-[inset_0_-1px_0_var(--color-line)]">
                 <div className={`tnum w-8 text-center text-[22px] font-semibold ${i === 0 ? 'text-[#f2c94c]' : i < 3 ? 'text-hi' : 'text-lo'}`}>{i + 1}</div>
                 {cur && <Crest clubId={cur.club} size={34} />}
                 <div className="min-w-0 flex-1">

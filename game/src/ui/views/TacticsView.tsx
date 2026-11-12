@@ -14,6 +14,7 @@ export function FamBar({ v, on }: { v: number; on?: boolean }) {
   return <span className="mt-0.5 block h-0.5 w-full overflow-hidden rounded-full bg-black/20"><span className={`block h-full ${on ? 'bg-ink-950/60' : v >= 80 ? 'bg-neon/70' : v >= 55 ? 'bg-mid/60' : 'bg-amber/60'}`} style={{ width: `${v}%` }} /></span>;
 }
 import { FormationEditor } from '../components/FormationEditor';
+import { DragGhost, usePitchDrag } from '../components/PitchDrag';
 import { slotRating } from '../../engine/ratings';
 import { playerKo } from '../../data/db';
 import { useGame } from '../../store/game';
@@ -91,6 +92,15 @@ export function TacticsView() {
     setSel(null);
   };
   const fixAll = () => setLineup(current, lineup.bench);
+  // 끌어다 놓기: 두 자리 선수 맞바꿈 (지금 선발 전체를 직접 지정으로 고정)
+  const swap = (a: number, b: number) => {
+    const next = [...current];
+    [next[a], next[b]] = [next[b], next[a]];
+    setLineup(next, club.lineup?.bench ?? lineup.bench);
+    setSel(null);
+  };
+  const { bind, ghost, over } = usePitchDrag((i) => setSel(sel === i ? null : i), swap);
+  const ghostP = ghost && current[ghost.i] ? w.players[current[ghost.i]!] : null;
   const changeFormation = (f: string) => {
     if (f === t.formation) return;
     setClubTactics({ formation: f });
@@ -110,20 +120,24 @@ export function TacticsView() {
   const candidates = sel == null ? [] : [...squad].sort((a, b) => slotRating(b, slots[sel]) - slotRating(a, slots[sel]));
 
   return (
-    <div className="flex h-full gap-6 p-6">
+    <div className="flex h-full flex-col gap-4 overflow-y-auto p-3 lg:flex-row lg:gap-6 lg:overflow-hidden lg:p-6">
+      {sel != null && <div className="fixed inset-0 z-30 bg-ink-950/60 lg:hidden" onClick={() => setSel(null)} />}
       {editor && <FormationEditor edit={editor.edit} base={t.formation} onClose={() => setEditor(null)} />}
-      <div className="w-[440px] shrink-0">
+      <DragGhost ghost={ghost} number={ghostP?.number} label={ghostP ? playerKo(ghostP.id, ghostP.name).split(' ').slice(-1)[0] : ''} />
+      <div className="mx-auto w-full max-w-[440px] shrink-0 lg:w-[440px]">
         <Pitch>
           {slots.map((slot, i) => {
             const id = current[i];
             const p = id ? w.players[id] : null;
             const r = p ? Math.round(slotRating(p, slot)) : 0;
             const isFixed = !!fixed[i] && fixed[i] === id;
-            const ring = sel === i ? 'bg-neon text-ink-950 ring-2 ring-neon' : isFixed ? 'ring-2 ring-neon/80' : 'ring-1 ring-mid/40';
+            const dropHere = ghost && over === i && ghost.i !== i;
+            const ring = dropHere ? 'bg-sky/30 ring-2 ring-sky scale-110' : ghost?.i === i ? 'opacity-30 ring-1 ring-mid/40' : sel === i ? 'bg-neon text-ink-950 ring-2 ring-neon' : isFixed ? 'ring-2 ring-neon/80' : 'ring-1 ring-mid/40';
+            const b = bind(i);
             return (
-              <button key={i} onClick={() => setSel(sel === i ? null : i)}
-                className="absolute flex w-24 -translate-x-1/2 -translate-y-1/2 flex-col items-center"
-                style={{ left: `${pos[i].x}%`, top: `${pos[i].y}%` }}>
+              <button key={i} {...b}
+                className="absolute flex w-24 -translate-x-1/2 -translate-y-1/2 cursor-grab flex-col items-center select-none active:cursor-grabbing"
+                style={{ ...b.style, left: `${pos[i].x}%`, top: `${pos[i].y}%` }}>
                 <div className={`grid h-9 w-9 place-items-center rounded-full bg-ink-950/90 text-[13px] font-semibold transition-colors ${ring}`}>{p?.number ?? ''}</div>
                 <div className="mt-1 max-w-full truncate rounded bg-ink-950/80 px-1.5 text-[12px] font-semibold">{p ? playerKo(p.id, p.name).split(' ').slice(-1)[0] : '빈 자리'}</div>
                 <div className="text-[11px] text-lo">{slot}{p && <> · <span className={ratingTone(r)}>{r}</span></>}{instrList[i] && <span className="ml-1 rounded bg-sky/20 px-1 text-sky">{INSTR_KO[instrList[i]!].short}</span>}</div>
@@ -143,9 +157,9 @@ export function TacticsView() {
         </div>
       </div>
 
-      <div ref={col} className="flex min-h-0 min-w-0 flex-1 flex-col gap-4 overflow-y-auto">
+      <div ref={col} className="flex min-w-0 flex-col gap-4 lg:min-h-0 lg:flex-1 lg:overflow-y-auto">
         {sel != null ? (
-          <Card title={`${slots[sel]} 자리에 넣을 선수`} action={<button onClick={() => setSel(null)} className="text-[12px] text-lo hover:text-hi">닫기</button>} className="shrink-0">
+          <Card title={`${slots[sel]} 자리에 넣을 선수`} action={<button onClick={() => setSel(null)} className="text-[12px] text-lo hover:text-hi">닫기</button>} className="shrink-0 max-lg:fixed max-lg:inset-x-0 max-lg:bottom-0 max-lg:z-40 max-lg:max-h-[78dvh] max-lg:overflow-y-auto max-lg:rounded-b-none max-lg:pb-[env(safe-area-inset-bottom)] max-lg:shadow-2xl">
             {slots[sel] !== 'GK' && (
               <div className="border-b border-line px-5 py-3">
                 <div className="mb-2 text-[12px] text-lo">이 자리 지시</div>
@@ -183,7 +197,7 @@ export function TacticsView() {
         ) : (
           <div className="flex flex-col gap-4 pb-2">
             <Card title="포메이션">
-              <div className="grid grid-cols-5 gap-2 p-4">
+              <div className="grid grid-cols-3 gap-2 p-3 sm:grid-cols-5 sm:p-4">
                 {Object.keys(FORMATIONS).filter((f) => !isCustom(f)).map((f) => (
                   <button key={f} onClick={() => changeFormation(f)}
                     title={`숙련도 ${Math.round(famOf(club, f))}%`}

@@ -19,6 +19,7 @@ const SECTIONS: Section[] = [
     ['경기 준비', '경기 날에는 상대 정보와 AI 추천 선발 · 포메이션이 나옵니다. 그대로 써도 되고, 자리를 눌러 선수를 바꾸거나 포메이션 · 성향을 바꾼 뒤 킥오프합니다.'],
     ['경기 중', '경기 화면에서 교체, 성향 · 압박 변경을 할 수 있습니다. 교체 인원은 시대 규정을 따릅니다 (2020년 이후 5명).'],
     ['결과만 보기', "직접 지휘하지 않고 결과만 받으려면 '결과만 보기'를 누르거나, 설정 → 경기 방식을 '결과만 보기'로 바꿉니다."],
+    ['경기가 끝나면', '어느 화면에서 경기를 시작했든 홈으로 돌아와 결과 · 순위 · 다음 경기를 먼저 보여 줍니다.'],
   ] },
   { key: 'squad', title: '선수단 · 선수', items: [
     ['능력', '포지션에 맞춰 계산한 종합 능력입니다. 선수 정보의 세부 능력치(기술 · 정신 · 신체)로 이루어집니다.'],
@@ -29,7 +30,7 @@ const SECTIONS: Section[] = [
     ['성장', '젊을수록, 프로의식 · 야망이 높을수록, 많이 뛸수록, 훈련 시설이 좋을수록 잘 자랍니다. 나이가 들면 능력이 떨어집니다.'],
   ] },
   { key: 'tactics', title: '전술 · 훈련', items: [
-    ['포메이션 · 선발', '전술에서 포메이션을 고르고 피치의 자리를 눌러 선수를 지정합니다. 지정하지 않은 자리와 부상 · 징계로 빠진 자리는 자동으로 채워집니다.'],
+    ['포메이션 · 선발', '전술에서 포메이션을 고르고 피치의 자리를 눌러 선수를 지정합니다. 피치의 선수를 끌어다 다른 자리에 놓으면 두 선수 자리가 바뀝니다 (예: LW ↔ RW, 휴대폰은 손가락으로). 지정하지 않은 자리와 부상 · 징계로 빠진 자리는 자동으로 채워집니다.'],
     ['내 포메이션', "'내 포메이션 + 만들기'에서 자리마다 포지션을 바꿔 저장합니다 (6개까지). 수비 3~5명 · 센터백 2~3명 · 스트라이커 1~3명처럼 실제 축구에서 쓰는 범위만 됩니다."],
     ['성향 · 압박', '공격적일수록 골은 많아지지만 실점도 늘어납니다. 높은 압박은 상대 기회를 줄이지만 체력을 많이 씁니다.'],
     ['선수별 지시', '피치의 자리를 누르면 그 자리 지시를 고를 수 있습니다. 공격 가담(공격 ↑ · 수비 공백), 수비 위치 유지(수비 ↑ · 공격 ↓), 강한 압박(중원 · 수비 보탬 · 체력 소모 · 카드 위험). 교체돼 들어온 선수도 그 자리 지시를 따릅니다. 지시를 준 포메이션은 경기 전 AI 추천도 그대로 유지합니다.'],
@@ -68,6 +69,12 @@ const SECTIONS: Section[] = [
     ['실명 데이터', "실명 데이터는 게임에 들어 있지 않습니다. 직접 가진 실명 데이터 폴더를 첫 화면 '데이터베이스'에 끌어다 놓거나 폴더를 고르면 이 브라우저에만 저장되어 쓰입니다 (어디로도 전송되지 않음)."],
     ['선수 사진', '선수 사진은 직접 PC에서 실행할 때(개발 서버)만 넣을 수 있습니다. 데이터베이스 화면의 안내를 보세요.'],
   ] },
+  { key: 'mobile', title: '휴대폰에서 하기', items: [
+    ['메뉴', '화면이 좁으면 메뉴가 서랍에 들어갑니다. 왼쪽 위 ☰ 버튼을 누르면 나오고, 메뉴를 고르거나 바깥을 누르면 들어갑니다.'],
+    ['화면', '선수를 누르면 선수 정보가 화면 전체로 열리고 위쪽 ← 닫기로 돌아옵니다. 전술에서 자리를 누르면 아래에서 선수 목록이 올라옵니다. 이적 화면의 검색 조건은 접혀 있으니 펼쳐서 쓰세요.'],
+    ['홈 화면에 추가 (앱처럼 쓰기)', "아이폰: 사파리에서 공유 버튼 → '홈 화면에 추가'. 안드로이드: 크롬 메뉴(⋮) → '홈 화면에 추가' 또는 '앱 설치'. 전체 화면으로 열리고, 한 번 연 뒤에는 인터넷이 없어도 실행됩니다."],
+    ['저장이 지워지지 않게', '아이폰 사파리는 오래 쓰지 않은 사이트의 저장 데이터를 지울 수 있습니다. 홈 화면에 추가해서 쓰고, 중요한 게임은 사이드바 저장하기 → 파일로 내보내기로 따로 보관하세요.'],
+  ] },
   { key: 'keys', title: '단축키', items: [
     ['스페이스', "계속 진행 · 경기 준비에서 선발 확정 · 시상식 넘기기"],
     ['/  또는  Ctrl + K', '검색창으로 이동'],
@@ -83,12 +90,12 @@ export function HelpDialog({ onClose, inGame }: { onClose: () => void; inGame?: 
   const sec = SECTIONS.find((s) => s.key === cur)!;
   useEffect(() => { const k = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); }; window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k); }, [onClose]);
   return (
-    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-8 backdrop-blur-sm" onClick={onClose}>
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-8 backdrop-blur-sm" onClick={onClose}>
       <div className="panel flex h-[min(720px,100%)] w-full max-w-[960px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
-        <header className="flex items-center justify-between border-b border-line px-7 py-4">
+        <header className="flex flex-wrap items-center justify-between gap-2 border-b border-line px-4 py-3 sm:px-7 sm:py-4">
           <div>
             <h2 className="text-[17px] font-semibold">도움말 · 사용 설명서</h2>
-            <div className="mt-0.5 text-[12px] text-lo">조작법과 게임의 규칙을 정리했습니다</div>
+            <div className="mt-0.5 hidden text-[12px] text-lo sm:block">조작법과 게임의 규칙을 정리했습니다</div>
           </div>
           <div className="flex items-center gap-4">
             {msg && <span className="text-[12px] text-neon">{msg}</span>}
@@ -97,14 +104,15 @@ export function HelpDialog({ onClose, inGame }: { onClose: () => void; inGame?: 
             <button onClick={onClose} className="text-[13px] text-lo hover:text-hi">닫기</button>
           </div>
         </header>
-        <div className="flex min-h-0 flex-1">
-          <nav className="w-[200px] shrink-0 overflow-auto border-r border-line p-3">
+        <div className="flex min-h-0 flex-1 flex-col lg:flex-row">
+          {/* 휴대폰: 장 목록은 위쪽 가로 스크롤 */}
+          <nav className="flex shrink-0 gap-1 overflow-x-auto border-b border-line p-2 lg:block lg:w-[200px] lg:overflow-auto lg:border-r lg:border-b-0 lg:p-3">
             {SECTIONS.map((s) => (
               <button key={s.key} onClick={() => setCur(s.key)}
-                className={`mb-0.5 w-full rounded-md px-3 py-2 text-left text-[13px] transition-colors ${cur === s.key ? 'bg-neon-ghost font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>{s.title}</button>
+                className={`shrink-0 rounded-md px-3 py-2 text-left text-[13px] whitespace-nowrap transition-colors lg:mb-0.5 lg:w-full ${cur === s.key ? 'bg-neon-ghost font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>{s.title}</button>
             ))}
           </nav>
-          <div className="min-w-0 flex-1 overflow-auto px-8 py-6">
+          <div className="min-w-0 flex-1 overflow-auto px-4 py-4 lg:px-8 lg:py-6">
             <h3 className="mb-4 text-[18px] font-semibold">{sec.title}</h3>
             <dl className="space-y-4">
               {sec.items.map(([k, v]) => (

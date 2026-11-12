@@ -8,7 +8,7 @@ const markSeen = () => { try { localStorage.setItem(KEY, '1'); } catch { /* 저�
 export function NoticeDialog({ onClose, confirmLabel = '확인하고 시작' }: { onClose: () => void; confirmLabel?: string }) {
   const close = () => { markSeen(); onClose(); };
   return (
-    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-8 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-8 backdrop-blur-sm">
       <div className="panel w-full max-w-[560px] overflow-hidden">
         <div className="px-8 pt-8 pb-6">
           <div className="text-[12px] text-lo">시작하기 전에</div>

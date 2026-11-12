@@ -15,6 +15,7 @@ import { recommend, type Recommendation } from '../engine/ai';
 import { withinRules } from '../engine/rules';
 import { trainingOf, type Training } from '../engine/training';
 import { syncWorld, useSettings } from './settings';
+import { useApp } from './app';
 import { acceptOffer, chooseJob, declineOffer, ensureManager } from '../engine/manager';
 import { askBoard, type BoardAsk } from '../engine/board';
 import { resolveBoardEvent } from '../engine/boardEvents';
@@ -556,6 +557,7 @@ export const useGame = create<GameStore>((set, get) => {
       // 오늘 남은 다른 경기를 치르고 하루 넘김
       const events = advanceDay(w);
       set({ match: null, lastEvents: events });
+      useApp.getState().setTab('home');   // 경기가 끝나면 어디서 시작했든 홈으로 (결과 · 순위부터 확인)
       autosave(w);
       bump();
     },

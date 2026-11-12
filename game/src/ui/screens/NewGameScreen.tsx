@@ -69,19 +69,19 @@ export function NewGameScreen() {
   const decades = [['2000년대', '2000', '2009'], ['2010년대', '2010', '2019'], ['2020년대', '2020', '2029']] as const;
 
   return (
-    <div className="flex h-full animate-[fade_0.3s_ease-out] bg-ink-950">
+    <div className="flex h-full animate-[fade_0.3s_ease-out] flex-col overflow-y-auto bg-ink-950 pb-[calc(84px+env(safe-area-inset-bottom))] lg:flex-row lg:overflow-hidden lg:pb-0">
       {/* 왼쪽: 단계 */}
-      <aside className="flex w-[260px] shrink-0 flex-col border-r border-line bg-ink-900 px-7 py-8">
-        <button onClick={() => go('title')} className="mb-10 flex items-center gap-2 text-[13px] text-lo hover:text-hi">
+      <aside className="flex w-full shrink-0 flex-col border-b border-line bg-ink-900 px-4 pt-[max(16px,env(safe-area-inset-top))] pb-5 lg:w-[260px] lg:border-r lg:border-b-0 lg:px-7 lg:py-8">
+        <button onClick={() => go('title')} className="mb-4 flex items-center gap-2 text-[13px] text-lo hover:text-hi lg:mb-10">
           <Icon name="back" size={15} /> 메인 메뉴
         </button>
-        <h1 className="mt-2 text-[26px] font-semibold">새 게임</h1>
+        <h1 className="mt-2 text-[22px] font-semibold lg:text-[26px]">새 게임</h1>
         <button onClick={randomStart} disabled={loading || rolling} title="시즌 · 리그 · 구단을 모두 무작위로 고릅니다"
           className="mt-5 flex h-11 w-full items-center justify-center gap-2 rounded-lg border border-dashed border-neon/50 text-[13px] font-semibold text-neon transition-colors hover:bg-neon-ghost disabled:opacity-50">
           {rolling ? '구단 고르는 중…' : '완전 랜덤으로 시작'}
         </button>
         <div className="mt-1.5 text-[11px] leading-relaxed text-lo">시즌 · 리그 · 구단 모두 무작위 · 첫 시즌만 살짝 보정 (이적 예산 +10% · 주급 예산 +5% · 샐러리 캡 +5%)</div>
-        <ol className="mt-10 space-y-6">
+        <ol className="mt-10 hidden space-y-6 lg:block">
           {[['시즌', fmtSeason(season)], ['리그', compKo(league)], ['구단', club ? clubKo(club) : '–']].map(([k, v], i) => (
             <li key={k} className="flex gap-4">
               <span className="tnum mt-0.5 text-[12px] font-semibold text-neon">{String(i + 1).padStart(2, '0')}</span>
@@ -104,14 +104,14 @@ export function NewGameScreen() {
             <p className="mt-2 text-[11px] leading-relaxed text-lo">실명 데이터는 이 PC에서 파이프라인으로 만든 것이며 저장소에는 없습니다.</p>
           </div>
         )}
-        <p className="mt-auto text-[12px] leading-relaxed text-lo">
+        <p className="mt-auto hidden text-[12px] leading-relaxed text-lo lg:block">
           고른 시즌의 실제 선수단으로 시작합니다. 7월 1일 프리시즌부터 진행되며, 여름 이적시장이 열려 있습니다.
         </p>
       </aside>
 
       {/* 가운데: 선택 */}
-      <main className="flex min-w-0 flex-1 flex-col overflow-hidden">
-        <section className="border-b border-line px-8 pt-7 pb-6">
+      <main className="flex min-w-0 flex-col lg:flex-1 lg:overflow-hidden">
+        <section className="border-b border-line px-4 pt-5 pb-5 lg:px-8 lg:pt-7 lg:pb-6">
           <h2 className="mb-4 text-[13px] font-semibold text-mid">시작 시즌</h2>
           <div className="space-y-2.5">
             {decades.map(([label, from, to]) => {
@@ -144,10 +144,10 @@ export function NewGameScreen() {
           </div>
         </section>
 
-        <section className="min-h-0 flex-1 overflow-auto px-8 py-6">
+        <section className="px-4 py-5 lg:min-h-0 lg:flex-1 lg:overflow-auto lg:px-8 lg:py-6">
           <h2 className="mb-4 text-[13px] font-semibold text-mid">구단 <span className="text-lo">· 명성 순</span></h2>
           {!clubsData ? <div className="text-[13px] text-lo">불러오는 중…</div> : (
-            <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-2">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(min(250px,100%),1fr))] gap-2">
               {clubsData.map((c) => {
                 const on = c.club === club;
                 const st = strength(c);
@@ -172,7 +172,7 @@ export function NewGameScreen() {
       </main>
 
       {/* 오른쪽: 요약 */}
-      <aside className="flex w-[340px] shrink-0 flex-col border-l border-line bg-ink-900">
+      <aside className="flex w-full shrink-0 flex-col border-t border-line bg-ink-900 lg:w-[340px] lg:border-t-0 lg:border-l">
         {sel ? (
           <>
             <div className="relative overflow-hidden px-7 pt-8 pb-6">
@@ -198,7 +198,7 @@ export function NewGameScreen() {
                 </div>
               ))}
             </div>
-            <div className="flex-1 overflow-auto px-7 py-5">
+            <div className="px-7 py-5 lg:flex-1 lg:overflow-auto">
               <div className="mb-3 text-[11px] font-semibold text-lo">핵심 선수</div>
               {[...sel.squad].sort((a, b) => overall(b) - overall(a)).slice(0, 6).map((p) => (
                 <div key={p.id} className="flex items-center gap-3 py-1.5 text-[13px]">
@@ -208,9 +208,11 @@ export function NewGameScreen() {
                 </div>
               ))}
             </div>
-            <div className="border-t border-line p-5">
+            {/* 휴대폰: 시작 버튼은 화면 아래에 고정 */}
+            <div className="fixed inset-x-0 bottom-0 z-20 flex items-center gap-3 border-t border-line bg-ink-900/95 px-4 pt-3 pb-[max(12px,env(safe-area-inset-bottom))] backdrop-blur lg:static lg:block lg:bg-transparent lg:p-5">
+              <div className="min-w-0 flex-1 lg:hidden"><div className="truncate text-[14px] font-semibold">{clubKo(sel.club)}</div><div className="text-[11px] text-lo">{season.replace('-', '/')} · 명성 {sel.reputation}</div></div>
               <button onClick={start} disabled={loading}
-                className="group flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-neon text-[15px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:opacity-60">
+                className="group flex h-12 shrink-0 items-center justify-center gap-2 rounded-lg bg-neon px-5 text-[15px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:opacity-60 lg:w-full">
                 {loading ? '세계를 만드는 중…' : '감독 커리어 시작'}
                 {!loading && <Icon name="arrow" size={18} className="transition-transform" />}
               </button>

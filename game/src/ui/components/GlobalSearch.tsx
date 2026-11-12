@@ -67,12 +67,12 @@ export function GlobalSearch() {
   const group = (k: Hit['kind']) => ({ player: '선수', club: '구단', league: '리그' })[k];
 
   return (
-    <div ref={box} data-tour="search" className="relative mx-auto w-full max-w-[420px]">
+    <div ref={box} data-tour="search" className="relative mx-auto w-full min-w-0 max-w-[420px] flex-1">
       <label className={`flex h-9 items-center gap-2 rounded-lg border bg-ink-850 px-3 text-[13px] transition-colors ${open ? 'border-line-strong' : 'border-line'}`}>
         <Icon name="search" size={15} />
         <input ref={input} value={q} onChange={(e) => { setQ(e.target.value); setCur(0); setOpen(true); }} onFocus={() => setOpen(true)} onKeyDown={onKey}
           placeholder="선수, 구단, 리그 검색" className="min-w-0 flex-1 bg-transparent text-hi outline-none placeholder:text-lo" />
-        {!q && <kbd className="rounded border border-line px-1.5 text-[11px] text-lo">/</kbd>}
+        {!q && <kbd className="hidden rounded border border-line px-1.5 text-[11px] text-lo lg:inline">/</kbd>}
       </label>
       {open && q.trim() && (
         <div className="absolute top-11 right-0 left-0 z-40 max-h-[60vh] overflow-auto rounded-xl border border-line-strong bg-ink-850 py-1.5 shadow-2xl">

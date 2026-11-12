@@ -23,13 +23,13 @@ export function DatabaseDialog({ onClose }: { onClose: () => void }) {
   const lgs = leagues.filter((l) => availableSeasons(l.id).length).map((l) => ({ ...l, seasons: availableSeasons(l.id) }));
 
   return (
-    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-8 backdrop-blur-sm" onClick={onClose}>
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-8 backdrop-blur-sm" onClick={onClose}>
       <div className="panel flex max-h-full w-full max-w-[640px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
-        <header className="flex items-center justify-between border-b border-line px-7 py-4">
+        <header className="flex items-center justify-between border-b border-line px-4 sm:px-7 py-4">
           <h2 className="text-[17px] font-semibold">데이터베이스</h2>
           <button onClick={onClose} className="text-[13px] text-lo hover:text-hi">닫기</button>
         </header>
-        <div className="space-y-6 overflow-auto px-7 py-6 text-[13px]">
+        <div className="space-y-6 overflow-auto px-4 sm:px-7 py-6 text-[13px]">
           {/* 실명 데이터 */}
           <section>
             <div className="flex items-center gap-4">

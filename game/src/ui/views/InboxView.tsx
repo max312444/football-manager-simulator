@@ -123,19 +123,20 @@ export function InboxView() {
   const w = useWorld();
   const list = [...w.inbox].reverse();
   return (
-    <div className="h-full p-6">
+    <div className="h-full p-3 lg:p-6">
       <div className="panel h-full overflow-auto">
         {list.length === 0 && <div className="grid h-full place-items-center text-[13px] text-lo">아직 받은 소식이 없습니다. "계속"을 눌러 시즌을 진행하세요.</div>}
         {list.map((e, i) => {
           const d = describe(e, w);
           return (
-            <div key={i} className="flex items-center gap-5 px-6 py-4 shadow-[inset_0_-1px_0_var(--color-line)]">
-              <span className={`w-10 text-[12px] font-semibold ${d.tone}`}>{d.tag}</span>
+            <div key={i} className="flex items-start gap-3 px-4 py-3 shadow-[inset_0_-1px_0_var(--color-line)] lg:items-center lg:gap-5 lg:px-6 lg:py-4">
+              <span className={`w-10 shrink-0 pt-0.5 text-[12px] font-semibold lg:pt-0 ${d.tone}`}>{d.tag}</span>
               <div className="min-w-0 flex-1">
-                <div className="truncate text-[14px] font-semibold">{d.title}</div>
-                {d.body && <div className="truncate text-[12px] text-lo">{d.body}</div>}
+                <div className="text-[14px] font-semibold lg:truncate">{d.title}</div>
+                {d.body && <div className="text-[12px] text-lo lg:truncate">{d.body}</div>}
+                <div className="tnum mt-0.5 text-[11px] text-lo lg:hidden">{koDate(e.date)}</div>
               </div>
-              <span className="tnum text-[12px] text-lo">{koDate(e.date)}</span>
+              <span className="tnum hidden text-[12px] text-lo lg:inline">{koDate(e.date)}</span>
             </div>
           );
         })}

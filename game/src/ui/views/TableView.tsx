@@ -38,11 +38,11 @@ export function LeagueTable({ league, compact = false }: { league: string; compa
           <th className="w-10 px-2 text-center font-medium">#</th>
           <th className="px-2 text-left font-medium">구단</th>
           <th className="w-10 text-right font-medium">경기</th>
-          {!compact && <><th className="w-9 text-right font-medium">승</th><th className="w-9 text-right font-medium">무</th><th className="w-9 text-right font-medium">패</th>
-            <th className="w-10 text-right font-medium">득</th><th className="w-10 text-right font-medium">실</th></>}
+          {!compact && <><th className="hidden w-9 text-right font-medium sm:table-cell">승</th><th className="hidden w-9 text-right font-medium sm:table-cell">무</th><th className="hidden w-9 text-right font-medium sm:table-cell">패</th>
+            <th className="hidden w-10 text-right font-medium sm:table-cell">득</th><th className="hidden w-10 text-right font-medium sm:table-cell">실</th></>}
           <th className="w-12 text-right font-medium">득실</th>
           <th className="w-14 pr-4 text-right font-medium">승점</th>
-          {!compact && <th className="w-36 pr-4 text-left font-medium">최근 5경기</th>}
+          {!compact && <th className="hidden w-36 pr-4 text-left font-medium lg:table-cell">최근 5경기</th>}
         </tr>
       </thead>
       <tbody>
@@ -59,11 +59,11 @@ export function LeagueTable({ league, compact = false }: { league: string; compa
                 <div className="flex items-center gap-3"><Crest clubId={r.club} size={17} /><span className={`truncate ${mine ? 'font-semibold text-hi' : 'text-hi'}`}>{clubKo(r.club)}</span></div>
               </td>
               <td className="tnum text-right text-mid">{r.p}</td>
-              {!compact && <><td className="tnum text-right text-mid">{r.w}</td><td className="tnum text-right text-mid">{r.d}</td><td className="tnum text-right text-mid">{r.l}</td>
-                <td className="tnum text-right text-mid">{r.gf}</td><td className="tnum text-right text-mid">{r.ga}</td></>}
+              {!compact && <><td className="tnum hidden text-right text-mid sm:table-cell">{r.w}</td><td className="tnum hidden text-right text-mid sm:table-cell">{r.d}</td><td className="tnum hidden text-right text-mid sm:table-cell">{r.l}</td>
+                <td className="tnum hidden text-right text-mid sm:table-cell">{r.gf}</td><td className="tnum hidden text-right text-mid sm:table-cell">{r.ga}</td></>}
               <td className="tnum text-right text-mid">{r.gf - r.ga > 0 ? '+' : ''}{r.gf - r.ga}</td>
               <td className="tnum pr-4 text-right text-[14px] font-semibold">{r.pts}</td>
-              {!compact && <td className="pr-4"><div className="flex gap-1">{r.form.map((f, j) => <ResultDot key={j} r={f} />)}</div></td>}
+              {!compact && <td className="hidden pr-4 lg:table-cell"><div className="flex gap-1">{r.form.map((f, j) => <ResultDot key={j} r={f} />)}</div></td>}
             </tr>
           );
         })}
@@ -89,9 +89,9 @@ export function TableView() {
     </button>
   );
   return (
-    <div className="flex h-full flex-col p-6">
-      <div className="mb-1 flex items-center gap-1 overflow-x-auto">
-        {ids.map((id) => tab(id))}
+    <div className="flex h-full flex-col p-3 lg:p-6">
+      <div className="mb-1 flex flex-col gap-2 lg:flex-row lg:items-center">
+        <div className="flex min-w-0 items-center gap-1 overflow-x-auto">{ids.map((id) => tab(id))}</div>
         {!isCup && <Legend league={league} />}
       </div>
       {(euroIds.length > 0 || cupIds.length > 0) && (
@@ -120,7 +120,7 @@ function Legend({ league }: { league: string }) {
   const items = levelOf(league) === 2 && r
     ? [item('bg-neon', `자동 승격 (${r.up}팀)`), r.playoff && item('bg-sky', `승격 플레이오프 (${r.playoff.seeds.join('·')}위)`), r.barrage && !r.playoff && item('bg-amber', `승강 플레이오프 (${r.up + 1}위)`), item('bg-red', `3부 강등 (${r.secondDown}팀)`)]
     : [item('bg-neon', '챔피언스리그권'), item('bg-sky', '유로파리그권'), r?.barrage && item('bg-amber', '승강 플레이오프'), item('bg-red', r ? `2부 강등 (${r.topDown}팀)` : '강등')];
-  return <div className="ml-auto flex items-center gap-4 text-[12px] text-lo">{items.filter(Boolean)}</div>;
+  return <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[12px] text-lo lg:ml-auto">{items.filter(Boolean)}</div>;
 }
 
 /** 승격 · 승강 플레이오프 대진과 결과 */

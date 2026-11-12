@@ -7,6 +7,7 @@ import { useWorld } from '../hooks';
 import { clubKo, playerKo } from '../../data/db';
 import { FORMATIONS, available, famOf } from '../../engine/squad';
 import { FamBar } from '../views/TacticsView';
+import { DragGhost, usePitchDrag } from '../components/PitchDrag';
 import { overall, slotRating } from '../../engine/ratings';
 import { recommend, teamStrength } from '../../engine/ai';
 import { Crest } from '../components/Crest';
@@ -50,6 +51,8 @@ export function MatchPrep() {
   const oppForm = w.competitions[w.clubs[oppId].league]?.table[oppId]?.form ?? [];
   const oppKey = w.clubs[oppId].squad.map((id) => w.players[id]).filter(available).sort((a, b) => overall(b) - overall(a)).slice(0, 5);
 
+  // 끌어다 놓기: 두 자리 선수 맞바꿈
+  const { bind, ghost, over } = usePitchDrag((i) => setSel(sel === i ? null : i), (a, b) => { const id = d.starters[a]; if (id) assign(b, id); });
   const assign = (slotIdx: number, id: string) => {
     const starters = [...d.starters];
     let bench = [...d.bench];
@@ -79,24 +82,26 @@ export function MatchPrep() {
   return (
     <div className="flex h-full flex-col bg-ink-950">
       {/* 머리: 대진 */}
-      <header className="shrink-0 border-b border-line bg-ink-900">
-        <div className="mx-auto flex max-w-[1440px] items-center justify-between px-8 py-5">
+      <header className="shrink-0 border-b border-line bg-ink-900 pt-[env(safe-area-inset-top)]">
+        <div className="mx-auto flex max-w-[1440px] flex-col gap-3 px-4 py-3 lg:flex-row lg:items-center lg:justify-between lg:px-8 lg:py-5">
           <div>
-            <div className="flex items-center gap-2 text-[12px] text-lo">경기 전 스쿼드 설정 <CompBadge f={f} /> {roundLabel(f)}</div>
-            <div className="mt-1 text-[15px] text-mid">{koDate(f.date)} · {m.side === 'home' ? '홈 경기' : '원정 경기'}</div>
+            <div className="flex flex-wrap items-center gap-2 text-[12px] text-lo"><span className="hidden sm:inline">경기 전 스쿼드 설정</span> <CompBadge f={f} /> {roundLabel(f)}</div>
+            <div className="mt-1 text-[13px] text-mid lg:text-[15px]">{koDate(f.date)} · {m.side === 'home' ? '홈 경기' : '원정 경기'}</div>
           </div>
-          <div className="flex items-center gap-6">
-            <div className="flex items-center gap-3"><span className="text-[18px] font-semibold">{clubKo(f.home)}</span><Crest clubId={f.home} size={44} /></div>
+          <div className="flex items-center justify-center gap-3 lg:gap-6">
+            <div className="flex min-w-0 flex-1 items-center justify-end gap-2 lg:flex-none lg:gap-3"><span className="truncate text-[15px] font-semibold lg:text-[18px]">{clubKo(f.home)}</span><span className="shrink-0"><Crest clubId={f.home} size={34} /></span></div>
             <span className="text-[13px] text-lo">대</span>
-            <div className="flex items-center gap-3"><Crest clubId={f.away} size={44} /><span className="text-[18px] font-semibold">{clubKo(f.away)}</span></div>
+            <div className="flex min-w-0 flex-1 items-center gap-2 lg:flex-none lg:gap-3"><span className="shrink-0"><Crest clubId={f.away} size={34} /></span><span className="truncate text-[15px] font-semibold lg:text-[18px]">{clubKo(f.away)}</span></div>
           </div>
-          <div className="w-[220px]" />
+          <div className="hidden w-[220px] lg:block" />
         </div>
       </header>
 
-      <div className="mx-auto grid min-h-0 w-full max-w-[1440px] flex-1 grid-cols-[300px_440px_1fr] gap-6 p-6">
+      {/* 휴대폰: 피치 → 전술 · 후보 → 상대 분석 순서로 세로 스크롤 */}
+      <div className="mx-auto flex min-h-0 w-full max-w-[1440px] flex-1 flex-col gap-4 overflow-y-auto p-3 lg:grid lg:grid-cols-[300px_440px_1fr] lg:gap-6 lg:overflow-hidden lg:p-6">
+        {sel != null && <div className="fixed inset-0 z-30 bg-ink-950/60 lg:hidden" onClick={() => setSel(null)} />}
         {/* 왼쪽: 상대 분석 */}
-        <div className="flex min-h-0 flex-col gap-4 overflow-auto">
+        <div className="order-3 flex shrink-0 flex-col gap-4 lg:order-none lg:min-h-0 lg:shrink lg:overflow-auto">
           <Card title="전력 비교">
             <div className="space-y-3 px-5 py-4">
               {([[w.userClubId, myStr], [oppId, oppStr]] as const).map(([c, v]) => (
@@ -130,7 +135,7 @@ export function MatchPrep() {
         </div>
 
         {/* 가운데: 피치 */}
-        <div className="flex min-h-0 flex-col">
+        <div className="order-1 mx-auto flex w-full max-w-[440px] shrink-0 flex-col lg:order-none lg:min-h-0 lg:shrink">
           <Pitch>
             {slots.map((slot, i) => {
               const id = d.starters[i];
@@ -138,10 +143,12 @@ export function MatchPrep() {
               const r = p ? Math.round(slotRating(p, slot)) : 0;
               const recId = m.rec.lineup.formation === d.formation ? m.rec.lineup.starters[i]?.id : undefined;
               const mine = !!id && recId !== undefined && recId !== id;
-              const ring = sel === i ? 'bg-neon text-ink-950 ring-2 ring-neon' : mine ? 'ring-2 ring-sky' : 'ring-2 ring-neon/70';
+              const dropHere = ghost && over === i && ghost.i !== i;
+              const ring = dropHere ? 'bg-sky/30 ring-2 ring-sky scale-110' : ghost?.i === i ? 'opacity-30 ring-2 ring-neon/40' : sel === i ? 'bg-neon text-ink-950 ring-2 ring-neon' : mine ? 'ring-2 ring-sky' : 'ring-2 ring-neon/70';
+              const b = bind(i);
               return (
-                <button key={i} onClick={() => setSel(sel === i ? null : i)}
-                  className="absolute flex w-24 -translate-x-1/2 -translate-y-1/2 flex-col items-center" style={{ left: `${pos[i].x}%`, top: `${pos[i].y}%` }}>
+                <button key={i} {...b}
+                  className="absolute flex w-24 -translate-x-1/2 -translate-y-1/2 cursor-grab flex-col items-center select-none active:cursor-grabbing" style={{ ...b.style, left: `${pos[i].x}%`, top: `${pos[i].y}%` }}>
                   <div className={`grid h-9 w-9 place-items-center rounded-full bg-ink-950/90 text-[13px] font-semibold transition-colors ${ring}`}>{p?.number ?? ''}</div>
                   <div className="mt-1 max-w-full truncate rounded bg-ink-950/80 px-1.5 text-[12px] font-semibold">{id ? short(id) : '빈 자리'}</div>
                   <div className="text-[11px] text-lo">{slot}{p && <> · <span className={ratingTone(r)}>{r}</span></>}</div>
@@ -149,17 +156,18 @@ export function MatchPrep() {
               );
             })}
           </Pitch>
+          <DragGhost ghost={ghost} number={ghost && d.starters[ghost.i] ? w.players[d.starters[ghost.i]!].number : null} label={ghost && d.starters[ghost.i] ? short(d.starters[ghost.i]!) : ''} />
           <div className="mt-3 flex items-center gap-4 text-[12px] text-lo">
             <span className="flex items-center gap-2"><span className="inline-block h-3 w-3 rounded-full ring-2 ring-neon/70" />AI 추천</span>
             <span className="flex items-center gap-2"><span className="inline-block h-3 w-3 rounded-full ring-2 ring-sky" />직접 바꾼 자리</span>
-            <span className="ml-auto">자리를 눌러 선수 교체</span>
+            <span className="ml-auto">누르면 교체 · 끌어서 자리 바꾸기</span>
           </div>
         </div>
 
         {/* 오른쪽: AI 추천 · 전술 · 후보 / 선수 선택 */}
-        <div className="flex min-h-0 flex-col gap-4">
+        <div className="order-2 flex shrink-0 flex-col gap-4 lg:order-none lg:min-h-0 lg:shrink">
           {sel != null ? (
-            <Card title={`${slots[sel]} 자리에 넣을 선수`} action={<button onClick={() => setSel(null)} className="text-[12px] text-lo hover:text-hi">닫기</button>} className="min-h-0 flex-1">
+            <Card title={`${slots[sel]} 자리에 넣을 선수`} action={<button onClick={() => setSel(null)} className="text-[12px] text-lo hover:text-hi">닫기</button>} className="min-h-0 flex-1 max-lg:fixed max-lg:inset-x-0 max-lg:bottom-0 max-lg:z-40 max-lg:max-h-[78dvh] max-lg:rounded-b-none max-lg:pb-[env(safe-area-inset-bottom)] max-lg:shadow-2xl">
               <div className="h-full overflow-auto">
                 {candidates.map((p) => {
                   const r = Math.round(slotRating(p, slots[sel]));
@@ -193,7 +201,7 @@ export function MatchPrep() {
               </Card>
               <Card title="포메이션 · 성향">
                 <div className="space-y-4 p-4">
-                  <div className="grid grid-cols-5 gap-2">
+                  <div className="grid grid-cols-3 gap-2 sm:grid-cols-5">
                     {Object.keys(FORMATIONS).map((fm) => (
                       <button key={fm} onClick={() => updateDraft({ formation: fm })}
                         title={`${fm} · 숙련도 ${Math.round(famOf(w.clubs[w.userClubId], fm))}%`} className={`tnum relative h-9 truncate rounded-md px-1 text-[12px] transition-colors ${d.formation === fm ? 'bg-neon font-semibold text-ink-950' : 'bg-ink-900 text-mid ring-1 ring-line hover:text-hi'}`}>
@@ -220,15 +228,15 @@ export function MatchPrep() {
       </div>
 
       {/* 아래: 확정 */}
-      <footer className="flex h-[72px] shrink-0 items-center gap-4 border-t border-line bg-ink-900/90 px-6">
-        <button onClick={() => { useApp.getState().setTab('home'); leaveMatch(); }} className="flex h-12 items-center gap-2 rounded-lg px-4 text-[13px] text-mid ring-1 ring-line transition-colors hover:text-hi" title="경기는 그대로 남습니다 · 계속을 누르면 다시 이 화면"><span className="inline-block rotate-180"><Icon name="arrow" size={16} /></span>홈으로</button>
-        <div className="text-[13px] text-mid">{changed ? '직접 수정한 선발로 나갑니다' : 'AI 추천 선발로 나갑니다'}</div>
-        <div className="ml-auto flex items-center gap-4">
+      <footer className="box-content flex h-[64px] shrink-0 items-center gap-2 border-t border-line bg-ink-900/90 px-3 pb-[env(safe-area-inset-bottom)] lg:h-[72px] lg:gap-4 lg:px-6">
+        <button onClick={() => { useApp.getState().setTab('home'); leaveMatch(); }} className="flex h-12 shrink-0 items-center gap-2 rounded-lg px-3 text-[13px] text-mid ring-1 ring-line transition-colors hover:text-hi lg:px-4" title="경기는 그대로 남습니다 · 계속을 누르면 다시 이 화면"><span className="inline-block rotate-180"><Icon name="arrow" size={16} /></span>홈으로</button>
+        <div className="hidden text-[13px] text-mid md:block">{changed ? '직접 수정한 선발로 나갑니다' : 'AI 추천 선발로 나갑니다'}</div>
+        <div className="ml-auto flex min-w-0 items-center gap-2 lg:gap-4">
           <span className="hidden text-[12px] text-lo lg:inline"><kbd className="rounded border border-line-strong px-1.5 py-0.5 text-[11px] text-mid">Space</kbd> 로 확정</span>
-          <button onClick={closeMatch} className="h-12 rounded-lg px-4 text-[13px] text-lo ring-1 ring-line transition-colors hover:text-hi">결과만 보기</button>
+          <button onClick={closeMatch} className="h-12 shrink-0 rounded-lg px-3 text-[13px] whitespace-nowrap text-lo ring-1 ring-line transition-colors hover:text-hi lg:px-4"><span className="sm:hidden">결과만</span><span className="hidden sm:inline">결과만 보기</span></button>
           <button onClick={confirmLineup}
-            className="flex h-12 min-w-[220px] items-center justify-center gap-3 rounded-lg bg-neon px-8 text-[15px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] active:scale-[0.98]">
-            선발 확정 · 킥오프 <Icon name="arrow" size={18} />
+            className="flex h-12 min-w-0 items-center justify-center gap-2 rounded-lg bg-neon px-4 text-[15px] font-semibold whitespace-nowrap text-ink-950 transition-colors hover:bg-[#5bff3d] active:scale-[0.98] lg:min-w-[220px] lg:gap-3 lg:px-8">
+            <span className="hidden sm:inline">선발 확정 · </span>킥오프 <Icon name="arrow" size={18} />
           </button>
         </div>
       </footer>

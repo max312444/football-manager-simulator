@@ -2,6 +2,7 @@
 //  끝내거나 건너뛰면 이 브라우저에 기록 (다시 안 뜸). 도움말 → '튜토리얼 다시 보기' 로 언제든
 import { useEffect, useLayoutEffect, useState } from 'react';
 import { create } from 'zustand';
+import { useApp } from '../../store/app';
 
 const KEY = 'pitchboss.tutorial';
 export const tutorialDone = () => { try { return localStorage.getItem(KEY) === 'done'; } catch { return true; } };
@@ -15,8 +16,8 @@ export const useTour = create<{ open: boolean; start(): void; stop(): void }>((s
   stop: () => { markDone(); set({ open: false }); },
 }));
 
-interface Step { target?: string; title: string; body: string }
-const STEPS: Step[] = [
+interface Step { target?: string; title: string; body: string; narrowOnly?: boolean }
+const ALL_STEPS: Step[] = [
   { title: 'PITCH BOSS에 오신 걸 환영합니다', body: '이제 이 구단의 감독입니다. 선수단을 꾸리고, 전술을 짜고, 이적시장에서 선수를 사고팔며 이사회와 팬의 기대에 맞춰 성적을 내야 합니다. 1분 동안 기본 조작을 보여 드릴게요.' },
   { target: 'continue', title: '계속 — 시간을 흐르게 하기', body: "'계속'을 누르면 날짜가 진행됩니다. 경기 날이나 중요한 일이 생기면 알아서 멈춥니다. 스페이스 키로도 누를 수 있습니다. 경기 날에는 '경기 준비'로 바뀝니다." },
   { target: 'nav-home', title: '홈', body: '다음 경기, 리그 순위, 팀 상태, 핵심 선수를 한눈에 봅니다. 무엇부터 할지 모르겠으면 여기부터 보세요.' },
@@ -30,10 +31,12 @@ const STEPS: Step[] = [
   { target: 'search', title: '검색', body: '선수 · 구단 · 리그를 바로 찾습니다. / 키를 누르면 바로 검색창으로 갑니다.' },
   { target: 'save', title: '저장', body: '진행할 때마다 자동 저장됩니다. 슬롯에 따로 저장하거나, 파일(.pitchboss)로 내 PC에 보관할 수도 있습니다.' },
   { target: 'help', title: '도움말 · 설정', body: '막히면 도움말에 사용 설명서가 있습니다. 이 튜토리얼도 거기서 다시 볼 수 있어요. 설정에서는 진행 방식, 팝업 빈도, 난이도를 바꿉니다.' },
+  { target: 'menu', title: '메뉴 (휴대폰)', body: '화면이 좁으면 메뉴가 서랍에 들어갑니다. 왼쪽 위 ☰ 버튼을 누르면 메뉴가 나오고, 메뉴를 고르면 다시 들어갑니다.', narrowOnly: true },
   { title: '준비 끝!', body: "먼저 선수단과 전술을 한 번 둘러본 뒤 '계속'을 눌러 시즌을 시작해 보세요. 행운을 빕니다, 감독님." },
 ];
 
 export function Tour() {
+  const STEPS = ALL_STEPS.filter((s) => !s.narrowOnly || window.innerWidth < 1024);
   const { open, start, stop } = useTour();
   const [i, setI] = useState(0);
   const [rect, setRect] = useState<DOMRect | null>(null);
@@ -43,11 +46,17 @@ export function Tour() {
   const step = STEPS[i];
   useLayoutEffect(() => {
     if (!open) return;
+    // 좁은 화면: 메뉴 안에 있는 대상(메뉴 항목 · 저장 · 도움말)이면 서랍을 열어서 보여 준다
+    const inDrawer = !!step.target && (step.target.startsWith('nav-') || step.target === 'save' || step.target === 'help');
+    const narrow = window.innerWidth < 1024;
+    useApp.getState().setDrawer(narrow && inDrawer);
     const find = () => setRect(step.target ? document.querySelector(`[data-tour="${step.target}"]`)?.getBoundingClientRect() ?? null : null);
     find();
+    const t = setTimeout(find, 260);   // 서랍이 다 열린 뒤 다시 잼
     window.addEventListener('resize', find);
-    return () => window.removeEventListener('resize', find);
+    return () => { clearTimeout(t); window.removeEventListener('resize', find); };
   }, [open, step]);
+  useEffect(() => { if (!open) useApp.getState().setDrawer(false); }, [open]);
   useEffect(() => {
     if (!open) return;
     const k = (e: KeyboardEvent) => {
@@ -64,9 +73,13 @@ export function Tour() {
   const pad = 6;
   const hole = rect && { left: rect.left - pad, top: rect.top - pad, width: rect.width + pad * 2, height: rect.height + pad * 2 };
   // 설명 카드 위치: 대상 오른쪽 (자리가 없으면 위쪽), 대상이 없으면 가운데
-  const W = 380;
-  let card: React.CSSProperties = { left: '50%', top: '50%', transform: 'translate(-50%, -50%)' };
-  if (hole) {
+  const W = Math.min(380, window.innerWidth - 32);
+  let card: React.CSSProperties = { left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: W };
+  if (hole && window.innerWidth < 640) {
+    // 휴대폰: 대상이 화면 아래쪽이면 카드는 위에, 아니면 아래에
+    const low = hole.top + hole.height / 2 > window.innerHeight / 2;
+    card = low ? { left: 16, right: 16, top: 'max(16px, env(safe-area-inset-top))' } : { left: 16, right: 16, bottom: 'max(16px, env(safe-area-inset-bottom))' };
+  } else if (hole) {
     const right = hole.left + hole.width + 16;
     if (right + W < window.innerWidth - 16) card = { left: right, top: Math.min(Math.max(16, hole.top), window.innerHeight - 260) };
     else card = { left: Math.min(Math.max(16, hole.left + hole.width / 2 - W / 2), window.innerWidth - W - 16), top: Math.max(16, hole.top - 230) };
@@ -76,7 +89,7 @@ export function Tour() {
       {hole
         ? <div className="pointer-events-none absolute rounded-lg ring-2 ring-neon transition-all duration-300" style={{ ...hole, boxShadow: '0 0 0 9999px rgb(5 8 6 / 0.78)' }} />
         : <div className="absolute inset-0 bg-ink-950/80" />}
-      <div className="absolute w-[380px] animate-[fade_0.25s_ease-out] rounded-xl border border-line bg-ink-900 p-5 shadow-2xl" style={card} key={i}>
+      <div className="absolute max-h-[calc(100dvh-32px)] max-w-[380px] animate-[fade_0.25s_ease-out] overflow-y-auto sm:w-[380px] rounded-xl border border-line bg-ink-900 p-5 shadow-2xl" style={card} key={i}>
         <div className="mb-1 flex items-center justify-between text-[11px] text-lo"><span className="font-semibold text-neon">튜토리얼</span><span className="tnum">{i + 1} / {STEPS.length}</span></div>
         <h3 className="text-[16px] font-semibold">{step.title}</h3>
         <p className="mt-2 text-[13px] leading-relaxed text-mid">{step.body}</p>

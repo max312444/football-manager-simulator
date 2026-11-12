@@ -38,6 +38,14 @@
 
 @layer base {
   html, body, #root { height: 100%; }
+  /* 휴대폰: 주소창이 나타나고 사라져도 화면 높이에 맞게 */
+  @supports (height: 100dvh) { html, body, #root { height: 100dvh; } }
+  html { -webkit-text-size-adjust: 100%; }
+  body { overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
+  /* 아이폰: 16px 보다 작은 입력칸을 누르면 화면이 확대되므로 좁은 화면에서는 16px */
+  @media (max-width: 1023px) { input, select, textarea { font-size: 16px !important; } }
+  /* 휴대폰: 가운데 뜨는 창이 화면보다 길면 창 안에서 스크롤 */
+  @media (max-width: 1023px) { .fixed.inset-0.grid > * { max-height: 100%; overflow-y: auto; } }
   body {
     background: var(--color-ink-950);
     color: var(--color-hi);

@@ -38,14 +38,14 @@ export function BoardEventModal() {
   if (!ev || w.manager?.pendingJob || result) return null;
   const t = boardEventText(w, ev.kind, ev.player);
   return (
-    <div className="fixed inset-0 z-[65] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-6 backdrop-blur-sm">
+    <div className="fixed inset-0 z-[65] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-6 backdrop-blur-sm">
       <div className="panel w-full max-w-[540px] overflow-hidden">
-        <div className="px-7 pt-7 pb-4">
+        <div className="px-4 sm:px-7 pt-7 pb-4">
           <div className="text-[12px] font-semibold text-amber">{boardTag(ev.kind)}</div>
           <h2 className="mt-1 text-[19px] leading-snug font-semibold">{t.title}</h2>
           <div className="mt-2 text-[13px] text-mid">{t.body}</div>
         </div>
-        <div className="space-y-2 px-7 pb-7">
+        <div className="space-y-2 px-4 sm:px-7 pb-7">
           {ev.options.map((o) => (
             <button key={o.key} onClick={() => choose(o.key)} className="w-full rounded-xl bg-ink-900 px-4 py-3 text-left transition-colors hover:bg-ink-800">
               <div className="text-[14px] font-semibold">{o.label}</div>

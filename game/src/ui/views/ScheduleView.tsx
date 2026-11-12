@@ -23,7 +23,7 @@ export function ScheduleView() {
   const sel = list.find((f) => f.id === open) ?? null;
 
   return (
-    <div className="flex h-full gap-5 p-6">
+    <div className="flex h-full gap-5 p-3 lg:p-6">
       <div className="panel min-w-0 flex-1 overflow-auto">
         {list.map((f) => {
           const home = f.home === w.userClubId;
@@ -32,15 +32,15 @@ export function ScheduleView() {
           const today = f.date === w.date && !f.result;
           return (
             <button key={f.id} onClick={() => f.result && setOpen(f.id)}
-              className={`relative flex h-12 w-full items-center gap-4 px-5 text-left text-[14px] shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${
+              className={`relative flex h-12 w-full items-center gap-2.5 px-4 text-left text-[14px] sm:gap-4 sm:px-5 shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${
                 open === f.id ? 'bg-neon-ghost' : today ? 'bg-ink-800' : `${kind(f) !== 'league' ? 'bg-ink-850' : ''} ${f.result ? 'hover:bg-ink-800' : ''}`}`}>
               <span className={`absolute top-1.5 bottom-1.5 left-0 w-1 rounded-r ${COMP_TONE[kind(f)].bar}`} />
-              <span className="flex w-56 min-w-0 items-center gap-2">
+              <span className="hidden w-56 min-w-0 items-center gap-2 sm:flex">
                 <CompBadge f={f} className="max-w-[130px]" />
                 <span className={`tnum truncate text-[12px] ${kind(f) === 'league' ? 'text-lo' : COMP_TONE[kind(f)].text}`}>{f.stage ? roundLabel(f) : `${f.round}R`}</span>
               </span>
-              <span className="tnum w-40 text-mid">{koDate(f.date)}</span>
-              <span className={`w-10 rounded py-0.5 text-center text-[11px] font-semibold ${home ? 'bg-ink-700 text-hi' : 'text-lo ring-1 ring-line'}`}>{home ? '홈' : '원정'}</span>
+              <span className="tnum w-[52px] shrink-0 text-[13px] text-mid sm:w-40 sm:text-[14px]"><span className="sm:hidden">{+f.date.slice(5, 7)}.{+f.date.slice(8)}</span><span className="hidden sm:inline">{koDate(f.date)}</span></span>
+              <span className={`w-9 shrink-0 rounded py-0.5 text-center text-[11px] font-semibold sm:w-10 ${home ? 'bg-ink-700 text-hi' : 'text-lo ring-1 ring-line'}`}>{home ? '홈' : '원정'}</span>
               <Crest clubId={opp} size={18} />
               <span className="flex-1 truncate font-semibold">{clubKo(opp)}</span>
               {f.result ? (
@@ -51,7 +51,13 @@ export function ScheduleView() {
           );
         })}
       </div>
-      {sel?.result && <MatchReport f={sel} />}
+      {/* 휴대폰: 경기 보고서는 전체 화면 창 */}
+      {sel?.result && (
+        <div className="max-lg:fixed max-lg:inset-0 max-lg:z-40 max-lg:flex max-lg:flex-col max-lg:bg-ink-950 max-lg:pt-[env(safe-area-inset-top)]">
+          <button onClick={() => setOpen(null)} className="flex h-11 shrink-0 items-center gap-2 border-b border-line px-4 text-[14px] text-mid lg:hidden">← 닫기</button>
+          <MatchReport f={sel} />
+        </div>
+      )}
     </div>
   );
 }
@@ -67,7 +73,7 @@ export function MatchReport({ f }: { f: Fixture }) {
     ['기대 득점', r.stats.home.xg, r.stats.away.xg, (v) => v.toFixed(2)],
   ];
   return (
-    <aside className="panel w-[380px] shrink-0 animate-[fade_0.2s_ease-out] overflow-auto">
+    <aside className="panel w-full shrink-0 animate-[fade_0.2s_ease-out] overflow-auto max-lg:min-h-0 max-lg:flex-1 max-lg:rounded-none max-lg:border-0 lg:h-full lg:w-[380px]">
       <div className="flex items-center justify-between px-6 pt-6 pb-5">
         {[f.home, f.away].map((c, i) => (
           <div key={c} className={`flex w-24 flex-col items-center gap-2 ${i ? 'order-3' : ''}`}><Crest clubId={c} size={34} /><span className="text-center text-[12px] font-semibold">{clubKo(c)}</span></div>

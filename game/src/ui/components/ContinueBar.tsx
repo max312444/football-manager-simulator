@@ -41,36 +41,36 @@ export function ContinueBar() {
   }, [go]);
 
   return (
-    <footer data-tour="continue" className="flex h-[72px] shrink-0 items-center gap-6 border-t border-line bg-ink-900/90 px-6 backdrop-blur">
+    <footer data-tour="continue" className="box-content flex h-[64px] shrink-0 items-center gap-3 border-t border-line bg-ink-900/90 px-3 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:h-[72px] lg:gap-6 lg:px-6">
       {over ? (
-        <div>
-          <div className="text-[14px] font-semibold">{w.season.replace('-', '/')} 시즌 종료 · 최종 {finalPos}위</div>
-          <div className="text-[12px] text-lo">다음 시즌으로 넘어가면 실제 능력치 갱신 · 승격팀 합류 · 새 선수 등장이 진행됩니다</div>
+        <div className="min-w-0">
+          <div className="truncate text-[14px] font-semibold">{w.season.replace('-', '/')} 시즌 종료 · 최종 {finalPos}위</div>
+          <div className="hidden text-[12px] text-lo md:block">다음 시즌으로 넘어가면 실제 능력치 갱신 · 승격팀 합류 · 새 선수 등장이 진행됩니다</div>
         </div>
       ) : next && opp ? (
-        <div className="flex min-w-0 items-center gap-4">
+        <div className="flex min-w-0 items-center gap-2.5 lg:gap-4">
           <div className={`grid h-11 w-14 shrink-0 place-items-center rounded-lg ${today ? 'bg-neon/15 text-neon' : 'bg-ink-800 text-mid'}`}>
             <div className="text-center leading-tight">
               <div className="text-[11px]">{today ? '오늘' : '남은 날'}</div>
               <div className="led text-[15px] font-semibold">{today ? '경기' : `D-${dday}`}</div>
             </div>
           </div>
-          <Crest clubId={opp} size={28} />
+          <span className="hidden sm:block"><Crest clubId={opp} size={28} /></span>
           <div className="min-w-0">
             <div className="truncate text-[14px] font-semibold">
               {clubKo(opp)} <span className="font-medium text-lo">{home ? '(홈)' : '(원정)'}</span>
             </div>
-            <div className="tnum flex items-center gap-2 text-[12px] text-lo"><CompBadge f={next} className="max-w-[140px]" />{koDate(next.date)} · {roundLabel(next)}</div>
+            <div className="tnum flex items-center gap-2 text-[12px] text-lo"><span className="hidden sm:inline"><CompBadge f={next} className="max-w-[140px]" /></span><span className="truncate"><span className="sm:hidden">{+next.date.slice(5, 7)}월 {+next.date.slice(8)}일</span><span className="hidden sm:inline">{koDate(next.date)} · {roundLabel(next)}</span></span></div>
           </div>
         </div>
       ) : <div />}
 
-      <div className="ml-auto flex items-center gap-4">
+      <div className="ml-auto flex shrink-0 items-center gap-4">
         <span className="hidden text-[12px] text-lo lg:inline">
           <kbd className="rounded border border-line-strong px-1.5 py-0.5 text-[11px] text-mid">Space</kbd> 로도 진행
         </span>
         <button onClick={go} disabled={loading}
-          className="group flex h-12 min-w-[200px] items-center justify-center gap-3 rounded-lg bg-neon px-8 text-[15px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] active:scale-[0.98] disabled:bg-ink-700 disabled:text-lo">
+          className="group flex h-12 min-w-[112px] items-center justify-center gap-2 rounded-lg bg-neon px-4 text-[15px] lg:min-w-[200px] lg:gap-3 lg:px-8 font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] active:scale-[0.98] disabled:bg-ink-700 disabled:text-lo">
           {over ? (loading ? '준비 중…' : '다음 시즌으로') : today ? '경기 준비' : '계속'}
           <Icon name="arrow" size={18} />
         </button>

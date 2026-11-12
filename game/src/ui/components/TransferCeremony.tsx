@@ -54,7 +54,7 @@ export function TransferCeremony({ c, onClose }: { c: Ceremony; onClose: () => v
       <div className="relative w-[620px] max-w-[92vw]" onClick={(e) => e.stopPropagation()}>
         {/* ① 서명 */}
         {phase === 0 && (
-          <div className="panel mx-auto w-[460px] px-10 pt-9 pb-8" style={{ animation: 'tc-up .5s var(--ease-out-quart) both' }}>
+          <div className="panel mx-auto w-full max-w-[460px] px-5 sm:px-10 pt-9 pb-8" style={{ animation: 'tc-up .5s var(--ease-out-quart) both' }}>
             <div className="flex items-center justify-between text-[12px] text-lo"><span>선수 계약서</span><Crest clubId={c.to} size={22} /></div>
             <div className="mt-4 text-[20px] font-semibold">{name}</div>
             <div className="mt-1 text-[13px] text-mid">{clubKo(c.to)} · {c.years}년 계약 · 주급 {money(c.wage)}</div>
@@ -79,7 +79,7 @@ export function TransferCeremony({ c, onClose }: { c: Ceremony; onClose: () => v
           <div className="flex flex-col items-center">
             <div className="flex items-center gap-10">
               {left ? <Crest clubId={left} size={56} /> : <div className="grid h-16 w-14 place-items-center rounded-lg border border-line text-[12px] text-lo">FA</div>}
-              <div className="relative h-[150px] w-[300px]">
+              <div className="relative h-[150px] w-[min(300px,80vw)]">
                 <span className="absolute top-1/2 left-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-neon/60" style={{ animation: 'tc-ring .9s .55s ease-out both' }} />
                 <svg viewBox="0 0 300 150" className="absolute inset-0" style={{ animation: 'tc-shake .5s .6s ease-in-out 2' }}>
                   <g style={{ animation: 'tc-left .6s var(--ease-out-quart) both' }}>

@@ -59,7 +59,7 @@ function ProfileModal() {
     </div>
   );
   return (
-    <div className="fixed inset-0 z-[45] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/75 p-6 backdrop-blur-sm" onClick={() => close(null)}>
+    <div className="fixed inset-0 z-[45] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/75 p-2 sm:p-6 backdrop-blur-sm" onClick={() => close(null)}>
       <div className="flex h-[86vh] max-h-[860px]" onClick={(e) => e.stopPropagation()}>
         <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club actions={actions} />
       </div>
@@ -81,8 +81,8 @@ function ClubModal() {
   const lv = Math.round(top.reduce((a, b) => a + b, 0) / Math.max(1, top.length));
   const lg = compKo(c.league) ?? c.league;
   return (
-    <div className="fixed inset-0 z-40 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/75 p-6 backdrop-blur-sm" onClick={() => openClub(null)}>
-      <div className="panel flex max-h-[86vh] w-[640px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
+    <div className="fixed inset-0 z-40 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/75 p-2 sm:p-6 backdrop-blur-sm" onClick={() => openClub(null)}>
+      <div className="panel flex max-h-[86vh] w-full max-w-[640px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
         <header className="flex items-center gap-4 border-b border-line px-6 py-5">
           <Crest clubId={c.id} size={44} />
           <div className="min-w-0 flex-1">

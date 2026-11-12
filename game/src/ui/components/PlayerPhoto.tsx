@@ -82,7 +82,7 @@ function PhotoViewer({ id, name, onClose }: { id: string; name?: string; onClose
   });
 
   return (
-    <div className="fixed inset-0 z-[80] grid animate-[fade_0.15s_ease-out] place-items-center bg-ink-950/90 p-6 backdrop-blur-sm" onClick={onClose}>
+    <div className="fixed inset-0 z-[80] grid animate-[fade_0.15s_ease-out] place-items-center bg-ink-950/90 p-2 sm:p-6 backdrop-blur-sm" onClick={onClose}>
       <div className="flex max-h-full w-full max-w-[900px] flex-col items-center gap-3 overflow-auto" onClick={(e) => e.stopPropagation()}
         onDragOver={(e) => { e.preventDefault(); setDrag(true); }} onDragLeave={() => setDrag(false)}
         onDrop={(e) => { e.preventDefault(); setDrag(false); putFiles(e.dataTransfer.files); }}>

@@ -30,9 +30,9 @@ export function SagaModal() {
     ...(s.kind === 'move' ? [{ a: 'list' as SagaAction, label: '이적을 허락한다 (이적 명단)', hint: '태업 멈춤 · 제안을 받아 팔 수 있음' }] : []),
   ];
   return (
-    <div className="fixed inset-0 z-[63] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-6 backdrop-blur-sm">
+    <div className="fixed inset-0 z-[63] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-6 backdrop-blur-sm">
       <div className="panel w-full max-w-[560px] overflow-hidden">
-        <div className="px-7 pt-7 pb-4">
+        <div className="px-4 sm:px-7 pt-7 pb-4">
           <div className="flex items-center justify-between text-[12px]"><span className="font-semibold text-amber">선수 · {s.kind === 'wage' ? '연봉 인상 요구' : '이적 요청'}</span><span className="text-lo">{SAGA_STAGE_KO[s.stage]} ({s.stage}/3)</span></div>
           <h2 className="mt-2 text-[19px] leading-snug font-semibold">
             {s.kind === 'wage' ? `${name}: "지금 주급으로는 남을 수 없다"` : `${name}: "${clubKo(s.target ?? '')}로 가고 싶다"`}
@@ -44,14 +44,14 @@ export function SagaModal() {
             {s.kind === 'move' && s.target && <span className="flex items-center gap-1.5"><Crest clubId={s.target} size={14} />{clubKo(s.target)}가 제안을 넣습니다</span>}
           </div>
         </div>
-        <div className="space-y-1.5 px-7 pb-4">
+        <div className="space-y-1.5 px-4 sm:px-7 pb-4">
           {opts.map((o) => (
             <button key={o.a} onClick={() => sagaRespond(p.id, o.a, o.label)} className="w-full rounded-xl bg-ink-900 px-4 py-2.5 text-left transition-colors hover:bg-ink-800">
               <div className="text-[14px] font-semibold">{o.label}</div>
             </button>
           ))}
         </div>
-        <div className="border-t border-line px-7 py-3 text-right">
+        <div className="border-t border-line px-4 sm:px-7 py-3 text-right">
           <button onClick={sagaClose} className="text-[12px] text-lo hover:text-hi">지금은 두고 보기</button>
         </div>
       </div>

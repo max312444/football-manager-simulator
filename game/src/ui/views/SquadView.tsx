@@ -65,26 +65,26 @@ export function SquadView() {
   );
 
   return (
-    <div className="flex h-full min-h-0 gap-5 p-6">
+    <div className="flex h-full min-h-0 gap-5 p-3 lg:p-6">
       <section className="flex min-w-0 flex-1 flex-col">
-        <div className="mb-5 grid grid-cols-4 gap-px overflow-hidden rounded-lg border border-line bg-line">
+        <div className="mb-3 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line lg:mb-5 lg:grid-cols-4">
           {([
             ['선수', `${rows.length}명`, ''],
             ['주전 11명 평균', (top11.reduce((s, r) => s + r.ovr, 0) / top11.length).toFixed(0), 'text-neon'],
             ['평균 체력', `${avgFit.toFixed(0)}%`, ''],
             ['부상 · 징계', `${injured} · ${suspended}`, injured + suspended ? 'text-amber' : ''],
           ] as const).map(([k, v, c]) => (
-            <div key={k} className="bg-ink-850 px-5 py-4">
+            <div key={k} className="bg-ink-850 px-4 py-2.5 lg:px-5 lg:py-4">
               <div className="text-[12px] text-lo">{k}</div>
-              <div className={`tnum mt-1 text-[22px] font-semibold ${c}`}>{v}</div>
+              <div className={`tnum mt-0.5 text-[18px] font-semibold lg:mt-1 lg:text-[22px] ${c}`}>{v}</div>
             </div>
           ))}
         </div>
 
-        <div className="mb-3 flex items-center gap-1">
+        <div className="mb-3 flex items-center gap-1 overflow-x-auto">
           {GROUPS.map((g) => (
             <button key={g.key} onClick={() => setGroup(g.key)}
-              className={`h-8 rounded-md px-4 text-[13px] transition-colors ${group === g.key ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>
+              className={`h-8 shrink-0 rounded-md px-3 text-[13px] transition-colors lg:px-4 ${group === g.key ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>
               {g.label}
             </button>
           ))}
@@ -94,17 +94,17 @@ export function SquadView() {
           <table className="w-full border-collapse text-[14px]">
             <thead className="sticky top-0 z-10 bg-ink-800 text-left text-[12px] text-lo">
               <tr className="h-9 shadow-[inset_0_-1px_0_var(--color-line)]">
-                <th className="w-12 px-3 text-center font-medium">번호</th>
+                <th className="w-10 px-2 text-center font-medium lg:w-12 lg:px-3">번호</th>
                 {th('name', '선수')}
                 {th('pos', '포지션')}
-                {th('age', '나이', 'text-right')}
-                <th className="px-3 text-center font-medium">상태</th>
-                {th('fit', '체력')}
-                {th('form', '폼', 'text-right')}
+                {th('age', '나이', 'text-right hidden lg:table-cell')}
+                <th className="hidden px-3 text-center font-medium lg:table-cell">상태</th>
+                {th('fit', '체력', 'hidden sm:table-cell')}
+                {th('form', '폼', 'text-right hidden lg:table-cell')}
                 {th('ovr', '능력', 'text-right')}
-                {th('apps', '출전', 'text-right')}
-                {th('goals', '골', 'text-right')}
-                {th('wage', '주급', 'text-right')}
+                {th('apps', '출전', 'text-right hidden lg:table-cell')}
+                {th('goals', '골', 'text-right hidden lg:table-cell')}
+                {th('wage', '주급', 'text-right hidden lg:table-cell')}
               </tr>
             </thead>
             <tbody>
@@ -113,9 +113,9 @@ export function SquadView() {
                 return (
                   <tr key={p.id} onClick={() => setSelected(p.id)}
                     className={`h-11 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${active ? 'bg-neon-ghost' : 'hover:bg-ink-800'}`}>
-                    <td className={`tnum px-3 text-center font-semibold ${active ? 'text-neon' : 'text-lo'}`}>{p.number ?? '–'}</td>
-                    <td className="px-3">
-                      <div className="flex items-center gap-2">
+                    <td className={`tnum px-2 text-center font-semibold lg:px-3 ${active ? 'text-neon' : 'text-lo'}`}>{p.number ?? '–'}</td>
+                    <td className="px-2 py-2 lg:px-3">
+                      <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
                         <span className="font-semibold text-hi">{ko}</span>
                         {p.injury && <span title={`${p.injury.label} · ${p.injury.days}일`} className="rounded bg-red/15 px-1 text-[11px] font-semibold text-red">부상 {p.injury.days}일</span>}
                         {p.suspension > 0 && <span className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">징계 {p.suspension}</span>}
@@ -124,15 +124,15 @@ export function SquadView() {
                         {p.unhappy && <span title={`충성도 ${Math.round(p.loyalty)} · 연속 ${p.benchStreak}경기 결장`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">출전 불만</span>}
                       </div>
                     </td>
-                    <td className="px-3"><PosTag pos={p.pos} /></td>
-                    <td className="tnum px-3 text-right text-mid">{age}</td>
-                    <td className="px-3 text-center"><ConditionIcon value={p.condition} /></td>
-                    <td className="px-3"><FitnessBar value={p.fitness} /></td>
-                    <td className={`tnum px-3 text-right ${p.recentRatings.length ? ratingTone(form * 11) : 'text-lo'}`}>{p.recentRatings.length ? form.toFixed(1) : '–'}</td>
-                    <td className={`tnum px-3 text-right text-[15px] font-semibold ${ratingTone(ovr)}`}>{ovr}</td>
-                    <td className="tnum px-3 text-right text-mid">{p.stats.apps}{p.stats.subApps ? <span className="text-lo"> ({p.stats.subApps})</span> : ''}</td>
-                    <td className="tnum px-3 text-right text-mid">{p.stats.goals || '–'}</td>
-                    <td className="tnum px-3 text-right text-mid">{money(p.wage)}</td>
+                    <td className="px-2 lg:px-3"><PosTag pos={p.pos} /></td>
+                    <td className="tnum hidden px-3 text-right text-mid lg:table-cell">{age}</td>
+                    <td className="hidden px-3 text-center lg:table-cell"><ConditionIcon value={p.condition} /></td>
+                    <td className="hidden px-3 sm:table-cell"><FitnessBar value={p.fitness} /></td>
+                    <td className={`tnum hidden px-3 text-right lg:table-cell ${p.recentRatings.length ? ratingTone(form * 11) : 'text-lo'}`}>{p.recentRatings.length ? form.toFixed(1) : '–'}</td>
+                    <td className={`tnum px-2 text-right text-[15px] font-semibold lg:px-3 ${ratingTone(ovr)}`}>{ovr}</td>
+                    <td className="tnum hidden px-3 text-right text-mid lg:table-cell">{p.stats.apps}{p.stats.subApps ? <span className="text-lo"> ({p.stats.subApps})</span> : ''}</td>
+                    <td className="tnum hidden px-3 text-right text-mid lg:table-cell">{p.stats.goals || '–'}</td>
+                    <td className="tnum hidden px-3 text-right text-mid lg:table-cell">{money(p.wage)}</td>
                   </tr>
                 );
               })}
@@ -140,7 +140,7 @@ export function SquadView() {
           </table>
         </div>
       </section>
-      {sel && <PlayerPanel p={sel.p} age={sel.age} ko={sel.ko} nation={nations.get(sel.p.nation)?.ko ?? sel.p.nation} actions={<ContractBox p={sel.p} />} />}
+      {sel && <PlayerPanel p={sel.p} age={sel.age} ko={sel.ko} nation={nations.get(sel.p.nation)?.ko ?? sel.p.nation} actions={<ContractBox p={sel.p} />} sheet={{ open: !!selected, onClose: () => setSelected(null) }} />}
     </div>
   );
 }

@@ -10,6 +10,9 @@ interface AppState {
   tab: HubTab;
   go(screen: Screen): void;
   setTab(tab: HubTab): void;
+  /** 휴대폰 · 좁은 화면: 서랍 메뉴 열림 */
+  drawer: boolean;
+  setDrawer(open: boolean): void;
   /** 분석 → 이적 화면 검색 조건 */
   transferPreset: SearchPreset | null;
   openTransfers(preset: SearchPreset | null): void;
@@ -27,7 +30,9 @@ export const useApp = create<AppState>((set) => ({
   screen: 'title',
   tab: 'home',
   go: (screen) => set({ screen }),
-  setTab: (tab) => set({ tab }),
+  setTab: (tab) => set({ tab, drawer: false }),
+  drawer: false,
+  setDrawer: (drawer) => set({ drawer }),
   transferPreset: null,
   openTransfers: (preset) => set({ transferPreset: preset, tab: 'transfers' }),
   profile: null,

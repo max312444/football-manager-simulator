@@ -32,6 +32,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
   const preset = useApp((s) => s.transferPreset);
   const { toggleShortlist, toggleTransferList, release, answerOffer } = useGame();
   const [tab, setTab] = useState<Tab>('search');
+  const [filters, setFilters] = useState(false);
   const [group, setGroup] = useState<Group>(initialGroup ?? 'ALL');
   const [league, setLeague] = useState<string>('ALL');
   const [maxAge, setMaxAge] = useState(preset?.maxAge ?? 40);
@@ -86,33 +87,39 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
   const selected = sel ? w.players[sel] : null;
 
   return (
-    <div className="flex h-full min-h-0 gap-6 p-6">
-      <section className="flex min-w-0 flex-1 flex-col">
+    <div className="flex h-full min-h-0 flex-col gap-6 overflow-y-auto p-3 lg:flex-row lg:overflow-hidden lg:p-6">
+      <section className="flex min-w-0 flex-col lg:flex-1">
         {/* 상단: 이적시장 상태 · 예산 */}
-        <div className="mb-4 grid grid-cols-4 gap-px overflow-hidden rounded-xl border border-line bg-line">
-          <div className="bg-ink-850 px-5 py-4">
+        <div className="mb-3 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line lg:mb-4 lg:grid-cols-4">
+          <div className="bg-ink-850 px-4 py-3 lg:px-5 lg:py-4">
             <div className="text-[12px] text-lo">이적시장</div>
             <div className={`mt-1 text-[16px] font-semibold ${win ? 'text-neon' : 'text-mid'}`}>{win ? (win === 'summer' ? '여름 이적시장 열림' : '겨울 이적시장 열림') : '닫힘'}</div>
-            <div className="text-[12px] text-lo">{win ? '다른 구단 선수 영입 가능' : `다음: ${koDate(nextWindow(w.season, w.date))} · 자유계약은 가능`}</div>
+            <div className="hidden text-[12px] text-lo sm:block">{win ? '다른 구단 선수 영입 가능' : `다음: ${koDate(nextWindow(w.season, w.date))} · 자유계약은 가능`}</div>
           </div>
-          <div className="bg-ink-850 px-5 py-4"><div className="text-[12px] text-lo">이적 예산</div><div className="tnum mt-1 text-[20px] font-semibold">{money(club.finance.transferBudget)}</div></div>
-          <div className="bg-ink-850 px-5 py-4">
+          <div className="bg-ink-850 px-4 py-3 lg:px-5 lg:py-4"><div className="text-[12px] text-lo">이적 예산</div><div className="tnum mt-1 text-[18px] font-semibold lg:text-[20px]">{money(club.finance.transferBudget)}</div></div>
+          <div className="bg-ink-850 px-4 py-3 lg:px-5 lg:py-4">
             <div className="text-[12px] text-lo">주급 여유</div>
-            <div className={`tnum mt-1 text-[20px] font-semibold ${ri.room < 0 ? 'text-amber' : ''}`}>{signedMoney(ri.room)}</div>
+            <div className={`tnum mt-1 text-[18px] font-semibold lg:text-[20px] ${ri.room < 0 ? 'text-amber' : ''}`}>{signedMoney(ri.room)}</div>
           </div>
-          <div className="bg-ink-850 px-5 py-4"><div className="text-[12px] text-lo">선수단</div><div className="tnum mt-1 text-[20px] font-semibold">{club.squad.length}명</div></div>
+          <div className="bg-ink-850 px-4 py-3 lg:px-5 lg:py-4"><div className="text-[12px] text-lo">선수단</div><div className="tnum mt-1 text-[18px] font-semibold lg:text-[20px]">{club.squad.length}명</div></div>
         </div>
 
         {/* 탭 */}
-        <div className="mb-3 flex items-center gap-1">
+        <div className="mb-3 flex items-center gap-1 overflow-x-auto">
           {([['search', '선수 검색'], ['shortlist', `관심 목록 ${shortlist.length}`], ['mine', '내 선수'], ['offers', `받은 제안 ${offers.length}`]] as const).map(([k, label]) => (
             <button key={k} onClick={() => { setTab(k); setSel(null); }}
-              className={`h-8 rounded-md px-4 text-[13px] transition-colors ${tab === k ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>{label}</button>
+              className={`h-8 shrink-0 rounded-md px-3 text-[13px] whitespace-nowrap transition-colors lg:px-4 ${tab === k ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>{label}</button>
           ))}
         </div>
+        {/* 휴대폰: 검색 조건은 접어 둔다 */}
+        {tab === 'search' && (
+          <button onClick={() => setFilters((v) => !v)} className="mb-3 flex h-10 items-center justify-between rounded-lg bg-ink-850 px-4 text-[13px] text-mid ring-1 ring-line lg:hidden">
+            <span>검색 조건 {pos.length || posSet || clubPick || q || league !== 'ALL' ? <span className="text-neon">· 적용 중</span> : ''}</span><span>{filters ? '접기 ▴' : '펼치기 ▾'}</span>
+          </button>
+        )}
 
         {tab === 'search' && advice.length > 0 && (
-          <div className="mb-3 flex flex-wrap items-center gap-2 text-[12px]">
+          <div className={`mb-3 flex flex-wrap items-center gap-2 text-[12px] ${filters ? '' : 'max-lg:hidden'}`}>
             <span className="text-lo">추천 보강</span>
             {advice.map((a) => {
               const pr = searchPreset(a);
@@ -127,7 +134,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
           </div>
         )}
         {tab === 'search' && (
-          <div className="mb-3 flex flex-wrap items-center gap-2 text-[13px]">
+          <div className={`mb-3 flex flex-wrap items-center gap-2 text-[13px] ${filters ? '' : 'max-lg:hidden'}`}>
             {posSet && <button onClick={() => setPosSet(null)} className="h-8 rounded-lg bg-neon-ghost px-3 text-[12px] text-neon ring-1 ring-line-strong">{posSet.label} ({posSet.positions.join('·')}) ✕</button>}
             <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
               {(['ALL', 'GK', 'DF', 'MF', 'FW'] as const).map((g) => (
@@ -147,7 +154,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
               <option value={0}>몸값 제한 없음</option>
               {[5e6, 10e6, 20e6, 40e6, 80e6].map((v) => <option key={v} value={v}>몸값 ≤ {money(v)}</option>)}
             </select>
-            <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="이름 검색" className="h-9 w-40 rounded-lg border border-line bg-ink-850 px-3 text-hi placeholder:text-lo" />
+            <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="이름 검색" className="h-9 w-36 rounded-lg sm:w-40 border border-line bg-ink-850 px-3 text-hi placeholder:text-lo" />
             {/* 구단 검색: 고르면 그 구단 선수만 */}
             {clubPick ? (
               <button onClick={() => pickClub(null)} className="flex h-9 items-center gap-2 rounded-lg bg-neon-ghost px-3 text-[12px] text-neon ring-1 ring-line-strong" title="구단 필터 끄기">
@@ -170,7 +177,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
           </div>
         )}
         {tab === 'search' && (
-          <div className="mb-3 flex flex-wrap items-center gap-1 text-[12px]">
+          <div className={`mb-3 flex flex-wrap items-center gap-1 text-[12px] ${filters ? '' : 'max-lg:hidden'}`}>
             <span className="mr-1 text-lo">세부 포지션</span>
             {POS_CHIPS.map((x) => {
               const on = pos.includes(x);
@@ -184,12 +191,12 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
         )}
 
         {tab === 'offers' ? (
-          <div className="panel min-h-0 flex-1 overflow-auto">
+          <div className="panel min-h-0 overflow-auto lg:flex-1">
             {offers.length === 0 && <div className="grid h-full place-items-center text-[13px] text-lo">받은 제안이 없습니다. 내 선수 탭에서 이적 명단에 올리면 다른 구단이 제안해 옵니다.</div>}
             {offers.map((o) => { const p = w.players[o.player]; return (
-              <div key={o.id} className="flex items-center gap-4 px-5 py-4 shadow-[inset_0_-1px_0_var(--color-line)]">
+              <div key={o.id} className="flex flex-wrap items-center gap-3 px-4 py-4 shadow-[inset_0_-1px_0_var(--color-line)] lg:flex-nowrap lg:gap-4 lg:px-5">
                 <Crest clubId={o.from} size={24} />
-                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1 basis-[calc(100%-40px)] lg:basis-auto">
                   <div className="text-[14px] font-medium">{playerKo(p.id, p.name)} <span className="text-lo">← {clubKo(o.from)}</span></div>
                   <div className="text-[12px] text-lo">제안 이적료 <span className="tnum font-semibold text-neon">{money(o.fee)}</span> · 시장 가치 {money(marketValue(w, p))} · {koDate(o.expires)}까지{o.unsolicited ? ' · 이적 명단에 없는 선수' : ''}{o.tries ? ` · 역제안 ${o.tries}회` : ''}</div>
                 </div>
@@ -200,32 +207,33 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
             ); })}
           </div>
         ) : (
-          <div ref={listRef} className="panel min-h-0 flex-1 overflow-auto">
+          <div ref={listRef} className="panel min-h-0 overflow-auto lg:flex-1">
             <table className="w-full border-collapse text-[13px]">
               <thead className="sticky top-0 z-10 bg-ink-800 text-left text-[12px] text-lo">
                 <tr className="h-9 shadow-[inset_0_-1px_0_var(--color-line)]">
-                  <th className="px-4 font-medium">선수</th><th className="px-2 font-medium">포지션</th><th className="px-2 text-right font-medium">나이</th>
-                  <th className="px-3 font-medium">소속</th><th className="px-2 text-right font-medium">능력</th>
-                  <th className="px-3 text-right font-medium">시장 가치</th><th className="px-3 text-right font-medium">주급</th><th className="px-4 text-right font-medium">계약</th>
+                  <th className="px-3 font-medium lg:px-4">선수</th><th className="px-2 font-medium">포지션</th><th className="hidden px-2 text-right font-medium lg:table-cell">나이</th>
+                  <th className="hidden px-3 font-medium lg:table-cell">소속</th><th className="px-2 text-right font-medium">능력</th>
+                  <th className="hidden px-3 text-right font-medium sm:table-cell">시장 가치</th><th className="hidden px-3 text-right font-medium lg:table-cell">주급</th><th className="hidden px-4 text-right font-medium lg:table-cell">계약</th>
                 </tr>
               </thead>
               <tbody>
                 {rows.length === 0 && <tr><td colSpan={8} className="px-4 py-10 text-center text-lo">조건에 맞는 선수가 없습니다</td></tr>}
                 {rows.map(({ p, age, value }) => (
-                  <tr key={p.id} onClick={() => setSel(p.id)} className={`h-11 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${sel === p.id ? 'bg-neon-ghost' : p.clubId ? 'hover:bg-ink-800' : 'bg-sky/[0.06] hover:bg-sky/10'}`}>
-                    <td className={`px-4 ${p.clubId ? '' : 'shadow-[inset_3px_0_0_var(--color-sky)]'}`}><span className="font-medium">{playerKo(p.id, p.name)}</span>
+                  <tr key={p.id} onClick={() => setSel(p.id)} className={`h-12 cursor-pointer lg:h-11 shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${sel === p.id ? 'bg-neon-ghost' : p.clubId ? 'hover:bg-ink-800' : 'bg-sky/[0.06] hover:bg-sky/10'}`}>
+                    <td className={`px-3 py-1.5 lg:px-4 lg:py-0 ${p.clubId ? '' : 'shadow-[inset_3px_0_0_var(--color-sky)]'}`}><span className="font-medium">{playerKo(p.id, p.name)}</span>
                       {!p.clubId && <span className="ml-2 rounded bg-sky/15 px-1.5 py-px text-[11px] font-semibold text-sky">FA</span>}
                       {listed.has(p.id) && <span className="ml-2 rounded bg-amber/15 px-1 text-[11px] text-amber">이적 명단</span>}
                       {p.loan && <span className="ml-2 rounded bg-sky/15 px-1 text-[11px] text-sky">{p.loan.from === w.userClubId ? '임대 보냄' : p.clubId === w.userClubId ? '임대 영입' : '임대 중'}</span>}
                       {shortlist.includes(p.id) && tab !== 'shortlist' && <span className="ml-2 text-[11px] text-neon">관심</span>}
+                      <div className="truncate text-[11px] text-lo lg:hidden">{p.clubId ? clubKo(p.clubId) : 'FA'} · {age}세<span className="sm:hidden">{p.clubId ? ` · ${money(value)}` : ''}</span></div>
                     </td>
                     <td className="px-2"><PosTag pos={p.pos} /></td>
-                    <td className="tnum px-2 text-right text-mid">{age}</td>
-                    <td className="px-3"><span className="flex items-center gap-2">{p.clubId ? <button title={p.clubId === w.userClubId ? '' : '이 구단 선수만 보기'} onClick={(e) => { if (p.clubId === w.userClubId) return; e.stopPropagation(); setTab('search'); pickClub(p.clubId); }} className="flex min-w-0 items-center gap-2 hover:text-hi"><Crest clubId={p.clubId} size={16} /><span className="truncate text-mid underline-offset-2 hover:underline">{clubKo(p.clubId)}</span></button> : <span className="text-sky">소속 없음 · 이적료 없음</span>}</span></td>
+                    <td className="tnum hidden px-2 text-right text-mid lg:table-cell">{age}</td>
+                    <td className="hidden px-3 lg:table-cell"><span className="flex items-center gap-2">{p.clubId ? <button title={p.clubId === w.userClubId ? '' : '이 구단 선수만 보기'} onClick={(e) => { if (p.clubId === w.userClubId) return; e.stopPropagation(); setTab('search'); pickClub(p.clubId); }} className="flex min-w-0 items-center gap-2 hover:text-hi"><Crest clubId={p.clubId} size={16} /><span className="truncate text-mid underline-offset-2 hover:underline">{clubKo(p.clubId)}</span></button> : <span className="text-sky">소속 없음 · 이적료 없음</span>}</span></td>
                     <td className="px-2 text-right"><OvrText w={w} p={p} /></td>
-                    <td className="tnum px-3 text-right">{p.clubId ? money(value) : '–'}</td>
-                    <td className="tnum px-3 text-right text-mid">{money(p.wage)}</td>
-                    <td className="tnum px-4 text-right text-mid">{p.contract ? p.contract.slice(0, 7).replace('-', '.') : p.clubId ? '–' : <span className="text-sky">FA</span>}</td>
+                    <td className="tnum hidden px-3 text-right sm:table-cell">{p.clubId ? money(value) : '–'}</td>
+                    <td className="tnum hidden px-3 text-right text-mid lg:table-cell">{money(p.wage)}</td>
+                    <td className="tnum hidden px-4 text-right text-mid lg:table-cell">{p.contract ? p.contract.slice(0, 7).replace('-', '.') : p.clubId ? '–' : <span className="text-sky">FA</span>}</td>
                   </tr>
                 ))}
               </tbody>
@@ -237,7 +245,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
 
       {selected && <Side p={selected} mine={selected.clubId === w.userClubId} listed={listed.has(selected.id)} shortlisted={shortlist.includes(selected.id)}
         onList={() => toggleTransferList(selected.id)} onShort={() => toggleShortlist(selected.id)} onTalk={() => setTalkWith(selected.id)}
-        onRelease={() => { release(selected.id); setSel(null); setNotice(`${playerKo(selected.id, selected.name)} 방출`); }} />}
+        onRelease={() => { release(selected.id); setSel(null); setNotice(`${playerKo(selected.id, selected.name)} 방출`); }} onClose={() => setSel(null)} />}
       {sellTalk && <SellNegotiationModal offerId={sellTalk} onClose={() => setSellTalk(null)} />}
       {talkWith && w.players[talkWith] && <NegotiationModal p={w.players[talkWith]} onClose={() => { setTalkWith(null); if (w.players[talkWith].clubId === w.userClubId) setSel(null); }} />}
     </div>
@@ -245,8 +253,8 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
 }
 
 /** 오른쪽 선수 정보 + 할 수 있는 일 (영입 협상 · 관심 목록 / 이적 명단 · 방출) */
-function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk }: {
-  p: PlayerState; mine: boolean; listed: boolean; shortlisted: boolean; onList: () => void; onShort: () => void; onRelease: () => void; onTalk: () => void;
+function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk, onClose }: {
+  p: PlayerState; mine: boolean; listed: boolean; shortlisted: boolean; onList: () => void; onShort: () => void; onRelease: () => void; onTalk: () => void; onClose: () => void;
 }) {
   const w = useWorld();
   const ban = talkBanned(w, p.id);
@@ -275,9 +283,9 @@ function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk
         {loanMsg && <div className="mt-2 text-[12px] text-mid">{loanMsg}</div>}
       </div>
     );
-    return <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club actions={actions} />;
+    return <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club sheet={{ open: true, onClose }} actions={actions} />;
   }
-  if (l) return <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club actions={<div>{loanInfo}<div className="text-[12px] text-lo">임대 중인 선수는 시즌이 끝날 때까지 이적할 수 없습니다</div></div>} />;
+  if (l) return <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club sheet={{ open: true, onClose }} actions={<div>{loanInfo}<div className="text-[12px] text-lo">임대 중인 선수는 시즌이 끝날 때까지 이적할 수 없습니다</div></div>} />;
   const actions = mine ? (
     <div>
       <div className="mb-3 text-[12px] text-lo">시장 가치 <span className="tnum text-mid">{money(value)}</span> · 이적 명단에 올리면 이적시장 동안 다른 구단이 제안해 옵니다</div>
@@ -306,5 +314,5 @@ function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk
       {loanIn && <LoanInModal p={p} onClose={() => setLoanIn(false)} />}
     </div>
   );
-  return <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club actions={actions} />;
+  return <PlayerPanel p={p} age={ageOn(p.birth, w.date)} ko={playerKo(p.id, p.name)} nation={nations.get(p.nation)?.ko ?? p.nation} club sheet={{ open: true, onClose }} actions={actions} />;
 }

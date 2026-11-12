@@ -23,17 +23,17 @@ export function FormationEditor({ edit, base, onClose }: { edit?: string; base: 
   const set = (i: number, p: Position) => { setSlots(slots.map((x, k) => (k === i ? p : x))); setErr(null); };
 
   return (
-    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-8 backdrop-blur-sm" onClick={onClose}>
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-8 backdrop-blur-sm" onClick={onClose}>
       <div className="panel flex max-h-full w-full max-w-[860px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
-        <header className="flex items-center justify-between border-b border-line px-7 py-4">
+        <header className="flex items-center justify-between border-b border-line px-4 sm:px-7 py-4">
           <div>
             <h2 className="text-[17px] font-semibold">{edit ? '내 포메이션 고치기' : '내 포메이션 만들기'}</h2>
             <div className="mt-0.5 text-[12px] text-lo">피치의 자리를 누르고 오른쪽에서 포지션을 고르세요. 실제 축구에서 쓰는 범위 안에서만 저장됩니다.</div>
           </div>
           <button onClick={onClose} className="text-[13px] text-lo hover:text-hi">닫기</button>
         </header>
-        <div className="flex gap-6 overflow-auto p-6">
-          <div className="w-[340px] shrink-0">
+        <div className="flex flex-col gap-6 overflow-auto p-4 lg:flex-row lg:p-6">
+          <div className="mx-auto w-full max-w-[340px] shrink-0 lg:w-[340px]">
             <Pitch>
               {slots.map((s, i) => (
                 <button key={i} disabled={i === 0} onClick={() => setSel(sel === i ? null : i)}

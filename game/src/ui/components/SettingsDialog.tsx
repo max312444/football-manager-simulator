@@ -16,7 +16,7 @@ function Seg<T extends string | number>({ value, options, onChange }: { value: T
 }
 function Row({ label, hint, children }: { label: string; hint?: string; children: ReactNode }) {
   return (
-    <div className="flex items-center gap-4 py-2.5">
+    <div className="flex flex-col items-stretch gap-2 py-2.5 sm:flex-row sm:items-center sm:gap-4">
       <div className="min-w-0 flex-1"><div className="text-[13px]">{label}</div>{hint && <div className="text-[11px] text-lo">{hint}</div>}</div>
       {children}
     </div>
@@ -39,16 +39,16 @@ export function SettingsDialog({ onClose }: { onClose: () => void }) {
   const world = useGame((g) => g.world);
   const change = (c: Partial<Settings>) => { set(c); syncWorld(world, { ...s, ...c, popups: { ...s.popups, ...(c.popups ?? {}) } }); };
   return (
-    <div className="fixed inset-0 z-[90] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-6 backdrop-blur-sm" onClick={onClose}>
+    <div className="fixed inset-0 z-[90] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/85 p-2 sm:p-6 backdrop-blur-sm" onClick={onClose}>
       <div className="panel flex max-h-full w-full max-w-[680px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
-        <header className="flex items-center justify-between border-b border-line px-7 py-4">
+        <header className="flex items-center justify-between border-b border-line px-4 sm:px-7 py-4">
           <h2 className="text-[17px] font-semibold">설정</h2>
           <div className="flex items-center gap-4">
             <button onClick={() => { reset(); syncWorld(world, DEFAULT_SETTINGS); }} className="text-[12px] text-lo hover:text-hi">기본값으로</button>
             <button onClick={onClose} className="text-[13px] text-lo hover:text-hi">닫기</button>
           </div>
         </header>
-        <div className="space-y-6 overflow-auto px-7 py-5">
+        <div className="space-y-6 overflow-auto px-4 sm:px-7 py-5">
           <Section title="진행">
             <Row label="'계속'이 멈추는 곳" hint="중요한 일만: 큰 경기 · 이사회 · 기자회견 · 논란 · 부상 때만 멈추고 나머지 경기는 결과만">
               <Seg value={s.stopAt} options={[['match', '내 경기마다'], ['important', '중요한 일만'], ['window', '이적시장 · 시즌 끝']]} onChange={(v) => change({ stopAt: v })} />

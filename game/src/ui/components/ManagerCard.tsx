@@ -137,14 +137,14 @@ export function JobModal() {
   const pick = (c: string) => { managerChoose(c); useApp.getState().setTab('club'); };
   const str = (c: string) => { const top = w.clubs[c].squad.map((id) => overall(w.players[id])).sort((a, b) => b - a).slice(0, 11); return Math.round(top.reduce((a, b) => a + b, 0) / Math.max(1, top.length)); };
   return (
-    <div className="fixed inset-0 z-[70] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/90 p-6 backdrop-blur-sm">
+    <div className="fixed inset-0 z-[70] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/90 p-2 sm:p-6 backdrop-blur-sm">
       <div className="panel w-full max-w-[560px] overflow-hidden">
-        <div className="px-7 pt-7 pb-4">
+        <div className="px-4 sm:px-7 pt-7 pb-4">
           <div className="text-[12px] text-lo">{clubKo(w.userClubId)}</div>
           <h2 className="mt-1 text-[20px] font-semibold">{REASON[job.reason]}</h2>
           <div className="mt-1 text-[13px] text-mid">감독님을 원하는 구단이 있습니다. 새로 맡을 구단을 고르세요.</div>
         </div>
-        <div className="space-y-2 px-7 pb-7">
+        <div className="space-y-2 px-4 sm:px-7 pb-7">
           {job.clubs.map((c) => (
             <button key={c} onClick={() => pick(c)} className="flex w-full items-center gap-4 rounded-xl bg-ink-900 px-4 py-3 text-left transition-colors hover:bg-ink-800">
               <Crest clubId={c} size={32} />

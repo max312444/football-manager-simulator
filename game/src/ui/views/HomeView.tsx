@@ -64,7 +64,7 @@ export function HomeView() {
 
   return (
     <div className="h-full overflow-auto">
-      <div className="mx-auto flex max-w-[1440px] flex-col gap-6 p-6">
+      <div className="mx-auto flex max-w-[1440px] flex-col gap-4 p-3 lg:gap-6 lg:p-6">
         {next ? <NextMatch w={w} home={next.home} away={next.away} date={next.date} round={roundLabel(next)} fx={next} />
           : <section className="panel px-8 py-6 text-[15px]">시즌이 끝났습니다 · 최종 {pos}위 · 승점 {row.pts}</section>}
 
@@ -153,16 +153,16 @@ function NextMatch({ w, home, away, date, round, fx }: { w: World; home: string;
   const sh = strength(w, home), sa = strength(w, away);
   const d = new Date(date + 'T00:00:00');
   return (
-    <section className="panel relative grid grid-cols-1 items-center gap-6 overflow-hidden px-8 py-6 lg:grid-cols-[200px_1fr_240px]">
+    <section className="panel relative grid grid-cols-1 items-center gap-5 overflow-hidden px-4 py-5 sm:px-8 sm:py-6 lg:grid-cols-[200px_1fr_240px] lg:gap-6">
       <span className={`absolute top-0 bottom-0 left-0 w-1 ${COMP_TONE[k].bar}`} />
       <div>
         <div className="flex flex-wrap items-center gap-2 text-[12px] text-lo">다음 경기 <CompBadge f={fx} /> <span className={k === 'league' ? '' : COMP_TONE[k].text}>{round}</span></div>
         <div className="mt-2 text-[22px] font-semibold whitespace-nowrap">{d.getMonth() + 1}월 {d.getDate()}일 <span className="font-normal text-mid">{'일월화수목금토'[d.getDay()]}요일</span></div>
         <div className="mt-1 text-[13px] text-mid">{home === mine ? '홈 경기' : '원정 경기'}</div>
       </div>
-      <div className="flex items-center justify-center gap-6">
+      <div className="flex items-start justify-center gap-3 sm:items-center sm:gap-6">
         <Side club={home} w={w} align="right" />
-        <span className="text-[13px] text-lo">대</span>
+        <span className="mt-4 text-[13px] text-lo sm:mt-0">대</span>
         <Side club={away} w={w} align="left" />
       </div>
       <div>
@@ -184,11 +184,11 @@ function NextMatch({ w, home, away, date, round, fx }: { w: World; home: string;
 function Side({ club, w, align }: { club: string; w: World; align: 'left' | 'right' }) {
   const form = formOf(w, club);
   return (
-    <div className={`flex items-center gap-4 ${align === 'right' ? 'flex-row-reverse text-right' : ''}`}>
-      <Crest clubId={club} size={56} />
-      <div>
-        <div className="text-[18px] font-semibold whitespace-nowrap">{clubKo(club)}</div>
-        <div className={`mt-2 flex gap-1 ${align === 'right' ? 'justify-end' : ''}`}>
+    <div className={`flex min-w-0 flex-1 flex-col items-center gap-2 text-center sm:flex-none sm:gap-4 ${align === 'right' ? 'sm:flex-row-reverse sm:text-right' : 'sm:flex-row sm:text-left'}`}>
+      <Crest clubId={club} size={48} />
+      <div className="min-w-0">
+        <div className="text-[15px] leading-tight font-semibold break-keep sm:text-[18px] sm:whitespace-nowrap">{clubKo(club)}</div>
+        <div className={`mt-2 flex justify-center gap-1 ${align === 'right' ? 'sm:justify-end' : 'sm:justify-start'}`}>
           {form.length ? form.map((f, i) => <ResultDot key={i} r={f} />) : <span className="text-[12px] whitespace-nowrap text-lo">시즌 첫 경기</span>}
         </div>
       </div>

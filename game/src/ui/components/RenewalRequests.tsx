@@ -22,9 +22,9 @@ export function RenewalRequests() {
   const until = `${+w.season.slice(0, 4) + 1}-06-30`;
 
   return (
-    <div className="fixed inset-0 z-[48] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-6 backdrop-blur-sm">
-      <div className="panel flex max-h-[86vh] w-[680px] flex-col overflow-hidden">
-        <header className="border-b border-line px-7 py-5">
+    <div className="fixed inset-0 z-[48] grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-2 sm:p-6 backdrop-blur-sm">
+      <div className="panel flex max-h-[86vh] w-full max-w-[680px] flex-col overflow-hidden">
+        <header className="border-b border-line px-4 sm:px-7 py-5">
           <div className="flex items-center gap-2 text-[12px] font-semibold text-amber"><span className="h-2 w-2 rounded-full bg-amber" />재계약 요청</div>
           <h2 className="mt-2 text-[20px] font-semibold">{list.length ? `계약이 끝나는 선수 ${list.length}명이 재계약을 기다리고 있습니다` : '재계약 요청을 모두 처리했습니다'}</h2>
           <p className="mt-1 text-[13px] text-lo">불만이 없는 선수는 자동으로 재계약했습니다. 아래 선수는 직접 협상하지 않으면 {koDate(until)} 이후 자유계약(FA)으로 떠납니다.</p>
@@ -33,7 +33,7 @@ export function RenewalRequests() {
           {list.map(({ player, reason }) => {
             const p = w.players[player]; const o = overall(p);
             return (
-              <div key={player} className="flex items-center gap-4 px-7 py-4 shadow-[inset_0_-1px_0_var(--color-line)]">
+              <div key={player} className="flex items-center gap-4 px-4 sm:px-7 py-4 shadow-[inset_0_-1px_0_var(--color-line)]">
                 <span className={`tnum w-8 text-center text-[18px] font-semibold ${ratingTone(o)}`}>{o}</span>
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2 text-[14px] font-semibold"><PosTag pos={p.pos} />{playerKo(p.id, p.name)}<span className="text-[12px] font-normal text-lo">{ageOn(p.birth, w.date)}세 · 주급 {money(p.wage)}</span></div>
@@ -45,7 +45,7 @@ export function RenewalRequests() {
             );
           })}
         </div>
-        <footer className="flex items-center justify-between border-t border-line px-7 py-4">
+        <footer className="flex items-center justify-between border-t border-line px-4 sm:px-7 py-4">
           <span className="text-[12px] text-lo">나중에 선수단 화면에서도 재계약할 수 있습니다</span>
           <button onClick={clearRenewals} className="h-10 rounded-lg bg-ink-700 px-6 text-[14px] font-semibold text-hi hover:bg-ink-750">{list.length ? '나중에' : '닫기'}</button>
         </footer>

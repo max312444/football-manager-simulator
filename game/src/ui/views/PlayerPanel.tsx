@@ -108,7 +108,10 @@ function pressNotes(p: PlayerState): string[] {
   return out;
 }
 
-export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerState; age: number; ko: string; nation: string; actions?: ReactNode; club?: boolean }) {
+/**
+ * sheet: 좁은 화면에서는 선수를 눌렀을 때만 전체 화면 창으로 (닫기 버튼). 넓은 화면은 오른쪽 패널 그대로
+ */
+export function PlayerPanel({ p, age, ko, nation, actions, club, sheet }: { p: PlayerState; age: number; ko: string; nation: string; actions?: ReactNode; club?: boolean; sheet?: { open: boolean; onClose: () => void } }) {
   const w = useWorld();
   const [ovrLo, ovrHi] = seenOverall(w, p);
   const ovr = ovrLo;
@@ -117,7 +120,8 @@ export function PlayerPanel({ p, age, ko, nation, actions, club }: { p: PlayerSt
   const s = p.stats;
   const apps = s.apps + s.subApps;
   return (
-    <aside key={p.id} className="panel flex w-[340px] shrink-0 animate-[fade_0.25s_ease-out] flex-col overflow-hidden">
+    <aside key={p.id} className={`panel flex shrink-0 animate-[fade_0.25s_ease-out] flex-col overflow-hidden ${sheet ? `fixed inset-0 z-40 rounded-none border-0 pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] lg:static lg:z-auto lg:w-[340px] lg:rounded-xl lg:border lg:p-0 ${sheet.open ? '' : 'hidden lg:flex'}` : 'w-full lg:w-[340px]'}`}>
+      {sheet && <button onClick={sheet.onClose} className="flex h-11 shrink-0 items-center gap-2 border-b border-line px-4 text-[14px] text-mid lg:hidden">← 닫기</button>}
       <div className="relative overflow-hidden border-b border-line px-5 pt-5 pb-4">
         <div className="tnum pointer-events-none absolute -top-6 -right-2 text-[120px] leading-none font-semibold text-white/[0.03]">{p.number ?? ''}</div>
         <div className="flex items-start justify-between gap-3">

@@ -26,7 +26,7 @@ export function SeasonReportPanel() {
   const lgName = (id: string) => compKo(id) ?? id;
 
   return (
-    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-8 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/80 p-2 sm:p-8 backdrop-blur-sm">
       <div className="panel flex max-h-full w-full max-w-[960px] flex-col overflow-hidden">
         <header className="flex items-end justify-between border-b border-line px-8 py-6">
           <div>
