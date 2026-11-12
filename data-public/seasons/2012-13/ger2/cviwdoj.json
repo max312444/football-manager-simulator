@@ -77,6 +77,11 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -99,7 +104,7 @@
       "name": "Levan Kobieshvili",
       "nation": "GEO",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 9000
     },
     {
@@ -188,7 +193,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 54,
         "str": 58,
@@ -207,6 +212,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -241,7 +250,7 @@
         "ldr": 66,
         "pac": 76,
         "pas": 66,
-        "pos": 53,
+        "pos": 73,
         "sho": 77,
         "sta": 72,
         "str": 76,
@@ -261,18 +270,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 65,
-        "dri": 67,
-        "ldr": 61,
-        "pac": 64,
+        "aer": 55,
+        "com": 66,
+        "dri": 71,
+        "ldr": 59,
+        "pac": 67,
         "pas": 70,
-        "pos": 67,
-        "sho": 62,
-        "sta": 71,
-        "str": 64,
-        "tac": 66,
-        "vis": 70
+        "pos": 52,
+        "sho": 68,
+        "sta": 65,
+        "str": 59,
+        "tac": 48,
+        "vis": 72
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -283,7 +292,7 @@
       "nation": "TUN",
       "nation2": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14500
     },
     {
@@ -294,7 +303,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 67,
         "sta": 61,
         "str": 60,
@@ -314,19 +323,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
-        "com": 64,
+        "com": 72,
         "dri": 50,
         "ldr": 65,
         "pac": 59,
-        "pas": 59,
+        "pas": 67,
         "pos": 66,
         "sho": 40,
-        "sta": 62,
+        "sta": 70,
         "str": 65,
         "tac": 67,
-        "vis": 53
+        "vis": 61
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -336,10 +350,13 @@
       "name": "Runny",
       "nation": "BRA",
       "number": 12,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 7500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 60,
@@ -347,7 +364,7 @@
         "ldr": 57,
         "pac": 60,
         "pas": 57,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 58,
         "str": 59,
@@ -368,6 +385,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 63,
         "com": 69,
@@ -375,7 +396,7 @@
         "ldr": 57,
         "pac": 65,
         "pas": 57,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 61,
         "str": 66,
@@ -395,19 +416,22 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 66,
-        "dri": 68,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 71,
-        "pos": 63,
-        "sho": 64,
+        "dri": 64,
+        "ldr": 63,
+        "pac": 56,
+        "pas": 70,
+        "pos": 67,
+        "sho": 58,
         "sta": 67,
-        "str": 62,
-        "tac": 60,
-        "vis": 65
+        "str": 67,
+        "tac": 66,
+        "vis": 62
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -417,7 +441,7 @@
       "name": "Peter Nyemeyer",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11000
     },
     {
@@ -428,7 +452,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 56,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 56,
         "str": 62,
@@ -473,19 +497,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 62,
-        "ldr": 57,
-        "pac": 68,
-        "pas": 64,
-        "pos": 63,
-        "sho": 42,
-        "sta": 64,
-        "str": 58,
-        "tac": 64,
-        "vis": 54
+        "aer": 65,
+        "com": 64,
+        "dri": 52,
+        "ldr": 61,
+        "pac": 60,
+        "pas": 60,
+        "pos": 68,
+        "sho": 35,
+        "sta": 58,
+        "str": 66,
+        "tac": 67,
+        "vis": 48
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -495,10 +522,13 @@
       "name": "Felix Bastiens",
       "nation": "GER",
       "number": 22,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -526,18 +556,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 59,
-        "dri": 56,
-        "ldr": 58,
-        "pac": 66,
-        "pas": 59,
-        "pos": 58,
-        "sho": 42,
-        "sta": 65,
-        "str": 58,
-        "tac": 62,
-        "vis": 52
+        "aer": 65,
+        "com": 61,
+        "dri": 46,
+        "ldr": 62,
+        "pac": 58,
+        "pas": 55,
+        "pos": 63,
+        "sho": 35,
+        "sta": 59,
+        "str": 66,
+        "tac": 65,
+        "vis": 46
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -548,23 +578,23 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 25,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 5500
     },
     {
       "attrs": {
         "aer": 56,
-        "com": 66,
-        "dri": 63,
-        "ldr": 56,
-        "pac": 60,
-        "pas": 67,
+        "com": 62,
+        "dri": 61,
+        "ldr": 54,
+        "pac": 67,
+        "pas": 61,
         "pos": 59,
-        "sho": 56,
+        "sho": 42,
         "sta": 67,
-        "str": 61,
-        "tac": 58,
-        "vis": 66
+        "str": 60,
+        "tac": 62,
+        "vis": 57
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -574,23 +604,28 @@
       "name": "Nico Scholz",
       "nation": "GER",
       "number": 26,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 8500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 63,
+        "com": 68,
         "dri": 50,
         "ldr": 59,
         "pac": 56,
-        "pas": 57,
+        "pas": 62,
         "pos": 65,
         "sho": 34,
-        "sta": 60,
+        "sta": 65,
         "str": 64,
         "tac": 66,
-        "vis": 49
+        "vis": 54
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -601,24 +636,24 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 5500
     },
     {
       "alt": [],
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 71,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 69,
-        "pos": 66,
-        "sho": 64,
+        "dri": 63,
+        "ldr": 64,
+        "pac": 59,
+        "pas": 68,
+        "pos": 70,
+        "sho": 58,
         "sta": 72,
-        "str": 66,
-        "tac": 67,
-        "vis": 68
+        "str": 71,
+        "tac": 73,
+        "vis": 65
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -628,10 +663,13 @@
       "name": "Fabian Lustenbarger",
       "nation": "SUI",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -681,7 +719,7 @@
       "nation": "GER",
       "nation2": "IRN",
       "number": 31,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -692,7 +730,7 @@
         "ldr": 65,
         "pac": 65,
         "pas": 61,
-        "pos": 46,
+        "pos": 66,
         "sho": 72,
         "sta": 62,
         "str": 67,

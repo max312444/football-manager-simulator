@@ -31,7 +31,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 70,
-        "pos": 55,
+        "pos": 75,
         "sho": 84,
         "sta": 73,
         "str": 78,
@@ -84,7 +84,7 @@
         "ldr": 64,
         "pac": 73,
         "pas": 66,
-        "pos": 53,
+        "pos": 73,
         "sho": 74,
         "sta": 68,
         "str": 75,
@@ -104,6 +104,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,
@@ -130,6 +133,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 73,
@@ -211,19 +217,21 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 61,
-        "com": 66,
-        "dri": 63,
+        "aer": 68,
+        "com": 73,
+        "dri": 67,
         "ldr": 65,
-        "pac": 64,
+        "pac": 71,
         "pas": 73,
-        "pos": 67,
-        "sho": 65,
+        "pos": 74,
+        "sho": 72,
         "sta": 67,
-        "str": 60,
+        "str": 67,
         "tac": 66,
         "vis": 70
       },
@@ -235,7 +243,7 @@
       "name": "Ivica Iliav",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 16000
     },
     {
@@ -265,6 +273,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 63,
@@ -291,22 +302,19 @@
       "wage": 9000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 66,
-        "com": 61,
-        "dri": 53,
-        "ldr": 66,
-        "pac": 61,
-        "pas": 58,
-        "pos": 66,
-        "sho": 41,
-        "sta": 64,
-        "str": 68,
-        "tac": 69,
-        "vis": 54
+        "aer": 53,
+        "com": 59,
+        "dri": 63,
+        "ldr": 62,
+        "pac": 69,
+        "pas": 62,
+        "pos": 61,
+        "sho": 48,
+        "sta": 70,
+        "str": 60,
+        "tac": 66,
+        "vis": 60
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -316,10 +324,13 @@
       "name": "Alessandro Parysi",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 66,
@@ -353,7 +364,7 @@
         "ldr": 59,
         "pac": 67,
         "pas": 59,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 61,
         "str": 63,
@@ -373,6 +384,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -433,7 +447,7 @@
         "ldr": 55,
         "pac": 64,
         "pas": 56,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 58,
         "str": 63,
@@ -486,7 +500,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 66,
         "sta": 56,
         "str": 61,
@@ -533,21 +547,22 @@
     },
     {
       "alt": [
-        "RB"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 63,
-        "com": 55,
-        "dri": 49,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 50,
-        "pos": 66,
-        "sho": 36,
-        "sta": 59,
-        "str": 64,
-        "tac": 61,
-        "vis": 46
+        "aer": 50,
+        "com": 53,
+        "dri": 59,
+        "ldr": 52,
+        "pac": 65,
+        "pas": 54,
+        "pos": 61,
+        "sho": 43,
+        "sta": 65,
+        "str": 56,
+        "tac": 58,
+        "vis": 52
       },
       "birth": "1980-03-01",
       "contract": null,
@@ -557,10 +572,13 @@
       "name": "Rafeel",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 62,
@@ -588,6 +606,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -616,18 +637,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 52,
-        "dri": 40,
-        "ldr": 53,
-        "pac": 48,
-        "pas": 51,
-        "pos": 63,
-        "sho": 27,
-        "sta": 56,
-        "str": 60,
-        "tac": 62,
-        "vis": 41
+        "aer": 46,
+        "com": 50,
+        "dri": 50,
+        "ldr": 49,
+        "pac": 56,
+        "pas": 55,
+        "pos": 58,
+        "sho": 34,
+        "sta": 62,
+        "str": 52,
+        "tac": 59,
+        "vis": 47
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -637,7 +658,7 @@
       "name": "Salvatore D'Alteryo",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3000
     },
@@ -696,6 +717,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -783,7 +807,7 @@
         "ldr": 41,
         "pac": 52,
         "pas": 43,
-        "pos": 27,
+        "pos": 47,
         "sho": 51,
         "sta": 47,
         "str": 51,
@@ -803,6 +827,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 51,
@@ -836,7 +863,7 @@
         "ldr": 40,
         "pac": 45,
         "pas": 39,
-        "pos": 25,
+        "pos": 45,
         "sho": 48,
         "sta": 47,
         "str": 51,

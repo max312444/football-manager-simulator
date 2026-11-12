@@ -100,10 +100,14 @@
       "name": "Luca Antunelli",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -130,6 +134,11 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 78,
@@ -156,6 +165,10 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -182,19 +195,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 76,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 76,
-        "pos": 73,
-        "sho": 71,
-        "sta": 77,
-        "str": 73,
-        "tac": 71,
-        "vis": 78
+        "aer": 59,
+        "com": 74,
+        "dri": 79,
+        "ldr": 68,
+        "pac": 79,
+        "pas": 78,
+        "pos": 65,
+        "sho": 69,
+        "sta": 82,
+        "str": 70,
+        "tac": 67,
+        "vis": 79
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -205,10 +221,13 @@
       "name": "Antonio Candrava",
       "nation": "ITA",
       "number": 7,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 33500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -242,7 +261,7 @@
         "ldr": 71,
         "pac": 80,
         "pas": 70,
-        "pos": 52,
+        "pos": 72,
         "sho": 82,
         "sta": 70,
         "str": 79,
@@ -262,6 +281,9 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 75,
@@ -296,7 +318,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 64,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 68,
         "str": 69,
@@ -315,6 +337,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 74,
@@ -342,21 +367,21 @@
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 67,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 65,
-        "pas": 67,
-        "pos": 68,
-        "sho": 64,
+        "dri": 62,
+        "ldr": 65,
+        "pac": 62,
+        "pas": 66,
+        "pos": 72,
+        "sho": 58,
         "sta": 73,
-        "str": 63,
-        "tac": 61,
-        "vis": 70
+        "str": 68,
+        "tac": 67,
+        "vis": 67
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -366,10 +391,15 @@
       "name": "Danilo Pereyra",
       "nation": "POR",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 18500
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -397,18 +427,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 48,
         "com": 67,
-        "dri": 61,
+        "dri": 65,
         "ldr": 56,
-        "pac": 61,
-        "pas": 52,
-        "pos": 44,
-        "sho": 67,
+        "pac": 59,
+        "pas": 62,
+        "pos": 49,
+        "sho": 64,
         "sta": 62,
-        "str": 63,
-        "tac": 36,
-        "vis": 58
+        "str": 53,
+        "tac": 44,
+        "vis": 69
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -418,26 +448,27 @@
       "name": "Gabriele Paunessa",
       "nation": "ITA",
       "number": 19,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7500
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "LW"
       ],
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 70,
+        "aer": 71,
+        "com": 84,
+        "dri": 76,
         "ldr": 69,
-        "pac": 71,
-        "pas": 79,
-        "pos": 72,
-        "sho": 67,
+        "pac": 79,
+        "pas": 80,
+        "pos": 80,
+        "sho": 75,
         "sta": 74,
-        "str": 69,
+        "str": 77,
         "tac": 72,
-        "vis": 74
+        "vis": 75
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -448,10 +479,13 @@
       "name": "Sebastian Gyovinco",
       "nation": "ITA",
       "number": 21,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 33500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 57,
@@ -527,10 +561,14 @@
       "name": "Marco Pisanu",
       "nation": "ITA",
       "number": 26,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 12000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -611,19 +649,22 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 54,
+        "aer": 50,
+        "com": 62,
+        "dri": 64,
+        "ldr": 57,
+        "pac": 62,
         "pas": 62,
-        "pos": 62,
-        "sho": 52,
-        "sta": 63,
-        "str": 55,
-        "tac": 56,
-        "vis": 64
+        "pos": 54,
+        "sho": 50,
+        "sta": 66,
+        "str": 52,
+        "tac": 50,
+        "vis": 63
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -633,7 +674,7 @@
       "name": "Francesco Valiany",
       "nation": "ITA",
       "number": 80,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 8500
     },
     {
@@ -670,7 +711,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 70,
-        "pos": 50,
+        "pos": 70,
         "sho": 77,
         "sta": 72,
         "str": 77,

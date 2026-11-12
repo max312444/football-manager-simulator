@@ -51,9 +51,6 @@
       "wage": 99500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 67,
         "com": 69,
@@ -80,6 +77,9 @@
       "wage": 89000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 65,
@@ -107,18 +107,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 77,
-        "dri": 79,
-        "ldr": 76,
-        "pac": 74,
-        "pas": 82,
-        "pos": 78,
-        "sho": 71,
+        "dri": 75,
+        "ldr": 78,
+        "pac": 71,
+        "pas": 81,
+        "pos": 82,
+        "sho": 65,
         "sta": 77,
-        "str": 70,
-        "tac": 74,
-        "vis": 80
+        "str": 75,
+        "tac": 80,
+        "vis": 77
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -128,7 +128,7 @@
       "name": "Bryan Cristente",
       "nation": "ITA",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 158500
     },
     {
@@ -159,18 +159,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 76,
-        "dri": 76,
-        "ldr": 77,
-        "pac": 75,
+        "aer": 65,
+        "com": 77,
+        "dri": 80,
+        "ldr": 75,
+        "pac": 78,
         "pas": 81,
-        "pos": 75,
-        "sho": 70,
-        "sta": 84,
-        "str": 74,
-        "tac": 72,
-        "vis": 78
+        "pos": 60,
+        "sho": 76,
+        "sta": 78,
+        "str": 69,
+        "tac": 54,
+        "vis": 80
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -180,13 +180,10 @@
       "name": "Lorenzo Pellegriny",
       "nation": "ITA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 159000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 73,
         "com": 77,
@@ -220,7 +217,7 @@
         "ldr": 68,
         "pac": 80,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 80,
         "sta": 75,
         "str": 74,
@@ -246,7 +243,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 73,
-        "pos": 60,
+        "pos": 80,
         "sho": 80,
         "sta": 72,
         "str": 78,
@@ -272,7 +269,7 @@
         "ldr": 70,
         "pac": 74,
         "pas": 66,
-        "pos": 53,
+        "pos": 73,
         "sho": 78,
         "sta": 70,
         "str": 78,
@@ -291,19 +288,22 @@
       "wage": 74500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 68,
-        "dri": 53,
-        "ldr": 65,
-        "pac": 60,
-        "pas": 61,
-        "pos": 68,
-        "sho": 43,
-        "sta": 61,
-        "str": 73,
-        "tac": 72,
-        "vis": 53
+        "aer": 61,
+        "com": 66,
+        "dri": 63,
+        "ldr": 61,
+        "pac": 68,
+        "pas": 65,
+        "pos": 63,
+        "sho": 50,
+        "sta": 67,
+        "str": 65,
+        "tac": 69,
+        "vis": 59
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -313,10 +313,15 @@
       "name": "Matias Vyna",
       "nation": "URU",
       "number": 17,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 36500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 74,
@@ -343,6 +348,10 @@
       "wage": 117000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,
@@ -370,7 +379,11 @@
       "wage": 34500
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 86,
@@ -378,7 +391,7 @@
         "ldr": 75,
         "pac": 81,
         "pas": 71,
-        "pos": 61,
+        "pos": 81,
         "sho": 85,
         "sta": 76,
         "str": 83,
@@ -399,21 +412,22 @@
     },
     {
       "alt": [
-        "ST"
+        "RM",
+        "LM"
       ],
       "attrs": {
-        "aer": 59,
-        "com": 63,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 64,
+        "aer": 53,
+        "com": 64,
+        "dri": 70,
+        "ldr": 61,
+        "pac": 67,
         "pas": 68,
-        "pos": 62,
-        "sho": 60,
-        "sta": 68,
-        "str": 61,
-        "tac": 62,
-        "vis": 68
+        "pos": 47,
+        "sho": 66,
+        "sta": 62,
+        "str": 56,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -423,7 +437,7 @@
       "name": "Nicolo Zaniolu",
       "nation": "ITA",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 41000
     },
     {
@@ -479,6 +493,10 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 80,
@@ -506,22 +524,19 @@
       "wage": 159000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 84,
-        "com": 77,
-        "dri": 64,
-        "ldr": 74,
-        "pac": 70,
-        "pas": 70,
-        "pos": 81,
-        "sho": 50,
-        "sta": 78,
-        "str": 81,
-        "tac": 85,
-        "vis": 64
+        "aer": 71,
+        "com": 75,
+        "dri": 74,
+        "ldr": 70,
+        "pac": 78,
+        "pas": 74,
+        "pos": 76,
+        "sho": 57,
+        "sta": 84,
+        "str": 73,
+        "tac": 82,
+        "vis": 70
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -531,10 +546,13 @@
       "name": "Leonardo Spinazzole",
       "nation": "ITA",
       "number": 37,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 120500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -562,18 +580,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 61,
-        "dri": 55,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 61,
-        "pos": 57,
-        "sho": 53,
+        "dri": 51,
+        "ldr": 59,
+        "pac": 48,
+        "pas": 60,
+        "pos": 61,
+        "sho": 47,
         "sta": 60,
-        "str": 56,
-        "tac": 58,
-        "vis": 59
+        "str": 61,
+        "tac": 64,
+        "vis": 56
       },
       "birth": "2001-06-01",
       "contract": null,
@@ -583,23 +601,27 @@
       "name": "Ebrima Darbue",
       "nation": "GAM",
       "number": 55,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 18500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 57,
+        "aer": 48,
+        "com": 65,
+        "dri": 67,
+        "ldr": 55,
+        "pac": 72,
         "pas": 67,
-        "pos": 58,
-        "sho": 58,
-        "sta": 63,
-        "str": 55,
-        "tac": 58,
-        "vis": 61
+        "pos": 65,
+        "sho": 64,
+        "sta": 72,
+        "str": 72,
+        "tac": 62,
+        "vis": 63
       },
       "birth": "2002-01-01",
       "contract": null,
@@ -609,7 +631,7 @@
       "name": "Nicola Zalewsky",
       "nation": "POL",
       "number": 59,
-      "pos": "CM",
+      "pos": "LWB",
       "wage": 26000
     },
     {
@@ -639,19 +661,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 36,
+        "aer": 42,
         "com": 52,
-        "dri": 49,
-        "ldr": 48,
-        "pac": 44,
-        "pas": 53,
-        "pos": 47,
-        "sho": 42,
+        "dri": 45,
+        "ldr": 50,
+        "pac": 41,
+        "pas": 52,
+        "pos": 51,
+        "sho": 36,
         "sta": 53,
-        "str": 42,
-        "tac": 46,
-        "vis": 52
+        "str": 47,
+        "tac": 52,
+        "vis": 49
       },
       "birth": "2002-01-01",
       "contract": null,
@@ -661,7 +686,7 @@
       "name": "Filippo Trypi",
       "nation": "ITA",
       "number": 65,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
@@ -688,7 +713,7 @@
       "nation": "ITA",
       "nation2": "EGY",
       "number": 92,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 128500
     },
     {
@@ -720,18 +745,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 75,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 73,
+        "aer": 58,
+        "com": 76,
+        "dri": 77,
+        "ldr": 69,
+        "pac": 76,
         "pas": 80,
-        "pos": 74,
-        "sho": 70,
-        "sta": 78,
-        "str": 69,
-        "tac": 71,
-        "vis": 76
+        "pos": 59,
+        "sho": 76,
+        "sta": 72,
+        "str": 64,
+        "tac": 53,
+        "vis": 78
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -741,27 +766,27 @@
       "name": "Ante Coryc",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 116000
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "AM",
+        "LW"
       ],
       "attrs": {
-        "aer": 65,
-        "com": 67,
-        "dri": 69,
-        "ldr": 62,
-        "pac": 66,
-        "pas": 63,
-        "pos": 46,
-        "sho": 70,
-        "sta": 61,
-        "str": 66,
-        "tac": 36,
-        "vis": 63
+        "aer": 51,
+        "com": 64,
+        "dri": 74,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 69,
+        "pos": 48,
+        "sho": 65,
+        "sta": 63,
+        "str": 56,
+        "tac": 42,
+        "vis": 69
       },
       "birth": "1999-05-01",
       "contract": null,
@@ -772,7 +797,7 @@
       "nation": "NED",
       "nation2": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 31000
     },
     {

@@ -156,6 +156,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -182,6 +187,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -215,7 +223,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 45,
-        "pos": 32,
+        "pos": 52,
         "sho": 61,
         "sta": 54,
         "str": 57,
@@ -236,18 +244,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 69,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 68,
-        "pas": 74,
-        "pos": 69,
-        "sho": 68,
-        "sta": 77,
-        "str": 67,
-        "tac": 69,
-        "vis": 73
+        "aer": 55,
+        "com": 67,
+        "dri": 73,
+        "ldr": 62,
+        "pac": 77,
+        "pas": 70,
+        "pos": 51,
+        "sho": 72,
+        "sta": 73,
+        "str": 62,
+        "tac": 49,
+        "vis": 70
       },
       "birth": "1979-02-01",
       "contract": null,
@@ -257,7 +265,7 @@
       "name": "Mirko Hrgovyc",
       "nation": "BIH",
       "number": 13,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 7500
     },
     {
@@ -287,6 +295,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -315,21 +326,22 @@
     },
     {
       "alt": [
-        "RB"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 61,
+        "aer": 53,
+        "com": 70,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 64,
         "pas": 68,
-        "pos": 65,
-        "sho": 59,
-        "sta": 65,
-        "str": 62,
-        "tac": 60,
-        "vis": 68
+        "pos": 50,
+        "sho": 65,
+        "sta": 59,
+        "str": 57,
+        "tac": 42,
+        "vis": 70
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -340,10 +352,13 @@
       "nation": "GER",
       "nation2": "PHI",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -397,18 +412,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 53,
+        "aer": 52,
+        "com": 54,
         "dri": 50,
-        "ldr": 49,
-        "pac": 50,
-        "pas": 52,
+        "ldr": 47,
+        "pac": 55,
+        "pas": 42,
         "pos": 54,
-        "sho": 47,
-        "sta": 55,
-        "str": 45,
-        "tac": 51,
-        "vis": 55
+        "sho": 56,
+        "sta": 49,
+        "str": 50,
+        "tac": 25,
+        "vis": 46
       },
       "birth": "1985-10-01",
       "contract": null,
@@ -418,7 +433,7 @@
       "name": "Sebastian Ghasemi-Nobekht",
       "nation": "GER",
       "number": 21,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2500
     },
     {
@@ -429,7 +444,7 @@
         "ldr": 52,
         "pac": 61,
         "pas": 49,
-        "pos": 37,
+        "pos": 57,
         "sho": 61,
         "sta": 56,
         "str": 57,
@@ -450,18 +465,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 54,
-        "dri": 56,
-        "ldr": 51,
-        "pac": 53,
-        "pas": 54,
-        "pos": 54,
-        "sho": 52,
+        "dri": 52,
+        "ldr": 53,
+        "pac": 50,
+        "pas": 53,
+        "pos": 58,
+        "sho": 46,
         "sta": 57,
-        "str": 52,
-        "tac": 48,
-        "vis": 56
+        "str": 57,
+        "tac": 54,
+        "vis": 53
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -471,23 +486,28 @@
       "name": "Ante Serdarosic",
       "nation": "BIH",
       "number": 25,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 63,
-        "dri": 49,
-        "ldr": 66,
-        "pac": 57,
-        "pas": 57,
-        "pos": 69,
-        "sho": 38,
-        "sta": 62,
-        "str": 70,
-        "tac": 72,
-        "vis": 55
+        "aer": 53,
+        "com": 61,
+        "dri": 59,
+        "ldr": 62,
+        "pac": 65,
+        "pas": 61,
+        "pos": 64,
+        "sho": 45,
+        "sta": 68,
+        "str": 62,
+        "tac": 69,
+        "vis": 61
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -497,10 +517,13 @@
       "name": "Christian Rehn",
       "nation": "GER",
       "number": 30,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -528,21 +551,21 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 43,
-        "com": 54,
-        "dri": 54,
-        "ldr": 48,
-        "pac": 52,
-        "pas": 54,
-        "pos": 50,
-        "sho": 47,
-        "sta": 59,
-        "str": 52,
-        "tac": 48,
-        "vis": 56
+        "aer": 37,
+        "com": 52,
+        "dri": 59,
+        "ldr": 44,
+        "pac": 61,
+        "pas": 50,
+        "pos": 32,
+        "sho": 51,
+        "sta": 55,
+        "str": 47,
+        "tac": 28,
+        "vis": 53
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -553,7 +576,7 @@
       "nation": "GER",
       "nation2": "ESP",
       "number": 36,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 2500
     }
   ],

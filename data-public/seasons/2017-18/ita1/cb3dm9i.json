@@ -51,6 +51,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -103,6 +106,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -129,6 +135,9 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 70,
@@ -162,7 +171,7 @@
         "ldr": 69,
         "pac": 76,
         "pas": 66,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 69,
         "str": 75,
@@ -182,18 +191,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 79,
-        "dri": 74,
+        "aer": 57,
+        "com": 80,
+        "dri": 78,
         "ldr": 69,
-        "pac": 79,
-        "pas": 67,
-        "pos": 57,
-        "sho": 76,
+        "pac": 77,
+        "pas": 78,
+        "pos": 62,
+        "sho": 74,
         "sta": 70,
-        "str": 77,
-        "tac": 48,
-        "vis": 65
+        "str": 67,
+        "tac": 56,
+        "vis": 77
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -203,23 +212,27 @@
       "name": "Adem Ljejic",
       "nation": "SRB",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 46500
     },
     {
+      "alt": [
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 74,
         "com": 77,
-        "dri": 71,
+        "dri": 77,
         "ldr": 73,
-        "pac": 79,
-        "pas": 65,
-        "pos": 56,
+        "pac": 85,
+        "pas": 71,
+        "pos": 76,
         "sho": 79,
         "sta": 69,
         "str": 78,
         "tac": 43,
-        "vis": 71
+        "vis": 77
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -229,10 +242,13 @@
       "name": "Iago Falqua",
       "nation": "ESP",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 48000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 65,
@@ -259,6 +275,10 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 68,
@@ -285,19 +305,22 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 55,
-        "dri": 54,
-        "ldr": 46,
-        "pac": 57,
-        "pas": 49,
-        "pos": 34,
-        "sho": 60,
-        "sta": 50,
-        "str": 56,
-        "tac": 22,
-        "vis": 44
+        "aer": 41,
+        "com": 52,
+        "dri": 59,
+        "ldr": 44,
+        "pac": 61,
+        "pas": 55,
+        "pos": 36,
+        "sho": 55,
+        "sta": 52,
+        "str": 46,
+        "tac": 28,
+        "vis": 50
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -307,12 +330,13 @@
       "name": "Simone Edara",
       "nation": "ITA",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4500
     },
     {
       "alt": [
-        "ST"
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 45,
@@ -340,6 +364,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 77,
@@ -388,23 +415,23 @@
       "name": "Antonio Barrece",
       "nation": "ITA",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 21000
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 63,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 70,
-        "pas": 66,
-        "pos": 69,
-        "sho": 47,
-        "sta": 71,
-        "str": 65,
-        "tac": 72,
-        "vis": 61
+        "aer": 71,
+        "com": 65,
+        "dri": 56,
+        "ldr": 71,
+        "pac": 62,
+        "pas": 62,
+        "pos": 74,
+        "sho": 40,
+        "sta": 65,
+        "str": 73,
+        "tac": 75,
+        "vis": 55
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -414,7 +441,7 @@
       "name": "Emiliano Moratti",
       "nation": "ITA",
       "number": 24,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 27000
     },
     {
@@ -451,7 +478,7 @@
         "ldr": 59,
         "pac": 63,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 58,
         "str": 65,
@@ -497,18 +524,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 74,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 78,
-        "pas": 74,
-        "pos": 75,
-        "sho": 57,
-        "sta": 81,
-        "str": 70,
-        "tac": 78,
-        "vis": 68
+        "aer": 79,
+        "com": 76,
+        "dri": 65,
+        "ldr": 77,
+        "pac": 70,
+        "pas": 70,
+        "pos": 80,
+        "sho": 50,
+        "sta": 75,
+        "str": 78,
+        "tac": 81,
+        "vis": 62
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -519,7 +546,7 @@
       "name": "Nicolas Nkouloo",
       "nation": "CMR",
       "number": 33,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 61500
     },
     {
@@ -550,18 +577,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 73,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 67,
-        "pas": 74,
-        "pos": 75,
-        "sho": 65,
+        "dri": 70,
+        "ldr": 75,
+        "pac": 64,
+        "pas": 73,
+        "pos": 79,
+        "sho": 59,
         "sta": 76,
-        "str": 69,
-        "tac": 71,
-        "vis": 74
+        "str": 74,
+        "tac": 77,
+        "vis": 71
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -572,7 +599,7 @@
       "name": "Tomas Rincun",
       "nation": "VEN",
       "number": 88,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 58000
     },
     {
@@ -609,7 +636,7 @@
         "ldr": 57,
         "pac": 60,
         "pas": 56,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 59,
         "str": 59,
@@ -629,6 +656,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 73,
@@ -663,7 +693,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 67,
-        "pos": 50,
+        "pos": 70,
         "sho": 79,
         "sta": 68,
         "str": 72,
@@ -684,9 +714,6 @@
       "wage": 35000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 73,
         "com": 73,

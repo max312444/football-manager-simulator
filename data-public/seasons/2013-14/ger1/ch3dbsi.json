@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 75,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 79,
-        "pos": 76,
-        "sho": 68,
+        "dri": 71,
+        "ldr": 74,
+        "pac": 65,
+        "pas": 78,
+        "pos": 80,
+        "sho": 62,
         "sta": 75,
-        "str": 68,
-        "tac": 69,
-        "vis": 79
+        "str": 73,
+        "tac": 75,
+        "vis": 76
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -99,23 +99,26 @@
       "name": "Sebastian Kahl",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 125500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 79,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 73,
-        "pas": 78,
-        "pos": 74,
-        "sho": 67,
+        "dri": 70,
+        "ldr": 73,
+        "pac": 70,
+        "pas": 77,
+        "pos": 78,
+        "sho": 61,
         "sta": 77,
-        "str": 70,
-        "tac": 75,
-        "vis": 77
+        "str": 75,
+        "tac": 81,
+        "vis": 74
       },
       "birth": "1989-04-01",
       "contract": null,
@@ -125,23 +128,23 @@
       "name": "Sven Bander",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 140500
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 66,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 67,
-        "pas": 72,
-        "pos": 66,
-        "sho": 63,
-        "sta": 71,
-        "str": 67,
-        "tac": 62,
-        "vis": 71
+        "aer": 50,
+        "com": 64,
+        "dri": 73,
+        "ldr": 62,
+        "pac": 76,
+        "pas": 68,
+        "pos": 48,
+        "sho": 67,
+        "sta": 67,
+        "str": 62,
+        "tac": 42,
+        "vis": 68
       },
       "birth": "1992-07-01",
       "contract": null,
@@ -151,10 +154,13 @@
       "name": "Jonas Hofmenn",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 60500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 74,
@@ -188,7 +194,7 @@
         "ldr": 73,
         "pac": 81,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 86,
         "sta": 78,
         "str": 81,
@@ -207,19 +213,23 @@
       "wage": 160500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 77,
-        "dri": 80,
-        "ldr": 76,
-        "pac": 75,
+        "aer": 60,
+        "com": 78,
+        "dri": 84,
+        "ldr": 74,
+        "pac": 78,
         "pas": 80,
-        "pos": 80,
-        "sho": 76,
-        "sta": 78,
-        "str": 77,
-        "tac": 75,
-        "vis": 78
+        "pos": 65,
+        "sho": 82,
+        "sta": 72,
+        "str": 72,
+        "tac": 57,
+        "vis": 80
       },
       "birth": "1989-01-01",
       "contract": null,
@@ -229,12 +239,14 @@
       "name": "Henrikh Mkhiteryan",
       "nation": "ARM",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 189500
     },
     {
       "alt": [
-        "CM"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 62,
@@ -288,19 +300,22 @@
       "wage": 144500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 82,
-        "dri": 80,
-        "ldr": 74,
-        "pac": 78,
-        "pas": 81,
-        "pos": 77,
-        "sho": 75,
-        "sta": 81,
-        "str": 73,
-        "tac": 79,
-        "vis": 84
+        "aer": 62,
+        "com": 80,
+        "dri": 85,
+        "ldr": 70,
+        "pac": 87,
+        "pas": 77,
+        "pos": 59,
+        "sho": 79,
+        "sta": 77,
+        "str": 68,
+        "tac": 59,
+        "vis": 81
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -310,7 +325,7 @@
       "name": "Jakub Blaszczikowski",
       "nation": "POL",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 189500
     },
     {
@@ -321,7 +336,7 @@
         "ldr": 75,
         "pac": 81,
         "pas": 72,
-        "pos": 59,
+        "pos": 79,
         "sho": 84,
         "sta": 76,
         "str": 77,
@@ -341,6 +356,9 @@
       "wage": 129000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 78,
@@ -369,19 +387,23 @@
       "wage": 179500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 76,
-        "dri": 74,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 78,
+        "com": 72,
+        "dri": 72,
+        "ldr": 66,
+        "pac": 75,
+        "pas": 72,
         "pos": 75,
-        "sho": 71,
+        "sho": 57,
         "sta": 77,
-        "str": 67,
-        "tac": 71,
-        "vis": 75
+        "str": 66,
+        "tac": 75,
+        "vis": 66
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -391,7 +413,7 @@
       "name": "Kevin Grusskreutz",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 117500
     },
     {
@@ -421,6 +443,11 @@
       "wage": 88500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -454,7 +481,7 @@
         "ldr": 63,
         "pac": 75,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 68,
         "str": 69,
@@ -576,7 +603,7 @@
       "name": "Marcel Schmelzar",
       "nation": "GER",
       "number": 29,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 131500
     },
     {
@@ -640,7 +667,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 59,
-        "pos": 41,
+        "pos": 61,
         "sho": 68,
         "sta": 64,
         "str": 66,
@@ -659,19 +686,22 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 67,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 61,
-        "pas": 72,
+        "com": 63,
+        "dri": 64,
+        "ldr": 65,
+        "pac": 68,
+        "pas": 66,
         "pos": 70,
-        "sho": 63,
+        "sho": 49,
         "sta": 73,
-        "str": 65,
-        "tac": 63,
-        "vis": 67
+        "str": 64,
+        "tac": 67,
+        "vis": 58
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -681,7 +711,7 @@
       "name": "Erik Dorm",
       "nation": "GER",
       "number": 37,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 58000
     }
   ],

@@ -104,7 +104,7 @@
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 80,
@@ -132,6 +132,9 @@
       "wage": 97000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 78,
@@ -165,7 +168,7 @@
         "ldr": 70,
         "pac": 74,
         "pas": 71,
-        "pos": 53,
+        "pos": 73,
         "sho": 82,
         "sta": 75,
         "str": 76,
@@ -184,6 +187,9 @@
       "wage": 91500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 73,
@@ -217,7 +223,7 @@
         "ldr": 70,
         "pac": 81,
         "pas": 68,
-        "pos": 53,
+        "pos": 73,
         "sho": 78,
         "sta": 73,
         "str": 77,
@@ -236,6 +242,9 @@
       "wage": 96000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -262,19 +271,23 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 63,
-        "dri": 59,
-        "ldr": 52,
-        "pac": 59,
-        "pas": 55,
-        "pos": 40,
-        "sho": 63,
-        "sta": 57,
-        "str": 61,
-        "tac": 34,
-        "vis": 52
+        "aer": 43,
+        "com": 60,
+        "dri": 64,
+        "ldr": 50,
+        "pac": 63,
+        "pas": 61,
+        "pos": 42,
+        "sho": 58,
+        "sta": 59,
+        "str": 51,
+        "tac": 40,
+        "vis": 58
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -285,7 +298,7 @@
       "nation": "FRA",
       "nation2": "COM",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15500
     },
     {
@@ -315,6 +328,11 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 66,
@@ -348,7 +366,7 @@
         "ldr": 72,
         "pac": 76,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 80,
         "sta": 73,
         "str": 76,
@@ -369,8 +387,7 @@
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 80,
@@ -399,18 +416,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 64,
-        "dri": 64,
-        "ldr": 58,
-        "pac": 62,
-        "pas": 68,
-        "pos": 65,
-        "sho": 59,
+        "dri": 60,
+        "ldr": 60,
+        "pac": 59,
+        "pas": 67,
+        "pos": 69,
+        "sho": 53,
         "sta": 64,
-        "str": 59,
-        "tac": 61,
-        "vis": 67
+        "str": 64,
+        "tac": 67,
+        "vis": 64
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -420,10 +437,15 @@
       "name": "Santiago Ascacybar",
       "nation": "ARG",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 39000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 76,
         "com": 78,
@@ -431,7 +453,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 82,
         "sta": 74,
         "str": 80,
@@ -472,7 +494,7 @@
       "name": "Marvin Plattanhardt",
       "nation": "GER",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 119000
     },
     {
@@ -502,19 +524,23 @@
       "wage": 52000
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 70,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 66,
-        "pas": 62,
-        "pos": 44,
-        "sho": 75,
-        "sta": 65,
-        "str": 68,
-        "tac": 39,
-        "vis": 63
+        "aer": 53,
+        "com": 67,
+        "dri": 71,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 68,
+        "pos": 46,
+        "sho": 70,
+        "sta": 67,
+        "str": 58,
+        "tac": 45,
+        "vis": 69
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -524,7 +550,7 @@
       "name": "Marco Richtar",
       "nation": "GER",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 38000
     },
     {
@@ -555,6 +581,8 @@
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -584,6 +612,9 @@
       "wage": 119000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -610,19 +641,22 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 57,
-        "dri": 53,
-        "ldr": 53,
-        "pac": 56,
-        "pas": 47,
-        "pos": 36,
-        "sho": 56,
-        "sta": 50,
-        "str": 57,
-        "tac": 26,
-        "vis": 45
+        "aer": 37,
+        "com": 54,
+        "dri": 58,
+        "ldr": 51,
+        "pac": 60,
+        "pas": 53,
+        "pos": 38,
+        "sho": 51,
+        "sta": 52,
+        "str": 47,
+        "tac": 32,
+        "vis": 51
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -633,7 +667,7 @@
       "nation": "POL",
       "nation2": "GER",
       "number": 30,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8500
     },
     {
@@ -697,7 +731,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 47,
-        "pos": 30,
+        "pos": 50,
         "sho": 59,
         "sta": 52,
         "str": 58,
@@ -723,7 +757,7 @@
         "ldr": 43,
         "pac": 50,
         "pas": 40,
-        "pos": 28,
+        "pos": 48,
         "sho": 55,
         "sta": 45,
         "str": 50,
@@ -742,6 +776,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 48,
@@ -768,6 +805,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 44,
@@ -795,18 +835,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 56,
-        "dri": 48,
-        "ldr": 60,
-        "pac": 51,
-        "pas": 53,
-        "pos": 63,
-        "sho": 33,
-        "sta": 57,
-        "str": 58,
-        "tac": 64,
-        "vis": 47
+        "aer": 47,
+        "com": 54,
+        "dri": 58,
+        "ldr": 56,
+        "pac": 59,
+        "pas": 57,
+        "pos": 58,
+        "sho": 40,
+        "sta": 63,
+        "str": 50,
+        "tac": 61,
+        "vis": 53
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -816,7 +856,7 @@
       "name": "Deyovaisio Zeefoik",
       "nation": "NED",
       "number": 42,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 15000
     }
   ],

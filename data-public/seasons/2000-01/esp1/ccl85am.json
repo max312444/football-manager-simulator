@@ -31,7 +31,7 @@
         "ldr": 73,
         "pac": 74,
         "pas": 66,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 76,
         "str": 78,
@@ -50,19 +50,24 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 79,
-        "dri": 71,
-        "ldr": 71,
-        "pac": 70,
+        "aer": 59,
+        "com": 80,
+        "dri": 75,
+        "ldr": 69,
+        "pac": 73,
         "pas": 79,
-        "pos": 75,
-        "sho": 73,
-        "sta": 75,
-        "str": 71,
-        "tac": 75,
-        "vis": 78
+        "pos": 60,
+        "sho": 79,
+        "sta": 69,
+        "str": 66,
+        "tac": 57,
+        "vis": 80
       },
       "birth": "1971-06-01",
       "contract": null,
@@ -72,7 +77,7 @@
       "name": "Jose Amavisce",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 24500
     },
     {
@@ -83,7 +88,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 66,
-        "pos": 53,
+        "pos": 73,
         "sho": 82,
         "sta": 73,
         "str": 75,
@@ -109,7 +114,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 64,
-        "pos": 54,
+        "pos": 74,
         "sho": 81,
         "sta": 73,
         "str": 73,
@@ -190,7 +195,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 64,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 67,
         "str": 74,
@@ -217,7 +222,7 @@
         "ldr": 68,
         "pac": 68,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 66,
         "str": 71,
@@ -237,18 +242,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 68,
-        "dri": 56,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 66,
-        "pos": 77,
-        "sho": 44,
-        "sta": 68,
-        "str": 71,
-        "tac": 72,
-        "vis": 55
+        "aer": 60,
+        "com": 66,
+        "dri": 66,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 70,
+        "pos": 72,
+        "sho": 51,
+        "sta": 74,
+        "str": 63,
+        "tac": 69,
+        "vis": 61
       },
       "birth": "1972-12-01",
       "contract": null,
@@ -258,23 +263,26 @@
       "name": "Washington Teis",
       "nation": "URU",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 13000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 71,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 72,
-        "pos": 65,
-        "sho": 67,
-        "sta": 69,
-        "str": 64,
-        "tac": 64,
-        "vis": 70
+        "aer": 54,
+        "com": 69,
+        "dri": 73,
+        "ldr": 62,
+        "pac": 71,
+        "pas": 68,
+        "pos": 47,
+        "sho": 71,
+        "sta": 65,
+        "str": 59,
+        "tac": 44,
+        "vis": 67
       },
       "birth": "1978-09-01",
       "contract": null,
@@ -284,24 +292,24 @@
       "name": "Mario Regoeiro",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 15000
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 65,
-        "dri": 58,
-        "ldr": 70,
-        "pac": 66,
-        "pas": 64,
-        "pos": 70,
-        "sho": 43,
-        "sta": 65,
-        "str": 72,
-        "tac": 70,
-        "vis": 56
+        "aer": 61,
+        "com": 63,
+        "dri": 68,
+        "ldr": 66,
+        "pac": 74,
+        "pas": 68,
+        "pos": 65,
+        "sho": 50,
+        "sta": 71,
+        "str": 64,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -311,10 +319,13 @@
       "name": "Syetes",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -348,7 +359,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 61,
-        "pos": 48,
+        "pos": 68,
         "sho": 74,
         "sta": 62,
         "str": 68,
@@ -368,6 +379,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -394,6 +408,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 68,
@@ -420,6 +437,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -448,18 +468,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 64,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 71,
-        "pos": 63,
-        "sho": 62,
+        "dri": 57,
+        "ldr": 63,
+        "pac": 58,
+        "pas": 70,
+        "pos": 67,
+        "sho": 56,
         "sta": 70,
-        "str": 59,
-        "tac": 61,
-        "vis": 66
+        "str": 64,
+        "tac": 67,
+        "vis": 63
       },
       "birth": "1973-03-01",
       "contract": null,
@@ -469,11 +489,14 @@
       "name": "Jaime Sanchaz",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 66,
@@ -527,6 +550,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 64,
@@ -554,18 +580,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 60,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 58,
+        "aer": 49,
+        "com": 61,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 61,
         "pas": 65,
-        "pos": 64,
-        "sho": 57,
-        "sta": 67,
-        "str": 58,
-        "tac": 61,
-        "vis": 62
+        "pos": 49,
+        "sho": 63,
+        "sta": 61,
+        "str": 53,
+        "tac": 43,
+        "vis": 64
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -575,7 +601,7 @@
       "name": "Angel Vivar Doredo",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7500
     },
     {
@@ -586,7 +612,7 @@
         "ldr": 58,
         "pac": 63,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 58,
         "str": 61,
@@ -606,6 +632,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 62,
@@ -634,19 +663,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 59,
-        "dri": 59,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 66,
-        "pos": 60,
-        "sho": 53,
+        "dri": 55,
+        "ldr": 62,
+        "pac": 57,
+        "pas": 65,
+        "pos": 64,
+        "sho": 47,
         "sta": 65,
-        "str": 58,
-        "tac": 61,
-        "vis": 61
+        "str": 63,
+        "tac": 67,
+        "vis": 58
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -657,7 +689,7 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 7000
     },

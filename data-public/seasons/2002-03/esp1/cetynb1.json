@@ -24,9 +24,6 @@
   },
   "squad": [
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 70,
         "com": 84,
@@ -60,7 +57,7 @@
         "ldr": 80,
         "pac": 88,
         "pas": 78,
-        "pos": 65,
+        "pos": 85,
         "sho": 85,
         "sta": 84,
         "str": 83,
@@ -80,19 +77,22 @@
       "wage": 112500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 85,
-        "dri": 82,
-        "ldr": 81,
-        "pac": 81,
-        "pas": 82,
-        "pos": 81,
-        "sho": 77,
-        "sta": 87,
-        "str": 75,
-        "tac": 80,
-        "vis": 87
+        "aer": 69,
+        "com": 83,
+        "dri": 87,
+        "ldr": 77,
+        "pac": 90,
+        "pas": 78,
+        "pos": 63,
+        "sho": 81,
+        "sta": 83,
+        "str": 70,
+        "tac": 60,
+        "vis": 84
       },
       "birth": "1972-11-01",
       "contract": null,
@@ -102,7 +102,7 @@
       "name": "Luis Figu",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 112500
     },
@@ -129,7 +129,7 @@
       "name": "Roberto Cerlos",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 105500
     },
     {
@@ -140,7 +140,7 @@
         "ldr": 76,
         "pac": 81,
         "pas": 76,
-        "pos": 57,
+        "pos": 77,
         "sho": 86,
         "sta": 80,
         "str": 80,
@@ -159,9 +159,6 @@
       "wage": 78500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 77,
         "com": 79,
@@ -196,7 +193,7 @@
         "ldr": 73,
         "pac": 82,
         "pas": 74,
-        "pos": 56,
+        "pos": 76,
         "sho": 85,
         "sta": 77,
         "str": 83,
@@ -215,22 +212,19 @@
       "wage": 67000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 81,
-        "com": 78,
-        "dri": 63,
-        "ldr": 80,
-        "pac": 77,
-        "pas": 71,
-        "pos": 86,
-        "sho": 56,
-        "sta": 73,
-        "str": 84,
-        "tac": 85,
-        "vis": 67
+        "aer": 68,
+        "com": 76,
+        "dri": 73,
+        "ldr": 76,
+        "pac": 85,
+        "pas": 75,
+        "pos": 81,
+        "sho": 63,
+        "sta": 79,
+        "str": 76,
+        "tac": 82,
+        "vis": 73
       },
       "birth": "1975-10-01",
       "contract": null,
@@ -240,23 +234,23 @@
       "name": "Michel Salgedo",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 78000
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 78,
-        "dri": 76,
-        "ldr": 77,
-        "pac": 76,
+        "aer": 62,
+        "com": 79,
+        "dri": 80,
+        "ldr": 75,
+        "pac": 79,
         "pas": 79,
-        "pos": 80,
-        "sho": 74,
-        "sta": 79,
-        "str": 74,
-        "tac": 72,
-        "vis": 80
+        "pos": 65,
+        "sho": 80,
+        "sta": 73,
+        "str": 69,
+        "tac": 54,
+        "vis": 82
       },
       "birth": "1976-10-01",
       "contract": null,
@@ -266,10 +260,13 @@
       "name": "Guty",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 87500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 79,
@@ -296,6 +293,9 @@
       "wage": 75000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -323,18 +323,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 74,
-        "dri": 72,
-        "ldr": 72,
-        "pac": 70,
-        "pas": 81,
-        "pos": 76,
-        "sho": 68,
+        "dri": 68,
+        "ldr": 74,
+        "pac": 67,
+        "pas": 80,
+        "pos": 80,
+        "sho": 62,
         "sta": 81,
-        "str": 71,
-        "tac": 70,
-        "vis": 76
+        "str": 76,
+        "tac": 76,
+        "vis": 73
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -344,10 +344,15 @@
       "name": "Albert Calades",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 63500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 83,
         "com": 72,
@@ -374,6 +379,9 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 75,
@@ -427,18 +435,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 78,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 73,
+        "aer": 61,
+        "com": 76,
+        "dri": 74,
+        "ldr": 67,
+        "pac": 81,
         "pas": 78,
-        "pos": 73,
-        "sho": 67,
-        "sta": 75,
-        "str": 71,
-        "tac": 72,
-        "vis": 79
+        "pos": 65,
+        "sho": 65,
+        "sta": 78,
+        "str": 68,
+        "tac": 66,
+        "vis": 78
       },
       "birth": "1976-10-01",
       "contract": null,
@@ -448,10 +456,13 @@
       "name": "Santiago Solary",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 58500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 76,
@@ -479,6 +490,9 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 73,
@@ -565,7 +579,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 65,
         "str": 64,
@@ -585,19 +599,24 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 64,
-        "dri": 51,
-        "ldr": 60,
-        "pac": 62,
-        "pas": 57,
-        "pos": 71,
-        "sho": 37,
-        "sta": 60,
-        "str": 70,
-        "tac": 69,
-        "vis": 54
+        "aer": 56,
+        "com": 62,
+        "dri": 61,
+        "ldr": 56,
+        "pac": 70,
+        "pas": 61,
+        "pos": 66,
+        "sho": 44,
+        "sta": 66,
+        "str": 62,
+        "tac": 66,
+        "vis": 60
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -607,7 +626,7 @@
       "name": "Oscar Minembres",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 14500
     },
@@ -718,19 +737,22 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 59,
-        "dri": 58,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 60,
-        "pos": 58,
-        "sho": 56,
-        "sta": 61,
-        "str": 54,
-        "tac": 54,
-        "vis": 58
+        "aer": 43,
+        "com": 57,
+        "dri": 63,
+        "ldr": 49,
+        "pac": 63,
+        "pas": 56,
+        "pos": 40,
+        "sho": 60,
+        "sta": 57,
+        "str": 49,
+        "tac": 34,
+        "vis": 55
       },
       "birth": "1981-04-01",
       "contract": null,
@@ -741,11 +763,15 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 9000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 48,
         "com": 53,
@@ -773,18 +799,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 55,
-        "dri": 58,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 62,
-        "pos": 52,
-        "sho": 49,
+        "dri": 54,
+        "ldr": 55,
+        "pac": 48,
+        "pas": 61,
+        "pos": 56,
+        "sho": 43,
         "sta": 56,
-        "str": 54,
-        "tac": 50,
-        "vis": 61
+        "str": 59,
+        "tac": 56,
+        "vis": 58
       },
       "birth": "1978-09-01",
       "contract": null,
@@ -794,7 +820,7 @@
       "name": "Kianoush Rahmeti",
       "nation": "IRN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     }
   ],

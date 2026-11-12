@@ -106,18 +106,18 @@
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 79,
-        "dri": 73,
-        "ldr": 69,
-        "pac": 76,
-        "pas": 71,
-        "pos": 57,
-        "sho": 78,
-        "sta": 69,
-        "str": 75,
-        "tac": 45,
-        "vis": 69
+        "aer": 61,
+        "com": 76,
+        "dri": 78,
+        "ldr": 67,
+        "pac": 80,
+        "pas": 77,
+        "pos": 59,
+        "sho": 73,
+        "sta": 71,
+        "str": 65,
+        "tac": 51,
+        "vis": 75
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -128,23 +128,23 @@
       "name": "Ante Rebyc",
       "nation": "CRO",
       "number": 4,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 55000
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 76,
-        "dri": 78,
-        "ldr": 73,
-        "pac": 71,
-        "pas": 79,
-        "pos": 77,
-        "sho": 70,
+        "dri": 74,
+        "ldr": 75,
+        "pac": 68,
+        "pas": 78,
+        "pos": 81,
+        "sho": 64,
         "sta": 80,
-        "str": 76,
-        "tac": 72,
-        "vis": 78
+        "str": 81,
+        "tac": 78,
+        "vis": 75
       },
       "birth": "1986-09-01",
       "contract": null,
@@ -154,10 +154,14 @@
       "name": "Gelson Farnandes",
       "nation": "SUI",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 87000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 80,
@@ -184,19 +188,22 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 72,
-        "dri": 69,
-        "ldr": 63,
-        "pac": 69,
-        "pas": 61,
-        "pos": 51,
-        "sho": 78,
-        "sta": 70,
-        "str": 70,
-        "tac": 42,
-        "vis": 63
+        "aer": 58,
+        "com": 69,
+        "dri": 74,
+        "ldr": 61,
+        "pac": 73,
+        "pas": 67,
+        "pos": 53,
+        "sho": 73,
+        "sta": 72,
+        "str": 60,
+        "tac": 48,
+        "vis": 69
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -206,7 +213,7 @@
       "name": "Danny Blom",
       "nation": "GER",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 32500
     },
     {
@@ -217,7 +224,7 @@
         "ldr": 66,
         "pac": 69,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 74,
         "sta": 64,
         "str": 69,
@@ -244,7 +251,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 56,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 63,
         "str": 64,
@@ -264,22 +271,19 @@
       "wage": 18500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 68,
-        "com": 73,
-        "dri": 77,
-        "ldr": 70,
-        "pac": 68,
+        "aer": 62,
+        "com": 74,
+        "dri": 81,
+        "ldr": 68,
+        "pac": 71,
         "pas": 75,
-        "pos": 75,
-        "sho": 72,
-        "sta": 75,
-        "str": 70,
-        "tac": 75,
-        "vis": 80
+        "pos": 60,
+        "sho": 78,
+        "sta": 69,
+        "str": 65,
+        "tac": 57,
+        "vis": 82
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -289,10 +293,15 @@
       "name": "Marco Fabien",
       "nation": "MEX",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 81500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -347,6 +356,11 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 65,
         "com": 65,
@@ -354,7 +368,7 @@
         "ldr": 64,
         "pac": 68,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 67,
         "sta": 62,
         "str": 68,
@@ -373,6 +387,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 73,
@@ -395,11 +412,13 @@
       "name": "Jetro Wyllems",
       "nation": "NED",
       "number": 15,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 57500
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -429,6 +448,9 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -482,21 +504,21 @@
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 71,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 79,
-        "pos": 69,
-        "sho": 68,
+        "dri": 65,
+        "ldr": 72,
+        "pac": 66,
+        "pas": 78,
+        "pos": 73,
+        "sho": 62,
         "sta": 74,
-        "str": 66,
-        "tac": 71,
-        "vis": 76
+        "str": 71,
+        "tac": 77,
+        "vis": 73
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -506,10 +528,13 @@
       "name": "Makoto Hesebe",
       "nation": "JPN",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 62000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -563,6 +588,9 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 63,
@@ -589,6 +617,9 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -615,19 +646,22 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 73,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 67,
-        "pas": 76,
-        "pos": 73,
-        "sho": 64,
+        "dri": 67,
+        "ldr": 69,
+        "pac": 64,
+        "pas": 75,
+        "pos": 77,
+        "sho": 58,
         "sta": 72,
-        "str": 64,
-        "tac": 65,
-        "vis": 76
+        "str": 69,
+        "tac": 71,
+        "vis": 73
       },
       "birth": "1990-10-01",
       "contract": null,
@@ -637,26 +671,28 @@
       "name": "Slobodan Medojavic",
       "nation": "SRB",
       "number": 25,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 52000
     },
     {
       "alt": [
-        "RW"
+        "RWB",
+        "LWB",
+        "RB"
       ],
       "attrs": {
-        "aer": 63,
-        "com": 65,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 66,
-        "pas": 55,
-        "pos": 40,
-        "sho": 69,
-        "sta": 62,
-        "str": 64,
-        "tac": 37,
-        "vis": 57
+        "aer": 49,
+        "com": 62,
+        "dri": 67,
+        "ldr": 57,
+        "pac": 70,
+        "pas": 61,
+        "pos": 42,
+        "sho": 64,
+        "sta": 64,
+        "str": 54,
+        "tac": 43,
+        "vis": 63
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -667,10 +703,13 @@
       "name": "Marius Wulf",
       "nation": "GER",
       "number": 27,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -724,17 +763,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 71,
-        "dri": 74,
+        "aer": 73,
+        "com": 80,
+        "dri": 77,
         "ldr": 68,
-        "pac": 68,
+        "pac": 77,
         "pas": 77,
-        "pos": 72,
-        "sho": 68,
+        "pos": 81,
+        "sho": 77,
         "sta": 76,
-        "str": 68,
+        "str": 77,
         "tac": 67,
         "vis": 77
       },
@@ -747,14 +791,10 @@
       "nation": "SWE",
       "nation2": "CRO",
       "number": 31,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 62500
     },
     {
-      "alt": [
-        "CB",
-        "RB"
-      ],
       "attrs": {
         "aer": 62,
         "com": 66,
@@ -782,18 +822,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 65,
-        "dri": 66,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 67,
-        "pos": 66,
-        "sho": 59,
+        "dri": 62,
+        "ldr": 63,
+        "pac": 56,
+        "pas": 66,
+        "pos": 70,
+        "sho": 53,
         "sta": 67,
-        "str": 63,
-        "tac": 62,
-        "vis": 69
+        "str": 68,
+        "tac": 68,
+        "vis": 66
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -804,23 +844,27 @@
       "nation": "EQG",
       "nation2": "ESP",
       "number": 39,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 26500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 62,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 57,
+        "aer": 47,
+        "com": 63,
+        "dri": 66,
+        "ldr": 60,
+        "pac": 60,
         "pas": 66,
-        "pos": 60,
-        "sho": 57,
-        "sta": 65,
-        "str": 60,
-        "tac": 58,
-        "vis": 67
+        "pos": 45,
+        "sho": 63,
+        "sta": 59,
+        "str": 55,
+        "tac": 40,
+        "vis": 69
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -830,7 +874,7 @@
       "name": "Daichi Kameda",
       "nation": "JPN",
       "number": 40,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 20000
     }
   ],

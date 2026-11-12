@@ -78,7 +78,7 @@
     },
     {
       "alt": [
-        "CM"
+        "CB"
       ],
       "attrs": {
         "aer": 75,
@@ -159,19 +159,24 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 50,
-        "dri": 52,
-        "ldr": 47,
-        "pac": 45,
-        "pas": 55,
-        "pos": 50,
-        "sho": 43,
+        "dri": 48,
+        "ldr": 49,
+        "pac": 42,
+        "pas": 54,
+        "pos": 54,
+        "sho": 37,
         "sta": 54,
-        "str": 45,
-        "tac": 46,
-        "vis": 52
+        "str": 50,
+        "tac": 52,
+        "vis": 49
       },
       "birth": "2001-03-01",
       "contract": null,
@@ -181,23 +186,26 @@
       "name": "Clinton Mole",
       "nation": "ENG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 53,
-        "dri": 55,
-        "ldr": 47,
-        "pac": 54,
-        "pas": 49,
-        "pos": 33,
-        "sho": 56,
-        "sta": 49,
-        "str": 52,
-        "tac": 24,
-        "vis": 50
+        "aer": 39,
+        "com": 50,
+        "dri": 60,
+        "ldr": 45,
+        "pac": 58,
+        "pas": 55,
+        "pos": 35,
+        "sho": 51,
+        "sta": 51,
+        "str": 42,
+        "tac": 30,
+        "vis": 56
       },
       "birth": "2001-02-01",
       "contract": null,
@@ -208,10 +216,15 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -246,7 +259,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 59,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 61,
         "str": 69,
@@ -266,18 +279,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 71,
-        "dri": 69,
-        "ldr": 71,
-        "pac": 70,
+        "aer": 57,
+        "com": 72,
+        "dri": 73,
+        "ldr": 69,
+        "pac": 73,
         "pas": 77,
-        "pos": 70,
-        "sho": 65,
-        "sta": 77,
-        "str": 67,
-        "tac": 70,
-        "vis": 70
+        "pos": 55,
+        "sho": 71,
+        "sta": 71,
+        "str": 62,
+        "tac": 52,
+        "vis": 72
       },
       "birth": "1990-02-01",
       "contract": null,
@@ -287,10 +300,15 @@
       "name": "Daniel Didavy",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 73500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -343,20 +361,23 @@
       "wage": 26000
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 59,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 57,
-        "pas": 49,
-        "pos": 38,
-        "sho": 61,
-        "sta": 58,
-        "str": 57,
-        "tac": 29,
-        "vis": 53
+        "aer": 43,
+        "com": 56,
+        "dri": 60,
+        "ldr": 52,
+        "pac": 61,
+        "pas": 55,
+        "pos": 40,
+        "sho": 56,
+        "sta": 60,
+        "str": 47,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "1999-10-01",
       "contract": null,
@@ -366,23 +387,23 @@
       "name": "Silas Katompa Mvumpe",
       "nation": "COD",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 65,
-        "dri": 53,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 59,
-        "pos": 72,
-        "sho": 36,
-        "sta": 64,
-        "str": 69,
-        "tac": 72,
-        "vis": 49
+        "aer": 56,
+        "com": 63,
+        "dri": 63,
+        "ldr": 58,
+        "pac": 70,
+        "pas": 63,
+        "pos": 67,
+        "sho": 43,
+        "sta": 70,
+        "str": 61,
+        "tac": 69,
+        "vis": 55
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -392,23 +413,23 @@
       "name": "Pascal Stanzel",
       "nation": "GER",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 26500
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 66,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 57,
-        "pas": 63,
-        "pos": 63,
-        "sho": 58,
+        "dri": 61,
+        "ldr": 65,
+        "pac": 54,
+        "pas": 62,
+        "pos": 67,
+        "sho": 52,
         "sta": 68,
-        "str": 60,
-        "tac": 57,
-        "vis": 65
+        "str": 65,
+        "tac": 63,
+        "vis": 62
       },
       "birth": "1996-10-01",
       "contract": null,
@@ -419,7 +440,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 29000
     },
     {
@@ -456,7 +477,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 52,
-        "pos": 41,
+        "pos": 61,
         "sho": 63,
         "sta": 56,
         "str": 64,
@@ -475,19 +496,22 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 58,
-        "dri": 54,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 61,
-        "pos": 59,
-        "sho": 53,
-        "sta": 58,
-        "str": 52,
-        "tac": 52,
-        "vis": 60
+        "aer": 42,
+        "com": 56,
+        "dri": 59,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 57,
+        "pos": 41,
+        "sho": 57,
+        "sta": 54,
+        "str": 47,
+        "tac": 32,
+        "vis": 57
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -497,10 +521,13 @@
       "name": "Darko Churlynov",
       "nation": "MKD",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -527,6 +554,10 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -553,19 +584,22 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 76,
-        "dri": 71,
-        "ldr": 66,
-        "pac": 76,
-        "pas": 68,
-        "pos": 49,
-        "sho": 76,
-        "sta": 72,
-        "str": 71,
-        "tac": 46,
-        "vis": 68
+        "aer": 54,
+        "com": 73,
+        "dri": 76,
+        "ldr": 64,
+        "pac": 80,
+        "pas": 74,
+        "pos": 51,
+        "sho": 71,
+        "sta": 74,
+        "str": 61,
+        "tac": 52,
+        "vis": 74
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -575,23 +609,23 @@
       "name": "Nico Gonzalaz",
       "nation": "ARG",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 54000
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 61,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 62,
-        "pos": 60,
-        "sho": 58,
+        "dri": 59,
+        "ldr": 63,
+        "pac": 53,
+        "pas": 61,
+        "pos": 64,
+        "sho": 52,
         "sta": 64,
-        "str": 55,
-        "tac": 62,
-        "vis": 66
+        "str": 60,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -601,10 +635,14 @@
       "name": "Orel Mangale",
       "nation": "BEL",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 24000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 66,
@@ -627,10 +665,14 @@
       "name": "Borna Susa",
       "nation": "CRO",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 50500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 47,
@@ -683,19 +725,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 47,
-        "dri": 46,
-        "ldr": 44,
-        "pac": 50,
-        "pas": 42,
-        "pos": 26,
-        "sho": 51,
-        "sta": 46,
-        "str": 49,
-        "tac": 21,
-        "vis": 44
+        "aer": 33,
+        "com": 44,
+        "dri": 51,
+        "ldr": 42,
+        "pac": 54,
+        "pas": 48,
+        "pos": 28,
+        "sho": 46,
+        "sta": 48,
+        "str": 39,
+        "tac": 27,
+        "vis": 50
       },
       "birth": "2002-10-01",
       "contract": null,
@@ -705,23 +750,28 @@
       "name": "Momo Cissa",
       "nation": "GUI",
       "number": 29,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 56,
-        "dri": 50,
-        "ldr": 46,
-        "pac": 57,
-        "pas": 50,
-        "pos": 32,
-        "sho": 55,
-        "sta": 49,
-        "str": 54,
-        "tac": 25,
-        "vis": 47
+        "aer": 38,
+        "com": 53,
+        "dri": 55,
+        "ldr": 44,
+        "pac": 61,
+        "pas": 56,
+        "pos": 34,
+        "sho": 50,
+        "sta": 51,
+        "str": 44,
+        "tac": 31,
+        "vis": 53
       },
       "birth": "2000-10-01",
       "contract": null,
@@ -732,23 +782,23 @@
       "nation": "GER",
       "nation2": "GHA",
       "number": 30,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 58,
-        "dri": 55,
-        "ldr": 50,
-        "pac": 48,
+        "aer": 43,
+        "com": 59,
+        "dri": 59,
+        "ldr": 48,
+        "pac": 51,
         "pas": 59,
-        "pos": 52,
-        "sho": 49,
-        "sta": 57,
-        "str": 50,
-        "tac": 53,
-        "vis": 54
+        "pos": 37,
+        "sho": 55,
+        "sta": 51,
+        "str": 45,
+        "tac": 35,
+        "vis": 56
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -759,23 +809,28 @@
       "nation": "ARG",
       "nation2": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10500
     },
     {
+      "alt": [
+        "LM",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 54,
-        "dri": 53,
-        "ldr": 48,
-        "pac": 50,
+        "aer": 43,
+        "com": 52,
+        "dri": 56,
+        "ldr": 46,
+        "pac": 58,
         "pas": 54,
-        "pos": 53,
-        "sho": 47,
-        "sta": 56,
-        "str": 49,
-        "tac": 50,
-        "vis": 56
+        "pos": 45,
+        "sho": 45,
+        "sta": 59,
+        "str": 46,
+        "tac": 44,
+        "vis": 55
       },
       "birth": "2002-03-01",
       "contract": null,
@@ -786,7 +841,7 @@
       "name": "Naouirou Ahemada",
       "nation": "FRA",
       "number": 32,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 9000
     },
     {
@@ -842,19 +897,24 @@
       "wage": 70000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 50,
+        "com": 58,
         "dri": 33,
         "ldr": 48,
         "pac": 46,
-        "pas": 41,
+        "pas": 49,
         "pos": 49,
         "sho": 21,
-        "sta": 48,
+        "sta": 56,
         "str": 48,
         "tac": 51,
-        "vis": 35
+        "vis": 43
       },
       "birth": "2000-05-01",
       "contract": null,
@@ -864,23 +924,23 @@
       "name": "Luca Meck",
       "nation": "GER",
       "number": 36,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 63,
-        "dri": 51,
-        "ldr": 57,
-        "pac": 57,
-        "pas": 51,
-        "pos": 67,
-        "sho": 36,
-        "sta": 55,
-        "str": 65,
-        "tac": 64,
-        "vis": 45
+        "aer": 52,
+        "com": 61,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 55,
+        "pos": 62,
+        "sho": 43,
+        "sta": 61,
+        "str": 57,
+        "tac": 61,
+        "vis": 51
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -890,7 +950,7 @@
       "name": "Aylton",
       "nation": "BRA",
       "number": 39,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 15500
     }
   ],

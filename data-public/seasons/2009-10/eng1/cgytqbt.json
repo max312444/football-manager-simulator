@@ -73,9 +73,6 @@
       "wage": 27000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 57,
         "com": 73,
@@ -133,8 +130,9 @@
     },
     {
       "alt": [
-        "CM",
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 78,
@@ -194,17 +192,17 @@
     {
       "attrs": {
         "aer": 62,
-        "com": 56,
+        "com": 58,
         "dri": 54,
         "ldr": 52,
         "pac": 60,
-        "pas": 58,
+        "pas": 60,
         "pos": 64,
         "sho": 40,
-        "sta": 76,
+        "sta": 78,
         "str": 78,
         "tac": 72,
-        "vis": 50
+        "vis": 52
       },
       "birth": "1985-02-01",
       "contract": "2013-06-30",
@@ -220,20 +218,20 @@
     },
     {
       "alt": [
-        "LB"
+        "LW"
       ],
       "attrs": {
         "aer": 35,
         "com": 70,
         "dri": 72,
         "ldr": 60,
-        "pac": 67,
+        "pac": 79,
         "pas": 65,
-        "pos": 35,
+        "pos": 66,
         "sho": 62,
-        "sta": 62,
-        "str": 45,
-        "tac": 29,
+        "sta": 81,
+        "str": 76,
+        "tac": 60,
         "vis": 62
       },
       "birth": "1977-02-01",
@@ -244,11 +242,14 @@
       "name": "Kevin Kylbane",
       "nation": "IRL",
       "number": 7,
-      "pos": "LM",
+      "pos": "LB",
       "verify": true,
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -304,8 +305,7 @@
     },
     {
       "alt": [
-        "LW",
-        "LB"
+        "LW"
       ],
       "attrs": {
         "aer": 43,
@@ -329,11 +329,14 @@
       "name": "Charles N'Zogbie",
       "nation": "FRA",
       "number": 10,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 40500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 38,
         "com": 66,
@@ -366,6 +369,7 @@
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -374,12 +378,12 @@
         "dri": 68,
         "ldr": 48,
         "pac": 58,
-        "pas": 72,
+        "pas": 79,
         "pos": 50,
         "sho": 66,
-        "sta": 66,
+        "sta": 73,
         "str": 60,
-        "tac": 44,
+        "tac": 51,
         "vis": 70
       },
       "birth": "1985-05-01",
@@ -395,19 +399,23 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
-        "com": 65,
+        "com": 68,
         "dri": 67,
         "ldr": 49,
         "pac": 65,
-        "pas": 69,
+        "pas": 72,
         "pos": 59,
         "sho": 55,
         "sta": 79,
         "str": 59,
-        "tac": 63,
-        "vis": 65
+        "tac": 66,
+        "vis": 68
       },
       "birth": "1990-11-01",
       "contract": "2015-06-30",
@@ -423,7 +431,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 59,
@@ -451,6 +460,10 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 70,
         "com": 62,
@@ -473,7 +486,7 @@
       "name": "Hugo Rodallege",
       "nation": "COL",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 33500
     },
@@ -483,17 +496,17 @@
       ],
       "attrs": {
         "aer": 60,
-        "com": 62,
-        "dri": 72,
+        "com": 72,
+        "dri": 74,
         "ldr": 52,
         "pac": 70,
-        "pas": 66,
+        "pas": 76,
         "pos": 62,
-        "sho": 60,
+        "sho": 62,
         "sta": 82,
         "str": 80,
-        "tac": 68,
-        "vis": 62
+        "tac": 76,
+        "vis": 72
       },
       "birth": "1987-06-01",
       "contract": "2012-06-30",
@@ -509,16 +522,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 63,
+        "aer": 65,
+        "com": 66,
         "dri": 66,
         "ldr": 49,
         "pac": 68,
         "pas": 58,
-        "pos": 37,
-        "sho": 64,
+        "pos": 40,
+        "sho": 67,
         "sta": 64,
-        "str": 69,
+        "str": 72,
         "tac": 31,
         "vis": 52
       },

@@ -51,6 +51,10 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "DM",
+        "RB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 59,
@@ -103,6 +107,9 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 69,
@@ -130,6 +137,10 @@
       "wage": 61500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -156,6 +167,9 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 63,
@@ -183,19 +197,23 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 64,
-        "dri": 62,
-        "ldr": 61,
-        "pac": 63,
-        "pas": 66,
+        "com": 60,
+        "dri": 60,
+        "ldr": 59,
+        "pac": 70,
+        "pas": 60,
         "pos": 64,
-        "sho": 61,
+        "sho": 47,
         "sta": 69,
-        "str": 65,
-        "tac": 66,
-        "vis": 70
+        "str": 64,
+        "tac": 70,
+        "vis": 61
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -205,12 +223,13 @@
       "name": "Alex Sole",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 72500
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 69,
@@ -245,7 +264,7 @@
         "ldr": 70,
         "pac": 80,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 85,
         "sta": 78,
         "str": 82,
@@ -271,7 +290,7 @@
         "ldr": 62,
         "pac": 71,
         "pas": 59,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 69,
         "str": 73,
@@ -316,6 +335,9 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -343,18 +365,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 64,
-        "dri": 52,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 58,
-        "pos": 67,
-        "sho": 38,
-        "sta": 65,
-        "str": 69,
-        "tac": 67,
-        "vis": 52
+        "aer": 56,
+        "com": 62,
+        "dri": 62,
+        "ldr": 58,
+        "pac": 69,
+        "pas": 62,
+        "pos": 62,
+        "sho": 45,
+        "sta": 71,
+        "str": 61,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -364,7 +386,7 @@
       "name": "Diego Ricu",
       "nation": "ESP",
       "number": 16,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 46500
     },
     {
@@ -394,19 +416,22 @@
       "wage": 82500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 63,
-        "dri": 59,
-        "ldr": 52,
-        "pac": 62,
-        "pas": 50,
-        "pos": 36,
-        "sho": 65,
-        "sta": 54,
-        "str": 64,
-        "tac": 33,
-        "vis": 51
+        "aer": 42,
+        "com": 60,
+        "dri": 64,
+        "ldr": 50,
+        "pac": 66,
+        "pas": 56,
+        "pos": 38,
+        "sho": 60,
+        "sta": 56,
+        "str": 54,
+        "tac": 39,
+        "vis": 57
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -416,23 +441,26 @@
       "name": "Alex Sancrys",
       "nation": "ESP",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 22000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 55,
-        "dri": 56,
-        "ldr": 52,
-        "pac": 60,
-        "pas": 50,
-        "pos": 34,
-        "sho": 59,
-        "sta": 51,
-        "str": 56,
-        "tac": 29,
-        "vis": 51
+        "aer": 39,
+        "com": 52,
+        "dri": 61,
+        "ldr": 50,
+        "pac": 64,
+        "pas": 56,
+        "pos": 36,
+        "sho": 54,
+        "sta": 53,
+        "str": 46,
+        "tac": 35,
+        "vis": 57
       },
       "birth": "2002-07-01",
       "contract": null,
@@ -442,23 +470,23 @@
       "name": "Coba da Custa",
       "nation": "ESP",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 65,
-        "dri": 49,
-        "ldr": 59,
-        "pac": 56,
-        "pas": 55,
-        "pos": 64,
-        "sho": 36,
-        "sta": 61,
-        "str": 69,
-        "tac": 66,
-        "vis": 53
+        "aer": 56,
+        "com": 63,
+        "dri": 59,
+        "ldr": 55,
+        "pac": 64,
+        "pas": 59,
+        "pos": 59,
+        "sho": 43,
+        "sta": 67,
+        "str": 61,
+        "tac": 63,
+        "vis": 59
       },
       "birth": "1998-07-01",
       "contract": null,
@@ -468,7 +496,7 @@
       "name": "Juan Iglesyas",
       "nation": "ESP",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 38000
     },
     {
@@ -498,19 +526,22 @@
       "wage": 93000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 59,
-        "dri": 54,
-        "ldr": 47,
-        "pac": 54,
-        "pas": 48,
-        "pos": 30,
-        "sho": 57,
-        "sta": 50,
-        "str": 55,
-        "tac": 23,
-        "vis": 45
+        "aer": 36,
+        "com": 56,
+        "dri": 59,
+        "ldr": 45,
+        "pac": 58,
+        "pas": 54,
+        "pos": 32,
+        "sho": 52,
+        "sta": 52,
+        "str": 45,
+        "tac": 29,
+        "vis": 51
       },
       "birth": "2005-04-01",
       "contract": null,
@@ -521,23 +552,23 @@
       "name": "Adrian Lisu",
       "nation": "ESP",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 11000
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 49,
-        "dri": 39,
-        "ldr": 46,
-        "pac": 47,
-        "pas": 45,
-        "pos": 57,
-        "sho": 21,
-        "sta": 50,
-        "str": 55,
-        "tac": 53,
-        "vis": 38
+        "aer": 38,
+        "com": 47,
+        "dri": 49,
+        "ldr": 42,
+        "pac": 55,
+        "pas": 49,
+        "pos": 52,
+        "sho": 28,
+        "sta": 56,
+        "str": 47,
+        "tac": 50,
+        "vis": 44
       },
       "birth": "2007-10-01",
       "contract": null,
@@ -547,7 +578,7 @@
       "name": "Devinchi",
       "nation": "ESP",
       "number": 26,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 9000
     }
   ],

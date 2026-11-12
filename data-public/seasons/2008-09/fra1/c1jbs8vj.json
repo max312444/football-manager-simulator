@@ -51,6 +51,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 62,
@@ -78,18 +81,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 61,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 63,
-        "pos": 61,
-        "sho": 56,
+        "dri": 57,
+        "ldr": 63,
+        "pac": 53,
+        "pas": 62,
+        "pos": 65,
+        "sho": 50,
         "sta": 65,
-        "str": 60,
-        "tac": 60,
-        "vis": 64
+        "str": 65,
+        "tac": 66,
+        "vis": 61
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -99,7 +102,7 @@
       "name": "Moussa Narri",
       "nation": "GHA",
       "number": 3,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13000
     },
     {
@@ -130,7 +133,9 @@
     },
     {
       "alt": [
-        "CM"
+        "DM",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 80,
@@ -158,19 +163,22 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 67,
-        "dri": 65,
-        "ldr": 58,
-        "pac": 58,
+        "aer": 52,
+        "com": 68,
+        "dri": 69,
+        "ldr": 56,
+        "pac": 61,
         "pas": 69,
-        "pos": 61,
-        "sho": 61,
-        "sta": 67,
-        "str": 62,
-        "tac": 64,
-        "vis": 66
+        "pos": 46,
+        "sho": 67,
+        "sta": 61,
+        "str": 57,
+        "tac": 46,
+        "vis": 68
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -181,12 +189,13 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 18000
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 53,
@@ -215,18 +224,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 77,
-        "dri": 75,
-        "ldr": 68,
-        "pac": 67,
+        "aer": 58,
+        "com": 78,
+        "dri": 79,
+        "ldr": 66,
+        "pac": 70,
         "pas": 80,
-        "pos": 70,
-        "sho": 67,
-        "sta": 75,
-        "str": 70,
-        "tac": 72,
-        "vis": 77
+        "pos": 55,
+        "sho": 73,
+        "sta": 69,
+        "str": 65,
+        "tac": 54,
+        "vis": 79
       },
       "birth": "1983-03-01",
       "contract": null,
@@ -236,23 +245,28 @@
       "name": "Thomas Kahlanberg",
       "nation": "DEN",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 27500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 60,
-        "dri": 59,
-        "ldr": 51,
-        "pac": 58,
-        "pas": 49,
-        "pos": 40,
-        "sho": 63,
-        "sta": 56,
-        "str": 58,
-        "tac": 32,
-        "vis": 54
+        "aer": 45,
+        "com": 57,
+        "dri": 64,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 55,
+        "pos": 42,
+        "sho": 58,
+        "sta": 58,
+        "str": 48,
+        "tac": 38,
+        "vis": 60
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -262,7 +276,7 @@
       "name": "Julien Qoercia",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
@@ -293,18 +307,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 68,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 68,
-        "pas": 58,
-        "pos": 46,
-        "sho": 67,
-        "sta": 59,
-        "str": 66,
-        "tac": 37,
-        "vis": 55
+        "aer": 51,
+        "com": 65,
+        "dri": 71,
+        "ldr": 60,
+        "pac": 72,
+        "pas": 64,
+        "pos": 48,
+        "sho": 62,
+        "sta": 61,
+        "str": 56,
+        "tac": 43,
+        "vis": 61
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -314,7 +328,7 @@
       "name": "Kevin Lejaune",
       "nation": "FRA",
       "number": 13,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 12500
     },
     {
@@ -325,7 +339,7 @@
         "ldr": 65,
         "pac": 67,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 64,
         "str": 71,
@@ -370,6 +384,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -396,19 +413,22 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 55,
-        "ldr": 55,
-        "pac": 49,
-        "pas": 57,
-        "pos": 57,
-        "sho": 51,
-        "sta": 60,
-        "str": 49,
-        "tac": 54,
-        "vis": 55
+        "aer": 41,
+        "com": 53,
+        "dri": 60,
+        "ldr": 51,
+        "pac": 58,
+        "pas": 53,
+        "pos": 39,
+        "sho": 55,
+        "sta": 56,
+        "str": 44,
+        "tac": 34,
+        "vis": 52
       },
       "birth": "1988-03-01",
       "contract": null,
@@ -418,7 +438,7 @@
       "name": "Steeven Langyl",
       "nation": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6000
     },
     {
@@ -429,7 +449,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 66,
         "sta": 64,
         "str": 69,
@@ -448,6 +468,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -455,7 +478,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 66,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 69,
         "str": 72,
@@ -475,18 +498,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 64,
-        "dri": 56,
-        "ldr": 68,
-        "pac": 60,
-        "pas": 58,
-        "pos": 73,
-        "sho": 43,
-        "sta": 62,
-        "str": 69,
-        "tac": 69,
-        "vis": 56
+        "aer": 56,
+        "com": 62,
+        "dri": 66,
+        "ldr": 64,
+        "pac": 68,
+        "pas": 62,
+        "pos": 68,
+        "sho": 50,
+        "sta": 68,
+        "str": 61,
+        "tac": 66,
+        "vis": 62
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -496,23 +519,26 @@
       "name": "Jeremy Berthud",
       "nation": "FRA",
       "number": 23,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 16500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 60,
-        "dri": 52,
-        "ldr": 49,
-        "pac": 56,
-        "pas": 46,
-        "pos": 35,
-        "sho": 57,
-        "sta": 56,
-        "str": 55,
-        "tac": 29,
-        "vis": 47
+        "aer": 43,
+        "com": 57,
+        "dri": 57,
+        "ldr": 47,
+        "pac": 60,
+        "pas": 52,
+        "pos": 37,
+        "sho": 52,
+        "sta": 58,
+        "str": 45,
+        "tac": 35,
+        "vis": 53
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -523,7 +549,7 @@
       "nation": "CGO",
       "nation2": "FRA",
       "number": 24,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4000
     },
     {
@@ -534,7 +560,7 @@
         "ldr": 50,
         "pac": 59,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 53,
         "str": 55,
@@ -555,18 +581,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 59,
+        "aer": 54,
+        "com": 60,
         "dri": 54,
-        "ldr": 52,
-        "pac": 50,
-        "pas": 59,
+        "ldr": 50,
+        "pac": 55,
+        "pas": 49,
         "pos": 59,
-        "sho": 49,
-        "sta": 59,
-        "str": 55,
-        "tac": 57,
-        "vis": 62
+        "sho": 58,
+        "sta": 53,
+        "str": 60,
+        "tac": 31,
+        "vis": 53
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -577,10 +603,14 @@
       "nation": "BFA",
       "nation2": "FRA",
       "number": 27,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 7500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 58,
@@ -635,18 +665,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 55,
-        "dri": 41,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 51,
-        "pos": 63,
-        "sho": 30,
-        "sta": 51,
-        "str": 57,
-        "tac": 57,
-        "vis": 43
+        "aer": 49,
+        "com": 53,
+        "dri": 51,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 55,
+        "pos": 58,
+        "sho": 37,
+        "sta": 57,
+        "str": 49,
+        "tac": 54,
+        "vis": 49
       },
       "birth": "1989-01-01",
       "contract": null,
@@ -656,7 +686,7 @@
       "name": "Jeremy Huyghabaert",
       "nation": "BEL",
       "number": 32,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5000
     }
   ],

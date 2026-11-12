@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 64,
+        "aer": 60,
+        "com": 65,
         "dri": 57,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 60,
+        "ldr": 57,
+        "pac": 62,
+        "pas": 50,
         "pos": 61,
-        "sho": 55,
-        "sta": 62,
-        "str": 58,
-        "tac": 55,
-        "vis": 61
+        "sho": 64,
+        "sta": 56,
+        "str": 63,
+        "tac": 29,
+        "vis": 52
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "name": "Sascha Rusler",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 3000
     },
@@ -112,7 +112,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 49,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 55,
         "str": 61,
@@ -139,7 +139,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 58,
         "sta": 51,
         "str": 61,
@@ -191,7 +191,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 62,
         "sta": 55,
         "str": 57,
@@ -218,7 +218,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 55,
         "str": 59,
@@ -265,18 +265,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 55,
+        "aer": 54,
+        "com": 57,
         "dri": 52,
         "ldr": 51,
-        "pac": 54,
+        "pac": 62,
         "pas": 59,
-        "pos": 55,
+        "pos": 65,
         "sho": 49,
         "sta": 58,
-        "str": 49,
-        "tac": 50,
+        "str": 59,
+        "tac": 60,
         "vis": 56
       },
       "birth": "1967-12-01",
@@ -287,10 +292,13 @@
       "name": "Jurgen Lugynger",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -324,7 +332,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 47,
-        "pos": 37,
+        "pos": 57,
         "sho": 56,
         "sta": 51,
         "str": 54,
@@ -350,7 +358,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 60,
         "sta": 52,
         "str": 57,
@@ -370,6 +378,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -397,6 +408,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 52,
@@ -450,6 +464,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -503,6 +520,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -529,6 +549,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -583,6 +606,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,
@@ -664,6 +690,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -745,17 +774,17 @@
     {
       "attrs": {
         "aer": 39,
-        "com": 50,
-        "dri": 47,
-        "ldr": 46,
-        "pac": 43,
-        "pas": 53,
+        "com": 46,
+        "dri": 45,
+        "ldr": 44,
+        "pac": 50,
+        "pas": 47,
         "pos": 50,
-        "sho": 43,
+        "sho": 29,
         "sta": 50,
-        "str": 43,
-        "tac": 48,
-        "vis": 51
+        "str": 42,
+        "tac": 52,
+        "vis": 42
       },
       "birth": "1966-06-01",
       "contract": null,
@@ -765,7 +794,7 @@
       "name": "Daniel Cyuca",
       "nation": "ROU",
       "number": null,
-      "pos": "CM",
+      "pos": "RB",
       "verify": true,
       "wage": 1000
     },

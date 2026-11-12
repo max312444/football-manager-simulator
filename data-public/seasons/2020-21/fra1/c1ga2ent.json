@@ -78,6 +78,9 @@
       "wage": 215500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 79,
         "com": 70,
@@ -131,6 +134,9 @@
       "wage": 245500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 81,
@@ -164,7 +170,7 @@
         "ldr": 74,
         "pac": 77,
         "pas": 69,
-        "pos": 53,
+        "pos": 73,
         "sho": 81,
         "sta": 74,
         "str": 78,
@@ -184,18 +190,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 76,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 71,
-        "pas": 83,
-        "pos": 74,
-        "sho": 74,
+        "dri": 71,
+        "ldr": 75,
+        "pac": 68,
+        "pas": 82,
+        "pos": 78,
+        "sho": 68,
         "sta": 79,
-        "str": 73,
-        "tac": 72,
-        "vis": 76
+        "str": 78,
+        "tac": 78,
+        "vis": 73
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -205,7 +211,7 @@
       "name": "Leandro Peredes",
       "nation": "ARG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 297000
     },
     {
@@ -216,7 +222,7 @@
         "ldr": 73,
         "pac": 77,
         "pas": 69,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 76,
         "str": 76,
@@ -236,6 +242,11 @@
       "wage": 175000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 85,
         "com": 82,
@@ -243,7 +254,7 @@
         "ldr": 81,
         "pac": 86,
         "pas": 76,
-        "pos": 62,
+        "pos": 82,
         "sho": 84,
         "sta": 77,
         "str": 87,
@@ -262,19 +273,23 @@
       "wage": 400500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 78,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 72,
+        "aer": 64,
+        "com": 79,
+        "dri": 81,
+        "ldr": 70,
+        "pac": 75,
         "pas": 82,
-        "pos": 78,
-        "sho": 76,
-        "sta": 83,
-        "str": 76,
-        "tac": 73,
-        "vis": 81
+        "pos": 63,
+        "sho": 82,
+        "sta": 77,
+        "str": 71,
+        "tac": 55,
+        "vis": 83
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -285,10 +300,13 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 376000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 77,
@@ -338,26 +356,26 @@
       "name": "Juan Bernet",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 217500
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 79,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 78,
-        "pos": 73,
-        "sho": 69,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 68,
+        "pas": 77,
+        "pos": 77,
+        "sho": 63,
         "sta": 77,
-        "str": 75,
-        "tac": 76,
-        "vis": 75
+        "str": 80,
+        "tac": 82,
+        "vis": 72
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -368,7 +386,7 @@
       "name": "Danilo Pereyra",
       "nation": "POR",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 270000
     },
     {
@@ -405,7 +423,7 @@
         "ldr": 63,
         "pac": 71,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 72,
         "sta": 68,
         "str": 69,
@@ -426,7 +444,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 63,
@@ -477,10 +496,13 @@
       "nation": "FRA",
       "nation2": "POL",
       "number": 20,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 201500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 80,
@@ -534,19 +556,23 @@
       "wage": 159000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 77,
-        "dri": 79,
-        "ldr": 72,
-        "pac": 72,
+        "aer": 60,
+        "com": 78,
+        "dri": 83,
+        "ldr": 70,
+        "pac": 75,
         "pas": 84,
-        "pos": 74,
-        "sho": 76,
-        "sta": 83,
-        "str": 75,
-        "tac": 78,
-        "vis": 78
+        "pos": 59,
+        "sho": 82,
+        "sta": 77,
+        "str": 70,
+        "tac": 60,
+        "vis": 80
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -556,23 +582,26 @@
       "name": "Julian Drexler",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 362000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 83,
-        "com": 74,
-        "dri": 61,
-        "ldr": 79,
-        "pac": 71,
-        "pas": 69,
-        "pos": 81,
-        "sho": 50,
-        "sta": 73,
-        "str": 78,
-        "tac": 79,
-        "vis": 61
+        "aer": 70,
+        "com": 72,
+        "dri": 71,
+        "ldr": 75,
+        "pac": 79,
+        "pas": 73,
+        "pos": 76,
+        "sho": 57,
+        "sta": 79,
+        "str": 70,
+        "tac": 76,
+        "vis": 67
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -583,23 +612,27 @@
       "name": "Alessandro Florenzy",
       "nation": "ITA",
       "number": 24,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 215500
     },
     {
+      "alt": [
+        "LWB",
+        "LM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 55,
-        "dri": 43,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 52,
-        "pos": 61,
-        "sho": 32,
-        "sta": 56,
-        "str": 63,
-        "tac": 63,
-        "vis": 48
+        "aer": 51,
+        "com": 53,
+        "dri": 53,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 56,
+        "pos": 56,
+        "sho": 39,
+        "sta": 62,
+        "str": 55,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -609,23 +642,23 @@
       "name": "Mitchel Bakkar",
       "nation": "NED",
       "number": 25,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 29500
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 77,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 71,
-        "pas": 79,
-        "pos": 76,
-        "sho": 75,
+        "dri": 72,
+        "ldr": 76,
+        "pac": 68,
+        "pas": 78,
+        "pos": 80,
+        "sho": 69,
         "sta": 78,
-        "str": 75,
-        "tac": 73,
-        "vis": 77
+        "str": 80,
+        "tac": 79,
+        "vis": 74
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -635,7 +668,7 @@
       "name": "Idrissa Guaye",
       "nation": "SEN",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 311000
     },
     {
@@ -692,19 +725,23 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 76,
-        "dri": 74,
-        "ldr": 74,
-        "pac": 75,
-        "pas": 66,
-        "pos": 54,
-        "sho": 80,
-        "sta": 71,
-        "str": 74,
-        "tac": 45,
-        "vis": 69
+        "aer": 59,
+        "com": 73,
+        "dri": 79,
+        "ldr": 72,
+        "pac": 79,
+        "pas": 72,
+        "pos": 56,
+        "sho": 75,
+        "sta": 73,
+        "str": 64,
+        "tac": 51,
+        "vis": 75
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -714,10 +751,13 @@
       "name": "Jase",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 165500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,

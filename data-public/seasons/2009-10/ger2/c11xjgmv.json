@@ -74,7 +74,7 @@
       "name": "Markus Scholer",
       "nation": "GER",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3000
     },
     {
@@ -104,6 +104,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -131,18 +134,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 54,
-        "dri": 37,
-        "ldr": 53,
-        "pac": 49,
-        "pas": 43,
-        "pos": 53,
-        "sho": 25,
-        "sta": 50,
-        "str": 55,
-        "tac": 56,
-        "vis": 41
+        "aer": 46,
+        "com": 52,
+        "dri": 47,
+        "ldr": 49,
+        "pac": 57,
+        "pas": 47,
+        "pos": 48,
+        "sho": 32,
+        "sta": 56,
+        "str": 47,
+        "tac": 53,
+        "vis": 47
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -152,10 +155,13 @@
       "name": "Nils Fyscher",
       "nation": "GER",
       "number": 6,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -183,18 +189,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 63,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 57,
+        "aer": 45,
+        "com": 64,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 60,
         "pas": 64,
-        "pos": 62,
-        "sho": 52,
-        "sta": 64,
-        "str": 58,
-        "tac": 56,
-        "vis": 62
+        "pos": 47,
+        "sho": 58,
+        "sta": 58,
+        "str": 53,
+        "tac": 38,
+        "vis": 64
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -205,7 +211,7 @@
       "nation": "ITA",
       "nation2": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 6500
     },
     {
@@ -216,7 +222,7 @@
         "ldr": 63,
         "pac": 68,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 64,
         "str": 65,
@@ -242,7 +248,7 @@
         "ldr": 59,
         "pac": 63,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 63,
         "str": 67,
@@ -261,6 +267,11 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -287,19 +298,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 69,
-        "pos": 64,
-        "sho": 59,
-        "sta": 66,
-        "str": 64,
-        "tac": 62,
-        "vis": 65
+        "aer": 53,
+        "com": 66,
+        "dri": 71,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 65,
+        "pos": 46,
+        "sho": 63,
+        "sta": 62,
+        "str": 59,
+        "tac": 42,
+        "vis": 62
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -309,21 +323,26 @@
       "name": "Jonas Kampar",
       "nation": "DEN",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 9000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 53,
+        "aer": 54,
+        "com": 64,
+        "dri": 58,
         "ldr": 49,
-        "pac": 53,
+        "pac": 58,
         "pas": 59,
-        "pos": 54,
-        "sho": 46,
+        "pos": 61,
+        "sho": 53,
         "sta": 59,
-        "str": 49,
+        "str": 56,
         "tac": 50,
         "vis": 53
       },
@@ -336,7 +355,7 @@
       "nation": "BIH",
       "nation2": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 3500
     },
     {
@@ -367,18 +386,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 66,
+        "aer": 69,
+        "com": 67,
         "dri": 70,
-        "ldr": 63,
-        "pac": 67,
-        "pas": 69,
+        "ldr": 61,
+        "pac": 72,
+        "pas": 59,
         "pos": 65,
-        "sho": 63,
-        "sta": 72,
-        "str": 65,
-        "tac": 65,
-        "vis": 67
+        "sho": 72,
+        "sta": 66,
+        "str": 70,
+        "tac": 39,
+        "vis": 58
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -389,10 +408,13 @@
       "nation": "ALB",
       "nation2": "KVX",
       "number": 18,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 66,
@@ -420,22 +442,19 @@
       "wage": 8500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 64,
-        "com": 60,
-        "dri": 52,
-        "ldr": 63,
-        "pac": 59,
-        "pas": 53,
-        "pos": 66,
-        "sho": 37,
-        "sta": 63,
-        "str": 69,
-        "tac": 68,
-        "vis": 52
+        "aer": 51,
+        "com": 58,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 67,
+        "pas": 57,
+        "pos": 61,
+        "sho": 44,
+        "sta": 69,
+        "str": 61,
+        "tac": 65,
+        "vis": 58
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -446,7 +465,7 @@
       "nation": "NED",
       "nation2": "NGA",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 7000
     },
     {
@@ -483,7 +502,7 @@
         "ldr": 47,
         "pac": 54,
         "pas": 42,
-        "pos": 28,
+        "pos": 48,
         "sho": 59,
         "sta": 51,
         "str": 51,
@@ -502,19 +521,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 61,
-        "dri": 62,
+        "com": 65,
+        "dri": 69,
         "ldr": 58,
-        "pac": 61,
-        "pas": 52,
-        "pos": 40,
-        "sho": 64,
-        "sta": 56,
+        "pac": 71,
+        "pas": 73,
+        "pos": 60,
+        "sho": 68,
+        "sta": 76,
         "str": 63,
-        "tac": 32,
-        "vis": 51
+        "tac": 52,
+        "vis": 72
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -524,22 +547,25 @@
       "name": "Daniel Helfar",
       "nation": "GER",
       "number": 24,
-      "pos": "ST",
+      "pos": "LM",
       "wage": 4500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 61,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 59,
-        "pos": 56,
-        "sho": 51,
-        "sta": 59,
-        "str": 55,
-        "tac": 58,
+        "aer": 49,
+        "com": 57,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 62,
+        "pas": 60,
+        "pos": 48,
+        "sho": 49,
+        "sta": 63,
+        "str": 52,
+        "tac": 53,
         "vis": 60
       },
       "birth": "1988-04-01",
@@ -550,7 +576,7 @@
       "name": "Arne Feyck",
       "nation": "GER",
       "number": 27,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 5500
     }
   ],

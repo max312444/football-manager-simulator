@@ -31,7 +31,7 @@
         "ldr": 74,
         "pac": 80,
         "pas": 73,
-        "pos": 54,
+        "pos": 74,
         "sho": 82,
         "sta": 74,
         "str": 80,
@@ -76,6 +76,10 @@
       "wage": 75000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 82,
@@ -136,7 +140,7 @@
         "ldr": 72,
         "pac": 76,
         "pas": 69,
-        "pos": 56,
+        "pos": 76,
         "sho": 83,
         "sta": 76,
         "str": 79,
@@ -155,19 +159,24 @@
       "wage": 54000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 70,
+        "aer": 76,
         "com": 74,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 74,
-        "pas": 76,
-        "pos": 75,
-        "sho": 74,
+        "dri": 70,
+        "ldr": 74,
+        "pac": 71,
+        "pas": 75,
+        "pos": 79,
+        "sho": 68,
         "sta": 81,
-        "str": 73,
-        "tac": 75,
-        "vis": 77
+        "str": 78,
+        "tac": 81,
+        "vis": 74
       },
       "birth": "1974-09-01",
       "contract": null,
@@ -177,10 +186,13 @@
       "name": "Sunday Olyseh",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 75000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 76,
@@ -214,7 +226,7 @@
         "ldr": 68,
         "pac": 78,
         "pas": 66,
-        "pos": 50,
+        "pos": 70,
         "sho": 76,
         "sta": 69,
         "str": 74,
@@ -233,19 +245,23 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 75,
-        "dri": 74,
-        "ldr": 74,
-        "pac": 70,
+        "aer": 58,
+        "com": 76,
+        "dri": 78,
+        "ldr": 72,
+        "pac": 73,
         "pas": 79,
-        "pos": 71,
-        "sho": 67,
-        "sta": 78,
-        "str": 73,
-        "tac": 70,
-        "vis": 73
+        "pos": 56,
+        "sho": 73,
+        "sta": 72,
+        "str": 68,
+        "tac": 52,
+        "vis": 75
       },
       "birth": "1975-06-01",
       "contract": null,
@@ -256,23 +272,23 @@
       "nation": "GHA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 60500
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 72,
-        "dri": 69,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 77,
-        "pos": 70,
-        "sho": 66,
+        "dri": 65,
+        "ldr": 73,
+        "pac": 66,
+        "pas": 76,
+        "pos": 74,
+        "sho": 60,
         "sta": 79,
-        "str": 71,
-        "tac": 69,
-        "vis": 77
+        "str": 76,
+        "tac": 75,
+        "vis": 74
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -282,11 +298,15 @@
       "name": "Sebastian Kahl",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 54000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -339,19 +359,24 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "LB",
+        "CB",
+        "LM"
+      ],
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 74,
-        "dri": 68,
-        "ldr": 71,
-        "pac": 66,
-        "pas": 76,
-        "pos": 72,
-        "sho": 70,
+        "dri": 64,
+        "ldr": 73,
+        "pac": 63,
+        "pas": 75,
+        "pos": 76,
+        "sho": 64,
         "sta": 76,
-        "str": 65,
-        "tac": 66,
-        "vis": 72
+        "str": 70,
+        "tac": 72,
+        "vis": 69
       },
       "birth": "1969-12-01",
       "contract": null,
@@ -361,7 +386,7 @@
       "name": "Jorg Heynrich",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 47000
     },
     {
@@ -392,6 +417,11 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "RM",
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,
@@ -418,19 +448,22 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 69,
-        "dri": 65,
+        "dri": 67,
         "ldr": 63,
-        "pac": 73,
-        "pas": 70,
-        "pos": 71,
-        "sho": 50,
-        "sta": 71,
+        "pac": 75,
+        "pas": 71,
+        "pos": 69,
+        "sho": 53,
+        "sta": 73,
         "str": 67,
-        "tac": 70,
-        "vis": 64
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -440,23 +473,26 @@
       "name": "Evenilson",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "RWB",
       "wage": 29500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 69,
-        "dri": 70,
-        "ldr": 65,
-        "pac": 71,
-        "pas": 60,
-        "pos": 52,
-        "sho": 72,
-        "sta": 65,
-        "str": 74,
-        "tac": 40,
-        "vis": 63
+        "aer": 55,
+        "com": 66,
+        "dri": 75,
+        "ldr": 63,
+        "pac": 75,
+        "pas": 66,
+        "pos": 54,
+        "sho": 67,
+        "sta": 67,
+        "str": 64,
+        "tac": 46,
+        "vis": 69
       },
       "birth": "1971-12-01",
       "contract": null,
@@ -466,7 +502,7 @@
       "name": "Jan-Derek Surensen",
       "nation": "NOR",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 24000
     },
     {
@@ -497,6 +533,9 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -547,7 +586,7 @@
       "nation": "BRA",
       "nation2": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 20000
     },
     {
@@ -558,7 +597,7 @@
         "ldr": 60,
         "pac": 61,
         "pas": 56,
-        "pos": 41,
+        "pos": 61,
         "sho": 68,
         "sta": 61,
         "str": 66,
@@ -577,19 +616,23 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 68,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 64,
-        "pas": 56,
-        "pos": 39,
-        "sho": 68,
-        "sta": 60,
-        "str": 66,
-        "tac": 36,
-        "vis": 58
+        "aer": 51,
+        "com": 65,
+        "dri": 65,
+        "ldr": 53,
+        "pac": 68,
+        "pas": 62,
+        "pos": 41,
+        "sho": 63,
+        "sta": 62,
+        "str": 56,
+        "tac": 42,
+        "vis": 64
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -599,7 +642,7 @@
       "name": "Ewerthun",
       "nation": "BRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 12000
     },
     {
@@ -610,7 +653,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 59,
-        "pos": 43,
+        "pos": 63,
         "sho": 68,
         "sta": 61,
         "str": 61,
@@ -710,6 +753,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 40,
         "com": 60,
@@ -737,6 +783,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 61,
@@ -764,6 +813,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,
@@ -798,7 +850,7 @@
         "ldr": 44,
         "pac": 52,
         "pas": 44,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 51,
         "str": 49,
@@ -817,6 +869,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -877,7 +934,7 @@
         "ldr": 41,
         "pac": 50,
         "pas": 42,
-        "pos": 29,
+        "pos": 49,
         "sho": 51,
         "sta": 41,
         "str": 48,

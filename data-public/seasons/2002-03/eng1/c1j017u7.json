@@ -72,6 +72,7 @@
     },
     {
       "alt": [
+        "CB",
         "LB"
       ],
       "attrs": {
@@ -102,18 +103,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB"
       ],
       "attrs": {
         "aer": 63,
         "com": 60,
-        "dri": 45,
+        "dri": 55,
         "ldr": 58,
-        "pac": 54,
-        "pas": 53,
+        "pac": 64,
+        "pas": 63,
         "pos": 64,
         "sho": 35,
-        "sta": 60,
+        "sta": 70,
         "str": 66,
         "tac": 65,
         "vis": 44
@@ -189,7 +191,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -218,6 +222,9 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,
@@ -299,9 +306,6 @@
       "wage": 18500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 54,
         "com": 79,
@@ -333,7 +337,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 62,
@@ -357,27 +361,28 @@
       "name": "Ricardo Gerdner",
       "nation": "JAM",
       "number": 11,
-      "pos": "LB",
+      "pos": "LWB",
       "verify": true,
       "wage": 33000
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
         "aer": 69,
-        "com": 61,
+        "com": 68,
         "dri": 63,
         "ldr": 61,
         "pac": 63,
-        "pas": 63,
+        "pas": 70,
         "pos": 61,
         "sho": 67,
         "sta": 79,
         "str": 73,
-        "tac": 59,
-        "vis": 59
+        "tac": 66,
+        "vis": 66
       },
       "birth": "1982-06-01",
       "contract": "2006-06-30",
@@ -393,18 +398,18 @@
     },
     {
       "alt": [
-        "CB"
+        "RB"
       ],
       "attrs": {
         "aer": 61,
         "com": 63,
-        "dri": 57,
+        "dri": 59,
         "ldr": 57,
-        "pac": 60,
-        "pas": 63,
+        "pac": 62,
+        "pas": 64,
         "pos": 65,
         "sho": 45,
-        "sta": 68,
+        "sta": 70,
         "str": 68,
         "tac": 67,
         "vis": 51
@@ -423,16 +428,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 63,
+        "aer": 67,
+        "com": 64,
         "dri": 66,
         "ldr": 49,
         "pac": 76,
         "pas": 60,
-        "pos": 53,
-        "sho": 70,
+        "pos": 54,
+        "sho": 71,
         "sta": 76,
-        "str": 70,
+        "str": 71,
         "tac": 44,
         "vis": 55
       },
@@ -450,7 +455,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 49,
@@ -480,7 +485,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 42,
@@ -537,7 +543,8 @@
     },
     {
       "alt": [
-        "DM",
+        "RB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -603,21 +610,18 @@
       "wage": 42500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 26,
         "com": 50,
         "dri": 59,
         "ldr": 44,
-        "pac": 66,
+        "pac": 79,
         "pas": 52,
-        "pos": 24,
+        "pos": 51,
         "sho": 48,
-        "sta": 59,
-        "str": 37,
-        "tac": 18,
+        "sta": 73,
+        "str": 64,
+        "tac": 45,
         "vis": 48
       },
       "birth": "1981-08-01",
@@ -629,11 +633,14 @@
       "name": "Bernard Mandy",
       "nation": "FRA",
       "number": 24,
-      "pos": "RM",
+      "pos": "RB",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 52,

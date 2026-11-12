@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 68,
         "com": 74,
@@ -58,7 +61,7 @@
         "ldr": 68,
         "pac": 76,
         "pas": 67,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 70,
         "str": 78,
@@ -105,19 +108,23 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 75,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 69,
+        "aer": 62,
+        "com": 76,
+        "dri": 75,
+        "ldr": 68,
+        "pac": 72,
         "pas": 76,
-        "pos": 73,
-        "sho": 66,
-        "sta": 79,
-        "str": 67,
-        "tac": 74,
-        "vis": 76
+        "pos": 58,
+        "sho": 72,
+        "sta": 73,
+        "str": 62,
+        "tac": 56,
+        "vis": 78
       },
       "birth": "1975-06-01",
       "contract": null,
@@ -128,7 +135,7 @@
       "nation": "GHA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 36000
     },
     {
@@ -165,7 +172,7 @@
         "ldr": 63,
         "pac": 74,
         "pas": 62,
-        "pos": 53,
+        "pos": 73,
         "sho": 75,
         "sta": 70,
         "str": 73,
@@ -192,7 +199,7 @@
         "ldr": 66,
         "pac": 69,
         "pas": 67,
-        "pos": 48,
+        "pos": 68,
         "sho": 78,
         "sta": 70,
         "str": 74,
@@ -212,6 +219,11 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 69,
@@ -239,6 +251,9 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 68,
@@ -266,6 +281,9 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -377,7 +395,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 56,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 62,
         "str": 70,
@@ -424,6 +442,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 69,
@@ -458,7 +479,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 61,
         "str": 68,
@@ -478,18 +499,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 61,
+        "aer": 64,
+        "com": 62,
         "dri": 61,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 68,
+        "ldr": 56,
+        "pac": 61,
+        "pas": 58,
         "pos": 65,
-        "sho": 57,
-        "sta": 67,
-        "str": 58,
-        "tac": 63,
-        "vis": 67
+        "sho": 66,
+        "sta": 61,
+        "str": 63,
+        "tac": 37,
+        "vis": 58
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -499,11 +520,14 @@
       "name": "Chadli Amry",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -564,7 +588,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 50,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 59,
         "str": 63,
@@ -607,7 +631,7 @@
       "name": "Benjamin Waigelt",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 6000
     },
     {
@@ -645,7 +669,7 @@
         "ldr": 52,
         "pac": 61,
         "pas": 52,
-        "pos": 34,
+        "pos": 54,
         "sho": 65,
         "sta": 55,
         "str": 57,
@@ -664,6 +688,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -693,7 +720,7 @@
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 59,
@@ -723,6 +750,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -777,18 +807,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 56,
-        "dri": 43,
-        "ldr": 52,
-        "pac": 52,
-        "pas": 50,
-        "pos": 57,
-        "sho": 30,
-        "sta": 54,
-        "str": 58,
-        "tac": 60,
-        "vis": 45
+        "aer": 49,
+        "com": 54,
+        "dri": 53,
+        "ldr": 48,
+        "pac": 60,
+        "pas": 54,
+        "pos": 52,
+        "sho": 37,
+        "sta": 60,
+        "str": 50,
+        "tac": 57,
+        "vis": 51
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -798,7 +828,7 @@
       "name": "Christian Demirtes",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4500
     },
     {
@@ -809,7 +839,7 @@
         "ldr": 52,
         "pac": 53,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 51,
         "str": 56,
@@ -836,7 +866,7 @@
         "ldr": 47,
         "pac": 59,
         "pas": 49,
-        "pos": 36,
+        "pos": 56,
         "sho": 58,
         "sta": 55,
         "str": 56,
@@ -856,9 +886,6 @@
       "wage": 3500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 54,
@@ -888,18 +915,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 52,
-        "dri": 49,
-        "ldr": 47,
-        "pac": 49,
-        "pas": 53,
-        "pos": 49,
-        "sho": 47,
+        "dri": 45,
+        "ldr": 49,
+        "pac": 46,
+        "pas": 52,
+        "pos": 53,
+        "sho": 41,
         "sta": 55,
-        "str": 49,
-        "tac": 52,
-        "vis": 57
+        "str": 54,
+        "tac": 58,
+        "vis": 54
       },
       "birth": "1985-10-01",
       "contract": null,
@@ -910,7 +937,7 @@
       "nation": "GER",
       "nation2": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {

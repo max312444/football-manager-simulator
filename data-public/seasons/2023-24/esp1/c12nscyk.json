@@ -78,18 +78,19 @@
     },
     {
       "alt": [
-        "RB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 84,
         "com": 73,
-        "dri": 64,
+        "dri": 73,
         "ldr": 75,
-        "pac": 74,
-        "pas": 73,
+        "pac": 83,
+        "pas": 82,
         "pos": 80,
         "sho": 48,
-        "sta": 73,
+        "sta": 82,
         "str": 78,
         "tac": 80,
         "vis": 61
@@ -102,7 +103,7 @@
       "name": "Cesar Azpilicoeta",
       "nation": "ESP",
       "number": 3,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 125000
     },
     {
@@ -132,6 +133,9 @@
       "wage": 145500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -159,6 +163,9 @@
       "wage": 256500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 83,
@@ -185,6 +192,11 @@
       "wage": 240000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 80,
         "com": 81,
@@ -192,7 +204,7 @@
         "ldr": 74,
         "pac": 79,
         "pas": 76,
-        "pos": 60,
+        "pos": 80,
         "sho": 86,
         "sta": 76,
         "str": 81,
@@ -211,6 +223,9 @@
       "wage": 176000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 83,
@@ -237,6 +252,9 @@
       "wage": 225000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 83,
         "com": 85,
@@ -244,7 +262,7 @@
         "ldr": 76,
         "pac": 79,
         "pas": 71,
-        "pos": 59,
+        "pos": 79,
         "sho": 88,
         "sta": 78,
         "str": 80,
@@ -264,19 +282,23 @@
       "wage": 181000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 79,
-        "com": 83,
-        "dri": 76,
-        "ldr": 72,
-        "pac": 83,
-        "pas": 72,
-        "pos": 61,
-        "sho": 83,
-        "sta": 75,
-        "str": 78,
-        "tac": 53,
-        "vis": 73
+        "aer": 65,
+        "com": 80,
+        "dri": 81,
+        "ldr": 70,
+        "pac": 87,
+        "pas": 78,
+        "pos": 63,
+        "sho": 78,
+        "sta": 77,
+        "str": 68,
+        "tac": 59,
+        "vis": 79
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -286,10 +308,15 @@
       "name": "Angel Corraa",
       "nation": "ARG",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 158500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 80,
@@ -316,19 +343,23 @@
       "wage": 247000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 66,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 57,
-        "pas": 66,
-        "pos": 64,
-        "sho": 61,
-        "sta": 65,
-        "str": 57,
-        "tac": 59,
-        "vis": 64
+        "aer": 46,
+        "com": 64,
+        "dri": 67,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 62,
+        "pos": 46,
+        "sho": 65,
+        "sta": 61,
+        "str": 52,
+        "tac": 39,
+        "vis": 61
       },
       "birth": "1999-12-01",
       "contract": null,
@@ -338,7 +369,7 @@
       "name": "Samuel Lyno",
       "nation": "BRA",
       "number": 12,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 36000
     },
     {
@@ -368,6 +399,11 @@
       "wage": 206500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 82,
@@ -421,18 +457,18 @@
     },
     {
       "attrs": {
-        "aer": 84,
-        "com": 77,
-        "dri": 63,
-        "ldr": 77,
-        "pac": 74,
-        "pas": 69,
-        "pos": 84,
-        "sho": 50,
-        "sta": 76,
-        "str": 80,
-        "tac": 81,
-        "vis": 65
+        "aer": 71,
+        "com": 75,
+        "dri": 73,
+        "ldr": 73,
+        "pac": 82,
+        "pas": 73,
+        "pos": 79,
+        "sho": 57,
+        "sta": 82,
+        "str": 72,
+        "tac": 78,
+        "vis": 71
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -442,23 +478,27 @@
       "name": "Nahuel Mulina",
       "nation": "ARG",
       "number": 16,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 147000
     },
     {
+      "alt": [
+        "LWB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 63,
-        "dri": 51,
-        "ldr": 69,
-        "pac": 60,
-        "pas": 62,
-        "pos": 73,
-        "sho": 38,
-        "sta": 67,
-        "str": 73,
-        "tac": 74,
-        "vis": 54
+        "aer": 57,
+        "com": 61,
+        "dri": 61,
+        "ldr": 65,
+        "pac": 68,
+        "pas": 66,
+        "pos": 68,
+        "sho": 45,
+        "sta": 73,
+        "str": 65,
+        "tac": 71,
+        "vis": 60
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -468,10 +508,15 @@
       "name": "Javi Gelan",
       "nation": "ESP",
       "number": 17,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 44500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 73,
         "com": 82,
@@ -479,7 +524,7 @@
         "ldr": 75,
         "pac": 78,
         "pas": 73,
-        "pos": 54,
+        "pos": 74,
         "sho": 84,
         "sta": 76,
         "str": 78,
@@ -505,7 +550,7 @@
         "ldr": 76,
         "pac": 80,
         "pas": 73,
-        "pos": 61,
+        "pos": 81,
         "sho": 86,
         "sta": 79,
         "str": 84,
@@ -525,7 +570,9 @@
     },
     {
       "alt": [
-        "DM"
+        "CB",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 70,
@@ -554,18 +601,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 80,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 74,
-        "pas": 84,
-        "pos": 78,
-        "sho": 78,
-        "sta": 81,
-        "str": 79,
-        "tac": 79,
-        "vis": 80
+        "aer": 67,
+        "com": 78,
+        "dri": 80,
+        "ldr": 73,
+        "pac": 82,
+        "pas": 83,
+        "pos": 70,
+        "sho": 76,
+        "sta": 83,
+        "str": 76,
+        "tac": 72,
+        "vis": 78
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -575,7 +622,7 @@
       "name": "Yannick Carrascu",
       "nation": "BEL",
       "number": 21,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 249500
     },
     {
@@ -627,10 +674,13 @@
       "name": "Reinildo Mendava",
       "nation": "MOZ",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 58500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -657,19 +707,23 @@
       "wage": 52500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 62,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 63,
+        "aer": 49,
+        "com": 63,
+        "dri": 64,
+        "ldr": 58,
+        "pac": 66,
         "pas": 69,
-        "pos": 61,
-        "sho": 58,
-        "sta": 67,
-        "str": 58,
-        "tac": 64,
-        "vis": 64
+        "pos": 46,
+        "sho": 64,
+        "sta": 61,
+        "str": 53,
+        "tac": 46,
+        "vis": 66
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -679,23 +733,27 @@
       "name": "Rodrigo Riqoelme",
       "nation": "ESP",
       "number": 25,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 39500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 66,
-        "dri": 66,
-        "ldr": 64,
-        "pac": 59,
-        "pas": 71,
-        "pos": 65,
-        "sho": 59,
-        "sta": 72,
-        "str": 60,
-        "tac": 64,
-        "vis": 68
+        "aer": 54,
+        "com": 64,
+        "dri": 71,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 67,
+        "pos": 47,
+        "sho": 63,
+        "sta": 68,
+        "str": 55,
+        "tac": 44,
+        "vis": 65
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -705,7 +763,7 @@
       "name": "Vitulo",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 54000
     },
     {
@@ -716,7 +774,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 62,
         "sta": 55,
         "str": 64,

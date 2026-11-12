@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
         "com": 76,
@@ -31,7 +36,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 65,
-        "pos": 53,
+        "pos": 73,
         "sho": 77,
         "sta": 72,
         "str": 74,
@@ -57,7 +62,7 @@
         "ldr": 68,
         "pac": 68,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 74,
         "sta": 69,
         "str": 70,
@@ -77,18 +82,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 72,
-        "dri": 57,
-        "ldr": 67,
-        "pac": 62,
-        "pas": 63,
-        "pos": 71,
-        "sho": 41,
-        "sta": 64,
-        "str": 70,
-        "tac": 74,
-        "vis": 58
+        "aer": 58,
+        "com": 70,
+        "dri": 67,
+        "ldr": 63,
+        "pac": 70,
+        "pas": 67,
+        "pos": 66,
+        "sho": 48,
+        "sta": 70,
+        "str": 62,
+        "tac": 71,
+        "vis": 64
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -99,7 +104,7 @@
       "nation": "CRO",
       "nation2": "AUS",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 10000
     },
@@ -157,18 +162,21 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 68,
-        "pas": 73,
-        "pos": 68,
-        "sho": 63,
-        "sta": 69,
-        "str": 64,
-        "tac": 68,
+        "aer": 57,
+        "com": 69,
+        "dri": 70,
+        "ldr": 62,
+        "pac": 76,
+        "pas": 74,
+        "pos": 60,
+        "sho": 61,
+        "sta": 73,
+        "str": 61,
+        "tac": 63,
         "vis": 71
       },
       "birth": "1976-10-01",
@@ -180,7 +188,7 @@
       "nation": "ITA",
       "nation2": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 14500
     },
@@ -192,7 +200,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 74,
         "sta": 63,
         "str": 67,
@@ -218,7 +226,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 59,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 67,
         "str": 71,
@@ -265,9 +273,6 @@
       "wage": 8500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 71,
         "com": 64,
@@ -295,6 +300,11 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 60,
@@ -347,6 +357,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -373,6 +386,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 53,
         "com": 60,
@@ -395,24 +411,27 @@
       "name": "Andrea Dussena",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 58,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 66,
-        "pos": 64,
-        "sho": 57,
-        "sta": 65,
-        "str": 59,
-        "tac": 58,
-        "vis": 62
+        "aer": 52,
+        "com": 63,
+        "dri": 60,
+        "ldr": 61,
+        "pac": 61,
+        "pas": 68,
+        "pos": 65,
+        "sho": 59,
+        "sta": 67,
+        "str": 60,
+        "tac": 59,
+        "vis": 64
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -452,6 +471,10 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -533,18 +556,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 59,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 53,
+        "aer": 45,
+        "com": 60,
+        "dri": 63,
+        "ldr": 52,
+        "pac": 56,
         "pas": 62,
-        "pos": 55,
-        "sho": 54,
-        "sta": 59,
-        "str": 53,
-        "tac": 57,
-        "vis": 59
+        "pos": 40,
+        "sho": 60,
+        "sta": 53,
+        "str": 48,
+        "tac": 39,
+        "vis": 61
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -554,7 +577,7 @@
       "name": "Emiliano Salvatti",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
@@ -585,6 +608,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -611,6 +637,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -671,7 +700,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 57,
         "str": 60,
@@ -690,19 +719,23 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 61,
-        "dri": 52,
+        "dri": 58,
         "ldr": 49,
-        "pac": 59,
-        "pas": 52,
-        "pos": 34,
+        "pac": 65,
+        "pas": 58,
+        "pos": 54,
         "sho": 63,
         "sta": 51,
         "str": 59,
         "tac": 27,
-        "vis": 51
+        "vis": 57
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -712,7 +745,7 @@
       "name": "Andrea Pisenu",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 2500
     },
@@ -724,7 +757,7 @@
         "ldr": 48,
         "pac": 60,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 61,
         "sta": 54,
         "str": 54,
@@ -743,6 +776,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -823,6 +859,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 52,
@@ -1008,6 +1047,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 49,

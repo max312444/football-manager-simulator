@@ -31,7 +31,7 @@
         "ldr": 67,
         "pac": 75,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 78,
         "sta": 68,
         "str": 73,
@@ -50,6 +50,11 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 70,
@@ -84,7 +89,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 78,
         "sta": 68,
         "str": 77,
@@ -139,7 +144,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 63,
         "str": 67,
@@ -159,19 +164,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 61,
-        "dri": 66,
+        "com": 68,
+        "dri": 68,
         "ldr": 61,
-        "pac": 69,
-        "pas": 66,
-        "pos": 65,
+        "pac": 71,
+        "pas": 73,
+        "pos": 72,
         "sho": 46,
-        "sta": 73,
-        "str": 62,
-        "tac": 68,
-        "vis": 63
+        "sta": 75,
+        "str": 69,
+        "tac": 75,
+        "vis": 70
       },
       "birth": "1974-11-01",
       "contract": null,
@@ -181,7 +189,7 @@
       "name": "Max Tonettu",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 9500
     },
     {
@@ -211,6 +219,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 67,
@@ -238,6 +249,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -291,6 +305,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -378,7 +395,7 @@
         "ldr": 56,
         "pac": 58,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 57,
         "str": 62,
@@ -423,6 +440,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -449,17 +470,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 60,
-        "dri": 59,
+        "aer": 58,
+        "com": 66,
+        "dri": 63,
         "ldr": 58,
-        "pac": 57,
+        "pac": 61,
         "pas": 63,
-        "pos": 57,
-        "sho": 56,
+        "pos": 63,
+        "sho": 62,
         "sta": 63,
-        "str": 55,
+        "str": 61,
         "tac": 59,
         "vis": 58
       },
@@ -472,7 +498,7 @@
       "nation": "SRB",
       "nation2": "MNE",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 5000
     },
@@ -503,6 +529,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -556,6 +585,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -609,18 +641,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 56,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 56,
-        "pas": 60,
-        "pos": 54,
-        "sho": 50,
+        "dri": 54,
+        "ldr": 58,
+        "pac": 53,
+        "pas": 59,
+        "pos": 58,
+        "sho": 44,
         "sta": 63,
-        "str": 55,
-        "tac": 56,
-        "vis": 56
+        "str": 60,
+        "tac": 62,
+        "vis": 53
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -630,24 +662,24 @@
       "name": "Diego Mateu",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 62,
-        "dri": 53,
-        "ldr": 50,
-        "pac": 55,
-        "pas": 47,
-        "pos": 39,
-        "sho": 58,
-        "sta": 54,
-        "str": 56,
-        "tac": 25,
-        "vis": 53
+        "aer": 42,
+        "com": 59,
+        "dri": 58,
+        "ldr": 48,
+        "pac": 59,
+        "pas": 53,
+        "pos": 41,
+        "sho": 53,
+        "sta": 56,
+        "str": 46,
+        "tac": 31,
+        "vis": 59
       },
       "birth": "1970-01-01",
       "contract": null,
@@ -657,7 +689,7 @@
       "name": "Gaetano Vesari",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 2000
     },
@@ -669,7 +701,7 @@
         "ldr": 53,
         "pac": 57,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 57,
         "sta": 54,
         "str": 56,
@@ -715,6 +747,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -769,19 +804,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
-        "com": 58,
-        "dri": 52,
+        "com": 60,
+        "dri": 54,
         "ldr": 54,
         "pac": 51,
-        "pas": 55,
+        "pas": 57,
         "pos": 57,
-        "sho": 52,
-        "sta": 58,
+        "sho": 54,
+        "sta": 60,
         "str": 54,
         "tac": 55,
-        "vis": 55
+        "vis": 57
       },
       "birth": "1971-06-01",
       "contract": null,
@@ -798,17 +836,17 @@
     {
       "attrs": {
         "aer": 49,
-        "com": 58,
-        "dri": 52,
-        "ldr": 50,
-        "pac": 50,
-        "pas": 58,
+        "com": 54,
+        "dri": 50,
+        "ldr": 48,
+        "pac": 57,
+        "pas": 52,
         "pos": 51,
-        "sho": 48,
+        "sho": 34,
         "sta": 58,
-        "str": 49,
-        "tac": 52,
-        "vis": 60
+        "str": 48,
+        "tac": 56,
+        "vis": 51
       },
       "birth": "1973-02-01",
       "contract": null,
@@ -818,7 +856,7 @@
       "name": "Gianluca Colunnello",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     },
@@ -850,6 +888,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -965,7 +1006,7 @@
         "ldr": 48,
         "pac": 48,
         "pas": 46,
-        "pos": 26,
+        "pos": 46,
         "sho": 56,
         "sta": 45,
         "str": 48,
@@ -984,6 +1025,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 51,

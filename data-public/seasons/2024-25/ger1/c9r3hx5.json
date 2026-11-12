@@ -78,6 +78,9 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 57,
@@ -130,19 +133,24 @@
       "wage": 54000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 61,
-        "dri": 53,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 57,
-        "pos": 56,
-        "sho": 50,
+        "dri": 49,
+        "ldr": 55,
+        "pac": 47,
+        "pas": 56,
+        "pos": 60,
+        "sho": 44,
         "sta": 60,
-        "str": 54,
-        "tac": 51,
-        "vis": 61
+        "str": 59,
+        "tac": 57,
+        "vis": 58
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -152,23 +160,23 @@
       "name": "Marko Ivazic",
       "nation": "SRB",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 26500
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 63,
+        "aer": 65,
+        "com": 64,
         "dri": 65,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 65,
+        "ldr": 61,
+        "pac": 66,
+        "pas": 55,
         "pos": 62,
-        "sho": 56,
-        "sta": 69,
-        "str": 58,
-        "tac": 62,
-        "vis": 62
+        "sho": 65,
+        "sta": 63,
+        "str": 63,
+        "tac": 36,
+        "vis": 53
       },
       "birth": "1992-11-01",
       "contract": null,
@@ -178,23 +186,28 @@
       "name": "Steven Skrzybsky",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 63000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 63,
-        "dri": 59,
+        "com": 64,
+        "dri": 65,
         "ldr": 60,
         "pac": 63,
-        "pas": 55,
-        "pos": 41,
-        "sho": 68,
+        "pas": 62,
+        "pos": 61,
+        "sho": 69,
         "sta": 62,
         "str": 61,
         "tac": 36,
-        "vis": 57
+        "vis": 64
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -204,7 +217,7 @@
       "name": "Finn Purath",
       "nation": "GER",
       "number": 8,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 36000
     },
     {
@@ -215,7 +228,7 @@
         "ldr": 59,
         "pac": 59,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 62,
         "sta": 59,
         "str": 60,
@@ -234,6 +247,10 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -267,7 +284,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 62,
-        "pos": 46,
+        "pos": 66,
         "sho": 69,
         "sta": 62,
         "str": 65,
@@ -293,7 +310,7 @@
         "ldr": 64,
         "pac": 70,
         "pas": 57,
-        "pos": 46,
+        "pos": 66,
         "sho": 69,
         "sta": 64,
         "str": 70,
@@ -313,18 +330,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 62,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 56,
-        "pas": 65,
-        "pos": 65,
-        "sho": 59,
-        "sta": 68,
-        "str": 61,
-        "tac": 58,
-        "vis": 65
+        "aer": 66,
+        "com": 60,
+        "dri": 52,
+        "ldr": 64,
+        "pac": 55,
+        "pas": 55,
+        "pos": 70,
+        "sho": 38,
+        "sta": 62,
+        "str": 68,
+        "tac": 65,
+        "vis": 50
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -334,7 +351,7 @@
       "name": "Marvin Scholz",
       "nation": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 60500
     },
     {
@@ -371,7 +388,7 @@
         "ldr": 58,
         "pac": 70,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 68,
         "sta": 63,
         "str": 69,
@@ -417,18 +434,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 56,
-        "dri": 55,
-        "ldr": 52,
-        "pac": 52,
-        "pas": 63,
-        "pos": 53,
-        "sho": 51,
+        "dri": 51,
+        "ldr": 54,
+        "pac": 49,
+        "pas": 62,
+        "pos": 57,
+        "sho": 45,
         "sta": 63,
-        "str": 54,
-        "tac": 53,
-        "vis": 60
+        "str": 59,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -438,11 +455,13 @@
       "name": "Nicolai Ramberg",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 28500
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -470,18 +489,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 63,
-        "dri": 54,
-        "ldr": 64,
-        "pac": 62,
-        "pas": 56,
-        "pos": 73,
-        "sho": 43,
-        "sta": 63,
-        "str": 67,
-        "tac": 71,
-        "vis": 51
+        "aer": 59,
+        "com": 61,
+        "dri": 64,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 60,
+        "pos": 68,
+        "sho": 50,
+        "sta": 69,
+        "str": 59,
+        "tac": 68,
+        "vis": 57
       },
       "birth": "1999-01-01",
       "contract": null,
@@ -491,7 +510,7 @@
       "name": "Tymoteusz Puchecz",
       "nation": "POL",
       "number": 27,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 61000
     },
     {
@@ -522,18 +541,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 44,
-        "ldr": 58,
-        "pac": 54,
-        "pas": 48,
-        "pos": 58,
-        "sho": 29,
-        "sta": 57,
-        "str": 61,
-        "tac": 63,
-        "vis": 42
+        "aer": 50,
+        "com": 57,
+        "dri": 54,
+        "ldr": 54,
+        "pac": 62,
+        "pas": 52,
+        "pos": 53,
+        "sho": 36,
+        "sta": 63,
+        "str": 53,
+        "tac": 60,
+        "vis": 48
       },
       "birth": "2002-11-01",
       "contract": null,
@@ -544,7 +563,7 @@
       "name": "Dominik Jevorcek",
       "nation": "SVK",
       "number": 33,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 23000
     },
     {
@@ -574,6 +593,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,

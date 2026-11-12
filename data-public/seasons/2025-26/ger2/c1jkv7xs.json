@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 56,
-        "dri": 46,
-        "ldr": 53,
-        "pac": 55,
-        "pas": 52,
-        "pos": 62,
-        "sho": 34,
-        "sta": 57,
-        "str": 63,
-        "tac": 64,
-        "vis": 42
+        "aer": 49,
+        "com": 54,
+        "dri": 56,
+        "ldr": 49,
+        "pac": 63,
+        "pas": 56,
+        "pos": 57,
+        "sho": 41,
+        "sta": 63,
+        "str": 55,
+        "tac": 61,
+        "vis": 48
       },
       "birth": "2001-01-01",
       "contract": null,
@@ -73,23 +73,23 @@
       "name": "Simon Aste",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 12000
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 56,
-        "dri": 43,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 49,
-        "pos": 57,
-        "sho": 31,
-        "sta": 50,
-        "str": 56,
-        "tac": 62,
-        "vis": 42
+        "aer": 47,
+        "com": 54,
+        "dri": 53,
+        "ldr": 47,
+        "pac": 58,
+        "pas": 53,
+        "pos": 52,
+        "sho": 38,
+        "sta": 56,
+        "str": 48,
+        "tac": 59,
+        "vis": 48
       },
       "birth": "2000-08-01",
       "contract": null,
@@ -99,7 +99,7 @@
       "name": "Florian Kleynhansl",
       "nation": "GER",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8500
     },
     {
@@ -156,6 +156,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -183,7 +186,8 @@
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 51,
@@ -218,7 +222,7 @@
         "ldr": 52,
         "pac": 57,
         "pas": 52,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 52,
         "str": 55,
@@ -237,7 +241,6 @@
       "wage": 8500
     },
     {
-      "alt": [],
       "attrs": {
         "aer": 65,
         "com": 63,
@@ -245,7 +248,7 @@
         "ldr": 55,
         "pac": 64,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 66,
         "sta": 62,
         "str": 64,
@@ -264,6 +267,10 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -291,19 +298,22 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 51,
-        "dri": 42,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 51,
-        "pos": 56,
-        "sho": 29,
-        "sta": 52,
-        "str": 56,
-        "tac": 56,
-        "vis": 39
+        "aer": 43,
+        "com": 49,
+        "dri": 52,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 55,
+        "pos": 51,
+        "sho": 36,
+        "sta": 58,
+        "str": 48,
+        "tac": 53,
+        "vis": 45
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -313,10 +323,13 @@
       "name": "Erik Wakesser",
       "nation": "GER",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -344,19 +357,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 56,
-        "dri": 41,
-        "ldr": 54,
-        "pac": 49,
-        "pas": 50,
-        "pos": 62,
-        "sho": 29,
-        "sta": 54,
-        "str": 60,
-        "tac": 58,
-        "vis": 43
+        "aer": 46,
+        "com": 54,
+        "dri": 51,
+        "ldr": 50,
+        "pac": 57,
+        "pas": 54,
+        "pos": 57,
+        "sho": 36,
+        "sta": 60,
+        "str": 52,
+        "tac": 55,
+        "vis": 49
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -366,7 +382,7 @@
       "name": "Frank Ronstedt",
       "nation": "GER",
       "number": 17,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 9000
     },
     {
@@ -377,7 +393,7 @@
         "ldr": 43,
         "pac": 52,
         "pas": 42,
-        "pos": 28,
+        "pos": 48,
         "sho": 55,
         "sta": 45,
         "str": 50,
@@ -403,7 +419,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 51,
-        "pos": 33,
+        "pos": 53,
         "sho": 61,
         "sta": 50,
         "str": 60,
@@ -422,6 +438,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -448,6 +467,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -502,18 +524,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 58,
-        "dri": 57,
-        "ldr": 52,
-        "pac": 60,
+        "aer": 63,
+        "com": 55,
+        "dri": 45,
+        "ldr": 56,
+        "pac": 54,
         "pas": 53,
-        "pos": 39,
-        "sho": 60,
+        "pos": 64,
+        "sho": 30,
         "sta": 53,
-        "str": 61,
-        "tac": 29,
-        "vis": 49
+        "str": 63,
+        "tac": 62,
+        "vis": 43
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -524,7 +546,7 @@
       "name": "Paul Joli",
       "nation": "FRA",
       "number": 26,
-      "pos": "ST",
+      "pos": "CB",
       "wage": 10500
     },
     {
@@ -535,7 +557,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 54,
-        "pos": 34,
+        "pos": 54,
         "sho": 65,
         "sta": 53,
         "str": 57,
@@ -561,7 +583,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 49,
-        "pos": 37,
+        "pos": 57,
         "sho": 59,
         "sta": 50,
         "str": 59,
@@ -633,19 +655,22 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 56,
-        "dri": 59,
-        "ldr": 50,
-        "pac": 58,
-        "pas": 48,
-        "pos": 35,
-        "sho": 63,
-        "sta": 54,
-        "str": 59,
-        "tac": 31,
-        "vis": 52
+        "aer": 45,
+        "com": 53,
+        "dri": 64,
+        "ldr": 48,
+        "pac": 62,
+        "pas": 54,
+        "pos": 37,
+        "sho": 58,
+        "sta": 56,
+        "str": 49,
+        "tac": 37,
+        "vis": 58
       },
       "birth": "2001-07-01",
       "contract": null,
@@ -656,7 +681,7 @@
       "nation": "GER",
       "nation2": "TOG",
       "number": 48,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10000
     }
   ],

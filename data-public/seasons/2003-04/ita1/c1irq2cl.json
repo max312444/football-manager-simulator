@@ -31,7 +31,7 @@
         "ldr": 71,
         "pac": 81,
         "pas": 73,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 75,
         "str": 80,
@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 77,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 75,
-        "pos": 74,
-        "sho": 72,
+        "dri": 69,
+        "ldr": 73,
+        "pac": 66,
+        "pas": 74,
+        "pos": 78,
+        "sho": 66,
         "sta": 79,
-        "str": 70,
-        "tac": 70,
-        "vis": 74
+        "str": 75,
+        "tac": 76,
+        "vis": 71
       },
       "birth": "1975-02-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Gianni Guigoo",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 19000
     },
@@ -100,11 +100,14 @@
       "name": "Jonior",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 19000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 79,
         "com": 71,
@@ -138,7 +141,7 @@
         "ldr": 67,
         "pac": 76,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 74,
         "sta": 71,
         "str": 74,
@@ -192,7 +195,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 77,
         "sta": 71,
         "str": 71,
@@ -213,18 +216,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 68,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 61,
+        "aer": 56,
+        "com": 69,
+        "dri": 70,
+        "ldr": 61,
+        "pac": 64,
         "pas": 73,
-        "pos": 66,
-        "sho": 62,
-        "sta": 68,
-        "str": 61,
-        "tac": 65,
-        "vis": 70
+        "pos": 51,
+        "sho": 68,
+        "sta": 62,
+        "str": 56,
+        "tac": 47,
+        "vis": 72
       },
       "birth": "1973-03-01",
       "contract": null,
@@ -234,11 +237,15 @@
       "name": "Massimo Brembilla",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -292,19 +299,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 70,
-        "pos": 63,
-        "sho": 61,
-        "sta": 70,
-        "str": 64,
-        "tac": 64,
-        "vis": 67
+        "aer": 48,
+        "com": 61,
+        "dri": 72,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 66,
+        "pos": 45,
+        "sho": 65,
+        "sta": 66,
+        "str": 59,
+        "tac": 44,
+        "vis": 64
       },
       "birth": "1980-03-01",
       "contract": null,
@@ -314,24 +326,24 @@
       "name": "Rodrigo Taddai",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 9000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 61,
-        "dri": 51,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 55,
-        "pos": 71,
-        "sho": 36,
-        "sta": 61,
-        "str": 67,
-        "tac": 65,
-        "vis": 54
+        "aer": 56,
+        "com": 59,
+        "dri": 61,
+        "ldr": 58,
+        "pac": 70,
+        "pas": 59,
+        "pos": 66,
+        "sho": 43,
+        "sta": 67,
+        "str": 59,
+        "tac": 62,
+        "vis": 60
       },
       "birth": "1979-07-01",
       "contract": null,
@@ -341,7 +353,7 @@
       "name": "Alessandro Agostyni",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 5500
     },
@@ -373,6 +385,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 62,
@@ -507,18 +522,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 61,
-        "dri": 52,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 59,
-        "pos": 70,
-        "sho": 40,
-        "sta": 63,
-        "str": 63,
-        "tac": 68,
-        "vis": 48
+        "aer": 57,
+        "com": 59,
+        "dri": 62,
+        "ldr": 55,
+        "pac": 69,
+        "pas": 63,
+        "pos": 65,
+        "sho": 47,
+        "sta": 69,
+        "str": 55,
+        "tac": 65,
+        "vis": 54
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -528,11 +543,14 @@
       "name": "Paolo Foglyo",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 66,
@@ -560,6 +578,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -593,7 +614,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 51,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 59,
         "str": 60,
@@ -695,18 +716,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 61,
-        "dri": 57,
-        "ldr": 54,
-        "pac": 58,
+        "aer": 48,
+        "com": 62,
+        "dri": 61,
+        "ldr": 52,
+        "pac": 61,
         "pas": 66,
-        "pos": 61,
-        "sho": 56,
-        "sta": 60,
-        "str": 56,
-        "tac": 55,
-        "vis": 60
+        "pos": 46,
+        "sho": 62,
+        "sta": 54,
+        "str": 51,
+        "tac": 37,
+        "vis": 62
       },
       "birth": "1981-04-01",
       "contract": null,
@@ -716,11 +737,16 @@
       "name": "Pinge",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 59,
@@ -775,18 +801,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 57,
-        "dri": 43,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 54,
-        "pos": 65,
-        "sho": 35,
-        "sta": 56,
-        "str": 62,
-        "tac": 64,
-        "vis": 43
+        "aer": 48,
+        "com": 55,
+        "dri": 53,
+        "ldr": 53,
+        "pac": 64,
+        "pas": 58,
+        "pos": 60,
+        "sho": 42,
+        "sta": 62,
+        "str": 54,
+        "tac": 61,
+        "vis": 49
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -796,24 +822,24 @@
       "name": "Kostas Loubootis",
       "nation": "GRE",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 56,
-        "dri": 42,
-        "ldr": 60,
-        "pac": 52,
-        "pas": 53,
-        "pos": 61,
-        "sho": 32,
-        "sta": 55,
-        "str": 61,
-        "tac": 64,
-        "vis": 44
+        "aer": 51,
+        "com": 54,
+        "dri": 52,
+        "ldr": 56,
+        "pac": 60,
+        "pas": 57,
+        "pos": 56,
+        "sho": 39,
+        "sta": 61,
+        "str": 53,
+        "tac": 61,
+        "vis": 50
       },
       "birth": "1980-05-01",
       "contract": null,
@@ -823,11 +849,14 @@
       "name": "Carlos Aranu",
       "nation": "ARG",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -862,7 +891,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 52,
         "str": 59,
@@ -910,17 +939,17 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 58,
-        "pos": 57,
-        "sho": 51,
-        "sta": 59,
-        "str": 50,
-        "tac": 55,
+        "aer": 43,
+        "com": 53,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 62,
+        "pas": 59,
+        "pos": 49,
+        "sho": 49,
+        "sta": 63,
+        "str": 47,
+        "tac": 50,
         "vis": 62
       },
       "birth": "1982-02-01",
@@ -931,7 +960,7 @@
       "name": "Lampros Vangalis",
       "nation": "GRE",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 3500
     },
@@ -943,7 +972,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 55,
         "str": 58,
@@ -963,19 +992,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 58,
+        "com": 66,
         "dri": 40,
         "ldr": 56,
         "pac": 51,
-        "pas": 52,
+        "pas": 60,
         "pos": 59,
         "sho": 29,
-        "sta": 50,
+        "sta": 58,
         "str": 57,
         "tac": 57,
-        "vis": 44
+        "vis": 52
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -985,7 +1019,7 @@
       "name": "Simone Bonomy",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -1131,7 +1165,7 @@
         "ldr": 44,
         "pac": 53,
         "pas": 46,
-        "pos": 34,
+        "pos": 54,
         "sho": 54,
         "sta": 48,
         "str": 56,
@@ -1178,6 +1212,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,

@@ -105,18 +105,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 57,
-        "dri": 51,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 61,
-        "pos": 56,
-        "sho": 47,
+        "dri": 47,
+        "ldr": 57,
+        "pac": 48,
+        "pas": 60,
+        "pos": 60,
+        "sho": 41,
         "sta": 55,
-        "str": 50,
-        "tac": 54,
-        "vis": 60
+        "str": 55,
+        "tac": 60,
+        "vis": 57
       },
       "birth": "2004-08-01",
       "contract": null,
@@ -126,23 +126,27 @@
       "name": "Aljoscha Kemleyn",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 24000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 67,
-        "dri": 64,
-        "ldr": 60,
-        "pac": 67,
-        "pas": 57,
-        "pos": 46,
-        "sho": 70,
-        "sta": 66,
-        "str": 69,
-        "tac": 36,
-        "vis": 60
+        "aer": 49,
+        "com": 64,
+        "dri": 69,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 63,
+        "pos": 48,
+        "sho": 65,
+        "sta": 68,
+        "str": 59,
+        "tac": 42,
+        "vis": 66
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -152,23 +156,23 @@
       "name": "Oliver Borke",
       "nation": "SCO",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 50500
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 72,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 78,
-        "pos": 73,
-        "sho": 70,
+        "dri": 65,
+        "ldr": 72,
+        "pac": 68,
+        "pas": 77,
+        "pos": 77,
+        "sho": 64,
         "sta": 73,
-        "str": 70,
-        "tac": 68,
-        "vis": 72
+        "str": 75,
+        "tac": 74,
+        "vis": 69
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -179,23 +183,26 @@
       "nation": "GER",
       "nation2": "TUN",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 118000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 53,
-        "dri": 51,
-        "ldr": 47,
-        "pac": 57,
-        "pas": 47,
-        "pos": 34,
-        "sho": 58,
-        "sta": 50,
-        "str": 54,
-        "tac": 25,
-        "vis": 46
+        "aer": 38,
+        "com": 50,
+        "dri": 56,
+        "ldr": 45,
+        "pac": 61,
+        "pas": 53,
+        "pos": 36,
+        "sho": 53,
+        "sta": 52,
+        "str": 44,
+        "tac": 31,
+        "vis": 52
       },
       "birth": "2004-09-01",
       "contract": null,
@@ -205,7 +212,7 @@
       "name": "Livan Burco",
       "nation": "TUR",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 12000
     },
     {
@@ -216,7 +223,7 @@
         "ldr": 57,
         "pac": 58,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 55,
         "str": 58,
@@ -235,19 +242,24 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 68,
-        "dri": 63,
-        "ldr": 65,
-        "pac": 62,
+        "aer": 51,
+        "com": 69,
+        "dri": 67,
+        "ldr": 63,
+        "pac": 65,
         "pas": 68,
-        "pos": 63,
-        "sho": 65,
-        "sta": 70,
-        "str": 65,
-        "tac": 64,
-        "vis": 71
+        "pos": 48,
+        "sho": 71,
+        "sta": 64,
+        "str": 60,
+        "tac": 46,
+        "vis": 73
       },
       "birth": "1999-09-01",
       "contract": null,
@@ -257,7 +269,7 @@
       "name": "Jeong Woo-ieong",
       "nation": "KOR",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 86000
     },
     {
@@ -313,6 +325,9 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 57,
@@ -339,19 +354,22 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 51,
-        "dri": 45,
-        "ldr": 44,
-        "pac": 45,
-        "pas": 37,
-        "pos": 23,
-        "sho": 48,
-        "sta": 46,
-        "str": 48,
-        "tac": 20,
-        "vis": 41
+        "aer": 32,
+        "com": 48,
+        "dri": 50,
+        "ldr": 42,
+        "pac": 49,
+        "pas": 43,
+        "pos": 25,
+        "sho": 43,
+        "sta": 48,
+        "str": 38,
+        "tac": 26,
+        "vis": 47
       },
       "birth": "2004-10-01",
       "contract": null,
@@ -361,23 +379,26 @@
       "name": "David Preo",
       "nation": "GER",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 68,
-        "dri": 58,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 63,
-        "pos": 71,
-        "sho": 41,
-        "sta": 64,
-        "str": 74,
-        "tac": 71,
-        "vis": 54
+        "aer": 61,
+        "com": 66,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 67,
+        "pos": 66,
+        "sho": 48,
+        "sta": 70,
+        "str": 66,
+        "tac": 68,
+        "vis": 60
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -387,10 +408,14 @@
       "name": "Josip Juranuvic",
       "nation": "CRO",
       "number": 18,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 78000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 73,
@@ -417,19 +442,24 @@
       "wage": 118000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 63,
-        "dri": 62,
+        "com": 67,
+        "dri": 66,
         "ldr": 60,
         "pac": 63,
-        "pas": 52,
-        "pos": 38,
-        "sho": 63,
+        "pas": 60,
+        "pos": 58,
+        "sho": 67,
         "sta": 60,
         "str": 60,
         "tac": 36,
-        "vis": 56
+        "vis": 64
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -439,7 +469,7 @@
       "name": "Tim Skerke",
       "nation": "GER",
       "number": 21,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 31500
     },
     {
@@ -450,7 +480,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 61,
         "str": 59,
@@ -469,19 +499,24 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 71,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 66,
-        "pas": 73,
-        "pos": 69,
-        "sho": 68,
-        "sta": 72,
-        "str": 70,
-        "tac": 68,
-        "vis": 71
+        "aer": 56,
+        "com": 69,
+        "dri": 76,
+        "ldr": 64,
+        "pac": 75,
+        "pas": 69,
+        "pos": 51,
+        "sho": 72,
+        "sta": 68,
+        "str": 65,
+        "tac": 48,
+        "vis": 68
       },
       "birth": "1996-05-01",
       "contract": null,
@@ -491,7 +526,7 @@
       "name": "Robert Skuv",
       "nation": "DEN",
       "number": 24,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 118000
     },
     {
@@ -528,7 +563,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 52,
-        "pos": 41,
+        "pos": 61,
         "sho": 66,
         "sta": 56,
         "str": 58,
@@ -547,19 +582,23 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 62,
-        "dri": 47,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 52,
-        "pos": 68,
-        "sho": 33,
-        "sta": 60,
-        "str": 67,
-        "tac": 63,
-        "vis": 49
+        "aer": 56,
+        "com": 60,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 65,
+        "pas": 56,
+        "pos": 63,
+        "sho": 40,
+        "sta": 66,
+        "str": 59,
+        "tac": 60,
+        "vis": 55
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -569,10 +608,13 @@
       "name": "Christopher Trimmal",
       "nation": "AUT",
       "number": 28,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -606,7 +648,7 @@
         "ldr": 38,
         "pac": 45,
         "pas": 36,
-        "pos": 23,
+        "pos": 43,
         "sho": 47,
         "sta": 41,
         "str": 49,
@@ -652,18 +694,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 69,
-        "dri": 68,
-        "ldr": 63,
-        "pac": 62,
-        "pas": 74,
-        "pos": 65,
-        "sho": 60,
+        "dri": 64,
+        "ldr": 65,
+        "pac": 59,
+        "pas": 73,
+        "pos": 69,
+        "sho": 54,
         "sta": 68,
-        "str": 66,
-        "tac": 67,
-        "vis": 72
+        "str": 71,
+        "tac": 73,
+        "vis": 69
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -673,7 +715,7 @@
       "name": "Alex Krel",
       "nation": "CZE",
       "number": 33,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 95500
     },
     {
@@ -705,18 +747,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 59,
-        "dri": 52,
-        "ldr": 59,
-        "pac": 55,
-        "pas": 58,
-        "pos": 67,
-        "sho": 34,
-        "sta": 57,
-        "str": 63,
-        "tac": 64,
-        "vis": 52
+        "aer": 55,
+        "com": 57,
+        "dri": 62,
+        "ldr": 55,
+        "pac": 63,
+        "pas": 62,
+        "pos": 62,
+        "sho": 41,
+        "sta": 63,
+        "str": 55,
+        "tac": 61,
+        "vis": 58
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -727,7 +769,7 @@
       "nation": "GER",
       "nation2": "GHA",
       "number": 39,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 35500
     }
   ],

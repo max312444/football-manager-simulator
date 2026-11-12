@@ -77,6 +77,9 @@
       "wage": 358500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 82,
@@ -104,9 +107,6 @@
       "wage": 459000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 78,
         "com": 84,
@@ -133,6 +133,9 @@
       "wage": 459000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 76,
@@ -159,6 +162,9 @@
       "wage": 207500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 79,
@@ -185,6 +191,9 @@
       "wage": 459000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 85,
@@ -211,20 +220,23 @@
       "wage": 459000
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 84,
         "com": 88,
-        "dri": 90,
+        "dri": 93,
         "ldr": 82,
-        "pac": 91,
-        "pas": 82,
-        "pos": 66,
+        "pac": 94,
+        "pas": 85,
+        "pos": 86,
         "sho": 94,
         "sta": 83,
         "str": 89,
         "tac": 56,
-        "vis": 79
+        "vis": 82
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -235,10 +247,15 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 459000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 82,
         "com": 89,
@@ -246,7 +263,7 @@
         "ldr": 76,
         "pac": 86,
         "pas": 76,
-        "pos": 63,
+        "pos": 83,
         "sho": 88,
         "sta": 84,
         "str": 88,
@@ -291,20 +308,22 @@
       "wage": 302500
     },
     {
-      "alt": [],
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 74,
+        "aer": 80,
         "com": 78,
-        "dri": 79,
-        "ldr": 75,
-        "pac": 77,
-        "pas": 86,
-        "pos": 76,
-        "sho": 78,
+        "dri": 75,
+        "ldr": 77,
+        "pac": 74,
+        "pas": 85,
+        "pos": 80,
+        "sho": 72,
         "sta": 81,
-        "str": 78,
-        "tac": 76,
-        "vis": 79
+        "str": 83,
+        "tac": 82,
+        "vis": 76
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -315,7 +334,7 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 394000
     },
     {
@@ -341,7 +360,7 @@
       "name": "Jordi Albe",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 369000
     },
     {
@@ -367,10 +386,15 @@
       "name": "Lucas Digna",
       "nation": "FRA",
       "number": 19,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 180000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -397,6 +421,10 @@
       "wage": 326000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 73,
@@ -423,6 +451,10 @@
       "wage": 241000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 69,
         "com": 73,
@@ -477,7 +509,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 82,
@@ -538,7 +570,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 68,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 71,
         "str": 75,

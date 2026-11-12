@@ -156,6 +156,9 @@
       "wage": 117000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 80,
         "com": 70,
@@ -244,20 +247,22 @@
     },
     {
       "alt": [
-        "LW"
+        "RW",
+        "LW",
+        "LWB"
       ],
       "attrs": {
         "aer": 58,
         "com": 68,
         "dri": 74,
         "ldr": 56,
-        "pac": 78,
+        "pac": 82,
         "pas": 72,
-        "pos": 64,
+        "pos": 68,
         "sho": 64,
         "sta": 82,
-        "str": 66,
-        "tac": 66,
+        "str": 70,
+        "tac": 70,
         "vis": 66
       },
       "birth": "2001-02-01",
@@ -299,6 +304,9 @@
       "wage": 86500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 64,
@@ -326,6 +334,10 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 74,
@@ -353,9 +365,6 @@
       "wage": 121500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 70,
         "com": 70,
@@ -382,19 +391,23 @@
       "wage": 131000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 68,
-        "dri": 72,
+        "com": 74,
+        "dri": 75,
         "ldr": 54,
         "pac": 72,
-        "pas": 72,
+        "pas": 78,
         "pos": 70,
-        "sho": 58,
+        "sho": 61,
         "sta": 82,
         "str": 68,
-        "tac": 72,
-        "vis": 66
+        "tac": 75,
+        "vis": 72
       },
       "birth": "2004-03-01",
       "contract": "2030-06-30",
@@ -409,7 +422,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 46,
@@ -469,22 +483,19 @@
       "wage": 152500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 54,
-        "com": 68,
+        "com": 73,
         "dri": 74,
         "ldr": 50,
         "pac": 74,
-        "pas": 72,
+        "pas": 77,
         "pos": 58,
-        "sho": 64,
+        "sho": 69,
         "sta": 76,
         "str": 62,
         "tac": 54,
-        "vis": 70
+        "vis": 75
       },
       "birth": "2005-04-01",
       "contract": "2030-06-30",
@@ -494,7 +505,7 @@
       "name": "Antoni Mylambo",
       "nation": "NED",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 71500
     },
@@ -558,6 +569,7 @@
     },
     {
       "alt": [
+        "RW",
         "ST"
       ],
       "attrs": {
@@ -590,7 +602,7 @@
     },
     {
       "alt": [
-        "LW"
+        "LWB"
       ],
       "attrs": {
         "aer": 52,

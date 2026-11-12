@@ -77,6 +77,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -103,18 +106,23 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 56,
+        "aer": 56,
+        "com": 58,
         "dri": 56,
         "ldr": 51,
-        "pac": 51,
+        "pac": 58,
         "pas": 55,
-        "pos": 53,
+        "pos": 62,
         "sho": 53,
         "sta": 61,
-        "str": 53,
-        "tac": 53,
+        "str": 62,
+        "tac": 62,
         "vis": 55
       },
       "birth": "1983-08-01",
@@ -125,23 +133,23 @@
       "name": "Christian Mullar",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 64,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 68,
-        "pos": 66,
-        "sho": 62,
+        "dri": 62,
+        "ldr": 65,
+        "pac": 60,
+        "pas": 67,
+        "pos": 70,
+        "sho": 56,
         "sta": 66,
-        "str": 59,
-        "tac": 65,
-        "vis": 69
+        "str": 64,
+        "tac": 71,
+        "vis": 66
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -151,7 +159,7 @@
       "name": "Jawhar Mnary",
       "nation": "TUN",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5500
     },
     {
@@ -162,7 +170,7 @@
         "ldr": 58,
         "pac": 59,
         "pas": 51,
-        "pos": 40,
+        "pos": 60,
         "sho": 62,
         "sta": 57,
         "str": 64,
@@ -182,18 +190,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 59,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 56,
+        "aer": 40,
+        "com": 60,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 59,
         "pas": 59,
-        "pos": 60,
-        "sho": 52,
-        "sta": 64,
-        "str": 52,
-        "tac": 58,
-        "vis": 61
+        "pos": 45,
+        "sho": 58,
+        "sta": 58,
+        "str": 47,
+        "tac": 40,
+        "vis": 63
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -203,10 +211,14 @@
       "name": "Jurgen Gjesula",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -233,6 +245,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,
@@ -259,19 +275,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 53,
+        "aer": 57,
+        "com": 57,
+        "dri": 55,
         "ldr": 57,
-        "pac": 53,
-        "pas": 58,
-        "pos": 58,
-        "sho": 49,
-        "sta": 61,
-        "str": 55,
-        "tac": 54,
-        "vis": 57
+        "pac": 63,
+        "pas": 60,
+        "pos": 68,
+        "sho": 51,
+        "sta": 63,
+        "str": 65,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1982-12-01",
       "contract": null,
@@ -281,7 +302,7 @@
       "name": "Andreas Dahlan",
       "nation": "SWE",
       "number": 18,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 5000
     },
     {
@@ -292,7 +313,7 @@
         "ldr": 52,
         "pac": 53,
         "pas": 49,
-        "pos": 31,
+        "pos": 51,
         "sho": 60,
         "sta": 54,
         "str": 59,
@@ -313,18 +334,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 53,
-        "dri": 52,
-        "ldr": 50,
-        "pac": 51,
-        "pas": 56,
-        "pos": 54,
-        "sho": 52,
-        "sta": 60,
-        "str": 52,
-        "tac": 53,
-        "vis": 54
+        "aer": 42,
+        "com": 51,
+        "dri": 55,
+        "ldr": 48,
+        "pac": 59,
+        "pas": 54,
+        "pos": 46,
+        "sho": 50,
+        "sta": 61,
+        "str": 49,
+        "tac": 45,
+        "vis": 51
       },
       "birth": "1985-08-01",
       "contract": null,
@@ -334,21 +355,26 @@
       "name": "Marc Gallago",
       "nation": "GER",
       "number": 21,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 4000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 46,
-        "dri": 47,
+        "aer": 47,
+        "com": 53,
+        "dri": 50,
         "ldr": 41,
-        "pac": 42,
+        "pac": 49,
         "pas": 52,
-        "pos": 42,
-        "sho": 44,
+        "pos": 49,
+        "sho": 51,
         "sta": 50,
-        "str": 43,
+        "str": 50,
         "tac": 41,
         "vis": 47
       },
@@ -360,7 +386,7 @@
       "name": "Benjamin Pyntol",
       "nation": "GER",
       "number": 24,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 1500
     },
     {
@@ -423,7 +449,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 57,
         "sta": 51,
         "str": 56,
@@ -443,18 +469,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 36,
         "com": 59,
-        "dri": 56,
+        "dri": 60,
         "ldr": 49,
-        "pac": 53,
-        "pas": 47,
-        "pos": 34,
-        "sho": 55,
+        "pac": 51,
+        "pas": 57,
+        "pos": 39,
+        "sho": 52,
         "sta": 50,
-        "str": 55,
-        "tac": 24,
-        "vis": 47
+        "str": 45,
+        "tac": 32,
+        "vis": 58
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -465,7 +491,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 39,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2500
     }
   ],

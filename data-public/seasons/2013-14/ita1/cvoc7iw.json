@@ -73,10 +73,14 @@
       "name": "Dodu",
       "nation": "BRA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 23000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 81,
@@ -130,18 +134,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 75,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 68,
-        "pas": 79,
-        "pos": 76,
-        "sho": 68,
+        "dri": 72,
+        "ldr": 76,
+        "pac": 65,
+        "pas": 78,
+        "pos": 80,
+        "sho": 62,
         "sta": 74,
-        "str": 67,
-        "tac": 69,
-        "vis": 74
+        "str": 72,
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1990-02-01",
       "contract": null,
@@ -151,23 +155,23 @@
       "name": "Kevin Strootmen",
       "nation": "NED",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 58500
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 68,
-        "dri": 68,
-        "ldr": 62,
-        "pac": 64,
+        "aer": 52,
+        "com": 69,
+        "dri": 72,
+        "ldr": 60,
+        "pac": 67,
         "pas": 71,
-        "pos": 65,
-        "sho": 59,
-        "sta": 69,
-        "str": 61,
-        "tac": 61,
-        "vis": 70
+        "pos": 50,
+        "sho": 65,
+        "sta": 63,
+        "str": 56,
+        "tac": 43,
+        "vis": 72
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -177,23 +181,23 @@
       "name": "Marquynho",
       "nation": "BRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 26000
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 72,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 66,
+        "aer": 54,
+        "com": 73,
+        "dri": 71,
+        "ldr": 62,
+        "pac": 69,
         "pas": 74,
-        "pos": 71,
-        "sho": 62,
-        "sta": 73,
-        "str": 65,
-        "tac": 67,
-        "vis": 71
+        "pos": 56,
+        "sho": 68,
+        "sta": 67,
+        "str": 60,
+        "tac": 49,
+        "vis": 73
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -203,11 +207,15 @@
       "name": "Adem Ljejic",
       "nation": "SRB",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 36500
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 75,
         "com": 76,
@@ -215,7 +223,7 @@
         "ldr": 71,
         "pac": 77,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 77,
         "str": 78,
@@ -234,19 +242,24 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 69,
-        "dri": 64,
-        "ldr": 60,
-        "pac": 65,
-        "pas": 69,
-        "pos": 67,
-        "sho": 58,
-        "sta": 70,
-        "str": 61,
-        "tac": 64,
-        "vis": 70
+        "aer": 52,
+        "com": 67,
+        "dri": 69,
+        "ldr": 56,
+        "pac": 74,
+        "pas": 65,
+        "pos": 49,
+        "sho": 62,
+        "sta": 66,
+        "str": 56,
+        "tac": 44,
+        "vis": 67
       },
       "birth": "1980-03-01",
       "contract": null,
@@ -256,7 +269,7 @@
       "name": "Rodrigo Taddai",
       "nation": "BRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 26000
     },
     {
@@ -312,6 +325,9 @@
       "wage": 76500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 73,
@@ -339,6 +355,9 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 83,
@@ -399,7 +418,7 @@
         "ldr": 60,
         "pac": 61,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 62,
         "str": 65,
@@ -425,7 +444,7 @@
         "ldr": 67,
         "pac": 69,
         "pas": 65,
-        "pos": 48,
+        "pos": 68,
         "sho": 76,
         "sta": 69,
         "str": 72,
@@ -444,19 +463,22 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 77,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 77,
+        "com": 73,
+        "dri": 73,
+        "ldr": 69,
+        "pac": 78,
+        "pas": 71,
         "pos": 75,
-        "sho": 68,
+        "sho": 54,
         "sta": 74,
-        "str": 73,
-        "tac": 72,
-        "vis": 73
+        "str": 72,
+        "tac": 76,
+        "vis": 64
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -466,7 +488,7 @@
       "name": "Alessandro Florenzy",
       "nation": "ITA",
       "number": 24,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 64500
     },
     {
@@ -496,19 +518,23 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 81,
-        "com": 82,
-        "dri": 79,
-        "ldr": 77,
-        "pac": 82,
-        "pas": 71,
-        "pos": 61,
-        "sho": 86,
-        "sta": 75,
-        "str": 82,
-        "tac": 48,
-        "vis": 75
+        "aer": 67,
+        "com": 79,
+        "dri": 84,
+        "ldr": 75,
+        "pac": 86,
+        "pas": 77,
+        "pos": 63,
+        "sho": 81,
+        "sta": 77,
+        "str": 72,
+        "tac": 54,
+        "vis": 81
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -518,7 +544,7 @@
       "name": "Garvinho",
       "nation": "CIV",
       "number": 27,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 83000
     },
     {
@@ -548,9 +574,6 @@
       "wage": 26000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 81,
         "com": 79,
@@ -577,6 +600,9 @@
       "wage": 62500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 62,
@@ -651,13 +677,10 @@
       "name": "Federico Balzaretty",
       "nation": "ITA",
       "number": 42,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 64500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 66,
@@ -691,7 +714,7 @@
         "ldr": 75,
         "pac": 79,
         "pas": 73,
-        "pos": 59,
+        "pos": 79,
         "sho": 84,
         "sta": 73,
         "str": 81,

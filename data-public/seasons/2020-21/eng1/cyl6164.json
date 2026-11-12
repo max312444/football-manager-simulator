@@ -96,6 +96,9 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 66,
@@ -127,13 +130,13 @@
         "com": 64,
         "dri": 74,
         "ldr": 56,
-        "pac": 80,
+        "pac": 83,
         "pas": 70,
-        "pos": 60,
+        "pos": 64,
         "sho": 66,
-        "sta": 76,
-        "str": 65,
-        "tac": 66,
+        "sta": 77,
+        "str": 69,
+        "tac": 70,
         "vis": 62
       },
       "birth": "1990-08-01",
@@ -148,6 +151,9 @@
       "wage": 78500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 52,
         "com": 58,
@@ -290,16 +296,19 @@
       "wage": 52500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 60,
-        "dri": 52,
+        "dri": 61,
         "ldr": 54,
-        "pac": 57,
-        "pas": 58,
+        "pac": 66,
+        "pas": 67,
         "pos": 64,
         "sho": 38,
-        "sta": 63,
+        "sta": 72,
         "str": 71,
         "tac": 68,
         "vis": 48
@@ -316,6 +325,10 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "RWB",
+        "CB"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -345,6 +358,9 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 76,
@@ -403,6 +419,10 @@
       "wage": 106500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 71,
@@ -432,19 +452,23 @@
       "wage": 98500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 69,
-        "dri": 67,
+        "com": 74,
+        "dri": 72,
         "ldr": 61,
         "pac": 63,
-        "pas": 73,
+        "pas": 78,
         "pos": 71,
-        "sho": 55,
-        "sta": 77,
+        "sho": 60,
+        "sta": 82,
         "str": 68,
         "tac": 73,
-        "vis": 65
+        "vis": 70
       },
       "birth": "1990-11-01",
       "contract": "2022-06-30",
@@ -487,6 +511,11 @@
       "wage": 75000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 60,
@@ -509,7 +538,7 @@
       "name": "Jairo Riedeweld",
       "nation": "NED",
       "number": 44,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31500
     },
     {
@@ -542,9 +571,6 @@
       "wage": 47000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 50,
         "com": 73,
@@ -575,6 +601,9 @@
       "wage": 55500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 53,
         "com": 75,
@@ -604,18 +633,23 @@
       "wage": 119500
     },
     {
+      "alt": [
+        "LWB",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
         "dri": 70,
         "ldr": 57,
-        "pac": 73,
+        "pac": 75,
         "pas": 67,
-        "pos": 61,
+        "pos": 64,
         "sho": 61,
-        "sta": 72,
-        "str": 64,
-        "tac": 61,
+        "sta": 73,
+        "str": 67,
+        "tac": 64,
         "vis": 63
       },
       "birth": "1992-12-01",
@@ -626,12 +660,13 @@
       "name": "Jeffrey Schlopp",
       "nation": "GHA",
       "number": 15,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 62000
     },
     {
       "alt": [
-        "RW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 57,
@@ -655,7 +690,7 @@
       "name": "Jordan Ayaw",
       "nation": "GHA",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 68000
     },
     {
@@ -690,16 +725,16 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 71,
+        "aer": 66,
+        "com": 73,
         "dri": 71,
         "ldr": 60,
         "pac": 69,
         "pas": 62,
-        "pos": 45,
-        "sho": 77,
+        "pos": 47,
+        "sho": 79,
         "sta": 67,
-        "str": 68,
+        "str": 70,
         "tac": 42,
         "vis": 63
       },

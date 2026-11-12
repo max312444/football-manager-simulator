@@ -100,6 +100,8 @@
     },
     {
       "alt": [
+        "RWB",
+        "LWB",
         "LB"
       ],
       "attrs": {
@@ -247,7 +249,9 @@
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 69,
@@ -339,13 +343,13 @@
       "attrs": {
         "aer": 64,
         "com": 72,
-        "dri": 60,
+        "dri": 73,
         "ldr": 73,
-        "pac": 53,
+        "pac": 66,
         "pas": 70,
         "pos": 70,
         "sho": 54,
-        "sta": 63,
+        "sta": 76,
         "str": 71,
         "tac": 68,
         "vis": 62
@@ -365,6 +369,9 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 62,
@@ -391,6 +398,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 79,
@@ -477,6 +487,7 @@
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -485,12 +496,12 @@
         "dri": 76,
         "ldr": 61,
         "pac": 67,
-        "pas": 74,
+        "pas": 84,
         "pos": 57,
         "sho": 70,
-        "sta": 68,
+        "sta": 78,
         "str": 59,
-        "tac": 50,
+        "tac": 60,
         "vis": 76
       },
       "birth": "1994-05-01",
@@ -536,7 +547,9 @@
     },
     {
       "alt": [
-        "RB"
+        "LW",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 48,
@@ -560,23 +573,26 @@
       "name": "Marc Albrightun",
       "nation": "ENG",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 35000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 58,
+        "com": 63,
         "dri": 60,
         "ldr": 49,
         "pac": 67,
-        "pas": 64,
-        "pos": 62,
+        "pas": 69,
+        "pos": 67,
         "sho": 44,
         "sta": 75,
-        "str": 69,
-        "tac": 72,
-        "vis": 54
+        "str": 74,
+        "tac": 77,
+        "vis": 59
       },
       "birth": "1997-10-01",
       "contract": "2023-06-30",
@@ -590,6 +606,9 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 47,
         "com": 71,
@@ -646,22 +665,21 @@
     },
     {
       "alt": [
-        "ST",
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 58,
-        "com": 74,
+        "com": 76,
         "dri": 76,
         "ldr": 61,
         "pac": 73,
-        "pas": 71,
+        "pas": 73,
         "pos": 67,
-        "sho": 73,
+        "sho": 75,
         "sta": 75,
         "str": 63,
         "tac": 50,
-        "vis": 71
+        "vis": 73
       },
       "birth": "1993-07-01",
       "contract": "2023-06-30",

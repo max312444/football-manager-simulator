@@ -31,7 +31,7 @@
         "ldr": 72,
         "pac": 79,
         "pas": 69,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 71,
         "str": 80,
@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 79,
-        "dri": 77,
-        "ldr": 70,
-        "pac": 70,
-        "pas": 75,
-        "pos": 72,
-        "sho": 67,
+        "dri": 73,
+        "ldr": 72,
+        "pac": 67,
+        "pas": 74,
+        "pos": 76,
+        "sho": 61,
         "sta": 80,
-        "str": 68,
-        "tac": 74,
-        "vis": 78
+        "str": 73,
+        "tac": 80,
+        "vis": 75
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Altin Lale",
       "nation": "ALB",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 27500
     },
     {
@@ -84,7 +84,7 @@
         "ldr": 70,
         "pac": 79,
         "pas": 65,
-        "pos": 55,
+        "pos": 75,
         "sho": 76,
         "sta": 69,
         "str": 74,
@@ -104,6 +104,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 76,
@@ -111,7 +114,7 @@
         "ldr": 70,
         "pac": 73,
         "pas": 70,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 69,
         "str": 72,
@@ -157,6 +160,11 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 77,
         "com": 70,
@@ -211,6 +219,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -238,6 +249,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -266,18 +280,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 70,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 66,
+        "aer": 54,
+        "com": 71,
+        "dri": 70,
+        "ldr": 65,
+        "pac": 69,
         "pas": 70,
-        "pos": 67,
-        "sho": 61,
-        "sta": 72,
-        "str": 65,
-        "tac": 63,
-        "vis": 70
+        "pos": 52,
+        "sho": 67,
+        "sta": 66,
+        "str": 60,
+        "tac": 45,
+        "vis": 72
       },
       "birth": "1973-08-01",
       "contract": null,
@@ -287,23 +301,23 @@
       "name": "Nebojsa Krupnikovyc",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 20000
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 64,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 62,
-        "pas": 65,
-        "pos": 65,
-        "sho": 58,
+        "dri": 57,
+        "ldr": 62,
+        "pac": 59,
+        "pas": 64,
+        "pos": 69,
+        "sho": 52,
         "sta": 67,
-        "str": 58,
-        "tac": 61,
-        "vis": 64
+        "str": 63,
+        "tac": 67,
+        "vis": 61
       },
       "birth": "1973-03-01",
       "contract": null,
@@ -313,11 +327,16 @@
       "name": "Jaime Sanchaz",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 11500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 62,
@@ -378,7 +397,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 60,
         "str": 66,
@@ -404,7 +423,7 @@
         "ldr": 59,
         "pac": 60,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 58,
         "str": 65,
@@ -430,7 +449,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 65,
         "sta": 61,
         "str": 64,
@@ -477,6 +496,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -552,10 +574,13 @@
       "name": "Marc van Hintom",
       "nation": "NED",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,
@@ -610,6 +635,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -658,7 +686,7 @@
       "name": "Markus Scholer",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5000
     },
@@ -670,7 +698,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 50,
-        "pos": 38,
+        "pos": 58,
         "sho": 60,
         "sta": 57,
         "str": 61,
@@ -823,6 +851,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 54,
@@ -882,7 +915,7 @@
         "ldr": 43,
         "pac": 52,
         "pas": 41,
-        "pos": 25,
+        "pos": 45,
         "sho": 55,
         "sta": 48,
         "str": 48,
@@ -901,6 +934,10 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 50,

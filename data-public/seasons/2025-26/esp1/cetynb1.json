@@ -104,8 +104,7 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 79,
@@ -133,19 +132,23 @@
       "wage": 460000
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 79,
-        "dri": 75,
-        "ldr": 76,
-        "pac": 71,
+        "aer": 58,
+        "com": 80,
+        "dri": 79,
+        "ldr": 74,
+        "pac": 74,
         "pas": 79,
-        "pos": 74,
-        "sho": 71,
-        "sta": 77,
-        "str": 74,
-        "tac": 75,
-        "vis": 75
+        "pos": 59,
+        "sho": 77,
+        "sta": 71,
+        "str": 69,
+        "tac": 57,
+        "vis": 77
       },
       "birth": "2003-06-01",
       "contract": null,
@@ -155,22 +158,27 @@
       "name": "Jude Ballingham",
       "nation": "ENG",
       "number": 5,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 560500
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 76,
         "dri": 78,
         "ldr": 75,
         "pac": 75,
-        "pas": 76,
+        "pas": 77,
         "pos": 74,
         "sho": 71,
-        "sta": 77,
+        "sta": 78,
         "str": 71,
-        "tac": 71,
+        "tac": 72,
         "vis": 79
       },
       "birth": "2002-11-01",
@@ -186,19 +194,23 @@
       "wage": 555500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 80,
-        "dri": 83,
-        "ldr": 77,
-        "pac": 79,
-        "pas": 73,
-        "pos": 61,
-        "sho": 86,
-        "sta": 78,
-        "str": 80,
-        "tac": 55,
-        "vis": 76
+        "aer": 63,
+        "com": 77,
+        "dri": 88,
+        "ldr": 75,
+        "pac": 83,
+        "pas": 79,
+        "pos": 63,
+        "sho": 81,
+        "sta": 80,
+        "str": 70,
+        "tac": 61,
+        "vis": 82
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -209,10 +221,14 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 7,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 646000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 82,
@@ -246,7 +262,7 @@
         "ldr": 66,
         "pac": 68,
         "pas": 58,
-        "pos": 46,
+        "pos": 66,
         "sho": 75,
         "sta": 65,
         "str": 69,
@@ -272,7 +288,7 @@
         "ldr": 81,
         "pac": 84,
         "pas": 80,
-        "pos": 62,
+        "pos": 82,
         "sho": 88,
         "sta": 83,
         "str": 83,
@@ -291,6 +307,9 @@
       "wage": 859500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 65,
         "com": 74,
@@ -319,7 +338,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 71,
@@ -373,19 +394,22 @@
       "wage": 455500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 81,
-        "dri": 79,
-        "ldr": 76,
-        "pac": 74,
-        "pas": 81,
-        "pos": 79,
-        "sho": 76,
+        "dri": 75,
+        "ldr": 78,
+        "pac": 71,
+        "pas": 80,
+        "pos": 83,
+        "sho": 70,
         "sta": 80,
-        "str": 76,
-        "tac": 75,
-        "vis": 83
+        "str": 81,
+        "tac": 81,
+        "vis": 80
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -395,26 +419,27 @@
       "name": "Aurelien Tchouamani",
       "nation": "FRA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 795500
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 55,
-        "com": 76,
+        "com": 77,
         "dri": 74,
         "ldr": 70,
         "pac": 75,
-        "pas": 73,
+        "pas": 74,
         "pos": 59,
-        "sho": 74,
+        "sho": 75,
         "sta": 72,
         "str": 63,
         "tac": 51,
-        "vis": 75
+        "vis": 76
       },
       "birth": "2005-02-01",
       "contract": null,
@@ -435,7 +460,7 @@
         "ldr": 59,
         "pac": 63,
         "pas": 58,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 60,
         "str": 61,
@@ -502,10 +527,14 @@
       "name": "Alvaro Cerreras",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 231000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 80,
@@ -554,23 +583,27 @@
       "name": "Fran Gercia",
       "nation": "ESP",
       "number": 20,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 284000
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 85,
-        "dri": 77,
-        "ldr": 76,
-        "pac": 81,
-        "pas": 74,
-        "pos": 61,
-        "sho": 84,
-        "sta": 75,
-        "str": 82,
-        "tac": 51,
-        "vis": 71
+        "aer": 64,
+        "com": 82,
+        "dri": 82,
+        "ldr": 74,
+        "pac": 85,
+        "pas": 80,
+        "pos": 63,
+        "sho": 79,
+        "sta": 77,
+        "str": 72,
+        "tac": 57,
+        "vis": 77
       },
       "birth": "1999-08-01",
       "contract": null,
@@ -581,7 +614,7 @@
       "nation": "MAR",
       "nation2": "ESP",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 588000
     },
     {
@@ -633,7 +666,7 @@
       "name": "Ferland Mendi",
       "nation": "FRA",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 550000
     },
     {

@@ -55,13 +55,13 @@
       "attrs": {
         "aer": 69,
         "com": 84,
-        "dri": 65,
+        "dri": 79,
         "ldr": 82,
-        "pac": 60,
+        "pac": 74,
         "pas": 73,
         "pos": 84,
         "sho": 49,
-        "sta": 68,
+        "sta": 82,
         "str": 68,
         "tac": 79,
         "vis": 70
@@ -207,7 +207,7 @@
     },
     {
       "alt": [
-        "AM",
+        "RW",
         "LW"
       ],
       "attrs": {
@@ -237,7 +237,7 @@
       "name": "Robert Piras",
       "nation": "FRA",
       "number": 7,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "flair"
       ],
@@ -245,8 +245,9 @@
     },
     {
       "alt": [
-        "CM",
-        "LM"
+        "LM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 66,
@@ -254,13 +255,13 @@
         "dri": 81,
         "ldr": 61,
         "pac": 82,
-        "pas": 75,
+        "pas": 78,
         "pos": 67,
         "sho": 77,
-        "sta": 86,
+        "sta": 89,
         "str": 64,
-        "tac": 62,
-        "vis": 75
+        "tac": 65,
+        "vis": 78
       },
       "birth": "1977-04-01",
       "contract": "2004-06-30",
@@ -284,16 +285,16 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 65,
+        "aer": 63,
+        "com": 72,
         "dri": 69,
         "ldr": 44,
         "pac": 76,
         "pas": 59,
-        "pos": 44,
-        "sho": 74,
+        "pos": 51,
+        "sho": 81,
         "sta": 65,
-        "str": 57,
+        "str": 64,
         "tac": 32,
         "vis": 58
       },
@@ -311,19 +312,21 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 63,
-        "com": 92,
+        "aer": 91,
+        "com": 99,
         "dri": 89,
         "ldr": 76,
-        "pac": 64,
+        "pac": 92,
         "pas": 90,
-        "pos": 49,
-        "sho": 84,
+        "pos": 77,
+        "sho": 99,
         "sta": 67,
-        "str": 69,
+        "str": 97,
         "tac": 40,
         "vis": 94
       },
@@ -343,10 +346,6 @@
       "wage": 52000
     },
     {
-      "alt": [
-        "RW",
-        "RM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 79,
@@ -369,13 +368,12 @@
       "name": "Sylvain Wyltord",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 33000
     },
     {
       "alt": [
-        "RM",
-        "CM"
+        "RM"
       ],
       "attrs": {
         "aer": 67,
@@ -431,20 +429,17 @@
       "wage": 27000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
-        "aer": 63,
-        "com": 84,
+        "aer": 80,
+        "com": 99,
         "dri": 91,
         "ldr": 69,
         "pac": 95,
         "pas": 81,
-        "pos": 49,
-        "sho": 89,
+        "pos": 66,
+        "sho": 99,
         "sta": 84,
-        "str": 77,
+        "str": 94,
         "tac": 40,
         "vis": 84
       },
@@ -469,21 +464,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 62,
         "com": 75,
-        "dri": 71,
+        "dri": 72,
         "ldr": 69,
         "pac": 72,
-        "pas": 75,
+        "pas": 76,
         "pos": 72,
-        "sho": 69,
-        "sta": 88,
+        "sho": 70,
+        "sta": 89,
         "str": 75,
         "tac": 75,
-        "vis": 69
+        "vis": 70
       },
       "birth": "1973-03-01",
       "contract": "2004-06-30",
@@ -501,7 +498,6 @@
     },
     {
       "alt": [
-        "LM",
         "LB"
       ],
       "attrs": {
@@ -511,11 +507,11 @@
         "ldr": 62,
         "pac": 74,
         "pas": 80,
-        "pos": 70,
+        "pos": 79,
         "sho": 72,
         "sta": 82,
-        "str": 66,
-        "tac": 70,
+        "str": 75,
+        "tac": 79,
         "vis": 79
       },
       "birth": "1975-02-01",
@@ -526,26 +522,27 @@
       "name": "Giovanni van Brunckhorst",
       "nation": "NED",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 46500
     },
     {
       "alt": [
+        "CM",
         "DM"
       ],
       "attrs": {
         "aer": 66,
-        "com": 73,
-        "dri": 74,
+        "com": 79,
+        "dri": 80,
         "ldr": 59,
-        "pac": 66,
+        "pac": 72,
         "pas": 79,
         "pos": 73,
-        "sho": 71,
+        "sho": 77,
         "sta": 78,
         "str": 72,
         "tac": 73,
-        "vis": 75
+        "vis": 81
       },
       "birth": "1978-05-01",
       "contract": "2004-06-30",
@@ -556,13 +553,14 @@
       "name": "Eduo",
       "nation": "BRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 44000
     },
     {
       "alt": [
+        "CM",
         "DM",
-        "RB"
+        "AM"
       ],
       "attrs": {
         "aer": 74,
@@ -595,17 +593,17 @@
       ],
       "attrs": {
         "aer": 62,
-        "com": 66,
-        "dri": 68,
+        "com": 71,
+        "dri": 69,
         "ldr": 52,
         "pac": 70,
-        "pas": 70,
+        "pas": 75,
         "pos": 66,
-        "sho": 64,
+        "sho": 65,
         "sta": 80,
         "str": 70,
-        "tac": 70,
-        "vis": 66
+        "tac": 74,
+        "vis": 71
       },
       "birth": "1979-09-01",
       "contract": "2002-06-30",
@@ -648,6 +646,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -670,24 +671,21 @@
       "name": "Jermaine Pennent",
       "nation": "ENG",
       "number": 21,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 7000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 71,
         "com": 70,
-        "dri": 55,
+        "dri": 61,
         "ldr": 66,
-        "pac": 68,
-        "pas": 63,
+        "pac": 74,
+        "pas": 69,
         "pos": 74,
         "sho": 44,
-        "sta": 74,
+        "sta": 80,
         "str": 72,
         "tac": 75,
         "vis": 54
@@ -760,20 +758,17 @@
       "wage": 11000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 72,
-        "com": 80,
+        "aer": 85,
+        "com": 93,
         "dri": 85,
         "ldr": 66,
-        "pac": 68,
+        "pac": 81,
         "pas": 78,
-        "pos": 47,
-        "sho": 79,
+        "pos": 60,
+        "sho": 92,
         "sta": 68,
-        "str": 70,
+        "str": 83,
         "tac": 40,
         "vis": 82
       },
@@ -821,16 +816,16 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 51,
+        "aer": 59,
+        "com": 59,
         "dri": 61,
         "ldr": 33,
         "pac": 74,
         "pas": 51,
-        "pos": 39,
-        "sho": 59,
+        "pos": 47,
+        "sho": 67,
         "sta": 64,
-        "str": 60,
+        "str": 68,
         "tac": 31,
         "vis": 47
       },

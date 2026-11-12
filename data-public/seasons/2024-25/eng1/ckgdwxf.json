@@ -125,17 +125,17 @@
     },
     {
       "attrs": {
-        "aer": 73,
+        "aer": 75,
         "com": 75,
         "dri": 64,
         "ldr": 67,
-        "pac": 66,
+        "pac": 68,
         "pas": 79,
-        "pos": 76,
+        "pos": 78,
         "sho": 47,
         "sta": 72,
-        "str": 74,
-        "tac": 78,
+        "str": 76,
+        "tac": 80,
         "vis": 66
       },
       "birth": "1997-05-01",
@@ -156,13 +156,13 @@
       "attrs": {
         "aer": 61,
         "com": 71,
-        "dri": 65,
+        "dri": 67,
         "ldr": 72,
-        "pac": 67,
+        "pac": 69,
         "pas": 69,
         "pos": 69,
         "sho": 51,
-        "sta": 72,
+        "sta": 74,
         "str": 67,
         "tac": 71,
         "vis": 63
@@ -206,9 +206,6 @@
       "wage": 60500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 63,
@@ -261,9 +258,6 @@
       "wage": 149500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 59,
         "com": 75,
@@ -271,11 +265,11 @@
         "ldr": 71,
         "pac": 63,
         "pas": 76,
-        "pos": 72,
+        "pos": 73,
         "sho": 60,
         "sta": 77,
-        "str": 65,
-        "tac": 72,
+        "str": 66,
+        "tac": 73,
         "vis": 74
       },
       "birth": "1997-02-01",
@@ -286,23 +280,26 @@
       "name": "Lewis Couk",
       "nation": "ENG",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 127500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 72,
+        "com": 74,
         "dri": 78,
         "ldr": 54,
         "pac": 73,
-        "pas": 76,
+        "pas": 78,
         "pos": 64,
         "sho": 64,
         "sta": 79,
         "str": 61,
-        "tac": 62,
-        "vis": 74
+        "tac": 64,
+        "vis": 76
       },
       "birth": "2003-08-01",
       "contract": "2028-06-30",
@@ -317,21 +314,22 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 54,
-        "com": 71,
-        "dri": 73,
+        "com": 74,
+        "dri": 76,
         "ldr": 67,
-        "pac": 65,
+        "pac": 68,
         "pas": 73,
         "pos": 63,
-        "sho": 65,
+        "sho": 68,
         "sta": 78,
         "str": 62,
         "tac": 62,
-        "vis": 73
+        "vis": 76
       },
       "birth": "1995-02-01",
       "contract": "2025-06-30",
@@ -341,7 +339,7 @@
       "name": "Ryan Christia",
       "nation": "SCO",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 98000
     },
     {
@@ -375,7 +373,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 83,
@@ -404,14 +402,15 @@
     },
     {
       "alt": [
+        "LW",
         "AM"
       ],
       "attrs": {
         "aer": 45,
         "com": 72,
-        "dri": 80,
+        "dri": 82,
         "ldr": 55,
-        "pac": 72,
+        "pac": 74,
         "pas": 76,
         "pos": 52,
         "sho": 72,
@@ -433,7 +432,7 @@
     },
     {
       "alt": [
-        "LW"
+        "LWB"
       ],
       "attrs": {
         "aer": 50,
@@ -462,7 +461,9 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 54,
@@ -490,6 +491,9 @@
       "wage": 101500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 73,
@@ -517,21 +521,22 @@
     },
     {
       "alt": [
+        "RW",
         "LW"
       ],
       "attrs": {
         "aer": 51,
-        "com": 73,
+        "com": 80,
         "dri": 81,
         "ldr": 57,
         "pac": 79,
-        "pas": 73,
+        "pas": 80,
         "pos": 53,
-        "sho": 75,
+        "sho": 82,
         "sta": 77,
         "str": 61,
         "tac": 47,
-        "vis": 73
+        "vis": 80
       },
       "birth": "1999-05-01",
       "contract": "2028-06-30",
@@ -546,7 +551,6 @@
     },
     {
       "alt": [
-        "ST",
         "LW"
       ],
       "attrs": {
@@ -576,16 +580,16 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 69,
+        "aer": 74,
+        "com": 70,
         "dri": 73,
         "ldr": 55,
         "pac": 73,
         "pas": 65,
-        "pos": 47,
-        "sho": 75,
+        "pos": 48,
+        "sho": 76,
         "sta": 75,
-        "str": 77,
+        "str": 78,
         "tac": 39,
         "vis": 61
       },

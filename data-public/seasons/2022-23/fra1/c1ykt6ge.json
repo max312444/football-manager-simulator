@@ -26,18 +26,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 63,
-        "com": 62,
-        "dri": 50,
-        "ldr": 60,
-        "pac": 58,
-        "pas": 55,
-        "pos": 62,
-        "sho": 38,
-        "sta": 60,
-        "str": 61,
-        "tac": 64,
-        "vis": 46
+        "aer": 50,
+        "com": 60,
+        "dri": 60,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 59,
+        "pos": 57,
+        "sho": 45,
+        "sta": 66,
+        "str": 53,
+        "tac": 61,
+        "vis": 52
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -47,7 +47,7 @@
       "name": "Igor Silve",
       "nation": "BRA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 23500
     },
     {
@@ -107,18 +107,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 65,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 59,
-        "pas": 69,
-        "pos": 63,
-        "sho": 60,
+        "dri": 60,
+        "ldr": 61,
+        "pac": 56,
+        "pas": 68,
+        "pos": 67,
+        "sho": 54,
         "sta": 67,
-        "str": 61,
-        "tac": 58,
-        "vis": 63
+        "str": 66,
+        "tac": 64,
+        "vis": 60
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -128,23 +128,26 @@
       "name": "Laurent Abargel",
       "nation": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 62,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 60,
-        "pas": 53,
-        "pos": 38,
-        "sho": 63,
-        "sta": 52,
-        "str": 57,
-        "tac": 28,
-        "vis": 52
+        "aer": 42,
+        "com": 59,
+        "dri": 63,
+        "ldr": 50,
+        "pac": 64,
+        "pas": 59,
+        "pos": 40,
+        "sho": 58,
+        "sta": 54,
+        "str": 47,
+        "tac": 34,
+        "vis": 58
       },
       "birth": "1998-12-01",
       "contract": null,
@@ -155,10 +158,13 @@
       "nation": "CIV",
       "nation2": "FRA",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 61,
@@ -192,7 +198,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 58,
         "str": 59,
@@ -211,6 +217,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -237,19 +246,22 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 64,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 63,
-        "pas": 55,
-        "pos": 38,
-        "sho": 65,
-        "sta": 59,
-        "str": 63,
-        "tac": 29,
-        "vis": 50
+        "aer": 47,
+        "com": 61,
+        "dri": 64,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 61,
+        "pos": 40,
+        "sho": 60,
+        "sta": 61,
+        "str": 53,
+        "tac": 35,
+        "vis": 56
       },
       "birth": "2002-02-01",
       "contract": null,
@@ -259,23 +271,23 @@
       "name": "Dango Ouattera",
       "nation": "BFA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 20000
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 56,
-        "dri": 44,
-        "ldr": 51,
-        "pac": 51,
-        "pas": 51,
-        "pos": 57,
-        "sho": 32,
-        "sta": 51,
-        "str": 58,
-        "tac": 57,
-        "vis": 45
+        "aer": 45,
+        "com": 54,
+        "dri": 54,
+        "ldr": 47,
+        "pac": 59,
+        "pas": 55,
+        "pos": 52,
+        "sho": 39,
+        "sta": 57,
+        "str": 50,
+        "tac": 54,
+        "vis": 51
       },
       "birth": "2000-09-01",
       "contract": null,
@@ -285,7 +297,7 @@
       "name": "Darlin Yongwe",
       "nation": "CMR",
       "number": 12,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12000
     },
     {
@@ -296,7 +308,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 60,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 62,
         "str": 70,
@@ -341,6 +353,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -367,19 +382,22 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 52,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 48,
-        "pas": 59,
-        "pos": 54,
-        "sho": 50,
-        "sta": 56,
-        "str": 50,
-        "tac": 48,
-        "vis": 55
+        "aer": 55,
+        "com": 50,
+        "dri": 41,
+        "ldr": 53,
+        "pac": 47,
+        "pas": 49,
+        "pos": 59,
+        "sho": 29,
+        "sta": 50,
+        "str": 57,
+        "tac": 55,
+        "vis": 40
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -390,23 +408,23 @@
       "nation": "CIV",
       "nation2": "FRA",
       "number": 18,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 46,
-        "dri": 34,
-        "ldr": 49,
-        "pac": 41,
-        "pas": 40,
-        "pos": 56,
-        "sho": 26,
-        "sta": 46,
-        "str": 53,
-        "tac": 55,
-        "vis": 39
+        "aer": 42,
+        "com": 44,
+        "dri": 44,
+        "ldr": 45,
+        "pac": 49,
+        "pas": 44,
+        "pos": 51,
+        "sho": 33,
+        "sta": 52,
+        "str": 45,
+        "tac": 52,
+        "vis": 45
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -416,23 +434,28 @@
       "name": "Samuel Luric",
       "nation": "FRA",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 55,
+        "com": 66,
         "dri": 43,
         "ldr": 52,
         "pac": 50,
-        "pas": 44,
+        "pas": 55,
         "pos": 57,
         "sho": 29,
-        "sta": 52,
+        "sta": 63,
         "str": 57,
         "tac": 59,
-        "vis": 38
+        "vis": 49
       },
       "birth": "2000-11-01",
       "contract": null,
@@ -442,7 +465,7 @@
       "name": "Julien Ponceeu",
       "nation": "FRA",
       "number": 21,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 10500
     },
     {
@@ -495,7 +518,7 @@
       "name": "Vincent Le Guff",
       "nation": "FRA",
       "number": 25,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 17500
     },
     {
@@ -506,7 +529,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 59,
-        "pos": 41,
+        "pos": 61,
         "sho": 70,
         "sta": 62,
         "str": 66,
@@ -551,19 +574,23 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 48,
-        "dri": 47,
-        "ldr": 41,
-        "pac": 48,
-        "pas": 36,
-        "pos": 26,
-        "sho": 48,
-        "sta": 42,
-        "str": 49,
-        "tac": 14,
-        "vis": 39
+        "aer": 28,
+        "com": 45,
+        "dri": 52,
+        "ldr": 39,
+        "pac": 52,
+        "pas": 42,
+        "pos": 28,
+        "sho": 43,
+        "sta": 44,
+        "str": 39,
+        "tac": 20,
+        "vis": 45
       },
       "birth": "2003-01-01",
       "contract": null,
@@ -573,23 +600,28 @@
       "name": "Redwan Buurles",
       "nation": "FRA",
       "number": 31,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 52,
-        "dri": 43,
-        "ldr": 52,
-        "pac": 50,
-        "pas": 47,
-        "pos": 56,
-        "sho": 30,
-        "sta": 52,
-        "str": 58,
-        "tac": 60,
-        "vis": 39
+        "aer": 41,
+        "com": 50,
+        "dri": 53,
+        "ldr": 48,
+        "pac": 58,
+        "pas": 51,
+        "pos": 51,
+        "sho": 37,
+        "sta": 58,
+        "str": 50,
+        "tac": 57,
+        "vis": 45
       },
       "birth": "2002-10-01",
       "contract": null,
@@ -599,7 +631,7 @@
       "name": "Theo Le Brys",
       "nation": "FRA",
       "number": 37,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10500
     },
     {
@@ -664,7 +696,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 69,
         "sta": 62,
         "str": 63,

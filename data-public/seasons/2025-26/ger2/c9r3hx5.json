@@ -78,6 +78,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 59,
@@ -130,19 +133,24 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 59,
-        "dri": 58,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 60,
-        "pos": 52,
-        "sho": 51,
+        "dri": 54,
+        "ldr": 55,
+        "pac": 47,
+        "pas": 59,
+        "pos": 56,
+        "sho": 45,
         "sta": 61,
-        "str": 54,
-        "tac": 53,
-        "vis": 55
+        "str": 59,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -152,23 +160,23 @@
       "name": "Marko Ivazic",
       "nation": "SRB",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13500
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 58,
+        "aer": 57,
+        "com": 59,
         "dri": 59,
-        "ldr": 54,
-        "pac": 54,
-        "pas": 60,
+        "ldr": 52,
+        "pac": 59,
+        "pas": 50,
         "pos": 61,
-        "sho": 51,
-        "sta": 60,
-        "str": 52,
-        "tac": 58,
-        "vis": 60
+        "sho": 60,
+        "sta": 54,
+        "str": 57,
+        "tac": 32,
+        "vis": 51
       },
       "birth": "1992-11-01",
       "contract": null,
@@ -178,10 +186,13 @@
       "name": "Steven Skrzybsky",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -215,7 +226,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 62,
         "str": 62,
@@ -261,18 +272,18 @@
     },
     {
       "attrs": {
-        "aer": 40,
+        "aer": 46,
         "com": 54,
-        "dri": 49,
-        "ldr": 48,
-        "pac": 50,
-        "pas": 53,
-        "pos": 49,
-        "sho": 45,
+        "dri": 45,
+        "ldr": 50,
+        "pac": 47,
+        "pas": 52,
+        "pos": 53,
+        "sho": 39,
         "sta": 53,
-        "str": 44,
-        "tac": 50,
-        "vis": 56
+        "str": 49,
+        "tac": 56,
+        "vis": 53
       },
       "birth": "2005-01-01",
       "contract": null,
@@ -282,23 +293,28 @@
       "name": "Kasper Davydsen",
       "nation": "DEN",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 56,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 54,
-        "pas": 43,
-        "pos": 31,
-        "sho": 54,
-        "sta": 49,
-        "str": 51,
-        "tac": 22,
-        "vis": 45
+        "aer": 38,
+        "com": 53,
+        "dri": 57,
+        "ldr": 46,
+        "pac": 58,
+        "pas": 49,
+        "pos": 33,
+        "sho": 49,
+        "sta": 51,
+        "str": 41,
+        "tac": 28,
+        "vis": 51
       },
       "birth": "2002-08-01",
       "contract": null,
@@ -308,7 +324,7 @@
       "name": "Andu Kelaty",
       "nation": "GER",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5500
     },
     {
@@ -319,7 +335,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 51,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 51,
         "str": 55,
@@ -364,6 +380,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -416,7 +435,9 @@
       "wage": 7500
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -450,7 +471,7 @@
         "ldr": 43,
         "pac": 49,
         "pas": 44,
-        "pos": 31,
+        "pos": 51,
         "sho": 53,
         "sta": 46,
         "str": 55,
@@ -521,6 +542,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 48,
@@ -548,22 +572,19 @@
       "wage": 6500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 70,
-        "com": 65,
-        "dri": 53,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 56,
-        "pos": 67,
-        "sho": 34,
-        "sta": 57,
-        "str": 68,
-        "tac": 67,
-        "vis": 47
+        "aer": 57,
+        "com": 63,
+        "dri": 63,
+        "ldr": 57,
+        "pac": 65,
+        "pas": 60,
+        "pos": 62,
+        "sho": 41,
+        "sta": 63,
+        "str": 60,
+        "tac": 64,
+        "vis": 53
       },
       "birth": "2002-07-01",
       "contract": null,
@@ -573,7 +594,7 @@
       "name": "John Tulkin",
       "nation": "USA",
       "number": 47,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 21000
     },
     {
@@ -584,7 +605,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 63,
         "str": 65,
@@ -604,18 +625,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 65,
-        "dri": 52,
-        "ldr": 65,
-        "pac": 61,
-        "pas": 58,
-        "pos": 66,
-        "sho": 37,
-        "sta": 59,
-        "str": 65,
-        "tac": 65,
-        "vis": 48
+        "aer": 53,
+        "com": 63,
+        "dri": 62,
+        "ldr": 61,
+        "pac": 69,
+        "pas": 62,
+        "pos": 61,
+        "sho": 44,
+        "sta": 65,
+        "str": 57,
+        "tac": 62,
+        "vis": 54
       },
       "birth": "1999-01-01",
       "contract": null,
@@ -625,7 +646,7 @@
       "name": "Tymoteusz Puchecz",
       "nation": "POL",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 21000
     }
   ],

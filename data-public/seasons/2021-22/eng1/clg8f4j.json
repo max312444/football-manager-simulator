@@ -74,6 +74,11 @@
       "wage": 124500
     },
     {
+      "alt": [
+        "RWB",
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -100,9 +105,6 @@
       "wage": 99000
     },
     {
-      "alt": [
-        "LWB"
-      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -135,13 +137,13 @@
       "attrs": {
         "aer": 72,
         "com": 72,
-        "dri": 62,
+        "dri": 68,
         "ldr": 68,
-        "pac": 70,
-        "pas": 69,
+        "pac": 76,
+        "pas": 75,
         "pos": 74,
         "sho": 44,
-        "sta": 69,
+        "sta": 75,
         "str": 74,
         "tac": 76,
         "vis": 60
@@ -213,9 +215,6 @@
       "wage": 144500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 68,
@@ -270,7 +269,9 @@
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "LB",
+        "LWB"
       ],
       "attrs": {
         "aer": 61,
@@ -324,18 +325,22 @@
       "wage": 72500
     },
     {
+      "alt": [
+        "LM",
+        "LW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
         "dri": 80,
         "ldr": 51,
-        "pac": 86,
+        "pac": 88,
         "pas": 73,
-        "pos": 68,
+        "pos": 76,
         "sho": 69,
-        "sta": 80,
-        "str": 63,
-        "tac": 58,
+        "sta": 86,
+        "str": 71,
+        "tac": 66,
         "vis": 69
       },
       "birth": "2000-05-01",
@@ -350,9 +355,6 @@
       "wage": 165000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 68,
         "com": 76,
@@ -382,9 +384,6 @@
       "wage": 300500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 69,
@@ -418,11 +417,11 @@
         "ldr": 58,
         "pac": 64,
         "pas": 82,
-        "pos": 70,
+        "pos": 78,
         "sho": 52,
         "sta": 80,
-        "str": 54,
-        "tac": 66,
+        "str": 62,
+        "tac": 74,
         "vis": 76
       },
       "birth": "1996-02-01",
@@ -433,16 +432,13 @@
       "name": "Harry Wynks",
       "nation": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "injury_prone"
       ],
       "wage": 130500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 81,
@@ -465,10 +461,13 @@
       "name": "Giovani Lo Celsu",
       "nation": "ARG",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 183000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 77,
@@ -525,7 +524,9 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "RM",
+        "LM"
       ],
       "attrs": {
         "aer": 46,
@@ -554,7 +555,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 48,
@@ -586,6 +588,7 @@
     },
     {
       "alt": [
+        "ST",
         "RW"
       ],
       "attrs": {
@@ -615,7 +618,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 55,
@@ -648,16 +652,16 @@
     },
     {
       "attrs": {
-        "aer": 82,
-        "com": 91,
+        "aer": 87,
+        "com": 96,
         "dri": 79,
         "ldr": 84,
-        "pac": 70,
+        "pac": 75,
         "pas": 85,
-        "pos": 60,
-        "sho": 92,
+        "pos": 65,
+        "sho": 97,
         "sta": 79,
-        "str": 84,
+        "str": 89,
         "tac": 43,
         "vis": 87
       },
@@ -679,16 +683,16 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 52,
+        "aer": 55,
+        "com": 54,
         "dri": 55,
         "ldr": 41,
         "pac": 56,
         "pas": 47,
-        "pos": 37,
-        "sho": 59,
+        "pos": 39,
+        "sho": 61,
         "sta": 53,
-        "str": 52,
+        "str": 54,
         "tac": 21,
         "vis": 50
       },

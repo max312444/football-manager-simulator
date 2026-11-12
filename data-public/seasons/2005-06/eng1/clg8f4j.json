@@ -123,9 +123,6 @@
       "wage": 54000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 61,
@@ -148,7 +145,7 @@
       "name": "Noe Pamerot",
       "nation": "FRA",
       "number": 17,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 22500
     },
     {
@@ -230,6 +227,11 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "LWB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 65,
@@ -252,7 +254,7 @@
       "name": "Paul Staltery",
       "nation": "CAN",
       "number": 7,
-      "pos": "RB",
+      "pos": "RWB",
       "wage": 31500
     },
     {
@@ -288,6 +290,9 @@
       "wage": 77500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,
@@ -317,19 +322,22 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 66,
-        "dri": 66,
+        "com": 69,
+        "dri": 67,
         "ldr": 58,
         "pac": 66,
-        "pas": 69,
+        "pas": 72,
         "pos": 65,
-        "sho": 58,
+        "sho": 59,
         "sta": 79,
         "str": 68,
-        "tac": 67,
-        "vis": 64
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1979-09-01",
       "contract": "2008-06-30",
@@ -348,17 +356,17 @@
       ],
       "attrs": {
         "aer": 58,
-        "com": 67,
-        "dri": 63,
+        "com": 71,
+        "dri": 67,
         "ldr": 63,
         "pac": 63,
-        "pas": 67,
+        "pas": 71,
         "pos": 65,
-        "sho": 60,
-        "sta": 77,
+        "sho": 64,
+        "sta": 81,
         "str": 69,
         "tac": 69,
-        "vis": 62
+        "vis": 66
       },
       "birth": "1977-01-01",
       "contract": "2006-06-30",
@@ -372,19 +380,22 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 71,
+        "com": 75,
         "dri": 74,
         "ldr": 59,
         "pac": 74,
-        "pas": 76,
+        "pas": 80,
         "pos": 65,
         "sho": 69,
         "sta": 83,
         "str": 67,
-        "tac": 64,
-        "vis": 73
+        "tac": 68,
+        "vis": 77
       },
       "birth": "1983-02-01",
       "contract": "2010-06-30",
@@ -403,17 +414,17 @@
       ],
       "attrs": {
         "aer": 68,
-        "com": 80,
-        "dri": 76,
+        "com": 81,
+        "dri": 77,
         "ldr": 73,
         "pac": 67,
-        "pas": 82,
+        "pas": 83,
         "pos": 78,
-        "sho": 73,
-        "sta": 86,
+        "sho": 74,
+        "sta": 87,
         "str": 81,
         "tac": 79,
-        "vis": 81
+        "vis": 82
       },
       "birth": "1973-03-01",
       "contract": "2007-06-30",
@@ -436,6 +447,9 @@
       "wage": 77500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 34,
         "com": 64,
@@ -466,7 +480,7 @@
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 46,
@@ -504,11 +518,11 @@
         "ldr": 47,
         "pac": 59,
         "pas": 69,
-        "pos": 49,
+        "pos": 64,
         "sho": 63,
         "sta": 70,
-        "str": 49,
-        "tac": 49,
+        "str": 64,
+        "tac": 64,
         "vis": 67
       },
       "birth": "1986-12-01",
@@ -519,7 +533,7 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
@@ -527,6 +541,8 @@
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -535,13 +551,13 @@
         "dri": 72,
         "ldr": 52,
         "pac": 76,
-        "pas": 75,
+        "pas": 85,
         "pos": 35,
         "sho": 60,
-        "sta": 70,
+        "sta": 80,
         "str": 50,
-        "tac": 30,
-        "vis": 60
+        "tac": 40,
+        "vis": 70
       },
       "birth": "1982-07-01",
       "contract": "2008-06-30",
@@ -556,16 +572,16 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 62,
+        "aer": 59,
+        "com": 64,
         "dri": 58,
         "ldr": 48,
         "pac": 66,
         "pas": 50,
-        "pos": 28,
-        "sho": 70,
+        "pos": 30,
+        "sho": 72,
         "sta": 57,
-        "str": 59,
+        "str": 61,
         "tac": 20,
         "vis": 51
       },
@@ -582,20 +598,17 @@
       "wage": 8000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 64,
-        "com": 80,
+        "aer": 72,
+        "com": 88,
         "dri": 82,
         "ldr": 66,
         "pac": 80,
         "pas": 74,
-        "pos": 53,
-        "sho": 83,
+        "pos": 61,
+        "sho": 91,
         "sta": 78,
-        "str": 69,
+        "str": 77,
         "tac": 43,
         "vis": 76
       },
@@ -612,16 +625,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 76,
+        "aer": 67,
+        "com": 83,
         "dri": 79,
         "ldr": 51,
         "pac": 84,
         "pas": 65,
-        "pos": 47,
-        "sho": 83,
+        "pos": 54,
+        "sho": 90,
         "sta": 77,
-        "str": 65,
+        "str": 72,
         "tac": 36,
         "vis": 65
       },
@@ -692,9 +705,6 @@
       "wage": 39500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -777,7 +787,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 50,

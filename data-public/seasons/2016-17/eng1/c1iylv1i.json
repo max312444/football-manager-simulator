@@ -128,13 +128,13 @@
         "com": 70,
         "dri": 70,
         "ldr": 69,
-        "pac": 78,
+        "pac": 79,
         "pas": 76,
-        "pos": 68,
+        "pos": 69,
         "sho": 52,
         "sta": 87,
-        "str": 60,
-        "tac": 70,
+        "str": 61,
+        "tac": 71,
         "vis": 70
       },
       "birth": "1994-03-01",
@@ -234,21 +234,18 @@
       "wage": 44000
     },
     {
-      "alt": [
-        "RM"
-      ],
       "attrs": {
         "aer": 58,
         "com": 65,
         "dri": 72,
         "ldr": 55,
-        "pac": 77,
+        "pac": 84,
         "pas": 72,
-        "pos": 58,
+        "pos": 65,
         "sho": 62,
         "sta": 83,
-        "str": 74,
-        "tac": 58,
+        "str": 81,
+        "tac": 65,
         "vis": 64
       },
       "birth": "1987-09-01",
@@ -292,19 +289,23 @@
       "wage": 107500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 63,
-        "dri": 65,
+        "com": 70,
+        "dri": 72,
         "ldr": 55,
         "pac": 64,
-        "pas": 69,
+        "pas": 76,
         "pos": 67,
-        "sho": 59,
-        "sta": 77,
+        "sho": 66,
+        "sta": 84,
         "str": 76,
         "tac": 73,
-        "vis": 63
+        "vis": 70
       },
       "birth": "1989-05-01",
       "contract": "2018-06-30",
@@ -325,11 +326,11 @@
         "ldr": 58,
         "pac": 40,
         "pas": 78,
-        "pos": 62,
+        "pos": 68,
         "sho": 72,
         "sta": 63,
-        "str": 79,
-        "tac": 60,
+        "str": 85,
+        "tac": 66,
         "vis": 76
       },
       "birth": "1986-12-01",
@@ -340,19 +341,24 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
       "wage": 76500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 71,
-        "dri": 69,
+        "dri": 84,
         "ldr": 64,
-        "pac": 58,
+        "pac": 73,
         "pas": 77,
         "pos": 67,
         "sho": 73,
@@ -369,7 +375,7 @@
       "name": "Robert Snudgrass",
       "nation": "SCO",
       "number": 10,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
@@ -377,7 +383,8 @@
     },
     {
       "alt": [
-        "LM"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 61,
@@ -407,17 +414,17 @@
     {
       "attrs": {
         "aer": 66,
-        "com": 66,
+        "com": 68,
         "dri": 66,
         "ldr": 56,
         "pac": 69,
-        "pas": 68,
-        "pos": 68,
+        "pas": 70,
+        "pos": 70,
         "sho": 54,
         "sta": 80,
-        "str": 77,
-        "tac": 74,
-        "vis": 62
+        "str": 79,
+        "tac": 76,
+        "vis": 64
       },
       "birth": "1989-11-01",
       "contract": "2018-06-30",
@@ -431,6 +438,9 @@
       "wage": 99000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 72,
@@ -457,6 +467,11 @@
       "wage": 97000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 54,
@@ -483,19 +498,24 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 58,
+        "com": 63,
         "dri": 62,
         "ldr": 46,
         "pac": 62,
-        "pas": 64,
+        "pas": 69,
         "pos": 60,
         "sho": 58,
         "sta": 72,
         "str": 68,
-        "tac": 58,
-        "vis": 60
+        "tac": 63,
+        "vis": 65
       },
       "birth": "1992-07-01",
       "contract": "2017-06-30",
@@ -589,6 +609,10 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 51,
@@ -615,6 +639,10 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 30,
         "com": 67,
@@ -644,19 +672,22 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 55,
+        "com": 59,
         "dri": 58,
         "ldr": 42,
         "pac": 60,
-        "pas": 60,
+        "pas": 64,
         "pos": 55,
         "sho": 50,
         "sta": 65,
         "str": 58,
-        "tac": 55,
-        "vis": 57
+        "tac": 59,
+        "vis": 61
       },
       "birth": "1995-08-01",
       "contract": "2019-06-30",

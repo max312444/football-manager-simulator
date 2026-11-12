@@ -53,17 +53,17 @@
     {
       "attrs": {
         "aer": 58,
-        "com": 71,
-        "dri": 72,
-        "ldr": 68,
-        "pac": 66,
-        "pas": 75,
+        "com": 67,
+        "dri": 70,
+        "ldr": 66,
+        "pac": 73,
+        "pas": 69,
         "pos": 67,
-        "sho": 62,
+        "sho": 48,
         "sta": 73,
-        "str": 69,
-        "tac": 68,
-        "vis": 74
+        "str": 68,
+        "tac": 72,
+        "vis": 65
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Reto Ziagler",
       "nation": "SUI",
       "number": 3,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 23500
     },
     {
@@ -104,6 +104,10 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,
@@ -157,21 +161,22 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 79,
-        "com": 78,
-        "dri": 60,
-        "ldr": 72,
-        "pac": 74,
-        "pas": 68,
-        "pos": 82,
-        "sho": 50,
-        "sta": 76,
-        "str": 77,
-        "tac": 79,
-        "vis": 61
+        "aer": 66,
+        "com": 76,
+        "dri": 70,
+        "ldr": 68,
+        "pac": 82,
+        "pas": 72,
+        "pos": 77,
+        "sho": 57,
+        "sta": 82,
+        "str": 69,
+        "tac": 76,
+        "vis": 67
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -181,10 +186,13 @@
       "name": "Christian Maggiu",
       "nation": "ITA",
       "number": 7,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 27500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -218,7 +226,7 @@
         "ldr": 71,
         "pac": 77,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 74,
         "str": 78,
@@ -245,7 +253,7 @@
         "ldr": 58,
         "pac": 63,
         "pas": 61,
-        "pos": 46,
+        "pos": 66,
         "sho": 69,
         "sta": 65,
         "str": 64,
@@ -271,7 +279,7 @@
         "ldr": 67,
         "pac": 75,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 67,
         "str": 74,
@@ -317,18 +325,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 67,
-        "dri": 64,
-        "ldr": 68,
-        "pac": 70,
-        "pas": 69,
-        "pos": 72,
-        "sho": 50,
-        "sta": 74,
-        "str": 66,
-        "tac": 68,
-        "vis": 66
+        "aer": 74,
+        "com": 69,
+        "dri": 54,
+        "ldr": 72,
+        "pac": 62,
+        "pas": 65,
+        "pos": 77,
+        "sho": 43,
+        "sta": 68,
+        "str": 74,
+        "tac": 71,
+        "vis": 60
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -338,23 +346,23 @@
       "name": "Hugo Campagnero",
       "nation": "ARG",
       "number": 16,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 18000
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 75,
-        "dri": 77,
-        "ldr": 76,
-        "pac": 74,
-        "pas": 77,
-        "pos": 75,
-        "sho": 74,
+        "dri": 73,
+        "ldr": 78,
+        "pac": 71,
+        "pas": 76,
+        "pos": 79,
+        "sho": 68,
         "sta": 81,
-        "str": 73,
-        "tac": 75,
-        "vis": 78
+        "str": 78,
+        "tac": 81,
+        "vis": 75
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -364,23 +372,27 @@
       "name": "Angelo Palombu",
       "nation": "ITA",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 27500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 59,
+        "aer": 48,
+        "com": 64,
+        "dri": 62,
+        "ldr": 55,
+        "pac": 62,
         "pas": 60,
-        "pos": 61,
-        "sho": 58,
-        "sta": 64,
-        "str": 53,
-        "tac": 59,
-        "vis": 63
+        "pos": 46,
+        "sho": 64,
+        "sta": 58,
+        "str": 48,
+        "tac": 41,
+        "vis": 65
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -391,23 +403,26 @@
       "nation": "HUN",
       "nation2": "UKR",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 61,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 54,
-        "pas": 62,
-        "pos": 60,
-        "sho": 53,
-        "sta": 58,
-        "str": 51,
-        "tac": 54,
-        "vis": 63
+        "aer": 42,
+        "com": 59,
+        "dri": 64,
+        "ldr": 50,
+        "pac": 63,
+        "pas": 58,
+        "pos": 42,
+        "sho": 57,
+        "sta": 54,
+        "str": 46,
+        "tac": 34,
+        "vis": 60
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -417,10 +432,13 @@
       "name": "Daniele Franceschyni",
       "nation": "ITA",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -447,6 +465,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 58,
@@ -454,7 +475,7 @@
         "ldr": 51,
         "pac": 59,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 56,
         "str": 60,
@@ -506,7 +527,7 @@
         "ldr": 41,
         "pac": 53,
         "pas": 41,
-        "pos": 25,
+        "pos": 45,
         "sho": 56,
         "sta": 47,
         "str": 53,
@@ -526,6 +547,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 42,
@@ -553,18 +577,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 69,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 75,
-        "pas": 69,
-        "pos": 68,
-        "sho": 52,
-        "sta": 75,
-        "str": 66,
-        "tac": 68,
-        "vis": 62
+        "aer": 76,
+        "com": 71,
+        "dri": 55,
+        "ldr": 67,
+        "pac": 67,
+        "pas": 65,
+        "pos": 73,
+        "sho": 45,
+        "sta": 69,
+        "str": 74,
+        "tac": 71,
+        "vis": 56
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -574,7 +598,7 @@
       "name": "Daniele Gestaldello",
       "nation": "ITA",
       "number": 28,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 18000
     },
     {
@@ -585,7 +609,7 @@
         "ldr": 61,
         "pac": 70,
         "pas": 60,
-        "pos": 51,
+        "pos": 71,
         "sho": 75,
         "sta": 63,
         "str": 71,
@@ -630,6 +654,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 69,
@@ -656,19 +683,22 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 60,
-        "dri": 47,
-        "ldr": 61,
-        "pac": 52,
-        "pas": 53,
-        "pos": 65,
-        "sho": 31,
-        "sta": 54,
-        "str": 62,
-        "tac": 66,
-        "vis": 44
+        "aer": 48,
+        "com": 58,
+        "dri": 57,
+        "ldr": 57,
+        "pac": 60,
+        "pas": 57,
+        "pos": 60,
+        "sho": 38,
+        "sta": 60,
+        "str": 54,
+        "tac": 63,
+        "vis": 50
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -678,7 +708,7 @@
       "name": "Mirko Piery",
       "nation": "ITA",
       "number": 46,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5000
     },
     {
@@ -689,7 +719,7 @@
         "ldr": 44,
         "pac": 46,
         "pas": 37,
-        "pos": 27,
+        "pos": 47,
         "sho": 49,
         "sta": 40,
         "str": 46,
@@ -708,19 +738,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 66,
-        "dri": 57,
-        "ldr": 70,
-        "pac": 63,
-        "pas": 61,
-        "pos": 70,
-        "sho": 40,
-        "sta": 63,
-        "str": 71,
-        "tac": 74,
-        "vis": 52
+        "aer": 56,
+        "com": 64,
+        "dri": 67,
+        "ldr": 66,
+        "pac": 71,
+        "pas": 65,
+        "pos": 65,
+        "sho": 47,
+        "sta": 69,
+        "str": 63,
+        "tac": 71,
+        "vis": 58
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -730,7 +763,7 @@
       "name": "Cristian Zenuni",
       "nation": "ITA",
       "number": 77,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 12500
     },
     {
@@ -794,7 +827,7 @@
         "ldr": 52,
         "pac": 58,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 58,
         "sta": 51,
         "str": 57,
@@ -839,6 +872,11 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 78,
@@ -846,7 +884,7 @@
         "ldr": 70,
         "pac": 78,
         "pas": 71,
-        "pos": 60,
+        "pos": 80,
         "sho": 85,
         "sta": 73,
         "str": 77,

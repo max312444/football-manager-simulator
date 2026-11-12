@@ -85,7 +85,7 @@
         "ldr": 67,
         "pac": 76,
         "pas": 65,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 67,
         "str": 73,
@@ -104,6 +104,9 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 82,
@@ -137,7 +140,7 @@
         "ldr": 65,
         "pac": 74,
         "pas": 66,
-        "pos": 49,
+        "pos": 69,
         "sho": 75,
         "sta": 69,
         "str": 76,
@@ -156,6 +159,9 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 80,
@@ -189,7 +195,7 @@
         "ldr": 81,
         "pac": 87,
         "pas": 73,
-        "pos": 63,
+        "pos": 83,
         "sho": 85,
         "sta": 81,
         "str": 83,
@@ -236,18 +242,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 60,
-        "dri": 56,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 63,
-        "pos": 58,
-        "sho": 54,
+        "dri": 52,
+        "ldr": 60,
+        "pac": 53,
+        "pas": 62,
+        "pos": 62,
+        "sho": 48,
         "sta": 62,
-        "str": 53,
-        "tac": 57,
-        "vis": 64
+        "str": 58,
+        "tac": 63,
+        "vis": 61
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -257,7 +263,7 @@
       "name": "Rodney Strassar",
       "nation": "SLE",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 17000
     },
     {
@@ -287,6 +293,9 @@
       "wage": 60500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -339,6 +348,9 @@
       "wage": 63500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -361,10 +373,15 @@
       "name": "Marek Jankulovsky",
       "nation": "CZE",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 88000
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -393,17 +410,17 @@
     {
       "attrs": {
         "aer": 65,
-        "com": 78,
-        "dri": 70,
-        "ldr": 73,
-        "pac": 69,
-        "pas": 74,
+        "com": 74,
+        "dri": 68,
+        "ldr": 71,
+        "pac": 76,
+        "pas": 68,
         "pos": 74,
-        "sho": 68,
+        "sho": 54,
         "sta": 74,
-        "str": 73,
-        "tac": 71,
-        "vis": 74
+        "str": 72,
+        "tac": 75,
+        "vis": 65
       },
       "birth": "1986-11-01",
       "contract": null,
@@ -413,10 +430,13 @@
       "name": "Ignazio Abete",
       "nation": "ITA",
       "number": 20,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 89500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 81,
@@ -443,6 +463,9 @@
       "wage": 180500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 77,
@@ -470,18 +493,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 73,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 83,
-        "pas": 74,
-        "pos": 74,
-        "sho": 59,
-        "sta": 78,
-        "str": 69,
-        "tac": 78,
-        "vis": 71
+        "aer": 82,
+        "com": 75,
+        "dri": 65,
+        "ldr": 77,
+        "pac": 75,
+        "pas": 70,
+        "pos": 79,
+        "sho": 52,
+        "sta": 72,
+        "str": 77,
+        "tac": 81,
+        "vis": 65
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -491,26 +514,28 @@
       "name": "Daniele Bonere",
       "nation": "ITA",
       "number": 25,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 101500
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
-        "aer": 65,
-        "com": 78,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 75,
-        "pas": 80,
-        "pos": 78,
-        "sho": 72,
-        "sta": 80,
-        "str": 74,
-        "tac": 73,
-        "vis": 75
+        "aer": 66,
+        "com": 80,
+        "dri": 74,
+        "ldr": 71,
+        "pac": 76,
+        "pas": 82,
+        "pos": 79,
+        "sho": 74,
+        "sta": 82,
+        "str": 75,
+        "tac": 74,
+        "vis": 77
       },
       "birth": "1987-03-01",
       "contract": null,
@@ -604,19 +629,23 @@
       "wage": 159500
     },
     {
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 79,
         "com": 82,
-        "dri": 78,
+        "dri": 81,
         "ldr": 76,
-        "pac": 84,
-        "pas": 77,
-        "pos": 58,
+        "pac": 87,
+        "pas": 80,
+        "pos": 78,
         "sho": 88,
         "sta": 81,
         "str": 79,
         "tac": 53,
-        "vis": 75
+        "vis": 78
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -626,13 +655,10 @@
       "name": "Robinhu",
       "nation": "BRA",
       "number": 70,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 140000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 70,
@@ -681,10 +707,13 @@
       "name": "Luca Antonyni",
       "nation": "ITA",
       "number": 77,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 56500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 80,
@@ -708,23 +737,23 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 80,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 146500
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 60,
-        "dri": 47,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 56,
-        "pos": 67,
-        "sho": 38,
-        "sta": 59,
-        "str": 63,
-        "tac": 68,
-        "vis": 50
+        "aer": 53,
+        "com": 58,
+        "dri": 57,
+        "ldr": 58,
+        "pac": 68,
+        "pas": 60,
+        "pos": 62,
+        "sho": 45,
+        "sta": 65,
+        "str": 55,
+        "tac": 65,
+        "vis": 56
       },
       "birth": "1987-09-01",
       "contract": null,
@@ -735,7 +764,7 @@
       "name": "Bruno Montelungo",
       "nation": "URU",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18500
     }
   ],

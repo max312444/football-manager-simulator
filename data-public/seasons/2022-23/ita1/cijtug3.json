@@ -77,6 +77,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 68,
@@ -104,6 +107,9 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 75,
@@ -131,18 +137,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 77,
-        "dri": 71,
-        "ldr": 73,
-        "pac": 70,
-        "pas": 78,
-        "pos": 71,
-        "sho": 69,
+        "dri": 67,
+        "ldr": 75,
+        "pac": 67,
+        "pas": 77,
+        "pos": 75,
+        "sho": 63,
         "sta": 78,
-        "str": 73,
-        "tac": 73,
-        "vis": 78
+        "str": 78,
+        "tac": 79,
+        "vis": 75
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -152,7 +158,7 @@
       "name": "Albin Ekdel",
       "nation": "SWE",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 62000
     },
     {
@@ -163,7 +169,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 64,
-        "pos": 50,
+        "pos": 70,
         "sho": 70,
         "sta": 69,
         "str": 67,
@@ -182,19 +188,22 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 70,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 74,
-        "pas": 64,
-        "pos": 48,
-        "sho": 78,
-        "sta": 69,
-        "str": 71,
-        "tac": 39,
-        "vis": 64
+        "aer": 55,
+        "com": 67,
+        "dri": 76,
+        "ldr": 66,
+        "pac": 78,
+        "pas": 70,
+        "pos": 50,
+        "sho": 73,
+        "sta": 71,
+        "str": 61,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -204,23 +213,27 @@
       "name": "Daniele Varde",
       "nation": "ITA",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 39000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 66,
-        "dri": 62,
-        "ldr": 60,
-        "pac": 63,
-        "pas": 59,
-        "pos": 45,
-        "sho": 70,
-        "sta": 62,
-        "str": 66,
-        "tac": 35,
-        "vis": 56
+        "aer": 46,
+        "com": 63,
+        "dri": 67,
+        "ldr": 58,
+        "pac": 67,
+        "pas": 65,
+        "pos": 47,
+        "sho": 65,
+        "sta": 64,
+        "str": 56,
+        "tac": 41,
+        "vis": 62
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -231,23 +244,23 @@
       "nation": "GHA",
       "nation2": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 18000
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 63,
-        "dri": 50,
-        "ldr": 64,
-        "pac": 60,
-        "pas": 53,
-        "pos": 70,
-        "sho": 35,
-        "sta": 61,
-        "str": 64,
-        "tac": 70,
-        "vis": 47
+        "aer": 55,
+        "com": 61,
+        "dri": 60,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 57,
+        "pos": 65,
+        "sho": 42,
+        "sta": 67,
+        "str": 56,
+        "tac": 67,
+        "vis": 53
       },
       "birth": "1995-06-01",
       "contract": null,
@@ -257,10 +270,13 @@
       "name": "Arkadiusz Rece",
       "nation": "POL",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 18500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 73,
         "com": 68,
@@ -314,21 +330,22 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
-        "aer": 44,
-        "com": 55,
-        "dri": 49,
-        "ldr": 50,
-        "pac": 52,
-        "pas": 55,
-        "pos": 51,
-        "sho": 46,
-        "sta": 57,
-        "str": 48,
-        "tac": 51,
-        "vis": 58
+        "aer": 38,
+        "com": 53,
+        "dri": 54,
+        "ldr": 46,
+        "pac": 61,
+        "pas": 51,
+        "pos": 33,
+        "sho": 50,
+        "sta": 53,
+        "str": 43,
+        "tac": 31,
+        "vis": 55
       },
       "birth": "2002-01-01",
       "contract": null,
@@ -339,7 +356,7 @@
       "nation": "ISR",
       "nation2": "ROU",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8000
     },
     {
@@ -350,7 +367,7 @@
         "ldr": 64,
         "pac": 69,
         "pas": 57,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 64,
         "str": 66,
@@ -371,18 +388,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 56,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 50,
+        "aer": 39,
+        "com": 57,
+        "dri": 60,
+        "ldr": 51,
+        "pac": 53,
         "pas": 58,
-        "pos": 57,
-        "sho": 54,
-        "sta": 63,
-        "str": 53,
-        "tac": 54,
-        "vis": 61
+        "pos": 42,
+        "sho": 60,
+        "sta": 57,
+        "str": 48,
+        "tac": 36,
+        "vis": 63
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -392,23 +409,23 @@
       "name": "Emil Kurnvig",
       "nation": "DEN",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 12000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 59,
-        "dri": 47,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 54,
-        "pos": 62,
-        "sho": 36,
-        "sta": 61,
-        "str": 61,
-        "tac": 67,
-        "vis": 47
+        "aer": 51,
+        "com": 57,
+        "dri": 57,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 58,
+        "pos": 57,
+        "sho": 43,
+        "sta": 67,
+        "str": 53,
+        "tac": 64,
+        "vis": 53
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -418,23 +435,23 @@
       "name": "Simone Bestoni",
       "nation": "ITA",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 56,
-        "dri": 46,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 53,
-        "pos": 60,
-        "sho": 31,
-        "sta": 52,
-        "str": 63,
-        "tac": 63,
-        "vis": 42
+        "aer": 50,
+        "com": 54,
+        "dri": 56,
+        "ldr": 53,
+        "pac": 60,
+        "pas": 57,
+        "pos": 55,
+        "sho": 38,
+        "sta": 58,
+        "str": 55,
+        "tac": 60,
+        "vis": 48
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -444,7 +461,7 @@
       "name": "Salva Ferrar",
       "nation": "ESP",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10000
     },
     {
@@ -475,19 +492,22 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 77,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 73,
-        "pas": 78,
-        "pos": 78,
-        "sho": 70,
-        "sta": 80,
-        "str": 73,
-        "tac": 75,
-        "vis": 77
+        "aer": 69,
+        "com": 79,
+        "dri": 77,
+        "ldr": 76,
+        "pac": 74,
+        "pas": 80,
+        "pos": 79,
+        "sho": 72,
+        "sta": 82,
+        "str": 74,
+        "tac": 76,
+        "vis": 79
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -503,18 +523,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 71,
-        "dri": 54,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 64,
-        "pos": 70,
-        "sho": 44,
-        "sta": 63,
-        "str": 74,
-        "tac": 75,
-        "vis": 53
+        "aer": 58,
+        "com": 69,
+        "dri": 64,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 68,
+        "pos": 65,
+        "sho": 51,
+        "sta": 69,
+        "str": 66,
+        "tac": 72,
+        "vis": 59
       },
       "birth": "1998-02-01",
       "contract": null,
@@ -525,10 +545,15 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": 27,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 33000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "RWB"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -582,6 +607,11 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 47,
         "com": 69,
@@ -609,6 +639,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -637,18 +670,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 59,
-        "ldr": 52,
-        "pac": 51,
+        "aer": 46,
+        "com": 63,
+        "dri": 63,
+        "ldr": 50,
+        "pac": 54,
         "pas": 63,
-        "pos": 59,
-        "sho": 51,
-        "sta": 61,
-        "str": 54,
-        "tac": 57,
-        "vis": 60
+        "pos": 44,
+        "sho": 57,
+        "sta": 55,
+        "str": 49,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "1998-11-01",
       "contract": null,
@@ -658,10 +691,13 @@
       "name": "Kevin Agudalo",
       "nation": "COL",
       "number": 33,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -747,7 +783,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 58,
-        "pos": 47,
+        "pos": 67,
         "sho": 72,
         "sta": 62,
         "str": 68,
@@ -792,19 +828,22 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 53,
-        "dri": 49,
-        "ldr": 51,
-        "pac": 54,
-        "pas": 46,
-        "pos": 29,
-        "sho": 54,
-        "sta": 50,
-        "str": 55,
-        "tac": 22,
-        "vis": 45
+        "aer": 39,
+        "com": 50,
+        "dri": 54,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 52,
+        "pos": 31,
+        "sho": 49,
+        "sta": 52,
+        "str": 45,
+        "tac": 28,
+        "vis": 51
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -814,23 +853,28 @@
       "name": "Leandro Senca",
       "nation": "POR",
       "number": 89,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 50,
-        "dri": 48,
+        "com": 52,
+        "dri": 54,
         "ldr": 47,
         "pac": 52,
-        "pas": 43,
-        "pos": 29,
-        "sho": 57,
+        "pas": 51,
+        "pos": 49,
+        "sho": 59,
         "sta": 44,
         "str": 50,
         "tac": 19,
-        "vis": 46
+        "vis": 54
       },
       "birth": "1999-10-01",
       "contract": null,
@@ -840,7 +884,7 @@
       "name": "Ognjen Stijepuvic",
       "nation": "MNE",
       "number": 99,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3500
     }
   ],

@@ -103,6 +103,9 @@
       "wage": 352000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 79,
@@ -130,19 +133,22 @@
       "wage": 401500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 80,
-        "dri": 76,
-        "ldr": 73,
-        "pac": 70,
-        "pas": 83,
-        "pos": 73,
-        "sho": 74,
-        "sta": 83,
-        "str": 73,
-        "tac": 76,
-        "vis": 76
+        "aer": 59,
+        "com": 78,
+        "dri": 81,
+        "ldr": 69,
+        "pac": 79,
+        "pas": 79,
+        "pos": 55,
+        "sho": 78,
+        "sta": 79,
+        "str": 68,
+        "tac": 56,
+        "vis": 73
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -152,13 +158,12 @@
       "name": "Franck Ribary",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 326500
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 82,
@@ -193,7 +198,7 @@
         "ldr": 79,
         "pac": 86,
         "pas": 73,
-        "pos": 64,
+        "pos": 84,
         "sho": 84,
         "sta": 77,
         "str": 80,
@@ -212,23 +217,19 @@
       "wage": 379500
     },
     {
-      "alt": [
-        "RW",
-        "CM"
-      ],
       "attrs": {
         "aer": 66,
-        "com": 84,
-        "dri": 84,
-        "ldr": 71,
-        "pac": 79,
-        "pas": 84,
-        "pos": 64,
-        "sho": 82,
-        "sta": 77,
+        "com": 81,
+        "dri": 85,
+        "ldr": 69,
+        "pac": 85,
+        "pas": 80,
+        "pos": 61,
+        "sho": 80,
+        "sta": 79,
         "str": 69,
-        "tac": 59,
-        "vis": 84
+        "tac": 57,
+        "vis": 79
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -238,23 +239,26 @@
       "name": "Arjen Robban",
       "nation": "NED",
       "number": 10,
-      "pos": "AM",
+      "pos": "RW",
       "wage": 329500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 85,
-        "dri": 81,
-        "ldr": 79,
-        "pac": 80,
+        "aer": 69,
+        "com": 86,
+        "dri": 85,
+        "ldr": 77,
+        "pac": 83,
         "pas": 87,
-        "pos": 77,
-        "sho": 77,
-        "sta": 83,
-        "str": 76,
-        "tac": 75,
-        "vis": 85
+        "pos": 62,
+        "sho": 83,
+        "sta": 77,
+        "str": 71,
+        "tac": 57,
+        "vis": 87
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -266,7 +270,7 @@
       "nation": "COL",
       "nation2": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 435000
     },
     {
@@ -318,7 +322,7 @@
       "name": "Juan Bernet",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 192500
     },
     {
@@ -349,7 +353,9 @@
     },
     {
       "alt": [
-        "DM"
+        "DM",
+        "AM",
+        "CB"
       ],
       "attrs": {
         "aer": 69,
@@ -357,12 +363,12 @@
         "dri": 79,
         "ldr": 75,
         "pac": 73,
-        "pas": 78,
+        "pas": 79,
         "pos": 79,
         "sho": 74,
-        "sta": 78,
+        "sta": 79,
         "str": 70,
-        "tac": 71,
+        "tac": 72,
         "vis": 77
       },
       "birth": "1990-02-01",
@@ -377,19 +383,22 @@
       "wage": 323500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 73,
+        "aer": 79,
         "com": 78,
-        "dri": 78,
-        "ldr": 79,
-        "pac": 75,
-        "pas": 82,
-        "pos": 82,
-        "sho": 72,
+        "dri": 74,
+        "ldr": 81,
+        "pac": 72,
+        "pas": 81,
+        "pos": 86,
+        "sho": 66,
         "sta": 81,
-        "str": 73,
-        "tac": 75,
-        "vis": 81
+        "str": 78,
+        "tac": 81,
+        "vis": 78
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -399,10 +408,14 @@
       "name": "Arturo Videl",
       "nation": "CHI",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 421000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -430,7 +443,9 @@
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 79,
@@ -439,7 +454,7 @@
         "ldr": 76,
         "pac": 81,
         "pas": 72,
-        "pos": 61,
+        "pos": 81,
         "sho": 85,
         "sta": 78,
         "str": 84,
@@ -485,8 +500,7 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 84,
@@ -514,19 +528,22 @@
       "wage": 332500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 76,
-        "dri": 73,
-        "ldr": 68,
-        "pac": 69,
-        "pas": 72,
-        "pos": 71,
-        "sho": 69,
-        "sta": 76,
-        "str": 69,
-        "tac": 70,
-        "vis": 75
+        "aer": 55,
+        "com": 74,
+        "dri": 78,
+        "ldr": 64,
+        "pac": 78,
+        "pas": 68,
+        "pos": 53,
+        "sho": 73,
+        "sta": 72,
+        "str": 64,
+        "tac": 50,
+        "vis": 72
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -536,26 +553,26 @@
       "name": "Kingsley Cuman",
       "nation": "FRA",
       "number": 29,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 198000
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
-        "aer": 77,
-        "com": 75,
-        "dri": 65,
-        "ldr": 76,
-        "pac": 70,
-        "pas": 65,
-        "pos": 77,
-        "sho": 48,
-        "sta": 70,
-        "str": 80,
-        "tac": 80,
-        "vis": 61
+        "aer": 64,
+        "com": 73,
+        "dri": 75,
+        "ldr": 72,
+        "pac": 78,
+        "pas": 69,
+        "pos": 72,
+        "sho": 55,
+        "sta": 76,
+        "str": 72,
+        "tac": 77,
+        "vis": 67
       },
       "birth": "1995-02-01",
       "contract": null,
@@ -565,10 +582,13 @@
       "name": "Joshua Kimmych",
       "nation": "GER",
       "number": 32,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 188500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,

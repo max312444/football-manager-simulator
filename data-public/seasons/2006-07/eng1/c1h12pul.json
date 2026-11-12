@@ -70,6 +70,11 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 71,
@@ -128,7 +133,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 69,
@@ -187,22 +192,22 @@
     },
     {
       "alt": [
-        "RM",
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 47,
-        "com": 70,
+        "com": 73,
         "dri": 73,
         "ldr": 58,
         "pac": 72,
-        "pas": 72,
+        "pas": 75,
         "pos": 58,
-        "sho": 62,
+        "sho": 65,
         "sta": 76,
         "str": 56,
         "tac": 54,
-        "vis": 69
+        "vis": 72
       },
       "birth": "1978-12-01",
       "contract": "2010-06-30",
@@ -220,16 +225,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 73,
+        "aer": 72,
+        "com": 79,
         "dri": 69,
         "ldr": 55,
         "pac": 90,
         "pas": 60,
-        "pos": 39,
-        "sho": 76,
+        "pos": 45,
+        "sho": 82,
         "sta": 69,
-        "str": 69,
+        "str": 75,
         "tac": 31,
         "vis": 60
       },
@@ -333,6 +338,7 @@
     },
     {
       "alt": [
+        "RW",
         "ST"
       ],
       "attrs": {
@@ -422,7 +428,8 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 69,
@@ -452,21 +459,23 @@
     },
     {
       "alt": [
-        "LM"
+        "LM",
+        "RW",
+        "CM"
       ],
       "attrs": {
         "aer": 49,
         "com": 64,
-        "dri": 75,
+        "dri": 76,
         "ldr": 51,
-        "pac": 78,
-        "pas": 69,
-        "pos": 48,
-        "sho": 64,
-        "sta": 84,
-        "str": 58,
-        "tac": 46,
-        "vis": 64
+        "pac": 94,
+        "pas": 70,
+        "pos": 66,
+        "sho": 65,
+        "sta": 87,
+        "str": 76,
+        "tac": 64,
+        "vis": 65
       },
       "birth": "1986-01-01",
       "contract": "2011-06-30",
@@ -480,6 +489,9 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,
@@ -502,7 +514,7 @@
       "name": "Charles N'Zogbie",
       "nation": "FRA",
       "number": 22,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 27000
     },
@@ -561,18 +573,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 67,
         "com": 57,
-        "dri": 55,
+        "dri": 57,
         "ldr": 45,
-        "pac": 66,
-        "pas": 57,
+        "pac": 68,
+        "pas": 59,
         "pos": 65,
         "sho": 41,
-        "sta": 71,
+        "sta": 73,
         "str": 68,
         "tac": 69,
         "vis": 47

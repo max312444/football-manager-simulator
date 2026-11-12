@@ -104,7 +104,8 @@
     },
     {
       "alt": [
-        "LB"
+        "RW",
+        "ST"
       ],
       "attrs": {
         "aer": 66,
@@ -163,9 +164,6 @@
       "wage": 89500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -173,11 +171,11 @@
         "ldr": 60,
         "pac": 48,
         "pas": 82,
-        "pos": 66,
+        "pos": 72,
         "sho": 76,
         "sta": 70,
-        "str": 84,
-        "tac": 64,
+        "str": 90,
+        "tac": 70,
         "vis": 80
       },
       "birth": "1986-12-01",
@@ -188,13 +186,16 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
       "wage": 86000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 66,
@@ -284,16 +285,16 @@
     },
     {
       "attrs": {
-        "aer": 82,
-        "com": 74,
+        "aer": 84,
+        "com": 76,
         "dri": 76,
         "ldr": 62,
         "pac": 76,
         "pas": 74,
-        "pos": 46,
-        "sho": 82,
+        "pos": 48,
+        "sho": 84,
         "sta": 74,
-        "str": 82,
+        "str": 84,
         "tac": 40,
         "vis": 72
       },
@@ -375,18 +376,22 @@
       "wage": 86000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 86,
         "dri": 88,
         "ldr": 70,
         "pac": 74,
-        "pas": 88,
+        "pas": 90,
         "pos": 62,
         "sho": 72,
-        "sta": 86,
+        "sta": 88,
         "str": 58,
-        "tac": 64,
+        "tac": 66,
         "vis": 90
       },
       "birth": "1985-09-01",
@@ -410,21 +415,23 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 46,
-        "com": 68,
+        "com": 78,
         "dri": 82,
         "ldr": 48,
         "pac": 80,
-        "pas": 72,
+        "pas": 82,
         "pos": 40,
-        "sho": 72,
+        "sho": 82,
         "sta": 70,
         "str": 62,
         "tac": 32,
-        "vis": 72
+        "vis": 82
       },
       "birth": "1989-05-01",
       "contract": "2012-06-30",
@@ -440,16 +447,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 78,
+        "aer": 58,
+        "com": 86,
         "dri": 78,
         "ldr": 58,
         "pac": 82,
         "pas": 64,
-        "pos": 40,
-        "sho": 84,
+        "pos": 48,
+        "sho": 92,
         "sta": 70,
-        "str": 66,
+        "str": 74,
         "tac": 32,
         "vis": 64
       },
@@ -465,6 +472,10 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 64,
@@ -580,6 +591,9 @@
       "wage": 91000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 66,
@@ -609,22 +623,19 @@
       "wage": 78500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
-        "com": 62,
+        "com": 67,
         "dri": 62,
         "ldr": 54,
         "pac": 70,
-        "pas": 64,
-        "pos": 64,
+        "pas": 69,
+        "pos": 69,
         "sho": 50,
         "sta": 80,
-        "str": 74,
-        "tac": 70,
-        "vis": 58
+        "str": 79,
+        "tac": 75,
+        "vis": 63
       },
       "birth": "1989-11-01",
       "contract": "2016-06-30",
@@ -641,17 +652,17 @@
     {
       "attrs": {
         "aer": 70,
-        "com": 70,
+        "com": 71,
         "dri": 66,
         "ldr": 64,
         "pac": 72,
-        "pas": 70,
+        "pas": 71,
         "pos": 74,
         "sho": 62,
-        "sta": 80,
+        "sta": 81,
         "str": 84,
         "tac": 82,
-        "vis": 64
+        "vis": 65
       },
       "birth": "1989-03-01",
       "contract": "2014-06-30",
@@ -720,7 +731,8 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 46,
@@ -744,7 +756,7 @@
       "name": "Steven Pienear",
       "nation": "RSA",
       "number": 40,
-      "pos": "LM",
+      "pos": "AM",
       "verify": true,
       "wage": 68500
     }

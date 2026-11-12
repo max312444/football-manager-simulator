@@ -24,6 +24,10 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -57,7 +61,7 @@
         "ldr": 72,
         "pac": 82,
         "pas": 75,
-        "pos": 61,
+        "pos": 81,
         "sho": 82,
         "sta": 79,
         "str": 79,
@@ -84,7 +88,7 @@
         "ldr": 73,
         "pac": 81,
         "pas": 74,
-        "pos": 59,
+        "pos": 79,
         "sho": 80,
         "sta": 76,
         "str": 76,
@@ -105,6 +109,11 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 74,
         "com": 78,
@@ -112,7 +121,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 69,
-        "pos": 57,
+        "pos": 77,
         "sho": 80,
         "sta": 70,
         "str": 76,
@@ -133,18 +142,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 73,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 73,
-        "pas": 75,
-        "pos": 74,
-        "sho": 70,
-        "sta": 75,
-        "str": 71,
-        "tac": 72,
-        "vis": 73
+        "aer": 57,
+        "com": 75,
+        "dri": 75,
+        "ldr": 66,
+        "pac": 76,
+        "pas": 76,
+        "pos": 59,
+        "sho": 77,
+        "sta": 69,
+        "str": 66,
+        "tac": 54,
+        "vis": 76
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -154,7 +163,7 @@
       "name": "Alax",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 20000
     },
@@ -181,10 +190,13 @@
       "name": "Jonior",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 72,
@@ -238,6 +250,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -264,19 +279,23 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 72,
-        "dri": 72,
-        "ldr": 67,
-        "pac": 65,
+        "aer": 55,
+        "com": 73,
+        "dri": 76,
+        "ldr": 65,
+        "pac": 68,
         "pas": 72,
-        "pos": 72,
-        "sho": 64,
-        "sta": 77,
-        "str": 66,
-        "tac": 72,
-        "vis": 73
+        "pos": 57,
+        "sho": 70,
+        "sta": 71,
+        "str": 61,
+        "tac": 54,
+        "vis": 75
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -287,24 +306,24 @@
       "nation": "AUS",
       "nation2": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 16000
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 72,
-        "dri": 58,
-        "ldr": 68,
-        "pac": 70,
-        "pas": 66,
-        "pos": 76,
-        "sho": 47,
-        "sta": 71,
-        "str": 72,
-        "tac": 73,
-        "vis": 56
+        "aer": 62,
+        "com": 70,
+        "dri": 68,
+        "ldr": 64,
+        "pac": 78,
+        "pas": 70,
+        "pos": 71,
+        "sho": 54,
+        "sta": 77,
+        "str": 64,
+        "tac": 70,
+        "vis": 62
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -314,7 +333,7 @@
       "name": "Vratislav Gresku",
       "nation": "SVK",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 12000
     },
@@ -326,7 +345,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 66,
-        "pos": 47,
+        "pos": 67,
         "sho": 75,
         "sta": 68,
         "str": 71,
@@ -353,7 +372,7 @@
         "ldr": 64,
         "pac": 75,
         "pas": 63,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 69,
         "str": 70,
@@ -373,6 +392,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
@@ -400,18 +422,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 69,
-        "dri": 69,
-        "ldr": 63,
-        "pac": 73,
-        "pas": 66,
-        "pos": 73,
-        "sho": 55,
-        "sta": 75,
-        "str": 64,
-        "tac": 71,
-        "vis": 66
+        "aer": 77,
+        "com": 71,
+        "dri": 59,
+        "ldr": 67,
+        "pac": 65,
+        "pas": 62,
+        "pos": 78,
+        "sho": 48,
+        "sta": 69,
+        "str": 72,
+        "tac": 74,
+        "vis": 60
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -421,7 +443,7 @@
       "name": "Daniele Bonere",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "verify": true,
       "wage": 12500
     },
@@ -459,7 +481,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 64,
-        "pos": 49,
+        "pos": 69,
         "sho": 71,
         "sta": 68,
         "str": 69,
@@ -478,19 +500,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 70,
-        "dri": 65,
-        "ldr": 66,
-        "pac": 61,
-        "pas": 72,
-        "pos": 64,
-        "sho": 62,
-        "sta": 69,
-        "str": 65,
-        "tac": 65,
-        "vis": 73
+        "aer": 53,
+        "com": 68,
+        "dri": 70,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 68,
+        "pos": 46,
+        "sho": 66,
+        "sta": 65,
+        "str": 60,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -500,11 +525,15 @@
       "name": "Marco Marchyonni",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 66,
@@ -532,9 +561,6 @@
       "wage": 11500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 72,
         "com": 70,
@@ -561,6 +587,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 68,
@@ -587,6 +616,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 71,
@@ -640,6 +672,11 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -666,6 +703,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 70,
@@ -693,6 +733,10 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -720,6 +764,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 63,
@@ -747,19 +794,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 64,
-        "pos": 61,
-        "sho": 59,
-        "sta": 67,
-        "str": 59,
-        "tac": 61,
-        "vis": 60
+        "aer": 54,
+        "com": 61,
+        "dri": 61,
+        "ldr": 57,
+        "pac": 55,
+        "pas": 66,
+        "pos": 62,
+        "sho": 61,
+        "sta": 69,
+        "str": 60,
+        "tac": 62,
+        "vis": 62
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -781,7 +831,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 50,
-        "pos": 38,
+        "pos": 58,
         "sho": 59,
         "sta": 54,
         "str": 56,
@@ -808,7 +858,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 56,
         "str": 56,
@@ -835,7 +885,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 50,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 51,
         "str": 58,
@@ -854,19 +904,23 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 59,
-        "dri": 51,
-        "ldr": 51,
-        "pac": 52,
+        "aer": 42,
+        "com": 60,
+        "dri": 55,
+        "ldr": 49,
+        "pac": 55,
         "pas": 60,
-        "pos": 56,
-        "sho": 48,
-        "sta": 56,
-        "str": 50,
-        "tac": 50,
-        "vis": 60
+        "pos": 41,
+        "sho": 54,
+        "sta": 50,
+        "str": 45,
+        "tac": 32,
+        "vis": 62
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -876,7 +930,7 @@
       "name": "Alessandro Rosyna",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
@@ -934,6 +988,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -962,18 +1019,18 @@
     },
     {
       "attrs": {
-        "aer": 35,
-        "com": 46,
+        "aer": 43,
+        "com": 47,
         "dri": 48,
-        "ldr": 41,
-        "pac": 41,
-        "pas": 53,
+        "ldr": 39,
+        "pac": 46,
+        "pas": 43,
         "pos": 43,
-        "sho": 43,
-        "sta": 49,
-        "str": 43,
-        "tac": 44,
-        "vis": 49
+        "sho": 52,
+        "sta": 43,
+        "str": 48,
+        "tac": 18,
+        "vis": 40
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -983,7 +1040,7 @@
       "name": "Alex Gybbs",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 1000
     }

@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 75,
-        "dri": 76,
-        "ldr": 76,
-        "pac": 69,
-        "pas": 79,
-        "pos": 77,
-        "sho": 72,
+        "dri": 72,
+        "ldr": 78,
+        "pac": 66,
+        "pas": 78,
+        "pos": 81,
+        "sho": 66,
         "sta": 76,
-        "str": 71,
-        "tac": 73,
-        "vis": 77
+        "str": 76,
+        "tac": 79,
+        "vis": 74
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -46,7 +46,7 @@
       "name": "Benjamin Huggal",
       "nation": "SUI",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 32000
     },
@@ -73,11 +73,14 @@
       "name": "Christoph Spicher",
       "nation": "SUI",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 32000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 67,
         "com": 72,
@@ -104,6 +107,10 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 74,
         "com": 74,
@@ -111,7 +118,7 @@
         "ldr": 70,
         "pac": 72,
         "pas": 64,
-        "pos": 48,
+        "pos": 68,
         "sho": 77,
         "sta": 66,
         "str": 74,
@@ -159,18 +166,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 70,
-        "dri": 57,
-        "ldr": 72,
-        "pac": 67,
-        "pas": 64,
-        "pos": 73,
-        "sho": 47,
-        "sta": 70,
-        "str": 74,
-        "tac": 74,
-        "vis": 61
+        "aer": 60,
+        "com": 68,
+        "dri": 67,
+        "ldr": 68,
+        "pac": 75,
+        "pas": 68,
+        "pos": 68,
+        "sho": 54,
+        "sta": 76,
+        "str": 66,
+        "tac": 71,
+        "vis": 67
       },
       "birth": "1972-04-01",
       "contract": null,
@@ -180,24 +187,24 @@
       "name": "Marko Rahmer",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 23000
     },
     {
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 71,
-        "dri": 66,
-        "ldr": 69,
-        "pac": 67,
-        "pas": 75,
-        "pos": 70,
-        "sho": 62,
+        "dri": 62,
+        "ldr": 71,
+        "pac": 64,
+        "pas": 74,
+        "pos": 74,
+        "sho": 56,
         "sta": 71,
-        "str": 65,
-        "tac": 65,
-        "vis": 73
+        "str": 70,
+        "tac": 71,
+        "vis": 70
       },
       "birth": "1981-11-01",
       "contract": null,
@@ -208,11 +215,14 @@
       "nation": "USA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 26500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 74,
@@ -266,6 +276,11 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 64,
@@ -326,7 +341,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 64,
         "str": 65,
@@ -345,6 +360,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 65,
@@ -372,18 +390,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 65,
-        "ldr": 59,
-        "pac": 64,
-        "pas": 68,
-        "pos": 66,
-        "sho": 60,
-        "sta": 71,
-        "str": 60,
-        "tac": 59,
-        "vis": 69
+        "aer": 48,
+        "com": 62,
+        "dri": 70,
+        "ldr": 55,
+        "pac": 73,
+        "pas": 64,
+        "pos": 48,
+        "sho": 64,
+        "sta": 67,
+        "str": 55,
+        "tac": 39,
+        "vis": 66
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -393,24 +411,27 @@
       "name": "Stefan Lexe",
       "nation": "AUT",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 15500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 65,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 61,
+        "aer": 46,
+        "com": 66,
+        "dri": 69,
+        "ldr": 62,
+        "pac": 64,
         "pas": 64,
-        "pos": 60,
-        "sho": 56,
-        "sta": 64,
-        "str": 58,
-        "tac": 62,
-        "vis": 67
+        "pos": 45,
+        "sho": 62,
+        "sta": 58,
+        "str": 53,
+        "tac": 44,
+        "vis": 69
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -420,10 +441,13 @@
       "name": "Benjamin Kohlar",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 12500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -450,6 +474,11 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 63,
         "com": 65,
@@ -457,7 +486,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 66,
         "sta": 63,
         "str": 65,
@@ -476,19 +505,24 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 62,
+        "com": 70,
         "dri": 47,
         "ldr": 59,
         "pac": 57,
-        "pas": 54,
+        "pas": 62,
         "pos": 68,
         "sho": 37,
-        "sta": 61,
+        "sta": 69,
         "str": 67,
         "tac": 68,
-        "vis": 50
+        "vis": 58
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -498,26 +532,28 @@
       "name": "Daniyel Cymen",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 8500
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "DM",
+        "AM"
       ],
       "attrs": {
-        "aer": 55,
-        "com": 59,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 56,
-        "pas": 61,
-        "pos": 60,
-        "sho": 54,
-        "sta": 67,
-        "str": 56,
-        "tac": 61,
-        "vis": 62
+        "aer": 56,
+        "com": 61,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 57,
+        "pas": 63,
+        "pos": 61,
+        "sho": 56,
+        "sta": 69,
+        "str": 57,
+        "tac": 62,
+        "vis": 64
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -586,9 +622,6 @@
       "wage": 6500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 61,
@@ -617,18 +650,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 57,
-        "dri": 42,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 49,
-        "pos": 62,
-        "sho": 29,
-        "sta": 54,
-        "str": 64,
-        "tac": 64,
-        "vis": 42
+        "aer": 48,
+        "com": 55,
+        "dri": 52,
+        "ldr": 50,
+        "pac": 58,
+        "pas": 53,
+        "pos": 57,
+        "sho": 36,
+        "sta": 60,
+        "str": 56,
+        "tac": 61,
+        "vis": 48
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -638,11 +671,14 @@
       "name": "Mounir Chafter",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 56,
@@ -669,6 +705,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 55,
@@ -728,7 +767,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 48,
-        "pos": 36,
+        "pos": 56,
         "sho": 63,
         "sta": 50,
         "str": 54,
@@ -755,7 +794,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 52,
-        "pos": 32,
+        "pos": 52,
         "sho": 61,
         "sta": 50,
         "str": 59,
@@ -802,6 +841,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,
@@ -880,6 +922,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -915,7 +960,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 44,
-        "pos": 33,
+        "pos": 53,
         "sho": 55,
         "sta": 48,
         "str": 51,

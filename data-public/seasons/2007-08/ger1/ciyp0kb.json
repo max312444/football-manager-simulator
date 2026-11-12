@@ -51,6 +51,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 75,
@@ -73,7 +76,7 @@
       "name": "Juan Pablo Soryn",
       "nation": "ARG",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 89000
     },
     {
@@ -99,7 +102,7 @@
       "name": "Timothee Atooba",
       "nation": "CMR",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 59500
     },
     {
@@ -162,7 +165,7 @@
         "ldr": 69,
         "pac": 80,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 83,
         "sta": 74,
         "str": 74,
@@ -182,9 +185,6 @@
       "wage": 58500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 73,
         "com": 73,
@@ -218,7 +218,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 71,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 70,
         "str": 76,
@@ -263,6 +263,10 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 78,
         "com": 82,
@@ -270,7 +274,7 @@
         "ldr": 73,
         "pac": 81,
         "pas": 71,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 73,
         "str": 77,
@@ -315,6 +319,10 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -341,6 +349,10 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 79,
@@ -368,18 +380,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 73,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 72,
+        "aer": 59,
+        "com": 74,
+        "dri": 75,
+        "ldr": 68,
+        "pac": 75,
         "pas": 76,
-        "pos": 73,
-        "sho": 71,
-        "sta": 74,
-        "str": 70,
-        "tac": 74,
-        "vis": 74
+        "pos": 58,
+        "sho": 77,
+        "sta": 68,
+        "str": 65,
+        "tac": 56,
+        "vis": 76
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -389,23 +401,26 @@
       "name": "Piotr Trochuwski",
       "nation": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 72500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 71,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 64,
-        "pas": 71,
-        "pos": 71,
-        "sho": 64,
-        "sta": 72,
-        "str": 66,
-        "tac": 64,
-        "vis": 75
+        "aer": 52,
+        "com": 69,
+        "dri": 72,
+        "ldr": 60,
+        "pac": 73,
+        "pas": 67,
+        "pos": 53,
+        "sho": 68,
+        "sta": 68,
+        "str": 61,
+        "tac": 44,
+        "vis": 72
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -415,7 +430,7 @@
       "name": "Romeo Castelan",
       "nation": "NED",
       "number": 18,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 43000
     },
     {
@@ -448,13 +463,13 @@
       "attrs": {
         "aer": 66,
         "com": 75,
-        "dri": 69,
+        "dri": 70,
         "ldr": 73,
-        "pac": 75,
+        "pac": 76,
         "pas": 75,
         "pos": 72,
         "sho": 55,
-        "sta": 75,
+        "sta": 76,
         "str": 73,
         "tac": 78,
         "vis": 71
@@ -472,6 +487,10 @@
       "wage": 68500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 50,
         "com": 52,
@@ -505,7 +524,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 60,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 60,
         "str": 67,
@@ -526,18 +545,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 80,
-        "dri": 80,
-        "ldr": 76,
-        "pac": 77,
-        "pas": 79,
-        "pos": 77,
-        "sho": 71,
-        "sta": 80,
-        "str": 76,
-        "tac": 74,
-        "vis": 77
+        "aer": 60,
+        "com": 83,
+        "dri": 84,
+        "ldr": 74,
+        "pac": 80,
+        "pas": 81,
+        "pos": 62,
+        "sho": 79,
+        "sta": 74,
+        "str": 71,
+        "tac": 56,
+        "vis": 81
       },
       "birth": "1983-02-01",
       "contract": null,
@@ -547,23 +566,23 @@
       "name": "Rafael van der Vaert",
       "nation": "NED",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 89000
     },
     {
       "attrs": {
         "aer": 66,
-        "com": 76,
-        "dri": 74,
-        "ldr": 69,
-        "pac": 71,
-        "pas": 76,
+        "com": 72,
+        "dri": 72,
+        "ldr": 67,
+        "pac": 78,
+        "pas": 70,
         "pos": 71,
-        "sho": 64,
+        "sho": 50,
         "sta": 75,
-        "str": 66,
-        "tac": 70,
-        "vis": 71
+        "str": 65,
+        "tac": 74,
+        "vis": 62
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -573,10 +592,13 @@
       "name": "Miso Brecku",
       "nation": "SVN",
       "number": 24,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 63500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
@@ -603,19 +625,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 73,
-        "dri": 74,
-        "ldr": 69,
-        "pac": 66,
+        "aer": 55,
+        "com": 74,
+        "dri": 78,
+        "ldr": 67,
+        "pac": 69,
         "pas": 77,
-        "pos": 70,
-        "sho": 68,
-        "sta": 73,
-        "str": 68,
-        "tac": 69,
-        "vis": 72
+        "pos": 55,
+        "sho": 74,
+        "sta": 67,
+        "str": 63,
+        "tac": 51,
+        "vis": 74
       },
       "birth": "1975-06-01",
       "contract": null,
@@ -626,7 +652,7 @@
       "nation": "GHA",
       "nation2": "GER",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 58500
     },
     {
@@ -656,6 +682,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 57,
@@ -683,18 +712,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 66,
-        "dri": 59,
-        "ldr": 63,
-        "pac": 57,
+        "aer": 48,
+        "com": 67,
+        "dri": 63,
+        "ldr": 61,
+        "pac": 60,
         "pas": 69,
-        "pos": 63,
-        "sho": 61,
-        "sta": 67,
-        "str": 57,
-        "tac": 62,
-        "vis": 66
+        "pos": 48,
+        "sho": 67,
+        "sta": 61,
+        "str": 52,
+        "tac": 44,
+        "vis": 68
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -705,23 +734,27 @@
       "nation": "GER",
       "nation2": "TUN",
       "number": 32,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 23500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 68,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 66,
-        "pos": 61,
-        "sho": 57,
-        "sta": 70,
-        "str": 62,
-        "tac": 64,
-        "vis": 69
+        "aer": 46,
+        "com": 66,
+        "dri": 65,
+        "ldr": 55,
+        "pac": 70,
+        "pas": 62,
+        "pos": 43,
+        "sho": 61,
+        "sta": 66,
+        "str": 57,
+        "tac": 44,
+        "vis": 66
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -731,7 +764,7 @@
       "name": "Sidnay Sam",
       "nation": "GER",
       "number": 34,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 25000
     }
   ],

@@ -99,10 +99,13 @@
       "name": "Archimede Murleo",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 10000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 71,
@@ -130,18 +133,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 64,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 54,
-        "pas": 66,
-        "pos": 61,
-        "sho": 58,
+        "dri": 57,
+        "ldr": 63,
+        "pac": 51,
+        "pas": 65,
+        "pos": 65,
+        "sho": 52,
         "sta": 66,
-        "str": 58,
-        "tac": 57,
-        "vis": 61
+        "str": 63,
+        "tac": 63,
+        "vis": 58
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -151,10 +154,13 @@
       "name": "Erick Polgar",
       "nation": "CHI",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 71,
@@ -182,6 +188,11 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -216,7 +227,7 @@
         "ldr": 61,
         "pac": 65,
         "pas": 57,
-        "pos": 46,
+        "pos": 66,
         "sho": 68,
         "sta": 65,
         "str": 68,
@@ -242,7 +253,7 @@
         "ldr": 66,
         "pac": 73,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 77,
         "sta": 71,
         "str": 77,
@@ -268,7 +279,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 50,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 56,
         "str": 63,
@@ -287,6 +298,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 62,
@@ -314,18 +328,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 69,
-        "dri": 67,
-        "ldr": 70,
-        "pac": 64,
-        "pas": 73,
-        "pos": 68,
-        "sho": 63,
+        "dri": 63,
+        "ldr": 72,
+        "pac": 61,
+        "pas": 72,
+        "pos": 72,
+        "sho": 57,
         "sta": 70,
-        "str": 66,
-        "tac": 70,
-        "vis": 72
+        "str": 71,
+        "tac": 76,
+        "vis": 69
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -336,23 +350,23 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 32500
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 57,
-        "dri": 47,
-        "ldr": 59,
-        "pac": 50,
-        "pas": 54,
-        "pos": 63,
-        "sho": 34,
-        "sta": 55,
-        "str": 64,
-        "tac": 62,
-        "vis": 48
+        "aer": 49,
+        "com": 55,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 58,
+        "pas": 58,
+        "pos": 58,
+        "sho": 41,
+        "sta": 61,
+        "str": 56,
+        "tac": 59,
+        "vis": 54
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -362,7 +376,7 @@
       "name": "Ibrahima Mbaie",
       "nation": "SEN",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 7500
     },
     {
@@ -373,7 +387,7 @@
         "ldr": 67,
         "pac": 77,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 82,
         "sta": 74,
         "str": 76,
@@ -393,19 +407,24 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 70,
-        "dri": 71,
+        "com": 76,
+        "dri": 77,
         "ldr": 66,
         "pac": 74,
-        "pas": 60,
-        "pos": 52,
-        "sho": 74,
+        "pas": 72,
+        "pos": 72,
+        "sho": 80,
         "sta": 69,
         "str": 71,
         "tac": 41,
-        "vis": 63
+        "vis": 75
       },
       "birth": "1992-02-01",
       "contract": null,
@@ -416,7 +435,7 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 19,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 24000
     },
     {
@@ -447,18 +466,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 55,
-        "dri": 55,
-        "ldr": 50,
-        "pac": 50,
-        "pas": 56,
-        "pos": 54,
-        "sho": 53,
+        "dri": 51,
+        "ldr": 52,
+        "pac": 47,
+        "pas": 55,
+        "pos": 58,
+        "sho": 47,
         "sta": 59,
-        "str": 50,
-        "tac": 54,
-        "vis": 61
+        "str": 55,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -468,23 +487,26 @@
       "name": "Amadou Dyawara",
       "nation": "GUI",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
-        "com": 58,
+        "com": 59,
         "dri": 59,
         "ldr": 55,
         "pac": 58,
-        "pas": 62,
+        "pas": 63,
         "pos": 55,
         "sho": 57,
         "sta": 63,
         "str": 58,
-        "tac": 53,
-        "vis": 58
+        "tac": 54,
+        "vis": 59
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -499,6 +521,11 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 66,
@@ -506,7 +533,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 57,
         "str": 59,
@@ -552,18 +579,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 69,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 75,
-        "pas": 69,
-        "pos": 69,
-        "sho": 53,
-        "sta": 72,
-        "str": 69,
-        "tac": 73,
-        "vis": 68
+        "aer": 78,
+        "com": 71,
+        "dri": 57,
+        "ldr": 71,
+        "pac": 67,
+        "pas": 65,
+        "pos": 74,
+        "sho": 46,
+        "sta": 66,
+        "str": 77,
+        "tac": 76,
+        "vis": 62
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -573,10 +600,13 @@
       "name": "Daniele Gestaldello",
       "nation": "ITA",
       "number": 28,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 34000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -630,6 +660,10 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -656,19 +690,22 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 54,
-        "dri": 47,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 52,
-        "pos": 59,
-        "sho": 33,
-        "sta": 52,
-        "str": 63,
-        "tac": 64,
-        "vis": 45
+        "aer": 49,
+        "com": 52,
+        "dri": 57,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 56,
+        "pos": 54,
+        "sho": 40,
+        "sta": 58,
+        "str": 55,
+        "tac": 61,
+        "vis": 51
       },
       "birth": "1983-03-01",
       "contract": null,
@@ -678,7 +715,7 @@
       "name": "Luca Ceccaralli",
       "nation": "ITA",
       "number": 77,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
@@ -709,18 +746,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 67,
-        "dri": 64,
-        "ldr": 67,
-        "pac": 64,
-        "pas": 73,
-        "pos": 65,
-        "sho": 60,
+        "dri": 60,
+        "ldr": 69,
+        "pac": 61,
+        "pas": 72,
+        "pos": 69,
+        "sho": 54,
         "sta": 67,
-        "str": 62,
-        "tac": 64,
-        "vis": 66
+        "str": 67,
+        "tac": 70,
+        "vis": 63
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -730,12 +767,14 @@
       "name": "Marco Crymi",
       "nation": "ITA",
       "number": 90,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 23500
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM",
+        "LM"
       ],
       "attrs": {
         "aer": 67,
@@ -765,18 +804,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 65,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 70,
-        "pas": 59,
-        "pos": 46,
-        "sho": 68,
-        "sta": 61,
-        "str": 70,
-        "tac": 38,
-        "vis": 59
+        "aer": 50,
+        "com": 62,
+        "dri": 70,
+        "ldr": 62,
+        "pac": 74,
+        "pas": 65,
+        "pos": 48,
+        "sho": 63,
+        "sta": 63,
+        "str": 60,
+        "tac": 44,
+        "vis": 65
       },
       "birth": "1987-09-01",
       "contract": null,
@@ -786,7 +825,7 @@
       "name": "Anthony Mouniar",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 15000
     }
   ],

@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 51,
-        "dri": 41,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 50,
-        "pos": 61,
-        "sho": 31,
-        "sta": 53,
-        "str": 60,
-        "tac": 58,
-        "vis": 42
+        "aer": 44,
+        "com": 49,
+        "dri": 51,
+        "ldr": 47,
+        "pac": 55,
+        "pas": 54,
+        "pos": 56,
+        "sho": 38,
+        "sta": 59,
+        "str": 52,
+        "tac": 55,
+        "vis": 48
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Pierre le Baau",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
@@ -129,6 +129,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -162,7 +165,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 49,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 54,
         "str": 58,
@@ -188,7 +191,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 44,
-        "pos": 31,
+        "pos": 51,
         "sho": 54,
         "sta": 47,
         "str": 55,
@@ -214,7 +217,7 @@
         "ldr": 48,
         "pac": 49,
         "pas": 46,
-        "pos": 27,
+        "pos": 47,
         "sho": 52,
         "sta": 49,
         "str": 52,
@@ -233,19 +236,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 55,
-        "dri": 54,
+        "com": 56,
+        "dri": 62,
         "ldr": 52,
         "pac": 52,
-        "pas": 46,
-        "pos": 31,
-        "sho": 59,
+        "pas": 55,
+        "pos": 51,
+        "sho": 60,
         "sta": 50,
         "str": 58,
         "tac": 28,
-        "vis": 44
+        "vis": 53
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -255,10 +263,15 @@
       "name": "Robert Straoss",
       "nation": "GER",
       "number": 11,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -266,7 +279,7 @@
         "ldr": 53,
         "pac": 57,
         "pas": 48,
-        "pos": 37,
+        "pos": 57,
         "sho": 56,
         "sta": 50,
         "str": 53,
@@ -312,6 +325,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -345,7 +361,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 60,
         "str": 62,
@@ -364,17 +380,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 39,
-        "com": 51,
-        "dri": 51,
+        "aer": 45,
+        "com": 57,
+        "dri": 53,
         "ldr": 43,
-        "pac": 44,
+        "pac": 50,
         "pas": 51,
-        "pos": 50,
-        "sho": 47,
+        "pos": 56,
+        "sho": 53,
         "sta": 53,
-        "str": 42,
+        "str": 48,
         "tac": 44,
         "vis": 51
       },
@@ -386,22 +407,27 @@
       "name": "Patrick Sunntag",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 59,
+        "aer": 57,
+        "com": 60,
         "dri": 53,
         "ldr": 50,
-        "pac": 54,
+        "pac": 62,
         "pas": 58,
-        "pos": 54,
+        "pos": 63,
         "sho": 52,
         "sta": 62,
-        "str": 52,
-        "tac": 50,
+        "str": 61,
+        "tac": 59,
         "vis": 58
       },
       "birth": "1980-06-01",
@@ -412,7 +438,7 @@
       "name": "Oliver Schruder",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 4500
     },
     {
@@ -442,6 +468,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 50,
         "com": 56,
@@ -468,19 +499,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 52,
-        "ldr": 47,
-        "pac": 52,
-        "pas": 47,
-        "pos": 36,
-        "sho": 58,
-        "sta": 51,
-        "str": 56,
-        "tac": 26,
-        "vis": 46
+        "aer": 39,
+        "com": 56,
+        "dri": 57,
+        "ldr": 45,
+        "pac": 56,
+        "pas": 53,
+        "pos": 38,
+        "sho": 53,
+        "sta": 53,
+        "str": 46,
+        "tac": 32,
+        "vis": 52
       },
       "birth": "1988-09-01",
       "contract": null,
@@ -491,7 +525,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 25,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 2500
     },
     {
@@ -521,19 +555,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 59,
+        "com": 73,
         "dri": 42,
         "ldr": 56,
         "pac": 55,
-        "pas": 48,
+        "pas": 62,
         "pos": 65,
         "sho": 34,
-        "sta": 52,
+        "sta": 66,
         "str": 61,
         "tac": 64,
-        "vis": 45
+        "vis": 59
       },
       "birth": "1989-06-01",
       "contract": null,
@@ -543,21 +582,26 @@
       "name": "Tobias Kampe",
       "nation": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 4500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 58,
-        "dri": 50,
+        "aer": 56,
+        "com": 66,
+        "dri": 58,
         "ldr": 53,
-        "pac": 48,
+        "pac": 56,
         "pas": 60,
-        "pos": 54,
-        "sho": 52,
+        "pos": 62,
+        "sho": 60,
         "sta": 60,
-        "str": 50,
+        "str": 58,
         "tac": 54,
         "vis": 58
       },
@@ -569,7 +613,7 @@
       "name": "Alban Remaj",
       "nation": "ALB",
       "number": 28,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4500
     },
     {
@@ -595,7 +639,7 @@
       "name": "Fabian Moller",
       "nation": "GER",
       "number": 30,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4000
     }
   ],

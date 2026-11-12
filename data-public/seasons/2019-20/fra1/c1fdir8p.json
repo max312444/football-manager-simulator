@@ -25,6 +25,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -48,7 +51,7 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11000
     },
     {
@@ -78,6 +81,9 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -105,6 +111,9 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -138,7 +147,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 60,
         "str": 69,
@@ -185,6 +194,9 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 70,
@@ -211,19 +223,23 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 60,
-        "dri": 56,
-        "ldr": 54,
-        "pac": 60,
-        "pas": 48,
-        "pos": 37,
-        "sho": 59,
-        "sta": 55,
-        "str": 57,
-        "tac": 30,
-        "vis": 52
+        "aer": 43,
+        "com": 57,
+        "dri": 61,
+        "ldr": 52,
+        "pac": 64,
+        "pas": 54,
+        "pos": 39,
+        "sho": 54,
+        "sta": 57,
+        "str": 47,
+        "tac": 36,
+        "vis": 58
       },
       "birth": "1998-02-01",
       "contract": null,
@@ -234,23 +250,26 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 31,
-        "com": 41,
+        "com": 42,
         "dri": 38,
         "ldr": 41,
         "pac": 40,
-        "pas": 42,
+        "pas": 43,
         "pos": 38,
         "sho": 37,
         "sta": 48,
         "str": 40,
-        "tac": 40,
-        "vis": 41
+        "tac": 41,
+        "vis": 42
       },
       "birth": "2001-04-01",
       "contract": null,
@@ -265,6 +284,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -317,6 +339,10 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -350,7 +376,7 @@
         "ldr": 65,
         "pac": 67,
         "pas": 63,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 61,
         "str": 67,
@@ -370,19 +396,22 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 64,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 57,
-        "pas": 60,
-        "pos": 60,
-        "sho": 53,
-        "sta": 61,
-        "str": 59,
-        "tac": 55,
-        "vis": 60
+        "aer": 46,
+        "com": 62,
+        "dri": 64,
+        "ldr": 50,
+        "pac": 66,
+        "pas": 56,
+        "pos": 42,
+        "sho": 57,
+        "sta": 57,
+        "str": 54,
+        "tac": 35,
+        "vis": 57
       },
       "birth": "1995-06-01",
       "contract": null,
@@ -393,7 +422,7 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 20500
     },
     {
@@ -424,18 +453,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 58,
-        "dri": 47,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 53,
-        "pos": 64,
-        "sho": 32,
-        "sta": 58,
-        "str": 67,
-        "tac": 66,
-        "vis": 48
+        "aer": 55,
+        "com": 56,
+        "dri": 57,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 57,
+        "pos": 59,
+        "sho": 39,
+        "sta": 64,
+        "str": 59,
+        "tac": 63,
+        "vis": 54
       },
       "birth": "1990-04-01",
       "contract": null,
@@ -446,23 +475,23 @@
       "nation": "CIV",
       "nation2": "ITA",
       "number": 25,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 17500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 62,
-        "dri": 50,
-        "ldr": 61,
-        "pac": 55,
-        "pas": 52,
-        "pos": 63,
-        "sho": 37,
-        "sta": 59,
-        "str": 67,
-        "tac": 69,
-        "vis": 51
+        "aer": 52,
+        "com": 60,
+        "dri": 60,
+        "ldr": 57,
+        "pac": 63,
+        "pas": 56,
+        "pos": 58,
+        "sho": 44,
+        "sta": 65,
+        "str": 59,
+        "tac": 66,
+        "vis": 57
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -472,10 +501,13 @@
       "name": "Theo Pellenerd",
       "nation": "FRA",
       "number": 26,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -510,7 +542,7 @@
         "ldr": 56,
         "pac": 58,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 55,
         "str": 58,
@@ -530,18 +562,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 62,
-        "dri": 51,
-        "ldr": 57,
-        "pac": 54,
-        "pas": 51,
-        "pos": 63,
-        "sho": 37,
-        "sta": 60,
-        "str": 65,
-        "tac": 65,
-        "vis": 45
+        "aer": 53,
+        "com": 60,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 62,
+        "pas": 55,
+        "pos": 58,
+        "sho": 44,
+        "sta": 66,
+        "str": 57,
+        "tac": 62,
+        "vis": 51
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -551,7 +583,7 @@
       "name": "Vincent Manceao",
       "nation": "FRA",
       "number": 29,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 17000
     },
     {
@@ -608,6 +640,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 65,
@@ -630,23 +665,23 @@
       "name": "Saliou Cyss",
       "nation": "SEN",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 39000
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 59,
-        "pos": 54,
-        "sho": 54,
-        "sta": 58,
-        "str": 52,
-        "tac": 51,
-        "vis": 61
+        "aer": 41,
+        "com": 55,
+        "dri": 59,
+        "ldr": 50,
+        "pac": 64,
+        "pas": 55,
+        "pos": 36,
+        "sho": 58,
+        "sta": 54,
+        "str": 47,
+        "tac": 31,
+        "vis": 58
       },
       "birth": "1995-09-01",
       "contract": null,
@@ -656,7 +691,7 @@
       "name": "Antonin Bobychon",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 14000
     }
   ],

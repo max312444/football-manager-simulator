@@ -99,6 +99,9 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 61,
@@ -132,11 +135,11 @@
         "ldr": 59,
         "pac": 58,
         "pas": 69,
-        "pos": 53,
+        "pos": 65,
         "sho": 57,
         "sta": 71,
-        "str": 56,
-        "tac": 52,
+        "str": 68,
+        "tac": 64,
         "vis": 67
       },
       "birth": "1981-10-01",
@@ -147,7 +150,7 @@
       "name": "Mohamed Shawki",
       "nation": "EGY",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 31500
     },
@@ -237,7 +240,7 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 47,
@@ -267,16 +270,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 68,
+        "aer": 63,
+        "com": 69,
         "dri": 63,
         "ldr": 54,
         "pac": 67,
         "pas": 55,
-        "pos": 33,
-        "sho": 75,
+        "pos": 34,
+        "sho": 76,
         "sta": 60,
-        "str": 62,
+        "str": 63,
         "tac": 25,
         "vis": 57
       },
@@ -295,16 +298,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 70,
+        "aer": 63,
+        "com": 72,
         "dri": 66,
         "ldr": 57,
         "pac": 67,
         "pas": 56,
-        "pos": 30,
-        "sho": 75,
+        "pos": 32,
+        "sho": 77,
         "sta": 58,
-        "str": 63,
+        "str": 65,
         "tac": 25,
         "vis": 58
       },
@@ -322,6 +325,8 @@
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -352,16 +357,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 70,
+        "aer": 66,
+        "com": 71,
         "dri": 67,
         "ldr": 58,
         "pac": 66,
         "pas": 57,
-        "pos": 33,
-        "sho": 75,
+        "pos": 34,
+        "sho": 76,
         "sta": 61,
-        "str": 64,
+        "str": 65,
         "tac": 25,
         "vis": 57
       },
@@ -378,9 +383,6 @@
       "wage": 26500
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 76,
         "com": 69,
@@ -409,7 +411,9 @@
     },
     {
       "alt": [
-        "LM"
+        "LWB",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 49,
@@ -496,7 +500,7 @@
     },
     {
       "alt": [
-        "LW"
+        "LB"
       ],
       "attrs": {
         "aer": 46,
@@ -520,24 +524,25 @@
       "name": "Stewart Downyng",
       "nation": "ENG",
       "number": 19,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 50500
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 57,
-        "com": 59,
+        "aer": 58,
+        "com": 60,
         "dri": 57,
         "ldr": 42,
         "pac": 58,
         "pas": 50,
-        "pos": 27,
-        "sho": 66,
+        "pos": 28,
+        "sho": 67,
         "sta": 56,
-        "str": 56,
+        "str": 57,
         "tac": 20,
         "vis": 48
       },
@@ -554,6 +559,11 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "CB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 56,

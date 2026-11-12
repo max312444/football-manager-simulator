@@ -71,6 +71,10 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -180,7 +184,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 31,
@@ -204,7 +208,7 @@
       "name": "Andy van der Meide",
       "nation": "NED",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],
@@ -212,16 +216,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 76,
+        "aer": 68,
+        "com": 79,
         "dri": 72,
         "ldr": 59,
         "pac": 87,
         "pas": 63,
-        "pos": 47,
-        "sho": 82,
+        "pos": 50,
+        "sho": 85,
         "sta": 76,
-        "str": 71,
+        "str": 74,
         "tac": 37,
         "vis": 61
       },
@@ -273,7 +277,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 47,
@@ -307,7 +312,7 @@
     {
       "alt": [
         "ST",
-        "AM"
+        "RW"
       ],
       "attrs": {
         "aer": 53,
@@ -337,16 +342,16 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 53,
+        "aer": 54,
+        "com": 55,
         "dri": 53,
         "ldr": 38,
         "pac": 59,
         "pas": 43,
-        "pos": 23,
-        "sho": 63,
+        "pos": 25,
+        "sho": 65,
         "sta": 52,
-        "str": 56,
+        "str": 58,
         "tac": 11,
         "vis": 46
       },
@@ -366,7 +371,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 62,
@@ -395,7 +400,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 50,
@@ -419,13 +424,15 @@
       "name": "Simon Devies",
       "nation": "WAL",
       "number": 16,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 37500
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "ST"
       ],
       "attrs": {
         "aer": 84,
@@ -458,18 +465,19 @@
     {
       "alt": [
         "RB",
+        "CM",
         "DM"
       ],
       "attrs": {
         "aer": 64,
         "com": 76,
-        "dri": 65,
+        "dri": 71,
         "ldr": 76,
-        "pac": 67,
+        "pac": 73,
         "pas": 72,
         "pos": 78,
         "sho": 54,
-        "sta": 80,
+        "sta": 86,
         "str": 72,
         "tac": 80,
         "vis": 66
@@ -487,8 +495,7 @@
     },
     {
       "alt": [
-        "AM",
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 51,
@@ -496,12 +503,12 @@
         "dri": 75,
         "ldr": 60,
         "pac": 70,
-        "pas": 76,
+        "pas": 77,
         "pos": 60,
         "sho": 66,
-        "sta": 78,
+        "sta": 79,
         "str": 60,
-        "tac": 59,
+        "tac": 60,
         "vis": 72
       },
       "birth": "1981-05-01",
@@ -547,9 +554,6 @@
       "wage": 71500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 74,
@@ -633,9 +637,6 @@
       "wage": 26000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 81,
         "com": 77,

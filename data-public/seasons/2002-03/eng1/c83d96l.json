@@ -70,19 +70,16 @@
       "wage": 60500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 63,
-        "dri": 60,
+        "dri": 64,
         "ldr": 59,
-        "pac": 66,
-        "pas": 62,
+        "pac": 70,
+        "pas": 66,
         "pos": 67,
         "sho": 44,
-        "sta": 70,
+        "sta": 74,
         "str": 74,
         "tac": 72,
         "vis": 55
@@ -136,16 +133,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 66,
+        "aer": 67,
+        "com": 73,
         "dri": 76,
         "ldr": 46,
         "pac": 82,
         "pas": 60,
-        "pos": 46,
-        "sho": 74,
+        "pos": 53,
+        "sho": 81,
         "sta": 74,
-        "str": 70,
+        "str": 77,
         "tac": 36,
         "vis": 58
       },
@@ -168,13 +165,13 @@
       "attrs": {
         "aer": 76,
         "com": 75,
-        "dri": 61,
+        "dri": 71,
         "ldr": 69,
-        "pac": 65,
-        "pas": 67,
+        "pac": 75,
+        "pas": 77,
         "pos": 77,
         "sho": 52,
-        "sta": 73,
+        "sta": 83,
         "str": 77,
         "tac": 78,
         "vis": 58
@@ -192,10 +189,6 @@
       "wage": 80000
     },
     {
-      "alt": [
-        "RM",
-        "LM"
-      ],
       "attrs": {
         "aer": 52,
         "com": 74,
@@ -225,9 +218,6 @@
       "wage": 55500
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 77,
         "com": 67,
@@ -258,6 +248,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -287,16 +278,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 81,
+        "aer": 72,
+        "com": 91,
         "dri": 81,
         "ldr": 63,
         "pac": 91,
         "pas": 67,
-        "pos": 46,
-        "sho": 86,
+        "pos": 56,
+        "sho": 96,
         "sta": 76,
-        "str": 64,
+        "str": 74,
         "tac": 34,
         "vis": 71
       },
@@ -319,17 +310,17 @@
     {
       "attrs": {
         "aer": 62,
-        "com": 56,
+        "com": 61,
         "dri": 56,
         "ldr": 46,
         "pac": 64,
-        "pas": 58,
-        "pos": 64,
+        "pas": 63,
+        "pos": 69,
         "sho": 46,
         "sta": 76,
-        "str": 72,
-        "tac": 68,
-        "vis": 50
+        "str": 77,
+        "tac": 73,
+        "vis": 55
       },
       "birth": "1977-02-01",
       "contract": "2007-06-30",
@@ -345,8 +336,7 @@
     },
     {
       "alt": [
-        "AM",
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 55,
@@ -378,8 +368,7 @@
     },
     {
       "alt": [
-        "AM",
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 56,
@@ -387,12 +376,12 @@
         "dri": 70,
         "ldr": 50,
         "pac": 64,
-        "pas": 72,
+        "pas": 76,
         "pos": 56,
         "sho": 66,
-        "sta": 70,
+        "sta": 74,
         "str": 64,
-        "tac": 52,
+        "tac": 56,
         "vis": 70
       },
       "birth": "1978-05-01",
@@ -409,7 +398,7 @@
     },
     {
       "alt": [
-        "AM"
+        "LW"
       ],
       "attrs": {
         "aer": 59,
@@ -433,7 +422,7 @@
       "name": "Patrik Barger",
       "nation": "CZE",
       "number": 15,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "long_shot",
         "free_kick"
@@ -441,9 +430,6 @@
       "wage": 67000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 71,
         "com": 81,
@@ -471,22 +457,21 @@
     },
     {
       "alt": [
-        "RM",
         "DM"
       ],
       "attrs": {
         "aer": 69,
-        "com": 77,
+        "com": 78,
         "dri": 78,
         "ldr": 79,
         "pac": 78,
-        "pas": 82,
+        "pas": 83,
         "pos": 74,
         "sho": 79,
         "sta": 87,
         "str": 78,
-        "tac": 77,
-        "vis": 80
+        "tac": 78,
+        "vis": 81
       },
       "birth": "1980-05-01",
       "contract": "2007-06-30",
@@ -505,7 +490,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 64,
@@ -594,19 +579,18 @@
     {
       "alt": [
         "CB",
-        "LB",
-        "DM"
+        "LB"
       ],
       "attrs": {
         "aer": 76,
         "com": 79,
-        "dri": 55,
+        "dri": 65,
         "ldr": 77,
-        "pac": 68,
-        "pas": 62,
+        "pac": 78,
+        "pas": 72,
         "pos": 82,
         "sho": 41,
-        "sta": 84,
+        "sta": 94,
         "str": 78,
         "tac": 83,
         "vis": 56
@@ -651,28 +635,29 @@
       "name": "Bernard Diomade",
       "nation": "FRA",
       "number": 24,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 35000
     },
     {
       "alt": [
         "CB",
-        "CM"
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 68,
-        "com": 62,
+        "com": 63,
         "dri": 64,
         "ldr": 50,
         "pac": 64,
-        "pas": 66,
-        "pos": 68,
+        "pas": 67,
+        "pos": 69,
         "sho": 54,
         "sta": 74,
-        "str": 72,
-        "tac": 70,
-        "vis": 60
+        "str": 73,
+        "tac": 71,
+        "vis": 61
       },
       "birth": "1978-05-01",
       "contract": "2005-06-30",

@@ -182,9 +182,6 @@
       "wage": 106000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 86,
         "com": 68,
@@ -240,13 +237,13 @@
       "attrs": {
         "aer": 64,
         "com": 74,
-        "dri": 62,
+        "dri": 76,
         "ldr": 86,
-        "pac": 50,
+        "pac": 64,
         "pas": 66,
         "pos": 70,
         "sho": 50,
-        "sta": 60,
+        "sta": 74,
         "str": 66,
         "tac": 70,
         "vis": 62
@@ -353,22 +350,19 @@
       "wage": 173500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 60,
-        "com": 68,
+        "com": 70,
         "dri": 68,
         "ldr": 56,
         "pac": 70,
-        "pas": 72,
-        "pos": 72,
+        "pas": 74,
+        "pos": 74,
         "sho": 52,
         "sta": 80,
-        "str": 70,
-        "tac": 74,
-        "vis": 64
+        "str": 72,
+        "tac": 76,
+        "vis": 66
       },
       "birth": "2003-06-01",
       "contract": "2027-06-30",
@@ -382,22 +376,19 @@
       "wage": 94500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 56,
-        "com": 74,
-        "dri": 76,
+        "com": 77,
+        "dri": 79,
         "ldr": 62,
-        "pac": 70,
+        "pac": 73,
         "pas": 80,
         "pos": 66,
-        "sho": 70,
+        "sho": 73,
         "sta": 84,
         "str": 64,
         "tac": 62,
-        "vis": 78
+        "vis": 81
       },
       "birth": "1998-09-01",
       "contract": "2030-06-30",
@@ -407,7 +398,7 @@
       "name": "Kiernan Dewsburi-Hall",
       "nation": "ENG",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 133000
     },
     {
@@ -416,17 +407,17 @@
       ],
       "attrs": {
         "aer": 58,
-        "com": 70,
+        "com": 75,
         "dri": 78,
         "ldr": 56,
         "pac": 74,
-        "pas": 74,
+        "pas": 79,
         "pos": 64,
         "sho": 68,
         "sta": 82,
         "str": 66,
-        "tac": 64,
-        "vis": 72
+        "tac": 69,
+        "vis": 77
       },
       "birth": "2002-11-01",
       "contract": "2030-06-30",
@@ -441,7 +432,9 @@
     },
     {
       "alt": [
-        "AM"
+        "RB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 60,
@@ -466,20 +459,20 @@
       "name": "Merlin Ruhl",
       "nation": "GER",
       "number": 34,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 94500
     },
     {
       "alt": [
-        "AM"
+        "RW"
       ],
       "attrs": {
         "aer": 50,
         "com": 80,
-        "dri": 86,
+        "dri": 94,
         "ldr": 70,
-        "pac": 70,
+        "pac": 78,
         "pas": 82,
         "pos": 54,
         "sho": 72,
@@ -505,14 +498,15 @@
     },
     {
       "alt": [
+        "RW",
         "AM"
       ],
       "attrs": {
         "aer": 52,
         "com": 72,
-        "dri": 78,
+        "dri": 83,
         "ldr": 60,
-        "pac": 70,
+        "pac": 75,
         "pas": 80,
         "pos": 56,
         "sho": 72,
@@ -537,8 +531,7 @@
     },
     {
       "alt": [
-        "AM",
-        "ST"
+        "RW"
       ],
       "attrs": {
         "aer": 52,
@@ -571,7 +564,7 @@
     },
     {
       "alt": [
-        "AM"
+        "LW"
       ],
       "attrs": {
         "aer": 46,
@@ -627,16 +620,16 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 66,
+        "aer": 78,
+        "com": 68,
         "dri": 72,
         "ldr": 52,
         "pac": 80,
         "pas": 62,
-        "pos": 46,
-        "sho": 72,
+        "pos": 48,
+        "sho": 74,
         "sta": 74,
-        "str": 78,
+        "str": 80,
         "tac": 40,
         "vis": 58
       },

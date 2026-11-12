@@ -57,7 +57,7 @@
         "ldr": 57,
         "pac": 65,
         "pas": 56,
-        "pos": 41,
+        "pos": 61,
         "sho": 69,
         "sta": 63,
         "str": 63,
@@ -76,6 +76,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -129,6 +132,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -156,6 +162,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -184,6 +193,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -211,19 +223,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 58,
-        "dri": 56,
+        "com": 62,
+        "dri": 60,
         "ldr": 52,
         "pac": 60,
-        "pas": 53,
-        "pos": 36,
-        "sho": 59,
+        "pas": 61,
+        "pos": 56,
+        "sho": 63,
         "sta": 57,
         "str": 56,
         "tac": 28,
-        "vis": 50
+        "vis": 58
       },
       "birth": "1974-04-01",
       "contract": null,
@@ -233,7 +250,7 @@
       "name": "Martin Guzyk",
       "nation": "CZE",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1500
     },
@@ -245,7 +262,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 57,
         "str": 61,
@@ -272,7 +289,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 53,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 51,
         "str": 56,
@@ -292,6 +309,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 54,
@@ -319,6 +341,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -352,7 +379,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 60,
         "sta": 51,
         "str": 55,
@@ -371,6 +398,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 55,
@@ -483,7 +515,7 @@
         "ldr": 51,
         "pac": 54,
         "pas": 50,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 54,
         "str": 53,
@@ -503,18 +535,23 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 53,
+        "aer": 54,
+        "com": 54,
         "dri": 53,
         "ldr": 50,
-        "pac": 47,
+        "pac": 58,
         "pas": 56,
-        "pos": 49,
+        "pos": 61,
         "sho": 46,
         "sta": 59,
-        "str": 48,
-        "tac": 50,
+        "str": 60,
+        "tac": 62,
         "vis": 55
       },
       "birth": "1971-02-01",
@@ -525,7 +562,7 @@
       "name": "Clirim Bashy",
       "nation": "ALB",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 1500
     },
@@ -533,16 +570,16 @@
       "attrs": {
         "aer": 42,
         "com": 53,
-        "dri": 47,
+        "dri": 49,
         "ldr": 48,
-        "pac": 59,
-        "pas": 49,
-        "pos": 49,
-        "sho": 36,
-        "sta": 58,
+        "pac": 61,
+        "pas": 50,
+        "pos": 47,
+        "sho": 39,
+        "sta": 60,
         "str": 51,
-        "tac": 54,
-        "vis": 44
+        "tac": 52,
+        "vis": 45
       },
       "birth": "1969-12-01",
       "contract": null,
@@ -552,7 +589,7 @@
       "name": "Marco Zernicka",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LWB",
       "wage": 1000
     },
     {
@@ -563,7 +600,7 @@
         "ldr": 44,
         "pac": 52,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 54,
         "sta": 48,
         "str": 51,
@@ -610,6 +647,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 52,
@@ -644,7 +684,7 @@
         "ldr": 45,
         "pac": 53,
         "pas": 47,
-        "pos": 28,
+        "pos": 48,
         "sho": 56,
         "sta": 48,
         "str": 52,
@@ -769,6 +809,9 @@
       "wage": 500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 48,

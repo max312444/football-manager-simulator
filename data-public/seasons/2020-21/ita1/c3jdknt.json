@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 72,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 74,
-        "pos": 69,
-        "sho": 71,
+        "dri": 68,
+        "ldr": 73,
+        "pac": 68,
+        "pas": 73,
+        "pos": 73,
+        "sho": 65,
         "sta": 79,
-        "str": 71,
-        "tac": 73,
-        "vis": 73
+        "str": 76,
+        "tac": 79,
+        "vis": 70
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "name": "Roberto Gagliardiny",
       "nation": "ITA",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 109000
     },
     {
@@ -130,6 +130,10 @@
       "wage": 158000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 81,
@@ -137,7 +141,7 @@
         "ldr": 78,
         "pac": 81,
         "pas": 71,
-        "pos": 61,
+        "pos": 81,
         "sho": 86,
         "sta": 75,
         "str": 83,
@@ -156,19 +160,23 @@
       "wage": 147500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 76,
+        "com": 77,
         "dri": 80,
         "ldr": 72,
         "pac": 77,
-        "pas": 81,
+        "pas": 82,
         "pos": 74,
         "sho": 75,
         "sta": 79,
         "str": 72,
-        "tac": 74,
-        "vis": 77
+        "tac": 75,
+        "vis": 78
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -190,7 +198,7 @@
         "ldr": 77,
         "pac": 81,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 84,
         "sta": 76,
         "str": 84,
@@ -216,7 +224,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 70,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 75,
         "str": 78,
@@ -257,10 +265,13 @@
       "name": "Aleksandar Kolaruv",
       "nation": "SRB",
       "number": 11,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 106000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -314,18 +325,18 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 83,
-        "dri": 76,
-        "ldr": 76,
-        "pac": 74,
-        "pas": 82,
-        "pos": 81,
-        "sho": 73,
-        "sta": 82,
-        "str": 76,
-        "tac": 75,
-        "vis": 82
+        "aer": 68,
+        "com": 81,
+        "dri": 81,
+        "ldr": 72,
+        "pac": 83,
+        "pas": 78,
+        "pos": 63,
+        "sho": 77,
+        "sta": 78,
+        "str": 71,
+        "tac": 55,
+        "vis": 79
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -335,10 +346,15 @@
       "name": "Ivan Perisyc",
       "nation": "CRO",
       "number": 14,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 213500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -365,19 +381,22 @@
       "wage": 100500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 72,
+        "aer": 78,
         "com": 79,
-        "dri": 80,
-        "ldr": 76,
-        "pac": 73,
-        "pas": 80,
-        "pos": 74,
-        "sho": 72,
+        "dri": 76,
+        "ldr": 78,
+        "pac": 70,
+        "pas": 79,
+        "pos": 78,
+        "sho": 66,
         "sta": 81,
-        "str": 76,
-        "tac": 72,
-        "vis": 81
+        "str": 81,
+        "tac": 78,
+        "vis": 78
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -387,10 +406,13 @@
       "name": "Arturo Videl",
       "nation": "CHI",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 180000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 78,
@@ -418,7 +440,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 66,
@@ -472,6 +495,9 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 79,
         "com": 73,
@@ -526,21 +552,23 @@
     },
     {
       "alt": [
-        "RB"
+        "LB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 83,
-        "com": 76,
-        "dri": 66,
-        "ldr": 80,
-        "pac": 77,
-        "pas": 71,
-        "pos": 84,
-        "sho": 50,
-        "sta": 75,
-        "str": 79,
-        "tac": 81,
-        "vis": 66
+        "aer": 70,
+        "com": 74,
+        "dri": 76,
+        "ldr": 76,
+        "pac": 85,
+        "pas": 75,
+        "pos": 79,
+        "sho": 57,
+        "sta": 81,
+        "str": 71,
+        "tac": 78,
+        "vis": 72
       },
       "birth": "1989-12-01",
       "contract": null,
@@ -551,7 +579,7 @@
       "name": "Matteo Dermian",
       "nation": "ITA",
       "number": 36,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 138000
     },
     {
@@ -581,7 +609,10 @@
       "wage": 108000
     },
     {
-      "alt": [],
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -609,18 +640,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
+        "aer": 79,
         "com": 78,
-        "dri": 79,
-        "ldr": 74,
-        "pac": 72,
-        "pas": 84,
-        "pos": 76,
-        "sho": 77,
+        "dri": 75,
+        "ldr": 76,
+        "pac": 69,
+        "pas": 83,
+        "pos": 80,
+        "sho": 71,
         "sta": 80,
-        "str": 75,
-        "tac": 79,
-        "vis": 83
+        "str": 80,
+        "tac": 85,
+        "vis": 80
       },
       "birth": "1992-11-01",
       "contract": null,
@@ -630,7 +661,7 @@
       "name": "Marcelo Bruzovic",
       "nation": "CRO",
       "number": 77,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 205500
     },
     {
@@ -667,7 +698,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 54,
-        "pos": 43,
+        "pos": 63,
         "sho": 71,
         "sta": 58,
         "str": 65,
@@ -686,19 +717,22 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 76,
-        "dri": 76,
-        "ldr": 78,
-        "pac": 72,
-        "pas": 81,
-        "pos": 79,
-        "sho": 74,
-        "sta": 84,
-        "str": 77,
-        "tac": 77,
-        "vis": 77
+        "aer": 67,
+        "com": 78,
+        "dri": 78,
+        "ldr": 79,
+        "pac": 73,
+        "pas": 83,
+        "pos": 80,
+        "sho": 76,
+        "sta": 86,
+        "str": 78,
+        "tac": 78,
+        "vis": 79
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -713,19 +747,23 @@
       "wage": 182000
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 56,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 58,
-        "pos": 54,
-        "sho": 55,
-        "sta": 64,
-        "str": 53,
-        "tac": 56,
-        "vis": 57
+        "aer": 43,
+        "com": 54,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 54,
+        "pos": 36,
+        "sho": 59,
+        "sta": 60,
+        "str": 48,
+        "tac": 36,
+        "vis": 54
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -736,7 +774,7 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17500
     }
   ],

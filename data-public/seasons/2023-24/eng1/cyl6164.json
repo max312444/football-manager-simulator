@@ -96,6 +96,9 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -122,6 +125,9 @@
       "wage": 68000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 68,
@@ -252,6 +258,10 @@
       "wage": 153000
     },
     {
+      "alt": [
+        "RWB",
+        "CB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -304,6 +314,9 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 58,
@@ -330,6 +343,11 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 75,
@@ -356,6 +374,10 @@
       "wage": 153000
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 74,
@@ -382,6 +404,10 @@
       "wage": 153000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 69,
@@ -409,7 +435,9 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 52,
@@ -418,11 +446,11 @@
         "ldr": 54,
         "pac": 54,
         "pas": 64,
-        "pos": 57,
+        "pos": 62,
         "sho": 56,
         "sta": 61,
-        "str": 53,
-        "tac": 55,
+        "str": 58,
+        "tac": 60,
         "vis": 60
       },
       "birth": "1996-09-01",
@@ -433,13 +461,14 @@
       "name": "Jairo Riedeweld",
       "nation": "NED",
       "number": 44,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 32000
     },
     {
       "alt": [
-        "LM",
-        "LB"
+        "LB",
+        "LWB",
+        "LW"
       ],
       "attrs": {
         "aer": 58,
@@ -467,16 +496,21 @@
       "wage": 75000
     },
     {
+      "alt": [
+        "LM",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 67,
-        "dri": 64,
+        "dri": 69,
         "ldr": 58,
-        "pac": 59,
+        "pac": 64,
         "pas": 69,
         "pos": 61,
-        "sho": 59,
-        "sta": 71,
+        "sho": 64,
+        "sta": 76,
         "str": 59,
         "tac": 61,
         "vis": 65
@@ -489,13 +523,10 @@
       "name": "Naouirou Ahemada",
       "nation": "FRA",
       "number": 29,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 55500
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 55,
         "com": 81,
@@ -526,12 +557,16 @@
       "wage": 142000
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 70,
-        "dri": 87,
+        "dri": 88,
         "ldr": 54,
-        "pac": 77,
+        "pac": 78,
         "pas": 84,
         "pos": 50,
         "sho": 71,
@@ -555,6 +590,11 @@
       "wage": 99500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 45,
         "com": 67,
@@ -582,6 +622,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -637,16 +678,16 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 73,
+        "aer": 68,
+        "com": 77,
         "dri": 73,
         "ldr": 65,
         "pac": 74,
         "pas": 66,
-        "pos": 48,
-        "sho": 75,
+        "pos": 52,
+        "sho": 79,
         "sta": 70,
-        "str": 70,
+        "str": 74,
         "tac": 46,
         "vis": 67
       },
@@ -662,6 +703,10 @@
       "wage": 84500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 45,
         "com": 59,

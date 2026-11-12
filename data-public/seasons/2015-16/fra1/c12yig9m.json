@@ -77,6 +77,11 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 68,
@@ -135,6 +140,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -161,6 +169,9 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -194,7 +205,7 @@
         "ldr": 69,
         "pac": 78,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 69,
         "str": 73,
@@ -220,7 +231,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 55,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 62,
         "str": 65,
@@ -247,7 +258,7 @@
         "ldr": 67,
         "pac": 75,
         "pas": 65,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 67,
         "str": 71,
@@ -268,18 +279,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 58,
-        "dri": 57,
-        "ldr": 52,
-        "pac": 51,
-        "pas": 63,
-        "pos": 54,
-        "sho": 53,
+        "dri": 53,
+        "ldr": 54,
+        "pac": 48,
+        "pas": 62,
+        "pos": 58,
+        "sho": 47,
         "sta": 63,
-        "str": 53,
-        "tac": 52,
-        "vis": 58
+        "str": 58,
+        "tac": 58,
+        "vis": 55
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -289,23 +300,23 @@
       "name": "Birama Toore",
       "nation": "MLI",
       "number": 12,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11500
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 58,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 50,
-        "pos": 59,
-        "sho": 33,
-        "sta": 55,
-        "str": 60,
-        "tac": 65,
-        "vis": 42
+        "aer": 49,
+        "com": 56,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 60,
+        "pas": 54,
+        "pos": 54,
+        "sho": 40,
+        "sta": 61,
+        "str": 52,
+        "tac": 62,
+        "vis": 48
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -315,7 +326,7 @@
       "name": "Wilfried Moymbe",
       "nation": "FRA",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8500
     },
     {
@@ -345,6 +356,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 59,
@@ -372,18 +386,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 63,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 60,
-        "pas": 64,
-        "pos": 62,
-        "sho": 57,
+        "dri": 60,
+        "ldr": 65,
+        "pac": 57,
+        "pas": 63,
+        "pos": 66,
+        "sho": 51,
         "sta": 65,
-        "str": 60,
-        "tac": 63,
-        "vis": 62
+        "str": 65,
+        "tac": 69,
+        "vis": 59
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -394,23 +408,28 @@
       "nation": "FRA",
       "nation2": "GUI",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 22500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 53,
-        "dri": 54,
+        "com": 55,
+        "dri": 60,
         "ldr": 48,
         "pac": 52,
-        "pas": 46,
-        "pos": 33,
-        "sho": 58,
+        "pas": 54,
+        "pos": 53,
+        "sho": 60,
         "sta": 51,
         "str": 52,
         "tac": 22,
-        "vis": 46
+        "vis": 54
       },
       "birth": "1992-11-01",
       "contract": null,
@@ -421,10 +440,14 @@
       "nation": "FRA",
       "nation2": "MAR",
       "number": 20,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 62,
@@ -432,7 +455,7 @@
         "ldr": 58,
         "pac": 61,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 61,
         "str": 61,
@@ -458,7 +481,7 @@
         "ldr": 60,
         "pac": 67,
         "pas": 64,
-        "pos": 44,
+        "pos": 64,
         "sho": 73,
         "sta": 68,
         "str": 72,
@@ -479,18 +502,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 66,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 60,
+        "aer": 50,
+        "com": 67,
+        "dri": 64,
+        "ldr": 58,
+        "pac": 63,
         "pas": 63,
-        "pos": 59,
-        "sho": 56,
-        "sta": 64,
-        "str": 56,
-        "tac": 61,
-        "vis": 62
+        "pos": 44,
+        "sho": 62,
+        "sta": 58,
+        "str": 51,
+        "tac": 43,
+        "vis": 64
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -502,7 +525,7 @@
       "nation": "BRA",
       "nation2": "POR",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19500
     },
     {
@@ -533,6 +556,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -586,18 +612,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 57,
-        "dri": 47,
-        "ldr": 59,
-        "pac": 53,
-        "pas": 50,
-        "pos": 63,
-        "sho": 36,
-        "sta": 55,
-        "str": 64,
-        "tac": 63,
-        "vis": 46
+        "aer": 53,
+        "com": 55,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 61,
+        "pas": 54,
+        "pos": 58,
+        "sho": 43,
+        "sta": 61,
+        "str": 56,
+        "tac": 60,
+        "vis": 52
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -608,10 +634,15 @@
       "nation": "FRA",
       "nation2": "GHA",
       "number": 36,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 74,

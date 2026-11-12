@@ -31,7 +31,7 @@
         "ldr": 61,
         "pac": 71,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 65,
         "str": 70,
@@ -73,24 +73,29 @@
       "name": "Zsult Low",
       "nation": "HUN",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 62,
-        "dri": 49,
-        "ldr": 64,
-        "pac": 59,
-        "pas": 59,
-        "pos": 71,
-        "sho": 40,
-        "sta": 61,
-        "str": 71,
-        "tac": 72,
-        "vis": 49
+        "aer": 53,
+        "com": 60,
+        "dri": 59,
+        "ldr": 60,
+        "pac": 67,
+        "pas": 63,
+        "pos": 66,
+        "sho": 47,
+        "sta": 67,
+        "str": 63,
+        "tac": 69,
+        "vis": 55
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -100,7 +105,7 @@
       "name": "Christian Rehn",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 4500
     },
@@ -112,7 +117,7 @@
         "ldr": 55,
         "pac": 67,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 57,
         "str": 66,
@@ -184,19 +189,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 60,
+        "com": 71,
         "dri": 45,
         "ldr": 58,
         "pac": 58,
-        "pas": 56,
+        "pas": 67,
         "pos": 62,
         "sho": 36,
-        "sta": 55,
+        "sta": 66,
         "str": 60,
         "tac": 61,
-        "vis": 44
+        "vis": 55
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -206,12 +216,12 @@
       "name": "Michael Hartmenn",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 50,
@@ -239,6 +249,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -326,7 +339,7 @@
         "ldr": 48,
         "pac": 60,
         "pas": 49,
-        "pos": 38,
+        "pos": 58,
         "sho": 60,
         "sta": 52,
         "str": 59,
@@ -346,18 +359,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 50,
+        "aer": 58,
         "com": 58,
         "dri": 56,
         "ldr": 51,
-        "pac": 54,
+        "pac": 62,
         "pas": 62,
-        "pos": 56,
+        "pos": 64,
         "sho": 48,
         "sta": 58,
-        "str": 51,
-        "tac": 55,
+        "str": 59,
+        "tac": 63,
         "vis": 58
       },
       "birth": "1986-05-01",
@@ -368,7 +386,7 @@
       "name": "Kai Bolow",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 2500
     },
     {
@@ -379,7 +397,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 52,
         "str": 58,
@@ -426,6 +444,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 57,
@@ -433,7 +456,7 @@
         "ldr": 49,
         "pac": 59,
         "pas": 48,
-        "pos": 35,
+        "pos": 55,
         "sho": 60,
         "sta": 55,
         "str": 55,
@@ -479,6 +502,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 57,
@@ -533,6 +559,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -567,7 +596,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 47,
-        "pos": 34,
+        "pos": 54,
         "sho": 62,
         "sta": 52,
         "str": 57,
@@ -614,6 +643,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -641,18 +673,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 54,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 49,
-        "pas": 54,
-        "pos": 54,
-        "sho": 46,
+        "dri": 51,
+        "ldr": 53,
+        "pac": 46,
+        "pas": 53,
+        "pos": 58,
+        "sho": 40,
         "sta": 56,
-        "str": 47,
-        "tac": 50,
-        "vis": 54
+        "str": 52,
+        "tac": 56,
+        "vis": 51
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -662,7 +694,7 @@
       "name": "Maik Wagefald",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
@@ -693,19 +725,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 41,
-        "com": 55,
-        "dri": 50,
-        "ldr": 49,
-        "pac": 52,
-        "pas": 56,
+        "com": 51,
+        "dri": 48,
+        "ldr": 47,
+        "pac": 59,
+        "pas": 50,
         "pos": 55,
-        "sho": 47,
+        "sho": 33,
         "sta": 53,
-        "str": 47,
-        "tac": 50,
-        "vis": 53
+        "str": 46,
+        "tac": 54,
+        "vis": 44
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -715,7 +752,7 @@
       "name": "Marc Steyn",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RB",
       "verify": true,
       "wage": 1500
     },
@@ -747,6 +784,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 54,
@@ -774,6 +814,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -881,6 +924,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 48,
@@ -908,6 +954,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 52,
@@ -962,6 +1011,9 @@
       "wage": 500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 46,

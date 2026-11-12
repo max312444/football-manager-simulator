@@ -77,6 +77,11 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 72,
@@ -103,6 +108,10 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,
@@ -155,6 +164,10 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
         "com": 77,
@@ -162,7 +175,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 64,
-        "pos": 56,
+        "pos": 76,
         "sho": 76,
         "sta": 70,
         "str": 72,
@@ -181,19 +194,22 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 78,
-        "dri": 72,
-        "ldr": 74,
-        "pac": 70,
-        "pas": 78,
+        "com": 74,
+        "dri": 70,
+        "ldr": 72,
+        "pac": 77,
+        "pas": 72,
         "pos": 72,
-        "sho": 70,
+        "sho": 56,
         "sta": 77,
-        "str": 72,
-        "tac": 70,
-        "vis": 79
+        "str": 71,
+        "tac": 74,
+        "vis": 70
       },
       "birth": "1984-08-01",
       "contract": null,
@@ -203,7 +219,7 @@
       "name": "Dusan Besta",
       "nation": "SRB",
       "number": 8,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 41000
     },
     {
@@ -214,7 +230,7 @@
         "ldr": 66,
         "pac": 71,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 64,
         "str": 72,
@@ -240,7 +256,7 @@
         "ldr": 69,
         "pac": 77,
         "pas": 71,
-        "pos": 58,
+        "pos": 78,
         "sho": 80,
         "sta": 74,
         "str": 75,
@@ -344,7 +360,7 @@
         "ldr": 45,
         "pac": 50,
         "pas": 44,
-        "pos": 33,
+        "pos": 53,
         "sho": 52,
         "sta": 49,
         "str": 55,
@@ -370,7 +386,7 @@
         "ldr": 68,
         "pac": 70,
         "pas": 62,
-        "pos": 53,
+        "pos": 73,
         "sho": 75,
         "sta": 68,
         "str": 73,
@@ -416,6 +432,9 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -442,18 +461,23 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 76,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 70,
-        "pas": 73,
-        "pos": 74,
-        "sho": 66,
-        "sta": 73,
-        "str": 66,
-        "tac": 72,
+        "aer": 56,
+        "com": 74,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 78,
+        "pas": 74,
+        "pos": 66,
+        "sho": 64,
+        "sta": 77,
+        "str": 63,
+        "tac": 67,
         "vis": 72
       },
       "birth": "1988-12-01",
@@ -464,7 +488,7 @@
       "name": "Kwadwo Asamoeh",
       "nation": "GHA",
       "number": 20,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 29000
     },
     {
@@ -475,7 +499,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 71,
         "sta": 58,
         "str": 62,
@@ -495,18 +519,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 67,
-        "dri": 70,
-        "ldr": 68,
-        "pac": 64,
+        "aer": 51,
+        "com": 68,
+        "dri": 74,
+        "ldr": 66,
+        "pac": 67,
         "pas": 75,
-        "pos": 71,
-        "sho": 67,
-        "sta": 73,
-        "str": 68,
-        "tac": 66,
-        "vis": 69
+        "pos": 56,
+        "sho": 73,
+        "sta": 67,
+        "str": 63,
+        "tac": 48,
+        "vis": 71
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -517,10 +541,13 @@
       "nation": "SUI",
       "nation2": "KVX",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 77,
@@ -569,7 +596,7 @@
       "name": "Giovanni Pesquale",
       "nation": "ITA",
       "number": 26,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 16500
     },
     {
@@ -580,7 +607,7 @@
         "ldr": 62,
         "pac": 64,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 70,
         "sta": 61,
         "str": 66,
@@ -625,6 +652,9 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 77,
@@ -658,7 +688,7 @@
         "ldr": 68,
         "pac": 70,
         "pas": 68,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 66,
         "str": 71,
@@ -679,17 +709,17 @@
     {
       "attrs": {
         "aer": 58,
-        "com": 68,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 59,
-        "pas": 71,
+        "com": 64,
+        "dri": 63,
+        "ldr": 60,
+        "pac": 66,
+        "pas": 65,
         "pos": 65,
-        "sho": 58,
+        "sho": 44,
         "sta": 69,
-        "str": 60,
-        "tac": 65,
-        "vis": 65
+        "str": 59,
+        "tac": 69,
+        "vis": 56
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -699,10 +729,14 @@
       "name": "Guilherme Siqueyra",
       "nation": "BRA",
       "number": 86,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 14000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 81,
@@ -756,6 +790,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,

@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 73,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 66,
-        "pas": 74,
-        "pos": 73,
-        "sho": 67,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 63,
+        "pas": 73,
+        "pos": 77,
+        "sho": 61,
         "sta": 75,
-        "str": 70,
-        "tac": 72,
-        "vis": 78
+        "str": 75,
+        "tac": 78,
+        "vis": 75
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -46,7 +46,7 @@
       "name": "Albert Calades",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 20500
     },
@@ -58,7 +58,7 @@
         "ldr": 68,
         "pac": 77,
         "pas": 68,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 72,
         "str": 76,
@@ -131,19 +131,23 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 63,
+        "aer": 55,
+        "com": 72,
+        "dri": 71,
+        "ldr": 63,
+        "pac": 66,
         "pas": 73,
-        "pos": 69,
-        "sho": 65,
-        "sta": 71,
-        "str": 65,
-        "tac": 66,
-        "vis": 69
+        "pos": 54,
+        "sho": 71,
+        "sta": 65,
+        "str": 60,
+        "tac": 48,
+        "vis": 71
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -154,24 +158,28 @@
       "nation": "FRA",
       "nation2": "GUI",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 19500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 69,
-        "dri": 52,
-        "ldr": 66,
-        "pac": 65,
-        "pas": 64,
-        "pos": 73,
-        "sho": 41,
-        "sta": 67,
-        "str": 69,
-        "tac": 73,
-        "vis": 52
+        "aer": 62,
+        "com": 67,
+        "dri": 62,
+        "ldr": 62,
+        "pac": 73,
+        "pas": 68,
+        "pos": 68,
+        "sho": 48,
+        "sta": 73,
+        "str": 61,
+        "tac": 70,
+        "vis": 58
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -182,7 +190,7 @@
       "nation": "ESP",
       "nation2": "SVN",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 13500
     },
@@ -194,7 +202,7 @@
         "ldr": 65,
         "pac": 68,
         "pas": 59,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 66,
         "str": 66,
@@ -216,18 +224,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 65,
-        "dri": 55,
-        "ldr": 67,
-        "pac": 58,
-        "pas": 59,
-        "pos": 67,
-        "sho": 42,
-        "sta": 65,
-        "str": 67,
-        "tac": 72,
-        "vis": 53
+        "aer": 59,
+        "com": 63,
+        "dri": 65,
+        "ldr": 63,
+        "pac": 66,
+        "pas": 63,
+        "pos": 62,
+        "sho": 49,
+        "sta": 71,
+        "str": 59,
+        "tac": 69,
+        "vis": 59
       },
       "birth": "1978-05-01",
       "contract": null,
@@ -237,7 +245,7 @@
       "name": "Bruno Besto",
       "nation": "POR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -248,7 +256,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 55,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 62,
         "str": 65,
@@ -294,19 +302,22 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 64,
-        "dri": 50,
-        "ldr": 63,
-        "pac": 56,
-        "pas": 60,
-        "pos": 67,
-        "sho": 41,
-        "sta": 59,
-        "str": 64,
-        "tac": 71,
-        "vis": 53
+        "aer": 58,
+        "com": 62,
+        "dri": 60,
+        "ldr": 59,
+        "pac": 64,
+        "pas": 64,
+        "pos": 62,
+        "sho": 48,
+        "sta": 65,
+        "str": 56,
+        "tac": 68,
+        "vis": 59
       },
       "birth": "1975-03-01",
       "contract": null,
@@ -316,7 +327,7 @@
       "name": "Franck Jorietti",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 8500
     },
@@ -350,18 +361,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 64,
-        "ldr": 64,
-        "pac": 62,
+        "aer": 46,
+        "com": 63,
+        "dri": 68,
+        "ldr": 62,
+        "pac": 65,
         "pas": 70,
-        "pos": 65,
-        "sho": 58,
-        "sta": 68,
-        "str": 57,
-        "tac": 59,
-        "vis": 67
+        "pos": 50,
+        "sho": 64,
+        "sta": 62,
+        "str": 52,
+        "tac": 41,
+        "vis": 69
       },
       "birth": "1979-12-01",
       "contract": null,
@@ -371,7 +382,7 @@
       "name": "Paulo Custa",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 11500
     },
@@ -383,7 +394,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 58,
         "str": 61,
@@ -402,19 +413,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 65,
-        "dri": 58,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 62,
-        "pos": 58,
-        "sho": 56,
+        "dri": 54,
+        "ldr": 62,
+        "pac": 57,
+        "pas": 61,
+        "pos": 62,
+        "sho": 50,
         "sta": 67,
-        "str": 57,
-        "tac": 55,
-        "vis": 62
+        "str": 62,
+        "tac": 61,
+        "vis": 59
       },
       "birth": "1977-06-01",
       "contract": null,
@@ -424,7 +440,7 @@
       "name": "Ivan Vukumanovic",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
@@ -450,7 +466,7 @@
       "name": "Jerome Bonnyssel",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 6000
     },
@@ -481,6 +497,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 58,
@@ -533,6 +552,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -561,19 +583,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 60,
-        "dri": 55,
-        "ldr": 58,
-        "pac": 55,
-        "pas": 61,
-        "pos": 55,
-        "sho": 52,
+        "dri": 51,
+        "ldr": 60,
+        "pac": 52,
+        "pas": 60,
+        "pos": 59,
+        "sho": 46,
         "sta": 62,
-        "str": 57,
-        "tac": 54,
-        "vis": 62
+        "str": 62,
+        "tac": 60,
+        "vis": 59
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -583,11 +608,14 @@
       "name": "Paulo Myranda",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -622,7 +650,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 55,
         "str": 62,
@@ -643,18 +671,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 58,
-        "dri": 54,
-        "ldr": 55,
-        "pac": 56,
-        "pas": 61,
-        "pos": 57,
-        "sho": 55,
+        "dri": 50,
+        "ldr": 57,
+        "pac": 53,
+        "pas": 60,
+        "pos": 61,
+        "sho": 49,
         "sta": 58,
-        "str": 50,
-        "tac": 53,
-        "vis": 56
+        "str": 55,
+        "tac": 59,
+        "vis": 53
       },
       "birth": "1982-09-01",
       "contract": null,
@@ -664,7 +692,7 @@
       "name": "Eduardo Coste",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -675,7 +703,7 @@
         "ldr": 52,
         "pac": 55,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 57,
         "sta": 52,
         "str": 55,
@@ -727,7 +755,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 50,
         "str": 57,
@@ -748,6 +776,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 53,
@@ -802,6 +833,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -911,18 +945,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 38,
         "com": 53,
-        "dri": 47,
+        "dri": 51,
         "ldr": 45,
-        "pac": 49,
-        "pas": 42,
-        "pos": 27,
-        "sho": 57,
+        "pac": 47,
+        "pas": 52,
+        "pos": 32,
+        "sho": 54,
         "sta": 50,
-        "str": 53,
-        "tac": 24,
-        "vis": 42
+        "str": 43,
+        "tac": 32,
+        "vis": 53
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -933,23 +967,26 @@
       "nation": "ITA",
       "nation2": "ARG",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 51,
-        "dri": 53,
-        "ldr": 46,
-        "pac": 48,
-        "pas": 53,
-        "pos": 53,
-        "sho": 44,
-        "sta": 55,
-        "str": 50,
-        "tac": 51,
-        "vis": 53
+        "aer": 45,
+        "com": 53,
+        "dri": 55,
+        "ldr": 47,
+        "pac": 49,
+        "pas": 55,
+        "pos": 54,
+        "sho": 46,
+        "sta": 57,
+        "str": 51,
+        "tac": 52,
+        "vis": 55
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -964,19 +1001,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 48,
+        "com": 57,
         "dri": 34,
         "ldr": 52,
         "pac": 46,
-        "pas": 42,
+        "pas": 51,
         "pos": 56,
         "sho": 21,
-        "sta": 46,
+        "sta": 55,
         "str": 51,
         "tac": 55,
-        "vis": 38
+        "vis": 47
       },
       "birth": "1984-02-01",
       "contract": null,
@@ -986,7 +1028,7 @@
       "name": "Erwan Quintyn",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
@@ -998,7 +1040,7 @@
         "ldr": 42,
         "pac": 49,
         "pas": 46,
-        "pos": 27,
+        "pos": 47,
         "sho": 52,
         "sta": 44,
         "str": 52,
@@ -1024,7 +1066,7 @@
         "ldr": 43,
         "pac": 48,
         "pas": 41,
-        "pos": 28,
+        "pos": 48,
         "sho": 53,
         "sta": 44,
         "str": 51,
@@ -1079,7 +1121,7 @@
         "ldr": 39,
         "pac": 48,
         "pas": 36,
-        "pos": 25,
+        "pos": 45,
         "sho": 48,
         "sta": 44,
         "str": 46,
@@ -1106,7 +1148,7 @@
         "ldr": 41,
         "pac": 44,
         "pas": 36,
-        "pos": 26,
+        "pos": 46,
         "sho": 46,
         "sta": 39,
         "str": 47,

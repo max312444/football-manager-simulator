@@ -24,6 +24,10 @@
   },
   "squad": [
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 72,
@@ -46,24 +50,24 @@
       "name": "Juan Manuel Varges",
       "nation": "PER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 19500
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 74,
-        "dri": 70,
-        "ldr": 71,
-        "pac": 66,
+        "aer": 60,
+        "com": 75,
+        "dri": 74,
+        "ldr": 69,
+        "pac": 69,
         "pas": 78,
-        "pos": 69,
-        "sho": 67,
-        "sta": 78,
-        "str": 70,
-        "tac": 68,
-        "vis": 72
+        "pos": 54,
+        "sho": 73,
+        "sta": 72,
+        "str": 65,
+        "tac": 50,
+        "vis": 74
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -73,7 +77,7 @@
       "name": "Roberto De Zarbi",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 19500
     },
@@ -85,7 +89,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 74,
         "sta": 63,
         "str": 66,
@@ -104,6 +108,10 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
@@ -131,6 +139,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -191,7 +202,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 58,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 65,
         "str": 69,
@@ -218,7 +229,7 @@
         "ldr": 58,
         "pac": 68,
         "pas": 56,
-        "pos": 41,
+        "pos": 61,
         "sho": 71,
         "sta": 61,
         "str": 67,
@@ -237,6 +248,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 65,
@@ -244,7 +258,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 58,
-        "pos": 43,
+        "pos": 63,
         "sho": 72,
         "sta": 59,
         "str": 69,
@@ -271,7 +285,7 @@
         "ldr": 57,
         "pac": 67,
         "pas": 55,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 62,
         "str": 67,
@@ -398,18 +412,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 62,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 55,
-        "pas": 68,
-        "pos": 59,
-        "sho": 57,
+        "dri": 56,
+        "ldr": 60,
+        "pac": 52,
+        "pas": 67,
+        "pos": 63,
+        "sho": 51,
         "sta": 67,
-        "str": 56,
-        "tac": 60,
-        "vis": 61
+        "str": 61,
+        "tac": 66,
+        "vis": 58
       },
       "birth": "1975-05-01",
       "contract": null,
@@ -419,10 +433,13 @@
       "name": "Davide Baiucco",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -471,7 +488,7 @@
       "name": "Giovanni Marchesa",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 7000
     },
@@ -503,6 +520,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 59,
@@ -530,19 +550,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 62,
-        "pos": 59,
-        "sho": 53,
-        "sta": 60,
-        "str": 57,
-        "tac": 60,
-        "vis": 59
+        "aer": 54,
+        "com": 61,
+        "dri": 61,
+        "ldr": 57,
+        "pac": 54,
+        "pas": 64,
+        "pos": 60,
+        "sho": 55,
+        "sta": 62,
+        "str": 58,
+        "tac": 61,
+        "vis": 61
       },
       "birth": "1983-03-01",
       "contract": null,
@@ -557,6 +580,10 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 58,
@@ -591,7 +618,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 59,
         "str": 64,
@@ -611,6 +638,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -637,6 +667,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -664,6 +697,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -698,7 +734,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 49,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 57,
         "str": 57,
@@ -725,7 +761,7 @@
         "ldr": 52,
         "pac": 57,
         "pas": 53,
-        "pos": 36,
+        "pos": 56,
         "sho": 63,
         "sta": 54,
         "str": 63,
@@ -744,6 +780,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -772,18 +811,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 58,
-        "dri": 43,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 54,
-        "pos": 62,
-        "sho": 34,
-        "sta": 53,
-        "str": 59,
-        "tac": 65,
-        "vis": 46
+        "aer": 46,
+        "com": 56,
+        "dri": 53,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 58,
+        "pos": 57,
+        "sho": 41,
+        "sta": 59,
+        "str": 51,
+        "tac": 62,
+        "vis": 52
       },
       "birth": "1975-10-01",
       "contract": null,
@@ -793,7 +832,7 @@
       "name": "Gianluca Felsini",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 4000
     },
@@ -805,7 +844,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 56,
         "str": 57,
@@ -832,7 +871,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 52,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 54,
         "str": 57,
@@ -878,6 +917,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
@@ -931,6 +973,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -983,6 +1030,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 57,
@@ -1037,6 +1087,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 55,

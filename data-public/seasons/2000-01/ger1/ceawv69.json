@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 76,
@@ -58,7 +61,7 @@
         "ldr": 66,
         "pac": 76,
         "pas": 63,
-        "pos": 55,
+        "pos": 75,
         "sho": 80,
         "sta": 67,
         "str": 72,
@@ -77,18 +80,21 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 75,
         "dri": 75,
         "ldr": 67,
         "pac": 72,
-        "pas": 78,
+        "pas": 79,
         "pos": 70,
         "sho": 71,
-        "sta": 74,
+        "sta": 75,
         "str": 71,
-        "tac": 68,
+        "tac": 69,
         "vis": 72
       },
       "birth": "1971-05-01",
@@ -103,6 +109,11 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 70,
@@ -110,7 +121,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 69,
         "str": 71,
@@ -129,6 +140,11 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -151,23 +167,23 @@
       "name": "Levan Kobieshvili",
       "nation": "GEO",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 21000
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 72,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 63,
-        "pas": 74,
-        "pos": 70,
-        "sho": 65,
+        "dri": 67,
+        "ldr": 69,
+        "pac": 60,
+        "pas": 73,
+        "pos": 74,
+        "sho": 59,
         "sta": 69,
-        "str": 66,
-        "tac": 63,
-        "vis": 70
+        "str": 71,
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -177,11 +193,14 @@
       "name": "Sebastian Kahl",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 22000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -208,6 +227,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -261,17 +283,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 59,
+        "aer": 62,
+        "com": 71,
+        "dri": 64,
         "ldr": 60,
-        "pac": 60,
+        "pac": 65,
         "pas": 63,
-        "pos": 57,
-        "sho": 54,
+        "pos": 65,
+        "sho": 62,
         "sta": 66,
-        "str": 54,
+        "str": 62,
         "tac": 58,
         "vis": 62
       },
@@ -283,10 +310,13 @@
       "name": "Abder Remdane",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -339,6 +369,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -367,6 +400,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -422,18 +458,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 59,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 57,
+        "aer": 41,
+        "com": 60,
+        "dri": 61,
+        "ldr": 54,
+        "pac": 60,
         "pas": 64,
-        "pos": 58,
-        "sho": 57,
-        "sta": 59,
-        "str": 55,
-        "tac": 59,
-        "vis": 64
+        "pos": 43,
+        "sho": 63,
+        "sta": 53,
+        "str": 50,
+        "tac": 41,
+        "vis": 66
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -444,7 +480,7 @@
       "nation": "IRN",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 7500
     },
@@ -475,6 +511,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -527,6 +566,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 60,
@@ -580,18 +622,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 55,
-        "dri": 54,
-        "ldr": 49,
-        "pac": 51,
+        "aer": 38,
+        "com": 56,
+        "dri": 58,
+        "ldr": 47,
+        "pac": 54,
         "pas": 59,
-        "pos": 57,
-        "sho": 48,
-        "sta": 58,
-        "str": 49,
-        "tac": 52,
-        "vis": 54
+        "pos": 42,
+        "sho": 54,
+        "sta": 52,
+        "str": 44,
+        "tac": 34,
+        "vis": 56
       },
       "birth": "1972-06-01",
       "contract": null,
@@ -601,7 +643,7 @@
       "name": "Marco Weissheupt",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
@@ -612,7 +654,7 @@
         "ldr": 46,
         "pac": 55,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 56,
         "sta": 52,
         "str": 57,
@@ -659,6 +701,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -685,6 +730,11 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 52,
@@ -718,7 +768,7 @@
         "ldr": 51,
         "pac": 54,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 60,
         "sta": 51,
         "str": 56,
@@ -765,6 +815,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 48,

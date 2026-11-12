@@ -73,23 +73,23 @@
       "name": "Antonio Barrece",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 32000
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 64,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 54,
-        "pas": 65,
-        "pos": 57,
-        "sho": 55,
+        "dri": 55,
+        "ldr": 56,
+        "pac": 51,
+        "pas": 64,
+        "pos": 61,
+        "sho": 49,
         "sta": 63,
-        "str": 59,
-        "tac": 58,
-        "vis": 61
+        "str": 64,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "nation": "CIV",
       "nation2": "TOG",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 19500
     },
     {
@@ -130,19 +130,23 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 71,
-        "dri": 65,
-        "ldr": 67,
-        "pac": 64,
+        "aer": 54,
+        "com": 72,
+        "dri": 69,
+        "ldr": 65,
+        "pac": 67,
         "pas": 72,
-        "pos": 71,
-        "sho": 65,
-        "sta": 75,
-        "str": 63,
-        "tac": 68,
-        "vis": 68
+        "pos": 56,
+        "sho": 71,
+        "sta": 69,
+        "str": 58,
+        "tac": 50,
+        "vis": 70
       },
       "birth": "1995-12-01",
       "contract": null,
@@ -152,10 +156,13 @@
       "name": "Rony Lopas",
       "nation": "POR",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 52500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -189,7 +196,7 @@
         "ldr": 71,
         "pac": 79,
         "pas": 66,
-        "pos": 58,
+        "pos": 78,
         "sho": 77,
         "sta": 73,
         "str": 78,
@@ -209,6 +216,11 @@
       "wage": 74000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 81,
@@ -216,7 +228,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 81,
         "sta": 71,
         "str": 81,
@@ -242,7 +254,7 @@
         "ldr": 50,
         "pac": 50,
         "pas": 45,
-        "pos": 28,
+        "pos": 48,
         "sho": 55,
         "sta": 50,
         "str": 53,
@@ -261,6 +273,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -314,19 +329,22 @@
       "wage": 58500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 73,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 68,
+        "aer": 55,
+        "com": 74,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 71,
         "pas": 71,
-        "pos": 73,
-        "sho": 63,
-        "sta": 76,
-        "str": 66,
-        "tac": 67,
-        "vis": 71
+        "pos": 58,
+        "sho": 69,
+        "sta": 70,
+        "str": 61,
+        "tac": 49,
+        "vis": 73
       },
       "birth": "1996-05-01",
       "contract": null,
@@ -336,23 +354,23 @@
       "name": "Aleksandr Golovyn",
       "nation": "RUS",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 62000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 52,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 48,
-        "pos": 60,
-        "sho": 27,
-        "sta": 53,
-        "str": 61,
-        "tac": 58,
-        "vis": 42
+        "aer": 46,
+        "com": 50,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 60,
+        "pas": 52,
+        "pos": 55,
+        "sho": 34,
+        "sta": 59,
+        "str": 53,
+        "tac": 55,
+        "vis": 48
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -362,10 +380,14 @@
       "name": "Ronael Piarre-Gabriel",
       "nation": "FRA",
       "number": 18,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,
@@ -392,19 +414,23 @@
       "wage": 79000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 81,
-        "dri": 75,
-        "ldr": 77,
-        "pac": 73,
+        "aer": 63,
+        "com": 82,
+        "dri": 79,
+        "ldr": 75,
+        "pac": 76,
         "pas": 80,
-        "pos": 77,
-        "sho": 72,
-        "sta": 80,
-        "str": 71,
-        "tac": 76,
-        "vis": 82
+        "pos": 62,
+        "sho": 78,
+        "sta": 74,
+        "str": 66,
+        "tac": 58,
+        "vis": 84
       },
       "birth": "1989-08-01",
       "contract": null,
@@ -415,23 +441,23 @@
       "nation": "BEL",
       "nation2": "MAR",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 79000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 53,
-        "dri": 42,
-        "ldr": 54,
-        "pac": 48,
-        "pas": 47,
-        "pos": 59,
-        "sho": 27,
-        "sta": 50,
-        "str": 58,
-        "tac": 57,
-        "vis": 45
+        "aer": 46,
+        "com": 51,
+        "dri": 52,
+        "ldr": 50,
+        "pac": 56,
+        "pas": 51,
+        "pos": 54,
+        "sho": 34,
+        "sta": 56,
+        "str": 50,
+        "tac": 54,
+        "vis": 51
       },
       "birth": "1998-02-01",
       "contract": null,
@@ -441,23 +467,23 @@
       "name": "Julien Sarrano",
       "nation": "FRA",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 55,
-        "dri": 55,
-        "ldr": 45,
-        "pac": 54,
-        "pas": 49,
-        "pos": 33,
-        "sho": 58,
-        "sta": 49,
-        "str": 56,
-        "tac": 24,
-        "vis": 47
+        "aer": 39,
+        "com": 52,
+        "dri": 60,
+        "ldr": 43,
+        "pac": 58,
+        "pas": 55,
+        "pos": 35,
+        "sho": 53,
+        "sta": 51,
+        "str": 46,
+        "tac": 30,
+        "vis": 53
       },
       "birth": "1999-03-01",
       "contract": null,
@@ -467,7 +493,7 @@
       "name": "Jordi Mboola",
       "nation": "ESP",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
@@ -478,7 +504,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 47,
-        "pos": 36,
+        "pos": 56,
         "sho": 56,
         "sta": 52,
         "str": 56,
@@ -497,6 +523,10 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 58,
@@ -551,18 +581,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 70,
-        "dri": 66,
-        "ldr": 68,
-        "pac": 64,
-        "pas": 72,
-        "pos": 71,
-        "sho": 67,
+        "dri": 62,
+        "ldr": 70,
+        "pac": 61,
+        "pas": 71,
+        "pos": 75,
+        "sho": 61,
         "sta": 75,
-        "str": 69,
-        "tac": 70,
-        "vis": 69
+        "str": 74,
+        "tac": 76,
+        "vis": 66
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -573,23 +603,26 @@
       "nation": "GNB",
       "nation2": "POR",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 59000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 59,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 53,
-        "pos": 36,
-        "sho": 63,
-        "sta": 52,
-        "str": 56,
-        "tac": 28,
-        "vis": 51
+        "aer": 41,
+        "com": 56,
+        "dri": 59,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 59,
+        "pos": 38,
+        "sho": 58,
+        "sta": 54,
+        "str": 46,
+        "tac": 34,
+        "vis": 57
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -599,7 +632,7 @@
       "name": "Samuel Grandsyr",
       "nation": "FRA",
       "number": 29,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8500
     },
     {
@@ -629,19 +662,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 41,
-        "com": 53,
-        "dri": 50,
-        "ldr": 48,
-        "pac": 49,
-        "pas": 57,
-        "pos": 49,
-        "sho": 50,
-        "sta": 57,
-        "str": 52,
-        "tac": 53,
-        "vis": 53
+        "aer": 35,
+        "com": 51,
+        "dri": 55,
+        "ldr": 44,
+        "pac": 58,
+        "pas": 53,
+        "pos": 31,
+        "sho": 54,
+        "sta": 53,
+        "str": 47,
+        "tac": 33,
+        "vis": 50
       },
       "birth": "1999-11-01",
       "contract": null,
@@ -652,23 +689,26 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": 34,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 61,
-        "dri": 61,
-        "ldr": 56,
-        "pac": 56,
-        "pas": 64,
-        "pos": 60,
-        "sho": 57,
+        "dri": 57,
+        "ldr": 58,
+        "pac": 53,
+        "pas": 63,
+        "pos": 64,
+        "sho": 51,
         "sta": 65,
-        "str": 53,
-        "tac": 58,
-        "vis": 65
+        "str": 58,
+        "tac": 64,
+        "vis": 62
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -678,23 +718,26 @@
       "name": "Kevin N'Dorem",
       "nation": "FRA",
       "number": 35,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 53,
-        "dri": 49,
-        "ldr": 48,
-        "pac": 48,
-        "pas": 56,
-        "pos": 53,
-        "sho": 48,
-        "sta": 53,
-        "str": 48,
-        "tac": 48,
-        "vis": 52
+        "aer": 41,
+        "com": 51,
+        "dri": 54,
+        "ldr": 44,
+        "pac": 57,
+        "pas": 52,
+        "pos": 35,
+        "sho": 52,
+        "sta": 49,
+        "str": 43,
+        "tac": 28,
+        "vis": 49
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -705,23 +748,23 @@
       "nation": "FRA",
       "nation2": "MAR",
       "number": 36,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 62,
-        "dri": 46,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 56,
-        "pos": 61,
-        "sho": 37,
-        "sta": 60,
-        "str": 66,
-        "tac": 64,
-        "vis": 45
+        "aer": 48,
+        "com": 60,
+        "dri": 56,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 60,
+        "pos": 56,
+        "sho": 44,
+        "sta": 66,
+        "str": 58,
+        "tac": 61,
+        "vis": 51
       },
       "birth": "1996-04-01",
       "contract": null,
@@ -732,23 +775,28 @@
       "nation": "MLI",
       "nation2": "FRA",
       "number": 38,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 15000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 67,
-        "dri": 55,
-        "ldr": 71,
-        "pac": 66,
-        "pas": 61,
-        "pos": 73,
-        "sho": 41,
-        "sta": 63,
-        "str": 71,
-        "tac": 75,
-        "vis": 57
+        "aer": 58,
+        "com": 65,
+        "dri": 65,
+        "ldr": 67,
+        "pac": 74,
+        "pas": 65,
+        "pos": 68,
+        "sho": 48,
+        "sta": 69,
+        "str": 63,
+        "tac": 72,
+        "vis": 63
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -758,7 +806,7 @@
       "name": "Benjamin Henrychs",
       "nation": "GER",
       "number": 39,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 37000
     },
     {

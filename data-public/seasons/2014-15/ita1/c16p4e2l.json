@@ -25,6 +25,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 57,
@@ -51,6 +54,10 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 60,
@@ -77,6 +84,10 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -104,18 +115,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 66,
+        "aer": 70,
+        "com": 67,
         "dri": 67,
-        "ldr": 67,
-        "pac": 65,
-        "pas": 69,
+        "ldr": 65,
+        "pac": 70,
+        "pas": 59,
         "pos": 67,
-        "sho": 65,
-        "sta": 73,
-        "str": 67,
-        "tac": 67,
-        "vis": 71
+        "sho": 74,
+        "sta": 67,
+        "str": 72,
+        "tac": 41,
+        "vis": 62
       },
       "birth": "1979-09-01",
       "contract": null,
@@ -125,10 +136,13 @@
       "name": "Massimo Maccarune",
       "nation": "ITA",
       "number": 7,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 33000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 62,
@@ -162,7 +176,7 @@
         "ldr": 65,
         "pac": 69,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 75,
         "sta": 71,
         "str": 72,
@@ -188,7 +202,7 @@
         "ldr": 52,
         "pac": 64,
         "pas": 54,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 57,
         "str": 63,
@@ -207,6 +221,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 60,
@@ -233,20 +250,24 @@
       "wage": 11000
     },
     {
-      "alt": [],
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 69,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 67,
+        "aer": 58,
+        "com": 67,
+        "dri": 69,
+        "ldr": 65,
+        "pac": 75,
         "pas": 70,
-        "pos": 66,
-        "sho": 61,
-        "sta": 70,
-        "str": 65,
-        "tac": 65,
-        "vis": 73
+        "pos": 58,
+        "sho": 59,
+        "sta": 73,
+        "str": 62,
+        "tac": 59,
+        "vis": 72
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -258,10 +279,13 @@
       "nation": "URU",
       "nation2": "ITA",
       "number": 13,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 69,
@@ -289,18 +313,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 70,
-        "dri": 68,
-        "ldr": 61,
-        "pac": 62,
+        "aer": 53,
+        "com": 71,
+        "dri": 72,
+        "ldr": 59,
+        "pac": 65,
         "pas": 73,
-        "pos": 63,
-        "sho": 64,
-        "sta": 71,
-        "str": 64,
-        "tac": 62,
-        "vis": 70
+        "pos": 48,
+        "sho": 70,
+        "sta": 65,
+        "str": 59,
+        "tac": 44,
+        "vis": 72
       },
       "birth": "1992-07-01",
       "contract": null,
@@ -311,7 +335,7 @@
       "name": "Simone Verdy",
       "nation": "ITA",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 27500
     },
     {
@@ -341,6 +365,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 60,
@@ -348,7 +375,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 53,
-        "pos": 42,
+        "pos": 62,
         "sho": 62,
         "sta": 56,
         "str": 62,
@@ -389,7 +416,7 @@
       "name": "Merio Rui",
       "nation": "POR",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 34000
     },
     {
@@ -420,6 +447,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 69,
@@ -446,6 +476,10 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 66,
@@ -584,7 +618,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 53,
-        "pos": 36,
+        "pos": 56,
         "sho": 63,
         "sta": 59,
         "str": 63,
@@ -603,6 +637,10 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -638,7 +676,7 @@
         "ldr": 56,
         "pac": 65,
         "pas": 59,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 61,
         "str": 64,

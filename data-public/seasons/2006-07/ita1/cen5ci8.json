@@ -25,7 +25,7 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 64,
@@ -61,7 +61,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 69,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 73,
         "str": 76,
@@ -82,7 +82,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 76,
@@ -118,7 +118,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 66,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 69,
         "str": 72,
@@ -138,6 +138,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 69,
@@ -253,7 +256,7 @@
         "ldr": 64,
         "pac": 66,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 72,
         "sta": 62,
         "str": 72,
@@ -272,6 +275,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -299,6 +305,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -408,18 +417,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 64,
-        "dri": 48,
-        "ldr": 62,
-        "pac": 58,
-        "pas": 57,
-        "pos": 67,
-        "sho": 39,
-        "sta": 61,
-        "str": 63,
-        "tac": 70,
-        "vis": 48
+        "aer": 54,
+        "com": 62,
+        "dri": 58,
+        "ldr": 58,
+        "pac": 66,
+        "pas": 61,
+        "pos": 62,
+        "sho": 46,
+        "sta": 67,
+        "str": 55,
+        "tac": 67,
+        "vis": 54
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -429,7 +438,7 @@
       "name": "Paolo Foglyo",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 7000
     },
@@ -495,7 +504,7 @@
         "ldr": 58,
         "pac": 61,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 69,
         "sta": 58,
         "str": 64,
@@ -522,7 +531,7 @@
         "ldr": 58,
         "pac": 59,
         "pas": 54,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 60,
         "str": 61,
@@ -569,6 +578,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 62,
@@ -621,6 +633,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -701,18 +716,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 59,
-        "dri": 53,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 59,
-        "pos": 57,
-        "sho": 50,
+        "dri": 49,
+        "ldr": 56,
+        "pac": 47,
+        "pas": 58,
+        "pos": 61,
+        "sho": 44,
         "sta": 60,
-        "str": 50,
-        "tac": 54,
-        "vis": 61
+        "str": 55,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "1984-10-01",
       "contract": null,
@@ -722,24 +737,27 @@
       "name": "Alessandro Moru",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 55,
-        "dri": 59,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 62,
-        "pos": 59,
-        "sho": 50,
-        "sta": 61,
-        "str": 55,
-        "tac": 57,
-        "vis": 56
+        "aer": 50,
+        "com": 57,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 55,
+        "pas": 64,
+        "pos": 60,
+        "sho": 52,
+        "sta": 63,
+        "str": 56,
+        "tac": 58,
+        "vis": 58
       },
       "birth": "1974-10-01",
       "contract": null,
@@ -781,6 +799,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -808,6 +829,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 60,
@@ -835,6 +859,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -863,18 +890,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 57,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 56,
-        "pos": 57,
-        "sho": 50,
-        "sta": 59,
-        "str": 50,
-        "tac": 50,
-        "vis": 55
+        "aer": 41,
+        "com": 55,
+        "dri": 60,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 58,
+        "pos": 49,
+        "sho": 48,
+        "sta": 64,
+        "str": 47,
+        "tac": 46,
+        "vis": 56
       },
       "birth": "1979-09-01",
       "contract": null,
@@ -884,11 +911,14 @@
       "name": "Alfredo Ceriello",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -915,19 +945,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 57,
-        "dri": 53,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 60,
-        "pos": 52,
-        "sho": 50,
-        "sta": 62,
-        "str": 49,
-        "tac": 54,
-        "vis": 60
+        "aer": 39,
+        "com": 55,
+        "dri": 58,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 56,
+        "pos": 34,
+        "sho": 54,
+        "sta": 58,
+        "str": 44,
+        "tac": 34,
+        "vis": 57
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -937,23 +970,26 @@
       "name": "Stefano Guberty",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
         "dri": 57,
         "ldr": 53,
         "pac": 49,
-        "pas": 55,
+        "pas": 56,
         "pos": 56,
         "sho": 52,
-        "sta": 55,
+        "sta": 56,
         "str": 53,
-        "tac": 49,
+        "tac": 50,
         "vis": 60
       },
       "birth": "1986-03-01",
@@ -970,6 +1006,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -998,18 +1037,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 53,
-        "dri": 50,
-        "ldr": 51,
-        "pac": 49,
+        "aer": 40,
+        "com": 54,
+        "dri": 54,
+        "ldr": 49,
+        "pac": 52,
         "pas": 55,
-        "pos": 52,
-        "sho": 50,
-        "sta": 57,
-        "str": 52,
-        "tac": 49,
-        "vis": 52
+        "pos": 37,
+        "sho": 56,
+        "sta": 51,
+        "str": 47,
+        "tac": 31,
+        "vis": 54
       },
       "birth": "1970-02-01",
       "contract": null,
@@ -1019,7 +1058,7 @@
       "name": "Gaetano Funtana",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3000
     },
@@ -1077,6 +1116,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -1110,7 +1152,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 46,
-        "pos": 29,
+        "pos": 49,
         "sho": 53,
         "sta": 48,
         "str": 51,
@@ -1129,19 +1171,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 50,
-        "dri": 48,
-        "ldr": 48,
-        "pac": 44,
-        "pas": 56,
-        "pos": 49,
-        "sho": 44,
-        "sta": 53,
-        "str": 50,
-        "tac": 49,
-        "vis": 50
+        "aer": 34,
+        "com": 48,
+        "dri": 53,
+        "ldr": 44,
+        "pac": 53,
+        "pas": 52,
+        "pos": 31,
+        "sho": 48,
+        "sta": 49,
+        "str": 45,
+        "tac": 29,
+        "vis": 47
       },
       "birth": "1985-06-01",
       "contract": null,
@@ -1151,24 +1196,24 @@
       "name": "Giampietro Parrulli",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 51,
-        "dri": 36,
-        "ldr": 48,
-        "pac": 43,
-        "pas": 47,
-        "pos": 58,
-        "sho": 25,
-        "sta": 51,
-        "str": 57,
-        "tac": 52,
-        "vis": 40
+        "aer": 44,
+        "com": 49,
+        "dri": 46,
+        "ldr": 44,
+        "pac": 51,
+        "pas": 51,
+        "pos": 53,
+        "sho": 32,
+        "sta": 57,
+        "str": 49,
+        "tac": 49,
+        "vis": 46
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -1178,7 +1223,7 @@
       "name": "Massimo Gutti",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 2000
     }

@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 72,
@@ -51,9 +54,6 @@
       "wage": 26000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
         "aer": 79,
         "com": 70,
@@ -107,6 +107,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -187,6 +190,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 63,
@@ -214,6 +220,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -247,7 +256,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 59,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 58,
         "str": 66,
@@ -267,7 +276,7 @@
     },
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 52,
@@ -328,7 +337,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 57,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 55,
         "str": 64,
@@ -348,6 +357,11 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 63,
@@ -355,7 +369,7 @@
         "ldr": 57,
         "pac": 59,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 59,
         "str": 62,
@@ -381,7 +395,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 68,
         "sta": 58,
         "str": 62,
@@ -426,6 +440,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -454,18 +471,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 56,
-        "dri": 44,
-        "ldr": 60,
-        "pac": 54,
-        "pas": 50,
-        "pos": 62,
-        "sho": 34,
-        "sta": 52,
-        "str": 58,
-        "tac": 62,
-        "vis": 44
+        "aer": 52,
+        "com": 54,
+        "dri": 54,
+        "ldr": 56,
+        "pac": 62,
+        "pas": 54,
+        "pos": 57,
+        "sho": 41,
+        "sta": 58,
+        "str": 50,
+        "tac": 59,
+        "vis": 50
       },
       "birth": "1974-03-01",
       "contract": null,
@@ -475,10 +492,13 @@
       "name": "Vragel da Silve",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 56,
@@ -501,10 +521,13 @@
       "name": "Arne Feyck",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 59,
@@ -538,7 +561,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 57,
         "str": 59,
@@ -558,6 +581,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -611,6 +637,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -664,19 +693,24 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 60,
-        "dri": 54,
+        "dri": 63,
         "ldr": 52,
         "pac": 54,
-        "pas": 51,
-        "pos": 34,
+        "pas": 60,
+        "pos": 54,
         "sho": 63,
         "sta": 56,
         "str": 57,
         "tac": 29,
-        "vis": 47
+        "vis": 56
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -686,23 +720,23 @@
       "name": "Lawrence Aydoo",
       "nation": "GHA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 52,
-        "dri": 42,
-        "ldr": 50,
-        "pac": 49,
-        "pas": 46,
-        "pos": 61,
-        "sho": 29,
-        "sta": 51,
-        "str": 57,
-        "tac": 55,
-        "vis": 40
+        "aer": 46,
+        "com": 50,
+        "dri": 52,
+        "ldr": 46,
+        "pac": 57,
+        "pas": 50,
+        "pos": 56,
+        "sho": 36,
+        "sta": 57,
+        "str": 49,
+        "tac": 52,
+        "vis": 46
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -712,7 +746,7 @@
       "name": "Daniel Ziabig",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 4000
     },
@@ -724,7 +758,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 58,
         "sta": 50,
         "str": 52,
@@ -751,7 +785,7 @@
         "ldr": 51,
         "pac": 54,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 56,
         "sta": 47,
         "str": 56,
@@ -771,6 +805,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -797,6 +834,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -825,18 +865,18 @@
     },
     {
       "attrs": {
-        "aer": 39,
+        "aer": 45,
         "com": 50,
-        "dri": 47,
-        "ldr": 44,
-        "pac": 46,
-        "pas": 53,
-        "pos": 48,
-        "sho": 44,
+        "dri": 43,
+        "ldr": 46,
+        "pac": 43,
+        "pas": 52,
+        "pos": 52,
+        "sho": 38,
         "sta": 51,
-        "str": 45,
-        "tac": 47,
-        "vis": 54
+        "str": 50,
+        "tac": 53,
+        "vis": 51
       },
       "birth": "1985-03-01",
       "contract": null,
@@ -846,24 +886,24 @@
       "name": "Matthias Passolat",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 50,
-        "dri": 39,
-        "ldr": 49,
-        "pac": 43,
-        "pas": 40,
-        "pos": 52,
-        "sho": 23,
-        "sta": 49,
-        "str": 52,
-        "tac": 56,
-        "vis": 35
+        "aer": 42,
+        "com": 48,
+        "dri": 49,
+        "ldr": 45,
+        "pac": 51,
+        "pas": 44,
+        "pos": 47,
+        "sho": 30,
+        "sta": 55,
+        "str": 44,
+        "tac": 53,
+        "vis": 41
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -873,7 +913,7 @@
       "name": "Silvio Benkert",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2500
     },
     {
@@ -905,18 +945,18 @@
     },
     {
       "attrs": {
-        "aer": 38,
-        "com": 49,
-        "dri": 46,
-        "ldr": 44,
-        "pac": 39,
-        "pas": 46,
-        "pos": 42,
-        "sho": 37,
-        "sta": 49,
-        "str": 38,
-        "tac": 45,
-        "vis": 44
+        "aer": 51,
+        "com": 47,
+        "dri": 34,
+        "ldr": 46,
+        "pac": 38,
+        "pas": 36,
+        "pos": 47,
+        "sho": 16,
+        "sta": 43,
+        "str": 45,
+        "tac": 52,
+        "vis": 29
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -926,7 +966,7 @@
       "name": "Thomas Franka",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 2000
     }

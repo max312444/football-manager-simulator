@@ -51,6 +51,9 @@
       "wage": 168000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 82,
         "com": 78,
@@ -103,6 +106,9 @@
       "wage": 176000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 85,
@@ -129,6 +135,11 @@
       "wage": 215000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 82,
@@ -136,7 +147,7 @@
         "ldr": 72,
         "pac": 83,
         "pas": 76,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 74,
         "str": 84,
@@ -155,6 +166,9 @@
       "wage": 119500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -188,7 +202,7 @@
         "ldr": 81,
         "pac": 87,
         "pas": 73,
-        "pos": 61,
+        "pos": 81,
         "sho": 88,
         "sta": 78,
         "str": 87,
@@ -208,19 +222,22 @@
       "wage": 193500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 85,
-        "dri": 86,
-        "ldr": 84,
-        "pac": 82,
+        "aer": 69,
+        "com": 86,
+        "dri": 90,
+        "ldr": 82,
+        "pac": 85,
         "pas": 88,
-        "pos": 82,
-        "sho": 80,
-        "sta": 84,
-        "str": 80,
-        "tac": 80,
-        "vis": 83
+        "pos": 67,
+        "sho": 86,
+        "sta": 78,
+        "str": 75,
+        "tac": 62,
+        "vis": 85
       },
       "birth": "1980-03-01",
       "contract": null,
@@ -231,10 +248,15 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 215000
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 80,
@@ -294,7 +316,7 @@
         "ldr": 81,
         "pac": 82,
         "pas": 75,
-        "pos": 63,
+        "pos": 83,
         "sho": 88,
         "sta": 79,
         "str": 83,
@@ -313,6 +335,9 @@
       "wage": 174500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 83,
         "com": 76,
@@ -361,12 +386,14 @@
       "name": "Sylvynho",
       "nation": "BRA",
       "number": 16,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 55000
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 65,
@@ -375,7 +402,7 @@
         "ldr": 65,
         "pac": 72,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 65,
         "str": 68,
@@ -401,7 +428,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 71,
         "str": 70,
@@ -420,20 +447,23 @@
       "wage": 45500
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 82,
-        "dri": 79,
+        "dri": 84,
         "ldr": 72,
-        "pac": 77,
-        "pas": 73,
-        "pos": 60,
+        "pac": 82,
+        "pas": 78,
+        "pos": 80,
         "sho": 84,
         "sta": 76,
         "str": 80,
         "tac": 51,
-        "vis": 73
+        "vis": 78
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -444,10 +474,14 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 19,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 111000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 82,
@@ -505,7 +539,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 87,
@@ -559,7 +593,10 @@
       "wage": 62500
     },
     {
-      "alt": [],
+      "alt": [
+        "CM",
+        "CB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 81,
@@ -567,11 +604,11 @@
         "ldr": 77,
         "pac": 76,
         "pas": 80,
-        "pos": 75,
+        "pos": 80,
         "sho": 74,
         "sta": 80,
-        "str": 78,
-        "tac": 73,
+        "str": 83,
+        "tac": 78,
         "vis": 83
       },
       "birth": "1983-05-01",
@@ -582,7 +619,7 @@
       "name": "Yaya Tuure",
       "nation": "CIV",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 163500
     },
     {
@@ -613,18 +650,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 67,
-        "dri": 65,
-        "ldr": 60,
-        "pac": 61,
-        "pas": 68,
-        "pos": 62,
-        "sho": 55,
+        "dri": 61,
+        "ldr": 62,
+        "pac": 58,
+        "pas": 67,
+        "pos": 66,
+        "sho": 49,
         "sta": 64,
-        "str": 56,
-        "tac": 59,
-        "vis": 63
+        "str": 61,
+        "tac": 65,
+        "vis": 60
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -634,23 +671,27 @@
       "name": "Marc Crusas",
       "nation": "ESP",
       "number": 26,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 28000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 62,
-        "dri": 60,
-        "ldr": 52,
-        "pac": 63,
-        "pas": 52,
-        "pos": 35,
-        "sho": 60,
-        "sta": 56,
-        "str": 59,
-        "tac": 30,
-        "vis": 54
+        "aer": 41,
+        "com": 59,
+        "dri": 65,
+        "ldr": 50,
+        "pac": 67,
+        "pas": 58,
+        "pos": 37,
+        "sho": 55,
+        "sta": 58,
+        "str": 49,
+        "tac": 36,
+        "vis": 60
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -661,7 +702,7 @@
       "nation": "ESP",
       "nation2": "SRB",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 11000
     }
   ],

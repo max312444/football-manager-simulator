@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 81,
         "com": 76,
@@ -76,6 +79,9 @@
       "wage": 136000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 79,
@@ -102,19 +108,24 @@
       "wage": 136000
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 80,
-        "dri": 76,
-        "ldr": 68,
-        "pac": 79,
-        "pas": 65,
-        "pos": 52,
-        "sho": 82,
-        "sta": 69,
-        "str": 79,
-        "tac": 47,
-        "vis": 65
+        "aer": 60,
+        "com": 77,
+        "dri": 81,
+        "ldr": 66,
+        "pac": 83,
+        "pas": 71,
+        "pos": 54,
+        "sho": 77,
+        "sta": 71,
+        "str": 69,
+        "tac": 53,
+        "vis": 71
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -124,13 +135,10 @@
       "name": "Alassane Plee",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 119000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 70,
         "com": 73,
@@ -158,18 +166,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 76,
-        "dri": 70,
-        "ldr": 73,
-        "pac": 68,
-        "pas": 75,
-        "pos": 76,
-        "sho": 66,
+        "dri": 66,
+        "ldr": 75,
+        "pac": 65,
+        "pas": 74,
+        "pos": 80,
+        "sho": 60,
         "sta": 74,
-        "str": 70,
-        "tac": 72,
-        "vis": 76
+        "str": 75,
+        "tac": 78,
+        "vis": 73
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -179,7 +187,7 @@
       "name": "Christoph Kramar",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 136000
     },
@@ -191,7 +199,7 @@
         "ldr": 68,
         "pac": 71,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 71,
         "str": 77,
@@ -212,18 +220,18 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 74,
-        "dri": 59,
-        "ldr": 73,
-        "pac": 66,
-        "pas": 65,
-        "pos": 73,
-        "sho": 48,
-        "sta": 72,
-        "str": 73,
-        "tac": 75,
-        "vis": 62
+        "aer": 63,
+        "com": 72,
+        "dri": 69,
+        "ldr": 69,
+        "pac": 74,
+        "pas": 69,
+        "pos": 68,
+        "sho": 55,
+        "sta": 78,
+        "str": 65,
+        "tac": 72,
+        "vis": 68
       },
       "birth": "1992-08-01",
       "contract": null,
@@ -233,10 +241,13 @@
       "name": "Stefan Leiner",
       "nation": "AUT",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 98500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 71,
@@ -265,17 +276,17 @@
     {
       "attrs": {
         "aer": 50,
-        "com": 59,
-        "dri": 62,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 62,
+        "com": 55,
+        "dri": 60,
+        "ldr": 54,
+        "pac": 64,
+        "pas": 56,
         "pos": 58,
-        "sho": 52,
+        "sho": 38,
         "sta": 66,
-        "str": 59,
-        "tac": 55,
-        "vis": 61
+        "str": 58,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "2004-03-01",
       "contract": null,
@@ -285,7 +296,7 @@
       "name": "Lukas Ullrych",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 32000
     },
@@ -396,6 +407,10 @@
       "wage": 58500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -422,19 +437,23 @@
       "wage": 132000
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 68,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 68,
-        "pas": 60,
-        "pos": 50,
-        "sho": 71,
-        "sta": 68,
-        "str": 70,
-        "tac": 37,
-        "vis": 64
+        "aer": 54,
+        "com": 65,
+        "dri": 70,
+        "ldr": 62,
+        "pac": 72,
+        "pas": 66,
+        "pos": 52,
+        "sho": 66,
+        "sta": 70,
+        "str": 60,
+        "tac": 43,
+        "vis": 70
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -444,7 +463,7 @@
       "name": "Franck Hunorat",
       "nation": "FRA",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 54500
     },
     {
@@ -455,7 +474,7 @@
         "ldr": 47,
         "pac": 56,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 58,
         "sta": 49,
         "str": 56,
@@ -474,6 +493,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 64,
@@ -500,19 +522,23 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 65,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 62,
-        "pas": 55,
-        "pos": 39,
-        "sho": 68,
-        "sta": 57,
-        "str": 61,
-        "tac": 33,
-        "vis": 56
+        "aer": 48,
+        "com": 62,
+        "dri": 65,
+        "ldr": 57,
+        "pac": 66,
+        "pas": 61,
+        "pos": 41,
+        "sho": 63,
+        "sta": 59,
+        "str": 51,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "2000-03-01",
       "contract": null,
@@ -523,23 +549,23 @@
       "nation": "FRA",
       "nation2": "CMR",
       "number": 19,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 26500
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 58,
-        "dri": 48,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 53,
-        "pos": 61,
-        "sho": 29,
-        "sta": 53,
-        "str": 61,
-        "tac": 65,
-        "vis": 44
+        "aer": 48,
+        "com": 56,
+        "dri": 58,
+        "ldr": 53,
+        "pac": 64,
+        "pas": 57,
+        "pos": 56,
+        "sho": 36,
+        "sta": 59,
+        "str": 53,
+        "tac": 62,
+        "vis": 50
       },
       "birth": "2003-05-01",
       "contract": null,
@@ -549,7 +575,7 @@
       "name": "Luca Natz",
       "nation": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 20000
     },
     {
@@ -579,6 +605,9 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -612,7 +641,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 59,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 62,
         "str": 67,
@@ -632,18 +661,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 57,
-        "dri": 56,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 60,
-        "pos": 60,
-        "sho": 53,
+        "dri": 52,
+        "ldr": 58,
+        "pac": 51,
+        "pas": 59,
+        "pos": 64,
+        "sho": 47,
         "sta": 59,
-        "str": 57,
-        "tac": 58,
-        "vis": 64
+        "str": 62,
+        "tac": 64,
+        "vis": 61
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -653,23 +682,27 @@
       "name": "Rocco Reytz",
       "nation": "GER",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 29000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 61,
-        "dri": 52,
-        "ldr": 51,
-        "pac": 58,
-        "pas": 46,
-        "pos": 38,
-        "sho": 60,
-        "sta": 55,
-        "str": 58,
-        "tac": 25,
-        "vis": 48
+        "aer": 38,
+        "com": 58,
+        "dri": 57,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 52,
+        "pos": 40,
+        "sho": 55,
+        "sta": 57,
+        "str": 48,
+        "tac": 31,
+        "vis": 54
       },
       "birth": "2003-07-01",
       "contract": null,
@@ -679,23 +712,26 @@
       "name": "Grant-Leon Ranus",
       "nation": "ARM",
       "number": 28,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 13500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 64,
-        "dri": 53,
-        "ldr": 70,
-        "pac": 60,
-        "pas": 58,
-        "pos": 71,
-        "sho": 45,
-        "sta": 64,
-        "str": 74,
-        "tac": 72,
-        "vis": 58
+        "aer": 56,
+        "com": 62,
+        "dri": 63,
+        "ldr": 66,
+        "pac": 68,
+        "pas": 62,
+        "pos": 66,
+        "sho": 52,
+        "sta": 70,
+        "str": 66,
+        "tac": 69,
+        "vis": 64
       },
       "birth": "2002-12-01",
       "contract": null,
@@ -705,7 +741,7 @@
       "name": "Joe Scalli",
       "nation": "USA",
       "number": 29,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 57000
     },
     {
@@ -716,7 +752,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 50,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 60,
         "str": 60,
@@ -761,19 +797,22 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 50,
-        "dri": 44,
-        "ldr": 46,
-        "pac": 52,
-        "pas": 39,
-        "pos": 26,
-        "sho": 54,
-        "sta": 46,
-        "str": 46,
-        "tac": 17,
-        "vis": 42
+        "aer": 35,
+        "com": 47,
+        "dri": 49,
+        "ldr": 44,
+        "pac": 56,
+        "pas": 45,
+        "pos": 28,
+        "sho": 49,
+        "sta": 48,
+        "str": 36,
+        "tac": 23,
+        "vis": 48
       },
       "birth": "2006-01-01",
       "contract": null,
@@ -784,23 +823,23 @@
       "nation": "GER",
       "nation2": "GHA",
       "number": 34,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5500
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 58,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 48,
+        "aer": 38,
+        "com": 59,
+        "dri": 56,
+        "ldr": 46,
+        "pac": 51,
         "pas": 58,
-        "pos": 52,
-        "sho": 51,
-        "sta": 56,
-        "str": 48,
-        "tac": 48,
-        "vis": 57
+        "pos": 37,
+        "sho": 57,
+        "sta": 50,
+        "str": 43,
+        "tac": 30,
+        "vis": 59
       },
       "birth": "2004-05-01",
       "contract": null,
@@ -810,7 +849,7 @@
       "name": "Yvandro Borges Sanchas",
       "nation": "LUX",
       "number": 38,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15500
     }
   ],

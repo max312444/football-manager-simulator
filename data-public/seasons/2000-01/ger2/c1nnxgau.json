@@ -25,7 +25,9 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "ST",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 69,
@@ -53,6 +55,10 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 69,
         "com": 69,
@@ -60,7 +66,7 @@
         "ldr": 63,
         "pac": 68,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 74,
         "sta": 65,
         "str": 73,
@@ -81,18 +87,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 72,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 61,
+        "aer": 53,
+        "com": 73,
+        "dri": 70,
+        "ldr": 65,
+        "pac": 64,
         "pas": 68,
-        "pos": 65,
-        "sho": 62,
-        "sta": 74,
-        "str": 63,
-        "tac": 65,
-        "vis": 67
+        "pos": 50,
+        "sho": 68,
+        "sta": 68,
+        "str": 58,
+        "tac": 47,
+        "vis": 69
       },
       "birth": "1970-07-01",
       "contract": null,
@@ -102,24 +108,24 @@
       "name": "Sirous Dinmuhammadi",
       "nation": "IRN",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 6500
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 63,
-        "ldr": 66,
-        "pac": 64,
+        "aer": 53,
+        "com": 69,
+        "dri": 67,
+        "ldr": 64,
+        "pac": 67,
         "pas": 66,
-        "pos": 64,
-        "sho": 62,
-        "sta": 70,
-        "str": 60,
-        "tac": 63,
-        "vis": 65
+        "pos": 49,
+        "sho": 68,
+        "sta": 64,
+        "str": 55,
+        "tac": 45,
+        "vis": 67
       },
       "birth": "1970-12-01",
       "contract": null,
@@ -129,11 +135,14 @@
       "name": "Abderrahim Ouekili",
       "nation": "MAR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 64,
@@ -186,6 +195,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -219,7 +231,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 64,
         "sta": 60,
         "str": 65,
@@ -240,6 +252,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -267,6 +282,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -293,6 +311,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -300,7 +321,7 @@
         "ldr": 51,
         "pac": 61,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 59,
         "str": 57,
@@ -381,7 +402,7 @@
         "ldr": 56,
         "pac": 57,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 56,
         "str": 62,
@@ -400,9 +421,6 @@
       "wage": 2000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 59,
         "com": 54,
@@ -430,6 +448,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -483,6 +504,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -510,18 +534,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 54,
-        "dri": 56,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 58,
-        "pos": 58,
-        "sho": 48,
+        "dri": 52,
+        "ldr": 56,
+        "pac": 52,
+        "pas": 57,
+        "pos": 62,
+        "sho": 42,
         "sta": 58,
-        "str": 55,
-        "tac": 50,
-        "vis": 59
+        "str": 60,
+        "tac": 56,
+        "vis": 56
       },
       "birth": "1974-05-01",
       "contract": null,
@@ -531,7 +555,7 @@
       "name": "Serjik Teymouryan",
       "nation": "IRN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
@@ -563,6 +587,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -589,6 +616,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -615,6 +645,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -695,6 +728,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -728,7 +764,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 57,
         "sta": 52,
         "str": 55,
@@ -755,7 +791,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 45,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 53,
         "str": 55,
@@ -797,7 +833,7 @@
       "name": "Markus Scholer",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 1000
     },
@@ -942,7 +978,7 @@
         "ldr": 44,
         "pac": 51,
         "pas": 42,
-        "pos": 30,
+        "pos": 50,
         "sho": 53,
         "sta": 51,
         "str": 49,
@@ -1043,6 +1079,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 46,

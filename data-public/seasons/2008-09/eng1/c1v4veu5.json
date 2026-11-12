@@ -71,6 +71,9 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -98,6 +101,10 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -206,6 +213,7 @@
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -235,6 +243,9 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 72,
@@ -263,16 +274,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 63,
+        "aer": 61,
+        "com": 64,
         "dri": 62,
         "ldr": 47,
         "pac": 61,
         "pas": 52,
-        "pos": 26,
-        "sho": 71,
+        "pos": 27,
+        "sho": 72,
         "sta": 54,
-        "str": 61,
+        "str": 62,
         "tac": 21,
         "vis": 54
       },
@@ -290,16 +301,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 67,
+        "aer": 59,
+        "com": 68,
         "dri": 61,
         "ldr": 52,
         "pac": 63,
         "pas": 54,
-        "pos": 31,
-        "sho": 71,
+        "pos": 32,
+        "sho": 72,
         "sta": 59,
-        "str": 61,
+        "str": 62,
         "tac": 21,
         "vis": 56
       },
@@ -317,21 +328,22 @@
     },
     {
       "alt": [
-        "CM"
+        "LW",
+        "LB"
       ],
       "attrs": {
         "aer": 42,
-        "com": 67,
+        "com": 74,
         "dri": 74,
         "ldr": 54,
         "pac": 75,
-        "pas": 76,
+        "pas": 83,
         "pos": 39,
-        "sho": 62,
+        "sho": 69,
         "sta": 71,
         "str": 48,
         "tac": 35,
-        "vis": 66
+        "vis": 73
       },
       "birth": "1984-12-01",
       "contract": "2011-06-30",
@@ -341,7 +353,7 @@
       "name": "Chris Bront",
       "nation": "NIR",
       "number": 11,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "free_kick",
         "long_shot"
@@ -349,6 +361,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 67,
@@ -380,7 +395,8 @@
     },
     {
       "alt": [
-        "RM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 37,
@@ -437,7 +453,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 34,
@@ -445,13 +463,13 @@
         "dri": 71,
         "ldr": 46,
         "pac": 71,
-        "pas": 60,
+        "pas": 71,
         "pos": 37,
         "sho": 58,
-        "sta": 67,
+        "sta": 78,
         "str": 48,
-        "tac": 32,
-        "vis": 60
+        "tac": 43,
+        "vis": 71
       },
       "birth": "1986-05-01",
       "contract": "2011-06-30",
@@ -467,19 +485,23 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 40,
-        "com": 66,
-        "dri": 59,
+        "com": 70,
+        "dri": 63,
         "ldr": 57,
-        "pac": 56,
+        "pac": 60,
         "pas": 69,
         "pos": 49,
-        "sho": 54,
+        "sho": 58,
         "sta": 65,
         "str": 52,
         "tac": 51,
-        "vis": 64
+        "vis": 68
       },
       "birth": "1982-07-01",
       "contract": "2010-06-30",
@@ -489,22 +511,22 @@
       "name": "Kim Do-haon",
       "nation": "KOR",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 24000
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 56,
+        "aer": 57,
+        "com": 57,
         "dri": 55,
         "ldr": 37,
         "pac": 60,
         "pas": 46,
-        "pos": 25,
-        "sho": 66,
+        "pos": 26,
+        "sho": 67,
         "sta": 52,
-        "str": 54,
+        "str": 55,
         "tac": 20,
         "vis": 48
       },
@@ -549,6 +571,10 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -603,6 +629,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 57,

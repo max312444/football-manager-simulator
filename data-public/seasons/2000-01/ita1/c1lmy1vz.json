@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 83,
         "com": 84,
@@ -31,7 +34,7 @@
         "ldr": 78,
         "pac": 84,
         "pas": 71,
-        "pos": 62,
+        "pos": 82,
         "sho": 84,
         "sta": 75,
         "str": 82,
@@ -50,6 +53,9 @@
       "wage": 86000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -76,9 +82,6 @@
       "wage": 104000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 69,
         "com": 84,
@@ -138,7 +141,7 @@
         "ldr": 78,
         "pac": 82,
         "pas": 74,
-        "pos": 57,
+        "pos": 77,
         "sho": 85,
         "sta": 80,
         "str": 83,
@@ -157,6 +160,9 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -183,6 +189,9 @@
       "wage": 104000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 76,
@@ -216,7 +225,7 @@
         "ldr": 71,
         "pac": 76,
         "pas": 68,
-        "pos": 53,
+        "pos": 73,
         "sho": 80,
         "sta": 75,
         "str": 76,
@@ -235,6 +244,11 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "CB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 71,
@@ -261,6 +275,9 @@
       "wage": 64500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 81,
         "com": 78,
@@ -294,7 +311,7 @@
         "ldr": 70,
         "pac": 78,
         "pas": 70,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 72,
         "str": 74,
@@ -321,7 +338,7 @@
         "ldr": 70,
         "pac": 79,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 81,
         "sta": 76,
         "str": 77,
@@ -342,6 +359,11 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 72,
@@ -394,6 +416,9 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -447,18 +472,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 77,
-        "dri": 73,
-        "ldr": 68,
-        "pac": 68,
+        "aer": 57,
+        "com": 78,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 71,
         "pas": 78,
-        "pos": 72,
-        "sho": 69,
-        "sta": 76,
-        "str": 70,
-        "tac": 67,
-        "vis": 78
+        "pos": 57,
+        "sho": 75,
+        "sta": 70,
+        "str": 65,
+        "tac": 49,
+        "vis": 80
       },
       "birth": "1973-10-01",
       "contract": null,
@@ -468,7 +493,7 @@
       "name": "Fabian O'Naill",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 54500
     },
@@ -499,19 +524,22 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 67,
-        "dri": 54,
-        "ldr": 70,
-        "pac": 66,
-        "pas": 60,
-        "pos": 71,
-        "sho": 44,
-        "sta": 67,
-        "str": 76,
-        "tac": 71,
-        "vis": 58
+        "aer": 64,
+        "com": 65,
+        "dri": 64,
+        "ldr": 66,
+        "pac": 74,
+        "pas": 64,
+        "pos": 66,
+        "sho": 51,
+        "sta": 73,
+        "str": 68,
+        "tac": 68,
+        "vis": 64
       },
       "birth": "1974-11-01",
       "contract": null,
@@ -521,10 +549,13 @@
       "name": "Alessandro Birindalli",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 67,
@@ -552,6 +583,9 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -632,6 +666,10 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 65,
@@ -685,6 +723,10 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 61,
@@ -738,6 +780,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -799,7 +844,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 52,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 57,
         "str": 59,
@@ -820,6 +865,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -854,7 +902,7 @@
         "ldr": 44,
         "pac": 49,
         "pas": 44,
-        "pos": 25,
+        "pos": 45,
         "sho": 53,
         "sta": 46,
         "str": 46,

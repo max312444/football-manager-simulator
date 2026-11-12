@@ -25,7 +25,7 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
@@ -87,7 +87,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 60,
-        "pos": 44,
+        "pos": 64,
         "sho": 75,
         "sta": 67,
         "str": 68,
@@ -160,6 +160,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -188,18 +191,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 65,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 58,
-        "pas": 62,
-        "pos": 58,
-        "sho": 55,
+        "dri": 54,
+        "ldr": 59,
+        "pac": 55,
+        "pas": 61,
+        "pos": 62,
+        "sho": 49,
         "sta": 67,
-        "str": 56,
-        "tac": 56,
-        "vis": 64
+        "str": 61,
+        "tac": 62,
+        "vis": 61
       },
       "birth": "1981-11-01",
       "contract": null,
@@ -210,10 +213,14 @@
       "nation": "USA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 61,
@@ -241,6 +248,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 66,
@@ -295,6 +305,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 62,
@@ -376,6 +389,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -402,6 +418,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -431,18 +450,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 56,
-        "dri": 58,
+        "aer": 44,
+        "com": 57,
+        "dri": 62,
         "ldr": 49,
-        "pac": 60,
-        "pas": 52,
-        "pos": 34,
-        "sho": 57,
+        "pac": 58,
+        "pas": 63,
+        "pos": 39,
+        "sho": 55,
         "sta": 55,
-        "str": 57,
-        "tac": 26,
-        "vis": 47
+        "str": 47,
+        "tac": 34,
+        "vis": 59
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -452,11 +471,16 @@
       "name": "Dino Toppmuller",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 54,
@@ -483,6 +507,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 57,
@@ -516,7 +543,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 51,
         "str": 57,
@@ -536,19 +563,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 54,
+        "com": 64,
         "dri": 39,
         "ldr": 56,
         "pac": 52,
-        "pas": 46,
+        "pas": 56,
         "pos": 57,
         "sho": 25,
-        "sta": 51,
+        "sta": 61,
         "str": 55,
         "tac": 59,
-        "vis": 42
+        "vis": 52
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -558,24 +590,29 @@
       "name": "Daniyel Cymen",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 50,
+        "com": 58,
         "dri": 39,
         "ldr": 54,
         "pac": 47,
-        "pas": 49,
+        "pas": 57,
         "pos": 59,
         "sho": 27,
-        "sta": 48,
+        "sta": 56,
         "str": 59,
         "tac": 61,
-        "vis": 41
+        "vis": 49
       },
       "birth": "1969-12-01",
       "contract": null,
@@ -585,11 +622,16 @@
       "name": "Henning Burgar",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 52,
@@ -704,7 +746,7 @@
         "ldr": 48,
         "pac": 50,
         "pas": 42,
-        "pos": 30,
+        "pos": 50,
         "sho": 54,
         "sta": 49,
         "str": 49,
@@ -758,7 +800,7 @@
         "ldr": 45,
         "pac": 48,
         "pas": 46,
-        "pos": 27,
+        "pos": 47,
         "sho": 52,
         "sta": 49,
         "str": 50,
@@ -778,6 +820,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 48,
@@ -812,7 +857,7 @@
         "ldr": 39,
         "pac": 49,
         "pas": 43,
-        "pos": 27,
+        "pos": 47,
         "sho": 53,
         "sta": 46,
         "str": 50,
@@ -832,6 +877,11 @@
       "wage": 500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 33,
         "com": 46,

@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 38,
-        "com": 48,
-        "dri": 45,
-        "ldr": 48,
-        "pac": 45,
-        "pas": 53,
-        "pos": 50,
-        "sho": 44,
-        "sta": 53,
-        "str": 44,
-        "tac": 42,
-        "vis": 47
+        "aer": 51,
+        "com": 46,
+        "dri": 33,
+        "ldr": 50,
+        "pac": 44,
+        "pas": 43,
+        "pos": 55,
+        "sho": 23,
+        "sta": 47,
+        "str": 51,
+        "tac": 49,
+        "vis": 32
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -73,23 +73,23 @@
       "name": "Thomas Franka",
       "nation": "GER",
       "number": 2,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 62,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 63,
-        "pos": 60,
-        "sho": 55,
+        "dri": 57,
+        "ldr": 59,
+        "pac": 53,
+        "pas": 62,
+        "pos": 64,
+        "sho": 49,
         "sta": 67,
-        "str": 60,
-        "tac": 59,
-        "vis": 64
+        "str": 65,
+        "tac": 65,
+        "vis": 61
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -99,23 +99,23 @@
       "name": "Christian Bessila",
       "nation": "FRA",
       "number": 3,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 68,
-        "dri": 57,
+        "aer": 67,
+        "com": 70,
+        "dri": 65,
         "ldr": 71,
-        "pac": 63,
-        "pas": 62,
-        "pos": 76,
-        "sho": 47,
-        "sta": 70,
-        "str": 75,
-        "tac": 77,
-        "vis": 57
+        "pac": 61,
+        "pas": 71,
+        "pos": 75,
+        "sho": 62,
+        "sta": 76,
+        "str": 73,
+        "tac": 76,
+        "vis": 69
       },
       "birth": "1978-04-01",
       "contract": null,
@@ -125,10 +125,13 @@
       "name": "Stanislav Angeluv",
       "nation": "BUL",
       "number": 4,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 28500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 63,
@@ -156,18 +159,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 54,
-        "dri": 45,
-        "ldr": 56,
-        "pac": 51,
-        "pas": 48,
-        "pos": 60,
-        "sho": 32,
-        "sta": 55,
-        "str": 58,
-        "tac": 57,
-        "vis": 39
+        "aer": 44,
+        "com": 52,
+        "dri": 55,
+        "ldr": 52,
+        "pac": 59,
+        "pas": 52,
+        "pos": 55,
+        "sho": 39,
+        "sta": 61,
+        "str": 50,
+        "tac": 54,
+        "vis": 45
       },
       "birth": "1974-03-01",
       "contract": null,
@@ -177,10 +180,13 @@
       "name": "Vragel da Silve",
       "nation": "BRA",
       "number": 6,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -207,6 +213,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 76,
@@ -214,7 +223,7 @@
         "ldr": 67,
         "pac": 72,
         "pas": 63,
-        "pos": 54,
+        "pos": 74,
         "sho": 76,
         "sta": 70,
         "str": 72,
@@ -240,7 +249,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 53,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 56,
         "str": 61,
@@ -259,6 +268,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 61,
@@ -285,7 +297,6 @@
       "wage": 15500
     },
     {
-      "alt": [],
       "attrs": {
         "aer": 64,
         "com": 69,
@@ -293,7 +304,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 63,
-        "pos": 43,
+        "pos": 63,
         "sho": 73,
         "sta": 61,
         "str": 67,
@@ -339,7 +350,7 @@
     },
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 66,
@@ -347,12 +358,12 @@
         "dri": 75,
         "ldr": 73,
         "pac": 72,
-        "pas": 74,
+        "pas": 75,
         "pos": 73,
         "sho": 71,
-        "sta": 76,
+        "sta": 77,
         "str": 66,
-        "tac": 67,
+        "tac": 68,
         "vis": 74
       },
       "birth": "1976-11-01",
@@ -368,18 +379,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 65,
-        "dri": 58,
-        "ldr": 59,
-        "pac": 59,
+        "aer": 48,
+        "com": 66,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 62,
         "pas": 66,
-        "pos": 61,
-        "sho": 56,
-        "sta": 62,
-        "str": 55,
-        "tac": 57,
-        "vis": 62
+        "pos": 46,
+        "sho": 62,
+        "sta": 56,
+        "str": 50,
+        "tac": 39,
+        "vis": 64
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -389,23 +400,26 @@
       "name": "Dusan Vasiljavic",
       "nation": "SRB",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 13000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 51,
-        "dri": 36,
-        "ldr": 48,
-        "pac": 43,
-        "pas": 43,
-        "pos": 58,
-        "sho": 25,
-        "sta": 45,
-        "str": 56,
-        "tac": 55,
-        "vis": 37
+        "aer": 45,
+        "com": 49,
+        "dri": 46,
+        "ldr": 44,
+        "pac": 51,
+        "pas": 47,
+        "pos": 53,
+        "sho": 32,
+        "sta": 51,
+        "str": 48,
+        "tac": 52,
+        "vis": 43
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -415,23 +429,23 @@
       "name": "Alexander Byttroff",
       "nation": "GER",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 56,
-        "dri": 57,
-        "ldr": 57,
-        "pac": 54,
-        "pas": 58,
-        "pos": 58,
-        "sho": 50,
+        "dri": 53,
+        "ldr": 59,
+        "pac": 51,
+        "pas": 57,
+        "pos": 62,
+        "sho": 44,
         "sta": 62,
-        "str": 57,
-        "tac": 57,
-        "vis": 61
+        "str": 62,
+        "tac": 63,
+        "vis": 58
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -441,23 +455,23 @@
       "name": "Marco Korth",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 41,
-        "ldr": 59,
-        "pac": 49,
-        "pas": 47,
-        "pos": 61,
-        "sho": 28,
-        "sta": 52,
-        "str": 59,
-        "tac": 60,
-        "vis": 46
+        "aer": 50,
+        "com": 57,
+        "dri": 51,
+        "ldr": 55,
+        "pac": 57,
+        "pas": 51,
+        "pos": 56,
+        "sho": 35,
+        "sta": 58,
+        "str": 51,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -467,7 +481,7 @@
       "name": "Daniel Ziabig",
       "nation": "GER",
       "number": 17,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5500
     },
     {
@@ -478,7 +492,7 @@
         "ldr": 43,
         "pac": 47,
         "pas": 41,
-        "pos": 28,
+        "pos": 48,
         "sho": 53,
         "sta": 41,
         "str": 51,
@@ -497,6 +511,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -556,7 +573,7 @@
         "ldr": 48,
         "pac": 51,
         "pas": 46,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 53,
         "str": 51,
@@ -653,6 +670,10 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
         "com": 70,
@@ -660,7 +681,7 @@
         "ldr": 66,
         "pac": 67,
         "pas": 63,
-        "pos": 46,
+        "pos": 66,
         "sho": 76,
         "sta": 69,
         "str": 68,
@@ -686,7 +707,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 54,
         "str": 63,
@@ -705,6 +726,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -731,6 +755,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,

@@ -77,6 +77,9 @@
       "wage": 309500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 82,
@@ -104,19 +107,22 @@
       "wage": 360000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 83,
-        "dri": 81,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 81,
-        "pos": 77,
-        "sho": 74,
-        "sta": 84,
-        "str": 77,
-        "tac": 73,
-        "vis": 81
+        "aer": 66,
+        "com": 81,
+        "dri": 86,
+        "ldr": 71,
+        "pac": 85,
+        "pas": 77,
+        "pos": 59,
+        "sho": 78,
+        "sta": 80,
+        "str": 72,
+        "tac": 53,
+        "vis": 78
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -126,13 +132,12 @@
       "name": "Franck Ribary",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 410500
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 81,
@@ -167,7 +172,7 @@
         "ldr": 79,
         "pac": 83,
         "pas": 74,
-        "pos": 64,
+        "pos": 84,
         "sho": 88,
         "sta": 79,
         "str": 83,
@@ -186,23 +191,19 @@
       "wage": 370000
     },
     {
-      "alt": [
-        "RW",
-        "CM"
-      ],
       "attrs": {
         "aer": 65,
-        "com": 81,
-        "dri": 83,
-        "ldr": 72,
-        "pac": 82,
-        "pas": 81,
-        "pos": 61,
-        "sho": 79,
-        "sta": 74,
+        "com": 78,
+        "dri": 84,
+        "ldr": 70,
+        "pac": 88,
+        "pas": 77,
+        "pos": 58,
+        "sho": 77,
+        "sta": 76,
         "str": 71,
-        "tac": 57,
-        "vis": 87
+        "tac": 55,
+        "vis": 82
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -212,23 +213,26 @@
       "name": "Arjen Robban",
       "nation": "NED",
       "number": 10,
-      "pos": "AM",
+      "pos": "RW",
       "wage": 279000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 80,
-        "dri": 80,
-        "ldr": 76,
-        "pac": 75,
-        "pas": 85,
-        "pos": 81,
-        "sho": 76,
-        "sta": 83,
-        "str": 77,
-        "tac": 76,
-        "vis": 78
+        "aer": 64,
+        "com": 78,
+        "dri": 85,
+        "ldr": 72,
+        "pac": 84,
+        "pas": 81,
+        "pos": 63,
+        "sho": 80,
+        "sta": 79,
+        "str": 72,
+        "tac": 56,
+        "vis": 75
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -238,7 +242,7 @@
       "name": "Douglas Coste",
       "nation": "BRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 422500
     },
     {
@@ -268,6 +272,9 @@
       "wage": 228500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -342,10 +349,15 @@
       "name": "Juan Bernet",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 179000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 77,
@@ -398,19 +410,22 @@
       "wage": 125000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 80,
-        "dri": 79,
-        "ldr": 75,
-        "pac": 73,
-        "pas": 82,
-        "pos": 78,
-        "sho": 76,
+        "dri": 75,
+        "ldr": 77,
+        "pac": 70,
+        "pas": 81,
+        "pos": 82,
+        "sho": 70,
         "sta": 81,
-        "str": 78,
-        "tac": 77,
-        "vis": 85
+        "str": 83,
+        "tac": 83,
+        "vis": 82
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -420,12 +435,14 @@
       "name": "Arturo Videl",
       "nation": "CHI",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 403000
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 79,
@@ -434,7 +451,7 @@
         "ldr": 76,
         "pac": 84,
         "pas": 78,
-        "pos": 60,
+        "pos": 80,
         "sho": 87,
         "sta": 78,
         "str": 81,
@@ -480,8 +497,7 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 80,
@@ -535,6 +551,9 @@
       "wage": 273500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 54,
         "com": 70,
@@ -562,20 +581,22 @@
       "wage": 94000
     },
     {
-      "alt": [],
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 75,
-        "dri": 76,
-        "ldr": 73,
-        "pac": 68,
-        "pas": 79,
-        "pos": 73,
-        "sho": 69,
+        "dri": 72,
+        "ldr": 75,
+        "pac": 65,
+        "pas": 78,
+        "pos": 77,
+        "sho": 63,
         "sta": 76,
-        "str": 69,
-        "tac": 74,
-        "vis": 79
+        "str": 74,
+        "tac": 80,
+        "vis": 76
       },
       "birth": "1995-02-01",
       "contract": null,
@@ -585,10 +606,13 @@
       "name": "Joshua Kimmych",
       "nation": "GER",
       "number": 32,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 235000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -615,19 +639,24 @@
       "wage": 121500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 68,
-        "dri": 66,
+        "dri": 73,
         "ldr": 62,
         "pac": 67,
-        "pas": 63,
-        "pos": 44,
+        "pas": 70,
+        "pos": 64,
         "sho": 73,
         "sta": 65,
         "str": 69,
         "tac": 39,
-        "vis": 60
+        "vis": 67
       },
       "birth": "1995-06-01",
       "contract": null,
@@ -638,10 +667,13 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 37,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 69000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 56,

@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 79,
         "com": 84,
@@ -31,7 +34,7 @@
         "ldr": 74,
         "pac": 78,
         "pas": 72,
-        "pos": 59,
+        "pos": 79,
         "sho": 82,
         "sta": 77,
         "str": 80,
@@ -52,18 +55,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 75,
+        "aer": 74,
+        "com": 76,
         "dri": 75,
-        "ldr": 71,
-        "pac": 73,
-        "pas": 76,
+        "ldr": 69,
+        "pac": 78,
+        "pas": 66,
         "pos": 75,
-        "sho": 74,
-        "sta": 79,
-        "str": 71,
-        "tac": 76,
-        "vis": 80
+        "sho": 83,
+        "sta": 73,
+        "str": 76,
+        "tac": 50,
+        "vis": 71
       },
       "birth": "1970-03-01",
       "contract": null,
@@ -73,11 +76,16 @@
       "name": "Florin Raducioyu",
       "nation": "ROU",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 16000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 73,
@@ -132,18 +140,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 71,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 71,
-        "pas": 75,
-        "pos": 70,
-        "sho": 67,
+        "dri": 65,
+        "ldr": 69,
+        "pac": 68,
+        "pas": 74,
+        "pos": 74,
+        "sho": 61,
         "sta": 77,
-        "str": 70,
-        "tac": 68,
-        "vis": 76
+        "str": 75,
+        "tac": 74,
+        "vis": 73
       },
       "birth": "1971-03-01",
       "contract": null,
@@ -153,7 +161,7 @@
       "name": "Tal Benin",
       "nation": "ISR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 16000
     },
@@ -165,7 +173,7 @@
         "ldr": 65,
         "pac": 69,
         "pas": 63,
-        "pos": 52,
+        "pos": 72,
         "sho": 73,
         "sta": 68,
         "str": 69,
@@ -187,18 +195,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 67,
-        "ldr": 70,
-        "pac": 65,
+        "aer": 55,
+        "com": 72,
+        "dri": 71,
+        "ldr": 68,
+        "pac": 68,
         "pas": 73,
-        "pos": 71,
-        "sho": 63,
-        "sta": 75,
-        "str": 69,
-        "tac": 67,
-        "vis": 75
+        "pos": 56,
+        "sho": 69,
+        "sta": 69,
+        "str": 64,
+        "tac": 49,
+        "vis": 77
       },
       "birth": "1968-01-01",
       "contract": null,
@@ -208,7 +216,7 @@
       "name": "Giovanni Struppa",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 14500
     },
@@ -220,7 +228,7 @@
         "ldr": 62,
         "pac": 64,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 70,
         "sta": 66,
         "str": 65,
@@ -266,6 +274,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 69,
@@ -294,18 +305,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 64,
-        "dri": 64,
-        "ldr": 57,
-        "pac": 69,
-        "pas": 64,
-        "pos": 61,
-        "sho": 46,
-        "sta": 65,
-        "str": 58,
-        "tac": 66,
-        "vis": 59
+        "aer": 65,
+        "com": 66,
+        "dri": 54,
+        "ldr": 61,
+        "pac": 61,
+        "pas": 60,
+        "pos": 66,
+        "sho": 39,
+        "sta": 59,
+        "str": 66,
+        "tac": 69,
+        "vis": 53
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -315,7 +326,7 @@
       "name": "Daniele Bonere",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 5500
     },
     {
@@ -372,6 +383,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -405,7 +419,7 @@
         "ldr": 60,
         "pac": 62,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 62,
         "str": 63,
@@ -424,9 +438,6 @@
       "wage": 3500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 60,
@@ -534,19 +545,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 59,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 54,
-        "pas": 61,
-        "pos": 63,
-        "sho": 56,
-        "sta": 66,
-        "str": 58,
-        "tac": 60,
-        "vis": 61
+        "aer": 56,
+        "com": 61,
+        "dri": 65,
+        "ldr": 62,
+        "pac": 55,
+        "pas": 63,
+        "pos": 64,
+        "sho": 58,
+        "sta": 68,
+        "str": 59,
+        "tac": 61,
+        "vis": 63
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -560,6 +574,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -586,6 +603,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -666,6 +686,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -693,6 +716,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -720,6 +746,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -754,7 +783,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 51,
-        "pos": 31,
+        "pos": 51,
         "sho": 62,
         "sta": 51,
         "str": 58,
@@ -775,18 +804,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 56,
-        "dri": 51,
-        "ldr": 50,
-        "pac": 53,
-        "pas": 45,
-        "pos": 32,
-        "sho": 62,
-        "sta": 53,
-        "str": 59,
-        "tac": 23,
-        "vis": 48
+        "aer": 42,
+        "com": 53,
+        "dri": 56,
+        "ldr": 48,
+        "pac": 57,
+        "pas": 51,
+        "pos": 34,
+        "sho": 57,
+        "sta": 55,
+        "str": 49,
+        "tac": 29,
+        "vis": 54
       },
       "birth": "1981-08-01",
       "contract": null,
@@ -796,24 +825,24 @@
       "name": "Simone Del Neru",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "verify": true,
       "wage": 1500
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 53,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 54,
-        "pos": 54,
-        "sho": 50,
+        "dri": 50,
+        "ldr": 56,
+        "pac": 47,
+        "pas": 53,
+        "pos": 58,
+        "sho": 44,
         "sta": 54,
-        "str": 49,
-        "tac": 54,
-        "vis": 58
+        "str": 54,
+        "tac": 60,
+        "vis": 55
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -823,7 +852,7 @@
       "name": "Roberto Guena",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
@@ -835,7 +864,7 @@
         "ldr": 45,
         "pac": 54,
         "pas": 49,
-        "pos": 35,
+        "pos": 55,
         "sho": 55,
         "sta": 53,
         "str": 53,
@@ -877,7 +906,7 @@
       "name": "Marco Pisanu",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 1500
     },
@@ -889,7 +918,7 @@
         "ldr": 48,
         "pac": 50,
         "pas": 45,
-        "pos": 28,
+        "pos": 48,
         "sho": 54,
         "sta": 50,
         "str": 55,
@@ -937,18 +966,18 @@
     },
     {
       "attrs": {
-        "aer": 40,
+        "aer": 46,
         "com": 49,
-        "dri": 49,
-        "ldr": 50,
-        "pac": 44,
-        "pas": 53,
-        "pos": 52,
-        "sho": 47,
+        "dri": 45,
+        "ldr": 52,
+        "pac": 41,
+        "pas": 52,
+        "pos": 56,
+        "sho": 41,
         "sta": 56,
-        "str": 49,
-        "tac": 45,
-        "vis": 54
+        "str": 54,
+        "tac": 51,
+        "vis": 51
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -958,10 +987,13 @@
       "name": "Ivan Javurcic",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,
@@ -996,7 +1028,7 @@
         "ldr": 47,
         "pac": 49,
         "pas": 44,
-        "pos": 27,
+        "pos": 47,
         "sho": 51,
         "sta": 45,
         "str": 53,

@@ -21,15 +21,15 @@
       "attrs": {
         "aer": 65,
         "com": 77,
-        "dri": 74,
+        "dri": 83,
         "ldr": 86,
-        "pac": 66,
+        "pac": 80,
         "pas": 88,
-        "pos": 82,
+        "pos": 87,
         "sho": 72,
-        "sta": 86,
-        "str": 73,
-        "tac": 80,
+        "sta": 99,
+        "str": 78,
+        "tac": 85,
         "vis": 86
       },
       "birth": "1990-09-01",
@@ -49,6 +49,9 @@
       "wage": 157000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 60,
@@ -157,22 +160,23 @@
     },
     {
       "alt": [
+        "RW",
         "LW",
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 80,
-        "com": 76,
-        "dri": 80,
+        "com": 77,
+        "dri": 81,
         "ldr": 68,
         "pac": 69,
-        "pas": 77,
+        "pas": 78,
         "pos": 69,
-        "sho": 72,
-        "sta": 90,
+        "sho": 73,
+        "sta": 91,
         "str": 86,
         "tac": 82,
-        "vis": 75
+        "vis": 76
       },
       "birth": "1996-08-01",
       "contract": "2025-06-30",
@@ -189,6 +193,10 @@
       "wage": 157000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -247,6 +255,9 @@
       "wage": 70500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 51,
         "com": 71,
@@ -283,7 +294,8 @@
     },
     {
       "alt": [
-        "LB"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 49,
@@ -307,7 +319,7 @@
       "name": "Matt Rytchie",
       "nation": "SCO",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 30500
     },
     {
@@ -338,16 +350,16 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 84,
+        "aer": 78,
+        "com": 88,
         "dri": 84,
         "ldr": 62,
         "pac": 84,
         "pas": 64,
-        "pos": 48,
-        "sho": 78,
+        "pos": 52,
+        "sho": 82,
         "sta": 72,
-        "str": 75,
+        "str": 79,
         "tac": 38,
         "vis": 64
       },
@@ -363,6 +375,9 @@
       "wage": 79000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -466,7 +481,7 @@
       "name": "Ryan Freser",
       "nation": "SCO",
       "number": 21,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 28000
     },
     {
@@ -525,6 +540,10 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
         "aer": 53,
         "com": 75,
@@ -582,21 +601,21 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 64,
-        "com": 76,
+        "com": 79,
         "dri": 73,
         "ldr": 69,
         "pac": 80,
-        "pas": 76,
+        "pas": 79,
         "pos": 69,
         "sho": 68,
         "sta": 84,
         "str": 68,
-        "tac": 70,
-        "vis": 78
+        "tac": 73,
+        "vis": 81
       },
       "birth": "1999-08-01",
       "contract": "2027-06-30",
@@ -636,6 +655,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,
@@ -719,6 +741,9 @@
       "wage": 47500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -746,7 +771,8 @@
     },
     {
       "alt": [
-        "DM"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 67,

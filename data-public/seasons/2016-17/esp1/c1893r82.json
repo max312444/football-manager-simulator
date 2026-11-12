@@ -52,6 +52,9 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,
@@ -154,23 +157,23 @@
       "name": "Guilherme Siqueyra",
       "nation": "BRA",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 26000
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 76,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 76,
+        "aer": 77,
+        "com": 77,
+        "dri": 69,
+        "ldr": 73,
+        "pac": 73,
         "pas": 77,
-        "pos": 76,
-        "sho": 71,
-        "sta": 77,
-        "str": 73,
-        "tac": 76,
-        "vis": 79
+        "pos": 80,
+        "sho": 65,
+        "sta": 78,
+        "str": 78,
+        "tac": 82,
+        "vis": 77
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -181,10 +184,13 @@
       "name": "Mario Suaraz",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 80000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 79,
@@ -211,19 +217,23 @@
       "wage": 80000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 74,
-        "dri": 72,
-        "ldr": 68,
-        "pac": 74,
-        "pas": 63,
-        "pos": 52,
-        "sho": 76,
-        "sta": 70,
-        "str": 73,
-        "tac": 38,
-        "vis": 66
+        "aer": 54,
+        "com": 71,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 78,
+        "pas": 69,
+        "pos": 54,
+        "sho": 71,
+        "sta": 72,
+        "str": 63,
+        "tac": 44,
+        "vis": 72
       },
       "birth": "1995-09-01",
       "contract": null,
@@ -235,10 +245,14 @@
       "nation": "ESP",
       "nation2": "MAR",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 34500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 80,
@@ -265,19 +279,22 @@
       "wage": 80000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 71,
-        "dri": 64,
-        "ldr": 61,
-        "pac": 65,
-        "pas": 70,
-        "pos": 68,
-        "sho": 64,
-        "sta": 71,
-        "str": 62,
-        "tac": 65,
-        "vis": 67
+        "aer": 53,
+        "com": 69,
+        "dri": 69,
+        "ldr": 57,
+        "pac": 74,
+        "pas": 66,
+        "pos": 50,
+        "sho": 68,
+        "sta": 67,
+        "str": 57,
+        "tac": 45,
+        "vis": 64
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -287,7 +304,7 @@
       "name": "Zakaria Bakkaly",
       "nation": "BEL",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 32000
     },
     {
@@ -339,23 +356,26 @@
       "name": "Jose Geya",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 41000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 68,
-        "dri": 65,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 70,
-        "pos": 65,
-        "sho": 59,
-        "sta": 69,
-        "str": 63,
-        "tac": 66,
-        "vis": 71
+        "aer": 50,
+        "com": 66,
+        "dri": 70,
+        "ldr": 62,
+        "pac": 71,
+        "pas": 66,
+        "pos": 47,
+        "sho": 63,
+        "sta": 65,
+        "str": 58,
+        "tac": 46,
+        "vis": 68
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -366,10 +386,14 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 30000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 77,
@@ -377,7 +401,7 @@
         "ldr": 70,
         "pac": 80,
         "pas": 71,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 72,
         "str": 81,
@@ -397,6 +421,9 @@
       "wage": 58000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -456,7 +483,7 @@
         "ldr": 59,
         "pac": 69,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 67,
         "str": 68,
@@ -475,9 +502,6 @@
       "wage": 19500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 68,
@@ -531,18 +555,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 53,
-        "dri": 46,
-        "ldr": 52,
-        "pac": 48,
-        "pas": 51,
-        "pos": 63,
-        "sho": 31,
-        "sta": 55,
-        "str": 57,
-        "tac": 57,
-        "vis": 45
+        "aer": 47,
+        "com": 51,
+        "dri": 56,
+        "ldr": 48,
+        "pac": 56,
+        "pas": 55,
+        "pos": 58,
+        "sho": 38,
+        "sta": 61,
+        "str": 49,
+        "tac": 54,
+        "vis": 51
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -552,7 +576,7 @@
       "name": "Toni Latu",
       "nation": "ESP",
       "number": 26,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6500
     },
     {
@@ -563,7 +587,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 53,
         "str": 56,
@@ -582,19 +606,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
-        "com": 60,
+        "com": 61,
         "dri": 63,
         "ldr": 58,
         "pac": 60,
-        "pas": 62,
+        "pas": 63,
         "pos": 62,
         "sho": 59,
         "sta": 64,
         "str": 58,
-        "tac": 56,
-        "vis": 62
+        "tac": 57,
+        "vis": 63
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -609,18 +636,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 75,
-        "dri": 76,
-        "ldr": 73,
-        "pac": 84,
-        "pas": 76,
-        "pos": 76,
-        "sho": 64,
-        "sta": 83,
-        "str": 73,
-        "tac": 82,
-        "vis": 71
+        "aer": 82,
+        "com": 77,
+        "dri": 66,
+        "ldr": 77,
+        "pac": 76,
+        "pas": 72,
+        "pos": 81,
+        "sho": 57,
+        "sta": 77,
+        "str": 81,
+        "tac": 85,
+        "vis": 65
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -630,7 +657,7 @@
       "name": "Ezequiel Garey",
       "nation": "ARG",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 80000
     }
   ],

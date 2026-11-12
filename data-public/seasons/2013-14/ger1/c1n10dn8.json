@@ -51,6 +51,11 @@
       "wage": 61000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 75,
@@ -77,6 +82,10 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 62,
@@ -104,9 +113,6 @@
       "wage": 20500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 68,
         "com": 72,
@@ -133,18 +139,21 @@
       "wage": 50000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 60,
+        "aer": 60,
+        "com": 67,
         "dri": 57,
         "ldr": 60,
         "pac": 68,
         "pas": 63,
-        "pos": 60,
+        "pos": 67,
         "sho": 46,
         "sta": 67,
-        "str": 61,
-        "tac": 63,
+        "str": 68,
+        "tac": 70,
         "vis": 57
       },
       "birth": "1990-08-01",
@@ -156,7 +165,7 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 5,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 15000
     },
     {
@@ -186,6 +195,9 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -214,18 +226,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 69,
-        "dri": 70,
-        "ldr": 63,
-        "pac": 67,
-        "pas": 70,
-        "pos": 67,
-        "sho": 66,
+        "dri": 66,
+        "ldr": 65,
+        "pac": 64,
+        "pas": 69,
+        "pos": 71,
+        "sho": 60,
         "sta": 69,
-        "str": 62,
-        "tac": 64,
-        "vis": 70
+        "str": 67,
+        "tac": 70,
+        "vis": 67
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -235,7 +247,7 @@
       "name": "Manuel Schmiedebech",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31000
     },
     {
@@ -246,7 +258,7 @@
         "ldr": 66,
         "pac": 71,
         "pas": 65,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 69,
         "str": 70,
@@ -265,6 +277,9 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 77,
@@ -298,7 +313,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 71,
         "str": 76,
@@ -317,7 +332,11 @@
       "wage": 44000
     },
     {
-      "alt": [],
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 71,
@@ -325,7 +344,7 @@
         "ldr": 64,
         "pac": 75,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 73,
         "sta": 71,
         "str": 75,
@@ -371,18 +390,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 64,
-        "dri": 65,
-        "ldr": 60,
-        "pac": 64,
-        "pas": 68,
-        "pos": 63,
-        "sho": 61,
+        "dri": 61,
+        "ldr": 62,
+        "pac": 61,
+        "pas": 67,
+        "pos": 67,
+        "sho": 55,
         "sta": 71,
-        "str": 61,
-        "tac": 62,
-        "vis": 70
+        "str": 66,
+        "tac": 68,
+        "vis": 67
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -392,23 +411,23 @@
       "name": "Andre Hoffmenn",
       "nation": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 23500
     },
     {
       "attrs": {
-        "aer": 41,
+        "aer": 47,
         "com": 55,
-        "dri": 51,
-        "ldr": 48,
-        "pac": 46,
-        "pas": 56,
-        "pos": 49,
-        "sho": 51,
+        "dri": 47,
+        "ldr": 50,
+        "pac": 43,
+        "pas": 55,
+        "pos": 53,
+        "sho": 45,
         "sta": 56,
-        "str": 46,
-        "tac": 52,
-        "vis": 53
+        "str": 51,
+        "tac": 58,
+        "vis": 50
       },
       "birth": "1991-04-01",
       "contract": null,
@@ -418,7 +437,7 @@
       "name": "Frenca",
       "nation": "BRA",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -444,12 +463,12 @@
       "name": "Sebastien Pucognoli",
       "nation": "BEL",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 58000
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 79,
@@ -503,6 +522,9 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 67,
@@ -557,18 +579,18 @@
     },
     {
       "attrs": {
-        "aer": 77,
-        "com": 70,
-        "dri": 62,
-        "ldr": 68,
-        "pac": 69,
-        "pas": 67,
-        "pos": 74,
-        "sho": 47,
-        "sta": 67,
-        "str": 77,
-        "tac": 77,
-        "vis": 61
+        "aer": 64,
+        "com": 68,
+        "dri": 72,
+        "ldr": 64,
+        "pac": 77,
+        "pas": 71,
+        "pos": 69,
+        "sho": 54,
+        "sta": 73,
+        "str": 69,
+        "tac": 74,
+        "vis": 67
       },
       "birth": "1983-08-01",
       "contract": null,
@@ -578,13 +600,10 @@
       "name": "Christian Pandar",
       "nation": "GER",
       "number": 24,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 38500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 75,
         "com": 69,
@@ -618,7 +637,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 64,
         "sta": 58,
         "str": 62,
@@ -638,19 +657,24 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 70,
-        "ldr": 70,
-        "pac": 68,
+        "aer": 55,
+        "com": 72,
+        "dri": 74,
+        "ldr": 68,
+        "pac": 71,
         "pas": 76,
-        "pos": 70,
-        "sho": 63,
-        "sta": 76,
-        "str": 65,
-        "tac": 66,
-        "vis": 72
+        "pos": 55,
+        "sho": 69,
+        "sta": 70,
+        "str": 60,
+        "tac": 48,
+        "vis": 74
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -660,20 +684,24 @@
       "name": "Lars Styndl",
       "nation": "GER",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 43000
     },
     {
+      "alt": [
+        "RM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 64,
-        "dri": 66,
+        "dri": 71,
         "ldr": 65,
-        "pac": 60,
+        "pac": 65,
         "pas": 70,
         "pos": 62,
-        "sho": 60,
-        "sta": 67,
+        "sho": 65,
+        "sta": 72,
         "str": 60,
         "tac": 60,
         "vis": 69
@@ -687,7 +715,7 @@
       "nation": "GER",
       "nation2": "BRA",
       "number": 32,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 23000
     },
     {
@@ -725,7 +753,7 @@
         "ldr": 70,
         "pac": 80,
         "pas": 71,
-        "pos": 59,
+        "pos": 79,
         "sho": 78,
         "sta": 73,
         "str": 80,
@@ -744,19 +772,22 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 59,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 65,
-        "pos": 63,
-        "sho": 53,
-        "sta": 67,
-        "str": 57,
-        "tac": 60,
-        "vis": 60
+        "aer": 56,
+        "com": 61,
+        "dri": 64,
+        "ldr": 60,
+        "pac": 58,
+        "pas": 67,
+        "pos": 64,
+        "sho": 55,
+        "sta": 69,
+        "str": 58,
+        "tac": 61,
+        "vis": 62
       },
       "birth": "1992-02-01",
       "contract": null,
@@ -778,7 +809,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 61,
         "sta": 56,
         "str": 58,

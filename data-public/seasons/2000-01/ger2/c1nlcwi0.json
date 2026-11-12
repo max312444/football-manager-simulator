@@ -52,7 +52,7 @@
     },
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 59,
@@ -88,7 +88,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 70,
         "sta": 61,
         "str": 64,
@@ -109,18 +109,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 63,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 61,
+        "aer": 47,
+        "com": 64,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 64,
         "pas": 63,
-        "pos": 59,
-        "sho": 57,
-        "sta": 63,
-        "str": 57,
-        "tac": 63,
-        "vis": 68
+        "pos": 44,
+        "sho": 63,
+        "sta": 57,
+        "str": 52,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "1973-08-01",
       "contract": null,
@@ -130,23 +130,23 @@
       "name": "Nebojsa Krupnikovyc",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 63,
-        "dri": 59,
-        "ldr": 59,
-        "pac": 57,
+        "aer": 47,
+        "com": 64,
+        "dri": 63,
+        "ldr": 57,
+        "pac": 60,
         "pas": 67,
-        "pos": 59,
-        "sho": 60,
-        "sta": 66,
-        "str": 61,
-        "tac": 63,
-        "vis": 64
+        "pos": 44,
+        "sho": 66,
+        "sta": 60,
+        "str": 56,
+        "tac": 45,
+        "vis": 66
       },
       "birth": "1976-02-01",
       "contract": null,
@@ -156,7 +156,7 @@
       "name": "Samir Muratuvic",
       "nation": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 4000
     },
@@ -188,18 +188,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 55,
-        "dri": 52,
+        "aer": 45,
+        "com": 52,
+        "dri": 55,
         "ldr": 49,
-        "pac": 55,
-        "pas": 48,
-        "pos": 34,
-        "sho": 62,
-        "sta": 54,
-        "str": 59,
-        "tac": 30,
-        "vis": 48
+        "pac": 58,
+        "pas": 56,
+        "pos": 46,
+        "sho": 51,
+        "sta": 61,
+        "str": 51,
+        "tac": 48,
+        "vis": 54
       },
       "birth": "1970-12-01",
       "contract": null,
@@ -209,7 +209,7 @@
       "name": "Jorg Schmydt",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "RM",
       "verify": true,
       "wage": 1500
     },
@@ -221,7 +221,7 @@
         "ldr": 50,
         "pac": 54,
         "pas": 46,
-        "pos": 37,
+        "pos": 57,
         "sho": 57,
         "sta": 54,
         "str": 56,
@@ -240,19 +240,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 54,
-        "dri": 53,
+        "aer": 55,
+        "com": 56,
+        "dri": 55,
         "ldr": 51,
-        "pac": 51,
-        "pas": 57,
-        "pos": 58,
-        "sho": 54,
-        "sta": 60,
-        "str": 55,
-        "tac": 54,
-        "vis": 55
+        "pac": 62,
+        "pas": 59,
+        "pos": 69,
+        "sho": 56,
+        "sta": 62,
+        "str": 66,
+        "tac": 65,
+        "vis": 57
       },
       "birth": "1975-02-01",
       "contract": null,
@@ -262,7 +267,7 @@
       "name": "Mario Ivankuvic",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 2000
     },
@@ -300,7 +305,7 @@
         "ldr": 50,
         "pac": 58,
         "pas": 51,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 49,
         "str": 54,
@@ -320,6 +325,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -346,6 +354,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 59,
@@ -406,7 +417,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 43,
-        "pos": 32,
+        "pos": 52,
         "sho": 57,
         "sta": 51,
         "str": 56,
@@ -426,6 +437,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 51,
@@ -453,6 +467,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -479,6 +496,10 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 45,
         "com": 50,
@@ -505,6 +526,11 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 53,
@@ -512,7 +538,7 @@
         "ldr": 46,
         "pac": 55,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 50,
         "str": 56,
@@ -584,6 +610,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -698,7 +727,7 @@
         "ldr": 45,
         "pac": 46,
         "pas": 41,
-        "pos": 26,
+        "pos": 46,
         "sho": 49,
         "sta": 47,
         "str": 50,

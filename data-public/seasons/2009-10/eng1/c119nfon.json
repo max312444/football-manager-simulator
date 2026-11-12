@@ -97,6 +97,10 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 71,
@@ -211,7 +215,7 @@
     },
     {
       "alt": [
-        "LW"
+        "LB"
       ],
       "attrs": {
         "aer": 47,
@@ -235,13 +239,15 @@
       "name": "Stewart Downyng",
       "nation": "ENG",
       "number": 6,
-      "pos": "LM",
+      "pos": "LW",
       "verify": true,
       "wage": 37500
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 49,
@@ -273,21 +279,22 @@
     },
     {
       "alt": [
-        "CM"
+        "RM",
+        "LM"
       ],
       "attrs": {
         "aer": 53,
-        "com": 73,
-        "dri": 79,
+        "com": 94,
+        "dri": 80,
         "ldr": 63,
-        "pac": 81,
-        "pas": 75,
-        "pos": 53,
-        "sho": 72,
-        "sta": 90,
-        "str": 63,
-        "tac": 51,
-        "vis": 72
+        "pac": 99,
+        "pas": 96,
+        "pos": 73,
+        "sho": 73,
+        "sta": 92,
+        "str": 83,
+        "tac": 91,
+        "vis": 93
       },
       "birth": "1986-01-01",
       "contract": "2012-06-30",
@@ -297,7 +304,7 @@
       "name": "James Milnar",
       "nation": "ENG",
       "number": 8,
-      "pos": "RM",
+      "pos": "CM",
       "traits": [
         "engine"
       ],
@@ -337,16 +344,16 @@
         "LW"
       ],
       "attrs": {
-        "aer": 67,
-        "com": 72,
+        "aer": 74,
+        "com": 79,
         "dri": 71,
         "ldr": 55,
         "pac": 91,
         "pas": 63,
-        "pos": 41,
-        "sho": 77,
+        "pos": 48,
+        "sho": 84,
         "sta": 71,
-        "str": 73,
+        "str": 80,
         "tac": 35,
         "vis": 63
       },
@@ -366,7 +373,8 @@
     },
     {
       "alt": [
-        "RM"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 49,
@@ -398,16 +406,16 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 47,
+        "aer": 62,
+        "com": 56,
         "dri": 59,
         "ldr": 35,
         "pac": 73,
         "pas": 49,
-        "pos": 31,
-        "sho": 55,
+        "pos": 40,
+        "sho": 64,
         "sta": 61,
-        "str": 63,
+        "str": 72,
         "tac": 25,
         "vis": 45
       },
@@ -450,19 +458,24 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
-        "com": 58,
+        "com": 66,
         "dri": 68,
         "ldr": 46,
         "pac": 70,
-        "pas": 68,
+        "pas": 76,
         "pos": 54,
         "sho": 54,
         "sta": 72,
         "str": 60,
-        "tac": 60,
-        "vis": 64
+        "tac": 68,
+        "vis": 72
       },
       "birth": "1989-11-01",
       "contract": "2013-06-30",
@@ -479,6 +492,9 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 69,
@@ -592,6 +608,9 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
@@ -646,9 +665,6 @@
       "wage": 32500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 83,
         "com": 74,
@@ -702,6 +718,9 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 56,
@@ -728,9 +747,6 @@
       "wage": 13500
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 54,

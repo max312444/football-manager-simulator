@@ -51,6 +51,10 @@
       "wage": 92000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 56,
         "com": 59,
@@ -77,6 +81,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
@@ -99,23 +106,23 @@
       "name": "Aihen Monoz",
       "nation": "ESP",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 52000
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 79,
-        "dri": 74,
-        "ldr": 75,
-        "pac": 71,
-        "pas": 82,
-        "pos": 75,
-        "sho": 71,
+        "dri": 70,
+        "ldr": 77,
+        "pac": 68,
+        "pas": 81,
+        "pos": 79,
+        "sho": 65,
         "sta": 83,
-        "str": 70,
-        "tac": 71,
-        "vis": 76
+        "str": 75,
+        "tac": 77,
+        "vis": 73
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -125,26 +132,26 @@
       "name": "Martin Zubimandi",
       "nation": "ESP",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 141500
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 77,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 71,
-        "pas": 73,
-        "pos": 74,
-        "sho": 71,
+        "dri": 66,
+        "ldr": 69,
+        "pac": 68,
+        "pas": 72,
+        "pos": 78,
+        "sho": 65,
         "sta": 77,
-        "str": 69,
-        "tac": 69,
-        "vis": 77
+        "str": 74,
+        "tac": 75,
+        "vis": 74
       },
       "birth": "1997-03-01",
       "contract": null,
@@ -154,13 +161,10 @@
       "name": "Igor Zobeldia",
       "nation": "ESP",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 113000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 77,
         "com": 72,
@@ -187,19 +191,23 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 71,
-        "dri": 69,
-        "ldr": 61,
-        "pac": 67,
-        "pas": 58,
-        "pos": 47,
-        "sho": 72,
-        "sta": 62,
-        "str": 67,
-        "tac": 41,
-        "vis": 63
+        "aer": 51,
+        "com": 68,
+        "dri": 74,
+        "ldr": 59,
+        "pac": 71,
+        "pas": 64,
+        "pos": 49,
+        "sho": 67,
+        "sta": 64,
+        "str": 57,
+        "tac": 47,
+        "vis": 69
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -209,12 +217,14 @@
       "name": "Ander Barrenetxaa",
       "nation": "ESP",
       "number": 7,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 37000
     },
     {
       "alt": [
-        "CM"
+        "ST",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 74,
@@ -249,7 +259,7 @@
         "ldr": 62,
         "pac": 70,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 66,
         "str": 70,
@@ -268,6 +278,10 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "LW",
+        "RW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 79,
@@ -275,7 +289,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 71,
-        "pos": 60,
+        "pos": 80,
         "sho": 87,
         "sta": 77,
         "str": 83,
@@ -301,7 +315,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 48,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 52,
         "str": 57,
@@ -322,18 +336,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 56,
-        "ldr": 59,
-        "pac": 55,
+        "aer": 47,
+        "com": 60,
+        "dri": 60,
+        "ldr": 57,
+        "pac": 58,
         "pas": 62,
-        "pos": 58,
-        "sho": 58,
-        "sta": 66,
-        "str": 55,
-        "tac": 60,
-        "vis": 62
+        "pos": 43,
+        "sho": 64,
+        "sta": 60,
+        "str": 50,
+        "tac": 42,
+        "vis": 64
       },
       "birth": "2003-05-01",
       "contract": null,
@@ -343,23 +357,23 @@
       "name": "Arsen Zakheryan",
       "nation": "RUS",
       "number": 12,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 25500
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 78,
-        "dri": 71,
-        "ldr": 73,
-        "pac": 68,
-        "pas": 79,
-        "pos": 75,
-        "sho": 66,
-        "sta": 76,
-        "str": 70,
-        "tac": 71,
-        "vis": 75
+        "aer": 57,
+        "com": 76,
+        "dri": 76,
+        "ldr": 69,
+        "pac": 77,
+        "pas": 75,
+        "pos": 57,
+        "sho": 70,
+        "sta": 72,
+        "str": 65,
+        "tac": 51,
+        "vis": 72
       },
       "birth": "2001-06-01",
       "contract": null,
@@ -369,23 +383,23 @@
       "name": "Takefusa Kobo",
       "nation": "JPN",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 117500
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 69,
-        "dri": 52,
-        "ldr": 63,
-        "pac": 59,
-        "pas": 61,
-        "pos": 74,
-        "sho": 39,
-        "sta": 66,
-        "str": 70,
-        "tac": 73,
-        "vis": 55
+        "aer": 55,
+        "com": 67,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 67,
+        "pas": 65,
+        "pos": 69,
+        "sho": 46,
+        "sta": 72,
+        "str": 62,
+        "tac": 70,
+        "vis": 61
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -395,7 +409,7 @@
       "name": "Diego Ricu",
       "nation": "ESP",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 39000
     },
     {
@@ -428,6 +442,11 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -487,7 +506,7 @@
         "ldr": 71,
         "pac": 73,
         "pas": 67,
-        "pos": 55,
+        "pos": 75,
         "sho": 75,
         "sta": 69,
         "str": 72,
@@ -539,7 +558,7 @@
         "ldr": 74,
         "pac": 79,
         "pas": 72,
-        "pos": 60,
+        "pos": 80,
         "sho": 84,
         "sta": 73,
         "str": 82,
@@ -559,6 +578,9 @@
       "wage": 139000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 72,
@@ -586,18 +608,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 74,
-        "dri": 74,
-        "ldr": 70,
-        "pac": 69,
+        "aer": 58,
+        "com": 75,
+        "dri": 78,
+        "ldr": 68,
+        "pac": 72,
         "pas": 76,
-        "pos": 72,
-        "sho": 67,
-        "sta": 74,
-        "str": 73,
-        "tac": 74,
-        "vis": 78
+        "pos": 57,
+        "sho": 73,
+        "sta": 68,
+        "str": 68,
+        "tac": 56,
+        "vis": 80
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -607,7 +629,7 @@
       "name": "Brais Mandez",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 117500
     },
     {
@@ -639,7 +661,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 83,
@@ -668,19 +690,22 @@
       "wage": 141500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 65,
-        "ldr": 58,
-        "pac": 61,
-        "pas": 68,
-        "pos": 63,
-        "sho": 59,
-        "sta": 68,
-        "str": 57,
-        "tac": 59,
-        "vis": 67
+        "aer": 49,
+        "com": 63,
+        "dri": 70,
+        "ldr": 54,
+        "pac": 70,
+        "pas": 64,
+        "pos": 45,
+        "sho": 63,
+        "sta": 64,
+        "str": 52,
+        "tac": 39,
+        "vis": 64
       },
       "birth": "1995-06-01",
       "contract": null,
@@ -690,7 +715,7 @@
       "name": "Martin Marquelanz",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 38000
     }
   ],

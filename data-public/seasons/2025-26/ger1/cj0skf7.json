@@ -131,18 +131,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 70,
-        "dri": 68,
-        "ldr": 63,
-        "pac": 64,
-        "pas": 72,
-        "pos": 64,
-        "sho": 65,
+        "dri": 64,
+        "ldr": 65,
+        "pac": 61,
+        "pas": 71,
+        "pos": 68,
+        "sho": 59,
         "sta": 72,
-        "str": 60,
-        "tac": 65,
-        "vis": 71
+        "str": 65,
+        "tac": 71,
+        "vis": 68
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -152,23 +152,23 @@
       "name": "Yannik Kaitel",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 139000
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 71,
-        "dri": 69,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 79,
-        "pos": 71,
-        "sho": 71,
+        "dri": 65,
+        "ldr": 74,
+        "pac": 65,
+        "pas": 78,
+        "pos": 75,
+        "sho": 65,
         "sta": 79,
-        "str": 67,
-        "tac": 67,
-        "vis": 74
+        "str": 72,
+        "tac": 73,
+        "vis": 71
       },
       "birth": "2001-04-01",
       "contract": null,
@@ -178,13 +178,12 @@
       "name": "Angelo Styller",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 219500
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 80,
@@ -219,7 +218,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 56,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 59,
         "str": 64,
@@ -245,7 +244,7 @@
         "ldr": 69,
         "pac": 76,
         "pas": 69,
-        "pos": 52,
+        "pos": 72,
         "sho": 81,
         "sta": 75,
         "str": 79,
@@ -265,19 +264,23 @@
       "wage": 219500
     },
     {
+      "alt": [
+        "LW",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 73,
-        "dri": 73,
-        "ldr": 67,
-        "pac": 66,
+        "aer": 61,
+        "com": 74,
+        "dri": 77,
+        "ldr": 65,
+        "pac": 69,
         "pas": 77,
-        "pos": 73,
-        "sho": 69,
-        "sta": 75,
-        "str": 68,
-        "tac": 70,
-        "vis": 78
+        "pos": 58,
+        "sho": 75,
+        "sta": 69,
+        "str": 63,
+        "tac": 52,
+        "vis": 80
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -287,26 +290,27 @@
       "name": "Chris Fuhrych",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 219500
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "LW"
       ],
       "attrs": {
-        "aer": 60,
-        "com": 66,
-        "dri": 69,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 69,
-        "pos": 68,
-        "sho": 63,
-        "sta": 71,
-        "str": 65,
-        "tac": 62,
-        "vis": 72
+        "aer": 54,
+        "com": 64,
+        "dri": 74,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 65,
+        "pos": 50,
+        "sho": 67,
+        "sta": 67,
+        "str": 60,
+        "tac": 42,
+        "vis": 69
       },
       "birth": "1999-10-01",
       "contract": null,
@@ -316,7 +320,7 @@
       "name": "Silas Katompa Mvumpe",
       "nation": "COD",
       "number": 13,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 139000
     },
     {
@@ -347,18 +351,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 63,
-        "dri": 51,
-        "ldr": 69,
-        "pac": 59,
-        "pas": 63,
-        "pos": 69,
-        "sho": 38,
-        "sta": 65,
-        "str": 67,
-        "tac": 74,
-        "vis": 57
+        "aer": 59,
+        "com": 61,
+        "dri": 61,
+        "ldr": 65,
+        "pac": 67,
+        "pas": 67,
+        "pos": 64,
+        "sho": 45,
+        "sta": 71,
+        "str": 59,
+        "tac": 71,
+        "vis": 63
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -368,23 +372,23 @@
       "name": "Pascal Stanzel",
       "nation": "GER",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 93500
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 64,
-        "dri": 68,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 69,
-        "pos": 66,
-        "sho": 64,
+        "dri": 64,
+        "ldr": 65,
+        "pac": 58,
+        "pas": 68,
+        "pos": 70,
+        "sho": 58,
         "sta": 68,
-        "str": 62,
-        "tac": 60,
-        "vis": 66
+        "str": 67,
+        "tac": 66,
+        "vis": 63
       },
       "birth": "1996-10-01",
       "contract": null,
@@ -395,7 +399,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 114000
     },
     {
@@ -406,7 +410,7 @@
         "ldr": 50,
         "pac": 51,
         "pas": 44,
-        "pos": 31,
+        "pos": 51,
         "sho": 56,
         "sta": 50,
         "str": 56,
@@ -425,19 +429,23 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "LW",
+        "RWB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 71,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 66,
-        "pas": 60,
-        "pos": 42,
-        "sho": 71,
-        "sta": 62,
-        "str": 67,
-        "tac": 37,
-        "vis": 62
+        "aer": 52,
+        "com": 68,
+        "dri": 70,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 66,
+        "pos": 44,
+        "sho": 66,
+        "sta": 64,
+        "str": 57,
+        "tac": 43,
+        "vis": 68
       },
       "birth": "2001-02-01",
       "contract": null,
@@ -448,23 +456,23 @@
       "nation": "GER",
       "nation2": "GHA",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 80500
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 54,
-        "dri": 54,
-        "ldr": 52,
-        "pac": 50,
+        "aer": 42,
+        "com": 55,
+        "dri": 58,
+        "ldr": 50,
+        "pac": 53,
         "pas": 60,
-        "pos": 53,
-        "sho": 47,
-        "sta": 58,
-        "str": 49,
-        "tac": 48,
-        "vis": 56
+        "pos": 38,
+        "sho": 53,
+        "sta": 52,
+        "str": 44,
+        "tac": 30,
+        "vis": 58
       },
       "birth": "2006-09-01",
       "contract": null,
@@ -474,7 +482,7 @@
       "name": "Noah Darvych",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 30500
     },
     {
@@ -616,7 +624,7 @@
         "ldr": 71,
         "pac": 79,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 75,
         "str": 74,
@@ -636,6 +644,9 @@
       "wage": 219500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -662,6 +673,9 @@
       "wage": 94500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 54,
@@ -688,9 +702,6 @@
       "wage": 19500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 62,
@@ -751,7 +762,7 @@
         "ldr": 43,
         "pac": 54,
         "pas": 41,
-        "pos": 31,
+        "pos": 51,
         "sho": 56,
         "sta": 48,
         "str": 49,
@@ -777,7 +788,7 @@
         "ldr": 47,
         "pac": 57,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 57,
         "sta": 50,
         "str": 57,

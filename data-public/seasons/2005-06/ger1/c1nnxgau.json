@@ -24,19 +24,23 @@
   },
   "squad": [
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 78,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 72,
+        "aer": 56,
+        "com": 79,
+        "dri": 78,
+        "ldr": 71,
+        "pac": 75,
         "pas": 80,
-        "pos": 74,
-        "sho": 69,
-        "sta": 75,
-        "str": 71,
-        "tac": 74,
-        "vis": 77
+        "pos": 59,
+        "sho": 75,
+        "sta": 69,
+        "str": 66,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1975-06-01",
       "contract": null,
@@ -47,7 +51,7 @@
       "nation": "GHA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 26000
     },
@@ -111,7 +115,7 @@
         "ldr": 61,
         "pac": 72,
         "pas": 65,
-        "pos": 47,
+        "pos": 67,
         "sho": 72,
         "sta": 68,
         "str": 72,
@@ -137,7 +141,7 @@
         "ldr": 60,
         "pac": 72,
         "pas": 58,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 63,
         "str": 69,
@@ -234,6 +238,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -261,6 +268,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 65,
@@ -294,7 +304,7 @@
         "ldr": 59,
         "pac": 68,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 58,
         "str": 64,
@@ -321,7 +331,7 @@
         "ldr": 57,
         "pac": 66,
         "pas": 58,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 59,
         "str": 66,
@@ -368,6 +378,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 65,
@@ -422,6 +435,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -474,6 +490,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -507,7 +526,7 @@
         "ldr": 53,
         "pac": 57,
         "pas": 54,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 54,
         "str": 61,
@@ -549,10 +568,13 @@
       "name": "Benjamin Waigelt",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -586,7 +608,7 @@
         "ldr": 53,
         "pac": 55,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 51,
         "str": 60,
@@ -613,7 +635,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 48,
-        "pos": 36,
+        "pos": 56,
         "sho": 58,
         "sta": 56,
         "str": 55,
@@ -639,7 +661,7 @@
         "ldr": 53,
         "pac": 54,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 54,
         "str": 56,
@@ -658,9 +680,6 @@
       "wage": 4000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 54,
@@ -744,18 +763,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 52,
-        "dri": 42,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 49,
-        "pos": 54,
-        "sho": 25,
-        "sta": 49,
-        "str": 58,
-        "tac": 55,
-        "vis": 39
+        "aer": 41,
+        "com": 50,
+        "dri": 52,
+        "ldr": 47,
+        "pac": 58,
+        "pas": 53,
+        "pos": 49,
+        "sho": 32,
+        "sta": 55,
+        "str": 50,
+        "tac": 52,
+        "vis": 45
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -765,10 +784,13 @@
       "name": "Christian Demirtes",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -797,18 +819,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 52,
-        "dri": 49,
-        "ldr": 52,
-        "pac": 49,
-        "pas": 55,
-        "pos": 55,
-        "sho": 50,
+        "dri": 45,
+        "ldr": 54,
+        "pac": 46,
+        "pas": 54,
+        "pos": 59,
+        "sho": 44,
         "sta": 56,
-        "str": 50,
-        "tac": 53,
-        "vis": 58
+        "str": 55,
+        "tac": 59,
+        "vis": 55
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -818,7 +840,7 @@
       "name": "Tim Jeret",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     },
@@ -830,7 +852,7 @@
         "ldr": 46,
         "pac": 56,
         "pas": 46,
-        "pos": 31,
+        "pos": 51,
         "sho": 59,
         "sta": 51,
         "str": 55,
@@ -904,19 +926,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 48,
+        "com": 58,
         "dri": 39,
         "ldr": 51,
         "pac": 45,
-        "pas": 48,
+        "pas": 58,
         "pos": 59,
         "sho": 29,
-        "sta": 46,
+        "sta": 56,
         "str": 56,
         "tac": 53,
-        "vis": 37
+        "vis": 47
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -926,24 +953,24 @@
       "name": "Tom Geyssler",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 2500
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 53,
-        "dri": 51,
-        "ldr": 47,
-        "pac": 46,
-        "pas": 55,
-        "pos": 48,
-        "sho": 43,
+        "dri": 47,
+        "ldr": 49,
+        "pac": 43,
+        "pas": 54,
+        "pos": 52,
+        "sho": 37,
         "sta": 52,
-        "str": 48,
-        "tac": 51,
-        "vis": 53
+        "str": 53,
+        "tac": 57,
+        "vis": 50
       },
       "birth": "1985-10-01",
       "contract": null,
@@ -954,7 +981,7 @@
       "nation": "GER",
       "nation2": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },

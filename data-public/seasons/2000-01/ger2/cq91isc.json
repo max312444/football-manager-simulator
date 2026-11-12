@@ -51,9 +51,6 @@
       "wage": 3000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -76,7 +73,7 @@
       "name": "Karsten Hotwelker",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 2500
     },
     {
@@ -87,7 +84,7 @@
         "ldr": 55,
         "pac": 57,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 57,
         "str": 61,
@@ -107,6 +104,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 55,
@@ -114,7 +116,7 @@
         "ldr": 51,
         "pac": 59,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 63,
         "sta": 55,
         "str": 56,
@@ -135,19 +137,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 59,
-        "dri": 57,
-        "ldr": 50,
-        "pac": 55,
-        "pas": 56,
-        "pos": 53,
-        "sho": 54,
-        "sta": 60,
-        "str": 55,
-        "tac": 52,
-        "vis": 60
+        "aer": 42,
+        "com": 57,
+        "dri": 62,
+        "ldr": 46,
+        "pac": 64,
+        "pas": 52,
+        "pos": 35,
+        "sho": 58,
+        "sta": 56,
+        "str": 50,
+        "tac": 32,
+        "vis": 57
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -157,24 +162,24 @@
       "name": "Mladen Bartoluvic",
       "nation": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 2500
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 58,
+        "aer": 54,
+        "com": 59,
         "dri": 56,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 56,
+        "ldr": 53,
+        "pac": 55,
+        "pas": 46,
         "pos": 56,
-        "sho": 52,
-        "sta": 56,
-        "str": 48,
-        "tac": 50,
-        "vis": 57
+        "sho": 61,
+        "sta": 50,
+        "str": 53,
+        "tac": 24,
+        "vis": 48
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -184,7 +189,7 @@
       "name": "Sambo Chojy",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2000
     },
     {
@@ -222,7 +227,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 44,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 51,
         "str": 53,
@@ -296,6 +301,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -323,6 +331,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 56,
@@ -349,19 +360,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 53,
-        "dri": 55,
+        "com": 59,
+        "dri": 58,
         "ldr": 46,
         "pac": 56,
-        "pas": 47,
-        "pos": 30,
-        "sho": 56,
+        "pas": 56,
+        "pos": 50,
+        "sho": 62,
         "sta": 51,
         "str": 55,
         "tac": 25,
-        "vis": 47
+        "vis": 56
       },
       "birth": "1975-08-01",
       "contract": null,
@@ -371,7 +387,7 @@
       "name": "Serhiy Dikhtyar",
       "nation": "UKR",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1000
     },
@@ -404,18 +420,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 35,
         "com": 53,
-        "dri": 55,
+        "dri": 59,
         "ldr": 50,
-        "pac": 53,
-        "pas": 44,
-        "pos": 33,
-        "sho": 60,
+        "pac": 51,
+        "pas": 54,
+        "pos": 38,
+        "sho": 57,
         "sta": 47,
-        "str": 57,
-        "tac": 26,
-        "vis": 43
+        "str": 47,
+        "tac": 34,
+        "vis": 54
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -425,7 +441,7 @@
       "name": "Dino Toppmuller",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1000
     },
@@ -516,7 +532,7 @@
         "ldr": 47,
         "pac": 51,
         "pas": 46,
-        "pos": 28,
+        "pos": 48,
         "sho": 57,
         "sta": 47,
         "str": 55,
@@ -563,18 +579,18 @@
     },
     {
       "attrs": {
-        "aer": 40,
-        "com": 49,
-        "dri": 51,
-        "ldr": 46,
-        "pac": 43,
+        "aer": 34,
+        "com": 50,
+        "dri": 55,
+        "ldr": 44,
+        "pac": 46,
         "pas": 50,
-        "pos": 49,
-        "sho": 42,
-        "sta": 56,
-        "str": 48,
-        "tac": 48,
-        "vis": 54
+        "pos": 34,
+        "sho": 48,
+        "sta": 50,
+        "str": 43,
+        "tac": 30,
+        "vis": 56
       },
       "birth": "1965-07-01",
       "contract": null,
@@ -584,7 +600,7 @@
       "name": "Jean-Philippe Sachet",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 1000
     },
@@ -642,6 +658,11 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 49,
@@ -730,7 +751,7 @@
         "ldr": 41,
         "pac": 46,
         "pas": 36,
-        "pos": 28,
+        "pos": 48,
         "sho": 48,
         "sta": 45,
         "str": 50,

@@ -31,7 +31,7 @@
         "ldr": 78,
         "pac": 82,
         "pas": 73,
-        "pos": 61,
+        "pos": 81,
         "sho": 84,
         "sta": 82,
         "str": 82,
@@ -58,7 +58,7 @@
         "ldr": 73,
         "pac": 77,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 82,
         "sta": 76,
         "str": 77,
@@ -78,6 +78,10 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -112,7 +116,7 @@
         "ldr": 74,
         "pac": 76,
         "pas": 73,
-        "pos": 56,
+        "pos": 76,
         "sho": 84,
         "sta": 77,
         "str": 81,
@@ -131,6 +135,10 @@
       "wage": 47000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -158,7 +166,7 @@
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 77,
@@ -186,6 +194,9 @@
       "wage": 42500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -213,6 +224,9 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -240,9 +254,6 @@
       "wage": 48500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 75,
         "com": 70,
@@ -269,6 +280,11 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 72,
@@ -298,18 +314,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 72,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 68,
+        "aer": 55,
+        "com": 73,
+        "dri": 73,
+        "ldr": 68,
+        "pac": 71,
         "pas": 78,
-        "pos": 72,
-        "sho": 64,
-        "sta": 76,
-        "str": 66,
-        "tac": 68,
-        "vis": 77
+        "pos": 57,
+        "sho": 70,
+        "sta": 70,
+        "str": 61,
+        "tac": 50,
+        "vis": 79
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -319,7 +335,7 @@
       "name": "Johan Mycoud",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 35000
     },
     {
@@ -384,7 +400,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 61,
-        "pos": 53,
+        "pos": 73,
         "sho": 77,
         "sta": 71,
         "str": 73,
@@ -451,13 +467,13 @@
       "name": "Gustavo Nary",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 19500
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 69,
@@ -485,6 +501,11 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "LM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 72,
         "com": 64,
@@ -512,6 +533,11 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -540,18 +566,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 65,
-        "dri": 67,
-        "ldr": 59,
-        "pac": 59,
+        "aer": 50,
+        "com": 66,
+        "dri": 71,
+        "ldr": 57,
+        "pac": 62,
         "pas": 65,
-        "pos": 66,
-        "sho": 63,
-        "sta": 67,
-        "str": 59,
-        "tac": 59,
-        "vis": 66
+        "pos": 51,
+        "sho": 69,
+        "sta": 61,
+        "str": 54,
+        "tac": 41,
+        "vis": 68
       },
       "birth": "1986-09-01",
       "contract": null,
@@ -561,7 +587,7 @@
       "name": "Aaron Hont",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15000
     },
     {
@@ -592,9 +618,6 @@
       "wage": 11500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 69,
         "com": 63,
@@ -675,6 +698,11 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "ST"
+      ],
       "attrs": {
         "aer": 60,
         "com": 57,
@@ -701,6 +729,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 52,

@@ -73,23 +73,23 @@
       "name": "Alexander Nendzik",
       "nation": "GER",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 63,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 64,
-        "pos": 60,
-        "sho": 58,
+        "dri": 56,
+        "ldr": 59,
+        "pac": 50,
+        "pas": 63,
+        "pos": 64,
+        "sho": 52,
         "sta": 66,
-        "str": 58,
-        "tac": 55,
-        "vis": 59
+        "str": 63,
+        "tac": 61,
+        "vis": 56
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -99,10 +99,13 @@
       "name": "Benedikt Seller",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 59,
@@ -129,6 +132,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -155,17 +161,22 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 62,
-        "dri": 60,
+        "aer": 52,
+        "com": 66,
+        "dri": 62,
         "ldr": 57,
-        "pac": 55,
+        "pac": 59,
         "pas": 58,
-        "pos": 59,
-        "sho": 53,
+        "pos": 63,
+        "sho": 57,
         "sta": 62,
-        "str": 56,
+        "str": 60,
         "tac": 54,
         "vis": 58
       },
@@ -178,7 +189,7 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 9,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 8500
     },
     {
@@ -189,7 +200,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 56,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 55,
         "str": 64,
@@ -208,19 +219,24 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "RB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
-        "com": 48,
+        "com": 53,
         "dri": 46,
         "ldr": 46,
         "pac": 49,
-        "pas": 42,
-        "pos": 44,
+        "pas": 47,
+        "pos": 49,
         "sho": 26,
         "sta": 54,
-        "str": 41,
-        "tac": 47,
-        "vis": 44
+        "str": 46,
+        "tac": 52,
+        "vis": 49
       },
       "birth": "1997-03-01",
       "contract": null,
@@ -230,23 +246,26 @@
       "name": "Florian Heistar",
       "nation": "GER",
       "number": 11,
-      "pos": "RB",
+      "pos": "DM",
       "wage": 2000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 50,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 53,
-        "pas": 44,
-        "pos": 31,
-        "sho": 51,
-        "sta": 49,
-        "str": 54,
-        "tac": 20,
-        "vis": 46
+        "aer": 33,
+        "com": 47,
+        "dri": 57,
+        "ldr": 46,
+        "pac": 57,
+        "pas": 50,
+        "pos": 33,
+        "sho": 46,
+        "sta": 51,
+        "str": 44,
+        "tac": 26,
+        "vis": 52
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -256,7 +275,7 @@
       "name": "Erik Wakesser",
       "nation": "GER",
       "number": 13,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 2500
     },
     {
@@ -294,7 +313,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 48,
-        "pos": 32,
+        "pos": 52,
         "sho": 54,
         "sta": 52,
         "str": 56,
@@ -339,19 +358,22 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 59,
-        "dri": 43,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 48,
-        "pos": 58,
-        "sho": 33,
-        "sta": 51,
-        "str": 58,
-        "tac": 60,
-        "vis": 47
+        "aer": 46,
+        "com": 57,
+        "dri": 53,
+        "ldr": 53,
+        "pac": 60,
+        "pas": 52,
+        "pos": 53,
+        "sho": 40,
+        "sta": 57,
+        "str": 50,
+        "tac": 57,
+        "vis": 53
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -361,10 +383,13 @@
       "name": "Oliver Heyn",
       "nation": "GER",
       "number": 17,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,
@@ -398,7 +423,7 @@
         "ldr": 50,
         "pac": 58,
         "pas": 52,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 56,
         "str": 62,
@@ -417,19 +442,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 57,
-        "dri": 53,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 47,
-        "pos": 30,
-        "sho": 61,
-        "sta": 53,
-        "str": 52,
-        "tac": 24,
-        "vis": 44
+        "aer": 42,
+        "com": 54,
+        "dri": 58,
+        "ldr": 50,
+        "pac": 58,
+        "pas": 53,
+        "pos": 32,
+        "sho": 56,
+        "sta": 55,
+        "str": 42,
+        "tac": 30,
+        "vis": 50
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -439,23 +467,23 @@
       "name": "Jan-Marc Schneyder",
       "nation": "GER",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 62,
+        "aer": 58,
+        "com": 63,
         "dri": 60,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 63,
+        "ldr": 54,
+        "pac": 60,
+        "pas": 53,
         "pos": 56,
-        "sho": 58,
-        "sta": 65,
-        "str": 55,
-        "tac": 57,
-        "vis": 63
+        "sho": 67,
+        "sta": 59,
+        "str": 60,
+        "tac": 31,
+        "vis": 54
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -465,7 +493,7 @@
       "name": "Sebastian Stolza",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 9500
     },
     {
@@ -622,7 +650,7 @@
       "name": "Chima Okoruji",
       "nation": "GER",
       "number": 36,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3500
     },
     {

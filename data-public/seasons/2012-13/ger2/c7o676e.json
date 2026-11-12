@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 62,
-        "dri": 45,
-        "ldr": 61,
-        "pac": 53,
-        "pas": 54,
-        "pos": 67,
-        "sho": 36,
-        "sta": 58,
-        "str": 65,
-        "tac": 67,
-        "vis": 44
+        "aer": 50,
+        "com": 60,
+        "dri": 55,
+        "ldr": 57,
+        "pac": 61,
+        "pas": 58,
+        "pos": 62,
+        "sho": 43,
+        "sta": 64,
+        "str": 57,
+        "tac": 64,
+        "vis": 50
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -99,10 +99,13 @@
       "name": "Nils Teixeyra",
       "nation": "GER",
       "number": 4,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -130,18 +133,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 41,
         "com": 56,
-        "dri": 56,
+        "dri": 60,
         "ldr": 50,
-        "pac": 59,
-        "pas": 48,
-        "pos": 37,
-        "sho": 59,
+        "pac": 57,
+        "pas": 58,
+        "pos": 42,
+        "sho": 56,
         "sta": 54,
-        "str": 55,
-        "tac": 30,
-        "vis": 49
+        "str": 45,
+        "tac": 38,
+        "vis": 60
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -152,10 +155,13 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 7,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -189,7 +195,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 58,
         "str": 67,
@@ -215,7 +221,7 @@
         "ldr": 50,
         "pac": 53,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 55,
         "str": 53,
@@ -236,18 +242,18 @@
     },
     {
       "attrs": {
-        "aer": 39,
-        "com": 43,
-        "dri": 46,
-        "ldr": 39,
-        "pac": 44,
-        "pas": 49,
-        "pos": 45,
-        "sho": 37,
-        "sta": 45,
-        "str": 44,
-        "tac": 43,
-        "vis": 45
+        "aer": 33,
+        "com": 41,
+        "dri": 51,
+        "ldr": 35,
+        "pac": 53,
+        "pas": 45,
+        "pos": 27,
+        "sho": 41,
+        "sta": 41,
+        "str": 39,
+        "tac": 23,
+        "vis": 42
       },
       "birth": "1993-10-01",
       "contract": null,
@@ -257,13 +263,10 @@
       "name": "Markus Hofmeyer",
       "nation": "GER",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 1000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 63,
@@ -290,19 +293,24 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 51,
+        "com": 59,
         "dri": 43,
         "ldr": 51,
         "pac": 48,
-        "pas": 48,
+        "pas": 56,
         "pos": 60,
         "sho": 32,
-        "sta": 49,
+        "sta": 57,
         "str": 57,
         "tac": 59,
-        "vis": 41
+        "vis": 49
       },
       "birth": "1985-03-01",
       "contract": null,
@@ -312,21 +320,26 @@
       "name": "Marc Heitmeiar",
       "nation": "GER",
       "number": 16,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 51,
-        "dri": 54,
+        "aer": 49,
+        "com": 58,
+        "dri": 56,
         "ldr": 48,
-        "pac": 47,
+        "pac": 54,
         "pas": 54,
-        "pos": 51,
-        "sho": 48,
+        "pos": 58,
+        "sho": 55,
         "sta": 55,
-        "str": 49,
+        "str": 56,
         "tac": 48,
         "vis": 54
       },
@@ -338,10 +351,15 @@
       "name": "Yun Jo-tae",
       "nation": "KOR",
       "number": 17,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -369,17 +387,17 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 55,
-        "dri": 52,
+        "aer": 45,
+        "com": 50,
+        "dri": 50,
         "ldr": 51,
-        "pac": 57,
-        "pas": 50,
-        "pos": 32,
-        "sho": 58,
-        "sta": 54,
-        "str": 56,
-        "tac": 23,
+        "pac": 59,
+        "pas": 54,
+        "pos": 52,
+        "sho": 35,
+        "sta": 60,
+        "str": 50,
+        "tac": 53,
         "vis": 50
       },
       "birth": "1989-08-01",
@@ -390,23 +408,28 @@
       "name": "Marcel Geus",
       "nation": "GER",
       "number": 19,
-      "pos": "ST",
+      "pos": "LB",
       "wage": 2500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 68,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 70,
-        "pas": 60,
-        "pos": 42,
-        "sho": 71,
-        "sta": 62,
-        "str": 69,
-        "tac": 39,
-        "vis": 59
+        "aer": 51,
+        "com": 65,
+        "dri": 72,
+        "ldr": 61,
+        "pac": 74,
+        "pas": 66,
+        "pos": 44,
+        "sho": 66,
+        "sta": 64,
+        "str": 59,
+        "tac": 45,
+        "vis": 65
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -417,7 +440,7 @@
       "name": "Mathew Leckye",
       "nation": "AUS",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6500
     },
     {
@@ -448,18 +471,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 60,
-        "ldr": 62,
-        "pac": 57,
-        "pas": 64,
-        "pos": 64,
-        "sho": 58,
-        "sta": 66,
-        "str": 59,
-        "tac": 58,
-        "vis": 62
+        "aer": 44,
+        "com": 58,
+        "dri": 65,
+        "ldr": 58,
+        "pac": 66,
+        "pas": 60,
+        "pos": 46,
+        "sho": 62,
+        "sta": 62,
+        "str": 54,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "1991-05-01",
       "contract": null,
@@ -470,23 +493,26 @@
       "name": "Odise Roshy",
       "nation": "ALB",
       "number": 22,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 50,
-        "dri": 53,
-        "ldr": 46,
-        "pac": 46,
-        "pas": 53,
-        "pos": 53,
-        "sho": 44,
-        "sta": 52,
-        "str": 45,
-        "tac": 47,
-        "vis": 51
+        "aer": 39,
+        "com": 48,
+        "dri": 58,
+        "ldr": 42,
+        "pac": 55,
+        "pas": 49,
+        "pos": 35,
+        "sho": 48,
+        "sta": 48,
+        "str": 40,
+        "tac": 27,
+        "vis": 48
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -497,10 +523,14 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 25,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -554,18 +584,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 57,
-        "dri": 56,
-        "ldr": 49,
-        "pac": 54,
+        "aer": 62,
+        "com": 54,
+        "dri": 44,
+        "ldr": 53,
+        "pac": 48,
         "pas": 48,
-        "pos": 33,
-        "sho": 56,
+        "pos": 58,
+        "sho": 26,
         "sta": 52,
-        "str": 58,
-        "tac": 29,
-        "vis": 50
+        "str": 60,
+        "tac": 62,
+        "vis": 44
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -575,10 +605,13 @@
       "name": "Tim Heubech",
       "nation": "GER",
       "number": 31,
-      "pos": "ST",
+      "pos": "CB",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,

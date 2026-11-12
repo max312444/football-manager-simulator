@@ -99,23 +99,23 @@
       "name": "Filipe Luys",
       "nation": "BRA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 89000
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 79,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 76,
-        "pas": 79,
-        "pos": 79,
-        "sho": 74,
+        "dri": 70,
+        "ldr": 73,
+        "pac": 73,
+        "pas": 78,
+        "pos": 83,
+        "sho": 68,
         "sta": 83,
-        "str": 73,
-        "tac": 72,
-        "vis": 82
+        "str": 78,
+        "tac": 78,
+        "vis": 79
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -125,10 +125,13 @@
       "name": "Mario Suaraz",
       "nation": "ESP",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 89000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 77,
@@ -155,6 +158,9 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 77,
@@ -188,7 +194,7 @@
         "ldr": 71,
         "pac": 77,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 75,
         "str": 76,
@@ -214,7 +220,7 @@
         "ldr": 79,
         "pac": 81,
         "pas": 72,
-        "pos": 59,
+        "pos": 79,
         "sho": 82,
         "sta": 81,
         "str": 80,
@@ -233,6 +239,9 @@
       "wage": 88500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 79,
@@ -259,19 +268,22 @@
       "wage": 89000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 79,
-        "dri": 83,
-        "ldr": 73,
-        "pac": 76,
-        "pas": 81,
-        "pos": 61,
-        "sho": 81,
-        "sta": 74,
+        "com": 76,
+        "dri": 84,
+        "ldr": 71,
+        "pac": 82,
+        "pas": 77,
+        "pos": 58,
+        "sho": 79,
+        "sta": 76,
         "str": 68,
-        "tac": 60,
-        "vis": 83
+        "tac": 58,
+        "vis": 78
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -282,7 +294,7 @@
       "nation": "URU",
       "nation2": "ITA",
       "number": 11,
-      "pos": "AM",
+      "pos": "RW",
       "wage": 74500
     },
     {
@@ -314,18 +326,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 76,
-        "dri": 73,
-        "ldr": 75,
-        "pac": 74,
-        "pas": 78,
-        "pos": 79,
-        "sho": 73,
+        "dri": 69,
+        "ldr": 77,
+        "pac": 71,
+        "pas": 77,
+        "pos": 83,
+        "sho": 67,
         "sta": 81,
-        "str": 71,
-        "tac": 76,
-        "vis": 76
+        "str": 76,
+        "tac": 82,
+        "vis": 73
       },
       "birth": "1983-07-01",
       "contract": null,
@@ -335,10 +347,13 @@
       "name": "Gaby",
       "nation": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -424,7 +439,7 @@
         "ldr": 72,
         "pac": 74,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 69,
         "str": 72,
@@ -444,22 +459,19 @@
       "wage": 38000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 83,
-        "com": 75,
-        "dri": 68,
-        "ldr": 81,
-        "pac": 75,
-        "pas": 70,
-        "pos": 83,
-        "sho": 54,
-        "sta": 73,
-        "str": 80,
-        "tac": 84,
-        "vis": 69
+        "aer": 70,
+        "com": 73,
+        "dri": 78,
+        "ldr": 77,
+        "pac": 83,
+        "pas": 74,
+        "pos": 78,
+        "sho": 61,
+        "sta": 79,
+        "str": 72,
+        "tac": 81,
+        "vis": 75
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -469,23 +481,27 @@
       "name": "Joanfran",
       "nation": "ESP",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 84500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 65,
-        "dri": 61,
-        "ldr": 56,
-        "pac": 63,
-        "pas": 56,
-        "pos": 38,
-        "sho": 63,
-        "sta": 60,
-        "str": 60,
-        "tac": 33,
-        "vis": 50
+        "aer": 45,
+        "com": 62,
+        "dri": 66,
+        "ldr": 54,
+        "pac": 67,
+        "pas": 62,
+        "pos": 40,
+        "sho": 58,
+        "sta": 62,
+        "str": 50,
+        "tac": 39,
+        "vis": 56
       },
       "birth": "1992-08-01",
       "contract": null,
@@ -496,7 +512,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9500
     },
     {
@@ -523,7 +539,7 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 22,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 55500
     }
   ],

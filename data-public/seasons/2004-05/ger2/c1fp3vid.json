@@ -31,7 +31,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 56,
-        "pos": 48,
+        "pos": 68,
         "sho": 72,
         "sta": 63,
         "str": 67,
@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 41,
         "com": 62,
-        "dri": 59,
+        "dri": 63,
         "ldr": 51,
-        "pac": 59,
-        "pas": 54,
-        "pos": 39,
-        "sho": 64,
+        "pac": 57,
+        "pas": 64,
+        "pos": 44,
+        "sho": 61,
         "sta": 57,
-        "str": 60,
-        "tac": 27,
-        "vis": 53
+        "str": 50,
+        "tac": 35,
+        "vis": 64
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -100,23 +100,28 @@
       "name": "Dino Toppmuller",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 60,
+        "com": 69,
         "dri": 43,
         "ldr": 60,
         "pac": 53,
-        "pas": 48,
+        "pas": 57,
         "pos": 61,
         "sho": 30,
-        "sta": 55,
+        "sta": 64,
         "str": 63,
         "tac": 59,
-        "vis": 44
+        "vis": 53
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -126,10 +131,15 @@
       "name": "Rudiger Rahm",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -184,6 +194,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 48,
         "com": 55,
@@ -211,18 +226,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 58,
-        "dri": 57,
-        "ldr": 54,
-        "pac": 51,
-        "pas": 60,
-        "pos": 57,
-        "sho": 50,
+        "dri": 53,
+        "ldr": 56,
+        "pac": 48,
+        "pas": 59,
+        "pos": 61,
+        "sho": 44,
         "sta": 59,
-        "str": 50,
-        "tac": 51,
-        "vis": 61
+        "str": 55,
+        "tac": 57,
+        "vis": 58
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -232,21 +247,26 @@
       "name": "Matthias Heidrych",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 55,
-        "dri": 53,
+        "aer": 57,
+        "com": 62,
+        "dri": 59,
         "ldr": 53,
-        "pac": 51,
+        "pac": 58,
         "pas": 59,
-        "pos": 53,
-        "sho": 49,
+        "pos": 60,
+        "sho": 56,
         "sta": 61,
-        "str": 54,
+        "str": 61,
         "tac": 51,
         "vis": 58
       },
@@ -258,24 +278,24 @@
       "name": "Sebastian Helbyg",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 54,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 60,
-        "pos": 56,
-        "sho": 50,
+        "dri": 50,
+        "ldr": 56,
+        "pac": 47,
+        "pas": 59,
+        "pos": 60,
+        "sho": 44,
         "sta": 59,
-        "str": 54,
-        "tac": 52,
-        "vis": 57
+        "str": 59,
+        "tac": 58,
+        "vis": 54
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -285,7 +305,7 @@
       "name": "Marco Korth",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -296,7 +316,7 @@
         "ldr": 47,
         "pac": 59,
         "pas": 47,
-        "pos": 37,
+        "pos": 57,
         "sho": 61,
         "sta": 49,
         "str": 55,
@@ -344,6 +364,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,
@@ -370,6 +393,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 42,
         "com": 58,
@@ -424,18 +452,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 51,
-        "dri": 42,
+        "aer": 51,
+        "com": 53,
+        "dri": 50,
         "ldr": 52,
-        "pac": 51,
-        "pas": 44,
-        "pos": 59,
-        "sho": 25,
-        "sta": 47,
-        "str": 54,
-        "tac": 55,
-        "vis": 38
+        "pac": 49,
+        "pas": 53,
+        "pos": 58,
+        "sho": 40,
+        "sta": 53,
+        "str": 52,
+        "tac": 54,
+        "vis": 50
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -445,7 +473,7 @@
       "name": "Thorsten Gorka",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
@@ -537,7 +565,7 @@
         "ldr": 45,
         "pac": 53,
         "pas": 41,
-        "pos": 27,
+        "pos": 47,
         "sho": 52,
         "sta": 49,
         "str": 54,
@@ -583,19 +611,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 49,
-        "dri": 46,
-        "ldr": 43,
-        "pac": 47,
-        "pas": 49,
-        "pos": 47,
-        "sho": 43,
-        "sta": 52,
-        "str": 46,
-        "tac": 47,
-        "vis": 49
+        "aer": 36,
+        "com": 47,
+        "dri": 51,
+        "ldr": 39,
+        "pac": 56,
+        "pas": 45,
+        "pos": 29,
+        "sho": 47,
+        "sta": 48,
+        "str": 41,
+        "tac": 27,
+        "vis": 46
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -605,7 +636,7 @@
       "name": "Kevin Hempf",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 1500
     }

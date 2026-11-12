@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -52,6 +55,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
@@ -134,18 +140,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 57,
+        "aer": 54,
+        "com": 58,
         "dri": 55,
-        "ldr": 52,
-        "pac": 50,
-        "pas": 58,
+        "ldr": 50,
+        "pac": 55,
+        "pas": 48,
         "pos": 53,
-        "sho": 55,
-        "sta": 62,
-        "str": 55,
-        "tac": 56,
-        "vis": 59
+        "sho": 64,
+        "sta": 56,
+        "str": 60,
+        "tac": 30,
+        "vis": 50
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -155,7 +161,7 @@
       "name": "Sambo Chojy",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 3000
     },
@@ -167,7 +173,7 @@
         "ldr": 48,
         "pac": 60,
         "pas": 46,
-        "pos": 37,
+        "pos": 57,
         "sho": 59,
         "sta": 55,
         "str": 60,
@@ -194,7 +200,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 49,
         "str": 54,
@@ -294,6 +300,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 51,
@@ -354,7 +363,7 @@
         "ldr": 51,
         "pac": 54,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 54,
         "sta": 52,
         "str": 57,
@@ -373,6 +382,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 47,
         "com": 51,
@@ -451,6 +465,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 55,
@@ -556,19 +573,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 47,
+        "com": 59,
         "dri": 40,
         "ldr": 46,
         "pac": 48,
-        "pas": 44,
+        "pas": 56,
         "pos": 56,
         "sho": 21,
-        "sta": 44,
+        "sta": 56,
         "str": 51,
         "tac": 53,
-        "vis": 34
+        "vis": 46
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -578,22 +600,27 @@
       "name": "Kosta Rodrygues",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 38,
-        "com": 52,
-        "dri": 47,
+        "aer": 45,
+        "com": 59,
+        "dri": 52,
         "ldr": 46,
-        "pac": 45,
+        "pac": 52,
         "pas": 53,
-        "pos": 51,
-        "sho": 47,
+        "pos": 58,
+        "sho": 54,
         "sta": 55,
-        "str": 45,
+        "str": 52,
         "tac": 45,
         "vis": 54
       },
@@ -605,7 +632,7 @@
       "name": "Lars Fochs",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 1500
     },

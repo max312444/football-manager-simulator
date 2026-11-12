@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,
@@ -46,7 +51,7 @@
       "name": "Ian Harta",
       "nation": "IRL",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 26500
     },
     {
@@ -77,6 +82,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 73,
@@ -111,7 +119,7 @@
         "ldr": 67,
         "pac": 78,
         "pas": 65,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 72,
         "str": 75,
@@ -159,21 +167,21 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 63,
-        "com": 74,
-        "dri": 71,
-        "ldr": 71,
-        "pac": 69,
+        "aer": 57,
+        "com": 75,
+        "dri": 75,
+        "ldr": 69,
+        "pac": 72,
         "pas": 76,
-        "pos": 73,
-        "sho": 70,
-        "sta": 77,
-        "str": 72,
-        "tac": 70,
-        "vis": 76
+        "pos": 58,
+        "sho": 76,
+        "sta": 71,
+        "str": 67,
+        "tac": 52,
+        "vis": 78
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -184,27 +192,24 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 29500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 61,
-        "com": 74,
+        "aer": 69,
+        "com": 75,
         "dri": 70,
-        "ldr": 73,
-        "pac": 71,
-        "pas": 73,
+        "ldr": 71,
+        "pac": 76,
+        "pas": 63,
         "pos": 70,
-        "sho": 65,
-        "sta": 74,
-        "str": 69,
-        "tac": 72,
-        "vis": 74
+        "sho": 74,
+        "sta": 68,
+        "str": 74,
+        "tac": 46,
+        "vis": 65
       },
       "birth": "1981-10-01",
       "contract": null,
@@ -214,23 +219,23 @@
       "name": "Riga Mostapha",
       "nation": "NED",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 25500
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 77,
-        "dri": 70,
-        "ldr": 70,
-        "pac": 67,
-        "pas": 77,
-        "pos": 74,
-        "sho": 69,
+        "dri": 66,
+        "ldr": 72,
+        "pac": 64,
+        "pas": 76,
+        "pos": 78,
+        "sho": 63,
         "sta": 78,
-        "str": 67,
-        "tac": 69,
-        "vis": 78
+        "str": 72,
+        "tac": 75,
+        "vis": 75
       },
       "birth": "1976-06-01",
       "contract": null,
@@ -241,23 +246,23 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 28500
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 69,
-        "ldr": 69,
-        "pac": 68,
-        "pas": 74,
-        "pos": 71,
-        "sho": 66,
-        "sta": 78,
-        "str": 66,
-        "tac": 66,
-        "vis": 76
+        "aer": 57,
+        "com": 74,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 77,
+        "pas": 70,
+        "pos": 53,
+        "sho": 70,
+        "sta": 74,
+        "str": 61,
+        "tac": 46,
+        "vis": 73
       },
       "birth": "1975-05-01",
       "contract": null,
@@ -267,7 +272,7 @@
       "name": "Laurent Rubert",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LW",
       "verify": true,
       "wage": 24500
     },
@@ -279,7 +284,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 65,
-        "pos": 48,
+        "pos": 68,
         "sho": 75,
         "sta": 70,
         "str": 70,
@@ -306,7 +311,7 @@
         "ldr": 64,
         "pac": 70,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 65,
         "str": 72,
@@ -334,7 +339,7 @@
         "ldr": 67,
         "pac": 72,
         "pas": 65,
-        "pos": 53,
+        "pos": 73,
         "sho": 73,
         "sta": 69,
         "str": 70,
@@ -354,19 +359,22 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 72,
-        "dri": 58,
-        "ldr": 68,
-        "pac": 69,
-        "pas": 65,
-        "pos": 74,
-        "sho": 46,
-        "sta": 65,
-        "str": 74,
-        "tac": 72,
-        "vis": 61
+        "aer": 63,
+        "com": 70,
+        "dri": 68,
+        "ldr": 64,
+        "pac": 77,
+        "pas": 69,
+        "pos": 69,
+        "sho": 53,
+        "sta": 71,
+        "str": 66,
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -376,7 +384,7 @@
       "name": "Ze Marie",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 16500
     },
@@ -409,18 +417,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 67,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 61,
+        "aer": 50,
+        "com": 68,
+        "dri": 73,
+        "ldr": 63,
+        "pac": 64,
         "pas": 73,
-        "pos": 66,
-        "sho": 63,
-        "sta": 73,
-        "str": 61,
-        "tac": 63,
-        "vis": 68
+        "pos": 51,
+        "sho": 69,
+        "sta": 67,
+        "str": 56,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "1983-07-01",
       "contract": null,
@@ -430,11 +438,14 @@
       "name": "Carmelo Gonzalaz",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -461,6 +472,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -569,9 +583,6 @@
       "wage": 10500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 71,
         "com": 63,
@@ -605,7 +616,7 @@
         "ldr": 58,
         "pac": 68,
         "pas": 61,
-        "pos": 42,
+        "pos": 62,
         "sho": 73,
         "sta": 65,
         "str": 66,
@@ -626,18 +637,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 65,
-        "dri": 53,
-        "ldr": 62,
-        "pac": 58,
-        "pas": 56,
-        "pos": 71,
-        "sho": 35,
-        "sta": 63,
-        "str": 70,
-        "tac": 66,
-        "vis": 52
+        "aer": 52,
+        "com": 63,
+        "dri": 63,
+        "ldr": 58,
+        "pac": 66,
+        "pas": 60,
+        "pos": 66,
+        "sho": 42,
+        "sta": 69,
+        "str": 62,
+        "tac": 63,
+        "vis": 58
       },
       "birth": "1980-04-01",
       "contract": null,
@@ -647,11 +658,14 @@
       "name": "Juenra",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 67,
@@ -706,9 +720,6 @@
       "wage": 7500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 66,
@@ -737,18 +748,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 63,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 57,
-        "pas": 62,
-        "pos": 64,
-        "sho": 56,
+        "dri": 57,
+        "ldr": 59,
+        "pac": 54,
+        "pas": 61,
+        "pos": 68,
+        "sho": 50,
         "sta": 67,
-        "str": 59,
-        "tac": 59,
-        "vis": 66
+        "str": 64,
+        "tac": 65,
+        "vis": 63
       },
       "birth": "1976-10-01",
       "contract": null,
@@ -758,7 +769,7 @@
       "name": "Diego Cemacho",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
@@ -788,6 +799,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -815,18 +829,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 50,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 57,
-        "pos": 66,
-        "sho": 33,
-        "sta": 61,
-        "str": 61,
-        "tac": 65,
-        "vis": 46
+        "aer": 50,
+        "com": 57,
+        "dri": 60,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 61,
+        "pos": 61,
+        "sho": 40,
+        "sta": 67,
+        "str": 53,
+        "tac": 62,
+        "vis": 52
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -836,7 +850,7 @@
       "name": "Juan Caballos",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 5000
     },
@@ -894,6 +908,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -928,7 +945,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 54,
-        "pos": 36,
+        "pos": 56,
         "sho": 64,
         "sta": 52,
         "str": 56,
@@ -954,7 +971,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 65,
         "sta": 52,
         "str": 57,
@@ -981,7 +998,7 @@
         "ldr": 51,
         "pac": 59,
         "pas": 49,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 56,
         "str": 57,

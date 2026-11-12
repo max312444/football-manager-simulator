@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 81,
         "com": 83,
@@ -31,7 +36,7 @@
         "ldr": 75,
         "pac": 79,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 85,
         "sta": 73,
         "str": 80,
@@ -58,7 +63,7 @@
         "ldr": 74,
         "pac": 82,
         "pas": 68,
-        "pos": 60,
+        "pos": 80,
         "sho": 81,
         "sta": 72,
         "str": 77,
@@ -78,6 +83,9 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 76,
@@ -130,6 +138,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -163,7 +174,7 @@
         "ldr": 64,
         "pac": 70,
         "pas": 68,
-        "pos": 52,
+        "pos": 72,
         "sho": 75,
         "sta": 71,
         "str": 71,
@@ -183,6 +194,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,
@@ -257,7 +271,7 @@
       "name": "Alberto Marcus",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 14000
     },
     {
@@ -288,18 +302,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 64,
-        "ldr": 66,
-        "pac": 60,
+        "aer": 54,
+        "com": 68,
+        "dri": 68,
+        "ldr": 64,
+        "pac": 63,
         "pas": 72,
-        "pos": 63,
-        "sho": 61,
-        "sta": 68,
-        "str": 66,
-        "tac": 63,
-        "vis": 70
+        "pos": 48,
+        "sho": 67,
+        "sta": 62,
+        "str": 61,
+        "tac": 45,
+        "vis": 72
       },
       "birth": "1974-09-01",
       "contract": null,
@@ -309,24 +323,24 @@
       "name": "Dragan Ciryc",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 69,
-        "dri": 53,
-        "ldr": 63,
-        "pac": 62,
-        "pas": 57,
-        "pos": 74,
-        "sho": 43,
-        "sta": 64,
-        "str": 70,
-        "tac": 73,
-        "vis": 52
+        "aer": 61,
+        "com": 67,
+        "dri": 63,
+        "ldr": 59,
+        "pac": 70,
+        "pas": 61,
+        "pos": 69,
+        "sho": 50,
+        "sta": 70,
+        "str": 62,
+        "tac": 70,
+        "vis": 58
       },
       "birth": "1970-01-01",
       "contract": null,
@@ -336,10 +350,13 @@
       "name": "Javier Torres Gomaz",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 71,
@@ -367,6 +384,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -394,6 +414,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 68,
@@ -422,18 +445,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 69,
-        "dri": 62,
-        "ldr": 64,
-        "pac": 64,
+        "aer": 48,
+        "com": 70,
+        "dri": 66,
+        "ldr": 62,
+        "pac": 67,
         "pas": 68,
-        "pos": 65,
-        "sho": 64,
-        "sta": 66,
-        "str": 65,
-        "tac": 63,
-        "vis": 68
+        "pos": 50,
+        "sho": 70,
+        "sta": 60,
+        "str": 60,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -443,24 +466,28 @@
       "name": "Rodrigo Febri",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 12000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 63,
+        "aer": 53,
+        "com": 69,
+        "dri": 66,
+        "ldr": 60,
+        "pac": 66,
         "pas": 71,
-        "pos": 63,
-        "sho": 58,
-        "sta": 68,
-        "str": 64,
-        "tac": 62,
-        "vis": 68
+        "pos": 48,
+        "sho": 64,
+        "sta": 62,
+        "str": 59,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1978-06-01",
       "contract": null,
@@ -470,7 +497,7 @@
       "name": "Luis Garcie",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 11500
     },
@@ -509,7 +536,7 @@
         "ldr": 60,
         "pac": 62,
         "pas": 58,
-        "pos": 42,
+        "pos": 62,
         "sho": 69,
         "sta": 61,
         "str": 61,
@@ -530,18 +557,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 57,
-        "dri": 55,
-        "ldr": 55,
-        "pac": 58,
-        "pas": 59,
-        "pos": 57,
-        "sho": 51,
+        "dri": 51,
+        "ldr": 57,
+        "pac": 55,
+        "pas": 58,
+        "pos": 61,
+        "sho": 45,
         "sta": 59,
-        "str": 56,
-        "tac": 59,
-        "vis": 63
+        "str": 61,
+        "tac": 65,
+        "vis": 60
       },
       "birth": "1973-10-01",
       "contract": null,
@@ -551,10 +578,13 @@
       "name": "Jesus Turial",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -634,19 +664,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 57,
-        "dri": 42,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 51,
-        "pos": 59,
-        "sho": 31,
-        "sta": 56,
-        "str": 60,
-        "tac": 60,
-        "vis": 46
+        "aer": 47,
+        "com": 55,
+        "dri": 52,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 55,
+        "pos": 54,
+        "sho": 38,
+        "sta": 62,
+        "str": 52,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "1976-03-01",
       "contract": null,
@@ -656,11 +689,15 @@
       "name": "Orlando Gutierraz",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -688,6 +725,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -722,7 +762,7 @@
         "ldr": 49,
         "pac": 58,
         "pas": 47,
-        "pos": 36,
+        "pos": 56,
         "sho": 57,
         "sta": 55,
         "str": 57,
@@ -796,6 +836,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -823,19 +866,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 50,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 54,
-        "pos": 52,
-        "sho": 46,
-        "sta": 53,
-        "str": 51,
-        "tac": 52,
-        "vis": 51
+        "aer": 45,
+        "com": 52,
+        "dri": 56,
+        "ldr": 52,
+        "pac": 48,
+        "pas": 56,
+        "pos": 53,
+        "sho": 48,
+        "sta": 55,
+        "str": 52,
+        "tac": 53,
+        "vis": 53
       },
       "birth": "1981-02-01",
       "contract": null,

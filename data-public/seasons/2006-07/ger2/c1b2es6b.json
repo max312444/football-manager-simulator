@@ -51,6 +51,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 68,
@@ -78,6 +81,11 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 62,
@@ -159,6 +167,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -239,6 +250,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 57,
@@ -273,7 +287,7 @@
         "ldr": 50,
         "pac": 59,
         "pas": 48,
-        "pos": 37,
+        "pos": 57,
         "sho": 60,
         "sta": 55,
         "str": 58,
@@ -301,7 +315,7 @@
         "ldr": 47,
         "pac": 57,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 61,
         "sta": 54,
         "str": 53,
@@ -347,9 +361,6 @@
       "wage": 1500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 48,
         "com": 53,
@@ -372,23 +383,23 @@
       "name": "Karsten Hotwelker",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 54,
-        "dri": 55,
-        "ldr": 49,
-        "pac": 50,
+        "aer": 39,
+        "com": 55,
+        "dri": 59,
+        "ldr": 47,
+        "pac": 53,
         "pas": 57,
-        "pos": 55,
-        "sho": 47,
-        "sta": 58,
-        "str": 50,
-        "tac": 54,
-        "vis": 58
+        "pos": 40,
+        "sho": 53,
+        "sta": 52,
+        "str": 45,
+        "tac": 36,
+        "vis": 60
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -398,7 +409,7 @@
       "name": "Sasa Raduluvic",
       "nation": "AUS",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
@@ -429,6 +440,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -455,6 +469,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -481,6 +498,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 55,
@@ -508,6 +528,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -614,6 +637,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 50,
@@ -648,7 +674,7 @@
         "ldr": 43,
         "pac": 52,
         "pas": 42,
-        "pos": 31,
+        "pos": 51,
         "sho": 51,
         "sta": 45,
         "str": 52,
@@ -701,7 +727,7 @@
         "ldr": 47,
         "pac": 49,
         "pas": 40,
-        "pos": 26,
+        "pos": 46,
         "sho": 51,
         "sta": 48,
         "str": 51,
@@ -774,19 +800,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 49,
-        "dri": 44,
+        "dri": 53,
         "ldr": 41,
         "pac": 46,
-        "pas": 38,
-        "pos": 27,
+        "pas": 47,
+        "pos": 47,
         "sho": 51,
         "sta": 43,
         "str": 47,
         "tac": 21,
-        "vis": 40
+        "vis": 49
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -797,11 +828,15 @@
       "nation": "GER",
       "nation2": "UKR",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 48,
@@ -835,7 +870,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 64,
         "str": 69,

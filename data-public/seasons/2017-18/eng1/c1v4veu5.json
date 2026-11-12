@@ -288,17 +288,17 @@
     {
       "attrs": {
         "aer": 68,
-        "com": 68,
+        "com": 69,
         "dri": 68,
         "ldr": 59,
         "pac": 69,
-        "pas": 70,
-        "pos": 70,
+        "pas": 71,
+        "pos": 71,
         "sho": 56,
         "sta": 79,
-        "str": 75,
-        "tac": 76,
-        "vis": 64
+        "str": 76,
+        "tac": 77,
+        "vis": 65
       },
       "birth": "1989-11-01",
       "contract": "2021-06-30",
@@ -362,26 +362,30 @@
       "name": "Gareth Barri",
       "nation": "ENG",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "leader"
       ],
       "wage": 99500
     },
     {
+      "alt": [
+        "LW",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 70,
-        "dri": 64,
+        "com": 77,
+        "dri": 71,
         "ldr": 74,
-        "pac": 52,
+        "pac": 59,
         "pas": 76,
         "pos": 64,
-        "sho": 66,
+        "sho": 73,
         "sta": 70,
         "str": 69,
         "tac": 64,
-        "vis": 72
+        "vis": 79
       },
       "birth": "1984-12-01",
       "contract": "2019-06-30",
@@ -391,13 +395,17 @@
       "name": "Chris Bront",
       "nation": "NIR",
       "number": 11,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "free_kick"
       ],
       "wage": 90000
     },
     {
+      "alt": [
+        "DM",
+        "RM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -432,11 +440,11 @@
         "ldr": 41,
         "pac": 50,
         "pas": 56,
-        "pos": 51,
+        "pos": 57,
         "sho": 51,
         "sta": 57,
-        "str": 49,
-        "tac": 47,
+        "str": 55,
+        "tac": 53,
         "vis": 55
       },
       "birth": "1998-05-01",
@@ -447,11 +455,16 @@
       "name": "Sam Fiald",
       "nation": "ENG",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 14000
     },
     {
+      "alt": [
+        "LW",
+        "LWB",
+        "ST"
+      ],
       "attrs": {
         "aer": 51,
         "com": 73,
@@ -479,15 +492,18 @@
       "wage": 69000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 61,
-        "dri": 71,
+        "com": 65,
+        "dri": 75,
         "ldr": 58,
-        "pac": 78,
+        "pac": 82,
         "pas": 63,
         "pos": 55,
-        "sho": 63,
+        "sho": 67,
         "sta": 84,
         "str": 74,
         "tac": 57,
@@ -505,19 +521,23 @@
       "wage": 71000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 68,
-        "com": 72,
+        "com": 73,
         "dri": 76,
         "ldr": 56,
         "pac": 72,
-        "pas": 74,
+        "pas": 75,
         "pos": 58,
-        "sho": 74,
+        "sho": 75,
         "sta": 74,
         "str": 72,
         "tac": 52,
-        "vis": 70
+        "vis": 71
       },
       "birth": "1989-08-01",
       "contract": "2021-06-30",
@@ -532,6 +552,10 @@
       "wage": 103500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -560,16 +584,16 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 70,
+        "aer": 73,
+        "com": 71,
         "dri": 70,
         "ldr": 52,
         "pac": 72,
         "pas": 64,
-        "pos": 46,
-        "sho": 76,
+        "pos": 47,
+        "sho": 77,
         "sta": 70,
-        "str": 70,
+        "str": 71,
         "tac": 38,
         "vis": 62
       },
@@ -617,19 +641,23 @@
       "wage": 94000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
-        "dri": 65,
+        "dri": 66,
         "ldr": 56,
-        "pac": 63,
-        "pas": 58,
+        "pac": 64,
+        "pas": 59,
         "pos": 46,
         "sho": 70,
         "sta": 63,
         "str": 65,
         "tac": 40,
-        "vis": 58
+        "vis": 59
       },
       "birth": "1989-05-01",
       "contract": "2019-06-30",
@@ -640,7 +668,7 @@
       "nation": "WAL",
       "nation2": "ENG",
       "number": 4,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 37000
     }

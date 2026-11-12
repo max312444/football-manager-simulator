@@ -51,19 +51,16 @@
       "wage": 162500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 80,
-        "dri": 64,
+        "dri": 70,
         "ldr": 79,
-        "pac": 71,
+        "pac": 77,
         "pas": 76,
         "pos": 83,
         "sho": 49,
-        "sta": 83,
+        "sta": 89,
         "str": 72,
         "tac": 82,
         "vis": 68
@@ -85,18 +82,19 @@
     {
       "alt": [
         "RB",
+        "CM",
         "DM"
       ],
       "attrs": {
         "aer": 62,
         "com": 74,
-        "dri": 65,
+        "dri": 67,
         "ldr": 64,
-        "pac": 70,
+        "pac": 72,
         "pas": 73,
         "pos": 76,
         "sho": 48,
-        "sta": 83,
+        "sta": 85,
         "str": 68,
         "tac": 77,
         "vis": 65
@@ -115,7 +113,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 67,
@@ -123,12 +121,12 @@
         "dri": 81,
         "ldr": 75,
         "pac": 71,
-        "pas": 89,
+        "pas": 91,
         "pos": 71,
         "sho": 79,
-        "sta": 81,
+        "sta": 83,
         "str": 73,
-        "tac": 67,
+        "tac": 69,
         "vis": 91
       },
       "birth": "1975-03-01",
@@ -203,20 +201,22 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 64,
         "com": 86,
-        "dri": 80,
+        "dri": 88,
         "ldr": 80,
-        "pac": 76,
+        "pac": 88,
         "pas": 94,
         "pos": 74,
-        "sho": 82,
-        "sta": 94,
+        "sho": 90,
+        "sta": 99,
         "str": 72,
-        "tac": 68,
+        "tac": 72,
         "vis": 92
       },
       "birth": "1975-05-01",
@@ -246,17 +246,17 @@
       ],
       "attrs": {
         "aer": 66,
-        "com": 74,
-        "dri": 67,
+        "com": 84,
+        "dri": 77,
         "ldr": 68,
         "pac": 67,
-        "pas": 74,
+        "pas": 84,
         "pos": 75,
-        "sho": 59,
-        "sta": 84,
+        "sho": 69,
+        "sta": 94,
         "str": 76,
         "tac": 81,
-        "vis": 67
+        "vis": 77
       },
       "birth": "1975-01-01",
       "contract": "2004-06-30",
@@ -311,14 +311,14 @@
         "com": 81,
         "dri": 88,
         "ldr": 68,
-        "pac": 85,
-        "pas": 82,
+        "pac": 89,
+        "pas": 92,
         "pos": 59,
         "sho": 76,
-        "sta": 82,
+        "sta": 96,
         "str": 64,
-        "tac": 45,
-        "vis": 82
+        "tac": 59,
+        "vis": 92
       },
       "birth": "1973-11-01",
       "contract": "2006-06-30",
@@ -390,7 +390,9 @@
     },
     {
       "alt": [
-        "RW"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 57,
@@ -398,13 +400,13 @@
         "dri": 79,
         "ldr": 49,
         "pac": 79,
-        "pas": 71,
+        "pas": 77,
         "pos": 57,
         "sho": 65,
-        "sta": 77,
+        "sta": 83,
         "str": 61,
-        "tac": 51,
-        "vis": 65
+        "tac": 57,
+        "vis": 71
       },
       "birth": "1980-11-01",
       "contract": "2004-06-30",
@@ -424,17 +426,17 @@
       ],
       "attrs": {
         "aer": 74,
-        "com": 85,
-        "dri": 74,
+        "com": 94,
+        "dri": 83,
         "ldr": 95,
         "pac": 70,
-        "pas": 83,
+        "pas": 92,
         "pos": 87,
-        "sho": 68,
-        "sta": 86,
+        "sho": 77,
+        "sta": 95,
         "str": 83,
         "tac": 88,
-        "vis": 80
+        "vis": 89
       },
       "birth": "1971-08-01",
       "contract": "2006-06-30",
@@ -459,7 +461,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
@@ -496,20 +498,17 @@
       "wage": 169000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 59,
-        "com": 85,
+        "aer": 65,
+        "com": 91,
         "dri": 74,
         "ldr": 59,
-        "pac": 70,
+        "pac": 76,
         "pas": 70,
-        "pos": 46,
-        "sho": 82,
+        "pos": 52,
+        "sho": 88,
         "sta": 66,
-        "str": 64,
+        "str": 70,
         "tac": 37,
         "vis": 72
       },
@@ -528,20 +527,17 @@
       "wage": 52500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 66,
+        "aer": 64,
+        "com": 76,
         "dri": 76,
         "ldr": 52,
         "pac": 76,
         "pas": 68,
-        "pos": 46,
-        "sho": 76,
+        "pos": 56,
+        "sho": 86,
         "sta": 76,
-        "str": 64,
+        "str": 74,
         "tac": 34,
         "vis": 66
       },
@@ -559,9 +555,9 @@
     },
     {
       "alt": [
-        "LB",
+        "DM",
         "RB",
-        "DM"
+        "LB"
       ],
       "attrs": {
         "aer": 70,
@@ -619,21 +615,22 @@
     },
     {
       "alt": [
-        "LB",
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 58,
         "com": 68,
         "dri": 73,
         "ldr": 54,
-        "pac": 75,
+        "pac": 77,
         "pas": 71,
-        "pos": 64,
+        "pos": 66,
         "sho": 60,
         "sta": 77,
-        "str": 68,
-        "tac": 65,
+        "str": 70,
+        "tac": 67,
         "vis": 64
       },
       "birth": "1977-05-01",
@@ -644,12 +641,13 @@
       "name": "Quinton Fortone",
       "nation": "RSA",
       "number": 25,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 59000
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB"
       ],
       "attrs": {
         "aer": 73,
@@ -677,19 +675,22 @@
       "wage": 78500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 59,
+        "com": 61,
         "dri": 61,
         "ldr": 49,
         "pac": 62,
-        "pas": 67,
+        "pas": 69,
         "pos": 59,
         "sho": 55,
         "sta": 72,
         "str": 62,
-        "tac": 61,
-        "vis": 63
+        "tac": 63,
+        "vis": 65
       },
       "birth": "1981-02-01",
       "contract": "2004-06-30",
@@ -705,20 +706,22 @@
     },
     {
       "alt": [
-        "LB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 20,
         "com": 47,
         "dri": 56,
         "ldr": 36,
-        "pac": 61,
+        "pac": 74,
         "pas": 46,
-        "pos": 24,
+        "pos": 49,
         "sho": 44,
-        "sta": 58,
-        "str": 36,
-        "tac": 15,
+        "sta": 70,
+        "str": 61,
+        "tac": 40,
         "vis": 46
       },
       "birth": "1982-10-01",
@@ -729,7 +732,7 @@
       "name": "Danny Pogh",
       "nation": "ENG",
       "number": 34,
-      "pos": "LM",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     }

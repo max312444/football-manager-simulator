@@ -79,6 +79,11 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 55,
@@ -105,6 +110,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 58,
@@ -131,6 +139,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 62,
@@ -165,7 +176,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 55,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 58,
         "str": 61,
@@ -185,18 +196,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 69,
-        "dri": 67,
-        "ldr": 66,
-        "pac": 64,
+        "aer": 51,
+        "com": 70,
+        "dri": 71,
+        "ldr": 64,
+        "pac": 67,
         "pas": 74,
-        "pos": 66,
-        "sho": 61,
-        "sta": 72,
-        "str": 67,
-        "tac": 65,
-        "vis": 71
+        "pos": 51,
+        "sho": 67,
+        "sta": 66,
+        "str": 62,
+        "tac": 47,
+        "vis": 73
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -206,7 +217,7 @@
       "name": "Sonny Kyttel",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 13500
     },
     {
@@ -217,7 +228,7 @@
         "ldr": 46,
         "pac": 58,
         "pas": 46,
-        "pos": 31,
+        "pos": 51,
         "sho": 61,
         "sta": 50,
         "str": 52,
@@ -263,6 +274,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 55,
@@ -316,19 +330,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 54,
-        "dri": 52,
-        "ldr": 50,
-        "pac": 49,
-        "pas": 57,
-        "pos": 58,
-        "sho": 49,
-        "sta": 57,
-        "str": 52,
-        "tac": 55,
-        "vis": 55
+        "aer": 41,
+        "com": 52,
+        "dri": 57,
+        "ldr": 46,
+        "pac": 58,
+        "pas": 53,
+        "pos": 40,
+        "sho": 53,
+        "sta": 53,
+        "str": 47,
+        "tac": 35,
+        "vis": 52
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -338,7 +355,7 @@
       "name": "Bakery Jetta",
       "nation": "GAM",
       "number": 18,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6000
     },
     {
@@ -349,7 +366,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 57,
         "sta": 47,
         "str": 56,
@@ -369,18 +386,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 60,
-        "dri": 53,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 54,
-        "pos": 66,
-        "sho": 39,
-        "sta": 62,
-        "str": 68,
-        "tac": 67,
-        "vis": 52
+        "aer": 54,
+        "com": 58,
+        "dri": 63,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 58,
+        "pos": 61,
+        "sho": 46,
+        "sta": 68,
+        "str": 60,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "1993-11-01",
       "contract": null,
@@ -390,7 +407,7 @@
       "name": "Tim Leibuld",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12000
     },
     {
@@ -401,7 +418,7 @@
         "ldr": 49,
         "pac": 50,
         "pas": 45,
-        "pos": 27,
+        "pos": 47,
         "sho": 52,
         "sta": 48,
         "str": 55,
@@ -421,18 +438,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 67,
-        "dri": 62,
-        "ldr": 64,
-        "pac": 59,
-        "pas": 69,
-        "pos": 61,
-        "sho": 62,
+        "dri": 58,
+        "ldr": 66,
+        "pac": 56,
+        "pas": 68,
+        "pos": 65,
+        "sho": 56,
         "sta": 66,
-        "str": 62,
-        "tac": 61,
-        "vis": 69
+        "str": 67,
+        "tac": 67,
+        "vis": 66
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -442,7 +459,7 @@
       "name": "Jonas Meffart",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13500
     },
     {
@@ -472,19 +489,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 58,
+        "com": 64,
         "dri": 49,
         "ldr": 61,
         "pac": 58,
-        "pas": 56,
+        "pas": 62,
         "pos": 62,
         "sho": 38,
-        "sta": 61,
+        "sta": 67,
         "str": 63,
         "tac": 62,
-        "vis": 51
+        "vis": 57
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -495,7 +517,7 @@
       "name": "Miro Moheim",
       "nation": "SUI",
       "number": 28,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 9500
     },
     {
@@ -552,6 +574,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,

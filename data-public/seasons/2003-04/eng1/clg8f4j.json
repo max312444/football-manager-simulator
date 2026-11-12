@@ -128,21 +128,20 @@
     },
     {
       "alt": [
-        "LM",
-        "LWB"
+        "LM"
       ],
       "attrs": {
         "aer": 66,
         "com": 77,
-        "dri": 74,
+        "dri": 76,
         "ldr": 69,
-        "pac": 68,
+        "pac": 76,
         "pas": 78,
-        "pos": 68,
+        "pos": 74,
         "sho": 70,
-        "sta": 75,
-        "str": 74,
-        "tac": 70,
+        "sta": 83,
+        "str": 80,
+        "tac": 76,
         "vis": 75
       },
       "birth": "1972-02-01",
@@ -268,6 +267,10 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "RB",
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 54,
@@ -296,6 +299,8 @@
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "ST"
       ],
       "attrs": {
@@ -326,7 +331,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 75,
@@ -358,7 +364,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -382,7 +389,7 @@
       "name": "Darren Andarton",
       "nation": "ENG",
       "number": 7,
-      "pos": "RM",
+      "pos": "AM",
       "traits": [
         "injury_prone",
         "free_kick"
@@ -390,6 +397,9 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 79,
@@ -422,7 +432,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 55,
@@ -446,13 +456,13 @@
       "name": "Simon Devies",
       "nation": "WAL",
       "number": 22,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 43500
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 62,
@@ -481,22 +491,19 @@
       "wage": 57500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 41,
-        "com": 51,
+        "com": 67,
         "dri": 67,
         "ldr": 35,
         "pac": 73,
-        "pas": 59,
+        "pas": 75,
         "pos": 47,
-        "sho": 55,
+        "sho": 71,
         "sta": 68,
         "str": 51,
         "tac": 37,
-        "vis": 57
+        "vis": 73
       },
       "birth": "1982-12-01",
       "contract": "2005-06-30",
@@ -506,27 +513,29 @@
       "name": "Rohan Rickatts",
       "nation": "ENG",
       "number": 23,
-      "pos": "LM",
+      "pos": "AM",
       "verify": true,
       "wage": 11500
     },
     {
       "alt": [
-        "LM"
+        "LB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 47,
-        "com": 52,
+        "com": 62,
         "dri": 54,
         "ldr": 40,
         "pac": 62,
-        "pas": 51,
-        "pos": 58,
+        "pas": 61,
+        "pos": 68,
         "sho": 34,
         "sta": 63,
-        "str": 50,
-        "tac": 58,
-        "vis": 42
+        "str": 60,
+        "tac": 68,
+        "vis": 52
       },
       "birth": "1982-08-01",
       "contract": "2006-06-30",
@@ -536,25 +545,22 @@
       "name": "Johnnie Jeckson",
       "nation": "ENG",
       "number": 33,
-      "pos": "LB",
+      "pos": "DM",
       "verify": true,
       "wage": 8500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 58,
-        "com": 76,
+        "aer": 68,
+        "com": 86,
         "dri": 80,
         "ldr": 62,
         "pac": 80,
         "pas": 74,
-        "pos": 54,
-        "sho": 80,
+        "pos": 64,
+        "sho": 90,
         "sta": 79,
-        "str": 65,
+        "str": 75,
         "tac": 42,
         "vis": 76
       },
@@ -571,16 +577,16 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 70,
+        "aer": 78,
+        "com": 72,
         "dri": 77,
         "ldr": 54,
         "pac": 78,
         "pas": 66,
-        "pos": 51,
-        "sho": 76,
+        "pos": 53,
+        "sho": 78,
         "sta": 72,
-        "str": 82,
+        "str": 84,
         "tac": 39,
         "vis": 64
       },
@@ -598,16 +604,16 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 71,
+        "aer": 70,
+        "com": 72,
         "dri": 69,
         "ldr": 55,
         "pac": 70,
         "pas": 64,
-        "pos": 44,
-        "sho": 74,
+        "pos": 45,
+        "sho": 75,
         "sta": 65,
-        "str": 69,
+        "str": 70,
         "tac": 38,
         "vis": 62
       },
@@ -625,16 +631,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 63,
+        "aer": 60,
+        "com": 64,
         "dri": 59,
         "ldr": 55,
         "pac": 69,
         "pas": 53,
-        "pos": 28,
-        "sho": 72,
+        "pos": 29,
+        "sho": 73,
         "sta": 58,
-        "str": 66,
+        "str": 67,
         "tac": 21,
         "vis": 52
       },

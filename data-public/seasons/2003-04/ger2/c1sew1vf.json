@@ -57,7 +57,7 @@
         "ldr": 57,
         "pac": 65,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 60,
         "str": 63,
@@ -77,6 +77,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -131,6 +134,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -164,7 +170,7 @@
         "ldr": 50,
         "pac": 61,
         "pas": 50,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 54,
         "str": 59,
@@ -191,7 +197,7 @@
         "ldr": 52,
         "pac": 61,
         "pas": 50,
-        "pos": 38,
+        "pos": 58,
         "sho": 58,
         "sta": 51,
         "str": 59,
@@ -294,18 +300,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 53,
-        "dri": 52,
-        "ldr": 49,
-        "pac": 49,
+        "aer": 38,
+        "com": 54,
+        "dri": 56,
+        "ldr": 47,
+        "pac": 52,
         "pas": 55,
-        "pos": 56,
-        "sho": 47,
-        "sta": 60,
-        "str": 48,
-        "tac": 51,
-        "vis": 54
+        "pos": 41,
+        "sho": 53,
+        "sta": 54,
+        "str": 43,
+        "tac": 33,
+        "vis": 56
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -315,11 +321,14 @@
       "name": "Anel Dzake",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 57,
@@ -400,19 +409,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 54,
+        "com": 64,
         "dri": 44,
         "ldr": 52,
         "pac": 48,
-        "pas": 48,
+        "pas": 58,
         "pos": 60,
         "sho": 29,
-        "sta": 49,
+        "sta": 59,
         "str": 56,
         "tac": 58,
-        "vis": 43
+        "vis": 53
       },
       "birth": "1970-04-01",
       "contract": null,
@@ -422,7 +436,7 @@
       "name": "Oliver Freond",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     },
     {
@@ -433,7 +447,7 @@
         "ldr": 46,
         "pac": 52,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 55,
         "sta": 47,
         "str": 57,
@@ -452,18 +466,23 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 51,
+        "aer": 55,
+        "com": 55,
         "dri": 55,
         "ldr": 53,
-        "pac": 51,
+        "pac": 56,
         "pas": 56,
-        "pos": 52,
+        "pos": 61,
         "sho": 51,
         "sta": 57,
-        "str": 46,
-        "tac": 49,
+        "str": 55,
+        "tac": 58,
         "vis": 56
       },
       "birth": "1971-07-01",
@@ -474,7 +493,7 @@
       "name": "Kemal Halet",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 2000
     },
@@ -558,6 +577,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -592,7 +614,7 @@
         "ldr": 47,
         "pac": 50,
         "pas": 43,
-        "pos": 28,
+        "pos": 48,
         "sho": 58,
         "sta": 45,
         "str": 51,
@@ -644,7 +666,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 55,
         "sta": 48,
         "str": 49,
@@ -692,18 +714,18 @@
     },
     {
       "attrs": {
-        "aer": 40,
-        "com": 50,
-        "dri": 50,
-        "ldr": 47,
-        "pac": 49,
-        "pas": 52,
-        "pos": 52,
-        "sho": 47,
-        "sta": 55,
-        "str": 50,
-        "tac": 49,
-        "vis": 51
+        "aer": 41,
+        "com": 52,
+        "dri": 52,
+        "ldr": 48,
+        "pac": 50,
+        "pas": 54,
+        "pos": 53,
+        "sho": 49,
+        "sta": 57,
+        "str": 51,
+        "tac": 50,
+        "vis": 53
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -777,7 +799,7 @@
         "ldr": 44,
         "pac": 49,
         "pas": 43,
-        "pos": 25,
+        "pos": 45,
         "sho": 53,
         "sta": 48,
         "str": 52,

@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -58,7 +61,7 @@
         "ldr": 69,
         "pac": 70,
         "pas": 63,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 72,
         "str": 71,
@@ -104,6 +107,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -132,18 +138,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 68,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 65,
-        "pas": 70,
-        "pos": 65,
-        "sho": 63,
+        "dri": 63,
+        "ldr": 65,
+        "pac": 62,
+        "pas": 69,
+        "pos": 69,
+        "sho": 57,
         "sta": 74,
-        "str": 61,
-        "tac": 64,
-        "vis": 68
+        "str": 66,
+        "tac": 70,
+        "vis": 65
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -153,7 +159,7 @@
       "name": "Roberto Baronyo",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 11500
     },
@@ -212,6 +218,10 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -239,18 +249,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 63,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 68,
-        "pos": 59,
-        "sho": 55,
+        "dri": 60,
+        "ldr": 61,
+        "pac": 57,
+        "pas": 67,
+        "pos": 63,
+        "sho": 49,
         "sta": 67,
-        "str": 62,
-        "tac": 61,
-        "vis": 65
+        "str": 67,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -260,24 +270,24 @@
       "name": "Muzart",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 61,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 60,
-        "pas": 67,
-        "pos": 65,
-        "sho": 61,
+        "dri": 59,
+        "ldr": 59,
+        "pac": 57,
+        "pas": 66,
+        "pos": 69,
+        "sho": 55,
         "sta": 66,
-        "str": 62,
-        "tac": 63,
-        "vis": 65
+        "str": 67,
+        "tac": 69,
+        "vis": 62
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -287,7 +297,7 @@
       "name": "Serga Die",
       "nation": "CIV",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7500
     },
     {
@@ -319,18 +329,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 57,
-        "dri": 48,
-        "ldr": 62,
-        "pac": 55,
-        "pas": 53,
-        "pos": 68,
-        "sho": 34,
-        "sta": 58,
-        "str": 67,
-        "tac": 67,
-        "vis": 51
+        "aer": 50,
+        "com": 55,
+        "dri": 58,
+        "ldr": 58,
+        "pac": 63,
+        "pas": 57,
+        "pos": 63,
+        "sho": 41,
+        "sta": 64,
+        "str": 59,
+        "tac": 64,
+        "vis": 57
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -340,23 +350,26 @@
       "name": "Paolo Foglyo",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 57,
-        "pas": 60,
-        "pos": 59,
-        "sho": 54,
-        "sta": 64,
-        "str": 56,
-        "tac": 55,
+        "aer": 47,
+        "com": 59,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 61,
+        "pos": 51,
+        "sho": 52,
+        "sta": 68,
+        "str": 53,
+        "tac": 50,
         "vis": 64
       },
       "birth": "1975-02-01",
@@ -367,7 +380,7 @@
       "name": "Andrea Zanchette",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 5000
     },
@@ -379,7 +392,7 @@
         "ldr": 57,
         "pac": 59,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 55,
         "str": 61,
@@ -398,6 +411,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -425,18 +441,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 59,
+        "aer": 46,
+        "com": 63,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 62,
         "pas": 66,
-        "pos": 57,
-        "sho": 53,
-        "sta": 60,
-        "str": 58,
-        "tac": 58,
-        "vis": 62
+        "pos": 42,
+        "sho": 59,
+        "sta": 54,
+        "str": 53,
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1979-12-01",
       "contract": null,
@@ -446,11 +462,14 @@
       "name": "Paulo Custa",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 5500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 58,
@@ -458,7 +477,7 @@
         "ldr": 56,
         "pac": 57,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 53,
         "str": 58,
@@ -529,6 +548,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -555,6 +577,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 62,
@@ -583,19 +608,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 56,
+        "com": 65,
         "dri": 44,
         "ldr": 58,
         "pac": 54,
-        "pas": 53,
+        "pas": 62,
         "pos": 60,
         "sho": 29,
-        "sta": 54,
+        "sta": 63,
         "str": 61,
         "tac": 59,
-        "vis": 46
+        "vis": 55
       },
       "birth": "1970-01-01",
       "contract": null,
@@ -605,23 +635,26 @@
       "name": "Ezio Brevy",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 56,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 56,
+        "aer": 43,
+        "com": 54,
+        "dri": 57,
+        "ldr": 52,
+        "pac": 64,
         "pas": 59,
-        "pos": 57,
-        "sho": 56,
-        "sta": 61,
-        "str": 54,
-        "tac": 54,
-        "vis": 63
+        "pos": 49,
+        "sho": 54,
+        "sta": 64,
+        "str": 51,
+        "tac": 48,
+        "vis": 62
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -631,10 +664,13 @@
       "name": "Giandomenico Masto",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -688,17 +724,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 59,
-        "dri": 55,
+        "aer": 51,
+        "com": 65,
+        "dri": 61,
         "ldr": 55,
-        "pac": 48,
+        "pac": 54,
         "pas": 58,
-        "pos": 52,
-        "sho": 53,
+        "pos": 58,
+        "sho": 59,
         "sta": 60,
-        "str": 53,
+        "str": 59,
         "tac": 55,
         "vis": 55
       },
@@ -710,7 +751,7 @@
       "name": "Alessandro Iannozzi",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 3000
     },
@@ -722,7 +763,7 @@
         "ldr": 49,
         "pac": 59,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 58,
         "sta": 51,
         "str": 58,
@@ -829,7 +870,7 @@
         "ldr": 48,
         "pac": 56,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 55,
         "sta": 50,
         "str": 58,
@@ -849,6 +890,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 53,
@@ -876,19 +920,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 51,
-        "dri": 49,
+        "dri": 55,
         "ldr": 47,
         "pac": 47,
-        "pas": 44,
-        "pos": 28,
+        "pas": 50,
+        "pos": 48,
         "sho": 54,
         "sta": 49,
         "str": 49,
         "tac": 20,
-        "vis": 41
+        "vis": 47
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -898,7 +947,7 @@
       "name": "Salvatore Vicary",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1000
     },
     {
@@ -909,7 +958,7 @@
         "ldr": 43,
         "pac": 47,
         "pas": 42,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 47,
         "str": 52,
@@ -929,19 +978,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 46,
-        "dri": 34,
-        "ldr": 47,
-        "pac": 38,
-        "pas": 37,
-        "pos": 53,
-        "sho": 22,
-        "sta": 45,
-        "str": 48,
-        "tac": 51,
-        "vis": 32
+        "aer": 35,
+        "com": 44,
+        "dri": 44,
+        "ldr": 43,
+        "pac": 46,
+        "pas": 41,
+        "pos": 48,
+        "sho": 29,
+        "sta": 51,
+        "str": 40,
+        "tac": 48,
+        "vis": 38
       },
       "birth": "1964-01-01",
       "contract": null,
@@ -951,7 +1003,7 @@
       "name": "Maurizio Poly",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 1000
     }

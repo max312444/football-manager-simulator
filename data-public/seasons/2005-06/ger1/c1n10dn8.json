@@ -77,18 +77,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 77,
-        "dri": 71,
-        "ldr": 73,
-        "pac": 74,
-        "pas": 79,
-        "pos": 77,
-        "sho": 71,
+        "dri": 67,
+        "ldr": 75,
+        "pac": 71,
+        "pas": 78,
+        "pos": 81,
+        "sho": 65,
         "sta": 75,
-        "str": 74,
-        "tac": 74,
-        "vis": 74
+        "str": 79,
+        "tac": 80,
+        "vis": 71
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -98,7 +98,7 @@
       "name": "Altin Lale",
       "nation": "ALB",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43000
     },
     {
@@ -109,7 +109,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 69,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 72,
         "str": 74,
@@ -130,19 +130,21 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 66,
-        "com": 77,
-        "dri": 77,
+        "aer": 73,
+        "com": 84,
+        "dri": 80,
         "ldr": 75,
-        "pac": 71,
+        "pac": 78,
         "pas": 78,
-        "pos": 73,
-        "sho": 72,
+        "pos": 80,
+        "sho": 79,
         "sta": 79,
-        "str": 72,
+        "str": 79,
         "tac": 72,
         "vis": 77
       },
@@ -155,13 +157,15 @@
       "nation": "IRN",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 43000
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 68,
@@ -190,6 +194,9 @@
       "wage": 43000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 74,
@@ -197,7 +204,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 70,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 70,
         "str": 72,
@@ -223,7 +230,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 80,
         "sta": 72,
         "str": 74,
@@ -275,7 +282,7 @@
         "ldr": 69,
         "pac": 72,
         "pas": 67,
-        "pos": 47,
+        "pos": 67,
         "sho": 77,
         "sta": 66,
         "str": 69,
@@ -295,19 +302,22 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 68,
-        "dri": 67,
-        "ldr": 70,
-        "pac": 65,
-        "pas": 75,
-        "pos": 72,
-        "sho": 64,
-        "sta": 70,
-        "str": 67,
-        "tac": 68,
-        "vis": 69
+        "aer": 62,
+        "com": 70,
+        "dri": 69,
+        "ldr": 71,
+        "pac": 66,
+        "pas": 77,
+        "pos": 73,
+        "sho": 66,
+        "sta": 72,
+        "str": 68,
+        "tac": 69,
+        "vis": 71
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -323,18 +333,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 71,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 66,
-        "pas": 71,
-        "pos": 70,
-        "sho": 64,
+        "dri": 66,
+        "ldr": 71,
+        "pac": 63,
+        "pas": 70,
+        "pos": 74,
+        "sho": 58,
         "sta": 70,
-        "str": 63,
-        "tac": 68,
-        "vis": 71
+        "str": 68,
+        "tac": 74,
+        "vis": 68
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -345,10 +355,13 @@
       "nation": "GER",
       "nation2": "POL",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 71,
@@ -380,16 +393,16 @@
       "attrs": {
         "aer": 60,
         "com": 68,
-        "dri": 66,
+        "dri": 68,
         "ldr": 61,
-        "pac": 69,
-        "pas": 66,
-        "pos": 64,
-        "sho": 50,
-        "sta": 73,
+        "pac": 71,
+        "pas": 67,
+        "pos": 62,
+        "sho": 53,
+        "sta": 75,
         "str": 65,
-        "tac": 67,
-        "vis": 63
+        "tac": 65,
+        "vis": 64
       },
       "birth": "1969-10-01",
       "contract": null,
@@ -399,7 +412,7 @@
       "name": "Michael Tarnet",
       "nation": "GER",
       "number": null,
-      "pos": "LB",
+      "pos": "LWB",
       "wage": 17000
     },
     {
@@ -410,7 +423,7 @@
         "ldr": 61,
         "pac": 71,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 64,
         "str": 68,
@@ -429,6 +442,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -483,6 +499,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -544,7 +563,7 @@
         "ldr": 58,
         "pac": 66,
         "pas": 56,
-        "pos": 44,
+        "pos": 64,
         "sho": 66,
         "sta": 58,
         "str": 64,
@@ -570,7 +589,7 @@
         "ldr": 53,
         "pac": 64,
         "pas": 55,
-        "pos": 38,
+        "pos": 58,
         "sho": 68,
         "sta": 56,
         "str": 59,
@@ -591,18 +610,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 61,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 55,
+        "aer": 43,
+        "com": 62,
+        "dri": 63,
+        "ldr": 53,
+        "pac": 58,
         "pas": 61,
-        "pos": 62,
-        "sho": 55,
-        "sta": 63,
-        "str": 59,
-        "tac": 57,
-        "vis": 66
+        "pos": 47,
+        "sho": 61,
+        "sta": 57,
+        "str": 54,
+        "tac": 39,
+        "vis": 68
       },
       "birth": "1982-12-01",
       "contract": null,
@@ -612,23 +631,26 @@
       "name": "Maycoll Cenizalez",
       "nation": "CAN",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 59,
+        "com": 60,
         "dri": 61,
         "ldr": 60,
         "pac": 60,
-        "pas": 66,
+        "pas": 67,
         "pos": 63,
         "sho": 59,
         "sta": 64,
         "str": 56,
-        "tac": 55,
-        "vis": 60
+        "tac": 56,
+        "vis": 61
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -644,6 +666,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -750,18 +775,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 61,
-        "dri": 60,
-        "ldr": 53,
-        "pac": 51,
+        "aer": 43,
+        "com": 62,
+        "dri": 64,
+        "ldr": 51,
+        "pac": 54,
         "pas": 60,
-        "pos": 60,
-        "sho": 50,
-        "sta": 58,
-        "str": 57,
-        "tac": 56,
-        "vis": 59
+        "pos": 45,
+        "sho": 56,
+        "sta": 52,
+        "str": 52,
+        "tac": 38,
+        "vis": 61
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -771,22 +796,27 @@
       "name": "Jan Rusenthal",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 6500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 57,
+        "aer": 56,
+        "com": 66,
+        "dri": 59,
         "ldr": 54,
-        "pac": 55,
+        "pac": 60,
         "pas": 60,
-        "pos": 57,
-        "sho": 53,
+        "pos": 62,
+        "sho": 58,
         "sta": 57,
-        "str": 55,
+        "str": 60,
         "tac": 56,
         "vis": 58
       },
@@ -798,11 +828,14 @@
       "name": "Denis Wulf",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 52,
@@ -829,19 +862,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 50,
+        "com": 59,
         "dri": 37,
         "ldr": 53,
         "pac": 47,
-        "pas": 43,
+        "pas": 52,
         "pos": 56,
         "sho": 25,
-        "sta": 50,
+        "sta": 59,
         "str": 53,
         "tac": 59,
-        "vis": 38
+        "vis": 47
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -851,23 +889,28 @@
       "name": "Timo Nagi",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 46,
+        "com": 55,
         "dri": 33,
         "ldr": 48,
         "pac": 43,
-        "pas": 42,
+        "pas": 51,
         "pos": 56,
         "sho": 20,
-        "sta": 46,
+        "sta": 55,
         "str": 51,
         "tac": 52,
-        "vis": 37
+        "vis": 46
       },
       "birth": "1985-06-01",
       "contract": null,
@@ -877,7 +920,7 @@
       "name": "Hendrik Grossuhmichen",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     },
     {
@@ -888,7 +931,7 @@
         "ldr": 42,
         "pac": 50,
         "pas": 43,
-        "pos": 24,
+        "pos": 44,
         "sho": 50,
         "sta": 48,
         "str": 47,
@@ -907,6 +950,10 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 52,
@@ -959,6 +1006,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 47,
@@ -1007,7 +1057,7 @@
       "name": "Soren Halfer",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 1500
     }
   ],

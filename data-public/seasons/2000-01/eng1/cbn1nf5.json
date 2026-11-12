@@ -70,16 +70,19 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
-        "dri": 60,
+        "dri": 66,
         "ldr": 74,
-        "pac": 62,
+        "pac": 68,
         "pas": 68,
         "pos": 72,
         "sho": 56,
-        "sta": 72,
+        "sta": 78,
         "str": 70,
         "tac": 72,
         "vis": 58
@@ -99,16 +102,19 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 64,
-        "dri": 50,
+        "dri": 54,
         "ldr": 62,
-        "pac": 64,
-        "pas": 54,
+        "pac": 68,
+        "pas": 58,
         "pos": 70,
         "sho": 32,
-        "sta": 74,
+        "sta": 78,
         "str": 72,
         "tac": 74,
         "vis": 42
@@ -130,17 +136,17 @@
       ],
       "attrs": {
         "aer": 58,
-        "com": 70,
-        "dri": 62,
+        "com": 77,
+        "dri": 69,
         "ldr": 68,
         "pac": 56,
-        "pas": 70,
+        "pas": 77,
         "pos": 70,
-        "sho": 52,
-        "sta": 74,
+        "sho": 59,
+        "sta": 81,
         "str": 70,
         "tac": 72,
-        "vis": 66
+        "vis": 73
       },
       "birth": "1969-01-01",
       "contract": "2002-06-30",
@@ -206,9 +212,6 @@
       "wage": 31000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
         "aer": 56,
         "com": 84,
@@ -241,21 +244,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 56,
-        "com": 64,
+        "com": 67,
         "dri": 66,
         "ldr": 56,
         "pac": 64,
-        "pas": 70,
+        "pas": 73,
         "pos": 64,
         "sho": 58,
         "sta": 80,
         "str": 64,
-        "tac": 66,
-        "vis": 64
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1977-08-01",
       "contract": "2004-06-30",
@@ -297,6 +300,7 @@
     {
       "alt": [
         "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -305,13 +309,13 @@
         "dri": 72,
         "ldr": 54,
         "pac": 68,
-        "pas": 70,
+        "pas": 72,
         "pos": 58,
         "sho": 68,
-        "sta": 74,
+        "sta": 76,
         "str": 70,
-        "tac": 54,
-        "vis": 66
+        "tac": 56,
+        "vis": 68
       },
       "birth": "1973-02-01",
       "contract": "2002-06-30",
@@ -325,12 +329,15 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
-        "dri": 66,
+        "dri": 70,
         "ldr": 58,
-        "pac": 62,
+        "pac": 66,
         "pas": 70,
         "pos": 54,
         "sho": 54,
@@ -347,13 +354,10 @@
       "name": "Stuart Riplei",
       "nation": "ENG",
       "number": 14,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 20000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -407,7 +411,9 @@
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 76,
@@ -436,7 +442,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 52,
@@ -465,7 +471,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 70,
@@ -494,16 +502,16 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 72,
+        "aer": 59,
+        "com": 85,
         "dri": 78,
         "ldr": 50,
         "pac": 82,
         "pas": 64,
-        "pos": 44,
-        "sho": 78,
+        "pos": 57,
+        "sho": 91,
         "sta": 72,
-        "str": 56,
+        "str": 69,
         "tac": 30,
         "vis": 64
       },
@@ -545,19 +553,22 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 64,
-        "dri": 60,
+        "com": 68,
+        "dri": 64,
         "ldr": 56,
         "pac": 54,
-        "pas": 66,
+        "pas": 70,
         "pos": 64,
-        "sho": 58,
-        "sta": 70,
+        "sho": 62,
+        "sta": 74,
         "str": 68,
         "tac": 64,
-        "vis": 60
+        "vis": 64
       },
       "birth": "1967-02-01",
       "contract": "2001-06-30",
@@ -597,19 +608,22 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 51,
         "com": 49,
-        "dri": 51,
+        "dri": 52,
         "ldr": 31,
-        "pac": 55,
-        "pas": 43,
+        "pac": 56,
+        "pas": 44,
         "pos": 33,
         "sho": 59,
         "sta": 51,
         "str": 53,
         "tac": 20,
-        "vis": 43
+        "vis": 44
       },
       "birth": "1980-03-01",
       "contract": "2002-06-30",
@@ -619,23 +633,28 @@
       "name": "Dani Rodrygues",
       "nation": "POR",
       "number": 19,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 54,
         "dri": 64,
         "ldr": 41,
         "pac": 68,
-        "pas": 56,
+        "pas": 64,
         "pos": 46,
         "sho": 52,
-        "sta": 62,
+        "sta": 70,
         "str": 46,
-        "tac": 36,
-        "vis": 54
+        "tac": 44,
+        "vis": 62
       },
       "birth": "1975-08-01",
       "contract": "2002-06-30",

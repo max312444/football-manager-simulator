@@ -51,6 +51,11 @@
       "wage": 90500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 69,
@@ -77,22 +82,19 @@
       "wage": 48000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 59,
-        "com": 52,
-        "dri": 38,
-        "ldr": 56,
-        "pac": 49,
-        "pas": 45,
-        "pos": 59,
-        "sho": 31,
-        "sta": 48,
-        "str": 54,
-        "tac": 60,
-        "vis": 40
+        "aer": 46,
+        "com": 50,
+        "dri": 48,
+        "ldr": 52,
+        "pac": 57,
+        "pas": 49,
+        "pos": 54,
+        "sho": 38,
+        "sta": 54,
+        "str": 46,
+        "tac": 57,
+        "vis": 46
       },
       "birth": "2001-04-01",
       "contract": null,
@@ -102,7 +104,7 @@
       "name": "Noah Ketterbach",
       "nation": "GER",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -132,6 +134,11 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 64,
@@ -165,7 +172,7 @@
         "ldr": 55,
         "pac": 57,
         "pas": 53,
-        "pos": 36,
+        "pos": 56,
         "sho": 62,
         "sta": 53,
         "str": 59,
@@ -208,7 +215,7 @@
       "nation": "GER",
       "nation2": "SEN",
       "number": 8,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 19500
     },
     {
@@ -219,7 +226,7 @@
         "ldr": 59,
         "pac": 68,
         "pas": 57,
-        "pos": 47,
+        "pos": 67,
         "sho": 72,
         "sta": 62,
         "str": 68,
@@ -238,6 +245,9 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 77,
@@ -265,21 +275,23 @@
     },
     {
       "alt": [
-        "RB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
-        "aer": 82,
-        "com": 74,
-        "dri": 62,
-        "ldr": 75,
-        "pac": 75,
-        "pas": 71,
-        "pos": 84,
-        "sho": 51,
-        "sta": 72,
-        "str": 81,
-        "tac": 79,
-        "vis": 64
+        "aer": 69,
+        "com": 72,
+        "dri": 72,
+        "ldr": 71,
+        "pac": 83,
+        "pas": 75,
+        "pos": 79,
+        "sho": 58,
+        "sta": 78,
+        "str": 73,
+        "tac": 76,
+        "vis": 70
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -289,23 +301,26 @@
       "name": "Jonas Hectur",
       "nation": "GER",
       "number": 14,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 90500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 60,
-        "dri": 57,
-        "ldr": 51,
-        "pac": 58,
-        "pas": 54,
-        "pos": 38,
-        "sho": 64,
-        "sta": 55,
-        "str": 57,
-        "tac": 28,
-        "vis": 52
+        "aer": 41,
+        "com": 57,
+        "dri": 62,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 60,
+        "pos": 40,
+        "sho": 59,
+        "sta": 57,
+        "str": 47,
+        "tac": 34,
+        "vis": 58
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -315,7 +330,7 @@
       "name": "Dimitrios Limnyos",
       "nation": "GRE",
       "number": 15,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
@@ -346,19 +361,22 @@
       "wage": 90500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 71,
-        "dri": 69,
-        "ldr": 71,
-        "pac": 66,
-        "pas": 75,
-        "pos": 75,
-        "sho": 66,
-        "sta": 77,
-        "str": 68,
-        "tac": 70,
-        "vis": 74
+        "aer": 56,
+        "com": 69,
+        "dri": 74,
+        "ldr": 67,
+        "pac": 75,
+        "pas": 71,
+        "pos": 57,
+        "sho": 70,
+        "sta": 73,
+        "str": 63,
+        "tac": 50,
+        "vis": 71
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -368,10 +386,13 @@
       "name": "Christian Clamens",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 80000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 77,
@@ -426,18 +447,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 64,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 64,
-        "pos": 61,
-        "sho": 56,
+        "dri": 56,
+        "ldr": 61,
+        "pac": 55,
+        "pas": 63,
+        "pos": 65,
+        "sho": 50,
         "sta": 65,
-        "str": 57,
-        "tac": 58,
-        "vis": 60
+        "str": 62,
+        "tac": 64,
+        "vis": 57
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -448,23 +469,23 @@
       "name": "Elvis Rexhbecej",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 22500
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 65,
-        "dri": 64,
-        "ldr": 61,
-        "pac": 63,
-        "pas": 69,
-        "pos": 60,
-        "sho": 59,
+        "dri": 60,
+        "ldr": 63,
+        "pac": 60,
+        "pas": 68,
+        "pos": 64,
+        "sho": 53,
         "sta": 69,
-        "str": 60,
-        "tac": 59,
-        "vis": 66
+        "str": 65,
+        "tac": 65,
+        "vis": 63
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -475,7 +496,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 34000
     },
     {
@@ -506,18 +527,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 59,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 55,
-        "pos": 67,
-        "sho": 35,
-        "sta": 56,
-        "str": 63,
-        "tac": 64,
-        "vis": 51
+        "aer": 54,
+        "com": 57,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 59,
+        "pos": 62,
+        "sho": 42,
+        "sta": 62,
+        "str": 55,
+        "tac": 61,
+        "vis": 57
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -527,23 +548,23 @@
       "name": "Jannes Hurn",
       "nation": "GER",
       "number": 23,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 15500
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 64,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 60,
+        "aer": 50,
+        "com": 65,
+        "dri": 63,
+        "ldr": 56,
+        "pac": 63,
         "pas": 68,
-        "pos": 63,
-        "sho": 55,
-        "sta": 69,
-        "str": 56,
-        "tac": 62,
-        "vis": 65
+        "pos": 48,
+        "sho": 61,
+        "sta": 63,
+        "str": 51,
+        "tac": 44,
+        "vis": 67
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -553,21 +574,26 @@
       "name": "Dominick Draxler",
       "nation": "GER",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 28500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 51,
-        "dri": 50,
+        "aer": 51,
+        "com": 58,
+        "dri": 56,
         "ldr": 47,
-        "pac": 46,
+        "pac": 53,
         "pas": 53,
-        "pos": 48,
-        "sho": 49,
+        "pos": 55,
+        "sho": 56,
         "sta": 57,
-        "str": 50,
+        "str": 57,
         "tac": 51,
         "vis": 56
       },
@@ -579,7 +605,7 @@
       "name": "Tim Lamperle",
       "nation": "GER",
       "number": 25,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 8000
     },
     {
@@ -590,7 +616,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 64,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 71,
         "str": 73,
@@ -610,18 +636,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 74,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 73,
-        "pas": 81,
-        "pos": 76,
-        "sho": 69,
+        "dri": 73,
+        "ldr": 74,
+        "pac": 70,
+        "pas": 80,
+        "pos": 80,
+        "sho": 63,
         "sta": 79,
-        "str": 68,
-        "tac": 69,
-        "vis": 76
+        "str": 73,
+        "tac": 75,
+        "vis": 73
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -632,23 +658,23 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 90500
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 56,
-        "dri": 53,
-        "ldr": 49,
-        "pac": 51,
-        "pas": 42,
-        "pos": 31,
-        "sho": 57,
-        "sta": 49,
-        "str": 53,
-        "tac": 20,
-        "vis": 46
+        "aer": 36,
+        "com": 53,
+        "dri": 58,
+        "ldr": 47,
+        "pac": 55,
+        "pas": 48,
+        "pos": 33,
+        "sho": 52,
+        "sta": 51,
+        "str": 43,
+        "tac": 26,
+        "vis": 52
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -658,7 +684,7 @@
       "name": "Jan Thyelmann",
       "nation": "GER",
       "number": 29,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5500
     },
     {
@@ -689,21 +715,23 @@
     },
     {
       "alt": [
-        "RW"
+        "RWB",
+        "LWB",
+        "RB"
       ],
       "attrs": {
-        "aer": 64,
-        "com": 70,
-        "dri": 64,
-        "ldr": 65,
-        "pac": 65,
-        "pas": 57,
-        "pos": 48,
-        "sho": 72,
-        "sta": 61,
-        "str": 66,
-        "tac": 41,
-        "vis": 60
+        "aer": 50,
+        "com": 67,
+        "dri": 69,
+        "ldr": 63,
+        "pac": 69,
+        "pas": 63,
+        "pos": 50,
+        "sho": 67,
+        "sta": 63,
+        "str": 56,
+        "tac": 47,
+        "vis": 66
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -714,7 +742,7 @@
       "name": "Marius Wulf",
       "nation": "GER",
       "number": 31,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 28000
     },
     {

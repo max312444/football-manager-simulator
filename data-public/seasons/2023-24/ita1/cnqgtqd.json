@@ -158,6 +158,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 81,
@@ -184,6 +187,9 @@
       "wage": 120500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 80,
@@ -210,6 +216,11 @@
       "wage": 120500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 80,
@@ -217,7 +228,7 @@
         "ldr": 71,
         "pac": 80,
         "pas": 72,
-        "pos": 59,
+        "pos": 79,
         "sho": 84,
         "sta": 76,
         "str": 75,
@@ -243,7 +254,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 57,
         "str": 63,
@@ -263,6 +274,11 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "LW",
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 79,
@@ -289,6 +305,10 @@
       "wage": 108500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 68,
@@ -316,18 +336,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 74,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 74,
-        "pas": 75,
-        "pos": 77,
-        "sho": 73,
+        "dri": 67,
+        "ldr": 72,
+        "pac": 71,
+        "pas": 74,
+        "pos": 81,
+        "sho": 67,
         "sta": 77,
-        "str": 72,
-        "tac": 73,
-        "vis": 76
+        "str": 77,
+        "tac": 79,
+        "vis": 73
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -337,13 +357,14 @@
       "name": "Marten de Ruon",
       "nation": "NED",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 108500
     },
     {
       "alt": [
-        "CM",
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 59,
@@ -399,19 +420,23 @@
       "wage": 80000
     },
     {
+      "alt": [
+        "LWB",
+        "LM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 66,
-        "dri": 51,
-        "ldr": 65,
-        "pac": 57,
-        "pas": 56,
-        "pos": 69,
-        "sho": 38,
-        "sta": 63,
-        "str": 69,
-        "tac": 68,
-        "vis": 48
+        "aer": 53,
+        "com": 64,
+        "dri": 61,
+        "ldr": 61,
+        "pac": 65,
+        "pas": 60,
+        "pos": 64,
+        "sho": 45,
+        "sta": 69,
+        "str": 61,
+        "tac": 65,
+        "vis": 54
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -421,23 +446,23 @@
       "name": "Mitchel Bakkar",
       "nation": "NED",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 24000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 58,
-        "dri": 46,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 49,
-        "pos": 60,
-        "sho": 36,
-        "sta": 53,
-        "str": 65,
-        "tac": 62,
-        "vis": 48
+        "aer": 51,
+        "com": 56,
+        "dri": 56,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 53,
+        "pos": 55,
+        "sho": 43,
+        "sta": 59,
+        "str": 57,
+        "tac": 59,
+        "vis": 54
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -447,23 +472,23 @@
       "name": "Nadir Zortaa",
       "nation": "ITA",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 68,
-        "dri": 52,
-        "ldr": 63,
-        "pac": 64,
-        "pas": 59,
-        "pos": 72,
-        "sho": 40,
-        "sta": 63,
-        "str": 69,
-        "tac": 73,
-        "vis": 52
+        "aer": 55,
+        "com": 66,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 72,
+        "pas": 63,
+        "pos": 67,
+        "sho": 47,
+        "sta": 69,
+        "str": 61,
+        "tac": 70,
+        "vis": 58
       },
       "birth": "2002-07-01",
       "contract": null,
@@ -473,23 +498,27 @@
       "name": "Matteo Ruggery",
       "nation": "ITA",
       "number": 22,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 31000
     },
     {
+      "alt": [
+        "LB",
+        "LM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 78,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 84,
-        "pas": 76,
-        "pos": 76,
-        "sho": 61,
-        "sta": 85,
-        "str": 75,
-        "tac": 82,
-        "vis": 74
+        "aer": 82,
+        "com": 80,
+        "dri": 65,
+        "ldr": 76,
+        "pac": 76,
+        "pas": 72,
+        "pos": 81,
+        "sho": 54,
+        "sta": 79,
+        "str": 83,
+        "tac": 85,
+        "vis": 68
       },
       "birth": "1993-06-01",
       "contract": null,
@@ -500,10 +529,13 @@
       "nation": "BIH",
       "nation2": "GER",
       "number": 23,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 120500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 62,
@@ -634,19 +666,23 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 81,
-        "com": 79,
-        "dri": 64,
-        "ldr": 78,
-        "pac": 69,
-        "pas": 67,
-        "pos": 78,
-        "sho": 54,
-        "sta": 75,
-        "str": 79,
-        "tac": 81,
-        "vis": 66
+        "aer": 68,
+        "com": 77,
+        "dri": 74,
+        "ldr": 74,
+        "pac": 77,
+        "pas": 71,
+        "pos": 73,
+        "sho": 61,
+        "sta": 81,
+        "str": 71,
+        "tac": 78,
+        "vis": 72
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -656,7 +692,7 @@
       "name": "Davide Zappacoste",
       "nation": "ITA",
       "number": 77,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 103500
     },
     {
@@ -667,7 +703,7 @@
         "ldr": 73,
         "pac": 73,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 69,
         "str": 73,
@@ -693,7 +729,7 @@
         "ldr": 69,
         "pac": 78,
         "pas": 71,
-        "pos": 57,
+        "pos": 77,
         "sho": 77,
         "sta": 71,
         "str": 76,
@@ -738,6 +774,11 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 79,
@@ -745,7 +786,7 @@
         "ldr": 67,
         "pac": 79,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 76,
         "sta": 71,
         "str": 75,
@@ -764,19 +805,22 @@
       "wage": 71000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 67,
-        "dri": 62,
-        "ldr": 54,
-        "pac": 66,
-        "pas": 54,
-        "pos": 41,
-        "sho": 63,
-        "sta": 62,
-        "str": 60,
-        "tac": 34,
-        "vis": 57
+        "aer": 44,
+        "com": 64,
+        "dri": 67,
+        "ldr": 52,
+        "pac": 70,
+        "pas": 60,
+        "pos": 43,
+        "sho": 58,
+        "sta": 64,
+        "str": 50,
+        "tac": 40,
+        "vis": 63
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -786,7 +830,7 @@
       "name": "Ebrima Culley",
       "nation": "GAM",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 16500
     }
   ],

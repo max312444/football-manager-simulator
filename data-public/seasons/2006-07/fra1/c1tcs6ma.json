@@ -58,7 +58,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 63,
-        "pos": 44,
+        "pos": 64,
         "sho": 74,
         "sta": 64,
         "str": 68,
@@ -105,6 +105,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 63,
@@ -132,6 +135,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -158,19 +164,23 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 69,
+        "aer": 62,
+        "com": 70,
         "dri": 63,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 71,
+        "ldr": 57,
+        "pac": 63,
+        "pas": 61,
         "pos": 64,
-        "sho": 59,
-        "sta": 67,
-        "str": 63,
-        "tac": 65,
-        "vis": 67
+        "sho": 68,
+        "sta": 61,
+        "str": 68,
+        "tac": 39,
+        "vis": 58
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -181,14 +191,11 @@
       "nation": "TOG",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 16500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 64,
@@ -217,19 +224,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 62,
-        "dri": 65,
-        "ldr": 60,
-        "pac": 63,
-        "pas": 64,
-        "pos": 60,
-        "sho": 61,
-        "sta": 69,
-        "str": 63,
-        "tac": 62,
-        "vis": 63
+        "aer": 47,
+        "com": 60,
+        "dri": 70,
+        "ldr": 56,
+        "pac": 72,
+        "pas": 60,
+        "pos": 42,
+        "sho": 65,
+        "sta": 65,
+        "str": 58,
+        "tac": 42,
+        "vis": 60
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -239,7 +249,7 @@
       "name": "Yacine Bezzez",
       "nation": "ALG",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 14500
     },
     {
@@ -250,7 +260,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 58,
         "str": 67,
@@ -302,7 +312,7 @@
         "ldr": 56,
         "pac": 65,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 67,
         "sta": 56,
         "str": 61,
@@ -322,6 +332,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -349,6 +362,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -435,7 +451,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 57,
         "str": 61,
@@ -455,18 +471,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 58,
-        "dri": 58,
-        "ldr": 58,
-        "pac": 54,
+        "aer": 41,
+        "com": 59,
+        "dri": 62,
+        "ldr": 56,
+        "pac": 57,
         "pas": 59,
-        "pos": 55,
-        "sho": 51,
-        "sta": 61,
-        "str": 53,
-        "tac": 52,
-        "vis": 58
+        "pos": 40,
+        "sho": 57,
+        "sta": 55,
+        "str": 48,
+        "tac": 34,
+        "vis": 60
       },
       "birth": "1985-02-01",
       "contract": null,
@@ -477,11 +493,15 @@
       "nation": "FRA",
       "nation2": "ISR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 6500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -561,6 +581,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 54,
@@ -583,7 +606,7 @@
       "name": "Guillaume Rippart",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 4500
     },
@@ -595,7 +618,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 60,
         "sta": 55,
         "str": 54,
@@ -647,7 +670,7 @@
         "ldr": 50,
         "pac": 54,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 51,
         "str": 57,
@@ -693,6 +716,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -727,7 +753,7 @@
         "ldr": 45,
         "pac": 54,
         "pas": 46,
-        "pos": 31,
+        "pos": 51,
         "sho": 56,
         "sta": 47,
         "str": 54,
@@ -781,7 +807,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 45,
-        "pos": 28,
+        "pos": 48,
         "sho": 56,
         "sta": 50,
         "str": 55,
@@ -808,7 +834,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 44,
-        "pos": 33,
+        "pos": 53,
         "sho": 53,
         "sta": 50,
         "str": 53,

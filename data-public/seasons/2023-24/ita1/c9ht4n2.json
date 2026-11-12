@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 69,
-        "dri": 67,
-        "ldr": 66,
-        "pac": 65,
-        "pas": 72,
-        "pos": 68,
-        "sho": 63,
+        "dri": 63,
+        "ldr": 68,
+        "pac": 62,
+        "pas": 71,
+        "pos": 72,
+        "sho": 57,
         "sta": 72,
-        "str": 63,
-        "tac": 65,
-        "vis": 75
+        "str": 68,
+        "tac": 71,
+        "vis": 72
       },
       "birth": "1997-12-01",
       "contract": null,
@@ -74,23 +74,23 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 127500
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 67,
-        "dri": 56,
-        "ldr": 64,
-        "pac": 64,
-        "pas": 58,
-        "pos": 75,
-        "sho": 39,
-        "sta": 62,
-        "str": 68,
-        "tac": 70,
-        "vis": 55
+        "aer": 56,
+        "com": 65,
+        "dri": 66,
+        "ldr": 60,
+        "pac": 72,
+        "pas": 62,
+        "pos": 70,
+        "sho": 46,
+        "sta": 68,
+        "str": 60,
+        "tac": 67,
+        "vis": 61
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -101,10 +101,13 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 5,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 71500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -132,6 +135,9 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 80,
@@ -165,7 +171,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 69,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 72,
         "str": 79,
@@ -206,23 +212,28 @@
       "name": "Rafael Leau",
       "nation": "POR",
       "number": 10,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 206500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 77,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 72,
+        "aer": 66,
+        "com": 78,
+        "dri": 81,
+        "ldr": 70,
+        "pac": 75,
         "pas": 79,
-        "pos": 78,
-        "sho": 76,
-        "sta": 82,
-        "str": 71,
-        "tac": 76,
-        "vis": 82
+        "pos": 63,
+        "sho": 82,
+        "sta": 76,
+        "str": 66,
+        "tac": 58,
+        "vis": 84
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -233,10 +244,13 @@
       "nation": "USA",
       "nation2": "CRO",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 285500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -289,19 +303,23 @@
       "wage": 285500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 65,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 67,
-        "pas": 57,
-        "pos": 42,
-        "sho": 68,
-        "sta": 65,
-        "str": 69,
-        "tac": 33,
-        "vis": 56
+        "aer": 47,
+        "com": 62,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 71,
+        "pas": 63,
+        "pos": 44,
+        "sho": 63,
+        "sta": 67,
+        "str": 59,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "2000-05-01",
       "contract": null,
@@ -311,24 +329,27 @@
       "name": "Noah Okafur",
       "nation": "SUI",
       "number": 17,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 47000
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 63,
-        "dri": 62,
-        "ldr": 54,
-        "pac": 62,
-        "pas": 57,
-        "pos": 39,
-        "sho": 66,
-        "sta": 60,
-        "str": 64,
-        "tac": 36,
-        "vis": 58
+        "aer": 47,
+        "com": 60,
+        "dri": 67,
+        "ldr": 52,
+        "pac": 66,
+        "pas": 63,
+        "pos": 41,
+        "sho": 61,
+        "sta": 62,
+        "str": 54,
+        "tac": 42,
+        "vis": 64
       },
       "birth": "2004-11-01",
       "contract": null,
@@ -339,7 +360,7 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 39000
     },
     {
@@ -365,10 +386,13 @@
       "name": "Theo Hernendez",
       "nation": "FRA",
       "number": 19,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 284500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 77,
         "com": 70,
@@ -396,19 +420,23 @@
       "wage": 140000
     },
     {
+      "alt": [
+        "LW",
+        "RWB"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 67,
-        "dri": 69,
-        "ldr": 59,
-        "pac": 65,
-        "pas": 58,
-        "pos": 46,
-        "sho": 71,
-        "sta": 65,
-        "str": 65,
-        "tac": 35,
-        "vis": 61
+        "aer": 53,
+        "com": 64,
+        "dri": 74,
+        "ldr": 57,
+        "pac": 69,
+        "pas": 64,
+        "pos": 48,
+        "sho": 66,
+        "sta": 67,
+        "str": 55,
+        "tac": 41,
+        "vis": 67
       },
       "birth": "1999-05-01",
       "contract": null,
@@ -418,10 +446,13 @@
       "name": "Samuel Chukwuaze",
       "nation": "NGA",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 60000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 83,
         "com": 75,
@@ -508,7 +539,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 51,
-        "pos": 35,
+        "pos": 55,
         "sho": 60,
         "sta": 54,
         "str": 62,
@@ -579,6 +610,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -605,6 +639,9 @@
       "wage": 67500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 77,
@@ -631,19 +668,22 @@
       "wage": 282000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 83,
-        "com": 74,
-        "dri": 61,
-        "ldr": 77,
-        "pac": 74,
-        "pas": 71,
-        "pos": 81,
-        "sho": 54,
-        "sta": 77,
-        "str": 81,
-        "tac": 79,
-        "vis": 65
+        "aer": 70,
+        "com": 72,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 82,
+        "pas": 75,
+        "pos": 76,
+        "sho": 61,
+        "sta": 83,
+        "str": 73,
+        "tac": 76,
+        "vis": 71
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -653,7 +693,7 @@
       "name": "Alessandro Florenzy",
       "nation": "ITA",
       "number": 42,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 244500
     },
     {
@@ -709,19 +749,23 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 52,
-        "dri": 49,
-        "ldr": 46,
-        "pac": 54,
-        "pas": 47,
-        "pos": 28,
-        "sho": 53,
-        "sta": 46,
-        "str": 51,
-        "tac": 20,
-        "vis": 45
+        "aer": 37,
+        "com": 49,
+        "dri": 54,
+        "ldr": 44,
+        "pac": 58,
+        "pas": 53,
+        "pos": 30,
+        "sho": 48,
+        "sta": 48,
+        "str": 41,
+        "tac": 26,
+        "vis": 51
       },
       "birth": "2004-12-01",
       "contract": null,
@@ -731,10 +775,15 @@
       "name": "Chaka Traora",
       "nation": "CIV",
       "number": 70,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,

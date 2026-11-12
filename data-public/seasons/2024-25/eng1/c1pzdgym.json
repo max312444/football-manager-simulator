@@ -96,9 +96,6 @@
       "wage": 54500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 82,
         "com": 76,
@@ -125,6 +122,9 @@
       "wage": 256000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -234,6 +234,10 @@
       "wage": 185500
     },
     {
+      "alt": [
+        "LWB",
+        "CB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 78,
@@ -264,18 +268,20 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 69,
         "com": 80,
-        "dri": 79,
+        "dri": 81,
         "ldr": 77,
-        "pac": 79,
+        "pac": 81,
         "pas": 84,
         "pos": 78,
         "sho": 73,
-        "sta": 78,
+        "sta": 80,
         "str": 83,
         "tac": 81,
         "vis": 78
@@ -352,6 +358,8 @@
     },
     {
       "alt": [
+        "DM",
+        "RB",
         "LB"
       ],
       "attrs": {
@@ -380,6 +388,9 @@
       "wage": 107500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 81,
@@ -407,7 +418,9 @@
     },
     {
       "alt": [
-        "CM"
+        "RB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 71,
@@ -467,22 +480,19 @@
       "wage": 156500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 58,
-        "com": 73,
-        "dri": 75,
+        "com": 78,
+        "dri": 80,
         "ldr": 63,
-        "pac": 69,
+        "pac": 74,
         "pas": 78,
         "pos": 67,
-        "sho": 69,
+        "sho": 74,
         "sta": 85,
         "str": 64,
         "tac": 63,
-        "vis": 76
+        "vis": 81
       },
       "birth": "1998-09-01",
       "contract": "2030-06-30",
@@ -492,26 +502,26 @@
       "name": "Kiernan Dewsburi-Hall",
       "nation": "ENG",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 187500
     },
     {
       "alt": [
-        "AM"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
-        "com": 65,
-        "dri": 67,
+        "com": 67,
+        "dri": 69,
         "ldr": 58,
-        "pac": 62,
+        "pac": 64,
         "pas": 69,
         "pos": 61,
-        "sho": 65,
+        "sho": 67,
         "sta": 68,
         "str": 63,
         "tac": 63,
-        "vis": 68
+        "vis": 70
       },
       "birth": "2003-10-01",
       "contract": "2028-06-30",
@@ -521,10 +531,13 @@
       "name": "Carney Chukwoemeka",
       "nation": "ENG",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 92500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -553,7 +566,8 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 54,
@@ -681,7 +695,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 58,
@@ -713,16 +729,16 @@
     },
     {
       "attrs": {
-        "aer": 77,
-        "com": 72,
+        "aer": 82,
+        "com": 77,
         "dri": 78,
         "ldr": 66,
         "pac": 84,
         "pas": 72,
-        "pos": 53,
-        "sho": 79,
+        "pos": 58,
+        "sho": 84,
         "sta": 76,
-        "str": 81,
+        "str": 86,
         "tac": 48,
         "vis": 69
       },
@@ -739,6 +755,8 @@
     },
     {
       "alt": [
+        "RW",
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -771,7 +789,9 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "RM",
+        "LM"
       ],
       "attrs": {
         "aer": 43,
@@ -801,16 +821,16 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 57,
+        "aer": 69,
+        "com": 59,
         "dri": 63,
         "ldr": 41,
         "pac": 70,
         "pas": 55,
-        "pos": 39,
-        "sho": 63,
+        "pos": 41,
+        "sho": 65,
         "sta": 64,
-        "str": 68,
+        "str": 70,
         "tac": 31,
         "vis": 49
       },

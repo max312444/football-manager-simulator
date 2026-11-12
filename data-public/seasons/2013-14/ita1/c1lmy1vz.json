@@ -51,9 +51,6 @@
       "wage": 116000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 88,
         "com": 81,
@@ -80,9 +77,6 @@
       "wage": 150000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 84,
         "com": 79,
@@ -135,6 +129,9 @@
       "wage": 76500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -161,19 +158,22 @@
       "wage": 95000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 82,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 78,
-        "pos": 77,
-        "sho": 71,
-        "sta": 82,
-        "str": 73,
-        "tac": 74,
-        "vis": 82
+        "aer": 62,
+        "com": 80,
+        "dri": 82,
+        "ldr": 71,
+        "pac": 85,
+        "pas": 74,
+        "pos": 59,
+        "sho": 75,
+        "sta": 78,
+        "str": 68,
+        "tac": 54,
+        "vis": 79
       },
       "birth": "1983-08-01",
       "contract": null,
@@ -183,10 +183,13 @@
       "name": "Simone Pepa",
       "nation": "ITA",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 140500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 83,
@@ -220,7 +223,7 @@
         "ldr": 71,
         "pac": 77,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 84,
         "sta": 76,
         "str": 79,
@@ -247,7 +250,7 @@
         "ldr": 78,
         "pac": 84,
         "pas": 76,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 77,
         "str": 85,
@@ -266,6 +269,9 @@
       "wage": 129000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 70,
@@ -288,11 +294,14 @@
       "name": "Paolo De Ceglye",
       "nation": "ITA",
       "number": 11,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 70500
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 83,
@@ -300,7 +309,7 @@
         "ldr": 72,
         "pac": 80,
         "pas": 72,
-        "pos": 60,
+        "pos": 80,
         "sho": 83,
         "sta": 76,
         "str": 82,
@@ -341,7 +350,7 @@
       "name": "Federico Paluso",
       "nation": "ITA",
       "number": 13,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 54000
     },
     {
@@ -352,7 +361,7 @@
         "ldr": 74,
         "pac": 79,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 82,
         "sta": 74,
         "str": 79,
@@ -423,19 +432,22 @@
       "wage": 87500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 73,
-        "dri": 67,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 75,
-        "pos": 73,
-        "sho": 69,
+        "dri": 63,
+        "ldr": 70,
+        "pac": 65,
+        "pas": 74,
+        "pos": 77,
+        "sho": 63,
         "sta": 77,
-        "str": 66,
-        "tac": 70,
-        "vis": 75
+        "str": 71,
+        "tac": 76,
+        "vis": 72
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -445,13 +457,10 @@
       "name": "Luca Merrone",
       "nation": "ITA",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 69000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 87,
         "com": 78,
@@ -478,6 +487,11 @@
       "wage": 125000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 76,
@@ -504,19 +518,22 @@
       "wage": 100000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 79,
-        "dri": 75,
-        "ldr": 74,
-        "pac": 74,
-        "pas": 78,
-        "pos": 77,
-        "sho": 75,
-        "sta": 80,
-        "str": 77,
-        "tac": 77,
-        "vis": 77
+        "aer": 67,
+        "com": 81,
+        "dri": 77,
+        "ldr": 75,
+        "pac": 75,
+        "pas": 80,
+        "pos": 78,
+        "sho": 77,
+        "sta": 82,
+        "str": 78,
+        "tac": 78,
+        "vis": 79
       },
       "birth": "1979-05-01",
       "contract": null,
@@ -530,19 +547,24 @@
       "wage": 132500
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 80,
-        "dri": 77,
-        "ldr": 74,
-        "pac": 75,
-        "pas": 82,
-        "pos": 72,
-        "sho": 73,
-        "sta": 78,
-        "str": 72,
-        "tac": 74,
-        "vis": 78
+        "aer": 63,
+        "com": 78,
+        "dri": 80,
+        "ldr": 72,
+        "pac": 83,
+        "pas": 84,
+        "pos": 64,
+        "sho": 71,
+        "sta": 83,
+        "str": 69,
+        "tac": 70,
+        "vis": 79
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -552,23 +574,26 @@
       "name": "Kwadwo Asamoeh",
       "nation": "GHA",
       "number": 22,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 124000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 85,
-        "dri": 81,
-        "ldr": 79,
-        "pac": 77,
-        "pas": 85,
-        "pos": 83,
-        "sho": 75,
+        "dri": 77,
+        "ldr": 81,
+        "pac": 74,
+        "pas": 84,
+        "pos": 87,
+        "sho": 69,
         "sta": 85,
-        "str": 77,
-        "tac": 76,
-        "vis": 81
+        "str": 82,
+        "tac": 82,
+        "vis": 78
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -578,23 +603,26 @@
       "name": "Arturo Videl",
       "nation": "CHI",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 201500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 67,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 64,
-        "pos": 61,
-        "sho": 56,
+        "dri": 56,
+        "ldr": 60,
+        "pac": 53,
+        "pas": 63,
+        "pos": 65,
+        "sho": 50,
         "sta": 69,
-        "str": 62,
-        "tac": 61,
-        "vis": 66
+        "str": 67,
+        "tac": 67,
+        "vis": 63
       },
       "birth": "1993-06-01",
       "contract": null,
@@ -604,7 +632,7 @@
       "name": "Ouasim Booy",
       "nation": "NED",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 24500
     },
     {
@@ -641,7 +669,7 @@
         "ldr": 72,
         "pac": 79,
         "pas": 72,
-        "pos": 61,
+        "pos": 81,
         "sho": 82,
         "sta": 78,
         "str": 82,
@@ -686,6 +714,11 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 75,
@@ -738,6 +771,9 @@
       "wage": 69000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,

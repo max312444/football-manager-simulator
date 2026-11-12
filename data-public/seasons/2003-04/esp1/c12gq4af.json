@@ -51,6 +51,10 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 72,
@@ -78,6 +82,9 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -127,7 +134,7 @@
       "name": "Mikel Lase",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 22000
     },
@@ -154,7 +161,7 @@
       "name": "Lluis Carraras",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 23000
     },
@@ -166,7 +173,7 @@
         "ldr": 69,
         "pac": 72,
         "pas": 62,
-        "pos": 54,
+        "pos": 74,
         "sho": 76,
         "sta": 68,
         "str": 71,
@@ -213,6 +220,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 73,
@@ -240,19 +250,22 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 69,
-        "pos": 62,
-        "sho": 61,
-        "sta": 71,
-        "str": 65,
-        "tac": 62,
-        "vis": 70
+        "aer": 56,
+        "com": 65,
+        "dri": 68,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 68,
+        "pos": 54,
+        "sho": 59,
+        "sta": 73,
+        "str": 62,
+        "tac": 55,
+        "vis": 68
       },
       "birth": "1978-04-01",
       "contract": null,
@@ -262,10 +275,13 @@
       "name": "Diego Quintena",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -355,7 +371,7 @@
         "ldr": 58,
         "pac": 61,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 59,
         "str": 64,
@@ -382,7 +398,7 @@
         "ldr": 54,
         "pac": 64,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 61,
         "str": 65,
@@ -454,6 +470,10 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 64,
@@ -461,7 +481,7 @@
         "ldr": 59,
         "pac": 61,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 57,
         "str": 63,
@@ -509,18 +529,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 63,
-        "dri": 48,
-        "ldr": 60,
-        "pac": 56,
-        "pas": 53,
-        "pos": 68,
-        "sho": 33,
-        "sta": 59,
-        "str": 66,
-        "tac": 62,
-        "vis": 51
+        "aer": 53,
+        "com": 61,
+        "dri": 58,
+        "ldr": 56,
+        "pac": 64,
+        "pas": 57,
+        "pos": 63,
+        "sho": 40,
+        "sta": 65,
+        "str": 58,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1977-02-01",
       "contract": null,
@@ -530,23 +550,23 @@
       "name": "Rafael Clavaro",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5500
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 62,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 60,
+        "aer": 44,
+        "com": 63,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 63,
         "pas": 62,
-        "pos": 57,
-        "sho": 54,
-        "sta": 62,
-        "str": 59,
-        "tac": 56,
-        "vis": 66
+        "pos": 42,
+        "sho": 60,
+        "sta": 56,
+        "str": 54,
+        "tac": 38,
+        "vis": 68
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -556,7 +576,7 @@
       "name": "Rychi",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7000
     },
     {
@@ -587,18 +607,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 58,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 62,
-        "pos": 58,
-        "sho": 52,
+        "dri": 58,
+        "ldr": 60,
+        "pac": 50,
+        "pas": 61,
+        "pos": 62,
+        "sho": 46,
         "sta": 60,
-        "str": 56,
-        "tac": 55,
-        "vis": 65
+        "str": 61,
+        "tac": 61,
+        "vis": 62
       },
       "birth": "1973-01-01",
       "contract": null,
@@ -608,11 +628,14 @@
       "name": "Jaime Ramus",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -639,6 +662,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,
@@ -695,18 +721,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 58,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 50,
-        "pos": 61,
-        "sho": 36,
-        "sta": 58,
-        "str": 62,
-        "tac": 66,
-        "vis": 47
+        "aer": 49,
+        "com": 56,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 60,
+        "pas": 54,
+        "pos": 56,
+        "sho": 43,
+        "sta": 64,
+        "str": 54,
+        "tac": 63,
+        "vis": 53
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -716,23 +742,23 @@
       "name": "Juanme",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 62,
-        "pos": 56,
-        "sho": 52,
-        "sta": 62,
-        "str": 53,
-        "tac": 57,
-        "vis": 58
+        "aer": 43,
+        "com": 55,
+        "dri": 58,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 60,
+        "pos": 48,
+        "sho": 50,
+        "sta": 63,
+        "str": 50,
+        "tac": 49,
+        "vis": 55
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -742,7 +768,7 @@
       "name": "Miguel Albiul",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 4500
     },
@@ -800,6 +826,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -827,19 +856,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 54,
-        "dri": 42,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 48,
-        "pos": 60,
-        "sho": 33,
-        "sta": 52,
-        "str": 62,
-        "tac": 58,
-        "vis": 41
+        "aer": 49,
+        "com": 52,
+        "dri": 52,
+        "ldr": 51,
+        "pac": 58,
+        "pas": 52,
+        "pos": 55,
+        "sho": 40,
+        "sta": 58,
+        "str": 54,
+        "tac": 55,
+        "vis": 47
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -849,7 +883,7 @@
       "name": "Juan Valere",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3000
     },
@@ -882,18 +916,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 53,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 47,
-        "pas": 58,
-        "pos": 51,
-        "sho": 45,
+        "dri": 48,
+        "ldr": 50,
+        "pac": 44,
+        "pas": 57,
+        "pos": 55,
+        "sho": 39,
         "sta": 57,
-        "str": 52,
-        "tac": 51,
-        "vis": 57
+        "str": 57,
+        "tac": 57,
+        "vis": 54
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -903,7 +937,7 @@
       "name": "Jose Marya",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -961,6 +995,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 47,

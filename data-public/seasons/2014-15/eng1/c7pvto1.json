@@ -176,6 +176,9 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 69,
@@ -205,6 +208,11 @@
       "wage": 50000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 78,
         "com": 74,
@@ -287,16 +295,21 @@
       "wage": 86500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 72,
-        "dri": 67,
+        "dri": 72,
         "ldr": 69,
-        "pac": 62,
+        "pac": 67,
         "pas": 76,
         "pos": 63,
-        "sho": 68,
-        "sta": 82,
+        "sho": 73,
+        "sta": 87,
         "str": 64,
         "tac": 63,
         "vis": 71
@@ -316,19 +329,22 @@
       "wage": 92500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 63,
+        "com": 65,
         "dri": 67,
         "ldr": 54,
         "pac": 67,
-        "pas": 69,
-        "pos": 63,
+        "pas": 71,
+        "pos": 65,
         "sho": 61,
         "sta": 72,
-        "str": 73,
-        "tac": 66,
-        "vis": 63
+        "str": 75,
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1991-03-01",
       "contract": "2019-06-30",
@@ -338,7 +354,7 @@
       "name": "Jack Rudwell",
       "nation": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "injury_prone"
       ],
@@ -346,7 +362,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 50,
@@ -402,6 +419,8 @@
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -410,13 +429,13 @@
         "dri": 76,
         "ldr": 50,
         "pac": 74,
-        "pas": 70,
+        "pas": 77,
         "pos": 66,
         "sho": 66,
-        "sta": 74,
+        "sta": 81,
         "str": 56,
-        "tac": 46,
-        "vis": 68
+        "tac": 53,
+        "vis": 75
       },
       "birth": "1985-05-01",
       "contract": "2017-06-30",
@@ -432,17 +451,17 @@
     {
       "attrs": {
         "aer": 52,
-        "com": 62,
+        "com": 63,
         "dri": 60,
         "ldr": 58,
         "pac": 64,
-        "pas": 66,
-        "pos": 66,
+        "pas": 67,
+        "pos": 67,
         "sho": 44,
         "sta": 76,
-        "str": 62,
-        "tac": 70,
-        "vis": 60
+        "str": 63,
+        "tac": 71,
+        "vis": 61
       },
       "birth": "1989-05-01",
       "contract": "2017-06-30",
@@ -457,7 +476,7 @@
     },
     {
       "alt": [
-        "RW"
+        "RB"
       ],
       "attrs": {
         "aer": 38,
@@ -465,13 +484,13 @@
         "dri": 64,
         "ldr": 36,
         "pac": 70,
-        "pas": 58,
+        "pas": 64,
         "pos": 42,
         "sho": 50,
-        "sta": 64,
+        "sta": 70,
         "str": 52,
-        "tac": 38,
-        "vis": 55
+        "tac": 44,
+        "vis": 61
       },
       "birth": "1994-02-01",
       "contract": "2017-06-30",
@@ -512,6 +531,9 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 43,
         "com": 71,
@@ -564,19 +586,23 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 73,
         "com": 59,
-        "dri": 66,
+        "dri": 67,
         "ldr": 46,
-        "pac": 71,
-        "pas": 59,
+        "pac": 72,
+        "pas": 60,
         "pos": 44,
         "sho": 67,
         "sta": 69,
         "str": 82,
         "tac": 38,
-        "vis": 55
+        "vis": 56
       },
       "birth": "1993-03-01",
       "contract": "2018-06-30",
@@ -586,7 +612,7 @@
       "name": "Connor Wyckham",
       "nation": "ENG",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 49000
     },
     {

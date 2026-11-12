@@ -50,6 +50,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -76,6 +79,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 65,
@@ -130,18 +136,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 62,
+        "aer": 59,
+        "com": 63,
         "dri": 62,
-        "ldr": 57,
-        "pac": 57,
-        "pas": 65,
+        "ldr": 55,
+        "pac": 62,
+        "pas": 55,
         "pos": 65,
-        "sho": 60,
-        "sta": 69,
-        "str": 57,
-        "tac": 58,
-        "vis": 66
+        "sho": 69,
+        "sta": 63,
+        "str": 62,
+        "tac": 32,
+        "vis": 57
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -151,13 +157,15 @@
       "name": "Sascha Rusler",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 5000
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 52,
@@ -186,19 +194,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 62,
+        "com": 63,
         "dri": 64,
         "ldr": 56,
         "pac": 61,
-        "pas": 63,
+        "pas": 64,
         "pos": 63,
         "sho": 60,
         "sta": 66,
         "str": 59,
-        "tac": 61,
-        "vis": 61
+        "tac": 62,
+        "vis": 62
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -220,7 +231,7 @@
         "ldr": 53,
         "pac": 63,
         "pas": 54,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 55,
         "str": 62,
@@ -247,7 +258,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 58,
         "str": 57,
@@ -267,19 +278,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 63,
-        "dri": 61,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 63,
-        "pos": 60,
-        "sho": 52,
-        "sta": 60,
-        "str": 55,
-        "tac": 57,
-        "vis": 60
+        "aer": 46,
+        "com": 61,
+        "dri": 66,
+        "ldr": 50,
+        "pac": 65,
+        "pas": 59,
+        "pos": 42,
+        "sho": 56,
+        "sta": 56,
+        "str": 50,
+        "tac": 37,
+        "vis": 57
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -290,11 +304,14 @@
       "nation": "GER",
       "nation2": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -356,7 +373,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 56,
         "str": 61,
@@ -376,18 +393,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 57,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 60,
-        "pos": 56,
-        "sho": 54,
+        "dri": 50,
+        "ldr": 56,
+        "pac": 53,
+        "pas": 59,
+        "pos": 60,
+        "sho": 48,
         "sta": 60,
-        "str": 50,
-        "tac": 56,
-        "vis": 60
+        "str": 55,
+        "tac": 62,
+        "vis": 57
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -397,11 +414,14 @@
       "name": "Matthias Heidrych",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -429,19 +449,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 57,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 54,
+        "aer": 44,
+        "com": 55,
+        "dri": 56,
+        "ldr": 49,
+        "pac": 62,
         "pas": 59,
-        "pos": 52,
-        "sho": 48,
-        "sta": 57,
-        "str": 55,
-        "tac": 53,
-        "vis": 58
+        "pos": 44,
+        "sho": 46,
+        "sta": 60,
+        "str": 52,
+        "tac": 47,
+        "vis": 57
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -451,7 +474,7 @@
       "name": "Ivan Petruvic",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "verify": true,
       "wage": 2500
     },
@@ -482,6 +505,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -536,17 +562,17 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 54,
-        "dri": 49,
+        "aer": 56,
+        "com": 59,
+        "dri": 51,
         "ldr": 48,
-        "pac": 55,
-        "pas": 50,
+        "pac": 53,
+        "pas": 46,
         "pos": 53,
-        "sho": 36,
-        "sta": 56,
-        "str": 53,
-        "tac": 59,
+        "sho": 59,
+        "sta": 50,
+        "str": 59,
+        "tac": 29,
         "vis": 48
       },
       "birth": "1978-09-01",
@@ -557,7 +583,7 @@
       "name": "Erwin Koan",
       "nation": "NED",
       "number": null,
-      "pos": "RB",
+      "pos": "ST",
       "verify": true,
       "wage": 1500
     },
@@ -596,7 +622,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 53,
         "str": 57,
@@ -641,6 +667,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -667,19 +696,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 53,
-        "dri": 49,
-        "ldr": 50,
-        "pac": 52,
-        "pas": 59,
-        "pos": 51,
-        "sho": 50,
-        "sta": 57,
-        "str": 52,
-        "tac": 49,
-        "vis": 57
+        "aer": 39,
+        "com": 51,
+        "dri": 54,
+        "ldr": 46,
+        "pac": 61,
+        "pas": 55,
+        "pos": 33,
+        "sho": 54,
+        "sta": 53,
+        "str": 47,
+        "tac": 29,
+        "vis": 54
       },
       "birth": "1986-02-01",
       "contract": null,
@@ -689,7 +721,7 @@
       "name": "Marcel Hellar",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 2000
     },
@@ -720,6 +752,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 50,
@@ -798,6 +833,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 47,
@@ -852,6 +890,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 50,

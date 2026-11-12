@@ -72,9 +72,6 @@
       "wage": 19500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 68,
@@ -102,9 +99,6 @@
       "wage": 48000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 64,
@@ -132,9 +126,6 @@
       "wage": 32000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 74,
@@ -192,9 +183,6 @@
       "wage": 52500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 60,
@@ -254,17 +242,17 @@
       ],
       "attrs": {
         "aer": 56,
-        "com": 64,
-        "dri": 68,
+        "com": 68,
+        "dri": 72,
         "ldr": 56,
-        "pac": 74,
-        "pas": 68,
+        "pac": 78,
+        "pas": 69,
         "pos": 62,
-        "sho": 56,
+        "sho": 60,
         "sta": 74,
         "str": 64,
         "tac": 64,
-        "vis": 60
+        "vis": 61
       },
       "birth": "1972-08-01",
       "contract": "2006-06-30",
@@ -274,11 +262,15 @@
       "name": "Stan Lezaridis",
       "nation": "AUS",
       "number": 11,
-      "pos": "LM",
+      "pos": "LW",
       "verify": true,
       "wage": 35000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 50,
@@ -311,17 +303,17 @@
       ],
       "attrs": {
         "aer": 64,
-        "com": 66,
-        "dri": 64,
+        "com": 77,
+        "dri": 73,
         "ldr": 70,
         "pac": 72,
-        "pas": 70,
+        "pas": 81,
         "pos": 70,
-        "sho": 56,
-        "sta": 88,
+        "sho": 65,
+        "sta": 89,
         "str": 72,
-        "tac": 76,
-        "vis": 62
+        "tac": 78,
+        "vis": 73
       },
       "birth": "1974-10-01",
       "contract": "2006-06-30",
@@ -345,21 +337,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
-        "com": 64,
-        "dri": 64,
+        "com": 75,
+        "dri": 72,
         "ldr": 58,
         "pac": 72,
-        "pas": 66,
+        "pas": 77,
         "pos": 68,
-        "sho": 52,
+        "sho": 60,
         "sta": 84,
         "str": 68,
-        "tac": 72,
-        "vis": 60
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1978-11-01",
       "contract": "2007-06-30",
@@ -374,19 +366,22 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 62,
-        "dri": 64,
+        "com": 66,
+        "dri": 66,
         "ldr": 52,
         "pac": 64,
-        "pas": 68,
+        "pas": 72,
         "pos": 64,
-        "sho": 56,
+        "sho": 58,
         "sta": 76,
         "str": 64,
-        "tac": 66,
-        "vis": 62
+        "tac": 68,
+        "vis": 66
       },
       "birth": "1978-03-01",
       "contract": "2006-06-30",
@@ -401,6 +396,9 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -429,19 +427,23 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 56,
+        "com": 65,
         "dri": 64,
         "ldr": 42,
         "pac": 66,
-        "pas": 64,
+        "pas": 73,
         "pos": 56,
         "sho": 62,
         "sta": 74,
         "str": 66,
-        "tac": 56,
-        "vis": 58
+        "tac": 65,
+        "vis": 67
       },
       "birth": "1983-12-01",
       "contract": "2007-06-30",
@@ -456,19 +458,23 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
-        "com": 50,
+        "com": 61,
         "dri": 58,
         "ldr": 36,
         "pac": 64,
-        "pas": 58,
+        "pas": 69,
         "pos": 52,
         "sho": 50,
         "sta": 68,
         "str": 52,
-        "tac": 52,
-        "vis": 54
+        "tac": 63,
+        "vis": 65
       },
       "birth": "1985-12-01",
       "contract": "2007-06-30",
@@ -484,9 +490,6 @@
       "wage": 10500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 54,
         "com": 70,
@@ -517,9 +520,6 @@
       "wage": 45500
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -542,7 +542,7 @@
       "name": "Julian Grey",
       "nation": "ENG",
       "number": 14,
-      "pos": "LM",
+      "pos": "LW",
       "verify": true,
       "wage": 23000
     },
@@ -578,16 +578,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 70,
+        "aer": 64,
+        "com": 72,
         "dri": 70,
         "ldr": 46,
         "pac": 76,
         "pas": 62,
-        "pos": 50,
-        "sho": 76,
+        "pos": 52,
+        "sho": 78,
         "sta": 70,
-        "str": 66,
+        "str": 68,
         "tac": 36,
         "vis": 58
       },
@@ -606,16 +606,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 62,
+        "aer": 64,
+        "com": 64,
         "dri": 68,
         "ldr": 46,
         "pac": 72,
         "pas": 58,
-        "pos": 50,
-        "sho": 70,
+        "pos": 52,
+        "sho": 72,
         "sta": 70,
-        "str": 66,
+        "str": 68,
         "tac": 36,
         "vis": 54
       },
@@ -633,14 +633,15 @@
     },
     {
       "alt": [
-        "AM"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 64,
         "com": 72,
-        "dri": 70,
+        "dri": 76,
         "ldr": 60,
-        "pac": 62,
+        "pac": 68,
         "pas": 70,
         "pos": 56,
         "sho": 70,
@@ -657,7 +658,7 @@
       "name": "Dwight Yurke",
       "nation": "TRI",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 33500
     }

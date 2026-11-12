@@ -25,7 +25,9 @@
   "squad": [
     {
       "alt": [
-        "CM"
+        "LB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 72,
@@ -60,7 +62,7 @@
         "ldr": 77,
         "pac": 82,
         "pas": 72,
-        "pos": 59,
+        "pos": 79,
         "sho": 87,
         "sta": 75,
         "str": 81,
@@ -86,7 +88,7 @@
         "ldr": 72,
         "pac": 81,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 84,
         "sta": 73,
         "str": 82,
@@ -112,7 +114,7 @@
         "ldr": 72,
         "pac": 83,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 85,
         "sta": 78,
         "str": 80,
@@ -132,6 +134,9 @@
       "wage": 75000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 81,
@@ -159,6 +164,11 @@
       "wage": 81000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -185,6 +195,11 @@
       "wage": 81000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 73,
         "com": 76,
@@ -192,7 +207,7 @@
         "ldr": 72,
         "pac": 77,
         "pas": 72,
-        "pos": 58,
+        "pos": 78,
         "sho": 79,
         "sta": 74,
         "str": 75,
@@ -237,6 +252,9 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -298,7 +316,7 @@
         "ldr": 70,
         "pac": 74,
         "pas": 69,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 74,
         "str": 73,
@@ -343,19 +361,24 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 72,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 67,
+        "aer": 57,
+        "com": 70,
+        "dri": 74,
+        "ldr": 67,
+        "pac": 75,
         "pas": 73,
-        "pos": 70,
-        "sho": 67,
-        "sta": 74,
-        "str": 71,
-        "tac": 69,
-        "vis": 72
+        "pos": 62,
+        "sho": 65,
+        "sta": 77,
+        "str": 68,
+        "tac": 63,
+        "vis": 71
       },
       "birth": "1976-04-01",
       "contract": null,
@@ -365,27 +388,28 @@
       "name": "Gylberto",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "verify": true,
       "wage": 46000
     },
     {
       "alt": [
-        "RB"
+        "LM",
+        "LW"
       ],
       "attrs": {
-        "aer": 73,
-        "com": 73,
-        "dri": 60,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 64,
-        "pos": 75,
-        "sho": 42,
-        "sta": 68,
-        "str": 75,
-        "tac": 74,
-        "vis": 59
+        "aer": 60,
+        "com": 71,
+        "dri": 70,
+        "ldr": 66,
+        "pac": 77,
+        "pas": 68,
+        "pos": 70,
+        "sho": 49,
+        "sta": 74,
+        "str": 67,
+        "tac": 71,
+        "vis": 65
       },
       "birth": "1972-10-01",
       "contract": null,
@@ -395,7 +419,7 @@
       "name": "Grigoris Gaorgatos",
       "nation": "GRE",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 33500
     },
     {
@@ -406,7 +430,7 @@
         "ldr": 69,
         "pac": 70,
         "pas": 61,
-        "pos": 50,
+        "pos": 70,
         "sho": 76,
         "sta": 65,
         "str": 72,
@@ -426,6 +450,9 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -454,18 +481,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 71,
-        "dri": 57,
-        "ldr": 71,
-        "pac": 62,
-        "pas": 64,
-        "pos": 71,
-        "sho": 41,
-        "sta": 63,
-        "str": 73,
-        "tac": 75,
-        "vis": 58
+        "aer": 57,
+        "com": 69,
+        "dri": 67,
+        "ldr": 67,
+        "pac": 70,
+        "pas": 68,
+        "pos": 66,
+        "sho": 48,
+        "sta": 69,
+        "str": 65,
+        "tac": 72,
+        "vis": 64
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -475,11 +502,14 @@
       "name": "Vratislav Gresku",
       "nation": "SVK",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -534,18 +564,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 70,
-        "dri": 64,
-        "ldr": 61,
-        "pac": 65,
-        "pas": 71,
-        "pos": 63,
-        "sho": 60,
+        "dri": 60,
+        "ldr": 63,
+        "pac": 62,
+        "pas": 70,
+        "pos": 67,
+        "sho": 54,
         "sta": 66,
-        "str": 62,
-        "tac": 66,
-        "vis": 68
+        "str": 67,
+        "tac": 72,
+        "vis": 65
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -555,24 +585,24 @@
       "name": "Cristian Brocchy",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 26000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 62,
-        "dri": 56,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 59,
-        "pos": 72,
-        "sho": 40,
-        "sta": 62,
-        "str": 72,
-        "tac": 69,
-        "vis": 54
+        "aer": 56,
+        "com": 60,
+        "dri": 66,
+        "ldr": 58,
+        "pac": 69,
+        "pas": 63,
+        "pos": 67,
+        "sho": 47,
+        "sta": 68,
+        "str": 64,
+        "tac": 66,
+        "vis": 60
       },
       "birth": "1970-03-01",
       "contract": null,
@@ -582,7 +612,7 @@
       "name": "Michele Serene",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 18000
     },
@@ -594,7 +624,7 @@
         "ldr": 60,
         "pac": 63,
         "pas": 58,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 62,
         "str": 65,
@@ -614,6 +644,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 67,
@@ -674,7 +707,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 53,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 55,
         "str": 57,
@@ -716,7 +749,7 @@
       "name": "Fabio Macallari",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 6500
     },
@@ -728,7 +761,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 45,
-        "pos": 33,
+        "pos": 53,
         "sho": 56,
         "sta": 54,
         "str": 54,
@@ -808,7 +841,7 @@
         "ldr": 46,
         "pac": 52,
         "pas": 43,
-        "pos": 27,
+        "pos": 47,
         "sho": 50,
         "sta": 44,
         "str": 47,
@@ -827,6 +860,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,
@@ -861,7 +897,7 @@
         "ldr": 40,
         "pac": 47,
         "pas": 38,
-        "pos": 27,
+        "pos": 47,
         "sho": 49,
         "sta": 45,
         "str": 51,
@@ -880,6 +916,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 33,
         "com": 41,

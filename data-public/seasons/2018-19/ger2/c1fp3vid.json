@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 55,
-        "dri": 53,
-        "ldr": 52,
-        "pac": 52,
+        "aer": 39,
+        "com": 56,
+        "dri": 57,
+        "ldr": 50,
+        "pac": 55,
         "pas": 56,
-        "pos": 57,
-        "sho": 54,
-        "sta": 60,
-        "str": 52,
-        "tac": 53,
-        "vis": 59
+        "pos": 42,
+        "sho": 60,
+        "sta": 54,
+        "str": 47,
+        "tac": 35,
+        "vis": 61
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -99,7 +99,7 @@
       "name": "Clemens Fendrich",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
@@ -125,10 +125,13 @@
       "name": "Luke Hemmerych",
       "nation": "GER",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 62,
@@ -155,17 +158,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 49,
-        "dri": 47,
+        "aer": 52,
+        "com": 58,
+        "dri": 54,
         "ldr": 50,
-        "pac": 49,
+        "pac": 55,
         "pas": 55,
-        "pos": 52,
-        "sho": 42,
+        "pos": 59,
+        "sho": 51,
         "sta": 53,
-        "str": 46,
+        "str": 54,
         "tac": 49,
         "vis": 53
       },
@@ -177,22 +185,27 @@
       "name": "Tom Baomgart",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 68,
         "com": 56,
         "dri": 49,
         "ldr": 50,
         "pac": 54,
-        "pas": 47,
-        "pos": 29,
+        "pas": 62,
+        "pos": 64,
         "sho": 55,
         "sta": 48,
-        "str": 53,
-        "tac": 26,
+        "str": 68,
+        "tac": 41,
         "vis": 47
       },
       "birth": "1997-10-01",
@@ -204,7 +217,7 @@
       "name": "Emmanuel Iyuha",
       "nation": "GER",
       "number": 9,
-      "pos": "ST",
+      "pos": "CB",
       "wage": 2500
     },
     {
@@ -215,7 +228,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 62,
         "sta": 61,
         "str": 64,
@@ -268,7 +281,7 @@
         "ldr": 44,
         "pac": 52,
         "pas": 40,
-        "pos": 25,
+        "pos": 45,
         "sho": 54,
         "sta": 48,
         "str": 47,
@@ -314,6 +327,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -340,6 +356,10 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 56,
@@ -366,19 +386,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 55,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 57,
-        "pos": 54,
-        "sho": 46,
+        "dri": 50,
+        "ldr": 53,
+        "pac": 47,
+        "pas": 56,
+        "pos": 58,
+        "sho": 40,
         "sta": 59,
-        "str": 48,
-        "tac": 53,
-        "vis": 56
+        "str": 53,
+        "tac": 59,
+        "vis": 53
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -388,23 +411,23 @@
       "name": "Nicolai Repp",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 55,
-        "dri": 41,
-        "ldr": 56,
-        "pac": 50,
-        "pas": 48,
-        "pos": 58,
-        "sho": 33,
-        "sta": 55,
-        "str": 56,
-        "tac": 58,
-        "vis": 45
+        "aer": 44,
+        "com": 53,
+        "dri": 51,
+        "ldr": 52,
+        "pac": 58,
+        "pas": 52,
+        "pos": 53,
+        "sho": 40,
+        "sta": 61,
+        "str": 48,
+        "tac": 55,
+        "vis": 51
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -414,7 +437,7 @@
       "name": "Calogero Rizzutu",
       "nation": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
@@ -444,19 +467,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 62,
-        "dri": 64,
-        "ldr": 57,
-        "pac": 61,
-        "pas": 56,
-        "pos": 44,
-        "sho": 68,
-        "sta": 61,
-        "str": 65,
-        "tac": 32,
-        "vis": 54
+        "aer": 50,
+        "com": 59,
+        "dri": 69,
+        "ldr": 55,
+        "pac": 65,
+        "pas": 62,
+        "pos": 46,
+        "sho": 63,
+        "sta": 63,
+        "str": 55,
+        "tac": 38,
+        "vis": 60
       },
       "birth": "1991-06-01",
       "contract": null,
@@ -466,23 +492,26 @@
       "name": "Soren Bartram",
       "nation": "GER",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 58,
-        "dri": 56,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 60,
-        "pos": 56,
-        "sho": 49,
+        "dri": 52,
+        "ldr": 54,
+        "pac": 51,
+        "pas": 59,
+        "pos": 60,
+        "sho": 43,
         "sta": 58,
-        "str": 50,
-        "tac": 53,
-        "vis": 56
+        "str": 55,
+        "tac": 59,
+        "vis": 53
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -492,10 +521,13 @@
       "name": "John-Patrick Streuss",
       "nation": "GER",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -575,7 +607,9 @@
       "wage": 1500
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 59,
@@ -662,7 +696,7 @@
         "ldr": 55,
         "pac": 66,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 66,
         "sta": 57,
         "str": 60,
@@ -683,17 +717,17 @@
     {
       "attrs": {
         "aer": 42,
-        "com": 49,
-        "dri": 48,
-        "ldr": 48,
-        "pac": 43,
-        "pas": 55,
+        "com": 45,
+        "dri": 46,
+        "ldr": 46,
+        "pac": 50,
+        "pas": 49,
         "pos": 50,
-        "sho": 47,
+        "sho": 33,
         "sta": 51,
-        "str": 45,
-        "tac": 49,
-        "vis": 53
+        "str": 44,
+        "tac": 53,
+        "vis": 44
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -703,7 +737,7 @@
       "name": "Robert Herrmenn",
       "nation": "GER",
       "number": 38,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 3000
     }
   ],

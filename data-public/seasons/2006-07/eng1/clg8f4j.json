@@ -70,9 +70,6 @@
       "wage": 36000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -99,21 +96,18 @@
       "wage": 59500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
-        "aer": 68,
+        "aer": 75,
         "com": 75,
         "dri": 70,
         "ldr": 77,
-        "pac": 71,
+        "pac": 78,
         "pas": 75,
-        "pos": 77,
+        "pos": 84,
         "sho": 60,
         "sta": 88,
-        "str": 79,
-        "tac": 84,
+        "str": 86,
+        "tac": 91,
         "vis": 68
       },
       "birth": "1980-12-01",
@@ -124,7 +118,7 @@
       "name": "Didier Zokura",
       "nation": "CIV",
       "number": 4,
-      "pos": "DM",
+      "pos": "CB",
       "verify": true,
       "wage": 79500
     },
@@ -168,9 +162,6 @@
       "wage": 79500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -200,6 +191,9 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 73,
@@ -227,16 +221,16 @@
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 89,
+        "aer": 84,
+        "com": 98,
         "dri": 86,
         "ldr": 71,
-        "pac": 71,
+        "pac": 80,
         "pas": 80,
-        "pos": 44,
-        "sho": 89,
+        "pos": 53,
+        "sho": 98,
         "sta": 77,
-        "str": 81,
+        "str": 90,
         "tac": 38,
         "vis": 83
       },
@@ -255,20 +249,17 @@
       "wage": 79500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 68,
-        "com": 81,
+        "aer": 74,
+        "com": 87,
         "dri": 81,
         "ldr": 68,
         "pac": 80,
         "pas": 72,
-        "pos": 50,
-        "sho": 84,
+        "pos": 56,
+        "sho": 90,
         "sta": 76,
-        "str": 72,
+        "str": 78,
         "tac": 42,
         "vis": 74
       },
@@ -285,22 +276,22 @@
     },
     {
       "alt": [
-        "RM",
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 49,
-        "com": 72,
+        "com": 77,
         "dri": 79,
         "ldr": 58,
         "pac": 76,
-        "pas": 74,
+        "pas": 79,
         "pos": 53,
-        "sho": 68,
+        "sho": 73,
         "sta": 76,
         "str": 57,
         "tac": 46,
-        "vis": 72
+        "vis": 77
       },
       "birth": "1980-01-01",
       "contract": "2010-06-30",
@@ -316,7 +307,9 @@
     },
     {
       "alt": [
-        "RM"
+        "LWB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 64,
@@ -340,7 +333,7 @@
       "name": "Paul Staltery",
       "nation": "CAN",
       "number": 12,
-      "pos": "RB",
+      "pos": "RWB",
       "verify": true,
       "wage": 37000
     },
@@ -372,21 +365,22 @@
     },
     {
       "alt": [
-        "RM"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 52,
-        "com": 64,
+        "com": 70,
         "dri": 72,
         "ldr": 52,
         "pac": 72,
-        "pas": 72,
+        "pas": 78,
         "pos": 60,
         "sho": 64,
         "sta": 76,
         "str": 66,
-        "tac": 64,
-        "vis": 68
+        "tac": 70,
+        "vis": 74
       },
       "birth": "1981-12-01",
       "contract": "2010-06-30",
@@ -408,11 +402,11 @@
         "ldr": 50,
         "pac": 60,
         "pas": 73,
-        "pos": 53,
+        "pos": 68,
         "sho": 67,
         "sta": 72,
-        "str": 52,
-        "tac": 53,
+        "str": 67,
+        "tac": 68,
         "vis": 70
       },
       "birth": "1986-12-01",
@@ -423,7 +417,7 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
@@ -432,16 +426,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 78,
+        "aer": 70,
+        "com": 83,
         "dri": 77,
         "ldr": 56,
         "pac": 82,
         "pas": 65,
-        "pos": 46,
-        "sho": 84,
+        "pos": 51,
+        "sho": 89,
         "sta": 76,
-        "str": 68,
+        "str": 73,
         "tac": 36,
         "vis": 66
       },
@@ -537,6 +531,9 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 66,
@@ -597,7 +594,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 58,

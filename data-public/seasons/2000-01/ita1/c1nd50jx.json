@@ -31,7 +31,7 @@
         "ldr": 64,
         "pac": 67,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 61,
         "str": 67,
@@ -52,21 +52,22 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 72,
-        "com": 65,
-        "dri": 56,
-        "ldr": 64,
-        "pac": 60,
-        "pas": 59,
-        "pos": 71,
-        "sho": 42,
-        "sta": 60,
-        "str": 71,
-        "tac": 68,
-        "vis": 51
+        "aer": 59,
+        "com": 63,
+        "dri": 66,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 63,
+        "pos": 66,
+        "sho": 49,
+        "sta": 66,
+        "str": 63,
+        "tac": 65,
+        "vis": 57
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -76,7 +77,7 @@
       "name": "Christian Maggiu",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 9500
     },
@@ -114,7 +115,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 61,
-        "pos": 48,
+        "pos": 68,
         "sho": 70,
         "sta": 61,
         "str": 65,
@@ -134,6 +135,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 69,
@@ -160,6 +164,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -193,7 +200,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 64,
         "str": 67,
@@ -219,7 +226,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 57,
         "str": 61,
@@ -267,18 +274,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 65,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 57,
+        "aer": 46,
+        "com": 66,
+        "dri": 65,
+        "ldr": 57,
+        "pac": 60,
         "pas": 65,
-        "pos": 59,
-        "sho": 55,
-        "sta": 64,
-        "str": 59,
-        "tac": 58,
-        "vis": 61
+        "pos": 44,
+        "sho": 61,
+        "sta": 58,
+        "str": 54,
+        "tac": 40,
+        "vis": 63
       },
       "birth": "1971-07-01",
       "contract": null,
@@ -288,7 +295,7 @@
       "name": "Lamberto Zeuli",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7500
     },
     {
@@ -299,7 +306,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 56,
         "str": 61,
@@ -400,18 +407,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 59,
-        "dri": 48,
-        "ldr": 59,
-        "pac": 51,
-        "pas": 50,
-        "pos": 65,
-        "sho": 30,
-        "sta": 55,
-        "str": 62,
-        "tac": 61,
-        "vis": 42
+        "aer": 51,
+        "com": 57,
+        "dri": 58,
+        "ldr": 55,
+        "pac": 59,
+        "pas": 54,
+        "pos": 60,
+        "sho": 37,
+        "sta": 61,
+        "str": 54,
+        "tac": 58,
+        "vis": 48
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -421,7 +428,7 @@
       "name": "Gianluca Comottu",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
@@ -511,7 +518,7 @@
         "ldr": 50,
         "pac": 58,
         "pas": 49,
-        "pos": 37,
+        "pos": 57,
         "sho": 61,
         "sta": 53,
         "str": 59,
@@ -531,6 +538,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -591,7 +601,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 50,
-        "pos": 32,
+        "pos": 52,
         "sho": 61,
         "sta": 54,
         "str": 54,
@@ -611,6 +621,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,
@@ -665,6 +678,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 58,
@@ -746,22 +762,19 @@
       "wage": 3000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 57,
-        "com": 52,
-        "dri": 37,
-        "ldr": 50,
-        "pac": 47,
-        "pas": 47,
-        "pos": 54,
-        "sho": 24,
-        "sta": 52,
-        "str": 59,
-        "tac": 56,
-        "vis": 40
+        "aer": 44,
+        "com": 50,
+        "dri": 47,
+        "ldr": 46,
+        "pac": 55,
+        "pas": 51,
+        "pos": 49,
+        "sho": 31,
+        "sta": 58,
+        "str": 51,
+        "tac": 53,
+        "vis": 46
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -771,7 +784,7 @@
       "name": "Juri Tamborini",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2000
     },
     {
@@ -828,6 +841,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -855,6 +871,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 48,

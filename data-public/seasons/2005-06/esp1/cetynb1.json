@@ -24,22 +24,19 @@
   },
   "squad": [
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 67,
-        "com": 86,
+        "com": 87,
         "dri": 89,
         "ldr": 80,
         "pac": 84,
-        "pas": 85,
+        "pas": 86,
         "pos": 67,
-        "sho": 81,
+        "sho": 82,
         "sta": 81,
         "str": 73,
         "tac": 60,
-        "vis": 85
+        "vis": 86
       },
       "birth": "1972-06-01",
       "contract": null,
@@ -53,6 +50,10 @@
       "wage": 190500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -79,6 +80,10 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "DM",
+        "RM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 87,
@@ -112,7 +117,7 @@
         "ldr": 82,
         "pac": 86,
         "pas": 79,
-        "pos": 61,
+        "pos": 81,
         "sho": 90,
         "sta": 79,
         "str": 85,
@@ -138,7 +143,7 @@
         "ldr": 79,
         "pac": 86,
         "pas": 75,
-        "pos": 63,
+        "pos": 83,
         "sho": 84,
         "sta": 77,
         "str": 86,
@@ -205,23 +210,23 @@
       "name": "Roberto Cerlos",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 165000
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 81,
-        "dri": 79,
-        "ldr": 78,
-        "pac": 73,
+        "aer": 65,
+        "com": 82,
+        "dri": 83,
+        "ldr": 76,
+        "pac": 76,
         "pas": 79,
-        "pos": 80,
-        "sho": 74,
-        "sta": 84,
-        "str": 76,
-        "tac": 73,
-        "vis": 81
+        "pos": 65,
+        "sho": 80,
+        "sta": 78,
+        "str": 71,
+        "tac": 55,
+        "vis": 83
       },
       "birth": "1976-10-01",
       "contract": null,
@@ -231,26 +236,23 @@
       "name": "Guty",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 175000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 83,
-        "com": 78,
-        "dri": 64,
-        "ldr": 81,
-        "pac": 75,
-        "pas": 72,
-        "pos": 80,
-        "sho": 52,
-        "sta": 74,
-        "str": 81,
-        "tac": 84,
-        "vis": 64
+        "aer": 70,
+        "com": 76,
+        "dri": 74,
+        "ldr": 77,
+        "pac": 83,
+        "pas": 76,
+        "pos": 75,
+        "sho": 59,
+        "sta": 80,
+        "str": 73,
+        "tac": 81,
+        "vis": 70
       },
       "birth": "1975-10-01",
       "contract": null,
@@ -260,10 +262,13 @@
       "name": "Michel Salgedo",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 118500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 85,
         "com": 78,
@@ -290,6 +295,9 @@
       "wage": 123000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 81,
@@ -318,18 +326,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 79,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 69,
-        "pas": 77,
-        "pos": 78,
-        "sho": 73,
+        "dri": 70,
+        "ldr": 74,
+        "pac": 66,
+        "pas": 76,
+        "pos": 82,
+        "sho": 67,
         "sta": 82,
-        "str": 69,
-        "tac": 74,
-        "vis": 79
+        "str": 74,
+        "tac": 80,
+        "vis": 76
       },
       "birth": "1977-05-01",
       "contract": null,
@@ -339,7 +347,7 @@
       "name": "Pablo Gercia",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 121000
     },
@@ -370,6 +378,11 @@
       "wage": 77000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 78,
@@ -377,7 +390,7 @@
         "ldr": 71,
         "pac": 77,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 73,
         "str": 77,
@@ -397,19 +410,23 @@
       "wage": 70500
     },
     {
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 74,
-        "dri": 75,
+        "aer": 75,
+        "com": 85,
+        "dri": 84,
         "ldr": 71,
-        "pac": 68,
-        "pas": 80,
-        "pos": 75,
-        "sho": 69,
+        "pac": 81,
+        "pas": 82,
+        "pos": 86,
+        "sho": 80,
         "sta": 76,
-        "str": 69,
+        "str": 80,
         "tac": 74,
-        "vis": 76
+        "vis": 78
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -419,7 +436,7 @@
       "name": "Robinhu",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LW",
       "verify": true,
       "wage": 101000
     },
@@ -477,6 +494,9 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 68,
@@ -537,7 +557,7 @@
         "ldr": 68,
         "pac": 69,
         "pas": 61,
-        "pos": 53,
+        "pos": 73,
         "sho": 73,
         "sta": 70,
         "str": 74,
@@ -557,19 +577,22 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 65,
-        "dri": 57,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 64,
-        "pos": 75,
-        "sho": 46,
-        "sta": 65,
-        "str": 69,
-        "tac": 74,
-        "vis": 57
+        "aer": 60,
+        "com": 63,
+        "dri": 69,
+        "ldr": 62,
+        "pac": 72,
+        "pas": 69,
+        "pos": 68,
+        "sho": 56,
+        "sta": 73,
+        "str": 61,
+        "tac": 69,
+        "vis": 64
       },
       "birth": "1983-07-01",
       "contract": null,
@@ -580,7 +603,7 @@
       "nation": "URU",
       "nation2": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "verify": true,
       "wage": 40000
     },
@@ -592,7 +615,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 61,
-        "pos": 45,
+        "pos": 65,
         "sho": 76,
         "sta": 68,
         "str": 69,
@@ -664,18 +687,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 67,
-        "dri": 69,
-        "ldr": 63,
-        "pac": 66,
-        "pas": 67,
-        "pos": 67,
-        "sho": 65,
+        "dri": 65,
+        "ldr": 65,
+        "pac": 63,
+        "pas": 66,
+        "pos": 71,
+        "sho": 59,
         "sta": 71,
-        "str": 63,
-        "tac": 63,
-        "vis": 70
+        "str": 68,
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -685,7 +708,7 @@
       "name": "Javi Garcya",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 47000
     },
     {
@@ -715,6 +738,10 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -742,6 +769,10 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -775,7 +806,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 62,
         "str": 63,
@@ -855,7 +886,7 @@
         "ldr": 55,
         "pac": 63,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 59,
         "str": 59,
@@ -875,18 +906,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 56,
-        "dri": 50,
-        "ldr": 59,
-        "pac": 52,
-        "pas": 56,
-        "pos": 61,
-        "sho": 36,
-        "sta": 56,
-        "str": 61,
-        "tac": 61,
-        "vis": 46
+        "aer": 51,
+        "com": 54,
+        "dri": 60,
+        "ldr": 55,
+        "pac": 60,
+        "pas": 60,
+        "pos": 56,
+        "sho": 43,
+        "sta": 62,
+        "str": 53,
+        "tac": 58,
+        "vis": 52
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -896,11 +927,15 @@
       "name": "Miguel Pelencia",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 13500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 50,
         "com": 53,

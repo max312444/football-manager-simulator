@@ -147,7 +147,7 @@
     },
     {
       "alt": [
-        "AM",
+        "RW",
         "LW"
       ],
       "attrs": {
@@ -177,7 +177,7 @@
       "name": "Robert Piras",
       "nation": "FRA",
       "number": 7,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "flair"
       ],
@@ -185,8 +185,9 @@
     },
     {
       "alt": [
-        "CM",
-        "LM"
+        "LM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 65,
@@ -194,13 +195,13 @@
         "dri": 81,
         "ldr": 61,
         "pac": 82,
-        "pas": 75,
+        "pas": 79,
         "pos": 68,
         "sho": 77,
-        "sta": 85,
+        "sta": 89,
         "str": 64,
-        "tac": 61,
-        "vis": 75
+        "tac": 65,
+        "vis": 79
       },
       "birth": "1977-04-01",
       "contract": "2006-06-30",
@@ -224,16 +225,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 65,
+        "aer": 63,
+        "com": 70,
         "dri": 68,
         "ldr": 44,
         "pac": 75,
         "pas": 59,
-        "pos": 46,
-        "sho": 73,
+        "pos": 51,
+        "sho": 78,
         "sta": 65,
-        "str": 58,
+        "str": 63,
         "tac": 33,
         "vis": 58
       },
@@ -251,19 +252,21 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 62,
-        "com": 91,
+        "aer": 91,
+        "com": 99,
         "dri": 88,
         "ldr": 76,
-        "pac": 62,
+        "pac": 91,
         "pas": 90,
-        "pos": 48,
-        "sho": 83,
+        "pos": 77,
+        "sho": 99,
         "sta": 64,
-        "str": 68,
+        "str": 97,
         "tac": 39,
         "vis": 94
       },
@@ -283,10 +286,6 @@
       "wage": 63500
     },
     {
-      "alt": [
-        "RW",
-        "RM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 80,
@@ -309,13 +308,12 @@
       "name": "Sylvain Wyltord",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 46500
     },
     {
       "alt": [
-        "RM",
-        "CM"
+        "RM"
       ],
       "attrs": {
         "aer": 67,
@@ -372,20 +370,17 @@
       "wage": 13500
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
-        "aer": 64,
-        "com": 86,
+        "aer": 82,
+        "com": 99,
         "dri": 91,
         "ldr": 71,
         "pac": 95,
         "pas": 82,
-        "pos": 49,
-        "sho": 90,
+        "pos": 67,
+        "sho": 99,
         "sta": 84,
-        "str": 77,
+        "str": 95,
         "tac": 40,
         "vis": 85
       },
@@ -410,21 +405,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 61,
         "com": 74,
-        "dri": 69,
+        "dri": 71,
         "ldr": 68,
-        "pac": 70,
-        "pas": 74,
+        "pac": 72,
+        "pas": 76,
         "pos": 71,
-        "sho": 67,
-        "sta": 85,
+        "sho": 69,
+        "sta": 87,
         "str": 74,
         "tac": 74,
-        "vis": 68
+        "vis": 70
       },
       "birth": "1973-03-01",
       "contract": "2004-06-30",
@@ -442,7 +439,6 @@
     },
     {
       "alt": [
-        "LM",
         "LB"
       ],
       "attrs": {
@@ -452,11 +448,11 @@
         "ldr": 63,
         "pac": 75,
         "pas": 81,
-        "pos": 71,
+        "pos": 80,
         "sho": 73,
         "sta": 83,
-        "str": 67,
-        "tac": 71,
+        "str": 76,
+        "tac": 80,
         "vis": 80
       },
       "birth": "1975-02-01",
@@ -467,26 +463,27 @@
       "name": "Giovanni van Brunckhorst",
       "nation": "NED",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 71000
     },
     {
       "alt": [
+        "CM",
         "DM"
       ],
       "attrs": {
         "aer": 66,
-        "com": 74,
-        "dri": 75,
+        "com": 79,
+        "dri": 80,
         "ldr": 59,
-        "pac": 66,
+        "pac": 71,
         "pas": 79,
         "pos": 73,
-        "sho": 71,
+        "sho": 76,
         "sta": 78,
         "str": 72,
         "tac": 73,
-        "vis": 76
+        "vis": 81
       },
       "birth": "1978-05-01",
       "contract": "2005-06-30",
@@ -497,7 +494,7 @@
       "name": "Eduo",
       "nation": "BRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 61500
     },
     {
@@ -531,9 +528,6 @@
       "wage": 24000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 77,
         "com": 81,
@@ -587,6 +581,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -609,24 +606,21 @@
       "name": "Jermaine Pennent",
       "nation": "ENG",
       "number": 21,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 13000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 71,
-        "dri": 54,
+        "dri": 62,
         "ldr": 67,
-        "pac": 65,
-        "pas": 62,
+        "pac": 73,
+        "pas": 70,
         "pos": 75,
         "sho": 43,
-        "sta": 71,
+        "sta": 79,
         "str": 69,
         "tac": 74,
         "vis": 55
@@ -700,20 +694,17 @@
       "wage": 16000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 72,
-        "com": 79,
+        "aer": 85,
+        "com": 92,
         "dri": 84,
         "ldr": 65,
-        "pac": 65,
+        "pac": 78,
         "pas": 77,
-        "pos": 47,
-        "sho": 78,
+        "pos": 60,
+        "sho": 91,
         "sta": 66,
-        "str": 70,
+        "str": 83,
         "tac": 39,
         "vis": 81
       },
@@ -760,21 +751,18 @@
       "wage": 20000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 74,
-        "com": 72,
+        "aer": 75,
+        "com": 73,
         "dri": 62,
         "ldr": 62,
         "pac": 84,
         "pas": 60,
-        "pos": 76,
+        "pos": 77,
         "sho": 46,
         "sta": 86,
-        "str": 82,
-        "tac": 80,
+        "str": 83,
+        "tac": 81,
         "vis": 52
       },
       "birth": "1981-03-01",
@@ -790,16 +778,16 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 54,
+        "aer": 62,
+        "com": 62,
         "dri": 64,
         "ldr": 36,
         "pac": 76,
         "pas": 54,
-        "pos": 42,
-        "sho": 62,
+        "pos": 50,
+        "sho": 70,
         "sta": 66,
-        "str": 62,
+        "str": 70,
         "tac": 34,
         "vis": 50
       },

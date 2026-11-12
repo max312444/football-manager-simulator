@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 69,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 71,
-        "pos": 67,
-        "sho": 62,
+        "dri": 59,
+        "ldr": 63,
+        "pac": 59,
+        "pas": 70,
+        "pos": 71,
+        "sho": 56,
         "sta": 72,
-        "str": 62,
-        "tac": 62,
-        "vis": 68
+        "str": 67,
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -73,10 +73,13 @@
       "name": "Dario Damjanovyc",
       "nation": "BIH",
       "number": 3,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -156,18 +159,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 55,
-        "ldr": 58,
-        "pac": 54,
-        "pas": 65,
-        "pos": 58,
-        "sho": 55,
-        "sta": 65,
-        "str": 53,
-        "tac": 56,
-        "vis": 64
+        "aer": 44,
+        "com": 58,
+        "dri": 60,
+        "ldr": 54,
+        "pac": 63,
+        "pas": 61,
+        "pos": 40,
+        "sho": 59,
+        "sta": 61,
+        "str": 48,
+        "tac": 36,
+        "vis": 61
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -177,23 +180,27 @@
       "name": "Dragan Paljyc",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 5000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 66,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 61,
-        "pas": 70,
-        "pos": 62,
-        "sho": 56,
-        "sta": 64,
-        "str": 59,
-        "tac": 62,
-        "vis": 63
+        "aer": 52,
+        "com": 64,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 70,
+        "pas": 66,
+        "pos": 44,
+        "sho": 60,
+        "sta": 60,
+        "str": 54,
+        "tac": 42,
+        "vis": 60
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -204,7 +211,7 @@
       "name": "Sidnay Sam",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8000
     },
     {
@@ -215,7 +222,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 61,
         "str": 67,
@@ -235,18 +242,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 57,
-        "dri": 55,
-        "ldr": 59,
-        "pac": 58,
+        "aer": 43,
+        "com": 58,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 61,
         "pas": 64,
-        "pos": 60,
-        "sho": 54,
-        "sta": 61,
-        "str": 58,
-        "tac": 59,
-        "vis": 63
+        "pos": 45,
+        "sho": 60,
+        "sta": 55,
+        "str": 53,
+        "tac": 41,
+        "vis": 65
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -256,10 +263,13 @@
       "name": "Anel Dzake",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -286,19 +296,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 55,
+        "com": 64,
         "dri": 40,
         "ldr": 50,
         "pac": 50,
-        "pas": 45,
+        "pas": 54,
         "pos": 56,
         "sho": 27,
-        "sta": 51,
+        "sta": 60,
         "str": 57,
         "tac": 55,
-        "vis": 40
+        "vis": 49
       },
       "birth": "1986-12-01",
       "contract": null,
@@ -308,7 +323,7 @@
       "name": "Mario Klingar",
       "nation": "GER",
       "number": 13,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -338,6 +353,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 63,
@@ -368,17 +386,17 @@
     {
       "attrs": {
         "aer": 55,
-        "com": 62,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 64,
+        "com": 58,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 58,
         "pos": 64,
-        "sho": 57,
+        "sho": 43,
         "sta": 69,
-        "str": 59,
-        "tac": 60,
-        "vis": 68
+        "str": 58,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -388,7 +406,7 @@
       "name": "Alexander Bugere",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -419,18 +437,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 60,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 65,
-        "pos": 63,
-        "sho": 58,
-        "sta": 63,
-        "str": 61,
-        "tac": 60,
-        "vis": 65
+        "aer": 68,
+        "com": 63,
+        "dri": 48,
+        "ldr": 64,
+        "pac": 59,
+        "pas": 55,
+        "pos": 68,
+        "sho": 37,
+        "sta": 57,
+        "str": 68,
+        "tac": 67,
+        "vis": 50
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -440,7 +458,7 @@
       "name": "Jiri Bylek",
       "nation": "CZE",
       "number": 19,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 7500
     },
     {
@@ -471,19 +489,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 68,
-        "dri": 64,
-        "ldr": 64,
-        "pac": 61,
-        "pas": 68,
-        "pos": 63,
-        "sho": 57,
-        "sta": 70,
-        "str": 60,
-        "tac": 62,
-        "vis": 64
+        "aer": 49,
+        "com": 66,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 64,
+        "pos": 45,
+        "sho": 61,
+        "sta": 66,
+        "str": 55,
+        "tac": 42,
+        "vis": 61
       },
       "birth": "1986-11-01",
       "contract": null,
@@ -495,10 +516,14 @@
       "nation": "CRO",
       "nation2": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 9000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -532,7 +557,7 @@
         "ldr": 56,
         "pac": 58,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 62,
         "sta": 55,
         "str": 62,
@@ -553,17 +578,17 @@
     {
       "attrs": {
         "aer": 52,
-        "com": 57,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 58,
-        "pas": 65,
+        "com": 53,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 59,
         "pos": 55,
-        "sho": 53,
+        "sho": 39,
         "sta": 63,
-        "str": 52,
-        "tac": 54,
-        "vis": 58
+        "str": 51,
+        "tac": 58,
+        "vis": 49
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -575,7 +600,7 @@
       "nation": "SUI",
       "nation2": "BIH",
       "number": 25,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 4500
     },
     {
@@ -586,7 +611,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 67,
         "sta": 58,
         "str": 62,
@@ -653,7 +678,7 @@
       "name": "Fabian Moller",
       "nation": "GER",
       "number": 30,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3000
     },
     {
@@ -664,7 +689,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 44,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 53,
         "str": 57,
@@ -691,7 +716,7 @@
         "ldr": 66,
         "pac": 66,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 72,
         "sta": 64,
         "str": 71,
@@ -736,6 +761,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 50,
@@ -762,18 +790,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 46,
+        "aer": 57,
         "com": 59,
         "dri": 55,
         "ldr": 54,
-        "pac": 50,
+        "pac": 61,
         "pas": 58,
-        "pos": 56,
+        "pos": 67,
         "sho": 49,
         "sta": 61,
-        "str": 49,
-        "tac": 53,
+        "str": 60,
+        "tac": 64,
         "vis": 60
       },
       "birth": "1988-10-01",
@@ -784,7 +817,7 @@
       "name": "Sascha Kutysch",
       "nation": "GER",
       "number": 38,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 3500
     }
   ],

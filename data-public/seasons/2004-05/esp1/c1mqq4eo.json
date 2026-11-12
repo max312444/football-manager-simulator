@@ -57,7 +57,7 @@
         "ldr": 57,
         "pac": 57,
         "pas": 49,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 59,
         "str": 61,
@@ -83,7 +83,7 @@
         "ldr": 74,
         "pac": 77,
         "pas": 73,
-        "pos": 59,
+        "pos": 79,
         "sho": 85,
         "sta": 76,
         "str": 80,
@@ -110,7 +110,7 @@
         "ldr": 69,
         "pac": 78,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 81,
         "sta": 72,
         "str": 79,
@@ -130,6 +130,9 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 79,
@@ -163,7 +166,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 69,
         "str": 75,
@@ -211,18 +214,18 @@
     },
     {
       "attrs": {
-        "aer": 79,
-        "com": 74,
-        "dri": 57,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 67,
-        "pos": 78,
-        "sho": 47,
-        "sta": 70,
-        "str": 74,
-        "tac": 75,
-        "vis": 58
+        "aer": 66,
+        "com": 72,
+        "dri": 67,
+        "ldr": 66,
+        "pac": 77,
+        "pas": 71,
+        "pos": 73,
+        "sho": 54,
+        "sta": 76,
+        "str": 66,
+        "tac": 72,
+        "vis": 64
       },
       "birth": "1974-12-01",
       "contract": null,
@@ -232,10 +235,13 @@
       "name": "Gerardo Garcia Laon",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 73,
@@ -269,7 +275,7 @@
         "ldr": 67,
         "pac": 69,
         "pas": 64,
-        "pos": 47,
+        "pos": 67,
         "sho": 75,
         "sta": 68,
         "str": 73,
@@ -341,19 +347,22 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 72,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 68,
-        "pas": 72,
-        "pos": 67,
-        "sho": 67,
-        "sta": 72,
-        "str": 66,
-        "tac": 66,
-        "vis": 74
+        "aer": 56,
+        "com": 70,
+        "dri": 75,
+        "ldr": 62,
+        "pac": 77,
+        "pas": 68,
+        "pos": 49,
+        "sho": 71,
+        "sta": 68,
+        "str": 61,
+        "tac": 46,
+        "vis": 71
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -363,24 +372,24 @@
       "name": "Doda",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 23500
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 70,
-        "dri": 66,
-        "ldr": 65,
-        "pac": 63,
+        "aer": 54,
+        "com": 71,
+        "dri": 70,
+        "ldr": 63,
+        "pac": 66,
         "pas": 72,
-        "pos": 67,
-        "sho": 64,
-        "sta": 69,
-        "str": 66,
-        "tac": 62,
-        "vis": 70
+        "pos": 52,
+        "sho": 70,
+        "sta": 63,
+        "str": 61,
+        "tac": 44,
+        "vis": 72
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -390,7 +399,7 @@
       "name": "Federico Insoa",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 18000
     },
@@ -448,6 +457,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -474,19 +486,22 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 68,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 66,
-        "pos": 63,
-        "sho": 61,
-        "sta": 70,
-        "str": 63,
-        "tac": 62,
-        "vis": 65
+        "aer": 46,
+        "com": 66,
+        "dri": 65,
+        "ldr": 55,
+        "pac": 69,
+        "pas": 62,
+        "pos": 45,
+        "sho": 65,
+        "sta": 66,
+        "str": 58,
+        "tac": 42,
+        "vis": 62
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -496,24 +511,24 @@
       "name": "Jose Juan Luqoe",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 12000
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 65,
-        "dri": 60,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 70,
-        "pos": 64,
-        "sho": 59,
+        "dri": 56,
+        "ldr": 65,
+        "pac": 60,
+        "pas": 69,
+        "pos": 68,
+        "sho": 53,
         "sta": 64,
-        "str": 57,
-        "tac": 59,
-        "vis": 64
+        "str": 62,
+        "tac": 65,
+        "vis": 61
       },
       "birth": "1978-09-01",
       "contract": null,
@@ -523,23 +538,23 @@
       "name": "Miguel Angal",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11000
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 65,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 65,
-        "pos": 64,
-        "sho": 56,
+        "dri": 60,
+        "ldr": 61,
+        "pac": 57,
+        "pas": 64,
+        "pos": 68,
+        "sho": 50,
         "sta": 64,
-        "str": 55,
-        "tac": 56,
-        "vis": 64
+        "str": 60,
+        "tac": 62,
+        "vis": 61
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -549,23 +564,23 @@
       "name": "Juan Rodriguaz",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 61,
-        "dri": 49,
+        "aer": 62,
+        "com": 63,
+        "dri": 57,
         "ldr": 60,
-        "pac": 56,
-        "pas": 52,
-        "pos": 69,
-        "sho": 38,
-        "sta": 60,
-        "str": 67,
-        "tac": 66,
-        "vis": 49
+        "pac": 54,
+        "pas": 61,
+        "pos": 68,
+        "sho": 53,
+        "sta": 66,
+        "str": 65,
+        "tac": 65,
+        "vis": 61
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -575,7 +590,7 @@
       "name": "Joanito",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 7000
     },
     {
@@ -586,7 +601,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 61,
         "str": 64,
@@ -607,18 +622,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 63,
-        "dri": 46,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 53,
-        "pos": 64,
-        "sho": 34,
-        "sta": 55,
-        "str": 65,
-        "tac": 64,
-        "vis": 48
+        "aer": 50,
+        "com": 61,
+        "dri": 56,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 57,
+        "pos": 59,
+        "sho": 41,
+        "sta": 61,
+        "str": 57,
+        "tac": 61,
+        "vis": 54
       },
       "birth": "1974-11-01",
       "contract": null,
@@ -628,24 +643,24 @@
       "name": "Roberto Rojes",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 5500
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 59,
-        "dri": 48,
-        "ldr": 62,
-        "pac": 57,
-        "pas": 57,
-        "pos": 66,
-        "sho": 37,
-        "sta": 56,
-        "str": 65,
-        "tac": 62,
-        "vis": 51
+        "aer": 55,
+        "com": 57,
+        "dri": 58,
+        "ldr": 58,
+        "pac": 65,
+        "pas": 61,
+        "pos": 61,
+        "sho": 44,
+        "sta": 62,
+        "str": 57,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1974-10-01",
       "contract": null,
@@ -655,7 +670,7 @@
       "name": "Vicente Velcarce",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6500
     },
     {
@@ -666,7 +681,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 49,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 55,
         "str": 56,
@@ -711,6 +726,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,

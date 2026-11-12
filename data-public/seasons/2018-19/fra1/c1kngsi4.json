@@ -78,6 +78,11 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 58,
@@ -106,18 +111,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 64,
-        "dri": 62,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 65,
-        "pos": 62,
-        "sho": 63,
+        "dri": 58,
+        "ldr": 63,
+        "pac": 58,
+        "pas": 64,
+        "pos": 66,
+        "sho": 57,
         "sta": 71,
-        "str": 63,
-        "tac": 63,
-        "vis": 67
+        "str": 68,
+        "tac": 69,
+        "vis": 64
       },
       "birth": "1995-04-01",
       "contract": null,
@@ -127,10 +132,13 @@
       "name": "Remi Welter",
       "nation": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 52,
         "com": 70,
@@ -157,6 +165,9 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -190,7 +201,7 @@
         "ldr": 73,
         "pac": 79,
         "pas": 75,
-        "pos": 59,
+        "pos": 79,
         "sho": 82,
         "sta": 78,
         "str": 82,
@@ -217,7 +228,7 @@
         "ldr": 56,
         "pac": 66,
         "pas": 58,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 58,
         "str": 61,
@@ -236,19 +247,22 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 58,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 63,
-        "pos": 60,
-        "sho": 53,
-        "sta": 62,
-        "str": 52,
-        "tac": 56,
-        "vis": 61
+        "aer": 41,
+        "com": 55,
+        "dri": 63,
+        "ldr": 49,
+        "pac": 63,
+        "pas": 59,
+        "pos": 42,
+        "sho": 57,
+        "sta": 58,
+        "str": 47,
+        "tac": 36,
+        "vis": 58
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -258,7 +272,7 @@
       "name": "Bassem Srerfi",
       "nation": "TUN",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 14000
     },
     {
@@ -284,7 +298,7 @@
       "name": "Racine Coli",
       "nation": "SEN",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -295,7 +309,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 58,
         "sta": 55,
         "str": 56,
@@ -314,19 +328,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 55,
-        "dri": 46,
-        "ldr": 54,
-        "pac": 48,
-        "pas": 50,
-        "pos": 59,
-        "sho": 32,
-        "sta": 54,
-        "str": 60,
-        "tac": 60,
-        "vis": 41
+        "aer": 48,
+        "com": 53,
+        "dri": 56,
+        "ldr": 50,
+        "pac": 56,
+        "pas": 54,
+        "pos": 54,
+        "sho": 39,
+        "sta": 60,
+        "str": 52,
+        "tac": 57,
+        "vis": 47
       },
       "birth": "1996-04-01",
       "contract": null,
@@ -337,23 +354,27 @@
       "nation": "FRA",
       "nation2": "MTQ",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 51,
-        "dri": 50,
-        "ldr": 46,
-        "pac": 51,
-        "pas": 42,
-        "pos": 30,
-        "sho": 59,
-        "sta": 47,
-        "str": 55,
-        "tac": 23,
-        "vis": 46
+        "aer": 34,
+        "com": 48,
+        "dri": 55,
+        "ldr": 44,
+        "pac": 55,
+        "pas": 48,
+        "pos": 32,
+        "sho": 54,
+        "sta": 49,
+        "str": 45,
+        "tac": 29,
+        "vis": 52
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -363,7 +384,7 @@
       "name": "Ihsan Secko",
       "nation": "FRA",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4000
     },
     {
@@ -394,18 +415,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 70,
-        "dri": 62,
-        "ldr": 66,
-        "pac": 61,
-        "pas": 72,
-        "pos": 67,
-        "sho": 61,
+        "dri": 58,
+        "ldr": 68,
+        "pac": 58,
+        "pas": 71,
+        "pos": 71,
+        "sho": 55,
         "sta": 68,
-        "str": 59,
-        "tac": 62,
-        "vis": 71
+        "str": 64,
+        "tac": 68,
+        "vis": 68
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -415,7 +436,7 @@
       "name": "Danilo Berbosa",
       "nation": "BRA",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 36000
     },
     {
@@ -471,6 +492,9 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -497,19 +521,23 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 58,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 48,
-        "pos": 33,
-        "sho": 62,
-        "sta": 49,
-        "str": 55,
-        "tac": 27,
-        "vis": 51
+        "aer": 37,
+        "com": 55,
+        "dri": 62,
+        "ldr": 51,
+        "pac": 58,
+        "pas": 54,
+        "pos": 35,
+        "sho": 57,
+        "sta": 51,
+        "str": 45,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -520,10 +548,13 @@
       "nation": "FRA",
       "nation2": "COM",
       "number": 26,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -551,6 +582,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 63,
@@ -683,18 +717,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 52,
-        "dri": 49,
-        "ldr": 43,
-        "pac": 52,
-        "pas": 47,
-        "pos": 30,
-        "sho": 52,
-        "sta": 49,
-        "str": 49,
-        "tac": 23,
-        "vis": 43
+        "aer": 34,
+        "com": 49,
+        "dri": 54,
+        "ldr": 41,
+        "pac": 56,
+        "pas": 53,
+        "pos": 32,
+        "sho": 47,
+        "sta": 51,
+        "str": 39,
+        "tac": 29,
+        "vis": 49
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -704,7 +738,7 @@
       "name": "Hicham Mehou",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4000
     }
   ],

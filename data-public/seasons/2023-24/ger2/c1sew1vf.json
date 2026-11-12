@@ -53,18 +53,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 54,
-        "dri": 37,
-        "ldr": 54,
-        "pac": 45,
-        "pas": 44,
-        "pos": 54,
-        "sho": 23,
-        "sta": 46,
-        "str": 57,
-        "tac": 56,
-        "vis": 36
+        "aer": 41,
+        "com": 52,
+        "dri": 47,
+        "ldr": 50,
+        "pac": 53,
+        "pas": 48,
+        "pos": 49,
+        "sho": 30,
+        "sta": 52,
+        "str": 49,
+        "tac": 53,
+        "vis": 42
       },
       "birth": "2000-08-01",
       "contract": null,
@@ -74,7 +74,7 @@
       "name": "Florian Kleynhansl",
       "nation": "GER",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4500
     },
     {
@@ -105,18 +105,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 59,
-        "dri": 45,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 51,
-        "pos": 58,
-        "sho": 29,
-        "sta": 52,
-        "str": 58,
-        "tac": 59,
-        "vis": 43
+        "aer": 49,
+        "com": 57,
+        "dri": 55,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 55,
+        "pos": 53,
+        "sho": 36,
+        "sta": 58,
+        "str": 50,
+        "tac": 56,
+        "vis": 49
       },
       "birth": "1992-12-01",
       "contract": null,
@@ -126,10 +126,13 @@
       "name": "Bashkim Ajdiny",
       "nation": "GER",
       "number": 5,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -157,18 +160,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 49,
-        "ldr": 50,
-        "pac": 47,
-        "pas": 54,
-        "pos": 52,
-        "sho": 45,
-        "sta": 54,
-        "str": 47,
-        "tac": 47,
-        "vis": 52
+        "aer": 41,
+        "com": 53,
+        "dri": 54,
+        "ldr": 46,
+        "pac": 56,
+        "pas": 50,
+        "pos": 34,
+        "sho": 49,
+        "sta": 50,
+        "str": 42,
+        "tac": 27,
+        "vis": 49
       },
       "birth": "1999-11-01",
       "contract": null,
@@ -178,10 +181,13 @@
       "name": "Noel Nyemann",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -215,7 +221,7 @@
         "ldr": 44,
         "pac": 50,
         "pas": 48,
-        "pos": 29,
+        "pos": 49,
         "sho": 57,
         "sta": 46,
         "str": 52,
@@ -241,7 +247,7 @@
         "ldr": 58,
         "pac": 63,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 67,
         "sta": 56,
         "str": 60,
@@ -262,17 +268,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 58,
-        "dri": 54,
+        "aer": 51,
+        "com": 66,
+        "dri": 57,
         "ldr": 52,
-        "pac": 53,
+        "pac": 60,
         "pas": 56,
-        "pos": 55,
-        "sho": 48,
+        "pos": 63,
+        "sho": 56,
         "sta": 57,
-        "str": 48,
+        "str": 56,
         "tac": 51,
         "vis": 58
       },
@@ -285,23 +296,26 @@
       "nation": "GER",
       "nation2": "GRE",
       "number": 11,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 51,
-        "dri": 49,
-        "ldr": 45,
-        "pac": 46,
-        "pas": 55,
-        "pos": 52,
-        "sho": 44,
-        "sta": 55,
-        "str": 49,
-        "tac": 48,
-        "vis": 49
+        "aer": 45,
+        "com": 53,
+        "dri": 51,
+        "ldr": 46,
+        "pac": 47,
+        "pas": 57,
+        "pos": 53,
+        "sho": 46,
+        "sta": 57,
+        "str": 50,
+        "tac": 49,
+        "vis": 51
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -341,6 +355,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 54,
@@ -393,19 +410,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 55,
-        "dri": 56,
+        "dri": 65,
         "ldr": 51,
         "pac": 53,
-        "pas": 47,
-        "pos": 37,
+        "pas": 56,
+        "pos": 57,
         "sho": 60,
         "sta": 49,
         "str": 59,
         "tac": 26,
-        "vis": 46
+        "vis": 55
       },
       "birth": "1999-08-01",
       "contract": null,
@@ -415,23 +437,28 @@
       "name": "Christian Cunteh",
       "nation": "GER",
       "number": 17,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 6000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
-        "com": 52,
-        "dri": 44,
+        "com": 56,
+        "dri": 52,
         "ldr": 41,
         "pac": 51,
-        "pas": 39,
-        "pos": 25,
-        "sho": 49,
+        "pas": 51,
+        "pos": 45,
+        "sho": 53,
         "sta": 46,
         "str": 48,
         "tac": 17,
-        "vis": 37
+        "vis": 49
       },
       "birth": "2002-04-01",
       "contract": null,
@@ -441,7 +468,7 @@
       "name": "Lars Kahl",
       "nation": "GER",
       "number": 18,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2500
     },
     {
@@ -478,7 +505,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 45,
-        "pos": 37,
+        "pos": 57,
         "sho": 57,
         "sta": 52,
         "str": 56,
@@ -523,6 +550,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -549,6 +579,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,

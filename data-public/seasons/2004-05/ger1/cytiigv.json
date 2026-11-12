@@ -24,19 +24,24 @@
   },
   "squad": [
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 79,
-        "dri": 78,
-        "ldr": 71,
-        "pac": 74,
-        "pas": 78,
-        "pos": 78,
-        "sho": 71,
+        "dri": 74,
+        "ldr": 73,
+        "pac": 71,
+        "pas": 77,
+        "pos": 82,
+        "sho": 65,
         "sta": 79,
-        "str": 70,
-        "tac": 72,
-        "vis": 77
+        "str": 75,
+        "tac": 78,
+        "vis": 74
       },
       "birth": "1974-09-01",
       "contract": null,
@@ -46,7 +51,7 @@
       "name": "Sunday Olyseh",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 35500
     },
@@ -58,7 +63,7 @@
         "ldr": 72,
         "pac": 76,
         "pas": 71,
-        "pos": 54,
+        "pos": 74,
         "sho": 83,
         "sta": 71,
         "str": 79,
@@ -105,19 +110,22 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 72,
+        "aer": 75,
+        "com": 73,
         "dri": 76,
-        "ldr": 72,
-        "pac": 67,
-        "pas": 75,
+        "ldr": 70,
+        "pac": 72,
+        "pas": 65,
         "pos": 73,
-        "sho": 66,
-        "sta": 80,
-        "str": 70,
-        "tac": 72,
-        "vis": 77
+        "sho": 75,
+        "sta": 74,
+        "str": 75,
+        "tac": 46,
+        "vis": 68
       },
       "birth": "1978-04-01",
       "contract": null,
@@ -127,7 +135,7 @@
       "name": "Peter Medsen",
       "nation": "DEN",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 35500
     },
@@ -159,18 +167,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 70,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 66,
+        "aer": 58,
+        "com": 71,
+        "dri": 77,
+        "ldr": 69,
+        "pac": 69,
         "pas": 78,
-        "pos": 74,
-        "sho": 64,
-        "sta": 77,
-        "str": 71,
-        "tac": 72,
-        "vis": 77
+        "pos": 59,
+        "sho": 70,
+        "sta": 71,
+        "str": 66,
+        "tac": 54,
+        "vis": 79
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -181,24 +189,24 @@
       "nation": "SRB",
       "nation2": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 35500
     },
     {
       "attrs": {
-        "aer": 77,
-        "com": 67,
-        "dri": 56,
-        "ldr": 68,
-        "pac": 67,
-        "pas": 67,
-        "pos": 75,
-        "sho": 48,
-        "sta": 69,
-        "str": 75,
-        "tac": 78,
-        "vis": 60
+        "aer": 64,
+        "com": 65,
+        "dri": 66,
+        "ldr": 64,
+        "pac": 75,
+        "pas": 71,
+        "pos": 70,
+        "sho": 55,
+        "sta": 75,
+        "str": 67,
+        "tac": 75,
+        "vis": 66
       },
       "birth": "1972-09-01",
       "contract": null,
@@ -208,10 +216,15 @@
       "name": "Soren Coldyng",
       "nation": "DEN",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 23000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 68,
@@ -239,19 +252,24 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 70,
-        "dri": 65,
+        "com": 72,
+        "dri": 67,
         "ldr": 65,
         "pac": 66,
-        "pas": 70,
+        "pas": 72,
         "pos": 69,
-        "sho": 64,
-        "sta": 69,
+        "sho": 66,
+        "sta": 71,
         "str": 67,
         "tac": 68,
-        "vis": 68
+        "vis": 70
       },
       "birth": "1973-10-01",
       "contract": null,
@@ -265,6 +283,9 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -293,18 +314,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 66,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 65,
-        "pas": 74,
-        "pos": 65,
-        "sho": 65,
+        "dri": 63,
+        "ldr": 64,
+        "pac": 62,
+        "pas": 73,
+        "pos": 69,
+        "sho": 59,
         "sta": 69,
-        "str": 61,
-        "tac": 68,
-        "vis": 73
+        "str": 66,
+        "tac": 74,
+        "vis": 70
       },
       "birth": "1973-05-01",
       "contract": null,
@@ -315,10 +336,15 @@
       "nation": "POL",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 67,
@@ -346,6 +372,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 67,
@@ -374,18 +403,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 65,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 64,
+        "aer": 54,
+        "com": 66,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 67,
         "pas": 69,
-        "pos": 66,
-        "sho": 63,
-        "sta": 68,
-        "str": 63,
-        "tac": 65,
-        "vis": 66
+        "pos": 51,
+        "sho": 69,
+        "sta": 62,
+        "str": 58,
+        "tac": 47,
+        "vis": 68
       },
       "birth": "1982-11-01",
       "contract": null,
@@ -395,7 +424,7 @@
       "name": "Moharram Nevidkia",
       "nation": "IRN",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 17000
     },
@@ -407,7 +436,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 62,
         "str": 67,
@@ -426,6 +455,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 68,
@@ -453,6 +485,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -487,7 +522,7 @@
         "ldr": 60,
         "pac": 69,
         "pas": 61,
-        "pos": 43,
+        "pos": 63,
         "sho": 70,
         "sta": 62,
         "str": 69,
@@ -540,7 +575,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 57,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 61,
         "str": 64,
@@ -559,6 +594,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -608,7 +646,7 @@
       "name": "Philipp Bonyg",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 9000
     },
     {
@@ -639,19 +677,23 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 64,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 63,
-        "pas": 53,
-        "pos": 43,
-        "sho": 65,
-        "sta": 58,
-        "str": 61,
-        "tac": 32,
-        "vis": 56
+        "aer": 49,
+        "com": 61,
+        "dri": 65,
+        "ldr": 58,
+        "pac": 67,
+        "pas": 59,
+        "pos": 45,
+        "sho": 60,
+        "sta": 60,
+        "str": 51,
+        "tac": 38,
+        "vis": 62
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -661,7 +703,7 @@
       "name": "Tommy Bachmann",
       "nation": "DEN",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 7000
     },
@@ -693,18 +735,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 54,
-        "dri": 48,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 52,
-        "pos": 60,
-        "sho": 30,
-        "sta": 55,
-        "str": 64,
-        "tac": 64,
-        "vis": 44
+        "aer": 46,
+        "com": 52,
+        "dri": 58,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 56,
+        "pos": 55,
+        "sho": 37,
+        "sta": 61,
+        "str": 56,
+        "tac": 61,
+        "vis": 50
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -715,10 +757,13 @@
       "nation": "POL",
       "nation2": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 53,
@@ -753,7 +798,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 49,
         "str": 56,
@@ -773,19 +818,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 57,
-        "dri": 53,
+        "com": 59,
+        "dri": 60,
         "ldr": 50,
         "pac": 53,
-        "pas": 45,
-        "pos": 33,
-        "sho": 55,
+        "pas": 54,
+        "pos": 53,
+        "sho": 57,
         "sta": 51,
         "str": 52,
         "tac": 21,
-        "vis": 44
+        "vis": 53
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -795,7 +845,7 @@
       "name": "Gaetano Menno",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
@@ -853,6 +903,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 53,
@@ -880,18 +933,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 54,
-        "dri": 47,
-        "ldr": 47,
-        "pac": 48,
-        "pas": 52,
-        "pos": 49,
-        "sho": 47,
+        "dri": 43,
+        "ldr": 49,
+        "pac": 45,
+        "pas": 51,
+        "pos": 53,
+        "sho": 41,
         "sta": 56,
-        "str": 43,
-        "tac": 45,
-        "vis": 50
+        "str": 48,
+        "tac": 51,
+        "vis": 47
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -901,7 +954,7 @@
       "name": "Claus Coste",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2500
     },
     {

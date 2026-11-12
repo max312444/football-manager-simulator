@@ -31,7 +31,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 64,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 74,
         "str": 74,
@@ -83,7 +83,7 @@
         "ldr": 70,
         "pac": 73,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 73,
         "sta": 67,
         "str": 75,
@@ -125,7 +125,7 @@
       "name": "Federico Balzaretty",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 13500
     },
     {
@@ -136,7 +136,7 @@
         "ldr": 65,
         "pac": 67,
         "pas": 61,
-        "pos": 46,
+        "pos": 66,
         "sho": 72,
         "sta": 69,
         "str": 71,
@@ -156,18 +156,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 71,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 63,
+        "aer": 56,
+        "com": 72,
+        "dri": 69,
+        "ldr": 62,
+        "pac": 66,
         "pas": 73,
-        "pos": 69,
-        "sho": 66,
-        "sta": 69,
-        "str": 67,
-        "tac": 65,
-        "vis": 68
+        "pos": 54,
+        "sho": 72,
+        "sta": 63,
+        "str": 62,
+        "tac": 47,
+        "vis": 70
       },
       "birth": "1973-03-01",
       "contract": null,
@@ -177,24 +177,24 @@
       "name": "Massimo Brembilla",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 14000
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 70,
-        "dri": 53,
-        "ldr": 69,
-        "pac": 65,
-        "pas": 63,
-        "pos": 70,
-        "sho": 44,
-        "sta": 68,
-        "str": 74,
-        "tac": 71,
-        "vis": 52
+        "aer": 62,
+        "com": 68,
+        "dri": 63,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 67,
+        "pos": 65,
+        "sho": 51,
+        "sta": 74,
+        "str": 66,
+        "tac": 68,
+        "vis": 58
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -204,7 +204,7 @@
       "name": "Paolo Castellyni",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -235,18 +235,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 70,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 63,
-        "pas": 69,
-        "pos": 68,
-        "sho": 60,
-        "sta": 67,
-        "str": 61,
-        "tac": 65,
-        "vis": 65
+        "aer": 54,
+        "com": 68,
+        "dri": 72,
+        "ldr": 60,
+        "pac": 72,
+        "pas": 65,
+        "pos": 50,
+        "sho": 64,
+        "sta": 63,
+        "str": 56,
+        "tac": 45,
+        "vis": 62
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -256,11 +256,14 @@
       "name": "Franco Semiuli",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 68,
@@ -294,7 +297,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 57,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 63,
         "str": 68,
@@ -346,7 +349,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 59,
         "str": 65,
@@ -392,19 +395,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 66,
-        "dri": 59,
-        "ldr": 63,
-        "pac": 58,
-        "pas": 67,
-        "pos": 64,
-        "sho": 55,
-        "sta": 68,
-        "str": 59,
-        "tac": 60,
-        "vis": 62
+        "aer": 58,
+        "com": 68,
+        "dri": 61,
+        "ldr": 64,
+        "pac": 59,
+        "pas": 69,
+        "pos": 65,
+        "sho": 57,
+        "sta": 70,
+        "str": 60,
+        "tac": 61,
+        "vis": 64
       },
       "birth": "1968-07-01",
       "contract": null,
@@ -419,6 +425,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -445,6 +454,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -471,6 +483,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -525,18 +540,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 58,
-        "dri": 49,
-        "ldr": 62,
-        "pac": 55,
-        "pas": 55,
-        "pos": 64,
-        "sho": 34,
-        "sta": 57,
-        "str": 62,
-        "tac": 62,
-        "vis": 48
+        "aer": 54,
+        "com": 56,
+        "dri": 59,
+        "ldr": 58,
+        "pac": 63,
+        "pas": 59,
+        "pos": 59,
+        "sho": 41,
+        "sta": 63,
+        "str": 54,
+        "tac": 59,
+        "vis": 54
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -546,7 +561,7 @@
       "name": "Gianluca Comottu",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
@@ -692,7 +707,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 55,
         "str": 62,
@@ -711,6 +726,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 58,
@@ -764,19 +782,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 54,
+        "com": 60,
         "dri": 42,
         "ldr": 54,
         "pac": 50,
-        "pas": 54,
+        "pas": 60,
         "pos": 63,
         "sho": 33,
-        "sta": 53,
+        "sta": 59,
         "str": 61,
         "tac": 60,
-        "vis": 48
+        "vis": 54
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -786,7 +809,7 @@
       "name": "Giammarco Frezze",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
@@ -798,7 +821,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 57,
         "str": 57,
@@ -817,6 +840,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -871,18 +897,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 53,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 50,
+        "aer": 42,
+        "com": 54,
+        "dri": 58,
+        "ldr": 52,
+        "pac": 53,
         "pas": 58,
-        "pos": 53,
-        "sho": 47,
-        "sta": 59,
-        "str": 51,
-        "tac": 49,
-        "vis": 57
+        "pos": 38,
+        "sho": 53,
+        "sta": 53,
+        "str": 46,
+        "tac": 31,
+        "vis": 59
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -892,7 +918,7 @@
       "name": "Carlos Marynelli",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3000
     },
@@ -956,7 +982,7 @@
         "ldr": 44,
         "pac": 53,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 54,
         "sta": 46,
         "str": 49,
@@ -975,9 +1001,6 @@
       "wage": 1000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 55,
         "com": 50,
@@ -1012,7 +1035,7 @@
         "ldr": 40,
         "pac": 47,
         "pas": 38,
-        "pos": 26,
+        "pos": 46,
         "sho": 53,
         "sta": 47,
         "str": 47,
@@ -1032,6 +1055,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 44,

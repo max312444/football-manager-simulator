@@ -51,6 +51,9 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 70,
@@ -99,23 +102,23 @@
       "name": "Ivan Strynic",
       "nation": "CRO",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 71500
     },
     {
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 72,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 76,
-        "pos": 73,
-        "sho": 66,
+        "dri": 67,
+        "ldr": 70,
+        "pac": 65,
+        "pas": 75,
+        "pos": 77,
+        "sho": 60,
         "sta": 73,
-        "str": 67,
-        "tac": 69,
-        "vis": 75
+        "str": 72,
+        "tac": 75,
+        "vis": 72
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -125,10 +128,14 @@
       "name": "Allen",
       "nation": "BRA",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 48000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
@@ -155,19 +162,23 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 81,
-        "dri": 75,
-        "ldr": 69,
-        "pac": 80,
-        "pas": 68,
-        "pos": 55,
-        "sho": 81,
-        "sta": 76,
-        "str": 74,
-        "tac": 45,
-        "vis": 69
+        "aer": 63,
+        "com": 78,
+        "dri": 80,
+        "ldr": 67,
+        "pac": 84,
+        "pas": 74,
+        "pos": 57,
+        "sho": 76,
+        "sta": 78,
+        "str": 64,
+        "tac": 51,
+        "vis": 75
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -177,7 +188,7 @@
       "name": "Jose Callejun",
       "nation": "ESP",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 52000
     },
     {
@@ -188,7 +199,7 @@
         "ldr": 77,
         "pac": 82,
         "pas": 75,
-        "pos": 61,
+        "pos": 81,
         "sho": 86,
         "sta": 79,
         "str": 79,
@@ -209,21 +220,22 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 78,
-        "com": 73,
-        "dri": 64,
-        "ldr": 72,
-        "pac": 72,
-        "pas": 70,
-        "pos": 79,
-        "sho": 46,
-        "sta": 74,
-        "str": 77,
-        "tac": 78,
-        "vis": 62
+        "aer": 65,
+        "com": 71,
+        "dri": 74,
+        "ldr": 68,
+        "pac": 80,
+        "pas": 74,
+        "pos": 74,
+        "sho": 53,
+        "sta": 80,
+        "str": 69,
+        "tac": 75,
+        "vis": 68
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -233,23 +245,28 @@
       "name": "Christian Maggiu",
       "nation": "ITA",
       "number": 11,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 50000
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 84,
-        "dri": 79,
-        "ldr": 75,
-        "pac": 79,
-        "pas": 69,
-        "pos": 61,
-        "sho": 86,
-        "sta": 78,
-        "str": 80,
-        "tac": 53,
-        "vis": 70
+        "aer": 61,
+        "com": 81,
+        "dri": 84,
+        "ldr": 73,
+        "pac": 83,
+        "pas": 75,
+        "pos": 63,
+        "sho": 81,
+        "sta": 80,
+        "str": 70,
+        "tac": 59,
+        "vis": 76
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -259,10 +276,14 @@
       "name": "Dries Mertans",
       "nation": "BEL",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 75500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -289,6 +310,9 @@
       "wage": 80500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 82,
@@ -315,19 +339,22 @@
       "wage": 93000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 71,
-        "dri": 72,
+        "dri": 74,
         "ldr": 74,
-        "pac": 83,
-        "pas": 74,
-        "pos": 76,
-        "sho": 59,
-        "sta": 82,
+        "pac": 85,
+        "pas": 75,
+        "pos": 74,
+        "sho": 62,
+        "sta": 84,
         "str": 71,
-        "tac": 76,
-        "vis": 69
+        "tac": 74,
+        "vis": 70
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -337,23 +364,26 @@
       "name": "Juan Camilo Zunyga",
       "nation": "COL",
       "number": 18,
-      "pos": "RB",
+      "pos": "RWB",
       "wage": 68000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 69,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 64,
-        "pas": 74,
-        "pos": 67,
-        "sho": 66,
+        "dri": 66,
+        "ldr": 69,
+        "pac": 61,
+        "pas": 73,
+        "pos": 71,
+        "sho": 60,
         "sta": 69,
-        "str": 66,
-        "tac": 65,
-        "vis": 70
+        "str": 71,
+        "tac": 71,
+        "vis": 67
       },
       "birth": "1989-10-01",
       "contract": null,
@@ -363,10 +393,13 @@
       "name": "David Lupez",
       "nation": "ESP",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -394,7 +427,9 @@
     },
     {
       "alt": [
-        "CM"
+        "DM",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 80,
@@ -456,7 +491,7 @@
         "ldr": 67,
         "pac": 74,
         "pas": 68,
-        "pos": 51,
+        "pos": 71,
         "sho": 74,
         "sta": 70,
         "str": 75,
@@ -475,19 +510,22 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 82,
-        "dri": 73,
-        "ldr": 70,
-        "pac": 77,
-        "pas": 71,
-        "pos": 59,
-        "sho": 84,
-        "sta": 74,
-        "str": 81,
-        "tac": 50,
-        "vis": 72
+        "aer": 63,
+        "com": 79,
+        "dri": 78,
+        "ldr": 68,
+        "pac": 81,
+        "pas": 77,
+        "pos": 61,
+        "sho": 79,
+        "sta": 76,
+        "str": 71,
+        "tac": 56,
+        "vis": 78
       },
       "birth": "1991-06-01",
       "contract": null,
@@ -497,7 +535,7 @@
       "name": "Lorenzo Insygne",
       "nation": "ITA",
       "number": 24,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 63000
     },
     {
@@ -577,7 +615,7 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 31,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 26000
     },
     {
@@ -634,7 +672,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RM",
+        "LM"
       ],
       "attrs": {
         "aer": 58,

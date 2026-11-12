@@ -104,19 +104,24 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 75,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 70,
-        "pas": 78,
+        "com": 71,
+        "dri": 68,
+        "ldr": 67,
+        "pac": 77,
+        "pas": 72,
         "pos": 71,
-        "sho": 68,
+        "sho": 54,
         "sta": 76,
-        "str": 70,
-        "tac": 68,
-        "vis": 77
+        "str": 69,
+        "tac": 72,
+        "vis": 68
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -126,23 +131,27 @@
       "name": "Julian Ryersun",
       "nation": "NOR",
       "number": 6,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 87000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 69,
-        "ldr": 68,
-        "pac": 66,
+        "aer": 55,
+        "com": 72,
+        "dri": 73,
+        "ldr": 66,
+        "pac": 69,
         "pas": 74,
-        "pos": 65,
-        "sho": 62,
-        "sta": 68,
-        "str": 61,
-        "tac": 68,
-        "vis": 68
+        "pos": 50,
+        "sho": 68,
+        "sta": 62,
+        "str": 56,
+        "tac": 50,
+        "vis": 70
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -152,7 +161,7 @@
       "name": "Akaki Gogya",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 54000
     },
     {
@@ -163,7 +172,7 @@
         "ldr": 62,
         "pac": 72,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 74,
         "sta": 68,
         "str": 68,
@@ -184,7 +193,9 @@
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 73,
@@ -193,7 +204,7 @@
         "ldr": 66,
         "pac": 73,
         "pas": 70,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 72,
         "str": 74,
@@ -219,7 +230,7 @@
         "ldr": 62,
         "pac": 72,
         "pas": 66,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 64,
         "str": 71,
@@ -271,7 +282,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 66,
-        "pos": 49,
+        "pos": 69,
         "sho": 75,
         "sta": 68,
         "str": 75,
@@ -291,19 +302,23 @@
       "wage": 50000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 64,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 61,
-        "pas": 55,
-        "pos": 38,
-        "sho": 65,
-        "sta": 56,
-        "str": 61,
-        "tac": 32,
-        "vis": 58
+        "aer": 46,
+        "com": 61,
+        "dri": 65,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 61,
+        "pos": 40,
+        "sho": 60,
+        "sta": 58,
+        "str": 51,
+        "tac": 38,
+        "vis": 64
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -313,23 +328,26 @@
       "name": "Marius Bolter",
       "nation": "GER",
       "number": 15,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 15000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 70,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 65,
-        "pas": 71,
-        "pos": 67,
-        "sho": 63,
-        "sta": 72,
-        "str": 66,
-        "tac": 71,
-        "vis": 75
+        "aer": 58,
+        "com": 68,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 74,
+        "pas": 67,
+        "pos": 49,
+        "sho": 67,
+        "sta": 68,
+        "str": 61,
+        "tac": 51,
+        "vis": 72
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -340,7 +358,7 @@
       "name": "Keita Endu",
       "nation": "JPN",
       "number": 18,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 69000
     },
     {
@@ -397,6 +415,9 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -424,18 +445,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 61,
-        "dri": 51,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 54,
-        "pos": 67,
-        "sho": 40,
-        "sta": 61,
-        "str": 68,
-        "tac": 65,
-        "vis": 48
+        "aer": 54,
+        "com": 59,
+        "dri": 61,
+        "ldr": 55,
+        "pac": 69,
+        "pas": 58,
+        "pos": 62,
+        "sho": 47,
+        "sta": 67,
+        "str": 60,
+        "tac": 62,
+        "vis": 54
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -445,23 +466,23 @@
       "name": "Niko Giessalmann",
       "nation": "GER",
       "number": 23,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 21000
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 63,
-        "dri": 51,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 59,
-        "pos": 71,
-        "sho": 42,
-        "sta": 65,
-        "str": 67,
-        "tac": 69,
-        "vis": 50
+        "aer": 57,
+        "com": 61,
+        "dri": 61,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 63,
+        "pos": 66,
+        "sho": 49,
+        "sta": 71,
+        "str": 59,
+        "tac": 66,
+        "vis": 56
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -471,7 +492,7 @@
       "name": "Christopher Lanz",
       "nation": "GER",
       "number": 25,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 29000
     },
     {
@@ -482,7 +503,7 @@
         "ldr": 62,
         "pac": 74,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 75,
         "sta": 65,
         "str": 70,
@@ -502,19 +523,23 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 66,
-        "dri": 58,
-        "ldr": 70,
-        "pac": 63,
-        "pas": 62,
-        "pos": 71,
-        "sho": 42,
-        "sta": 64,
-        "str": 69,
-        "tac": 71,
-        "vis": 53
+        "aer": 61,
+        "com": 64,
+        "dri": 68,
+        "ldr": 66,
+        "pac": 71,
+        "pas": 66,
+        "pos": 66,
+        "sho": 49,
+        "sta": 70,
+        "str": 61,
+        "tac": 68,
+        "vis": 59
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -524,26 +549,26 @@
       "name": "Christopher Trimmal",
       "nation": "AUT",
       "number": 28,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 37500
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 75,
-        "dri": 72,
-        "ldr": 76,
-        "pac": 70,
-        "pas": 80,
-        "pos": 72,
-        "sho": 71,
+        "dri": 68,
+        "ldr": 78,
+        "pac": 67,
+        "pas": 79,
+        "pos": 76,
+        "sho": 65,
         "sta": 79,
-        "str": 75,
-        "tac": 72,
-        "vis": 75
+        "str": 80,
+        "tac": 78,
+        "vis": 72
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -553,23 +578,23 @@
       "name": "Robert Andrych",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 87000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 73,
-        "dri": 74,
-        "ldr": 66,
-        "pac": 74,
-        "pas": 73,
-        "pos": 70,
-        "sho": 54,
-        "sta": 79,
-        "str": 70,
-        "tac": 74,
-        "vis": 69
+        "aer": 77,
+        "com": 75,
+        "dri": 64,
+        "ldr": 70,
+        "pac": 66,
+        "pas": 69,
+        "pos": 75,
+        "sho": 47,
+        "sta": 73,
+        "str": 78,
+        "tac": 77,
+        "vis": 63
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -579,7 +604,7 @@
       "name": "Robin Knuche",
       "nation": "GER",
       "number": 31,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 78000
     },
     {
@@ -590,7 +615,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 72,
         "sta": 64,
         "str": 67,
@@ -610,18 +635,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 66,
-        "dri": 61,
-        "ldr": 56,
-        "pac": 60,
-        "pas": 64,
-        "pos": 61,
-        "sho": 54,
+        "dri": 57,
+        "ldr": 58,
+        "pac": 57,
+        "pas": 63,
+        "pos": 65,
+        "sho": 48,
         "sta": 63,
-        "str": 58,
-        "tac": 61,
-        "vis": 65
+        "str": 63,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1990-10-01",
       "contract": null,
@@ -631,10 +656,13 @@
       "name": "Sebastian Griesback",
       "nation": "GER",
       "number": 33,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -694,7 +722,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 56,
         "str": 63,

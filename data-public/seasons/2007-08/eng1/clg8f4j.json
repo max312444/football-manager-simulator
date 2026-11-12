@@ -71,21 +71,22 @@
     },
     {
       "alt": [
-        "LM"
+        "ST",
+        "LW"
       ],
       "attrs": {
         "aer": 53,
-        "com": 61,
-        "dri": 59,
+        "com": 73,
+        "dri": 71,
         "ldr": 47,
-        "pac": 83,
-        "pas": 68,
+        "pac": 95,
+        "pas": 80,
         "pos": 65,
-        "sho": 40,
+        "sho": 52,
         "sta": 73,
         "str": 60,
         "tac": 70,
-        "vis": 55
+        "vis": 67
       },
       "birth": "1989-07-01",
       "contract": "2011-06-30",
@@ -95,28 +96,25 @@
       "name": "Gareth Bala",
       "nation": "WAL",
       "number": 3,
-      "pos": "LB",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
       "wage": 37000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
-        "aer": 69,
+        "aer": 76,
         "com": 76,
         "dri": 71,
         "ldr": 78,
-        "pac": 71,
+        "pac": 78,
         "pas": 76,
-        "pos": 78,
+        "pos": 85,
         "sho": 61,
         "sta": 88,
-        "str": 79,
-        "tac": 85,
+        "str": 86,
+        "tac": 92,
         "vis": 69
       },
       "birth": "1980-12-01",
@@ -127,7 +125,7 @@
       "name": "Didier Zokura",
       "nation": "CIV",
       "number": 4,
-      "pos": "DM",
+      "pos": "CB",
       "verify": true,
       "wage": 113500
     },
@@ -159,9 +157,6 @@
       "wage": 32500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 71,
@@ -191,6 +186,9 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 70,
@@ -221,6 +219,9 @@
       "wage": 43500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 76,
@@ -248,16 +249,16 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 91,
+        "aer": 85,
+        "com": 99,
         "dri": 87,
         "ldr": 73,
-        "pac": 72,
+        "pac": 81,
         "pas": 81,
-        "pos": 46,
-        "sho": 90,
+        "pos": 55,
+        "sho": 99,
         "sta": 78,
-        "str": 82,
+        "str": 91,
         "tac": 39,
         "vis": 85
       },
@@ -276,20 +277,17 @@
       "wage": 113500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 71,
-        "com": 83,
+        "aer": 74,
+        "com": 86,
         "dri": 80,
         "ldr": 69,
         "pac": 80,
         "pas": 69,
-        "pos": 47,
-        "sho": 85,
+        "pos": 50,
+        "sho": 88,
         "sta": 74,
-        "str": 75,
+        "str": 78,
         "tac": 40,
         "vis": 71
       },
@@ -306,6 +304,8 @@
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -314,13 +314,13 @@
         "dri": 79,
         "ldr": 60,
         "pac": 79,
-        "pas": 72,
+        "pas": 84,
         "pos": 48,
         "sho": 67,
-        "sta": 73,
+        "sta": 85,
         "str": 55,
-        "tac": 41,
-        "vis": 71
+        "tac": 53,
+        "vis": 83
       },
       "birth": "1980-01-01",
       "contract": "2010-06-30",
@@ -334,6 +334,11 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "LWB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 67,
@@ -356,7 +361,7 @@
       "name": "Paul Staltery",
       "nation": "CAN",
       "number": 12,
-      "pos": "RB",
+      "pos": "RWB",
       "verify": true,
       "wage": 59500
     },
@@ -388,21 +393,22 @@
     },
     {
       "alt": [
-        "RM"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 53,
-        "com": 65,
+        "com": 70,
         "dri": 73,
         "ldr": 53,
         "pac": 72,
-        "pas": 73,
+        "pas": 78,
         "pos": 61,
         "sho": 65,
         "sta": 76,
         "str": 66,
-        "tac": 65,
-        "vis": 69
+        "tac": 70,
+        "vis": 74
       },
       "birth": "1981-12-01",
       "contract": "2010-06-30",
@@ -424,11 +430,11 @@
         "ldr": 53,
         "pac": 61,
         "pas": 76,
-        "pos": 56,
+        "pos": 71,
         "sho": 70,
         "sta": 74,
-        "str": 55,
-        "tac": 56,
+        "str": 70,
+        "tac": 71,
         "vis": 73
       },
       "birth": "1986-12-01",
@@ -439,7 +445,7 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
@@ -448,16 +454,16 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 79,
+        "aer": 73,
+        "com": 81,
         "dri": 76,
         "ldr": 60,
         "pac": 79,
         "pas": 66,
-        "pos": 44,
-        "sho": 85,
+        "pos": 46,
+        "sho": 87,
         "sta": 74,
-        "str": 71,
+        "str": 73,
         "tac": 36,
         "vis": 67
       },
@@ -473,6 +479,9 @@
       "wage": 75000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 27,
         "com": 56,
@@ -531,16 +540,16 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 75,
+        "aer": 70,
+        "com": 76,
         "dri": 69,
         "ldr": 60,
         "pac": 72,
         "pas": 65,
-        "pos": 39,
-        "sho": 80,
+        "pos": 40,
+        "sho": 81,
         "sta": 67,
-        "str": 71,
+        "str": 72,
         "tac": 33,
         "vis": 63
       },
@@ -557,6 +566,11 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 42,
         "com": 62,

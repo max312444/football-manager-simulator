@@ -126,7 +126,9 @@
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "LB",
+        "LWB"
       ],
       "attrs": {
         "aer": 66,
@@ -154,9 +156,6 @@
       "wage": 183000
     },
     {
-      "alt": [
-        "LWB"
-      ],
       "attrs": {
         "aer": 61,
         "com": 71,
@@ -290,9 +289,6 @@
       "wage": 147000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 69,
         "com": 67,
@@ -325,13 +321,13 @@
       "attrs": {
         "aer": 69,
         "com": 72,
-        "dri": 63,
+        "dri": 66,
         "ldr": 66,
-        "pac": 70,
-        "pas": 71,
+        "pac": 73,
+        "pas": 74,
         "pos": 74,
         "sho": 46,
-        "sta": 72,
+        "sta": 75,
         "str": 72,
         "tac": 75,
         "vis": 62
@@ -374,9 +370,6 @@
       "wage": 74500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 66,
         "com": 75,
@@ -413,11 +406,11 @@
         "ldr": 56,
         "pac": 63,
         "pas": 81,
-        "pos": 69,
+        "pos": 77,
         "sho": 51,
         "sta": 79,
-        "str": 53,
-        "tac": 65,
+        "str": 61,
+        "tac": 73,
         "vis": 75
       },
       "birth": "1996-02-01",
@@ -428,26 +421,29 @@
       "name": "Harry Wynks",
       "nation": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "injury_prone"
       ],
       "wage": 105500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 71,
-        "dri": 79,
+        "com": 84,
+        "dri": 82,
         "ldr": 65,
         "pac": 82,
-        "pas": 73,
+        "pas": 86,
         "pos": 69,
-        "sho": 63,
+        "sho": 66,
         "sta": 88,
         "str": 86,
-        "tac": 71,
-        "vis": 67
+        "tac": 81,
+        "vis": 80
       },
       "birth": "1989-08-01",
       "contract": "2022-06-30",
@@ -464,9 +460,6 @@
       "wage": 261500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 58,
         "com": 82,
@@ -489,23 +482,23 @@
       "name": "Giovani Lo Celsu",
       "nation": "ARG",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 188000
     },
     {
       "attrs": {
         "aer": 72,
         "com": 74,
-        "dri": 78,
+        "dri": 79,
         "ldr": 67,
         "pac": 72,
-        "pas": 74,
+        "pas": 75,
         "pos": 80,
         "sho": 78,
         "sta": 78,
         "str": 70,
         "tac": 58,
-        "vis": 74
+        "vis": 75
       },
       "birth": "1996-04-01",
       "contract": "2024-06-30",
@@ -522,6 +515,9 @@
       "wage": 247500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 79,
@@ -548,6 +544,9 @@
       "wage": 293000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -581,9 +580,9 @@
       "attrs": {
         "aer": 55,
         "com": 75,
-        "dri": 83,
+        "dri": 87,
         "ldr": 63,
-        "pac": 72,
+        "pac": 76,
         "pas": 79,
         "pos": 71,
         "sho": 75,
@@ -613,6 +612,7 @@
     },
     {
       "alt": [
+        "ST",
         "RW"
       ],
       "attrs": {
@@ -642,7 +642,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 48,
@@ -674,7 +675,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 56,
@@ -707,16 +709,16 @@
     },
     {
       "attrs": {
-        "aer": 81,
-        "com": 90,
+        "aer": 83,
+        "com": 92,
         "dri": 79,
         "ldr": 83,
-        "pac": 70,
+        "pac": 72,
         "pas": 84,
-        "pos": 70,
-        "sho": 92,
+        "pos": 72,
+        "sho": 94,
         "sta": 80,
-        "str": 84,
+        "str": 86,
         "tac": 44,
         "vis": 85
       },
@@ -737,6 +739,10 @@
       "wage": 330000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 73,
@@ -770,16 +776,16 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 71,
+        "aer": 64,
+        "com": 72,
         "dri": 68,
         "ldr": 63,
         "pac": 71,
         "pas": 65,
-        "pos": 54,
-        "sho": 73,
+        "pos": 55,
+        "sho": 74,
         "sta": 68,
-        "str": 69,
+        "str": 70,
         "tac": 49,
         "vis": 64
       },

@@ -31,7 +31,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 76,
         "str": 80,
@@ -58,7 +58,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 67,
-        "pos": 56,
+        "pos": 76,
         "sho": 80,
         "sta": 70,
         "str": 73,
@@ -105,18 +105,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 75,
-        "dri": 70,
-        "ldr": 70,
-        "pac": 67,
-        "pas": 76,
-        "pos": 72,
-        "sho": 70,
+        "dri": 66,
+        "ldr": 72,
+        "pac": 64,
+        "pas": 75,
+        "pos": 76,
+        "sho": 64,
         "sta": 78,
-        "str": 71,
-        "tac": 72,
-        "vis": 73
+        "str": 76,
+        "tac": 78,
+        "vis": 70
       },
       "birth": "1973-03-01",
       "contract": null,
@@ -126,7 +126,7 @@
       "name": "Jose Luis Vydigal",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 18000
     },
@@ -185,6 +185,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -212,6 +215,10 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 60,
@@ -239,6 +246,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -265,6 +275,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 66,
@@ -299,7 +312,7 @@
         "ldr": 57,
         "pac": 65,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 65,
         "sta": 63,
         "str": 63,
@@ -319,6 +332,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -345,6 +361,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -430,7 +449,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 60,
         "sta": 59,
         "str": 61,
@@ -457,7 +476,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 57,
         "str": 63,
@@ -476,19 +495,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 58,
-        "dri": 47,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 54,
-        "pos": 59,
-        "sho": 31,
-        "sta": 58,
-        "str": 58,
-        "tac": 61,
-        "vis": 45
+        "aer": 47,
+        "com": 56,
+        "dri": 59,
+        "ldr": 52,
+        "pac": 65,
+        "pas": 59,
+        "pos": 52,
+        "sho": 41,
+        "sta": 66,
+        "str": 50,
+        "tac": 56,
+        "vis": 52
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -498,10 +520,13 @@
       "name": "Marc Pfertzal",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -557,18 +582,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 56,
-        "dri": 44,
-        "ldr": 58,
-        "pac": 51,
-        "pas": 53,
-        "pos": 64,
-        "sho": 30,
-        "sta": 54,
-        "str": 61,
-        "tac": 63,
-        "vis": 44
+        "aer": 49,
+        "com": 54,
+        "dri": 54,
+        "ldr": 54,
+        "pac": 59,
+        "pas": 57,
+        "pos": 59,
+        "sho": 37,
+        "sta": 60,
+        "str": 53,
+        "tac": 60,
+        "vis": 50
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -578,11 +603,15 @@
       "name": "Andrea Giellombardo",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 56,
@@ -636,6 +665,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -662,6 +694,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,
@@ -716,19 +751,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
-        "com": 56,
-        "dri": 49,
+        "com": 58,
+        "dri": 51,
         "ldr": 49,
         "pac": 45,
-        "pas": 57,
+        "pas": 59,
         "pos": 54,
-        "sho": 46,
-        "sta": 53,
+        "sho": 48,
+        "sta": 55,
         "str": 51,
         "tac": 52,
-        "vis": 52
+        "vis": 54
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -769,18 +807,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 53,
-        "dri": 53,
-        "ldr": 48,
-        "pac": 50,
-        "pas": 53,
-        "pos": 48,
-        "sho": 47,
-        "sta": 54,
-        "str": 46,
-        "tac": 51,
-        "vis": 55
+        "aer": 38,
+        "com": 51,
+        "dri": 58,
+        "ldr": 44,
+        "pac": 59,
+        "pas": 49,
+        "pos": 30,
+        "sho": 51,
+        "sta": 50,
+        "str": 41,
+        "tac": 31,
+        "vis": 52
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -790,7 +828,7 @@
       "name": "Davide Metteini",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "LW",
       "verify": true,
       "wage": 2500
     },
@@ -848,6 +886,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 50,

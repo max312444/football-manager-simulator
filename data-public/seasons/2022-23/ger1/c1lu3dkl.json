@@ -51,6 +51,11 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 67,
@@ -129,19 +134,22 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 59,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 50,
-        "pas": 58,
-        "pos": 54,
-        "sho": 54,
+        "dri": 54,
+        "ldr": 58,
+        "pac": 47,
+        "pas": 57,
+        "pos": 58,
+        "sho": 48,
         "sta": 60,
-        "str": 51,
-        "tac": 56,
-        "vis": 57
+        "str": 56,
+        "tac": 62,
+        "vis": 54
       },
       "birth": "2002-04-01",
       "contract": null,
@@ -151,10 +159,13 @@
       "name": "Eric Mertel",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -181,6 +192,9 @@
       "wage": 42500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -215,7 +229,7 @@
         "ldr": 60,
         "pac": 68,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 66,
         "str": 66,
@@ -234,6 +248,9 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 73,
@@ -267,7 +284,7 @@
         "ldr": 60,
         "pac": 68,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 74,
         "sta": 67,
         "str": 71,
@@ -287,21 +304,23 @@
     },
     {
       "alt": [
-        "RB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
-        "aer": 83,
-        "com": 78,
-        "dri": 66,
-        "ldr": 79,
-        "pac": 72,
-        "pas": 67,
-        "pos": 81,
-        "sho": 51,
-        "sta": 76,
-        "str": 83,
-        "tac": 81,
-        "vis": 61
+        "aer": 70,
+        "com": 76,
+        "dri": 76,
+        "ldr": 75,
+        "pac": 80,
+        "pas": 71,
+        "pos": 76,
+        "sho": 58,
+        "sta": 82,
+        "str": 75,
+        "tac": 78,
+        "vis": 67
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -311,7 +330,7 @@
       "name": "Jonas Hectur",
       "nation": "GER",
       "number": 14,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 87000
     },
     {
@@ -341,6 +360,10 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -368,6 +391,9 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -427,7 +453,7 @@
         "ldr": 54,
         "pac": 62,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 62,
         "str": 66,
@@ -453,7 +479,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 68,
         "sta": 65,
         "str": 70,
@@ -499,17 +525,22 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 51,
-        "dri": 52,
+        "aer": 57,
+        "com": 62,
+        "dri": 57,
         "ldr": 48,
-        "pac": 51,
+        "pac": 60,
         "pas": 59,
-        "pos": 52,
-        "sho": 46,
+        "pos": 63,
+        "sho": 57,
         "sta": 55,
-        "str": 46,
+        "str": 57,
         "tac": 51,
         "vis": 58
       },
@@ -521,23 +552,23 @@
       "name": "Tim Lamperle",
       "nation": "GER",
       "number": 25,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 11500
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 78,
-        "dri": 78,
-        "ldr": 71,
-        "pac": 72,
-        "pas": 79,
-        "pos": 75,
-        "sho": 70,
+        "dri": 74,
+        "ldr": 73,
+        "pac": 69,
+        "pas": 78,
+        "pos": 79,
+        "sho": 64,
         "sta": 79,
-        "str": 69,
-        "tac": 73,
-        "vis": 75
+        "str": 74,
+        "tac": 79,
+        "vis": 72
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -548,23 +579,23 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 87000
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 59,
-        "dri": 51,
-        "ldr": 50,
-        "pac": 56,
-        "pas": 51,
-        "pos": 36,
-        "sho": 57,
-        "sta": 51,
-        "str": 59,
-        "tac": 25,
-        "vis": 49
+        "aer": 43,
+        "com": 56,
+        "dri": 56,
+        "ldr": 48,
+        "pac": 60,
+        "pas": 57,
+        "pos": 38,
+        "sho": 52,
+        "sta": 53,
+        "str": 49,
+        "tac": 31,
+        "vis": 55
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -574,7 +605,7 @@
       "name": "Jan Thyelmann",
       "nation": "GER",
       "number": 29,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
@@ -585,7 +616,7 @@
         "ldr": 50,
         "pac": 59,
         "pas": 48,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 51,
         "str": 58,
@@ -605,18 +636,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 59,
-        "dri": 59,
-        "ldr": 52,
-        "pac": 52,
+        "aer": 44,
+        "com": 60,
+        "dri": 63,
+        "ldr": 50,
+        "pac": 55,
         "pas": 60,
-        "pos": 57,
-        "sho": 53,
-        "sta": 62,
-        "str": 52,
-        "tac": 54,
-        "vis": 62
+        "pos": 42,
+        "sho": 59,
+        "sta": 56,
+        "str": 47,
+        "tac": 36,
+        "vis": 64
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -626,23 +657,26 @@
       "name": "Linton Maine",
       "nation": "GER",
       "number": 37,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 20000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 65,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 61,
-        "pos": 63,
-        "sho": 57,
-        "sta": 67,
-        "str": 55,
-        "tac": 59,
-        "vis": 64
+        "aer": 44,
+        "com": 63,
+        "dri": 67,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 57,
+        "pos": 45,
+        "sho": 61,
+        "sta": 63,
+        "str": 50,
+        "tac": 39,
+        "vis": 61
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -652,10 +686,13 @@
       "name": "Dimitrios Limnyos",
       "nation": "GRE",
       "number": 42,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,

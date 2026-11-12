@@ -97,18 +97,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 82,
         "com": 76,
-        "dri": 62,
+        "dri": 73,
         "ldr": 80,
-        "pac": 62,
-        "pas": 68,
+        "pac": 73,
+        "pas": 79,
         "pos": 76,
         "sho": 58,
-        "sta": 81,
+        "sta": 92,
         "str": 85,
         "tac": 80,
         "vis": 58
@@ -126,6 +127,8 @@
     },
     {
       "alt": [
+        "CB",
+        "RB",
         "LB"
       ],
       "attrs": {
@@ -239,18 +242,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 68,
         "com": 81,
-        "dri": 70,
+        "dri": 73,
         "ldr": 79,
-        "pac": 73,
+        "pac": 76,
         "pas": 74,
         "pos": 84,
         "sho": 50,
-        "sta": 85,
+        "sta": 88,
         "str": 73,
         "tac": 83,
         "vis": 68
@@ -267,6 +271,9 @@
       "wage": 298500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 70,
@@ -303,7 +310,9 @@
     },
     {
       "alt": [
-        "LB"
+        "LB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 51,
@@ -331,18 +340,22 @@
       "wage": 59500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 83,
         "dri": 77,
         "ldr": 73,
         "pac": 57,
-        "pas": 90,
+        "pas": 93,
         "pos": 65,
         "sho": 73,
-        "sta": 70,
+        "sta": 73,
         "str": 61,
-        "tac": 57,
+        "tac": 60,
         "vis": 92
       },
       "birth": "1987-05-01",
@@ -362,17 +375,17 @@
     {
       "attrs": {
         "aer": 57,
-        "com": 80,
+        "com": 83,
         "dri": 77,
         "ldr": 67,
         "pac": 80,
-        "pas": 77,
-        "pos": 85,
+        "pas": 80,
+        "pos": 88,
         "sho": 61,
         "sta": 95,
-        "str": 71,
-        "tac": 89,
-        "vis": 72
+        "str": 74,
+        "tac": 92,
+        "vis": 75
       },
       "birth": "1991-03-01",
       "contract": "2021-06-30",
@@ -463,7 +476,7 @@
       "name": "Nathaniel Chelobah",
       "nation": "ENG",
       "number": 29,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "injury_prone"
       ],
@@ -496,19 +509,22 @@
       "wage": 293000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 67,
+        "com": 71,
         "dri": 76,
         "ldr": 51,
         "pac": 68,
-        "pas": 70,
+        "pas": 75,
         "pos": 58,
         "sho": 64,
-        "sta": 71,
+        "sta": 76,
         "str": 79,
-        "tac": 57,
-        "vis": 65
+        "tac": 62,
+        "vis": 69
       },
       "birth": "1996-01-01",
       "contract": "2019-06-30",
@@ -522,6 +538,9 @@
       "wage": 116000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 88,
@@ -551,6 +570,9 @@
       "wage": 274000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 47,
         "com": 79,
@@ -578,20 +600,22 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW",
+        "LWB"
       ],
       "attrs": {
         "aer": 55,
         "com": 64,
         "dri": 77,
         "ldr": 51,
-        "pac": 82,
+        "pac": 85,
         "pas": 67,
-        "pos": 55,
+        "pos": 66,
         "sho": 69,
-        "sta": 77,
-        "str": 73,
-        "tac": 53,
+        "sta": 85,
+        "str": 84,
+        "tac": 64,
         "vis": 62
       },
       "birth": "1990-12-01",
@@ -606,6 +630,11 @@
       "wage": 113000
     },
     {
+      "alt": [
+        "LW",
+        "AM",
+        "RM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 75,
@@ -666,16 +695,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 70,
+        "aer": 63,
+        "com": 71,
         "dri": 69,
         "ldr": 59,
         "pac": 69,
         "pas": 59,
-        "pos": 42,
-        "sho": 75,
+        "pos": 43,
+        "sho": 76,
         "sta": 66,
-        "str": 67,
+        "str": 68,
         "tac": 39,
         "vis": 60
       },

@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 75,
-        "dri": 77,
-        "ldr": 74,
-        "pac": 71,
-        "pas": 81,
-        "pos": 74,
-        "sho": 72,
+        "dri": 73,
+        "ldr": 76,
+        "pac": 68,
+        "pas": 80,
+        "pos": 78,
+        "sho": 66,
         "sta": 81,
-        "str": 71,
-        "tac": 76,
-        "vis": 79
+        "str": 76,
+        "tac": 82,
+        "vis": 76
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -125,23 +125,27 @@
       "name": "Morgan Schneidarlin",
       "nation": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 49500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 57,
-        "dri": 58,
-        "ldr": 53,
-        "pac": 61,
-        "pas": 51,
-        "pos": 37,
-        "sho": 60,
-        "sta": 58,
-        "str": 59,
-        "tac": 29,
-        "vis": 53
+        "aer": 43,
+        "com": 54,
+        "dri": 63,
+        "ldr": 51,
+        "pac": 65,
+        "pas": 57,
+        "pos": 39,
+        "sho": 55,
+        "sta": 60,
+        "str": 49,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -152,10 +156,13 @@
       "nation": "FRA",
       "nation2": "COM",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -189,7 +196,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 74,
         "sta": 66,
         "str": 73,
@@ -208,6 +215,11 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 68,
@@ -215,7 +227,7 @@
         "ldr": 56,
         "pac": 66,
         "pas": 54,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 62,
         "str": 64,
@@ -234,6 +246,9 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -241,7 +256,7 @@
         "ldr": 65,
         "pac": 68,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 62,
         "str": 71,
@@ -261,19 +276,22 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 61,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 55,
-        "pas": 56,
-        "pos": 70,
-        "sho": 36,
-        "sta": 60,
-        "str": 69,
-        "tac": 66,
-        "vis": 47
+        "aer": 56,
+        "com": 59,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 63,
+        "pas": 60,
+        "pos": 65,
+        "sho": 43,
+        "sta": 66,
+        "str": 61,
+        "tac": 63,
+        "vis": 53
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -284,23 +302,26 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 20000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 69,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 65,
-        "pas": 60,
-        "pos": 41,
-        "sho": 68,
-        "sta": 59,
-        "str": 65,
-        "tac": 33,
-        "vis": 59
+        "aer": 51,
+        "com": 66,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 69,
+        "pas": 66,
+        "pos": 43,
+        "sho": 63,
+        "sta": 61,
+        "str": 55,
+        "tac": 39,
+        "vis": 65
       },
       "birth": "2000-10-01",
       "contract": null,
@@ -311,10 +332,14 @@
       "nation": "SUI",
       "nation2": "FRA",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 20500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -368,18 +393,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 71,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 70,
-        "pos": 64,
-        "sho": 60,
+        "dri": 63,
+        "ldr": 65,
+        "pac": 58,
+        "pas": 69,
+        "pos": 68,
+        "sho": 54,
         "sta": 71,
-        "str": 66,
-        "tac": 62,
-        "vis": 73
+        "str": 71,
+        "tac": 68,
+        "vis": 70
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -389,23 +414,27 @@
       "name": "Danilo Berbosa",
       "nation": "BRA",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 47000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 74,
-        "dri": 73,
-        "ldr": 67,
-        "pac": 66,
+        "aer": 60,
+        "com": 75,
+        "dri": 77,
+        "ldr": 65,
+        "pac": 69,
         "pas": 73,
-        "pos": 68,
-        "sho": 64,
-        "sta": 72,
-        "str": 70,
-        "tac": 67,
-        "vis": 72
+        "pos": 53,
+        "sho": 70,
+        "sta": 66,
+        "str": 65,
+        "tac": 49,
+        "vis": 74
       },
       "birth": "1995-12-01",
       "contract": null,
@@ -416,23 +445,23 @@
       "name": "Rony Lopas",
       "nation": "POR",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 49500
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 60,
-        "dri": 50,
-        "ldr": 59,
-        "pac": 55,
-        "pas": 53,
-        "pos": 63,
-        "sho": 36,
-        "sta": 55,
-        "str": 60,
-        "tac": 65,
-        "vis": 45
+        "aer": 51,
+        "com": 58,
+        "dri": 60,
+        "ldr": 55,
+        "pac": 63,
+        "pas": 57,
+        "pos": 58,
+        "sho": 43,
+        "sta": 61,
+        "str": 52,
+        "tac": 62,
+        "vis": 51
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -442,23 +471,23 @@
       "name": "Jordan Lutomba",
       "nation": "SUI",
       "number": 23,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14500
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 52,
-        "dri": 48,
-        "ldr": 51,
-        "pac": 59,
-        "pas": 48,
-        "pos": 53,
-        "sho": 35,
-        "sta": 56,
-        "str": 46,
-        "tac": 56,
-        "vis": 47
+        "aer": 61,
+        "com": 54,
+        "dri": 38,
+        "ldr": 55,
+        "pac": 51,
+        "pas": 44,
+        "pos": 58,
+        "sho": 28,
+        "sta": 50,
+        "str": 54,
+        "tac": 59,
+        "vis": 41
       },
       "birth": "2000-03-01",
       "contract": null,
@@ -468,10 +497,13 @@
       "name": "Andy Pelmerd",
       "nation": "FRA",
       "number": 24,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -499,6 +531,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -577,6 +612,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 57,
@@ -653,10 +691,13 @@
       "name": "Racine Coli",
       "nation": "SEN",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,

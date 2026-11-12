@@ -45,6 +45,10 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 64,
@@ -75,13 +79,13 @@
       "attrs": {
         "aer": 57,
         "com": 76,
-        "dri": 59,
+        "dri": 71,
         "ldr": 70,
-        "pac": 56,
+        "pac": 68,
         "pas": 69,
         "pos": 78,
         "sho": 45,
-        "sta": 64,
+        "sta": 76,
         "str": 62,
         "tac": 75,
         "vis": 60
@@ -98,10 +102,6 @@
       "wage": 31000
     },
     {
-      "alt": [
-        "RW",
-        "ST"
-      ],
       "attrs": {
         "aer": 62,
         "com": 68,
@@ -124,26 +124,27 @@
       "name": "Trevor Sinclayr",
       "nation": "ENG",
       "number": 8,
-      "pos": "RM",
+      "pos": "LW",
       "verify": true,
       "wage": 40500
     },
     {
       "alt": [
+        "AM",
         "RW",
-        "AM"
+        "LW"
       ],
       "attrs": {
-        "aer": 53,
-        "com": 80,
+        "aer": 74,
+        "com": 99,
         "dri": 87,
         "ldr": 70,
-        "pac": 68,
+        "pac": 89,
         "pas": 81,
-        "pos": 48,
-        "sho": 81,
+        "pos": 69,
+        "sho": 99,
         "sta": 68,
-        "str": 62,
+        "str": 83,
         "tac": 33,
         "vis": 86
       },
@@ -167,17 +168,17 @@
       ],
       "attrs": {
         "aer": 61,
-        "com": 67,
-        "dri": 63,
+        "com": 76,
+        "dri": 72,
         "ldr": 73,
         "pac": 61,
-        "pas": 69,
+        "pas": 78,
         "pos": 71,
-        "sho": 57,
-        "sta": 81,
+        "sho": 66,
+        "sta": 90,
         "str": 71,
         "tac": 75,
-        "vis": 63
+        "vis": 72
       },
       "birth": "1974-01-01",
       "contract": "2005-06-30",
@@ -192,16 +193,16 @@
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 70,
+        "aer": 77,
+        "com": 72,
         "dri": 78,
         "ldr": 53,
         "pac": 77,
         "pas": 66,
-        "pos": 49,
-        "sho": 76,
+        "pos": 51,
+        "sho": 78,
         "sta": 71,
-        "str": 81,
+        "str": 83,
         "tac": 37,
         "vis": 63
       },
@@ -218,10 +219,6 @@
       "wage": 39500
     },
     {
-      "alt": [
-        "RB",
-        "DM"
-      ],
       "attrs": {
         "aer": 74,
         "com": 68,
@@ -249,6 +246,9 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 66,
@@ -419,22 +419,22 @@
     },
     {
       "alt": [
-        "LM",
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 46,
-        "com": 67,
+        "com": 71,
         "dri": 83,
         "ldr": 49,
         "pac": 74,
-        "pas": 75,
+        "pas": 79,
         "pos": 56,
-        "sho": 66,
+        "sho": 70,
         "sta": 72,
         "str": 56,
         "tac": 47,
-        "vis": 76
+        "vis": 80
       },
       "birth": "1981-11-01",
       "contract": "2006-06-30",
@@ -451,17 +451,20 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 64,
+        "aer": 62,
+        "com": 68,
         "dri": 66,
         "ldr": 46,
         "pac": 71,
         "pas": 58,
-        "pos": 46,
-        "sho": 70,
+        "pos": 50,
+        "sho": 74,
         "sta": 65,
-        "str": 61,
+        "str": 65,
         "tac": 32,
         "vis": 56
       },
@@ -508,9 +511,6 @@
       "wage": 13000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 74,
         "com": 64,
@@ -539,7 +539,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 70,
@@ -568,20 +568,17 @@
       "wage": 48000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
-        "aer": 60,
-        "com": 67,
+        "aer": 67,
+        "com": 74,
         "dri": 76,
         "ldr": 53,
         "pac": 76,
         "pas": 64,
-        "pos": 47,
-        "sho": 72,
+        "pos": 54,
+        "sho": 79,
         "sta": 72,
-        "str": 72,
+        "str": 79,
         "tac": 36,
         "vis": 63
       },
@@ -599,16 +596,16 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 66,
+        "aer": 56,
+        "com": 76,
         "dri": 72,
         "ldr": 38,
         "pac": 81,
         "pas": 56,
-        "pos": 40,
-        "sho": 74,
+        "pos": 50,
+        "sho": 84,
         "sta": 73,
-        "str": 57,
+        "str": 67,
         "tac": 28,
         "vis": 56
       },

@@ -51,19 +51,24 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 71,
-        "dri": 58,
-        "ldr": 69,
-        "pac": 62,
-        "pas": 66,
-        "pos": 74,
-        "sho": 42,
-        "sta": 69,
-        "str": 70,
-        "tac": 72,
-        "vis": 58
+        "aer": 60,
+        "com": 69,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 70,
+        "pas": 70,
+        "pos": 69,
+        "sho": 49,
+        "sta": 75,
+        "str": 62,
+        "tac": 69,
+        "vis": 64
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -73,7 +78,7 @@
       "name": "Juan Valere",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 32500
     },
     {
@@ -99,23 +104,23 @@
       "name": "Antonio Lupez",
       "nation": "ESP",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 58000
     },
     {
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 75,
-        "dri": 74,
-        "ldr": 70,
-        "pac": 66,
-        "pas": 73,
-        "pos": 75,
-        "sho": 66,
+        "dri": 70,
+        "ldr": 72,
+        "pac": 63,
+        "pas": 72,
+        "pos": 79,
+        "sho": 60,
         "sta": 76,
-        "str": 71,
-        "tac": 68,
-        "vis": 74
+        "str": 76,
+        "tac": 74,
+        "vis": 71
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -125,10 +130,13 @@
       "name": "Mario Suaraz",
       "nation": "ESP",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 61000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 83,
@@ -157,18 +165,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 70,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 65,
-        "pas": 74,
-        "pos": 67,
-        "sho": 64,
+        "dri": 64,
+        "ldr": 67,
+        "pac": 62,
+        "pas": 73,
+        "pos": 71,
+        "sho": 58,
         "sta": 72,
-        "str": 65,
-        "tac": 68,
-        "vis": 67
+        "str": 70,
+        "tac": 74,
+        "vis": 64
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -178,7 +186,7 @@
       "name": "Ignacio Cemacho",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 39000
     },
     {
@@ -189,7 +197,7 @@
         "ldr": 80,
         "pac": 84,
         "pas": 73,
-        "pos": 64,
+        "pos": 84,
         "sho": 85,
         "sta": 78,
         "str": 86,
@@ -216,7 +224,7 @@
         "ldr": 71,
         "pac": 80,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 83,
         "sta": 75,
         "str": 77,
@@ -235,6 +243,10 @@
       "wage": 71500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -262,18 +274,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 71,
-        "dri": 66,
-        "ldr": 65,
-        "pac": 63,
-        "pas": 67,
-        "pos": 67,
-        "sho": 62,
+        "dri": 62,
+        "ldr": 67,
+        "pac": 60,
+        "pas": 66,
+        "pos": 71,
+        "sho": 56,
         "sta": 69,
-        "str": 63,
-        "tac": 62,
-        "vis": 66
+        "str": 68,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -284,7 +296,7 @@
       "nation": "BRA",
       "nation2": "POR",
       "number": 12,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31500
     },
     {
@@ -336,7 +348,7 @@
       "name": "Filipe Luys",
       "nation": "BRA",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 91000
     },
     {
@@ -444,19 +456,22 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 78,
-        "dri": 79,
-        "ldr": 80,
-        "pac": 77,
-        "pas": 81,
-        "pos": 78,
-        "sho": 73,
-        "sta": 81,
-        "str": 78,
-        "tac": 77,
-        "vis": 82
+        "aer": 64,
+        "com": 76,
+        "dri": 84,
+        "ldr": 76,
+        "pac": 86,
+        "pas": 77,
+        "pos": 60,
+        "sho": 77,
+        "sta": 77,
+        "str": 73,
+        "tac": 57,
+        "vis": 79
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -466,23 +481,26 @@
       "name": "Jose Antonio Rayes",
       "nation": "ESP",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 92000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 81,
-        "dri": 79,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 83,
-        "pos": 77,
-        "sho": 74,
-        "sta": 83,
-        "str": 74,
-        "tac": 73,
-        "vis": 83
+        "aer": 64,
+        "com": 79,
+        "dri": 84,
+        "ldr": 71,
+        "pac": 85,
+        "pas": 79,
+        "pos": 59,
+        "sho": 78,
+        "sta": 79,
+        "str": 69,
+        "tac": 53,
+        "vis": 80
       },
       "birth": "1979-10-01",
       "contract": null,
@@ -492,7 +510,7 @@
       "name": "Simao Sabrose",
       "nation": "POR",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 92000
     },
     {
@@ -529,7 +547,7 @@
         "ldr": 65,
         "pac": 66,
         "pas": 59,
-        "pos": 49,
+        "pos": 69,
         "sho": 71,
         "sta": 66,
         "str": 67,

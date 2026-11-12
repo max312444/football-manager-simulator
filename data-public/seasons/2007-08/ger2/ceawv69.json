@@ -51,6 +51,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 61,
@@ -105,7 +108,9 @@
     },
     {
       "alt": [
-        "RB"
+        "LB",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 56,
@@ -133,19 +138,24 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 61,
+        "com": 70,
         "dri": 50,
         "ldr": 65,
         "pac": 56,
-        "pas": 53,
+        "pas": 62,
         "pos": 68,
         "sho": 38,
-        "sta": 60,
+        "sta": 69,
         "str": 63,
         "tac": 66,
-        "vis": 49
+        "vis": 58
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -156,23 +166,26 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 7,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 5000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 60,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 57,
-        "pas": 61,
-        "pos": 58,
-        "sho": 55,
-        "sta": 64,
-        "str": 57,
-        "tac": 52,
-        "vis": 57
+        "aer": 40,
+        "com": 58,
+        "dri": 64,
+        "ldr": 50,
+        "pac": 66,
+        "pas": 57,
+        "pos": 40,
+        "sho": 59,
+        "sta": 60,
+        "str": 52,
+        "tac": 32,
+        "vis": 54
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -182,7 +195,7 @@
       "name": "Jonathan Pitroypa",
       "nation": "BFA",
       "number": 8,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 4000
     },
     {
@@ -193,7 +206,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 50,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 54,
         "str": 60,
@@ -213,6 +226,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,
@@ -239,6 +255,11 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 53,
         "com": 60,
@@ -272,7 +293,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 58,
-        "pos": 43,
+        "pos": 63,
         "sho": 70,
         "sta": 63,
         "str": 66,
@@ -319,18 +340,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 67,
-        "dri": 55,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 56,
-        "pos": 69,
-        "sho": 41,
-        "sta": 63,
-        "str": 65,
-        "tac": 70,
-        "vis": 52
+        "aer": 53,
+        "com": 65,
+        "dri": 65,
+        "ldr": 59,
+        "pac": 69,
+        "pas": 60,
+        "pos": 64,
+        "sho": 48,
+        "sta": 69,
+        "str": 57,
+        "tac": 67,
+        "vis": 58
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -340,23 +361,23 @@
       "name": "Andreas Ibartsberger",
       "nation": "AUT",
       "number": 19,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6500
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 61,
-        "dri": 63,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 63,
-        "pos": 60,
-        "sho": 54,
+        "dri": 59,
+        "ldr": 60,
+        "pac": 53,
+        "pas": 62,
+        "pos": 64,
+        "sho": 48,
         "sta": 67,
-        "str": 59,
-        "tac": 62,
-        "vis": 66
+        "str": 64,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -366,10 +387,13 @@
       "name": "Ivica Banuvic",
       "nation": "CRO",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -396,6 +420,10 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 67,
         "com": 68,
@@ -403,7 +431,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 61,
-        "pos": 45,
+        "pos": 65,
         "sho": 74,
         "sta": 62,
         "str": 67,
@@ -429,7 +457,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 69,
         "sta": 59,
         "str": 63,
@@ -448,6 +476,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 53,
@@ -474,6 +505,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 52,
@@ -500,6 +534,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -533,7 +570,7 @@
         "ldr": 44,
         "pac": 55,
         "pas": 43,
-        "pos": 28,
+        "pos": 48,
         "sho": 52,
         "sta": 46,
         "str": 55,
@@ -630,19 +667,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 64,
-        "dri": 67,
-        "ldr": 59,
-        "pac": 65,
-        "pas": 60,
-        "pos": 45,
-        "sho": 66,
-        "sta": 64,
-        "str": 67,
-        "tac": 34,
-        "vis": 55
+        "aer": 53,
+        "com": 61,
+        "dri": 72,
+        "ldr": 57,
+        "pac": 69,
+        "pas": 66,
+        "pos": 47,
+        "sho": 61,
+        "sta": 66,
+        "str": 57,
+        "tac": 40,
+        "vis": 61
       },
       "birth": "1985-06-01",
       "contract": null,
@@ -653,10 +693,15 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 40,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 56,

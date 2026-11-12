@@ -103,10 +103,6 @@
       "wage": 39500
     },
     {
-      "alt": [
-        "DM",
-        "CM"
-      ],
       "attrs": {
         "aer": 68,
         "com": 64,
@@ -134,22 +130,23 @@
     },
     {
       "alt": [
+        "CB",
         "RB",
-        "DM"
+        "LB"
       ],
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 70,
-        "dri": 66,
-        "ldr": 68,
-        "pac": 67,
-        "pas": 72,
-        "pos": 65,
-        "sho": 64,
+        "dri": 62,
+        "ldr": 70,
+        "pac": 64,
+        "pas": 71,
+        "pos": 69,
+        "sho": 58,
         "sta": 70,
-        "str": 67,
-        "tac": 64,
-        "vis": 69
+        "str": 72,
+        "tac": 70,
+        "vis": 66
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -159,7 +156,7 @@
       "name": "Oier Senjurjo",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 41500
     },
     {
@@ -170,7 +167,7 @@
         "ldr": 64,
         "pac": 69,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 72,
         "sta": 63,
         "str": 66,
@@ -189,6 +186,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -222,7 +222,7 @@
         "ldr": 64,
         "pac": 69,
         "pas": 59,
-        "pos": 48,
+        "pos": 68,
         "sho": 68,
         "sta": 63,
         "str": 64,
@@ -242,6 +242,10 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 71,
@@ -294,6 +298,9 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 60,
@@ -347,18 +354,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 61,
-        "dri": 52,
-        "ldr": 63,
-        "pac": 57,
-        "pas": 59,
-        "pos": 72,
-        "sho": 41,
-        "sta": 62,
-        "str": 65,
-        "tac": 68,
-        "vis": 53
+        "aer": 56,
+        "com": 59,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 65,
+        "pas": 63,
+        "pos": 67,
+        "sho": 48,
+        "sta": 68,
+        "str": 57,
+        "tac": 65,
+        "vis": 59
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -368,23 +375,26 @@
       "name": "Juan Rafael Fuantes",
       "nation": "ESP",
       "number": 16,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 19000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 72,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 75,
-        "pos": 68,
-        "sho": 67,
-        "sta": 69,
-        "str": 65,
-        "tac": 69,
-        "vis": 71
+        "aer": 52,
+        "com": 70,
+        "dri": 73,
+        "ldr": 64,
+        "pac": 77,
+        "pas": 71,
+        "pos": 50,
+        "sho": 71,
+        "sta": 65,
+        "str": 60,
+        "tac": 49,
+        "vis": 68
       },
       "birth": "1989-06-01",
       "contract": null,
@@ -394,10 +404,14 @@
       "name": "Jaime Romaro",
       "nation": "ESP",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 47500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 75,
@@ -431,7 +445,7 @@
         "ldr": 56,
         "pac": 65,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 57,
         "str": 63,
@@ -452,18 +466,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 69,
-        "dri": 72,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 73,
-        "pos": 71,
-        "sho": 69,
-        "sta": 71,
-        "str": 64,
-        "tac": 69,
-        "vis": 70
+        "aer": 59,
+        "com": 71,
+        "dri": 76,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 74,
+        "pos": 56,
+        "sho": 76,
+        "sta": 65,
+        "str": 59,
+        "tac": 51,
+        "vis": 73
       },
       "birth": "1986-06-01",
       "contract": null,
@@ -473,7 +487,7 @@
       "name": "Miguel de las Cuavas",
       "nation": "ESP",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 52000
     },
     {
@@ -499,26 +513,27 @@
       "name": "Carlos Clarc",
       "nation": "ESP",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 14500
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 52,
-        "com": 64,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 53,
+        "aer": 46,
+        "com": 65,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 56,
         "pas": 63,
-        "pos": 59,
-        "sho": 53,
-        "sta": 65,
-        "str": 57,
-        "tac": 57,
-        "vis": 65
+        "pos": 44,
+        "sho": 59,
+        "sta": 59,
+        "str": 52,
+        "tac": 39,
+        "vis": 67
       },
       "birth": "1995-07-01",
       "contract": null,
@@ -528,7 +543,7 @@
       "name": "Alex Beranguer",
       "nation": "ESP",
       "number": 33,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15500
     },
     {
@@ -558,6 +573,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -620,7 +638,7 @@
         "ldr": 71,
         "pac": 76,
         "pas": 69,
-        "pos": 58,
+        "pos": 78,
         "sho": 80,
         "sta": 72,
         "str": 75,
@@ -642,18 +660,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 72,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 64,
-        "pas": 74,
-        "pos": 72,
-        "sho": 64,
+        "dri": 63,
+        "ldr": 69,
+        "pac": 61,
+        "pas": 73,
+        "pos": 76,
+        "sho": 58,
         "sta": 70,
-        "str": 65,
-        "tac": 70,
-        "vis": 70
+        "str": 70,
+        "tac": 76,
+        "vis": 67
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -664,7 +682,7 @@
       "name": "Didier Dygard",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 46500
     }
   ],

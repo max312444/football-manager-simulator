@@ -78,6 +78,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 54,
@@ -104,6 +109,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 58,
@@ -130,19 +138,24 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 56,
-        "dri": 52,
+        "com": 58,
+        "dri": 58,
         "ldr": 50,
         "pac": 54,
-        "pas": 46,
-        "pos": 31,
-        "sho": 58,
+        "pas": 54,
+        "pos": 51,
+        "sho": 60,
         "sta": 49,
         "str": 54,
         "tac": 24,
-        "vis": 46
+        "vis": 54
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -152,10 +165,13 @@
       "name": "Filip Bylbija",
       "nation": "GER",
       "number": 7,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 63,
@@ -189,7 +205,7 @@
         "ldr": 52,
         "pac": 62,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 66,
         "sta": 60,
         "str": 60,
@@ -209,18 +225,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 64,
-        "ldr": 64,
-        "pac": 67,
+        "aer": 55,
+        "com": 72,
+        "dri": 68,
+        "ldr": 62,
+        "pac": 70,
         "pas": 71,
-        "pos": 70,
-        "sho": 61,
-        "sta": 70,
-        "str": 67,
-        "tac": 63,
-        "vis": 71
+        "pos": 55,
+        "sho": 67,
+        "sta": 64,
+        "str": 62,
+        "tac": 45,
+        "vis": 73
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -230,23 +246,23 @@
       "name": "Sonny Kyttel",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16500
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 55,
-        "dri": 55,
-        "ldr": 49,
-        "pac": 53,
-        "pas": 48,
-        "pos": 30,
-        "sho": 57,
-        "sta": 49,
-        "str": 53,
-        "tac": 27,
-        "vis": 49
+        "aer": 42,
+        "com": 52,
+        "dri": 60,
+        "ldr": 47,
+        "pac": 57,
+        "pas": 54,
+        "pos": 32,
+        "sho": 52,
+        "sta": 51,
+        "str": 43,
+        "tac": 33,
+        "vis": 55
       },
       "birth": "2001-09-01",
       "contract": null,
@@ -257,7 +273,7 @@
       "nation": "GHA",
       "nation2": "GER",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4000
     },
     {
@@ -287,6 +303,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -340,19 +359,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 54,
-        "dri": 53,
-        "ldr": 50,
-        "pac": 48,
-        "pas": 58,
-        "pos": 55,
-        "sho": 46,
-        "sta": 59,
-        "str": 51,
-        "tac": 49,
-        "vis": 54
+        "aer": 39,
+        "com": 52,
+        "dri": 58,
+        "ldr": 46,
+        "pac": 57,
+        "pas": 54,
+        "pos": 37,
+        "sho": 50,
+        "sta": 55,
+        "str": 46,
+        "tac": 29,
+        "vis": 51
       },
       "birth": "2001-01-01",
       "contract": null,
@@ -362,23 +384,26 @@
       "name": "Xavier Ameechi",
       "nation": "ENG",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 60,
-        "dri": 59,
-        "ldr": 51,
-        "pac": 51,
-        "pas": 59,
-        "pos": 56,
-        "sho": 54,
-        "sta": 57,
-        "str": 53,
-        "tac": 52,
-        "vis": 62
+        "aer": 40,
+        "com": 58,
+        "dri": 64,
+        "ldr": 47,
+        "pac": 60,
+        "pas": 55,
+        "pos": 38,
+        "sho": 58,
+        "sta": 53,
+        "str": 48,
+        "tac": 32,
+        "vis": 59
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -388,7 +413,7 @@
       "name": "Bakery Jetta",
       "nation": "GAM",
       "number": 18,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 9000
     },
     {
@@ -419,18 +444,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 61,
-        "dri": 49,
-        "ldr": 61,
-        "pac": 55,
-        "pas": 54,
-        "pos": 65,
-        "sho": 38,
-        "sta": 62,
-        "str": 63,
-        "tac": 67,
-        "vis": 50
+        "aer": 52,
+        "com": 59,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 63,
+        "pas": 58,
+        "pos": 60,
+        "sho": 45,
+        "sta": 68,
+        "str": 55,
+        "tac": 64,
+        "vis": 56
       },
       "birth": "1993-11-01",
       "contract": null,
@@ -440,23 +465,23 @@
       "name": "Tim Leibuld",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12000
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 63,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 58,
-        "pas": 70,
-        "pos": 62,
-        "sho": 57,
+        "dri": 60,
+        "ldr": 64,
+        "pac": 55,
+        "pas": 69,
+        "pos": 66,
+        "sho": 51,
         "sta": 69,
-        "str": 61,
-        "tac": 62,
-        "vis": 68
+        "str": 66,
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -466,23 +491,23 @@
       "name": "Jonas Meffart",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 16500
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 62,
-        "dri": 62,
-        "ldr": 56,
-        "pac": 63,
-        "pas": 56,
-        "pos": 41,
-        "sho": 63,
-        "sta": 60,
-        "str": 58,
-        "tac": 32,
-        "vis": 55
+        "aer": 42,
+        "com": 59,
+        "dri": 67,
+        "ldr": 54,
+        "pac": 67,
+        "pas": 62,
+        "pos": 43,
+        "sho": 58,
+        "sta": 62,
+        "str": 48,
+        "tac": 38,
+        "vis": 61
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -492,23 +517,28 @@
       "name": "Jean-Luc Dumpe",
       "nation": "FRA",
       "number": 27,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 9000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
-        "com": 62,
+        "com": 73,
         "dri": 52,
         "ldr": 58,
         "pac": 58,
-        "pas": 52,
+        "pas": 63,
         "pos": 64,
         "sho": 38,
-        "sta": 60,
+        "sta": 71,
         "str": 67,
         "tac": 69,
-        "vis": 50
+        "vis": 61
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -518,7 +548,7 @@
       "name": "Miro Moheim",
       "nation": "SUI",
       "number": 28,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 12500
     },
     {
@@ -548,19 +578,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 58,
-        "dri": 50,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 54,
-        "pos": 56,
-        "sho": 51,
-        "sta": 55,
-        "str": 53,
-        "tac": 50,
-        "vis": 53
+        "aer": 48,
+        "com": 60,
+        "dri": 52,
+        "ldr": 55,
+        "pac": 51,
+        "pas": 56,
+        "pos": 57,
+        "sho": 53,
+        "sta": 57,
+        "str": 54,
+        "tac": 51,
+        "vis": 55
       },
       "birth": "2001-01-01",
       "contract": null,
@@ -574,6 +607,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -627,18 +663,18 @@
     },
     {
       "attrs": {
-        "aer": 36,
+        "aer": 42,
         "com": 47,
-        "dri": 50,
-        "ldr": 43,
-        "pac": 44,
-        "pas": 50,
-        "pos": 44,
-        "sho": 44,
+        "dri": 46,
+        "ldr": 45,
+        "pac": 41,
+        "pas": 49,
+        "pos": 48,
+        "sho": 38,
         "sta": 53,
-        "str": 42,
-        "tac": 43,
-        "vis": 50
+        "str": 47,
+        "tac": 49,
+        "vis": 47
       },
       "birth": "2003-08-01",
       "contract": null,
@@ -648,7 +684,7 @@
       "name": "Elijah Krehn",
       "nation": "GER",
       "number": 46,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     }
   ],

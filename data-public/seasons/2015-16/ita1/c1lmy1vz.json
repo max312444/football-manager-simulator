@@ -51,9 +51,6 @@
       "wage": 90500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 88,
         "com": 77,
@@ -80,9 +77,6 @@
       "wage": 205500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 82,
         "com": 80,
@@ -109,6 +103,10 @@
       "wage": 134500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 84,
@@ -143,7 +141,7 @@
         "ldr": 68,
         "pac": 78,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 73,
         "str": 76,
@@ -162,6 +160,9 @@
       "wage": 80500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 83,
@@ -195,7 +196,7 @@
         "ldr": 69,
         "pac": 76,
         "pas": 66,
-        "pos": 54,
+        "pos": 74,
         "sho": 78,
         "sta": 73,
         "str": 80,
@@ -214,6 +215,9 @@
       "wage": 90500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 80,
@@ -262,23 +266,23 @@
       "name": "Alex Sandru",
       "nation": "BRA",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 116500
     },
     {
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 73,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 71,
-        "pas": 73,
-        "pos": 72,
-        "sho": 68,
+        "dri": 66,
+        "ldr": 68,
+        "pac": 68,
+        "pas": 72,
+        "pos": 76,
+        "sho": 62,
         "sta": 72,
-        "str": 67,
-        "tac": 72,
-        "vis": 73
+        "str": 72,
+        "tac": 78,
+        "vis": 70
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -289,7 +293,7 @@
       "nation": "GAB",
       "nation2": "FRA",
       "number": 13,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 88000
     },
     {
@@ -319,19 +323,23 @@
       "wage": 104000
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 83,
-        "dri": 79,
-        "ldr": 79,
-        "pac": 77,
-        "pas": 80,
-        "pos": 77,
-        "sho": 72,
-        "sta": 79,
-        "str": 72,
-        "tac": 76,
-        "vis": 83
+        "aer": 67,
+        "com": 81,
+        "dri": 84,
+        "ldr": 75,
+        "pac": 86,
+        "pas": 76,
+        "pos": 59,
+        "sho": 76,
+        "sta": 75,
+        "str": 67,
+        "tac": 56,
+        "vis": 80
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -342,7 +350,7 @@
       "name": "Juan Cuedrado",
       "nation": "COL",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 205500
     },
     {
@@ -353,7 +361,7 @@
         "ldr": 74,
         "pac": 85,
         "pas": 75,
-        "pos": 63,
+        "pos": 83,
         "sho": 84,
         "sta": 79,
         "str": 80,
@@ -372,6 +380,9 @@
       "wage": 171500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 83,
@@ -398,9 +409,6 @@
       "wage": 207500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 86,
         "com": 78,
@@ -427,6 +435,11 @@
       "wage": 167000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -453,7 +466,11 @@
       "wage": 110000
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
         "com": 78,
@@ -461,7 +478,7 @@
         "ldr": 67,
         "pac": 77,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 70,
         "str": 78,
@@ -481,19 +498,24 @@
       "wage": 72500
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 82,
-        "dri": 79,
-        "ldr": 76,
-        "pac": 77,
-        "pas": 81,
-        "pos": 78,
-        "sho": 76,
-        "sta": 82,
-        "str": 72,
-        "tac": 72,
-        "vis": 80
+        "aer": 63,
+        "com": 80,
+        "dri": 82,
+        "ldr": 74,
+        "pac": 85,
+        "pas": 83,
+        "pos": 70,
+        "sho": 74,
+        "sta": 87,
+        "str": 69,
+        "tac": 68,
+        "vis": 81
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -503,10 +525,14 @@
       "name": "Kwadwo Asamoeh",
       "nation": "GHA",
       "number": 22,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 190500
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 71,
@@ -585,6 +611,9 @@
       "wage": 129500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -634,7 +663,7 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": 33,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 109000
     },
     {
@@ -664,6 +693,11 @@
       "wage": 72000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 59,
         "com": 69,
@@ -691,21 +725,22 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 68,
-        "com": 80,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 74,
+        "aer": 62,
+        "com": 81,
+        "dri": 77,
+        "ldr": 69,
+        "pac": 77,
         "pas": 76,
-        "pos": 76,
-        "sho": 71,
-        "sta": 79,
-        "str": 69,
-        "tac": 74,
-        "vis": 80
+        "pos": 61,
+        "sho": 77,
+        "sta": 73,
+        "str": 64,
+        "tac": 56,
+        "vis": 82
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -715,10 +750,13 @@
       "name": "James Truisi",
       "nation": "AUS",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 142000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 49,

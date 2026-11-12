@@ -156,18 +156,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 78,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 68,
-        "pas": 77,
-        "pos": 73,
-        "sho": 71,
+        "dri": 70,
+        "ldr": 75,
+        "pac": 65,
+        "pas": 76,
+        "pos": 77,
+        "sho": 65,
         "sta": 76,
-        "str": 73,
-        "tac": 70,
-        "vis": 75
+        "str": 78,
+        "tac": 76,
+        "vis": 72
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -177,7 +177,7 @@
       "name": "Altin Lale",
       "nation": "ALB",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 49500
     },
     {
@@ -188,7 +188,7 @@
         "ldr": 66,
         "pac": 73,
         "pas": 63,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 73,
         "str": 73,
@@ -208,18 +208,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 73,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 70,
+        "aer": 61,
+        "com": 74,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 73,
         "pas": 75,
-        "pos": 70,
-        "sho": 69,
-        "sta": 77,
-        "str": 71,
-        "tac": 69,
-        "vis": 74
+        "pos": 55,
+        "sho": 75,
+        "sta": 71,
+        "str": 66,
+        "tac": 51,
+        "vis": 76
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -229,10 +229,13 @@
       "name": "Arnold Bruggynk",
       "nation": "NED",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 47500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -266,7 +269,7 @@
         "ldr": 71,
         "pac": 77,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 77,
         "sta": 73,
         "str": 74,
@@ -285,6 +288,9 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -311,19 +317,24 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 62,
-        "dri": 55,
-        "ldr": 57,
-        "pac": 57,
-        "pas": 60,
-        "pos": 59,
-        "sho": 52,
-        "sta": 63,
-        "str": 52,
-        "tac": 57,
-        "vis": 63
+        "aer": 42,
+        "com": 60,
+        "dri": 60,
+        "ldr": 53,
+        "pac": 66,
+        "pas": 56,
+        "pos": 41,
+        "sho": 56,
+        "sta": 59,
+        "str": 47,
+        "tac": 37,
+        "vis": 60
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -333,11 +344,10 @@
       "name": "Sal Zyzzo",
       "nation": "USA",
       "number": 15,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 10000
     },
     {
-      "alt": [],
       "attrs": {
         "aer": 76,
         "com": 77,
@@ -345,7 +355,7 @@
         "ldr": 70,
         "pac": 73,
         "pas": 67,
-        "pos": 55,
+        "pos": 75,
         "sho": 78,
         "sta": 73,
         "str": 79,
@@ -365,6 +375,9 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -394,16 +407,16 @@
       "attrs": {
         "aer": 54,
         "com": 62,
-        "dri": 60,
+        "dri": 62,
         "ldr": 62,
-        "pac": 69,
-        "pas": 65,
-        "pos": 64,
-        "sho": 48,
-        "sta": 70,
+        "pac": 71,
+        "pas": 66,
+        "pos": 62,
+        "sho": 51,
+        "sta": 72,
         "str": 62,
-        "tac": 63,
-        "vis": 58
+        "tac": 61,
+        "vis": 59
       },
       "birth": "1969-10-01",
       "contract": null,
@@ -413,12 +426,12 @@
       "name": "Michael Tarnet",
       "nation": "GER",
       "number": 18,
-      "pos": "LB",
+      "pos": "LWB",
       "wage": 16000
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 77,
@@ -479,7 +492,7 @@
         "ldr": 65,
         "pac": 69,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 70,
         "str": 71,
@@ -524,6 +537,9 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 71,
@@ -550,6 +566,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 77,
@@ -557,7 +576,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 81,
         "sta": 72,
         "str": 77,
@@ -603,18 +622,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 69,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 61,
+        "aer": 49,
+        "com": 70,
+        "dri": 71,
+        "ldr": 63,
+        "pac": 64,
         "pas": 67,
-        "pos": 61,
-        "sho": 58,
-        "sta": 65,
-        "str": 59,
-        "tac": 65,
-        "vis": 64
+        "pos": 46,
+        "sho": 64,
+        "sta": 59,
+        "str": 54,
+        "tac": 47,
+        "vis": 66
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -624,10 +643,13 @@
       "name": "Jan Rusenthal",
       "nation": "GER",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -654,19 +676,24 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 52,
-        "dri": 47,
+        "dri": 55,
         "ldr": 48,
         "pac": 51,
-        "pas": 45,
-        "pos": 33,
+        "pas": 53,
+        "pos": 53,
         "sho": 54,
         "sta": 51,
         "str": 54,
         "tac": 22,
-        "vis": 44
+        "vis": 52
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -676,7 +703,7 @@
       "name": "Hendrik Hehne",
       "nation": "GER",
       "number": 28,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
@@ -713,7 +740,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 44,
-        "pos": 29,
+        "pos": 49,
         "sho": 52,
         "sta": 50,
         "str": 49,
@@ -732,6 +759,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,

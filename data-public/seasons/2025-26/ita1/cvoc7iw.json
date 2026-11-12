@@ -25,19 +25,22 @@
   },
   "squad": [
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 58,
-        "dri": 46,
-        "ldr": 63,
-        "pac": 55,
-        "pas": 55,
-        "pos": 66,
-        "sho": 34,
-        "sta": 61,
-        "str": 63,
-        "tac": 69,
-        "vis": 51
+        "aer": 54,
+        "com": 56,
+        "dri": 56,
+        "ldr": 59,
+        "pac": 63,
+        "pas": 59,
+        "pos": 61,
+        "sho": 41,
+        "sta": 67,
+        "str": 55,
+        "tac": 66,
+        "vis": 57
       },
       "birth": "2003-01-01",
       "contract": null,
@@ -47,26 +50,26 @@
       "name": "Devyne Ransch",
       "nation": "NED",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 26500
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 63,
         "com": 68,
-        "dri": 70,
+        "dri": 72,
         "ldr": 66,
-        "pac": 73,
-        "pas": 69,
-        "pos": 69,
-        "sho": 53,
-        "sta": 78,
+        "pac": 75,
+        "pas": 70,
+        "pos": 67,
+        "sho": 56,
+        "sta": 80,
         "str": 70,
-        "tac": 74,
-        "vis": 68
+        "tac": 72,
+        "vis": 69
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -76,23 +79,23 @@
       "name": "Angelyno",
       "nation": "ESP",
       "number": 3,
-      "pos": "RB",
+      "pos": "LWB",
       "wage": 93500
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 80,
-        "dri": 76,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 77,
-        "pos": 75,
-        "sho": 70,
+        "dri": 72,
+        "ldr": 77,
+        "pac": 73,
+        "pas": 76,
+        "pos": 79,
+        "sho": 64,
         "sta": 82,
-        "str": 75,
-        "tac": 76,
-        "vis": 81
+        "str": 80,
+        "tac": 82,
+        "vis": 78
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -102,7 +105,7 @@
       "name": "Bryan Cristente",
       "nation": "ITA",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 160000
     },
     {
@@ -134,18 +137,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 81,
-        "dri": 80,
-        "ldr": 72,
-        "pac": 73,
+        "aer": 60,
+        "com": 82,
+        "dri": 84,
+        "ldr": 70,
+        "pac": 76,
         "pas": 79,
-        "pos": 77,
-        "sho": 71,
-        "sta": 84,
-        "str": 75,
-        "tac": 78,
-        "vis": 77
+        "pos": 62,
+        "sho": 77,
+        "sta": 78,
+        "str": 70,
+        "tac": 60,
+        "vis": 79
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -155,10 +158,14 @@
       "name": "Lorenzo Pellegriny",
       "nation": "ITA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 160000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -193,7 +200,7 @@
         "ldr": 70,
         "pac": 77,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 78,
         "sta": 73,
         "str": 75,
@@ -219,7 +226,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 57,
         "str": 60,
@@ -262,10 +269,13 @@
       "name": "Kostas Tsimikes",
       "nation": "GRE",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 148500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -292,19 +302,24 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 65,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 65,
-        "pas": 54,
-        "pos": 39,
-        "sho": 66,
-        "sta": 60,
-        "str": 62,
-        "tac": 35,
-        "vis": 52
+        "aer": 44,
+        "com": 62,
+        "dri": 64,
+        "ldr": 54,
+        "pac": 69,
+        "pas": 60,
+        "pos": 41,
+        "sho": 61,
+        "sta": 62,
+        "str": 52,
+        "tac": 41,
+        "vis": 58
       },
       "birth": "2003-04-01",
       "contract": null,
@@ -314,10 +329,15 @@
       "name": "Matias Soole",
       "nation": "ARG",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 22500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 72,
@@ -344,7 +364,11 @@
       "wage": 154000
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 76,
         "com": 83,
@@ -352,7 +376,7 @@
         "ldr": 72,
         "pac": 80,
         "pas": 75,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 79,
         "str": 82,
@@ -451,18 +475,18 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 82,
-        "dri": 79,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 69,
-        "pos": 57,
-        "sho": 81,
-        "sta": 72,
-        "str": 78,
-        "tac": 45,
-        "vis": 68
+        "aer": 60,
+        "com": 79,
+        "dri": 84,
+        "ldr": 73,
+        "pac": 80,
+        "pas": 75,
+        "pos": 59,
+        "sho": 76,
+        "sta": 74,
+        "str": 68,
+        "tac": 51,
+        "vis": 74
       },
       "birth": "1997-08-01",
       "contract": null,
@@ -473,7 +497,7 @@
       "name": "Leon Bailei",
       "nation": "JAM",
       "number": 31,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 130000
     },
     {
@@ -503,22 +527,19 @@
       "wage": 36000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 60,
+        "aer": 46,
         "com": 63,
-        "dri": 58,
+        "dri": 62,
         "ldr": 56,
-        "pac": 64,
-        "pas": 55,
-        "pos": 38,
-        "sho": 66,
+        "pac": 62,
+        "pas": 65,
+        "pos": 43,
+        "sho": 63,
         "sta": 60,
-        "str": 62,
-        "tac": 29,
-        "vis": 53
+        "str": 52,
+        "tac": 37,
+        "vis": 64
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -528,23 +549,26 @@
       "name": "Tommaso Beldanzi",
       "nation": "ITA",
       "number": 35,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 21000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 56,
-        "dri": 48,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 53,
-        "pos": 62,
-        "sho": 35,
-        "sta": 57,
-        "str": 64,
-        "tac": 64,
-        "vis": 45
+        "aer": 49,
+        "com": 54,
+        "dri": 58,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 57,
+        "pos": 57,
+        "sho": 42,
+        "sta": 63,
+        "str": 56,
+        "tac": 61,
+        "vis": 51
       },
       "birth": "2003-09-01",
       "contract": null,
@@ -554,23 +578,23 @@
       "name": "Wesley France",
       "nation": "BRA",
       "number": 43,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 20000
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 64,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 58,
-        "pas": 66,
-        "pos": 64,
-        "sho": 61,
+        "dri": 60,
+        "ldr": 65,
+        "pac": 55,
+        "pas": 65,
+        "pos": 68,
+        "sho": 55,
         "sta": 63,
-        "str": 60,
-        "tac": 61,
-        "vis": 67
+        "str": 65,
+        "tac": 67,
+        "vis": 64
       },
       "birth": "2001-06-01",
       "contract": null,
@@ -580,10 +604,13 @@
       "name": "Ebrima Darbue",
       "nation": "GAM",
       "number": 55,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 44500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -611,19 +638,22 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 60,
-        "dri": 53,
-        "ldr": 56,
-        "pac": 52,
-        "pas": 57,
-        "pos": 56,
-        "sho": 51,
-        "sta": 61,
-        "str": 55,
-        "tac": 57,
-        "vis": 59
+        "aer": 46,
+        "com": 62,
+        "dri": 55,
+        "ldr": 57,
+        "pac": 53,
+        "pas": 59,
+        "pos": 57,
+        "sho": 53,
+        "sta": 63,
+        "str": 56,
+        "tac": 58,
+        "vis": 61
       },
       "birth": "2004-09-01",
       "contract": null,
@@ -638,18 +668,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 51,
-        "dri": 35,
-        "ldr": 46,
-        "pac": 44,
-        "pas": 41,
-        "pos": 57,
-        "sho": 23,
-        "sta": 44,
-        "str": 51,
-        "tac": 53,
-        "vis": 40
+        "aer": 42,
+        "com": 49,
+        "dri": 45,
+        "ldr": 42,
+        "pac": 52,
+        "pas": 45,
+        "pos": 52,
+        "sho": 30,
+        "sta": 50,
+        "str": 43,
+        "tac": 50,
+        "vis": 46
       },
       "birth": "2007-08-01",
       "contract": null,
@@ -660,7 +690,7 @@
       "nation": "ESP",
       "nation2": "MLI",
       "number": 66,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6500
     },
     {
@@ -714,7 +744,7 @@
       "nation": "ITA",
       "nation2": "EGY",
       "number": 92,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 121500
     },
     {
@@ -771,6 +801,9 @@
       "wage": 60500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -797,19 +830,22 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 50,
-        "dri": 43,
-        "ldr": 42,
-        "pac": 43,
-        "pas": 39,
-        "pos": 23,
-        "sho": 50,
-        "sta": 43,
-        "str": 43,
-        "tac": 19,
-        "vis": 37
+        "aer": 32,
+        "com": 47,
+        "dri": 48,
+        "ldr": 40,
+        "pac": 47,
+        "pas": 45,
+        "pos": 25,
+        "sho": 45,
+        "sta": 45,
+        "str": 33,
+        "tac": 25,
+        "vis": 43
       },
       "birth": "2005-02-01",
       "contract": null,
@@ -819,7 +855,7 @@
       "name": "Kevin Zefy",
       "nation": "ALB",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     }
   ],

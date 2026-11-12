@@ -127,6 +127,8 @@
     },
     {
       "alt": [
+        "ST",
+        "RW",
         "LW"
       ],
       "attrs": {
@@ -220,11 +222,11 @@
         "ldr": 59,
         "pac": 47,
         "pas": 82,
-        "pos": 65,
+        "pos": 71,
         "sho": 74,
         "sta": 68,
-        "str": 81,
-        "tac": 63,
+        "str": 87,
+        "tac": 69,
         "vis": 80
       },
       "birth": "1986-12-01",
@@ -235,13 +237,16 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
       "wage": 71500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 33,
         "com": 65,
@@ -271,6 +276,9 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 79,
@@ -301,16 +309,16 @@
     },
     {
       "attrs": {
-        "aer": 82,
-        "com": 72,
+        "aer": 84,
+        "com": 74,
         "dri": 75,
         "ldr": 60,
         "pac": 74,
         "pas": 73,
-        "pos": 45,
-        "sho": 80,
+        "pos": 47,
+        "sho": 82,
         "sta": 72,
-        "str": 81,
+        "str": 83,
         "tac": 38,
         "vis": 71
       },
@@ -327,7 +335,8 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "ST"
       ],
       "attrs": {
         "aer": 65,
@@ -386,6 +395,9 @@
       "wage": 70000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 47,
         "com": 73,
@@ -408,7 +420,7 @@
       "name": "David Bentlei",
       "nation": "ENG",
       "number": 15,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
@@ -443,16 +455,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 80,
+        "aer": 56,
+        "com": 86,
         "dri": 75,
         "ldr": 59,
         "pac": 78,
         "pas": 63,
-        "pos": 39,
-        "sho": 83,
+        "pos": 45,
+        "sho": 89,
         "sta": 70,
-        "str": 63,
+        "str": 69,
         "tac": 31,
         "vis": 61
       },
@@ -472,7 +484,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 61,
@@ -480,12 +492,12 @@
         "dri": 86,
         "ldr": 60,
         "pac": 72,
-        "pas": 82,
+        "pas": 83,
         "pos": 66,
         "sho": 66,
-        "sta": 79,
+        "sta": 80,
         "str": 83,
-        "tac": 67,
+        "tac": 68,
         "vis": 77
       },
       "birth": "1987-07-01",
@@ -529,19 +541,22 @@
       "wage": 66000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 64,
+        "com": 68,
         "dri": 68,
         "ldr": 56,
         "pac": 70,
-        "pas": 70,
+        "pas": 74,
         "pos": 60,
         "sho": 64,
         "sta": 72,
         "str": 62,
-        "tac": 60,
-        "vis": 66
+        "tac": 64,
+        "vis": 70
       },
       "birth": "1983-02-01",
       "contract": "2013-06-30",
@@ -559,9 +574,6 @@
       "wage": 46000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 52,
         "com": 73,
@@ -593,7 +605,8 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "ST"
       ],
       "attrs": {
         "aer": 38,
@@ -622,6 +635,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 66,
@@ -653,17 +669,17 @@
     {
       "attrs": {
         "aer": 59,
-        "com": 61,
+        "com": 65,
         "dri": 61,
         "ldr": 53,
         "pac": 67,
-        "pas": 64,
-        "pos": 64,
+        "pas": 68,
+        "pos": 68,
         "sho": 50,
         "sta": 79,
-        "str": 72,
-        "tac": 69,
-        "vis": 57
+        "str": 76,
+        "tac": 73,
+        "vis": 61
       },
       "birth": "1989-11-01",
       "contract": "2015-06-30",
@@ -673,7 +689,7 @@
       "name": "Jake Livermora",
       "nation": "ENG",
       "number": 29,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 40000
     },
     {
@@ -786,19 +802,23 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 33,
-        "com": 63,
-        "dri": 70,
+        "com": 64,
+        "dri": 71,
         "ldr": 43,
-        "pac": 62,
+        "pac": 63,
         "pas": 73,
         "pos": 51,
-        "sho": 53,
+        "sho": 54,
         "sta": 70,
         "str": 47,
         "tac": 49,
-        "vis": 70
+        "vis": 71
       },
       "birth": "1992-05-01",
       "contract": "2016-06-30",

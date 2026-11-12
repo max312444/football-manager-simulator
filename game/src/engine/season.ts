@@ -29,7 +29,7 @@ import { cleanOffers } from './transfer';
 import { money } from '../ui/format';
 import { seasonAwards } from './awards';
 import { createCups } from './cup';
-import { growTowardPotential, youthIntake } from './youth';
+import { academyFill, growTowardPotential, youthIntake } from './youth';
 import { createEurope } from './europe';
 import { clearWorldCup, createWorldCup } from './worldcup';
 
@@ -57,6 +57,8 @@ export interface SeasonReport {
   board?: { net: number; prize: number; transferBudget: number; wageBudget: number; balance: number };
   /** 유스 입단 (데이터가 끝난 뒤) */
   youth?: import('./youth').YouthIntake[];
+  /** 선수단 구성이 모자라 아카데미에서 끌어올린 선수 */
+  academy?: import('./youth').YouthIntake[];
 }
 
 /** 1) 지난 시즌 마감: 순위 기록 · 선수 커리어 기록 */
@@ -350,6 +352,8 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   // 유스 입단: 다음 시즌 실제 데이터가 없는 리그의 구단 (데이터가 있으면 실제 신인이 등장하므로)
   const youthClubs = Object.values(w.clubs).filter((c) => newMembers[c.league]?.includes(c.id) && !nextLeague.has(c.league));
   report.youth = youthIntake(w, youthClubs, to, MAX_SQUAD);
+  // 선수단 구성이 모자란 구단은 아카데미에서 끌어올림 (실제 데이터 시즌 포함)
+  report.academy = academyFill(w, Object.values(w.clubs).filter((c) => newMembers[c.league]?.includes(c.id)), to);
   const myYouth = report.youth.find((y) => y.club === w.userClubId);
   if (myYouth) {
     const best = myYouth.players.map((id) => w.players[id]).sort((a, b) => (b.potential ?? 0) - (a.potential ?? 0))[0];

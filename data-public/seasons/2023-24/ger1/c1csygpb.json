@@ -52,6 +52,10 @@
       "wage": 114500
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 67,
@@ -80,6 +84,9 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 72,
@@ -159,18 +166,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 79,
-        "dri": 78,
-        "ldr": 73,
-        "pac": 72,
-        "pas": 81,
-        "pos": 78,
-        "sho": 74,
-        "sta": 80,
-        "str": 73,
-        "tac": 76,
-        "vis": 82
+        "aer": 64,
+        "com": 77,
+        "dri": 83,
+        "ldr": 69,
+        "pac": 81,
+        "pas": 77,
+        "pos": 60,
+        "sho": 78,
+        "sta": 76,
+        "str": 68,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1992-07-01",
       "contract": null,
@@ -180,26 +187,26 @@
       "name": "Jonas Hofmenn",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 184500
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 70,
+        "aer": 76,
         "com": 80,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 76,
-        "pas": 81,
-        "pos": 74,
-        "sho": 72,
+        "dri": 69,
+        "ldr": 73,
+        "pac": 73,
+        "pas": 80,
+        "pos": 78,
+        "sho": 66,
         "sta": 81,
-        "str": 70,
-        "tac": 76,
-        "vis": 76
+        "str": 75,
+        "tac": 82,
+        "vis": 73
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -209,23 +216,26 @@
       "name": "Robert Andrych",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 184500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 73,
-        "dri": 67,
-        "ldr": 68,
-        "pac": 68,
+        "aer": 59,
+        "com": 74,
+        "dri": 71,
+        "ldr": 66,
+        "pac": 71,
         "pas": 72,
-        "pos": 73,
-        "sho": 67,
-        "sta": 75,
-        "str": 69,
-        "tac": 71,
-        "vis": 73
+        "pos": 58,
+        "sho": 73,
+        "sta": 69,
+        "str": 64,
+        "tac": 53,
+        "vis": 75
       },
       "birth": "2003-05-01",
       "contract": null,
@@ -235,23 +245,23 @@
       "name": "Florian Wyrtz",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 120500
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 75,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 71,
+        "aer": 58,
+        "com": 76,
+        "dri": 77,
+        "ldr": 69,
+        "pac": 74,
         "pas": 78,
-        "pos": 78,
-        "sho": 69,
-        "sta": 76,
-        "str": 70,
-        "tac": 72,
-        "vis": 78
+        "pos": 63,
+        "sho": 75,
+        "sta": 70,
+        "str": 65,
+        "tac": 54,
+        "vis": 80
       },
       "birth": "1996-10-01",
       "contract": null,
@@ -261,7 +271,7 @@
       "name": "Nadiem Amyri",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 166000
     },
     {
@@ -292,18 +302,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 57,
-        "dri": 44,
-        "ldr": 57,
-        "pac": 50,
-        "pas": 49,
-        "pos": 61,
-        "sho": 34,
-        "sta": 57,
-        "str": 58,
-        "tac": 61,
-        "vis": 41
+        "aer": 45,
+        "com": 55,
+        "dri": 54,
+        "ldr": 53,
+        "pac": 58,
+        "pas": 53,
+        "pos": 56,
+        "sho": 41,
+        "sta": 63,
+        "str": 50,
+        "tac": 58,
+        "vis": 47
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -313,7 +323,7 @@
       "name": "Arthor",
       "nation": "BRA",
       "number": 13,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 16000
     },
     {
@@ -324,7 +334,7 @@
         "ldr": 70,
         "pac": 81,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 72,
         "str": 78,
@@ -369,6 +379,9 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 53,
@@ -396,21 +409,22 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "LW"
       ],
       "attrs": {
-        "aer": 52,
-        "com": 63,
-        "dri": 65,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 64,
-        "pos": 61,
-        "sho": 61,
-        "sta": 65,
-        "str": 59,
-        "tac": 61,
-        "vis": 64
+        "aer": 46,
+        "com": 61,
+        "dri": 70,
+        "ldr": 57,
+        "pac": 70,
+        "pas": 60,
+        "pos": 43,
+        "sho": 65,
+        "sta": 61,
+        "str": 54,
+        "tac": 41,
+        "vis": 61
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -421,23 +435,26 @@
       "nation": "ENG",
       "nation2": "NGA",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 45000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 76,
-        "dri": 72,
+        "dri": 74,
         "ldr": 68,
-        "pac": 78,
-        "pas": 75,
-        "pos": 72,
-        "sho": 59,
-        "sta": 76,
+        "pac": 80,
+        "pas": 76,
+        "pos": 70,
+        "sho": 62,
+        "sta": 78,
         "str": 70,
-        "tac": 74,
-        "vis": 66
+        "tac": 72,
+        "vis": 67
       },
       "birth": "1995-09-01",
       "contract": null,
@@ -447,23 +464,28 @@
       "name": "Alex Grymaldo",
       "nation": "ESP",
       "number": 20,
-      "pos": "RB",
+      "pos": "LWB",
       "wage": 138500
     },
     {
+      "alt": [
+        "AM",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 70,
-        "dri": 66,
-        "ldr": 66,
-        "pac": 72,
-        "pas": 61,
-        "pos": 50,
-        "sho": 75,
-        "sta": 69,
-        "str": 74,
-        "tac": 44,
-        "vis": 65
+        "aer": 54,
+        "com": 67,
+        "dri": 71,
+        "ldr": 64,
+        "pac": 76,
+        "pas": 67,
+        "pos": 52,
+        "sho": 70,
+        "sta": 71,
+        "str": 64,
+        "tac": 50,
+        "vis": 71
       },
       "birth": "2000-05-01",
       "contract": null,
@@ -474,7 +496,7 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 67500
     },
     {
@@ -485,7 +507,7 @@
         "ldr": 64,
         "pac": 68,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 70,
         "sta": 68,
         "str": 73,
@@ -504,19 +526,23 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 71,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 67,
-        "pas": 65,
-        "pos": 46,
-        "sho": 72,
-        "sta": 65,
-        "str": 70,
-        "tac": 39,
-        "vis": 64
+        "aer": 56,
+        "com": 68,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 71,
+        "pas": 71,
+        "pos": 48,
+        "sho": 67,
+        "sta": 67,
+        "str": 60,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "2002-07-01",
       "contract": null,
@@ -526,10 +552,15 @@
       "name": "Adam Hluzek",
       "nation": "CZE",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 56500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 74,
@@ -556,6 +587,10 @@
       "wage": 112500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 80,
@@ -582,6 +617,10 @@
       "wage": 184500
     },
     {
+      "alt": [
+        "RWB",
+        "RW"
+      ],
       "attrs": {
         "aer": 61,
         "com": 66,
@@ -608,6 +647,10 @@
       "wage": 82500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 69,
@@ -635,18 +678,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 83,
-        "dri": 80,
-        "ldr": 78,
-        "pac": 72,
-        "pas": 79,
-        "pos": 76,
-        "sho": 73,
+        "dri": 76,
+        "ldr": 80,
+        "pac": 69,
+        "pas": 78,
+        "pos": 80,
+        "sho": 67,
         "sta": 83,
-        "str": 74,
-        "tac": 78,
-        "vis": 81
+        "str": 79,
+        "tac": 84,
+        "vis": 78
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -656,7 +699,7 @@
       "name": "Granit Xhake",
       "nation": "SUI",
       "number": 34,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 184500
     },
     {

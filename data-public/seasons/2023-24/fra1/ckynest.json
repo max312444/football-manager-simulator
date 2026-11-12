@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 65,
-        "dri": 52,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 57,
-        "pos": 66,
-        "sho": 38,
-        "sta": 59,
-        "str": 69,
-        "tac": 66,
-        "vis": 51
+        "aer": 57,
+        "com": 63,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 61,
+        "pos": 61,
+        "sho": 45,
+        "sta": 65,
+        "str": 61,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Frederic Guylbert",
       "nation": "FRA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 30000
     },
     {
@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 46,
-        "ldr": 59,
-        "pac": 54,
-        "pas": 53,
-        "pos": 60,
-        "sho": 36,
-        "sta": 58,
-        "str": 60,
-        "tac": 62,
-        "vis": 46
+        "aer": 50,
+        "com": 57,
+        "dri": 56,
+        "ldr": 55,
+        "pac": 62,
+        "pas": 57,
+        "pos": 55,
+        "sho": 43,
+        "sta": 64,
+        "str": 52,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -125,7 +125,7 @@
       "name": "Karol File",
       "nation": "POL",
       "number": 4,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 17500
     },
     {
@@ -156,18 +156,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 61,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 64,
-        "pos": 59,
-        "sho": 60,
+        "dri": 56,
+        "ldr": 61,
+        "pac": 57,
+        "pas": 63,
+        "pos": 63,
+        "sho": 54,
         "sta": 62,
-        "str": 59,
-        "tac": 60,
-        "vis": 62
+        "str": 64,
+        "tac": 66,
+        "vis": 59
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -178,10 +178,13 @@
       "nation": "CIV",
       "nation2": "TOG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 63,
@@ -215,7 +218,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 64,
-        "pos": 50,
+        "pos": 70,
         "sho": 76,
         "sta": 68,
         "str": 69,
@@ -241,7 +244,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 60,
         "sta": 53,
         "str": 60,
@@ -267,7 +270,7 @@
         "ldr": 46,
         "pac": 54,
         "pas": 46,
-        "pos": 29,
+        "pos": 49,
         "sho": 55,
         "sta": 51,
         "str": 51,
@@ -293,7 +296,7 @@
         "ldr": 62,
         "pac": 63,
         "pas": 60,
-        "pos": 42,
+        "pos": 62,
         "sho": 69,
         "sta": 61,
         "str": 64,
@@ -339,6 +342,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 73,
@@ -366,6 +372,10 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -419,6 +429,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 56,
@@ -447,18 +460,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 61,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 59,
-        "pos": 54,
-        "sho": 55,
-        "sta": 58,
-        "str": 52,
-        "tac": 55,
-        "vis": 59
+        "aer": 40,
+        "com": 59,
+        "dri": 60,
+        "ldr": 49,
+        "pac": 63,
+        "pas": 55,
+        "pos": 36,
+        "sho": 59,
+        "sta": 54,
+        "str": 47,
+        "tac": 35,
+        "vis": 56
       },
       "birth": "1996-07-01",
       "contract": null,
@@ -468,7 +481,7 @@
       "name": "Mehdi Chahyri",
       "nation": "FRA",
       "number": 21,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 18000
     },
     {
@@ -500,7 +513,9 @@
     },
     {
       "alt": [
-        "CM"
+        "LW",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 42,
@@ -555,19 +570,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 56,
-        "dri": 57,
-        "ldr": 48,
-        "pac": 55,
-        "pas": 50,
-        "pos": 37,
-        "sho": 57,
-        "sta": 51,
-        "str": 58,
-        "tac": 25,
-        "vis": 47
+        "aer": 37,
+        "com": 53,
+        "dri": 62,
+        "ldr": 46,
+        "pac": 59,
+        "pas": 56,
+        "pos": 39,
+        "sho": 52,
+        "sta": 53,
+        "str": 48,
+        "tac": 31,
+        "vis": 53
       },
       "birth": "2002-08-01",
       "contract": null,
@@ -577,23 +595,23 @@
       "name": "Dilane Bekwa",
       "nation": "FRA",
       "number": 26,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9500
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 62,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 66,
-        "pos": 62,
-        "sho": 61,
+        "dri": 58,
+        "ldr": 61,
+        "pac": 58,
+        "pas": 65,
+        "pos": 66,
+        "sho": 55,
         "sta": 65,
-        "str": 59,
-        "tac": 57,
-        "vis": 62
+        "str": 64,
+        "tac": 63,
+        "vis": 59
       },
       "birth": "1997-10-01",
       "contract": null,
@@ -604,23 +622,23 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 34500
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 55,
-        "dri": 48,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 51,
-        "pos": 65,
-        "sho": 31,
-        "sta": 57,
-        "str": 60,
-        "tac": 60,
-        "vis": 47
+        "aer": 53,
+        "com": 53,
+        "dri": 58,
+        "ldr": 53,
+        "pac": 64,
+        "pas": 55,
+        "pos": 60,
+        "sho": 38,
+        "sta": 63,
+        "str": 52,
+        "tac": 57,
+        "vis": 53
       },
       "birth": "2001-01-01",
       "contract": null,
@@ -631,10 +649,13 @@
       "nation": "FRA",
       "nation2": "GHA",
       "number": 28,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 56,
@@ -689,18 +710,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 47,
-        "dri": 31,
-        "ldr": 47,
-        "pac": 41,
-        "pas": 38,
-        "pos": 48,
-        "sho": 23,
-        "sta": 42,
-        "str": 50,
-        "tac": 52,
-        "vis": 35
+        "aer": 35,
+        "com": 45,
+        "dri": 41,
+        "ldr": 43,
+        "pac": 49,
+        "pas": 42,
+        "pos": 43,
+        "sho": 30,
+        "sta": 48,
+        "str": 42,
+        "tac": 49,
+        "vis": 41
       },
       "birth": "2001-05-01",
       "contract": null,
@@ -710,7 +731,7 @@
       "name": "Maxime Bastyan",
       "nation": "FRA",
       "number": 39,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -736,7 +757,7 @@
       "name": "Eduard Subol",
       "nation": "UKR",
       "number": 77,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 53000
     }
   ],

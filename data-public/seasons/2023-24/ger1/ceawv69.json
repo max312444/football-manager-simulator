@@ -77,6 +77,9 @@
       "wage": 122000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 54,
@@ -129,19 +132,22 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 53,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 55,
-        "pos": 54,
-        "sho": 51,
-        "sta": 61,
-        "str": 54,
-        "tac": 52,
-        "vis": 55
+        "aer": 42,
+        "com": 51,
+        "dri": 61,
+        "ldr": 49,
+        "pac": 61,
+        "pas": 51,
+        "pos": 36,
+        "sho": 55,
+        "sta": 57,
+        "str": 49,
+        "tac": 32,
+        "vis": 52
       },
       "birth": "2001-09-01",
       "contract": null,
@@ -151,23 +157,23 @@
       "name": "Noah Weissheupt",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 18000
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 78,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 78,
-        "pos": 71,
-        "sho": 71,
+        "dri": 67,
+        "ldr": 72,
+        "pac": 68,
+        "pas": 77,
+        "pos": 75,
+        "sho": 65,
         "sta": 77,
-        "str": 70,
-        "tac": 73,
-        "vis": 74
+        "str": 75,
+        "tac": 79,
+        "vis": 71
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -177,10 +183,15 @@
       "name": "Maximilian Eggestain",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 124500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 66,
@@ -188,7 +199,7 @@
         "ldr": 58,
         "pac": 68,
         "pas": 59,
-        "pos": 43,
+        "pos": 63,
         "sho": 70,
         "sta": 62,
         "str": 62,
@@ -207,19 +218,23 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 66,
-        "dri": 67,
+        "aer": 63,
+        "com": 72,
+        "dri": 73,
         "ldr": 65,
-        "pac": 60,
-        "pas": 68,
-        "pos": 62,
-        "sho": 62,
+        "pac": 66,
+        "pas": 69,
+        "pos": 68,
+        "sho": 68,
         "sta": 71,
-        "str": 64,
+        "str": 70,
         "tac": 65,
-        "vis": 65
+        "vis": 66
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -230,23 +245,23 @@
       "nation": "GHA",
       "nation2": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 59500
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 66,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 63,
-        "pas": 68,
-        "pos": 61,
-        "sho": 59,
+        "dri": 61,
+        "ldr": 66,
+        "pac": 60,
+        "pas": 67,
+        "pos": 65,
+        "sho": 53,
         "sta": 68,
-        "str": 63,
-        "tac": 62,
-        "vis": 67
+        "str": 68,
+        "tac": 68,
+        "vis": 64
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -256,23 +271,26 @@
       "name": "Yannik Kaitel",
       "nation": "GER",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 55500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 58,
-        "dri": 48,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 53,
-        "pos": 67,
-        "sho": 35,
-        "sta": 57,
-        "str": 66,
-        "tac": 67,
-        "vis": 51
+        "aer": 55,
+        "com": 56,
+        "dri": 58,
+        "ldr": 54,
+        "pac": 64,
+        "pas": 57,
+        "pos": 62,
+        "sho": 42,
+        "sta": 63,
+        "str": 58,
+        "tac": 64,
+        "vis": 57
       },
       "birth": "1992-08-01",
       "contract": null,
@@ -282,7 +300,7 @@
       "name": "Lukas Kobler",
       "nation": "GER",
       "number": 17,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 26000
     },
     {
@@ -293,7 +311,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 56,
         "str": 65,
@@ -340,17 +358,17 @@
     {
       "attrs": {
         "aer": 70,
-        "com": 79,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 72,
-        "pas": 77,
+        "com": 75,
+        "dri": 73,
+        "ldr": 69,
+        "pac": 79,
+        "pas": 71,
         "pos": 78,
-        "sho": 70,
+        "sho": 56,
         "sta": 82,
-        "str": 75,
-        "tac": 76,
-        "vis": 80
+        "str": 74,
+        "tac": 80,
+        "vis": 71
       },
       "birth": "1997-05-01",
       "contract": null,
@@ -360,23 +378,23 @@
       "name": "Roland Sellai",
       "nation": "HUN",
       "number": 22,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 124500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 54,
-        "dri": 44,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 52,
-        "pos": 63,
-        "sho": 35,
-        "sta": 55,
-        "str": 61,
-        "tac": 63,
-        "vis": 43
+        "aer": 52,
+        "com": 52,
+        "dri": 54,
+        "ldr": 50,
+        "pac": 64,
+        "pas": 56,
+        "pos": 58,
+        "sho": 42,
+        "sta": 61,
+        "str": 53,
+        "tac": 60,
+        "vis": 49
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -386,7 +404,7 @@
       "name": "Kiliann Sildyllia",
       "nation": "FRA",
       "number": 25,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18000
     },
     {
@@ -397,7 +415,7 @@
         "ldr": 64,
         "pac": 76,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 67,
         "str": 75,
@@ -418,18 +436,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 62,
-        "dri": 58,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 66,
-        "pos": 64,
-        "sho": 57,
+        "dri": 54,
+        "ldr": 60,
+        "pac": 55,
+        "pas": 65,
+        "pos": 68,
+        "sho": 51,
         "sta": 62,
-        "str": 58,
-        "tac": 62,
-        "vis": 64
+        "str": 63,
+        "tac": 68,
+        "vis": 61
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -439,7 +457,7 @@
       "name": "Nicolas Hoflar",
       "nation": "GER",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 37500
     },
     {
@@ -491,7 +509,7 @@
       "name": "Christian Gonter",
       "nation": "GER",
       "number": 30,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 112500
     },
     {
@@ -521,19 +539,22 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 68,
-        "dri": 68,
-        "ldr": 67,
-        "pac": 69,
+        "aer": 55,
+        "com": 69,
+        "dri": 72,
+        "ldr": 65,
+        "pac": 72,
         "pas": 75,
-        "pos": 66,
-        "sho": 63,
-        "sta": 75,
-        "str": 67,
-        "tac": 65,
-        "vis": 73
+        "pos": 51,
+        "sho": 69,
+        "sta": 69,
+        "str": 62,
+        "tac": 47,
+        "vis": 75
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -544,10 +565,13 @@
       "nation": "ITA",
       "nation2": "GER",
       "number": 32,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 91000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 53,
@@ -575,16 +599,21 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "RB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,
-        "dri": 56,
+        "dri": 57,
         "ldr": 53,
-        "pac": 52,
+        "pac": 53,
         "pas": 56,
         "pos": 54,
-        "sho": 50,
-        "sta": 61,
+        "sho": 51,
+        "sta": 62,
         "str": 53,
         "tac": 50,
         "vis": 57
@@ -597,7 +626,7 @@
       "name": "Merlin Ruhl",
       "nation": "GER",
       "number": 34,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 17500
     },
     {
@@ -627,6 +656,10 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 82,
@@ -634,7 +667,7 @@
         "ldr": 73,
         "pac": 81,
         "pas": 69,
-        "pos": 53,
+        "pos": 73,
         "sho": 82,
         "sta": 74,
         "str": 80,
@@ -654,18 +687,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 77,
-        "dri": 78,
-        "ldr": 74,
-        "pac": 74,
-        "pas": 78,
-        "pos": 77,
-        "sho": 71,
-        "sta": 79,
-        "str": 73,
-        "tac": 75,
-        "vis": 79
+        "aer": 64,
+        "com": 75,
+        "dri": 83,
+        "ldr": 70,
+        "pac": 83,
+        "pas": 74,
+        "pos": 59,
+        "sho": 75,
+        "sta": 75,
+        "str": 68,
+        "tac": 55,
+        "vis": 76
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -675,7 +708,7 @@
       "name": "Ritsu Doen",
       "nation": "JPN",
       "number": 42,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 124500
     }
   ],

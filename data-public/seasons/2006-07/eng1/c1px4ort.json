@@ -47,13 +47,13 @@
       "attrs": {
         "aer": 66,
         "com": 78,
-        "dri": 68,
+        "dri": 74,
         "ldr": 84,
-        "pac": 67,
+        "pac": 73,
         "pas": 72,
         "pos": 81,
         "sho": 51,
-        "sta": 79,
+        "sta": 85,
         "str": 70,
         "tac": 80,
         "vis": 66
@@ -103,18 +103,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB"
       ],
       "attrs": {
         "aer": 78,
         "com": 78,
-        "dri": 68,
+        "dri": 73,
         "ldr": 72,
-        "pac": 74,
-        "pas": 72,
+        "pac": 79,
+        "pas": 77,
         "pos": 82,
         "sho": 54,
-        "sta": 82,
+        "sta": 87,
         "str": 80,
         "tac": 84,
         "vis": 62
@@ -187,6 +188,7 @@
     },
     {
       "alt": [
+        "ST",
         "LW"
       ],
       "attrs": {
@@ -220,19 +222,21 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
-        "aer": 76,
-        "com": 84,
+        "aer": 81,
+        "com": 89,
         "dri": 87,
         "ldr": 65,
         "pac": 84,
         "pas": 77,
-        "pos": 59,
-        "sho": 89,
+        "pos": 64,
+        "sho": 94,
         "sta": 87,
-        "str": 84,
+        "str": 89,
         "tac": 48,
         "vis": 84
       },
@@ -253,16 +257,16 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 78,
+        "aer": 74,
+        "com": 80,
         "dri": 74,
         "ldr": 62,
         "pac": 82,
         "pas": 67,
-        "pos": 46,
-        "sho": 82,
+        "pos": 48,
+        "sho": 84,
         "sta": 70,
-        "str": 75,
+        "str": 77,
         "tac": 37,
         "vis": 65
       },
@@ -287,9 +291,9 @@
       "attrs": {
         "aer": 54,
         "com": 80,
-        "dri": 85,
+        "dri": 90,
         "ldr": 75,
-        "pac": 76,
+        "pac": 81,
         "pas": 84,
         "pos": 57,
         "sho": 75,
@@ -314,8 +318,9 @@
     },
     {
       "alt": [
-        "LM",
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 47,
@@ -348,7 +353,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 60,
@@ -439,7 +446,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 61,
@@ -477,16 +484,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 85,
+        "aer": 65,
+        "com": 92,
         "dri": 70,
         "ldr": 63,
-        "pac": 63,
+        "pac": 70,
         "pas": 68,
-        "pos": 45,
-        "sho": 78,
+        "pos": 52,
+        "sho": 85,
         "sta": 56,
-        "str": 62,
+        "str": 69,
         "tac": 36,
         "vis": 73
       },
@@ -507,22 +514,22 @@
     },
     {
       "alt": [
-        "LB",
+        "DM",
         "RB",
-        "DM"
+        "LB"
       ],
       "attrs": {
-        "aer": 70,
-        "com": 74,
+        "aer": 72,
+        "com": 76,
         "dri": 68,
         "ldr": 62,
         "pac": 76,
         "pas": 71,
-        "pos": 76,
+        "pos": 78,
         "sho": 53,
         "sta": 80,
-        "str": 73,
-        "tac": 78,
+        "str": 75,
+        "tac": 80,
         "vis": 64
       },
       "birth": "1981-04-01",
@@ -538,7 +545,9 @@
     },
     {
       "alt": [
-        "LB"
+        "LW",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 49,
@@ -562,26 +571,26 @@
       "name": "Kieran Rychardson",
       "nation": "ENG",
       "number": 23,
-      "pos": "LM",
+      "pos": "RW",
       "wage": 28500
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 59,
-        "com": 72,
+        "com": 73,
         "dri": 72,
         "ldr": 60,
         "pac": 70,
-        "pas": 77,
+        "pas": 78,
         "pos": 66,
         "sho": 64,
         "sta": 86,
         "str": 66,
-        "tac": 66,
-        "vis": 73
+        "tac": 67,
+        "vis": 74
       },
       "birth": "1984-02-01",
       "contract": "2009-06-30",
@@ -683,6 +692,10 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
         "aer": 27,
         "com": 50,

@@ -31,7 +31,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 69,
-        "pos": 52,
+        "pos": 72,
         "sho": 75,
         "sta": 72,
         "str": 73,
@@ -51,19 +51,22 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 75,
-        "dri": 72,
-        "ldr": 63,
-        "pac": 74,
-        "pas": 63,
-        "pos": 53,
-        "sho": 77,
-        "sta": 68,
-        "str": 71,
-        "tac": 45,
-        "vis": 66
+        "aer": 53,
+        "com": 72,
+        "dri": 77,
+        "ldr": 61,
+        "pac": 78,
+        "pas": 69,
+        "pos": 55,
+        "sho": 72,
+        "sta": 70,
+        "str": 61,
+        "tac": 51,
+        "vis": 72
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -74,7 +77,7 @@
       "nation": "CIV",
       "nation2": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 17000
     },
@@ -114,7 +117,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 65,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 69,
         "str": 74,
@@ -189,22 +192,19 @@
       "wage": 15000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 61,
-        "com": 69,
+        "aer": 69,
+        "com": 70,
         "dri": 71,
-        "ldr": 67,
-        "pac": 62,
-        "pas": 71,
+        "ldr": 65,
+        "pac": 67,
+        "pas": 61,
         "pos": 66,
-        "sho": 67,
-        "sta": 70,
-        "str": 64,
-        "tac": 68,
-        "vis": 72
+        "sho": 76,
+        "sta": 64,
+        "str": 69,
+        "tac": 42,
+        "vis": 63
       },
       "birth": "1980-05-01",
       "contract": null,
@@ -214,7 +214,7 @@
       "name": "Marama Vahiroa",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 19500
     },
     {
@@ -252,7 +252,7 @@
         "ldr": 60,
         "pac": 71,
         "pas": 62,
-        "pos": 46,
+        "pos": 66,
         "sho": 75,
         "sta": 68,
         "str": 66,
@@ -273,18 +273,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 68,
-        "dri": 66,
-        "ldr": 65,
-        "pac": 62,
-        "pas": 68,
-        "pos": 63,
-        "sho": 59,
+        "dri": 62,
+        "ldr": 67,
+        "pac": 59,
+        "pas": 67,
+        "pos": 67,
+        "sho": 53,
         "sta": 67,
-        "str": 60,
-        "tac": 62,
-        "vis": 66
+        "str": 65,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -294,11 +294,14 @@
       "name": "Serga Die",
       "nation": "CIV",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -325,19 +328,22 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 68,
-        "com": 60,
+        "com": 68,
         "dri": 52,
         "ldr": 63,
         "pac": 62,
-        "pas": 59,
+        "pas": 67,
         "pos": 66,
         "sho": 39,
-        "sta": 61,
+        "sta": 69,
         "str": 65,
         "tac": 70,
-        "vis": 53
+        "vis": 61
       },
       "birth": "1975-04-01",
       "contract": null,
@@ -347,11 +353,14 @@
       "name": "Cyril Ruol",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 67,
@@ -411,7 +420,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 60,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 60,
         "str": 68,
@@ -459,18 +468,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 60,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 67,
-        "pas": 60,
-        "pos": 63,
-        "sho": 43,
-        "sta": 65,
-        "str": 55,
-        "tac": 62,
-        "vis": 58
+        "aer": 69,
+        "com": 62,
+        "dri": 50,
+        "ldr": 64,
+        "pac": 59,
+        "pas": 56,
+        "pos": 68,
+        "sho": 36,
+        "sta": 59,
+        "str": 63,
+        "tac": 65,
+        "vis": 52
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -480,11 +489,14 @@
       "name": "Rod Fanny",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "verify": true,
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -513,6 +525,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -546,7 +561,7 @@
         "ldr": 54,
         "pac": 62,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 68,
         "sta": 61,
         "str": 61,
@@ -568,18 +583,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 60,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 66,
-        "pas": 56,
-        "pos": 58,
-        "sho": 42,
-        "sta": 64,
-        "str": 58,
-        "tac": 60,
-        "vis": 54
+        "aer": 62,
+        "com": 62,
+        "dri": 50,
+        "ldr": 60,
+        "pac": 58,
+        "pas": 52,
+        "pos": 63,
+        "sho": 35,
+        "sta": 58,
+        "str": 66,
+        "tac": 63,
+        "vis": 48
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -589,7 +604,7 @@
       "name": "Cedric Varraolt",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 6000
     },
     {
@@ -619,19 +634,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 60,
-        "dri": 46,
-        "ldr": 60,
-        "pac": 58,
-        "pas": 51,
-        "pos": 66,
-        "sho": 35,
-        "sta": 55,
-        "str": 61,
-        "tac": 65,
-        "vis": 46
+        "aer": 54,
+        "com": 58,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 55,
+        "pos": 61,
+        "sho": 42,
+        "sta": 61,
+        "str": 53,
+        "tac": 62,
+        "vis": 52
       },
       "birth": "1975-03-01",
       "contract": null,
@@ -641,10 +661,13 @@
       "name": "Francois Granet",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -671,6 +694,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -706,7 +732,7 @@
         "ldr": 55,
         "pac": 57,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 58,
         "str": 58,
@@ -727,6 +753,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 56,
@@ -753,6 +784,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -786,7 +820,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 53,
         "str": 58,
@@ -814,7 +848,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 47,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 56,
         "str": 59,
@@ -861,6 +895,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 54,
@@ -888,6 +925,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -916,18 +956,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 49,
-        "dri": 40,
+        "aer": 53,
+        "com": 51,
+        "dri": 48,
         "ldr": 52,
-        "pac": 48,
-        "pas": 44,
-        "pos": 59,
-        "sho": 25,
-        "sta": 53,
-        "str": 57,
-        "tac": 60,
-        "vis": 39
+        "pac": 46,
+        "pas": 53,
+        "pos": 58,
+        "sho": 40,
+        "sta": 59,
+        "str": 55,
+        "tac": 59,
+        "vis": 51
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -937,11 +977,14 @@
       "name": "Rok Elsnar",
       "nation": "SVN",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 52,
@@ -968,6 +1011,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 49,
@@ -1021,6 +1067,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -1048,18 +1097,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 49,
-        "dri": 48,
-        "ldr": 48,
-        "pac": 46,
+        "aer": 37,
+        "com": 50,
+        "dri": 52,
+        "ldr": 46,
+        "pac": 49,
         "pas": 50,
-        "pos": 48,
-        "sho": 42,
-        "sta": 50,
-        "str": 45,
-        "tac": 47,
-        "vis": 50
+        "pos": 33,
+        "sho": 48,
+        "sta": 44,
+        "str": 40,
+        "tac": 29,
+        "vis": 52
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -1069,7 +1118,7 @@
       "name": "Fabien Lamatine",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
@@ -1100,6 +1149,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 45,

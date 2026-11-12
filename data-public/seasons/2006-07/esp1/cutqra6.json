@@ -24,9 +24,6 @@
   },
   "squad": [
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -54,21 +51,22 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "AM"
       ],
       "attrs": {
-        "aer": 68,
-        "com": 82,
-        "dri": 76,
+        "aer": 75,
+        "com": 89,
+        "dri": 84,
         "ldr": 75,
-        "pac": 74,
-        "pas": 80,
-        "pos": 78,
-        "sho": 72,
+        "pac": 82,
+        "pas": 82,
+        "pos": 85,
+        "sho": 79,
         "sta": 84,
-        "str": 71,
+        "str": 78,
         "tac": 74,
-        "vis": 77
+        "vis": 79
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -79,10 +77,13 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 118500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 84,
@@ -106,10 +107,13 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 141500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 83,
@@ -169,7 +173,7 @@
         "ldr": 79,
         "pac": 83,
         "pas": 74,
-        "pos": 62,
+        "pos": 82,
         "sho": 83,
         "sta": 76,
         "str": 83,
@@ -189,6 +193,10 @@
       "wage": 118500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 85,
@@ -216,6 +224,11 @@
       "wage": 171000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 77,
         "com": 79,
@@ -223,7 +236,7 @@
         "ldr": 73,
         "pac": 78,
         "pas": 76,
-        "pos": 57,
+        "pos": 77,
         "sho": 86,
         "sta": 75,
         "str": 82,
@@ -243,6 +256,11 @@
       "wage": 89000
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 80,
@@ -270,6 +288,9 @@
       "wage": 128000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 75,
@@ -292,10 +313,13 @@
       "name": "Giovanni van Brunckhorst",
       "nation": "NED",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 106000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 83,
         "com": 81,
@@ -322,6 +346,9 @@
       "wage": 109000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 82,
         "com": 76,
@@ -374,6 +401,9 @@
       "wage": 107000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -400,22 +430,19 @@
       "wage": 122000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 81,
-        "com": 74,
-        "dri": 66,
-        "ldr": 75,
-        "pac": 70,
-        "pas": 72,
-        "pos": 81,
-        "sho": 53,
-        "sta": 74,
-        "str": 78,
-        "tac": 79,
-        "vis": 68
+        "aer": 68,
+        "com": 72,
+        "dri": 76,
+        "ldr": 71,
+        "pac": 78,
+        "pas": 76,
+        "pos": 76,
+        "sho": 60,
+        "sta": 80,
+        "str": 70,
+        "tac": 76,
+        "vis": 74
       },
       "birth": "1976-06-01",
       "contract": null,
@@ -425,10 +452,13 @@
       "name": "Juliano Bellatti",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 81000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 78,
@@ -486,19 +516,22 @@
       "wage": 67000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 78,
-        "dri": 78,
-        "ldr": 76,
-        "pac": 74,
-        "pas": 77,
-        "pos": 74,
-        "sho": 71,
-        "sta": 78,
-        "str": 76,
-        "tac": 75,
-        "vis": 82
+        "aer": 59,
+        "com": 76,
+        "dri": 83,
+        "ldr": 72,
+        "pac": 83,
+        "pas": 73,
+        "pos": 56,
+        "sho": 75,
+        "sta": 74,
+        "str": 71,
+        "tac": 55,
+        "vis": 79
       },
       "birth": "1976-07-01",
       "contract": null,
@@ -508,7 +541,7 @@
       "name": "Ludovic Giuli",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 111000
     },
@@ -547,7 +580,7 @@
         "ldr": 67,
         "pac": 74,
         "pas": 71,
-        "pos": 53,
+        "pos": 73,
         "sho": 82,
         "sta": 74,
         "str": 73,
@@ -615,23 +648,23 @@
       "name": "Sylvynho",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 60000
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 75,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 70,
-        "pas": 78,
-        "pos": 74,
-        "sho": 67,
+        "dri": 67,
+        "ldr": 72,
+        "pac": 67,
+        "pas": 77,
+        "pos": 78,
+        "sho": 61,
         "sta": 77,
-        "str": 66,
-        "tac": 68,
-        "vis": 75
+        "str": 71,
+        "tac": 74,
+        "vis": 72
       },
       "birth": "1982-08-01",
       "contract": null,
@@ -642,7 +675,7 @@
       "nation": "ITA",
       "nation2": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 68000
     },
     {
@@ -653,7 +686,7 @@
         "ldr": 66,
         "pac": 75,
         "pas": 64,
-        "pos": 50,
+        "pos": 70,
         "sho": 77,
         "sta": 66,
         "str": 69,
@@ -725,19 +758,24 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 64,
-        "dri": 54,
-        "ldr": 65,
-        "pac": 65,
-        "pas": 61,
-        "pos": 71,
-        "sho": 44,
-        "sta": 68,
-        "str": 71,
-        "tac": 75,
-        "vis": 54
+        "aer": 61,
+        "com": 62,
+        "dri": 64,
+        "ldr": 61,
+        "pac": 73,
+        "pas": 65,
+        "pos": 66,
+        "sho": 51,
+        "sta": 74,
+        "str": 63,
+        "tac": 72,
+        "vis": 60
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -747,7 +785,7 @@
       "name": "Damia Abelle",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 30000
     },
@@ -805,19 +843,22 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 62,
-        "dri": 62,
-        "ldr": 63,
-        "pac": 62,
-        "pas": 63,
-        "pos": 64,
-        "sho": 55,
-        "sta": 63,
-        "str": 62,
-        "tac": 61,
-        "vis": 67
+        "aer": 51,
+        "com": 60,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 71,
+        "pas": 59,
+        "pos": 46,
+        "sho": 59,
+        "sta": 59,
+        "str": 57,
+        "tac": 41,
+        "vis": 64
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -827,24 +868,24 @@
       "name": "Francisco Montanas",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 24000
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 60,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 60,
-        "pas": 65,
-        "pos": 64,
-        "sho": 56,
+        "dri": 55,
+        "ldr": 60,
+        "pac": 57,
+        "pas": 64,
+        "pos": 68,
+        "sho": 50,
         "sta": 63,
-        "str": 58,
-        "tac": 59,
-        "vis": 66
+        "str": 63,
+        "tac": 65,
+        "vis": 63
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -854,11 +895,14 @@
       "name": "Marc Crusas",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -886,19 +930,22 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 57,
-        "ldr": 61,
-        "pac": 54,
-        "pas": 65,
-        "pos": 58,
-        "sho": 56,
-        "sta": 63,
-        "str": 59,
-        "tac": 56,
-        "vis": 63
+        "aer": 44,
+        "com": 58,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 63,
+        "pas": 61,
+        "pos": 40,
+        "sho": 60,
+        "sta": 59,
+        "str": 54,
+        "tac": 36,
+        "vis": 60
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -909,11 +956,14 @@
       "nation": "EQG",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 62,
@@ -941,19 +991,23 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 61,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 53,
+        "aer": 43,
+        "com": 62,
+        "dri": 64,
+        "ldr": 55,
+        "pac": 56,
         "pas": 64,
-        "pos": 61,
-        "sho": 55,
-        "sta": 61,
-        "str": 57,
-        "tac": 60,
-        "vis": 65
+        "pos": 46,
+        "sho": 61,
+        "sta": 55,
+        "str": 52,
+        "tac": 42,
+        "vis": 67
       },
       "birth": "1984-08-01",
       "contract": null,
@@ -963,7 +1017,7 @@
       "name": "Andrea Orlendi",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 16500
     },
@@ -995,19 +1049,23 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 61,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 53,
+        "aer": 47,
+        "com": 62,
+        "dri": 63,
+        "ldr": 53,
+        "pac": 56,
         "pas": 60,
-        "pos": 61,
-        "sho": 54,
-        "sta": 59,
-        "str": 58,
-        "tac": 55,
-        "vis": 60
+        "pos": 46,
+        "sho": 60,
+        "sta": 53,
+        "str": 53,
+        "tac": 37,
+        "vis": 62
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -1017,23 +1075,23 @@
       "name": "Patricio Torenzo",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14500
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 59,
-        "dri": 58,
-        "ldr": 58,
-        "pac": 54,
+        "aer": 42,
+        "com": 60,
+        "dri": 62,
+        "ldr": 56,
+        "pac": 57,
         "pas": 64,
-        "pos": 61,
-        "sho": 53,
-        "sta": 59,
-        "str": 57,
-        "tac": 56,
-        "vis": 60
+        "pos": 46,
+        "sho": 59,
+        "sta": 53,
+        "str": 52,
+        "tac": 38,
+        "vis": 62
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -1043,11 +1101,15 @@
       "name": "Victor Vazquaz",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 14500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,
@@ -1075,19 +1137,23 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "AM",
+        "ST"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 55,
-        "dri": 56,
+        "aer": 52,
+        "com": 63,
+        "dri": 60,
         "ldr": 49,
-        "pac": 52,
-        "pas": 55,
-        "pos": 55,
-        "sho": 49,
+        "pac": 60,
+        "pas": 57,
+        "pos": 63,
+        "sho": 57,
         "sta": 58,
-        "str": 47,
+        "str": 55,
         "tac": 50,
-        "vis": 58
+        "vis": 60
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -1097,11 +1163,14 @@
       "name": "Iago Falqua",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,

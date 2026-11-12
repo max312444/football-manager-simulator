@@ -51,6 +51,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 63,
@@ -77,6 +80,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -111,7 +117,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 67,
         "sta": 57,
         "str": 64,
@@ -131,18 +137,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 63,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 65,
-        "pos": 58,
-        "sho": 52,
+        "dri": 55,
+        "ldr": 59,
+        "pac": 53,
+        "pas": 64,
+        "pos": 62,
+        "sho": 46,
         "sta": 66,
-        "str": 55,
-        "tac": 60,
-        "vis": 63
+        "str": 60,
+        "tac": 66,
+        "vis": 60
       },
       "birth": "1980-12-01",
       "contract": null,
@@ -152,10 +158,13 @@
       "name": "Marco Engelherdt",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -234,17 +243,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 58,
-        "dri": 56,
+        "aer": 56,
+        "com": 66,
+        "dri": 61,
         "ldr": 52,
-        "pac": 52,
+        "pac": 60,
         "pas": 61,
-        "pos": 58,
-        "sho": 50,
+        "pos": 66,
+        "sho": 58,
         "sta": 60,
-        "str": 49,
+        "str": 57,
         "tac": 54,
         "vis": 57
       },
@@ -256,7 +270,7 @@
       "name": "Daniel Gref",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 3000
     },
     {
@@ -294,7 +308,7 @@
         "ldr": 47,
         "pac": 56,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 53,
         "str": 56,
@@ -314,19 +328,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 53,
-        "dri": 50,
+        "com": 55,
+        "dri": 52,
         "ldr": 54,
         "pac": 49,
-        "pas": 54,
+        "pas": 56,
         "pos": 55,
-        "sho": 47,
-        "sta": 59,
+        "sho": 49,
+        "sta": 61,
         "str": 48,
         "tac": 53,
-        "vis": 53
+        "vis": 55
       },
       "birth": "1974-10-01",
       "contract": null,
@@ -341,19 +358,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 57,
-        "dri": 53,
-        "ldr": 46,
-        "pac": 55,
-        "pas": 47,
-        "pos": 34,
-        "sho": 55,
-        "sta": 53,
-        "str": 58,
-        "tac": 23,
-        "vis": 46
+        "aer": 38,
+        "com": 54,
+        "dri": 58,
+        "ldr": 44,
+        "pac": 59,
+        "pas": 53,
+        "pos": 36,
+        "sho": 50,
+        "sta": 55,
+        "str": 48,
+        "tac": 29,
+        "vis": 52
       },
       "birth": "1983-10-01",
       "contract": null,
@@ -363,27 +383,29 @@
       "name": "Ivan Seenko",
       "nation": "RUS",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 1500
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 56,
-        "com": 55,
+        "com": 65,
         "dri": 42,
         "ldr": 52,
         "pac": 50,
-        "pas": 44,
+        "pas": 54,
         "pos": 56,
         "sho": 28,
-        "sta": 48,
+        "sta": 58,
         "str": 58,
         "tac": 59,
-        "vis": 42
+        "vis": 52
       },
       "birth": "1973-05-01",
       "contract": null,
@@ -393,7 +415,7 @@
       "name": "Witold Wewrzyczek",
       "nation": "POL",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
@@ -424,6 +446,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 50,
@@ -446,10 +473,13 @@
       "name": "Gabriel Melkem",
       "nation": "NGA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 56,
@@ -530,19 +560,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 50,
-        "dri": 50,
-        "ldr": 47,
-        "pac": 46,
-        "pas": 53,
-        "pos": 49,
-        "sho": 48,
+        "dri": 46,
+        "ldr": 49,
+        "pac": 43,
+        "pas": 52,
+        "pos": 53,
+        "sho": 42,
         "sta": 54,
-        "str": 43,
-        "tac": 44,
-        "vis": 53
+        "str": 48,
+        "tac": 50,
+        "vis": 50
       },
       "birth": "1965-08-01",
       "contract": null,
@@ -552,11 +587,16 @@
       "name": "Bernhard Treres",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -584,17 +624,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 39,
-        "com": 50,
-        "dri": 51,
+        "aer": 49,
+        "com": 60,
+        "dri": 53,
         "ldr": 48,
-        "pac": 45,
+        "pac": 55,
         "pas": 52,
-        "pos": 46,
-        "sho": 41,
+        "pos": 56,
+        "sho": 51,
         "sta": 50,
-        "str": 43,
+        "str": 53,
         "tac": 43,
         "vis": 53
       },
@@ -607,11 +652,14 @@
       "nation": "RUS",
       "nation2": "CMR",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 50,
@@ -672,7 +720,7 @@
         "ldr": 38,
         "pac": 47,
         "pas": 42,
-        "pos": 26,
+        "pos": 46,
         "sho": 50,
         "sta": 40,
         "str": 45,

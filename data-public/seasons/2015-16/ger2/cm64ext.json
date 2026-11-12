@@ -25,19 +25,22 @@
   },
   "squad": [
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 55,
-        "dri": 41,
-        "ldr": 59,
-        "pac": 50,
-        "pas": 48,
-        "pos": 63,
-        "sho": 30,
-        "sta": 54,
-        "str": 60,
-        "tac": 63,
-        "vis": 41
+        "aer": 46,
+        "com": 53,
+        "dri": 51,
+        "ldr": 55,
+        "pac": 58,
+        "pas": 52,
+        "pos": 58,
+        "sho": 37,
+        "sta": 60,
+        "str": 52,
+        "tac": 60,
+        "vis": 47
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -47,7 +50,7 @@
       "name": "Sebastian Heydinger",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3500
     },
     {
@@ -103,6 +106,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 54,
@@ -130,18 +136,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 57,
-        "dri": 54,
-        "ldr": 53,
-        "pac": 50,
+        "aer": 44,
+        "com": 58,
+        "dri": 58,
+        "ldr": 51,
+        "pac": 53,
         "pas": 58,
-        "pos": 56,
-        "sho": 49,
-        "sta": 60,
-        "str": 56,
-        "tac": 56,
-        "vis": 60
+        "pos": 41,
+        "sho": 55,
+        "sta": 54,
+        "str": 51,
+        "tac": 38,
+        "vis": 62
       },
       "birth": "1985-11-01",
       "contract": null,
@@ -151,7 +157,7 @@
       "name": "Marc Schnattarer",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
@@ -162,7 +168,7 @@
         "ldr": 53,
         "pac": 56,
         "pas": 48,
-        "pos": 37,
+        "pos": 57,
         "sho": 58,
         "sta": 52,
         "str": 61,
@@ -188,7 +194,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 54,
         "str": 62,
@@ -207,17 +213,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 57,
-        "dri": 53,
+        "aer": 50,
+        "com": 62,
+        "dri": 56,
         "ldr": 53,
-        "pac": 49,
+        "pac": 54,
         "pas": 55,
-        "pos": 54,
-        "sho": 49,
+        "pos": 59,
+        "sho": 54,
         "sta": 54,
-        "str": 51,
+        "str": 56,
         "tac": 52,
         "vis": 55
       },
@@ -229,7 +240,7 @@
       "name": "Robert Leipartz",
       "nation": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4000
     },
     {
@@ -292,7 +303,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 61,
         "sta": 58,
         "str": 64,
@@ -312,18 +323,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 61,
-        "dri": 55,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 63,
-        "pos": 56,
-        "sho": 56,
+        "dri": 51,
+        "ldr": 57,
+        "pac": 48,
+        "pas": 62,
+        "pos": 60,
+        "sho": 50,
         "sta": 63,
-        "str": 52,
-        "tac": 56,
-        "vis": 59
+        "str": 57,
+        "tac": 62,
+        "vis": 56
       },
       "birth": "1990-10-01",
       "contract": null,
@@ -333,23 +344,28 @@
       "name": "Sebastian Griesback",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 68,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 61,
+        "aer": 51,
+        "com": 69,
+        "dri": 70,
+        "ldr": 60,
+        "pac": 64,
         "pas": 68,
-        "pos": 67,
-        "sho": 59,
-        "sta": 69,
-        "str": 59,
-        "tac": 63,
-        "vis": 69
+        "pos": 52,
+        "sho": 65,
+        "sta": 63,
+        "str": 54,
+        "tac": 45,
+        "vis": 71
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -359,7 +375,7 @@
       "name": "Ben Halloren",
       "nation": "AUS",
       "number": 21,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8000
     },
     {
@@ -389,6 +405,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 57,
@@ -415,6 +434,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -441,6 +463,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -463,23 +488,28 @@
       "name": "Arne Feyck",
       "nation": "GER",
       "number": 28,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 8000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 52,
+        "com": 62,
         "dri": 39,
         "ldr": 57,
         "pac": 48,
-        "pas": 49,
+        "pas": 59,
         "pos": 57,
         "sho": 28,
-        "sta": 50,
+        "sta": 60,
         "str": 56,
         "tac": 58,
-        "vis": 39
+        "vis": 49
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -489,23 +519,26 @@
       "name": "Robert Straoss",
       "nation": "GER",
       "number": 29,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 62,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 57,
-        "pas": 64,
-        "pos": 59,
-        "sho": 54,
+        "dri": 58,
+        "ldr": 60,
+        "pac": 54,
+        "pas": 63,
+        "pos": 63,
+        "sho": 48,
         "sta": 62,
-        "str": 59,
-        "tac": 57,
-        "vis": 62
+        "str": 64,
+        "tac": 63,
+        "vis": 59
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -515,23 +548,23 @@
       "name": "Norman Theuerkeuf",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 38,
-        "com": 50,
-        "dri": 46,
-        "ldr": 42,
-        "pac": 41,
-        "pas": 49,
-        "pos": 46,
-        "sho": 40,
-        "sta": 51,
-        "str": 40,
-        "tac": 42,
-        "vis": 48
+        "aer": 32,
+        "com": 48,
+        "dri": 51,
+        "ldr": 38,
+        "pac": 50,
+        "pas": 45,
+        "pos": 28,
+        "sho": 44,
+        "sta": 47,
+        "str": 35,
+        "tac": 22,
+        "vis": 45
       },
       "birth": "1996-07-01",
       "contract": null,
@@ -541,7 +574,7 @@
       "name": "Dominik Widamann",
       "nation": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 1500
     },
     {
@@ -578,7 +611,7 @@
         "ldr": 52,
         "pac": 58,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 52,
         "str": 57,

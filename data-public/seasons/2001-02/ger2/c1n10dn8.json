@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 73,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 70,
-        "pos": 71,
-        "sho": 63,
+        "dri": 64,
+        "ldr": 70,
+        "pac": 65,
+        "pas": 69,
+        "pos": 75,
+        "sho": 57,
         "sta": 70,
-        "str": 63,
-        "tac": 66,
-        "vis": 69
+        "str": 68,
+        "tac": 72,
+        "vis": 66
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -46,7 +46,7 @@
       "name": "Altin Lale",
       "nation": "ALB",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6500
     },
     {
@@ -76,6 +76,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 70,
@@ -103,19 +106,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 68,
-        "dri": 65,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 71,
-        "pos": 68,
-        "sho": 63,
-        "sta": 66,
-        "str": 65,
-        "tac": 66,
-        "vis": 65
+        "aer": 56,
+        "com": 70,
+        "dri": 67,
+        "ldr": 66,
+        "pac": 65,
+        "pas": 73,
+        "pos": 69,
+        "sho": 65,
+        "sta": 68,
+        "str": 66,
+        "tac": 67,
+        "vis": 67
       },
       "birth": "1972-10-01",
       "contract": null,
@@ -130,6 +136,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -183,18 +192,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 67,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 57,
+        "aer": 51,
+        "com": 68,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 60,
         "pas": 63,
-        "pos": 61,
-        "sho": 56,
-        "sta": 65,
-        "str": 61,
-        "tac": 57,
-        "vis": 66
+        "pos": 46,
+        "sho": 62,
+        "sta": 59,
+        "str": 56,
+        "tac": 39,
+        "vis": 68
       },
       "birth": "1973-08-01",
       "contract": null,
@@ -204,7 +213,7 @@
       "name": "Nebojsa Krupnikovyc",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 4500
     },
@@ -216,7 +225,7 @@
         "ldr": 56,
         "pac": 66,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 62,
         "str": 67,
@@ -237,18 +246,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 61,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 60,
+        "aer": 46,
+        "com": 62,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 63,
         "pas": 64,
-        "pos": 60,
-        "sho": 54,
-        "sta": 67,
-        "str": 55,
-        "tac": 59,
-        "vis": 65
+        "pos": 45,
+        "sho": 60,
+        "sta": 61,
+        "str": 50,
+        "tac": 41,
+        "vis": 67
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -258,7 +267,7 @@
       "name": "Jan Simek",
       "nation": "CZE",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
@@ -269,7 +278,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 55,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 58,
         "str": 62,
@@ -288,6 +297,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 58,
@@ -314,6 +328,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -362,7 +379,7 @@
       "name": "Marc van Hintom",
       "nation": "NED",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 2000
     },
@@ -421,18 +438,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 57,
-        "dri": 56,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 58,
-        "pos": 59,
-        "sho": 49,
-        "sta": 57,
-        "str": 53,
-        "tac": 57,
-        "vis": 58
+        "aer": 47,
+        "com": 59,
+        "dri": 58,
+        "ldr": 52,
+        "pac": 51,
+        "pas": 60,
+        "pos": 60,
+        "sho": 51,
+        "sta": 59,
+        "str": 54,
+        "tac": 58,
+        "vis": 60
       },
       "birth": "1966-11-01",
       "contract": null,
@@ -454,7 +471,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 53,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 57,
         "str": 55,
@@ -474,6 +491,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -507,7 +527,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 50,
-        "pos": 31,
+        "pos": 51,
         "sho": 62,
         "sta": 52,
         "str": 56,
@@ -554,6 +574,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -635,6 +658,11 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 53,
@@ -741,6 +769,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 50,
@@ -769,18 +800,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 49,
-        "dri": 46,
-        "ldr": 45,
-        "pac": 48,
-        "pas": 52,
-        "pos": 51,
-        "sho": 47,
+        "dri": 42,
+        "ldr": 47,
+        "pac": 45,
+        "pas": 51,
+        "pos": 55,
+        "sho": 41,
         "sta": 52,
-        "str": 48,
-        "tac": 50,
-        "vis": 52
+        "str": 53,
+        "tac": 56,
+        "vis": 49
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -790,7 +821,7 @@
       "name": "Heiner Backhaos",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 1000
     },
@@ -802,7 +833,7 @@
         "ldr": 43,
         "pac": 49,
         "pas": 42,
-        "pos": 32,
+        "pos": 52,
         "sho": 52,
         "sta": 49,
         "str": 49,
@@ -856,7 +887,7 @@
         "ldr": 43,
         "pac": 47,
         "pas": 38,
-        "pos": 22,
+        "pos": 42,
         "sho": 51,
         "sta": 42,
         "str": 47,
@@ -882,7 +913,7 @@
         "ldr": 60,
         "pac": 61,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 65,
         "sta": 60,
         "str": 62,

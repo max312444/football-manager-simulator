@@ -74,7 +74,7 @@
       "name": "Ciro Capoano",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -137,7 +137,7 @@
         "ldr": 67,
         "pac": 79,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 77,
         "sta": 71,
         "str": 74,
@@ -156,19 +156,22 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 72,
-        "dri": 69,
-        "ldr": 63,
-        "pac": 65,
-        "pas": 68,
-        "pos": 70,
-        "sho": 61,
+        "dri": 65,
+        "ldr": 65,
+        "pac": 62,
+        "pas": 67,
+        "pos": 74,
+        "sho": 55,
         "sta": 70,
-        "str": 66,
-        "tac": 66,
-        "vis": 71
+        "str": 71,
+        "tac": 72,
+        "vis": 68
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -178,7 +181,7 @@
       "name": "Giulio Miglieccio",
       "nation": "ITA",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 19000
     },
     {
@@ -189,7 +192,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 70,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 71,
         "str": 76,
@@ -208,6 +211,10 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -261,18 +268,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 62,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 59,
-        "pas": 69,
-        "pos": 62,
-        "sho": 58,
+        "dri": 57,
+        "ldr": 60,
+        "pac": 56,
+        "pas": 68,
+        "pos": 66,
+        "sho": 52,
         "sta": 65,
-        "str": 61,
-        "tac": 61,
-        "vis": 63
+        "str": 66,
+        "tac": 67,
+        "vis": 60
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -282,7 +289,7 @@
       "name": "Roberto Guena",
       "nation": "ITA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11000
     },
     {
@@ -338,19 +345,23 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 77,
-        "dri": 71,
-        "ldr": 72,
-        "pac": 68,
+        "aer": 57,
+        "com": 78,
+        "dri": 75,
+        "ldr": 70,
+        "pac": 71,
         "pas": 77,
-        "pos": 70,
-        "sho": 70,
-        "sta": 79,
-        "str": 72,
-        "tac": 68,
-        "vis": 75
+        "pos": 55,
+        "sho": 76,
+        "sta": 73,
+        "str": 67,
+        "tac": 50,
+        "vis": 77
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -360,23 +371,26 @@
       "name": "Bosko Jankuvic",
       "nation": "SRB",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 35500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 67,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 65,
-        "pos": 63,
-        "sho": 57,
-        "sta": 69,
-        "str": 61,
-        "tac": 63,
-        "vis": 64
+        "aer": 53,
+        "com": 69,
+        "dri": 62,
+        "ldr": 58,
+        "pac": 57,
+        "pas": 67,
+        "pos": 64,
+        "sho": 59,
+        "sta": 71,
+        "str": 62,
+        "tac": 64,
+        "vis": 66
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -397,7 +411,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 69,
-        "pos": 49,
+        "pos": 69,
         "sho": 75,
         "sta": 72,
         "str": 74,
@@ -418,17 +432,17 @@
     {
       "attrs": {
         "aer": 41,
-        "com": 56,
-        "dri": 50,
-        "ldr": 53,
-        "pac": 47,
-        "pas": 56,
+        "com": 52,
+        "dri": 48,
+        "ldr": 51,
+        "pac": 54,
+        "pas": 50,
         "pos": 55,
-        "sho": 50,
+        "sho": 36,
         "sta": 53,
-        "str": 47,
-        "tac": 50,
-        "vis": 52
+        "str": 46,
+        "tac": 54,
+        "vis": 43
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -438,23 +452,27 @@
       "name": "Luca Di Mattao",
       "nation": "ITA",
       "number": 22,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 3500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 81,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 74,
+        "aer": 62,
+        "com": 82,
+        "dri": 78,
+        "ldr": 71,
+        "pac": 77,
         "pas": 80,
-        "pos": 79,
-        "sho": 71,
-        "sta": 79,
-        "str": 75,
-        "tac": 77,
-        "vis": 82
+        "pos": 64,
+        "sho": 77,
+        "sta": 73,
+        "str": 70,
+        "tac": 59,
+        "vis": 84
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -465,7 +483,7 @@
       "nation": "AUS",
       "nation2": "ITA",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 36500
     },
     {
@@ -495,6 +513,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -547,6 +568,9 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -595,10 +619,14 @@
       "name": "Federico Balzaretty",
       "nation": "ITA",
       "number": 42,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 36500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -625,19 +653,23 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 52,
-        "dri": 50,
-        "ldr": 47,
-        "pac": 49,
-        "pas": 47,
-        "pos": 33,
-        "sho": 55,
-        "sta": 46,
-        "str": 49,
-        "tac": 24,
-        "vis": 47
+        "aer": 33,
+        "com": 49,
+        "dri": 55,
+        "ldr": 45,
+        "pac": 53,
+        "pas": 53,
+        "pos": 35,
+        "sho": 50,
+        "sta": 48,
+        "str": 39,
+        "tac": 30,
+        "vis": 53
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -647,10 +679,15 @@
       "name": "Paolo Carbunaro",
       "nation": "ITA",
       "number": 72,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 2000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 67,
         "com": 68,
@@ -658,7 +695,7 @@
         "ldr": 59,
         "pac": 65,
         "pas": 58,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 61,
         "str": 66,
@@ -710,7 +747,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 58,
         "str": 61,

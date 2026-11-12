@@ -51,18 +51,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
+        "aer": 78,
         "com": 81,
-        "dri": 81,
-        "ldr": 75,
-        "pac": 77,
-        "pas": 79,
-        "pos": 76,
-        "sho": 73,
+        "dri": 77,
+        "ldr": 77,
+        "pac": 74,
+        "pas": 78,
+        "pos": 80,
+        "sho": 67,
         "sta": 82,
-        "str": 72,
-        "tac": 79,
-        "vis": 78
+        "str": 77,
+        "tac": 85,
+        "vis": 75
       },
       "birth": "1971-10-01",
       "contract": null,
@@ -72,7 +72,7 @@
       "name": "Niko Kuvac",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 128000
     },
@@ -99,23 +99,23 @@
       "name": "Bixente Lizerazu",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 102000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 81,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 71,
+        "aer": 63,
+        "com": 82,
+        "dri": 79,
+        "ldr": 73,
+        "pac": 74,
         "pas": 81,
-        "pos": 74,
-        "sho": 75,
-        "sta": 82,
-        "str": 74,
-        "tac": 76,
-        "vis": 82
+        "pos": 59,
+        "sho": 81,
+        "sta": 76,
+        "str": 69,
+        "tac": 58,
+        "vis": 84
       },
       "birth": "1970-10-01",
       "contract": null,
@@ -125,7 +125,7 @@
       "name": "Mehmet Schull",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 128000
     },
     {
@@ -163,7 +163,7 @@
         "ldr": 72,
         "pac": 79,
         "pas": 67,
-        "pos": 58,
+        "pos": 78,
         "sho": 80,
         "sta": 71,
         "str": 74,
@@ -182,19 +182,24 @@
       "wage": 67000
     },
     {
+      "alt": [
+        "LM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 78,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 71,
-        "pas": 76,
-        "pos": 77,
-        "sho": 68,
-        "sta": 81,
-        "str": 70,
-        "tac": 75,
-        "vis": 78
+        "aer": 64,
+        "com": 76,
+        "dri": 80,
+        "ldr": 73,
+        "pac": 79,
+        "pas": 74,
+        "pos": 69,
+        "sho": 66,
+        "sta": 82,
+        "str": 67,
+        "tac": 67,
+        "vis": 75
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -204,23 +209,23 @@
       "name": "Hasan Selihamidzic",
       "nation": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 106000
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 77,
-        "dri": 73,
-        "ldr": 70,
-        "pac": 70,
-        "pas": 77,
-        "pos": 73,
-        "sho": 69,
+        "dri": 69,
+        "ldr": 72,
+        "pac": 67,
+        "pas": 76,
+        "pos": 77,
+        "sho": 63,
         "sta": 78,
-        "str": 73,
-        "tac": 73,
-        "vis": 76
+        "str": 78,
+        "tac": 79,
+        "vis": 73
       },
       "birth": "1974-03-01",
       "contract": null,
@@ -230,7 +235,7 @@
       "name": "Jens Jaremies",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 91000
     },
     {
@@ -260,6 +265,9 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -313,18 +321,18 @@
     },
     {
       "attrs": {
-        "aer": 77,
-        "com": 76,
-        "dri": 61,
-        "ldr": 77,
-        "pac": 71,
-        "pas": 70,
-        "pos": 81,
-        "sho": 46,
-        "sta": 73,
-        "str": 76,
-        "tac": 79,
-        "vis": 63
+        "aer": 64,
+        "com": 74,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 79,
+        "pas": 74,
+        "pos": 76,
+        "sho": 53,
+        "sta": 79,
+        "str": 68,
+        "tac": 76,
+        "vis": 69
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -334,7 +342,7 @@
       "name": "Willy Segnol",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 70000
     },
     {
@@ -345,7 +353,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 69,
-        "pos": 52,
+        "pos": 72,
         "sho": 81,
         "sta": 69,
         "str": 76,
@@ -364,6 +372,9 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 73,
@@ -397,7 +408,7 @@
         "ldr": 69,
         "pac": 76,
         "pas": 68,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 68,
         "str": 77,
@@ -421,16 +432,16 @@
       "attrs": {
         "aer": 65,
         "com": 67,
-        "dri": 71,
+        "dri": 73,
         "ldr": 67,
-        "pac": 77,
-        "pas": 72,
-        "pos": 72,
-        "sho": 53,
-        "sta": 72,
+        "pac": 79,
+        "pas": 73,
+        "pos": 70,
+        "sho": 56,
+        "sta": 74,
         "str": 65,
-        "tac": 73,
-        "vis": 67
+        "tac": 71,
+        "vis": 68
       },
       "birth": "1969-10-01",
       "contract": null,
@@ -440,23 +451,23 @@
       "name": "Michael Tarnet",
       "nation": "GER",
       "number": null,
-      "pos": "LB",
+      "pos": "LWB",
       "wage": 53500
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 75,
-        "dri": 71,
-        "ldr": 71,
-        "pac": 66,
-        "pas": 74,
-        "pos": 73,
-        "sho": 66,
+        "dri": 67,
+        "ldr": 73,
+        "pac": 63,
+        "pas": 73,
+        "pos": 77,
+        "sho": 60,
         "sta": 74,
-        "str": 66,
-        "tac": 66,
-        "vis": 76
+        "str": 71,
+        "tac": 72,
+        "vis": 73
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -467,22 +478,25 @@
       "nation": "GER",
       "nation2": "GUI",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 63000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 75,
-        "dri": 72,
+        "aer": 68,
+        "com": 78,
+        "dri": 75,
         "ldr": 67,
-        "pac": 69,
+        "pac": 72,
         "pas": 72,
-        "pos": 74,
-        "sho": 70,
+        "pos": 77,
+        "sho": 73,
         "sta": 76,
-        "str": 66,
+        "str": 69,
         "tac": 71,
         "vis": 72
       },
@@ -494,11 +508,14 @@
       "name": "Paulo Sergiu",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 69500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -532,7 +549,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 61,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 66,
         "str": 69,
@@ -559,7 +576,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 62,
-        "pos": 51,
+        "pos": 71,
         "sho": 72,
         "sta": 69,
         "str": 71,
@@ -579,9 +596,6 @@
       "wage": 34000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 65,
         "com": 69,
@@ -608,6 +622,9 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 68,
@@ -635,6 +652,9 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -695,7 +715,7 @@
         "ldr": 58,
         "pac": 61,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 62,
         "sta": 58,
         "str": 62,
@@ -749,7 +769,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 60,
         "sta": 55,
         "str": 60,
@@ -769,6 +789,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,
@@ -823,6 +846,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 53,
@@ -849,19 +875,24 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 52,
+        "com": 59,
         "dri": 38,
         "ldr": 48,
         "pac": 47,
-        "pas": 43,
+        "pas": 50,
         "pos": 54,
         "sho": 25,
-        "sta": 49,
+        "sta": 56,
         "str": 57,
         "tac": 58,
-        "vis": 40
+        "vis": 47
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -872,24 +903,29 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
-        "com": 53,
-        "dri": 47,
+        "com": 55,
+        "dri": 54,
         "ldr": 47,
         "pac": 52,
-        "pas": 43,
-        "pos": 32,
-        "sho": 53,
+        "pas": 52,
+        "pos": 52,
+        "sho": 55,
         "sta": 49,
         "str": 51,
         "tac": 25,
-        "vis": 44
+        "vis": 53
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -899,7 +935,7 @@
       "name": "Florian Haller",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4000
     },
     {
@@ -957,6 +993,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,

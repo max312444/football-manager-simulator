@@ -77,6 +77,11 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 71,
@@ -155,19 +160,22 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 66,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 63,
-        "pas": 66,
-        "pos": 63,
-        "sho": 58,
-        "sta": 66,
-        "str": 61,
-        "tac": 59,
-        "vis": 67
+        "aer": 49,
+        "com": 64,
+        "dri": 69,
+        "ldr": 58,
+        "pac": 72,
+        "pas": 62,
+        "pos": 45,
+        "sho": 62,
+        "sta": 62,
+        "str": 56,
+        "tac": 39,
+        "vis": 64
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -178,23 +186,23 @@
       "nation": "GER",
       "nation2": "POR",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17500
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 71,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 68,
-        "pas": 73,
-        "pos": 73,
-        "sho": 67,
+        "dri": 65,
+        "ldr": 69,
+        "pac": 65,
+        "pas": 72,
+        "pos": 77,
+        "sho": 61,
         "sta": 78,
-        "str": 70,
-        "tac": 71,
-        "vis": 75
+        "str": 75,
+        "tac": 77,
+        "vis": 72
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -204,7 +212,7 @@
       "name": "Altin Lale",
       "nation": "ALB",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43500
     },
     {
@@ -215,7 +223,7 @@
         "ldr": 71,
         "pac": 79,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 80,
         "sta": 72,
         "str": 74,
@@ -235,18 +243,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 72,
-        "dri": 74,
-        "ldr": 70,
-        "pac": 68,
+        "aer": 54,
+        "com": 73,
+        "dri": 78,
+        "ldr": 68,
+        "pac": 71,
         "pas": 77,
-        "pos": 69,
-        "sho": 64,
-        "sta": 74,
-        "str": 66,
-        "tac": 71,
-        "vis": 74
+        "pos": 54,
+        "sho": 70,
+        "sta": 68,
+        "str": 61,
+        "tac": 53,
+        "vis": 76
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -256,7 +264,7 @@
       "name": "Arnold Bruggynk",
       "nation": "NED",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 40500
     },
     {
@@ -267,7 +275,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 77,
         "sta": 71,
         "str": 76,
@@ -286,7 +294,11 @@
       "wage": 35500
     },
     {
-      "alt": [],
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 76,
@@ -294,7 +306,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 67,
-        "pos": 49,
+        "pos": 69,
         "sho": 79,
         "sta": 72,
         "str": 73,
@@ -313,6 +325,9 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 74,
@@ -362,12 +377,12 @@
       "name": "Constant Djakpe",
       "nation": "CIV",
       "number": 15,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11500
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 77,
@@ -395,18 +410,23 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "LW",
+        "ST",
+        "AM"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 77,
-        "dri": 76,
-        "ldr": 73,
-        "pac": 67,
-        "pas": 75,
-        "pos": 75,
-        "sho": 71,
-        "sta": 74,
-        "str": 73,
-        "tac": 74,
+        "aer": 64,
+        "com": 75,
+        "dri": 79,
+        "ldr": 71,
+        "pac": 76,
+        "pas": 76,
+        "pos": 67,
+        "sho": 69,
+        "sta": 79,
+        "str": 70,
+        "tac": 70,
         "vis": 78
       },
       "birth": "1976-05-01",
@@ -417,10 +437,14 @@
       "name": "Jacek Krzynowak",
       "nation": "POL",
       "number": 20,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 54500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -449,7 +473,8 @@
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 53,
@@ -505,6 +530,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 72,
@@ -512,7 +540,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 75,
         "sta": 71,
         "str": 75,
@@ -532,18 +560,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 67,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 63,
+        "aer": 51,
+        "com": 68,
+        "dri": 71,
+        "ldr": 65,
+        "pac": 66,
         "pas": 68,
-        "pos": 64,
-        "sho": 61,
-        "sta": 72,
-        "str": 61,
-        "tac": 64,
-        "vis": 67
+        "pos": 49,
+        "sho": 67,
+        "sta": 66,
+        "str": 56,
+        "tac": 46,
+        "vis": 69
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -553,7 +581,7 @@
       "name": "Jan Rusenthal",
       "nation": "GER",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 22500
     },
     {
@@ -583,6 +611,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 62,
@@ -643,7 +674,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 72,
         "str": 73,
@@ -663,18 +694,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 65,
-        "dri": 59,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 62,
-        "pos": 63,
-        "sho": 54,
+        "dri": 55,
+        "ldr": 62,
+        "pac": 54,
+        "pas": 61,
+        "pos": 67,
+        "sho": 48,
         "sta": 64,
-        "str": 55,
-        "tac": 58,
-        "vis": 62
+        "str": 60,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -684,26 +715,26 @@
       "name": "Manuel Schmiedebech",
       "nation": "GER",
       "number": 33,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12500
     },
     {
       "alt": [
-        "RB"
+        "LM"
       ],
       "attrs": {
-        "aer": 68,
-        "com": 62,
-        "dri": 48,
-        "ldr": 66,
-        "pac": 59,
-        "pas": 60,
-        "pos": 70,
-        "sho": 39,
-        "sta": 58,
-        "str": 68,
-        "tac": 65,
-        "vis": 52
+        "aer": 55,
+        "com": 60,
+        "dri": 58,
+        "ldr": 62,
+        "pac": 67,
+        "pas": 64,
+        "pos": 65,
+        "sho": 46,
+        "sta": 64,
+        "str": 60,
+        "tac": 62,
+        "vis": 58
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -714,23 +745,28 @@
       "nation": "GER",
       "nation2": "RUS",
       "number": 34,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12500
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 62,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 61,
-        "pas": 64,
-        "pos": 59,
-        "sho": 60,
-        "sta": 66,
-        "str": 56,
-        "tac": 60,
-        "vis": 63
+        "aer": 48,
+        "com": 60,
+        "dri": 64,
+        "ldr": 54,
+        "pac": 70,
+        "pas": 60,
+        "pos": 41,
+        "sho": 64,
+        "sta": 62,
+        "str": 51,
+        "tac": 40,
+        "vis": 60
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -740,7 +776,7 @@
       "name": "Sal Zyzzo",
       "nation": "USA",
       "number": 37,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 13500
     }
   ],

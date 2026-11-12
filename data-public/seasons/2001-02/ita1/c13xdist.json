@@ -31,7 +31,7 @@
         "ldr": 71,
         "pac": 76,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 82,
         "sta": 72,
         "str": 77,
@@ -50,6 +50,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 72,
@@ -103,6 +106,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 73,
         "com": 77,
@@ -110,7 +116,7 @@
         "ldr": 65,
         "pac": 75,
         "pas": 67,
-        "pos": 49,
+        "pos": 69,
         "sho": 75,
         "sta": 73,
         "str": 75,
@@ -136,7 +142,7 @@
         "ldr": 67,
         "pac": 72,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 75,
         "sta": 69,
         "str": 73,
@@ -164,7 +170,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 73,
         "sta": 70,
         "str": 71,
@@ -184,19 +190,22 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 71,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 72,
-        "pos": 71,
-        "sho": 66,
-        "sta": 71,
-        "str": 69,
-        "tac": 70,
-        "vis": 69
+        "aer": 65,
+        "com": 73,
+        "dri": 71,
+        "ldr": 66,
+        "pac": 65,
+        "pas": 74,
+        "pos": 72,
+        "sho": 68,
+        "sta": 73,
+        "str": 70,
+        "tac": 71,
+        "vis": 71
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -233,10 +242,15 @@
       "name": "Pierre Wume",
       "nation": "CMR",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 70,
@@ -290,19 +304,24 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
-        "com": 67,
-        "dri": 64,
+        "com": 71,
+        "dri": 68,
         "ldr": 61,
         "pac": 71,
-        "pas": 62,
-        "pos": 46,
-        "sho": 69,
+        "pas": 70,
+        "pos": 66,
+        "sho": 73,
         "sta": 67,
         "str": 66,
         "tac": 41,
-        "vis": 63
+        "vis": 71
       },
       "birth": "1976-06-01",
       "contract": null,
@@ -312,10 +331,15 @@
       "name": "Tomas Locatalli",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 65,
@@ -342,6 +366,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 68,
@@ -369,6 +396,10 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 67,
@@ -403,7 +434,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 57,
-        "pos": 47,
+        "pos": 67,
         "sho": 72,
         "sta": 60,
         "str": 70,
@@ -475,19 +506,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 67,
-        "dri": 59,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 63,
-        "pos": 60,
-        "sho": 55,
-        "sta": 64,
-        "str": 57,
-        "tac": 57,
-        "vis": 68
+        "aer": 49,
+        "com": 65,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 59,
+        "pos": 42,
+        "sho": 59,
+        "sta": 60,
+        "str": 52,
+        "tac": 37,
+        "vis": 65
       },
       "birth": "1971-10-01",
       "contract": null,
@@ -497,7 +531,7 @@
       "name": "Carlo Narvo",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6000
     },
     {
@@ -534,7 +568,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 57,
         "str": 64,
@@ -555,18 +589,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 61,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 58,
+        "aer": 47,
+        "com": 62,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 61,
         "pas": 67,
-        "pos": 59,
-        "sho": 59,
-        "sta": 63,
-        "str": 57,
-        "tac": 55,
-        "vis": 65
+        "pos": 44,
+        "sho": 65,
+        "sta": 57,
+        "str": 52,
+        "tac": 37,
+        "vis": 67
       },
       "birth": "1971-07-01",
       "contract": null,
@@ -576,11 +610,14 @@
       "name": "Lamberto Zeuli",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -607,6 +644,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -660,6 +700,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 58,
@@ -693,7 +736,7 @@
         "ldr": 54,
         "pac": 56,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 55,
         "str": 56,
@@ -787,7 +830,7 @@
       "name": "Fabio Macallari",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 2500
     },
@@ -826,7 +869,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 43,
-        "pos": 26,
+        "pos": 46,
         "sho": 52,
         "sta": 45,
         "str": 50,
@@ -872,6 +915,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 45,
@@ -906,7 +952,7 @@
         "ldr": 38,
         "pac": 40,
         "pas": 38,
-        "pos": 20,
+        "pos": 40,
         "sho": 48,
         "sta": 37,
         "str": 46,

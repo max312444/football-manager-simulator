@@ -31,7 +31,7 @@
         "ldr": 71,
         "pac": 73,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 79,
         "sta": 71,
         "str": 74,
@@ -138,7 +138,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 62,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 71,
         "str": 74,
@@ -159,18 +159,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 66,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 60,
-        "pas": 71,
-        "pos": 64,
-        "sho": 60,
+        "dri": 64,
+        "ldr": 68,
+        "pac": 57,
+        "pas": 70,
+        "pos": 68,
+        "sho": 54,
         "sta": 71,
-        "str": 65,
-        "tac": 64,
-        "vis": 71
+        "str": 70,
+        "tac": 70,
+        "vis": 68
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -180,23 +180,27 @@
       "name": "Guirane N'Dew",
       "nation": "SEN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 17500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 68,
-        "dri": 65,
-        "ldr": 61,
-        "pac": 64,
-        "pas": 70,
-        "pos": 68,
-        "sho": 63,
-        "sta": 69,
-        "str": 65,
-        "tac": 63,
-        "vis": 70
+        "aer": 49,
+        "com": 66,
+        "dri": 70,
+        "ldr": 57,
+        "pac": 73,
+        "pas": 66,
+        "pos": 50,
+        "sho": 67,
+        "sta": 65,
+        "str": 60,
+        "tac": 43,
+        "vis": 67
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -206,11 +210,14 @@
       "name": "Jeremy Manez",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -272,7 +279,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 63,
         "str": 65,
@@ -292,19 +299,23 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 65,
-        "dri": 61,
-        "ldr": 62,
-        "pac": 58,
+        "aer": 47,
+        "com": 66,
+        "dri": 65,
+        "ldr": 60,
+        "pac": 61,
         "pas": 68,
-        "pos": 61,
-        "sho": 60,
-        "sta": 69,
-        "str": 60,
-        "tac": 62,
-        "vis": 65
+        "pos": 46,
+        "sho": 66,
+        "sta": 63,
+        "str": 55,
+        "tac": 44,
+        "vis": 67
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -314,7 +325,7 @@
       "name": "Mourad Meghny",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 12000
     },
@@ -326,7 +337,7 @@
         "ldr": 60,
         "pac": 63,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 63,
         "str": 61,
@@ -400,6 +411,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 60,
@@ -455,18 +469,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 60,
-        "dri": 48,
-        "ldr": 62,
-        "pac": 52,
-        "pas": 56,
-        "pos": 66,
-        "sho": 33,
-        "sta": 58,
-        "str": 65,
-        "tac": 64,
-        "vis": 44
+        "aer": 49,
+        "com": 58,
+        "dri": 58,
+        "ldr": 58,
+        "pac": 60,
+        "pas": 60,
+        "pos": 61,
+        "sho": 40,
+        "sta": 64,
+        "str": 57,
+        "tac": 61,
+        "vis": 50
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -476,23 +490,23 @@
       "name": "Lionel Potillun",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6000
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 57,
-        "dri": 55,
-        "ldr": 55,
-        "pac": 52,
-        "pas": 60,
-        "pos": 55,
-        "sho": 57,
+        "dri": 51,
+        "ldr": 57,
+        "pac": 49,
+        "pas": 59,
+        "pos": 59,
+        "sho": 51,
         "sta": 63,
-        "str": 56,
-        "tac": 53,
-        "vis": 58
+        "str": 61,
+        "tac": 59,
+        "vis": 55
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -502,23 +516,26 @@
       "name": "Fabien Bouderene",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 57,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 61,
-        "pos": 59,
-        "sho": 55,
-        "sta": 61,
-        "str": 53,
-        "tac": 58,
-        "vis": 60
+        "aer": 47,
+        "com": 57,
+        "dri": 62,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 57,
+        "pos": 41,
+        "sho": 59,
+        "sta": 57,
+        "str": 48,
+        "tac": 38,
+        "vis": 57
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -529,11 +546,14 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -560,6 +580,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -588,7 +611,9 @@
     },
     {
       "alt": [
-        "RW"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 40,
@@ -625,7 +650,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 47,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 55,
         "str": 57,
@@ -647,18 +672,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 50,
-        "dri": 44,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 46,
-        "pos": 55,
-        "sho": 30,
-        "sta": 51,
-        "str": 59,
-        "tac": 61,
-        "vis": 39
+        "aer": 46,
+        "com": 48,
+        "dri": 54,
+        "ldr": 50,
+        "pac": 58,
+        "pas": 50,
+        "pos": 50,
+        "sho": 37,
+        "sta": 57,
+        "str": 51,
+        "tac": 58,
+        "vis": 45
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -668,22 +693,27 @@
       "name": "Jean Calva",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 58,
-        "dri": 54,
+        "aer": 51,
+        "com": 64,
+        "dri": 59,
         "ldr": 52,
-        "pac": 48,
+        "pac": 54,
         "pas": 56,
-        "pos": 53,
-        "sho": 50,
+        "pos": 59,
+        "sho": 56,
         "sta": 58,
-        "str": 49,
+        "str": 55,
         "tac": 53,
         "vis": 55
       },
@@ -695,7 +725,7 @@
       "name": "Marcelo Trapesso",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 4000
     },
@@ -728,18 +758,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 54,
-        "dri": 49,
-        "ldr": 49,
-        "pac": 47,
-        "pas": 59,
-        "pos": 49,
-        "sho": 48,
+        "dri": 45,
+        "ldr": 51,
+        "pac": 44,
+        "pas": 58,
+        "pos": 53,
+        "sho": 42,
         "sta": 53,
-        "str": 47,
-        "tac": 50,
-        "vis": 56
+        "str": 52,
+        "tac": 56,
+        "vis": 53
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -749,24 +779,29 @@
       "name": "Badara Sane",
       "nation": "SEN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 58,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 51,
-        "pas": 47,
-        "pos": 35,
-        "sho": 55,
-        "sta": 50,
-        "str": 53,
-        "tac": 27,
-        "vis": 44
+        "aer": 37,
+        "com": 55,
+        "dri": 60,
+        "ldr": 49,
+        "pac": 55,
+        "pas": 53,
+        "pos": 37,
+        "sho": 50,
+        "sta": 52,
+        "str": 43,
+        "tac": 33,
+        "vis": 50
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -776,24 +811,28 @@
       "name": "Julien Qoercia",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 42,
-        "com": 52,
-        "dri": 50,
-        "ldr": 48,
-        "pac": 46,
-        "pas": 55,
+        "com": 48,
+        "dri": 48,
+        "ldr": 46,
+        "pac": 53,
+        "pas": 49,
         "pos": 48,
-        "sho": 44,
+        "sho": 30,
         "sta": 56,
-        "str": 48,
-        "tac": 51,
-        "vis": 56
+        "str": 47,
+        "tac": 55,
+        "vis": 47
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -803,23 +842,23 @@
       "name": "Ahmed Samir Fareg",
       "nation": "EGY",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 52,
-        "dri": 53,
-        "ldr": 46,
-        "pac": 47,
-        "pas": 57,
-        "pos": 54,
-        "sho": 46,
+        "dri": 49,
+        "ldr": 48,
+        "pac": 44,
+        "pas": 56,
+        "pos": 58,
+        "sho": 40,
         "sta": 55,
-        "str": 48,
-        "tac": 48,
-        "vis": 56
+        "str": 53,
+        "tac": 54,
+        "vis": 53
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -829,24 +868,24 @@
       "name": "Pape Hebib Sow",
       "nation": "SEN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 41,
-        "com": 52,
-        "dri": 49,
-        "ldr": 49,
-        "pac": 48,
+        "aer": 35,
+        "com": 53,
+        "dri": 53,
+        "ldr": 47,
+        "pac": 51,
         "pas": 57,
-        "pos": 48,
-        "sho": 46,
-        "sta": 57,
-        "str": 49,
-        "tac": 47,
-        "vis": 50
+        "pos": 33,
+        "sho": 52,
+        "sta": 51,
+        "str": 44,
+        "tac": 29,
+        "vis": 52
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -856,11 +895,15 @@
       "name": "Benjamin Genghiny",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 51,
         "com": 54,
@@ -868,7 +911,7 @@
         "ldr": 44,
         "pac": 49,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 51,
         "sta": 49,
         "str": 48,
@@ -947,7 +990,7 @@
         "ldr": 42,
         "pac": 47,
         "pas": 38,
-        "pos": 28,
+        "pos": 48,
         "sho": 50,
         "sta": 45,
         "str": 51,

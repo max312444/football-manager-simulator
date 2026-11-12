@@ -70,16 +70,20 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 69,
-        "dri": 59,
+        "dri": 64,
         "ldr": 73,
-        "pac": 62,
-        "pas": 65,
+        "pac": 67,
+        "pas": 66,
         "pos": 71,
         "sho": 47,
-        "sta": 76,
+        "sta": 81,
         "str": 72,
         "tac": 72,
         "vis": 58
@@ -96,16 +100,20 @@
       "wage": 79500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 63,
-        "dri": 60,
+        "dri": 61,
         "ldr": 57,
-        "pac": 63,
+        "pac": 64,
         "pas": 64,
         "pos": 64,
         "sho": 50,
-        "sta": 73,
+        "sta": 74,
         "str": 72,
         "tac": 68,
         "vis": 56
@@ -122,19 +130,22 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 63,
-        "dri": 62,
+        "com": 68,
+        "dri": 64,
         "ldr": 58,
         "pac": 62,
-        "pas": 67,
+        "pas": 72,
         "pos": 62,
-        "sho": 68,
-        "sta": 82,
+        "sho": 70,
+        "sta": 84,
         "str": 75,
-        "tac": 67,
-        "vis": 62
+        "tac": 70,
+        "vis": 67
       },
       "birth": "1987-04-01",
       "contract": "2015-06-30",
@@ -148,6 +159,10 @@
       "wage": 79000
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 67,
@@ -201,12 +216,17 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 69,
-        "dri": 72,
+        "dri": 79,
         "ldr": 57,
-        "pac": 65,
+        "pac": 72,
         "pas": 77,
         "pos": 50,
         "sho": 73,
@@ -232,16 +252,16 @@
     {
       "attrs": {
         "aer": 56,
-        "com": 65,
+        "com": 69,
         "dri": 66,
         "ldr": 59,
         "pac": 64,
         "pas": 71,
-        "pos": 63,
+        "pos": 67,
         "sho": 63,
         "sta": 82,
-        "str": 64,
-        "tac": 65,
+        "str": 68,
+        "tac": 69,
         "vis": 66
       },
       "birth": "1988-05-01",
@@ -252,7 +272,7 @@
       "name": "Jonny Howsun",
       "nation": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 73500
     },
     {
@@ -283,16 +303,16 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 70,
+        "aer": 58,
+        "com": 72,
         "dri": 66,
         "ldr": 48,
         "pac": 70,
         "pas": 58,
-        "pos": 38,
-        "sho": 74,
+        "pos": 40,
+        "sho": 76,
         "sta": 70,
-        "str": 66,
+        "str": 68,
         "tac": 32,
         "vis": 56
       },
@@ -309,7 +329,7 @@
     },
     {
       "alt": [
-        "LM"
+        "RW"
       ],
       "attrs": {
         "aer": 52,
@@ -394,17 +414,18 @@
     },
     {
       "alt": [
+        "LW",
         "RB"
       ],
       "attrs": {
         "aer": 44,
-        "com": 57,
-        "dri": 68,
+        "com": 59,
+        "dri": 70,
         "ldr": 45,
-        "pac": 74,
+        "pac": 76,
         "pas": 65,
         "pos": 52,
-        "sho": 57,
+        "sho": 59,
         "sta": 77,
         "str": 60,
         "tac": 49,
@@ -418,23 +439,27 @@
       "name": "Elliott Bannett",
       "nation": "ENG",
       "number": 17,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 36000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 62,
+        "com": 64,
         "dri": 68,
         "ldr": 50,
         "pac": 62,
-        "pas": 70,
+        "pas": 72,
         "pos": 60,
         "sho": 68,
         "sta": 74,
         "str": 78,
-        "tac": 62,
-        "vis": 64
+        "tac": 64,
+        "vis": 66
       },
       "birth": "1990-01-01",
       "contract": "2017-06-30",
@@ -448,6 +473,9 @@
       "wage": 72500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 64,
@@ -503,9 +531,6 @@
       "wage": 23500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 74,
         "com": 61,

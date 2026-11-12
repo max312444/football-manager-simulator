@@ -103,13 +103,13 @@
       "attrs": {
         "aer": 60,
         "com": 75,
-        "dri": 69,
+        "dri": 76,
         "ldr": 88,
-        "pac": 58,
+        "pac": 65,
         "pas": 66,
         "pos": 76,
         "sho": 50,
-        "sta": 69,
+        "sta": 76,
         "str": 62,
         "tac": 75,
         "vis": 62
@@ -159,7 +159,7 @@
     },
     {
       "alt": [
-        "RM"
+        "CM"
       ],
       "attrs": {
         "aer": 69,
@@ -253,16 +253,16 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 83,
+        "aer": 66,
+        "com": 86,
         "dri": 74,
         "ldr": 68,
-        "pac": 73,
+        "pac": 74,
         "pas": 68,
-        "pos": 43,
-        "sho": 82,
+        "pos": 46,
+        "sho": 85,
         "sta": 62,
-        "str": 65,
+        "str": 68,
         "tac": 33,
         "vis": 68
       },
@@ -281,6 +281,9 @@
       "wage": 70000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 72,
@@ -309,16 +312,16 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 89,
+        "aer": 87,
+        "com": 99,
         "dri": 87,
         "ldr": 69,
-        "pac": 67,
+        "pac": 80,
         "pas": 82,
-        "pos": 46,
-        "sho": 86,
+        "pos": 59,
+        "sho": 99,
         "sta": 70,
-        "str": 77,
+        "str": 90,
         "tac": 37,
         "vis": 86
       },
@@ -338,19 +341,21 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
-        "aer": 75,
-        "com": 85,
+        "aer": 82,
+        "com": 92,
         "dri": 85,
         "ldr": 75,
-        "pac": 81,
+        "pac": 87,
         "pas": 81,
-        "pos": 54,
-        "sho": 91,
+        "pos": 61,
+        "sho": 98,
         "sta": 87,
-        "str": 84,
+        "str": 91,
         "tac": 51,
         "vis": 85
       },
@@ -371,21 +376,21 @@
     },
     {
       "alt": [
-        "CM"
+        "LW"
       ],
       "attrs": {
         "aer": 52,
         "com": 82,
         "dri": 81,
         "ldr": 81,
-        "pac": 67,
-        "pas": 84,
+        "pac": 85,
+        "pas": 85,
         "pos": 57,
         "sho": 73,
-        "sta": 68,
+        "sta": 87,
         "str": 60,
-        "tac": 49,
-        "vis": 86
+        "tac": 68,
+        "vis": 87
       },
       "birth": "1973-11-01",
       "contract": "2012-06-30",
@@ -402,9 +407,6 @@
       "wage": 121000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 66,
@@ -432,7 +434,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 55,
@@ -465,16 +469,16 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 79,
+        "aer": 73,
+        "com": 83,
         "dri": 73,
         "ldr": 53,
         "pac": 82,
         "pas": 63,
-        "pos": 39,
-        "sho": 81,
+        "pos": 43,
+        "sho": 85,
         "sta": 76,
-        "str": 64,
+        "str": 68,
         "tac": 31,
         "vis": 63
       },
@@ -523,6 +527,9 @@
       "wage": 259000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 85,
@@ -586,18 +593,21 @@
       "wage": 82000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 86,
         "dri": 77,
         "ldr": 84,
         "pac": 53,
-        "pas": 89,
+        "pas": 90,
         "pos": 69,
         "sho": 76,
-        "sta": 72,
+        "sta": 73,
         "str": 66,
-        "tac": 61,
+        "tac": 62,
         "vis": 89
       },
       "birth": "1974-11-01",
@@ -650,6 +660,11 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -677,7 +692,9 @@
     },
     {
       "alt": [
-        "RB"
+        "DM",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 72,
@@ -731,6 +748,9 @@
       "wage": 100000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 79,
@@ -785,7 +805,7 @@
       "name": "Antonio Valencya",
       "nation": "ECU",
       "number": 25,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "speedster"
       ],
@@ -822,16 +842,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 61,
+        "aer": 65,
+        "com": 67,
         "dri": 67,
         "ldr": 41,
         "pac": 70,
         "pas": 57,
-        "pos": 35,
-        "sho": 65,
+        "pos": 41,
+        "sho": 71,
         "sta": 66,
-        "str": 68,
+        "str": 74,
         "tac": 29,
         "vis": 55
       },
@@ -847,6 +867,9 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 65,
@@ -898,7 +921,7 @@
       "name": "Beba",
       "nation": "POR",
       "number": 33,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15500
     }
   ],

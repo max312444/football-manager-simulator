@@ -104,20 +104,22 @@
     },
     {
       "alt": [
-        "LM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
         "aer": 52,
         "com": 64,
         "dri": 73,
         "ldr": 55,
-        "pac": 78,
+        "pac": 85,
         "pas": 68,
-        "pos": 54,
+        "pos": 66,
         "sho": 66,
-        "sta": 74,
-        "str": 60,
-        "tac": 55,
+        "sta": 79,
+        "str": 72,
+        "tac": 67,
         "vis": 65
       },
       "birth": "1984-10-01",
@@ -134,7 +136,9 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 63,
@@ -166,9 +170,6 @@
       "wage": 63500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 66,
@@ -198,9 +199,6 @@
       "wage": 64500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -208,11 +206,11 @@
         "ldr": 54,
         "pac": 59,
         "pas": 68,
-        "pos": 60,
+        "pos": 65,
         "sho": 60,
         "sta": 74,
-        "str": 61,
-        "tac": 62,
+        "str": 66,
+        "tac": 67,
         "vis": 66
       },
       "birth": "1982-10-01",
@@ -223,12 +221,14 @@
       "name": "Cristian Ryveros",
       "nation": "PAR",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 32500
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -236,14 +236,14 @@
         "com": 69,
         "dri": 77,
         "ldr": 61,
-        "pac": 77,
-        "pas": 69,
+        "pac": 79,
+        "pas": 83,
         "pos": 41,
         "sho": 65,
-        "sta": 67,
+        "sta": 83,
         "str": 48,
-        "tac": 36,
-        "vis": 69
+        "tac": 52,
+        "vis": 83
       },
       "birth": "1980-01-01",
       "contract": "2011-06-30",
@@ -259,16 +259,16 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 63,
+        "aer": 70,
+        "com": 70,
         "dri": 71,
         "ldr": 48,
         "pac": 75,
         "pas": 62,
-        "pos": 40,
-        "sho": 70,
+        "pos": 47,
+        "sho": 77,
         "sta": 69,
-        "str": 68,
+        "str": 75,
         "tac": 35,
         "vis": 61
       },
@@ -287,16 +287,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 61,
+        "aer": 63,
+        "com": 66,
         "dri": 66,
         "ldr": 46,
         "pac": 72,
         "pas": 56,
-        "pos": 36,
-        "sho": 69,
+        "pos": 41,
+        "sho": 74,
         "sta": 65,
-        "str": 67,
+        "str": 72,
         "tac": 28,
         "vis": 55
       },
@@ -345,9 +345,6 @@
       "wage": 36500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 73,
         "com": 65,
@@ -378,17 +375,17 @@
     {
       "attrs": {
         "aer": 48,
-        "com": 60,
+        "com": 64,
         "dri": 64,
         "ldr": 48,
         "pac": 63,
-        "pas": 68,
-        "pos": 60,
+        "pas": 70,
+        "pos": 64,
         "sho": 52,
         "sta": 77,
-        "str": 59,
-        "tac": 64,
-        "vis": 62
+        "str": 63,
+        "tac": 68,
+        "vis": 64
       },
       "birth": "1989-10-01",
       "contract": "2014-06-30",
@@ -398,7 +395,7 @@
       "name": "Jack Colbeck",
       "nation": "ENG",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 27000
     },
@@ -431,21 +428,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
-        "com": 64,
+        "com": 69,
         "dri": 68,
         "ldr": 56,
         "pac": 71,
-        "pas": 74,
+        "pas": 79,
         "pos": 62,
         "sho": 62,
         "sta": 85,
         "str": 65,
-        "tac": 64,
-        "vis": 72
+        "tac": 69,
+        "vis": 77
       },
       "birth": "1990-06-01",
       "contract": "2012-06-30",
@@ -491,17 +488,17 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 60,
+        "aer": 64,
+        "com": 66,
         "dri": 63,
         "ldr": 50,
         "pac": 68,
         "pas": 63,
-        "pos": 63,
+        "pos": 69,
         "sho": 43,
         "sta": 71,
-        "str": 66,
-        "tac": 65,
+        "str": 72,
+        "tac": 71,
         "vis": 49
       },
       "birth": "1983-04-01",
@@ -512,26 +509,28 @@
       "name": "Marcos Angaleri",
       "nation": "ARG",
       "number": 19,
-      "pos": "RB",
+      "pos": "CB",
       "verify": true,
       "wage": 25500
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 57,
         "com": 75,
         "dri": 75,
         "ldr": 63,
-        "pac": 60,
+        "pac": 73,
         "pas": 73,
         "pos": 61,
         "sho": 67,
-        "sta": 66,
+        "sta": 79,
         "str": 52,
-        "tac": 49,
+        "tac": 62,
         "vis": 75
       },
       "birth": "1976-08-01",
@@ -632,19 +631,23 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 54,
-        "dri": 56,
+        "com": 63,
+        "dri": 63,
         "ldr": 48,
         "pac": 61,
-        "pas": 60,
+        "pas": 69,
         "pos": 58,
-        "sho": 50,
-        "sta": 73,
+        "sho": 57,
+        "sta": 74,
         "str": 69,
-        "tac": 64,
-        "vis": 54
+        "tac": 66,
+        "vis": 63
       },
       "birth": "1989-05-01",
       "contract": "2014-06-30",
@@ -659,21 +662,18 @@
       "wage": 22500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 53,
         "com": 59,
         "dri": 67,
         "ldr": 49,
-        "pac": 76,
+        "pac": 83,
         "pas": 67,
-        "pos": 53,
+        "pos": 60,
         "sho": 57,
         "sta": 82,
-        "str": 70,
-        "tac": 53,
+        "str": 77,
+        "tac": 60,
         "vis": 59
       },
       "birth": "1987-09-01",
@@ -685,22 +685,22 @@
       "name": "Ahmed Elmohemady",
       "nation": "EGY",
       "number": 27,
-      "pos": "RM",
+      "pos": "RB",
       "verify": true,
       "wage": 33000
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 73,
+        "aer": 74,
+        "com": 74,
         "dri": 73,
         "ldr": 58,
         "pac": 83,
         "pas": 67,
-        "pos": 53,
-        "sho": 82,
+        "pos": 54,
+        "sho": 83,
         "sta": 72,
-        "str": 84,
+        "str": 85,
         "tac": 41,
         "vis": 69
       },

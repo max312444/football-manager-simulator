@@ -97,6 +97,9 @@
       "wage": 69500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 64,
@@ -151,6 +154,9 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 69,
@@ -207,18 +213,20 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 52,
         "com": 69,
-        "dri": 68,
+        "dri": 71,
         "ldr": 62,
-        "pac": 63,
+        "pac": 66,
         "pas": 76,
         "pos": 61,
-        "sho": 69,
-        "sta": 81,
+        "sho": 72,
+        "sta": 84,
         "str": 63,
         "tac": 60,
         "vis": 71
@@ -238,19 +246,23 @@
       "wage": 67000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 62,
+        "com": 66,
         "dri": 63,
         "ldr": 57,
         "pac": 63,
-        "pas": 68,
+        "pas": 72,
         "pos": 62,
         "sho": 69,
         "sta": 78,
         "str": 70,
-        "tac": 65,
-        "vis": 62
+        "tac": 69,
+        "vis": 66
       },
       "birth": "1986-11-01",
       "contract": "2015-06-30",
@@ -268,16 +280,16 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 58,
+        "aer": 62,
+        "com": 64,
         "dri": 66,
         "ldr": 46,
         "pac": 75,
         "pas": 56,
-        "pos": 40,
-        "sho": 66,
+        "pos": 46,
+        "sho": 72,
         "sta": 71,
-        "str": 69,
+        "str": 75,
         "tac": 34,
         "vis": 52
       },
@@ -293,6 +305,10 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 69,
         "com": 55,
@@ -315,7 +331,7 @@
       "name": "Connor Wyckham",
       "nation": "ENG",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 24000
     },
     {
@@ -347,17 +363,17 @@
     {
       "attrs": {
         "aer": 49,
-        "com": 62,
+        "com": 64,
         "dri": 65,
         "ldr": 53,
         "pac": 63,
-        "pas": 69,
-        "pos": 63,
+        "pas": 70,
+        "pos": 65,
         "sho": 53,
         "sta": 80,
-        "str": 62,
-        "tac": 67,
-        "vis": 63
+        "str": 64,
+        "tac": 69,
+        "vis": 64
       },
       "birth": "1989-10-01",
       "contract": "2014-06-30",
@@ -367,10 +383,13 @@
       "name": "Jack Colbeck",
       "nation": "ENG",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 67,
@@ -397,6 +416,11 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 72,
@@ -424,16 +448,16 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 55,
+        "aer": 69,
+        "com": 60,
         "dri": 63,
         "ldr": 40,
         "pac": 68,
         "pas": 58,
-        "pos": 39,
-        "sho": 62,
+        "pos": 44,
+        "sho": 67,
         "sta": 68,
-        "str": 68,
+        "str": 73,
         "tac": 32,
         "vis": 55
       },
@@ -449,19 +473,23 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 56,
-        "dri": 58,
+        "com": 64,
+        "dri": 65,
         "ldr": 50,
         "pac": 62,
-        "pas": 62,
+        "pas": 70,
         "pos": 60,
-        "sho": 52,
-        "sta": 74,
+        "sho": 59,
+        "sta": 75,
         "str": 70,
-        "tac": 66,
-        "vis": 56
+        "tac": 67,
+        "vis": 64
       },
       "birth": "1989-05-01",
       "contract": "2014-06-30",
@@ -531,6 +559,9 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -584,16 +615,16 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 69,
+        "aer": 71,
+        "com": 73,
         "dri": 71,
         "ldr": 56,
-        "pac": 65,
+        "pac": 67,
         "pas": 67,
-        "pos": 39,
-        "sho": 75,
+        "pos": 43,
+        "sho": 79,
         "sta": 56,
-        "str": 68,
+        "str": 72,
         "tac": 31,
         "vis": 63
       },
@@ -636,21 +667,22 @@
     },
     {
       "alt": [
-        "LW"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 39,
-        "com": 71,
+        "com": 77,
         "dri": 82,
         "ldr": 55,
         "pac": 78,
-        "pas": 74,
+        "pas": 80,
         "pos": 48,
-        "sho": 72,
+        "sho": 78,
         "sta": 74,
         "str": 61,
         "tac": 41,
-        "vis": 75
+        "vis": 81
       },
       "birth": "1984-06-01",
       "contract": "2015-06-30",

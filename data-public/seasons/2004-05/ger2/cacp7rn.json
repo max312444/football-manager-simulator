@@ -31,7 +31,7 @@
         "ldr": 56,
         "pac": 67,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 71,
         "sta": 60,
         "str": 63,
@@ -59,7 +59,7 @@
         "ldr": 59,
         "pac": 60,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 60,
         "str": 65,
@@ -107,19 +107,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 64,
-        "dri": 57,
+        "com": 66,
+        "dri": 62,
         "ldr": 58,
         "pac": 64,
-        "pas": 56,
-        "pos": 39,
-        "sho": 66,
+        "pas": 63,
+        "pos": 59,
+        "sho": 68,
         "sta": 57,
         "str": 59,
         "tac": 30,
-        "vis": 56
+        "vis": 63
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -130,7 +135,7 @@
       "nation": "GER",
       "nation2": "SEN",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
@@ -162,19 +167,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 60,
-        "pos": 62,
-        "sho": 54,
-        "sta": 64,
-        "str": 58,
-        "tac": 55,
-        "vis": 59
+        "aer": 51,
+        "com": 62,
+        "dri": 58,
+        "ldr": 56,
+        "pac": 54,
+        "pas": 62,
+        "pos": 63,
+        "sho": 56,
+        "sta": 66,
+        "str": 59,
+        "tac": 56,
+        "vis": 61
       },
       "birth": "1969-08-01",
       "contract": null,
@@ -189,6 +197,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -249,7 +260,7 @@
         "ldr": 52,
         "pac": 63,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 55,
         "str": 60,
@@ -296,6 +307,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -355,7 +369,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 60,
         "sta": 53,
         "str": 57,
@@ -409,7 +423,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 54,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 56,
         "str": 59,
@@ -436,7 +450,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 46,
-        "pos": 37,
+        "pos": 57,
         "sho": 57,
         "sta": 52,
         "str": 55,
@@ -456,18 +470,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 53,
-        "dri": 55,
-        "ldr": 50,
-        "pac": 51,
+        "aer": 41,
+        "com": 54,
+        "dri": 59,
+        "ldr": 48,
+        "pac": 54,
         "pas": 56,
-        "pos": 53,
-        "sho": 53,
-        "sta": 61,
-        "str": 53,
-        "tac": 50,
-        "vis": 60
+        "pos": 38,
+        "sho": 59,
+        "sta": 55,
+        "str": 48,
+        "tac": 32,
+        "vis": 62
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -477,7 +491,7 @@
       "name": "Sasa Raduluvic",
       "nation": "AUS",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
@@ -509,6 +523,8 @@
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -620,18 +636,18 @@
     },
     {
       "attrs": {
-        "aer": 41,
-        "com": 56,
-        "dri": 55,
-        "ldr": 48,
-        "pac": 52,
-        "pas": 55,
-        "pos": 52,
-        "sho": 49,
-        "sta": 55,
-        "str": 52,
-        "tac": 49,
-        "vis": 52
+        "aer": 54,
+        "com": 54,
+        "dri": 43,
+        "ldr": 50,
+        "pac": 51,
+        "pas": 45,
+        "pos": 57,
+        "sho": 28,
+        "sta": 49,
+        "str": 59,
+        "tac": 56,
+        "vis": 37
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -641,11 +657,15 @@
       "name": "Mitja Schefer",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 40,
         "com": 48,
@@ -726,6 +746,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 56,
@@ -752,6 +775,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -779,6 +805,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 52,
@@ -814,7 +843,7 @@
         "ldr": 46,
         "pac": 51,
         "pas": 42,
-        "pos": 30,
+        "pos": 50,
         "sho": 54,
         "sta": 49,
         "str": 50,
@@ -859,6 +888,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 48,
@@ -913,18 +945,23 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 35,
+        "aer": 45,
         "com": 46,
         "dri": 45,
         "ldr": 40,
-        "pac": 41,
+        "pac": 51,
         "pas": 49,
-        "pos": 43,
+        "pos": 53,
         "sho": 44,
         "sta": 48,
-        "str": 44,
-        "tac": 44,
+        "str": 54,
+        "tac": 54,
         "vis": 48
       },
       "birth": "1983-08-01",
@@ -935,7 +972,7 @@
       "name": "Tim Gorschloter",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 500
     },
     {
@@ -992,19 +1029,22 @@
       "wage": 500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 39,
-        "com": 45,
-        "dri": 42,
-        "ldr": 39,
-        "pac": 40,
-        "pas": 46,
-        "pos": 45,
-        "sho": 37,
-        "sta": 48,
-        "str": 44,
-        "tac": 44,
-        "vis": 46
+        "aer": 33,
+        "com": 43,
+        "dri": 47,
+        "ldr": 35,
+        "pac": 49,
+        "pas": 42,
+        "pos": 27,
+        "sho": 41,
+        "sta": 44,
+        "str": 39,
+        "tac": 24,
+        "vis": 43
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -1014,7 +1054,7 @@
       "name": "Denis Omarbegovic",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 500
     },
@@ -1053,7 +1093,7 @@
         "ldr": 57,
         "pac": 59,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 55,
         "str": 59,

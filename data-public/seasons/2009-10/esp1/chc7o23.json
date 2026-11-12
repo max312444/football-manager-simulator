@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 67,
-        "dri": 66,
-        "ldr": 65,
-        "pac": 76,
-        "pas": 67,
-        "pos": 73,
-        "sho": 52,
-        "sta": 74,
-        "str": 65,
-        "tac": 73,
-        "vis": 62
+        "aer": 76,
+        "com": 69,
+        "dri": 56,
+        "ldr": 69,
+        "pac": 68,
+        "pas": 63,
+        "pos": 78,
+        "sho": 45,
+        "sta": 68,
+        "str": 73,
+        "tac": 76,
+        "vis": 56
       },
       "birth": "1987-03-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Federico Fazyo",
       "nation": "ARG",
       "number": 2,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 32500
     },
     {
@@ -130,18 +130,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 74,
-        "dri": 73,
-        "ldr": 74,
-        "pac": 68,
-        "pas": 78,
-        "pos": 75,
-        "sho": 70,
+        "dri": 69,
+        "ldr": 76,
+        "pac": 65,
+        "pas": 77,
+        "pos": 79,
+        "sho": 64,
         "sta": 81,
-        "str": 73,
-        "tac": 75,
-        "vis": 77
+        "str": 78,
+        "tac": 81,
+        "vis": 74
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -151,10 +151,15 @@
       "name": "Aldo Duschar",
       "nation": "ARG",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 68500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -181,19 +186,22 @@
       "wage": 73500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 76,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 75,
-        "pas": 82,
+        "com": 72,
+        "dri": 72,
+        "ldr": 71,
+        "pac": 82,
+        "pas": 76,
         "pos": 74,
-        "sho": 72,
+        "sho": 58,
         "sta": 80,
-        "str": 74,
-        "tac": 73,
-        "vis": 76
+        "str": 73,
+        "tac": 77,
+        "vis": 67
       },
       "birth": "1985-11-01",
       "contract": null,
@@ -203,23 +211,23 @@
       "name": "Jesus Nevas",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 73500
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 79,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 72,
-        "pas": 80,
-        "pos": 74,
-        "sho": 76,
-        "sta": 79,
-        "str": 76,
-        "tac": 78,
-        "vis": 81
+        "aer": 82,
+        "com": 77,
+        "dri": 63,
+        "ldr": 74,
+        "pac": 71,
+        "pas": 70,
+        "pos": 79,
+        "sho": 55,
+        "sta": 73,
+        "str": 83,
+        "tac": 85,
+        "vis": 66
       },
       "birth": "1980-12-01",
       "contract": null,
@@ -229,7 +237,7 @@
       "name": "Didier Zokura",
       "nation": "CIV",
       "number": 8,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 73500
     },
     {
@@ -240,7 +248,7 @@
         "ldr": 67,
         "pac": 68,
         "pas": 61,
-        "pos": 51,
+        "pos": 71,
         "sho": 70,
         "sta": 67,
         "str": 70,
@@ -266,7 +274,7 @@
         "ldr": 74,
         "pac": 77,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 82,
         "sta": 74,
         "str": 81,
@@ -285,6 +293,9 @@
       "wage": 67000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 77,
@@ -319,7 +330,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 69,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 74,
         "str": 77,
@@ -372,7 +383,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 76,
         "sta": 70,
         "str": 75,
@@ -391,19 +402,22 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 71,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 63,
-        "pas": 75,
-        "pos": 72,
-        "sho": 64,
-        "sta": 70,
-        "str": 69,
-        "tac": 70,
-        "vis": 75
+        "aer": 52,
+        "com": 69,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 72,
+        "pas": 71,
+        "pos": 54,
+        "sho": 68,
+        "sta": 66,
+        "str": 64,
+        "tac": 50,
+        "vis": 72
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -413,7 +427,7 @@
       "name": "Diego Capal",
       "nation": "ESP",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 41500
     },
     {
@@ -450,7 +464,7 @@
         "ldr": 73,
         "pac": 79,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 73,
         "str": 73,
@@ -469,19 +483,22 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 69,
-        "dri": 70,
-        "ldr": 71,
-        "pac": 70,
-        "pas": 76,
-        "pos": 68,
-        "sho": 64,
-        "sta": 76,
-        "str": 66,
-        "tac": 66,
-        "vis": 74
+        "aer": 56,
+        "com": 67,
+        "dri": 75,
+        "ldr": 67,
+        "pac": 79,
+        "pas": 72,
+        "pos": 50,
+        "sho": 68,
+        "sta": 72,
+        "str": 61,
+        "tac": 46,
+        "vis": 71
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -491,26 +508,26 @@
       "name": "Tom De Mulo",
       "nation": "BEL",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 42500
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 60,
-        "com": 65,
-        "dri": 69,
-        "ldr": 63,
-        "pac": 65,
-        "pas": 68,
-        "pos": 67,
-        "sho": 60,
-        "sta": 68,
-        "str": 66,
-        "tac": 64,
-        "vis": 72
+        "aer": 54,
+        "com": 63,
+        "dri": 74,
+        "ldr": 59,
+        "pac": 74,
+        "pas": 64,
+        "pos": 49,
+        "sho": 64,
+        "sta": 64,
+        "str": 61,
+        "tac": 44,
+        "vis": 69
       },
       "birth": "1988-03-01",
       "contract": null,
@@ -520,10 +537,13 @@
       "name": "Lautaro Acoste",
       "nation": "ARG",
       "number": 21,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 28000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 70,
@@ -550,6 +570,9 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 66,
@@ -602,19 +625,22 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 69,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 67,
-        "pos": 67,
-        "sho": 59,
-        "sta": 70,
-        "str": 62,
-        "tac": 60,
-        "vis": 68
+        "aer": 51,
+        "com": 67,
+        "dri": 70,
+        "ldr": 59,
+        "pac": 72,
+        "pas": 63,
+        "pos": 49,
+        "sho": 63,
+        "sta": 66,
+        "str": 57,
+        "tac": 40,
+        "vis": 65
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -624,7 +650,7 @@
       "name": "Diego Perotty",
       "nation": "ARG",
       "number": 25,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 23500
     }
   ],

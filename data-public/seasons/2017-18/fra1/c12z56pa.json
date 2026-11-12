@@ -54,17 +54,17 @@
       "alt": [],
       "attrs": {
         "aer": 51,
-        "com": 67,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 64,
+        "com": 63,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 58,
         "pos": 62,
-        "sho": 61,
+        "sho": 47,
         "sta": 69,
-        "str": 58,
-        "tac": 60,
-        "vis": 68
+        "str": 57,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -75,23 +75,26 @@
       "nation": "GUI",
       "nation2": "FRA",
       "number": 5,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 27500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 59,
+        "com": 60,
         "dri": 59,
         "ldr": 61,
         "pac": 60,
-        "pas": 66,
+        "pas": 67,
         "pos": 61,
         "sho": 58,
         "sta": 67,
         "str": 54,
-        "tac": 55,
-        "vis": 61
+        "tac": 56,
+        "vis": 62
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -105,6 +108,9 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -131,6 +137,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -157,6 +166,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -185,19 +197,22 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 58,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 61,
-        "pos": 55,
-        "sho": 54,
-        "sta": 65,
-        "str": 58,
-        "tac": 56,
-        "vis": 59
+        "aer": 44,
+        "com": 56,
+        "dri": 64,
+        "ldr": 55,
+        "pac": 60,
+        "pas": 59,
+        "pos": 47,
+        "sho": 52,
+        "sta": 66,
+        "str": 55,
+        "tac": 48,
+        "vis": 56
       },
       "birth": "1985-11-01",
       "contract": null,
@@ -207,7 +222,7 @@
       "name": "Vincent Besset",
       "nation": "FRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 16000
     },
     {
@@ -218,7 +233,7 @@
         "ldr": 57,
         "pac": 67,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 61,
         "str": 66,
@@ -244,7 +259,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 50,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 58,
         "str": 59,
@@ -263,19 +278,24 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 66,
-        "dri": 63,
+        "com": 70,
+        "dri": 69,
         "ldr": 55,
         "pac": 64,
-        "pas": 54,
-        "pos": 40,
-        "sho": 67,
+        "pas": 64,
+        "pos": 60,
+        "sho": 71,
         "sta": 59,
         "str": 62,
         "tac": 29,
-        "vis": 54
+        "vis": 64
       },
       "birth": "1992-08-01",
       "contract": null,
@@ -285,26 +305,28 @@
       "name": "Jeff Louys",
       "nation": "HAI",
       "number": 14,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 14500
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 62,
+        "aer": 48,
+        "com": 65,
+        "dri": 65,
+        "ldr": 58,
+        "pac": 65,
         "pas": 69,
-        "pos": 65,
-        "sho": 59,
-        "sta": 68,
-        "str": 61,
-        "tac": 59,
-        "vis": 64
+        "pos": 50,
+        "sho": 65,
+        "sta": 62,
+        "str": 56,
+        "tac": 41,
+        "vis": 66
       },
       "birth": "1992-11-01",
       "contract": null,
@@ -315,23 +337,26 @@
       "nation": "COD",
       "nation2": "FRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 29000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 39,
-        "com": 49,
-        "dri": 47,
-        "ldr": 48,
-        "pac": 48,
-        "pas": 54,
-        "pos": 52,
-        "sho": 44,
-        "sta": 55,
-        "str": 50,
-        "tac": 51,
-        "vis": 55
+        "aer": 40,
+        "com": 51,
+        "dri": 49,
+        "ldr": 49,
+        "pac": 49,
+        "pas": 56,
+        "pos": 53,
+        "sho": 46,
+        "sta": 57,
+        "str": 51,
+        "tac": 52,
+        "vis": 57
       },
       "birth": "1997-09-01",
       "contract": null,
@@ -345,6 +370,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -372,6 +400,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 67,
@@ -379,7 +410,7 @@
         "ldr": 58,
         "pac": 70,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 70,
         "sta": 66,
         "str": 64,
@@ -399,18 +430,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 58,
-        "dri": 44,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 53,
-        "pos": 61,
-        "sho": 31,
-        "sta": 59,
-        "str": 60,
-        "tac": 62,
-        "vis": 49
+        "aer": 50,
+        "com": 56,
+        "dri": 54,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 57,
+        "pos": 56,
+        "sho": 38,
+        "sta": 65,
+        "str": 52,
+        "tac": 59,
+        "vis": 55
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -420,23 +451,23 @@
       "name": "Frederic Guylbert",
       "nation": "FRA",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 11500
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 59,
-        "dri": 47,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 57,
-        "pos": 64,
-        "sho": 39,
-        "sta": 58,
-        "str": 62,
-        "tac": 67,
-        "vis": 48
+        "aer": 56,
+        "com": 57,
+        "dri": 57,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 61,
+        "pos": 59,
+        "sho": 46,
+        "sta": 64,
+        "str": 54,
+        "tac": 64,
+        "vis": 54
       },
       "birth": "1993-12-01",
       "contract": null,
@@ -446,10 +477,13 @@
       "name": "Adama Mbengua",
       "nation": "SEN",
       "number": 22,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 16500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 65,
@@ -505,18 +539,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 54,
+        "aer": 47,
+        "com": 60,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 57,
         "pas": 62,
-        "pos": 60,
-        "sho": 56,
-        "sta": 60,
-        "str": 53,
-        "tac": 58,
-        "vis": 62
+        "pos": 45,
+        "sho": 62,
+        "sta": 54,
+        "str": 48,
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -526,7 +560,7 @@
       "name": "Julien Faret",
       "nation": "FRA",
       "number": 25,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 17500
     },
     {
@@ -537,7 +571,7 @@
         "ldr": 63,
         "pac": 72,
         "pas": 62,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 68,
         "str": 69,

@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 73,
+        "aer": 79,
         "com": 85,
-        "dri": 84,
-        "ldr": 76,
-        "pac": 75,
-        "pas": 85,
-        "pos": 80,
-        "sho": 79,
+        "dri": 80,
+        "ldr": 78,
+        "pac": 72,
+        "pas": 84,
+        "pos": 84,
+        "sho": 73,
         "sta": 83,
-        "str": 75,
-        "tac": 77,
-        "vis": 84
+        "str": 80,
+        "tac": 83,
+        "vis": 81
       },
       "birth": "1971-01-01",
       "contract": null,
@@ -46,11 +46,14 @@
       "name": "Pep Guardiole",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 20000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 81,
@@ -58,7 +61,7 @@
         "ldr": 76,
         "pac": 82,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 81,
         "sta": 78,
         "str": 77,
@@ -77,6 +80,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -111,7 +117,7 @@
         "ldr": 67,
         "pac": 78,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 77,
         "sta": 73,
         "str": 73,
@@ -131,6 +137,11 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 71,
@@ -158,18 +169,21 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 77,
         "dri": 74,
         "ldr": 72,
         "pac": 72,
-        "pas": 77,
+        "pas": 78,
         "pos": 72,
         "sho": 72,
-        "sta": 75,
+        "sta": 76,
         "str": 73,
-        "tac": 68,
+        "tac": 69,
         "vis": 75
       },
       "birth": "1974-02-01",
@@ -218,7 +232,7 @@
         "ldr": 67,
         "pac": 72,
         "pas": 60,
-        "pos": 50,
+        "pos": 70,
         "sho": 76,
         "sta": 68,
         "str": 70,
@@ -240,18 +254,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 66,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 72,
-        "pas": 63,
-        "pos": 65,
-        "sho": 48,
-        "sta": 69,
-        "str": 64,
-        "tac": 68,
-        "vis": 60
+        "aer": 76,
+        "com": 68,
+        "dri": 54,
+        "ldr": 66,
+        "pac": 64,
+        "pas": 59,
+        "pos": 70,
+        "sho": 41,
+        "sta": 63,
+        "str": 72,
+        "tac": 71,
+        "vis": 54
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -261,7 +275,7 @@
       "name": "Daniele Bonere",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 8000
     },
     {
@@ -272,7 +286,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 64,
-        "pos": 51,
+        "pos": 71,
         "sho": 73,
         "sta": 63,
         "str": 71,
@@ -292,19 +306,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 65,
-        "dri": 64,
+        "com": 67,
+        "dri": 65,
         "ldr": 62,
         "pac": 66,
-        "pas": 70,
+        "pas": 72,
         "pos": 67,
-        "sho": 65,
-        "sta": 73,
+        "sho": 66,
+        "sta": 74,
         "str": 66,
-        "tac": 66,
-        "vis": 66
+        "tac": 67,
+        "vis": 68
       },
       "birth": "1975-06-01",
       "contract": null,
@@ -345,6 +362,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 67,
@@ -399,6 +419,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -451,9 +474,6 @@
       "wage": 4000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 64,
         "com": 61,
@@ -508,6 +528,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -534,6 +557,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -582,21 +608,25 @@
       "name": "Andrea Sossi",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "RWB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 59,
-        "dri": 48,
+        "dri": 60,
         "ldr": 57,
-        "pac": 51,
-        "pas": 51,
+        "pac": 63,
+        "pas": 63,
         "pos": 66,
         "sho": 36,
-        "sta": 53,
+        "sta": 65,
         "str": 61,
         "tac": 63,
         "vis": 43
@@ -609,7 +639,7 @@
       "name": "Marius Stankevicyus",
       "nation": "LTU",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2500
     },
@@ -640,6 +670,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 60,
@@ -666,18 +699,21 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 61,
         "dri": 59,
         "ldr": 57,
         "pac": 55,
-        "pas": 59,
+        "pas": 60,
         "pos": 56,
         "sho": 55,
-        "sta": 58,
+        "sta": 59,
         "str": 55,
-        "tac": 53,
+        "tac": 54,
         "vis": 62
       },
       "birth": "1972-05-01",
@@ -692,6 +728,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -752,7 +791,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 57,
         "sta": 51,
         "str": 60,
@@ -773,18 +812,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 56,
-        "dri": 52,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 48,
-        "pos": 33,
-        "sho": 58,
-        "sta": 50,
-        "str": 54,
-        "tac": 24,
-        "vis": 52
+        "aer": 39,
+        "com": 53,
+        "dri": 57,
+        "ldr": 50,
+        "pac": 58,
+        "pas": 54,
+        "pos": 35,
+        "sho": 53,
+        "sta": 52,
+        "str": 44,
+        "tac": 30,
+        "vis": 58
       },
       "birth": "1981-08-01",
       "contract": null,
@@ -794,7 +833,7 @@
       "name": "Simone Del Neru",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 1500
     },
     {
@@ -805,7 +844,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 53,
         "str": 55,
@@ -826,18 +865,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 55,
-        "dri": 55,
-        "ldr": 50,
-        "pac": 48,
-        "pas": 56,
-        "pos": 55,
-        "sho": 52,
+        "dri": 51,
+        "ldr": 52,
+        "pac": 45,
+        "pas": 55,
+        "pos": 59,
+        "sho": 46,
         "sta": 59,
-        "str": 48,
-        "tac": 50,
-        "vis": 60
+        "str": 53,
+        "tac": 56,
+        "vis": 57
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -847,7 +886,7 @@
       "name": "Roberto Guena",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2500
     },
@@ -874,7 +913,7 @@
       "name": "Marco Pisanu",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 1500
     },
     {
@@ -885,7 +924,7 @@
         "ldr": 47,
         "pac": 57,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 56,
         "sta": 54,
         "str": 57,
@@ -912,7 +951,7 @@
         "ldr": 46,
         "pac": 51,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 51,
         "str": 51,
@@ -959,6 +998,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 52,
@@ -987,18 +1029,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 54,
-        "dri": 51,
-        "ldr": 45,
-        "pac": 45,
-        "pas": 56,
-        "pos": 47,
-        "sho": 45,
+        "dri": 47,
+        "ldr": 47,
+        "pac": 42,
+        "pas": 55,
+        "pos": 51,
+        "sho": 39,
         "sta": 53,
-        "str": 44,
-        "tac": 50,
-        "vis": 50
+        "str": 49,
+        "tac": 56,
+        "vis": 47
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -1008,7 +1050,7 @@
       "name": "Ivan Javurcic",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
@@ -1020,7 +1062,7 @@
         "ldr": 43,
         "pac": 49,
         "pas": 43,
-        "pos": 29,
+        "pos": 49,
         "sho": 52,
         "sta": 48,
         "str": 50,

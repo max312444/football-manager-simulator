@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 80,
@@ -57,7 +60,7 @@
         "ldr": 77,
         "pac": 78,
         "pas": 72,
-        "pos": 62,
+        "pos": 82,
         "sho": 81,
         "sta": 76,
         "str": 79,
@@ -105,6 +108,9 @@
       "wage": 83500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 79,
@@ -138,7 +144,7 @@
         "ldr": 71,
         "pac": 79,
         "pas": 74,
-        "pos": 54,
+        "pos": 74,
         "sho": 85,
         "sta": 77,
         "str": 76,
@@ -209,17 +215,22 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 81,
-        "dri": 76,
+        "aer": 74,
+        "com": 88,
+        "dri": 81,
         "ldr": 73,
-        "pac": 72,
+        "pac": 79,
         "pas": 78,
-        "pos": 74,
-        "sho": 69,
+        "pos": 81,
+        "sho": 76,
         "sta": 80,
-        "str": 76,
+        "str": 83,
         "tac": 74,
         "vis": 79
       },
@@ -231,11 +242,14 @@
       "name": "Claudio Lopaz",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 86500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 79,
@@ -322,7 +336,7 @@
         "ldr": 68,
         "pac": 78,
         "pas": 69,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 71,
         "str": 75,
@@ -341,6 +355,11 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 76,
         "com": 78,
@@ -348,7 +367,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 64,
-        "pos": 53,
+        "pos": 73,
         "sho": 80,
         "sta": 71,
         "str": 76,
@@ -367,6 +386,9 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 71,
@@ -426,7 +448,7 @@
         "ldr": 71,
         "pac": 71,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 69,
         "str": 77,
@@ -445,6 +467,9 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 72,
@@ -471,6 +496,10 @@
       "wage": 45000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 68,
@@ -498,19 +527,22 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 68,
-        "dri": 70,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 69,
-        "pos": 69,
-        "sho": 66,
-        "sta": 75,
-        "str": 65,
-        "tac": 63,
-        "vis": 74
+        "aer": 54,
+        "com": 66,
+        "dri": 75,
+        "ldr": 64,
+        "pac": 77,
+        "pas": 65,
+        "pos": 51,
+        "sho": 70,
+        "sta": 71,
+        "str": 60,
+        "tac": 43,
+        "vis": 71
       },
       "birth": "1966-01-01",
       "contract": null,
@@ -520,23 +552,26 @@
       "name": "Attilio Lombardu",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 39000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 67,
-        "dri": 54,
-        "ldr": 66,
-        "pac": 64,
-        "pas": 62,
-        "pos": 70,
-        "sho": 41,
-        "sta": 65,
-        "str": 70,
-        "tac": 73,
-        "vis": 54
+        "aer": 56,
+        "com": 65,
+        "dri": 64,
+        "ldr": 62,
+        "pac": 72,
+        "pas": 66,
+        "pos": 65,
+        "sho": 48,
+        "sta": 71,
+        "str": 62,
+        "tac": 70,
+        "vis": 60
       },
       "birth": "1971-08-01",
       "contract": null,
@@ -546,7 +581,7 @@
       "name": "Francesco Colonnesa",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 22500
     },
@@ -605,18 +640,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 59,
-        "dri": 63,
-        "ldr": 55,
-        "pac": 58,
-        "pas": 61,
-        "pos": 58,
-        "sho": 55,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 55,
+        "pas": 60,
+        "pos": 62,
+        "sho": 49,
         "sta": 62,
-        "str": 58,
-        "tac": 55,
-        "vis": 66
+        "str": 63,
+        "tac": 61,
+        "vis": 63
       },
       "birth": "1970-12-01",
       "contract": null,
@@ -626,23 +661,27 @@
       "name": "Guerino Gotterdi",
       "nation": "SUI",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14000
     },
     {
+      "alt": [
+        "AM",
+        "RM"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 61,
-        "dri": 56,
-        "ldr": 56,
-        "pac": 62,
-        "pas": 53,
-        "pos": 41,
-        "sho": 66,
-        "sta": 57,
-        "str": 63,
-        "tac": 29,
-        "vis": 50
+        "aer": 43,
+        "com": 58,
+        "dri": 61,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 59,
+        "pos": 43,
+        "sho": 61,
+        "sta": 59,
+        "str": 53,
+        "tac": 35,
+        "vis": 56
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -652,7 +691,7 @@
       "name": "Lucas Castruman",
       "nation": "ARG",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 8500
     },
@@ -718,7 +757,7 @@
         "ldr": 45,
         "pac": 51,
         "pas": 41,
-        "pos": 28,
+        "pos": 48,
         "sho": 50,
         "sta": 45,
         "str": 46,
@@ -737,6 +776,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 46,

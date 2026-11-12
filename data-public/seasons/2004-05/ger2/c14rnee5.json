@@ -24,19 +24,22 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 71,
-        "dri": 66,
-        "ldr": 66,
-        "pac": 67,
-        "pas": 70,
-        "pos": 71,
-        "sho": 67,
-        "sta": 69,
-        "str": 65,
-        "tac": 69,
-        "vis": 70
+        "aer": 58,
+        "com": 73,
+        "dri": 68,
+        "ldr": 67,
+        "pac": 68,
+        "pas": 72,
+        "pos": 72,
+        "sho": 69,
+        "sta": 71,
+        "str": 66,
+        "tac": 70,
+        "vis": 72
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -52,18 +55,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 63,
-        "dri": 63,
-        "ldr": 60,
-        "pac": 56,
+        "aer": 49,
+        "com": 64,
+        "dri": 67,
+        "ldr": 58,
+        "pac": 59,
         "pas": 66,
-        "pos": 59,
-        "sho": 55,
-        "sta": 63,
-        "str": 58,
-        "tac": 59,
-        "vis": 68
+        "pos": 44,
+        "sho": 61,
+        "sta": 57,
+        "str": 53,
+        "tac": 41,
+        "vis": 70
       },
       "birth": "1968-10-01",
       "contract": null,
@@ -73,10 +76,13 @@
       "name": "Bjarne Guldbæk",
       "nation": "DEN",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -106,17 +112,17 @@
     {
       "attrs": {
         "aer": 48,
-        "com": 61,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 54,
-        "pas": 63,
+        "com": 57,
+        "dri": 58,
+        "ldr": 56,
+        "pac": 61,
+        "pas": 57,
         "pos": 61,
-        "sho": 57,
+        "sho": 43,
         "sta": 65,
-        "str": 59,
-        "tac": 58,
-        "vis": 64
+        "str": 58,
+        "tac": 62,
+        "vis": 55
       },
       "birth": "1976-05-01",
       "contract": null,
@@ -126,7 +132,7 @@
       "name": "Runny Ernst",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 4500
     },
     {
@@ -137,7 +143,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 59,
         "str": 57,
@@ -164,7 +170,7 @@
         "ldr": 54,
         "pac": 57,
         "pas": 53,
-        "pos": 34,
+        "pos": 54,
         "sho": 64,
         "sta": 56,
         "str": 58,
@@ -185,6 +191,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -212,6 +223,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -293,18 +307,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 54,
-        "dri": 52,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 59,
-        "pos": 53,
-        "sho": 49,
+        "dri": 48,
+        "ldr": 58,
+        "pac": 50,
+        "pas": 58,
+        "pos": 57,
+        "sho": 43,
         "sta": 58,
-        "str": 50,
-        "tac": 56,
-        "vis": 60
+        "str": 55,
+        "tac": 62,
+        "vis": 57
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -314,10 +328,13 @@
       "name": "Ramezan Yıldırım",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,
@@ -346,17 +363,17 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 49,
-        "dri": 53,
+        "aer": 56,
+        "com": 54,
+        "dri": 55,
         "ldr": 49,
-        "pac": 58,
-        "pas": 52,
+        "pac": 56,
+        "pas": 48,
         "pos": 54,
-        "sho": 39,
-        "sta": 58,
-        "str": 50,
-        "tac": 54,
+        "sho": 62,
+        "sta": 52,
+        "str": 56,
+        "tac": 24,
         "vis": 46
       },
       "birth": "1978-09-01",
@@ -367,23 +384,27 @@
       "name": "Erwin Koan",
       "nation": "NED",
       "number": null,
-      "pos": "RB",
+      "pos": "ST",
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 54,
-        "dri": 51,
-        "ldr": 51,
-        "pac": 51,
-        "pas": 59,
-        "pos": 56,
-        "sho": 49,
+        "dri": 47,
+        "ldr": 53,
+        "pac": 48,
+        "pas": 58,
+        "pos": 60,
+        "sho": 43,
         "sta": 60,
-        "str": 52,
-        "tac": 52,
-        "vis": 59
+        "str": 57,
+        "tac": 58,
+        "vis": 56
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -393,7 +414,7 @@
       "name": "Spase Dilevsky",
       "nation": "AUS",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
@@ -425,6 +446,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 56,
@@ -432,7 +458,7 @@
         "ldr": 47,
         "pac": 52,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 57,
         "sta": 48,
         "str": 53,
@@ -565,7 +591,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 42,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 49,
         "str": 53,
@@ -592,7 +618,7 @@
         "ldr": 43,
         "pac": 51,
         "pas": 47,
-        "pos": 30,
+        "pos": 50,
         "sho": 53,
         "sta": 51,
         "str": 54,
@@ -646,7 +672,7 @@
         "ldr": 44,
         "pac": 54,
         "pas": 43,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 50,
         "str": 49,
@@ -666,19 +692,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 49,
-        "dri": 47,
-        "ldr": 44,
-        "pac": 45,
-        "pas": 53,
-        "pos": 51,
-        "sho": 42,
-        "sta": 53,
-        "str": 45,
-        "tac": 50,
-        "vis": 50
+        "aer": 43,
+        "com": 51,
+        "dri": 49,
+        "ldr": 45,
+        "pac": 46,
+        "pas": 55,
+        "pos": 52,
+        "sho": 44,
+        "sta": 55,
+        "str": 46,
+        "tac": 51,
+        "vis": 52
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -694,18 +723,18 @@
     },
     {
       "attrs": {
-        "aer": 37,
-        "com": 48,
+        "aer": 45,
+        "com": 49,
         "dri": 49,
-        "ldr": 44,
-        "pac": 44,
-        "pas": 55,
+        "ldr": 42,
+        "pac": 49,
+        "pas": 45,
         "pos": 51,
-        "sho": 44,
-        "sta": 52,
-        "str": 45,
-        "tac": 44,
-        "vis": 50
+        "sho": 53,
+        "sta": 46,
+        "str": 50,
+        "tac": 18,
+        "vis": 41
       },
       "birth": "1971-09-01",
       "contract": null,
@@ -715,7 +744,7 @@
       "name": "Sascha Wulf",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 1000
     },
@@ -754,7 +783,7 @@
         "ldr": 39,
         "pac": 49,
         "pas": 35,
-        "pos": 25,
+        "pos": 45,
         "sho": 48,
         "sta": 39,
         "str": 49,

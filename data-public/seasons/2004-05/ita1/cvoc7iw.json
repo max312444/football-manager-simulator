@@ -25,21 +25,23 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 74,
-        "com": 84,
-        "dri": 83,
-        "ldr": 78,
-        "pac": 77,
+        "aer": 68,
+        "com": 85,
+        "dri": 87,
+        "ldr": 76,
+        "pac": 80,
         "pas": 86,
-        "pos": 86,
-        "sho": 82,
-        "sta": 85,
-        "str": 81,
-        "tac": 78,
-        "vis": 89
+        "pos": 71,
+        "sho": 88,
+        "sta": 79,
+        "str": 76,
+        "tac": 60,
+        "vis": 91
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -49,23 +51,23 @@
       "name": "Francesco Tutti",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 80500
     },
     {
       "attrs": {
-        "aer": 84,
-        "com": 77,
-        "dri": 64,
-        "ldr": 80,
-        "pac": 75,
-        "pas": 68,
-        "pos": 81,
-        "sho": 55,
-        "sta": 74,
-        "str": 84,
-        "tac": 83,
-        "vis": 68
+        "aer": 71,
+        "com": 75,
+        "dri": 74,
+        "ldr": 76,
+        "pac": 83,
+        "pas": 72,
+        "pos": 76,
+        "sho": 62,
+        "sta": 80,
+        "str": 76,
+        "tac": 80,
+        "vis": 74
       },
       "birth": "1973-04-01",
       "contract": null,
@@ -75,10 +77,13 @@
       "name": "Christian Panocci",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 60000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -106,6 +111,9 @@
       "wage": 68500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -139,7 +147,7 @@
         "ldr": 72,
         "pac": 80,
         "pas": 68,
-        "pos": 59,
+        "pos": 79,
         "sho": 82,
         "sta": 74,
         "str": 75,
@@ -192,7 +200,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 71,
         "str": 77,
@@ -239,6 +247,9 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 79,
@@ -272,7 +283,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 82,
         "sta": 71,
         "str": 76,
@@ -291,6 +302,9 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 80,
         "com": 72,
@@ -317,6 +331,9 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 82,
         "com": 72,
@@ -343,6 +360,9 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -369,6 +389,11 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 76,
         "com": 73,
@@ -376,7 +401,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 81,
         "sta": 74,
         "str": 76,
@@ -449,6 +474,9 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 73,
@@ -475,19 +503,23 @@
       "wage": 45000
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 76,
-        "dri": 69,
-        "ldr": 68,
-        "pac": 66,
-        "pas": 72,
-        "pos": 71,
-        "sho": 68,
-        "sta": 78,
-        "str": 70,
-        "tac": 66,
-        "vis": 74
+        "aer": 60,
+        "com": 74,
+        "dri": 74,
+        "ldr": 64,
+        "pac": 75,
+        "pas": 68,
+        "pos": 53,
+        "sho": 72,
+        "sta": 74,
+        "str": 65,
+        "tac": 46,
+        "vis": 71
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -497,11 +529,16 @@
       "name": "Manciny",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 38000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 72,
@@ -528,6 +565,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -580,6 +620,9 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -613,7 +656,7 @@
         "ldr": 64,
         "pac": 68,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 68,
         "str": 72,
@@ -659,19 +702,22 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 63,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 62,
-        "pas": 67,
-        "pos": 64,
-        "sho": 56,
-        "sta": 64,
-        "str": 62,
-        "tac": 64,
-        "vis": 69
+        "aer": 51,
+        "com": 61,
+        "dri": 71,
+        "ldr": 59,
+        "pac": 71,
+        "pas": 63,
+        "pos": 46,
+        "sho": 60,
+        "sta": 60,
+        "str": 57,
+        "tac": 44,
+        "vis": 66
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -681,7 +727,7 @@
       "name": "Alessio Carci",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 16500
     },
     {
@@ -711,19 +757,22 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 64,
+        "com": 65,
         "dri": 65,
         "ldr": 63,
         "pac": 63,
-        "pas": 65,
+        "pas": 66,
         "pos": 65,
         "sho": 60,
         "sta": 70,
         "str": 63,
-        "tac": 59,
-        "vis": 63
+        "tac": 60,
+        "vis": 64
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -738,6 +787,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 64,
@@ -819,6 +871,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,
@@ -847,18 +902,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 59,
-        "dri": 52,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 59,
-        "pos": 55,
-        "sho": 49,
+        "dri": 48,
+        "ldr": 57,
+        "pac": 50,
+        "pas": 58,
+        "pos": 59,
+        "sho": 43,
         "sta": 56,
-        "str": 52,
-        "tac": 55,
-        "vis": 58
+        "str": 57,
+        "tac": 61,
+        "vis": 55
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -868,11 +923,14 @@
       "name": "Raffaele De Mertino",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -901,18 +959,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 52,
-        "dri": 38,
-        "ldr": 56,
-        "pac": 47,
-        "pas": 50,
-        "pos": 56,
-        "sho": 27,
-        "sta": 52,
-        "str": 54,
-        "tac": 59,
-        "vis": 41
+        "aer": 48,
+        "com": 50,
+        "dri": 48,
+        "ldr": 52,
+        "pac": 55,
+        "pas": 54,
+        "pos": 51,
+        "sho": 34,
+        "sta": 58,
+        "str": 46,
+        "tac": 56,
+        "vis": 47
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -922,11 +980,14 @@
       "name": "Gianluca Galassu",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -960,7 +1021,7 @@
         "ldr": 49,
         "pac": 53,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 59,
         "sta": 52,
         "str": 51,
@@ -980,6 +1041,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 51,
@@ -1006,19 +1070,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 52,
-        "dri": 50,
-        "ldr": 49,
-        "pac": 47,
-        "pas": 53,
-        "pos": 51,
-        "sho": 46,
-        "sta": 54,
-        "str": 49,
-        "tac": 49,
-        "vis": 49
+        "aer": 41,
+        "com": 54,
+        "dri": 52,
+        "ldr": 50,
+        "pac": 48,
+        "pas": 55,
+        "pos": 52,
+        "sho": 48,
+        "sta": 56,
+        "str": 50,
+        "tac": 50,
+        "vis": 51
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -1061,6 +1128,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 43,

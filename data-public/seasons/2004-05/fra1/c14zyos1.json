@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 67,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 61,
-        "pas": 74,
-        "pos": 66,
-        "sho": 64,
+        "dri": 66,
+        "ldr": 69,
+        "pac": 58,
+        "pas": 73,
+        "pos": 70,
+        "sho": 58,
         "sta": 73,
-        "str": 62,
-        "tac": 68,
-        "vis": 70
+        "str": 67,
+        "tac": 74,
+        "vis": 67
       },
       "birth": "1978-03-01",
       "contract": null,
@@ -47,7 +47,7 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 15500
     },
@@ -59,7 +59,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 57,
-        "pos": 46,
+        "pos": 66,
         "sho": 69,
         "sta": 66,
         "str": 69,
@@ -86,7 +86,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 58,
-        "pos": 48,
+        "pos": 68,
         "sho": 72,
         "sta": 62,
         "str": 67,
@@ -134,18 +134,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 67,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 56,
+        "aer": 51,
+        "com": 68,
+        "dri": 66,
+        "ldr": 60,
+        "pac": 59,
         "pas": 67,
-        "pos": 64,
-        "sho": 59,
-        "sta": 66,
-        "str": 60,
-        "tac": 59,
-        "vis": 66
+        "pos": 49,
+        "sho": 65,
+        "sta": 60,
+        "str": 55,
+        "tac": 41,
+        "vis": 68
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -155,10 +155,15 @@
       "name": "Achille Emane",
       "nation": "CMR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 64,
@@ -186,18 +191,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 60,
-        "dri": 47,
-        "ldr": 65,
-        "pac": 58,
-        "pas": 57,
-        "pos": 69,
-        "sho": 38,
-        "sta": 63,
-        "str": 63,
-        "tac": 64,
-        "vis": 48
+        "aer": 56,
+        "com": 58,
+        "dri": 57,
+        "ldr": 61,
+        "pac": 66,
+        "pas": 61,
+        "pos": 64,
+        "sho": 45,
+        "sta": 69,
+        "str": 55,
+        "tac": 61,
+        "vis": 54
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -207,10 +212,13 @@
       "name": "Predrag Ocokoljyc",
       "nation": "SRB",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 61,
@@ -271,7 +279,7 @@
         "ldr": 53,
         "pac": 63,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 55,
         "str": 61,
@@ -291,6 +299,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -318,6 +329,11 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -353,7 +369,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 49,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 56,
         "str": 63,
@@ -374,7 +390,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 51,
@@ -402,6 +420,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -428,19 +449,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 62,
-        "dri": 55,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 64,
-        "pos": 60,
-        "sho": 52,
-        "sta": 61,
-        "str": 56,
-        "tac": 57,
-        "vis": 57
+        "aer": 49,
+        "com": 64,
+        "dri": 57,
+        "ldr": 56,
+        "pac": 52,
+        "pas": 66,
+        "pos": 61,
+        "sho": 54,
+        "sta": 63,
+        "str": 57,
+        "tac": 58,
+        "vis": 59
       },
       "birth": "1977-08-01",
       "contract": null,
@@ -481,22 +505,19 @@
       "wage": 4500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 44,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 48,
-        "pos": 59,
-        "sho": 30,
-        "sta": 56,
-        "str": 60,
-        "tac": 65,
-        "vis": 48
+        "aer": 50,
+        "com": 57,
+        "dri": 54,
+        "ldr": 53,
+        "pac": 59,
+        "pas": 52,
+        "pos": 54,
+        "sho": 37,
+        "sta": 62,
+        "str": 52,
+        "tac": 62,
+        "vis": 54
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -507,7 +528,7 @@
       "nation": "CMR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4500
     },
     {
@@ -537,6 +558,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -563,6 +587,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -616,6 +643,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -643,6 +673,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -751,6 +784,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 55,
@@ -835,18 +871,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 52,
-        "dri": 53,
-        "ldr": 49,
-        "pac": 47,
-        "pas": 56,
-        "pos": 55,
-        "sho": 51,
+        "dri": 49,
+        "ldr": 51,
+        "pac": 44,
+        "pas": 55,
+        "pos": 59,
+        "sho": 45,
         "sta": 55,
-        "str": 49,
-        "tac": 54,
-        "vis": 55
+        "str": 54,
+        "tac": 60,
+        "vis": 52
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -857,7 +893,7 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
@@ -868,7 +904,7 @@
         "ldr": 47,
         "pac": 54,
         "pas": 48,
-        "pos": 29,
+        "pos": 49,
         "sho": 58,
         "sta": 49,
         "str": 54,
@@ -889,18 +925,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 50,
-        "dri": 38,
-        "ldr": 53,
-        "pac": 46,
-        "pas": 44,
-        "pos": 59,
-        "sho": 27,
-        "sta": 52,
-        "str": 57,
-        "tac": 59,
-        "vis": 37
+        "aer": 44,
+        "com": 48,
+        "dri": 48,
+        "ldr": 49,
+        "pac": 54,
+        "pas": 48,
+        "pos": 54,
+        "sho": 34,
+        "sta": 58,
+        "str": 49,
+        "tac": 56,
+        "vis": 43
       },
       "birth": "1984-02-01",
       "contract": null,
@@ -911,7 +947,7 @@
       "nation": "FRA",
       "nation2": "CGO",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2500
     },
     {
@@ -943,18 +979,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 53,
-        "dri": 51,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 52,
-        "pos": 48,
-        "sho": 45,
+        "dri": 47,
+        "ldr": 53,
+        "pac": 44,
+        "pas": 51,
+        "pos": 52,
+        "sho": 39,
         "sta": 54,
-        "str": 50,
-        "tac": 48,
-        "vis": 54
+        "str": 55,
+        "tac": 54,
+        "vis": 51
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -964,7 +1000,7 @@
       "name": "Christophe Grondyn",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
@@ -976,7 +1012,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 45,
-        "pos": 32,
+        "pos": 52,
         "sho": 53,
         "sta": 49,
         "str": 50,
@@ -996,6 +1032,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 49,
@@ -1050,6 +1091,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,
@@ -1083,7 +1127,7 @@
         "ldr": 45,
         "pac": 47,
         "pas": 43,
-        "pos": 31,
+        "pos": 51,
         "sho": 56,
         "sta": 49,
         "str": 51,
@@ -1137,7 +1181,7 @@
         "ldr": 40,
         "pac": 44,
         "pas": 38,
-        "pos": 21,
+        "pos": 41,
         "sho": 49,
         "sta": 41,
         "str": 48,

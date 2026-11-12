@@ -52,7 +52,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 68,
@@ -82,7 +82,7 @@
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 77,
@@ -136,6 +136,9 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -169,7 +172,7 @@
         "ldr": 69,
         "pac": 74,
         "pas": 64,
-        "pos": 51,
+        "pos": 71,
         "sho": 81,
         "sta": 69,
         "str": 77,
@@ -189,21 +192,21 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB"
       ],
       "attrs": {
-        "aer": 80,
-        "com": 73,
-        "dri": 61,
-        "ldr": 75,
-        "pac": 68,
-        "pas": 67,
-        "pos": 80,
-        "sho": 51,
-        "sta": 70,
-        "str": 82,
-        "tac": 77,
-        "vis": 65
+        "aer": 67,
+        "com": 71,
+        "dri": 71,
+        "ldr": 71,
+        "pac": 76,
+        "pas": 71,
+        "pos": 75,
+        "sho": 58,
+        "sta": 76,
+        "str": 74,
+        "tac": 74,
+        "vis": 71
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -214,23 +217,27 @@
       "nation": "GER",
       "nation2": "ALG",
       "number": 8,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 97000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 69,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 66,
-        "pas": 60,
-        "pos": 47,
-        "sho": 71,
-        "sta": 65,
-        "str": 65,
-        "tac": 36,
-        "vis": 62
+        "aer": 51,
+        "com": 66,
+        "dri": 73,
+        "ldr": 63,
+        "pac": 70,
+        "pas": 66,
+        "pos": 49,
+        "sho": 66,
+        "sta": 67,
+        "str": 55,
+        "tac": 42,
+        "vis": 68
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -240,10 +247,13 @@
       "name": "Oliver Borke",
       "nation": "SCO",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 39500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -278,7 +288,7 @@
         "ldr": 72,
         "pac": 76,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 78,
         "str": 79,
@@ -325,18 +335,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 75,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 66,
+        "aer": 58,
+        "com": 76,
+        "dri": 72,
+        "ldr": 66,
+        "pac": 69,
         "pas": 77,
-        "pos": 68,
-        "sho": 68,
-        "sta": 77,
-        "str": 69,
-        "tac": 66,
-        "vis": 72
+        "pos": 53,
+        "sho": 74,
+        "sta": 71,
+        "str": 64,
+        "tac": 48,
+        "vis": 74
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -346,23 +356,26 @@
       "name": "Romano Schmyd",
       "nation": "AUT",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 97000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 57,
-        "dri": 58,
-        "ldr": 50,
-        "pac": 57,
-        "pas": 46,
-        "pos": 33,
-        "sho": 58,
-        "sta": 52,
-        "str": 59,
-        "tac": 29,
-        "vis": 50
+        "aer": 43,
+        "com": 54,
+        "dri": 63,
+        "ldr": 48,
+        "pac": 61,
+        "pas": 52,
+        "pos": 35,
+        "sho": 53,
+        "sta": 54,
+        "str": 49,
+        "tac": 35,
+        "vis": 56
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -373,10 +386,13 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -403,19 +419,22 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 60,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 60,
-        "pas": 66,
-        "pos": 57,
-        "sho": 58,
+        "dri": 55,
+        "ldr": 58,
+        "pac": 57,
+        "pas": 65,
+        "pos": 61,
+        "sho": 52,
         "sta": 63,
-        "str": 59,
-        "tac": 61,
-        "vis": 61
+        "str": 64,
+        "tac": 67,
+        "vis": 58
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -425,23 +444,23 @@
       "name": "Nicolai Repp",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30500
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 59,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 59,
-        "pos": 56,
-        "sho": 54,
-        "sta": 63,
-        "str": 56,
-        "tac": 58,
-        "vis": 57
+        "aer": 41,
+        "com": 57,
+        "dri": 64,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 55,
+        "pos": 38,
+        "sho": 58,
+        "sta": 59,
+        "str": 51,
+        "tac": 38,
+        "vis": 54
       },
       "birth": "1999-01-01",
       "contract": null,
@@ -451,23 +470,23 @@
       "name": "Benjamin Gollar",
       "nation": "GER",
       "number": 24,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 22000
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 54,
-        "dri": 40,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 47,
-        "pos": 59,
-        "sho": 32,
-        "sta": 50,
-        "str": 58,
-        "tac": 60,
-        "vis": 43
+        "aer": 44,
+        "com": 52,
+        "dri": 50,
+        "ldr": 52,
+        "pac": 61,
+        "pas": 51,
+        "pos": 54,
+        "sho": 39,
+        "sta": 56,
+        "str": 50,
+        "tac": 57,
+        "vis": 49
       },
       "birth": "2001-03-01",
       "contract": null,
@@ -477,12 +496,12 @@
       "name": "Lee Bochanan",
       "nation": "ENG",
       "number": 26,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 53,
@@ -518,11 +537,11 @@
         "ldr": 56,
         "pac": 54,
         "pas": 63,
-        "pos": 61,
+        "pos": 64,
         "sho": 53,
         "sta": 66,
-        "str": 55,
-        "tac": 57,
+        "str": 58,
+        "tac": 60,
         "vis": 62
       },
       "birth": "2000-05-01",
@@ -534,7 +553,7 @@
       "nation": "BUL",
       "nation2": "GER",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 27500
     },
     {
@@ -564,6 +583,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 70,
@@ -590,6 +612,9 @@
       "wage": 96500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -616,6 +641,9 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 56,

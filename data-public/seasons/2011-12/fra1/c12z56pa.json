@@ -52,6 +52,8 @@
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -132,6 +134,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -165,7 +170,7 @@
         "ldr": 59,
         "pac": 63,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 65,
         "sta": 62,
         "str": 64,
@@ -186,18 +191,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 63,
-        "dri": 55,
-        "ldr": 56,
-        "pac": 57,
+        "aer": 45,
+        "com": 64,
+        "dri": 59,
+        "ldr": 54,
+        "pac": 60,
         "pas": 64,
-        "pos": 57,
-        "sho": 55,
-        "sta": 65,
-        "str": 56,
-        "tac": 53,
-        "vis": 60
+        "pos": 42,
+        "sho": 61,
+        "sta": 59,
+        "str": 51,
+        "tac": 35,
+        "vis": 62
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -207,10 +212,14 @@
       "name": "Benjamin Nivat",
       "nation": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 68,
@@ -218,7 +227,7 @@
         "ldr": 62,
         "pac": 63,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 59,
         "str": 66,
@@ -237,19 +246,24 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 56,
+        "com": 66,
         "dri": 49,
         "ldr": 55,
         "pac": 55,
-        "pas": 54,
+        "pas": 64,
         "pos": 66,
         "sho": 31,
-        "sta": 56,
+        "sta": 66,
         "str": 61,
         "tac": 60,
-        "vis": 44
+        "vis": 54
       },
       "birth": "1978-12-01",
       "contract": null,
@@ -259,7 +273,7 @@
       "name": "Gregory Promant",
       "nation": "FRA",
       "number": 12,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 10500
     },
     {
@@ -291,6 +305,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -325,7 +342,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 61,
         "str": 62,
@@ -371,19 +388,22 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 65,
-        "ldr": 60,
-        "pac": 56,
-        "pas": 69,
-        "pos": 61,
-        "sho": 61,
-        "sta": 66,
-        "str": 59,
-        "tac": 62,
-        "vis": 66
+        "aer": 46,
+        "com": 60,
+        "dri": 70,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 65,
+        "pos": 43,
+        "sho": 65,
+        "sta": 62,
+        "str": 54,
+        "tac": 42,
+        "vis": 63
       },
       "birth": "1987-03-01",
       "contract": null,
@@ -393,7 +413,7 @@
       "name": "Romain Hamooma",
       "nation": "FRA",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 21500
     },
     {
@@ -404,7 +424,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 51,
         "str": 59,
@@ -424,6 +444,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -476,6 +499,11 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 61,
@@ -502,19 +530,24 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 62,
-        "dri": 59,
+        "dri": 67,
         "ldr": 55,
         "pac": 61,
-        "pas": 57,
-        "pos": 42,
+        "pas": 65,
+        "pos": 62,
         "sho": 68,
         "sta": 56,
         "str": 65,
         "tac": 35,
-        "vis": 53
+        "vis": 61
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -525,23 +558,23 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": 25,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 56,
-        "dri": 53,
-        "ldr": 50,
-        "pac": 52,
+        "aer": 44,
+        "com": 57,
+        "dri": 57,
+        "ldr": 48,
+        "pac": 55,
         "pas": 58,
-        "pos": 58,
-        "sho": 53,
-        "sta": 59,
-        "str": 51,
-        "tac": 56,
-        "vis": 59
+        "pos": 43,
+        "sho": 59,
+        "sta": 53,
+        "str": 46,
+        "tac": 38,
+        "vis": 61
       },
       "birth": "1993-07-01",
       "contract": null,
@@ -552,7 +585,7 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11000
     }
   ],

@@ -31,7 +31,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 77,
         "sta": 70,
         "str": 75,
@@ -85,7 +85,7 @@
         "ldr": 64,
         "pac": 72,
         "pas": 64,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 69,
         "str": 74,
@@ -107,18 +107,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 68,
-        "dri": 58,
-        "ldr": 68,
-        "pac": 62,
-        "pas": 59,
-        "pos": 74,
-        "sho": 43,
+        "aer": 54,
+        "com": 71,
+        "dri": 74,
+        "ldr": 64,
+        "pac": 66,
+        "pas": 69,
+        "pos": 54,
+        "sho": 70,
         "sta": 67,
-        "str": 74,
-        "tac": 74,
-        "vis": 56
+        "str": 62,
+        "tac": 49,
+        "vis": 73
       },
       "birth": "1974-11-01",
       "contract": null,
@@ -128,7 +128,7 @@
       "name": "Andre Loiz",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "AM",
       "wage": 15000
     },
     {
@@ -158,6 +158,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 70,
@@ -185,6 +188,11 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 68,
@@ -239,6 +247,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 69,
@@ -268,18 +279,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 65,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 62,
+        "aer": 54,
+        "com": 66,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 65,
         "pas": 66,
-        "pos": 65,
-        "sho": 62,
-        "sta": 67,
-        "str": 64,
-        "tac": 64,
-        "vis": 65
+        "pos": 50,
+        "sho": 68,
+        "sta": 61,
+        "str": 59,
+        "tac": 46,
+        "vis": 67
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -290,10 +301,14 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -354,7 +369,7 @@
         "ldr": 60,
         "pac": 67,
         "pas": 58,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 61,
         "str": 62,
@@ -373,6 +388,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 61,
@@ -407,7 +425,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 57,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 61,
         "str": 63,
@@ -428,18 +446,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 63,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 58,
-        "pas": 56,
-        "pos": 66,
-        "sho": 40,
-        "sta": 60,
-        "str": 68,
-        "tac": 70,
-        "vis": 48
+        "aer": 53,
+        "com": 61,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 66,
+        "pas": 60,
+        "pos": 61,
+        "sho": 47,
+        "sta": 66,
+        "str": 60,
+        "tac": 67,
+        "vis": 54
       },
       "birth": "1967-08-01",
       "contract": null,
@@ -449,11 +467,15 @@
       "name": "Cristobal Perralo",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 7500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -481,19 +503,24 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 64,
+        "com": 70,
         "dri": 47,
         "ldr": 61,
         "pac": 56,
-        "pas": 58,
+        "pas": 64,
         "pos": 66,
         "sho": 37,
-        "sta": 63,
+        "sta": 69,
         "str": 64,
         "tac": 68,
-        "vis": 47
+        "vis": 53
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -504,7 +531,7 @@
       "nation": "BRA",
       "nation2": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 7000
     },
     {
@@ -567,7 +594,7 @@
         "ldr": 54,
         "pac": 64,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 68,
         "sta": 55,
         "str": 59,
@@ -614,19 +641,23 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 60,
-        "dri": 62,
-        "ldr": 54,
-        "pac": 59,
-        "pas": 55,
-        "pos": 37,
-        "sho": 66,
-        "sta": 57,
-        "str": 61,
-        "tac": 32,
-        "vis": 54
+        "aer": 45,
+        "com": 57,
+        "dri": 67,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 61,
+        "pos": 39,
+        "sho": 61,
+        "sta": 59,
+        "str": 51,
+        "tac": 38,
+        "vis": 60
       },
       "birth": "1975-07-01",
       "contract": null,
@@ -636,23 +667,23 @@
       "name": "Fabrice Fiurese",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 54,
+        "aer": 41,
+        "com": 58,
+        "dri": 63,
+        "ldr": 53,
+        "pac": 57,
         "pas": 59,
-        "pos": 56,
-        "sho": 55,
-        "sta": 61,
-        "str": 53,
-        "tac": 57,
-        "vis": 58
+        "pos": 41,
+        "sho": 61,
+        "sta": 55,
+        "str": 48,
+        "tac": 39,
+        "vis": 60
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -663,7 +694,7 @@
       "nation": "SRB",
       "nation2": "MNE",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 5500
     },
@@ -702,7 +733,7 @@
         "ldr": 54,
         "pac": 56,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 60,
         "sta": 58,
         "str": 56,
@@ -723,18 +754,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 42,
         "com": 59,
-        "dri": 56,
+        "dri": 60,
         "ldr": 53,
-        "pac": 56,
-        "pas": 51,
-        "pos": 33,
-        "sho": 63,
+        "pac": 54,
+        "pas": 61,
+        "pos": 38,
+        "sho": 60,
         "sta": 53,
-        "str": 58,
-        "tac": 27,
-        "vis": 47
+        "str": 48,
+        "tac": 35,
+        "vis": 58
       },
       "birth": "1978-09-01",
       "contract": null,
@@ -745,7 +776,7 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
@@ -783,7 +814,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 51,
         "str": 58,
@@ -805,18 +836,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 60,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 51,
+        "aer": 41,
+        "com": 61,
+        "dri": 59,
+        "ldr": 51,
+        "pac": 54,
         "pas": 61,
-        "pos": 57,
-        "sho": 50,
-        "sta": 61,
-        "str": 50,
-        "tac": 56,
-        "vis": 56
+        "pos": 42,
+        "sho": 56,
+        "sta": 55,
+        "str": 45,
+        "tac": 38,
+        "vis": 58
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -827,10 +858,13 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -857,6 +891,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -885,18 +922,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 58,
-        "dri": 56,
-        "ldr": 50,
-        "pac": 49,
-        "pas": 60,
-        "pos": 57,
-        "sho": 48,
+        "dri": 52,
+        "ldr": 52,
+        "pac": 46,
+        "pas": 59,
+        "pos": 61,
+        "sho": 42,
         "sta": 55,
-        "str": 49,
-        "tac": 49,
-        "vis": 55
+        "str": 54,
+        "tac": 55,
+        "vis": 52
       },
       "birth": "1983-02-01",
       "contract": null,
@@ -907,7 +944,7 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4000
     },
     {
@@ -993,18 +1030,18 @@
     },
     {
       "attrs": {
-        "aer": 41,
+        "aer": 47,
         "com": 52,
-        "dri": 51,
-        "ldr": 45,
-        "pac": 44,
-        "pas": 55,
-        "pos": 45,
-        "sho": 45,
+        "dri": 47,
+        "ldr": 47,
+        "pac": 41,
+        "pas": 54,
+        "pos": 49,
+        "sho": 39,
         "sta": 51,
-        "str": 44,
-        "tac": 48,
-        "vis": 51
+        "str": 49,
+        "tac": 54,
+        "vis": 48
       },
       "birth": "1986-06-01",
       "contract": null,
@@ -1015,7 +1052,7 @@
       "nation": "GLP",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2000
     },
     {

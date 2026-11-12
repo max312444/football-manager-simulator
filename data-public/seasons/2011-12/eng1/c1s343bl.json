@@ -74,13 +74,13 @@
       "attrs": {
         "aer": 56,
         "com": 66,
-        "dri": 56,
+        "dri": 64,
         "ldr": 70,
-        "pac": 54,
+        "pac": 62,
         "pas": 62,
         "pos": 66,
         "sho": 42,
-        "sta": 60,
+        "sta": 68,
         "str": 66,
         "tac": 68,
         "vis": 52
@@ -155,6 +155,7 @@
     },
     {
       "alt": [
+        "RB",
         "LB"
       ],
       "attrs": {
@@ -211,22 +212,19 @@
       "wage": 53000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 66,
-        "com": 58,
+        "com": 59,
         "dri": 58,
         "ldr": 50,
         "pac": 58,
-        "pas": 64,
+        "pas": 65,
         "pos": 64,
         "sho": 48,
-        "sta": 70,
+        "sta": 71,
         "str": 76,
         "tac": 68,
-        "vis": 56
+        "vis": 57
       },
       "birth": "1989-03-01",
       "contract": "2015-06-30",
@@ -241,9 +239,6 @@
       "wage": 49500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 46,
         "com": 70,
@@ -326,19 +321,24 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,
         "dri": 70,
         "ldr": 58,
-        "pac": 70,
-        "pas": 74,
+        "pac": 72,
+        "pas": 76,
         "pos": 50,
         "sho": 68,
-        "sta": 74,
+        "sta": 78,
         "str": 62,
-        "tac": 44,
-        "vis": 70
+        "tac": 48,
+        "vis": 72
       },
       "birth": "1981-09-01",
       "contract": "2013-06-30",
@@ -387,9 +387,6 @@
       "wage": 26000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 70,
         "com": 66,
@@ -412,24 +409,27 @@
       "name": "Steven Nzunzi",
       "nation": "FRA",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 64500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 54,
+        "com": 57,
         "dri": 58,
         "ldr": 46,
         "pac": 60,
-        "pas": 62,
-        "pos": 58,
+        "pas": 65,
+        "pos": 61,
         "sho": 48,
         "sta": 72,
-        "str": 64,
-        "tac": 62,
-        "vis": 54
+        "str": 67,
+        "tac": 65,
+        "vis": 57
       },
       "birth": "1991-09-01",
       "contract": "2014-06-30",
@@ -445,16 +445,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 54,
+        "aer": 56,
+        "com": 60,
         "dri": 62,
         "ldr": 40,
         "pac": 70,
         "pas": 54,
-        "pos": 38,
-        "sho": 62,
+        "pos": 44,
+        "sho": 68,
         "sta": 66,
-        "str": 66,
+        "str": 72,
         "tac": 32,
         "vis": 50
       },
@@ -471,6 +471,11 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -498,9 +503,6 @@
       "wage": 24000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 38,
         "com": 62,
@@ -523,7 +525,7 @@
       "name": "Junior Huilett",
       "nation": "CAN",
       "number": 23,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 41000
     },
     {
@@ -554,6 +556,10 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 40,
         "com": 56,
@@ -576,7 +582,7 @@
       "name": "Ruben Ruchina",
       "nation": "ESP",
       "number": 39,
-      "pos": "AM",
+      "pos": "RW",
       "verify": true,
       "wage": 21500
     }

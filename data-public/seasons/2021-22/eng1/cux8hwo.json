@@ -210,7 +210,8 @@
     },
     {
       "alt": [
-        "LB",
+        "RW",
+        "LW",
         "RB"
       ],
       "attrs": {
@@ -242,9 +243,6 @@
       "wage": 142500
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 72,
         "com": 68,
@@ -298,6 +296,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 65,
@@ -353,6 +354,9 @@
       "wage": 142500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -389,11 +393,11 @@
         "ldr": 48,
         "pac": 60,
         "pas": 66,
-        "pos": 61,
+        "pos": 67,
         "sho": 58,
         "sta": 66,
-        "str": 51,
-        "tac": 61,
+        "str": 57,
+        "tac": 67,
         "vis": 66
       },
       "birth": "1999-10-01",
@@ -404,12 +408,14 @@
       "name": "Jamie Shacklaton",
       "nation": "ENG",
       "number": 46,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 44500
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 47,
@@ -466,6 +472,10 @@
       "wage": 97500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 58,
         "com": 75,
@@ -496,8 +506,7 @@
     },
     {
       "alt": [
-        "LW",
-        "ST"
+        "RWB"
       ],
       "attrs": {
         "aer": 49,
@@ -528,6 +537,9 @@
       "wage": 77000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -556,17 +568,17 @@
     {
       "attrs": {
         "aer": 55,
-        "com": 61,
+        "com": 66,
         "dri": 61,
         "ldr": 48,
         "pac": 62,
-        "pas": 57,
+        "pas": 62,
         "pos": 42,
-        "sho": 65,
+        "sho": 70,
         "sta": 59,
         "str": 63,
         "tac": 39,
-        "vis": 54
+        "vis": 59
       },
       "birth": "2002-05-01",
       "contract": "2026-06-30",
@@ -576,21 +588,26 @@
       "name": "Joe Gelherdt",
       "nation": "ENG",
       "number": 30,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 30500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 57,
+        "aer": 56,
+        "com": 70,
         "dri": 62,
         "ldr": 44,
-        "pac": 53,
+        "pac": 64,
         "pas": 59,
-        "pos": 41,
-        "sho": 55,
+        "pos": 54,
+        "sho": 68,
         "sta": 54,
-        "str": 45,
+        "str": 58,
         "tac": 41,
         "vis": 61
       },
@@ -607,19 +624,20 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 61,
-        "com": 71,
+        "aer": 64,
+        "com": 74,
         "dri": 71,
         "ldr": 65,
         "pac": 71,
         "pas": 66,
-        "pos": 46,
-        "sho": 76,
+        "pos": 49,
+        "sho": 79,
         "sta": 70,
-        "str": 72,
+        "str": 75,
         "tac": 39,
         "vis": 63
       },
@@ -638,16 +656,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 71,
+        "aer": 63,
+        "com": 72,
         "dri": 67,
         "ldr": 63,
         "pac": 70,
         "pas": 63,
-        "pos": 49,
-        "sho": 70,
+        "pos": 50,
+        "sho": 71,
         "sta": 66,
-        "str": 69,
+        "str": 70,
         "tac": 43,
         "vis": 60
       },

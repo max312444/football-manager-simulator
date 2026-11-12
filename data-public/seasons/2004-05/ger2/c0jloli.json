@@ -51,18 +51,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 61,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 57,
+        "aer": 48,
+        "com": 62,
+        "dri": 64,
+        "ldr": 57,
+        "pac": 60,
         "pas": 63,
-        "pos": 63,
-        "sho": 56,
-        "sta": 64,
-        "str": 59,
-        "tac": 59,
-        "vis": 66
+        "pos": 48,
+        "sho": 62,
+        "sta": 58,
+        "str": 54,
+        "tac": 41,
+        "vis": 68
       },
       "birth": "1970-12-01",
       "contract": null,
@@ -72,21 +72,26 @@
       "name": "Abderrahim Ouekili",
       "nation": "MAR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 62,
-        "dri": 59,
+        "aer": 58,
+        "com": 70,
+        "dri": 63,
         "ldr": 62,
-        "pac": 59,
+        "pac": 67,
         "pas": 67,
-        "pos": 60,
-        "sho": 57,
+        "pos": 68,
+        "sho": 65,
         "sta": 62,
-        "str": 59,
+        "str": 67,
         "tac": 59,
         "vis": 64
       },
@@ -98,24 +103,24 @@
       "name": "Bashiru Gembo",
       "nation": "GHA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 60,
-        "dri": 64,
-        "ldr": 57,
-        "pac": 59,
-        "pas": 66,
-        "pos": 58,
-        "sho": 60,
+        "dri": 60,
+        "ldr": 59,
+        "pac": 56,
+        "pas": 65,
+        "pos": 62,
+        "sho": 54,
         "sta": 67,
-        "str": 60,
-        "tac": 57,
-        "vis": 65
+        "str": 65,
+        "tac": 63,
+        "vis": 62
       },
       "birth": "1975-05-01",
       "contract": null,
@@ -125,7 +130,7 @@
       "name": "Danny Schwerz",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     },
@@ -137,7 +142,7 @@
         "ldr": 59,
         "pac": 65,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 58,
         "str": 60,
@@ -165,7 +170,7 @@
         "ldr": 52,
         "pac": 62,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 64,
         "sta": 56,
         "str": 62,
@@ -239,6 +244,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -292,19 +300,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 55,
-        "dri": 52,
-        "ldr": 51,
-        "pac": 59,
-        "pas": 51,
-        "pos": 36,
-        "sho": 63,
-        "sta": 50,
-        "str": 58,
-        "tac": 27,
-        "vis": 48
+        "aer": 39,
+        "com": 52,
+        "dri": 57,
+        "ldr": 49,
+        "pac": 63,
+        "pas": 57,
+        "pos": 38,
+        "sho": 58,
+        "sta": 52,
+        "str": 48,
+        "tac": 33,
+        "vis": 54
       },
       "birth": "1983-10-01",
       "contract": null,
@@ -314,7 +325,7 @@
       "name": "Ivan Seenko",
       "nation": "RUS",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 1500
     },
     {
@@ -378,7 +389,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 50,
-        "pos": 38,
+        "pos": 58,
         "sho": 60,
         "sta": 53,
         "str": 55,
@@ -405,7 +416,7 @@
         "ldr": 53,
         "pac": 56,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 56,
         "sta": 53,
         "str": 55,
@@ -458,7 +469,7 @@
         "ldr": 48,
         "pac": 59,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 58,
         "sta": 54,
         "str": 53,
@@ -478,6 +489,10 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -504,6 +519,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -532,18 +550,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 52,
-        "dri": 43,
-        "ldr": 53,
-        "pac": 47,
-        "pas": 47,
-        "pos": 60,
-        "sho": 27,
-        "sta": 54,
-        "str": 55,
-        "tac": 56,
-        "vis": 40
+        "aer": 43,
+        "com": 50,
+        "dri": 53,
+        "ldr": 49,
+        "pac": 55,
+        "pas": 51,
+        "pos": 55,
+        "sho": 34,
+        "sta": 60,
+        "str": 47,
+        "tac": 53,
+        "vis": 46
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -553,11 +571,14 @@
       "name": "Milorad Popuvic",
       "nation": "SRB",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -586,18 +607,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 53,
-        "dri": 50,
-        "ldr": 48,
-        "pac": 46,
+        "aer": 36,
+        "com": 54,
+        "dri": 54,
+        "ldr": 46,
+        "pac": 49,
         "pas": 59,
-        "pos": 50,
-        "sho": 45,
-        "sta": 55,
-        "str": 46,
-        "tac": 47,
-        "vis": 55
+        "pos": 35,
+        "sho": 51,
+        "sta": 49,
+        "str": 41,
+        "tac": 29,
+        "vis": 57
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -607,11 +628,16 @@
       "name": "Aleksandar Mladanov",
       "nation": "BUL",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 41,
         "com": 57,
@@ -639,6 +665,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 50,
@@ -719,6 +748,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -747,6 +779,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 55,
@@ -780,7 +815,7 @@
         "ldr": 47,
         "pac": 48,
         "pas": 39,
-        "pos": 30,
+        "pos": 50,
         "sho": 52,
         "sta": 45,
         "str": 51,
@@ -801,19 +836,24 @@
       "wage": 500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 41,
+        "aer": 47,
         "com": 48,
-        "dri": 47,
-        "ldr": 43,
-        "pac": 46,
-        "pas": 54,
-        "pos": 50,
-        "sho": 41,
+        "dri": 43,
+        "ldr": 45,
+        "pac": 43,
+        "pas": 53,
+        "pos": 54,
+        "sho": 35,
         "sta": 51,
-        "str": 46,
-        "tac": 48,
-        "vis": 53
+        "str": 51,
+        "tac": 54,
+        "vis": 50
       },
       "birth": "1965-08-01",
       "contract": null,
@@ -823,7 +863,7 @@
       "name": "Bernhard Treres",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 1000
     },
@@ -835,7 +875,7 @@
         "ldr": 43,
         "pac": 51,
         "pas": 38,
-        "pos": 30,
+        "pos": 50,
         "sho": 50,
         "sta": 47,
         "str": 47,
@@ -854,6 +894,11 @@
       "wage": 500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 48,
@@ -888,7 +933,7 @@
         "ldr": 46,
         "pac": 46,
         "pas": 39,
-        "pos": 28,
+        "pos": 48,
         "sho": 51,
         "sta": 43,
         "str": 46,

@@ -71,7 +71,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 66,
@@ -99,9 +100,6 @@
       "wage": 47000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 64,
@@ -268,22 +266,21 @@
     },
     {
       "alt": [
-        "RB",
-        "DM"
+        "RB"
       ],
       "attrs": {
         "aer": 60,
-        "com": 66,
+        "com": 69,
         "dri": 62,
         "ldr": 60,
         "pac": 70,
-        "pas": 68,
-        "pos": 70,
+        "pas": 71,
+        "pos": 73,
         "sho": 52,
         "sta": 84,
-        "str": 70,
-        "tac": 74,
-        "vis": 60
+        "str": 73,
+        "tac": 77,
+        "vis": 63
       },
       "birth": "1974-07-01",
       "contract": "2007-06-30",
@@ -293,23 +290,26 @@
       "name": "Radostin Kishyshev",
       "nation": "BUL",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 42500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 72,
-        "dri": 64,
+        "com": 75,
+        "dri": 67,
         "ldr": 76,
         "pac": 62,
-        "pas": 72,
+        "pas": 75,
         "pos": 72,
-        "sho": 64,
-        "sta": 84,
+        "sho": 67,
+        "sta": 87,
         "str": 68,
         "tac": 70,
-        "vis": 68
+        "vis": 71
       },
       "birth": "1974-04-01",
       "contract": "2007-06-30",
@@ -327,7 +327,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
@@ -359,22 +359,19 @@
       "wage": 54000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 56,
-        "com": 64,
-        "dri": 68,
+        "com": 66,
+        "dri": 70,
         "ldr": 52,
         "pac": 66,
-        "pas": 70,
+        "pas": 72,
         "pos": 62,
-        "sho": 64,
+        "sho": 66,
         "sta": 74,
         "str": 62,
         "tac": 56,
-        "vis": 66
+        "vis": 68
       },
       "birth": "1976-06-01",
       "contract": "2007-06-30",
@@ -384,12 +381,14 @@
       "name": "Bryan Hoghes",
       "nation": "ENG",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 30500
     },
     {
       "alt": [
-        "AM"
+        "DM",
+        "AM",
+        "ST"
       ],
       "attrs": {
         "aer": 60,
@@ -417,9 +416,6 @@
       "wage": 32000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -449,6 +445,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 44,
         "com": 50,
@@ -476,7 +475,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 56,
@@ -505,19 +505,21 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
-        "aer": 62,
-        "com": 64,
+        "aer": 64,
+        "com": 66,
         "dri": 68,
         "ldr": 54,
         "pac": 70,
         "pas": 64,
-        "pos": 60,
-        "sho": 70,
+        "pos": 62,
+        "sho": 72,
         "sta": 74,
-        "str": 70,
+        "str": 72,
         "tac": 50,
         "vis": 62
       },
@@ -560,20 +562,17 @@
       "wage": 29000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 62,
-        "com": 64,
+        "aer": 67,
+        "com": 69,
         "dri": 68,
         "ldr": 50,
         "pac": 76,
         "pas": 62,
-        "pos": 54,
-        "sho": 68,
+        "pos": 59,
+        "sho": 73,
         "sta": 72,
-        "str": 64,
+        "str": 69,
         "tac": 40,
         "vis": 58
       },
@@ -590,16 +589,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 66,
+        "aer": 65,
+        "com": 69,
         "dri": 66,
         "ldr": 44,
         "pac": 74,
         "pas": 60,
-        "pos": 50,
-        "sho": 72,
+        "pos": 53,
+        "sho": 75,
         "sta": 66,
-        "str": 60,
+        "str": 63,
         "tac": 36,
         "vis": 58
       },
@@ -616,16 +615,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 54,
+        "aer": 64,
+        "com": 60,
         "dri": 64,
         "ldr": 38,
         "pac": 82,
         "pas": 54,
-        "pos": 46,
-        "sho": 66,
+        "pos": 52,
+        "sho": 72,
         "sta": 70,
-        "str": 64,
+        "str": 70,
         "tac": 34,
         "vis": 48
       },
@@ -645,13 +644,13 @@
       "attrs": {
         "aer": 55,
         "com": 73,
-        "dri": 61,
+        "dri": 65,
         "ldr": 65,
-        "pac": 62,
+        "pac": 66,
         "pas": 63,
         "pos": 69,
         "sho": 41,
-        "sta": 71,
+        "sta": 75,
         "str": 61,
         "tac": 69,
         "vis": 59

@@ -123,16 +123,19 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 70,
-        "dri": 64,
+        "dri": 66,
         "ldr": 68,
-        "pac": 68,
+        "pac": 70,
         "pas": 72,
         "pos": 66,
         "sho": 69,
-        "sta": 81,
+        "sta": 83,
         "str": 80,
         "tac": 70,
         "vis": 62
@@ -205,7 +208,9 @@
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 69,
@@ -233,19 +238,22 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 68,
-        "dri": 64,
+        "com": 70,
+        "dri": 66,
         "ldr": 62,
         "pac": 61,
-        "pas": 70,
+        "pas": 72,
         "pos": 66,
-        "sho": 64,
-        "sta": 78,
+        "sho": 66,
+        "sta": 80,
         "str": 68,
         "tac": 69,
-        "vis": 65
+        "vis": 67
       },
       "birth": "1982-12-01",
       "contract": "2014-06-30",
@@ -260,16 +268,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 74,
+        "aer": 74,
+        "com": 82,
         "dri": 72,
         "ldr": 60,
-        "pac": 58,
+        "pac": 66,
         "pas": 72,
-        "pos": 42,
-        "sho": 76,
+        "pos": 50,
+        "sho": 84,
         "sta": 62,
-        "str": 68,
+        "str": 76,
         "tac": 34,
         "vis": 70
       },
@@ -286,16 +294,16 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 88,
+        "aer": 86,
+        "com": 99,
         "dri": 85,
         "ldr": 64,
-        "pac": 61,
+        "pac": 76,
         "pas": 82,
-        "pos": 45,
-        "sho": 83,
+        "pos": 60,
+        "sho": 98,
         "sta": 64,
-        "str": 73,
+        "str": 88,
         "tac": 34,
         "vis": 85
       },
@@ -344,17 +352,17 @@
     {
       "attrs": {
         "aer": 66,
-        "com": 70,
+        "com": 71,
         "dri": 58,
         "ldr": 72,
         "pac": 58,
-        "pas": 68,
+        "pas": 69,
         "pos": 72,
         "sho": 48,
-        "sta": 66,
+        "sta": 67,
         "str": 74,
         "tac": 74,
-        "vis": 60
+        "vis": 61
       },
       "birth": "1981-05-01",
       "contract": "2013-06-30",
@@ -374,9 +382,9 @@
       "attrs": {
         "aer": 38,
         "com": 72,
-        "dri": 75,
+        "dri": 78,
         "ldr": 65,
-        "pac": 67,
+        "pac": 70,
         "pas": 73,
         "pos": 51,
         "sho": 65,
@@ -398,17 +406,19 @@
     },
     {
       "alt": [
-        "LB"
+        "LW",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 54,
-        "com": 62,
-        "dri": 69,
+        "com": 64,
+        "dri": 71,
         "ldr": 54,
-        "pac": 75,
+        "pac": 77,
         "pas": 67,
         "pos": 59,
-        "sho": 62,
+        "sho": 64,
         "sta": 74,
         "str": 65,
         "tac": 64,
@@ -422,7 +432,7 @@
       "name": "Kieran Rychardson",
       "nation": "ENG",
       "number": 15,
-      "pos": "LM",
+      "pos": "RW",
       "wage": 42500
     },
     {
@@ -453,7 +463,8 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "LW"
       ],
       "attrs": {
         "aer": 50,
@@ -482,6 +493,10 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 71,
         "com": 63,
@@ -504,23 +519,26 @@
       "name": "Hugo Rodallege",
       "nation": "COL",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 57,
+        "com": 64,
         "dri": 67,
         "ldr": 42,
         "pac": 65,
-        "pas": 65,
+        "pas": 72,
         "pos": 55,
         "sho": 61,
         "sta": 70,
         "str": 70,
-        "tac": 55,
-        "vis": 61
+        "tac": 62,
+        "vis": 68
       },
       "birth": "1992-06-01",
       "contract": "2016-06-30",
@@ -534,6 +552,9 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 34,
         "com": 52,
@@ -557,7 +578,7 @@
       "nation": "TUR",
       "nation2": "SUI",
       "number": 21,
-      "pos": "AM",
+      "pos": "RW",
       "wage": 11500
     },
     {
@@ -588,6 +609,9 @@
       "wage": 47000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 76,
@@ -614,6 +638,9 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 40,
         "com": 58,

@@ -48,8 +48,8 @@
     },
     {
       "alt": [
-        "LB",
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 60,
@@ -79,6 +79,7 @@
     },
     {
       "alt": [
+        "RB",
         "LB"
       ],
       "attrs": {
@@ -222,9 +223,6 @@
       "wage": 25500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 64,
         "com": 54,
@@ -253,21 +251,21 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 60,
-        "com": 67,
-        "dri": 62,
+        "com": 68,
+        "dri": 63,
         "ldr": 61,
         "pac": 56,
-        "pas": 70,
+        "pas": 71,
         "pos": 65,
-        "sho": 62,
-        "sta": 72,
+        "sho": 63,
+        "sta": 73,
         "str": 68,
         "tac": 66,
-        "vis": 65
+        "vis": 66
       },
       "birth": "1972-11-01",
       "contract": "2003-06-30",
@@ -340,7 +338,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 40,
@@ -378,17 +377,17 @@
       ],
       "attrs": {
         "aer": 76,
-        "com": 70,
+        "com": 72,
         "dri": 62,
         "ldr": 70,
         "pac": 64,
-        "pas": 68,
+        "pas": 70,
         "pos": 72,
         "sho": 56,
-        "sta": 82,
+        "sta": 84,
         "str": 84,
         "tac": 78,
-        "vis": 62
+        "vis": 64
       },
       "birth": "1975-05-01",
       "contract": "2003-06-30",
@@ -405,7 +404,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 43,
@@ -429,7 +428,7 @@
       "name": "Shaun Wryght-Phillips",
       "nation": "ENG",
       "number": 29,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "speedster"
       ],
@@ -438,16 +437,16 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 73,
+        "aer": 72,
+        "com": 82,
         "dri": 81,
         "ldr": 47,
         "pac": 84,
         "pas": 71,
-        "pos": 49,
-        "sho": 81,
+        "pos": 58,
+        "sho": 90,
         "sta": 72,
-        "str": 74,
+        "str": 83,
         "tac": 37,
         "vis": 71
       },
@@ -467,16 +466,16 @@
         "LW"
       ],
       "attrs": {
-        "aer": 52,
-        "com": 62,
+        "aer": 65,
+        "com": 75,
         "dri": 78,
         "ldr": 48,
         "pac": 87,
         "pas": 60,
-        "pos": 50,
-        "sho": 68,
+        "pos": 63,
+        "sho": 81,
         "sta": 75,
-        "str": 65,
+        "str": 78,
         "tac": 37,
         "vis": 58
       },
@@ -524,16 +523,16 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 70,
+        "aer": 78,
+        "com": 74,
         "dri": 78,
         "ldr": 52,
         "pac": 76,
         "pas": 66,
-        "pos": 50,
-        "sho": 78,
+        "pos": 54,
+        "sho": 82,
         "sta": 70,
-        "str": 72,
+        "str": 76,
         "tac": 34,
         "vis": 66
       },
@@ -554,7 +553,8 @@
     },
     {
       "alt": [
-        "LM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 52,
@@ -583,19 +583,22 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 60,
-        "dri": 62,
+        "com": 66,
+        "dri": 68,
         "ldr": 50,
         "pac": 62,
-        "pas": 66,
+        "pas": 72,
         "pos": 64,
-        "sho": 54,
-        "sta": 76,
+        "sho": 60,
+        "sta": 78,
         "str": 62,
         "tac": 70,
-        "vis": 58
+        "vis": 64
       },
       "birth": "1979-01-01",
       "contract": "2003-06-30",
@@ -615,17 +618,17 @@
       ],
       "attrs": {
         "aer": 60,
-        "com": 54,
-        "dri": 56,
+        "com": 62,
+        "dri": 63,
         "ldr": 44,
         "pac": 60,
-        "pas": 60,
+        "pas": 68,
         "pos": 56,
-        "sho": 52,
-        "sta": 66,
+        "sho": 59,
+        "sta": 68,
         "str": 70,
-        "tac": 62,
-        "vis": 52
+        "tac": 63,
+        "vis": 60
       },
       "birth": "1975-01-01",
       "contract": "2004-06-30",

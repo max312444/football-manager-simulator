@@ -85,7 +85,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 70,
         "str": 76,
@@ -104,6 +104,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -158,6 +161,9 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -192,7 +198,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 60,
-        "pos": 50,
+        "pos": 70,
         "sho": 72,
         "sta": 68,
         "str": 74,
@@ -212,18 +218,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 69,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 70,
-        "pas": 64,
-        "pos": 65,
-        "sho": 49,
-        "sta": 73,
-        "str": 64,
-        "tac": 72,
-        "vis": 59
+        "aer": 70,
+        "com": 71,
+        "dri": 55,
+        "ldr": 66,
+        "pac": 62,
+        "pas": 60,
+        "pos": 70,
+        "sho": 42,
+        "sta": 67,
+        "str": 72,
+        "tac": 75,
+        "vis": 53
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -233,7 +239,7 @@
       "name": "Daniele Gestaldello",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 13500
     },
     {
@@ -259,7 +265,7 @@
       "name": "Luca Antonyni",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 14500
     },
@@ -290,19 +296,24 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
-        "com": 73,
-        "dri": 71,
+        "com": 79,
+        "dri": 75,
         "ldr": 63,
         "pac": 73,
-        "pas": 61,
-        "pos": 48,
-        "sho": 70,
+        "pas": 71,
+        "pos": 68,
+        "sho": 76,
         "sta": 69,
         "str": 67,
         "tac": 40,
-        "vis": 63
+        "vis": 73
       },
       "birth": "1976-06-01",
       "contract": null,
@@ -312,10 +323,13 @@
       "name": "Tomas Locatalli",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 13500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 63,
@@ -342,6 +356,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 69,
@@ -369,6 +386,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 69,
@@ -423,6 +443,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 67,
@@ -451,18 +474,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 60,
-        "dri": 54,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 58,
-        "pos": 69,
-        "sho": 35,
-        "sta": 61,
-        "str": 64,
-        "tac": 65,
-        "vis": 51
+        "aer": 54,
+        "com": 58,
+        "dri": 64,
+        "ldr": 59,
+        "pac": 69,
+        "pas": 62,
+        "pos": 64,
+        "sho": 42,
+        "sta": 67,
+        "str": 56,
+        "tac": 62,
+        "vis": 57
       },
       "birth": "1973-01-01",
       "contract": null,
@@ -472,24 +495,24 @@
       "name": "Valerio Bertutto",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 61,
-        "dri": 50,
-        "ldr": 59,
-        "pac": 55,
-        "pas": 56,
-        "pos": 64,
-        "sho": 34,
-        "sta": 57,
-        "str": 68,
-        "tac": 67,
-        "vis": 51
+        "aer": 57,
+        "com": 59,
+        "dri": 60,
+        "ldr": 55,
+        "pac": 63,
+        "pas": 60,
+        "pos": 59,
+        "sho": 41,
+        "sta": 63,
+        "str": 60,
+        "tac": 64,
+        "vis": 57
       },
       "birth": "1975-03-01",
       "contract": null,
@@ -499,7 +522,7 @@
       "name": "Alberto Velentim",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6500
     },
     {
@@ -529,19 +552,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 60,
-        "dri": 53,
-        "ldr": 59,
-        "pac": 59,
-        "pas": 53,
-        "pos": 64,
-        "sho": 38,
-        "sta": 57,
-        "str": 64,
-        "tac": 67,
-        "vis": 47
+        "aer": 54,
+        "com": 58,
+        "dri": 63,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 57,
+        "pos": 59,
+        "sho": 45,
+        "sta": 63,
+        "str": 56,
+        "tac": 64,
+        "vis": 53
       },
       "birth": "1971-08-01",
       "contract": null,
@@ -551,11 +577,14 @@
       "name": "Francesco Colonnesa",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -670,7 +699,7 @@
         "ldr": 55,
         "pac": 64,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 68,
         "sta": 56,
         "str": 59,
@@ -690,19 +719,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 61,
+        "com": 67,
         "dri": 48,
         "ldr": 59,
         "pac": 56,
-        "pas": 55,
+        "pas": 61,
         "pos": 63,
         "sho": 36,
-        "sta": 60,
+        "sta": 66,
         "str": 61,
         "tac": 61,
-        "vis": 46
+        "vis": 52
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -712,7 +746,7 @@
       "name": "Simone Bonomy",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 5000
     },
@@ -724,7 +758,7 @@
         "ldr": 50,
         "pac": 61,
         "pas": 54,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 56,
         "str": 62,
@@ -751,7 +785,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 46,
-        "pos": 36,
+        "pos": 56,
         "sho": 63,
         "sta": 55,
         "str": 60,
@@ -771,6 +805,10 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 56,
@@ -797,6 +835,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -823,19 +864,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 52,
+        "com": 63,
         "dri": 37,
         "ldr": 48,
         "pac": 47,
-        "pas": 41,
+        "pas": 52,
         "pos": 52,
         "sho": 26,
-        "sta": 49,
+        "sta": 60,
         "str": 54,
         "tac": 56,
-        "vis": 39
+        "vis": 50
       },
       "birth": "1970-01-01",
       "contract": null,
@@ -845,7 +891,7 @@
       "name": "Ezio Brevy",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
@@ -884,7 +930,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 46,
-        "pos": 28,
+        "pos": 48,
         "sho": 57,
         "sta": 48,
         "str": 53,

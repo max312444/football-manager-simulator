@@ -101,13 +101,10 @@
       "name": "Johan Mujica",
       "nation": "COL",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 32000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 75,
         "com": 70,
@@ -160,6 +157,9 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -193,7 +193,7 @@
         "ldr": 77,
         "pac": 79,
         "pas": 71,
-        "pos": 61,
+        "pos": 81,
         "sho": 80,
         "sta": 76,
         "str": 77,
@@ -214,18 +214,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 65,
-        "dri": 59,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 65,
-        "pos": 61,
-        "sho": 60,
+        "dri": 55,
+        "ldr": 61,
+        "pac": 57,
+        "pas": 64,
+        "pos": 65,
+        "sho": 54,
         "sta": 64,
-        "str": 58,
-        "tac": 56,
-        "vis": 65
+        "str": 63,
+        "tac": 62,
+        "vis": 62
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -235,23 +235,26 @@
       "name": "Pere Puns",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 69,
-        "dri": 69,
-        "ldr": 68,
-        "pac": 67,
-        "pas": 76,
-        "pos": 68,
-        "sho": 63,
-        "sta": 75,
-        "str": 65,
-        "tac": 64,
-        "vis": 69
+        "aer": 54,
+        "com": 67,
+        "dri": 74,
+        "ldr": 64,
+        "pac": 76,
+        "pas": 72,
+        "pos": 50,
+        "sho": 67,
+        "sta": 71,
+        "str": 60,
+        "tac": 44,
+        "vis": 66
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -261,23 +264,23 @@
       "name": "Porto",
       "nation": "ESP",
       "number": 9,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 47000
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 64,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 56,
+        "aer": 43,
+        "com": 65,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 59,
         "pas": 66,
-        "pos": 58,
-        "sho": 52,
-        "sta": 60,
-        "str": 58,
-        "tac": 56,
-        "vis": 61
+        "pos": 43,
+        "sho": 58,
+        "sta": 54,
+        "str": 53,
+        "tac": 38,
+        "vis": 63
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -287,23 +290,26 @@
       "name": "Eloi Amaget",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 62,
-        "dri": 62,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 69,
-        "pos": 62,
-        "sho": 57,
-        "sta": 69,
-        "str": 58,
-        "tac": 63,
-        "vis": 64
+        "aer": 49,
+        "com": 60,
+        "dri": 67,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 65,
+        "pos": 44,
+        "sho": 61,
+        "sta": 65,
+        "str": 53,
+        "tac": 43,
+        "vis": 61
       },
       "birth": "1987-09-01",
       "contract": null,
@@ -313,10 +319,14 @@
       "name": "Aday Benitaz",
       "nation": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 24000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -404,7 +414,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 53,
-        "pos": 42,
+        "pos": 62,
         "sho": 65,
         "sta": 57,
         "str": 60,
@@ -431,7 +441,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 65,
         "str": 69,
@@ -452,18 +462,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 61,
-        "dri": 59,
-        "ldr": 60,
-        "pac": 61,
+        "aer": 49,
+        "com": 62,
+        "dri": 63,
+        "ldr": 58,
+        "pac": 64,
         "pas": 66,
-        "pos": 63,
-        "sho": 60,
-        "sta": 66,
-        "str": 55,
-        "tac": 58,
-        "vis": 67
+        "pos": 48,
+        "sho": 66,
+        "sta": 60,
+        "str": 50,
+        "tac": 40,
+        "vis": 69
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -474,23 +484,23 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 21500
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 73,
-        "dri": 74,
-        "ldr": 68,
-        "pac": 82,
-        "pas": 71,
-        "pos": 73,
-        "sho": 57,
-        "sta": 79,
-        "str": 73,
-        "tac": 75,
-        "vis": 69
+        "aer": 81,
+        "com": 75,
+        "dri": 64,
+        "ldr": 72,
+        "pac": 74,
+        "pas": 67,
+        "pos": 78,
+        "sho": 50,
+        "sta": 73,
+        "str": 81,
+        "tac": 78,
+        "vis": 63
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -501,7 +511,7 @@
       "name": "Marc Muniese",
       "nation": "ESP",
       "number": 20,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 56500
     },
     {
@@ -527,10 +537,14 @@
       "name": "Carles Planes",
       "nation": "ESP",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 52500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -559,18 +573,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 60,
-        "dri": 53,
-        "ldr": 64,
-        "pac": 56,
-        "pas": 60,
-        "pos": 70,
-        "sho": 35,
-        "sta": 63,
-        "str": 68,
-        "tac": 65,
-        "vis": 51
+        "aer": 52,
+        "com": 58,
+        "dri": 63,
+        "ldr": 60,
+        "pac": 64,
+        "pas": 64,
+        "pos": 65,
+        "sho": 42,
+        "sta": 69,
+        "str": 60,
+        "tac": 62,
+        "vis": 57
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -581,7 +595,7 @@
       "name": "Pablo Meffeo",
       "nation": "ESP",
       "number": 25,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18000
     },
     {

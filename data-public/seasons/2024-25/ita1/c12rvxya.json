@@ -25,6 +25,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 52,
@@ -52,6 +55,10 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -78,6 +85,10 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -104,6 +115,10 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 76,
         "com": 80,
@@ -111,7 +126,7 @@
         "ldr": 67,
         "pac": 75,
         "pas": 69,
-        "pos": 52,
+        "pos": 72,
         "sho": 81,
         "sta": 71,
         "str": 78,
@@ -130,19 +145,22 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 72,
+        "com": 73,
         "dri": 68,
         "ldr": 67,
         "pac": 71,
-        "pas": 72,
+        "pas": 73,
         "pos": 70,
         "sho": 70,
         "sta": 77,
         "str": 65,
-        "tac": 71,
-        "vis": 71
+        "tac": 72,
+        "vis": 72
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -164,7 +182,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 63,
         "str": 63,
@@ -183,19 +201,23 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 80,
-        "com": 78,
-        "dri": 79,
-        "ldr": 76,
-        "pac": 80,
-        "pas": 71,
-        "pos": 58,
-        "sho": 82,
-        "sta": 78,
-        "str": 78,
-        "tac": 51,
-        "vis": 72
+        "aer": 66,
+        "com": 75,
+        "dri": 84,
+        "ldr": 74,
+        "pac": 84,
+        "pas": 77,
+        "pos": 60,
+        "sho": 77,
+        "sta": 80,
+        "str": 68,
+        "tac": 57,
+        "vis": 78
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -205,23 +227,26 @@
       "name": "Florian Thaovin",
       "nation": "FRA",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 73000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 62,
-        "dri": 49,
-        "ldr": 62,
-        "pac": 57,
-        "pas": 58,
-        "pos": 67,
-        "sho": 36,
-        "sta": 62,
-        "str": 67,
-        "tac": 68,
-        "vis": 51
+        "aer": 53,
+        "com": 60,
+        "dri": 59,
+        "ldr": 58,
+        "pac": 65,
+        "pas": 62,
+        "pos": 62,
+        "sho": 43,
+        "sta": 68,
+        "str": 59,
+        "tac": 65,
+        "vis": 57
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -232,23 +257,23 @@
       "nation": "CIV",
       "nation2": "FRA",
       "number": 11,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 22500
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 57,
-        "dri": 43,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 48,
-        "pos": 59,
-        "sho": 28,
-        "sta": 54,
-        "str": 61,
-        "tac": 62,
-        "vis": 45
+        "aer": 48,
+        "com": 55,
+        "dri": 53,
+        "ldr": 51,
+        "pac": 58,
+        "pas": 52,
+        "pos": 54,
+        "sho": 35,
+        "sta": 60,
+        "str": 53,
+        "tac": 59,
+        "vis": 51
       },
       "birth": "2002-06-01",
       "contract": null,
@@ -258,7 +283,7 @@
       "name": "Leonardo Bute",
       "nation": "POR",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -296,7 +321,7 @@
         "ldr": 60,
         "pac": 63,
         "pas": 59,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 60,
         "str": 67,
@@ -349,7 +374,7 @@
         "ldr": 45,
         "pac": 51,
         "pas": 47,
-        "pos": 32,
+        "pos": 52,
         "sho": 52,
         "sta": 46,
         "str": 49,
@@ -375,7 +400,7 @@
         "ldr": 47,
         "pac": 55,
         "pas": 49,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 50,
         "str": 53,
@@ -401,7 +426,7 @@
         "ldr": 59,
         "pac": 61,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 68,
         "sta": 60,
         "str": 64,
@@ -447,6 +472,9 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -473,6 +501,9 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -526,6 +557,9 @@
       "wage": 58500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 73,
@@ -604,6 +638,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 67,
@@ -631,18 +668,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 61,
-        "dri": 50,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 57,
-        "pos": 70,
-        "sho": 34,
-        "sta": 58,
-        "str": 65,
-        "tac": 65,
-        "vis": 52
+        "aer": 51,
+        "com": 59,
+        "dri": 60,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 61,
+        "pos": 65,
+        "sho": 41,
+        "sta": 64,
+        "str": 57,
+        "tac": 62,
+        "vis": 58
       },
       "birth": "1999-11-01",
       "contract": null,
@@ -652,7 +689,7 @@
       "name": "Jordan Zemure",
       "nation": "ZIM",
       "number": 33,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 20500
     },
     {
@@ -663,7 +700,7 @@
         "ldr": 45,
         "pac": 48,
         "pas": 42,
-        "pos": 29,
+        "pos": 49,
         "sho": 54,
         "sta": 46,
         "str": 51,
@@ -735,19 +772,24 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 60,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 55,
-        "pas": 64,
-        "pos": 57,
-        "sho": 55,
-        "sta": 67,
-        "str": 58,
-        "tac": 61,
-        "vis": 65
+        "aer": 43,
+        "com": 58,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 64,
+        "pas": 60,
+        "pos": 39,
+        "sho": 59,
+        "sta": 63,
+        "str": 53,
+        "tac": 41,
+        "vis": 62
       },
       "birth": "1999-10-01",
       "contract": null,
@@ -758,10 +800,13 @@
       "nation": "ANG",
       "nation2": "POR",
       "number": 77,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 48,
@@ -847,7 +892,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 43,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 49,
         "str": 51,

@@ -31,7 +31,7 @@
         "ldr": 73,
         "pac": 79,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 72,
         "str": 78,
@@ -59,7 +59,7 @@
         "ldr": 66,
         "pac": 76,
         "pas": 66,
-        "pos": 55,
+        "pos": 75,
         "sho": 76,
         "sta": 71,
         "str": 77,
@@ -87,7 +87,7 @@
         "ldr": 70,
         "pac": 71,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 79,
         "sta": 70,
         "str": 70,
@@ -113,7 +113,7 @@
         "ldr": 70,
         "pac": 70,
         "pas": 62,
-        "pos": 52,
+        "pos": 72,
         "sho": 74,
         "sta": 70,
         "str": 73,
@@ -140,7 +140,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 61,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 67,
         "str": 74,
@@ -160,6 +160,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,
@@ -188,18 +191,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 72,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 63,
+        "aer": 58,
+        "com": 73,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 66,
         "pas": 74,
-        "pos": 69,
-        "sho": 66,
-        "sta": 74,
-        "str": 65,
-        "tac": 66,
-        "vis": 72
+        "pos": 54,
+        "sho": 72,
+        "sta": 68,
+        "str": 60,
+        "tac": 48,
+        "vis": 74
       },
       "birth": "1968-08-01",
       "contract": null,
@@ -209,24 +212,24 @@
       "name": "Aleksandr Mostovui",
       "nation": "RUS",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 19500
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 65,
+        "aer": 53,
+        "com": 70,
+        "dri": 75,
+        "ldr": 68,
+        "pac": 68,
         "pas": 76,
-        "pos": 66,
-        "sho": 67,
-        "sta": 73,
-        "str": 67,
-        "tac": 69,
-        "vis": 71
+        "pos": 51,
+        "sho": 73,
+        "sta": 67,
+        "str": 62,
+        "tac": 51,
+        "vis": 73
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -236,11 +239,15 @@
       "name": "Blagoy Gaorgiev",
       "nation": "BUL",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 19500
     },
     {
+      "alt": [
+        "DM",
+        "RM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -289,7 +296,7 @@
       "name": "Lluis Carraras",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 14500
     },
     {
@@ -321,18 +328,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 73,
-        "dri": 68,
-        "ldr": 69,
-        "pac": 63,
+        "aer": 52,
+        "com": 74,
+        "dri": 72,
+        "ldr": 67,
+        "pac": 66,
         "pas": 74,
-        "pos": 67,
-        "sho": 64,
-        "sta": 70,
-        "str": 63,
-        "tac": 67,
-        "vis": 72
+        "pos": 52,
+        "sho": 70,
+        "sta": 64,
+        "str": 58,
+        "tac": 49,
+        "vis": 74
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -343,7 +350,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 17000
     },
@@ -402,18 +409,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 66,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 63,
+        "aer": 50,
+        "com": 67,
+        "dri": 71,
+        "ldr": 65,
+        "pac": 66,
         "pas": 68,
-        "pos": 69,
-        "sho": 63,
-        "sta": 74,
-        "str": 63,
-        "tac": 63,
-        "vis": 70
+        "pos": 54,
+        "sho": 69,
+        "sta": 68,
+        "str": 58,
+        "tac": 45,
+        "vis": 72
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -423,24 +430,24 @@
       "name": "Sergio Santamarya",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 14000
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 67,
-        "dri": 53,
-        "ldr": 68,
-        "pac": 59,
-        "pas": 61,
-        "pos": 68,
-        "sho": 44,
-        "sta": 61,
-        "str": 71,
-        "tac": 73,
-        "vis": 57
+        "aer": 59,
+        "com": 65,
+        "dri": 63,
+        "ldr": 64,
+        "pac": 67,
+        "pas": 65,
+        "pos": 63,
+        "sho": 51,
+        "sta": 67,
+        "str": 63,
+        "tac": 70,
+        "vis": 63
       },
       "birth": "1979-10-01",
       "contract": null,
@@ -450,7 +457,7 @@
       "name": "Pablo Cuira",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10000
     },
     {
@@ -482,18 +489,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 66,
-        "dri": 64,
-        "ldr": 60,
-        "pac": 60,
+        "aer": 50,
+        "com": 67,
+        "dri": 68,
+        "ldr": 58,
+        "pac": 63,
         "pas": 69,
-        "pos": 62,
-        "sho": 62,
-        "sta": 71,
-        "str": 65,
-        "tac": 64,
-        "vis": 66
+        "pos": 47,
+        "sho": 68,
+        "sta": 65,
+        "str": 60,
+        "tac": 46,
+        "vis": 68
       },
       "birth": "1979-02-01",
       "contract": null,
@@ -503,7 +510,7 @@
       "name": "Jendro",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 11000
     },
@@ -534,6 +541,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -562,21 +572,22 @@
     },
     {
       "alt": [
-        "RW"
+        "RB",
+        "CM"
       ],
       "attrs": {
         "aer": 56,
-        "com": 63,
-        "dri": 65,
+        "com": 69,
+        "dri": 75,
         "ldr": 62,
-        "pac": 66,
-        "pas": 60,
-        "pos": 64,
-        "sho": 44,
-        "sta": 71,
-        "str": 58,
-        "tac": 65,
-        "vis": 59
+        "pac": 70,
+        "pas": 74,
+        "pos": 70,
+        "sho": 54,
+        "sta": 81,
+        "str": 64,
+        "tac": 71,
+        "vis": 73
       },
       "birth": "1974-05-01",
       "contract": null,
@@ -586,7 +597,7 @@
       "name": "Edu Alunso",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "RM",
       "wage": 8500
     },
     {
@@ -617,18 +628,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 60,
-        "dri": 50,
+        "aer": 62,
+        "com": 62,
+        "dri": 58,
         "ldr": 62,
-        "pac": 60,
-        "pas": 56,
-        "pos": 71,
-        "sho": 35,
-        "sta": 59,
-        "str": 66,
-        "tac": 69,
-        "vis": 52
+        "pac": 58,
+        "pas": 65,
+        "pos": 70,
+        "sho": 50,
+        "sta": 65,
+        "str": 64,
+        "tac": 68,
+        "vis": 64
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -638,7 +649,7 @@
       "name": "Joanito",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 6500
     },
@@ -670,6 +681,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -697,17 +711,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 65,
-        "dri": 63,
+        "aer": 57,
+        "com": 71,
+        "dri": 65,
         "ldr": 61,
-        "pac": 58,
+        "pac": 64,
         "pas": 66,
-        "pos": 61,
-        "sho": 58,
+        "pos": 67,
+        "sho": 64,
         "sta": 63,
-        "str": 56,
+        "str": 62,
         "tac": 57,
         "vis": 61
       },
@@ -720,11 +739,14 @@
       "nation": "ESP",
       "nation2": "EQG",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 66,
@@ -751,9 +773,6 @@
       "wage": 7000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 59,
         "com": 62,
@@ -789,7 +808,7 @@
         "ldr": 59,
         "pac": 61,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 60,
         "str": 64,
@@ -831,7 +850,7 @@
       "name": "Puli",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5500
     },
@@ -858,7 +877,7 @@
       "name": "Ibon Begone",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5000
     },
@@ -896,7 +915,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 57,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 57,
         "str": 64,
@@ -915,6 +934,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
@@ -941,6 +963,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 65,
@@ -948,7 +973,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 68,
         "sta": 55,
         "str": 62,
@@ -995,19 +1020,24 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 63,
-        "dri": 61,
+        "dri": 68,
         "ldr": 57,
         "pac": 59,
-        "pas": 53,
-        "pos": 40,
+        "pas": 60,
+        "pos": 60,
         "sho": 64,
         "sta": 59,
         "str": 59,
         "tac": 31,
-        "vis": 53
+        "vis": 60
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -1017,7 +1047,7 @@
       "name": "Eneko Romu",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 4000
     },
@@ -1029,7 +1059,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 65,
         "sta": 59,
         "str": 59,
@@ -1049,19 +1079,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 59,
+        "com": 69,
         "dri": 43,
         "ldr": 58,
         "pac": 53,
-        "pas": 50,
+        "pas": 60,
         "pos": 64,
         "sho": 31,
-        "sta": 55,
+        "sta": 65,
         "str": 65,
         "tac": 65,
-        "vis": 46
+        "vis": 56
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -1071,24 +1106,28 @@
       "name": "Nacho Fernandaz",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 58,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 57,
+        "aer": 43,
+        "com": 59,
+        "dri": 62,
+        "ldr": 50,
+        "pac": 60,
         "pas": 61,
-        "pos": 60,
-        "sho": 56,
-        "sta": 62,
-        "str": 54,
-        "tac": 53,
-        "vis": 62
+        "pos": 45,
+        "sho": 62,
+        "sta": 56,
+        "str": 49,
+        "tac": 35,
+        "vis": 64
       },
       "birth": "1984-08-01",
       "contract": null,
@@ -1098,11 +1137,16 @@
       "name": "Andrea Orlendi",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 5000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 57,
@@ -1131,8 +1175,9 @@
     },
     {
       "alt": [
-        "RW",
-        "ST"
+        "LB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 45,
@@ -1161,18 +1206,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 54,
-        "dri": 42,
-        "ldr": 54,
-        "pac": 48,
-        "pas": 51,
-        "pos": 62,
-        "sho": 30,
-        "sta": 54,
-        "str": 57,
-        "tac": 61,
-        "vis": 40
+        "aer": 45,
+        "com": 52,
+        "dri": 52,
+        "ldr": 50,
+        "pac": 56,
+        "pas": 55,
+        "pos": 57,
+        "sho": 37,
+        "sta": 60,
+        "str": 49,
+        "tac": 58,
+        "vis": 46
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -1182,23 +1227,27 @@
       "name": "Angel Senchez",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 54,
-        "dri": 41,
-        "ldr": 49,
-        "pac": 46,
+        "aer": 50,
+        "com": 57,
+        "dri": 53,
+        "ldr": 45,
+        "pac": 52,
         "pas": 42,
-        "pos": 54,
-        "sho": 28,
+        "pos": 49,
+        "sho": 58,
         "sta": 51,
-        "str": 55,
-        "tac": 55,
-        "vis": 39
+        "str": 53,
+        "tac": 22,
+        "vis": 45
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -1208,11 +1257,16 @@
       "name": "Claude Gnekpa",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "ST",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 49,

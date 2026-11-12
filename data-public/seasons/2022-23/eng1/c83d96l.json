@@ -48,9 +48,6 @@
       "wage": 519500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 82,
         "com": 75,
@@ -77,6 +74,9 @@
       "wage": 282000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 80,
         "com": 81,
@@ -162,6 +162,9 @@
       "wage": 415000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 89,
@@ -196,7 +199,8 @@
     {
       "alt": [
         "RB",
-        "LB"
+        "LB",
+        "RW"
       ],
       "attrs": {
         "aer": 60,
@@ -228,18 +232,22 @@
       "wage": 152500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 73,
         "dri": 82,
         "ldr": 67,
         "pac": 68,
-        "pas": 75,
+        "pas": 76,
         "pos": 67,
         "sho": 68,
-        "sta": 75,
+        "sta": 76,
         "str": 69,
-        "tac": 69,
+        "tac": 70,
         "vis": 75
       },
       "birth": "1995-02-01",
@@ -258,19 +266,21 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 63,
-        "com": 77,
+        "aer": 82,
+        "com": 96,
         "dri": 84,
         "ldr": 66,
-        "pac": 74,
+        "pac": 90,
         "pas": 84,
-        "pos": 46,
-        "sho": 76,
+        "pos": 65,
+        "sho": 95,
         "sta": 82,
-        "str": 70,
+        "str": 89,
         "tac": 56,
         "vis": 86
       },
@@ -380,7 +390,8 @@
     },
     {
       "alt": [
-        "RW"
+        "DM",
+        "RM"
       ],
       "attrs": {
         "aer": 58,
@@ -411,18 +422,21 @@
       "wage": 103500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,
         "dri": 80,
         "ldr": 62,
         "pac": 69,
-        "pas": 77,
+        "pas": 78,
         "pos": 68,
         "sho": 69,
-        "sta": 76,
+        "sta": 77,
         "str": 68,
-        "tac": 68,
+        "tac": 69,
         "vis": 76
       },
       "birth": "2001-01-01",
@@ -437,23 +451,19 @@
       "wage": 224500
     },
     {
-      "alt": [
-        "CM",
-        "AM"
-      ],
       "attrs": {
         "aer": 46,
-        "com": 64,
+        "com": 72,
         "dri": 73,
         "ldr": 53,
         "pac": 73,
-        "pas": 66,
+        "pas": 74,
         "pos": 49,
-        "sho": 66,
+        "sho": 74,
         "sta": 68,
         "str": 56,
         "tac": 48,
-        "vis": 66
+        "vis": 74
       },
       "birth": "2003-04-01",
       "contract": "2027-06-30",
@@ -463,26 +473,27 @@
       "name": "Harvey Elliutt",
       "nation": "ENG",
       "number": 19,
-      "pos": "RW",
+      "pos": "AM",
       "wage": 71000
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 76,
         "com": 76,
-        "dri": 71,
+        "dri": 74,
         "ldr": 63,
-        "pac": 77,
-        "pas": 66,
+        "pac": 80,
+        "pas": 69,
         "pos": 48,
         "sho": 85,
         "sta": 72,
         "str": 75,
         "tac": 37,
-        "vis": 65
+        "vis": 68
       },
       "birth": "1996-12-01",
       "contract": "2027-06-30",
@@ -492,7 +503,7 @@
       "name": "Diogo Juta",
       "nation": "POR",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "traits": [
         "clutch"
       ],
@@ -551,6 +562,9 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 82,
@@ -610,16 +624,16 @@
     },
     {
       "attrs": {
-        "aer": 80,
-        "com": 66,
+        "aer": 82,
+        "com": 68,
         "dri": 70,
         "ldr": 65,
         "pac": 91,
         "pas": 63,
-        "pos": 46,
-        "sho": 80,
+        "pos": 48,
+        "sho": 82,
         "sta": 70,
-        "str": 86,
+        "str": 88,
         "tac": 38,
         "vis": 63
       },
@@ -667,6 +681,9 @@
       "wage": 102500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -773,18 +790,23 @@
       "wage": 82000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 81,
         "dri": 80,
         "ldr": 73,
-        "pac": 76,
+        "pac": 93,
         "pas": 92,
-        "pos": 68,
+        "pos": 85,
         "sho": 76,
-        "sta": 90,
-        "str": 75,
-        "tac": 72,
+        "sta": 99,
+        "str": 92,
+        "tac": 89,
         "vis": 92
       },
       "birth": "1998-10-01",

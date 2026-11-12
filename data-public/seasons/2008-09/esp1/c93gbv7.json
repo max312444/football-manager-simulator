@@ -58,7 +58,7 @@
         "ldr": 61,
         "pac": 64,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 69,
         "sta": 63,
         "str": 66,
@@ -99,7 +99,7 @@
       "name": "Kuikili",
       "nation": "ESP",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 12000
     },
     {
@@ -156,19 +156,22 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 64,
-        "dri": 58,
-        "ldr": 59,
-        "pac": 59,
-        "pas": 66,
-        "pos": 62,
-        "sho": 55,
-        "sta": 62,
-        "str": 61,
-        "tac": 57,
-        "vis": 66
+        "aer": 44,
+        "com": 62,
+        "dri": 63,
+        "ldr": 55,
+        "pac": 68,
+        "pas": 62,
+        "pos": 44,
+        "sho": 59,
+        "sta": 58,
+        "str": 56,
+        "tac": 37,
+        "vis": 63
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -178,10 +181,14 @@
       "name": "Joseba del Olmu",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -208,6 +215,10 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -241,7 +252,7 @@
         "ldr": 69,
         "pac": 81,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 80,
         "sta": 77,
         "str": 79,
@@ -261,18 +272,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 73,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 74,
-        "pas": 75,
-        "pos": 72,
-        "sho": 68,
-        "sta": 80,
-        "str": 72,
-        "tac": 72,
-        "vis": 78
+        "aer": 59,
+        "com": 75,
+        "dri": 80,
+        "ldr": 72,
+        "pac": 77,
+        "pas": 76,
+        "pos": 57,
+        "sho": 75,
+        "sta": 74,
+        "str": 67,
+        "tac": 54,
+        "vis": 81
       },
       "birth": "1979-12-01",
       "contract": null,
@@ -282,10 +293,14 @@
       "name": "Francisco Yesta",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 44000
     },
     {
+      "alt": [
+        "DM",
+        "RW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 74,
@@ -319,7 +334,7 @@
         "ldr": 55,
         "pac": 62,
         "pas": 56,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 54,
         "str": 58,
@@ -365,7 +380,8 @@
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "RW"
       ],
       "attrs": {
         "aer": 58,
@@ -393,9 +409,6 @@
       "wage": 19000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 67,
         "com": 73,
@@ -423,18 +436,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 77,
-        "dri": 76,
-        "ldr": 71,
-        "pac": 72,
-        "pas": 76,
-        "pos": 72,
-        "sho": 69,
+        "dri": 72,
+        "ldr": 73,
+        "pac": 69,
+        "pas": 75,
+        "pos": 76,
+        "sho": 63,
         "sta": 77,
-        "str": 69,
-        "tac": 71,
-        "vis": 75
+        "str": 74,
+        "tac": 77,
+        "vis": 72
       },
       "birth": "1979-02-01",
       "contract": null,
@@ -444,23 +457,27 @@
       "name": "Pablo Orbayz",
       "nation": "ESP",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 44000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 80,
-        "com": 81,
-        "dri": 80,
-        "ldr": 73,
-        "pac": 80,
-        "pas": 73,
-        "pos": 55,
-        "sho": 84,
-        "sta": 75,
-        "str": 77,
-        "tac": 50,
-        "vis": 73
+        "aer": 66,
+        "com": 78,
+        "dri": 85,
+        "ldr": 71,
+        "pac": 84,
+        "pas": 79,
+        "pos": 57,
+        "sho": 79,
+        "sta": 77,
+        "str": 67,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -470,26 +487,26 @@
       "name": "Joseba Etxeberrie",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 44000
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 74,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 67,
-        "pas": 76,
-        "pos": 73,
-        "sho": 65,
+        "dri": 68,
+        "ldr": 73,
+        "pac": 64,
+        "pas": 75,
+        "pos": 77,
+        "sho": 59,
         "sta": 78,
-        "str": 65,
-        "tac": 66,
-        "vis": 74
+        "str": 70,
+        "tac": 72,
+        "vis": 71
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -499,7 +516,7 @@
       "name": "Carlos Gurpagui",
       "nation": "ESP",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 37000
     },
     {
@@ -556,21 +573,21 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 64,
-        "pas": 67,
-        "pos": 62,
-        "sho": 63,
-        "sta": 65,
-        "str": 63,
-        "tac": 64,
-        "vis": 64
+        "aer": 53,
+        "com": 66,
+        "dri": 71,
+        "ldr": 56,
+        "pac": 73,
+        "pas": 63,
+        "pos": 44,
+        "sho": 67,
+        "sta": 61,
+        "str": 58,
+        "tac": 44,
+        "vis": 61
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -580,7 +597,7 @@
       "name": "Markel Sosaeta",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17500
     },
     {
@@ -635,26 +652,26 @@
       "name": "Javier Cesas",
       "nation": "ESP",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 13000
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 72,
-        "dri": 73,
-        "ldr": 68,
-        "pac": 64,
-        "pas": 71,
-        "pos": 67,
-        "sho": 63,
+        "dri": 69,
+        "ldr": 70,
+        "pac": 61,
+        "pas": 70,
+        "pos": 71,
+        "sho": 57,
         "sta": 72,
-        "str": 66,
-        "tac": 69,
-        "vis": 74
+        "str": 71,
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1988-09-01",
       "contract": null,
@@ -664,7 +681,7 @@
       "name": "Javi Martinaz",
       "nation": "ESP",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 29500
     },
     {

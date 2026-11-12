@@ -182,9 +182,6 @@
       "wage": 29500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 48,
         "com": 67,
@@ -192,11 +189,11 @@
         "ldr": 59,
         "pac": 59,
         "pas": 74,
-        "pos": 55,
+        "pos": 70,
         "sho": 61,
         "sta": 72,
-        "str": 57,
-        "tac": 55,
+        "str": 72,
+        "tac": 70,
         "vis": 73
       },
       "birth": "1984-01-01",
@@ -207,7 +204,7 @@
       "name": "Glenn Whelen",
       "nation": "IRL",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 39500
     },
@@ -234,10 +231,13 @@
       "name": "Liam Lawrance",
       "nation": "IRL",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 26500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 71,
@@ -319,16 +319,16 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 67,
+        "aer": 58,
+        "com": 68,
         "dri": 62,
         "ldr": 57,
         "pac": 59,
         "pas": 54,
-        "pos": 29,
-        "sho": 67,
+        "pos": 30,
+        "sho": 68,
         "sta": 53,
-        "str": 61,
+        "str": 62,
         "tac": 20,
         "vis": 51
       },
@@ -426,19 +426,22 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 70,
-        "dri": 56,
+        "com": 83,
+        "dri": 69,
         "ldr": 71,
         "pac": 55,
-        "pas": 62,
+        "pas": 75,
         "pos": 68,
-        "sho": 47,
-        "sta": 67,
+        "sho": 60,
+        "sta": 80,
         "str": 70,
         "tac": 74,
-        "vis": 57
+        "vis": 70
       },
       "birth": "1977-03-01",
       "contract": "2010-06-30",
@@ -448,7 +451,7 @@
       "name": "Amdy Feye",
       "nation": "SEN",
       "number": 16,
-      "pos": "DM",
+      "pos": "CM",
       "verify": true,
       "wage": 42500
     },
@@ -480,20 +483,22 @@
     },
     {
       "alt": [
-        "LB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 31,
         "com": 58,
         "dri": 67,
         "ldr": 47,
-        "pac": 68,
+        "pac": 81,
         "pas": 57,
-        "pos": 35,
+        "pos": 61,
         "sho": 55,
-        "sta": 65,
-        "str": 43,
-        "tac": 26,
+        "sta": 78,
+        "str": 69,
+        "tac": 52,
         "vis": 57
       },
       "birth": "1982-10-01",
@@ -504,11 +509,14 @@
       "name": "Danny Pogh",
       "nation": "ENG",
       "number": 18,
-      "pos": "LM",
+      "pos": "LB",
       "verify": true,
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 57,
@@ -537,6 +545,7 @@
     },
     {
       "alt": [
+        "DM",
         "RM"
       ],
       "attrs": {

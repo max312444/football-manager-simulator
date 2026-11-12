@@ -123,6 +123,9 @@
       "wage": 114500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -339,6 +342,11 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -366,18 +374,23 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 71,
-        "dri": 67,
+        "dri": 71,
         "ldr": 62,
-        "pac": 62,
+        "pac": 69,
         "pas": 71,
         "pos": 64,
-        "sho": 66,
-        "sta": 69,
+        "sho": 70,
+        "sta": 76,
         "str": 65,
-        "tac": 61,
+        "tac": 64,
         "vis": 69
       },
       "birth": "1992-01-01",
@@ -388,7 +401,7 @@
       "name": "Kenny McLeen",
       "nation": "SCO",
       "number": 23,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 105000
     },
     {
@@ -399,11 +412,11 @@
         "ldr": 56,
         "pac": 64,
         "pas": 75,
-        "pos": 60,
+        "pos": 68,
         "sho": 61,
         "sta": 69,
-        "str": 59,
-        "tac": 60,
+        "str": 67,
+        "tac": 68,
         "vis": 68
       },
       "birth": "2001-06-01",
@@ -415,10 +428,13 @@
       "name": "Billy Gylmour",
       "nation": "SCO",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 80000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -452,11 +468,11 @@
         "ldr": 62,
         "pac": 61,
         "pas": 70,
-        "pos": 63,
+        "pos": 68,
         "sho": 63,
         "sta": 70,
-        "str": 63,
-        "tac": 65,
+        "str": 68,
+        "tac": 70,
         "vis": 70
       },
       "birth": "1996-05-01",
@@ -468,10 +484,13 @@
       "name": "Mathias Normenn",
       "nation": "NOR",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 98500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 67,
@@ -498,6 +517,10 @@
       "wage": 59500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 60,
@@ -524,22 +547,19 @@
       "wage": 30000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 51,
-        "com": 70,
+        "com": 74,
         "dri": 72,
         "ldr": 58,
         "pac": 73,
-        "pas": 68,
+        "pas": 72,
         "pos": 52,
-        "sho": 69,
+        "sho": 73,
         "sta": 69,
         "str": 60,
         "tac": 53,
-        "vis": 70
+        "vis": 74
       },
       "birth": "1998-02-01",
       "contract": "2024-06-30",
@@ -554,6 +574,7 @@
     },
     {
       "alt": [
+        "AM",
         "RW"
       ],
       "attrs": {
@@ -608,6 +629,10 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "LM",
+        "LB"
+      ],
       "attrs": {
         "aer": 42,
         "com": 59,
@@ -634,9 +659,6 @@
       "wage": 30000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -664,16 +686,16 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 74,
+        "aer": 65,
+        "com": 75,
         "dri": 70,
         "ldr": 65,
         "pac": 73,
         "pas": 66,
-        "pos": 50,
-        "sho": 76,
+        "pos": 51,
+        "sho": 77,
         "sta": 70,
-        "str": 72,
+        "str": 73,
         "tac": 44,
         "vis": 63
       },
@@ -716,16 +738,16 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 60,
+        "aer": 58,
+        "com": 63,
         "dri": 59,
         "ldr": 50,
         "pac": 65,
         "pas": 58,
-        "pos": 44,
-        "sho": 67,
+        "pos": 47,
+        "sho": 70,
         "sta": 58,
-        "str": 60,
+        "str": 63,
         "tac": 38,
         "vis": 59
       },

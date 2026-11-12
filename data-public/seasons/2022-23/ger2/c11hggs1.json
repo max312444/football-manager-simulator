@@ -53,18 +53,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 56,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 58,
-        "pos": 55,
-        "sho": 51,
-        "sta": 59,
-        "str": 55,
-        "tac": 57,
-        "vis": 58
+        "aer": 64,
+        "com": 54,
+        "dri": 44,
+        "ldr": 57,
+        "pac": 52,
+        "pas": 48,
+        "pos": 60,
+        "sho": 30,
+        "sta": 53,
+        "str": 62,
+        "tac": 64,
+        "vis": 43
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -74,23 +74,23 @@
       "name": "Benedikt Gimbar",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 10000
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 57,
-        "dri": 45,
+        "aer": 54,
+        "com": 59,
+        "dri": 53,
         "ldr": 58,
-        "pac": 52,
-        "pas": 53,
-        "pos": 67,
-        "sho": 31,
-        "sta": 55,
-        "str": 64,
-        "tac": 64,
-        "vis": 48
+        "pac": 50,
+        "pas": 62,
+        "pos": 66,
+        "sho": 46,
+        "sta": 61,
+        "str": 62,
+        "tac": 63,
+        "vis": 60
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -100,21 +100,26 @@
       "name": "Benedikt Seller",
       "nation": "GER",
       "number": 6,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 9000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 58,
-        "dri": 54,
+        "aer": 53,
+        "com": 66,
+        "dri": 58,
         "ldr": 52,
-        "pac": 52,
+        "pac": 59,
         "pas": 56,
-        "pos": 51,
-        "sho": 46,
+        "pos": 59,
+        "sho": 54,
         "sta": 56,
-        "str": 50,
+        "str": 58,
         "tac": 51,
         "vis": 57
       },
@@ -127,10 +132,13 @@
       "name": "Nicklas Shipnosky",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -164,7 +172,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 68,
         "sta": 60,
         "str": 61,
@@ -184,6 +192,11 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 55,
@@ -191,7 +204,7 @@
         "ldr": 48,
         "pac": 50,
         "pas": 41,
-        "pos": 32,
+        "pos": 52,
         "sho": 55,
         "sta": 51,
         "str": 50,
@@ -211,19 +224,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 48,
+        "com": 59,
         "dri": 36,
         "ldr": 51,
         "pac": 45,
-        "pas": 43,
+        "pas": 54,
         "pos": 55,
         "sho": 23,
-        "sta": 49,
+        "sta": 60,
         "str": 55,
         "tac": 56,
-        "vis": 36
+        "vis": 47
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -233,23 +251,23 @@
       "name": "Konrad Feber",
       "nation": "GER",
       "number": 11,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 57,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 50,
+        "aer": 44,
+        "com": 58,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 53,
         "pas": 60,
-        "pos": 55,
-        "sho": 51,
-        "sta": 58,
-        "str": 54,
-        "tac": 51,
-        "vis": 57
+        "pos": 40,
+        "sho": 57,
+        "sta": 52,
+        "str": 49,
+        "tac": 33,
+        "vis": 59
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -261,23 +279,27 @@
       "nation": "KVX",
       "nation2": "GER",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 60,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 57,
+        "aer": 48,
+        "com": 61,
+        "dri": 65,
+        "ldr": 55,
+        "pac": 60,
         "pas": 62,
-        "pos": 60,
-        "sho": 52,
-        "sta": 63,
-        "str": 54,
-        "tac": 54,
-        "vis": 61
+        "pos": 45,
+        "sho": 58,
+        "sta": 57,
+        "str": 49,
+        "tac": 36,
+        "vis": 63
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -288,23 +310,26 @@
       "name": "Sarpreet Syngh",
       "nation": "NZL",
       "number": 15,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 13000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 47,
-        "dri": 50,
-        "ldr": 43,
-        "pac": 51,
-        "pas": 44,
-        "pos": 29,
-        "sho": 52,
-        "sta": 48,
-        "str": 52,
-        "tac": 17,
-        "vis": 40
+        "aer": 30,
+        "com": 44,
+        "dri": 55,
+        "ldr": 41,
+        "pac": 55,
+        "pas": 50,
+        "pos": 31,
+        "sho": 47,
+        "sta": 50,
+        "str": 42,
+        "tac": 23,
+        "vis": 46
       },
       "birth": "2001-02-01",
       "contract": null,
@@ -315,7 +340,7 @@
       "name": "Oscar Schonfalder",
       "nation": "GER",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 2500
     },
     {
@@ -326,7 +351,7 @@
         "ldr": 47,
         "pac": 58,
         "pas": 46,
-        "pos": 36,
+        "pos": 56,
         "sho": 56,
         "sta": 54,
         "str": 55,
@@ -353,7 +378,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 62,
         "sta": 53,
         "str": 56,
@@ -373,18 +398,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 59,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 52,
-        "pos": 65,
-        "sho": 33,
-        "sta": 58,
-        "str": 67,
-        "tac": 67,
-        "vis": 47
+        "aer": 54,
+        "com": 57,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 56,
+        "pos": 60,
+        "sho": 40,
+        "sta": 64,
+        "str": 59,
+        "tac": 64,
+        "vis": 53
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -395,7 +420,7 @@
       "nation": "GAM",
       "nation2": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
@@ -425,19 +450,24 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
-        "com": 52,
-        "dri": 50,
+        "com": 59,
+        "dri": 54,
         "ldr": 47,
         "pac": 53,
-        "pas": 40,
-        "pos": 25,
-        "sho": 50,
+        "pas": 51,
+        "pos": 45,
+        "sho": 57,
         "sta": 49,
         "str": 50,
         "tac": 20,
-        "vis": 40
+        "vis": 51
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -447,7 +477,7 @@
       "name": "Minos Guuras",
       "nation": "GER",
       "number": 22,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2500
     },
     {
@@ -510,7 +540,7 @@
         "ldr": 46,
         "pac": 54,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 57,
         "sta": 50,
         "str": 56,
@@ -530,19 +560,24 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "LB"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 48,
-        "dri": 34,
-        "ldr": 50,
-        "pac": 42,
-        "pas": 44,
-        "pos": 51,
-        "sho": 26,
-        "sta": 48,
-        "str": 54,
-        "tac": 54,
-        "vis": 35
+        "aer": 39,
+        "com": 46,
+        "dri": 44,
+        "ldr": 46,
+        "pac": 50,
+        "pas": 48,
+        "pos": 46,
+        "sho": 33,
+        "sta": 54,
+        "str": 46,
+        "tac": 51,
+        "vis": 41
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -553,7 +588,7 @@
       "name": "Lasse Gonther",
       "nation": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
@@ -590,7 +625,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 60,
         "sta": 52,
         "str": 59,
@@ -610,6 +645,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 50,

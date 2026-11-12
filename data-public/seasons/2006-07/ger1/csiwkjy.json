@@ -24,6 +24,10 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -57,7 +61,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 66,
-        "pos": 55,
+        "pos": 75,
         "sho": 78,
         "sta": 75,
         "str": 73,
@@ -78,21 +82,23 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 64,
-        "com": 75,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 71,
+        "aer": 58,
+        "com": 76,
+        "dri": 80,
+        "ldr": 72,
+        "pac": 74,
         "pas": 75,
-        "pos": 72,
-        "sho": 67,
-        "sta": 75,
-        "str": 68,
-        "tac": 74,
-        "vis": 79
+        "pos": 57,
+        "sho": 73,
+        "sta": 69,
+        "str": 63,
+        "tac": 56,
+        "vis": 81
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -102,23 +108,23 @@
       "name": "Marek Mintel",
       "nation": "SVK",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 37500
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 73,
-        "dri": 70,
-        "ldr": 72,
-        "pac": 71,
-        "pas": 77,
-        "pos": 70,
-        "sho": 68,
+        "dri": 66,
+        "ldr": 74,
+        "pac": 68,
+        "pas": 76,
+        "pos": 74,
+        "sho": 62,
         "sta": 78,
-        "str": 71,
-        "tac": 69,
-        "vis": 74
+        "str": 76,
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -128,7 +134,7 @@
       "name": "Jawhar Mnary",
       "nation": "TUN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 37500
     },
     {
@@ -159,6 +165,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 73,
@@ -187,18 +196,18 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 69,
-        "dri": 61,
-        "ldr": 75,
-        "pac": 68,
-        "pas": 68,
-        "pos": 79,
-        "sho": 48,
-        "sta": 70,
-        "str": 78,
-        "tac": 76,
-        "vis": 57
+        "aer": 63,
+        "com": 67,
+        "dri": 71,
+        "ldr": 71,
+        "pac": 76,
+        "pas": 72,
+        "pos": 74,
+        "sho": 55,
+        "sta": 76,
+        "str": 70,
+        "tac": 73,
+        "vis": 63
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -208,24 +217,24 @@
       "name": "Vratislav Gresku",
       "nation": "SVK",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 30000
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 72,
-        "dri": 72,
-        "ldr": 68,
-        "pac": 65,
-        "pas": 72,
-        "pos": 73,
-        "sho": 68,
+        "dri": 68,
+        "ldr": 70,
+        "pac": 62,
+        "pas": 71,
+        "pos": 77,
+        "sho": 62,
         "sta": 76,
-        "str": 65,
-        "tac": 70,
-        "vis": 72
+        "str": 70,
+        "tac": 76,
+        "vis": 69
       },
       "birth": "1980-12-01",
       "contract": null,
@@ -235,11 +244,14 @@
       "name": "Marco Engelherdt",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 32000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -267,19 +279,22 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 71,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 69,
-        "pas": 58,
-        "pos": 47,
-        "sho": 72,
-        "sta": 65,
-        "str": 70,
-        "tac": 39,
-        "vis": 58
+        "aer": 51,
+        "com": 68,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 73,
+        "pas": 64,
+        "pos": 49,
+        "sho": 67,
+        "sta": 67,
+        "str": 60,
+        "tac": 45,
+        "vis": 64
       },
       "birth": "1983-10-01",
       "contract": null,
@@ -289,7 +304,7 @@
       "name": "Ivan Seenko",
       "nation": "RUS",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 13000
     },
     {
@@ -300,7 +315,7 @@
         "ldr": 60,
         "pac": 68,
         "pas": 63,
-        "pos": 47,
+        "pos": 67,
         "sho": 71,
         "sta": 61,
         "str": 70,
@@ -327,7 +342,7 @@
         "ldr": 59,
         "pac": 71,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 66,
         "str": 67,
@@ -353,7 +368,7 @@
         "ldr": 63,
         "pac": 65,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 64,
         "str": 65,
@@ -372,6 +387,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
@@ -400,6 +418,11 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 62,
@@ -453,6 +476,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 63,
@@ -480,18 +506,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 67,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 64,
-        "pas": 65,
-        "pos": 66,
-        "sho": 60,
+        "dri": 57,
+        "ldr": 63,
+        "pac": 61,
+        "pas": 64,
+        "pos": 70,
+        "sho": 54,
         "sta": 70,
-        "str": 58,
-        "tac": 62,
-        "vis": 66
+        "str": 63,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -501,7 +527,7 @@
       "name": "Ivica Banuvic",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
@@ -538,7 +564,7 @@
         "ldr": 61,
         "pac": 64,
         "pas": 53,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 58,
         "str": 62,
@@ -559,18 +585,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 58,
-        "dri": 47,
-        "ldr": 59,
-        "pac": 54,
-        "pas": 57,
-        "pos": 66,
-        "sho": 38,
-        "sta": 57,
-        "str": 67,
-        "tac": 64,
-        "vis": 50
+        "aer": 53,
+        "com": 56,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 62,
+        "pas": 61,
+        "pos": 61,
+        "sho": 45,
+        "sta": 63,
+        "str": 59,
+        "tac": 61,
+        "vis": 56
       },
       "birth": "1983-02-01",
       "contract": null,
@@ -581,23 +607,27 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8000
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 58,
-        "ldr": 59,
-        "pac": 57,
+        "aer": 46,
+        "com": 63,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 60,
         "pas": 64,
-        "pos": 59,
-        "sho": 55,
-        "sta": 66,
-        "str": 59,
-        "tac": 58,
-        "vis": 65
+        "pos": 44,
+        "sho": 61,
+        "sta": 60,
+        "str": 54,
+        "tac": 40,
+        "vis": 67
       },
       "birth": "1985-11-01",
       "contract": null,
@@ -608,7 +638,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 10500
     },
@@ -698,7 +728,7 @@
         "ldr": 51,
         "pac": 60,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 58,
         "sta": 53,
         "str": 59,
@@ -771,6 +801,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,

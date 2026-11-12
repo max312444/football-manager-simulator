@@ -73,7 +73,7 @@
       "name": "Issiaga Sylle",
       "nation": "GUI",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 36500
     },
     {
@@ -130,19 +130,23 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 68,
-        "dri": 62,
-        "ldr": 61,
-        "pac": 67,
-        "pas": 54,
-        "pos": 40,
-        "sho": 67,
-        "sta": 59,
-        "str": 68,
-        "tac": 34,
-        "vis": 59
+        "aer": 49,
+        "com": 65,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 71,
+        "pas": 60,
+        "pos": 42,
+        "sho": 62,
+        "sta": 61,
+        "str": 58,
+        "tac": 40,
+        "vis": 65
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -152,7 +156,7 @@
       "name": "Arnaud Nordyn",
       "nation": "FRA",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 27000
     },
     {
@@ -163,7 +167,7 @@
         "ldr": 58,
         "pac": 61,
         "pas": 52,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 58,
         "str": 60,
@@ -183,18 +187,18 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 80,
-        "dri": 73,
-        "ldr": 72,
-        "pac": 78,
-        "pas": 68,
-        "pos": 55,
-        "sho": 78,
-        "sta": 69,
-        "str": 79,
-        "tac": 47,
-        "vis": 65
+        "aer": 60,
+        "com": 77,
+        "dri": 78,
+        "ldr": 70,
+        "pac": 82,
+        "pas": 74,
+        "pos": 57,
+        "sho": 73,
+        "sta": 71,
+        "str": 69,
+        "tac": 53,
+        "vis": 71
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -205,23 +209,23 @@
       "nation": "JOR",
       "nation2": "FRA",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 57500
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 67,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 59,
+        "aer": 51,
+        "com": 68,
+        "dri": 67,
+        "ldr": 60,
+        "pac": 62,
         "pas": 67,
-        "pos": 66,
-        "sho": 58,
-        "sta": 66,
-        "str": 61,
-        "tac": 64,
-        "vis": 66
+        "pos": 51,
+        "sho": 64,
+        "sta": 60,
+        "str": 56,
+        "tac": 46,
+        "vis": 68
       },
       "birth": "1991-12-01",
       "contract": null,
@@ -231,10 +235,13 @@
       "name": "Teji Savaniar",
       "nation": "FRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 45500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 71,
@@ -262,18 +269,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 59,
-        "dri": 59,
-        "ldr": 60,
-        "pac": 58,
-        "pas": 64,
-        "pos": 56,
-        "sho": 55,
+        "dri": 55,
+        "ldr": 62,
+        "pac": 55,
+        "pas": 63,
+        "pos": 60,
+        "sho": 49,
         "sta": 60,
-        "str": 55,
-        "tac": 56,
-        "vis": 62
+        "str": 60,
+        "tac": 62,
+        "vis": 59
       },
       "birth": "2001-09-01",
       "contract": null,
@@ -283,7 +290,7 @@
       "name": "Joris Choterd",
       "nation": "FRA",
       "number": 13,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25500
     },
     {
@@ -362,10 +369,13 @@
       "name": "Theo Sainte-Luca",
       "nation": "FRA",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -399,7 +409,7 @@
         "ldr": 44,
         "pac": 54,
         "pas": 41,
-        "pos": 32,
+        "pos": 52,
         "sho": 55,
         "sta": 48,
         "str": 52,
@@ -419,6 +429,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 48,
@@ -499,18 +512,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 49,
-        "dri": 34,
-        "ldr": 46,
-        "pac": 46,
-        "pas": 42,
-        "pos": 54,
-        "sho": 23,
-        "sta": 47,
-        "str": 50,
-        "tac": 52,
-        "vis": 33
+        "aer": 37,
+        "com": 47,
+        "dri": 44,
+        "ldr": 42,
+        "pac": 54,
+        "pas": 46,
+        "pos": 49,
+        "sho": 30,
+        "sta": 53,
+        "str": 42,
+        "tac": 49,
+        "vis": 39
       },
       "birth": "2004-01-01",
       "contract": null,
@@ -521,7 +534,7 @@
       "nation": "FRA",
       "nation2": "ITA",
       "number": 35,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5000
     },
     {
@@ -532,7 +545,7 @@
         "ldr": 41,
         "pac": 44,
         "pas": 41,
-        "pos": 25,
+        "pos": 45,
         "sho": 52,
         "sta": 43,
         "str": 48,
@@ -605,18 +618,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 60,
-        "dri": 49,
-        "ldr": 64,
-        "pac": 58,
-        "pas": 53,
-        "pos": 68,
-        "sho": 35,
-        "sta": 59,
-        "str": 66,
-        "tac": 67,
-        "vis": 47
+        "aer": 51,
+        "com": 58,
+        "dri": 59,
+        "ldr": 60,
+        "pac": 66,
+        "pas": 57,
+        "pos": 63,
+        "sho": 42,
+        "sta": 65,
+        "str": 58,
+        "tac": 64,
+        "vis": 53
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -626,23 +639,28 @@
       "name": "Falaye Sacku",
       "nation": "MLI",
       "number": 77,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 24500
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 79,
-        "dri": 74,
-        "ldr": 67,
-        "pac": 76,
-        "pas": 65,
-        "pos": 50,
-        "sho": 81,
-        "sta": 69,
-        "str": 77,
-        "tac": 48,
-        "vis": 67
+        "aer": 57,
+        "com": 76,
+        "dri": 79,
+        "ldr": 65,
+        "pac": 80,
+        "pas": 71,
+        "pos": 52,
+        "sho": 76,
+        "sta": 71,
+        "str": 67,
+        "tac": 54,
+        "vis": 73
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -653,22 +671,25 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": 99,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 57500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
         "dri": 58,
         "ldr": 55,
         "pac": 54,
-        "pas": 57,
+        "pas": 58,
         "pos": 56,
         "sho": 53,
-        "sta": 58,
+        "sta": 59,
         "str": 55,
-        "tac": 50,
+        "tac": 51,
         "vis": 61
       },
       "birth": "2000-08-01",
@@ -683,6 +704,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,

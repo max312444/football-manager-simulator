@@ -54,13 +54,13 @@
       "attrs": {
         "aer": 51,
         "com": 46,
-        "dri": 31,
+        "dri": 42,
         "ldr": 47,
-        "pac": 40,
-        "pas": 37,
+        "pac": 51,
+        "pas": 48,
         "pos": 49,
         "sho": 23,
-        "sta": 44,
+        "sta": 55,
         "str": 49,
         "tac": 52,
         "vis": 37
@@ -73,10 +73,13 @@
       "name": "Nacho Vydal",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 59,
@@ -129,10 +132,6 @@
       "wage": 23000
     },
     {
-      "alt": [
-        "DM",
-        "CM"
-      ],
       "attrs": {
         "aer": 70,
         "com": 65,
@@ -160,22 +159,23 @@
     },
     {
       "alt": [
+        "CB",
         "RB",
-        "DM"
+        "LB"
       ],
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 64,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 63,
-        "pas": 65,
-        "pos": 66,
-        "sho": 57,
+        "dri": 58,
+        "ldr": 61,
+        "pac": 60,
+        "pas": 64,
+        "pos": 70,
+        "sho": 51,
         "sta": 70,
-        "str": 60,
-        "tac": 62,
-        "vis": 64
+        "str": 65,
+        "tac": 68,
+        "vis": 61
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -185,23 +185,26 @@
       "name": "Oier Senjurjo",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 34000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 66,
-        "dri": 68,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 68,
-        "pos": 62,
-        "sho": 58,
-        "sta": 70,
-        "str": 62,
-        "tac": 62,
-        "vis": 66
+        "aer": 48,
+        "com": 64,
+        "dri": 73,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 64,
+        "pos": 44,
+        "sho": 62,
+        "sta": 66,
+        "str": 57,
+        "tac": 42,
+        "vis": 63
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -212,10 +215,13 @@
       "name": "Jony Rodriguaz",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 35500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -249,7 +255,7 @@
         "ldr": 64,
         "pac": 66,
         "pas": 60,
-        "pos": 42,
+        "pos": 62,
         "sho": 72,
         "sta": 63,
         "str": 66,
@@ -268,6 +274,10 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 72,
@@ -294,19 +304,24 @@
       "wage": 52500
     },
     {
+      "alt": [
+        "LM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 64,
-        "dri": 61,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 67,
-        "pos": 61,
-        "sho": 59,
-        "sta": 66,
-        "str": 63,
-        "tac": 64,
-        "vis": 68
+        "aer": 55,
+        "com": 62,
+        "dri": 64,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 65,
+        "pos": 53,
+        "sho": 57,
+        "sta": 67,
+        "str": 60,
+        "tac": 56,
+        "vis": 65
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -316,10 +331,14 @@
       "name": "Kike Barje",
       "nation": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 35000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 61,
@@ -373,19 +392,22 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 69,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 74,
-        "pos": 71,
-        "sho": 63,
-        "sta": 76,
-        "str": 65,
-        "tac": 67,
-        "vis": 73
+        "aer": 53,
+        "com": 67,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 70,
+        "pos": 53,
+        "sho": 67,
+        "sta": 72,
+        "str": 60,
+        "tac": 47,
+        "vis": 70
       },
       "birth": "1993-07-01",
       "contract": null,
@@ -395,7 +417,7 @@
       "name": "Ruben Garcie",
       "nation": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 64500
     },
     {
@@ -406,7 +428,7 @@
         "ldr": 61,
         "pac": 71,
         "pas": 61,
-        "pos": 46,
+        "pos": 66,
         "sho": 70,
         "sta": 66,
         "str": 70,
@@ -434,7 +456,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 60,
         "sta": 56,
         "str": 61,
@@ -460,7 +482,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 82,
         "sta": 71,
         "str": 78,
@@ -479,6 +501,10 @@
       "wage": 64500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -557,6 +583,10 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -610,7 +640,9 @@
     },
     {
       "alt": [
-        "CM"
+        "RB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 62,
@@ -638,19 +670,22 @@
       "wage": 43000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 58,
-        "dri": 55,
-        "ldr": 57,
-        "pac": 54,
-        "pas": 61,
-        "pos": 60,
-        "sho": 56,
-        "sta": 61,
-        "str": 55,
-        "tac": 53,
-        "vis": 59
+        "aer": 43,
+        "com": 56,
+        "dri": 60,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 57,
+        "pos": 42,
+        "sho": 60,
+        "sta": 57,
+        "str": 50,
+        "tac": 33,
+        "vis": 56
       },
       "birth": "1999-12-01",
       "contract": null,
@@ -660,26 +695,23 @@
       "name": "Javi Mertinez",
       "nation": "ESP",
       "number": 28,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 50,
-        "com": 61,
-        "dri": 53,
-        "ldr": 54,
-        "pac": 56,
+        "aer": 44,
+        "com": 62,
+        "dri": 57,
+        "ldr": 52,
+        "pac": 59,
         "pas": 59,
-        "pos": 56,
-        "sho": 50,
-        "sta": 61,
-        "str": 51,
-        "tac": 56,
-        "vis": 58
+        "pos": 41,
+        "sho": 56,
+        "sta": 55,
+        "str": 46,
+        "tac": 38,
+        "vis": 60
       },
       "birth": "2001-11-01",
       "contract": null,
@@ -689,7 +721,7 @@
       "name": "Aimar Oruz",
       "nation": "ESP",
       "number": 29,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15000
     },
     {
@@ -719,19 +751,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 53,
-        "dri": 47,
-        "ldr": 46,
-        "pac": 50,
-        "pas": 52,
-        "pos": 53,
-        "sho": 47,
-        "sta": 51,
-        "str": 47,
-        "tac": 48,
-        "vis": 56
+        "aer": 39,
+        "com": 51,
+        "dri": 52,
+        "ldr": 42,
+        "pac": 59,
+        "pas": 48,
+        "pos": 35,
+        "sho": 51,
+        "sta": 47,
+        "str": 42,
+        "tac": 28,
+        "vis": 53
       },
       "birth": "2000-03-01",
       "contract": null,
@@ -741,23 +776,26 @@
       "name": "Asier Curdoba",
       "nation": "ESP",
       "number": 32,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 57,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 53,
-        "pas": 56,
-        "pos": 51,
-        "sho": 52,
-        "sta": 61,
-        "str": 50,
-        "tac": 51,
-        "vis": 60
+        "aer": 43,
+        "com": 55,
+        "dri": 58,
+        "ldr": 47,
+        "pac": 62,
+        "pas": 52,
+        "pos": 33,
+        "sho": 56,
+        "sta": 57,
+        "str": 45,
+        "tac": 31,
+        "vis": 57
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -768,7 +806,7 @@
       "nation": "ESP",
       "nation2": "ECU",
       "number": 37,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 12500
     }
   ],

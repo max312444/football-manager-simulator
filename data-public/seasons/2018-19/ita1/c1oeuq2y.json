@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 56,
-        "dri": 48,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 51,
-        "pos": 60,
-        "sho": 29,
-        "sta": 54,
-        "str": 64,
-        "tac": 60,
-        "vis": 46
+        "aer": 47,
+        "com": 54,
+        "dri": 58,
+        "ldr": 51,
+        "pac": 59,
+        "pas": 55,
+        "pos": 55,
+        "sho": 36,
+        "sta": 60,
+        "str": 56,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -73,23 +73,23 @@
       "name": "Simone Iacuponi",
       "nation": "ITA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 7000
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 70,
-        "dri": 58,
-        "ldr": 72,
-        "pac": 65,
-        "pas": 66,
-        "pos": 76,
-        "sho": 45,
-        "sta": 66,
-        "str": 70,
-        "tac": 76,
-        "vis": 55
+        "aer": 62,
+        "com": 68,
+        "dri": 70,
+        "ldr": 68,
+        "pac": 75,
+        "pas": 71,
+        "pos": 69,
+        "sho": 55,
+        "sta": 74,
+        "str": 62,
+        "tac": 71,
+        "vis": 62
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -100,10 +100,13 @@
       "name": "Federico Dimerco",
       "nation": "ITA",
       "number": 3,
-      "pos": "CB",
+      "pos": "LWB",
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -130,6 +133,10 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 40,
         "com": 55,
@@ -158,18 +165,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 62,
-        "dri": 54,
-        "ldr": 58,
-        "pac": 55,
-        "pas": 60,
-        "pos": 56,
-        "sho": 55,
+        "dri": 50,
+        "ldr": 60,
+        "pac": 52,
+        "pas": 59,
+        "pos": 60,
+        "sho": 49,
         "sta": 61,
-        "str": 54,
-        "tac": 58,
-        "vis": 62
+        "str": 59,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -180,7 +187,7 @@
       "name": "Alessandro Deiole",
       "nation": "ITA",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11500
     },
     {
@@ -191,7 +198,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 55,
-        "pos": 46,
+        "pos": 66,
         "sho": 70,
         "sta": 63,
         "str": 63,
@@ -210,17 +217,22 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 62,
-        "dri": 61,
+        "aer": 60,
+        "com": 69,
+        "dri": 66,
         "ldr": 55,
-        "pac": 59,
+        "pac": 62,
         "pas": 61,
-        "pos": 61,
-        "sho": 53,
+        "pos": 66,
+        "sho": 60,
         "sta": 65,
-        "str": 54,
+        "str": 61,
         "tac": 59,
         "vis": 60
       },
@@ -233,10 +245,13 @@
       "name": "Amato Cicyretti",
       "nation": "ITA",
       "number": 10,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 57,
@@ -263,6 +278,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 54,
@@ -290,18 +308,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
         "dri": 68,
         "ldr": 67,
         "pac": 66,
-        "pas": 67,
+        "pas": 69,
         "pos": 69,
         "sho": 64,
-        "sta": 67,
+        "sta": 69,
         "str": 66,
-        "tac": 61,
+        "tac": 63,
         "vis": 69
       },
       "birth": "1988-04-01",
@@ -316,19 +338,24 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 58,
-        "dri": 42,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 54,
-        "pos": 59,
-        "sho": 32,
-        "sta": 54,
-        "str": 58,
-        "tac": 63,
-        "vis": 43
+        "aer": 51,
+        "com": 56,
+        "dri": 52,
+        "ldr": 53,
+        "pac": 59,
+        "pas": 58,
+        "pos": 54,
+        "sho": 39,
+        "sta": 60,
+        "str": 50,
+        "tac": 60,
+        "vis": 49
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -338,23 +365,26 @@
       "name": "Massimo Gubbi",
       "nation": "ITA",
       "number": 18,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 60,
-        "dri": 60,
-        "ldr": 53,
-        "pac": 60,
-        "pas": 54,
-        "pos": 42,
-        "sho": 64,
-        "sta": 55,
-        "str": 59,
-        "tac": 28,
-        "vis": 55
+        "aer": 47,
+        "com": 57,
+        "dri": 65,
+        "ldr": 51,
+        "pac": 64,
+        "pas": 60,
+        "pos": 44,
+        "sho": 59,
+        "sta": 57,
+        "str": 49,
+        "tac": 34,
+        "vis": 61
       },
       "birth": "1989-08-01",
       "contract": null,
@@ -364,10 +394,13 @@
       "name": "Antonio Di Geudio",
       "nation": "ITA",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 67,
@@ -447,18 +480,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 45,
         "com": 62,
-        "dri": 64,
+        "dri": 68,
         "ldr": 60,
-        "pac": 62,
-        "pas": 54,
-        "pos": 42,
-        "sho": 69,
+        "pac": 60,
+        "pas": 64,
+        "pos": 47,
+        "sho": 66,
         "sta": 63,
-        "str": 65,
-        "tac": 37,
-        "vis": 59
+        "str": 55,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -468,23 +501,27 @@
       "name": "Luca Syligardi",
       "nation": "ITA",
       "number": 26,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 13000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 77,
-        "dri": 81,
-        "ldr": 73,
-        "pac": 74,
-        "pas": 81,
-        "pos": 80,
-        "sho": 73,
-        "sta": 79,
-        "str": 76,
-        "tac": 76,
-        "vis": 78
+        "aer": 66,
+        "com": 75,
+        "dri": 86,
+        "ldr": 69,
+        "pac": 83,
+        "pas": 77,
+        "pos": 62,
+        "sho": 77,
+        "sta": 75,
+        "str": 71,
+        "tac": 56,
+        "vis": 75
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -494,10 +531,13 @@
       "name": "Garvinho",
       "nation": "CIV",
       "number": 27,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 45500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 64,
@@ -525,19 +565,22 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 63,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 69,
-        "pos": 65,
-        "sho": 60,
-        "sta": 68,
-        "str": 62,
-        "tac": 62,
-        "vis": 63
+        "aer": 54,
+        "com": 65,
+        "dri": 61,
+        "ldr": 58,
+        "pac": 57,
+        "pas": 71,
+        "pos": 66,
+        "sho": 62,
+        "sta": 70,
+        "str": 63,
+        "tac": 63,
+        "vis": 65
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -551,6 +594,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -584,7 +630,7 @@
         "ldr": 60,
         "pac": 63,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 72,
         "sta": 59,
         "str": 68,
@@ -683,19 +729,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 58,
-        "dri": 42,
-        "ldr": 58,
-        "pac": 50,
-        "pas": 54,
-        "pos": 63,
-        "sho": 29,
-        "sta": 55,
-        "str": 62,
-        "tac": 62,
-        "vis": 47
+        "aer": 47,
+        "com": 56,
+        "dri": 52,
+        "ldr": 54,
+        "pac": 58,
+        "pas": 58,
+        "pos": 58,
+        "sho": 36,
+        "sta": 61,
+        "str": 54,
+        "tac": 59,
+        "vis": 53
       },
       "birth": "1986-11-01",
       "contract": null,
@@ -705,23 +756,23 @@
       "name": "Luigi Scaglya",
       "nation": "ITA",
       "number": 61,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 51,
-        "dri": 37,
-        "ldr": 49,
-        "pac": 47,
-        "pas": 43,
-        "pos": 60,
-        "sho": 25,
-        "sta": 48,
-        "str": 58,
-        "tac": 59,
-        "vis": 43
+        "aer": 47,
+        "com": 49,
+        "dri": 47,
+        "ldr": 45,
+        "pac": 55,
+        "pas": 47,
+        "pos": 55,
+        "sho": 32,
+        "sta": 54,
+        "str": 50,
+        "tac": 56,
+        "vis": 49
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -731,10 +782,13 @@
       "name": "Giovanni Pynto",
       "nation": "ITA",
       "number": 65,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 49,
@@ -768,7 +822,7 @@
         "ldr": 57,
         "pac": 68,
         "pas": 60,
-        "pos": 42,
+        "pos": 62,
         "sho": 70,
         "sta": 63,
         "str": 65,
@@ -787,19 +841,22 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 70,
-        "dri": 68,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 73,
-        "pos": 70,
-        "sho": 69,
-        "sta": 75,
-        "str": 70,
-        "tac": 70,
-        "vis": 75
+        "aer": 56,
+        "com": 68,
+        "dri": 73,
+        "ldr": 67,
+        "pac": 80,
+        "pas": 69,
+        "pos": 52,
+        "sho": 73,
+        "sta": 71,
+        "str": 65,
+        "tac": 50,
+        "vis": 72
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -809,23 +866,23 @@
       "name": "Jonathan Biabyany",
       "nation": "FRA",
       "number": 77,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 45500
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 69,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 69,
-        "pos": 66,
-        "sho": 64,
+        "dri": 64,
+        "ldr": 67,
+        "pac": 61,
+        "pas": 68,
+        "pos": 70,
+        "sho": 58,
         "sta": 68,
-        "str": 64,
-        "tac": 67,
-        "vis": 72
+        "str": 69,
+        "tac": 73,
+        "vis": 69
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -836,23 +893,28 @@
       "name": "Alberto Gressi",
       "nation": "ITA",
       "number": 88,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 32000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 59,
-        "dri": 57,
+        "dri": 65,
         "ldr": 57,
         "pac": 57,
-        "pas": 50,
-        "pos": 40,
+        "pas": 58,
+        "pos": 60,
         "sho": 61,
         "sta": 58,
         "str": 58,
         "tac": 27,
-        "vis": 52
+        "vis": 60
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -863,7 +925,7 @@
       "name": "Mattia Sprucati",
       "nation": "ITA",
       "number": 93,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7500
     },
     {
@@ -894,19 +956,22 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 57,
-        "dri": 56,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 59,
-        "pos": 56,
-        "sho": 56,
-        "sta": 64,
-        "str": 57,
-        "tac": 57,
-        "vis": 58
+        "aer": 45,
+        "com": 55,
+        "dri": 61,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 55,
+        "pos": 38,
+        "sho": 60,
+        "sta": 60,
+        "str": 52,
+        "tac": 37,
+        "vis": 55
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -916,7 +981,7 @@
       "name": "Yves Bareye",
       "nation": "SEN",
       "number": 99,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 12000
     }
   ],

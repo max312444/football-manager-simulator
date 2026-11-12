@@ -103,6 +103,11 @@
       "wage": 78500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 61,
@@ -155,6 +160,10 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 70,
@@ -188,7 +197,7 @@
         "ldr": 62,
         "pac": 65,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 70,
         "sta": 59,
         "str": 68,
@@ -209,18 +218,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 64,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 67,
-        "pos": 62,
-        "sho": 59,
+        "dri": 59,
+        "ldr": 63,
+        "pac": 56,
+        "pas": 66,
+        "pos": 66,
+        "sho": 53,
         "sta": 64,
-        "str": 58,
-        "tac": 58,
-        "vis": 61
+        "str": 63,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -230,7 +239,7 @@
       "name": "Antonio Blancu",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 38000
     },
     {
@@ -241,7 +250,7 @@
         "ldr": 54,
         "pac": 62,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 53,
         "str": 60,
@@ -261,7 +270,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 57,
@@ -291,19 +301,22 @@
       "wage": 78500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 65,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 68,
-        "pos": 62,
-        "sho": 60,
-        "sta": 66,
-        "str": 59,
-        "tac": 63,
-        "vis": 65
+        "aer": 47,
+        "com": 63,
+        "dri": 65,
+        "ldr": 55,
+        "pac": 70,
+        "pas": 64,
+        "pos": 44,
+        "sho": 64,
+        "sta": 62,
+        "str": 54,
+        "tac": 43,
+        "vis": 62
       },
       "birth": "1993-10-01",
       "contract": null,
@@ -313,23 +326,23 @@
       "name": "Luis Rioje",
       "nation": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 41000
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 60,
-        "dri": 50,
-        "ldr": 60,
-        "pac": 58,
-        "pas": 57,
-        "pos": 64,
-        "sho": 38,
-        "sta": 60,
-        "str": 66,
-        "tac": 66,
-        "vis": 51
+        "aer": 52,
+        "com": 58,
+        "dri": 60,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 61,
+        "pos": 59,
+        "sho": 45,
+        "sta": 66,
+        "str": 58,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -339,7 +352,7 @@
       "name": "Nahuel Tenaglie",
       "nation": "ARG",
       "number": 14,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 26500
     },
     {
@@ -350,7 +363,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 64,
-        "pos": 51,
+        "pos": 71,
         "sho": 73,
         "sta": 69,
         "str": 71,
@@ -397,21 +410,21 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 55,
-        "com": 64,
-        "dri": 59,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 68,
-        "pos": 64,
-        "sho": 58,
-        "sta": 62,
-        "str": 59,
-        "tac": 61,
-        "vis": 63
+        "aer": 49,
+        "com": 62,
+        "dri": 64,
+        "ldr": 55,
+        "pac": 69,
+        "pas": 64,
+        "pos": 46,
+        "sho": 62,
+        "sta": 58,
+        "str": 54,
+        "tac": 41,
+        "vis": 60
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -421,12 +434,14 @@
       "name": "Xeber Alkayn",
       "nation": "ESP",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 38000
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 62,
@@ -480,19 +495,23 @@
       "wage": 67000
     },
     {
+      "alt": [
+        "RM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 67,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 60,
-        "pas": 54,
-        "pos": 43,
-        "sho": 64,
-        "sta": 59,
-        "str": 62,
-        "tac": 35,
-        "vis": 55
+        "aer": 47,
+        "com": 64,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 64,
+        "pas": 60,
+        "pos": 45,
+        "sho": 59,
+        "sta": 61,
+        "str": 52,
+        "tac": 41,
+        "vis": 61
       },
       "birth": "2002-12-01",
       "contract": null,
@@ -503,23 +522,23 @@
       "name": "Giuliano Simaone",
       "nation": "ARG",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 23000
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 61,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 64,
-        "pas": 56,
-        "pos": 38,
-        "sho": 67,
-        "sta": 58,
-        "str": 65,
-        "tac": 30,
-        "vis": 54
+        "aer": 48,
+        "com": 58,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 62,
+        "pos": 40,
+        "sho": 62,
+        "sta": 60,
+        "str": 55,
+        "tac": 36,
+        "vis": 60
       },
       "birth": "1998-08-01",
       "contract": null,
@@ -529,10 +548,14 @@
       "name": "Abde Rabbach",
       "nation": "ALG",
       "number": 21,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 22000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -581,7 +604,7 @@
       "name": "Javi Lopaz",
       "nation": "ESP",
       "number": 27,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 38000
     },
     {
@@ -592,7 +615,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 57,
         "str": 58,
@@ -644,7 +667,7 @@
         "ldr": 58,
         "pac": 63,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 69,
         "sta": 62,
         "str": 63,
@@ -693,7 +716,9 @@
     },
     {
       "alt": [
-        "DM"
+        "CB",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 59,

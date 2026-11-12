@@ -31,7 +31,7 @@
         "ldr": 72,
         "pac": 79,
         "pas": 67,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 76,
         "str": 74,
@@ -57,7 +57,7 @@
         "ldr": 74,
         "pac": 75,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 79,
         "sta": 76,
         "str": 79,
@@ -76,6 +76,10 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 79,
@@ -103,6 +107,9 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -136,7 +143,7 @@
         "ldr": 71,
         "pac": 73,
         "pas": 69,
-        "pos": 54,
+        "pos": 74,
         "sho": 78,
         "sta": 70,
         "str": 74,
@@ -208,6 +215,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 68,
@@ -262,18 +272,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 61,
-        "dri": 52,
-        "ldr": 58,
-        "pac": 59,
-        "pas": 54,
-        "pos": 65,
-        "sho": 35,
-        "sta": 56,
-        "str": 64,
-        "tac": 69,
-        "vis": 48
+        "aer": 52,
+        "com": 59,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 67,
+        "pas": 58,
+        "pos": 60,
+        "sho": 42,
+        "sta": 62,
+        "str": 56,
+        "tac": 66,
+        "vis": 54
       },
       "birth": "1978-05-01",
       "contract": null,
@@ -283,10 +293,13 @@
       "name": "Bruno Besto",
       "nation": "POR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 66,
@@ -363,7 +376,7 @@
       "name": "Jerome Bonnyssel",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7000
     },
     {
@@ -446,19 +459,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 60,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 57,
-        "pas": 65,
-        "pos": 61,
-        "sho": 56,
+        "dri": 56,
+        "ldr": 57,
+        "pac": 54,
+        "pas": 64,
+        "pos": 65,
+        "sho": 50,
         "sta": 59,
-        "str": 54,
-        "tac": 58,
-        "vis": 61
+        "str": 59,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -468,7 +484,7 @@
       "name": "Paulo Myranda",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 6500
     },
@@ -480,7 +496,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 49,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 57,
         "str": 57,
@@ -527,18 +543,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 58,
-        "dri": 51,
-        "ldr": 53,
-        "pac": 47,
-        "pas": 58,
-        "pos": 53,
-        "sho": 51,
+        "dri": 47,
+        "ldr": 55,
+        "pac": 44,
+        "pas": 57,
+        "pos": 57,
+        "sho": 45,
         "sta": 59,
-        "str": 49,
-        "tac": 52,
-        "vis": 53
+        "str": 54,
+        "tac": 58,
+        "vis": 50
       },
       "birth": "1982-09-01",
       "contract": null,
@@ -548,7 +564,7 @@
       "name": "Eduardo Coste",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
@@ -587,7 +603,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 43,
-        "pos": 34,
+        "pos": 54,
         "sho": 54,
         "sta": 52,
         "str": 56,
@@ -633,6 +649,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 54,
@@ -661,6 +680,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 51,
@@ -687,6 +709,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 43,
         "com": 50,
@@ -742,6 +767,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 53,
@@ -804,7 +832,7 @@
         "ldr": 40,
         "pac": 52,
         "pas": 38,
-        "pos": 26,
+        "pos": 46,
         "sho": 55,
         "sta": 46,
         "str": 49,
@@ -852,18 +880,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 31,
         "com": 53,
-        "dri": 49,
+        "dri": 53,
         "ldr": 44,
-        "pac": 46,
-        "pas": 38,
-        "pos": 24,
-        "sho": 49,
+        "pac": 44,
+        "pas": 48,
+        "pos": 29,
+        "sho": 46,
         "sta": 48,
-        "str": 48,
-        "tac": 20,
-        "vis": 39
+        "str": 38,
+        "tac": 28,
+        "vis": 50
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -874,11 +902,14 @@
       "nation": "ITA",
       "nation2": "ARG",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 48,

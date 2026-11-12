@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 74,
@@ -31,7 +34,7 @@
         "ldr": 67,
         "pac": 74,
         "pas": 69,
-        "pos": 51,
+        "pos": 71,
         "sho": 82,
         "sta": 74,
         "str": 78,
@@ -51,6 +54,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 76,
@@ -85,7 +91,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 61,
-        "pos": 48,
+        "pos": 68,
         "sho": 75,
         "sta": 70,
         "str": 74,
@@ -105,6 +111,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -159,6 +168,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 67,
@@ -194,7 +206,7 @@
         "ldr": 58,
         "pac": 63,
         "pas": 56,
-        "pos": 41,
+        "pos": 61,
         "sho": 69,
         "sta": 60,
         "str": 63,
@@ -213,15 +225,20 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
-        "com": 62,
-        "dri": 55,
+        "com": 79,
+        "dri": 72,
         "ldr": 67,
-        "pac": 63,
+        "pac": 80,
         "pas": 57,
         "pos": 67,
-        "sho": 41,
+        "sho": 58,
         "sta": 59,
         "str": 70,
         "tac": 66,
@@ -235,7 +252,7 @@
       "name": "Ruslan Pimanov",
       "nation": "RUS",
       "number": null,
-      "pos": "CB",
+      "pos": "ST",
       "verify": true,
       "wage": 8500
     },
@@ -274,7 +291,7 @@
         "ldr": 60,
         "pac": 61,
         "pas": 59,
-        "pos": 42,
+        "pos": 62,
         "sho": 65,
         "sta": 60,
         "str": 67,
@@ -295,18 +312,23 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 60,
+        "aer": 62,
+        "com": 63,
         "dri": 60,
         "ldr": 59,
-        "pac": 60,
+        "pac": 66,
         "pas": 62,
-        "pos": 63,
+        "pos": 72,
         "sho": 56,
         "sta": 67,
-        "str": 55,
-        "tac": 59,
+        "str": 64,
+        "tac": 68,
         "vis": 65
       },
       "birth": "1975-09-01",
@@ -318,24 +340,24 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 63,
-        "dri": 47,
-        "ldr": 62,
-        "pac": 54,
-        "pas": 52,
-        "pos": 64,
-        "sho": 38,
-        "sta": 57,
-        "str": 66,
-        "tac": 65,
-        "vis": 52
+        "aer": 50,
+        "com": 61,
+        "dri": 57,
+        "ldr": 58,
+        "pac": 62,
+        "pas": 56,
+        "pos": 59,
+        "sho": 45,
+        "sta": 63,
+        "str": 58,
+        "tac": 62,
+        "vis": 58
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -345,7 +367,7 @@
       "name": "Franck Baria",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5500
     },
     {
@@ -383,7 +405,7 @@
         "ldr": 57,
         "pac": 60,
         "pas": 55,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 55,
         "str": 64,
@@ -430,6 +452,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,
@@ -456,18 +481,23 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 60,
         "com": 62,
         "dri": 62,
         "ldr": 60,
-        "pac": 55,
+        "pac": 64,
         "pas": 65,
-        "pos": 60,
+        "pos": 69,
         "sho": 58,
         "sta": 61,
-        "str": 59,
-        "tac": 61,
+        "str": 68,
+        "tac": 70,
         "vis": 60
       },
       "birth": "1978-08-01",
@@ -478,24 +508,24 @@
       "name": "Ivan Gvozdenuvic",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 7000
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 63,
-        "dri": 57,
-        "ldr": 57,
-        "pac": 54,
+        "aer": 43,
+        "com": 64,
+        "dri": 61,
+        "ldr": 55,
+        "pac": 57,
         "pas": 66,
-        "pos": 60,
-        "sho": 58,
-        "sta": 66,
-        "str": 60,
-        "tac": 57,
-        "vis": 66
+        "pos": 45,
+        "sho": 64,
+        "sta": 60,
+        "str": 55,
+        "tac": 39,
+        "vis": 68
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -506,7 +536,7 @@
       "nation": "POL",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7000
     },
     {
@@ -544,7 +574,7 @@
         "ldr": 52,
         "pac": 60,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 61,
         "sta": 55,
         "str": 64,
@@ -571,7 +601,7 @@
         "ldr": 58,
         "pac": 59,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 55,
         "str": 60,
@@ -619,6 +649,11 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 62,
@@ -647,18 +682,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 61,
-        "dri": 44,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 54,
-        "pos": 61,
-        "sho": 31,
-        "sta": 54,
-        "str": 63,
-        "tac": 64,
-        "vis": 45
+        "aer": 49,
+        "com": 59,
+        "dri": 54,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 58,
+        "pos": 56,
+        "sho": 38,
+        "sta": 60,
+        "str": 55,
+        "tac": 61,
+        "vis": 51
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -669,7 +704,7 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 4000
     },
@@ -728,18 +763,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 57,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 62,
-        "pos": 58,
-        "sho": 53,
+        "dri": 50,
+        "ldr": 56,
+        "pac": 53,
+        "pas": 61,
+        "pos": 62,
+        "sho": 47,
         "sta": 59,
-        "str": 55,
-        "tac": 54,
-        "vis": 61
+        "str": 60,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -749,24 +784,24 @@
       "name": "Benjamin Nicaisa",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 58,
-        "dri": 54,
-        "ldr": 55,
-        "pac": 56,
-        "pas": 61,
-        "pos": 58,
-        "sho": 51,
+        "dri": 50,
+        "ldr": 57,
+        "pac": 53,
+        "pas": 60,
+        "pos": 62,
+        "sho": 45,
         "sta": 58,
-        "str": 55,
-        "tac": 54,
-        "vis": 58
+        "str": 60,
+        "tac": 60,
+        "vis": 55
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -777,7 +812,7 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     },
@@ -809,18 +844,21 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 58,
+        "aer": 54,
+        "com": 60,
         "dri": 52,
         "ldr": 55,
         "pac": 62,
         "pas": 52,
-        "pos": 59,
+        "pos": 61,
         "sho": 36,
         "sta": 58,
-        "str": 55,
-        "tac": 61,
+        "str": 57,
+        "tac": 63,
         "vis": 53
       },
       "birth": "1986-07-01",
@@ -832,11 +870,14 @@
       "nation": "CMR",
       "nation2": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -890,19 +931,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 60,
-        "dri": 58,
-        "ldr": 51,
-        "pac": 51,
-        "pas": 60,
-        "pos": 57,
-        "sho": 51,
+        "dri": 54,
+        "ldr": 53,
+        "pac": 48,
+        "pas": 59,
+        "pos": 61,
+        "sho": 45,
         "sta": 62,
-        "str": 50,
-        "tac": 57,
-        "vis": 60
+        "str": 55,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -912,10 +956,13 @@
       "name": "Stephane Murisot",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -950,7 +997,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 57,
         "sta": 52,
         "str": 55,
@@ -969,6 +1016,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -997,18 +1047,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 56,
-        "dri": 41,
-        "ldr": 56,
-        "pac": 49,
-        "pas": 49,
-        "pos": 55,
-        "sho": 25,
-        "sta": 52,
-        "str": 54,
-        "tac": 58,
-        "vis": 43
+        "aer": 48,
+        "com": 54,
+        "dri": 51,
+        "ldr": 52,
+        "pac": 57,
+        "pas": 53,
+        "pos": 50,
+        "sho": 32,
+        "sta": 58,
+        "str": 46,
+        "tac": 55,
+        "vis": 49
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -1019,11 +1069,14 @@
       "nation": "CMR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 57,
@@ -1051,6 +1104,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,
@@ -1164,7 +1222,7 @@
         "ldr": 44,
         "pac": 51,
         "pas": 45,
-        "pos": 29,
+        "pos": 49,
         "sho": 56,
         "sta": 45,
         "str": 52,
@@ -1184,19 +1242,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 49,
-        "dri": 48,
-        "ldr": 50,
-        "pac": 43,
-        "pas": 54,
-        "pos": 47,
-        "sho": 42,
-        "sta": 54,
-        "str": 48,
-        "tac": 44,
-        "vis": 53
+        "aer": 36,
+        "com": 47,
+        "dri": 53,
+        "ldr": 46,
+        "pac": 52,
+        "pas": 50,
+        "pos": 29,
+        "sho": 46,
+        "sta": 50,
+        "str": 43,
+        "tac": 24,
+        "vis": 50
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -1206,27 +1267,27 @@
       "name": "Nicolas Farine",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 2000
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
-        "aer": 52,
-        "com": 49,
-        "dri": 35,
-        "ldr": 48,
-        "pac": 45,
-        "pas": 45,
-        "pos": 56,
-        "sho": 24,
-        "sta": 48,
-        "str": 54,
-        "tac": 53,
-        "vis": 35
+        "aer": 39,
+        "com": 47,
+        "dri": 45,
+        "ldr": 44,
+        "pac": 53,
+        "pas": 49,
+        "pos": 51,
+        "sho": 31,
+        "sta": 54,
+        "str": 46,
+        "tac": 50,
+        "vis": 41
       },
       "birth": "1986-12-01",
       "contract": null,
@@ -1236,24 +1297,24 @@
       "name": "Cheikh Gueya",
       "nation": "SEN",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 1500
     },
     {
       "attrs": {
         "aer": 37,
-        "com": 50,
-        "dri": 45,
+        "com": 52,
+        "dri": 47,
         "ldr": 47,
         "pac": 45,
-        "pas": 50,
+        "pas": 52,
         "pos": 48,
-        "sho": 39,
-        "sta": 52,
+        "sho": 41,
+        "sta": 54,
         "str": 46,
         "tac": 47,
-        "vis": 47
+        "vis": 49
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -1267,19 +1328,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 38,
-        "com": 50,
-        "dri": 45,
-        "ldr": 43,
-        "pac": 41,
-        "pas": 53,
-        "pos": 44,
-        "sho": 39,
-        "sta": 47,
-        "str": 40,
-        "tac": 44,
-        "vis": 48
+        "aer": 32,
+        "com": 48,
+        "dri": 50,
+        "ldr": 39,
+        "pac": 50,
+        "pas": 49,
+        "pos": 26,
+        "sho": 43,
+        "sta": 43,
+        "str": 35,
+        "tac": 24,
+        "vis": 45
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -1289,7 +1354,7 @@
       "name": "Emmanuel Frencoise",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 1500
     }

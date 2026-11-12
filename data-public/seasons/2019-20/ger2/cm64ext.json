@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 60,
-        "dri": 49,
-        "ldr": 63,
-        "pac": 53,
-        "pas": 54,
-        "pos": 67,
-        "sho": 32,
-        "sta": 60,
-        "str": 62,
-        "tac": 63,
-        "vis": 48
+        "aer": 54,
+        "com": 58,
+        "dri": 59,
+        "ldr": 59,
+        "pac": 61,
+        "pas": 58,
+        "pos": 62,
+        "sho": 39,
+        "sta": 66,
+        "str": 54,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Marnon Bosch",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8000
     },
     {
@@ -130,18 +130,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 53,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 49,
+        "aer": 43,
+        "com": 54,
+        "dri": 60,
+        "ldr": 51,
+        "pac": 52,
         "pas": 59,
-        "pos": 53,
-        "sho": 48,
-        "sta": 59,
-        "str": 52,
-        "tac": 54,
-        "vis": 59
+        "pos": 38,
+        "sho": 54,
+        "sta": 53,
+        "str": 47,
+        "tac": 36,
+        "vis": 61
       },
       "birth": "1985-11-01",
       "contract": null,
@@ -151,7 +151,7 @@
       "name": "Marc Schnattarer",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
@@ -162,7 +162,7 @@
         "ldr": 52,
         "pac": 57,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 51,
         "str": 60,
@@ -182,18 +182,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 48,
         "com": 69,
-        "dri": 66,
+        "dri": 70,
         "ldr": 58,
-        "pac": 66,
-        "pas": 59,
-        "pos": 48,
-        "sho": 71,
+        "pac": 64,
+        "pas": 69,
+        "pos": 53,
+        "sho": 68,
         "sta": 63,
-        "str": 66,
-        "tac": 39,
-        "vis": 56
+        "str": 56,
+        "tac": 47,
+        "vis": 67
       },
       "birth": "1992-08-01",
       "contract": null,
@@ -203,7 +203,7 @@
       "name": "Denis Thomella",
       "nation": "GER",
       "number": 11,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 12000
     },
     {
@@ -214,7 +214,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 65,
         "sta": 52,
         "str": 60,
@@ -233,6 +233,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 54,
@@ -260,19 +263,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 61,
-        "pos": 59,
-        "sho": 54,
-        "sta": 60,
-        "str": 57,
-        "tac": 54,
-        "vis": 63
+        "aer": 45,
+        "com": 59,
+        "dri": 61,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 57,
+        "pos": 41,
+        "sho": 58,
+        "sta": 56,
+        "str": 52,
+        "tac": 34,
+        "vis": 60
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -282,23 +288,23 @@
       "name": "Maurice Molthaup",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 62,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 58,
-        "pas": 59,
-        "pos": 57,
-        "sho": 57,
+        "dri": 54,
+        "ldr": 56,
+        "pac": 55,
+        "pas": 58,
+        "pos": 61,
+        "sho": 51,
         "sta": 59,
-        "str": 57,
-        "tac": 54,
-        "vis": 61
+        "str": 62,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "1990-10-01",
       "contract": null,
@@ -308,10 +314,13 @@
       "name": "Sebastian Griesback",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 58,
@@ -338,6 +347,11 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -390,6 +404,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 51,
@@ -424,7 +441,7 @@
         "ldr": 47,
         "pac": 51,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 57,
         "sta": 52,
         "str": 53,
@@ -444,19 +461,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 66,
-        "dri": 58,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 62,
-        "pos": 63,
-        "sho": 54,
-        "sta": 63,
-        "str": 61,
-        "tac": 61,
-        "vis": 65
+        "aer": 53,
+        "com": 68,
+        "dri": 60,
+        "ldr": 60,
+        "pac": 58,
+        "pas": 64,
+        "pos": 64,
+        "sho": 56,
+        "sta": 65,
+        "str": 62,
+        "tac": 62,
+        "vis": 67
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -470,6 +490,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -492,23 +515,28 @@
       "name": "Arne Feyck",
       "nation": "GER",
       "number": 28,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 55,
+        "com": 62,
         "dri": 42,
         "ldr": 51,
         "pac": 50,
-        "pas": 48,
+        "pas": 55,
         "pos": 57,
         "sho": 29,
-        "sta": 50,
+        "sta": 57,
         "str": 58,
         "tac": 60,
-        "vis": 41
+        "vis": 48
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -518,23 +546,26 @@
       "name": "Robert Straoss",
       "nation": "GER",
       "number": 29,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 63,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 60,
-        "pas": 61,
-        "pos": 61,
-        "sho": 53,
+        "dri": 55,
+        "ldr": 59,
+        "pac": 57,
+        "pas": 60,
+        "pos": 65,
+        "sho": 47,
         "sta": 61,
-        "str": 57,
-        "tac": 57,
-        "vis": 65
+        "str": 62,
+        "tac": 63,
+        "vis": 62
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -544,7 +575,7 @@
       "name": "Norman Theuerkeuf",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 10500
     },
     {
@@ -570,21 +601,26 @@
       "name": "Jonas Brendle",
       "nation": "GER",
       "number": 31,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 61,
-        "dri": 58,
+        "aer": 59,
+        "com": 68,
+        "dri": 64,
         "ldr": 53,
-        "pac": 56,
+        "pac": 62,
         "pas": 62,
-        "pos": 60,
-        "sho": 52,
+        "pos": 66,
+        "sho": 59,
         "sta": 63,
-        "str": 54,
+        "str": 60,
         "tac": 58,
         "vis": 59
       },
@@ -596,7 +632,7 @@
       "name": "Patrick Schmydt",
       "nation": "GER",
       "number": 32,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 8500
     },
     {
@@ -652,9 +688,6 @@
       "wage": 1000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -681,6 +714,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 33,
         "com": 43,

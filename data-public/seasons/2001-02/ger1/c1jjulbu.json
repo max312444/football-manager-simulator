@@ -25,7 +25,7 @@
   "squad": [
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 80,
@@ -79,6 +79,10 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 75,
@@ -105,19 +109,23 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 76,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 81,
-        "pos": 74,
-        "sho": 73,
-        "sta": 79,
-        "str": 70,
-        "tac": 71,
-        "vis": 77
+        "aer": 59,
+        "com": 74,
+        "dri": 76,
+        "ldr": 65,
+        "pac": 78,
+        "pas": 77,
+        "pos": 56,
+        "sho": 77,
+        "sta": 75,
+        "str": 65,
+        "tac": 51,
+        "vis": 74
       },
       "birth": "1969-07-01",
       "contract": null,
@@ -127,23 +135,23 @@
       "name": "Marco Bude",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 37000
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 78,
-        "dri": 75,
-        "ldr": 68,
-        "pac": 70,
+        "aer": 61,
+        "com": 79,
+        "dri": 79,
+        "ldr": 66,
+        "pac": 73,
         "pas": 74,
-        "pos": 75,
-        "sho": 70,
-        "sta": 79,
-        "str": 70,
-        "tac": 73,
-        "vis": 73
+        "pos": 60,
+        "sho": 76,
+        "sta": 73,
+        "str": 65,
+        "tac": 55,
+        "vis": 75
       },
       "birth": "1968-09-01",
       "contract": null,
@@ -153,24 +161,29 @@
       "name": "Andi Herzug",
       "nation": "AUT",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 37000
     },
     {
+      "alt": [
+        "LWB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 71,
-        "dri": 60,
-        "ldr": 70,
-        "pac": 67,
-        "pas": 63,
-        "pos": 78,
-        "sho": 49,
-        "sta": 67,
-        "str": 72,
-        "tac": 73,
-        "vis": 57
+        "aer": 64,
+        "com": 69,
+        "dri": 72,
+        "ldr": 66,
+        "pac": 77,
+        "pas": 68,
+        "pos": 71,
+        "sho": 59,
+        "sta": 75,
+        "str": 64,
+        "tac": 68,
+        "vis": 64
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -180,7 +193,7 @@
       "name": "Paul Staltery",
       "nation": "CAN",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "wage": 22500
     },
     {
@@ -191,7 +204,7 @@
         "ldr": 68,
         "pac": 70,
         "pas": 64,
-        "pos": 48,
+        "pos": 68,
         "sho": 76,
         "sta": 71,
         "str": 73,
@@ -211,18 +224,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 69,
-        "dri": 61,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 66,
-        "pos": 76,
-        "sho": 46,
-        "sta": 72,
-        "str": 75,
-        "tac": 79,
-        "vis": 57
+        "aer": 60,
+        "com": 67,
+        "dri": 71,
+        "ldr": 65,
+        "pac": 77,
+        "pas": 70,
+        "pos": 71,
+        "sho": 53,
+        "sta": 78,
+        "str": 67,
+        "tac": 76,
+        "vis": 63
       },
       "birth": "1969-11-01",
       "contract": null,
@@ -233,10 +246,14 @@
       "nation": "RUS",
       "nation2": "UKR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 24500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -271,7 +288,7 @@
         "ldr": 65,
         "pac": 69,
         "pas": 63,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 70,
         "str": 73,
@@ -291,6 +308,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,
@@ -343,6 +363,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 73,
@@ -377,7 +400,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 58,
-        "pos": 50,
+        "pos": 70,
         "sho": 69,
         "sta": 65,
         "str": 71,
@@ -397,18 +420,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 71,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 62,
-        "pas": 73,
-        "pos": 64,
-        "sho": 64,
+        "dri": 62,
+        "ldr": 65,
+        "pac": 59,
+        "pas": 72,
+        "pos": 68,
+        "sho": 58,
         "sta": 70,
-        "str": 61,
-        "tac": 67,
-        "vis": 70
+        "str": 66,
+        "tac": 73,
+        "vis": 67
       },
       "birth": "1964-12-01",
       "contract": null,
@@ -418,7 +441,7 @@
       "name": "Dieter Eylts",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 19500
     },
     {
@@ -429,7 +452,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 61,
-        "pos": 43,
+        "pos": 63,
         "sho": 70,
         "sta": 62,
         "str": 68,
@@ -449,6 +472,11 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 69,
@@ -483,7 +511,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 59,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 62,
         "str": 65,
@@ -504,18 +532,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 61,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 58,
-        "pas": 53,
-        "pos": 65,
-        "sho": 34,
-        "sta": 61,
-        "str": 69,
-        "tac": 68,
-        "vis": 48
+        "aer": 56,
+        "com": 59,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 66,
+        "pas": 57,
+        "pos": 60,
+        "sho": 41,
+        "sta": 67,
+        "str": 61,
+        "tac": 65,
+        "vis": 54
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -525,7 +553,7 @@
       "name": "Stefan Blenk",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 8000
     },
@@ -661,6 +689,11 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 54,
@@ -688,6 +721,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -716,18 +752,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 58,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 56,
-        "pos": 53,
-        "sho": 52,
+        "dri": 54,
+        "ldr": 56,
+        "pac": 49,
+        "pas": 55,
+        "pos": 57,
+        "sho": 46,
         "sta": 62,
-        "str": 55,
-        "tac": 52,
-        "vis": 60
+        "str": 60,
+        "tac": 58,
+        "vis": 57
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -737,10 +773,13 @@
       "name": "Ivica Banuvic",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -769,18 +808,18 @@
     },
     {
       "attrs": {
-        "aer": 41,
+        "aer": 47,
         "com": 55,
-        "dri": 55,
-        "ldr": 48,
-        "pac": 51,
-        "pas": 55,
-        "pos": 54,
-        "sho": 47,
+        "dri": 51,
+        "ldr": 50,
+        "pac": 48,
+        "pas": 54,
+        "pos": 58,
+        "sho": 41,
         "sta": 55,
-        "str": 50,
-        "tac": 49,
-        "vis": 55
+        "str": 55,
+        "tac": 55,
+        "vis": 52
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -790,7 +829,7 @@
       "name": "Markus Krusche",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
@@ -802,7 +841,7 @@
         "ldr": 42,
         "pac": 49,
         "pas": 40,
-        "pos": 27,
+        "pos": 47,
         "sho": 50,
         "sta": 48,
         "str": 46,
@@ -829,7 +868,7 @@
         "ldr": 43,
         "pac": 46,
         "pas": 42,
-        "pos": 28,
+        "pos": 48,
         "sho": 52,
         "sta": 46,
         "str": 44,

@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 79,
         "com": 70,
@@ -50,6 +53,9 @@
       "wage": 58500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 84,
@@ -102,6 +108,9 @@
       "wage": 140000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -129,19 +138,22 @@
       "wage": 173500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 82,
-        "dri": 78,
-        "ldr": 76,
-        "pac": 79,
-        "pas": 81,
-        "pos": 82,
-        "sho": 78,
-        "sta": 83,
-        "str": 74,
-        "tac": 80,
-        "vis": 79
+        "aer": 73,
+        "com": 84,
+        "dri": 80,
+        "ldr": 77,
+        "pac": 80,
+        "pas": 83,
+        "pos": 83,
+        "sho": 80,
+        "sta": 85,
+        "str": 75,
+        "tac": 81,
+        "vis": 81
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -157,17 +169,17 @@
     {
       "attrs": {
         "aer": 64,
-        "com": 81,
-        "dri": 83,
-        "ldr": 74,
-        "pac": 83,
-        "pas": 81,
-        "pos": 59,
-        "sho": 78,
-        "sta": 76,
+        "com": 84,
+        "dri": 82,
+        "ldr": 76,
+        "pac": 77,
+        "pas": 85,
+        "pos": 62,
+        "sho": 80,
+        "sta": 74,
         "str": 71,
-        "tac": 59,
-        "vis": 81
+        "tac": 61,
+        "vis": 86
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -178,10 +190,13 @@
       "nation": "BRA",
       "nation2": "ITA",
       "number": null,
-      "pos": "RW",
+      "pos": "AM",
       "wage": 115500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 83,
@@ -215,7 +230,7 @@
         "ldr": 75,
         "pac": 78,
         "pas": 68,
-        "pos": 59,
+        "pos": 79,
         "sho": 84,
         "sta": 72,
         "str": 76,
@@ -234,6 +249,9 @@
       "wage": 94000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 85,
         "com": 78,
@@ -260,6 +278,9 @@
       "wage": 108500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 72,
         "com": 73,
@@ -282,7 +303,7 @@
       "name": "Marek Jankulovsky",
       "nation": "CZE",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 109500
     },
     {
@@ -293,7 +314,7 @@
         "ldr": 74,
         "pac": 79,
         "pas": 70,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 76,
         "str": 76,
@@ -366,18 +387,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 71,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 79,
-        "pas": 71,
-        "pos": 74,
-        "sho": 57,
-        "sta": 79,
-        "str": 72,
-        "tac": 74,
-        "vis": 67
+        "aer": 79,
+        "com": 73,
+        "dri": 64,
+        "ldr": 77,
+        "pac": 71,
+        "pas": 67,
+        "pos": 79,
+        "sho": 50,
+        "sta": 73,
+        "str": 80,
+        "tac": 77,
+        "vis": 61
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -387,7 +408,7 @@
       "name": "Daniele Bonere",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "verify": true,
       "wage": 84500
     },
@@ -426,7 +447,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 65,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 71,
         "str": 79,
@@ -447,18 +468,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 75,
-        "dri": 72,
-        "ldr": 72,
-        "pac": 73,
+        "aer": 61,
+        "com": 76,
+        "dri": 76,
+        "ldr": 70,
+        "pac": 76,
         "pas": 80,
-        "pos": 75,
-        "sho": 71,
-        "sta": 81,
-        "str": 70,
-        "tac": 74,
-        "vis": 74
+        "pos": 60,
+        "sho": 77,
+        "sta": 75,
+        "str": 65,
+        "tac": 56,
+        "vis": 76
       },
       "birth": "1972-03-01",
       "contract": null,
@@ -468,7 +489,7 @@
       "name": "Rui Custa",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 109500
     },
@@ -553,18 +574,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 74,
-        "dri": 70,
-        "ldr": 64,
-        "pac": 69,
+        "aer": 54,
+        "com": 75,
+        "dri": 74,
+        "ldr": 62,
+        "pac": 72,
         "pas": 76,
-        "pos": 66,
-        "sho": 68,
-        "sta": 70,
-        "str": 65,
-        "tac": 64,
-        "vis": 75
+        "pos": 51,
+        "sho": 74,
+        "sta": 64,
+        "str": 60,
+        "tac": 46,
+        "vis": 77
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -574,23 +595,27 @@
       "name": "Yoann Goorcuff",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 60500
     },
     {
+      "alt": [
+        "LB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 70,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 68,
-        "pas": 69,
-        "pos": 67,
-        "sho": 61,
-        "sta": 70,
-        "str": 67,
-        "tac": 69,
+        "aer": 56,
+        "com": 68,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 76,
+        "pas": 70,
+        "pos": 59,
+        "sho": 59,
+        "sta": 74,
+        "str": 64,
+        "tac": 64,
         "vis": 73
       },
       "birth": "1971-06-01",
@@ -601,13 +626,10 @@
       "name": "Sergynho",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 53500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 73,
         "com": 70,
@@ -641,7 +663,7 @@
         "ldr": 65,
         "pac": 72,
         "pas": 61,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 67,
         "str": 67,
@@ -668,7 +690,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 57,
-        "pos": 45,
+        "pos": 65,
         "sho": 66,
         "sta": 64,
         "str": 65,
@@ -688,18 +710,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 64,
-        "dri": 60,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 67,
-        "pos": 59,
-        "sho": 57,
-        "sta": 64,
-        "str": 62,
-        "tac": 62,
-        "vis": 64
+        "aer": 47,
+        "com": 62,
+        "dri": 65,
+        "ldr": 58,
+        "pac": 70,
+        "pas": 63,
+        "pos": 41,
+        "sho": 61,
+        "sta": 60,
+        "str": 57,
+        "tac": 42,
+        "vis": 61
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -710,27 +732,29 @@
       "nation": "GAB",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LW",
       "verify": true,
       "wage": 27000
     },
     {
       "alt": [
-        "RB"
+        "LB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 65,
-        "com": 61,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 59,
-        "pos": 65,
-        "sho": 40,
-        "sta": 63,
-        "str": 64,
-        "tac": 66,
-        "vis": 47
+        "aer": 52,
+        "com": 59,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 63,
+        "pos": 60,
+        "sho": 47,
+        "sta": 69,
+        "str": 56,
+        "tac": 63,
+        "vis": 53
       },
       "birth": "1989-12-01",
       "contract": null,
@@ -740,7 +764,7 @@
       "name": "Matteo Dermian",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 19000
     },
@@ -819,7 +843,7 @@
       "name": "Luca Antunelli",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 14500
     },
@@ -884,7 +908,7 @@
         "ldr": 45,
         "pac": 50,
         "pas": 41,
-        "pos": 29,
+        "pos": 49,
         "sho": 57,
         "sta": 49,
         "str": 49,
@@ -905,18 +929,18 @@
     },
     {
       "attrs": {
-        "aer": 36,
+        "aer": 42,
         "com": 50,
-        "dri": 45,
-        "ldr": 47,
-        "pac": 43,
-        "pas": 51,
-        "pos": 45,
-        "sho": 42,
+        "dri": 41,
+        "ldr": 49,
+        "pac": 40,
+        "pas": 50,
+        "pos": 49,
+        "sho": 36,
         "sta": 48,
-        "str": 46,
-        "tac": 45,
-        "vis": 53
+        "str": 51,
+        "tac": 51,
+        "vis": 50
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -926,7 +950,7 @@
       "name": "Alex Guercy",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     }

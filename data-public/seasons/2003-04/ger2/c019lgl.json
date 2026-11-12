@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 53,
-        "com": 67,
-        "dri": 65,
-        "ldr": 59,
-        "pac": 60,
+        "aer": 47,
+        "com": 68,
+        "dri": 69,
+        "ldr": 57,
+        "pac": 63,
         "pas": 69,
-        "pos": 60,
-        "sho": 60,
-        "sta": 66,
-        "str": 58,
-        "tac": 59,
-        "vis": 63
+        "pos": 45,
+        "sho": 66,
+        "sta": 60,
+        "str": 53,
+        "tac": 41,
+        "vis": 65
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -47,23 +47,28 @@
       "nation": "IRN",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 3500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
-        "dri": 62,
+        "dri": 69,
         "ldr": 58,
         "pac": 59,
-        "pas": 54,
-        "pos": 39,
+        "pas": 61,
+        "pos": 59,
         "sho": 66,
         "sta": 59,
         "str": 62,
         "tac": 35,
-        "vis": 53
+        "vis": 60
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -74,10 +79,13 @@
       "nation": "GER",
       "nation2": "SEN",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -111,7 +119,7 @@
         "ldr": 51,
         "pac": 56,
         "pas": 46,
-        "pos": 37,
+        "pos": 57,
         "sho": 56,
         "sta": 50,
         "str": 59,
@@ -164,7 +172,7 @@
         "ldr": 46,
         "pac": 54,
         "pas": 45,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 48,
         "str": 54,
@@ -210,6 +218,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -236,6 +247,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -263,6 +277,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -297,7 +314,7 @@
         "ldr": 50,
         "pac": 53,
         "pas": 44,
-        "pos": 35,
+        "pos": 55,
         "sho": 54,
         "sta": 50,
         "str": 55,
@@ -318,18 +335,18 @@
     },
     {
       "attrs": {
-        "aer": 40,
-        "com": 54,
-        "dri": 54,
-        "ldr": 49,
-        "pac": 48,
+        "aer": 34,
+        "com": 55,
+        "dri": 58,
+        "ldr": 47,
+        "pac": 51,
         "pas": 53,
-        "pos": 54,
-        "sho": 47,
-        "sta": 57,
-        "str": 46,
-        "tac": 48,
-        "vis": 55
+        "pos": 39,
+        "sho": 53,
+        "sta": 51,
+        "str": 41,
+        "tac": 30,
+        "vis": 57
       },
       "birth": "1972-06-01",
       "contract": null,
@@ -339,10 +356,13 @@
       "name": "Marco Weissheupt",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 54,
@@ -450,19 +470,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 54,
-        "dri": 48,
+        "dri": 57,
         "ldr": 47,
         "pac": 50,
-        "pas": 41,
-        "pos": 32,
+        "pas": 50,
+        "pos": 52,
         "sho": 57,
         "sta": 50,
         "str": 51,
         "tac": 19,
-        "vis": 46
+        "vis": 55
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -472,7 +497,7 @@
       "name": "Silvio Adzyc",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1000
     },
@@ -504,6 +529,11 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -698,7 +728,7 @@
         "ldr": 37,
         "pac": 46,
         "pas": 38,
-        "pos": 25,
+        "pos": 45,
         "sho": 46,
         "sta": 38,
         "str": 43,

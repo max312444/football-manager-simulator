@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 57,
-        "com": 56,
-        "dri": 42,
+        "aer": 50,
+        "com": 58,
+        "dri": 50,
         "ldr": 52,
-        "pac": 53,
-        "pas": 46,
-        "pos": 56,
-        "sho": 28,
-        "sta": 54,
-        "str": 59,
-        "tac": 61,
-        "vis": 39
+        "pac": 51,
+        "pas": 55,
+        "pos": 55,
+        "sho": 43,
+        "sta": 60,
+        "str": 57,
+        "tac": 60,
+        "vis": 51
       },
       "birth": "1972-04-01",
       "contract": null,
@@ -46,10 +46,15 @@
       "name": "Almedin Cyva",
       "nation": "BIH",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 57,
@@ -210,6 +215,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -244,7 +252,7 @@
         "ldr": 48,
         "pac": 51,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 54,
         "sta": 49,
         "str": 52,
@@ -264,17 +272,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 41,
-        "com": 52,
-        "dri": 53,
+        "aer": 50,
+        "com": 61,
+        "dri": 59,
         "ldr": 46,
-        "pac": 47,
+        "pac": 56,
         "pas": 53,
-        "pos": 54,
-        "sho": 45,
+        "pos": 62,
+        "sho": 54,
         "sta": 57,
-        "str": 47,
+        "str": 55,
         "tac": 52,
         "vis": 56
       },
@@ -287,23 +300,23 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 40,
-        "com": 53,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 51,
+        "aer": 34,
+        "com": 54,
+        "dri": 58,
+        "ldr": 49,
+        "pac": 54,
         "pas": 53,
-        "pos": 51,
-        "sho": 46,
-        "sta": 55,
-        "str": 45,
-        "tac": 46,
-        "vis": 56
+        "pos": 36,
+        "sho": 52,
+        "sta": 49,
+        "str": 40,
+        "tac": 28,
+        "vis": 58
       },
       "birth": "1968-06-01",
       "contract": null,
@@ -313,7 +326,7 @@
       "name": "Jens Dowa",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
@@ -325,7 +338,7 @@
         "ldr": 46,
         "pac": 54,
         "pas": 43,
-        "pos": 33,
+        "pos": 53,
         "sho": 54,
         "sta": 47,
         "str": 50,
@@ -399,18 +412,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 55,
-        "dri": 53,
-        "ldr": 49,
-        "pac": 45,
+        "aer": 39,
+        "com": 56,
+        "dri": 57,
+        "ldr": 47,
+        "pac": 48,
         "pas": 57,
-        "pos": 52,
-        "sho": 49,
-        "sta": 54,
-        "str": 48,
-        "tac": 45,
-        "vis": 53
+        "pos": 37,
+        "sho": 55,
+        "sta": 48,
+        "str": 43,
+        "tac": 27,
+        "vis": 55
       },
       "birth": "1967-08-01",
       "contract": null,
@@ -420,7 +433,7 @@
       "name": "Igor Lazyc",
       "nation": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2000
     },
     {
@@ -431,7 +444,7 @@
         "ldr": 45,
         "pac": 50,
         "pas": 41,
-        "pos": 29,
+        "pos": 49,
         "sho": 53,
         "sta": 48,
         "str": 51,
@@ -477,6 +490,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,
@@ -510,7 +528,7 @@
         "ldr": 45,
         "pac": 54,
         "pas": 46,
-        "pos": 31,
+        "pos": 51,
         "sho": 53,
         "sta": 45,
         "str": 51,
@@ -589,7 +607,7 @@
         "ldr": 44,
         "pac": 51,
         "pas": 42,
-        "pos": 28,
+        "pos": 48,
         "sho": 55,
         "sta": 43,
         "str": 48,
@@ -663,7 +681,7 @@
     },
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 39,

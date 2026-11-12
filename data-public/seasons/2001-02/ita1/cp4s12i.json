@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 76,
@@ -31,7 +34,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 71,
-        "pos": 57,
+        "pos": 77,
         "sho": 81,
         "sta": 76,
         "str": 75,
@@ -84,7 +87,7 @@
         "ldr": 68,
         "pac": 77,
         "pas": 66,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 70,
         "str": 77,
@@ -131,19 +134,22 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 80,
-        "com": 73,
-        "dri": 58,
-        "ldr": 69,
-        "pac": 70,
-        "pas": 67,
-        "pos": 74,
-        "sho": 48,
-        "sta": 73,
-        "str": 79,
-        "tac": 80,
-        "vis": 60
+        "aer": 67,
+        "com": 71,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 78,
+        "pas": 71,
+        "pos": 69,
+        "sho": 55,
+        "sta": 79,
+        "str": 71,
+        "tac": 77,
+        "vis": 66
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -153,7 +159,7 @@
       "name": "Ze Marie",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 15000
     },
     {
@@ -179,7 +185,7 @@
       "name": "Fabio Grusso",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 7000
     },
@@ -191,7 +197,7 @@
         "ldr": 61,
         "pac": 70,
         "pas": 63,
-        "pos": 46,
+        "pos": 66,
         "sho": 69,
         "sta": 64,
         "str": 70,
@@ -210,6 +216,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -296,7 +305,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 59,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 59,
         "str": 67,
@@ -316,18 +325,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 65,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 64,
-        "pos": 60,
-        "sho": 61,
+        "dri": 59,
+        "ldr": 63,
+        "pac": 56,
+        "pas": 63,
+        "pos": 64,
+        "sho": 55,
         "sta": 69,
-        "str": 59,
-        "tac": 57,
-        "vis": 64
+        "str": 64,
+        "tac": 63,
+        "vis": 61
       },
       "birth": "1975-05-01",
       "contract": null,
@@ -337,7 +346,7 @@
       "name": "Davide Baiucco",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     },
     {
@@ -348,7 +357,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 63,
         "str": 61,
@@ -368,6 +377,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -395,9 +407,6 @@
       "wage": 6500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 65,
         "com": 63,
@@ -431,7 +440,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 56,
         "str": 61,
@@ -478,18 +487,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 61,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 55,
-        "pas": 59,
-        "pos": 56,
-        "sho": 52,
+        "dri": 53,
+        "ldr": 57,
+        "pac": 52,
+        "pas": 58,
+        "pos": 60,
+        "sho": 46,
         "sta": 63,
-        "str": 58,
-        "tac": 54,
-        "vis": 60
+        "str": 63,
+        "tac": 60,
+        "vis": 57
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -499,23 +508,26 @@
       "name": "Pablo Guinezu",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
         "dri": 57,
         "ldr": 58,
         "pac": 56,
-        "pas": 58,
+        "pas": 59,
         "pos": 54,
         "sho": 56,
-        "sta": 58,
+        "sta": 59,
         "str": 54,
-        "tac": 52,
+        "tac": 53,
         "vis": 63
       },
       "birth": "1973-03-01",
@@ -589,7 +601,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 56,
         "str": 59,
@@ -616,7 +628,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 47,
-        "pos": 34,
+        "pos": 54,
         "sho": 64,
         "sta": 52,
         "str": 57,
@@ -643,7 +655,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 57,
         "str": 56,
@@ -663,6 +675,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 56,
@@ -716,6 +731,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -797,6 +815,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -825,18 +846,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 55,
-        "dri": 40,
-        "ldr": 56,
-        "pac": 50,
-        "pas": 47,
-        "pos": 62,
-        "sho": 29,
-        "sta": 49,
-        "str": 57,
-        "tac": 59,
-        "vis": 40
+        "aer": 46,
+        "com": 53,
+        "dri": 50,
+        "ldr": 52,
+        "pac": 58,
+        "pas": 51,
+        "pos": 57,
+        "sho": 36,
+        "sta": 55,
+        "str": 49,
+        "tac": 56,
+        "vis": 46
       },
       "birth": "1974-05-01",
       "contract": null,
@@ -846,7 +867,7 @@
       "name": "Hilario Laal",
       "nation": "POR",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2000
     },
     {
@@ -877,19 +898,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 53,
-        "dri": 52,
-        "ldr": 53,
-        "pac": 47,
-        "pas": 54,
-        "pos": 55,
-        "sho": 49,
-        "sta": 59,
-        "str": 49,
-        "tac": 53,
-        "vis": 58
+        "aer": 41,
+        "com": 51,
+        "dri": 57,
+        "ldr": 49,
+        "pac": 56,
+        "pas": 50,
+        "pos": 37,
+        "sho": 53,
+        "sta": 55,
+        "str": 44,
+        "tac": 33,
+        "vis": 55
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -899,24 +923,24 @@
       "name": "Emiliano Tastini",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 2500
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 57,
-        "dri": 52,
-        "ldr": 50,
-        "pac": 46,
-        "pas": 56,
-        "pos": 51,
-        "sho": 50,
+        "dri": 48,
+        "ldr": 52,
+        "pac": 43,
+        "pas": 55,
+        "pos": 55,
+        "sho": 44,
         "sta": 53,
-        "str": 50,
-        "tac": 51,
-        "vis": 57
+        "str": 55,
+        "tac": 57,
+        "vis": 54
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -926,7 +950,7 @@
       "name": "Christian Obudo",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
@@ -938,7 +962,7 @@
         "ldr": 49,
         "pac": 53,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 58,
         "sta": 47,
         "str": 57,
@@ -992,7 +1016,7 @@
         "ldr": 47,
         "pac": 55,
         "pas": 48,
-        "pos": 29,
+        "pos": 49,
         "sho": 55,
         "sta": 49,
         "str": 52,
@@ -1012,6 +1036,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 50,
@@ -1046,7 +1073,7 @@
         "ldr": 45,
         "pac": 51,
         "pas": 40,
-        "pos": 27,
+        "pos": 47,
         "sho": 54,
         "sta": 45,
         "str": 48,

@@ -96,16 +96,20 @@
       "wage": 52000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 66,
-        "dri": 58,
+        "dri": 63,
         "ldr": 76,
-        "pac": 60,
-        "pas": 64,
+        "pac": 65,
+        "pas": 66,
         "pos": 70,
         "sho": 46,
-        "sta": 70,
+        "sta": 75,
         "str": 72,
         "tac": 70,
         "vis": 54
@@ -154,16 +158,20 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 64,
-        "dri": 62,
+        "dri": 63,
         "ldr": 62,
-        "pac": 64,
+        "pac": 65,
         "pas": 66,
         "pos": 66,
         "sho": 56,
-        "sta": 70,
+        "sta": 71,
         "str": 70,
         "tac": 68,
         "vis": 58
@@ -295,17 +303,17 @@
       ],
       "attrs": {
         "aer": 52,
-        "com": 72,
-        "dri": 64,
+        "com": 73,
+        "dri": 65,
         "ldr": 64,
         "pac": 54,
-        "pas": 74,
+        "pas": 75,
         "pos": 70,
-        "sho": 52,
-        "sta": 72,
+        "sho": 53,
+        "sta": 73,
         "str": 62,
         "tac": 68,
-        "vis": 70
+        "vis": 71
       },
       "birth": "1986-08-01",
       "contract": "2020-06-30",
@@ -319,19 +327,22 @@
       "wage": 72000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 64,
-        "dri": 64,
+        "com": 68,
+        "dri": 68,
         "ldr": 58,
         "pac": 60,
-        "pas": 66,
+        "pas": 70,
         "pos": 66,
-        "sho": 60,
-        "sta": 76,
+        "sho": 64,
+        "sta": 80,
         "str": 66,
         "tac": 66,
-        "vis": 60
+        "vis": 64
       },
       "birth": "1990-02-01",
       "contract": "2020-06-30",
@@ -345,6 +356,11 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 64,
@@ -378,11 +394,11 @@
         "ldr": 60,
         "pac": 64,
         "pas": 72,
-        "pos": 64,
+        "pos": 67,
         "sho": 54,
         "sta": 76,
-        "str": 62,
-        "tac": 68,
+        "str": 65,
+        "tac": 71,
         "vis": 68
       },
       "birth": "1997-02-01",
@@ -393,13 +409,10 @@
       "name": "Lewis Couk",
       "nation": "ENG",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 73500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
         "aer": 36,
         "com": 68,
@@ -430,6 +443,7 @@
     },
     {
       "alt": [
+        "LW",
         "AM"
       ],
       "attrs": {
@@ -520,19 +534,23 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 62,
+        "com": 69,
         "dri": 70,
         "ldr": 56,
         "pac": 70,
-        "pas": 66,
+        "pas": 73,
         "pos": 60,
-        "sho": 62,
+        "sho": 69,
         "sta": 72,
         "str": 62,
         "tac": 42,
-        "vis": 62
+        "vis": 69
       },
       "birth": "1987-04-01",
       "contract": "2019-06-30",
@@ -542,7 +560,7 @@
       "name": "Marc Pogh",
       "nation": "ENG",
       "number": 7,
-      "pos": "LM",
+      "pos": "AM",
       "wage": 49500
     },
     {
@@ -573,7 +591,8 @@
     },
     {
       "alt": [
-        "LW"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 64,
@@ -597,7 +616,7 @@
       "name": "Joshua Kyng",
       "nation": "NOR",
       "number": 17,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 117000
     },
     {

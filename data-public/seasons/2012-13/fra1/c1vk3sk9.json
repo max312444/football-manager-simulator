@@ -99,10 +99,13 @@
       "name": "Lucas Digna",
       "nation": "FRA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 62,
@@ -130,18 +133,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 72,
-        "dri": 70,
-        "ldr": 70,
-        "pac": 68,
-        "pas": 78,
-        "pos": 69,
-        "sho": 64,
+        "dri": 66,
+        "ldr": 72,
+        "pac": 65,
+        "pas": 77,
+        "pos": 73,
+        "sho": 58,
         "sta": 72,
-        "str": 69,
-        "tac": 68,
-        "vis": 72
+        "str": 74,
+        "tac": 74,
+        "vis": 69
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -151,26 +154,23 @@
       "name": "Idrissa Guaye",
       "nation": "SEN",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 47500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 77,
+        "aer": 63,
         "com": 82,
-        "dri": 77,
+        "dri": 81,
         "ldr": 71,
-        "pac": 81,
-        "pas": 71,
-        "pos": 55,
-        "sho": 79,
+        "pac": 79,
+        "pas": 81,
+        "pos": 60,
+        "sho": 76,
         "sta": 72,
-        "str": 81,
-        "tac": 51,
-        "vis": 71
+        "str": 71,
+        "tac": 59,
+        "vis": 82
       },
       "birth": "1987-03-01",
       "contract": null,
@@ -180,23 +180,27 @@
       "name": "Dimitri Payat",
       "nation": "FRA",
       "number": 7,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 59000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 77,
-        "dri": 79,
-        "ldr": 76,
-        "pac": 72,
-        "pas": 83,
-        "pos": 78,
-        "sho": 73,
-        "sta": 77,
-        "str": 75,
-        "tac": 73,
-        "vis": 80
+        "aer": 64,
+        "com": 75,
+        "dri": 84,
+        "ldr": 72,
+        "pac": 81,
+        "pas": 79,
+        "pos": 60,
+        "sho": 77,
+        "sta": 73,
+        "str": 70,
+        "tac": 53,
+        "vis": 77
       },
       "birth": "1985-08-01",
       "contract": null,
@@ -206,7 +210,7 @@
       "name": "Salomon Kaloo",
       "nation": "CIV",
       "number": 8,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 59000
     },
     {
@@ -217,7 +221,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 72,
         "sta": 67,
         "str": 65,
@@ -236,6 +240,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -315,6 +322,10 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -368,6 +379,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -395,18 +409,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 66,
-        "dri": 51,
-        "ldr": 63,
-        "pac": 65,
-        "pas": 57,
-        "pos": 70,
-        "sho": 43,
-        "sta": 67,
-        "str": 73,
-        "tac": 74,
-        "vis": 56
+        "aer": 58,
+        "com": 64,
+        "dri": 61,
+        "ldr": 59,
+        "pac": 73,
+        "pas": 61,
+        "pos": 65,
+        "sho": 50,
+        "sta": 73,
+        "str": 65,
+        "tac": 71,
+        "vis": 62
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -416,7 +430,7 @@
       "name": "Franck Baria",
       "nation": "FRA",
       "number": 18,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 22500
     },
     {
@@ -427,7 +441,7 @@
         "ldr": 56,
         "pac": 65,
         "pas": 54,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 62,
         "str": 67,
@@ -454,7 +468,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 53,
-        "pos": 35,
+        "pos": 55,
         "sho": 66,
         "sta": 55,
         "str": 61,
@@ -473,6 +487,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -526,6 +543,9 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -586,7 +606,7 @@
         "ldr": 60,
         "pac": 68,
         "pas": 61,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 62,
         "str": 70,
@@ -605,17 +625,22 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 56,
-        "dri": 54,
+        "aer": 57,
+        "com": 64,
+        "dri": 60,
         "ldr": 51,
-        "pac": 51,
+        "pac": 59,
         "pas": 62,
-        "pos": 59,
-        "sho": 50,
+        "pos": 66,
+        "sho": 58,
         "sta": 59,
-        "str": 52,
+        "str": 59,
         "tac": 54,
         "vis": 59
       },
@@ -628,7 +653,7 @@
       "nation": "BEL",
       "nation2": "GRE",
       "number": 28,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 9000
     },
     {
@@ -658,19 +683,22 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 65,
-        "pas": 54,
-        "pos": 43,
-        "sho": 67,
-        "sta": 61,
-        "str": 64,
-        "tac": 35,
-        "vis": 58
+        "aer": 46,
+        "com": 64,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 69,
+        "pas": 60,
+        "pos": 45,
+        "sho": 62,
+        "sta": 63,
+        "str": 54,
+        "tac": 41,
+        "vis": 64
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -681,7 +709,7 @@
       "nation": "CPV",
       "nation2": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 13000
     },
     {

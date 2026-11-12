@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 59,
-        "dri": 49,
-        "ldr": 61,
-        "pac": 54,
-        "pas": 54,
-        "pos": 64,
-        "sho": 35,
-        "sta": 59,
-        "str": 64,
-        "tac": 62,
-        "vis": 45
+        "aer": 49,
+        "com": 57,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 62,
+        "pas": 58,
+        "pos": 59,
+        "sho": 42,
+        "sta": 65,
+        "str": 56,
+        "tac": 59,
+        "vis": 51
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Thomas Ouwajan",
       "nation": "NED",
       "number": 2,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10000
     },
     {
@@ -103,19 +103,23 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 55,
-        "dri": 45,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 46,
-        "pos": 59,
-        "sho": 32,
-        "sta": 51,
-        "str": 61,
-        "tac": 63,
-        "vis": 40
+        "aer": 45,
+        "com": 53,
+        "dri": 55,
+        "ldr": 51,
+        "pac": 58,
+        "pas": 50,
+        "pos": 54,
+        "sho": 39,
+        "sta": 57,
+        "str": 53,
+        "tac": 60,
+        "vis": 46
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -125,23 +129,23 @@
       "name": "Derry Murkyn",
       "nation": "ENG",
       "number": 5,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6000
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 59,
-        "dri": 53,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 57,
-        "pos": 52,
-        "sho": 49,
+        "dri": 49,
+        "ldr": 55,
+        "pac": 47,
+        "pas": 56,
+        "pos": 56,
+        "sho": 43,
         "sta": 56,
-        "str": 48,
-        "tac": 51,
-        "vis": 55
+        "str": 53,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "1998-10-01",
       "contract": null,
@@ -151,10 +155,13 @@
       "name": "Ron Schellenberg",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -181,6 +188,9 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -214,7 +224,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 63,
         "sta": 55,
         "str": 60,
@@ -233,6 +243,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -259,19 +272,23 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 58,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 59,
-        "pas": 50,
-        "pos": 37,
-        "sho": 64,
-        "sta": 54,
-        "str": 59,
-        "tac": 32,
-        "vis": 50
+        "aer": 43,
+        "com": 55,
+        "dri": 61,
+        "ldr": 51,
+        "pac": 63,
+        "pas": 56,
+        "pos": 39,
+        "sho": 59,
+        "sta": 56,
+        "str": 49,
+        "tac": 38,
+        "vis": 56
       },
       "birth": "1998-11-01",
       "contract": null,
@@ -281,23 +298,27 @@
       "name": "Bryan Lesme",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 7000
     },
     {
+      "alt": [
+        "RM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 57,
-        "dri": 57,
-        "ldr": 50,
-        "pac": 56,
-        "pas": 53,
-        "pos": 36,
-        "sho": 61,
-        "sta": 53,
-        "str": 57,
-        "tac": 27,
-        "vis": 51
+        "aer": 41,
+        "com": 54,
+        "dri": 62,
+        "ldr": 48,
+        "pac": 60,
+        "pas": 59,
+        "pos": 38,
+        "sho": 56,
+        "sta": 55,
+        "str": 47,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "2000-12-01",
       "contract": null,
@@ -307,23 +328,27 @@
       "name": "Soichiro Kozoki",
       "nation": "JPN",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 57,
-        "dri": 56,
-        "ldr": 48,
-        "pac": 54,
-        "pas": 48,
-        "pos": 37,
-        "sho": 58,
-        "sta": 55,
-        "str": 55,
-        "tac": 26,
-        "vis": 52
+        "aer": 40,
+        "com": 54,
+        "dri": 61,
+        "ldr": 46,
+        "pac": 58,
+        "pas": 54,
+        "pos": 39,
+        "sho": 53,
+        "sta": 57,
+        "str": 45,
+        "tac": 32,
+        "vis": 58
       },
       "birth": "2004-02-01",
       "contract": null,
@@ -335,23 +360,23 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 17,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 5500
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 56,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 51,
+        "aer": 44,
+        "com": 57,
+        "dri": 63,
+        "ldr": 53,
+        "pac": 54,
         "pas": 64,
-        "pos": 60,
-        "sho": 50,
-        "sta": 60,
-        "str": 52,
-        "tac": 57,
-        "vis": 60
+        "pos": 45,
+        "sho": 56,
+        "sta": 54,
+        "str": 47,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -362,7 +387,7 @@
       "nation": "KVX",
       "nation2": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10500
     },
     {
@@ -373,7 +398,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 77,
         "sta": 68,
         "str": 71,
@@ -394,18 +419,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 52,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 51,
-        "pas": 58,
-        "pos": 55,
-        "sho": 49,
+        "dri": 49,
+        "ldr": 53,
+        "pac": 48,
+        "pas": 57,
+        "pos": 59,
+        "sho": 43,
         "sta": 54,
-        "str": 51,
-        "tac": 52,
-        "vis": 55
+        "str": 56,
+        "tac": 58,
+        "vis": 52
       },
       "birth": "2001-02-01",
       "contract": null,
@@ -416,7 +441,7 @@
       "name": "Niklas Tauar",
       "nation": "GER",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6500
     },
     {
@@ -448,18 +473,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 57,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 51,
+        "aer": 43,
+        "com": 58,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 54,
         "pas": 63,
-        "pos": 57,
-        "sho": 56,
-        "sta": 60,
-        "str": 54,
-        "tac": 57,
-        "vis": 58
+        "pos": 42,
+        "sho": 62,
+        "sta": 54,
+        "str": 49,
+        "tac": 39,
+        "vis": 60
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -469,7 +494,7 @@
       "name": "Dominick Draxler",
       "nation": "GER",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10500
     },
     {
@@ -499,6 +524,9 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 78,
         "com": 69,
@@ -526,18 +554,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 60,
-        "dri": 49,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 54,
-        "pos": 65,
-        "sho": 36,
-        "sta": 60,
-        "str": 66,
-        "tac": 66,
-        "vis": 47
+        "aer": 50,
+        "com": 58,
+        "dri": 59,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 58,
+        "pos": 60,
+        "sho": 43,
+        "sta": 66,
+        "str": 58,
+        "tac": 63,
+        "vis": 53
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -547,7 +575,7 @@
       "name": "Cedric Bronner",
       "nation": "SUI",
       "number": 27,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 11000
     },
     {
@@ -578,18 +606,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 62,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 52,
+        "aer": 47,
+        "com": 60,
+        "dri": 59,
+        "ldr": 51,
+        "pac": 60,
         "pas": 63,
-        "pos": 54,
-        "sho": 55,
-        "sta": 60,
-        "str": 56,
-        "tac": 54,
-        "vis": 59
+        "pos": 46,
+        "sho": 53,
+        "sta": 63,
+        "str": 53,
+        "tac": 48,
+        "vis": 58
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -599,7 +627,7 @@
       "name": "Tobias Muhr",
       "nation": "GER",
       "number": 29,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 11000
     },
     {
@@ -688,7 +716,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 72,
         "sta": 61,
         "str": 69,
@@ -707,6 +735,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 54,
@@ -740,7 +771,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 41,
-        "pos": 28,
+        "pos": 48,
         "sho": 54,
         "sta": 45,
         "str": 54,
@@ -759,6 +790,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,

@@ -101,6 +101,10 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "RWB",
+        "CB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -287,18 +291,23 @@
       "wage": 172000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 69,
         "dri": 70,
         "ldr": 56,
-        "pac": 76,
+        "pac": 87,
         "pas": 78,
-        "pos": 60,
+        "pos": 71,
         "sho": 60,
         "sta": 80,
-        "str": 58,
-        "tac": 64,
+        "str": 69,
+        "tac": 75,
         "vis": 78
       },
       "birth": "1998-10-01",
@@ -316,18 +325,22 @@
       "wage": 133500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 78,
         "dri": 81,
         "ldr": 65,
         "pac": 73,
-        "pas": 79,
+        "pas": 80,
         "pos": 67,
         "sho": 74,
-        "sta": 85,
+        "sta": 86,
         "str": 67,
-        "tac": 63,
+        "tac": 64,
         "vis": 76
       },
       "birth": "1990-11-01",
@@ -343,20 +356,22 @@
     },
     {
       "alt": [
-        "CM"
+        "RB",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 61,
         "com": 79,
-        "dri": 72,
+        "dri": 75,
         "ldr": 82,
-        "pac": 69,
+        "pac": 77,
         "pas": 80,
-        "pos": 75,
+        "pos": 80,
         "sho": 70,
-        "sta": 92,
-        "str": 72,
-        "tac": 73,
+        "sta": 98,
+        "str": 77,
+        "tac": 78,
         "vis": 76
       },
       "birth": "1986-01-01",
@@ -375,19 +390,22 @@
       "wage": 299000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 77,
-        "dri": 70,
+        "com": 78,
+        "dri": 71,
         "ldr": 85,
         "pac": 69,
-        "pas": 81,
+        "pas": 82,
         "pos": 76,
-        "sho": 65,
-        "sta": 90,
+        "sho": 66,
+        "sta": 91,
         "str": 71,
         "tac": 75,
-        "vis": 77
+        "vis": 78
       },
       "birth": "1990-06-01",
       "contract": "2020-06-30",
@@ -405,19 +423,22 @@
       "wage": 299000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 57,
+        "com": 62,
         "dri": 61,
         "ldr": 48,
         "pac": 61,
-        "pas": 63,
+        "pas": 68,
         "pos": 57,
         "sho": 57,
         "sta": 71,
         "str": 72,
-        "tac": 59,
-        "vis": 59
+        "tac": 64,
+        "vis": 64
       },
       "birth": "1996-04-01",
       "contract": "2021-06-30",
@@ -431,9 +452,6 @@
       "wage": 68000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 49,
         "com": 77,
@@ -456,13 +474,10 @@
       "name": "Adam Lallena",
       "nation": "ENG",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 170500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -489,6 +504,9 @@
       "wage": 161000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 72,
         "com": 72,
@@ -511,13 +529,10 @@
       "name": "Emra Can",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 268500
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 42,
         "com": 77,
@@ -548,6 +563,10 @@
       "wage": 162500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 54,
@@ -576,17 +595,17 @@
     {
       "attrs": {
         "aer": 50,
-        "com": 58,
+        "com": 62,
         "dri": 58,
         "ldr": 45,
         "pac": 64,
-        "pas": 63,
-        "pos": 60,
+        "pas": 67,
+        "pos": 64,
         "sho": 45,
         "sta": 70,
-        "str": 60,
-        "tac": 64,
-        "vis": 56
+        "str": 64,
+        "tac": 68,
+        "vis": 60
       },
       "birth": "1993-09-01",
       "contract": "2019-06-30",
@@ -601,21 +620,21 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 45,
-        "com": 58,
+        "com": 61,
         "dri": 67,
         "ldr": 38,
         "pac": 62,
-        "pas": 63,
+        "pas": 68,
         "pos": 55,
         "sho": 50,
-        "sta": 62,
+        "sta": 67,
         "str": 58,
-        "tac": 45,
-        "vis": 62
+        "tac": 50,
+        "vis": 65
       },
       "birth": "1997-11-01",
       "contract": "2019-06-30",
@@ -651,7 +670,7 @@
       "name": "Sadio Mene",
       "nation": "SEN",
       "number": 19,
-      "pos": "RW",
+      "pos": "LW",
       "traits": [
         "speedster"
       ],
@@ -659,19 +678,21 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 64,
-        "com": 78,
+        "aer": 74,
+        "com": 88,
         "dri": 85,
         "ldr": 63,
-        "pac": 78,
+        "pac": 82,
         "pas": 80,
-        "pos": 68,
-        "sho": 78,
+        "pos": 78,
+        "sho": 88,
         "sta": 87,
-        "str": 72,
+        "str": 82,
         "tac": 61,
         "vis": 81
       },
@@ -691,16 +712,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 80,
+        "aer": 67,
+        "com": 86,
         "dri": 82,
         "ldr": 57,
         "pac": 80,
         "pas": 71,
-        "pos": 57,
-        "sho": 84,
+        "pos": 63,
+        "sho": 90,
         "sta": 65,
-        "str": 66,
+        "str": 72,
         "tac": 36,
         "vis": 71
       },
@@ -720,16 +741,16 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 66,
+        "aer": 71,
+        "com": 69,
         "dri": 72,
         "ldr": 49,
         "pac": 80,
         "pas": 60,
-        "pos": 51,
-        "sho": 72,
+        "pos": 54,
+        "sho": 75,
         "sta": 72,
-        "str": 74,
+        "str": 77,
         "tac": 34,
         "vis": 58
       },
@@ -746,16 +767,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 70,
+        "aer": 64,
+        "com": 72,
         "dri": 72,
         "ldr": 59,
         "pac": 75,
         "pas": 64,
-        "pos": 60,
-        "sho": 75,
+        "pos": 62,
+        "sho": 77,
         "sta": 80,
-        "str": 67,
+        "str": 69,
         "tac": 48,
         "vis": 64
       },
@@ -771,6 +792,11 @@
       "wage": 127000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 52,

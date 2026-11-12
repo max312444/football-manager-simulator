@@ -73,7 +73,7 @@
       "name": "Gaetan Bussmenn",
       "nation": "FRA",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11000
     },
     {
@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 49,
+        "aer": 44,
+        "com": 61,
+        "dri": 60,
+        "ldr": 53,
+        "pac": 52,
         "pas": 62,
-        "pos": 56,
-        "sho": 48,
-        "sta": 58,
-        "str": 49,
-        "tac": 50,
-        "vis": 56
+        "pos": 41,
+        "sho": 54,
+        "sta": 52,
+        "str": 44,
+        "tac": 32,
+        "vis": 58
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -125,7 +125,7 @@
       "name": "Clemens Fendrich",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7500
     },
     {
@@ -155,6 +155,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -181,17 +184,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 55,
-        "dri": 51,
+        "aer": 54,
+        "com": 65,
+        "dri": 55,
         "ldr": 48,
-        "pac": 52,
+        "pac": 61,
         "pas": 59,
-        "pos": 51,
-        "sho": 46,
+        "pos": 61,
+        "sho": 56,
         "sta": 54,
-        "str": 49,
+        "str": 59,
         "tac": 49,
         "vis": 58
       },
@@ -203,7 +211,7 @@
       "name": "Tom Baomgart",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 5500
     },
     {
@@ -214,7 +222,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 55,
         "str": 61,
@@ -241,7 +249,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 45,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 50,
         "str": 55,
@@ -286,19 +294,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 57,
-        "dri": 53,
-        "ldr": 49,
-        "pac": 54,
-        "pas": 55,
-        "pos": 56,
-        "sho": 47,
-        "sta": 55,
-        "str": 48,
-        "tac": 54,
-        "vis": 55
+        "aer": 46,
+        "com": 59,
+        "dri": 55,
+        "ldr": 50,
+        "pac": 55,
+        "pas": 57,
+        "pos": 57,
+        "sho": 49,
+        "sta": 57,
+        "str": 49,
+        "tac": 55,
+        "vis": 57
       },
       "birth": "1995-07-01",
       "contract": null,
@@ -319,7 +330,7 @@
         "ldr": 55,
         "pac": 64,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 57,
         "str": 62,
@@ -338,6 +349,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 53,
@@ -364,6 +378,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -391,18 +409,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 54,
-        "dri": 42,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 46,
-        "pos": 57,
-        "sho": 27,
-        "sta": 52,
-        "str": 60,
-        "tac": 59,
-        "vis": 40
+        "aer": 46,
+        "com": 52,
+        "dri": 52,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 50,
+        "pos": 52,
+        "sho": 34,
+        "sta": 58,
+        "str": 52,
+        "tac": 56,
+        "vis": 46
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -412,7 +430,7 @@
       "name": "Calogero Rizzutu",
       "nation": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
@@ -442,19 +460,22 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 60,
-        "dri": 54,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 60,
-        "pos": 55,
-        "sho": 52,
+        "dri": 50,
+        "ldr": 57,
+        "pac": 50,
+        "pas": 59,
+        "pos": 59,
+        "sho": 46,
         "sta": 61,
-        "str": 57,
-        "tac": 53,
-        "vis": 59
+        "str": 62,
+        "tac": 59,
+        "vis": 56
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -465,7 +486,7 @@
       "nation": "PHI",
       "nation2": "GER",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8500
     },
     {
@@ -521,6 +542,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RW",
+        "RB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -528,7 +553,7 @@
         "ldr": 53,
         "pac": 55,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 62,
         "sta": 51,
         "str": 57,
@@ -548,18 +573,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 60,
-        "dri": 52,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 61,
-        "pos": 55,
-        "sho": 53,
+        "dri": 48,
+        "ldr": 57,
+        "pac": 50,
+        "pas": 60,
+        "pos": 59,
+        "sho": 47,
         "sta": 56,
-        "str": 51,
-        "tac": 55,
-        "vis": 60
+        "str": 56,
+        "tac": 61,
+        "vis": 57
       },
       "birth": "1991-10-01",
       "contract": null,
@@ -569,7 +594,7 @@
       "name": "Ognjen Gnjetic",
       "nation": "BIH",
       "number": 33,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
@@ -580,7 +605,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 69,
         "sta": 56,
         "str": 61,

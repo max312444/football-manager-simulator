@@ -123,7 +123,6 @@
     },
     {
       "alt": [
-        "CB",
         "RB"
       ],
       "attrs": {
@@ -152,6 +151,9 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 64,
@@ -260,8 +262,9 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 64,
@@ -285,7 +288,7 @@
       "name": "Steve Watsun",
       "nation": "ENG",
       "number": 2,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 50500
     },
     {
@@ -326,21 +329,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "ST"
       ],
       "attrs": {
         "aer": 82,
-        "com": 72,
-        "dri": 70,
+        "com": 78,
+        "dri": 79,
         "ldr": 62,
-        "pac": 72,
-        "pas": 70,
+        "pac": 73,
+        "pas": 78,
         "pos": 72,
-        "sho": 74,
+        "sho": 80,
         "sta": 84,
         "str": 72,
         "tac": 68,
-        "vis": 66
+        "vis": 75
       },
       "birth": "1979-12-01",
       "contract": "2008-06-30",
@@ -357,9 +362,6 @@
       "wage": 65500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -391,22 +393,21 @@
     },
     {
       "alt": [
-        "AM",
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 50,
-        "com": 68,
+        "com": 75,
         "dri": 76,
         "ldr": 48,
         "pac": 74,
-        "pas": 72,
+        "pas": 79,
         "pos": 60,
         "sho": 66,
-        "sta": 80,
+        "sta": 81,
         "str": 56,
-        "tac": 56,
-        "vis": 70
+        "tac": 63,
+        "vis": 77
       },
       "birth": "1981-05-01",
       "contract": "2008-06-30",
@@ -421,7 +422,7 @@
     },
     {
       "alt": [
-        "LB"
+        "LW"
       ],
       "attrs": {
         "aer": 70,
@@ -445,23 +446,23 @@
       "name": "Kevin Kylbane",
       "nation": "IRL",
       "number": 14,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 50500
     },
     {
       "attrs": {
         "aer": 58,
-        "com": 62,
+        "com": 65,
         "dri": 60,
         "ldr": 52,
         "pac": 66,
-        "pas": 66,
-        "pos": 68,
+        "pas": 69,
+        "pos": 71,
         "sho": 50,
         "sta": 80,
-        "str": 66,
-        "tac": 70,
-        "vis": 58
+        "str": 69,
+        "tac": 73,
+        "vis": 61
       },
       "birth": "1977-09-01",
       "contract": "2006-06-30",
@@ -477,7 +478,7 @@
     {
       "alt": [
         "ST",
-        "AM"
+        "RW"
       ],
       "attrs": {
         "aer": 50,
@@ -506,16 +507,16 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 60,
+        "aer": 74,
+        "com": 62,
         "dri": 66,
         "ldr": 50,
         "pac": 84,
         "pas": 58,
-        "pos": 52,
-        "sho": 66,
+        "pos": 54,
+        "sho": 68,
         "sta": 80,
-        "str": 78,
+        "str": 80,
         "tac": 44,
         "vis": 52
       },

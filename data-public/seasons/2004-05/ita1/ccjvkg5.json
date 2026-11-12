@@ -46,7 +46,7 @@
       "name": "Fabio Grusso",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 26500
     },
@@ -58,7 +58,7 @@
         "ldr": 72,
         "pac": 81,
         "pas": 71,
-        "pos": 57,
+        "pos": 77,
         "sho": 84,
         "sta": 79,
         "str": 81,
@@ -104,6 +104,10 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -131,6 +135,11 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 79,
         "com": 74,
@@ -158,6 +167,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 75,
@@ -184,19 +196,22 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 74,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 72,
-        "pos": 71,
-        "sho": 66,
-        "sta": 71,
-        "str": 64,
-        "tac": 69,
-        "vis": 74
+        "aer": 56,
+        "com": 72,
+        "dri": 76,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 68,
+        "pos": 53,
+        "sho": 70,
+        "sta": 67,
+        "str": 59,
+        "tac": 49,
+        "vis": 71
       },
       "birth": "1983-08-01",
       "contract": null,
@@ -206,11 +221,14 @@
       "name": "Simone Pepa",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 19000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 69,
@@ -237,19 +255,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 68,
+        "com": 69,
         "dri": 68,
         "ldr": 65,
         "pac": 68,
-        "pas": 70,
+        "pas": 71,
         "pos": 69,
         "sho": 67,
         "sta": 74,
         "str": 69,
-        "tac": 65,
-        "vis": 69
+        "tac": 66,
+        "vis": 70
       },
       "birth": "1981-04-01",
       "contract": null,
@@ -263,6 +284,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 69,
@@ -290,18 +314,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 68,
-        "dri": 69,
-        "ldr": 69,
-        "pac": 67,
+        "aer": 51,
+        "com": 69,
+        "dri": 73,
+        "ldr": 67,
+        "pac": 70,
         "pas": 72,
-        "pos": 65,
-        "sho": 62,
-        "sta": 73,
-        "str": 62,
-        "tac": 67,
-        "vis": 74
+        "pos": 50,
+        "sho": 68,
+        "sta": 67,
+        "str": 57,
+        "tac": 49,
+        "vis": 76
       },
       "birth": "1977-08-01",
       "contract": null,
@@ -311,11 +335,14 @@
       "name": "Ighli Vennucchi",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 71,
@@ -343,6 +370,11 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 72,
@@ -404,7 +436,7 @@
         "ldr": 61,
         "pac": 70,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 68,
         "sta": 60,
         "str": 66,
@@ -424,19 +456,24 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 65,
-        "ldr": 59,
-        "pac": 59,
+        "aer": 53,
+        "com": 70,
+        "dri": 69,
+        "ldr": 57,
+        "pac": 62,
         "pas": 68,
-        "pos": 66,
-        "sho": 62,
-        "sta": 66,
-        "str": 59,
-        "tac": 61,
-        "vis": 69
+        "pos": 51,
+        "sho": 68,
+        "sta": 60,
+        "str": 54,
+        "tac": 43,
+        "vis": 71
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -446,7 +483,7 @@
       "name": "Franco Bryenza",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10500
     },
     {
@@ -510,7 +547,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 53,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 61,
         "str": 60,
@@ -583,19 +620,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 58,
+        "com": 60,
         "dri": 60,
         "ldr": 57,
         "pac": 59,
-        "pas": 63,
+        "pas": 65,
         "pos": 56,
         "sho": 57,
         "sta": 66,
         "str": 58,
-        "tac": 54,
-        "vis": 59
+        "tac": 56,
+        "vis": 61
       },
       "birth": "1970-11-01",
       "contract": null,
@@ -610,19 +650,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 55,
+        "com": 64,
         "dri": 44,
         "ldr": 60,
         "pac": 55,
-        "pas": 53,
+        "pas": 62,
         "pos": 63,
         "sho": 36,
-        "sta": 58,
+        "sta": 67,
         "str": 61,
         "tac": 60,
-        "vis": 45
+        "vis": 54
       },
       "birth": "1981-04-01",
       "contract": null,
@@ -632,7 +677,7 @@
       "name": "Cristian Raymondi",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
@@ -663,6 +708,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 57,
@@ -690,18 +738,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 61,
-        "dri": 60,
-        "ldr": 54,
-        "pac": 55,
+        "aer": 46,
+        "com": 62,
+        "dri": 64,
+        "ldr": 52,
+        "pac": 58,
         "pas": 60,
-        "pos": 57,
-        "sho": 56,
-        "sta": 63,
-        "str": 56,
-        "tac": 57,
-        "vis": 63
+        "pos": 42,
+        "sho": 62,
+        "sta": 57,
+        "str": 51,
+        "tac": 39,
+        "vis": 65
       },
       "birth": "1971-07-01",
       "contract": null,
@@ -711,7 +759,7 @@
       "name": "Lamberto Zeuli",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
@@ -769,18 +817,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 54,
-        "dri": 42,
-        "ldr": 59,
-        "pac": 52,
-        "pas": 51,
-        "pos": 62,
-        "sho": 32,
-        "sta": 52,
-        "str": 58,
-        "tac": 60,
-        "vis": 41
+        "aer": 45,
+        "com": 52,
+        "dri": 52,
+        "ldr": 55,
+        "pac": 60,
+        "pas": 55,
+        "pos": 57,
+        "sho": 39,
+        "sta": 58,
+        "str": 50,
+        "tac": 57,
+        "vis": 47
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -790,10 +838,13 @@
       "name": "Salvatore Mesiello",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -847,6 +898,10 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -874,18 +929,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 57,
-        "dri": 55,
-        "ldr": 46,
-        "pac": 54,
-        "pas": 48,
-        "pos": 35,
-        "sho": 58,
-        "sta": 49,
-        "str": 55,
-        "tac": 24,
-        "vis": 44
+        "aer": 36,
+        "com": 54,
+        "dri": 60,
+        "ldr": 44,
+        "pac": 58,
+        "pas": 54,
+        "pos": 37,
+        "sho": 53,
+        "sta": 51,
+        "str": 45,
+        "tac": 30,
+        "vis": 50
       },
       "birth": "1970-01-01",
       "contract": null,
@@ -895,11 +950,14 @@
       "name": "Gaetano Vesari",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 55,
@@ -933,7 +991,7 @@
         "ldr": 47,
         "pac": 51,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 55,
         "sta": 44,
         "str": 53,
@@ -960,7 +1018,7 @@
         "ldr": 46,
         "pac": 51,
         "pas": 42,
-        "pos": 26,
+        "pos": 46,
         "sho": 54,
         "sta": 44,
         "str": 47,

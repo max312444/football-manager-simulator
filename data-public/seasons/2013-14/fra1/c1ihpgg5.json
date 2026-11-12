@@ -77,6 +77,9 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
@@ -103,19 +106,22 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 78,
-        "dri": 77,
-        "ldr": 73,
-        "pac": 71,
-        "pas": 82,
-        "pos": 73,
-        "sho": 69,
-        "sta": 78,
-        "str": 72,
-        "tac": 75,
-        "vis": 76
+        "aer": 60,
+        "com": 76,
+        "dri": 82,
+        "ldr": 69,
+        "pac": 80,
+        "pas": 78,
+        "pos": 55,
+        "sho": 73,
+        "sta": 74,
+        "str": 67,
+        "tac": 55,
+        "vis": 73
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -126,10 +132,14 @@
       "name": "Milos Krasyc",
       "nation": "SRB",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 36500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 61,
@@ -137,7 +147,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 54,
         "str": 63,
@@ -163,7 +173,7 @@
         "ldr": 61,
         "pac": 63,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 72,
         "sta": 62,
         "str": 65,
@@ -184,19 +194,24 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "LW",
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 73,
-        "dri": 73,
-        "ldr": 67,
-        "pac": 68,
+        "aer": 54,
+        "com": 74,
+        "dri": 77,
+        "ldr": 65,
+        "pac": 71,
         "pas": 74,
-        "pos": 67,
-        "sho": 69,
-        "sta": 77,
-        "str": 69,
-        "tac": 68,
-        "vis": 76
+        "pos": 52,
+        "sho": 75,
+        "sta": 71,
+        "str": 64,
+        "tac": 50,
+        "vis": 78
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -207,7 +222,7 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 36500
     },
     {
@@ -218,7 +233,7 @@
         "ldr": 65,
         "pac": 74,
         "pas": 69,
-        "pos": 49,
+        "pos": 69,
         "sho": 75,
         "sta": 71,
         "str": 75,
@@ -237,6 +252,9 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -270,7 +288,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 59,
         "str": 61,
@@ -290,18 +308,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 60,
-        "dri": 63,
-        "ldr": 56,
-        "pac": 56,
+        "aer": 46,
+        "com": 61,
+        "dri": 67,
+        "ldr": 54,
+        "pac": 59,
         "pas": 65,
-        "pos": 61,
-        "sho": 57,
-        "sta": 68,
-        "str": 59,
-        "tac": 58,
-        "vis": 62
+        "pos": 46,
+        "sho": 63,
+        "sta": 62,
+        "str": 54,
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1986-12-01",
       "contract": null,
@@ -311,7 +329,7 @@
       "name": "Julian Pelmieri",
       "nation": "FRA",
       "number": 15,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15000
     },
     {
@@ -341,17 +359,22 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 62,
-        "dri": 57,
+        "aer": 59,
+        "com": 70,
+        "dri": 63,
         "ldr": 59,
-        "pac": 54,
+        "pac": 62,
         "pas": 64,
-        "pos": 59,
-        "sho": 53,
+        "pos": 67,
+        "sho": 61,
         "sta": 61,
-        "str": 54,
+        "str": 62,
         "tac": 59,
         "vis": 62
       },
@@ -364,23 +387,23 @@
       "name": "Florian Raspentinu",
       "nation": "FRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 12500
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 66,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 68,
-        "pos": 64,
-        "sho": 62,
+        "dri": 62,
+        "ldr": 62,
+        "pac": 56,
+        "pas": 67,
+        "pos": 68,
+        "sho": 56,
         "sta": 70,
-        "str": 58,
-        "tac": 59,
-        "vis": 64
+        "str": 63,
+        "tac": 65,
+        "vis": 61
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -390,23 +413,26 @@
       "name": "Yannick Cehuzac",
       "nation": "FRA",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 21500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 56,
-        "dri": 56,
-        "ldr": 51,
-        "pac": 51,
-        "pas": 56,
-        "pos": 54,
-        "sho": 50,
-        "sta": 58,
-        "str": 52,
-        "tac": 54,
-        "vis": 60
+        "aer": 41,
+        "com": 54,
+        "dri": 61,
+        "ldr": 47,
+        "pac": 60,
+        "pas": 52,
+        "pos": 36,
+        "sho": 54,
+        "sta": 54,
+        "str": 47,
+        "tac": 34,
+        "vis": 57
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -416,10 +442,15 @@
       "name": "Adema Ba",
       "nation": "MTN",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 7500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 60,
@@ -472,19 +503,23 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 59,
-        "pas": 67,
-        "pos": 64,
-        "sho": 56,
-        "sta": 65,
-        "str": 62,
-        "tac": 63,
-        "vis": 63
+        "aer": 55,
+        "com": 66,
+        "dri": 64,
+        "ldr": 63,
+        "pac": 60,
+        "pas": 69,
+        "pos": 65,
+        "sho": 58,
+        "sta": 67,
+        "str": 63,
+        "tac": 64,
+        "vis": 65
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -499,19 +534,22 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 68,
-        "dri": 60,
-        "ldr": 72,
-        "pac": 63,
-        "pas": 62,
-        "pos": 74,
-        "sho": 42,
-        "sta": 68,
-        "str": 74,
-        "tac": 72,
-        "vis": 56
+        "aer": 65,
+        "com": 66,
+        "dri": 70,
+        "ldr": 68,
+        "pac": 71,
+        "pas": 66,
+        "pos": 69,
+        "sho": 49,
+        "sta": 74,
+        "str": 66,
+        "tac": 69,
+        "vis": 62
       },
       "birth": "1985-02-01",
       "contract": null,
@@ -521,10 +559,13 @@
       "name": "Drissa Dyakite",
       "nation": "MLI",
       "number": 23,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 30000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -558,7 +599,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 66,
         "sta": 63,
         "str": 62,

@@ -77,9 +77,6 @@
       "wage": 240000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 77,
         "com": 69,
@@ -132,6 +129,9 @@
       "wage": 125000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 76,
@@ -158,6 +158,9 @@
       "wage": 202500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 86,
         "com": 76,
@@ -184,6 +187,9 @@
       "wage": 204500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 84,
@@ -217,7 +223,7 @@
         "ldr": 78,
         "pac": 83,
         "pas": 75,
-        "pos": 62,
+        "pos": 82,
         "sho": 87,
         "sta": 80,
         "str": 83,
@@ -237,7 +243,11 @@
       "wage": 256500
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 80,
         "com": 85,
@@ -245,7 +255,7 @@
         "ldr": 77,
         "pac": 84,
         "pas": 72,
-        "pos": 58,
+        "pos": 78,
         "sho": 86,
         "sta": 77,
         "str": 83,
@@ -265,6 +275,10 @@
       "wage": 247000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -313,10 +327,13 @@
       "name": "Alex Sandru",
       "nation": "BRA",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 195000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 71,
@@ -343,6 +360,9 @@
       "wage": 139000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 56,
@@ -365,13 +385,10 @@
       "name": "Luca Pellegryni",
       "nation": "ITA",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 32500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 84,
         "com": 76,
@@ -398,19 +415,23 @@
       "wage": 171000
     },
     {
+      "alt": [
+        "RW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 79,
-        "dri": 79,
-        "ldr": 73,
-        "pac": 75,
+        "aer": 64,
+        "com": 77,
+        "dri": 82,
+        "ldr": 71,
+        "pac": 83,
         "pas": 79,
-        "pos": 80,
-        "sho": 76,
-        "sta": 85,
-        "str": 78,
-        "tac": 73,
-        "vis": 79
+        "pos": 72,
+        "sho": 74,
+        "sta": 88,
+        "str": 75,
+        "tac": 67,
+        "vis": 78
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -420,7 +441,7 @@
       "name": "Federico Bernerdeschi",
       "nation": "ITA",
       "number": 20,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 284500
     },
     {
@@ -431,7 +452,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 53,
-        "pos": 44,
+        "pos": 64,
         "sho": 65,
         "sta": 58,
         "str": 60,
@@ -450,19 +471,23 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 74,
-        "dri": 76,
+        "aer": 75,
+        "com": 81,
+        "dri": 83,
         "ldr": 71,
-        "pac": 72,
-        "pas": 76,
-        "pos": 78,
-        "sho": 74,
+        "pac": 80,
+        "pas": 78,
+        "pos": 85,
+        "sho": 81,
         "sta": 82,
-        "str": 71,
+        "str": 78,
         "tac": 73,
-        "vis": 79
+        "vis": 81
       },
       "birth": "1997-10-01",
       "contract": null,
@@ -473,7 +498,7 @@
       "name": "Federico Chiasa",
       "nation": "ITA",
       "number": 22,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 214500
     },
     {
@@ -503,6 +528,10 @@
       "wage": 90000
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 84,
         "com": 79,
@@ -529,6 +558,9 @@
       "wage": 186000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 80,
@@ -556,18 +588,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 77,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 76,
-        "pos": 76,
-        "sho": 69,
+        "dri": 67,
+        "ldr": 71,
+        "pac": 66,
+        "pas": 75,
+        "pos": 80,
+        "sho": 63,
         "sta": 81,
-        "str": 71,
-        "tac": 71,
-        "vis": 75
+        "str": 76,
+        "tac": 77,
+        "vis": 72
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -578,10 +610,14 @@
       "name": "Manuel Locatalli",
       "nation": "ITA",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 172500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 80,
@@ -634,6 +670,9 @@
       "wage": 154000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -660,19 +699,23 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 73,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 70,
-        "pas": 72,
-        "pos": 67,
-        "sho": 65,
-        "sta": 75,
-        "str": 70,
-        "tac": 68,
-        "vis": 71
+        "aer": 53,
+        "com": 75,
+        "dri": 73,
+        "ldr": 63,
+        "pac": 73,
+        "pas": 73,
+        "pos": 52,
+        "sho": 72,
+        "sta": 69,
+        "str": 65,
+        "tac": 50,
+        "vis": 74
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -683,7 +726,7 @@
       "nation": "SWE",
       "nation2": "MKD",
       "number": 44,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 110500
     },
     {
@@ -694,7 +737,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 66,
-        "pos": 54,
+        "pos": 74,
         "sho": 76,
         "sta": 66,
         "str": 71,

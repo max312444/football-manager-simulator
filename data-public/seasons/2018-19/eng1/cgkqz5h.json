@@ -99,7 +99,9 @@
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "LB",
+        "LWB"
       ],
       "attrs": {
         "aer": 70,
@@ -128,8 +130,7 @@
     },
     {
       "alt": [
-        "LB",
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 54,
@@ -154,22 +155,25 @@
       "name": "Jonny Ottu",
       "nation": "ESP",
       "number": 19,
-      "pos": "LWB",
+      "pos": "RB",
       "wage": 93000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
         "dri": 72,
         "ldr": 42,
-        "pac": 76,
+        "pac": 78,
         "pas": 66,
-        "pos": 56,
+        "pos": 58,
         "sho": 48,
         "sta": 72,
-        "str": 56,
-        "tac": 60,
+        "str": 58,
+        "tac": 62,
         "vis": 58
       },
       "birth": "1999-04-01",
@@ -211,18 +215,21 @@
       "wage": 75500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 74,
+        "aer": 78,
         "com": 74,
         "dri": 56,
         "ldr": 80,
-        "pac": 60,
+        "pac": 64,
         "pas": 76,
-        "pos": 76,
+        "pos": 80,
         "sho": 42,
         "sta": 80,
-        "str": 72,
-        "tac": 74,
+        "str": 76,
+        "tac": 78,
         "vis": 64
       },
       "birth": "1993-02-01",
@@ -297,6 +304,9 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 72,
         "com": 56,
@@ -324,9 +334,6 @@
       "wage": 36000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 78,
@@ -334,11 +341,11 @@
         "ldr": 64,
         "pac": 56,
         "pas": 84,
-        "pos": 74,
+        "pos": 81,
         "sho": 76,
         "sta": 78,
-        "str": 70,
-        "tac": 70,
+        "str": 77,
+        "tac": 77,
         "vis": 82
       },
       "birth": "1997-03-01",
@@ -349,7 +356,7 @@
       "name": "Ruben Nevas",
       "nation": "POR",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot",
         "playmaker"
@@ -357,6 +364,9 @@
       "wage": 144500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 84,
@@ -422,17 +432,17 @@
       ],
       "attrs": {
         "aer": 76,
-        "com": 68,
+        "com": 69,
         "dri": 60,
         "ldr": 64,
         "pac": 52,
-        "pas": 70,
+        "pas": 71,
         "pos": 70,
         "sho": 54,
-        "sta": 72,
+        "sta": 73,
         "str": 76,
         "tac": 72,
-        "vis": 62
+        "vis": 63
       },
       "birth": "1990-03-01",
       "contract": "2020-06-30",
@@ -446,22 +456,19 @@
       "wage": 95000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 40,
-        "com": 60,
+        "com": 68,
         "dri": 72,
         "ldr": 42,
         "pac": 70,
-        "pas": 66,
+        "pas": 74,
         "pos": 54,
-        "sho": 58,
+        "sho": 66,
         "sta": 70,
         "str": 54,
         "tac": 44,
-        "vis": 64
+        "vis": 72
       },
       "birth": "2000-01-01",
       "contract": "2022-06-30",
@@ -475,6 +482,9 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 62,
@@ -567,6 +577,7 @@
     },
     {
       "alt": [
+        "RW",
         "ST"
       ],
       "attrs": {

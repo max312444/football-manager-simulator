@@ -78,6 +78,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 81,
@@ -104,6 +107,9 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 71,
@@ -153,23 +159,26 @@
       "name": "Maurizio Leuro",
       "nation": "ITA",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 65,
-        "dri": 63,
-        "ldr": 60,
-        "pac": 59,
+        "aer": 52,
+        "com": 63,
+        "dri": 66,
+        "ldr": 58,
+        "pac": 67,
         "pas": 65,
-        "pos": 61,
-        "sho": 60,
-        "sta": 66,
-        "str": 60,
-        "tac": 61,
-        "vis": 67
+        "pos": 53,
+        "sho": 58,
+        "sta": 69,
+        "str": 57,
+        "tac": 55,
+        "vis": 66
       },
       "birth": "1989-05-01",
       "contract": null,
@@ -181,10 +190,13 @@
       "nation": "ITA",
       "nation2": "ARG",
       "number": 7,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -212,6 +224,10 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -245,7 +261,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 61,
-        "pos": 45,
+        "pos": 65,
         "sho": 66,
         "sta": 59,
         "str": 68,
@@ -265,6 +281,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -292,18 +311,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 56,
-        "dri": 45,
+        "aer": 56,
+        "com": 58,
+        "dri": 53,
         "ldr": 61,
-        "pac": 54,
-        "pas": 50,
-        "pos": 63,
-        "sho": 35,
-        "sta": 60,
-        "str": 65,
-        "tac": 62,
-        "vis": 44
+        "pac": 52,
+        "pas": 59,
+        "pos": 62,
+        "sho": 50,
+        "sta": 66,
+        "str": 63,
+        "tac": 61,
+        "vis": 56
       },
       "birth": "1983-07-01",
       "contract": null,
@@ -313,10 +332,14 @@
       "name": "Giuseppe De Feodis",
       "nation": "ITA",
       "number": 19,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 53,
@@ -350,7 +373,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 51,
         "str": 56,
@@ -369,20 +392,24 @@
       "wage": 4000
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 72,
-        "dri": 67,
+        "dri": 77,
         "ldr": 65,
         "pac": 67,
-        "pas": 59,
-        "pos": 51,
+        "pas": 69,
+        "pos": 71,
         "sho": 70,
         "sta": 66,
         "str": 70,
         "tac": 41,
-        "vis": 59
+        "vis": 69
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -392,7 +419,7 @@
       "name": "Emanuele Gyaccherini",
       "nation": "ITA",
       "number": 23,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 15000
     },
     {
@@ -504,6 +531,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 50,
@@ -537,7 +567,7 @@
         "ldr": 65,
         "pac": 74,
         "pas": 68,
-        "pos": 51,
+        "pos": 71,
         "sho": 79,
         "sta": 71,
         "str": 72,
@@ -556,19 +586,22 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 49,
-        "com": 62,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 55,
-        "pas": 60,
+        "com": 58,
+        "dri": 58,
+        "ldr": 53,
+        "pac": 62,
+        "pas": 54,
         "pos": 57,
-        "sho": 56,
+        "sho": 42,
         "sta": 64,
-        "str": 57,
-        "tac": 53,
-        "vis": 58
+        "str": 56,
+        "tac": 57,
+        "vis": 49
       },
       "birth": "1983-03-01",
       "contract": null,
@@ -578,7 +611,7 @@
       "name": "Luca Ceccaralli",
       "nation": "ITA",
       "number": 77,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 7500
     },
     {
@@ -641,7 +674,7 @@
         "ldr": 65,
         "pac": 77,
         "pas": 64,
-        "pos": 52,
+        "pos": 72,
         "sho": 75,
         "sta": 72,
         "str": 72,

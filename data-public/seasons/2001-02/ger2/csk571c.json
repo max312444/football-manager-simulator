@@ -25,21 +25,21 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 65,
-        "ldr": 66,
-        "pac": 66,
-        "pas": 72,
-        "pos": 70,
-        "sho": 61,
-        "sta": 71,
-        "str": 65,
-        "tac": 67,
-        "vis": 70
+        "aer": 61,
+        "com": 69,
+        "dri": 67,
+        "ldr": 67,
+        "pac": 67,
+        "pas": 74,
+        "pos": 71,
+        "sho": 63,
+        "sta": 73,
+        "str": 66,
+        "tac": 68,
+        "vis": 72
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -88,7 +88,7 @@
         "ldr": 64,
         "pac": 66,
         "pas": 63,
-        "pos": 44,
+        "pos": 64,
         "sho": 75,
         "sta": 65,
         "str": 66,
@@ -108,6 +108,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 67,
@@ -115,7 +120,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 59,
-        "pos": 48,
+        "pos": 68,
         "sho": 74,
         "sta": 64,
         "str": 71,
@@ -136,17 +141,17 @@
     {
       "attrs": {
         "aer": 57,
-        "com": 65,
+        "com": 61,
         "dri": 67,
-        "ldr": 60,
-        "pac": 62,
-        "pas": 71,
-        "pos": 62,
-        "sho": 64,
-        "sta": 70,
-        "str": 60,
-        "tac": 65,
-        "vis": 70
+        "ldr": 58,
+        "pac": 71,
+        "pas": 66,
+        "pos": 60,
+        "sho": 53,
+        "sta": 72,
+        "str": 59,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1975-01-01",
       "contract": null,
@@ -156,7 +161,7 @@
       "name": "Erol Bulot",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "LWB",
       "verify": true,
       "wage": 7000
     },
@@ -195,7 +200,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 61,
         "str": 69,
@@ -215,6 +220,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -269,6 +277,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -303,7 +314,7 @@
         "ldr": 59,
         "pac": 65,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 61,
         "str": 61,
@@ -323,18 +334,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 62,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 64,
-        "pos": 58,
-        "sho": 56,
+        "dri": 55,
+        "ldr": 58,
+        "pac": 52,
+        "pas": 63,
+        "pos": 62,
+        "sho": 50,
         "sta": 63,
-        "str": 58,
-        "tac": 61,
-        "vis": 65
+        "str": 63,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1981-11-01",
       "contract": null,
@@ -345,10 +356,13 @@
       "nation": "USA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -376,6 +390,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -455,19 +472,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 55,
+        "com": 64,
         "dri": 46,
         "ldr": 56,
         "pac": 54,
-        "pas": 55,
+        "pas": 64,
         "pos": 62,
         "sho": 36,
-        "sta": 53,
+        "sta": 62,
         "str": 59,
         "tac": 65,
-        "vis": 46
+        "vis": 55
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -477,23 +499,28 @@
       "name": "Gerd Wimmar",
       "nation": "AUT",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 59,
+        "com": 69,
         "dri": 44,
         "ldr": 59,
         "pac": 57,
-        "pas": 52,
+        "pas": 62,
         "pos": 63,
         "sho": 36,
-        "sta": 58,
+        "sta": 68,
         "str": 59,
         "tac": 63,
-        "vis": 43
+        "vis": 53
       },
       "birth": "1972-10-01",
       "contract": null,
@@ -503,10 +530,13 @@
       "name": "Marco Gabhardt",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -588,6 +618,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 60,
@@ -614,6 +647,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -642,17 +678,17 @@
     {
       "attrs": {
         "aer": 47,
-        "com": 57,
-        "dri": 54,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 61,
+        "com": 53,
+        "dri": 52,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 55,
         "pos": 53,
-        "sho": 50,
+        "sho": 36,
         "sta": 61,
-        "str": 52,
-        "tac": 52,
-        "vis": 59
+        "str": 51,
+        "tac": 56,
+        "vis": 50
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -662,10 +698,15 @@
       "name": "Giuseppe Gamiti",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 52,
@@ -692,6 +733,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -746,6 +790,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 58,
@@ -773,6 +820,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 51,
@@ -806,7 +858,7 @@
         "ldr": 47,
         "pac": 53,
         "pas": 45,
-        "pos": 32,
+        "pos": 52,
         "sho": 55,
         "sta": 47,
         "str": 55,
@@ -826,6 +878,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 51,
@@ -852,6 +907,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -886,7 +944,7 @@
         "ldr": 47,
         "pac": 57,
         "pas": 49,
-        "pos": 35,
+        "pos": 55,
         "sho": 56,
         "sta": 51,
         "str": 55,
@@ -931,6 +989,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 46,
         "com": 48,
@@ -1011,19 +1072,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 37,
-        "com": 48,
-        "dri": 46,
-        "ldr": 47,
-        "pac": 44,
-        "pas": 51,
-        "pos": 51,
-        "sho": 41,
-        "sta": 51,
-        "str": 46,
-        "tac": 47,
-        "vis": 50
+        "aer": 38,
+        "com": 50,
+        "dri": 48,
+        "ldr": 48,
+        "pac": 45,
+        "pas": 53,
+        "pos": 52,
+        "sho": 43,
+        "sta": 53,
+        "str": 47,
+        "tac": 48,
+        "vis": 52
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -1038,6 +1102,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 47,
@@ -1073,7 +1140,7 @@
         "ldr": 41,
         "pac": 46,
         "pas": 39,
-        "pos": 22,
+        "pos": 42,
         "sho": 49,
         "sta": 44,
         "str": 46,
@@ -1093,6 +1160,11 @@
       "wage": 500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 32,
         "com": 46,

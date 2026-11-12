@@ -26,21 +26,21 @@
   "squad": [
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
-        "aer": 61,
-        "com": 60,
-        "dri": 49,
-        "ldr": 59,
-        "pac": 54,
-        "pas": 52,
-        "pos": 62,
-        "sho": 36,
-        "sta": 55,
-        "str": 61,
-        "tac": 61,
-        "vis": 47
+        "aer": 48,
+        "com": 58,
+        "dri": 59,
+        "ldr": 55,
+        "pac": 62,
+        "pas": 56,
+        "pos": 57,
+        "sho": 43,
+        "sta": 61,
+        "str": 53,
+        "tac": 58,
+        "vis": 53
       },
       "birth": "1986-12-01",
       "contract": null,
@@ -50,7 +50,7 @@
       "name": "Cheikh Gueya",
       "nation": "SEN",
       "number": 4,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
@@ -81,18 +81,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 59,
-        "dri": 53,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 59,
-        "pos": 56,
-        "sho": 51,
+        "dri": 49,
+        "ldr": 55,
+        "pac": 51,
+        "pas": 58,
+        "pos": 60,
+        "sho": 45,
         "sta": 56,
-        "str": 53,
-        "tac": 56,
-        "vis": 55
+        "str": 58,
+        "tac": 62,
+        "vis": 52
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -102,10 +102,13 @@
       "name": "Marco Hartmenn",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 61,
@@ -133,6 +136,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -166,7 +172,7 @@
         "ldr": 48,
         "pac": 56,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 62,
         "sta": 50,
         "str": 54,
@@ -193,7 +199,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 61,
         "str": 61,
@@ -213,9 +219,6 @@
       "wage": 5000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 60,
@@ -303,7 +306,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 59,
         "str": 67,
@@ -349,6 +352,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 60,
@@ -434,7 +440,7 @@
         "ldr": 59,
         "pac": 65,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 73,
         "sta": 67,
         "str": 65,
@@ -480,18 +486,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 57,
-        "dri": 51,
-        "ldr": 49,
-        "pac": 50,
-        "pas": 57,
-        "pos": 52,
-        "sho": 49,
-        "sta": 60,
-        "str": 54,
-        "tac": 52,
-        "vis": 57
+        "aer": 56,
+        "com": 55,
+        "dri": 39,
+        "ldr": 51,
+        "pac": 49,
+        "pas": 47,
+        "pos": 57,
+        "sho": 28,
+        "sta": 54,
+        "str": 61,
+        "tac": 59,
+        "vis": 42
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -501,10 +507,14 @@
       "name": "Christoph Manz",
       "nation": "GER",
       "number": 24,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -531,19 +541,24 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 55,
+        "com": 64,
         "dri": 43,
         "ldr": 55,
         "pac": 51,
-        "pas": 52,
+        "pas": 61,
         "pos": 62,
         "sho": 29,
-        "sta": 55,
+        "sta": 64,
         "str": 61,
         "tac": 60,
-        "vis": 42
+        "vis": 51
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -553,7 +568,7 @@
       "name": "Sebastian Schuppen",
       "nation": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -609,6 +624,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 50,
@@ -616,7 +636,7 @@
         "ldr": 40,
         "pac": 49,
         "pas": 41,
-        "pos": 30,
+        "pos": 50,
         "sho": 51,
         "sta": 45,
         "str": 49,
@@ -635,6 +655,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,

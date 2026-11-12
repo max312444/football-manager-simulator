@@ -70,6 +70,10 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 60,
@@ -151,22 +155,22 @@
     },
     {
       "alt": [
-        "RM",
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 48,
-        "com": 68,
+        "com": 69,
         "dri": 74,
         "ldr": 50,
         "pac": 69,
-        "pas": 72,
+        "pas": 73,
         "pos": 58,
-        "sho": 64,
+        "sho": 65,
         "sta": 77,
         "str": 59,
         "tac": 48,
-        "vis": 70
+        "vis": 71
       },
       "birth": "1980-01-01",
       "contract": "2006-06-30",
@@ -181,7 +185,9 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 55,
@@ -211,16 +217,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 60,
+        "aer": 61,
+        "com": 63,
         "dri": 62,
         "ldr": 52,
         "pac": 74,
         "pas": 56,
-        "pos": 42,
-        "sho": 66,
+        "pos": 45,
+        "sho": 69,
         "sta": 70,
-        "str": 70,
+        "str": 73,
         "tac": 36,
         "vis": 52
       },
@@ -238,18 +244,21 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 78,
         "dri": 70,
         "ldr": 72,
         "pac": 54,
-        "pas": 78,
+        "pas": 79,
         "pos": 66,
         "sho": 68,
-        "sta": 64,
+        "sta": 65,
         "str": 60,
-        "tac": 62,
+        "tac": 63,
         "vis": 78
       },
       "birth": "1968-01-01",
@@ -292,19 +301,22 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 59,
-        "dri": 61,
+        "com": 68,
+        "dri": 67,
         "ldr": 51,
         "pac": 65,
-        "pas": 63,
+        "pas": 72,
         "pos": 63,
-        "sho": 53,
+        "sho": 59,
         "sta": 77,
         "str": 69,
-        "tac": 65,
-        "vis": 57
+        "tac": 68,
+        "vis": 66
       },
       "birth": "1979-09-01",
       "contract": "2005-06-30",
@@ -319,7 +331,8 @@
     },
     {
       "alt": [
-        "RW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 58,
@@ -343,7 +356,7 @@
       "name": "Steve Marlat",
       "nation": "FRA",
       "number": 15,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 21000
     },
@@ -370,11 +383,14 @@
       "name": "Bjarne Guldbæk",
       "nation": "DEN",
       "number": 16,
-      "pos": "RM",
+      "pos": "AM",
       "verify": true,
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -403,16 +419,16 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 70,
+        "aer": 75,
+        "com": 75,
         "dri": 74,
         "ldr": 48,
         "pac": 81,
         "pas": 66,
-        "pos": 46,
-        "sho": 76,
+        "pos": 51,
+        "sho": 81,
         "sta": 69,
-        "str": 73,
+        "str": 78,
         "tac": 36,
         "vis": 62
       },
@@ -431,9 +447,6 @@
       "wage": 30000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 74,
         "com": 60,
@@ -488,9 +501,6 @@
       "wage": 12500
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -518,22 +528,19 @@
       "wage": 21500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 44,
-        "com": 58,
+        "com": 65,
         "dri": 66,
         "ldr": 50,
         "pac": 68,
-        "pas": 64,
+        "pas": 71,
         "pos": 50,
-        "sho": 60,
+        "sho": 67,
         "sta": 66,
         "str": 56,
         "tac": 40,
-        "vis": 60
+        "vis": 67
       },
       "birth": "1974-07-01",
       "contract": "2003-06-30",
@@ -543,25 +550,22 @@
       "name": "Andrejs Stolcars",
       "nation": "LVA",
       "number": 24,
-      "pos": "LM",
+      "pos": "AM",
       "verify": true,
       "wage": 13000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 48,
-        "com": 46,
+        "aer": 55,
+        "com": 53,
         "dri": 56,
         "ldr": 30,
         "pac": 73,
         "pas": 48,
-        "pos": 40,
-        "sho": 56,
+        "pos": 47,
+        "sho": 63,
         "sta": 63,
-        "str": 59,
+        "str": 66,
         "tac": 30,
         "vis": 42
       },
@@ -606,16 +610,16 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 46,
+        "aer": 55,
+        "com": 47,
         "dri": 50,
         "ldr": 40,
         "pac": 66,
         "pas": 44,
-        "pos": 40,
-        "sho": 52,
+        "pos": 41,
+        "sho": 53,
         "sta": 62,
-        "str": 66,
+        "str": 67,
         "tac": 30,
         "vis": 40
       },

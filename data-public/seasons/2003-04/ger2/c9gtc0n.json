@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -50,6 +53,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -83,7 +89,7 @@
         "ldr": 54,
         "pac": 57,
         "pas": 49,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 59,
         "str": 59,
@@ -104,7 +110,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 47,
@@ -133,19 +141,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 56,
+        "com": 65,
         "dri": 40,
         "ldr": 57,
         "pac": 53,
-        "pas": 49,
+        "pas": 58,
         "pos": 63,
         "sho": 33,
-        "sta": 56,
+        "sta": 65,
         "str": 58,
         "tac": 59,
-        "vis": 45
+        "vis": 54
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -156,7 +169,7 @@
       "nation": "NGA",
       "nation2": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
@@ -186,6 +199,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 55,
@@ -213,18 +231,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 55,
-        "dri": 41,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 46,
-        "pos": 61,
-        "sho": 27,
-        "sta": 55,
-        "str": 60,
-        "tac": 61,
-        "vis": 43
+        "aer": 49,
+        "com": 53,
+        "dri": 51,
+        "ldr": 48,
+        "pac": 61,
+        "pas": 50,
+        "pos": 56,
+        "sho": 34,
+        "sta": 61,
+        "str": 52,
+        "tac": 58,
+        "vis": 49
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -234,7 +252,7 @@
       "name": "Bruno Custus",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2000
     },
@@ -267,19 +285,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 54,
-        "dri": 51,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 55,
-        "pos": 54,
-        "sho": 47,
-        "sta": 57,
-        "str": 51,
-        "tac": 51,
-        "vis": 53
+        "aer": 47,
+        "com": 56,
+        "dri": 53,
+        "ldr": 54,
+        "pac": 52,
+        "pas": 57,
+        "pos": 55,
+        "sho": 49,
+        "sta": 59,
+        "str": 52,
+        "tac": 52,
+        "vis": 55
       },
       "birth": "1982-11-01",
       "contract": null,
@@ -293,6 +316,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -346,19 +372,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 55,
-        "dri": 54,
-        "ldr": 49,
-        "pac": 50,
-        "pas": 54,
-        "pos": 49,
-        "sho": 47,
+        "dri": 50,
+        "ldr": 51,
+        "pac": 47,
+        "pas": 53,
+        "pos": 53,
+        "sho": 41,
         "sta": 55,
-        "str": 49,
-        "tac": 53,
-        "vis": 55
+        "str": 54,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -368,7 +397,7 @@
       "name": "Ivica Majstoruvic",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -432,7 +461,7 @@
         "ldr": 45,
         "pac": 52,
         "pas": 47,
-        "pos": 28,
+        "pos": 48,
         "sho": 58,
         "sta": 49,
         "str": 55,
@@ -452,19 +481,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 50,
+        "com": 57,
         "dri": 42,
         "ldr": 51,
         "pac": 44,
-        "pas": 48,
+        "pas": 55,
         "pos": 57,
         "sho": 25,
-        "sta": 51,
+        "sta": 58,
         "str": 58,
         "tac": 53,
-        "vis": 37
+        "vis": 44
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -475,24 +509,27 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 54,
-        "dri": 49,
-        "ldr": 51,
-        "pac": 46,
-        "pas": 53,
-        "pos": 53,
-        "sho": 44,
-        "sta": 56,
-        "str": 49,
-        "tac": 48,
-        "vis": 52
+        "aer": 44,
+        "com": 56,
+        "dri": 51,
+        "ldr": 52,
+        "pac": 47,
+        "pas": 55,
+        "pos": 54,
+        "sho": 46,
+        "sta": 58,
+        "str": 50,
+        "tac": 49,
+        "vis": 54
       },
       "birth": "1979-02-01",
       "contract": null,
@@ -507,6 +544,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 52,
@@ -596,7 +636,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 42,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 47,
         "str": 51,

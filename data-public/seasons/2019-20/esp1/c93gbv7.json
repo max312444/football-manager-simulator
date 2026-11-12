@@ -51,6 +51,11 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 65,
@@ -74,7 +79,7 @@
       "nation": "ROU",
       "nation2": "ESP",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 34000
     },
     {
@@ -157,21 +162,21 @@
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 72,
+        "aer": 78,
         "com": 76,
-        "dri": 75,
-        "ldr": 74,
-        "pac": 71,
-        "pas": 81,
-        "pos": 80,
-        "sho": 75,
+        "dri": 71,
+        "ldr": 76,
+        "pac": 68,
+        "pas": 80,
+        "pos": 84,
+        "sho": 69,
         "sta": 78,
-        "str": 77,
-        "tac": 76,
-        "vis": 77
+        "str": 82,
+        "tac": 82,
+        "vis": 74
       },
       "birth": "1989-05-01",
       "contract": null,
@@ -181,10 +186,14 @@
       "name": "Mikel San Josa",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 86000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 76,
@@ -212,18 +221,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 72,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 65,
-        "pas": 73,
-        "pos": 71,
-        "sho": 62,
+        "dri": 65,
+        "ldr": 67,
+        "pac": 62,
+        "pas": 72,
+        "pos": 75,
+        "sho": 56,
         "sta": 73,
-        "str": 65,
-        "tac": 66,
-        "vis": 69
+        "str": 70,
+        "tac": 72,
+        "vis": 66
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -233,7 +242,7 @@
       "name": "Unai Lupez",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43000
     },
     {
@@ -244,7 +253,7 @@
         "ldr": 70,
         "pac": 79,
         "pas": 66,
-        "pos": 54,
+        "pos": 74,
         "sho": 82,
         "sta": 70,
         "str": 77,
@@ -265,21 +274,22 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
-        "aer": 71,
-        "com": 76,
-        "dri": 76,
-        "ldr": 72,
-        "pac": 74,
-        "pas": 82,
-        "pos": 80,
-        "sho": 72,
-        "sta": 84,
-        "str": 72,
-        "tac": 72,
-        "vis": 79
+        "aer": 65,
+        "com": 74,
+        "dri": 81,
+        "ldr": 68,
+        "pac": 83,
+        "pas": 78,
+        "pos": 62,
+        "sho": 76,
+        "sta": 80,
+        "str": 67,
+        "tac": 52,
+        "vis": 76
       },
       "birth": "1992-12-01",
       "contract": null,
@@ -289,10 +299,13 @@
       "name": "Iker Munyain",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 86000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -320,21 +333,23 @@
     },
     {
       "alt": [
-        "RW"
+        "LWB",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 45,
-        "com": 59,
+        "com": 55,
         "dri": 58,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 61,
-        "pos": 57,
-        "sho": 53,
-        "sta": 57,
-        "str": 51,
-        "tac": 53,
-        "vis": 62
+        "ldr": 54,
+        "pac": 63,
+        "pas": 56,
+        "pos": 55,
+        "sho": 42,
+        "sta": 59,
+        "str": 50,
+        "tac": 55,
+        "vis": 54
       },
       "birth": "1997-12-01",
       "contract": null,
@@ -344,7 +359,7 @@
       "name": "Gaizka Larrazebal",
       "nation": "ESP",
       "number": 12,
-      "pos": "CM",
+      "pos": "RWB",
       "wage": 11000
     },
     {
@@ -374,9 +389,6 @@
       "wage": 34000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 71,
         "com": 69,
@@ -404,7 +416,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LB"
       ],
       "attrs": {
         "aer": 54,
@@ -432,9 +444,6 @@
       "wage": 24000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 65,
         "com": 72,
@@ -483,13 +492,14 @@
       "name": "Yuri Berchyche",
       "nation": "ESP",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 60000
     },
     {
       "alt": [
-        "RW",
-        "ST"
+        "LB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 62,
@@ -517,19 +527,23 @@
       "wage": 61000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 70,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 76,
-        "pos": 71,
-        "sho": 69,
-        "sta": 76,
-        "str": 70,
-        "tac": 65,
-        "vis": 76
+        "aer": 54,
+        "com": 68,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 78,
+        "pas": 72,
+        "pos": 53,
+        "sho": 73,
+        "sta": 72,
+        "str": 65,
+        "tac": 45,
+        "vis": 73
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -539,7 +553,7 @@
       "name": "Ibai Gomaz",
       "nation": "ESP",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 58500
     },
     {
@@ -550,7 +564,7 @@
         "ldr": 67,
         "pac": 67,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 72,
         "sta": 65,
         "str": 70,
@@ -570,7 +584,8 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 59,
@@ -605,7 +620,7 @@
         "ldr": 65,
         "pac": 76,
         "pas": 69,
-        "pos": 54,
+        "pos": 74,
         "sho": 74,
         "sta": 68,
         "str": 71,
@@ -625,22 +640,19 @@
       "wage": 38500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 76,
-        "com": 72,
-        "dri": 58,
-        "ldr": 70,
-        "pac": 66,
-        "pas": 68,
-        "pos": 80,
-        "sho": 47,
-        "sta": 69,
-        "str": 77,
-        "tac": 80,
-        "vis": 62
+        "aer": 63,
+        "com": 70,
+        "dri": 68,
+        "ldr": 66,
+        "pac": 74,
+        "pas": 72,
+        "pos": 75,
+        "sho": 54,
+        "sta": 75,
+        "str": 69,
+        "tac": 77,
+        "vis": 68
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -650,7 +662,7 @@
       "name": "Mikel Belenziaga",
       "nation": "ESP",
       "number": 24,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 50500
     },
     {
@@ -661,7 +673,7 @@
         "ldr": 59,
         "pac": 71,
         "pas": 63,
-        "pos": 45,
+        "pos": 65,
         "sho": 72,
         "sta": 64,
         "str": 68,
@@ -713,7 +725,7 @@
         "ldr": 58,
         "pac": 60,
         "pas": 58,
-        "pos": 43,
+        "pos": 63,
         "sho": 64,
         "sta": 58,
         "str": 65,
@@ -758,22 +770,19 @@
       "wage": 12000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 56,
-        "com": 63,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 59,
+        "aer": 50,
+        "com": 64,
+        "dri": 71,
+        "ldr": 62,
+        "pac": 62,
         "pas": 68,
-        "pos": 67,
-        "sho": 58,
-        "sta": 67,
-        "str": 62,
-        "tac": 59,
-        "vis": 69
+        "pos": 52,
+        "sho": 64,
+        "sta": 61,
+        "str": 57,
+        "tac": 41,
+        "vis": 71
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -783,7 +792,7 @@
       "name": "Oihan Sencet",
       "nation": "ESP",
       "number": 34,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 27000
     }
   ],

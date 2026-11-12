@@ -74,23 +74,23 @@
       "name": "Antonio Barrece",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 38500
     },
     {
       "attrs": {
-        "aer": 80,
-        "com": 75,
-        "dri": 60,
-        "ldr": 72,
-        "pac": 71,
-        "pas": 68,
-        "pos": 81,
-        "sho": 49,
-        "sta": 76,
-        "str": 79,
-        "tac": 81,
-        "vis": 66
+        "aer": 67,
+        "com": 73,
+        "dri": 70,
+        "ldr": 68,
+        "pac": 79,
+        "pas": 72,
+        "pos": 76,
+        "sho": 56,
+        "sta": 82,
+        "str": 71,
+        "tac": 78,
+        "vis": 72
       },
       "birth": "1986-12-01",
       "contract": null,
@@ -100,10 +100,15 @@
       "name": "Domenico Criscyto",
       "nation": "ITA",
       "number": 4,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 63000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -131,6 +136,9 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 72,
@@ -164,7 +172,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 68,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 69,
         "str": 71,
@@ -191,7 +199,7 @@
         "ldr": 58,
         "pac": 66,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 61,
         "str": 66,
@@ -211,19 +219,23 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 66,
-        "dri": 63,
-        "ldr": 55,
-        "pac": 59,
-        "pas": 56,
-        "pos": 43,
-        "sho": 63,
-        "sta": 59,
-        "str": 60,
-        "tac": 32,
-        "vis": 52
+        "aer": 47,
+        "com": 63,
+        "dri": 68,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 62,
+        "pos": 45,
+        "sho": 58,
+        "sta": 61,
+        "str": 50,
+        "tac": 38,
+        "vis": 58
       },
       "birth": "1997-12-01",
       "contract": null,
@@ -233,7 +245,7 @@
       "name": "Christian Kuuame",
       "nation": "CIV",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
@@ -289,19 +301,22 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 63,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 68,
-        "pos": 65,
-        "sho": 58,
-        "sta": 64,
-        "str": 61,
-        "tac": 62,
-        "vis": 62
+        "aer": 55,
+        "com": 65,
+        "dri": 65,
+        "ldr": 61,
+        "pac": 60,
+        "pas": 70,
+        "pos": 66,
+        "sho": 60,
+        "sta": 66,
+        "str": 62,
+        "tac": 63,
+        "vis": 64
       },
       "birth": "1997-08-01",
       "contract": null,
@@ -342,19 +357,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
+        "aer": 46,
         "com": 60,
-        "dri": 46,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 50,
-        "pos": 59,
-        "sho": 34,
-        "sta": 55,
-        "str": 59,
-        "tac": 61,
-        "vis": 48
+        "dri": 63,
+        "ldr": 51,
+        "pac": 63,
+        "pas": 56,
+        "pos": 36,
+        "sho": 59,
+        "sta": 57,
+        "str": 47,
+        "tac": 34,
+        "vis": 60
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -364,7 +382,7 @@
       "name": "Paolo Ghyglione",
       "nation": "ITA",
       "number": 18,
-      "pos": "CB",
+      "pos": "RW",
       "wage": 8500
     },
     {
@@ -375,7 +393,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 64,
-        "pos": 48,
+        "pos": 68,
         "sho": 76,
         "sta": 71,
         "str": 70,
@@ -395,7 +413,7 @@
     },
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 65,
@@ -424,18 +442,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 75,
-        "dri": 73,
-        "ldr": 67,
-        "pac": 71,
-        "pas": 75,
-        "pos": 71,
-        "sho": 68,
+        "dri": 69,
+        "ldr": 69,
+        "pac": 68,
+        "pas": 74,
+        "pos": 75,
+        "sho": 62,
         "sta": 78,
-        "str": 71,
-        "tac": 66,
-        "vis": 74
+        "str": 76,
+        "tac": 72,
+        "vis": 71
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -445,7 +463,7 @@
       "name": "Ivan Radovanuvic",
       "nation": "SRB",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 58000
     },
     {
@@ -476,18 +494,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 74,
-        "dri": 77,
-        "ldr": 70,
-        "pac": 68,
-        "pas": 81,
-        "pos": 71,
-        "sho": 70,
+        "dri": 73,
+        "ldr": 72,
+        "pac": 65,
+        "pas": 80,
+        "pos": 75,
+        "sho": 64,
         "sta": 77,
-        "str": 69,
-        "tac": 75,
-        "vis": 79
+        "str": 74,
+        "tac": 81,
+        "vis": 76
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -498,7 +516,7 @@
       "nation": "BRA",
       "nation2": "POR",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 70500
     },
     {
@@ -528,6 +546,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 73,
@@ -555,18 +576,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 56,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 53,
+        "aer": 42,
+        "com": 57,
+        "dri": 59,
+        "ldr": 51,
+        "pac": 56,
         "pas": 56,
-        "pos": 53,
-        "sho": 48,
-        "sta": 60,
-        "str": 51,
-        "tac": 49,
-        "vis": 58
+        "pos": 38,
+        "sho": 54,
+        "sta": 54,
+        "str": 46,
+        "tac": 31,
+        "vis": 60
       },
       "birth": "1998-11-01",
       "contract": null,
@@ -576,10 +597,13 @@
       "name": "Kevin Agudalo",
       "nation": "COL",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -614,7 +638,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 58,
         "str": 58,
@@ -634,18 +658,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 68,
-        "dri": 57,
-        "ldr": 67,
-        "pac": 67,
-        "pas": 63,
-        "pos": 74,
-        "sho": 40,
-        "sta": 64,
-        "str": 70,
-        "tac": 71,
-        "vis": 57
+        "aer": 58,
+        "com": 66,
+        "dri": 67,
+        "ldr": 63,
+        "pac": 75,
+        "pas": 67,
+        "pos": 69,
+        "sho": 47,
+        "sta": 70,
+        "str": 62,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -656,10 +680,13 @@
       "name": "Marko Pajec",
       "nation": "CRO",
       "number": 33,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 27000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -687,18 +714,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 74,
-        "dri": 71,
-        "ldr": 71,
-        "pac": 74,
+        "aer": 60,
+        "com": 75,
+        "dri": 75,
+        "ldr": 69,
+        "pac": 77,
         "pas": 80,
-        "pos": 71,
-        "sho": 68,
-        "sta": 79,
-        "str": 71,
-        "tac": 74,
-        "vis": 80
+        "pos": 56,
+        "sho": 74,
+        "sta": 73,
+        "str": 66,
+        "tac": 56,
+        "vis": 82
       },
       "birth": "1991-12-01",
       "contract": null,
@@ -709,7 +736,7 @@
       "name": "Riccardo Seponara",
       "nation": "ITA",
       "number": 91,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 70500
     },
     {
@@ -746,7 +773,7 @@
         "ldr": 55,
         "pac": 65,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 64,
         "sta": 63,
         "str": 63,

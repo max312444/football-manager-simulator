@@ -45,7 +45,9 @@
     },
     {
       "alt": [
-        "LM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 63,
@@ -73,9 +75,6 @@
       "wage": 61000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 74,
         "com": 83,
@@ -139,15 +138,15 @@
     },
     {
       "alt": [
-        "CM",
+        "LW",
         "ST"
       ],
       "attrs": {
         "aer": 66,
         "com": 73,
-        "dri": 76,
+        "dri": 79,
         "ldr": 61,
-        "pac": 70,
+        "pac": 73,
         "pas": 74,
         "pos": 65,
         "sho": 74,
@@ -164,7 +163,7 @@
       "name": "Mario Stenic",
       "nation": "CRO",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],
@@ -172,7 +171,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 66,
@@ -239,7 +238,8 @@
     {
       "alt": [
         "LW",
-        "RM"
+        "ST",
+        "AM"
       ],
       "attrs": {
         "aer": 57,
@@ -271,9 +271,6 @@
       "wage": 47500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 67,
@@ -300,10 +297,6 @@
       "wage": 51000
     },
     {
-      "alt": [
-        "LB",
-        "RB"
-      ],
       "attrs": {
         "aer": 80,
         "com": 78,
@@ -334,19 +327,16 @@
       "wage": 97500
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 71,
-        "dri": 68,
+        "dri": 71,
         "ldr": 64,
-        "pac": 66,
+        "pac": 69,
         "pas": 74,
         "pos": 69,
         "sho": 54,
-        "sta": 69,
+        "sta": 72,
         "str": 62,
         "tac": 70,
         "vis": 67
@@ -364,21 +354,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 59,
         "com": 73,
         "dri": 77,
         "ldr": 61,
-        "pac": 71,
-        "pas": 75,
+        "pac": 74,
+        "pas": 78,
         "pos": 63,
         "sho": 69,
-        "sta": 77,
+        "sta": 83,
         "str": 63,
-        "tac": 51,
-        "vis": 73
+        "tac": 57,
+        "vis": 76
       },
       "birth": "1976-08-01",
       "contract": "2005-06-30",
@@ -396,13 +388,13 @@
       "attrs": {
         "aer": 53,
         "com": 75,
-        "dri": 65,
+        "dri": 67,
         "ldr": 67,
-        "pac": 67,
+        "pac": 69,
         "pas": 67,
         "pos": 75,
         "sho": 43,
-        "sta": 71,
+        "sta": 73,
         "str": 59,
         "tac": 75,
         "vis": 59
@@ -423,6 +415,9 @@
       "wage": 43500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 70,
@@ -451,6 +446,8 @@
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -459,13 +456,13 @@
         "dri": 68,
         "ldr": 48,
         "pac": 68,
-        "pas": 70,
+        "pas": 72,
         "pos": 54,
         "sho": 60,
-        "sta": 70,
+        "sta": 72,
         "str": 58,
-        "tac": 50,
-        "vis": 66
+        "tac": 52,
+        "vis": 68
       },
       "birth": "1978-08-01",
       "contract": "2003-06-30",
@@ -482,19 +479,21 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
-        "aer": 68,
-        "com": 78,
+        "aer": 77,
+        "com": 87,
         "dri": 79,
         "ldr": 58,
-        "pac": 70,
+        "pac": 79,
         "pas": 78,
-        "pos": 54,
-        "sho": 79,
+        "pos": 63,
+        "sho": 88,
         "sta": 74,
-        "str": 73,
+        "str": 82,
         "tac": 43,
         "vis": 79
       },
@@ -537,7 +536,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 42,

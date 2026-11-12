@@ -57,7 +57,7 @@
         "ldr": 53,
         "pac": 63,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 56,
         "str": 62,
@@ -83,7 +83,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 60,
         "str": 61,
@@ -129,6 +129,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -155,19 +158,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 61,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 52,
-        "pas": 62,
-        "pos": 59,
-        "sho": 51,
+        "dri": 56,
+        "ldr": 60,
+        "pac": 49,
+        "pas": 61,
+        "pos": 63,
+        "sho": 45,
         "sta": 62,
-        "str": 54,
-        "tac": 58,
-        "vis": 62
+        "str": 59,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1981-10-01",
       "contract": null,
@@ -177,11 +185,16 @@
       "name": "Andy Negelein",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -232,11 +245,14 @@
       "nation": "SUI",
       "nation2": "TUR",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -289,6 +305,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -315,19 +334,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 55,
+        "com": 66,
         "dri": 44,
         "ldr": 51,
         "pac": 51,
-        "pas": 45,
+        "pas": 56,
         "pos": 58,
         "sho": 29,
-        "sta": 51,
+        "sta": 62,
         "str": 55,
         "tac": 58,
-        "vis": 39
+        "vis": 50
       },
       "birth": "1976-08-01",
       "contract": null,
@@ -337,10 +361,13 @@
       "name": "Bjorn Hartl",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -426,7 +453,7 @@
         "ldr": 47,
         "pac": 51,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 54,
         "sta": 52,
         "str": 51,
@@ -452,7 +479,7 @@
         "ldr": 45,
         "pac": 53,
         "pas": 46,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 50,
         "str": 57,
@@ -473,6 +500,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 51,
@@ -500,19 +530,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 54,
-        "dri": 52,
-        "ldr": 49,
-        "pac": 50,
-        "pas": 54,
-        "pos": 47,
-        "sho": 46,
+        "dri": 48,
+        "ldr": 51,
+        "pac": 47,
+        "pas": 53,
+        "pos": 51,
+        "sho": 40,
         "sta": 51,
-        "str": 49,
-        "tac": 50,
-        "vis": 55
+        "str": 54,
+        "tac": 56,
+        "vis": 52
       },
       "birth": "1983-02-01",
       "contract": null,
@@ -522,11 +557,16 @@
       "name": "Marek Kostoleni",
       "nation": "SVK",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 43,
         "com": 49,
@@ -666,7 +706,7 @@
         "ldr": 48,
         "pac": 56,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 58,
         "sta": 55,
         "str": 59,

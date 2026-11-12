@@ -86,7 +86,7 @@
         "ldr": 76,
         "pac": 80,
         "pas": 73,
-        "pos": 60,
+        "pos": 80,
         "sho": 86,
         "sta": 77,
         "str": 80,
@@ -108,21 +108,23 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 66,
-        "com": 78,
-        "dri": 76,
-        "ldr": 73,
-        "pac": 77,
+        "aer": 60,
+        "com": 79,
+        "dri": 80,
+        "ldr": 71,
+        "pac": 80,
         "pas": 84,
-        "pos": 78,
-        "sho": 75,
-        "sta": 80,
-        "str": 76,
-        "tac": 74,
-        "vis": 83
+        "pos": 63,
+        "sho": 81,
+        "sta": 74,
+        "str": 71,
+        "tac": 56,
+        "vis": 85
       },
       "birth": "1974-03-01",
       "contract": null,
@@ -132,7 +134,7 @@
       "name": "Ariel Ortege",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 52000
     },
@@ -170,7 +172,7 @@
         "ldr": 70,
         "pac": 82,
         "pas": 72,
-        "pos": 56,
+        "pos": 76,
         "sho": 83,
         "sta": 76,
         "str": 76,
@@ -190,19 +192,22 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 78,
-        "dri": 76,
-        "ldr": 72,
-        "pac": 77,
-        "pas": 82,
-        "pos": 74,
-        "sho": 70,
-        "sta": 82,
-        "str": 74,
-        "tac": 73,
-        "vis": 82
+        "aer": 61,
+        "com": 76,
+        "dri": 81,
+        "ldr": 68,
+        "pac": 86,
+        "pas": 78,
+        "pos": 56,
+        "sho": 74,
+        "sta": 78,
+        "str": 69,
+        "tac": 53,
+        "vis": 79
       },
       "birth": "1974-11-01",
       "contract": null,
@@ -212,7 +217,7 @@
       "name": "Sergio Conceicau",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 46000
     },
@@ -224,7 +229,7 @@
         "ldr": 70,
         "pac": 75,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 82,
         "sta": 72,
         "str": 75,
@@ -244,18 +249,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 75,
-        "dri": 79,
-        "ldr": 77,
-        "pac": 73,
-        "pas": 81,
-        "pos": 73,
-        "sho": 71,
+        "dri": 75,
+        "ldr": 79,
+        "pac": 70,
+        "pas": 80,
+        "pos": 77,
+        "sho": 65,
         "sta": 77,
-        "str": 73,
-        "tac": 75,
-        "vis": 79
+        "str": 78,
+        "tac": 81,
+        "vis": 76
       },
       "birth": "1970-08-01",
       "contract": null,
@@ -265,24 +270,24 @@
       "name": "Paulo Soosa",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 42500
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 76,
-        "dri": 77,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 81,
-        "pos": 76,
-        "sho": 69,
+        "dri": 73,
+        "ldr": 73,
+        "pac": 66,
+        "pas": 80,
+        "pos": 80,
+        "sho": 63,
         "sta": 82,
-        "str": 71,
-        "tac": 70,
-        "vis": 79
+        "str": 76,
+        "tac": 76,
+        "vis": 76
       },
       "birth": "1973-12-01",
       "contract": null,
@@ -292,11 +297,14 @@
       "name": "Matias Almeida",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 38500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 75,
@@ -324,18 +332,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 77,
-        "dri": 72,
-        "ldr": 74,
-        "pac": 71,
+        "aer": 62,
+        "com": 78,
+        "dri": 76,
+        "ldr": 72,
+        "pac": 74,
         "pas": 78,
-        "pos": 70,
-        "sho": 70,
-        "sta": 80,
-        "str": 72,
-        "tac": 74,
-        "vis": 79
+        "pos": 55,
+        "sho": 76,
+        "sta": 74,
+        "str": 67,
+        "tac": 56,
+        "vis": 81
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -345,11 +353,14 @@
       "name": "Johan Mycoud",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 37500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 78,
@@ -399,11 +410,14 @@
       "name": "Jonior",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -432,6 +446,9 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 69,
@@ -459,18 +476,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 75,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 76,
-        "pos": 69,
-        "sho": 68,
-        "sta": 78,
-        "str": 68,
-        "tac": 73,
-        "vis": 75
+        "aer": 61,
+        "com": 73,
+        "dri": 74,
+        "ldr": 66,
+        "pac": 80,
+        "pas": 72,
+        "pos": 51,
+        "sho": 72,
+        "sta": 74,
+        "str": 63,
+        "tac": 53,
+        "vis": 72
       },
       "birth": "1968-11-01",
       "contract": null,
@@ -480,10 +497,13 @@
       "name": "Diego Fusar",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 29000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 70,
@@ -512,18 +532,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 75,
-        "dri": 67,
-        "ldr": 70,
-        "pac": 67,
+        "aer": 57,
+        "com": 76,
+        "dri": 71,
+        "ldr": 68,
+        "pac": 70,
         "pas": 71,
-        "pos": 68,
-        "sho": 66,
-        "sta": 72,
-        "str": 68,
-        "tac": 71,
-        "vis": 74
+        "pos": 53,
+        "sho": 72,
+        "sta": 66,
+        "str": 63,
+        "tac": 53,
+        "vis": 76
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -533,11 +553,16 @@
       "name": "Alax",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 22500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 66,
@@ -564,6 +589,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 73,
@@ -597,7 +625,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 61,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 69,
         "str": 72,
@@ -616,6 +644,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
@@ -643,6 +674,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 66,
@@ -669,9 +703,6 @@
       "wage": 12500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 63,
@@ -698,6 +729,10 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -751,6 +786,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -804,6 +842,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -858,18 +899,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 57,
-        "dri": 43,
-        "ldr": 52,
-        "pac": 48,
-        "pas": 50,
-        "pos": 63,
-        "sho": 27,
-        "sta": 52,
-        "str": 57,
-        "tac": 58,
-        "vis": 45
+        "aer": 50,
+        "com": 55,
+        "dri": 53,
+        "ldr": 48,
+        "pac": 56,
+        "pas": 54,
+        "pos": 58,
+        "sho": 34,
+        "sta": 58,
+        "str": 49,
+        "tac": 55,
+        "vis": 51
       },
       "birth": "1975-10-01",
       "contract": null,
@@ -879,11 +920,14 @@
       "name": "Gianluca Felsini",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 52,
@@ -917,7 +961,7 @@
         "ldr": 48,
         "pac": 51,
         "pas": 48,
-        "pos": 35,
+        "pos": 55,
         "sho": 55,
         "sta": 47,
         "str": 57,

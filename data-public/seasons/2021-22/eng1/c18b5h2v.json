@@ -74,6 +74,9 @@
       "wage": 45000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 72,
         "com": 68,
@@ -156,6 +159,9 @@
       "wage": 111500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 69,
@@ -235,9 +241,6 @@
       "wage": 22000
     },
     {
-      "alt": [
-        "LWB"
-      ],
       "attrs": {
         "aer": 60,
         "com": 69,
@@ -294,7 +297,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 53,
@@ -318,7 +321,7 @@
       "name": "Sergi Canus",
       "nation": "ESP",
       "number": 7,
-      "pos": "RWB",
+      "pos": "RW",
       "wage": 75500
     },
     {
@@ -405,6 +408,10 @@
       "wage": 142500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 69,
@@ -438,11 +445,11 @@
         "ldr": 60,
         "pac": 62,
         "pas": 71,
-        "pos": 64,
+        "pos": 70,
         "sho": 63,
         "sta": 73,
-        "str": 61,
-        "tac": 63,
+        "str": 67,
+        "tac": 69,
         "vis": 69
       },
       "birth": "1998-05-01",
@@ -453,7 +460,7 @@
       "name": "Vitaly Janalt",
       "nation": "GER",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 83000
     },
     {
@@ -464,11 +471,11 @@
         "ldr": 62,
         "pac": 62,
         "pas": 71,
-        "pos": 61,
+        "pos": 68,
         "sho": 62,
         "sta": 83,
-        "str": 63,
-        "tac": 61,
+        "str": 70,
+        "tac": 68,
         "vis": 69
       },
       "birth": "1998-01-01",
@@ -479,10 +486,13 @@
       "name": "Frank Onyaka",
       "nation": "NGA",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,
@@ -509,6 +519,10 @@
       "wage": 46500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 70,
@@ -535,6 +549,11 @@
       "wage": 62000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "RWB"
+      ],
       "attrs": {
         "aer": 50,
         "com": 70,
@@ -588,6 +607,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 54,
@@ -615,19 +637,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
-        "com": 56,
+        "com": 57,
         "dri": 57,
         "ldr": 44,
         "pac": 53,
-        "pas": 56,
+        "pas": 57,
         "pos": 52,
         "sho": 45,
         "sta": 62,
         "str": 50,
-        "tac": 46,
-        "vis": 54
+        "tac": 47,
+        "vis": 55
       },
       "birth": "2001-02-01",
       "contract": "2024-06-30",
@@ -643,7 +668,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "AM"
       ],
       "attrs": {
         "aer": 47,
@@ -730,19 +756,23 @@
       "wage": 142500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 62,
         "com": 60,
-        "dri": 61,
+        "dri": 63,
         "ldr": 51,
-        "pac": 61,
-        "pas": 52,
+        "pac": 63,
+        "pas": 54,
         "pos": 41,
         "sho": 66,
         "sta": 58,
         "str": 61,
         "tac": 26,
-        "vis": 52
+        "vis": 54
       },
       "birth": "1999-06-01",
       "contract": "2025-06-30",
@@ -752,10 +782,13 @@
       "name": "Marcus Furss",
       "nation": "FIN",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 24500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,

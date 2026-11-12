@@ -74,7 +74,7 @@
       "name": "Markus Scholer",
       "nation": "GER",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 9000
     },
     {
@@ -104,6 +104,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -156,6 +159,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -183,18 +189,18 @@
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 70,
-        "dri": 60,
-        "ldr": 71,
-        "pac": 63,
-        "pas": 60,
-        "pos": 77,
-        "sho": 41,
-        "sta": 68,
-        "str": 72,
-        "tac": 77,
-        "vis": 54
+        "aer": 62,
+        "com": 68,
+        "dri": 70,
+        "ldr": 67,
+        "pac": 71,
+        "pas": 64,
+        "pos": 72,
+        "sho": 48,
+        "sta": 74,
+        "str": 64,
+        "tac": 74,
+        "vis": 60
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -204,7 +210,7 @@
       "name": "Tobies Rau",
       "nation": "GER",
       "number": 8,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 30500
     },
     {
@@ -215,7 +221,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 62,
         "str": 69,
@@ -241,7 +247,7 @@
         "ldr": 58,
         "pac": 68,
         "pas": 60,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 63,
         "str": 65,
@@ -260,6 +266,11 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 69,
@@ -286,19 +297,22 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 72,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 68,
-        "pas": 61,
-        "pos": 45,
-        "sho": 74,
-        "sta": 68,
-        "str": 71,
-        "tac": 39,
-        "vis": 61
+        "aer": 55,
+        "com": 69,
+        "dri": 72,
+        "ldr": 60,
+        "pac": 72,
+        "pas": 67,
+        "pos": 47,
+        "sho": 69,
+        "sta": 70,
+        "str": 61,
+        "tac": 45,
+        "vis": 67
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -308,21 +322,26 @@
       "name": "Jonas Kampar",
       "nation": "DEN",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 23000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 53,
-        "dri": 56,
+        "aer": 54,
+        "com": 63,
+        "dri": 63,
         "ldr": 52,
-        "pac": 50,
+        "pac": 58,
         "pas": 58,
-        "pos": 53,
-        "sho": 47,
+        "pos": 63,
+        "sho": 57,
         "sta": 61,
-        "str": 51,
+        "str": 61,
         "tac": 54,
         "vis": 57
       },
@@ -335,7 +354,7 @@
       "nation": "BIH",
       "nation2": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 7500
     },
     {
@@ -372,7 +391,7 @@
         "ldr": 62,
         "pac": 71,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 74,
         "sta": 64,
         "str": 70,
@@ -392,18 +411,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 65,
-        "dri": 53,
-        "ldr": 65,
-        "pac": 61,
-        "pas": 60,
-        "pos": 71,
-        "sho": 43,
-        "sta": 64,
-        "str": 68,
-        "tac": 69,
-        "vis": 55
+        "aer": 56,
+        "com": 63,
+        "dri": 63,
+        "ldr": 61,
+        "pac": 69,
+        "pas": 64,
+        "pos": 66,
+        "sho": 50,
+        "sta": 70,
+        "str": 60,
+        "tac": 66,
+        "vis": 61
       },
       "birth": "1979-09-01",
       "contract": null,
@@ -413,26 +432,23 @@
       "name": "Bernd Korzynyetz",
       "nation": "GER",
       "number": 19,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 20000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 68,
-        "com": 66,
-        "dri": 55,
-        "ldr": 67,
-        "pac": 62,
-        "pas": 60,
-        "pos": 72,
-        "sho": 37,
-        "sta": 61,
-        "str": 70,
-        "tac": 73,
-        "vis": 55
+        "aer": 55,
+        "com": 64,
+        "dri": 65,
+        "ldr": 63,
+        "pac": 70,
+        "pas": 64,
+        "pos": 67,
+        "sho": 44,
+        "sta": 67,
+        "str": 62,
+        "tac": 70,
+        "vis": 61
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -443,7 +459,7 @@
       "nation": "NED",
       "nation2": "NGA",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 20500
     },
     {
@@ -506,7 +522,7 @@
         "ldr": 49,
         "pac": 51,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 49,
         "str": 53,
@@ -525,19 +541,23 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 65,
-        "dri": 61,
+        "com": 68,
+        "dri": 67,
         "ldr": 60,
-        "pac": 66,
-        "pas": 54,
-        "pos": 41,
-        "sho": 66,
-        "sta": 59,
+        "pac": 75,
+        "pas": 73,
+        "pos": 61,
+        "sho": 69,
+        "sta": 78,
         "str": 65,
-        "tac": 32,
-        "vis": 58
+        "tac": 51,
+        "vis": 77
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -547,26 +567,23 @@
       "name": "Daniel Helfar",
       "nation": "GER",
       "number": 24,
-      "pos": "ST",
+      "pos": "LM",
       "wage": 12000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 60,
-        "com": 68,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 65,
+        "aer": 54,
+        "com": 69,
+        "dri": 70,
+        "ldr": 65,
+        "pac": 68,
         "pas": 69,
-        "pos": 66,
-        "sho": 63,
-        "sta": 70,
-        "str": 66,
-        "tac": 65,
-        "vis": 70
+        "pos": 51,
+        "sho": 69,
+        "sta": 64,
+        "str": 61,
+        "tac": 47,
+        "vis": 72
       },
       "birth": "1981-08-01",
       "contract": null,
@@ -576,7 +593,7 @@
       "name": "Siyabonga Nkosy",
       "nation": "RSA",
       "number": 25,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 30500
     },
     {
@@ -587,7 +604,7 @@
         "ldr": 53,
         "pac": 57,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 54,
         "str": 61,
@@ -606,6 +623,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -633,18 +653,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 48,
-        "dri": 40,
-        "ldr": 49,
-        "pac": 47,
-        "pas": 43,
-        "pos": 55,
-        "sho": 27,
-        "sta": 52,
-        "str": 55,
-        "tac": 57,
-        "vis": 41
+        "aer": 41,
+        "com": 46,
+        "dri": 50,
+        "ldr": 45,
+        "pac": 55,
+        "pas": 47,
+        "pos": 50,
+        "sho": 34,
+        "sta": 58,
+        "str": 47,
+        "tac": 54,
+        "vis": 47
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -654,22 +674,27 @@
       "name": "Nils Fyscher",
       "nation": "GER",
       "number": 30,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
+        "aer": 57,
         "com": 60,
         "dri": 53,
         "ldr": 55,
-        "pac": 56,
+        "pac": 65,
         "pas": 63,
-        "pos": 55,
+        "pos": 64,
         "sho": 51,
         "sta": 59,
-        "str": 55,
-        "tac": 57,
+        "str": 64,
+        "tac": 66,
         "vis": 57
       },
       "birth": "1974-03-01",
@@ -680,10 +705,13 @@
       "name": "Radim Kucere",
       "nation": "CZE",
       "number": 31,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,

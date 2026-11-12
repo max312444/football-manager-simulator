@@ -77,6 +77,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 57,
@@ -99,7 +102,7 @@
       "name": "Guillaume Rippart",
       "nation": "FRA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 8000
     },
     {
@@ -130,6 +133,10 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -157,9 +164,6 @@
       "wage": 9000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 71,
         "com": 65,
@@ -187,6 +191,10 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 56,
         "com": 59,
@@ -194,7 +202,7 @@
         "ldr": 52,
         "pac": 62,
         "pas": 53,
-        "pos": 42,
+        "pos": 62,
         "sho": 61,
         "sta": 60,
         "str": 61,
@@ -213,6 +221,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -246,7 +257,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 61,
         "str": 62,
@@ -266,18 +277,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 59,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 63,
-        "pos": 58,
-        "sho": 53,
+        "dri": 57,
+        "ldr": 60,
+        "pac": 55,
+        "pas": 62,
+        "pos": 62,
+        "sho": 47,
         "sta": 62,
-        "str": 54,
-        "tac": 59,
-        "vis": 60
+        "str": 59,
+        "tac": 65,
+        "vis": 57
       },
       "birth": "1977-11-01",
       "contract": null,
@@ -287,7 +298,7 @@
       "name": "Jeuvanio",
       "nation": "BRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11000
     },
     {
@@ -351,7 +362,7 @@
         "ldr": 52,
         "pac": 52,
         "pas": 45,
-        "pos": 35,
+        "pos": 55,
         "sho": 55,
         "sta": 53,
         "str": 53,
@@ -396,19 +407,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 71,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 64,
-        "pas": 71,
-        "pos": 71,
-        "sho": 65,
+        "dri": 64,
+        "ldr": 68,
+        "pac": 61,
+        "pas": 70,
+        "pos": 75,
+        "sho": 59,
         "sta": 74,
-        "str": 64,
-        "tac": 65,
-        "vis": 72
+        "str": 69,
+        "tac": 71,
+        "vis": 69
       },
       "birth": "1986-02-01",
       "contract": null,
@@ -419,10 +433,13 @@
       "nation": "COL",
       "nation2": "FRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 66,
@@ -449,19 +466,22 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 66,
-        "dri": 62,
-        "ldr": 64,
-        "pac": 59,
-        "pas": 65,
-        "pos": 63,
-        "sho": 57,
-        "sta": 68,
-        "str": 60,
-        "tac": 59,
-        "vis": 70
+        "aer": 53,
+        "com": 64,
+        "dri": 67,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 61,
+        "pos": 45,
+        "sho": 61,
+        "sta": 64,
+        "str": 55,
+        "tac": 39,
+        "vis": 67
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -471,7 +491,7 @@
       "name": "Yacine Bezzez",
       "nation": "ALG",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 19000
     },
     {
@@ -502,6 +522,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -588,7 +611,7 @@
         "ldr": 58,
         "pac": 66,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 69,
         "sta": 61,
         "str": 67,
@@ -614,7 +637,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 65,
         "sta": 63,
         "str": 62,

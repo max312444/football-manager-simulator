@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 73,
-        "dri": 74,
-        "ldr": 74,
-        "pac": 71,
-        "pas": 75,
-        "pos": 71,
-        "sho": 67,
+        "dri": 70,
+        "ldr": 76,
+        "pac": 68,
+        "pas": 74,
+        "pos": 75,
+        "sho": 61,
         "sta": 80,
-        "str": 74,
-        "tac": 72,
-        "vis": 79
+        "str": 79,
+        "tac": 78,
+        "vis": 76
       },
       "birth": "1974-12-01",
       "contract": null,
@@ -46,23 +46,26 @@
       "name": "Costinhe",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 75,
-        "dri": 72,
-        "ldr": 67,
-        "pac": 71,
-        "pas": 76,
-        "pos": 70,
-        "sho": 67,
-        "sta": 76,
-        "str": 65,
-        "tac": 69,
-        "vis": 75
+        "aer": 55,
+        "com": 73,
+        "dri": 77,
+        "ldr": 63,
+        "pac": 80,
+        "pas": 72,
+        "pos": 52,
+        "sho": 71,
+        "sta": 72,
+        "str": 60,
+        "tac": 49,
+        "vis": 72
       },
       "birth": "1976-07-01",
       "contract": null,
@@ -72,24 +75,24 @@
       "name": "Ludovic Giuli",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 30000
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 74,
-        "dri": 73,
-        "ldr": 72,
-        "pac": 66,
+        "aer": 59,
+        "com": 75,
+        "dri": 77,
+        "ldr": 70,
+        "pac": 69,
         "pas": 78,
-        "pos": 72,
-        "sho": 70,
-        "sta": 72,
-        "str": 69,
-        "tac": 67,
-        "vis": 74
+        "pos": 57,
+        "sho": 76,
+        "sta": 66,
+        "str": 64,
+        "tac": 49,
+        "vis": 76
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -99,23 +102,27 @@
       "name": "Marcelo Gallerdo",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 30000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 74,
+        "aer": 69,
+        "com": 75,
         "dri": 74,
-        "ldr": 68,
-        "pac": 70,
-        "pas": 75,
+        "ldr": 66,
+        "pac": 75,
+        "pas": 65,
         "pos": 71,
-        "sho": 65,
-        "sta": 78,
-        "str": 69,
-        "tac": 68,
-        "vis": 72
+        "sho": 74,
+        "sta": 72,
+        "str": 74,
+        "tac": 42,
+        "vis": 63
       },
       "birth": "1969-01-01",
       "contract": null,
@@ -125,7 +132,7 @@
       "name": "Marco Simune",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 30000
     },
@@ -158,18 +165,18 @@
     },
     {
       "attrs": {
-        "aer": 78,
-        "com": 68,
-        "dri": 60,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 62,
-        "pos": 75,
-        "sho": 42,
-        "sta": 66,
-        "str": 74,
-        "tac": 72,
-        "vis": 61
+        "aer": 65,
+        "com": 66,
+        "dri": 70,
+        "ldr": 65,
+        "pac": 77,
+        "pas": 66,
+        "pos": 70,
+        "sho": 49,
+        "sta": 72,
+        "str": 66,
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -179,10 +186,13 @@
       "name": "Philippe Leonerd",
       "nation": "BEL",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 69,
@@ -216,7 +226,7 @@
         "ldr": 69,
         "pac": 69,
         "pas": 61,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 69,
         "str": 73,
@@ -236,6 +246,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 68,
@@ -258,7 +271,7 @@
       "name": "John Arne Riyse",
       "nation": "NOR",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 18500
     },
     {
@@ -295,7 +308,7 @@
         "ldr": 60,
         "pac": 68,
         "pas": 63,
-        "pos": 43,
+        "pos": 63,
         "sho": 72,
         "sta": 66,
         "str": 70,
@@ -315,19 +328,22 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 69,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 64,
-        "pas": 71,
-        "pos": 66,
-        "sho": 63,
+        "dri": 59,
+        "ldr": 63,
+        "pac": 61,
+        "pas": 70,
+        "pos": 70,
+        "sho": 57,
         "sta": 70,
-        "str": 59,
-        "tac": 64,
-        "vis": 67
+        "str": 64,
+        "tac": 70,
+        "vis": 64
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -338,11 +354,14 @@
       "nation": "NOR",
       "nation2": "MAR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 65,
@@ -396,7 +415,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 65,
@@ -452,6 +471,11 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 69,
@@ -459,7 +483,7 @@
         "ldr": 56,
         "pac": 65,
         "pas": 59,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 58,
         "str": 66,
@@ -479,19 +503,22 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 64,
-        "dri": 50,
-        "ldr": 65,
-        "pac": 57,
-        "pas": 55,
-        "pos": 68,
-        "sho": 34,
-        "sta": 57,
-        "str": 67,
-        "tac": 65,
-        "vis": 47
+        "aer": 53,
+        "com": 62,
+        "dri": 60,
+        "ldr": 61,
+        "pac": 65,
+        "pas": 59,
+        "pos": 63,
+        "sho": 41,
+        "sta": 63,
+        "str": 59,
+        "tac": 62,
+        "vis": 53
       },
       "birth": "1975-03-01",
       "contract": null,
@@ -501,7 +528,7 @@
       "name": "Franck Jorietti",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 8000
     },
@@ -537,6 +564,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -563,6 +593,9 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -597,7 +630,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 61,
         "str": 64,
@@ -722,6 +755,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,
@@ -744,7 +780,7 @@
       "name": "Gael Givat",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 4500
     },
@@ -829,18 +865,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 52,
-        "dri": 49,
-        "ldr": 47,
-        "pac": 48,
+        "aer": 38,
+        "com": 53,
+        "dri": 53,
+        "ldr": 45,
+        "pac": 51,
         "pas": 52,
-        "pos": 46,
-        "sho": 43,
-        "sta": 51,
-        "str": 49,
-        "tac": 49,
-        "vis": 52
+        "pos": 31,
+        "sho": 49,
+        "sta": 45,
+        "str": 44,
+        "tac": 31,
+        "vis": 54
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -850,10 +886,13 @@
       "name": "Gregory Lacomba",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,
@@ -882,18 +921,18 @@
     },
     {
       "attrs": {
-        "aer": 41,
+        "aer": 47,
         "com": 48,
-        "dri": 45,
-        "ldr": 43,
-        "pac": 42,
-        "pas": 55,
-        "pos": 45,
-        "sho": 42,
+        "dri": 41,
+        "ldr": 45,
+        "pac": 39,
+        "pas": 54,
+        "pos": 49,
+        "sho": 36,
         "sta": 55,
-        "str": 42,
-        "tac": 44,
-        "vis": 52
+        "str": 47,
+        "tac": 50,
+        "vis": 49
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -904,11 +943,14 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,
@@ -937,19 +979,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 46,
-        "dri": 45,
-        "ldr": 43,
-        "pac": 46,
-        "pas": 50,
-        "pos": 45,
-        "sho": 45,
-        "sta": 52,
-        "str": 46,
-        "tac": 47,
-        "vis": 47
+        "aer": 36,
+        "com": 44,
+        "dri": 50,
+        "ldr": 39,
+        "pac": 55,
+        "pas": 46,
+        "pos": 27,
+        "sho": 49,
+        "sta": 48,
+        "str": 41,
+        "tac": 27,
+        "vis": 44
       },
       "birth": "1982-09-01",
       "contract": null,
@@ -959,7 +1004,7 @@
       "name": "Sebastien Carola",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 2000
     }
   ],

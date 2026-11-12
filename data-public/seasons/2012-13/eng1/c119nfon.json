@@ -255,17 +255,17 @@
     {
       "attrs": {
         "aer": 56,
-        "com": 66,
+        "com": 68,
         "dri": 68,
         "ldr": 58,
         "pac": 66,
-        "pas": 70,
-        "pos": 66,
+        "pas": 72,
+        "pos": 68,
         "sho": 56,
         "sta": 80,
-        "str": 70,
-        "tac": 70,
-        "vis": 62
+        "str": 72,
+        "tac": 72,
+        "vis": 64
       },
       "birth": "1985-01-01",
       "contract": "2015-06-30",
@@ -276,7 +276,7 @@
       "nation": "MAR",
       "nation2": "NED",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 56500
     },
     {
@@ -339,16 +339,16 @@
         "LW"
       ],
       "attrs": {
-        "aer": 56,
-        "com": 64,
+        "aer": 66,
+        "com": 74,
         "dri": 72,
         "ldr": 54,
         "pac": 88,
         "pas": 62,
-        "pos": 43,
-        "sho": 72,
+        "pos": 53,
+        "sho": 82,
         "sta": 75,
-        "str": 72,
+        "str": 82,
         "tac": 38,
         "vis": 58
       },
@@ -364,6 +364,11 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 48,
         "com": 62,
@@ -386,10 +391,13 @@
       "name": "Marc Albrightun",
       "nation": "ENG",
       "number": 12,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 34500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 64,
@@ -416,19 +424,24 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 63,
+        "com": 70,
         "dri": 72,
         "ldr": 53,
         "pac": 72,
-        "pas": 71,
+        "pas": 78,
         "pos": 61,
         "sho": 58,
         "sta": 78,
         "str": 65,
-        "tac": 66,
-        "vis": 67
+        "tac": 73,
+        "vis": 74
       },
       "birth": "1989-11-01",
       "contract": "2016-06-30",
@@ -442,6 +455,10 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 62,
@@ -494,17 +511,22 @@
       "wage": 55500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CB"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 48,
+        "aer": 61,
+        "com": 51,
         "dri": 56,
         "ldr": 38,
         "pac": 70,
         "pas": 48,
-        "pos": 36,
-        "sho": 56,
+        "pos": 39,
+        "sho": 59,
         "sta": 66,
-        "str": 70,
+        "str": 73,
         "tac": 32,
         "vis": 44
       },
@@ -546,6 +568,10 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 57,
@@ -572,6 +598,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 55,
@@ -625,19 +654,21 @@
     },
     {
       "alt": [
-        "RW"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 55,
-        "com": 57,
+        "aer": 65,
+        "com": 67,
         "dri": 66,
         "ldr": 43,
         "pac": 78,
         "pas": 58,
-        "pos": 40,
-        "sho": 63,
+        "pos": 50,
+        "sho": 73,
         "sta": 75,
-        "str": 63,
+        "str": 73,
         "tac": 34,
         "vis": 55
       },
@@ -653,19 +684,24 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 56,
-        "dri": 59,
+        "com": 67,
+        "dri": 65,
         "ldr": 48,
         "pac": 65,
-        "pas": 61,
+        "pas": 72,
         "pos": 59,
-        "sho": 50,
+        "sho": 56,
         "sta": 75,
         "str": 66,
-        "tac": 64,
-        "vis": 54
+        "tac": 69,
+        "vis": 65
       },
       "birth": "1989-04-01",
       "contract": "2015-06-30",
@@ -679,19 +715,24 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "RW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 56,
-        "dri": 64,
+        "com": 70,
+        "dri": 68,
         "ldr": 44,
-        "pac": 68,
-        "pas": 64,
+        "pac": 72,
+        "pas": 74,
         "pos": 56,
-        "sho": 58,
+        "sho": 72,
         "sta": 72,
         "str": 64,
         "tac": 56,
-        "vis": 60
+        "vis": 70
       },
       "birth": "1992-06-01",
       "contract": "2015-06-30",
@@ -701,23 +742,23 @@
       "name": "Gary Gardnar",
       "nation": "ENG",
       "number": 38,
-      "pos": "RW",
+      "pos": "AM",
       "wage": 28500
     },
     {
       "attrs": {
         "aer": 46,
-        "com": 62,
-        "dri": 66,
+        "com": 69,
+        "dri": 73,
         "ldr": 52,
         "pac": 68,
-        "pas": 66,
+        "pas": 73,
         "pos": 56,
-        "sho": 66,
+        "sho": 73,
         "sta": 80,
         "str": 62,
         "tac": 54,
-        "vis": 64
+        "vis": 71
       },
       "birth": "1984-03-01",
       "contract": "2015-06-30",

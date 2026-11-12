@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 54,
-        "dri": 54,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 61,
-        "pos": 51,
-        "sho": 47,
+        "dri": 50,
+        "ldr": 55,
+        "pac": 48,
+        "pas": 60,
+        "pos": 55,
+        "sho": 41,
         "sta": 60,
-        "str": 48,
-        "tac": 53,
-        "vis": 60
+        "str": 53,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -73,10 +73,13 @@
       "name": "Marcel Mehlam",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 54,
@@ -103,6 +106,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -131,7 +137,9 @@
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 67,
@@ -140,7 +148,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 57,
-        "pos": 46,
+        "pos": 66,
         "sho": 68,
         "sta": 65,
         "str": 67,
@@ -159,19 +167,22 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 57,
-        "dri": 57,
-        "ldr": 48,
-        "pac": 59,
-        "pas": 50,
-        "pos": 33,
-        "sho": 59,
-        "sta": 54,
-        "str": 59,
-        "tac": 27,
-        "vis": 46
+        "aer": 43,
+        "com": 54,
+        "dri": 62,
+        "ldr": 46,
+        "pac": 63,
+        "pas": 56,
+        "pos": 35,
+        "sho": 54,
+        "sta": 56,
+        "str": 49,
+        "tac": 33,
+        "vis": 52
       },
       "birth": "1996-07-01",
       "contract": null,
@@ -181,21 +192,26 @@
       "name": "Sirlord Contah",
       "nation": "GER",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 54,
+        "aer": 56,
+        "com": 66,
+        "dri": 60,
         "ldr": 57,
-        "pac": 54,
+        "pac": 60,
         "pas": 60,
-        "pos": 55,
-        "sho": 51,
+        "pos": 61,
+        "sho": 57,
         "sta": 60,
-        "str": 57,
+        "str": 63,
         "tac": 55,
         "vis": 58
       },
@@ -207,7 +223,7 @@
       "name": "Robert Leipartz",
       "nation": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 11500
     },
     {
@@ -264,18 +280,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 48,
-        "dri": 48,
-        "ldr": 44,
-        "pac": 42,
-        "pas": 53,
-        "pos": 49,
-        "sho": 47,
-        "sta": 55,
-        "str": 45,
-        "tac": 46,
-        "vis": 48
+        "aer": 55,
+        "com": 46,
+        "dri": 36,
+        "ldr": 46,
+        "pac": 41,
+        "pas": 43,
+        "pos": 54,
+        "sho": 26,
+        "sta": 49,
+        "str": 52,
+        "tac": 53,
+        "vis": 33
       },
       "birth": "2001-06-01",
       "contract": null,
@@ -286,7 +302,7 @@
       "name": "Kimberly Ezekwam",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 4500
     },
     {
@@ -316,19 +332,22 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
+        "aer": 40,
         "com": 59,
-        "dri": 45,
-        "ldr": 56,
-        "pac": 51,
-        "pas": 50,
-        "pos": 62,
-        "sho": 32,
-        "sta": 55,
-        "str": 61,
-        "tac": 61,
-        "vis": 45
+        "dri": 62,
+        "ldr": 50,
+        "pac": 61,
+        "pas": 56,
+        "pos": 39,
+        "sho": 57,
+        "sta": 57,
+        "str": 49,
+        "tac": 34,
+        "vis": 57
       },
       "birth": "1996-04-01",
       "contract": null,
@@ -338,7 +357,7 @@
       "name": "Raphael Obermeir",
       "nation": "GER",
       "number": 23,
-      "pos": "CB",
+      "pos": "RW",
       "wage": 8500
     },
     {
@@ -368,6 +387,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -394,6 +416,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 52,
@@ -420,6 +445,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -473,19 +501,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
-        "dri": 52,
+        "dri": 59,
         "ldr": 53,
         "pac": 53,
-        "pas": 49,
-        "pos": 34,
+        "pas": 56,
+        "pos": 54,
         "sho": 57,
         "sta": 50,
         "str": 58,
         "tac": 29,
-        "vis": 49
+        "vis": 56
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -495,10 +528,15 @@
       "name": "Filip Bylbija",
       "nation": "GER",
       "number": 32,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 6000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 51,
@@ -532,7 +570,7 @@
         "ldr": 56,
         "pac": 66,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 68,
         "sta": 59,
         "str": 61,
@@ -558,7 +596,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 54,
         "str": 57,

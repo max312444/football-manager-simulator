@@ -78,6 +78,9 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 58,
@@ -100,7 +103,7 @@
       "name": "Miguel Gutyerrez",
       "nation": "ESP",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 25500
     },
     {
@@ -130,6 +133,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 67,
@@ -156,6 +162,9 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -189,7 +198,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 64,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 70,
         "str": 73,
@@ -209,19 +218,23 @@
       "wage": 67500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 78,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 72,
+        "aer": 60,
+        "com": 79,
+        "dri": 78,
+        "ldr": 69,
+        "pac": 75,
         "pas": 77,
-        "pos": 76,
-        "sho": 70,
-        "sta": 80,
-        "str": 74,
-        "tac": 71,
-        "vis": 78
+        "pos": 61,
+        "sho": 76,
+        "sta": 74,
+        "str": 69,
+        "tac": 53,
+        "vis": 80
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -231,7 +244,7 @@
       "name": "Viktor Tsihankov",
       "nation": "UKR",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 91500
     },
     {
@@ -242,7 +255,7 @@
         "ldr": 76,
         "pac": 78,
         "pas": 74,
-        "pos": 56,
+        "pos": 76,
         "sho": 83,
         "sta": 77,
         "str": 77,
@@ -262,18 +275,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 60,
+        "aer": 49,
+        "com": 66,
+        "dri": 71,
+        "ldr": 61,
+        "pac": 63,
         "pas": 67,
-        "pos": 67,
-        "sho": 62,
-        "sta": 71,
-        "str": 61,
-        "tac": 62,
-        "vis": 66
+        "pos": 52,
+        "sho": 68,
+        "sta": 65,
+        "str": 56,
+        "tac": 44,
+        "vis": 68
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -283,23 +296,27 @@
       "name": "Borja Garcya",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 46000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 58,
-        "dri": 50,
-        "ldr": 57,
-        "pac": 57,
-        "pas": 56,
-        "pos": 61,
-        "sho": 37,
-        "sta": 59,
-        "str": 62,
-        "tac": 65,
-        "vis": 49
+        "aer": 51,
+        "com": 56,
+        "dri": 60,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 60,
+        "pos": 56,
+        "sho": 44,
+        "sta": 65,
+        "str": 54,
+        "tac": 62,
+        "vis": 55
       },
       "birth": "1999-11-01",
       "contract": null,
@@ -309,23 +326,26 @@
       "name": "Valery Fernandaz",
       "nation": "ESP",
       "number": 11,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 19500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 65,
-        "dri": 63,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 68,
-        "pos": 63,
-        "sho": 62,
-        "sta": 67,
-        "str": 63,
-        "tac": 60,
-        "vis": 67
+        "aer": 46,
+        "com": 63,
+        "dri": 68,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 64,
+        "pos": 45,
+        "sho": 66,
+        "sta": 63,
+        "str": 58,
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -335,7 +355,7 @@
       "name": "Toni Ville",
       "nation": "ESP",
       "number": 12,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 39500
     },
     {
@@ -365,6 +385,10 @@
       "wage": 51000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 79,
@@ -417,19 +441,22 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 60,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 61,
-        "pas": 51,
-        "pos": 38,
-        "sho": 63,
-        "sta": 58,
-        "str": 60,
-        "tac": 29,
-        "vis": 53
+        "aer": 42,
+        "com": 57,
+        "dri": 66,
+        "ldr": 55,
+        "pac": 65,
+        "pas": 57,
+        "pos": 40,
+        "sho": 58,
+        "sta": 60,
+        "str": 50,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "2004-04-01",
       "contract": null,
@@ -440,13 +467,13 @@
       "name": "Savyo",
       "nation": "BRA",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15000
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "LB",
+        "DM"
       ],
       "attrs": {
         "aer": 82,
@@ -475,18 +502,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 58,
-        "dri": 56,
-        "ldr": 57,
-        "pac": 53,
+        "aer": 44,
+        "com": 59,
+        "dri": 60,
+        "ldr": 55,
+        "pac": 56,
         "pas": 61,
-        "pos": 60,
-        "sho": 53,
-        "sta": 61,
-        "str": 57,
-        "tac": 59,
-        "vis": 59
+        "pos": 45,
+        "sho": 59,
+        "sta": 55,
+        "str": 52,
+        "tac": 41,
+        "vis": 61
       },
       "birth": "2003-04-01",
       "contract": null,
@@ -497,23 +524,26 @@
       "name": "Pablo Turre",
       "nation": "ESP",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 21500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 57,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 58,
-        "pas": 54,
-        "pos": 65,
-        "sho": 32,
-        "sta": 57,
-        "str": 67,
-        "tac": 66,
-        "vis": 46
+        "aer": 50,
+        "com": 55,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 66,
+        "pas": 58,
+        "pos": 60,
+        "sho": 39,
+        "sta": 63,
+        "str": 59,
+        "tac": 63,
+        "vis": 52
       },
       "birth": "2002-06-01",
       "contract": null,
@@ -524,10 +554,13 @@
       "name": "Yan Cuuto",
       "nation": "BRA",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 78,
@@ -580,19 +613,22 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 73,
-        "dri": 65,
-        "ldr": 67,
-        "pac": 68,
-        "pas": 69,
-        "pos": 71,
-        "sho": 61,
-        "sta": 72,
-        "str": 67,
-        "tac": 67,
-        "vis": 73
+        "aer": 61,
+        "com": 75,
+        "dri": 67,
+        "ldr": 68,
+        "pac": 69,
+        "pas": 71,
+        "pos": 72,
+        "sho": 63,
+        "sta": 74,
+        "str": 68,
+        "tac": 68,
+        "vis": 75
       },
       "birth": "1999-02-01",
       "contract": null,

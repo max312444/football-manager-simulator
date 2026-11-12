@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 54,
-        "com": 65,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 60,
+        "aer": 48,
+        "com": 66,
+        "dri": 65,
+        "ldr": 58,
+        "pac": 63,
         "pas": 66,
-        "pos": 59,
-        "sho": 54,
-        "sta": 65,
-        "str": 55,
-        "tac": 57,
-        "vis": 65
+        "pos": 44,
+        "sho": 60,
+        "sta": 59,
+        "str": 50,
+        "tac": 39,
+        "vis": 67
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -47,24 +47,29 @@
       "nation": "IRN",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 66,
-        "dri": 63,
+        "com": 70,
+        "dri": 70,
         "ldr": 58,
         "pac": 65,
-        "pas": 54,
-        "pos": 43,
-        "sho": 67,
+        "pas": 65,
+        "pos": 63,
+        "sho": 71,
         "sta": 60,
         "str": 62,
         "tac": 32,
-        "vis": 53
+        "vis": 64
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -75,11 +80,14 @@
       "nation": "GER",
       "nation2": "SEN",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -107,6 +115,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 56,
@@ -135,6 +146,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -169,7 +183,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 51,
         "str": 55,
@@ -195,7 +209,7 @@
         "ldr": 52,
         "pac": 52,
         "pas": 44,
-        "pos": 36,
+        "pos": 56,
         "sho": 57,
         "sta": 53,
         "str": 58,
@@ -214,6 +228,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 57,
@@ -221,7 +240,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 49,
         "str": 57,
@@ -240,6 +259,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -267,6 +289,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -294,18 +319,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 46,
+        "aer": 41,
+        "com": 56,
+        "dri": 58,
+        "ldr": 49,
+        "pac": 49,
         "pas": 57,
-        "pos": 54,
-        "sho": 47,
-        "sta": 59,
-        "str": 49,
-        "tac": 49,
-        "vis": 58
+        "pos": 39,
+        "sho": 53,
+        "sta": 53,
+        "str": 44,
+        "tac": 31,
+        "vis": 60
       },
       "birth": "1972-06-01",
       "contract": null,
@@ -315,7 +340,7 @@
       "name": "Marco Weissheupt",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
@@ -508,18 +533,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 53,
-        "dri": 49,
-        "ldr": 45,
-        "pac": 44,
-        "pas": 49,
-        "pos": 51,
-        "sho": 42,
-        "sta": 55,
-        "str": 48,
-        "tac": 49,
-        "vis": 52
+        "aer": 43,
+        "com": 55,
+        "dri": 51,
+        "ldr": 46,
+        "pac": 45,
+        "pas": 51,
+        "pos": 52,
+        "sho": 44,
+        "sta": 57,
+        "str": 49,
+        "tac": 50,
+        "vis": 54
       },
       "birth": "1969-06-01",
       "contract": null,
@@ -567,7 +592,7 @@
         "ldr": 34,
         "pac": 41,
         "pas": 35,
-        "pos": 19,
+        "pos": 39,
         "sho": 47,
         "sta": 38,
         "str": 41,

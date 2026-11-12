@@ -74,7 +74,7 @@
       "name": "Issiaga Sylle",
       "nation": "GUI",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 23000
     },
     {
@@ -138,7 +138,7 @@
         "ldr": 56,
         "pac": 68,
         "pas": 59,
-        "pos": 40,
+        "pos": 60,
         "sho": 68,
         "sta": 60,
         "str": 68,
@@ -157,6 +157,10 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -185,18 +189,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 64,
-        "dri": 62,
-        "ldr": 54,
-        "pac": 59,
-        "pas": 55,
-        "pos": 40,
-        "sho": 62,
-        "sta": 56,
-        "str": 63,
-        "tac": 34,
-        "vis": 55
+        "aer": 44,
+        "com": 61,
+        "dri": 67,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 61,
+        "pos": 42,
+        "sho": 57,
+        "sta": 58,
+        "str": 53,
+        "tac": 40,
+        "vis": 61
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -206,23 +210,26 @@
       "name": "Gaetan Rubail",
       "nation": "FRA",
       "number": 9,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 13000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 74,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 75,
-        "pas": 82,
-        "pos": 72,
-        "sho": 70,
-        "sta": 82,
-        "str": 71,
-        "tac": 75,
-        "vis": 75
+        "aer": 64,
+        "com": 72,
+        "dri": 80,
+        "ldr": 71,
+        "pac": 84,
+        "pas": 78,
+        "pos": 54,
+        "sho": 74,
+        "sta": 78,
+        "str": 66,
+        "tac": 55,
+        "vis": 72
       },
       "birth": "1991-06-01",
       "contract": null,
@@ -234,23 +241,23 @@
       "nation": "COD",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 44000
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 63,
-        "dri": 55,
-        "ldr": 63,
-        "pac": 64,
-        "pas": 63,
-        "pos": 72,
-        "sho": 42,
-        "sta": 65,
-        "str": 69,
-        "tac": 74,
-        "vis": 53
+        "aer": 61,
+        "com": 61,
+        "dri": 65,
+        "ldr": 59,
+        "pac": 72,
+        "pas": 67,
+        "pos": 67,
+        "sho": 49,
+        "sta": 71,
+        "str": 61,
+        "tac": 71,
+        "vis": 59
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -260,23 +267,23 @@
       "name": "Jonathan Claoss",
       "nation": "FRA",
       "number": 11,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 31500
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 61,
-        "dri": 46,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 51,
-        "pos": 64,
-        "sho": 38,
-        "sta": 61,
-        "str": 61,
-        "tac": 66,
-        "vis": 48
+        "aer": 51,
+        "com": 59,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 55,
+        "pos": 59,
+        "sho": 45,
+        "sta": 67,
+        "str": 53,
+        "tac": 63,
+        "vis": 54
       },
       "birth": "1997-05-01",
       "contract": null,
@@ -286,12 +293,12 @@
       "name": "Clement Michalin",
       "nation": "FRA",
       "number": 13,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14500
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 64,
@@ -373,18 +380,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 57,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 56,
-        "pas": 60,
-        "pos": 57,
-        "sho": 52,
+        "dri": 56,
+        "ldr": 58,
+        "pac": 53,
+        "pas": 59,
+        "pos": 61,
+        "sho": 46,
         "sta": 62,
-        "str": 54,
-        "tac": 53,
-        "vis": 64
+        "str": 59,
+        "tac": 59,
+        "vis": 61
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -394,10 +401,13 @@
       "name": "Yannick Cehuzac",
       "nation": "FRA",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -426,18 +436,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 62,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 59,
-        "pas": 56,
-        "pos": 67,
-        "sho": 38,
-        "sta": 60,
-        "str": 63,
-        "tac": 66,
-        "vis": 51
+        "aer": 55,
+        "com": 60,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 67,
+        "pas": 60,
+        "pos": 62,
+        "sho": 45,
+        "sta": 66,
+        "str": 55,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -448,7 +458,7 @@
       "nation": "MLI",
       "nation2": "FRA",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 17000
     },
     {
@@ -475,23 +485,26 @@
       "nation": "MLI",
       "nation2": "FRA",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 44000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 56,
-        "ldr": 57,
-        "pac": 58,
-        "pas": 64,
-        "pos": 59,
-        "sho": 52,
-        "sta": 66,
-        "str": 54,
-        "tac": 56,
-        "vis": 62
+        "aer": 44,
+        "com": 58,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 67,
+        "pas": 60,
+        "pos": 41,
+        "sho": 56,
+        "sta": 62,
+        "str": 49,
+        "tac": 36,
+        "vis": 59
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -502,7 +515,7 @@
       "nation": "FRA",
       "nation2": "POR",
       "number": 22,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17500
     },
     {
@@ -513,7 +526,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 55,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 56,
         "str": 61,
@@ -566,7 +579,7 @@
         "ldr": 67,
         "pac": 69,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 71,
         "sta": 66,
         "str": 74,
@@ -618,7 +631,7 @@
         "ldr": 52,
         "pac": 60,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 55,
         "str": 57,
@@ -637,19 +650,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 60,
-        "dri": 55,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 59,
-        "pos": 57,
-        "sho": 53,
+        "dri": 51,
+        "ldr": 54,
+        "pac": 50,
+        "pas": 58,
+        "pos": 61,
+        "sho": 47,
         "sta": 62,
-        "str": 51,
-        "tac": 56,
-        "vis": 61
+        "str": 56,
+        "tac": 62,
+        "vis": 58
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -659,7 +676,7 @@
       "name": "Cheick Doocoure",
       "nation": "MLI",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14000
     },
     {
@@ -670,7 +687,7 @@
         "ldr": 55,
         "pac": 67,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 62,
         "str": 65,
@@ -718,19 +735,22 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 64,
-        "dri": 63,
-        "ldr": 58,
-        "pac": 65,
-        "pas": 56,
-        "pos": 40,
-        "sho": 66,
-        "sta": 60,
-        "str": 63,
-        "tac": 31,
-        "vis": 53
+        "aer": 46,
+        "com": 61,
+        "dri": 68,
+        "ldr": 56,
+        "pac": 69,
+        "pas": 62,
+        "pos": 42,
+        "sho": 61,
+        "sta": 62,
+        "str": 53,
+        "tac": 37,
+        "vis": 59
       },
       "birth": "1996-05-01",
       "contract": null,
@@ -740,7 +760,7 @@
       "name": "Cyrille Beyala",
       "nation": "BFA",
       "number": 31,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15000
     }
   ],

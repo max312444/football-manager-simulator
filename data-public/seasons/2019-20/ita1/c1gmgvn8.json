@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 81,
-        "dri": 80,
-        "ldr": 73,
-        "pac": 72,
-        "pas": 81,
-        "pos": 78,
-        "sho": 70,
+        "dri": 76,
+        "ldr": 75,
+        "pac": 69,
+        "pas": 80,
+        "pos": 82,
+        "sho": 64,
         "sta": 81,
-        "str": 76,
-        "tac": 75,
-        "vis": 79
+        "str": 81,
+        "tac": 81,
+        "vis": 76
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "name": "Milan Badalj",
       "nation": "CRO",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 63000
     },
     {
@@ -130,19 +130,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 77,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 76,
-        "pas": 66,
-        "pos": 56,
-        "sho": 78,
-        "sta": 75,
-        "str": 79,
-        "tac": 43,
-        "vis": 67
+        "aer": 57,
+        "com": 74,
+        "dri": 78,
+        "ldr": 69,
+        "pac": 80,
+        "pas": 72,
+        "pos": 58,
+        "sho": 73,
+        "sta": 77,
+        "str": 69,
+        "tac": 49,
+        "vis": 73
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -152,10 +155,13 @@
       "name": "Franck Ribary",
       "nation": "FRA",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 48000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -182,7 +188,11 @@
       "wage": 21500
     },
     {
-      "alt": [],
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 77,
@@ -190,7 +200,7 @@
         "ldr": 71,
         "pac": 80,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 74,
         "str": 81,
@@ -211,18 +221,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 64,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 64,
-        "pas": 54,
-        "pos": 38,
-        "sho": 69,
-        "sta": 56,
-        "str": 62,
-        "tac": 30,
-        "vis": 55
+        "aer": 47,
+        "com": 61,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 68,
+        "pas": 60,
+        "pos": 40,
+        "sho": 64,
+        "sta": 58,
+        "str": 52,
+        "tac": 36,
+        "vis": 61
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -232,10 +242,13 @@
       "name": "Riccardo Suttil",
       "nation": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
@@ -263,6 +276,9 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 77,
@@ -290,19 +306,23 @@
       "wage": 58000
     },
     {
+      "alt": [
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 70,
-        "dri": 71,
+        "com": 72,
+        "dri": 73,
         "ldr": 67,
-        "pac": 68,
+        "pac": 70,
         "pas": 76,
         "pos": 70,
-        "sho": 68,
+        "sho": 70,
         "sta": 75,
         "str": 66,
         "tac": 64,
-        "vis": 74
+        "vis": 76
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -312,7 +332,7 @@
       "name": "Valentin Eysseryc",
       "nation": "FRA",
       "number": 16,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 46000
     },
     {
@@ -342,6 +362,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 52,
@@ -422,9 +445,6 @@
       "wage": 11500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 73,
@@ -451,19 +471,22 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 62,
-        "dri": 52,
-        "ldr": 66,
-        "pac": 61,
-        "pas": 61,
-        "pos": 72,
-        "sho": 40,
-        "sta": 65,
-        "str": 70,
-        "tac": 68,
-        "vis": 52
+        "aer": 56,
+        "com": 60,
+        "dri": 62,
+        "ldr": 62,
+        "pac": 69,
+        "pas": 65,
+        "pos": 67,
+        "sho": 47,
+        "sta": 71,
+        "str": 62,
+        "tac": 65,
+        "vis": 58
       },
       "birth": "1995-04-01",
       "contract": null,
@@ -473,10 +496,13 @@
       "name": "Lorenzo Venuty",
       "nation": "ITA",
       "number": 23,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -503,19 +529,23 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 73,
         "com": 77,
-        "dri": 71,
+        "dri": 76,
         "ldr": 68,
-        "pac": 77,
-        "pas": 69,
-        "pos": 54,
+        "pac": 82,
+        "pas": 74,
+        "pos": 74,
         "sho": 74,
         "sta": 73,
         "str": 75,
         "tac": 46,
-        "vis": 63
+        "vis": 68
       },
       "birth": "1997-10-01",
       "contract": null,
@@ -525,10 +555,13 @@
       "name": "Federico Chiasa",
       "nation": "ITA",
       "number": 25,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 43000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -562,7 +595,7 @@
         "ldr": 60,
         "pac": 69,
         "pas": 61,
-        "pos": 43,
+        "pos": 63,
         "sho": 73,
         "sta": 61,
         "str": 70,
@@ -581,19 +614,22 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 62,
-        "dri": 50,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 62,
-        "pos": 67,
-        "sho": 43,
-        "sta": 65,
-        "str": 66,
-        "tac": 71,
-        "vis": 56
+        "aer": 57,
+        "com": 60,
+        "dri": 60,
+        "ldr": 61,
+        "pac": 72,
+        "pas": 66,
+        "pos": 62,
+        "sho": 50,
+        "sta": 71,
+        "str": 58,
+        "tac": 68,
+        "vis": 62
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -604,10 +640,13 @@
       "name": "Delbert",
       "nation": "BRA",
       "number": 29,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 65,
@@ -667,7 +706,7 @@
         "ldr": 44,
         "pac": 52,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 55,
         "sta": 51,
         "str": 56,
@@ -719,7 +758,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 53,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 57,
         "str": 57,
@@ -739,18 +778,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 70,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 64,
-        "pas": 73,
-        "pos": 67,
-        "sho": 60,
+        "dri": 62,
+        "ldr": 65,
+        "pac": 61,
+        "pas": 72,
+        "pos": 71,
+        "sho": 54,
         "sta": 72,
-        "str": 61,
-        "tac": 65,
-        "vis": 66
+        "str": 66,
+        "tac": 71,
+        "vis": 63
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -760,7 +799,7 @@
       "name": "Erick Polgar",
       "nation": "CHI",
       "number": 78,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31500
     },
     {
@@ -786,7 +825,7 @@
       "name": "Aleksa Tarzic",
       "nation": "SRB",
       "number": 93,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 6500
     }
   ],

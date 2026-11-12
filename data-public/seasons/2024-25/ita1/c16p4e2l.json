@@ -99,23 +99,23 @@
       "name": "Giuseppe Pazzella",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 47500
     },
     {
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 74,
-        "dri": 73,
-        "ldr": 70,
-        "pac": 67,
-        "pas": 78,
-        "pos": 74,
-        "sho": 65,
+        "dri": 69,
+        "ldr": 72,
+        "pac": 64,
+        "pas": 77,
+        "pos": 78,
+        "sho": 59,
         "sta": 78,
-        "str": 68,
-        "tac": 72,
-        "vis": 76
+        "str": 73,
+        "tac": 78,
+        "vis": 73
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -125,10 +125,14 @@
       "name": "Alberto Gressi",
       "nation": "ITA",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 66500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -155,19 +159,22 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 65,
-        "dri": 58,
-        "ldr": 60,
-        "pac": 60,
+        "aer": 46,
+        "com": 66,
+        "dri": 62,
+        "ldr": 58,
+        "pac": 63,
         "pas": 62,
-        "pos": 57,
-        "sho": 59,
-        "sta": 63,
-        "str": 56,
-        "tac": 57,
-        "vis": 62
+        "pos": 42,
+        "sho": 65,
+        "sta": 57,
+        "str": 51,
+        "tac": 39,
+        "vis": 64
       },
       "birth": "2001-11-01",
       "contract": null,
@@ -177,7 +184,7 @@
       "name": "Tino Anjurin",
       "nation": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 26500
     },
     {
@@ -188,7 +195,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 66,
         "sta": 61,
         "str": 65,
@@ -208,6 +215,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -234,19 +244,23 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 67,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 67,
-        "pas": 55,
-        "pos": 46,
-        "sho": 65,
-        "sta": 62,
-        "str": 63,
-        "tac": 35,
-        "vis": 58
+        "aer": 47,
+        "com": 64,
+        "dri": 71,
+        "ldr": 60,
+        "pac": 71,
+        "pas": 61,
+        "pos": 48,
+        "sho": 60,
+        "sta": 64,
+        "str": 53,
+        "tac": 41,
+        "vis": 64
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -257,23 +271,23 @@
       "nation": "GHA",
       "nation2": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 25500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 65,
-        "dri": 52,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 56,
-        "pos": 71,
-        "sho": 40,
-        "sta": 64,
-        "str": 67,
-        "tac": 65,
-        "vis": 52
+        "aer": 52,
+        "com": 63,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 65,
+        "pas": 60,
+        "pos": 66,
+        "sho": 47,
+        "sta": 70,
+        "str": 59,
+        "tac": 62,
+        "vis": 58
       },
       "birth": "2000-09-01",
       "contract": null,
@@ -283,7 +297,7 @@
       "name": "Liberato Cecace",
       "nation": "NZL",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 27500
     },
     {
@@ -316,18 +330,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 49,
-        "dri": 51,
-        "ldr": 46,
-        "pac": 46,
-        "pas": 52,
-        "pos": 53,
-        "sho": 49,
+        "dri": 47,
+        "ldr": 48,
+        "pac": 43,
+        "pas": 51,
+        "pos": 57,
+        "sho": 43,
         "sta": 53,
-        "str": 47,
-        "tac": 51,
-        "vis": 53
+        "str": 52,
+        "tac": 57,
+        "vis": 50
       },
       "birth": "2001-03-01",
       "contract": null,
@@ -337,23 +351,26 @@
       "name": "Luca Belerdinelli",
       "nation": "ITA",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 68,
-        "dri": 64,
-        "ldr": 58,
-        "pac": 70,
-        "pas": 62,
-        "pos": 47,
-        "sho": 70,
-        "sta": 64,
-        "str": 70,
-        "tac": 40,
-        "vis": 56
+        "aer": 49,
+        "com": 65,
+        "dri": 69,
+        "ldr": 56,
+        "pac": 74,
+        "pas": 68,
+        "pos": 49,
+        "sho": 65,
+        "sta": 66,
+        "str": 60,
+        "tac": 46,
+        "vis": 62
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -364,7 +381,7 @@
       "name": "Ola Solbakkan",
       "nation": "NOR",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 32000
     },
     {
@@ -375,7 +392,7 @@
         "ldr": 46,
         "pac": 55,
         "pas": 44,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 50,
         "str": 58,
@@ -395,6 +412,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 55,
@@ -503,19 +523,22 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 63,
-        "pas": 69,
-        "pos": 67,
-        "sho": 63,
-        "sta": 67,
-        "str": 66,
-        "tac": 66,
-        "vis": 67
+        "aer": 61,
+        "com": 69,
+        "dri": 65,
+        "ldr": 62,
+        "pac": 64,
+        "pas": 71,
+        "pos": 68,
+        "sho": 65,
+        "sta": 69,
+        "str": 67,
+        "tac": 67,
+        "vis": 69
       },
       "birth": "1997-09-01",
       "contract": null,
@@ -537,7 +560,7 @@
         "ldr": 52,
         "pac": 63,
         "pas": 53,
-        "pos": 36,
+        "pos": 56,
         "sho": 64,
         "sta": 54,
         "str": 61,
@@ -557,6 +580,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -617,7 +643,7 @@
         "ldr": 46,
         "pac": 50,
         "pas": 44,
-        "pos": 31,
+        "pos": 51,
         "sho": 56,
         "sta": 51,
         "str": 52,
@@ -636,6 +662,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -697,7 +726,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 54,
-        "pos": 44,
+        "pos": 64,
         "sho": 67,
         "sta": 62,
         "str": 60,
@@ -717,19 +746,24 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 59,
-        "dri": 47,
-        "ldr": 65,
-        "pac": 60,
-        "pas": 58,
-        "pos": 69,
-        "sho": 34,
-        "sta": 63,
-        "str": 65,
-        "tac": 65,
-        "vis": 51
+        "aer": 57,
+        "com": 57,
+        "dri": 57,
+        "ldr": 61,
+        "pac": 68,
+        "pas": 62,
+        "pos": 64,
+        "sho": 41,
+        "sta": 69,
+        "str": 57,
+        "tac": 62,
+        "vis": 57
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -740,7 +774,7 @@
       "name": "Junior Sembia",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 25000
     }
   ],

@@ -51,6 +51,11 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 63,
@@ -155,6 +160,11 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 62,
@@ -182,18 +192,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 70,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 60,
+        "aer": 53,
+        "com": 71,
+        "dri": 71,
+        "ldr": 65,
+        "pac": 63,
         "pas": 72,
-        "pos": 63,
-        "sho": 60,
-        "sta": 72,
-        "str": 60,
-        "tac": 67,
-        "vis": 66
+        "pos": 48,
+        "sho": 66,
+        "sta": 66,
+        "str": 55,
+        "tac": 49,
+        "vis": 68
       },
       "birth": "1989-12-01",
       "contract": null,
@@ -203,7 +213,7 @@
       "name": "Marcel Rysse",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 20000
     },
     {
@@ -214,7 +224,7 @@
         "ldr": 61,
         "pac": 65,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 59,
         "str": 65,
@@ -240,7 +250,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 59,
         "str": 61,
@@ -260,18 +270,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 67,
-        "ldr": 60,
-        "pac": 62,
+        "aer": 54,
+        "com": 68,
+        "dri": 71,
+        "ldr": 58,
+        "pac": 65,
         "pas": 71,
-        "pos": 64,
-        "sho": 61,
-        "sta": 68,
-        "str": 61,
-        "tac": 64,
-        "vis": 68
+        "pos": 49,
+        "sho": 67,
+        "sta": 62,
+        "str": 56,
+        "tac": 46,
+        "vis": 70
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -281,26 +291,28 @@
       "name": "Louis Scheub",
       "nation": "AUT",
       "number": 13,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 18500
     },
     {
       "alt": [
-        "RB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
-        "aer": 78,
-        "com": 72,
-        "dri": 58,
-        "ldr": 70,
-        "pac": 67,
-        "pas": 65,
-        "pos": 79,
-        "sho": 49,
-        "sta": 73,
-        "str": 78,
-        "tac": 74,
-        "vis": 62
+        "aer": 65,
+        "com": 70,
+        "dri": 68,
+        "ldr": 66,
+        "pac": 75,
+        "pas": 69,
+        "pos": 74,
+        "sho": 56,
+        "sta": 79,
+        "str": 70,
+        "tac": 71,
+        "vis": 68
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -310,7 +322,7 @@
       "name": "Jonas Hectur",
       "nation": "GER",
       "number": 14,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 20000
     },
     {
@@ -321,7 +333,7 @@
         "ldr": 59,
         "pac": 67,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 69,
         "sta": 62,
         "str": 63,
@@ -340,19 +352,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 73,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 66,
-        "pas": 73,
-        "pos": 66,
-        "sho": 67,
-        "sta": 73,
-        "str": 64,
-        "tac": 64,
-        "vis": 70
+        "aer": 55,
+        "com": 71,
+        "dri": 73,
+        "ldr": 64,
+        "pac": 75,
+        "pas": 69,
+        "pos": 48,
+        "sho": 71,
+        "sta": 69,
+        "str": 59,
+        "tac": 44,
+        "vis": 67
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -362,7 +377,7 @@
       "name": "Christian Clamens",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 20000
     },
     {
@@ -373,7 +388,7 @@
         "ldr": 60,
         "pac": 69,
         "pas": 57,
-        "pos": 45,
+        "pos": 65,
         "sho": 67,
         "sta": 63,
         "str": 65,
@@ -394,18 +409,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 60,
-        "dri": 60,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 61,
-        "pos": 54,
-        "sho": 51,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 52,
+        "pas": 60,
+        "pos": 58,
+        "sho": 45,
         "sta": 61,
-        "str": 55,
-        "tac": 54,
-        "vis": 57
+        "str": 60,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -416,10 +431,13 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -473,18 +491,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 57,
-        "dri": 39,
-        "ldr": 52,
-        "pac": 48,
-        "pas": 49,
-        "pos": 58,
-        "sho": 32,
-        "sta": 49,
-        "str": 59,
-        "tac": 58,
-        "vis": 43
+        "aer": 45,
+        "com": 55,
+        "dri": 49,
+        "ldr": 48,
+        "pac": 56,
+        "pas": 53,
+        "pos": 53,
+        "sho": 39,
+        "sta": 55,
+        "str": 51,
+        "tac": 55,
+        "vis": 49
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -494,23 +512,23 @@
       "name": "Jannes Hurn",
       "nation": "GER",
       "number": 23,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 62,
-        "dri": 44,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 53,
-        "pos": 66,
-        "sho": 35,
+        "aer": 45,
+        "com": 65,
+        "dri": 60,
+        "ldr": 52,
+        "pac": 58,
+        "pas": 63,
+        "pos": 46,
+        "sho": 62,
         "sta": 56,
-        "str": 64,
-        "tac": 66,
-        "vis": 45
+        "str": 52,
+        "tac": 41,
+        "vis": 62
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -520,23 +538,27 @@
       "name": "Dominick Draxler",
       "nation": "GER",
       "number": 24,
-      "pos": "CB",
+      "pos": "AM",
       "wage": 6500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 55,
-        "dri": 46,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 50,
-        "pos": 63,
-        "sho": 30,
-        "sta": 53,
-        "str": 58,
-        "tac": 58,
-        "vis": 42
+        "aer": 48,
+        "com": 53,
+        "dri": 58,
+        "ldr": 51,
+        "pac": 63,
+        "pas": 55,
+        "pos": 56,
+        "sho": 40,
+        "sta": 61,
+        "str": 50,
+        "tac": 53,
+        "vis": 49
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -546,23 +568,23 @@
       "name": "Chris Fuhrych",
       "nation": "GER",
       "number": 26,
-      "pos": "CB",
+      "pos": "LWB",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 50,
-        "dri": 40,
-        "ldr": 48,
-        "pac": 43,
-        "pas": 44,
-        "pos": 52,
-        "sho": 23,
-        "sta": 44,
-        "str": 55,
-        "tac": 55,
-        "vis": 40
+        "aer": 39,
+        "com": 48,
+        "dri": 50,
+        "ldr": 44,
+        "pac": 51,
+        "pas": 48,
+        "pos": 47,
+        "sho": 30,
+        "sta": 50,
+        "str": 47,
+        "tac": 52,
+        "vis": 46
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -572,10 +594,13 @@
       "name": "Tim Handwerkar",
       "nation": "GER",
       "number": 29,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -602,19 +627,22 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 49,
-        "dri": 38,
-        "ldr": 55,
-        "pac": 48,
-        "pas": 45,
-        "pos": 56,
-        "sho": 29,
-        "sta": 53,
-        "str": 56,
-        "tac": 57,
-        "vis": 39
+        "aer": 42,
+        "com": 47,
+        "dri": 48,
+        "ldr": 51,
+        "pac": 56,
+        "pas": 49,
+        "pos": 51,
+        "sho": 36,
+        "sta": 59,
+        "str": 48,
+        "tac": 54,
+        "vis": 45
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -624,10 +652,13 @@
       "name": "Matthias Beder",
       "nation": "GER",
       "number": 35,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -654,6 +685,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,

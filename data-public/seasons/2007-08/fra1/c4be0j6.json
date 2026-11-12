@@ -25,6 +25,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 62,
@@ -52,18 +55,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 66,
-        "dri": 53,
-        "ldr": 67,
-        "pac": 59,
-        "pas": 61,
-        "pos": 73,
-        "sho": 43,
-        "sta": 62,
-        "str": 70,
-        "tac": 73,
-        "vis": 53
+        "aer": 56,
+        "com": 64,
+        "dri": 63,
+        "ldr": 63,
+        "pac": 67,
+        "pas": 65,
+        "pos": 68,
+        "sho": 50,
+        "sta": 68,
+        "str": 62,
+        "tac": 70,
+        "vis": 59
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -73,10 +76,15 @@
       "name": "Jeremy Berthud",
       "nation": "FRA",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 17500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 63,
@@ -104,18 +112,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 70,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 66,
-        "pas": 74,
-        "pos": 71,
-        "sho": 67,
+        "dri": 62,
+        "ldr": 65,
+        "pac": 63,
+        "pas": 73,
+        "pos": 75,
+        "sho": 61,
         "sta": 75,
-        "str": 67,
-        "tac": 67,
-        "vis": 70
+        "str": 72,
+        "tac": 73,
+        "vis": 67
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -125,7 +133,7 @@
       "name": "Lucas Barnardi",
       "nation": "ARG",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31000
     },
     {
@@ -136,7 +144,7 @@
         "ldr": 65,
         "pac": 74,
         "pas": 64,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 70,
         "str": 77,
@@ -162,7 +170,7 @@
         "ldr": 71,
         "pac": 74,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 78,
         "sta": 69,
         "str": 77,
@@ -181,19 +189,23 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 70,
-        "dri": 71,
-        "ldr": 65,
-        "pac": 72,
-        "pas": 62,
-        "pos": 45,
-        "sho": 74,
-        "sta": 67,
-        "str": 71,
-        "tac": 40,
-        "vis": 60
+        "aer": 52,
+        "com": 67,
+        "dri": 76,
+        "ldr": 63,
+        "pac": 76,
+        "pas": 68,
+        "pos": 47,
+        "sho": 69,
+        "sta": 69,
+        "str": 61,
+        "tac": 46,
+        "vis": 66
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -203,23 +215,23 @@
       "name": "Jeremy Manez",
       "nation": "FRA",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 20000
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 68,
-        "dri": 66,
-        "ldr": 65,
-        "pac": 66,
+        "aer": 56,
+        "com": 69,
+        "dri": 70,
+        "ldr": 63,
+        "pac": 69,
         "pas": 76,
-        "pos": 66,
-        "sho": 66,
-        "sta": 73,
-        "str": 63,
-        "tac": 69,
-        "vis": 72
+        "pos": 51,
+        "sho": 72,
+        "sta": 67,
+        "str": 58,
+        "tac": 51,
+        "vis": 74
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -230,7 +242,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 31000
     },
     {
@@ -260,6 +272,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 63,
@@ -308,7 +323,7 @@
       "name": "Olivier Veygneau",
       "nation": "FRA",
       "number": 15,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11000
     },
     {
@@ -338,19 +353,23 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 65,
-        "dri": 60,
-        "ldr": 61,
-        "pac": 63,
+        "aer": 51,
+        "com": 66,
+        "dri": 64,
+        "ldr": 59,
+        "pac": 66,
         "pas": 70,
-        "pos": 63,
-        "sho": 60,
-        "sta": 69,
-        "str": 58,
-        "tac": 62,
-        "vis": 68
+        "pos": 48,
+        "sho": 66,
+        "sta": 63,
+        "str": 53,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -361,7 +380,7 @@
       "nation": "FRA",
       "nation2": "TOG",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19000
     },
     {
@@ -372,7 +391,7 @@
         "ldr": 59,
         "pac": 70,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 73,
         "sta": 62,
         "str": 67,
@@ -391,19 +410,23 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 66,
-        "dri": 64,
-        "ldr": 57,
-        "pac": 63,
-        "pas": 58,
-        "pos": 43,
-        "sho": 69,
-        "sta": 57,
-        "str": 65,
-        "tac": 31,
-        "vis": 58
+        "aer": 50,
+        "com": 63,
+        "dri": 69,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 64,
+        "pos": 45,
+        "sho": 64,
+        "sta": 59,
+        "str": 55,
+        "tac": 37,
+        "vis": 64
       },
       "birth": "1987-03-01",
       "contract": null,
@@ -413,10 +436,13 @@
       "name": "Juan Pablo Pinu",
       "nation": "COL",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -470,6 +496,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 78,
@@ -523,6 +552,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 77,
         "com": 74,
@@ -628,18 +660,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 58,
+        "aer": 53,
+        "com": 59,
         "dri": 55,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 56,
+        "ldr": 52,
+        "pac": 55,
+        "pas": 46,
         "pos": 53,
-        "sho": 48,
-        "sta": 57,
-        "str": 51,
-        "tac": 51,
-        "vis": 58
+        "sho": 57,
+        "sta": 51,
+        "str": 56,
+        "tac": 25,
+        "vis": 49
       },
       "birth": "1989-04-01",
       "contract": null,
@@ -650,7 +682,7 @@
       "nation": "FRA",
       "nation2": "COM",
       "number": 33,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 6000
     }
   ],

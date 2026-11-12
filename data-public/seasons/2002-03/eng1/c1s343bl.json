@@ -45,7 +45,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 68,
@@ -77,13 +78,13 @@
       "attrs": {
         "aer": 59,
         "com": 70,
-        "dri": 57,
+        "dri": 66,
         "ldr": 64,
-        "pac": 58,
+        "pac": 67,
         "pas": 69,
         "pos": 68,
         "sho": 47,
-        "sta": 64,
+        "sta": 73,
         "str": 64,
         "tac": 69,
         "vis": 62
@@ -189,7 +190,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 47,
@@ -213,14 +214,11 @@
       "name": "Keith Gillespye",
       "nation": "NIR",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 22000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 51,
         "com": 67,
@@ -252,16 +250,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 79,
+        "aer": 65,
+        "com": 82,
         "dri": 74,
         "ldr": 58,
         "pac": 77,
         "pas": 66,
-        "pos": 48,
-        "sho": 81,
+        "pos": 51,
+        "sho": 84,
         "sta": 71,
-        "str": 69,
+        "str": 72,
         "tac": 35,
         "vis": 64
       },
@@ -282,16 +280,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 59,
+        "aer": 65,
+        "com": 63,
         "dri": 65,
         "ldr": 47,
         "pac": 73,
         "pas": 57,
-        "pos": 47,
-        "sho": 65,
+        "pos": 51,
+        "sho": 69,
         "sta": 67,
-        "str": 67,
+        "str": 71,
         "tac": 35,
         "vis": 53
       },
@@ -337,12 +335,16 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 68,
         "com": 76,
-        "dri": 76,
+        "dri": 80,
         "ldr": 61,
-        "pac": 68,
+        "pac": 72,
         "pas": 73,
         "pos": 52,
         "sho": 76,
@@ -359,7 +361,7 @@
       "name": "Dwight Yurke",
       "nation": "TRI",
       "number": 12,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 42500
     },
@@ -419,21 +421,22 @@
     },
     {
       "alt": [
+        "DM",
         "RM"
       ],
       "attrs": {
         "aer": 50,
-        "com": 63,
+        "com": 65,
         "dri": 68,
         "ldr": 53,
         "pac": 65,
-        "pas": 72,
+        "pas": 74,
         "pos": 61,
         "sho": 66,
         "sta": 75,
         "str": 59,
-        "tac": 60,
-        "vis": 67
+        "tac": 62,
+        "vis": 69
       },
       "birth": "1977-09-01",
       "contract": "2006-06-30",
@@ -452,16 +455,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 58,
+        "aer": 65,
+        "com": 61,
         "dri": 64,
         "ldr": 42,
         "pac": 64,
         "pas": 60,
-        "pos": 48,
-        "sho": 64,
+        "pos": 51,
+        "sho": 67,
         "sta": 58,
-        "str": 62,
+        "str": 65,
         "tac": 36,
         "vis": 56
       },
@@ -522,17 +525,17 @@
     {
       "attrs": {
         "aer": 46,
-        "com": 58,
-        "dri": 64,
+        "com": 66,
+        "dri": 67,
         "ldr": 46,
         "pac": 67,
-        "pas": 64,
+        "pas": 72,
         "pos": 52,
-        "sho": 56,
+        "sho": 64,
         "sta": 71,
         "str": 55,
         "tac": 50,
-        "vis": 58
+        "vis": 66
       },
       "birth": "1978-04-01",
       "contract": "2004-06-30",
@@ -542,13 +545,15 @@
       "name": "Alan Mehon",
       "nation": "IRL",
       "number": 23,
-      "pos": "LM",
+      "pos": "AM",
       "verify": true,
       "wage": 15000
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 60,
@@ -577,9 +582,6 @@
       "wage": 16000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 58,
@@ -607,9 +609,6 @@
       "wage": 18500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 74,
         "com": 62,
@@ -637,19 +636,22 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 52,
-        "dri": 56,
+        "com": 65,
+        "dri": 61,
         "ldr": 40,
         "pac": 64,
-        "pas": 58,
+        "pas": 71,
         "pos": 56,
-        "sho": 50,
+        "sho": 55,
         "sta": 74,
         "str": 64,
-        "tac": 60,
-        "vis": 50
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1981-11-01",
       "contract": "2005-06-30",

@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 79,
@@ -58,7 +61,7 @@
         "ldr": 70,
         "pac": 75,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 77,
         "sta": 70,
         "str": 77,
@@ -103,6 +106,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 70,
         "com": 69,
@@ -110,7 +116,7 @@
         "ldr": 65,
         "pac": 69,
         "pas": 66,
-        "pos": 48,
+        "pos": 68,
         "sho": 76,
         "sta": 65,
         "str": 69,
@@ -130,19 +136,24 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
-        "dri": 65,
+        "dri": 73,
         "ldr": 63,
         "pac": 70,
-        "pas": 65,
-        "pos": 51,
+        "pas": 73,
+        "pos": 71,
         "sho": 74,
         "sta": 67,
         "str": 71,
         "tac": 37,
-        "vis": 61
+        "vis": 69
       },
       "birth": "1976-06-01",
       "contract": null,
@@ -152,7 +163,7 @@
       "name": "Tomas Locatalli",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 13000
     },
     {
@@ -182,19 +193,22 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 68,
-        "dri": 64,
-        "ldr": 65,
-        "pac": 63,
-        "pas": 68,
-        "pos": 67,
-        "sho": 61,
-        "sta": 74,
-        "str": 66,
-        "tac": 65,
-        "vis": 68
+        "aer": 61,
+        "com": 70,
+        "dri": 66,
+        "ldr": 66,
+        "pac": 64,
+        "pas": 70,
+        "pos": 68,
+        "sho": 63,
+        "sta": 76,
+        "str": 67,
+        "tac": 66,
+        "vis": 70
       },
       "birth": "1974-04-01",
       "contract": null,
@@ -243,7 +257,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 61,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 65,
         "str": 68,
@@ -262,19 +276,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 64,
-        "dri": 62,
-        "ldr": 63,
-        "pac": 62,
-        "pas": 71,
-        "pos": 62,
-        "sho": 63,
-        "sta": 70,
-        "str": 58,
-        "tac": 62,
-        "vis": 70
+        "aer": 51,
+        "com": 62,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 71,
+        "pas": 67,
+        "pos": 44,
+        "sho": 67,
+        "sta": 66,
+        "str": 53,
+        "tac": 42,
+        "vis": 67
       },
       "birth": "1971-10-01",
       "contract": null,
@@ -284,7 +301,7 @@
       "name": "Carlo Narvo",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 12500
     },
     {
@@ -315,6 +332,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -396,19 +416,23 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 64,
-        "dri": 65,
-        "ldr": 59,
-        "pac": 60,
+        "aer": 51,
+        "com": 65,
+        "dri": 69,
+        "ldr": 57,
+        "pac": 63,
         "pas": 67,
-        "pos": 62,
-        "sho": 56,
-        "sta": 68,
-        "str": 57,
-        "tac": 58,
-        "vis": 67
+        "pos": 47,
+        "sho": 62,
+        "sta": 62,
+        "str": 52,
+        "tac": 40,
+        "vis": 69
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -418,10 +442,13 @@
       "name": "Mourad Meghny",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 61,
@@ -449,6 +476,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 63,
@@ -497,7 +527,7 @@
       "name": "Ciro Capoano",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5000
     },
@@ -551,7 +581,7 @@
       "name": "Andrea Sossi",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5000
     },
@@ -583,6 +613,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LB",
+        "LW"
+      ],
       "attrs": {
         "aer": 65,
         "com": 56,
@@ -609,6 +643,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 57,
@@ -661,6 +698,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -694,7 +734,7 @@
         "ldr": 43,
         "pac": 51,
         "pas": 38,
-        "pos": 25,
+        "pos": 45,
         "sho": 50,
         "sta": 43,
         "str": 51,

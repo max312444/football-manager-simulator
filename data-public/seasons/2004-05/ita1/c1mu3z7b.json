@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -78,6 +81,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 72,
@@ -131,22 +137,19 @@
       "wage": 12500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 56,
-        "com": 70,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 66,
+        "aer": 50,
+        "com": 71,
+        "dri": 73,
+        "ldr": 65,
+        "pac": 69,
         "pas": 71,
-        "pos": 64,
-        "sho": 64,
-        "sta": 70,
-        "str": 63,
-        "tac": 67,
-        "vis": 70
+        "pos": 49,
+        "sho": 70,
+        "sta": 64,
+        "str": 58,
+        "tac": 49,
+        "vis": 72
       },
       "birth": "1983-03-01",
       "contract": null,
@@ -157,11 +160,16 @@
       "nation": "RUS",
       "nation2": "FIN",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 15500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 69,
@@ -188,6 +196,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
@@ -222,7 +233,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 61,
-        "pos": 42,
+        "pos": 62,
         "sho": 72,
         "sta": 66,
         "str": 66,
@@ -249,7 +260,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 61,
-        "pos": 42,
+        "pos": 62,
         "sho": 71,
         "sta": 62,
         "str": 68,
@@ -275,7 +286,7 @@
         "ldr": 63,
         "pac": 68,
         "pas": 59,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 65,
         "str": 65,
@@ -295,17 +306,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 61,
+        "aer": 61,
+        "com": 71,
+        "dri": 64,
         "ldr": 57,
-        "pac": 57,
+        "pac": 63,
         "pas": 63,
-        "pos": 62,
-        "sho": 58,
+        "pos": 68,
+        "sho": 64,
         "sta": 63,
-        "str": 57,
+        "str": 63,
         "tac": 58,
         "vis": 66
       },
@@ -318,11 +334,14 @@
       "nation": "SRB",
       "nation2": "MNE",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -384,7 +403,7 @@
         "ldr": 52,
         "pac": 60,
         "pas": 54,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 57,
         "str": 62,
@@ -405,18 +424,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 61,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 58,
+        "aer": 42,
+        "com": 62,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 61,
         "pas": 65,
-        "pos": 60,
-        "sho": 53,
-        "sta": 63,
-        "str": 55,
-        "tac": 60,
-        "vis": 61
+        "pos": 45,
+        "sho": 59,
+        "sta": 57,
+        "str": 50,
+        "tac": 42,
+        "vis": 63
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -426,7 +445,7 @@
       "name": "Alex Pinardy",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 6000
     },
@@ -484,19 +503,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 62,
-        "pos": 56,
-        "sho": 57,
-        "sta": 61,
-        "str": 53,
-        "tac": 54,
-        "vis": 59
+        "aer": 44,
+        "com": 58,
+        "dri": 65,
+        "ldr": 53,
+        "pac": 62,
+        "pas": 58,
+        "pos": 38,
+        "sho": 61,
+        "sta": 57,
+        "str": 48,
+        "tac": 34,
+        "vis": 56
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -506,11 +528,14 @@
       "name": "Daniele Franceschyni",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -566,6 +591,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -675,6 +703,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -702,17 +733,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 54,
-        "dri": 54,
+        "aer": 59,
+        "com": 63,
+        "dri": 59,
         "ldr": 51,
-        "pac": 53,
+        "pac": 62,
         "pas": 61,
-        "pos": 53,
-        "sho": 53,
+        "pos": 62,
+        "sho": 62,
         "sta": 59,
-        "str": 51,
+        "str": 60,
         "tac": 55,
         "vis": 61
       },
@@ -724,7 +760,7 @@
       "name": "Bebu",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 4000
     },
@@ -756,18 +792,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 51,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 59,
-        "pas": 53,
-        "pos": 55,
-        "sho": 40,
-        "sta": 58,
-        "str": 53,
-        "tac": 59,
-        "vis": 50
+        "aer": 60,
+        "com": 53,
+        "dri": 44,
+        "ldr": 58,
+        "pac": 51,
+        "pas": 49,
+        "pos": 60,
+        "sho": 33,
+        "sta": 52,
+        "str": 61,
+        "tac": 62,
+        "vis": 44
       },
       "birth": "1984-02-01",
       "contract": null,
@@ -777,12 +813,12 @@
       "name": "Erminio Rollo",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 3500
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 60,
@@ -817,7 +853,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 53,
         "str": 55,
@@ -944,6 +980,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 51,
@@ -970,6 +1009,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 47,
@@ -1004,7 +1046,7 @@
         "ldr": 42,
         "pac": 50,
         "pas": 37,
-        "pos": 27,
+        "pos": 47,
         "sho": 54,
         "sta": 46,
         "str": 48,

@@ -53,18 +53,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 61,
-        "dri": 44,
+        "aer": 60,
+        "com": 63,
+        "dri": 52,
         "ldr": 62,
-        "pac": 58,
-        "pas": 55,
-        "pos": 63,
-        "sho": 36,
-        "sta": 58,
-        "str": 66,
-        "tac": 65,
-        "vis": 47
+        "pac": 56,
+        "pas": 64,
+        "pos": 62,
+        "sho": 51,
+        "sta": 64,
+        "str": 64,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -75,7 +75,7 @@
       "name": "Julian Kuch",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -157,19 +157,24 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 58,
+        "com": 65,
         "dri": 47,
         "ldr": 56,
         "pac": 53,
-        "pas": 52,
+        "pas": 59,
         "pos": 62,
         "sho": 33,
-        "sta": 56,
+        "sta": 63,
         "str": 58,
         "tac": 58,
-        "vis": 42
+        "vis": 49
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -179,23 +184,23 @@
       "name": "Benjamin Karn",
       "nation": "GER",
       "number": 6,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3000
     },
     {
       "attrs": {
         "aer": 52,
-        "com": 64,
-        "dri": 66,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 68,
+        "com": 60,
+        "dri": 64,
+        "ldr": 59,
+        "pac": 68,
+        "pas": 62,
         "pos": 60,
-        "sho": 57,
+        "sho": 43,
         "sta": 69,
-        "str": 61,
-        "tac": 63,
-        "vis": 67
+        "str": 60,
+        "tac": 67,
+        "vis": 58
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -205,7 +210,7 @@
       "name": "Daniel Brosynski",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 8000
     },
     {
@@ -216,7 +221,7 @@
         "ldr": 43,
         "pac": 54,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 53,
         "sta": 49,
         "str": 53,
@@ -235,6 +240,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 67,
@@ -242,7 +250,7 @@
         "ldr": 59,
         "pac": 65,
         "pas": 57,
-        "pos": 48,
+        "pos": 68,
         "sho": 71,
         "sta": 61,
         "str": 66,
@@ -262,18 +270,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 59,
-        "dri": 57,
-        "ldr": 58,
-        "pac": 58,
+        "aer": 43,
+        "com": 60,
+        "dri": 61,
+        "ldr": 56,
+        "pac": 61,
         "pas": 65,
-        "pos": 57,
-        "sho": 56,
-        "sta": 63,
-        "str": 55,
-        "tac": 58,
-        "vis": 61
+        "pos": 42,
+        "sho": 62,
+        "sta": 57,
+        "str": 50,
+        "tac": 40,
+        "vis": 63
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -284,7 +292,7 @@
       "nation": "ALB",
       "nation2": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
@@ -295,7 +303,7 @@
         "ldr": 57,
         "pac": 59,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 58,
         "str": 61,
@@ -321,7 +329,7 @@
         "ldr": 55,
         "pac": 57,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 58,
         "sta": 57,
         "str": 59,
@@ -340,6 +348,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
@@ -392,19 +403,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 56,
-        "dri": 50,
-        "ldr": 49,
-        "pac": 50,
+        "aer": 36,
+        "com": 54,
+        "dri": 53,
+        "ldr": 47,
+        "pac": 58,
         "pas": 54,
-        "pos": 53,
-        "sho": 45,
-        "sta": 56,
-        "str": 51,
-        "tac": 48,
-        "vis": 55
+        "pos": 45,
+        "sho": 43,
+        "sta": 59,
+        "str": 48,
+        "tac": 42,
+        "vis": 54
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -414,7 +428,7 @@
       "name": "Kevin Wolza",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 2500
     },
     {
@@ -451,7 +465,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 66,
         "sta": 61,
         "str": 63,
@@ -472,18 +486,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 58,
-        "dri": 47,
+        "aer": 54,
+        "com": 60,
+        "dri": 55,
         "ldr": 61,
-        "pac": 54,
-        "pas": 53,
-        "pos": 67,
-        "sho": 33,
-        "sta": 56,
-        "str": 60,
-        "tac": 67,
-        "vis": 48
+        "pac": 52,
+        "pas": 62,
+        "pos": 66,
+        "sho": 48,
+        "sta": 62,
+        "str": 58,
+        "tac": 66,
+        "vis": 60
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -493,7 +507,7 @@
       "name": "Andre Hoffmenn",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 4000
     },
     {
@@ -530,7 +544,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 50,
         "str": 58,
@@ -571,7 +585,7 @@
       "name": "Timo Perthal",
       "nation": "GER",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4500
     },
     {
@@ -601,6 +615,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,
@@ -628,6 +647,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 52,
@@ -681,6 +703,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -707,6 +732,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 55,

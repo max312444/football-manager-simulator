@@ -25,7 +25,7 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 68,
@@ -60,7 +60,7 @@
         "ldr": 66,
         "pac": 77,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 78,
         "sta": 72,
         "str": 77,
@@ -81,18 +81,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 72,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 68,
+        "aer": 58,
+        "com": 73,
+        "dri": 78,
+        "ldr": 69,
+        "pac": 71,
         "pas": 76,
-        "pos": 68,
-        "sho": 70,
-        "sta": 72,
-        "str": 70,
-        "tac": 70,
-        "vis": 71
+        "pos": 53,
+        "sho": 76,
+        "sta": 66,
+        "str": 65,
+        "tac": 52,
+        "vis": 73
       },
       "birth": "1967-09-01",
       "contract": null,
@@ -102,11 +102,14 @@
       "name": "Andreas Muller",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 26000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 71,
@@ -189,18 +192,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 69,
-        "dri": 66,
-        "ldr": 66,
-        "pac": 61,
-        "pas": 70,
-        "pos": 64,
-        "sho": 63,
+        "dri": 62,
+        "ldr": 68,
+        "pac": 58,
+        "pas": 69,
+        "pos": 68,
+        "sho": 57,
         "sta": 70,
-        "str": 61,
-        "tac": 62,
-        "vis": 67
+        "str": 66,
+        "tac": 68,
+        "vis": 64
       },
       "birth": "1981-11-01",
       "contract": null,
@@ -211,10 +214,15 @@
       "nation": "USA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 18500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 66,
@@ -242,6 +250,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 67,
@@ -276,7 +287,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 60,
-        "pos": 42,
+        "pos": 62,
         "sho": 73,
         "sta": 66,
         "str": 64,
@@ -296,6 +307,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -324,18 +338,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 65,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 66,
-        "pos": 62,
-        "sho": 63,
-        "sta": 68,
-        "str": 59,
-        "tac": 61,
-        "vis": 68
+        "aer": 50,
+        "com": 63,
+        "dri": 72,
+        "ldr": 59,
+        "pac": 70,
+        "pas": 62,
+        "pos": 44,
+        "sho": 67,
+        "sta": 64,
+        "str": 54,
+        "tac": 41,
+        "vis": 65
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -345,11 +359,15 @@
       "name": "Stefan Lexe",
       "nation": "AUT",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 16000
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 62,
@@ -404,6 +422,9 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 59,
@@ -517,7 +538,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 63,
         "sta": 56,
         "str": 62,
@@ -537,6 +558,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -563,19 +587,24 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 53,
+        "com": 63,
         "dri": 47,
         "ldr": 56,
         "pac": 54,
-        "pas": 51,
+        "pas": 61,
         "pos": 61,
         "sho": 29,
-        "sta": 55,
+        "sta": 65,
         "str": 62,
         "tac": 61,
-        "vis": 47
+        "vis": 57
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -585,7 +614,7 @@
       "name": "Daniyel Cymen",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 5500
     },
     {
@@ -616,6 +645,11 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -642,19 +676,24 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 53,
+        "com": 64,
         "dri": 41,
         "ldr": 56,
         "pac": 49,
-        "pas": 46,
+        "pas": 57,
         "pos": 61,
         "sho": 28,
-        "sta": 51,
+        "sta": 62,
         "str": 60,
         "tac": 59,
-        "vis": 39
+        "vis": 50
       },
       "birth": "1969-12-01",
       "contract": null,
@@ -664,7 +703,7 @@
       "name": "Henning Burgar",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3500
     },
     {
@@ -728,7 +767,7 @@
         "ldr": 45,
         "pac": 51,
         "pas": 43,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 53,
         "str": 53,
@@ -801,19 +840,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
-        "aer": 35,
-        "com": 46,
-        "dri": 44,
-        "ldr": 46,
-        "pac": 42,
-        "pas": 49,
-        "pos": 48,
-        "sho": 39,
-        "sta": 49,
-        "str": 42,
-        "tac": 47,
-        "vis": 47
+        "aer": 36,
+        "com": 48,
+        "dri": 46,
+        "ldr": 47,
+        "pac": 43,
+        "pas": 51,
+        "pos": 49,
+        "sho": 41,
+        "sta": 51,
+        "str": 43,
+        "tac": 48,
+        "vis": 49
       },
       "birth": "1983-12-01",
       "contract": null,

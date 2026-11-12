@@ -26,18 +26,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 60,
-        "com": 53,
-        "dri": 45,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 51,
-        "pos": 62,
-        "sho": 28,
-        "sta": 55,
-        "str": 58,
-        "tac": 60,
-        "vis": 43
+        "aer": 47,
+        "com": 51,
+        "dri": 55,
+        "ldr": 48,
+        "pac": 61,
+        "pas": 55,
+        "pos": 57,
+        "sho": 35,
+        "sta": 61,
+        "str": 50,
+        "tac": 57,
+        "vis": 49
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -48,7 +48,7 @@
       "nation": "FRA",
       "nation2": "CGO",
       "number": 2,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 14500
     },
     {
@@ -138,7 +138,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 56,
         "str": 62,
@@ -159,6 +159,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 58,
@@ -192,7 +195,7 @@
         "ldr": 62,
         "pac": 63,
         "pas": 61,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 62,
         "str": 65,
@@ -212,19 +215,22 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 67,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 69,
-        "pas": 59,
-        "pos": 45,
-        "sho": 71,
-        "sta": 63,
-        "str": 72,
-        "tac": 37,
-        "vis": 60
+        "aer": 55,
+        "com": 64,
+        "dri": 69,
+        "ldr": 61,
+        "pac": 73,
+        "pas": 65,
+        "pos": 47,
+        "sho": 66,
+        "sta": 65,
+        "str": 62,
+        "tac": 43,
+        "vis": 66
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -234,10 +240,14 @@
       "name": "Romain Del Castillu",
       "nation": "FRA",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 45000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 33,
         "com": 50,
@@ -264,19 +274,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 54,
-        "dri": 52,
+        "com": 55,
+        "dri": 57,
         "ldr": 52,
         "pac": 54,
-        "pas": 48,
-        "pos": 33,
-        "sho": 58,
+        "pas": 54,
+        "pos": 53,
+        "sho": 59,
         "sta": 50,
         "str": 55,
         "tac": 22,
-        "vis": 50
+        "vis": 56
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -286,10 +301,13 @@
       "name": "Adrien Labeau",
       "nation": "FRA",
       "number": 14,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -340,10 +358,13 @@
       "nation": "FRA",
       "nation2": "TOG",
       "number": 19,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 50500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -377,7 +398,7 @@
         "ldr": 55,
         "pac": 56,
         "pas": 52,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 55,
         "str": 58,
@@ -424,18 +445,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 62,
-        "dri": 50,
-        "ldr": 66,
-        "pac": 59,
-        "pas": 55,
-        "pos": 67,
-        "sho": 41,
-        "sta": 61,
-        "str": 64,
-        "tac": 67,
-        "vis": 54
+        "aer": 54,
+        "com": 60,
+        "dri": 60,
+        "ldr": 62,
+        "pac": 67,
+        "pas": 59,
+        "pos": 62,
+        "sho": 48,
+        "sta": 67,
+        "str": 56,
+        "tac": 64,
+        "vis": 60
       },
       "birth": "1991-10-01",
       "contract": null,
@@ -445,10 +466,13 @@
       "name": "Kenny Lela",
       "nation": "FRA",
       "number": 27,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -475,6 +499,9 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -554,6 +581,9 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -582,18 +612,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 56,
-        "dri": 47,
-        "ldr": 48,
-        "pac": 50,
-        "pas": 46,
-        "pos": 28,
-        "sho": 53,
-        "sta": 50,
-        "str": 49,
-        "tac": 24,
-        "vis": 41
+        "aer": 34,
+        "com": 53,
+        "dri": 52,
+        "ldr": 46,
+        "pac": 54,
+        "pas": 52,
+        "pos": 30,
+        "sho": 48,
+        "sta": 52,
+        "str": 39,
+        "tac": 30,
+        "vis": 47
       },
       "birth": "2003-11-01",
       "contract": null,
@@ -604,7 +634,7 @@
       "nation": "FRA",
       "nation2": "GLP",
       "number": 97,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 7000
     }
   ],

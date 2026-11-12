@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 61,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 60,
-        "pas": 64,
-        "pos": 58,
-        "sho": 55,
+        "dri": 54,
+        "ldr": 58,
+        "pac": 57,
+        "pas": 63,
+        "pos": 62,
+        "sho": 49,
         "sta": 67,
-        "str": 58,
-        "tac": 61,
-        "vis": 62
+        "str": 63,
+        "tac": 67,
+        "vis": 59
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -125,10 +125,14 @@
       "name": "Frenck Kom",
       "nation": "CMR",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 66,
@@ -162,7 +166,7 @@
         "ldr": 63,
         "pac": 72,
         "pas": 64,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 70,
         "str": 70,
@@ -188,7 +192,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 56,
-        "pos": 46,
+        "pos": 66,
         "sho": 70,
         "sta": 63,
         "str": 65,
@@ -207,19 +211,23 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 71,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 64,
+        "aer": 52,
+        "com": 72,
+        "dri": 70,
+        "ldr": 65,
+        "pac": 67,
         "pas": 70,
-        "pos": 68,
-        "sho": 64,
-        "sta": 71,
-        "str": 64,
-        "tac": 64,
-        "vis": 70
+        "pos": 53,
+        "sho": 70,
+        "sta": 65,
+        "str": 59,
+        "tac": 46,
+        "vis": 72
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -229,23 +237,23 @@
       "name": "Hiroki Yamade",
       "nation": "JPN",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9000
     },
     {
       "attrs": {
-        "aer": 39,
-        "com": 51,
-        "dri": 46,
-        "ldr": 49,
-        "pac": 43,
+        "aer": 33,
+        "com": 52,
+        "dri": 50,
+        "ldr": 47,
+        "pac": 46,
         "pas": 51,
-        "pos": 52,
-        "sho": 42,
-        "sta": 51,
-        "str": 49,
-        "tac": 44,
-        "vis": 52
+        "pos": 37,
+        "sho": 48,
+        "sta": 45,
+        "str": 44,
+        "tac": 26,
+        "vis": 54
       },
       "birth": "1996-04-01",
       "contract": null,
@@ -255,7 +263,7 @@
       "name": "Boubacar Barri",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2000
     },
     {
@@ -285,6 +293,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -311,19 +322,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 49,
+        "com": 60,
         "dri": 38,
         "ldr": 49,
         "pac": 51,
-        "pas": 44,
+        "pas": 55,
         "pos": 57,
         "sho": 27,
-        "sta": 52,
+        "sta": 63,
         "str": 53,
         "tac": 56,
-        "vis": 40
+        "vis": 51
       },
       "birth": "1995-12-01",
       "contract": null,
@@ -334,23 +350,23 @@
       "nation": "GER",
       "nation2": "COD",
       "number": 17,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 59,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 51,
+        "aer": 40,
+        "com": 60,
+        "dri": 59,
+        "ldr": 52,
+        "pac": 54,
         "pas": 59,
-        "pos": 56,
-        "sho": 52,
-        "sta": 60,
-        "str": 51,
-        "tac": 52,
-        "vis": 62
+        "pos": 41,
+        "sho": 58,
+        "sta": 54,
+        "str": 46,
+        "tac": 34,
+        "vis": 64
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -360,10 +376,13 @@
       "name": "Manuel Torras",
       "nation": "ESP",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 65,
@@ -392,17 +411,17 @@
     {
       "attrs": {
         "aer": 43,
-        "com": 58,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 48,
-        "pas": 55,
+        "com": 54,
+        "dri": 51,
+        "ldr": 49,
+        "pac": 55,
+        "pas": 49,
         "pos": 53,
-        "sho": 49,
+        "sho": 35,
         "sta": 55,
-        "str": 51,
-        "tac": 49,
-        "vis": 56
+        "str": 50,
+        "tac": 53,
+        "vis": 47
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -413,10 +432,13 @@
       "nation": "AUT",
       "nation2": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -445,17 +467,17 @@
     {
       "attrs": {
         "aer": 50,
-        "com": 59,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 60,
+        "com": 55,
+        "dri": 52,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 54,
         "pos": 55,
-        "sho": 55,
+        "sho": 41,
         "sta": 59,
-        "str": 56,
-        "tac": 54,
-        "vis": 63
+        "str": 55,
+        "tac": 58,
+        "vis": 54
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -466,10 +488,13 @@
       "nation": "GER",
       "nation2": "ITA",
       "number": 22,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 51,
@@ -555,7 +580,7 @@
         "ldr": 49,
         "pac": 52,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 58,
         "sta": 52,
         "str": 52,
@@ -574,6 +599,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 47,
@@ -600,19 +628,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 47,
-        "dri": 38,
-        "ldr": 50,
-        "pac": 45,
-        "pas": 40,
-        "pos": 51,
-        "sho": 23,
-        "sta": 45,
-        "str": 55,
-        "tac": 55,
-        "vis": 40
+        "aer": 41,
+        "com": 45,
+        "dri": 48,
+        "ldr": 46,
+        "pac": 53,
+        "pas": 44,
+        "pos": 46,
+        "sho": 30,
+        "sta": 51,
+        "str": 47,
+        "tac": 52,
+        "vis": 46
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -622,7 +653,7 @@
       "name": "Matthias Beder",
       "nation": "GER",
       "number": 35,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 1500
     }
   ],

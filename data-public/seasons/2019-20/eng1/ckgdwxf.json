@@ -96,6 +96,9 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -122,16 +125,20 @@
       "wage": 69500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 65,
-        "dri": 57,
+        "dri": 63,
         "ldr": 77,
-        "pac": 57,
-        "pas": 63,
+        "pac": 63,
+        "pas": 66,
         "pos": 69,
         "sho": 45,
-        "sta": 67,
+        "sta": 73,
         "str": 71,
         "tac": 69,
         "vis": 53
@@ -203,16 +210,19 @@
       "wage": 58000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 62,
-        "dri": 53,
+        "dri": 58,
         "ldr": 63,
-        "pac": 65,
-        "pas": 59,
+        "pac": 70,
+        "pas": 64,
         "pos": 65,
         "sho": 33,
-        "sta": 63,
+        "sta": 68,
         "str": 69,
         "tac": 67,
         "vis": 48
@@ -229,16 +239,20 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 64,
-        "dri": 62,
+        "dri": 64,
         "ldr": 63,
-        "pac": 62,
+        "pac": 64,
         "pas": 66,
         "pos": 66,
         "sho": 56,
-        "sta": 68,
+        "sta": 70,
         "str": 69,
         "tac": 68,
         "vis": 58
@@ -281,6 +295,9 @@
       "wage": 84000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 75,
@@ -333,6 +350,11 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 67,
@@ -359,19 +381,22 @@
       "wage": 111500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 65,
-        "dri": 65,
+        "com": 69,
+        "dri": 69,
         "ldr": 59,
         "pac": 59,
-        "pas": 67,
+        "pas": 71,
         "pos": 67,
-        "sho": 61,
-        "sta": 75,
+        "sho": 65,
+        "sta": 79,
         "str": 66,
         "tac": 67,
-        "vis": 61
+        "vis": 65
       },
       "birth": "1990-02-01",
       "contract": "2021-06-30",
@@ -392,11 +417,11 @@
         "ldr": 61,
         "pac": 65,
         "pas": 73,
-        "pos": 65,
+        "pos": 69,
         "sho": 58,
         "sta": 75,
-        "str": 63,
-        "tac": 67,
+        "str": 67,
+        "tac": 71,
         "vis": 69
       },
       "birth": "1997-02-01",
@@ -407,23 +432,26 @@
       "name": "Lewis Couk",
       "nation": "ENG",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 81500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 72,
-        "dri": 64,
+        "com": 73,
+        "dri": 65,
         "ldr": 65,
         "pac": 52,
-        "pas": 74,
+        "pas": 75,
         "pos": 70,
-        "sho": 52,
-        "sta": 70,
+        "sho": 53,
+        "sta": 71,
         "str": 61,
         "tac": 68,
-        "vis": 70
+        "vis": 71
       },
       "birth": "1986-08-01",
       "contract": "2020-06-30",
@@ -437,19 +465,22 @@
       "wage": 68000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
-        "com": 63,
-        "dri": 67,
+        "com": 64,
+        "dri": 68,
         "ldr": 52,
         "pac": 59,
-        "pas": 70,
+        "pas": 71,
         "pos": 62,
-        "sho": 62,
-        "sta": 74,
+        "sho": 63,
+        "sta": 75,
         "str": 78,
         "tac": 64,
-        "vis": 65
+        "vis": 66
       },
       "birth": "1996-06-01",
       "contract": "2024-06-30",
@@ -492,6 +523,10 @@
       "wage": 71500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 69,
@@ -548,6 +583,9 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 65,
@@ -578,6 +616,10 @@
       "wage": 52500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
         "aer": 50,
         "com": 67,
@@ -634,19 +676,23 @@
       "wage": 126000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
-        "dri": 77,
+        "dri": 78,
         "ldr": 57,
-        "pac": 82,
-        "pas": 67,
+        "pac": 83,
+        "pas": 68,
         "pos": 75,
         "sho": 79,
         "sta": 78,
         "str": 76,
         "tac": 43,
-        "vis": 65
+        "vis": 66
       },
       "birth": "1992-01-01",
       "contract": "2020-06-30",
@@ -656,21 +702,21 @@
       "name": "Joshua Kyng",
       "nation": "NOR",
       "number": 7,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 126000
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 64,
+        "aer": 69,
+        "com": 65,
         "dri": 69,
         "ldr": 53,
         "pac": 72,
         "pas": 66,
-        "pos": 63,
-        "sho": 69,
+        "pos": 64,
+        "sho": 70,
         "sta": 75,
-        "str": 72,
+        "str": 73,
         "tac": 40,
         "vis": 61
       },

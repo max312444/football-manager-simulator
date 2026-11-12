@@ -133,6 +133,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -186,6 +189,10 @@
       "wage": 62500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -219,7 +226,7 @@
         "ldr": 54,
         "pac": 64,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 68,
         "sta": 59,
         "str": 61,
@@ -239,18 +246,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 73,
-        "dri": 71,
-        "ldr": 65,
-        "pac": 66,
+        "aer": 57,
+        "com": 74,
+        "dri": 75,
+        "ldr": 63,
+        "pac": 69,
         "pas": 77,
-        "pos": 67,
-        "sho": 67,
-        "sta": 72,
-        "str": 66,
-        "tac": 71,
-        "vis": 76
+        "pos": 52,
+        "sho": 73,
+        "sta": 66,
+        "str": 61,
+        "tac": 53,
+        "vis": 78
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -260,7 +267,7 @@
       "name": "Jan Rusenthal",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 57500
     },
     {
@@ -271,7 +278,7 @@
         "ldr": 73,
         "pac": 81,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 84,
         "sta": 75,
         "str": 81,
@@ -297,7 +304,7 @@
         "ldr": 66,
         "pac": 67,
         "pas": 65,
-        "pos": 48,
+        "pos": 68,
         "sho": 71,
         "sta": 64,
         "str": 68,
@@ -323,7 +330,7 @@
         "ldr": 62,
         "pac": 70,
         "pas": 61,
-        "pos": 45,
+        "pos": 65,
         "sho": 74,
         "sta": 65,
         "str": 68,
@@ -370,19 +377,22 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 71,
-        "dri": 71,
-        "ldr": 64,
-        "pac": 68,
-        "pas": 74,
-        "pos": 66,
-        "sho": 63,
+        "dri": 67,
+        "ldr": 66,
+        "pac": 65,
+        "pas": 73,
+        "pos": 70,
+        "sho": 57,
         "sta": 73,
-        "str": 68,
-        "tac": 69,
-        "vis": 71
+        "str": 73,
+        "tac": 75,
+        "vis": 68
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -392,7 +402,7 @@
       "name": "Peter Nyemeyer",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 49000
     },
     {
@@ -403,7 +413,7 @@
         "ldr": 56,
         "pac": 56,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 60,
         "sta": 55,
         "str": 62,
@@ -423,19 +433,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 73,
-        "dri": 66,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 74,
-        "pos": 70,
-        "sho": 66,
-        "sta": 71,
-        "str": 65,
-        "tac": 65,
-        "vis": 72
+        "aer": 56,
+        "com": 71,
+        "dri": 71,
+        "ldr": 64,
+        "pac": 77,
+        "pas": 70,
+        "pos": 52,
+        "sho": 70,
+        "sta": 67,
+        "str": 60,
+        "tac": 45,
+        "vis": 69
       },
       "birth": "1986-02-01",
       "contract": null,
@@ -445,7 +458,7 @@
       "name": "Marcel Hellar",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 50500
     },
     {
@@ -476,18 +489,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 75,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 75,
-        "pas": 63,
-        "pos": 47,
-        "sho": 73,
-        "sta": 68,
-        "str": 70,
-        "tac": 45,
-        "vis": 64
+        "aer": 54,
+        "com": 72,
+        "dri": 75,
+        "ldr": 67,
+        "pac": 79,
+        "pas": 69,
+        "pos": 49,
+        "sho": 68,
+        "sta": 70,
+        "str": 60,
+        "tac": 51,
+        "vis": 70
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -497,10 +510,15 @@
       "name": "Denys Oliinyk",
       "nation": "UKR",
       "number": 22,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 37000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 69,
@@ -554,18 +572,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 73,
-        "dri": 72,
-        "ldr": 74,
-        "pac": 67,
+        "aer": 61,
+        "com": 74,
+        "dri": 76,
+        "ldr": 72,
+        "pac": 70,
         "pas": 78,
-        "pos": 75,
-        "sho": 69,
-        "sta": 80,
-        "str": 69,
-        "tac": 68,
-        "vis": 73
+        "pos": 60,
+        "sho": 75,
+        "sta": 74,
+        "str": 64,
+        "tac": 50,
+        "vis": 75
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -576,23 +594,27 @@
       "nation": "TUN",
       "nation2": "GER",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 62500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 73,
-        "dri": 73,
-        "ldr": 68,
-        "pac": 64,
+        "aer": 59,
+        "com": 74,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 67,
         "pas": 71,
-        "pos": 73,
-        "sho": 68,
-        "sta": 75,
-        "str": 70,
-        "tac": 66,
-        "vis": 71
+        "pos": 58,
+        "sho": 74,
+        "sta": 69,
+        "str": 65,
+        "tac": 48,
+        "vis": 73
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -603,7 +625,7 @@
       "name": "Laszlo Kleinheislar",
       "nation": "HUN",
       "number": 30,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 59000
     },
     {
@@ -640,7 +662,7 @@
         "ldr": 60,
         "pac": 67,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 70,
         "sta": 65,
         "str": 68,
@@ -661,18 +683,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 53,
-        "dri": 45,
-        "ldr": 56,
-        "pac": 48,
-        "pas": 51,
-        "pos": 57,
-        "sho": 31,
-        "sta": 55,
-        "str": 57,
-        "tac": 62,
-        "vis": 41
+        "aer": 47,
+        "com": 51,
+        "dri": 55,
+        "ldr": 52,
+        "pac": 56,
+        "pas": 55,
+        "pos": 52,
+        "sho": 38,
+        "sta": 61,
+        "str": 49,
+        "tac": 59,
+        "vis": 47
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -683,7 +705,7 @@
       "name": "Leon Guware",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     }
   ],

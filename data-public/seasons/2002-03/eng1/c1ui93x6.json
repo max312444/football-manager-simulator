@@ -70,6 +70,10 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 60,
@@ -178,8 +182,8 @@
     },
     {
       "alt": [
-        "RM",
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 50,
@@ -207,19 +211,22 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 65,
-        "dri": 62,
+        "com": 71,
+        "dri": 68,
         "ldr": 57,
         "pac": 64,
-        "pas": 68,
+        "pas": 74,
         "pos": 67,
-        "sho": 58,
-        "sta": 76,
+        "sho": 64,
+        "sta": 82,
         "str": 70,
         "tac": 70,
-        "vis": 61
+        "vis": 67
       },
       "birth": "1973-10-01",
       "contract": "2005-06-30",
@@ -235,7 +242,9 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 56,
@@ -265,16 +274,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 61,
+        "aer": 61,
+        "com": 64,
         "dri": 62,
         "ldr": 53,
         "pac": 74,
         "pas": 56,
-        "pos": 43,
-        "sho": 66,
+        "pos": 46,
+        "sho": 69,
         "sta": 70,
-        "str": 70,
+        "str": 73,
         "tac": 36,
         "vis": 53
       },
@@ -292,18 +301,21 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 78,
         "dri": 69,
         "ldr": 72,
         "pac": 52,
-        "pas": 77,
+        "pas": 78,
         "pos": 66,
         "sho": 67,
-        "sta": 62,
+        "sta": 63,
         "str": 58,
-        "tac": 61,
+        "tac": 62,
         "vis": 78
       },
       "birth": "1968-01-01",
@@ -346,19 +358,22 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 61,
-        "dri": 63,
+        "com": 69,
+        "dri": 69,
         "ldr": 53,
         "pac": 66,
-        "pas": 65,
+        "pas": 73,
         "pos": 65,
-        "sho": 55,
+        "sho": 61,
         "sta": 78,
         "str": 70,
-        "tac": 67,
-        "vis": 59
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1979-09-01",
       "contract": "2005-06-30",
@@ -373,7 +388,8 @@
     },
     {
       "alt": [
-        "RW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 58,
@@ -397,7 +413,7 @@
       "name": "Steve Marlat",
       "nation": "FRA",
       "number": 15,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 21000
     },
@@ -424,11 +440,14 @@
       "name": "Bjarne Guldbæk",
       "nation": "DEN",
       "number": 16,
-      "pos": "RM",
+      "pos": "AM",
       "verify": true,
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -457,16 +476,16 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 72,
+        "aer": 77,
+        "com": 77,
         "dri": 76,
         "ldr": 50,
         "pac": 82,
         "pas": 68,
-        "pos": 48,
-        "sho": 78,
+        "pos": 53,
+        "sho": 83,
         "sta": 70,
-        "str": 74,
+        "str": 79,
         "tac": 38,
         "vis": 64
       },
@@ -485,9 +504,6 @@
       "wage": 36000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 76,
         "com": 62,
@@ -542,9 +558,6 @@
       "wage": 14500
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -572,20 +585,17 @@
       "wage": 25500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 50,
-        "com": 48,
+        "aer": 57,
+        "com": 55,
         "dri": 58,
         "ldr": 32,
         "pac": 74,
         "pas": 50,
-        "pos": 42,
-        "sho": 58,
+        "pos": 49,
+        "sho": 65,
         "sta": 64,
-        "str": 60,
+        "str": 67,
         "tac": 32,
         "vis": 44
       },
@@ -607,17 +617,17 @@
       ],
       "attrs": {
         "aer": 64,
-        "com": 68,
+        "com": 72,
         "dri": 70,
         "ldr": 54,
         "pac": 71,
-        "pas": 72,
+        "pas": 76,
         "pos": 68,
         "sho": 66,
         "sta": 81,
         "str": 71,
-        "tac": 72,
-        "vis": 68
+        "tac": 76,
+        "vis": 72
       },
       "birth": "1979-09-01",
       "contract": "2003-06-30",
@@ -661,21 +671,23 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 70,
-        "com": 64,
+        "com": 69,
         "dri": 58,
         "ldr": 58,
         "pac": 66,
-        "pas": 62,
+        "pas": 67,
         "pos": 70,
         "sho": 44,
-        "sta": 74,
+        "sta": 79,
         "str": 76,
         "tac": 74,
-        "vis": 56
+        "vis": 61
       },
       "birth": "1974-12-01",
       "contract": "2003-06-30",

@@ -100,9 +100,6 @@
       "wage": 57500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 79,
         "com": 75,
@@ -267,18 +264,23 @@
       "wage": 465000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 82,
         "dri": 81,
         "ldr": 74,
-        "pac": 77,
+        "pac": 94,
         "pas": 93,
-        "pos": 69,
+        "pos": 86,
         "sho": 77,
-        "sta": 91,
-        "str": 76,
-        "tac": 73,
+        "sta": 99,
+        "str": 93,
+        "tac": 90,
         "vis": 93
       },
       "birth": "1998-10-01",
@@ -378,6 +380,9 @@
       "wage": 261500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 89,
@@ -411,22 +416,21 @@
     },
     {
       "alt": [
-        "AM",
-        "RB"
+        "DM"
       ],
       "attrs": {
         "aer": 67,
-        "com": 77,
+        "com": 79,
         "dri": 77,
         "ldr": 77,
         "pac": 78,
-        "pas": 81,
+        "pas": 83,
         "pos": 73,
         "sho": 77,
         "sta": 88,
         "str": 76,
-        "tac": 67,
-        "vis": 79
+        "tac": 69,
+        "vis": 81
       },
       "birth": "2000-10-01",
       "contract": "2028-06-30",
@@ -446,7 +450,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 63,
@@ -474,6 +478,9 @@
       "wage": 399500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 76,
@@ -500,23 +507,19 @@
       "wage": 247000
     },
     {
-      "alt": [
-        "CM",
-        "AM"
-      ],
       "attrs": {
         "aer": 45,
-        "com": 68,
+        "com": 72,
         "dri": 76,
         "ldr": 54,
         "pac": 73,
-        "pas": 71,
+        "pas": 75,
         "pos": 51,
-        "sho": 68,
+        "sho": 72,
         "sta": 71,
         "str": 56,
         "tac": 49,
-        "vis": 71
+        "vis": 75
       },
       "birth": "2003-04-01",
       "contract": "2027-06-30",
@@ -526,13 +529,10 @@
       "name": "Harvey Elliutt",
       "nation": "ENG",
       "number": 19,
-      "pos": "RW",
+      "pos": "AM",
       "wage": 87500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 68,
         "com": 80,
@@ -559,19 +559,22 @@
       "wage": 334000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 64,
+        "com": 65,
         "dri": 62,
         "ldr": 48,
         "pac": 63,
-        "pas": 66,
-        "pos": 64,
+        "pas": 67,
+        "pos": 65,
         "sho": 42,
         "sta": 67,
-        "str": 61,
-        "tac": 64,
-        "vis": 60
+        "str": 62,
+        "tac": 65,
+        "vis": 61
       },
       "birth": "2004-10-01",
       "contract": "2027-06-30",
@@ -585,6 +588,9 @@
       "wage": 64500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 83,
@@ -615,16 +621,16 @@
     },
     {
       "attrs": {
-        "aer": 81,
-        "com": 67,
+        "aer": 83,
+        "com": 69,
         "dri": 71,
         "ldr": 66,
         "pac": 92,
         "pas": 64,
-        "pos": 47,
-        "sho": 81,
+        "pos": 49,
+        "sho": 83,
         "sta": 71,
-        "str": 87,
+        "str": 89,
         "tac": 39,
         "vis": 64
       },
@@ -679,7 +685,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 74,
@@ -708,21 +715,22 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 77,
         "com": 77,
-        "dri": 72,
+        "dri": 75,
         "ldr": 64,
-        "pac": 78,
-        "pas": 67,
+        "pac": 81,
+        "pas": 70,
         "pos": 49,
         "sho": 86,
         "sta": 73,
         "str": 76,
         "tac": 38,
-        "vis": 66
+        "vis": 69
       },
       "birth": "1996-12-01",
       "contract": "2027-06-30",
@@ -732,13 +740,16 @@
       "name": "Diogo Juta",
       "nation": "POR",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "traits": [
         "clutch"
       ],
       "wage": 169000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 60,

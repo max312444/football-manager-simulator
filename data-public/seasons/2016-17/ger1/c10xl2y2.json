@@ -52,21 +52,21 @@
     },
     {
       "alt": [
-        "RB"
+        "RWB"
       ],
       "attrs": {
-        "aer": 80,
-        "com": 75,
-        "dri": 57,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 65,
-        "pos": 77,
-        "sho": 46,
-        "sta": 72,
-        "str": 78,
-        "tac": 74,
-        "vis": 62
+        "aer": 67,
+        "com": 73,
+        "dri": 67,
+        "ldr": 68,
+        "pac": 76,
+        "pas": 69,
+        "pos": 72,
+        "sho": 53,
+        "sta": 78,
+        "str": 70,
+        "tac": 71,
+        "vis": 68
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -76,23 +76,23 @@
       "name": "Pavel Kaderebek",
       "nation": "CZE",
       "number": 3,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 49000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 66,
-        "dri": 66,
-        "ldr": 64,
-        "pac": 78,
-        "pas": 70,
-        "pos": 73,
-        "sho": 56,
-        "sta": 75,
-        "str": 65,
-        "tac": 75,
-        "vis": 63
+        "aer": 76,
+        "com": 68,
+        "dri": 56,
+        "ldr": 68,
+        "pac": 70,
+        "pas": 66,
+        "pos": 78,
+        "sho": 49,
+        "sta": 69,
+        "str": 73,
+        "tac": 78,
+        "vis": 57
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -103,7 +103,7 @@
       "nation": "BIH",
       "nation2": "GER",
       "number": 4,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 44000
     },
     {
@@ -134,7 +134,9 @@
     },
     {
       "alt": [
-        "DM"
+        "DM",
+        "AM",
+        "CB"
       ],
       "attrs": {
         "aer": 66,
@@ -162,6 +164,9 @@
       "wage": 88000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 68,
@@ -189,18 +194,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 75,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 70,
-        "pas": 77,
-        "pos": 74,
-        "sho": 69,
+        "dri": 73,
+        "ldr": 74,
+        "pac": 67,
+        "pas": 76,
+        "pos": 78,
+        "sho": 63,
         "sta": 78,
-        "str": 74,
-        "tac": 70,
-        "vis": 77
+        "str": 79,
+        "tac": 76,
+        "vis": 74
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -211,23 +216,27 @@
       "nation": "POL",
       "nation2": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 83000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 78,
-        "dri": 78,
-        "ldr": 72,
-        "pac": 78,
-        "pas": 71,
-        "pos": 55,
-        "sho": 81,
-        "sta": 78,
-        "str": 78,
-        "tac": 49,
-        "vis": 71
+        "aer": 63,
+        "com": 75,
+        "dri": 83,
+        "ldr": 70,
+        "pac": 82,
+        "pas": 77,
+        "pos": 57,
+        "sho": 76,
+        "sta": 80,
+        "str": 68,
+        "tac": 55,
+        "vis": 77
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -237,23 +246,26 @@
       "name": "Eduardo Vergas",
       "nation": "CHI",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 71500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 72,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 68,
-        "pas": 79,
-        "pos": 69,
-        "sho": 71,
-        "sta": 79,
-        "str": 67,
-        "tac": 73,
-        "vis": 73
+        "aer": 59,
+        "com": 70,
+        "dri": 74,
+        "ldr": 66,
+        "pac": 77,
+        "pas": 75,
+        "pos": 51,
+        "sho": 75,
+        "sta": 75,
+        "str": 62,
+        "tac": 53,
+        "vis": 70
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -264,10 +276,13 @@
       "nation": "SWE",
       "nation2": "IRQ",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 64500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 73,
@@ -302,7 +317,7 @@
         "ldr": 66,
         "pac": 75,
         "pas": 65,
-        "pos": 49,
+        "pos": 69,
         "sho": 78,
         "sta": 68,
         "str": 71,
@@ -321,22 +336,19 @@
       "wage": 40000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 71,
-        "com": 68,
-        "dri": 58,
-        "ldr": 70,
-        "pac": 62,
-        "pas": 63,
-        "pos": 71,
-        "sho": 43,
-        "sta": 65,
-        "str": 75,
-        "tac": 74,
-        "vis": 58
+        "aer": 58,
+        "com": 66,
+        "dri": 68,
+        "ldr": 66,
+        "pac": 70,
+        "pas": 67,
+        "pos": 66,
+        "sho": 50,
+        "sta": 71,
+        "str": 67,
+        "tac": 71,
+        "vis": 64
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -347,10 +359,13 @@
       "nation": "GER",
       "nation2": "USA",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 31000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 77,
@@ -377,19 +392,23 @@
       "wage": 82500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 78,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 71,
+        "aer": 58,
+        "com": 79,
+        "dri": 79,
+        "ldr": 70,
+        "pac": 74,
         "pas": 82,
-        "pos": 75,
-        "sho": 73,
-        "sta": 82,
-        "str": 70,
-        "tac": 75,
-        "vis": 76
+        "pos": 60,
+        "sho": 79,
+        "sta": 76,
+        "str": 65,
+        "tac": 57,
+        "vis": 78
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -399,23 +418,23 @@
       "name": "Steven Zober",
       "nation": "SUI",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 88000
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 60,
+        "aer": 49,
+        "com": 66,
+        "dri": 71,
+        "ldr": 60,
+        "pac": 63,
         "pas": 72,
-        "pos": 63,
-        "sho": 60,
-        "sta": 72,
-        "str": 64,
-        "tac": 65,
-        "vis": 72
+        "pos": 48,
+        "sho": 66,
+        "sta": 66,
+        "str": 59,
+        "tac": 47,
+        "vis": 74
       },
       "birth": "1996-10-01",
       "contract": null,
@@ -425,7 +444,7 @@
       "name": "Nadiem Amyri",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 31000
     },
     {
@@ -436,7 +455,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 72,
         "sta": 60,
         "str": 65,
@@ -455,22 +474,19 @@
       "wage": 17500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 80,
-        "com": 72,
-        "dri": 59,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 64,
-        "pos": 74,
-        "sho": 48,
-        "sta": 70,
-        "str": 78,
-        "tac": 80,
-        "vis": 62
+        "aer": 67,
+        "com": 70,
+        "dri": 69,
+        "ldr": 68,
+        "pac": 76,
+        "pas": 68,
+        "pos": 69,
+        "sho": 55,
+        "sta": 76,
+        "str": 70,
+        "tac": 77,
+        "vis": 68
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -480,7 +496,7 @@
       "name": "Kim Jin-so",
       "nation": "KOR",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 49500
     },
     {
@@ -510,20 +526,22 @@
       "wage": 17500
     },
     {
-      "alt": [],
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 73,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 71,
-        "pos": 67,
-        "sho": 67,
+        "dri": 66,
+        "ldr": 71,
+        "pac": 61,
+        "pas": 70,
+        "pos": 71,
+        "sho": 61,
         "sta": 72,
-        "str": 67,
-        "tac": 69,
-        "vis": 70
+        "str": 72,
+        "tac": 75,
+        "vis": 67
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -533,23 +551,26 @@
       "name": "Kevin Vugt",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 46500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 71,
-        "dri": 66,
-        "ldr": 64,
-        "pac": 68,
-        "pas": 63,
-        "pos": 47,
-        "sho": 73,
-        "sta": 69,
-        "str": 72,
-        "tac": 38,
-        "vis": 64
+        "aer": 55,
+        "com": 68,
+        "dri": 71,
+        "ldr": 62,
+        "pac": 72,
+        "pas": 69,
+        "pos": 49,
+        "sho": 68,
+        "sta": 71,
+        "str": 62,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1991-04-01",
       "contract": null,
@@ -560,7 +581,7 @@
       "nation": "GER",
       "nation2": "ITA",
       "number": 23,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 27500
     },
     {
@@ -590,6 +611,11 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 77,
@@ -597,7 +623,7 @@
         "ldr": 73,
         "pac": 75,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 82,
         "sta": 75,
         "str": 78,
@@ -623,7 +649,7 @@
         "ldr": 73,
         "pac": 79,
         "pas": 65,
-        "pos": 56,
+        "pos": 76,
         "sho": 76,
         "sta": 69,
         "str": 75,
@@ -642,19 +668,22 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 58,
-        "dri": 55,
-        "ldr": 48,
-        "pac": 56,
-        "pas": 48,
-        "pos": 36,
-        "sho": 59,
-        "sta": 53,
-        "str": 58,
-        "tac": 24,
-        "vis": 49
+        "aer": 39,
+        "com": 55,
+        "dri": 60,
+        "ldr": 46,
+        "pac": 60,
+        "pas": 54,
+        "pos": 38,
+        "sho": 54,
+        "sta": 55,
+        "str": 48,
+        "tac": 30,
+        "vis": 55
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -664,7 +693,7 @@
       "name": "Phylipp Ochs",
       "nation": "GER",
       "number": 30,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5500
     },
     {

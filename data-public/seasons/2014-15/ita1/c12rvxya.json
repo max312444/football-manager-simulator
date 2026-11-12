@@ -106,18 +106,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 68,
-        "dri": 66,
-        "ldr": 69,
-        "pac": 67,
-        "pas": 74,
-        "pos": 68,
-        "sho": 66,
+        "dri": 62,
+        "ldr": 71,
+        "pac": 64,
+        "pas": 73,
+        "pos": 72,
+        "sho": 60,
         "sta": 71,
-        "str": 66,
-        "tac": 65,
-        "vis": 74
+        "str": 71,
+        "tac": 71,
+        "vis": 71
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -127,10 +127,13 @@
       "name": "Allen",
       "nation": "BRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -157,9 +160,6 @@
       "wage": 37500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 70,
@@ -193,7 +193,7 @@
         "ldr": 70,
         "pac": 72,
         "pas": 65,
-        "pos": 53,
+        "pos": 73,
         "sho": 74,
         "sta": 67,
         "str": 76,
@@ -238,19 +238,24 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 55,
-        "dri": 55,
+        "com": 59,
+        "dri": 63,
         "ldr": 47,
         "pac": 55,
-        "pas": 45,
-        "pos": 34,
-        "sho": 60,
+        "pas": 57,
+        "pos": 54,
+        "sho": 64,
         "sta": 47,
         "str": 54,
         "tac": 23,
-        "vis": 43
+        "vis": 55
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -260,7 +265,7 @@
       "name": "Alexis Zapeta",
       "nation": "COL",
       "number": 13,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
@@ -290,19 +295,23 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "LW",
+        "LB"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 74,
-        "dri": 78,
-        "ldr": 76,
-        "pac": 70,
-        "pas": 82,
-        "pos": 74,
-        "sho": 74,
-        "sta": 81,
-        "str": 73,
-        "tac": 72,
-        "vis": 75
+        "aer": 62,
+        "com": 72,
+        "dri": 83,
+        "ldr": 72,
+        "pac": 79,
+        "pas": 78,
+        "pos": 56,
+        "sho": 78,
+        "sta": 77,
+        "str": 68,
+        "tac": 52,
+        "vis": 72
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -313,7 +322,7 @@
       "nation": "ESP",
       "nation2": "SVN",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 43000
     },
     {
@@ -344,18 +353,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 59,
-        "dri": 58,
-        "ldr": 60,
-        "pac": 55,
-        "pas": 66,
-        "pos": 61,
-        "sho": 59,
+        "dri": 54,
+        "ldr": 62,
+        "pac": 52,
+        "pas": 65,
+        "pos": 65,
+        "sho": 53,
         "sta": 66,
-        "str": 55,
-        "tac": 61,
-        "vis": 62
+        "str": 60,
+        "tac": 67,
+        "vis": 59
       },
       "birth": "1991-04-01",
       "contract": null,
@@ -365,10 +374,13 @@
       "name": "Guilherme Torras",
       "nation": "BRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -422,18 +434,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 59,
-        "dri": 53,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 63,
-        "pos": 54,
-        "sho": 51,
+        "dri": 49,
+        "ldr": 56,
+        "pac": 47,
+        "pas": 62,
+        "pos": 58,
+        "sho": 45,
         "sta": 60,
-        "str": 56,
-        "tac": 52,
-        "vis": 57
+        "str": 61,
+        "tac": 58,
+        "vis": 54
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -443,10 +455,15 @@
       "name": "Jedson",
       "nation": "BRA",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
         "com": 76,
@@ -454,7 +471,7 @@
         "ldr": 73,
         "pac": 78,
         "pas": 66,
-        "pos": 55,
+        "pos": 75,
         "sho": 80,
         "sta": 72,
         "str": 77,
@@ -475,17 +492,17 @@
     {
       "attrs": {
         "aer": 55,
-        "com": 65,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 64,
-        "pas": 68,
+        "com": 61,
+        "dri": 64,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 62,
         "pos": 63,
-        "sho": 64,
+        "sho": 50,
         "sta": 66,
-        "str": 59,
-        "tac": 60,
-        "vis": 71
+        "str": 58,
+        "tac": 64,
+        "vis": 62
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -495,23 +512,23 @@
       "name": "Giovanni Pesquale",
       "nation": "ITA",
       "number": 26,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 18500
     },
     {
       "attrs": {
         "aer": 58,
-        "com": 70,
-        "dri": 70,
-        "ldr": 64,
-        "pac": 63,
-        "pas": 70,
+        "com": 66,
+        "dri": 68,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 64,
         "pos": 66,
-        "sho": 62,
+        "sho": 48,
         "sta": 72,
-        "str": 64,
-        "tac": 64,
-        "vis": 69
+        "str": 63,
+        "tac": 68,
+        "vis": 60
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -521,10 +538,14 @@
       "name": "Silvan Wydmer",
       "nation": "SUI",
       "number": 27,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 25000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -552,6 +573,9 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 76,
@@ -611,7 +635,7 @@
         "ldr": 62,
         "pac": 64,
         "pas": 55,
-        "pos": 44,
+        "pos": 64,
         "sho": 72,
         "sta": 62,
         "str": 69,
@@ -630,19 +654,22 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 77,
-        "dri": 71,
-        "ldr": 74,
-        "pac": 69,
-        "pas": 78,
+        "com": 73,
+        "dri": 69,
+        "ldr": 72,
+        "pac": 76,
+        "pas": 72,
         "pos": 75,
-        "sho": 71,
+        "sho": 57,
         "sta": 78,
-        "str": 69,
-        "tac": 73,
-        "vis": 80
+        "str": 68,
+        "tac": 77,
+        "vis": 71
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -654,23 +681,28 @@
       "nation": "PAR",
       "nation2": "ITA",
       "number": 89,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 43000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
-        "com": 72,
-        "dri": 68,
+        "com": 75,
+        "dri": 72,
         "ldr": 68,
         "pac": 74,
-        "pas": 66,
-        "pos": 50,
-        "sho": 72,
+        "pas": 73,
+        "pos": 70,
+        "sho": 75,
         "sta": 67,
         "str": 71,
         "tac": 40,
-        "vis": 66
+        "vis": 73
       },
       "birth": "1994-05-01",
       "contract": null,
@@ -680,7 +712,7 @@
       "name": "Piotr Zyelinski",
       "nation": "POL",
       "number": 94,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 23000
     }
   ],

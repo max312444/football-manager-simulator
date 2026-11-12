@@ -77,6 +77,11 @@
       "wage": 65000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "RWB"
+      ],
       "attrs": {
         "aer": 80,
         "com": 70,
@@ -104,18 +109,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 61,
-        "dri": 50,
-        "ldr": 58,
-        "pac": 57,
-        "pas": 54,
-        "pos": 62,
-        "sho": 33,
-        "sta": 59,
-        "str": 65,
-        "tac": 62,
-        "vis": 44
+        "aer": 48,
+        "com": 59,
+        "dri": 60,
+        "ldr": 54,
+        "pac": 65,
+        "pas": 58,
+        "pos": 57,
+        "sho": 40,
+        "sta": 65,
+        "str": 57,
+        "tac": 59,
+        "vis": 50
       },
       "birth": "2000-10-01",
       "contract": null,
@@ -125,10 +130,14 @@
       "name": "Sergio Cerreira",
       "nation": "ESP",
       "number": 5,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 22000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -164,7 +173,7 @@
         "ldr": 73,
         "pac": 74,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 76,
         "sta": 71,
         "str": 77,
@@ -184,6 +193,9 @@
       "wage": 97000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -217,7 +229,7 @@
         "ldr": 62,
         "pac": 70,
         "pas": 61,
-        "pos": 43,
+        "pos": 63,
         "sho": 67,
         "sta": 64,
         "str": 67,
@@ -243,7 +255,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 64,
-        "pos": 53,
+        "pos": 73,
         "sho": 72,
         "sta": 71,
         "str": 73,
@@ -262,19 +274,22 @@
       "wage": 70500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 72,
-        "dri": 69,
-        "ldr": 64,
-        "pac": 66,
-        "pas": 62,
-        "pos": 47,
-        "sho": 75,
-        "sta": 62,
-        "str": 66,
-        "tac": 38,
-        "vis": 61
+        "aer": 52,
+        "com": 69,
+        "dri": 74,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 68,
+        "pos": 49,
+        "sho": 70,
+        "sta": 64,
+        "str": 56,
+        "tac": 44,
+        "vis": 67
       },
       "birth": "1994-05-01",
       "contract": null,
@@ -285,23 +300,26 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 47500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 64,
-        "dri": 56,
-        "ldr": 58,
-        "pac": 64,
-        "pas": 50,
-        "pos": 37,
-        "sho": 65,
-        "sta": 56,
-        "str": 63,
-        "tac": 31,
-        "vis": 56
+        "aer": 42,
+        "com": 61,
+        "dri": 61,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 56,
+        "pos": 39,
+        "sho": 60,
+        "sta": 58,
+        "str": 53,
+        "tac": 37,
+        "vis": 62
       },
       "birth": "1999-05-01",
       "contract": null,
@@ -311,7 +329,7 @@
       "name": "Alfun",
       "nation": "ESP",
       "number": 12,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 20000
     },
     {
@@ -341,6 +359,9 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -393,9 +414,6 @@
       "wage": 49000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 61,
         "com": 64,
@@ -422,19 +440,22 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 74,
-        "dri": 74,
-        "ldr": 66,
-        "pac": 75,
-        "pas": 66,
-        "pos": 54,
-        "sho": 75,
-        "sta": 69,
-        "str": 70,
-        "tac": 43,
-        "vis": 66
+        "aer": 57,
+        "com": 71,
+        "dri": 79,
+        "ldr": 64,
+        "pac": 79,
+        "pas": 72,
+        "pos": 56,
+        "sho": 70,
+        "sta": 71,
+        "str": 60,
+        "tac": 49,
+        "vis": 72
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -445,7 +466,7 @@
       "nation": "CIV",
       "nation2": "FRA",
       "number": 17,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 80000
     },
     {
@@ -456,7 +477,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 54,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 57,
         "str": 61,
@@ -475,19 +496,22 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 62,
-        "dri": 59,
-        "ldr": 53,
-        "pac": 54,
+        "aer": 42,
+        "com": 63,
+        "dri": 63,
+        "ldr": 51,
+        "pac": 57,
         "pas": 64,
-        "pos": 58,
-        "sho": 56,
-        "sta": 62,
-        "str": 57,
-        "tac": 56,
-        "vis": 61
+        "pos": 43,
+        "sho": 62,
+        "sta": 56,
+        "str": 52,
+        "tac": 38,
+        "vis": 63
       },
       "birth": "2004-02-01",
       "contract": null,
@@ -497,10 +521,14 @@
       "name": "Williot Swedbarg",
       "nation": "SWE",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 27500
     },
     {
+      "alt": [
+        "LB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 72,
@@ -553,19 +581,22 @@
       "wage": 97000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 68,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 67,
-        "pas": 57,
-        "pos": 43,
-        "sho": 66,
-        "sta": 62,
-        "str": 62,
-        "tac": 38,
-        "vis": 60
+        "aer": 49,
+        "com": 65,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 71,
+        "pas": 63,
+        "pos": 45,
+        "sho": 61,
+        "sta": 64,
+        "str": 52,
+        "tac": 44,
+        "vis": 66
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -575,10 +606,13 @@
       "name": "Tadeo Allande",
       "nation": "ARG",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 32500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 60,
@@ -606,18 +640,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 57,
-        "dri": 52,
-        "ldr": 55,
-        "pac": 48,
-        "pas": 56,
-        "pos": 56,
-        "sho": 49,
+        "dri": 48,
+        "ldr": 57,
+        "pac": 45,
+        "pas": 55,
+        "pos": 60,
+        "sho": 43,
         "sta": 60,
-        "str": 52,
-        "tac": 53,
-        "vis": 60
+        "str": 57,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -627,23 +661,26 @@
       "name": "Damian Rodrigoez",
       "nation": "ESP",
       "number": 25,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 17500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 57,
-        "dri": 53,
-        "ldr": 49,
-        "pac": 54,
-        "pas": 48,
-        "pos": 31,
-        "sho": 56,
-        "sta": 51,
-        "str": 55,
-        "tac": 28,
-        "vis": 47
+        "aer": 40,
+        "com": 54,
+        "dri": 58,
+        "ldr": 47,
+        "pac": 58,
+        "pas": 54,
+        "pos": 33,
+        "sho": 51,
+        "sta": 53,
+        "str": 45,
+        "tac": 34,
+        "vis": 53
       },
       "birth": "2003-07-01",
       "contract": null,
@@ -653,10 +690,14 @@
       "name": "Hugo Alvaraz",
       "nation": "ESP",
       "number": 30,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 55,
@@ -683,6 +724,10 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "CB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 68,
@@ -705,7 +750,7 @@
       "name": "Marcos Alonsu",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 97000
     }
   ],

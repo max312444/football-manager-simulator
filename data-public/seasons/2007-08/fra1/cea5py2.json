@@ -84,7 +84,7 @@
         "ldr": 57,
         "pac": 58,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 53,
         "str": 61,
@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 63,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 60,
-        "pos": 71,
-        "sho": 37,
-        "sta": 58,
-        "str": 65,
-        "tac": 69,
-        "vis": 48
+        "aer": 55,
+        "com": 61,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 70,
+        "pas": 64,
+        "pos": 66,
+        "sho": 44,
+        "sta": 64,
+        "str": 57,
+        "tac": 66,
+        "vis": 54
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -126,10 +126,13 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": 5,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -156,6 +159,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -183,18 +189,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 68,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 63,
-        "pas": 69,
-        "pos": 67,
-        "sho": 64,
+        "dri": 64,
+        "ldr": 70,
+        "pac": 60,
+        "pas": 68,
+        "pos": 71,
+        "sho": 58,
         "sta": 73,
-        "str": 62,
-        "tac": 62,
-        "vis": 73
+        "str": 67,
+        "tac": 68,
+        "vis": 70
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -204,7 +210,7 @@
       "name": "Guirane N'Dew",
       "nation": "SEN",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 24000
     },
     {
@@ -215,7 +221,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 69,
         "str": 70,
@@ -241,7 +247,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 67,
         "sta": 59,
         "str": 64,
@@ -260,19 +266,24 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 60,
-        "dri": 60,
-        "ldr": 53,
-        "pac": 58,
-        "pas": 53,
-        "pos": 39,
-        "sho": 61,
-        "sta": 56,
-        "str": 58,
-        "tac": 28,
-        "vis": 48
+        "aer": 42,
+        "com": 57,
+        "dri": 65,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 59,
+        "pos": 41,
+        "sho": 56,
+        "sta": 58,
+        "str": 48,
+        "tac": 34,
+        "vis": 54
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -282,10 +293,13 @@
       "name": "Julien Qoercia",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -312,19 +326,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 65,
-        "dri": 58,
-        "ldr": 66,
-        "pac": 66,
-        "pas": 65,
-        "pos": 71,
-        "sho": 46,
-        "sta": 64,
-        "str": 75,
-        "tac": 75,
-        "vis": 53
+        "aer": 63,
+        "com": 63,
+        "dri": 68,
+        "ldr": 62,
+        "pac": 74,
+        "pas": 69,
+        "pos": 66,
+        "sho": 53,
+        "sta": 70,
+        "str": 67,
+        "tac": 72,
+        "vis": 59
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -334,23 +351,26 @@
       "name": "Jeremie Brachet",
       "nation": "FRA",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 22000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 59,
-        "ldr": 59,
-        "pac": 67,
-        "pas": 61,
-        "pos": 65,
-        "sho": 45,
-        "sta": 71,
-        "str": 57,
-        "tac": 68,
-        "vis": 61
+        "aer": 66,
+        "com": 61,
+        "dri": 49,
+        "ldr": 63,
+        "pac": 59,
+        "pas": 57,
+        "pos": 70,
+        "sho": 38,
+        "sta": 65,
+        "str": 65,
+        "tac": 71,
+        "vis": 55
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -360,7 +380,7 @@
       "name": "Bojan Jokyc",
       "nation": "SVN",
       "number": 14,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 13000
     },
     {
@@ -416,6 +436,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -442,19 +465,23 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 67,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 70,
-        "pas": 61,
-        "pos": 48,
-        "sho": 72,
-        "sta": 65,
-        "str": 68,
-        "tac": 41,
-        "vis": 61
+        "aer": 49,
+        "com": 64,
+        "dri": 73,
+        "ldr": 63,
+        "pac": 74,
+        "pas": 67,
+        "pos": 50,
+        "sho": 67,
+        "sta": 67,
+        "str": 58,
+        "tac": 47,
+        "vis": 67
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -464,10 +491,13 @@
       "name": "Valter Birse",
       "nation": "SVN",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -516,23 +546,28 @@
       "name": "Ivan Perisyc",
       "nation": "CRO",
       "number": 22,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 12000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 46,
+        "com": 56,
         "dri": 40,
         "ldr": 50,
         "pac": 42,
-        "pas": 40,
+        "pas": 50,
         "pos": 51,
         "sho": 23,
-        "sta": 44,
+        "sta": 54,
         "str": 52,
         "tac": 56,
-        "vis": 35
+        "vis": 45
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -542,23 +577,23 @@
       "name": "Hakim El Boonadi",
       "nation": "MAR",
       "number": 23,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 57,
-        "dri": 55,
-        "ldr": 48,
-        "pac": 51,
+        "aer": 39,
+        "com": 58,
+        "dri": 59,
+        "ldr": 46,
+        "pac": 54,
         "pas": 56,
-        "pos": 53,
-        "sho": 48,
-        "sta": 56,
-        "str": 47,
-        "tac": 52,
-        "vis": 57
+        "pos": 38,
+        "sho": 54,
+        "sta": 50,
+        "str": 42,
+        "tac": 34,
+        "vis": 59
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -568,7 +603,7 @@
       "name": "Benjamin Genghiny",
       "nation": "FRA",
       "number": 25,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
@@ -579,7 +614,7 @@
         "ldr": 60,
         "pac": 68,
         "pas": 59,
-        "pos": 49,
+        "pos": 69,
         "sho": 71,
         "sta": 67,
         "str": 71,
@@ -651,6 +686,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 55,
@@ -703,6 +741,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -736,7 +777,7 @@
         "ldr": 49,
         "pac": 51,
         "pas": 44,
-        "pos": 28,
+        "pos": 48,
         "sho": 57,
         "sta": 51,
         "str": 55,
@@ -762,7 +803,7 @@
         "ldr": 43,
         "pac": 48,
         "pas": 39,
-        "pos": 27,
+        "pos": 47,
         "sho": 54,
         "sta": 44,
         "str": 50,

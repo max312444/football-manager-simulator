@@ -24,6 +24,10 @@
   },
   "squad": [
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 73,
@@ -77,18 +81,23 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 80,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 75,
-        "pas": 82,
-        "pos": 73,
-        "sho": 74,
-        "sta": 78,
-        "str": 69,
-        "tac": 75,
+        "aer": 66,
+        "com": 78,
+        "dri": 78,
+        "ldr": 73,
+        "pac": 83,
+        "pas": 83,
+        "pos": 65,
+        "sho": 72,
+        "sta": 82,
+        "str": 66,
+        "tac": 70,
         "vis": 76
       },
       "birth": "1976-04-01",
@@ -99,24 +108,24 @@
       "name": "Gylberto",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "verify": true,
       "wage": 40000
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 78,
-        "dri": 77,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 78,
-        "pos": 76,
-        "sho": 73,
+        "dri": 73,
+        "ldr": 72,
+        "pac": 68,
+        "pas": 77,
+        "pos": 80,
+        "sho": 67,
         "sta": 76,
-        "str": 73,
-        "tac": 73,
-        "vis": 75
+        "str": 78,
+        "tac": 79,
+        "vis": 72
       },
       "birth": "1971-10-01",
       "contract": null,
@@ -126,23 +135,23 @@
       "name": "Niko Kuvac",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 40000
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 76,
-        "dri": 71,
-        "ldr": 75,
-        "pac": 68,
-        "pas": 80,
-        "pos": 72,
-        "sho": 72,
+        "dri": 67,
+        "ldr": 77,
+        "pac": 65,
+        "pas": 79,
+        "pos": 76,
+        "sho": 66,
         "sta": 80,
-        "str": 68,
-        "tac": 72,
-        "vis": 75
+        "str": 73,
+        "tac": 78,
+        "vis": 72
       },
       "birth": "1976-03-01",
       "contract": null,
@@ -152,23 +161,23 @@
       "name": "Pal Darday",
       "nation": "HUN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 40000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 69,
+        "aer": 57,
+        "com": 77,
+        "dri": 81,
+        "ldr": 70,
+        "pac": 72,
         "pas": 78,
-        "pos": 76,
-        "sho": 67,
-        "sta": 79,
-        "str": 70,
-        "tac": 74,
-        "vis": 76
+        "pos": 61,
+        "sho": 73,
+        "sta": 73,
+        "str": 65,
+        "tac": 56,
+        "vis": 78
       },
       "birth": "1978-12-01",
       "contract": null,
@@ -179,7 +188,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 40000
     },
@@ -191,7 +200,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 65,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 72,
         "str": 73,
@@ -211,18 +220,18 @@
     },
     {
       "attrs": {
-        "aer": 78,
-        "com": 73,
-        "dri": 58,
-        "ldr": 73,
-        "pac": 68,
-        "pas": 63,
-        "pos": 77,
-        "sho": 49,
-        "sta": 67,
-        "str": 74,
-        "tac": 79,
-        "vis": 63
+        "aer": 65,
+        "com": 71,
+        "dri": 68,
+        "ldr": 69,
+        "pac": 76,
+        "pas": 67,
+        "pos": 72,
+        "sho": 56,
+        "sta": 73,
+        "str": 66,
+        "tac": 76,
+        "vis": 69
       },
       "birth": "1972-04-01",
       "contract": null,
@@ -232,13 +241,10 @@
       "name": "Marko Rahmer",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 26500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 74,
@@ -265,6 +271,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 71,
@@ -298,7 +307,7 @@
         "ldr": 63,
         "pac": 71,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 76,
         "sta": 64,
         "str": 68,
@@ -343,6 +352,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 66,
@@ -370,18 +382,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 61,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 71,
-        "pas": 62,
-        "pos": 65,
-        "sho": 44,
-        "sta": 72,
-        "str": 62,
-        "tac": 66,
-        "vis": 60
+        "aer": 67,
+        "com": 63,
+        "dri": 54,
+        "ldr": 67,
+        "pac": 63,
+        "pas": 58,
+        "pos": 70,
+        "sho": 37,
+        "sta": 66,
+        "str": 70,
+        "tac": 69,
+        "vis": 54
       },
       "birth": "1982-07-01",
       "contract": "2006-07-01",
@@ -391,7 +403,7 @@
       "name": "Alexander Madlong",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 12500
     },
     {
@@ -422,19 +434,23 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 63,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 63,
+        "aer": 53,
+        "com": 64,
+        "dri": 68,
+        "ldr": 60,
+        "pac": 66,
         "pas": 67,
-        "pos": 66,
-        "sho": 60,
-        "sta": 69,
-        "str": 58,
-        "tac": 63,
-        "vis": 66
+        "pos": 51,
+        "sho": 66,
+        "sta": 63,
+        "str": 53,
+        "tac": 45,
+        "vis": 68
       },
       "birth": "1986-07-01",
       "contract": "2007-07-01",
@@ -445,24 +461,29 @@
       "nation": "IRN",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 15000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
-        "com": 63,
+        "com": 73,
         "dri": 54,
         "ldr": 62,
         "pac": 63,
-        "pas": 58,
+        "pas": 68,
         "pos": 71,
         "sho": 40,
-        "sta": 63,
+        "sta": 73,
         "str": 66,
         "tac": 66,
-        "vis": 50
+        "vis": 60
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -472,24 +493,24 @@
       "name": "Michael Hartmenn",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 10500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 65,
-        "dri": 51,
+        "aer": 58,
+        "com": 67,
+        "dri": 59,
         "ldr": 60,
-        "pac": 62,
-        "pas": 60,
-        "pos": 69,
-        "sho": 38,
-        "sta": 62,
-        "str": 68,
-        "tac": 68,
-        "vis": 50
+        "pac": 60,
+        "pas": 69,
+        "pos": 68,
+        "sho": 53,
+        "sta": 68,
+        "str": 66,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1973-09-01",
       "contract": null,
@@ -499,7 +520,7 @@
       "name": "Andreas Schmydt",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 10000
     },
     {
@@ -510,7 +531,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 69,
         "sta": 62,
         "str": 66,
@@ -585,6 +606,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -613,6 +637,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 62,
@@ -640,6 +667,10 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -728,7 +759,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 58,
         "str": 59,
@@ -748,19 +779,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 56,
+        "com": 57,
         "dri": 59,
         "ldr": 52,
         "pac": 56,
-        "pas": 59,
+        "pas": 60,
         "pos": 59,
         "sho": 50,
         "sta": 63,
         "str": 56,
-        "tac": 55,
-        "vis": 59
+        "tac": 56,
+        "vis": 60
       },
       "birth": "1976-08-01",
       "contract": null,
@@ -774,18 +808,23 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 57,
+        "aer": 60,
+        "com": 61,
         "dri": 58,
         "ldr": 55,
-        "pac": 56,
+        "pac": 61,
         "pas": 59,
-        "pos": 54,
+        "pos": 63,
         "sho": 51,
         "sta": 63,
-        "str": 51,
-        "tac": 54,
+        "str": 60,
+        "tac": 63,
         "vis": 60
       },
       "birth": "1980-06-01",
@@ -796,7 +835,7 @@
       "name": "Oliver Schruder",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 6500
     },
@@ -829,6 +868,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,
@@ -863,7 +905,7 @@
         "ldr": 46,
         "pac": 56,
         "pas": 45,
-        "pos": 29,
+        "pos": 49,
         "sho": 54,
         "sta": 52,
         "str": 55,
@@ -890,7 +932,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 44,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 49,
         "str": 55,

@@ -51,6 +51,9 @@
       "wage": 73500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -78,9 +81,6 @@
       "wage": 55000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 73,
         "com": 68,
@@ -107,6 +107,9 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -133,6 +136,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 81,
@@ -166,7 +172,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 68,
-        "pos": 50,
+        "pos": 70,
         "sho": 81,
         "sta": 68,
         "str": 73,
@@ -185,6 +191,9 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 71,
@@ -218,7 +227,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 63,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 68,
         "str": 71,
@@ -237,19 +246,23 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 73,
-        "dri": 76,
-        "ldr": 68,
-        "pac": 70,
+        "aer": 61,
+        "com": 74,
+        "dri": 80,
+        "ldr": 66,
+        "pac": 73,
         "pas": 78,
-        "pos": 74,
-        "sho": 71,
-        "sta": 74,
-        "str": 72,
-        "tac": 71,
-        "vis": 75
+        "pos": 59,
+        "sho": 77,
+        "sta": 68,
+        "str": 67,
+        "tac": 53,
+        "vis": 77
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -259,7 +272,7 @@
       "name": "Marko Merin",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 66500
     },
     {
@@ -270,7 +283,7 @@
         "ldr": 73,
         "pac": 78,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 80,
         "sta": 72,
         "str": 74,
@@ -290,18 +303,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 59,
-        "dri": 46,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 49,
-        "pos": 62,
-        "sho": 31,
-        "sta": 58,
-        "str": 62,
-        "tac": 64,
-        "vis": 44
+        "aer": 52,
+        "com": 57,
+        "dri": 56,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 53,
+        "pos": 57,
+        "sho": 38,
+        "sta": 64,
+        "str": 54,
+        "tac": 61,
+        "vis": 50
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -311,23 +324,23 @@
       "name": "Lukas Schmytz",
       "nation": "GER",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8500
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 70,
-        "ldr": 68,
-        "pac": 71,
+        "aer": 57,
+        "com": 77,
+        "dri": 74,
+        "ldr": 66,
+        "pac": 74,
         "pas": 76,
-        "pos": 74,
-        "sho": 72,
-        "sta": 74,
-        "str": 68,
-        "tac": 69,
-        "vis": 78
+        "pos": 59,
+        "sho": 78,
+        "sta": 68,
+        "str": 63,
+        "tac": 51,
+        "vis": 80
       },
       "birth": "1986-09-01",
       "contract": null,
@@ -337,23 +350,23 @@
       "name": "Aaron Hont",
       "nation": "GER",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 60500
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 73,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 76,
-        "pas": 71,
-        "pos": 74,
-        "sho": 54,
-        "sta": 76,
-        "str": 70,
-        "tac": 78,
-        "vis": 69
+        "aer": 80,
+        "com": 75,
+        "dri": 58,
+        "ldr": 70,
+        "pac": 68,
+        "pas": 67,
+        "pos": 79,
+        "sho": 47,
+        "sta": 70,
+        "str": 78,
+        "tac": 81,
+        "vis": 63
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -363,12 +376,12 @@
       "name": "Sebastian Prudl",
       "nation": "AUT",
       "number": 15,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 51500
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 76,
@@ -396,19 +409,22 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 67,
-        "dri": 66,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 69,
-        "pos": 62,
-        "sho": 57,
+        "dri": 62,
+        "ldr": 63,
+        "pac": 54,
+        "pas": 68,
+        "pos": 66,
+        "sho": 51,
         "sta": 67,
-        "str": 60,
-        "tac": 64,
-        "vis": 68
+        "str": 65,
+        "tac": 70,
+        "vis": 65
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -419,12 +435,13 @@
       "nation": "SRB",
       "nation2": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 22000
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 61,
@@ -459,7 +476,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 60,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 69,
         "str": 69,
@@ -478,6 +495,10 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -558,6 +579,9 @@
       "wage": 55500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 72,
         "com": 67,
@@ -591,7 +615,7 @@
         "ldr": 73,
         "pac": 75,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 78,
         "sta": 73,
         "str": 78,
@@ -612,18 +636,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 57,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 59,
-        "pos": 57,
-        "sho": 50,
+        "dri": 51,
+        "ldr": 56,
+        "pac": 47,
+        "pas": 58,
+        "pos": 61,
+        "sho": 44,
         "sta": 60,
-        "str": 56,
-        "tac": 57,
-        "vis": 60
+        "str": 61,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -633,23 +657,23 @@
       "name": "Tom Tryboll",
       "nation": "GER",
       "number": 25,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 54,
-        "dri": 46,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 52,
-        "pos": 61,
-        "sho": 32,
-        "sta": 58,
-        "str": 64,
-        "tac": 62,
-        "vis": 46
+        "aer": 47,
+        "com": 52,
+        "dri": 56,
+        "ldr": 50,
+        "pac": 63,
+        "pas": 56,
+        "pos": 56,
+        "sho": 39,
+        "sta": 64,
+        "str": 56,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -659,23 +683,23 @@
       "name": "Florian Hertherz",
       "nation": "GER",
       "number": 26,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 55,
-        "ldr": 56,
-        "pac": 56,
+        "aer": 44,
+        "com": 61,
+        "dri": 59,
+        "ldr": 54,
+        "pac": 59,
         "pas": 62,
-        "pos": 56,
-        "sho": 56,
-        "sta": 59,
-        "str": 55,
-        "tac": 54,
-        "vis": 63
+        "pos": 41,
+        "sho": 62,
+        "sta": 53,
+        "str": 50,
+        "tac": 36,
+        "vis": 65
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -686,7 +710,7 @@
       "nation": "SRB",
       "nation2": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11500
     },
     {
@@ -717,18 +741,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 65,
-        "dri": 57,
-        "ldr": 58,
-        "pac": 60,
+        "aer": 44,
+        "com": 66,
+        "dri": 61,
+        "ldr": 56,
+        "pac": 63,
         "pas": 62,
-        "pos": 61,
-        "sho": 57,
-        "sta": 64,
-        "str": 59,
-        "tac": 61,
-        "vis": 61
+        "pos": 46,
+        "sho": 63,
+        "sta": 58,
+        "str": 54,
+        "tac": 43,
+        "vis": 63
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -738,7 +762,7 @@
       "name": "Florian Trynks",
       "nation": "GER",
       "number": 35,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15500
     },
     {
@@ -749,7 +773,7 @@
         "ldr": 57,
         "pac": 66,
         "pas": 57,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 63,
         "str": 64,
@@ -768,6 +792,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -794,19 +821,23 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 60,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 64,
-        "pas": 54,
-        "pos": 42,
-        "sho": 63,
-        "sta": 60,
-        "str": 60,
-        "tac": 32,
-        "vis": 53
+        "aer": 42,
+        "com": 57,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 68,
+        "pas": 60,
+        "pos": 44,
+        "sho": 58,
+        "sta": 62,
+        "str": 50,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -817,7 +848,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 46,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9000
     }
   ],

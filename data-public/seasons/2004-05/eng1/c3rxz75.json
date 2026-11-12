@@ -189,9 +189,6 @@
       "wage": 125000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 76,
@@ -300,9 +297,6 @@
       "wage": 31000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 62,
         "com": 58,
@@ -368,9 +362,6 @@
       "wage": 128500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 82,
@@ -398,21 +389,22 @@
     },
     {
       "alt": [
+        "CM",
         "DM"
       ],
       "attrs": {
         "aer": 66,
-        "com": 76,
-        "dri": 75,
+        "com": 81,
+        "dri": 80,
         "ldr": 60,
-        "pac": 66,
+        "pac": 71,
         "pas": 80,
         "pos": 74,
-        "sho": 72,
+        "sho": 77,
         "sta": 78,
         "str": 72,
         "tac": 74,
-        "vis": 78
+        "vis": 83
       },
       "birth": "1978-05-01",
       "contract": "2005-06-30",
@@ -423,11 +415,12 @@
       "name": "Eduo",
       "nation": "BRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 82000
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -464,17 +457,17 @@
       ],
       "attrs": {
         "aer": 62,
-        "com": 66,
-        "dri": 70,
+        "com": 78,
+        "dri": 75,
         "ldr": 54,
         "pac": 76,
-        "pas": 70,
+        "pas": 82,
         "pos": 70,
-        "sho": 58,
+        "sho": 63,
         "sta": 86,
         "str": 68,
-        "tac": 74,
-        "vis": 64
+        "tac": 81,
+        "vis": 76
       },
       "birth": "1984-03-01",
       "contract": "2006-06-30",
@@ -489,7 +482,7 @@
     },
     {
       "alt": [
-        "AM",
+        "RW",
         "LW"
       ],
       "attrs": {
@@ -519,7 +512,7 @@
       "name": "Robert Piras",
       "nation": "FRA",
       "number": 7,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "flair"
       ],
@@ -527,8 +520,9 @@
     },
     {
       "alt": [
-        "CM",
-        "LM"
+        "LM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 64,
@@ -536,13 +530,13 @@
         "dri": 82,
         "ldr": 62,
         "pac": 82,
-        "pas": 76,
+        "pas": 81,
         "pos": 70,
         "sho": 78,
-        "sta": 84,
+        "sta": 89,
         "str": 64,
-        "tac": 60,
-        "vis": 76
+        "tac": 65,
+        "vis": 81
       },
       "birth": "1977-04-01",
       "contract": "2009-06-30",
@@ -557,6 +551,9 @@
       "wage": 87500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -579,12 +576,12 @@
       "name": "Jermaine Pennent",
       "nation": "ENG",
       "number": 21,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 30000
     },
     {
       "alt": [
-        "ST"
+        "RW"
       ],
       "attrs": {
         "aer": 56,
@@ -615,20 +612,17 @@
       "wage": 49500
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
-        "aer": 66,
-        "com": 90,
+        "aer": 85,
+        "com": 99,
         "dri": 92,
         "ldr": 76,
         "pac": 95,
         "pas": 84,
-        "pos": 50,
-        "sho": 92,
+        "pos": 69,
+        "sho": 99,
         "sta": 84,
-        "str": 78,
+        "str": 97,
         "tac": 40,
         "vis": 88
       },
@@ -654,19 +648,21 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 60,
-        "com": 90,
+        "aer": 90,
+        "com": 99,
         "dri": 86,
         "ldr": 76,
-        "pac": 58,
+        "pac": 88,
         "pas": 90,
-        "pos": 46,
-        "sho": 82,
+        "pos": 76,
+        "sho": 99,
         "sta": 58,
-        "str": 66,
+        "str": 96,
         "tac": 38,
         "vis": 93
       },
@@ -686,20 +682,17 @@
       "wage": 63000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
-        "aer": 62,
-        "com": 72,
+        "aer": 74,
+        "com": 84,
         "dri": 82,
         "ldr": 48,
-        "pac": 76,
+        "pac": 78,
         "pas": 76,
-        "pos": 50,
-        "sho": 76,
+        "pos": 62,
+        "sho": 88,
         "sta": 70,
-        "str": 68,
+        "str": 80,
         "tac": 40,
         "vis": 76
       },
@@ -719,16 +712,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 60,
+        "aer": 68,
+        "com": 68,
         "dri": 70,
         "ldr": 42,
         "pac": 80,
         "pas": 60,
-        "pos": 48,
-        "sho": 68,
+        "pos": 56,
+        "sho": 76,
         "sta": 70,
-        "str": 66,
+        "str": 74,
         "tac": 40,
         "vis": 56
       },

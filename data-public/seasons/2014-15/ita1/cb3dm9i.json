@@ -51,6 +51,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
@@ -78,18 +81,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 75,
-        "dri": 77,
-        "ldr": 70,
-        "pac": 74,
-        "pas": 79,
-        "pos": 77,
-        "sho": 73,
+        "dri": 73,
+        "ldr": 72,
+        "pac": 71,
+        "pas": 78,
+        "pos": 81,
+        "sho": 67,
         "sta": 79,
-        "str": 69,
-        "tac": 70,
-        "vis": 78
+        "str": 74,
+        "tac": 76,
+        "vis": 75
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -99,7 +102,7 @@
       "name": "Migjen Besha",
       "nation": "ALB",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 56500
     },
     {
@@ -130,18 +133,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 69,
-        "dri": 70,
-        "ldr": 70,
-        "pac": 67,
-        "pas": 74,
-        "pos": 66,
-        "sho": 64,
+        "dri": 66,
+        "ldr": 72,
+        "pac": 64,
+        "pas": 73,
+        "pos": 70,
+        "sho": 58,
         "sta": 74,
-        "str": 67,
-        "tac": 67,
-        "vis": 69
+        "str": 72,
+        "tac": 73,
+        "vis": 66
       },
       "birth": "1989-04-01",
       "contract": null,
@@ -152,12 +155,13 @@
       "name": "Ruben Parez",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30500
     },
     {
       "alt": [
-        "CM"
+        "RM",
+        "LM"
       ],
       "attrs": {
         "aer": 57,
@@ -188,18 +192,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 76,
-        "dri": 72,
-        "ldr": 68,
-        "pac": 69,
+        "aer": 62,
+        "com": 77,
+        "dri": 76,
+        "ldr": 66,
+        "pac": 72,
         "pas": 79,
-        "pos": 71,
-        "sho": 71,
-        "sta": 74,
-        "str": 69,
-        "tac": 73,
-        "vis": 78
+        "pos": 56,
+        "sho": 77,
+        "sta": 68,
+        "str": 64,
+        "tac": 55,
+        "vis": 80
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -209,7 +213,7 @@
       "name": "Alexander Farnarud",
       "nation": "SWE",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 47500
     },
     {
@@ -220,7 +224,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 65,
         "sta": 62,
         "str": 66,
@@ -247,7 +251,7 @@
         "ldr": 63,
         "pac": 66,
         "pas": 59,
-        "pos": 41,
+        "pos": 61,
         "sho": 68,
         "sta": 59,
         "str": 67,
@@ -266,19 +270,22 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 79,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 74,
-        "pas": 81,
-        "pos": 77,
-        "sho": 70,
-        "sta": 81,
-        "str": 73,
-        "tac": 74,
-        "vis": 78
+        "aer": 62,
+        "com": 77,
+        "dri": 79,
+        "ldr": 69,
+        "pac": 83,
+        "pas": 77,
+        "pos": 59,
+        "sho": 74,
+        "sta": 77,
+        "str": 68,
+        "tac": 54,
+        "vis": 75
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -288,23 +295,23 @@
       "name": "Alessio Carci",
       "nation": "ITA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 57000
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 64,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 60,
-        "pos": 70,
-        "sho": 38,
-        "sta": 59,
-        "str": 66,
-        "tac": 65,
-        "vis": 54
+        "aer": 58,
+        "com": 62,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 64,
+        "pos": 65,
+        "sho": 45,
+        "sta": 65,
+        "str": 58,
+        "tac": 62,
+        "vis": 60
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -314,23 +321,23 @@
       "name": "Bruno Pares",
       "nation": "BRA",
       "number": 13,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 11500
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 65,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 73,
-        "pos": 66,
-        "sho": 60,
+        "dri": 60,
+        "ldr": 64,
+        "pac": 58,
+        "pas": 72,
+        "pos": 70,
+        "sho": 54,
         "sta": 72,
-        "str": 64,
-        "tac": 67,
-        "vis": 66
+        "str": 69,
+        "tac": 73,
+        "vis": 63
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -340,7 +347,7 @@
       "name": "Alessandro Gezzi",
       "nation": "ITA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20000
     },
     {
@@ -351,7 +358,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 58,
-        "pos": 46,
+        "pos": 66,
         "sho": 67,
         "sta": 63,
         "str": 65,
@@ -423,19 +430,22 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 58,
-        "dri": 57,
+        "com": 60,
+        "dri": 59,
         "ldr": 56,
         "pac": 58,
-        "pas": 61,
+        "pas": 63,
         "pos": 62,
-        "sho": 56,
-        "sta": 61,
+        "sho": 58,
+        "sta": 63,
         "str": 58,
         "tac": 58,
-        "vis": 60
+        "vis": 62
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -502,6 +512,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -530,18 +543,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 66,
-        "dri": 70,
-        "ldr": 65,
-        "pac": 76,
-        "pas": 68,
-        "pos": 74,
-        "sho": 56,
-        "sta": 73,
-        "str": 67,
-        "tac": 72,
-        "vis": 66
+        "aer": 76,
+        "com": 68,
+        "dri": 60,
+        "ldr": 69,
+        "pac": 68,
+        "pas": 64,
+        "pos": 79,
+        "sho": 49,
+        "sta": 67,
+        "str": 75,
+        "tac": 75,
+        "vis": 60
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -551,7 +564,7 @@
       "name": "Emiliano Moratti",
       "nation": "ITA",
       "number": 24,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 29000
     },
     {
@@ -589,7 +602,7 @@
         "ldr": 76,
         "pac": 79,
         "pas": 74,
-        "pos": 56,
+        "pos": 76,
         "sho": 84,
         "sta": 77,
         "str": 78,
@@ -608,19 +621,24 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 59,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 54,
-        "pas": 62,
-        "pos": 63,
-        "sho": 53,
-        "sta": 63,
-        "str": 54,
-        "tac": 60,
-        "vis": 62
+        "aer": 48,
+        "com": 57,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 62,
+        "pas": 61,
+        "pos": 55,
+        "sho": 51,
+        "sta": 65,
+        "str": 51,
+        "tac": 53,
+        "vis": 60
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -630,23 +648,28 @@
       "name": "Juan Sanchez Minu",
       "nation": "ARG",
       "number": 28,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 10000
     },
     {
+      "alt": [
+        "LWB",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 63,
-        "dri": 56,
-        "ldr": 66,
-        "pac": 60,
-        "pas": 60,
-        "pos": 72,
-        "sho": 38,
-        "sta": 64,
-        "str": 72,
-        "tac": 69,
-        "vis": 57
+        "aer": 55,
+        "com": 61,
+        "dri": 68,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 65,
+        "pos": 65,
+        "sho": 48,
+        "sta": 72,
+        "str": 64,
+        "tac": 64,
+        "vis": 64
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -656,7 +679,7 @@
       "name": "Marko Vesovyc",
       "nation": "MNE",
       "number": 29,
-      "pos": "CB",
+      "pos": "RWB",
       "wage": 15000
     },
     {
@@ -687,18 +710,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 58,
-        "dri": 50,
-        "ldr": 61,
-        "pac": 52,
-        "pas": 51,
-        "pos": 66,
-        "sho": 34,
-        "sta": 55,
-        "str": 66,
-        "tac": 67,
-        "vis": 50
+        "aer": 48,
+        "com": 56,
+        "dri": 60,
+        "ldr": 57,
+        "pac": 60,
+        "pas": 55,
+        "pos": 61,
+        "sho": 41,
+        "sta": 61,
+        "str": 58,
+        "tac": 64,
+        "vis": 56
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -708,26 +731,28 @@
       "name": "Salvatore Mesiello",
       "nation": "ITA",
       "number": 32,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
       "alt": [
-        "RB"
+        "LB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 82,
-        "com": 75,
-        "dri": 65,
-        "ldr": 76,
-        "pac": 75,
-        "pas": 67,
-        "pos": 83,
-        "sho": 54,
-        "sta": 75,
-        "str": 80,
-        "tac": 79,
-        "vis": 63
+        "aer": 69,
+        "com": 73,
+        "dri": 75,
+        "ldr": 72,
+        "pac": 83,
+        "pas": 71,
+        "pos": 78,
+        "sho": 61,
+        "sta": 81,
+        "str": 72,
+        "tac": 76,
+        "vis": 69
       },
       "birth": "1989-12-01",
       "contract": null,
@@ -737,7 +762,7 @@
       "name": "Matteo Dermian",
       "nation": "ITA",
       "number": 36,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 50000
     },
     {
@@ -767,6 +792,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,

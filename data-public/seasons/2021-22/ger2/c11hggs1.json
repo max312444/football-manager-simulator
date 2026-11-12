@@ -51,6 +51,10 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 47,
         "com": 53,
@@ -74,7 +78,7 @@
       "name": "Jan-Niklas Besta",
       "nation": "GER",
       "number": 4,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 6500
     },
     {
@@ -105,18 +109,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 64,
-        "dri": 58,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 62,
-        "pos": 60,
-        "sho": 52,
+        "dri": 54,
+        "ldr": 57,
+        "pac": 51,
+        "pas": 61,
+        "pos": 64,
+        "sho": 46,
         "sta": 62,
-        "str": 55,
-        "tac": 59,
-        "vis": 64
+        "str": 60,
+        "tac": 65,
+        "vis": 61
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -126,10 +130,13 @@
       "name": "Benedikt Seller",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -163,7 +170,7 @@
         "ldr": 53,
         "pac": 54,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 57,
         "sta": 51,
         "str": 59,
@@ -183,17 +190,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 59,
-        "dri": 56,
+        "aer": 58,
+        "com": 68,
+        "dri": 61,
         "ldr": 57,
-        "pac": 56,
+        "pac": 64,
         "pas": 63,
-        "pos": 58,
-        "sho": 51,
+        "pos": 67,
+        "sho": 60,
         "sta": 59,
-        "str": 52,
+        "str": 61,
         "tac": 56,
         "vis": 62
       },
@@ -205,10 +217,15 @@
       "name": "Jann Gaorge",
       "nation": "GER",
       "number": 9,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 9000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -216,7 +233,7 @@
         "ldr": 48,
         "pac": 52,
         "pas": 44,
-        "pos": 31,
+        "pos": 51,
         "sho": 53,
         "sta": 48,
         "str": 49,
@@ -236,6 +253,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -262,19 +282,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 57,
-        "dri": 53,
-        "ldr": 48,
-        "pac": 53,
-        "pas": 49,
-        "pos": 32,
-        "sho": 59,
-        "sta": 52,
-        "str": 54,
-        "tac": 24,
-        "vis": 48
+        "aer": 39,
+        "com": 54,
+        "dri": 58,
+        "ldr": 46,
+        "pac": 57,
+        "pas": 55,
+        "pos": 34,
+        "sho": 54,
+        "sta": 54,
+        "str": 44,
+        "tac": 30,
+        "vis": 54
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -284,7 +307,7 @@
       "name": "Erik Wakesser",
       "nation": "GER",
       "number": 13,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 3500
     },
     {
@@ -295,7 +318,7 @@
         "ldr": 47,
         "pac": 53,
         "pas": 48,
-        "pos": 32,
+        "pos": 52,
         "sho": 55,
         "sta": 51,
         "str": 55,
@@ -315,19 +338,23 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 62,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 56,
+        "aer": 44,
+        "com": 63,
+        "dri": 61,
+        "ldr": 51,
+        "pac": 59,
         "pas": 65,
-        "pos": 58,
-        "sho": 53,
-        "sta": 65,
-        "str": 53,
-        "tac": 54,
-        "vis": 58
+        "pos": 43,
+        "sho": 59,
+        "sta": 59,
+        "str": 48,
+        "tac": 36,
+        "vis": 60
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -338,23 +365,23 @@
       "name": "Sarpreet Syngh",
       "nation": "NZL",
       "number": 15,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9500
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 67,
-        "dri": 64,
-        "ldr": 64,
-        "pac": 61,
-        "pas": 70,
-        "pos": 67,
-        "sho": 59,
+        "dri": 60,
+        "ldr": 66,
+        "pac": 58,
+        "pas": 69,
+        "pos": 71,
+        "sho": 53,
         "sta": 66,
-        "str": 60,
-        "tac": 60,
-        "vis": 68
+        "str": 65,
+        "tac": 66,
+        "vis": 65
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -364,7 +391,7 @@
       "name": "Christoph Muritz",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12500
     },
     {
@@ -375,7 +402,7 @@
         "ldr": 55,
         "pac": 62,
         "pas": 54,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 52,
         "str": 57,
@@ -395,18 +422,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 62,
-        "dri": 45,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 56,
-        "pos": 63,
-        "sho": 36,
-        "sta": 55,
-        "str": 60,
-        "tac": 65,
-        "vis": 50
+        "aer": 49,
+        "com": 60,
+        "dri": 55,
+        "ldr": 55,
+        "pac": 65,
+        "pas": 60,
+        "pos": 58,
+        "sho": 43,
+        "sta": 61,
+        "str": 52,
+        "tac": 62,
+        "vis": 56
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -417,7 +444,7 @@
       "nation": "GAM",
       "nation2": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8500
     },
     {
@@ -447,19 +474,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 41,
-        "com": 54,
-        "dri": 47,
-        "ldr": 50,
-        "pac": 45,
-        "pas": 54,
-        "pos": 53,
-        "sho": 45,
-        "sta": 53,
-        "str": 49,
-        "tac": 50,
-        "vis": 54
+        "aer": 42,
+        "com": 56,
+        "dri": 49,
+        "ldr": 51,
+        "pac": 46,
+        "pas": 56,
+        "pos": 54,
+        "sho": 47,
+        "sta": 55,
+        "str": 50,
+        "tac": 51,
+        "vis": 56
       },
       "birth": "1999-05-01",
       "contract": null,
@@ -533,7 +563,7 @@
         "ldr": 45,
         "pac": 51,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 55,
         "sta": 52,
         "str": 51,
@@ -560,7 +590,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 42,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 50,
         "str": 55,
@@ -612,7 +642,7 @@
         "ldr": 51,
         "pac": 54,
         "pas": 48,
-        "pos": 29,
+        "pos": 49,
         "sho": 54,
         "sta": 50,
         "str": 53,
@@ -684,19 +714,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 41,
-        "com": 47,
-        "dri": 43,
-        "ldr": 41,
-        "pac": 44,
-        "pas": 49,
-        "pos": 47,
-        "sho": 41,
-        "sta": 52,
-        "str": 43,
-        "tac": 46,
-        "vis": 47
+        "aer": 42,
+        "com": 49,
+        "dri": 45,
+        "ldr": 42,
+        "pac": 45,
+        "pas": 51,
+        "pos": 48,
+        "sho": 43,
+        "sta": 54,
+        "str": 44,
+        "tac": 47,
+        "vis": 49
       },
       "birth": "2000-02-01",
       "contract": null,

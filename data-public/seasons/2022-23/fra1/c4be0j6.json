@@ -25,19 +25,22 @@
   },
   "squad": [
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 54,
-        "dri": 45,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 54,
-        "pos": 61,
-        "sho": 33,
-        "sta": 54,
-        "str": 62,
-        "tac": 60,
-        "vis": 48
+        "aer": 46,
+        "com": 52,
+        "dri": 55,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 58,
+        "pos": 56,
+        "sho": 40,
+        "sta": 60,
+        "str": 54,
+        "tac": 57,
+        "vis": 54
       },
       "birth": "2001-06-01",
       "contract": null,
@@ -47,7 +50,7 @@
       "name": "Vandersun",
       "nation": "BRA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14000
     },
     {
@@ -78,18 +81,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 65,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 57,
-        "pas": 67,
-        "pos": 62,
-        "sho": 59,
+        "dri": 59,
+        "ldr": 59,
+        "pac": 54,
+        "pas": 66,
+        "pos": 66,
+        "sho": 53,
         "sta": 67,
-        "str": 59,
-        "tac": 59,
-        "vis": 60
+        "str": 64,
+        "tac": 65,
+        "vis": 57
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -99,7 +102,7 @@
       "name": "Mohamed Camare",
       "nation": "MLI",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31500
     },
     {
@@ -162,7 +165,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 67,
         "sta": 58,
         "str": 59,
@@ -188,7 +191,7 @@
         "ldr": 67,
         "pac": 75,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 68,
         "str": 72,
@@ -207,19 +210,22 @@
       "wage": 71000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 68,
-        "dri": 54,
-        "ldr": 67,
-        "pac": 66,
-        "pas": 62,
-        "pos": 71,
-        "sho": 47,
-        "sta": 69,
-        "str": 73,
-        "tac": 73,
-        "vis": 56
+        "aer": 63,
+        "com": 66,
+        "dri": 64,
+        "ldr": 63,
+        "pac": 74,
+        "pas": 66,
+        "pos": 66,
+        "sho": 54,
+        "sta": 75,
+        "str": 65,
+        "tac": 70,
+        "vis": 62
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -229,7 +235,7 @@
       "name": "Caio Henriqua",
       "nation": "BRA",
       "number": 12,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 54500
     },
     {
@@ -256,10 +262,13 @@
       "nation": "GER",
       "nation2": "SEN",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -313,19 +322,22 @@
       "wage": 95000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 81,
-        "dri": 76,
-        "ldr": 72,
-        "pac": 73,
+        "aer": 64,
+        "com": 82,
+        "dri": 80,
+        "ldr": 70,
+        "pac": 76,
         "pas": 83,
-        "pos": 73,
-        "sho": 74,
-        "sta": 80,
-        "str": 74,
-        "tac": 71,
-        "vis": 81
+        "pos": 58,
+        "sho": 80,
+        "sta": 74,
+        "str": 69,
+        "tac": 53,
+        "vis": 83
       },
       "birth": "1996-05-01",
       "contract": null,
@@ -335,23 +347,27 @@
       "name": "Aleksandr Golovyn",
       "nation": "RUS",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 99500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 81,
-        "dri": 76,
-        "ldr": 78,
-        "pac": 73,
+        "aer": 61,
+        "com": 82,
+        "dri": 80,
+        "ldr": 76,
+        "pac": 76,
         "pas": 84,
-        "pos": 79,
-        "sho": 74,
-        "sta": 84,
-        "str": 76,
-        "tac": 77,
-        "vis": 80
+        "pos": 64,
+        "sho": 80,
+        "sta": 78,
+        "str": 71,
+        "tac": 59,
+        "vis": 82
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -361,13 +377,12 @@
       "name": "Takumi Minamyno",
       "nation": "JPN",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 99500
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "RW"
       ],
       "attrs": {
         "aer": 49,
@@ -424,18 +439,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 64,
-        "dri": 55,
-        "ldr": 62,
-        "pac": 63,
-        "pas": 57,
-        "pos": 66,
-        "sho": 39,
-        "sta": 64,
-        "str": 69,
-        "tac": 72,
-        "vis": 52
+        "aer": 59,
+        "com": 62,
+        "dri": 65,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 61,
+        "pos": 61,
+        "sho": 46,
+        "sta": 70,
+        "str": 61,
+        "tac": 69,
+        "vis": 58
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -445,23 +460,28 @@
       "name": "Ruben Agoilar",
       "nation": "FRA",
       "number": 26,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 35000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 76,
-        "dri": 68,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 65,
-        "pos": 48,
-        "sho": 74,
-        "sta": 69,
-        "str": 71,
-        "tac": 39,
-        "vis": 65
+        "aer": 53,
+        "com": 73,
+        "dri": 73,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 71,
+        "pos": 50,
+        "sho": 69,
+        "sta": 71,
+        "str": 61,
+        "tac": 45,
+        "vis": 71
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -471,10 +491,13 @@
       "name": "Krepin Diatte",
       "nation": "SEN",
       "number": 27,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 52500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -529,6 +552,10 @@
       "wage": 53500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 74,
         "com": 77,
@@ -536,7 +563,7 @@
         "ldr": 72,
         "pac": 76,
         "pas": 72,
-        "pos": 52,
+        "pos": 72,
         "sho": 83,
         "sta": 73,
         "str": 74,
@@ -562,7 +589,7 @@
         "ldr": 71,
         "pac": 79,
         "pas": 71,
-        "pos": 58,
+        "pos": 78,
         "sho": 81,
         "sta": 74,
         "str": 80,
@@ -582,19 +609,22 @@
       "wage": 99500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 54,
-        "dri": 56,
-        "ldr": 54,
-        "pac": 47,
-        "pas": 57,
-        "pos": 55,
-        "sho": 46,
+        "dri": 52,
+        "ldr": 56,
+        "pac": 44,
+        "pas": 56,
+        "pos": 59,
+        "sho": 40,
         "sta": 55,
-        "str": 52,
-        "tac": 52,
-        "vis": 53
+        "str": 57,
+        "tac": 58,
+        "vis": 50
       },
       "birth": "2003-10-01",
       "contract": null,
@@ -604,7 +634,7 @@
       "name": "Soungoutou Megassa",
       "nation": "FRA",
       "number": 41,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12500
     },
     {
@@ -615,7 +645,7 @@
         "ldr": 50,
         "pac": 58,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 59,
         "sta": 55,
         "str": 58,
@@ -634,19 +664,22 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 76,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 78,
-        "pas": 68,
-        "pos": 57,
-        "sho": 82,
-        "sta": 74,
-        "str": 75,
-        "tac": 47,
-        "vis": 67
+        "aer": 61,
+        "com": 73,
+        "dri": 78,
+        "ldr": 69,
+        "pac": 82,
+        "pas": 74,
+        "pos": 59,
+        "sho": 77,
+        "sta": 76,
+        "str": 65,
+        "tac": 53,
+        "vis": 73
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -657,7 +690,7 @@
       "nation": "POR",
       "nation2": "CPV",
       "number": 77,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 97000
     },
     {

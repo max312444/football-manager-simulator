@@ -130,13 +130,13 @@
         "com": 66,
         "dri": 74,
         "ldr": 58,
-        "pac": 73,
+        "pac": 80,
         "pas": 74,
-        "pos": 60,
+        "pos": 67,
         "sho": 64,
         "sta": 79,
-        "str": 72,
-        "tac": 60,
+        "str": 79,
+        "tac": 67,
         "vis": 66
       },
       "birth": "1987-09-01",
@@ -203,6 +203,9 @@
       "wage": 62500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -284,6 +287,9 @@
       "wage": 105500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 73,
@@ -310,6 +316,9 @@
       "wage": 115500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 59,
@@ -362,6 +371,10 @@
       "wage": 81500
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 69,
@@ -369,11 +382,11 @@
         "ldr": 65,
         "pac": 67,
         "pas": 76,
-        "pos": 62,
+        "pos": 69,
         "sho": 63,
         "sta": 75,
-        "str": 65,
-        "tac": 59,
+        "str": 72,
+        "tac": 66,
         "vis": 68
       },
       "birth": "1998-05-01",
@@ -414,19 +427,22 @@
       "wage": 119000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 73,
+        "com": 74,
         "dri": 72,
         "ldr": 79,
         "pac": 70,
-        "pas": 74,
+        "pas": 75,
         "pos": 65,
         "sho": 65,
         "sta": 87,
         "str": 77,
-        "tac": 63,
-        "vis": 73
+        "tac": 64,
+        "vis": 74
       },
       "birth": "1994-10-01",
       "contract": "2023-06-30",
@@ -444,6 +460,10 @@
       "wage": 129000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -470,6 +490,9 @@
       "wage": 70000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -496,6 +519,9 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 50,
         "com": 75,
@@ -518,7 +544,7 @@
       "name": "Jack Greelish",
       "nation": "ENG",
       "number": 10,
-      "pos": "AM",
+      "pos": "RW",
       "traits": [
         "flair"
       ],
@@ -527,17 +553,17 @@
     {
       "attrs": {
         "aer": 44,
-        "com": 53,
+        "com": 55,
         "dri": 60,
         "ldr": 38,
         "pac": 52,
-        "pas": 55,
+        "pas": 57,
         "pos": 48,
-        "sho": 48,
+        "sho": 50,
         "sta": 58,
         "str": 46,
         "tac": 46,
-        "vis": 51
+        "vis": 53
       },
       "birth": "2001-05-01",
       "contract": "2021-06-30",
@@ -547,10 +573,13 @@
       "name": "Jacob Remsey",
       "nation": "ENG",
       "number": 41,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 47,
         "com": 68,
@@ -606,17 +635,17 @@
     {
       "attrs": {
         "aer": 46,
-        "com": 65,
+        "com": 71,
         "dri": 67,
         "ldr": 56,
         "pac": 68,
-        "pas": 62,
+        "pas": 68,
         "pos": 49,
-        "sho": 62,
+        "sho": 68,
         "sta": 64,
         "str": 53,
         "tac": 46,
-        "vis": 60
+        "vis": 66
       },
       "birth": "1991-06-01",
       "contract": "2023-06-30",
@@ -626,21 +655,21 @@
       "name": "Juta",
       "nation": "ESP",
       "number": 23,
-      "pos": "RW",
+      "pos": "AM",
       "wage": 35500
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 68,
+        "aer": 62,
+        "com": 71,
         "dri": 66,
         "ldr": 60,
         "pac": 68,
         "pas": 60,
-        "pos": 46,
-        "sho": 69,
+        "pos": 49,
+        "sho": 72,
         "sta": 63,
-        "str": 65,
+        "str": 68,
         "tac": 40,
         "vis": 60
       },
@@ -657,16 +686,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 67,
+        "aer": 64,
+        "com": 69,
         "dri": 66,
         "ldr": 63,
         "pac": 69,
         "pas": 64,
-        "pos": 49,
-        "sho": 73,
+        "pos": 51,
+        "sho": 75,
         "sta": 63,
-        "str": 66,
+        "str": 68,
         "tac": 42,
         "vis": 61
       },
@@ -684,16 +713,16 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 60,
+        "aer": 53,
+        "com": 62,
         "dri": 55,
         "ldr": 45,
         "pac": 59,
         "pas": 54,
-        "pos": 41,
-        "sho": 61,
+        "pos": 43,
+        "sho": 63,
         "sta": 56,
-        "str": 56,
+        "str": 58,
         "tac": 36,
         "vis": 52
       },

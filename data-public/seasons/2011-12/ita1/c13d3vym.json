@@ -51,6 +51,9 @@
       "wage": 47000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 63,
@@ -77,6 +80,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 64,
@@ -110,7 +116,7 @@
         "ldr": 77,
         "pac": 80,
         "pas": 69,
-        "pos": 60,
+        "pos": 80,
         "sho": 80,
         "sta": 74,
         "str": 78,
@@ -129,6 +135,9 @@
       "wage": 74500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 71,
@@ -151,7 +160,7 @@
       "name": "Andrea Dussena",
       "nation": "ITA",
       "number": 8,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 53500
     },
     {
@@ -162,7 +171,7 @@
         "ldr": 58,
         "pac": 69,
         "pas": 61,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 63,
         "str": 64,
@@ -181,20 +190,23 @@
       "wage": 16000
     },
     {
-      "alt": [],
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 68,
-        "com": 77,
-        "dri": 79,
-        "ldr": 77,
-        "pac": 77,
-        "pas": 84,
+        "com": 73,
+        "dri": 77,
+        "ldr": 75,
+        "pac": 84,
+        "pas": 78,
         "pos": 74,
-        "sho": 74,
+        "sho": 60,
         "sta": 80,
-        "str": 72,
-        "tac": 78,
-        "vis": 80
+        "str": 71,
+        "tac": 82,
+        "vis": 71
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -204,23 +216,23 @@
       "name": "Christian Maggiu",
       "nation": "ITA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 85000
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 64,
-        "dri": 68,
-        "ldr": 62,
-        "pac": 74,
-        "pas": 64,
-        "pos": 68,
-        "sho": 54,
-        "sta": 74,
-        "str": 63,
-        "tac": 73,
-        "vis": 66
+        "aer": 74,
+        "com": 66,
+        "dri": 58,
+        "ldr": 66,
+        "pac": 66,
+        "pas": 60,
+        "pos": 73,
+        "sho": 47,
+        "sta": 68,
+        "str": 71,
+        "tac": 76,
+        "vis": 60
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -230,7 +242,7 @@
       "name": "Hugo Campagnero",
       "nation": "ARG",
       "number": 14,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 33500
     },
     {
@@ -260,6 +272,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 81,
@@ -286,19 +301,22 @@
       "wage": 85000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
-        "dri": 77,
+        "dri": 79,
         "ldr": 71,
-        "pac": 77,
-        "pas": 73,
-        "pos": 74,
-        "sho": 61,
-        "sta": 82,
-        "str": 72,
-        "tac": 75,
-        "vis": 72
+        "pac": 80,
+        "pas": 74,
+        "pos": 73,
+        "sho": 64,
+        "sta": 84,
+        "str": 73,
+        "tac": 74,
+        "vis": 73
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -308,23 +326,26 @@
       "name": "Juan Camilo Zunyga",
       "nation": "COL",
       "number": 18,
-      "pos": "RB",
+      "pos": "RWB",
       "wage": 73000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 73,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 62,
-        "pas": 70,
-        "pos": 71,
-        "sho": 62,
-        "sta": 72,
-        "str": 66,
-        "tac": 65,
-        "vis": 72
+        "aer": 57,
+        "com": 71,
+        "dri": 73,
+        "ldr": 61,
+        "pac": 71,
+        "pas": 66,
+        "pos": 53,
+        "sho": 66,
+        "sta": 68,
+        "str": 61,
+        "tac": 45,
+        "vis": 69
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -334,10 +355,13 @@
       "name": "Mario Santena",
       "nation": "ARG",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 39500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 78,
@@ -391,19 +415,23 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 79,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 79,
-        "pas": 70,
-        "pos": 56,
-        "sho": 86,
-        "sta": 77,
-        "str": 83,
-        "tac": 52,
-        "vis": 70
+        "aer": 61,
+        "com": 76,
+        "dri": 80,
+        "ldr": 73,
+        "pac": 83,
+        "pas": 76,
+        "pos": 58,
+        "sho": 81,
+        "sta": 79,
+        "str": 73,
+        "tac": 58,
+        "vis": 76
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -413,23 +441,23 @@
       "name": "Ezequiel Levezzi",
       "nation": "ARG",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 75000
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 68,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 74,
-        "pos": 71,
-        "sho": 67,
+        "dri": 66,
+        "ldr": 71,
+        "pac": 66,
+        "pas": 73,
+        "pos": 75,
+        "sho": 61,
         "sta": 75,
-        "str": 68,
-        "tac": 68,
-        "vis": 69
+        "str": 73,
+        "tac": 74,
+        "vis": 66
       },
       "birth": "1984-07-01",
       "contract": null,
@@ -439,13 +467,10 @@
       "name": "Walter Garganu",
       "nation": "URU",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 46500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 79,
         "com": 72,
@@ -479,7 +504,7 @@
         "ldr": 71,
         "pac": 76,
         "pas": 69,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 76,
         "str": 78,
@@ -499,19 +524,23 @@
       "wage": 61500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 60,
-        "dri": 58,
-        "ldr": 53,
-        "pac": 56,
-        "pas": 51,
-        "pos": 38,
-        "sho": 59,
-        "sta": 52,
-        "str": 60,
-        "tac": 31,
-        "vis": 53
+        "aer": 43,
+        "com": 57,
+        "dri": 63,
+        "ldr": 51,
+        "pac": 60,
+        "pas": 57,
+        "pos": 40,
+        "sho": 54,
+        "sta": 54,
+        "str": 50,
+        "tac": 37,
+        "vis": 59
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -521,7 +550,7 @@
       "name": "Cristian Chavaz",
       "nation": "ARG",
       "number": 32,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 7000
     },
     {
@@ -551,6 +580,9 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 77,
@@ -629,6 +661,10 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -663,7 +699,7 @@
         "ldr": 65,
         "pac": 73,
         "pas": 64,
-        "pos": 48,
+        "pos": 68,
         "sho": 76,
         "sta": 63,
         "str": 67,

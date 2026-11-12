@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 67,
-        "dri": 52,
-        "ldr": 65,
-        "pac": 63,
-        "pas": 61,
-        "pos": 72,
-        "sho": 42,
-        "sta": 68,
-        "str": 68,
-        "tac": 71,
-        "vis": 53
+        "aer": 59,
+        "com": 65,
+        "dri": 62,
+        "ldr": 61,
+        "pac": 71,
+        "pas": 65,
+        "pos": 67,
+        "sho": 49,
+        "sta": 74,
+        "str": 60,
+        "tac": 68,
+        "vis": 59
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -73,23 +73,23 @@
       "name": "Moritz Vulz",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10500
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 69,
-        "dri": 56,
-        "ldr": 69,
-        "pac": 66,
-        "pas": 63,
-        "pos": 73,
-        "sho": 43,
-        "sta": 67,
-        "str": 71,
-        "tac": 74,
-        "vis": 53
+        "aer": 62,
+        "com": 67,
+        "dri": 66,
+        "ldr": 65,
+        "pac": 74,
+        "pas": 67,
+        "pos": 68,
+        "sho": 50,
+        "sta": 73,
+        "str": 63,
+        "tac": 71,
+        "vis": 59
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -99,7 +99,7 @@
       "name": "Grzegorz Wojtkowiek",
       "nation": "POL",
       "number": 3,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10500
     },
     {
@@ -156,18 +156,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 53,
-        "dri": 51,
-        "ldr": 50,
-        "pac": 53,
-        "pas": 57,
-        "pos": 53,
-        "sho": 49,
+        "dri": 47,
+        "ldr": 52,
+        "pac": 50,
+        "pas": 56,
+        "pos": 57,
+        "sho": 43,
         "sta": 55,
-        "str": 48,
-        "tac": 52,
-        "vis": 59
+        "str": 53,
+        "tac": 58,
+        "vis": 56
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -177,23 +177,23 @@
       "name": "Dominik Stehl",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 68,
-        "dri": 66,
-        "ldr": 61,
-        "pac": 63,
-        "pas": 67,
-        "pos": 60,
-        "sho": 58,
-        "sta": 68,
-        "str": 60,
-        "tac": 58,
-        "vis": 65
+        "aer": 52,
+        "com": 66,
+        "dri": 69,
+        "ldr": 59,
+        "pac": 71,
+        "pas": 69,
+        "pos": 52,
+        "sho": 56,
+        "sta": 73,
+        "str": 57,
+        "tac": 54,
+        "vis": 66
       },
       "birth": "1979-02-01",
       "contract": null,
@@ -203,7 +203,7 @@
       "name": "Daniel Byerofka",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 10500
     },
     {
@@ -214,7 +214,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 73,
         "sta": 63,
         "str": 71,
@@ -234,6 +234,10 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -267,7 +271,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 63,
         "str": 64,
@@ -286,19 +290,22 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 66,
-        "dri": 67,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 65,
-        "pos": 62,
-        "sho": 61,
-        "sta": 66,
-        "str": 58,
-        "tac": 62,
-        "vis": 67
+        "aer": 52,
+        "com": 64,
+        "dri": 72,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 61,
+        "pos": 44,
+        "sho": 65,
+        "sta": 62,
+        "str": 53,
+        "tac": 42,
+        "vis": 64
       },
       "birth": "1987-08-01",
       "contract": null,
@@ -308,7 +315,7 @@
       "name": "Marin Tomasuv",
       "nation": "CRO",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 10500
     },
     {
@@ -319,7 +326,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 52,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 56,
         "str": 60,
@@ -364,6 +371,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -390,6 +400,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 50,
@@ -423,7 +436,7 @@
         "ldr": 54,
         "pac": 62,
         "pas": 51,
-        "pos": 40,
+        "pos": 60,
         "sho": 61,
         "sta": 56,
         "str": 62,
@@ -468,6 +481,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 60,
@@ -490,10 +506,14 @@
       "name": "Arne Feyck",
       "nation": "GER",
       "number": 27,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,
@@ -546,19 +566,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 46,
+        "com": 56,
         "dri": 35,
         "ldr": 48,
         "pac": 45,
-        "pas": 41,
+        "pas": 51,
         "pos": 53,
         "sho": 25,
-        "sta": 45,
+        "sta": 55,
         "str": 49,
         "tac": 54,
-        "vis": 37
+        "vis": 47
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -568,23 +593,23 @@
       "name": "Kodjovi Kuussou",
       "nation": "GER",
       "number": 31,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 31,
         "com": 49,
-        "dri": 49,
+        "dri": 53,
         "ldr": 42,
-        "pac": 50,
-        "pas": 38,
-        "pos": 25,
-        "sho": 54,
+        "pac": 48,
+        "pas": 48,
+        "pos": 30,
+        "sho": 51,
         "sta": 42,
-        "str": 46,
-        "tac": 18,
-        "vis": 42
+        "str": 36,
+        "tac": 26,
+        "vis": 53
       },
       "birth": "1993-10-01",
       "contract": null,
@@ -594,10 +619,13 @@
       "name": "Korbinian Vullmann",
       "nation": "GER",
       "number": 33,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 48,
@@ -646,7 +674,7 @@
       "name": "Phillipp Steynhart",
       "nation": "GER",
       "number": 36,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 2500
     }
   ],

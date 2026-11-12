@@ -25,21 +25,23 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 66,
-        "com": 74,
-        "dri": 74,
-        "ldr": 74,
-        "pac": 71,
+        "aer": 60,
+        "com": 75,
+        "dri": 78,
+        "ldr": 72,
+        "pac": 74,
         "pas": 79,
-        "pos": 77,
-        "sho": 69,
-        "sta": 75,
-        "str": 74,
-        "tac": 72,
-        "vis": 74
+        "pos": 62,
+        "sho": 75,
+        "sta": 69,
+        "str": 69,
+        "tac": 54,
+        "vis": 76
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -49,23 +51,23 @@
       "name": "Marek Mintel",
       "nation": "SVK",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 28000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 70,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 75,
-        "pas": 73,
-        "pos": 70,
-        "sho": 58,
-        "sta": 80,
-        "str": 69,
-        "tac": 75,
-        "vis": 69
+        "aer": 76,
+        "com": 72,
+        "dri": 64,
+        "ldr": 75,
+        "pac": 67,
+        "pas": 69,
+        "pos": 75,
+        "sho": 51,
+        "sta": 74,
+        "str": 77,
+        "tac": 78,
+        "vis": 63
       },
       "birth": "1975-12-01",
       "contract": null,
@@ -75,11 +77,15 @@
       "name": "Bartosz Bosecki",
       "nation": "POL",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "verify": true,
       "wage": 28000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,
@@ -114,7 +120,7 @@
         "ldr": 66,
         "pac": 70,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 73,
         "sta": 65,
         "str": 72,
@@ -135,18 +141,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 69,
-        "dri": 67,
-        "ldr": 66,
-        "pac": 69,
+        "aer": 57,
+        "com": 70,
+        "dri": 71,
+        "ldr": 64,
+        "pac": 72,
         "pas": 70,
-        "pos": 68,
-        "sho": 64,
-        "sta": 73,
-        "str": 68,
-        "tac": 67,
-        "vis": 75
+        "pos": 53,
+        "sho": 70,
+        "sta": 67,
+        "str": 63,
+        "tac": 49,
+        "vis": 77
       },
       "birth": "1975-10-01",
       "contract": null,
@@ -156,24 +162,24 @@
       "name": "Samuel Sluvak",
       "nation": "SVK",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 24500
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 72,
-        "dri": 68,
-        "ldr": 67,
-        "pac": 68,
-        "pas": 75,
-        "pos": 69,
-        "sho": 66,
+        "dri": 64,
+        "ldr": 69,
+        "pac": 65,
+        "pas": 74,
+        "pos": 73,
+        "sho": 60,
         "sta": 75,
-        "str": 68,
-        "tac": 68,
-        "vis": 70
+        "str": 73,
+        "tac": 74,
+        "vis": 67
       },
       "birth": "1973-08-01",
       "contract": null,
@@ -183,11 +189,13 @@
       "name": "Tommy Svindal Larsan",
       "nation": "NOR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 26500
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -224,7 +232,7 @@
         "ldr": 61,
         "pac": 70,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 74,
         "sta": 62,
         "str": 68,
@@ -244,6 +252,11 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 69,
@@ -272,18 +285,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 67,
+        "aer": 62,
+        "com": 68,
         "dri": 68,
-        "ldr": 60,
-        "pac": 65,
-        "pas": 71,
+        "ldr": 58,
+        "pac": 70,
+        "pas": 61,
         "pos": 66,
-        "sho": 58,
-        "sta": 67,
-        "str": 60,
-        "tac": 64,
-        "vis": 67
+        "sho": 67,
+        "sta": 61,
+        "str": 65,
+        "tac": 38,
+        "vis": 58
       },
       "birth": "1977-11-01",
       "contract": null,
@@ -293,7 +306,7 @@
       "name": "Marcel Ketalaer",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 15000
     },
@@ -324,6 +337,11 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 61,
@@ -351,6 +369,11 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 63,
@@ -410,7 +433,7 @@
         "ldr": 57,
         "pac": 67,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 70,
         "sta": 62,
         "str": 67,
@@ -437,7 +460,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 70,
         "sta": 58,
         "str": 68,
@@ -463,7 +486,7 @@
         "ldr": 55,
         "pac": 63,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 67,
         "sta": 61,
         "str": 65,
@@ -484,18 +507,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 59,
-        "dri": 47,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 58,
-        "pos": 70,
-        "sho": 37,
-        "sta": 61,
-        "str": 65,
-        "tac": 69,
-        "vis": 51
+        "aer": 52,
+        "com": 57,
+        "dri": 57,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 62,
+        "pos": 65,
+        "sho": 44,
+        "sta": 67,
+        "str": 57,
+        "tac": 66,
+        "vis": 57
       },
       "birth": "1970-08-01",
       "contract": null,
@@ -505,11 +528,14 @@
       "name": "Stephan Passleck",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 8000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 59,
@@ -536,6 +562,11 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 63,
@@ -590,18 +621,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 65,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 62,
-        "pos": 60,
-        "sho": 57,
+        "dri": 54,
+        "ldr": 59,
+        "pac": 53,
+        "pas": 61,
+        "pos": 64,
+        "sho": 51,
         "sta": 64,
-        "str": 60,
-        "tac": 56,
-        "vis": 64
+        "str": 65,
+        "tac": 62,
+        "vis": 61
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -611,24 +642,24 @@
       "name": "Ivica Banuvic",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 9000
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 62,
-        "ldr": 57,
-        "pac": 55,
+        "aer": 48,
+        "com": 64,
+        "dri": 66,
+        "ldr": 55,
+        "pac": 58,
         "pas": 63,
-        "pos": 61,
-        "sho": 54,
-        "sta": 67,
-        "str": 58,
-        "tac": 57,
-        "vis": 65
+        "pos": 46,
+        "sho": 60,
+        "sta": 61,
+        "str": 53,
+        "tac": 39,
+        "vis": 67
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -638,10 +669,15 @@
       "name": "Mehdi Taouyl",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 65,
@@ -730,7 +766,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 53,
-        "pos": 34,
+        "pos": 54,
         "sho": 60,
         "sta": 52,
         "str": 57,
@@ -777,18 +813,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 56,
-        "dri": 57,
-        "ldr": 54,
-        "pac": 54,
+        "aer": 44,
+        "com": 57,
+        "dri": 61,
+        "ldr": 52,
+        "pac": 57,
         "pas": 59,
-        "pos": 54,
-        "sho": 50,
-        "sta": 61,
-        "str": 53,
-        "tac": 55,
-        "vis": 61
+        "pos": 39,
+        "sho": 56,
+        "sta": 55,
+        "str": 48,
+        "tac": 37,
+        "vis": 63
       },
       "birth": "1979-10-01",
       "contract": null,
@@ -798,7 +834,7 @@
       "name": "Vledemir",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 5500
     },
@@ -810,7 +846,7 @@
         "ldr": 51,
         "pac": 53,
         "pas": 46,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 50,
         "str": 59,
@@ -857,19 +893,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 58,
-        "dri": 50,
+        "dri": 57,
         "ldr": 47,
         "pac": 54,
-        "pas": 49,
-        "pos": 31,
+        "pas": 56,
+        "pos": 51,
         "sho": 60,
         "sta": 50,
         "str": 54,
         "tac": 23,
-        "vis": 48
+        "vis": 55
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -879,24 +920,24 @@
       "name": "Lawrence Aydoo",
       "nation": "GHA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 52,
-        "dri": 52,
-        "ldr": 49,
-        "pac": 53,
-        "pas": 56,
-        "pos": 54,
-        "sho": 47,
+        "dri": 48,
+        "ldr": 51,
+        "pac": 50,
+        "pas": 55,
+        "pos": 58,
+        "sho": 41,
         "sta": 58,
-        "str": 53,
-        "tac": 48,
-        "vis": 56
+        "str": 58,
+        "tac": 54,
+        "vis": 53
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -906,11 +947,14 @@
       "name": "Maik Wagefald",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 55,
@@ -964,19 +1008,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 49,
+        "com": 58,
         "dri": 40,
         "ldr": 48,
         "pac": 46,
-        "pas": 43,
+        "pas": 52,
         "pos": 56,
         "sho": 28,
-        "sta": 49,
+        "sta": 58,
         "str": 57,
         "tac": 55,
-        "vis": 37
+        "vis": 46
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -986,7 +1035,7 @@
       "name": "Tygrao",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
@@ -1025,7 +1074,7 @@
         "ldr": 41,
         "pac": 49,
         "pas": 41,
-        "pos": 25,
+        "pos": 45,
         "sho": 55,
         "sta": 42,
         "str": 47,
@@ -1044,6 +1093,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 46,

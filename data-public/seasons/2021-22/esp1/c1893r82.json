@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 46,
-        "ldr": 60,
-        "pac": 53,
-        "pas": 50,
-        "pos": 67,
-        "sho": 31,
-        "sta": 59,
-        "str": 62,
-        "tac": 63,
-        "vis": 48
+        "aer": 50,
+        "com": 57,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 61,
+        "pas": 54,
+        "pos": 62,
+        "sho": 38,
+        "sta": 65,
+        "str": 54,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "1999-03-01",
       "contract": null,
@@ -73,23 +73,23 @@
       "name": "Thierry Correya",
       "nation": "POR",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 64,
-        "dri": 48,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 54,
-        "pos": 67,
-        "sho": 38,
-        "sta": 57,
-        "str": 69,
-        "tac": 67,
-        "vis": 49
+        "aer": 56,
+        "com": 62,
+        "dri": 58,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 58,
+        "pos": 62,
+        "sho": 45,
+        "sta": 63,
+        "str": 61,
+        "tac": 64,
+        "vis": 55
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -99,10 +99,15 @@
       "name": "Toni Latu",
       "nation": "ESP",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 19000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -157,8 +162,7 @@
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 72,
@@ -186,19 +190,23 @@
       "wage": 47000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 77,
-        "dri": 77,
-        "ldr": 73,
-        "pac": 78,
-        "pas": 67,
-        "pos": 58,
-        "sho": 78,
-        "sta": 76,
-        "str": 79,
-        "tac": 46,
-        "vis": 72
+        "aer": 63,
+        "com": 74,
+        "dri": 82,
+        "ldr": 71,
+        "pac": 82,
+        "pas": 73,
+        "pos": 60,
+        "sho": 73,
+        "sta": 78,
+        "str": 69,
+        "tac": 52,
+        "vis": 78
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -208,23 +216,23 @@
       "name": "Goncalo Goedes",
       "nation": "POR",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 85000
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 64,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 62,
-        "pas": 64,
-        "pos": 65,
-        "sho": 57,
+        "dri": 56,
+        "ldr": 60,
+        "pac": 59,
+        "pas": 63,
+        "pos": 69,
+        "sho": 51,
         "sta": 69,
-        "str": 57,
-        "tac": 64,
-        "vis": 67
+        "str": 62,
+        "tac": 70,
+        "vis": 64
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -234,7 +242,7 @@
       "name": "Uros Racyc",
       "nation": "SRB",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 29000
     },
     {
@@ -245,7 +253,7 @@
         "ldr": 66,
         "pac": 70,
         "pas": 64,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 65,
         "str": 71,
@@ -264,6 +272,9 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -290,6 +301,9 @@
       "wage": 96500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 67,
@@ -365,10 +379,13 @@
       "name": "Jose Geya",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 96500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 65,
@@ -396,19 +413,22 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 83,
-        "dri": 83,
-        "ldr": 78,
-        "pac": 75,
-        "pas": 83,
-        "pos": 82,
-        "sho": 74,
-        "sta": 87,
-        "str": 76,
-        "tac": 76,
-        "vis": 82
+        "aer": 68,
+        "com": 81,
+        "dri": 88,
+        "ldr": 74,
+        "pac": 84,
+        "pas": 79,
+        "pos": 64,
+        "sho": 78,
+        "sta": 83,
+        "str": 71,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1990-12-01",
       "contract": null,
@@ -419,10 +439,15 @@
       "nation": "RUS",
       "nation2": "ESP",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 96500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -449,19 +474,23 @@
       "wage": 96500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 63,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 64,
-        "pas": 56,
-        "pos": 39,
-        "sho": 64,
-        "sta": 59,
-        "str": 61,
-        "tac": 31,
-        "vis": 54
+        "aer": 47,
+        "com": 60,
+        "dri": 65,
+        "ldr": 53,
+        "pac": 68,
+        "pas": 62,
+        "pos": 41,
+        "sho": 59,
+        "sta": 61,
+        "str": 51,
+        "tac": 37,
+        "vis": 60
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -471,7 +500,7 @@
       "name": "Manu Vellejo",
       "nation": "ESP",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 14000
     },
     {
@@ -482,7 +511,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 58,
         "str": 62,
@@ -501,19 +530,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 71,
-        "pos": 64,
-        "sho": 57,
-        "sta": 68,
-        "str": 64,
-        "tac": 59,
-        "vis": 64
+        "aer": 53,
+        "com": 66,
+        "dri": 70,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 67,
+        "pos": 46,
+        "sho": 61,
+        "sta": 64,
+        "str": 59,
+        "tac": 39,
+        "vis": 61
       },
       "birth": "1994-07-01",
       "contract": null,
@@ -523,7 +555,7 @@
       "name": "Jasun",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 34500
     },
     {
@@ -633,19 +665,22 @@
       "wage": 80000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 75,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 73,
-        "pas": 67,
-        "pos": 56,
-        "sho": 82,
-        "sta": 70,
-        "str": 79,
-        "tac": 49,
-        "vis": 65
+        "aer": 57,
+        "com": 72,
+        "dri": 80,
+        "ldr": 71,
+        "pac": 77,
+        "pas": 73,
+        "pos": 58,
+        "sho": 77,
+        "sta": 72,
+        "str": 69,
+        "tac": 55,
+        "vis": 71
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -657,7 +692,7 @@
       "nation": "ANG",
       "nation2": "POR",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 68000
     },
     {
@@ -668,7 +703,7 @@
         "ldr": 57,
         "pac": 61,
         "pas": 52,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 59,
         "str": 62,

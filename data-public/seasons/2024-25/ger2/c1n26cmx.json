@@ -85,7 +85,7 @@
         "ldr": 50,
         "pac": 58,
         "pas": 51,
-        "pos": 33,
+        "pos": 53,
         "sho": 62,
         "sta": 53,
         "str": 57,
@@ -104,19 +104,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 55,
-        "dri": 52,
-        "ldr": 50,
-        "pac": 47,
-        "pas": 59,
-        "pos": 51,
-        "sho": 49,
-        "sta": 58,
-        "str": 49,
-        "tac": 54,
-        "vis": 54
+        "aer": 42,
+        "com": 53,
+        "dri": 57,
+        "ldr": 46,
+        "pac": 56,
+        "pas": 55,
+        "pos": 33,
+        "sho": 53,
+        "sta": 54,
+        "str": 44,
+        "tac": 34,
+        "vis": 51
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -126,23 +129,28 @@
       "name": "Andreas Lodwig",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 11500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 59,
-        "dri": 57,
+        "com": 63,
+        "dri": 65,
         "ldr": 53,
         "pac": 60,
-        "pas": 49,
-        "pos": 39,
-        "sho": 60,
+        "pas": 61,
+        "pos": 59,
+        "sho": 64,
         "sta": 58,
         "str": 58,
         "tac": 30,
-        "vis": 48
+        "vis": 60
       },
       "birth": "1992-10-01",
       "contract": null,
@@ -152,23 +160,26 @@
       "name": "Dennis Chesse",
       "nation": "GER",
       "number": 11,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 11500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 65,
-        "dri": 63,
-        "ldr": 56,
-        "pac": 62,
-        "pas": 59,
-        "pos": 41,
-        "sho": 68,
-        "sta": 57,
-        "str": 64,
-        "tac": 34,
-        "vis": 59
+        "aer": 45,
+        "com": 62,
+        "dri": 68,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 65,
+        "pos": 43,
+        "sho": 63,
+        "sta": 59,
+        "str": 54,
+        "tac": 40,
+        "vis": 65
       },
       "birth": "2002-09-01",
       "contract": null,
@@ -179,23 +190,23 @@
       "name": "Jayden Nalson",
       "nation": "CAN",
       "number": 13,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 11500
     },
     {
       "attrs": {
-        "aer": 39,
-        "com": 44,
+        "aer": 47,
+        "com": 45,
         "dri": 47,
-        "ldr": 45,
-        "pac": 40,
-        "pas": 51,
+        "ldr": 43,
+        "pac": 45,
+        "pas": 41,
         "pos": 47,
-        "sho": 40,
-        "sta": 50,
-        "str": 43,
-        "tac": 42,
-        "vis": 46
+        "sho": 49,
+        "sta": 44,
+        "str": 48,
+        "tac": 16,
+        "vis": 37
       },
       "birth": "2004-05-01",
       "contract": null,
@@ -206,23 +217,26 @@
       "name": "Aaron Kaller",
       "nation": "SUI",
       "number": 16,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 5000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 51,
-        "dri": 34,
-        "ldr": 49,
-        "pac": 45,
-        "pas": 43,
-        "pos": 55,
-        "sho": 24,
-        "sta": 45,
-        "str": 51,
-        "tac": 53,
-        "vis": 38
+        "aer": 40,
+        "com": 49,
+        "dri": 44,
+        "ldr": 45,
+        "pac": 53,
+        "pas": 47,
+        "pos": 50,
+        "sho": 31,
+        "sta": 51,
+        "str": 43,
+        "tac": 50,
+        "vis": 44
       },
       "birth": "1999-11-01",
       "contract": null,
@@ -232,23 +246,28 @@
       "name": "Niklas Kolla",
       "nation": "GER",
       "number": 17,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 50,
+        "com": 57,
         "dri": 40,
         "ldr": 50,
         "pac": 46,
-        "pas": 47,
+        "pas": 54,
         "pos": 55,
         "sho": 28,
-        "sta": 51,
+        "sta": 58,
         "str": 55,
         "tac": 55,
-        "vis": 38
+        "vis": 45
       },
       "birth": "1996-05-01",
       "contract": null,
@@ -258,23 +277,23 @@
       "name": "Lennart Stull",
       "nation": "GER",
       "number": 18,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 7000
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 55,
-        "dri": 42,
-        "ldr": 50,
-        "pac": 48,
-        "pas": 48,
-        "pos": 59,
-        "sho": 26,
-        "sta": 54,
-        "str": 56,
-        "tac": 61,
-        "vis": 38
+        "aer": 48,
+        "com": 53,
+        "dri": 52,
+        "ldr": 46,
+        "pac": 56,
+        "pas": 52,
+        "pos": 54,
+        "sho": 33,
+        "sta": 60,
+        "str": 48,
+        "tac": 58,
+        "vis": 44
       },
       "birth": "1999-11-01",
       "contract": null,
@@ -284,10 +303,14 @@
       "name": "Jonathan Maier",
       "nation": "GER",
       "number": 19,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 52,
@@ -322,7 +345,7 @@
         "ldr": 49,
         "pac": 53,
         "pas": 44,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 50,
         "str": 53,
@@ -341,19 +364,23 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 53,
-        "dri": 51,
-        "ldr": 47,
-        "pac": 47,
+        "aer": 34,
+        "com": 54,
+        "dri": 55,
+        "ldr": 45,
+        "pac": 50,
         "pas": 52,
-        "pos": 48,
-        "sho": 48,
-        "sta": 51,
-        "str": 46,
-        "tac": 44,
-        "vis": 53
+        "pos": 33,
+        "sho": 54,
+        "sta": 45,
+        "str": 41,
+        "tac": 26,
+        "vis": 55
       },
       "birth": "2005-08-01",
       "contract": null,
@@ -364,7 +391,7 @@
       "name": "Maurice Krettenmacher",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7500
     },
     {
@@ -401,7 +428,7 @@
         "ldr": 47,
         "pac": 57,
         "pas": 45,
-        "pos": 29,
+        "pos": 49,
         "sho": 56,
         "sta": 52,
         "str": 57,
@@ -420,6 +447,10 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 50,
@@ -448,18 +479,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 52,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 53,
-        "pas": 58,
-        "pos": 52,
-        "sho": 46,
-        "sta": 60,
-        "str": 47,
-        "tac": 51,
-        "vis": 57
+        "aer": 41,
+        "com": 50,
+        "dri": 57,
+        "ldr": 44,
+        "pac": 62,
+        "pas": 54,
+        "pos": 34,
+        "sho": 50,
+        "sta": 56,
+        "str": 42,
+        "tac": 31,
+        "vis": 54
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -469,7 +500,7 @@
       "name": "Romario Rusch",
       "nation": "GER",
       "number": 43,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 11500
     },
     {
@@ -480,7 +511,7 @@
         "ldr": 40,
         "pac": 47,
         "pas": 38,
-        "pos": 28,
+        "pos": 48,
         "sho": 52,
         "sta": 46,
         "str": 48,
@@ -506,7 +537,7 @@
         "ldr": 43,
         "pac": 49,
         "pas": 41,
-        "pos": 29,
+        "pos": 49,
         "sho": 49,
         "sta": 43,
         "str": 47,

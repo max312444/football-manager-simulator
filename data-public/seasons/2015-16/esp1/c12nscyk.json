@@ -99,7 +99,7 @@
       "name": "Filipe Luys",
       "nation": "BRA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 131000
     },
     {
@@ -125,10 +125,13 @@
       "name": "Guilherme Siqueyra",
       "nation": "BRA",
       "number": 4,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 40000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 78,
@@ -155,6 +158,9 @@
       "wage": 109500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 75,
@@ -181,6 +187,11 @@
       "wage": 131000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 83,
         "com": 85,
@@ -188,7 +199,7 @@
         "ldr": 78,
         "pac": 80,
         "pas": 75,
-        "pos": 60,
+        "pos": 80,
         "sho": 82,
         "sta": 77,
         "str": 80,
@@ -214,7 +225,7 @@
         "ldr": 77,
         "pac": 86,
         "pas": 73,
-        "pos": 62,
+        "pos": 82,
         "sho": 88,
         "sta": 80,
         "str": 82,
@@ -234,6 +245,9 @@
       "wage": 131000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -267,7 +281,7 @@
         "ldr": 76,
         "pac": 78,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 79,
         "sta": 72,
         "str": 79,
@@ -338,19 +352,23 @@
       "wage": 95000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 72,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 71,
-        "pas": 67,
-        "pos": 52,
-        "sho": 78,
-        "sta": 69,
-        "str": 69,
-        "tac": 39,
-        "vis": 66
+        "aer": 54,
+        "com": 69,
+        "dri": 73,
+        "ldr": 63,
+        "pac": 75,
+        "pas": 73,
+        "pos": 54,
+        "sho": 73,
+        "sta": 71,
+        "str": 59,
+        "tac": 45,
+        "vis": 72
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -360,10 +378,13 @@
       "name": "Angel Corraa",
       "nation": "ARG",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 43000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -391,18 +412,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 74,
-        "dri": 62,
-        "ldr": 71,
-        "pac": 68,
-        "pas": 66,
-        "pos": 76,
-        "sho": 47,
-        "sta": 71,
-        "str": 76,
-        "tac": 74,
-        "vis": 59
+        "aer": 60,
+        "com": 72,
+        "dri": 72,
+        "ldr": 67,
+        "pac": 76,
+        "pas": 70,
+        "pos": 71,
+        "sho": 54,
+        "sta": 77,
+        "str": 68,
+        "tac": 71,
+        "vis": 65
       },
       "birth": "1985-04-01",
       "contract": null,
@@ -412,10 +433,13 @@
       "name": "Jesus Gemez",
       "nation": "ESP",
       "number": 18,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 59000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 72,
         "com": 71,
@@ -443,22 +467,19 @@
       "wage": 36500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 84,
-        "com": 76,
-        "dri": 66,
-        "ldr": 80,
-        "pac": 72,
-        "pas": 69,
-        "pos": 80,
-        "sho": 56,
-        "sta": 76,
-        "str": 84,
-        "tac": 86,
-        "vis": 63
+        "aer": 71,
+        "com": 74,
+        "dri": 76,
+        "ldr": 76,
+        "pac": 80,
+        "pas": 73,
+        "pos": 75,
+        "sho": 63,
+        "sta": 82,
+        "str": 76,
+        "tac": 83,
+        "vis": 69
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -468,22 +489,22 @@
       "name": "Joanfran",
       "nation": "ESP",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 119500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 74,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 70,
-        "pas": 78,
-        "pos": 74,
-        "sho": 71,
-        "sta": 76,
-        "str": 70,
-        "tac": 70,
+        "aer": 61,
+        "com": 72,
+        "dri": 77,
+        "ldr": 69,
+        "pac": 78,
+        "pas": 79,
+        "pos": 66,
+        "sho": 69,
+        "sta": 80,
+        "str": 67,
+        "tac": 65,
         "vis": 76
       },
       "birth": "1993-09-01",
@@ -494,23 +515,23 @@
       "name": "Yannick Carrascu",
       "nation": "BEL",
       "number": 21,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 96000
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 65,
-        "dri": 65,
-        "ldr": 65,
-        "pac": 65,
-        "pas": 68,
-        "pos": 62,
-        "sho": 64,
+        "dri": 61,
+        "ldr": 67,
+        "pac": 62,
+        "pas": 67,
+        "pos": 66,
+        "sho": 58,
         "sta": 72,
-        "str": 60,
-        "tac": 66,
-        "vis": 70
+        "str": 65,
+        "tac": 72,
+        "vis": 67
       },
       "birth": "1993-06-01",
       "contract": null,
@@ -520,23 +541,27 @@
       "name": "Thomas Pertey",
       "nation": "GHA",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 41500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 67,
-        "dri": 69,
-        "ldr": 62,
-        "pac": 67,
-        "pas": 57,
-        "pos": 48,
-        "sho": 73,
-        "sta": 63,
-        "str": 69,
-        "tac": 39,
-        "vis": 57
+        "aer": 53,
+        "com": 64,
+        "dri": 74,
+        "ldr": 60,
+        "pac": 71,
+        "pas": 63,
+        "pos": 50,
+        "sho": 68,
+        "sta": 65,
+        "str": 59,
+        "tac": 45,
+        "vis": 63
       },
       "birth": "1993-12-01",
       "contract": null,
@@ -547,7 +572,7 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 28000
     },
     {

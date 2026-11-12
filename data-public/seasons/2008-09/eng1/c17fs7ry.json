@@ -155,9 +155,6 @@
       "wage": 49000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 84,
         "com": 81,
@@ -218,7 +215,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 32,
@@ -242,7 +239,7 @@
       "name": "Andy van der Meide",
       "nation": "NED",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],
@@ -279,7 +276,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 50,
@@ -311,6 +309,10 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -338,16 +340,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 61,
+        "aer": 63,
+        "com": 63,
         "dri": 62,
         "ldr": 46,
         "pac": 66,
         "pas": 52,
-        "pos": 31,
-        "sho": 72,
+        "pos": 33,
+        "sho": 74,
         "sta": 59,
-        "str": 63,
+        "str": 65,
         "tac": 20,
         "vis": 54
       },
@@ -392,9 +394,6 @@
       "wage": 30500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -423,8 +422,9 @@
     },
     {
       "alt": [
-        "ST",
-        "CM"
+        "CM",
+        "DM",
+        "ST"
       ],
       "attrs": {
         "aer": 87,
@@ -458,6 +458,7 @@
     {
       "alt": [
         "RB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -490,21 +491,22 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 50,
-        "com": 73,
+        "com": 84,
         "dri": 84,
         "ldr": 64,
         "pac": 82,
-        "pas": 73,
+        "pas": 84,
         "pos": 49,
-        "sho": 70,
+        "sho": 81,
         "sta": 78,
         "str": 56,
         "tac": 44,
-        "vis": 71
+        "vis": 82
       },
       "birth": "1982-03-01",
       "contract": "2010-06-30",
@@ -514,13 +516,12 @@
       "name": "Steven Pienear",
       "nation": "RSA",
       "number": 20,
-      "pos": "LM",
+      "pos": "AM",
       "wage": 35000
     },
     {
       "alt": [
-        "RM",
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 52,
@@ -576,8 +577,7 @@
     },
     {
       "alt": [
-        "DM",
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 88,
@@ -668,7 +668,7 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 38,
@@ -722,9 +722,6 @@
       "wage": 24500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
         "aer": 30,
         "com": 53,

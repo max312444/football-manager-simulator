@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 41,
+        "aer": 47,
         "com": 53,
-        "dri": 53,
-        "ldr": 48,
-        "pac": 47,
-        "pas": 57,
-        "pos": 53,
-        "sho": 50,
+        "dri": 49,
+        "ldr": 50,
+        "pac": 44,
+        "pas": 56,
+        "pos": 57,
+        "sho": 44,
         "sta": 54,
-        "str": 46,
-        "tac": 48,
-        "vis": 58
+        "str": 51,
+        "tac": 54,
+        "vis": 55
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "name": "Rudiger Ziahl",
       "nation": "GER",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -130,6 +130,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -156,6 +159,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
@@ -215,7 +223,7 @@
         "ldr": 58,
         "pac": 68,
         "pas": 61,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 61,
         "str": 69,
@@ -234,19 +242,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 62,
-        "dri": 56,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 61,
-        "pos": 61,
-        "sho": 52,
-        "sta": 66,
-        "str": 55,
-        "tac": 58,
-        "vis": 60
+        "aer": 59,
+        "com": 72,
+        "dri": 65,
+        "ldr": 61,
+        "pac": 65,
+        "pas": 63,
+        "pos": 67,
+        "sho": 62,
+        "sta": 68,
+        "str": 63,
+        "tac": 59,
+        "vis": 62
       },
       "birth": "1983-02-01",
       "contract": null,
@@ -256,23 +269,23 @@
       "name": "Emmanuel Krontirys",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 44,
         "com": 62,
-        "dri": 59,
+        "dri": 63,
         "ldr": 51,
-        "pac": 62,
-        "pas": 54,
-        "pos": 38,
-        "sho": 63,
+        "pac": 60,
+        "pas": 64,
+        "pos": 43,
+        "sho": 60,
         "sta": 58,
-        "str": 57,
-        "tac": 27,
-        "vis": 49
+        "str": 47,
+        "tac": 35,
+        "vis": 60
       },
       "birth": "1971-09-01",
       "contract": null,
@@ -282,23 +295,23 @@
       "name": "Fatmir Veta",
       "nation": "ALB",
       "number": 11,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 66,
-        "dri": 52,
-        "ldr": 67,
-        "pac": 57,
-        "pas": 59,
-        "pos": 72,
-        "sho": 41,
-        "sta": 60,
-        "str": 68,
-        "tac": 69,
-        "vis": 49
+        "aer": 59,
+        "com": 64,
+        "dri": 62,
+        "ldr": 63,
+        "pac": 65,
+        "pas": 63,
+        "pos": 67,
+        "sho": 48,
+        "sta": 66,
+        "str": 60,
+        "tac": 66,
+        "vis": 55
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -308,10 +321,15 @@
       "name": "Marko Lumic",
       "nation": "SRB",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 50,
@@ -319,7 +337,7 @@
         "ldr": 43,
         "pac": 52,
         "pas": 43,
-        "pos": 28,
+        "pos": 48,
         "sho": 54,
         "sta": 49,
         "str": 54,
@@ -367,17 +385,17 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 56,
-        "dri": 51,
+        "aer": 41,
+        "com": 51,
+        "dri": 49,
         "ldr": 46,
-        "pac": 54,
-        "pas": 49,
-        "pos": 32,
-        "sho": 58,
-        "sta": 53,
-        "str": 52,
-        "tac": 27,
+        "pac": 56,
+        "pas": 53,
+        "pos": 52,
+        "sho": 35,
+        "sta": 59,
+        "str": 46,
+        "tac": 57,
         "vis": 46
       },
       "birth": "1987-04-01",
@@ -388,23 +406,28 @@
       "name": "Fabrice Begeurgi",
       "nation": "FRA",
       "number": 16,
-      "pos": "ST",
+      "pos": "LB",
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 50,
+        "com": 59,
         "dri": 43,
         "ldr": 50,
         "pac": 46,
-        "pas": 45,
+        "pas": 54,
         "pos": 56,
         "sho": 30,
-        "sta": 51,
+        "sta": 60,
         "str": 55,
         "tac": 58,
-        "vis": 38
+        "vis": 47
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -415,7 +438,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 17,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     },
     {
@@ -445,19 +468,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 56,
-        "dri": 57,
-        "ldr": 50,
-        "pac": 55,
-        "pas": 59,
-        "pos": 52,
-        "sho": 54,
-        "sta": 57,
-        "str": 51,
-        "tac": 54,
-        "vis": 61
+        "aer": 44,
+        "com": 54,
+        "dri": 62,
+        "ldr": 46,
+        "pac": 64,
+        "pas": 55,
+        "pos": 34,
+        "sho": 58,
+        "sta": 53,
+        "str": 46,
+        "tac": 34,
+        "vis": 58
       },
       "birth": "1979-05-01",
       "contract": null,
@@ -467,10 +493,13 @@
       "name": "Ardian Đukaj",
       "nation": "MNE",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -497,19 +526,22 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 69,
-        "dri": 67,
-        "ldr": 69,
-        "pac": 70,
-        "pas": 74,
+        "com": 65,
+        "dri": 65,
+        "ldr": 67,
+        "pac": 77,
+        "pas": 68,
         "pos": 69,
-        "sho": 66,
+        "sho": 52,
         "sta": 75,
-        "str": 64,
-        "tac": 69,
-        "vis": 73
+        "str": 63,
+        "tac": 73,
+        "vis": 64
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -519,7 +551,7 @@
       "name": "Cha Du-ry",
       "nation": "KOR",
       "number": 22,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 8500
     },
     {
@@ -549,6 +581,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 58,
@@ -575,6 +610,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -602,6 +640,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 49,
@@ -635,7 +676,7 @@
         "ldr": 60,
         "pac": 62,
         "pas": 52,
-        "pos": 44,
+        "pos": 64,
         "sho": 66,
         "sta": 60,
         "str": 61,
@@ -654,19 +695,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
-        "com": 50,
-        "dri": 49,
+        "com": 52,
+        "dri": 53,
         "ldr": 43,
         "pac": 48,
-        "pas": 41,
-        "pos": 26,
-        "sho": 49,
+        "pas": 47,
+        "pos": 46,
+        "sho": 51,
         "sta": 46,
         "str": 46,
         "tac": 17,
-        "vis": 43
+        "vis": 49
       },
       "birth": "1989-04-01",
       "contract": null,
@@ -676,7 +722,7 @@
       "name": "Dominik Madar",
       "nation": "GER",
       "number": 30,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1000
     },
     {
@@ -713,7 +759,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 52,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 56,
         "str": 61,

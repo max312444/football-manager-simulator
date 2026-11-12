@@ -77,6 +77,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 58,
@@ -105,18 +110,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 59,
-        "dri": 53,
-        "ldr": 50,
-        "pac": 52,
-        "pas": 58,
-        "pos": 52,
-        "sho": 47,
+        "dri": 49,
+        "ldr": 52,
+        "pac": 49,
+        "pas": 57,
+        "pos": 56,
+        "sho": 41,
         "sta": 60,
-        "str": 48,
-        "tac": 51,
-        "vis": 60
+        "str": 53,
+        "tac": 57,
+        "vis": 57
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -126,10 +131,13 @@
       "name": "Marcel Mehlam",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -163,7 +171,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 54,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 55,
         "str": 65,
@@ -184,18 +192,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 51,
-        "dri": 49,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 59,
-        "pos": 54,
-        "sho": 48,
+        "dri": 45,
+        "ldr": 53,
+        "pac": 44,
+        "pas": 58,
+        "pos": 58,
+        "sho": 42,
         "sta": 56,
-        "str": 47,
-        "tac": 50,
-        "vis": 57
+        "str": 52,
+        "tac": 56,
+        "vis": 54
       },
       "birth": "1998-10-01",
       "contract": null,
@@ -205,23 +213,23 @@
       "name": "Ron Schellenberg",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 53,
-        "pas": 60,
-        "pos": 53,
-        "sho": 55,
-        "sta": 63,
-        "str": 52,
-        "tac": 51,
-        "vis": 60
+        "aer": 41,
+        "com": 55,
+        "dri": 58,
+        "ldr": 47,
+        "pac": 62,
+        "pas": 56,
+        "pos": 35,
+        "sho": 59,
+        "sta": 59,
+        "str": 47,
+        "tac": 31,
+        "vis": 57
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -231,23 +239,23 @@
       "name": "Kai Progar",
       "nation": "GER",
       "number": 9,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6500
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 59,
-        "dri": 55,
-        "ldr": 50,
-        "pac": 53,
+        "aer": 39,
+        "com": 60,
+        "dri": 59,
+        "ldr": 48,
+        "pac": 56,
         "pas": 58,
-        "pos": 52,
-        "sho": 53,
-        "sta": 59,
-        "str": 55,
-        "tac": 52,
-        "vis": 56
+        "pos": 37,
+        "sho": 59,
+        "sta": 53,
+        "str": 50,
+        "tac": 34,
+        "vis": 58
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -257,7 +265,7 @@
       "name": "Julian Justven",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 6000
     },
     {
@@ -268,7 +276,7 @@
         "ldr": 51,
         "pac": 61,
         "pas": 51,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 53,
         "str": 61,
@@ -288,18 +296,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 70,
-        "dri": 55,
+        "aer": 62,
+        "com": 72,
+        "dri": 63,
         "ldr": 64,
-        "pac": 63,
-        "pas": 60,
-        "pos": 70,
-        "sho": 43,
-        "sta": 64,
-        "str": 71,
-        "tac": 75,
-        "vis": 54
+        "pac": 61,
+        "pas": 69,
+        "pos": 69,
+        "sho": 58,
+        "sta": 70,
+        "str": 69,
+        "tac": 74,
+        "vis": 66
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -310,23 +318,27 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 13,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 12000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 39,
-        "com": 53,
-        "dri": 50,
-        "ldr": 47,
-        "pac": 43,
+        "aer": 33,
+        "com": 54,
+        "dri": 54,
+        "ldr": 45,
+        "pac": 46,
         "pas": 55,
-        "pos": 49,
-        "sho": 43,
-        "sta": 51,
-        "str": 45,
-        "tac": 45,
-        "vis": 50
+        "pos": 34,
+        "sho": 49,
+        "sta": 45,
+        "str": 40,
+        "tac": 27,
+        "vis": 52
       },
       "birth": "2001-07-01",
       "contract": null,
@@ -336,23 +348,26 @@
       "name": "Kelvin Ofory",
       "nation": "GHA",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 3000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 57,
-        "dri": 49,
-        "ldr": 50,
-        "pac": 51,
-        "pas": 54,
-        "pos": 50,
-        "sho": 47,
-        "sta": 58,
-        "str": 46,
-        "tac": 50,
-        "vis": 55
+        "aer": 37,
+        "com": 55,
+        "dri": 54,
+        "ldr": 46,
+        "pac": 60,
+        "pas": 50,
+        "pos": 32,
+        "sho": 51,
+        "sta": 54,
+        "str": 41,
+        "tac": 30,
+        "vis": 52
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -362,7 +377,7 @@
       "name": "Johannes Durfler",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 4500
     },
     {
@@ -399,7 +414,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 62,
         "sta": 57,
         "str": 59,
@@ -418,6 +433,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -471,18 +489,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 72,
-        "dri": 69,
-        "ldr": 63,
-        "pac": 64,
+        "aer": 51,
+        "com": 73,
+        "dri": 73,
+        "ldr": 61,
+        "pac": 67,
         "pas": 69,
-        "pos": 64,
-        "sho": 64,
-        "sta": 70,
-        "str": 61,
-        "tac": 67,
-        "vis": 68
+        "pos": 49,
+        "sho": 70,
+        "sta": 64,
+        "str": 56,
+        "tac": 49,
+        "vis": 70
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -492,10 +510,13 @@
       "name": "Marco Stiapermann",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 57,
@@ -597,7 +618,7 @@
       "name": "Jonas Cerls",
       "nation": "GER",
       "number": 28,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -623,10 +644,14 @@
       "name": "Jamilu Cullins",
       "nation": "NGA",
       "number": 29,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 56,
@@ -653,19 +678,23 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 38,
-        "com": 51,
-        "dri": 50,
-        "ldr": 45,
-        "pac": 45,
-        "pas": 53,
-        "pos": 46,
-        "sho": 47,
-        "sta": 53,
-        "str": 46,
-        "tac": 49,
-        "vis": 52
+        "aer": 32,
+        "com": 49,
+        "dri": 55,
+        "ldr": 41,
+        "pac": 54,
+        "pas": 49,
+        "pos": 28,
+        "sho": 51,
+        "sta": 49,
+        "str": 41,
+        "tac": 29,
+        "vis": 49
       },
       "birth": "2001-03-01",
       "contract": null,
@@ -676,7 +705,7 @@
       "name": "Fabrice Hertmann",
       "nation": "GER",
       "number": 35,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 3000
     },
     {
@@ -687,7 +716,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 57,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 59,
         "str": 62,

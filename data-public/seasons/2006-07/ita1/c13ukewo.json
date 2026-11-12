@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 74,
-        "dri": 73,
-        "ldr": 68,
-        "pac": 67,
-        "pas": 79,
-        "pos": 73,
-        "sho": 66,
+        "dri": 69,
+        "ldr": 70,
+        "pac": 64,
+        "pas": 78,
+        "pos": 77,
+        "sho": 60,
         "sta": 74,
-        "str": 70,
-        "tac": 73,
-        "vis": 79
+        "str": 75,
+        "tac": 79,
+        "vis": 76
       },
       "birth": "1976-07-01",
       "contract": null,
@@ -46,24 +46,27 @@
       "name": "Carlos Paredas",
       "nation": "PAR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 21500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 75,
-        "dri": 73,
-        "ldr": 72,
-        "pac": 66,
-        "pas": 78,
-        "pos": 73,
-        "sho": 66,
-        "sta": 77,
-        "str": 66,
-        "tac": 66,
-        "vis": 77
+        "aer": 62,
+        "com": 73,
+        "dri": 76,
+        "ldr": 70,
+        "pac": 74,
+        "pas": 77,
+        "pos": 65,
+        "sho": 64,
+        "sta": 79,
+        "str": 63,
+        "tac": 59,
+        "vis": 75
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -73,7 +76,7 @@
       "name": "Giandomenico Masto",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 21500
     },
     {
@@ -110,7 +113,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 60,
-        "pos": 49,
+        "pos": 69,
         "sho": 75,
         "sta": 69,
         "str": 72,
@@ -162,7 +165,7 @@
         "ldr": 66,
         "pac": 67,
         "pas": 64,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 66,
         "str": 69,
@@ -181,6 +184,11 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -207,6 +215,10 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 65,
@@ -233,6 +245,11 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -240,7 +257,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 56,
-        "pos": 46,
+        "pos": 66,
         "sho": 66,
         "sta": 62,
         "str": 63,
@@ -259,19 +276,22 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 65,
-        "dri": 61,
-        "ldr": 64,
-        "pac": 62,
-        "pas": 65,
-        "pos": 64,
-        "sho": 57,
-        "sta": 71,
-        "str": 63,
-        "tac": 65,
-        "vis": 68
+        "aer": 60,
+        "com": 67,
+        "dri": 63,
+        "ldr": 65,
+        "pac": 63,
+        "pas": 67,
+        "pos": 65,
+        "sho": 59,
+        "sta": 73,
+        "str": 64,
+        "tac": 66,
+        "vis": 70
       },
       "birth": "1976-08-01",
       "contract": null,
@@ -286,6 +306,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 72,
         "com": 67,
@@ -313,6 +336,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -366,6 +392,10 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,
@@ -393,19 +423,24 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LWB",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 59,
-        "dri": 46,
-        "ldr": 63,
-        "pac": 57,
-        "pas": 55,
-        "pos": 68,
-        "sho": 34,
-        "sta": 57,
-        "str": 68,
-        "tac": 66,
-        "vis": 46
+        "aer": 56,
+        "com": 57,
+        "dri": 58,
+        "ldr": 59,
+        "pac": 67,
+        "pas": 60,
+        "pos": 61,
+        "sho": 44,
+        "sta": 65,
+        "str": 60,
+        "tac": 61,
+        "vis": 53
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -415,10 +450,13 @@
       "name": "Francesco Modasto",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -452,7 +490,7 @@
         "ldr": 55,
         "pac": 65,
         "pas": 57,
-        "pos": 38,
+        "pos": 58,
         "sho": 69,
         "sta": 61,
         "str": 60,
@@ -499,19 +537,24 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 61,
-        "dri": 62,
+        "com": 66,
+        "dri": 68,
         "ldr": 55,
         "pac": 64,
-        "pas": 55,
-        "pos": 42,
-        "sho": 69,
+        "pas": 66,
+        "pos": 62,
+        "sho": 74,
         "sta": 57,
         "str": 60,
         "tac": 30,
-        "vis": 52
+        "vis": 63
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -521,7 +564,7 @@
       "name": "Salvatore Vicary",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 5000
     },
     {
@@ -552,9 +595,6 @@
       "wage": 6000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -608,6 +648,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 63,
@@ -684,11 +727,14 @@
       "name": "Maurizio Leuro",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -716,6 +762,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,
@@ -750,7 +799,7 @@
         "ldr": 56,
         "pac": 58,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 60,
         "sta": 55,
         "str": 56,
@@ -797,6 +846,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 60,
@@ -877,18 +929,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 55,
-        "dri": 54,
-        "ldr": 52,
-        "pac": 47,
-        "pas": 54,
-        "pos": 56,
-        "sho": 49,
+        "dri": 50,
+        "ldr": 54,
+        "pac": 44,
+        "pas": 53,
+        "pos": 60,
+        "sho": 43,
         "sta": 56,
-        "str": 53,
-        "tac": 54,
-        "vis": 55
+        "str": 58,
+        "tac": 60,
+        "vis": 52
       },
       "birth": "1983-02-01",
       "contract": null,
@@ -898,24 +950,24 @@
       "name": "Bruno Lenca",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 53,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 58,
-        "pos": 53,
-        "sho": 49,
-        "sta": 60,
-        "str": 52,
-        "tac": 52,
-        "vis": 53
+        "aer": 43,
+        "com": 55,
+        "dri": 56,
+        "ldr": 50,
+        "pac": 61,
+        "pas": 57,
+        "pos": 45,
+        "sho": 47,
+        "sta": 62,
+        "str": 49,
+        "tac": 45,
+        "vis": 51
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -925,11 +977,15 @@
       "name": "Leonel Rius",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -963,7 +1019,7 @@
         "ldr": 51,
         "pac": 51,
         "pas": 43,
-        "pos": 29,
+        "pos": 49,
         "sho": 59,
         "sta": 53,
         "str": 57,
@@ -982,6 +1038,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -1115,18 +1174,18 @@
     },
     {
       "attrs": {
-        "aer": 35,
-        "com": 45,
-        "dri": 42,
-        "ldr": 41,
-        "pac": 44,
+        "aer": 31,
+        "com": 43,
+        "dri": 45,
+        "ldr": 39,
+        "pac": 52,
         "pas": 49,
-        "pos": 44,
-        "sho": 42,
-        "sta": 48,
-        "str": 39,
-        "tac": 42,
-        "vis": 50
+        "pos": 36,
+        "sho": 40,
+        "sta": 51,
+        "str": 36,
+        "tac": 36,
+        "vis": 49
       },
       "birth": "1987-09-01",
       "contract": null,
@@ -1136,7 +1195,7 @@
       "name": "Murilo Macceri",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 1000
     }
   ],

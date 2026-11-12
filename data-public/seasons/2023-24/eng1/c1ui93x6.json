@@ -177,6 +177,9 @@
       "wage": 75000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 66,
@@ -287,9 +290,6 @@
       "wage": 86500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -297,11 +297,11 @@
         "ldr": 65,
         "pac": 65,
         "pas": 75,
-        "pos": 68,
+        "pos": 70,
         "sho": 62,
         "sta": 78,
-        "str": 67,
-        "tac": 69,
+        "str": 69,
+        "tac": 71,
         "vis": 70
       },
       "birth": "1995-01-01",
@@ -312,12 +312,12 @@
       "name": "Harrison Read",
       "nation": "ENG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 106500
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 57,
@@ -346,7 +346,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 51,
@@ -404,9 +405,6 @@
       "wage": 155500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 73,
@@ -429,12 +427,14 @@
       "name": "Sasa Lokic",
       "nation": "SRB",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 124000
     },
     {
       "alt": [
-        "LW"
+        "DM",
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 59,
@@ -469,11 +469,11 @@
         "ldr": 48,
         "pac": 53,
         "pas": 61,
-        "pos": 56,
+        "pos": 61,
         "sho": 48,
         "sta": 60,
-        "str": 46,
-        "tac": 51,
+        "str": 51,
+        "tac": 56,
         "vis": 60
       },
       "birth": "2000-07-01",
@@ -484,11 +484,14 @@
       "name": "Tyrese Frencois",
       "nation": "AUS",
       "number": 35,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 18500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 37,
         "com": 55,
@@ -546,14 +549,16 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "AM",
+        "RM"
       ],
       "attrs": {
         "aer": 54,
         "com": 75,
-        "dri": 83,
+        "dri": 85,
         "ldr": 73,
-        "pac": 67,
+        "pac": 69,
         "pas": 73,
         "pos": 55,
         "sho": 71,
@@ -575,8 +580,8 @@
     },
     {
       "alt": [
-        "ST",
-        "RB"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 53,
@@ -688,16 +693,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 68,
+        "aer": 61,
+        "com": 69,
         "dri": 65,
         "ldr": 60,
         "pac": 67,
         "pas": 62,
-        "pos": 51,
-        "sho": 70,
+        "pos": 52,
+        "sho": 71,
         "sta": 64,
-        "str": 65,
+        "str": 66,
         "tac": 46,
         "vis": 61
       },

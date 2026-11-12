@@ -15,6 +15,7 @@ const fs = require('fs');
 const path = require('path');
 const { getJson } = require('../lib/http');
 const model = require('./model');
+const { ensureMainBest } = require('./positionCheck');
 
 const ROOT = path.join(__dirname, '..', '..', '..', 'data');
 const SEASONS = path.join(ROOT, 'seasons');
@@ -32,10 +33,12 @@ const RULES = [
   [/left (wide )?midfield|left[- ]sided midfield/, ['LM']], [/right (wide )?midfield|right[- ]sided midfield/, ['RM']], [/wide midfield/, ['RM', 'LM']],
   [/left[- ]?wing(er)?\b|left forward/, ['LW']], [/right[- ]?wing(er)?\b|right forward/, ['RW']], [/winger|wide forward|inside forward|wing\b/, ['RW', 'LW']],
   [/second striker|support striker|deep[- ]lying forward|false (nine|9)/, ['ST', 'AM']],
-  [/striker|cent(re|er)[- ]?forward|target man|forward/, ['ST']],
+  [/striker|cent(re|er)[- ]?forward|target man/, ['ST']],
+  [/forward/, ['ST', 'RW', 'LW']],   // '공격수' 뭉뚱그림: 스트라이커 · 윙어 모두
   [/wing[- ]?half/, ['CM']],
-  [/cent(re|er)(al)? midfield|box[- ]to[- ]box|mezzala|midfield|half[- ]?back/, ['CM']],
-  [/defender|defence/, ['CB']],
+  [/cent(re|er)(al)? midfield|box[- ]to[- ]box|mezzala|half[- ]?back/, ['CM']],
+  [/midfield/, ['CM', 'DM', 'AM']],   // '미드필더' 뭉뚱그림
+  [/defender|defence/, ['CB', 'RB', 'LB']],   // '수비수' 뭉뚱그림
 ];
 
 function cleanValue(v) {
@@ -50,13 +53,22 @@ function parsePositions(text) {
   if (!m) return null;
   const raw = cleanValue(m[1]).trim();
   if (!raw) return null;
-  const parts = raw.toLowerCase().split(/[,/;\n*|]| or | and |&/).map((s) => s.trim()).filter(Boolean);
-  const out = [];
+  return { raw: raw.replace(/\s+/g, ' ').slice(0, 160), codes: codesOf(raw).all };
+}
+// 뭉뚱그린 말 ('Forward' · 'Midfielder' · 'Defender'): 포지션을 바꾸는 근거로는 쓰지 않고, 보조 포지션과 '맞는 범위' 판단에만
+const GENERIC = new Set([/forward/, /midfield/, /defender|defence/].map(String));
+/** 인포박스 포지션 글 → 코드. spec = 구체적인 포지션(앞이 주 포지션) · gen = 뭉뚱그린 말에서 나온 범위 · all = 둘을 합친 것 */
+function codesOf(raw) {
+  const parts = String(raw).toLowerCase().split(/[,/;\n*|]| or | and |&/).map((x) => x.trim()).filter(Boolean);
+  const spec = [], gen = [];
   for (const part of parts) {
     const hit = RULES.find(([re]) => re.test(part));
-    if (hit) for (const c of hit[1]) if (!out.includes(c)) out.push(c);
+    if (!hit) continue;
+    const into = GENERIC.has(String(hit[0])) ? gen : spec;
+    for (const c of hit[1]) if (!into.includes(c)) into.push(c);
   }
-  return out.length ? { raw: raw.replace(/\s+/g, ' ').slice(0, 160), codes: out } : { raw: raw.slice(0, 160), codes: [] };
+  const all = [...spec, ...gen.filter((c) => !spec.includes(c))];
+  return { spec, gen, all };
 }
 
 // ── 받기 ──
@@ -107,14 +119,27 @@ function recoverOvr(attrs, pos, key) {
   return Math.round(vals.reduce((a, b) => a + b, 0) / vals.length);
 }
 
-/** 이 시즌 포지션 · 보조 포지션 */
-function choose(cur, codes) {
-  if (!codes.length) return null;
+/**
+ * 이 시즌 포지션 · 보조 포지션. info = codesOf() 결과 ({ spec, gen, all }) 또는 코드 배열
+ *  1) 지금 포지션이 구체적인 위키백과 포지션에 있으면 그대로
+ *  2) 이 시즌 선수단 묶음(GK/DF/MF/FW) 안의 구체적인 포지션 중 가장 앞
+ *  3) 지금 포지션이 뭉뚱그린 범위 안이면 그대로 (예: 'Forward' 인데 지금 LW)
+ *  4) 구체적인 포지션이 있으면 그 첫 번째 (묶음과 맞지 않아도 위키백과를 따른다)
+ *  5) 뭉뚱그린 말뿐이면 바꾸지 않는다 (예: 'Midfielder' 뿐인데 지금 LW → LW)
+ */
+function choose(cur, info) {
+  const { spec, gen } = Array.isArray(info) ? { spec: info, gen: [] } : info;
   const isGK = cur === 'GK';
-  const usable = codes.filter((c) => (c === 'GK') === isGK);
-  if (!usable.length) return { gkConflict: true };
+  const ok = (c) => (c === 'GK') === isGK;
+  const s = spec.filter(ok), gn = gen.filter(ok);
+  if (!spec.length && !gen.length) return null;
+  if (!s.length && !gn.length) return { gkConflict: true };
   const g = GROUP[cur];
-  const pos = usable.find((c) => GROUP[c] === g) ?? usable[0];
+  let pos = s.includes(cur) ? cur : s.find((c) => GROUP[c] === g) ?? (gn.includes(cur) ? cur : s[0] ?? cur);
+  const usable = [...s, ...gn.filter((c) => !s.includes(c))];
+  // 위키백과가 방향 없이 적었으면 ('Winger' · 'Full-back' → 양쪽) 지금 방향을 유지 (왼쪽 윙어가 오른쪽으로 바뀌지 않게)
+  const mirror = (a, b) => a.length === b.length && a.length >= 2 && a.slice(1) === b.slice(1) && a[0] !== b[0] && 'LR'.includes(a[0]) && 'LR'.includes(b[0]);
+  if (usable.includes(cur) && mirror(pos, cur)) pos = cur;
   const alt = usable.filter((c) => c !== pos).slice(0, 3);
   return { pos, alt };
 }
@@ -143,6 +168,8 @@ async function positions({ apply, log }) {
     fs.writeFileSync(OUT, JSON.stringify(store, null, 1));
     log(`저장: ${path.relative(process.cwd(), OUT)}`);
   }
+  // 저장된 원문을 지금 규칙으로 다시 읽는다 (규칙을 고쳐도 다시 받지 않아도 됨)
+  for (const v of Object.values(store.players)) { v.parsed = codesOf(v.raw ?? ''); v.codes = v.parsed.all; }
   const found = [...ids].filter((id) => store.players[id]?.codes?.length).length;
   log(`인포박스 포지션이 있는 선수 ${found} / ${ids.size} (${Math.round((found / ids.size) * 100)}%)`);
 
@@ -153,8 +180,9 @@ async function positions({ apply, log }) {
   if (Object.keys(over).length) log(`수동 수정 ${Object.keys(over).length}명 (positions-override.json, 자동보다 우선)`);
 
   // 바뀔 내용
-  const stat ={ files: 0, rows: 0, changed: 0, regen: 0, kept: 0, altSet: 0, gkConflict: 0, noBox: 0 };
+  const stat = { files: 0, rows: 0, changed: 0, regen: 0, kept: 0, boosted: 0, remodel: 0, altSet: 0, gkConflict: 0, noBox: 0 };
   const examples = new Map();
+  const review = new Map();   // 뭉뚱그린 말뿐인데 지금 포지션이 그 범위 밖 → 자동으로 못 정함 (사람이 확인)
   const moves = {};
   for (const { season, file } of seasonFiles()) {
     const c = JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -165,7 +193,8 @@ async function positions({ apply, log }) {
       const o = over[p.id];
       const manual = o ? { pos: o.seasons?.[season]?.pos ?? o.pos, alt: o.seasons?.[season]?.alt ?? o.alt ?? [] } : null;
       if (!manual?.pos && !info?.codes?.length) { stat.noBox++; continue; }
-      const r = manual?.pos ? { pos: manual.pos, alt: manual.alt.filter((x) => x !== manual.pos) } : choose(p.pos, info.codes);
+      const r = manual?.pos ? { pos: manual.pos, alt: manual.alt.filter((x) => x !== manual.pos) } : choose(p.pos, info.parsed);
+      if (!manual?.pos && info?.parsed && !info.parsed.spec.length && info.parsed.gen.length && p.pos !== 'GK' && !info.parsed.gen.includes(p.pos)) review.set(p.id, [season, c.club, p.name, p.pos, info.raw].join('\t'));
       if (!r) continue;
       if (r.gkConflict) { stat.gkConflict++; continue; }
       const altOld = JSON.stringify(p.alt ?? []);
@@ -184,17 +213,30 @@ async function positions({ apply, log }) {
       }
       if (JSON.stringify(r.alt) !== altOld) { stat.altSet++; if (apply) { if (r.alt.length) p.alt = r.alt; else delete p.alt; } dirty = true; }
     }
+    // 주 포지션 능력이 가장 높게 (다른 자리가 더 높으면 주 포지션이 쓰는 능력치를 올림)
+    for (const p of c.squad ?? []) {
+      const copy = { ...p, attrs: { ...p.attrs } };
+      // 모델이 만든 능력치는 고친 공식(스트라이커 위치 선정 · 측면 미드 · 윙백)으로 같은 OVR 로 다시 만든다
+      const key = `${p.id}:${season}`;
+      const ovr = recoverOvr(copy.attrs, copy.pos, key);
+      if (ovr != null) { const fresh = model.attributes(ovr, copy.pos, key); if (JSON.stringify(fresh) !== JSON.stringify(copy.attrs)) { copy.attrs = fresh; stat.remodel++; dirty = true; } }
+      if (ensureMainBest(copy)) { stat.boosted++; dirty = true; }
+      if (apply) p.attrs = copy.attrs;
+    }
     if (dirty) stat.files++;
     if (apply && dirty) fs.writeFileSync(file, JSON.stringify(c, null, 2) + '\n');
   }
-  log(`선수 · 시즌 ${stat.rows}줄 · 포지션 바뀜 ${stat.changed}${apply ? ` (능력치 새로 ${stat.regen} · 그대로 ${stat.kept})` : ''} · 보조 포지션 바뀜 ${stat.altSet} · 인포박스 없음 ${stat.noBox} · 골키퍼 충돌(그대로 둠) ${stat.gkConflict} · 파일 ${stat.files}개`);
+  log(`선수 · 시즌 ${stat.rows}줄 · 포지션 바뀜 ${stat.changed}${apply ? ` (능력치 새로 ${stat.regen} · 그대로 ${stat.kept})` : ''} · 고친 공식으로 다시 만든 능력치 ${stat.remodel} · 주 포지션이 가장 높게 능력치 올림 ${stat.boosted} · 보조 포지션 바뀜 ${stat.altSet} · 인포박스 없음 ${stat.noBox} · 골키퍼 충돌(그대로 둠) ${stat.gkConflict} · 파일 ${stat.files}개`);
   log('많이 바뀐 방향: ' + Object.entries(moves).sort((a, b) => b[1] - a[1]).slice(0, 14).map(([k, v]) => `${k} ${v}`).join(' · '));
   const report = path.join(ROOT, '_pipeline', 'reports', 'positions.txt');
   fs.mkdirSync(path.dirname(report), { recursive: true });
   // 엑셀로 열어 볼 수 있는 표 (탭 구분, 한글 깨지지 않게 BOM)
   fs.writeFileSync(report, '﻿' + ['시즌\t구단\t선수\t이전 → 이후\t근거 (위키백과 원문)', ...examples.values()].join('\n'));
+  const reviewFile = path.join(ROOT, '_pipeline', 'reports', 'positions-review.txt');
+  fs.writeFileSync(reviewFile, '﻿' + ['시즌(처음)\t구단\t선수\t지금 포지션\t위키백과 원문 (뭉뚱그림)', ...review.values()].join('\n'));
+  log(`확인 필요 (위키백과가 뭉뚱그려서 자동으로 못 정함, 그대로 둠): ${review.size}명 → ${path.relative(process.cwd(), reviewFile)}`);
   log(`선수별 변경 목록: ${path.relative(process.cwd(), report)} (${examples.size}줄)`);
   log(apply ? '적용했습니다. 이어서 publish --apply 로 공개용 데이터도 다시 만드세요.' : '미리보기입니다. 적용하려면 --apply');
 }
 
-module.exports = { positions, parsePositions, choose };
+module.exports = { positions, parsePositions, choose, codesOf };

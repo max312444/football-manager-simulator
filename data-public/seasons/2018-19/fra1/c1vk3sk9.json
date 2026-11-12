@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 70,
-        "dri": 55,
-        "ldr": 70,
-        "pac": 63,
-        "pas": 61,
-        "pos": 71,
-        "sho": 44,
-        "sta": 68,
-        "str": 69,
-        "tac": 74,
-        "vis": 54
+        "aer": 58,
+        "com": 68,
+        "dri": 65,
+        "ldr": 66,
+        "pac": 71,
+        "pas": 65,
+        "pos": 66,
+        "sho": 51,
+        "sta": 74,
+        "str": 61,
+        "tac": 71,
+        "vis": 60
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Jeremy Pyed",
       "nation": "FRA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 34500
     },
     {
@@ -177,10 +177,13 @@
       "name": "Rafael Leau",
       "nation": "POR",
       "number": 7,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 58,
@@ -214,7 +217,7 @@
         "ldr": 72,
         "pac": 74,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 72,
         "str": 74,
@@ -233,20 +236,22 @@
       "wage": 48500
     },
     {
-      "alt": [],
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 60,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 59,
-        "pas": 50,
-        "pos": 35,
-        "sho": 66,
-        "sta": 56,
-        "str": 61,
-        "tac": 30,
-        "vis": 53
+        "aer": 46,
+        "com": 57,
+        "dri": 61,
+        "ldr": 51,
+        "pac": 63,
+        "pas": 56,
+        "pos": 37,
+        "sho": 61,
+        "sta": 58,
+        "str": 51,
+        "tac": 36,
+        "vis": 59
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -256,11 +261,13 @@
       "name": "Luiz Areujo",
       "nation": "BRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10000
     },
     {
       "alt": [
+        "RM",
+        "LM",
         "ST"
       ],
       "attrs": {
@@ -290,19 +297,22 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 69,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 67,
-        "pas": 61,
-        "pos": 43,
-        "sho": 66,
-        "sta": 62,
-        "str": 66,
-        "tac": 39,
-        "vis": 56
+        "aer": 52,
+        "com": 66,
+        "dri": 71,
+        "ldr": 61,
+        "pac": 71,
+        "pas": 67,
+        "pos": 45,
+        "sho": 61,
+        "sta": 64,
+        "str": 56,
+        "tac": 45,
+        "vis": 62
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -313,7 +323,7 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": 14,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 22500
     },
     {
@@ -369,6 +379,11 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 64,
@@ -395,6 +410,10 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 71,
@@ -422,6 +441,9 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 67,
@@ -449,18 +471,18 @@
     },
     {
       "attrs": {
-        "aer": 30,
+        "aer": 36,
         "com": 40,
-        "dri": 44,
-        "ldr": 38,
-        "pac": 39,
-        "pas": 42,
-        "pos": 43,
-        "sho": 36,
+        "dri": 40,
+        "ldr": 40,
+        "pac": 36,
+        "pas": 41,
+        "pos": 47,
+        "sho": 30,
         "sta": 44,
-        "str": 37,
-        "tac": 40,
-        "vis": 43
+        "str": 42,
+        "tac": 46,
+        "vis": 40
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -471,7 +493,7 @@
       "nation": "SRB",
       "nation2": "KVX",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -501,6 +523,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -528,18 +553,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 55,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 61,
-        "pos": 57,
-        "sho": 48,
+        "dri": 53,
+        "ldr": 55,
+        "pac": 51,
+        "pas": 60,
+        "pos": 61,
+        "sho": 42,
         "sta": 58,
-        "str": 55,
-        "tac": 55,
-        "vis": 61
+        "str": 60,
+        "tac": 61,
+        "vis": 58
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -549,23 +574,23 @@
       "name": "Boubakary Soomare",
       "nation": "FRA",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12500
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 63,
-        "dri": 49,
-        "ldr": 63,
-        "pac": 53,
-        "pas": 57,
-        "pos": 67,
-        "sho": 36,
-        "sta": 55,
-        "str": 64,
-        "tac": 64,
-        "vis": 51
+        "aer": 51,
+        "com": 61,
+        "dri": 59,
+        "ldr": 59,
+        "pac": 61,
+        "pas": 61,
+        "pos": 62,
+        "sho": 43,
+        "sta": 61,
+        "str": 56,
+        "tac": 61,
+        "vis": 57
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -576,23 +601,27 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": 25,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 15500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 67,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 57,
+        "aer": 48,
+        "com": 68,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 60,
         "pas": 66,
-        "pos": 64,
-        "sho": 61,
-        "sta": 64,
-        "str": 59,
-        "tac": 64,
-        "vis": 66
+        "pos": 49,
+        "sho": 67,
+        "sta": 58,
+        "str": 54,
+        "tac": 46,
+        "vis": 68
       },
       "birth": "1995-04-01",
       "contract": null,
@@ -603,23 +632,23 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 27500
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 67,
-        "dri": 53,
-        "ldr": 66,
-        "pac": 59,
-        "pas": 56,
-        "pos": 72,
-        "sho": 38,
-        "sta": 65,
-        "str": 70,
-        "tac": 67,
-        "vis": 49
+        "aer": 58,
+        "com": 65,
+        "dri": 63,
+        "ldr": 62,
+        "pac": 67,
+        "pas": 60,
+        "pos": 67,
+        "sho": 45,
+        "sta": 71,
+        "str": 62,
+        "tac": 64,
+        "vis": 55
       },
       "birth": "1995-07-01",
       "contract": null,
@@ -629,7 +658,7 @@
       "name": "Youssouf Kune",
       "nation": "MLI",
       "number": 28,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 24500
     },
     {
@@ -666,7 +695,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 67,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 69,
         "str": 71,
@@ -687,18 +716,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 50,
-        "dri": 51,
-        "ldr": 47,
-        "pac": 49,
-        "pas": 56,
-        "pos": 53,
-        "sho": 48,
-        "sta": 52,
-        "str": 47,
-        "tac": 48,
-        "vis": 56
+        "aer": 40,
+        "com": 48,
+        "dri": 56,
+        "ldr": 43,
+        "pac": 58,
+        "pas": 52,
+        "pos": 35,
+        "sho": 52,
+        "sta": 48,
+        "str": 42,
+        "tac": 28,
+        "vis": 53
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -709,7 +738,7 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 7000
     },
     {

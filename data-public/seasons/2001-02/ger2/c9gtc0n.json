@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 71,
@@ -58,7 +61,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 66,
         "str": 68,
@@ -84,7 +87,7 @@
         "ldr": 63,
         "pac": 65,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 64,
         "str": 70,
@@ -103,6 +106,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -129,19 +135,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "ST"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 64,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 62,
+        "aer": 49,
+        "com": 65,
+        "dri": 68,
+        "ldr": 61,
+        "pac": 65,
         "pas": 64,
-        "pos": 62,
-        "sho": 58,
-        "sta": 65,
-        "str": 62,
-        "tac": 62,
-        "vis": 69
+        "pos": 47,
+        "sho": 64,
+        "sta": 59,
+        "str": 57,
+        "tac": 44,
+        "vis": 71
       },
       "birth": "1973-10-01",
       "contract": null,
@@ -151,23 +160,26 @@
       "name": "Andre Breytenreiter",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 62,
+        "com": 63,
         "dri": 63,
         "ldr": 61,
         "pac": 63,
-        "pas": 65,
+        "pas": 66,
         "pos": 66,
         "sho": 56,
         "sta": 66,
         "str": 60,
-        "tac": 58,
-        "vis": 64
+        "tac": 59,
+        "vis": 65
       },
       "birth": "1974-06-01",
       "contract": null,
@@ -183,18 +195,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 64,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 64,
-        "pos": 60,
-        "sho": 55,
+        "dri": 55,
+        "ldr": 58,
+        "pac": 54,
+        "pas": 63,
+        "pos": 64,
+        "sho": 49,
         "sta": 63,
-        "str": 56,
-        "tac": 57,
-        "vis": 62
+        "str": 61,
+        "tac": 63,
+        "vis": 59
       },
       "birth": "1975-05-01",
       "contract": null,
@@ -204,23 +216,28 @@
       "name": "Danny Schwerz",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 62,
-        "dri": 59,
+        "com": 65,
+        "dri": 66,
         "ldr": 56,
         "pac": 64,
-        "pas": 57,
-        "pos": 43,
-        "sho": 66,
+        "pas": 67,
+        "pos": 63,
+        "sho": 69,
         "sta": 56,
         "str": 60,
         "tac": 36,
-        "vis": 52
+        "vis": 62
       },
       "birth": "1966-03-01",
       "contract": null,
@@ -230,11 +247,16 @@
       "name": "Ludwig Kugl",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 64,
@@ -289,18 +311,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 56,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 64,
-        "pos": 62,
-        "sho": 55,
-        "sta": 66,
-        "str": 58,
-        "tac": 58,
-        "vis": 60
+        "aer": 46,
+        "com": 60,
+        "dri": 61,
+        "ldr": 54,
+        "pac": 67,
+        "pas": 60,
+        "pos": 44,
+        "sho": 59,
+        "sta": 62,
+        "str": 53,
+        "tac": 38,
+        "vis": 57
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -310,7 +332,7 @@
       "name": "Stefan Lexe",
       "nation": "AUT",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 3500
     },
@@ -337,7 +359,7 @@
       "name": "Alexander Bugere",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 2500
     },
     {
@@ -348,7 +370,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 56,
         "str": 58,
@@ -370,7 +392,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 50,
@@ -425,6 +449,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 56,
@@ -503,19 +532,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 56,
-        "dri": 51,
-        "ldr": 49,
-        "pac": 53,
-        "pas": 56,
-        "pos": 57,
-        "sho": 48,
-        "sta": 61,
-        "str": 53,
-        "tac": 55,
-        "vis": 60
+        "aer": 50,
+        "com": 58,
+        "dri": 53,
+        "ldr": 50,
+        "pac": 54,
+        "pas": 58,
+        "pos": 58,
+        "sho": 50,
+        "sta": 63,
+        "str": 54,
+        "tac": 56,
+        "vis": 62
       },
       "birth": "1971-12-01",
       "contract": null,
@@ -555,6 +587,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,
@@ -618,7 +653,7 @@
         "ldr": 50,
         "pac": 54,
         "pas": 46,
-        "pos": 31,
+        "pos": 51,
         "sho": 58,
         "sta": 51,
         "str": 53,
@@ -637,19 +672,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 50,
+        "com": 56,
         "dri": 39,
         "ldr": 50,
         "pac": 51,
-        "pas": 48,
+        "pas": 54,
         "pos": 55,
         "sho": 29,
-        "sta": 52,
+        "sta": 58,
         "str": 54,
         "tac": 56,
-        "vis": 43
+        "vis": 49
       },
       "birth": "1976-08-01",
       "contract": null,
@@ -659,11 +699,14 @@
       "name": "Bjorn Hartl",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -690,19 +733,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 56,
-        "dri": 49,
-        "ldr": 47,
-        "pac": 47,
+        "aer": 40,
+        "com": 57,
+        "dri": 53,
+        "ldr": 45,
+        "pac": 50,
         "pas": 53,
-        "pos": 49,
-        "sho": 51,
-        "sta": 54,
-        "str": 50,
-        "tac": 51,
-        "vis": 58
+        "pos": 34,
+        "sho": 57,
+        "sta": 48,
+        "str": 45,
+        "tac": 33,
+        "vis": 60
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -712,7 +759,7 @@
       "name": "Thomas Bruich",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 1500
     },
@@ -770,19 +817,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 40,
+        "aer": 46,
         "com": 52,
-        "dri": 51,
-        "ldr": 50,
-        "pac": 47,
-        "pas": 51,
-        "pos": 49,
-        "sho": 45,
+        "dri": 47,
+        "ldr": 52,
+        "pac": 44,
+        "pas": 50,
+        "pos": 53,
+        "sho": 39,
         "sta": 51,
-        "str": 46,
-        "tac": 46,
-        "vis": 51
+        "str": 51,
+        "tac": 52,
+        "vis": 48
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -792,7 +842,7 @@
       "name": "Ivica Majstoruvic",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 1000
     },

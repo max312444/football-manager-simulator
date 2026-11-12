@@ -74,7 +74,7 @@
       "name": "Mikkel Kirkeskuv",
       "nation": "DEN",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 12000
     },
     {
@@ -105,19 +105,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 60,
-        "dri": 57,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 63,
-        "pos": 56,
-        "sho": 50,
+        "dri": 53,
+        "ldr": 56,
+        "pac": 52,
+        "pas": 62,
+        "pos": 60,
+        "sho": 44,
         "sta": 59,
-        "str": 53,
-        "tac": 57,
-        "vis": 56
+        "str": 58,
+        "tac": 63,
+        "vis": 53
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -127,7 +130,7 @@
       "name": "Patrick Erres",
       "nation": "GER",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7500
     },
     {
@@ -157,18 +160,23 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 41,
+        "aer": 50,
         "com": 52,
         "dri": 52,
         "ldr": 49,
-        "pac": 46,
+        "pac": 55,
         "pas": 55,
-        "pos": 51,
+        "pos": 60,
         "sho": 45,
         "sta": 52,
-        "str": 44,
-        "tac": 50,
+        "str": 53,
+        "tac": 59,
         "vis": 50
       },
       "birth": "1998-07-01",
@@ -179,10 +187,13 @@
       "name": "Marcel Banger",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -209,6 +220,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -242,7 +256,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 58,
-        "pos": 42,
+        "pos": 62,
         "sho": 73,
         "sta": 64,
         "str": 68,
@@ -261,6 +275,10 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -287,6 +305,10 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 58,
@@ -294,7 +316,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 59,
         "sta": 53,
         "str": 58,
@@ -320,7 +342,7 @@
         "ldr": 53,
         "pac": 63,
         "pas": 56,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 58,
         "str": 61,
@@ -340,18 +362,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 53,
-        "dri": 42,
-        "ldr": 56,
-        "pac": 52,
-        "pas": 52,
-        "pos": 61,
-        "sho": 34,
-        "sta": 52,
-        "str": 62,
-        "tac": 64,
-        "vis": 47
+        "aer": 48,
+        "com": 51,
+        "dri": 52,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 56,
+        "pos": 56,
+        "sho": 41,
+        "sta": 58,
+        "str": 54,
+        "tac": 61,
+        "vis": 53
       },
       "birth": "1986-11-01",
       "contract": null,
@@ -361,10 +383,13 @@
       "name": "Johannes van den Bargh",
       "nation": "GER",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -391,6 +416,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 52,
         "com": 57,
@@ -398,7 +426,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 55,
         "sta": 52,
         "str": 54,
@@ -450,7 +478,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 62,
         "sta": 56,
         "str": 61,
@@ -496,6 +524,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 64,
@@ -524,18 +555,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 69,
-        "dri": 58,
-        "ldr": 68,
-        "pac": 66,
-        "pas": 61,
-        "pos": 73,
-        "sho": 39,
-        "sta": 68,
-        "str": 70,
-        "tac": 70,
-        "vis": 52
+        "aer": 58,
+        "com": 67,
+        "dri": 68,
+        "ldr": 64,
+        "pac": 74,
+        "pas": 65,
+        "pos": 68,
+        "sho": 46,
+        "sta": 74,
+        "str": 62,
+        "tac": 67,
+        "vis": 58
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -545,7 +576,7 @@
       "name": "Julian Kurb",
       "nation": "GER",
       "number": 23,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 16000
     },
     {
@@ -601,19 +632,24 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 60,
-        "dri": 57,
+        "com": 61,
+        "dri": 62,
         "ldr": 52,
         "pac": 57,
-        "pas": 52,
-        "pos": 34,
-        "sho": 61,
+        "pas": 58,
+        "pos": 54,
+        "sho": 62,
         "sta": 53,
         "str": 59,
         "tac": 25,
-        "vis": 52
+        "vis": 58
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -623,7 +659,7 @@
       "name": "Finn Purath",
       "nation": "GER",
       "number": 27,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4500
     },
     {
@@ -634,7 +670,7 @@
         "ldr": 43,
         "pac": 50,
         "pas": 44,
-        "pos": 26,
+        "pos": 46,
         "sho": 55,
         "sta": 45,
         "str": 49,
@@ -660,7 +696,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 65,
         "sta": 57,
         "str": 59,
@@ -679,6 +715,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 62,
@@ -686,7 +727,7 @@
         "ldr": 52,
         "pac": 57,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 62,
         "sta": 59,
         "str": 62,
@@ -705,6 +746,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 35,
         "com": 50,

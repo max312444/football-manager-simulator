@@ -84,11 +84,11 @@
         "ldr": 51,
         "pac": 53,
         "pas": 58,
-        "pos": 51,
+        "pos": 55,
         "sho": 48,
         "sta": 58,
-        "str": 50,
-        "tac": 54,
+        "str": 54,
+        "tac": 58,
         "vis": 56
       },
       "birth": "1999-03-01",
@@ -99,10 +99,13 @@
       "name": "Ibrahima Diello",
       "nation": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 66,
@@ -131,18 +134,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 69,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 59,
-        "pas": 72,
-        "pos": 66,
-        "sho": 64,
-        "sta": 67,
-        "str": 62,
-        "tac": 66,
-        "vis": 68
+        "aer": 49,
+        "com": 67,
+        "dri": 73,
+        "ldr": 61,
+        "pac": 68,
+        "pas": 68,
+        "pos": 48,
+        "sho": 68,
+        "sta": 63,
+        "str": 57,
+        "tac": 46,
+        "vis": 65
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -152,7 +155,7 @@
       "name": "Yoann Coort",
       "nation": "FRA",
       "number": 8,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 39500
     },
     {
@@ -163,7 +166,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 74,
         "sta": 66,
         "str": 69,
@@ -189,7 +192,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 60,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 61,
         "str": 68,
@@ -208,6 +211,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 69,
@@ -235,6 +241,11 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "CB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 66,
@@ -262,19 +273,22 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 60,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 63,
-        "pos": 64,
-        "sho": 54,
-        "sta": 65,
-        "str": 61,
-        "tac": 58,
-        "vis": 64
+        "aer": 52,
+        "com": 63,
+        "dri": 62,
+        "ldr": 62,
+        "pac": 62,
+        "pas": 65,
+        "pos": 65,
+        "sho": 56,
+        "sta": 67,
+        "str": 62,
+        "tac": 59,
+        "vis": 66
       },
       "birth": "1989-01-01",
       "contract": null,
@@ -288,19 +302,23 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 60,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 58,
-        "pas": 52,
-        "pos": 38,
-        "sho": 62,
-        "sta": 56,
-        "str": 60,
-        "tac": 27,
-        "vis": 54
+        "aer": 45,
+        "com": 57,
+        "dri": 60,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 58,
+        "pos": 40,
+        "sho": 57,
+        "sta": 58,
+        "str": 50,
+        "tac": 33,
+        "vis": 60
       },
       "birth": "1997-08-01",
       "contract": null,
@@ -310,7 +328,7 @@
       "name": "Irvin Cardone",
       "nation": "FRA",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
@@ -321,7 +339,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 62,
         "sta": 58,
         "str": 60,
@@ -395,18 +413,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 58,
-        "dri": 47,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 54,
-        "pos": 60,
-        "sho": 33,
-        "sta": 57,
-        "str": 59,
-        "tac": 61,
-        "vis": 48
+        "aer": 50,
+        "com": 56,
+        "dri": 57,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 58,
+        "pos": 55,
+        "sho": 40,
+        "sta": 63,
+        "str": 51,
+        "tac": 58,
+        "vis": 54
       },
       "birth": "1997-09-01",
       "contract": null,
@@ -416,21 +434,26 @@
       "name": "Romain Perraod",
       "nation": "FRA",
       "number": 18,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 63,
-        "dri": 59,
+        "aer": 56,
+        "com": 72,
+        "dri": 64,
         "ldr": 55,
-        "pac": 53,
+        "pac": 62,
         "pas": 62,
-        "pos": 60,
-        "sho": 51,
+        "pos": 69,
+        "sho": 60,
         "sta": 63,
-        "str": 57,
+        "str": 66,
         "tac": 55,
         "vis": 64
       },
@@ -442,7 +465,7 @@
       "name": "Ferris N'Guma",
       "nation": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 18000
     },
     {
@@ -499,18 +522,23 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 60,
         "com": 59,
         "dri": 58,
         "ldr": 55,
-        "pac": 55,
+        "pac": 64,
         "pas": 66,
-        "pos": 62,
+        "pos": 71,
         "sho": 55,
         "sta": 61,
-        "str": 53,
-        "tac": 60,
+        "str": 62,
+        "tac": 69,
         "vis": 61
       },
       "birth": "1987-01-01",
@@ -521,23 +549,26 @@
       "name": "Julien Faussuriar",
       "nation": "FRA",
       "number": 22,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 19500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 62,
-        "dri": 62,
-        "ldr": 63,
-        "pac": 60,
-        "pas": 64,
-        "pos": 63,
-        "sho": 59,
-        "sta": 65,
-        "str": 61,
-        "tac": 58,
-        "vis": 65
+        "aer": 50,
+        "com": 60,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 69,
+        "pas": 60,
+        "pos": 45,
+        "sho": 63,
+        "sta": 61,
+        "str": 56,
+        "tac": 38,
+        "vis": 62
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -547,13 +578,10 @@
       "name": "Mathias Aotret",
       "nation": "FRA",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 29000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -576,23 +604,26 @@
       "name": "Ludovic Bael",
       "nation": "FRA",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 14500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 59,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 58,
-        "pas": 51,
-        "pos": 40,
-        "sho": 66,
-        "sta": 58,
-        "str": 61,
-        "tac": 27,
-        "vis": 55
+        "aer": 47,
+        "com": 56,
+        "dri": 63,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 57,
+        "pos": 42,
+        "sho": 61,
+        "sta": 60,
+        "str": 51,
+        "tac": 33,
+        "vis": 61
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -603,10 +634,13 @@
       "name": "Samuel Grandsyr",
       "nation": "FRA",
       "number": 25,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -633,17 +667,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 53,
-        "dri": 54,
+        "aer": 52,
+        "com": 59,
+        "dri": 57,
         "ldr": 47,
-        "pac": 49,
+        "pac": 55,
         "pas": 53,
-        "pos": 53,
-        "sho": 51,
+        "pos": 59,
+        "sho": 57,
         "sta": 56,
-        "str": 52,
+        "str": 58,
         "tac": 52,
         "vis": 58
       },
@@ -656,7 +695,7 @@
       "nation": "FRA",
       "nation2": "GHA",
       "number": 29,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 10000
     },
     {

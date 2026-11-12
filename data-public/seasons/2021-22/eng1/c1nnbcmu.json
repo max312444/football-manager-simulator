@@ -99,13 +99,13 @@
       "attrs": {
         "aer": 56,
         "com": 64,
-        "dri": 58,
+        "dri": 63,
         "ldr": 59,
-        "pac": 58,
+        "pac": 63,
         "pas": 64,
         "pos": 70,
         "sho": 46,
-        "sta": 72,
+        "sta": 77,
         "str": 68,
         "tac": 70,
         "vis": 56
@@ -232,16 +232,20 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 69,
-        "dri": 59,
+        "dri": 65,
         "ldr": 63,
-        "pac": 62,
-        "pas": 65,
+        "pac": 68,
+        "pas": 69,
         "pos": 71,
         "sho": 45,
-        "sta": 70,
+        "sta": 76,
         "str": 71,
         "tac": 75,
         "vis": 57
@@ -258,16 +262,19 @@
       "wage": 81000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,
-        "dri": 49,
+        "dri": 60,
         "ldr": 61,
-        "pac": 45,
-        "pas": 55,
+        "pac": 56,
+        "pas": 56,
         "pos": 65,
         "sho": 41,
-        "sta": 59,
+        "sta": 70,
         "str": 67,
         "tac": 65,
         "vis": 45
@@ -358,10 +365,13 @@
       "name": "Jack Curk",
       "nation": "ENG",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 99000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -388,6 +398,9 @@
       "wage": 83500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 69,
@@ -417,12 +430,17 @@
       "wage": 85000
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
-        "dri": 75,
+        "dri": 77,
         "ldr": 59,
-        "pac": 68,
+        "pac": 70,
         "pas": 75,
         "pos": 65,
         "sho": 69,
@@ -439,26 +457,27 @@
       "name": "Johann Berg Goðmundsson",
       "nation": "ISL",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 95000
     },
     {
       "alt": [
+        "RW",
         "LW"
       ],
       "attrs": {
         "aer": 50,
-        "com": 67,
+        "com": 71,
         "dri": 70,
         "ldr": 59,
         "pac": 73,
-        "pas": 77,
+        "pas": 81,
         "pos": 52,
-        "sho": 67,
+        "sho": 71,
         "sta": 70,
         "str": 55,
         "tac": 47,
-        "vis": 64
+        "vis": 68
       },
       "birth": "1999-11-01",
       "contract": "2025-06-30",
@@ -468,10 +487,14 @@
       "name": "Dwight McNail",
       "nation": "ENG",
       "number": 11,
-      "pos": "LM",
+      "pos": "AM",
       "wage": 65000
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 70,
@@ -498,19 +521,22 @@
       "wage": 70500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 31,
-        "com": 59,
+        "com": 72,
         "dri": 69,
         "ldr": 54,
         "pac": 71,
-        "pas": 61,
+        "pas": 74,
         "pos": 59,
-        "sho": 55,
+        "sho": 68,
         "sta": 67,
         "str": 48,
         "tac": 43,
-        "vis": 57
+        "vis": 70
       },
       "birth": "1987-04-01",
       "contract": "2022-06-30",
@@ -520,12 +546,14 @@
       "name": "Aaron Lennun",
       "nation": "ENG",
       "number": 17,
-      "pos": "RM",
+      "pos": "AM",
       "wage": 31500
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 52,
@@ -639,16 +667,16 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 65,
+        "aer": 58,
+        "com": 66,
         "dri": 69,
         "ldr": 49,
         "pac": 75,
         "pas": 61,
-        "pos": 71,
-        "sho": 71,
+        "pos": 72,
+        "sho": 72,
         "sta": 69,
-        "str": 64,
+        "str": 65,
         "tac": 35,
         "vis": 59
       },

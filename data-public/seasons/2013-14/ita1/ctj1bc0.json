@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 54,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 56,
-        "pos": 54,
-        "sho": 52,
-        "sta": 60,
-        "str": 52,
-        "tac": 56,
-        "vis": 60
+        "aer": 42,
+        "com": 52,
+        "dri": 63,
+        "ldr": 48,
+        "pac": 63,
+        "pas": 52,
+        "pos": 36,
+        "sho": 56,
+        "sta": 56,
+        "str": 47,
+        "tac": 36,
+        "vis": 57
       },
       "birth": "1995-09-01",
       "contract": null,
@@ -125,23 +125,23 @@
       "name": "Luca Cracco",
       "nation": "ITA",
       "number": 4,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 80,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 78,
-        "pas": 81,
-        "pos": 77,
-        "sho": 76,
+        "dri": 72,
+        "ldr": 76,
+        "pac": 75,
+        "pas": 80,
+        "pos": 81,
+        "sho": 70,
         "sta": 84,
-        "str": 77,
-        "tac": 74,
-        "vis": 79
+        "str": 82,
+        "tac": 80,
+        "vis": 76
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -151,23 +151,23 @@
       "name": "Lucas Biglie",
       "nation": "ARG",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 78500
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 70,
-        "dri": 71,
-        "ldr": 65,
-        "pac": 66,
+        "aer": 53,
+        "com": 71,
+        "dri": 75,
+        "ldr": 63,
+        "pac": 69,
         "pas": 72,
-        "pos": 69,
-        "sho": 67,
-        "sta": 74,
-        "str": 64,
-        "tac": 70,
-        "vis": 71
+        "pos": 54,
+        "sho": 73,
+        "sta": 68,
+        "str": 59,
+        "tac": 52,
+        "vis": 73
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -177,24 +177,27 @@
       "name": "Stefano Maury",
       "nation": "ITA",
       "number": 6,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 37500
     },
     {
-      "alt": [],
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 63,
-        "dri": 64,
-        "ldr": 65,
-        "pac": 61,
+        "aer": 49,
+        "com": 64,
+        "dri": 68,
+        "ldr": 63,
+        "pac": 64,
         "pas": 67,
-        "pos": 66,
-        "sho": 59,
-        "sta": 71,
-        "str": 60,
-        "tac": 60,
-        "vis": 69
+        "pos": 51,
+        "sho": 65,
+        "sta": 65,
+        "str": 55,
+        "tac": 42,
+        "vis": 71
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -204,10 +207,13 @@
       "name": "Felipe Andarson",
       "nation": "BRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 79,
@@ -241,7 +247,7 @@
         "ldr": 53,
         "pac": 64,
         "pas": 53,
-        "pos": 42,
+        "pos": 62,
         "sho": 63,
         "sta": 57,
         "str": 64,
@@ -260,19 +266,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 69,
+        "com": 70,
         "dri": 72,
         "ldr": 67,
         "pac": 70,
-        "pas": 72,
+        "pas": 73,
         "pos": 67,
         "sho": 65,
         "sta": 73,
         "str": 64,
-        "tac": 69,
-        "vis": 71
+        "tac": 70,
+        "vis": 72
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -294,7 +303,7 @@
         "ldr": 75,
         "pac": 75,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 80,
         "sta": 71,
         "str": 77,
@@ -314,6 +323,9 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -340,6 +352,9 @@
       "wage": 78500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 70,
@@ -366,19 +381,23 @@
       "wage": 46500
     },
     {
+      "alt": [
+        "LW",
+        "LB"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 72,
-        "dri": 67,
-        "ldr": 68,
-        "pac": 63,
-        "pas": 71,
-        "pos": 66,
-        "sho": 67,
-        "sta": 76,
-        "str": 67,
-        "tac": 68,
-        "vis": 73
+        "aer": 57,
+        "com": 70,
+        "dri": 70,
+        "ldr": 66,
+        "pac": 71,
+        "pas": 69,
+        "pos": 58,
+        "sho": 65,
+        "sta": 77,
+        "str": 64,
+        "tac": 60,
+        "vis": 70
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -388,7 +407,7 @@
       "name": "Senad Lolic",
       "nation": "BIH",
       "number": 19,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 38000
     },
     {
@@ -444,6 +463,9 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 64,
@@ -470,18 +492,21 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 73,
         "dri": 70,
         "ldr": 70,
         "pac": 67,
-        "pas": 70,
+        "pas": 71,
         "pos": 71,
         "sho": 66,
-        "sta": 70,
+        "sta": 71,
         "str": 69,
-        "tac": 64,
+        "tac": 65,
         "vis": 69
       },
       "birth": "1982-09-01",
@@ -497,6 +522,10 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 74,
@@ -523,19 +552,24 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 78,
-        "dri": 77,
-        "ldr": 76,
-        "pac": 72,
-        "pas": 80,
-        "pos": 78,
-        "sho": 76,
+        "dri": 73,
+        "ldr": 78,
+        "pac": 69,
+        "pas": 79,
+        "pos": 82,
+        "sho": 70,
         "sta": 81,
-        "str": 76,
-        "tac": 72,
-        "vis": 78
+        "str": 81,
+        "tac": 78,
+        "vis": 75
       },
       "birth": "1983-07-01",
       "contract": null,
@@ -546,7 +580,7 @@
       "nation": "ALB",
       "nation2": "SUI",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 78500
     },
     {
@@ -583,7 +617,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 65,
-        "pos": 47,
+        "pos": 67,
         "sho": 78,
         "sta": 65,
         "str": 71,
@@ -603,6 +637,9 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 78,
         "com": 71,
@@ -636,7 +673,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 70,
         "sta": 58,
         "str": 63,
@@ -708,19 +745,22 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 76,
-        "dri": 80,
-        "ldr": 73,
-        "pac": 76,
-        "pas": 82,
-        "pos": 77,
-        "sho": 76,
-        "sta": 80,
-        "str": 72,
-        "tac": 73,
-        "vis": 81
+        "aer": 64,
+        "com": 74,
+        "dri": 83,
+        "ldr": 71,
+        "pac": 84,
+        "pas": 84,
+        "pos": 69,
+        "sho": 74,
+        "sta": 85,
+        "str": 69,
+        "tac": 69,
+        "vis": 82
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -730,7 +770,7 @@
       "name": "Antonio Candrava",
       "nation": "ITA",
       "number": 87,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 78500
     },
     {
@@ -741,7 +781,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 73,
         "sta": 63,
         "str": 65,

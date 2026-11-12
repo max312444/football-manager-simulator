@@ -24,6 +24,10 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -110,7 +114,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 49,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 56,
         "str": 60,
@@ -136,7 +140,7 @@
         "ldr": 49,
         "pac": 59,
         "pas": 53,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 53,
         "str": 56,
@@ -163,7 +167,7 @@
         "ldr": 52,
         "pac": 61,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 55,
         "str": 58,
@@ -190,7 +194,7 @@
         "ldr": 50,
         "pac": 59,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 62,
         "sta": 55,
         "str": 59,
@@ -236,19 +240,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 58,
-        "dri": 53,
-        "ldr": 53,
-        "pac": 48,
-        "pas": 56,
-        "pos": 57,
-        "sho": 49,
-        "sta": 56,
-        "str": 54,
-        "tac": 51,
-        "vis": 54
+        "aer": 46,
+        "com": 60,
+        "dri": 55,
+        "ldr": 54,
+        "pac": 49,
+        "pas": 58,
+        "pos": 58,
+        "sho": 51,
+        "sta": 58,
+        "str": 55,
+        "tac": 52,
+        "vis": 56
       },
       "birth": "1974-03-01",
       "contract": null,
@@ -263,18 +270,23 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 47,
+        "aer": 57,
         "com": 56,
         "dri": 54,
         "ldr": 54,
-        "pac": 52,
+        "pac": 62,
         "pas": 59,
-        "pos": 56,
+        "pos": 66,
         "sho": 53,
         "sta": 61,
-        "str": 50,
-        "tac": 54,
+        "str": 60,
+        "tac": 64,
         "vis": 58
       },
       "birth": "1967-12-01",
@@ -285,7 +297,7 @@
       "name": "Jurgen Lugynger",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 2500
     },
     {
@@ -296,7 +308,7 @@
         "ldr": 50,
         "pac": 59,
         "pas": 50,
-        "pos": 31,
+        "pos": 51,
         "sho": 60,
         "sta": 55,
         "str": 55,
@@ -316,6 +328,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -343,6 +358,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 54,
@@ -376,7 +394,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 47,
         "str": 53,
@@ -422,6 +440,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -477,18 +498,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 55,
-        "dri": 49,
-        "ldr": 51,
-        "pac": 52,
+        "aer": 38,
+        "com": 56,
+        "dri": 53,
+        "ldr": 49,
+        "pac": 55,
         "pas": 56,
-        "pos": 51,
-        "sho": 49,
-        "sta": 57,
-        "str": 50,
-        "tac": 47,
-        "vis": 56
+        "pos": 36,
+        "sho": 55,
+        "sta": 51,
+        "str": 45,
+        "tac": 29,
+        "vis": 58
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -498,11 +519,14 @@
       "name": "Sasa Raduluvic",
       "nation": "AUS",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 50,
@@ -607,6 +631,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 49,
@@ -641,7 +668,7 @@
         "ldr": 47,
         "pac": 53,
         "pas": 44,
-        "pos": 25,
+        "pos": 45,
         "sho": 56,
         "sta": 46,
         "str": 53,
@@ -716,17 +743,17 @@
     {
       "attrs": {
         "aer": 41,
-        "com": 51,
-        "dri": 50,
-        "ldr": 44,
-        "pac": 42,
-        "pas": 52,
+        "com": 47,
+        "dri": 48,
+        "ldr": 42,
+        "pac": 49,
+        "pas": 46,
         "pos": 45,
-        "sho": 42,
+        "sho": 28,
         "sta": 48,
-        "str": 46,
-        "tac": 46,
-        "vis": 53
+        "str": 45,
+        "tac": 50,
+        "vis": 44
       },
       "birth": "1966-06-01",
       "contract": null,
@@ -736,7 +763,7 @@
       "name": "Daniel Cyuca",
       "nation": "ROU",
       "number": null,
-      "pos": "CM",
+      "pos": "RB",
       "verify": true,
       "wage": 1000
     }

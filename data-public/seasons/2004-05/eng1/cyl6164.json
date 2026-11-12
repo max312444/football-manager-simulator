@@ -70,6 +70,10 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 60,
@@ -97,7 +101,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 66,
@@ -125,6 +130,10 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 60,
@@ -206,6 +215,11 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "ST",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 58,
@@ -232,22 +246,19 @@
       "wage": 23000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 64,
-        "com": 56,
+        "com": 65,
         "dri": 54,
         "ldr": 42,
         "pac": 66,
-        "pas": 56,
-        "pos": 62,
+        "pas": 65,
+        "pos": 67,
         "sho": 40,
-        "sta": 72,
-        "str": 68,
-        "tac": 66,
-        "vis": 46
+        "sta": 76,
+        "str": 73,
+        "tac": 71,
+        "vis": 55
       },
       "birth": "1982-11-01",
       "contract": "2007-06-30",
@@ -258,7 +269,7 @@
       "nation": "ATG",
       "nation2": "ENG",
       "number": 12,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 16500
     },
     {
@@ -294,17 +305,17 @@
       ],
       "attrs": {
         "aer": 62,
-        "com": 62,
+        "com": 63,
         "dri": 58,
         "ldr": 60,
         "pac": 64,
-        "pas": 64,
-        "pos": 68,
+        "pas": 65,
+        "pos": 69,
         "sho": 50,
         "sta": 78,
-        "str": 70,
-        "tac": 72,
-        "vis": 56
+        "str": 71,
+        "tac": 73,
+        "vis": 57
       },
       "birth": "1977-12-01",
       "contract": "2006-06-30",
@@ -320,17 +331,17 @@
     {
       "attrs": {
         "aer": 62,
-        "com": 60,
+        "com": 65,
         "dri": 62,
         "ldr": 54,
         "pac": 66,
-        "pas": 64,
-        "pos": 64,
+        "pas": 69,
+        "pos": 69,
         "sho": 56,
         "sta": 80,
-        "str": 66,
-        "tac": 66,
-        "vis": 58
+        "str": 71,
+        "tac": 71,
+        "vis": 63
       },
       "birth": "1976-09-01",
       "contract": "2006-06-30",
@@ -340,26 +351,23 @@
       "name": "Aki Riihilehti",
       "nation": "FIN",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 54,
-        "com": 66,
-        "dri": 64,
+        "com": 70,
+        "dri": 68,
         "ldr": 60,
-        "pac": 58,
+        "pac": 62,
         "pas": 68,
         "pos": 62,
-        "sho": 60,
+        "sho": 64,
         "sta": 68,
         "str": 62,
         "tac": 58,
-        "vis": 64
+        "vis": 68
       },
       "birth": "1971-08-01",
       "contract": "2005-06-30",
@@ -369,23 +377,26 @@
       "name": "Michael Hoghes",
       "nation": "NIR",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 27000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 58,
+        "com": 63,
         "dri": 62,
         "ldr": 42,
         "pac": 64,
-        "pas": 66,
+        "pas": 71,
         "pos": 58,
         "sho": 56,
         "sta": 76,
         "str": 56,
-        "tac": 60,
-        "vis": 64
+        "tac": 65,
+        "vis": 69
       },
       "birth": "1985-07-01",
       "contract": "2008-06-30",
@@ -400,7 +411,7 @@
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 42,
@@ -456,12 +467,14 @@
       "name": "Joonas Kulkka",
       "nation": "FIN",
       "number": 22,
-      "pos": "LM",
+      "pos": "RW",
       "wage": 26000
     },
     {
       "alt": [
-        "RW"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 50,
@@ -485,26 +498,26 @@
       "name": "Vassilis Lekis",
       "nation": "GRE",
       "number": 32,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 20000
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 46,
-        "com": 50,
+        "com": 63,
         "dri": 60,
         "ldr": 36,
         "pac": 66,
-        "pas": 60,
+        "pas": 73,
         "pos": 52,
         "sho": 50,
         "sta": 72,
         "str": 54,
-        "tac": 52,
-        "vis": 54
+        "tac": 65,
+        "vis": 67
       },
       "birth": "1986-07-01",
       "contract": "2008-06-30",
@@ -519,16 +532,16 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 70,
+        "aer": 59,
+        "com": 75,
         "dri": 70,
         "ldr": 56,
         "pac": 68,
         "pas": 64,
-        "pos": 54,
-        "sho": 72,
+        "pos": 59,
+        "sho": 77,
         "sta": 62,
-        "str": 58,
+        "str": 63,
         "tac": 36,
         "vis": 64
       },
@@ -545,16 +558,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 72,
+        "aer": 65,
+        "com": 77,
         "dri": 74,
         "ldr": 52,
         "pac": 88,
         "pas": 60,
-        "pos": 52,
-        "sho": 80,
+        "pos": 57,
+        "sho": 85,
         "sta": 82,
-        "str": 68,
+        "str": 73,
         "tac": 40,
         "vis": 58
       },
@@ -630,16 +643,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 60,
+        "aer": 64,
+        "com": 64,
         "dri": 68,
         "ldr": 40,
         "pac": 70,
         "pas": 58,
-        "pos": 46,
-        "sho": 68,
+        "pos": 50,
+        "sho": 72,
         "sta": 62,
-        "str": 64,
+        "str": 68,
         "tac": 36,
         "vis": 54
       },
@@ -657,16 +670,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 62,
+        "aer": 63,
+        "com": 63,
         "dri": 66,
         "ldr": 44,
         "pac": 64,
         "pas": 60,
-        "pos": 48,
-        "sho": 68,
+        "pos": 49,
+        "sho": 69,
         "sta": 58,
-        "str": 68,
+        "str": 69,
         "tac": 36,
         "vis": 56
       },
@@ -739,16 +752,16 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 54,
+        "aer": 58,
+        "com": 56,
         "dri": 60,
         "ldr": 38,
         "pac": 80,
         "pas": 48,
-        "pos": 58,
-        "sho": 60,
+        "pos": 60,
+        "sho": 62,
         "sta": 66,
-        "str": 64,
+        "str": 66,
         "tac": 30,
         "vis": 44
       },

@@ -101,18 +101,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 78,
         "com": 75,
-        "dri": 67,
+        "dri": 71,
         "ldr": 70,
-        "pac": 78,
-        "pas": 70,
+        "pac": 82,
+        "pas": 74,
         "pos": 80,
         "sho": 57,
-        "sta": 84,
+        "sta": 88,
         "str": 86,
         "tac": 82,
         "vis": 62
@@ -155,19 +156,22 @@
       "wage": 189500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
-        "com": 81,
-        "dri": 78,
+        "com": 84,
+        "dri": 81,
         "ldr": 74,
         "pac": 74,
-        "pas": 82,
+        "pas": 85,
         "pos": 75,
-        "sho": 75,
-        "sta": 85,
+        "sho": 78,
+        "sta": 88,
         "str": 87,
         "tac": 84,
-        "vis": 77
+        "vis": 80
       },
       "birth": "1982-12-01",
       "contract": "2015-06-30",
@@ -184,22 +188,19 @@
       "wage": 189500
     },
     {
-      "alt": [
-        "RM"
-      ],
       "attrs": {
         "aer": 55,
-        "com": 71,
+        "com": 84,
         "dri": 75,
         "ldr": 55,
         "pac": 84,
-        "pas": 73,
-        "pos": 69,
+        "pas": 85,
+        "pos": 82,
         "sho": 65,
         "sta": 92,
-        "str": 66,
-        "tac": 75,
-        "vis": 69
+        "str": 79,
+        "tac": 88,
+        "vis": 81
       },
       "birth": "1987-03-01",
       "contract": "2015-06-30",
@@ -210,7 +211,7 @@
       "name": "Remires",
       "nation": "BRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "engine"
       ],
@@ -218,7 +219,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 66,
@@ -226,12 +227,12 @@
         "dri": 80,
         "ldr": 85,
         "pac": 71,
-        "pas": 85,
+        "pas": 87,
         "pos": 73,
         "sho": 87,
-        "sta": 85,
+        "sta": 87,
         "str": 75,
-        "tac": 69,
+        "tac": 71,
         "vis": 85
       },
       "birth": "1978-06-01",
@@ -252,7 +253,8 @@
     },
     {
       "alt": [
-        "RM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 48,
@@ -390,7 +392,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 66,
@@ -419,18 +421,18 @@
     },
     {
       "alt": [
-        "CB"
+        "LB"
       ],
       "attrs": {
         "aer": 65,
         "com": 72,
-        "dri": 63,
+        "dri": 66,
         "ldr": 67,
-        "pac": 67,
-        "pas": 68,
+        "pac": 70,
+        "pas": 70,
         "pos": 73,
         "sho": 44,
-        "sta": 70,
+        "sta": 73,
         "str": 68,
         "tac": 73,
         "vis": 58
@@ -448,7 +450,8 @@
     },
     {
       "alt": [
-        "RW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 54,
@@ -472,24 +475,21 @@
       "name": "Salomon Kaloo",
       "nation": "CIV",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 53000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 57,
-        "com": 67,
+        "aer": 66,
+        "com": 76,
         "dri": 75,
         "ldr": 49,
         "pac": 78,
         "pas": 62,
-        "pos": 38,
-        "sho": 75,
+        "pos": 47,
+        "sho": 84,
         "sta": 67,
-        "str": 66,
+        "str": 75,
         "tac": 31,
         "vis": 61
       },
@@ -501,7 +501,7 @@
       "name": "Daniel Sturrydge",
       "nation": "ENG",
       "number": 23,
-      "pos": "RW",
+      "pos": "ST",
       "wage": 34500
     },
     {
@@ -566,16 +566,16 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 82,
+        "aer": 74,
+        "com": 89,
         "dri": 80,
         "ldr": 66,
-        "pac": 78,
+        "pac": 79,
         "pas": 75,
-        "pos": 45,
-        "sho": 82,
+        "pos": 52,
+        "sho": 89,
         "sta": 71,
-        "str": 75,
+        "str": 82,
         "tac": 36,
         "vis": 74
       },
@@ -592,7 +592,7 @@
     },
     {
       "alt": [
-        "AM"
+        "RW"
       ],
       "attrs": {
         "aer": 46,
@@ -620,6 +620,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 65,

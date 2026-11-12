@@ -57,7 +57,7 @@
         "ldr": 75,
         "pac": 77,
         "pas": 70,
-        "pos": 60,
+        "pos": 80,
         "sho": 79,
         "sta": 76,
         "str": 82,
@@ -76,6 +76,10 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 76,
@@ -109,7 +113,7 @@
         "ldr": 73,
         "pac": 75,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 80,
         "sta": 76,
         "str": 78,
@@ -128,19 +132,22 @@
       "wage": 57000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 78,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 72,
-        "pas": 80,
-        "pos": 73,
-        "sho": 70,
-        "sta": 77,
-        "str": 74,
-        "tac": 74,
-        "vis": 80
+        "aer": 61,
+        "com": 76,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 81,
+        "pas": 76,
+        "pos": 55,
+        "sho": 74,
+        "sta": 73,
+        "str": 69,
+        "tac": 54,
+        "vis": 77
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -151,13 +158,10 @@
       "nation": "IRN",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 75500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 82,
         "com": 75,
@@ -185,18 +189,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 79,
-        "dri": 77,
-        "ldr": 69,
-        "pac": 73,
-        "pas": 75,
-        "pos": 73,
-        "sho": 69,
-        "sta": 79,
-        "str": 71,
-        "tac": 69,
-        "vis": 74
+        "aer": 59,
+        "com": 81,
+        "dri": 81,
+        "ldr": 67,
+        "pac": 76,
+        "pas": 76,
+        "pos": 58,
+        "sho": 76,
+        "sta": 73,
+        "str": 66,
+        "tac": 51,
+        "vis": 77
       },
       "birth": "1983-02-01",
       "contract": null,
@@ -206,7 +210,7 @@
       "name": "Rafael van der Vaert",
       "nation": "NED",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 75500
     },
@@ -239,17 +243,22 @@
       "wage": 51000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 77,
-        "dri": 73,
+        "aer": 72,
+        "com": 83,
+        "dri": 77,
         "ldr": 73,
-        "pac": 67,
+        "pac": 73,
         "pas": 76,
-        "pos": 73,
-        "sho": 69,
+        "pos": 79,
+        "sho": 75,
         "sta": 75,
-        "str": 72,
+        "str": 78,
         "tac": 70,
         "vis": 76
       },
@@ -261,23 +270,23 @@
       "name": "Sergej Berbarez",
       "nation": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 73000
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 74,
-        "dri": 69,
-        "ldr": 68,
-        "pac": 70,
+        "aer": 56,
+        "com": 75,
+        "dri": 73,
+        "ldr": 66,
+        "pac": 73,
         "pas": 75,
-        "pos": 69,
-        "sho": 69,
-        "sta": 71,
-        "str": 64,
-        "tac": 66,
-        "vis": 76
+        "pos": 54,
+        "sho": 75,
+        "sta": 65,
+        "str": 59,
+        "tac": 48,
+        "vis": 78
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -287,7 +296,7 @@
       "name": "Piotr Trochuwski",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 53000
     },
@@ -314,11 +323,14 @@
       "name": "Timothee Atooba",
       "nation": "CMR",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 39000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -353,7 +365,7 @@
         "ldr": 61,
         "pac": 73,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 76,
         "sta": 66,
         "str": 68,
@@ -372,19 +384,24 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 68,
+        "com": 69,
         "dri": 67,
         "ldr": 68,
         "pac": 68,
-        "pas": 70,
+        "pas": 71,
         "pos": 65,
         "sho": 62,
         "sta": 74,
         "str": 62,
-        "tac": 65,
-        "vis": 68
+        "tac": 66,
+        "vis": 69
       },
       "birth": "1983-02-01",
       "contract": null,
@@ -399,6 +416,11 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 68,
@@ -425,6 +447,9 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -477,6 +502,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -512,7 +540,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 67,
         "sta": 61,
         "str": 64,
@@ -644,7 +672,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 57,
         "str": 58,
@@ -691,18 +719,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 59,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 56,
-        "pas": 63,
-        "pos": 54,
-        "sho": 52,
+        "dri": 52,
+        "ldr": 57,
+        "pac": 53,
+        "pas": 62,
+        "pos": 58,
+        "sho": 46,
         "sta": 57,
-        "str": 53,
-        "tac": 57,
-        "vis": 62
+        "str": 58,
+        "tac": 63,
+        "vis": 59
       },
       "birth": "1982-11-01",
       "contract": null,
@@ -712,7 +740,7 @@
       "name": "Yusuf Adewunmy",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11500
     },
     {
@@ -743,6 +771,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -777,7 +808,7 @@
         "ldr": 51,
         "pac": 56,
         "pas": 50,
-        "pos": 30,
+        "pos": 50,
         "sho": 60,
         "sta": 48,
         "str": 57,
@@ -797,6 +828,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -823,19 +857,24 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "RB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
-        "com": 50,
+        "com": 53,
         "dri": 48,
         "ldr": 50,
         "pac": 54,
-        "pas": 48,
-        "pos": 51,
+        "pas": 51,
+        "pos": 54,
         "sho": 34,
         "sta": 59,
-        "str": 50,
-        "tac": 56,
-        "vis": 49
+        "str": 53,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "1984-10-01",
       "contract": null,
@@ -845,7 +884,7 @@
       "name": "Mario Fillingar",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "DM",
       "verify": true,
       "wage": 5500
     },

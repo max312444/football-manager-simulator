@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 77,
@@ -31,7 +34,7 @@
         "ldr": 75,
         "pac": 78,
         "pas": 68,
-        "pos": 53,
+        "pos": 73,
         "sho": 84,
         "sta": 74,
         "str": 81,
@@ -57,7 +60,7 @@
         "ldr": 69,
         "pac": 78,
         "pas": 66,
-        "pos": 54,
+        "pos": 74,
         "sho": 75,
         "sta": 72,
         "str": 77,
@@ -76,19 +79,22 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 74,
-        "dri": 70,
-        "ldr": 73,
-        "pac": 67,
-        "pas": 74,
-        "pos": 75,
-        "sho": 70,
-        "sta": 74,
-        "str": 72,
-        "tac": 74,
-        "vis": 77
+        "aer": 64,
+        "com": 76,
+        "dri": 72,
+        "ldr": 74,
+        "pac": 68,
+        "pas": 76,
+        "pos": 76,
+        "sho": 72,
+        "sta": 76,
+        "str": 73,
+        "tac": 75,
+        "vis": 79
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -102,6 +108,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 71,
@@ -130,18 +139,18 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 69,
-        "dri": 56,
-        "ldr": 70,
-        "pac": 66,
-        "pas": 64,
-        "pos": 77,
-        "sho": 44,
-        "sta": 70,
-        "str": 71,
-        "tac": 72,
-        "vis": 59
+        "aer": 63,
+        "com": 67,
+        "dri": 66,
+        "ldr": 66,
+        "pac": 74,
+        "pas": 68,
+        "pos": 72,
+        "sho": 51,
+        "sta": 76,
+        "str": 63,
+        "tac": 69,
+        "vis": 65
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -152,11 +161,14 @@
       "nation": "CRO",
       "nation2": "AUS",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 12500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 72,
@@ -217,7 +229,7 @@
         "ldr": 62,
         "pac": 74,
         "pas": 60,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 68,
         "str": 71,
@@ -236,16 +248,20 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "CB",
+        "RWB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 65,
-        "dri": 52,
+        "dri": 60,
         "ldr": 66,
-        "pac": 65,
-        "pas": 64,
+        "pac": 73,
+        "pas": 72,
         "pos": 70,
         "sho": 41,
-        "sta": 65,
+        "sta": 73,
         "str": 73,
         "tac": 71,
         "vis": 53
@@ -258,7 +274,7 @@
       "name": "Marius Stankevicyus",
       "nation": "LTU",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8500
     },
     {
@@ -316,6 +332,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
@@ -342,6 +361,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -395,6 +417,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 61,
@@ -421,6 +446,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -501,6 +529,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 63,
@@ -528,6 +559,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -576,7 +610,7 @@
       "name": "Andrea Sossi",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 3500
     },
@@ -609,18 +643,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 61,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 61,
-        "pos": 56,
-        "sho": 55,
+        "dri": 56,
+        "ldr": 59,
+        "pac": 53,
+        "pas": 60,
+        "pos": 60,
+        "sho": 49,
         "sta": 59,
-        "str": 57,
-        "tac": 53,
-        "vis": 60
+        "str": 62,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -630,24 +664,24 @@
       "name": "Roberto Guena",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 59,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 59,
-        "pas": 52,
-        "pos": 37,
-        "sho": 59,
-        "sta": 58,
-        "str": 61,
-        "tac": 29,
-        "vis": 52
+        "aer": 46,
+        "com": 56,
+        "dri": 62,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 58,
+        "pos": 39,
+        "sho": 54,
+        "sta": 60,
+        "str": 51,
+        "tac": 35,
+        "vis": 58
       },
       "birth": "1981-08-01",
       "contract": null,
@@ -657,7 +691,7 @@
       "name": "Simone Del Neru",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 3000
     },
     {
@@ -688,6 +722,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -791,7 +828,7 @@
       "name": "Marco Pisanu",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 2500
     },
     {
@@ -802,7 +839,7 @@
         "ldr": 49,
         "pac": 53,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 57,
         "sta": 51,
         "str": 59,
@@ -822,6 +859,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,
@@ -856,7 +896,7 @@
         "ldr": 44,
         "pac": 50,
         "pas": 42,
-        "pos": 28,
+        "pos": 48,
         "sho": 57,
         "sta": 48,
         "str": 53,
@@ -910,7 +950,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 40,
-        "pos": 30,
+        "pos": 50,
         "sho": 51,
         "sta": 47,
         "str": 51,

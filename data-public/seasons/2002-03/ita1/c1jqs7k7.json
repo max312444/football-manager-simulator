@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 80,
@@ -58,7 +61,7 @@
         "ldr": 67,
         "pac": 77,
         "pas": 67,
-        "pos": 55,
+        "pos": 75,
         "sho": 78,
         "sta": 73,
         "str": 73,
@@ -78,6 +81,11 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 72,
@@ -131,6 +139,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 72,
@@ -157,17 +168,22 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 69,
-        "dri": 65,
+        "aer": 61,
+        "com": 74,
+        "dri": 68,
         "ldr": 65,
-        "pac": 67,
+        "pac": 71,
         "pas": 69,
-        "pos": 67,
-        "sho": 63,
+        "pos": 72,
+        "sho": 68,
         "sta": 72,
-        "str": 67,
+        "str": 72,
         "tac": 62,
         "vis": 70
       },
@@ -179,24 +195,27 @@
       "name": "Jason Mayela",
       "nation": "COD",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 11500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 69,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 61,
-        "pas": 73,
-        "pos": 64,
-        "sho": 63,
-        "sta": 74,
-        "str": 62,
-        "tac": 67,
-        "vis": 68
+        "aer": 56,
+        "com": 67,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 70,
+        "pas": 69,
+        "pos": 46,
+        "sho": 67,
+        "sta": 70,
+        "str": 57,
+        "tac": 47,
+        "vis": 65
       },
       "birth": "1978-02-01",
       "contract": null,
@@ -206,7 +225,7 @@
       "name": "Nikola Lazetyc",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 12000
     },
@@ -319,18 +338,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 65,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 59,
-        "pas": 68,
-        "pos": 64,
-        "sho": 62,
-        "sta": 64,
-        "str": 62,
-        "tac": 58,
-        "vis": 65
+        "aer": 52,
+        "com": 63,
+        "dri": 71,
+        "ldr": 58,
+        "pac": 68,
+        "pas": 64,
+        "pos": 46,
+        "sho": 66,
+        "sta": 60,
+        "str": 57,
+        "tac": 38,
+        "vis": 62
       },
       "birth": "1975-12-01",
       "contract": null,
@@ -340,11 +359,14 @@
       "name": "Lociano",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 8000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -397,6 +419,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -483,7 +508,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 62,
         "sta": 61,
         "str": 65,
@@ -528,6 +553,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -581,19 +609,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 62,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 58,
-        "pas": 61,
-        "pos": 56,
-        "sho": 54,
-        "sta": 65,
-        "str": 55,
-        "tac": 55,
-        "vis": 62
+        "aer": 43,
+        "com": 60,
+        "dri": 63,
+        "ldr": 50,
+        "pac": 67,
+        "pas": 57,
+        "pos": 38,
+        "sho": 58,
+        "sta": 61,
+        "str": 50,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -603,7 +634,7 @@
       "name": "Daniele Franceschyni",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 4500
     },
     {
@@ -640,7 +671,7 @@
         "ldr": 51,
         "pac": 62,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 57,
         "str": 57,
@@ -659,6 +690,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -686,19 +720,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 58,
-        "dri": 54,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 59,
-        "pos": 57,
-        "sho": 51,
-        "sta": 61,
-        "str": 54,
-        "tac": 57,
-        "vis": 61
+        "aer": 44,
+        "com": 56,
+        "dri": 59,
+        "ldr": 49,
+        "pac": 61,
+        "pas": 55,
+        "pos": 39,
+        "sho": 55,
+        "sta": 57,
+        "str": 49,
+        "tac": 37,
+        "vis": 58
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -708,7 +745,7 @@
       "name": "Ivone De Franceschy",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 3500
     },
@@ -720,7 +757,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 54,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 57,
         "str": 59,
@@ -739,6 +776,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -799,7 +839,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 59,
         "sta": 57,
         "str": 56,
@@ -845,6 +885,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -879,7 +922,7 @@
         "ldr": 46,
         "pac": 56,
         "pas": 45,
-        "pos": 32,
+        "pos": 52,
         "sho": 61,
         "sta": 54,
         "str": 54,
@@ -906,7 +949,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 48,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 48,
         "str": 58,
@@ -1039,7 +1082,7 @@
         "ldr": 43,
         "pac": 54,
         "pas": 46,
-        "pos": 27,
+        "pos": 47,
         "sho": 55,
         "sta": 50,
         "str": 54,
@@ -1058,6 +1101,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 48,

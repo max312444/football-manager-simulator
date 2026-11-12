@@ -127,6 +127,11 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 54,
@@ -181,19 +186,22 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 70,
-        "dri": 63,
+        "com": 74,
+        "dri": 67,
         "ldr": 64,
         "pac": 60,
-        "pas": 71,
+        "pas": 75,
         "pos": 72,
-        "sho": 57,
-        "sta": 74,
+        "sho": 61,
+        "sta": 78,
         "str": 64,
         "tac": 71,
-        "vis": 68
+        "vis": 72
       },
       "birth": "1977-08-01",
       "contract": "2010-06-30",
@@ -239,16 +247,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 74,
+        "aer": 66,
+        "com": 79,
         "dri": 73,
         "ldr": 48,
         "pac": 85,
         "pas": 61,
-        "pos": 52,
-        "sho": 79,
+        "pos": 57,
+        "sho": 84,
         "sta": 73,
-        "str": 58,
+        "str": 63,
         "tac": 39,
         "vis": 60
       },
@@ -266,18 +274,15 @@
       "wage": 40500
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 44,
-        "com": 64,
-        "dri": 66,
+        "com": 65,
+        "dri": 67,
         "ldr": 56,
-        "pac": 66,
+        "pac": 67,
         "pas": 70,
         "pos": 54,
-        "sho": 56,
+        "sho": 57,
         "sta": 70,
         "str": 58,
         "tac": 50,
@@ -291,7 +296,7 @@
       "name": "Eddie Lewys",
       "nation": "USA",
       "number": 11,
-      "pos": "LM",
+      "pos": "LW",
       "verify": true,
       "wage": 26500
     },
@@ -324,16 +329,16 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 60,
+        "aer": 64,
+        "com": 68,
         "dri": 68,
         "ldr": 54,
         "pac": 76,
         "pas": 60,
-        "pos": 46,
-        "sho": 68,
+        "pos": 54,
+        "sho": 76,
         "sta": 76,
-        "str": 64,
+        "str": 72,
         "tac": 36,
         "vis": 58
       },
@@ -350,6 +355,9 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 58,
@@ -378,21 +386,21 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 40,
-        "com": 60,
+        "com": 62,
         "dri": 68,
         "ldr": 44,
         "pac": 64,
-        "pas": 70,
+        "pas": 74,
         "pos": 50,
         "sho": 58,
-        "sta": 70,
+        "sta": 72,
         "str": 56,
-        "tac": 46,
-        "vis": 66
+        "tac": 50,
+        "vis": 68
       },
       "birth": "1985-01-01",
       "contract": "2010-06-30",
@@ -435,21 +443,21 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 48,
-        "com": 56,
+        "com": 69,
         "dri": 62,
         "ldr": 46,
         "pac": 70,
-        "pas": 62,
+        "pas": 75,
         "pos": 54,
         "sho": 56,
         "sta": 78,
         "str": 62,
-        "tac": 54,
-        "vis": 56
+        "tac": 67,
+        "vis": 69
       },
       "birth": "1982-10-01",
       "contract": "2010-06-30",
@@ -465,21 +473,23 @@
     },
     {
       "alt": [
-        "LM"
+        "LB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 44,
-        "com": 56,
+        "com": 60,
         "dri": 58,
         "ldr": 46,
-        "pac": 58,
-        "pas": 64,
-        "pos": 50,
+        "pac": 66,
+        "pas": 68,
+        "pos": 62,
         "sho": 54,
         "sta": 68,
-        "str": 60,
-        "tac": 50,
-        "vis": 60
+        "str": 72,
+        "tac": 62,
+        "vis": 64
       },
       "birth": "1984-11-01",
       "contract": "2010-06-30",
@@ -489,24 +499,28 @@
       "name": "David Jonas",
       "nation": "ENG",
       "number": 19,
-      "pos": "LB",
+      "pos": "DM",
       "verify": true,
       "wage": 16500
     },
     {
+      "alt": [
+        "RW",
+        "ST"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 58,
+        "com": 68,
         "dri": 66,
         "ldr": 50,
         "pac": 68,
-        "pas": 60,
+        "pas": 70,
         "pos": 50,
-        "sho": 58,
+        "sho": 68,
         "sta": 70,
         "str": 64,
         "tac": 42,
-        "vis": 56
+        "vis": 66
       },
       "birth": "1979-05-01",
       "contract": "2009-06-30",
@@ -516,11 +530,14 @@
       "name": "Mile Starjovski",
       "nation": "AUS",
       "number": 20,
-      "pos": "RM",
+      "pos": "AM",
       "verify": true,
       "wage": 20500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 45,
         "com": 64,
@@ -543,11 +560,16 @@
       "name": "Gary Taale",
       "nation": "SCO",
       "number": 21,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 21000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 30,
         "com": 54,
@@ -576,6 +598,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -606,7 +629,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 63,
@@ -638,16 +661,20 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
-        "dri": 52,
+        "dri": 56,
         "ldr": 59,
-        "pac": 55,
-        "pas": 56,
+        "pac": 59,
+        "pas": 58,
         "pos": 67,
         "sho": 36,
-        "sta": 63,
+        "sta": 67,
         "str": 57,
         "tac": 66,
         "vis": 49

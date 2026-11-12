@@ -104,6 +104,9 @@
       "wage": 163500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 72,
@@ -157,6 +160,9 @@
       "wage": 225500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -190,7 +196,7 @@
         "ldr": 70,
         "pac": 74,
         "pas": 63,
-        "pos": 55,
+        "pos": 75,
         "sho": 75,
         "sta": 73,
         "str": 75,
@@ -216,7 +222,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 75,
-        "pos": 61,
+        "pos": 81,
         "sho": 84,
         "sta": 74,
         "str": 80,
@@ -235,6 +241,11 @@
       "wage": 323000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 82,
         "com": 86,
@@ -242,7 +253,7 @@
         "ldr": 78,
         "pac": 82,
         "pas": 76,
-        "pos": 62,
+        "pos": 82,
         "sho": 88,
         "sta": 79,
         "str": 81,
@@ -261,19 +272,23 @@
       "wage": 401000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 80,
-        "dri": 80,
-        "ldr": 77,
-        "pac": 74,
+        "aer": 62,
+        "com": 81,
+        "dri": 84,
+        "ldr": 75,
+        "pac": 77,
         "pas": 80,
-        "pos": 77,
-        "sho": 71,
-        "sta": 83,
-        "str": 73,
-        "tac": 79,
-        "vis": 82
+        "pos": 62,
+        "sho": 77,
+        "sta": 77,
+        "str": 68,
+        "tac": 61,
+        "vis": 84
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -284,7 +299,7 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 401000
     },
     {
@@ -314,22 +329,19 @@
       "wage": 311000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 77,
-        "com": 75,
-        "dri": 61,
-        "ldr": 77,
-        "pac": 68,
-        "pas": 70,
-        "pos": 78,
-        "sho": 48,
-        "sta": 74,
-        "str": 78,
-        "tac": 79,
-        "vis": 60
+        "aer": 64,
+        "com": 73,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 76,
+        "pas": 74,
+        "pos": 73,
+        "sho": 55,
+        "sta": 80,
+        "str": 70,
+        "tac": 76,
+        "vis": 66
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -340,7 +352,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 13,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 217000
     },
     {
@@ -366,7 +378,7 @@
       "name": "Juan Bernet",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 255000
     },
     {
@@ -403,7 +415,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 69,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 76,
         "str": 76,
@@ -424,18 +436,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 72,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 67,
-        "pas": 80,
-        "pos": 70,
-        "sho": 72,
+        "dri": 70,
+        "ldr": 75,
+        "pac": 64,
+        "pas": 79,
+        "pos": 74,
+        "sho": 66,
         "sta": 74,
-        "str": 72,
-        "tac": 68,
-        "vis": 76
+        "str": 77,
+        "tac": 74,
+        "vis": 73
       },
       "birth": "1985-03-01",
       "contract": null,
@@ -445,7 +457,7 @@
       "name": "Lassana Dyarra",
       "nation": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 264500
     },
     {
@@ -472,23 +484,28 @@
       "nation": "FRA",
       "nation2": "POL",
       "number": 20,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 234000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "RWB"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 68,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 70,
-        "pas": 59,
-        "pos": 48,
-        "sho": 73,
-        "sta": 64,
-        "str": 70,
-        "tac": 34,
-        "vis": 62
+        "aer": 54,
+        "com": 65,
+        "dri": 67,
+        "ldr": 60,
+        "pac": 74,
+        "pas": 65,
+        "pos": 50,
+        "sho": 68,
+        "sta": 66,
+        "str": 60,
+        "tac": 40,
+        "vis": 68
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -499,23 +516,27 @@
       "nation": "USA",
       "nation2": "FRA",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 80500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 77,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 75,
-        "pas": 70,
-        "pos": 54,
-        "sho": 81,
-        "sta": 75,
-        "str": 77,
-        "tac": 48,
-        "vis": 68
+        "aer": 60,
+        "com": 74,
+        "dri": 80,
+        "ldr": 70,
+        "pac": 79,
+        "pas": 76,
+        "pos": 56,
+        "sho": 76,
+        "sta": 77,
+        "str": 67,
+        "tac": 54,
+        "vis": 74
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -525,23 +546,27 @@
       "name": "Jase",
       "nation": "ESP",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 219000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 80,
-        "dri": 77,
-        "ldr": 74,
-        "pac": 70,
+        "aer": 63,
+        "com": 81,
+        "dri": 81,
+        "ldr": 72,
+        "pac": 73,
         "pas": 77,
-        "pos": 76,
-        "sho": 72,
-        "sta": 81,
-        "str": 74,
-        "tac": 75,
-        "vis": 78
+        "pos": 61,
+        "sho": 78,
+        "sta": 75,
+        "str": 69,
+        "tac": 57,
+        "vis": 80
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -551,23 +576,28 @@
       "name": "Julian Drexler",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 375500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 66,
-        "dri": 69,
-        "ldr": 64,
-        "pac": 67,
+        "aer": 55,
+        "com": 67,
+        "dri": 73,
+        "ldr": 62,
+        "pac": 70,
         "pas": 71,
-        "pos": 64,
-        "sho": 61,
-        "sta": 74,
-        "str": 61,
-        "tac": 63,
-        "vis": 73
+        "pos": 49,
+        "sho": 67,
+        "sta": 68,
+        "str": 56,
+        "tac": 45,
+        "vis": 75
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -577,10 +607,13 @@
       "name": "Christopher Nkonku",
       "nation": "FRA",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 134000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 78,
@@ -607,6 +640,9 @@
       "wage": 264500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -635,18 +671,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 50,
-        "dri": 43,
-        "ldr": 51,
-        "pac": 49,
-        "pas": 49,
-        "pos": 55,
-        "sho": 25,
-        "sta": 49,
-        "str": 57,
-        "tac": 60,
-        "vis": 42
+        "aer": 44,
+        "com": 48,
+        "dri": 53,
+        "ldr": 47,
+        "pac": 57,
+        "pas": 53,
+        "pos": 50,
+        "sho": 32,
+        "sta": 55,
+        "str": 49,
+        "tac": 57,
+        "vis": 48
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -656,10 +692,13 @@
       "name": "Alec Geurgen",
       "nation": "FRA",
       "number": 31,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 59,
@@ -713,19 +752,24 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "LW",
+        "RM",
+        "LM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 70,
-        "dri": 67,
-        "ldr": 60,
-        "pac": 63,
-        "pas": 60,
-        "pos": 47,
-        "sho": 72,
-        "sta": 62,
-        "str": 64,
-        "tac": 36,
-        "vis": 58
+        "aer": 49,
+        "com": 67,
+        "dri": 72,
+        "ldr": 58,
+        "pac": 67,
+        "pas": 66,
+        "pos": 49,
+        "sho": 67,
+        "sta": 64,
+        "str": 54,
+        "tac": 42,
+        "vis": 64
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -735,7 +779,7 @@
       "name": "Moussa Diabi",
       "nation": "FRA",
       "number": 35,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 68000
     },
     {

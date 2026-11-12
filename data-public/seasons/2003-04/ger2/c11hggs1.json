@@ -31,7 +31,7 @@
         "ldr": 62,
         "pac": 66,
         "pas": 59,
-        "pos": 41,
+        "pos": 61,
         "sho": 68,
         "sta": 61,
         "str": 63,
@@ -51,6 +51,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 61,
@@ -103,6 +108,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 63,
@@ -131,9 +139,6 @@
       "wage": 4000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -156,7 +161,7 @@
       "name": "Karsten Hotwelker",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     },
@@ -168,7 +173,7 @@
         "ldr": 51,
         "pac": 59,
         "pas": 49,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 52,
         "str": 55,
@@ -188,19 +193,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 61,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 51,
-        "pas": 58,
-        "pos": 57,
-        "sho": 53,
-        "sta": 57,
-        "str": 55,
-        "tac": 57,
-        "vis": 56
+        "aer": 49,
+        "com": 63,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 52,
+        "pas": 60,
+        "pos": 58,
+        "sho": 55,
+        "sta": 59,
+        "str": 56,
+        "tac": 58,
+        "vis": 58
       },
       "birth": "1972-10-01",
       "contract": null,
@@ -216,18 +224,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 56,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 52,
-        "pas": 61,
-        "pos": 56,
-        "sho": 49,
+        "dri": 53,
+        "ldr": 57,
+        "pac": 49,
+        "pas": 60,
+        "pos": 60,
+        "sho": 43,
         "sta": 58,
-        "str": 54,
-        "tac": 53,
-        "vis": 60
+        "str": 59,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -237,7 +245,7 @@
       "name": "Ramezan Yıldırım",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
@@ -275,7 +283,7 @@
         "ldr": 46,
         "pac": 54,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 60,
         "sta": 49,
         "str": 57,
@@ -294,6 +302,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,
@@ -353,7 +364,7 @@
         "ldr": 47,
         "pac": 57,
         "pas": 44,
-        "pos": 30,
+        "pos": 50,
         "sho": 60,
         "sta": 53,
         "str": 52,
@@ -373,6 +384,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -399,19 +413,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 51,
+        "com": 58,
         "dri": 36,
         "ldr": 54,
         "pac": 45,
-        "pas": 45,
+        "pas": 52,
         "pos": 54,
         "sho": 28,
-        "sta": 51,
+        "sta": 58,
         "str": 58,
         "tac": 58,
-        "vis": 39
+        "vis": 46
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -421,7 +440,7 @@
       "name": "Carsten Strassar",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
@@ -540,7 +559,7 @@
         "ldr": 44,
         "pac": 49,
         "pas": 44,
-        "pos": 27,
+        "pos": 47,
         "sho": 57,
         "sta": 47,
         "str": 51,
@@ -621,7 +640,7 @@
         "ldr": 40,
         "pac": 45,
         "pas": 37,
-        "pos": 27,
+        "pos": 47,
         "sho": 49,
         "sta": 42,
         "str": 48,

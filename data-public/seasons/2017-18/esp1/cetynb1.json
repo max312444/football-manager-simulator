@@ -156,6 +156,10 @@
       "wage": 300000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 77,
@@ -182,6 +186,9 @@
       "wage": 391000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 84,
         "com": 88,
@@ -189,7 +196,7 @@
         "ldr": 78,
         "pac": 84,
         "pas": 79,
-        "pos": 64,
+        "pos": 84,
         "sho": 89,
         "sta": 86,
         "str": 84,
@@ -208,6 +215,9 @@
       "wage": 499500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 85,
@@ -241,7 +251,7 @@
         "ldr": 78,
         "pac": 83,
         "pas": 79,
-        "pos": 61,
+        "pos": 81,
         "sho": 88,
         "sta": 80,
         "str": 82,
@@ -261,21 +271,22 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 70,
-        "com": 84,
+        "com": 85,
         "dri": 89,
         "ldr": 76,
         "pac": 84,
-        "pas": 83,
+        "pas": 84,
         "pos": 69,
-        "sho": 81,
+        "sho": 82,
         "sta": 80,
         "str": 73,
         "tac": 60,
-        "vis": 86
+        "vis": 87
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -289,19 +300,23 @@
       "wage": 410000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 83,
-        "com": 83,
-        "dri": 82,
-        "ldr": 80,
-        "pac": 87,
-        "pas": 78,
-        "pos": 65,
-        "sho": 85,
-        "sta": 81,
-        "str": 81,
-        "tac": 57,
-        "vis": 77
+        "aer": 69,
+        "com": 80,
+        "dri": 87,
+        "ldr": 78,
+        "pac": 91,
+        "pas": 84,
+        "pos": 67,
+        "sho": 80,
+        "sta": 83,
+        "str": 71,
+        "tac": 63,
+        "vis": 83
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -311,7 +326,7 @@
       "name": "Gareth Bala",
       "nation": "WAL",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 425500
     },
     {
@@ -338,7 +353,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 438000
     },
     {
@@ -368,9 +383,6 @@
       "wage": 196000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 80,
         "com": 79,
@@ -419,23 +431,27 @@
       "name": "Theo Hernendez",
       "nation": "FRA",
       "number": 15,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 95500
     },
     {
+      "alt": [
+        "RB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 78,
-        "dri": 78,
-        "ldr": 70,
-        "pac": 76,
-        "pas": 70,
-        "pos": 55,
-        "sho": 83,
-        "sta": 74,
-        "str": 81,
-        "tac": 48,
-        "vis": 69
+        "aer": 61,
+        "com": 75,
+        "dri": 83,
+        "ldr": 68,
+        "pac": 80,
+        "pas": 76,
+        "pos": 57,
+        "sho": 78,
+        "sta": 76,
+        "str": 71,
+        "tac": 54,
+        "vis": 75
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -445,10 +461,15 @@
       "name": "Lucas Vazqoez",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 196000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 72,
@@ -503,21 +524,22 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 70,
+        "aer": 57,
+        "com": 77,
+        "dri": 76,
+        "ldr": 69,
+        "pac": 73,
         "pas": 77,
-        "pos": 76,
-        "sho": 71,
-        "sta": 74,
-        "str": 69,
-        "tac": 74,
-        "vis": 77
+        "pos": 61,
+        "sho": 77,
+        "sta": 68,
+        "str": 64,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -527,23 +549,27 @@
       "name": "Marco Asensiu",
       "nation": "ESP",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 222000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 78,
-        "dri": 81,
-        "ldr": 75,
-        "pac": 76,
+        "aer": 68,
+        "com": 79,
+        "dri": 85,
+        "ldr": 73,
+        "pac": 79,
         "pas": 85,
-        "pos": 77,
-        "sho": 72,
-        "sta": 82,
-        "str": 77,
-        "tac": 77,
-        "vis": 81
+        "pos": 62,
+        "sho": 78,
+        "sta": 76,
+        "str": 72,
+        "tac": 59,
+        "vis": 83
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -553,10 +579,14 @@
       "name": "Iscu",
       "nation": "ESP",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 410000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 75,
@@ -583,19 +613,23 @@
       "wage": 314500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 72,
-        "dri": 68,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 78,
-        "pos": 72,
-        "sho": 68,
-        "sta": 72,
-        "str": 71,
-        "tac": 72,
-        "vis": 72
+        "aer": 67,
+        "com": 74,
+        "dri": 70,
+        "ldr": 71,
+        "pac": 72,
+        "pas": 80,
+        "pos": 73,
+        "sho": 70,
+        "sta": 74,
+        "str": 72,
+        "tac": 73,
+        "vis": 74
       },
       "birth": "1996-08-01",
       "contract": null,

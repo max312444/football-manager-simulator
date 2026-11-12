@@ -103,6 +103,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 66,
@@ -130,6 +133,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 54,
@@ -156,6 +162,10 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -189,7 +199,7 @@
         "ldr": 59,
         "pac": 61,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 55,
         "str": 65,
@@ -211,18 +221,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 59,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 55,
+        "aer": 44,
+        "com": 60,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 58,
         "pas": 64,
-        "pos": 60,
-        "sho": 57,
-        "sta": 64,
-        "str": 57,
-        "tac": 56,
-        "vis": 63
+        "pos": 45,
+        "sho": 63,
+        "sta": 58,
+        "str": 52,
+        "tac": 38,
+        "vis": 65
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -232,10 +242,15 @@
       "name": "Marvin Wanitzak",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 67,
         "com": 68,
@@ -243,7 +258,7 @@
         "ldr": 58,
         "pac": 69,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 72,
         "sta": 66,
         "str": 64,
@@ -262,6 +277,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -311,7 +329,7 @@
       "name": "Philip Haise",
       "nation": "GER",
       "number": 16,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 9500
     },
     {
@@ -322,7 +340,7 @@
         "ldr": 55,
         "pac": 66,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 68,
         "sta": 57,
         "str": 62,
@@ -342,18 +360,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 48,
-        "dri": 37,
-        "ldr": 51,
-        "pac": 46,
-        "pas": 45,
-        "pos": 50,
-        "sho": 23,
-        "sta": 49,
-        "str": 52,
-        "tac": 56,
-        "vis": 36
+        "aer": 42,
+        "com": 46,
+        "dri": 47,
+        "ldr": 47,
+        "pac": 54,
+        "pas": 49,
+        "pos": 45,
+        "sho": 30,
+        "sta": 55,
+        "str": 44,
+        "tac": 53,
+        "vis": 42
       },
       "birth": "2003-02-01",
       "contract": null,
@@ -364,23 +382,26 @@
       "name": "David Harold",
       "nation": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 3500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 56,
-        "dri": 42,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 50,
-        "pos": 56,
-        "sho": 26,
-        "sta": 55,
-        "str": 57,
-        "tac": 61,
-        "vis": 45
+        "aer": 48,
+        "com": 54,
+        "dri": 52,
+        "ldr": 52,
+        "pac": 61,
+        "pas": 54,
+        "pos": 51,
+        "sho": 33,
+        "sta": 61,
+        "str": 49,
+        "tac": 58,
+        "vis": 51
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -390,7 +411,7 @@
       "name": "Marco Thiade",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 7000
     },
     {
@@ -446,6 +467,10 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -473,22 +498,22 @@
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "AM",
+        "LW"
       ],
       "attrs": {
-        "aer": 50,
-        "com": 59,
-        "dri": 53,
-        "ldr": 47,
-        "pac": 56,
-        "pas": 49,
-        "pos": 31,
-        "sho": 60,
-        "sta": 51,
-        "str": 56,
-        "tac": 26,
-        "vis": 47
+        "aer": 36,
+        "com": 56,
+        "dri": 58,
+        "ldr": 45,
+        "pac": 60,
+        "pas": 55,
+        "pos": 33,
+        "sho": 55,
+        "sta": 53,
+        "str": 46,
+        "tac": 32,
+        "vis": 53
       },
       "birth": "2002-10-01",
       "contract": null,
@@ -499,7 +524,7 @@
       "name": "Paul Nebal",
       "nation": "GER",
       "number": 26,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
@@ -555,19 +580,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 35,
-        "com": 43,
-        "dri": 39,
-        "ldr": 42,
-        "pac": 40,
-        "pas": 45,
-        "pos": 43,
-        "sho": 38,
-        "sta": 46,
-        "str": 42,
-        "tac": 42,
-        "vis": 43
+        "aer": 36,
+        "com": 45,
+        "dri": 41,
+        "ldr": 43,
+        "pac": 41,
+        "pas": 47,
+        "pos": 44,
+        "sho": 40,
+        "sta": 48,
+        "str": 43,
+        "tac": 43,
+        "vis": 45
       },
       "birth": "2005-07-01",
       "contract": null,

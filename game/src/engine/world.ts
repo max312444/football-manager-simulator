@@ -34,6 +34,7 @@ import { createEurope, euroDay, onEuroResult } from './europe';
 import { createWorldCup, onWorldCupResult, worldCupDay } from './worldcup';
 import { intlBreakDay } from './national';
 import { effectiveTraining, recoveryFactor, trainingInjuryChance, trainingMonth } from './training';
+import { academyFill } from './youth';
 
 export interface SeasonInput {
   season: string;
@@ -133,6 +134,7 @@ export function createWorld(input: SeasonInput, userClubId: string, seed: number
   w.europe = createEurope(w, rng, input.prevStandings);
   w.cups = createCups(w, rng);
   w.worldCup = createWorldCup(w, input.season, input.worldCups);
+  academyFill(w, Object.values(clubs), input.season);   // 선수단 구성이 모자란 구단은 유스에서 끌어올림
   w.rng = rng.state();
   return w;
 }

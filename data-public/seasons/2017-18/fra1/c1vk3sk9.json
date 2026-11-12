@@ -51,19 +51,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 62,
-        "dri": 48,
-        "ldr": 65,
-        "pac": 57,
-        "pas": 55,
-        "pos": 69,
-        "sho": 38,
-        "sta": 59,
-        "str": 65,
-        "tac": 65,
-        "vis": 48
+        "aer": 57,
+        "com": 60,
+        "dri": 58,
+        "ldr": 61,
+        "pac": 65,
+        "pas": 59,
+        "pos": 64,
+        "sho": 45,
+        "sta": 65,
+        "str": 57,
+        "tac": 62,
+        "vis": 54
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -74,23 +77,27 @@
       "nation": "FRA",
       "nation2": "MAR",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 19500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 63,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 60,
-        "pos": 67,
-        "sho": 40,
-        "sta": 63,
-        "str": 66,
-        "tac": 67,
-        "vis": 51
+        "aer": 57,
+        "com": 61,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 64,
+        "pos": 62,
+        "sho": 47,
+        "sta": 69,
+        "str": 58,
+        "tac": 64,
+        "vis": 57
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -100,7 +107,7 @@
       "name": "Junior Alunso",
       "nation": "PAR",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 22000
     },
     {
@@ -130,20 +137,22 @@
       "wage": 18500
     },
     {
-      "alt": [],
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 67,
-        "dri": 59,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 68,
-        "pos": 64,
-        "sho": 55,
+        "dri": 55,
+        "ldr": 63,
+        "pac": 57,
+        "pas": 67,
+        "pos": 68,
+        "sho": 49,
         "sta": 68,
-        "str": 61,
-        "tac": 63,
-        "vis": 68
+        "str": 66,
+        "tac": 69,
+        "vis": 65
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -154,10 +163,13 @@
       "nation": "CMR",
       "nation2": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -191,7 +203,7 @@
         "ldr": 54,
         "pac": 56,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 56,
         "str": 60,
@@ -211,19 +223,24 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 71,
-        "dri": 68,
+        "com": 72,
+        "dri": 75,
         "ldr": 66,
         "pac": 69,
-        "pas": 63,
-        "pos": 48,
-        "sho": 75,
+        "pas": 71,
+        "pos": 68,
+        "sho": 76,
         "sta": 64,
         "str": 70,
         "tac": 40,
-        "vis": 60
+        "vis": 68
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -234,24 +251,26 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 33500
     },
     {
-      "alt": [],
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 58,
-        "dri": 58,
-        "ldr": 51,
-        "pac": 61,
-        "pas": 50,
-        "pos": 34,
-        "sho": 60,
-        "sta": 56,
-        "str": 60,
-        "tac": 26,
-        "vis": 50
+        "aer": 44,
+        "com": 55,
+        "dri": 63,
+        "ldr": 49,
+        "pac": 65,
+        "pas": 56,
+        "pos": 36,
+        "sho": 55,
+        "sta": 58,
+        "str": 50,
+        "tac": 32,
+        "vis": 56
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -261,7 +280,7 @@
       "name": "Luiz Areujo",
       "nation": "BRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9000
     },
     {
@@ -317,6 +336,10 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -344,6 +367,9 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 61,
@@ -371,18 +397,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 69,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 66,
-        "pas": 72,
-        "pos": 66,
-        "sho": 62,
+        "dri": 63,
+        "ldr": 65,
+        "pac": 63,
+        "pas": 71,
+        "pos": 70,
+        "sho": 56,
         "sta": 73,
-        "str": 65,
-        "tac": 62,
-        "vis": 72
+        "str": 70,
+        "tac": 68,
+        "vis": 69
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -393,10 +419,13 @@
       "nation": "MLI",
       "nation2": "CIV",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 39000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -424,18 +453,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 56,
-        "dri": 45,
-        "ldr": 60,
-        "pac": 54,
-        "pas": 53,
-        "pos": 63,
-        "sho": 30,
-        "sta": 53,
-        "str": 62,
-        "tac": 65,
-        "vis": 44
+        "aer": 48,
+        "com": 54,
+        "dri": 55,
+        "ldr": 56,
+        "pac": 62,
+        "pas": 57,
+        "pos": 58,
+        "sho": 37,
+        "sta": 59,
+        "str": 54,
+        "tac": 62,
+        "vis": 50
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -446,23 +475,27 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": 25,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 66,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 58,
+        "aer": 48,
+        "com": 67,
+        "dri": 67,
+        "ldr": 57,
+        "pac": 61,
         "pas": 68,
-        "pos": 62,
-        "sho": 61,
-        "sta": 64,
-        "str": 58,
-        "tac": 62,
-        "vis": 62
+        "pos": 47,
+        "sho": 67,
+        "sta": 58,
+        "str": 53,
+        "tac": 44,
+        "vis": 64
       },
       "birth": "1995-04-01",
       "contract": null,
@@ -473,7 +506,7 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 27000
     },
     {
@@ -500,10 +533,13 @@
       "nation": "MAR",
       "nation2": "CIV",
       "number": 27,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 58,
@@ -585,18 +621,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 67,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 59,
+        "aer": 49,
+        "com": 68,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 62,
         "pas": 67,
-        "pos": 65,
-        "sho": 57,
-        "sta": 65,
-        "str": 59,
-        "tac": 62,
-        "vis": 66
+        "pos": 50,
+        "sho": 63,
+        "sta": 59,
+        "str": 54,
+        "tac": 44,
+        "vis": 68
       },
       "birth": "1987-08-01",
       "contract": null,
@@ -606,7 +642,7 @@
       "name": "Eric Baotheac",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 28000
     }
   ],

@@ -31,7 +31,7 @@
         "ldr": 76,
         "pac": 81,
         "pas": 77,
-        "pos": 64,
+        "pos": 84,
         "sho": 89,
         "sta": 77,
         "str": 82,
@@ -59,7 +59,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 70,
         "str": 78,
@@ -79,7 +79,7 @@
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 82,
@@ -114,7 +114,7 @@
         "ldr": 70,
         "pac": 77,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 80,
         "sta": 72,
         "str": 79,
@@ -155,10 +155,14 @@
       "name": "Ludovic Magnyn",
       "nation": "SUI",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 43000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 76,
@@ -186,19 +190,24 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "LWB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 75,
-        "dri": 60,
-        "ldr": 75,
-        "pac": 71,
-        "pas": 71,
-        "pos": 78,
-        "sho": 47,
-        "sta": 72,
-        "str": 75,
-        "tac": 76,
-        "vis": 59
+        "aer": 64,
+        "com": 73,
+        "dri": 72,
+        "ldr": 71,
+        "pac": 81,
+        "pas": 76,
+        "pos": 71,
+        "sho": 57,
+        "sta": 80,
+        "str": 67,
+        "tac": 71,
+        "vis": 66
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -208,10 +217,13 @@
       "name": "Paul Staltery",
       "nation": "CAN",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "wage": 33500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 79,
@@ -239,6 +251,11 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 79,
         "com": 76,
@@ -267,6 +284,9 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 75,
@@ -294,18 +314,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 73,
-        "dri": 76,
-        "ldr": 73,
-        "pac": 70,
+        "aer": 61,
+        "com": 74,
+        "dri": 80,
+        "ldr": 71,
+        "pac": 73,
         "pas": 75,
-        "pos": 71,
-        "sho": 67,
-        "sta": 74,
-        "str": 69,
-        "tac": 74,
-        "vis": 78
+        "pos": 56,
+        "sho": 73,
+        "sta": 68,
+        "str": 64,
+        "tac": 56,
+        "vis": 80
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -315,13 +335,10 @@
       "name": "Johan Mycoud",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 44500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 75,
         "com": 72,
@@ -349,6 +366,10 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 71,
@@ -382,7 +403,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 71,
         "sta": 67,
         "str": 70,
@@ -450,13 +471,15 @@
       "name": "Gustavo Nary",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 21000
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW",
+        "DM"
       ],
       "attrs": {
         "aer": 56,
@@ -486,18 +509,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 69,
-        "dri": 54,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 64,
-        "pos": 73,
-        "sho": 43,
-        "sta": 68,
-        "str": 71,
-        "tac": 75,
-        "vis": 57
+        "aer": 60,
+        "com": 67,
+        "dri": 64,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 68,
+        "pos": 68,
+        "sho": 50,
+        "sta": 74,
+        "str": 63,
+        "tac": 72,
+        "vis": 63
       },
       "birth": "1969-11-01",
       "contract": null,
@@ -508,13 +531,13 @@
       "nation": "RUS",
       "nation2": "UKR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 18500
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 74,
@@ -542,6 +565,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -622,18 +648,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 63,
-        "dri": 62,
-        "ldr": 60,
-        "pac": 61,
+        "aer": 51,
+        "com": 64,
+        "dri": 66,
+        "ldr": 58,
+        "pac": 64,
         "pas": 64,
-        "pos": 60,
-        "sho": 55,
-        "sta": 64,
-        "str": 60,
-        "tac": 62,
-        "vis": 66
+        "pos": 45,
+        "sho": 61,
+        "sta": 58,
+        "str": 55,
+        "tac": 44,
+        "vis": 68
       },
       "birth": "1986-09-01",
       "contract": null,
@@ -643,7 +669,7 @@
       "name": "Aaron Hont",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 12500
     },
@@ -674,6 +700,11 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 51,

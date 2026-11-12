@@ -31,7 +31,7 @@
         "ldr": 67,
         "pac": 74,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 76,
         "sta": 69,
         "str": 74,
@@ -57,7 +57,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 69,
-        "pos": 53,
+        "pos": 73,
         "sho": 80,
         "sta": 69,
         "str": 74,
@@ -130,6 +130,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -163,7 +166,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 54,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 60,
         "str": 64,
@@ -183,6 +186,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -262,6 +269,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -343,18 +353,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 62,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 54,
-        "pas": 62,
-        "pos": 60,
-        "sho": 51,
+        "dri": 51,
+        "ldr": 56,
+        "pac": 51,
+        "pas": 61,
+        "pos": 64,
+        "sho": 45,
         "sta": 65,
-        "str": 58,
-        "tac": 58,
-        "vis": 58
+        "str": 63,
+        "tac": 64,
+        "vis": 55
       },
       "birth": "1964-03-01",
       "contract": null,
@@ -364,7 +374,7 @@
       "name": "Domenico Di Carlu",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 5000
     },
@@ -422,6 +432,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -448,6 +461,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -475,6 +491,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -553,17 +572,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 58,
-        "dri": 59,
+        "aer": 58,
+        "com": 68,
+        "dri": 65,
         "ldr": 51,
-        "pac": 50,
+        "pac": 60,
         "pas": 61,
-        "pos": 54,
-        "sho": 51,
+        "pos": 64,
+        "sho": 61,
         "sta": 61,
-        "str": 55,
+        "str": 65,
         "tac": 56,
         "vis": 61
       },
@@ -576,7 +600,7 @@
       "nation": "SRB",
       "nation2": "MNE",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 4000
     },
@@ -608,6 +632,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -636,18 +663,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 55,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 53,
-        "pas": 58,
-        "pos": 56,
-        "sho": 52,
+        "dri": 51,
+        "ldr": 53,
+        "pac": 50,
+        "pas": 57,
+        "pos": 60,
+        "sho": 46,
         "sta": 55,
-        "str": 50,
-        "tac": 54,
-        "vis": 58
+        "str": 55,
+        "tac": 60,
+        "vis": 55
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -657,7 +684,7 @@
       "name": "Diego Mateu",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
@@ -669,7 +696,7 @@
         "ldr": 47,
         "pac": 56,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 54,
         "str": 59,
@@ -691,17 +718,17 @@
     {
       "attrs": {
         "aer": 45,
-        "com": 55,
-        "dri": 53,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 56,
+        "com": 51,
+        "dri": 51,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 50,
         "pos": 56,
-        "sho": 51,
+        "sho": 37,
         "sta": 61,
-        "str": 51,
-        "tac": 53,
-        "vis": 60
+        "str": 50,
+        "tac": 57,
+        "vis": 51
       },
       "birth": "1973-02-01",
       "contract": null,
@@ -711,7 +738,7 @@
       "name": "Gianluca Colunnello",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 3500
     },
@@ -743,6 +770,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
@@ -769,6 +799,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 58,
@@ -823,6 +856,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -931,19 +967,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 57,
-        "dri": 50,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 53,
-        "pos": 54,
-        "sho": 45,
-        "sta": 53,
-        "str": 50,
-        "tac": 52,
-        "vis": 55
+        "aer": 45,
+        "com": 59,
+        "dri": 52,
+        "ldr": 52,
+        "pac": 48,
+        "pas": 55,
+        "pos": 55,
+        "sho": 47,
+        "sta": 55,
+        "str": 51,
+        "tac": 53,
+        "vis": 57
       },
       "birth": "1971-08-01",
       "contract": null,
@@ -958,6 +997,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 54,
@@ -1019,7 +1061,7 @@
         "ldr": 42,
         "pac": 51,
         "pas": 45,
-        "pos": 29,
+        "pos": 49,
         "sho": 55,
         "sta": 46,
         "str": 53,
@@ -1046,7 +1088,7 @@
         "ldr": 41,
         "pac": 53,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 50,
         "sta": 46,
         "str": 52,

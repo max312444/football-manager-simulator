@@ -51,6 +51,9 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -78,6 +81,11 @@
       "wage": 42500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 76,
@@ -104,19 +112,22 @@
       "wage": 129000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 79,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 78,
-        "pas": 68,
-        "pos": 56,
-        "sho": 78,
-        "sta": 73,
-        "str": 77,
-        "tac": 46,
-        "vis": 67
+        "aer": 63,
+        "com": 76,
+        "dri": 76,
+        "ldr": 68,
+        "pac": 82,
+        "pas": 74,
+        "pos": 58,
+        "sho": 73,
+        "sta": 75,
+        "str": 67,
+        "tac": 52,
+        "vis": 73
       },
       "birth": "1993-11-01",
       "contract": null,
@@ -126,23 +137,28 @@
       "name": "Soso",
       "nation": "ESP",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 75500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 76,
-        "com": 79,
-        "dri": 78,
+        "com": 83,
+        "dri": 82,
         "ldr": 70,
         "pac": 79,
-        "pas": 69,
-        "pos": 53,
-        "sho": 80,
+        "pas": 77,
+        "pos": 73,
+        "sho": 84,
         "sta": 73,
         "str": 76,
         "tac": 47,
-        "vis": 72
+        "vis": 80
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -153,23 +169,28 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 84500
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 79,
-        "dri": 74,
-        "ldr": 70,
-        "pac": 80,
-        "pas": 73,
-        "pos": 56,
-        "sho": 84,
-        "sta": 75,
-        "str": 76,
-        "tac": 48,
-        "vis": 69
+        "aer": 61,
+        "com": 76,
+        "dri": 79,
+        "ldr": 68,
+        "pac": 84,
+        "pas": 79,
+        "pos": 58,
+        "sho": 79,
+        "sta": 77,
+        "str": 66,
+        "tac": 54,
+        "vis": 75
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -180,7 +201,7 @@
       "name": "Fabio Boryni",
       "nation": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 90000
     },
     {
@@ -210,9 +231,6 @@
       "wage": 47000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 75,
         "com": 73,
@@ -291,6 +309,9 @@
       "wage": 107000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 76,
@@ -317,9 +338,6 @@
       "wage": 142000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 82,
         "com": 79,
@@ -373,18 +391,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 81,
-        "dri": 79,
-        "ldr": 78,
-        "pac": 77,
-        "pas": 84,
-        "pos": 80,
-        "sho": 70,
+        "dri": 75,
+        "ldr": 80,
+        "pac": 74,
+        "pas": 83,
+        "pos": 84,
+        "sho": 64,
         "sta": 84,
-        "str": 72,
-        "tac": 78,
-        "vis": 77
+        "str": 77,
+        "tac": 84,
+        "vis": 74
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -394,23 +412,23 @@
       "name": "Lucas Biglie",
       "nation": "ARG",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 142000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 69,
-        "dri": 71,
-        "ldr": 72,
-        "pac": 78,
-        "pas": 69,
-        "pos": 71,
-        "sho": 54,
-        "sta": 81,
-        "str": 69,
-        "tac": 78,
-        "vis": 70
+        "aer": 82,
+        "com": 71,
+        "dri": 61,
+        "ldr": 76,
+        "pac": 70,
+        "pas": 65,
+        "pos": 76,
+        "sho": 47,
+        "sta": 75,
+        "str": 77,
+        "tac": 81,
+        "vis": 64
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -420,10 +438,13 @@
       "name": "Mateo Mosacchio",
       "nation": "ARG",
       "number": 22,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 83500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -525,10 +546,13 @@
       "name": "Luca Antunelli",
       "nation": "ITA",
       "number": 31,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 55000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -581,6 +605,11 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 58,
         "com": 62,
@@ -588,7 +617,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 56,
         "str": 62,
@@ -629,23 +658,23 @@
       "name": "Ricardo Rudriguez",
       "nation": "SUI",
       "number": 68,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 104000
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 67,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 63,
-        "pas": 68,
-        "pos": 68,
-        "sho": 65,
+        "dri": 64,
+        "ldr": 70,
+        "pac": 60,
+        "pas": 67,
+        "pos": 72,
+        "sho": 59,
         "sta": 71,
-        "str": 66,
-        "tac": 63,
-        "vis": 70
+        "str": 71,
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -655,10 +684,13 @@
       "name": "Manuel Locatalli",
       "nation": "ITA",
       "number": 73,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 48500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,

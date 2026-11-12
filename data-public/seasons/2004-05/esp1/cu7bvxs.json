@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 70,
@@ -46,11 +51,14 @@
       "name": "Ian Harta",
       "nation": "IRL",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 28000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,
@@ -112,7 +120,7 @@
         "ldr": 70,
         "pac": 71,
         "pas": 64,
-        "pos": 55,
+        "pos": 75,
         "sho": 75,
         "sta": 73,
         "str": 76,
@@ -133,6 +141,10 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -185,19 +197,23 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 69,
-        "dri": 71,
-        "ldr": 65,
-        "pac": 67,
-        "pas": 72,
-        "pos": 72,
-        "sho": 66,
-        "sta": 72,
-        "str": 70,
-        "tac": 68,
-        "vis": 74
+        "aer": 58,
+        "com": 67,
+        "dri": 76,
+        "ldr": 61,
+        "pac": 76,
+        "pas": 68,
+        "pos": 54,
+        "sho": 70,
+        "sta": 68,
+        "str": 65,
+        "tac": 48,
+        "vis": 71
       },
       "birth": "1972-09-01",
       "contract": null,
@@ -207,7 +223,7 @@
       "name": "Angel Coellar",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 25500
     },
@@ -219,7 +235,7 @@
         "ldr": 68,
         "pac": 70,
         "pas": 61,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 70,
         "str": 71,
@@ -246,7 +262,7 @@
         "ldr": 63,
         "pac": 71,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 74,
         "sta": 70,
         "str": 72,
@@ -266,19 +282,23 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 68,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 67,
-        "pas": 75,
-        "pos": 66,
-        "sho": 63,
-        "sta": 71,
-        "str": 65,
-        "tac": 69,
-        "vis": 73
+        "aer": 55,
+        "com": 66,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 76,
+        "pas": 71,
+        "pos": 48,
+        "sho": 67,
+        "sta": 67,
+        "str": 60,
+        "tac": 49,
+        "vis": 70
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -288,11 +308,14 @@
       "name": "Sergio Garcya",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 72,
@@ -319,6 +342,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -345,9 +371,6 @@
       "wage": 16000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 71,
         "com": 67,
@@ -374,6 +397,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 70,
@@ -401,18 +427,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 60,
-        "dri": 51,
-        "ldr": 66,
-        "pac": 59,
-        "pas": 57,
-        "pos": 67,
-        "sho": 38,
-        "sta": 61,
-        "str": 66,
-        "tac": 70,
-        "vis": 52
+        "aer": 56,
+        "com": 58,
+        "dri": 61,
+        "ldr": 62,
+        "pac": 67,
+        "pas": 61,
+        "pos": 62,
+        "sho": 45,
+        "sta": 67,
+        "str": 58,
+        "tac": 67,
+        "vis": 58
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -422,23 +448,23 @@
       "name": "Pablo Pinyllos",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8500
     },
     {
       "attrs": {
         "aer": 54,
-        "com": 66,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 58,
-        "pas": 68,
+        "com": 62,
+        "dri": 59,
+        "ldr": 55,
+        "pac": 65,
+        "pas": 62,
         "pos": 62,
-        "sho": 55,
+        "sho": 41,
         "sta": 65,
-        "str": 56,
-        "tac": 61,
-        "vis": 67
+        "str": 55,
+        "tac": 65,
+        "vis": 58
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -448,7 +474,7 @@
       "name": "Necho",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 10000
     },
@@ -480,18 +506,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 61,
-        "dri": 59,
-        "ldr": 62,
-        "pac": 58,
-        "pas": 63,
-        "pos": 61,
-        "sho": 58,
+        "dri": 55,
+        "ldr": 64,
+        "pac": 55,
+        "pas": 62,
+        "pos": 65,
+        "sho": 52,
         "sta": 64,
-        "str": 58,
-        "tac": 62,
-        "vis": 65
+        "str": 63,
+        "tac": 68,
+        "vis": 62
       },
       "birth": "1976-10-01",
       "contract": null,
@@ -501,7 +527,7 @@
       "name": "Diego Cemacho",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 9500
     },
@@ -554,24 +580,24 @@
       "name": "Jose Enriqua",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 59,
-        "dri": 49,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 56,
-        "pos": 64,
-        "sho": 34,
-        "sta": 56,
-        "str": 63,
-        "tac": 67,
-        "vis": 48
+        "aer": 52,
+        "com": 57,
+        "dri": 59,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 60,
+        "pos": 59,
+        "sho": 41,
+        "sta": 62,
+        "str": 55,
+        "tac": 64,
+        "vis": 54
       },
       "birth": "1980-04-01",
       "contract": null,
@@ -581,10 +607,13 @@
       "name": "Juenra",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 65,
@@ -619,7 +648,7 @@
         "ldr": 52,
         "pac": 64,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 61,
         "sta": 54,
         "str": 60,
@@ -665,6 +694,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -718,6 +750,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -778,7 +813,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 55,
         "str": 59,
@@ -804,7 +839,7 @@
         "ldr": 47,
         "pac": 55,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 56,
         "sta": 53,
         "str": 53,
@@ -824,6 +859,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 53,

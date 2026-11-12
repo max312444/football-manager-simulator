@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 75,
-        "dri": 72,
-        "ldr": 72,
-        "pac": 72,
-        "pas": 74,
-        "pos": 69,
-        "sho": 68,
+        "dri": 68,
+        "ldr": 74,
+        "pac": 69,
+        "pas": 73,
+        "pos": 73,
+        "sho": 62,
         "sta": 76,
-        "str": 67,
-        "tac": 72,
-        "vis": 75
+        "str": 72,
+        "tac": 78,
+        "vis": 72
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -46,7 +46,7 @@
       "name": "Roberto Baronyo",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 17000
     },
     {
@@ -77,18 +77,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 75,
-        "pos": 70,
-        "sho": 65,
-        "sta": 74,
-        "str": 67,
-        "tac": 67,
-        "vis": 70
+        "aer": 53,
+        "com": 67,
+        "dri": 76,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 71,
+        "pos": 52,
+        "sho": 69,
+        "sta": 70,
+        "str": 62,
+        "tac": 47,
+        "vis": 67
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -98,10 +98,14 @@
       "name": "Franco Semiuli",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -136,7 +140,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 63,
         "str": 67,
@@ -215,7 +219,7 @@
         "ldr": 58,
         "pac": 68,
         "pas": 55,
-        "pos": 47,
+        "pos": 67,
         "sho": 69,
         "sta": 62,
         "str": 69,
@@ -261,19 +265,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 68,
-        "pos": 66,
-        "sho": 56,
-        "sta": 69,
-        "str": 62,
-        "tac": 61,
-        "vis": 64
+        "aer": 48,
+        "com": 62,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 64,
+        "pos": 48,
+        "sho": 60,
+        "sta": 65,
+        "str": 57,
+        "tac": 41,
+        "vis": 61
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -283,7 +290,7 @@
       "name": "Mario Santena",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 10500
     },
@@ -421,6 +428,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -454,7 +464,7 @@
         "ldr": 57,
         "pac": 66,
         "pas": 56,
-        "pos": 44,
+        "pos": 64,
         "sho": 65,
         "sta": 60,
         "str": 63,
@@ -527,19 +537,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 61,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 59,
-        "pas": 66,
-        "pos": 59,
-        "sho": 57,
-        "sta": 66,
-        "str": 57,
-        "tac": 59,
-        "vis": 61
+        "aer": 45,
+        "com": 59,
+        "dri": 65,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 65,
+        "pos": 51,
+        "sho": 55,
+        "sta": 68,
+        "str": 54,
+        "tac": 52,
+        "vis": 59
       },
       "birth": "1975-02-01",
       "contract": null,
@@ -549,10 +562,13 @@
       "name": "Andrea Zanchette",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -606,19 +622,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 58,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 60,
-        "pos": 59,
-        "sho": 53,
-        "sta": 61,
-        "str": 55,
-        "tac": 55,
-        "vis": 60
+        "aer": 41,
+        "com": 56,
+        "dri": 62,
+        "ldr": 49,
+        "pac": 60,
+        "pas": 56,
+        "pos": 41,
+        "sho": 57,
+        "sta": 57,
+        "str": 50,
+        "tac": 35,
+        "vis": 57
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -628,7 +647,7 @@
       "name": "Ivone De Franceschy",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 5000
     },
@@ -640,7 +659,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 53,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 55,
         "str": 61,
@@ -659,19 +678,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 58,
+        "com": 65,
         "dri": 47,
         "ldr": 59,
         "pac": 50,
-        "pas": 47,
+        "pas": 54,
         "pos": 60,
         "sho": 31,
-        "sta": 54,
+        "sta": 61,
         "str": 57,
         "tac": 58,
-        "vis": 46
+        "vis": 53
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -681,7 +705,7 @@
       "name": "Simone Bonomy",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
@@ -693,7 +717,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 55,
         "str": 56,
@@ -792,6 +816,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -818,19 +845,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 51,
-        "dri": 49,
+        "com": 54,
+        "dri": 56,
         "ldr": 44,
         "pac": 53,
-        "pas": 41,
-        "pos": 28,
-        "sho": 56,
+        "pas": 51,
+        "pos": 48,
+        "sho": 59,
         "sta": 49,
         "str": 53,
         "tac": 23,
-        "vis": 46
+        "vis": 56
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -840,11 +872,14 @@
       "name": "Mattia Merchesetti",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 49,

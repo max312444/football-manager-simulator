@@ -122,18 +122,21 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 56,
+        "aer": 62,
+        "com": 62,
         "dri": 58,
         "ldr": 55,
         "pac": 68,
         "pas": 60,
-        "pos": 62,
+        "pos": 68,
         "sho": 42,
         "sta": 68,
-        "str": 60,
-        "tac": 66,
+        "str": 66,
+        "tac": 72,
         "vis": 50
       },
       "birth": "1994-04-01",
@@ -281,6 +284,10 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "LB",
+        "LM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 62,
@@ -307,6 +314,9 @@
       "wage": 84000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -335,7 +345,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 66,
@@ -363,6 +374,9 @@
       "wage": 132500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -415,6 +429,10 @@
       "wage": 100500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -441,6 +459,9 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 64,
@@ -467,18 +488,22 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
         "dri": 70,
         "ldr": 65,
         "pac": 65,
-        "pas": 72,
+        "pas": 73,
         "pos": 65,
         "sho": 67,
-        "sta": 71,
+        "sta": 72,
         "str": 62,
-        "tac": 62,
+        "tac": 63,
         "vis": 71
       },
       "birth": "1999-10-01",
@@ -495,7 +520,8 @@
     },
     {
       "alt": [
-        "RW"
+        "RM",
+        "LM"
       ],
       "attrs": {
         "aer": 47,
@@ -524,21 +550,21 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
-        "com": 63,
-        "dri": 67,
+        "com": 68,
+        "dri": 72,
         "ldr": 54,
-        "pac": 83,
-        "pas": 64,
+        "pac": 88,
+        "pas": 69,
         "pos": 65,
-        "sho": 51,
+        "sho": 56,
         "sta": 74,
         "str": 63,
         "tac": 66,
-        "vis": 59
+        "vis": 64
       },
       "birth": "1997-05-01",
       "contract": "2024-06-30",
@@ -548,7 +574,7 @@
       "name": "Chiedozie Ogbena",
       "nation": "IRL",
       "number": 7,
-      "pos": "RWB",
+      "pos": "RW",
       "traits": [
         "speedster"
       ],
@@ -577,22 +603,22 @@
       "name": "Ryan Gilas",
       "nation": "ENG",
       "number": 26,
-      "pos": "LWB",
+      "pos": "LB",
       "verify": true,
       "wage": 59500
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 72,
+        "aer": 70,
+        "com": 73,
         "dri": 70,
         "ldr": 60,
         "pac": 71,
         "pas": 64,
-        "pos": 46,
-        "sho": 73,
+        "pos": 47,
+        "sho": 74,
         "sta": 70,
-        "str": 72,
+        "str": 73,
         "tac": 40,
         "vis": 63
       },
@@ -609,16 +635,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 64,
+        "aer": 64,
+        "com": 66,
         "dri": 63,
         "ldr": 54,
         "pac": 66,
         "pas": 57,
-        "pos": 39,
-        "sho": 65,
+        "pos": 41,
+        "sho": 67,
         "sta": 63,
-        "str": 66,
+        "str": 68,
         "tac": 32,
         "vis": 56
       },
@@ -635,16 +661,16 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 67,
+        "aer": 72,
+        "com": 68,
         "dri": 67,
         "ldr": 58,
         "pac": 68,
         "pas": 61,
-        "pos": 43,
-        "sho": 70,
+        "pos": 44,
+        "sho": 71,
         "sta": 68,
-        "str": 70,
+        "str": 71,
         "tac": 37,
         "vis": 60
       },
@@ -661,19 +687,21 @@
     },
     {
       "alt": [
+        "RWB",
+        "LWB",
         "RW"
       ],
       "attrs": {
-        "aer": 65,
-        "com": 66,
+        "aer": 67,
+        "com": 68,
         "dri": 66,
         "ldr": 55,
         "pac": 67,
         "pas": 59,
-        "pos": 41,
-        "sho": 69,
+        "pos": 43,
+        "sho": 71,
         "sta": 66,
-        "str": 68,
+        "str": 70,
         "tac": 35,
         "vis": 58
       },

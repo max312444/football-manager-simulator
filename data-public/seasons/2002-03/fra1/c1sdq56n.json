@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 69,
         "com": 73,
@@ -31,7 +36,7 @@
         "ldr": 70,
         "pac": 72,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 68,
         "str": 76,
@@ -51,6 +56,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 71,
@@ -85,7 +93,7 @@
         "ldr": 64,
         "pac": 68,
         "pas": 63,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 70,
         "str": 69,
@@ -112,7 +120,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 61,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 65,
         "str": 68,
@@ -139,7 +147,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 67,
         "str": 72,
@@ -160,6 +168,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 69,
@@ -222,7 +233,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 63,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 66,
         "str": 70,
@@ -243,18 +254,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 62,
-        "dri": 64,
-        "ldr": 57,
-        "pac": 60,
+        "aer": 51,
+        "com": 63,
+        "dri": 68,
+        "ldr": 55,
+        "pac": 63,
         "pas": 65,
-        "pos": 60,
-        "sho": 55,
-        "sta": 66,
-        "str": 61,
-        "tac": 60,
-        "vis": 67
+        "pos": 45,
+        "sho": 61,
+        "sta": 60,
+        "str": 56,
+        "tac": 42,
+        "vis": 69
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -264,7 +275,7 @@
       "name": "Benjamin Nivat",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 9500
     },
@@ -297,18 +308,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 64,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 56,
+        "aer": 50,
+        "com": 65,
+        "dri": 65,
+        "ldr": 57,
+        "pac": 59,
         "pas": 62,
-        "pos": 61,
-        "sho": 55,
-        "sta": 68,
-        "str": 56,
-        "tac": 58,
-        "vis": 64
+        "pos": 46,
+        "sho": 61,
+        "sta": 62,
+        "str": 51,
+        "tac": 40,
+        "vis": 66
       },
       "birth": "1981-11-01",
       "contract": null,
@@ -318,24 +329,27 @@
       "name": "Nick Carla",
       "nation": "AUS",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 62,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 59,
-        "pas": 63,
-        "pos": 62,
-        "sho": 56,
-        "sta": 66,
-        "str": 57,
-        "tac": 61,
-        "vis": 60
+        "aer": 50,
+        "com": 64,
+        "dri": 62,
+        "ldr": 56,
+        "pac": 60,
+        "pas": 65,
+        "pos": 63,
+        "sho": 58,
+        "sta": 68,
+        "str": 58,
+        "tac": 62,
+        "vis": 62
       },
       "birth": "1975-10-01",
       "contract": null,
@@ -357,7 +371,7 @@
         "ldr": 59,
         "pac": 60,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 60,
         "str": 61,
@@ -411,7 +425,7 @@
         "ldr": 58,
         "pac": 61,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 56,
         "str": 58,
@@ -562,18 +576,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 56,
-        "dri": 56,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 63,
-        "pos": 60,
-        "sho": 54,
+        "dri": 52,
+        "ldr": 59,
+        "pac": 52,
+        "pas": 62,
+        "pos": 64,
+        "sho": 48,
         "sta": 64,
-        "str": 54,
-        "tac": 54,
-        "vis": 61
+        "str": 59,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "1972-06-01",
       "contract": null,
@@ -583,7 +597,7 @@
       "name": "Carl Touranne",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
@@ -620,7 +634,7 @@
         "ldr": 51,
         "pac": 60,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 65,
         "sta": 52,
         "str": 56,
@@ -640,6 +654,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -674,7 +691,7 @@
         "ldr": 51,
         "pac": 61,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 58,
         "str": 62,
@@ -722,18 +739,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 41,
         "com": 61,
-        "dri": 55,
+        "dri": 59,
         "ldr": 52,
-        "pac": 57,
-        "pas": 49,
-        "pos": 35,
-        "sho": 64,
+        "pac": 55,
+        "pas": 59,
+        "pos": 40,
+        "sho": 61,
         "sta": 51,
-        "str": 59,
-        "tac": 29,
-        "vis": 47
+        "str": 49,
+        "tac": 37,
+        "vis": 58
       },
       "birth": "1976-02-01",
       "contract": null,
@@ -743,7 +760,7 @@
       "name": "Danlaba Mendi",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
@@ -774,6 +791,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -801,6 +821,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 54,
@@ -827,6 +850,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 58,
@@ -834,7 +860,7 @@
         "ldr": 49,
         "pac": 59,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 53,
         "str": 53,
@@ -907,19 +933,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 55,
-        "dri": 43,
-        "ldr": 56,
-        "pac": 50,
-        "pas": 46,
-        "pos": 61,
-        "sho": 28,
-        "sta": 51,
-        "str": 56,
-        "tac": 57,
-        "vis": 42
+        "aer": 42,
+        "com": 53,
+        "dri": 55,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 51,
+        "pos": 54,
+        "sho": 38,
+        "sta": 59,
+        "str": 48,
+        "tac": 52,
+        "vis": 49
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -929,7 +958,7 @@
       "name": "Marc Pfertzal",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "verify": true,
       "wage": 2500
     },
@@ -988,18 +1017,21 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 53,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 49,
-        "pas": 52,
-        "pos": 49,
-        "sho": 47,
-        "sta": 56,
-        "str": 50,
-        "tac": 50,
+        "aer": 40,
+        "com": 51,
+        "dri": 57,
+        "ldr": 49,
+        "pac": 57,
+        "pas": 53,
+        "pos": 41,
+        "sho": 45,
+        "sta": 60,
+        "str": 47,
+        "tac": 45,
         "vis": 54
       },
       "birth": "1982-12-01",
@@ -1010,7 +1042,7 @@
       "name": "Ibrahima Bangoora",
       "nation": "GUI",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 3000
     },
@@ -1022,7 +1054,7 @@
         "ldr": 43,
         "pac": 54,
         "pas": 45,
-        "pos": 27,
+        "pos": 47,
         "sho": 58,
         "sta": 49,
         "str": 50,
@@ -1048,7 +1080,7 @@
         "ldr": 42,
         "pac": 45,
         "pas": 38,
-        "pos": 24,
+        "pos": 44,
         "sho": 49,
         "sta": 44,
         "str": 47,
@@ -1067,6 +1099,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 45,
@@ -1093,6 +1128,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 43,

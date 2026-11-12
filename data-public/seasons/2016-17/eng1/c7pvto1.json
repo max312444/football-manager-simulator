@@ -128,13 +128,13 @@
         "com": 63,
         "dri": 71,
         "ldr": 51,
-        "pac": 81,
+        "pac": 82,
         "pas": 67,
-        "pos": 60,
+        "pos": 61,
         "sho": 63,
         "sta": 78,
-        "str": 67,
-        "tac": 65,
+        "str": 68,
+        "tac": 66,
         "vis": 59
       },
       "birth": "1990-08-01",
@@ -202,6 +202,11 @@
       "wage": 58500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 77,
         "com": 74,
@@ -231,9 +236,6 @@
       "wage": 75500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 69,
         "com": 63,
@@ -367,18 +369,20 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 54,
         "com": 72,
-        "dri": 66,
+        "dri": 73,
         "ldr": 73,
-        "pac": 59,
+        "pac": 66,
         "pas": 76,
         "pos": 64,
-        "sho": 66,
-        "sta": 82,
+        "sho": 73,
+        "sta": 89,
         "str": 64,
         "tac": 64,
         "vis": 70
@@ -398,19 +402,22 @@
       "wage": 107000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 64,
+        "com": 65,
         "dri": 67,
         "ldr": 55,
         "pac": 66,
-        "pas": 69,
-        "pos": 63,
+        "pas": 70,
+        "pos": 64,
         "sho": 61,
         "sta": 70,
-        "str": 73,
-        "tac": 65,
-        "vis": 63
+        "str": 74,
+        "tac": 66,
+        "vis": 64
       },
       "birth": "1991-03-01",
       "contract": "2019-06-30",
@@ -420,26 +427,31 @@
       "name": "Jack Rudwell",
       "nation": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "injury_prone"
       ],
       "wage": 84500
     },
     {
+      "alt": [
+        "LW",
+        "ST",
+        "RW"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 62,
+        "com": 67,
         "dri": 74,
         "ldr": 48,
         "pac": 70,
-        "pas": 68,
+        "pas": 73,
         "pos": 64,
-        "sho": 68,
+        "sho": 73,
         "sta": 70,
         "str": 62,
         "tac": 34,
-        "vis": 68
+        "vis": 73
       },
       "birth": "1991-02-01",
       "contract": "2020-06-30",
@@ -454,6 +466,9 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 45,
         "com": 63,
@@ -481,6 +496,10 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -507,19 +526,22 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 58,
+        "com": 67,
         "dri": 62,
         "ldr": 44,
         "pac": 72,
-        "pas": 64,
-        "pos": 64,
+        "pas": 73,
+        "pos": 73,
         "sho": 48,
         "sta": 82,
-        "str": 70,
-        "tac": 72,
-        "vis": 56
+        "str": 79,
+        "tac": 81,
+        "vis": 65
       },
       "birth": "1994-06-01",
       "contract": "2021-06-30",
@@ -538,17 +560,17 @@
       ],
       "attrs": {
         "aer": 72,
-        "com": 62,
+        "com": 67,
         "dri": 56,
         "ldr": 52,
         "pac": 52,
-        "pas": 66,
+        "pas": 71,
         "pos": 68,
         "sho": 44,
-        "sta": 62,
+        "sta": 67,
         "str": 76,
         "tac": 70,
-        "vis": 58
+        "vis": 63
       },
       "birth": "1990-10-01",
       "contract": "2018-06-30",
@@ -562,6 +584,10 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 39,
         "com": 76,
@@ -584,13 +610,18 @@
       "name": "Steven Pienear",
       "nation": "RSA",
       "number": 20,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "injury_prone"
       ],
       "wage": 58000
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 40,
         "com": 48,
@@ -614,10 +645,15 @@
       "nation": "USA",
       "nation2": "ENG",
       "number": 46,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 22500
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "RW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -640,7 +676,7 @@
       "name": "Fabio Boryni",
       "nation": "ITA",
       "number": 9,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 81500
     },
     {

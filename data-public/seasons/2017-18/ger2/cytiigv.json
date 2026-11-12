@@ -51,6 +51,10 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM",
+        "RB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 67,
@@ -99,23 +103,26 @@
       "name": "Danilo Soeres",
       "nation": "BRA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 6000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 61,
-        "dri": 63,
-        "ldr": 58,
-        "pac": 72,
-        "pas": 62,
-        "pos": 63,
-        "sho": 44,
-        "sta": 69,
-        "str": 61,
-        "tac": 64,
-        "vis": 60
+        "aer": 67,
+        "com": 63,
+        "dri": 53,
+        "ldr": 62,
+        "pac": 64,
+        "pas": 58,
+        "pos": 68,
+        "sho": 37,
+        "sta": 63,
+        "str": 69,
+        "tac": 67,
+        "vis": 54
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -125,23 +132,28 @@
       "name": "Felix Bastiens",
       "nation": "GER",
       "number": 5,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 11500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 57,
-        "dri": 55,
+        "com": 60,
+        "dri": 59,
         "ldr": 45,
         "pac": 53,
-        "pas": 49,
-        "pos": 29,
-        "sho": 55,
+        "pas": 56,
+        "pos": 49,
+        "sho": 58,
         "sta": 49,
         "str": 51,
         "tac": 23,
-        "vis": 44
+        "vis": 51
       },
       "birth": "1994-05-01",
       "contract": null,
@@ -152,13 +164,10 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 7,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 58,
@@ -186,6 +195,11 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 63,
@@ -193,7 +207,7 @@
         "ldr": 55,
         "pac": 63,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 67,
         "sta": 58,
         "str": 62,
@@ -213,18 +227,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 63,
-        "dri": 63,
-        "ldr": 55,
-        "pac": 55,
+        "aer": 44,
+        "com": 64,
+        "dri": 67,
+        "ldr": 53,
+        "pac": 58,
         "pas": 66,
-        "pos": 62,
-        "sho": 54,
-        "sta": 66,
-        "str": 56,
-        "tac": 59,
-        "vis": 63
+        "pos": 47,
+        "sho": 60,
+        "sta": 60,
+        "str": 51,
+        "tac": 41,
+        "vis": 65
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -234,7 +248,7 @@
       "name": "Thomas Eisfald",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10000
     },
     {
@@ -245,7 +259,7 @@
         "ldr": 61,
         "pac": 71,
         "pas": 61,
-        "pos": 48,
+        "pos": 68,
         "sho": 70,
         "sta": 65,
         "str": 66,
@@ -264,19 +278,23 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 75,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 69,
-        "pas": 61,
-        "pos": 50,
-        "sho": 73,
-        "sta": 68,
-        "str": 71,
-        "tac": 42,
-        "vis": 66
+        "aer": 53,
+        "com": 72,
+        "dri": 72,
+        "ldr": 62,
+        "pac": 73,
+        "pas": 67,
+        "pos": 52,
+        "sho": 68,
+        "sta": 70,
+        "str": 61,
+        "tac": 48,
+        "vis": 72
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -286,10 +304,13 @@
       "name": "Sidnay Sam",
       "nation": "GER",
       "number": 13,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 69,
@@ -324,7 +345,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 59,
-        "pos": 49,
+        "pos": 69,
         "sho": 70,
         "sta": 66,
         "str": 66,
@@ -343,19 +364,24 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "LW",
+        "AM",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 70,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 69,
-        "pas": 66,
-        "pos": 50,
-        "sho": 72,
-        "sta": 71,
-        "str": 73,
-        "tac": 45,
-        "vis": 61
+        "aer": 53,
+        "com": 67,
+        "dri": 72,
+        "ldr": 61,
+        "pac": 73,
+        "pas": 72,
+        "pos": 52,
+        "sho": 67,
+        "sta": 73,
+        "str": 63,
+        "tac": 51,
+        "vis": 67
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -365,7 +391,7 @@
       "name": "Robbie Krose",
       "nation": "AUS",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15500
     },
     {
@@ -423,18 +449,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 57,
-        "dri": 56,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 55,
-        "pos": 54,
-        "sho": 47,
+        "dri": 52,
+        "ldr": 53,
+        "pac": 47,
+        "pas": 54,
+        "pos": 58,
+        "sho": 41,
         "sta": 58,
-        "str": 47,
-        "tac": 53,
-        "vis": 56
+        "str": 52,
+        "tac": 59,
+        "vis": 53
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -445,7 +471,7 @@
       "name": "Vitaly Janalt",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
@@ -475,19 +501,24 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 67,
-        "dri": 65,
+        "com": 71,
+        "dri": 69,
         "ldr": 61,
         "pac": 68,
-        "pas": 62,
-        "pos": 46,
-        "sho": 67,
+        "pas": 70,
+        "pos": 66,
+        "sho": 71,
         "sta": 62,
         "str": 69,
         "tac": 36,
-        "vis": 59
+        "vis": 67
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -497,10 +528,13 @@
       "name": "Kevin Stuger",
       "nation": "AUT",
       "number": 22,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 64,
@@ -550,22 +584,25 @@
       "name": "Timo Perthal",
       "nation": "GER",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 9000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 59,
-        "dri": 60,
+        "aer": 51,
+        "com": 54,
+        "dri": 58,
         "ldr": 50,
-        "pac": 58,
-        "pas": 49,
-        "pos": 34,
-        "sho": 61,
-        "sta": 56,
-        "str": 62,
-        "tac": 27,
+        "pac": 60,
+        "pas": 53,
+        "pos": 54,
+        "sho": 38,
+        "sta": 62,
+        "str": 56,
+        "tac": 57,
         "vis": 49
       },
       "birth": "1994-03-01",
@@ -576,23 +613,23 @@
       "name": "Jannik Bendowski",
       "nation": "GER",
       "number": 25,
-      "pos": "ST",
+      "pos": "LB",
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 50,
-        "dri": 51,
-        "ldr": 51,
-        "pac": 49,
+        "aer": 37,
+        "com": 51,
+        "dri": 55,
+        "ldr": 49,
+        "pac": 52,
         "pas": 52,
-        "pos": 48,
-        "sho": 43,
-        "sta": 55,
-        "str": 49,
-        "tac": 47,
-        "vis": 54
+        "pos": 33,
+        "sho": 49,
+        "sta": 49,
+        "str": 44,
+        "tac": 29,
+        "vis": 56
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -603,23 +640,23 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 50,
-        "dri": 35,
-        "ldr": 47,
-        "pac": 43,
-        "pas": 41,
-        "pos": 56,
-        "sho": 25,
-        "sta": 50,
-        "str": 51,
-        "tac": 58,
-        "vis": 39
+        "aer": 40,
+        "com": 48,
+        "dri": 45,
+        "ldr": 43,
+        "pac": 51,
+        "pas": 45,
+        "pos": 51,
+        "sho": 32,
+        "sta": 56,
+        "str": 43,
+        "tac": 55,
+        "vis": 45
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -629,7 +666,7 @@
       "name": "Nico Ryeble",
       "nation": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2000
     },
     {
@@ -666,7 +703,7 @@
         "ldr": 50,
         "pac": 53,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 50,
         "str": 57,

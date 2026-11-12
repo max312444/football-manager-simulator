@@ -104,8 +104,7 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 85,
@@ -159,6 +158,10 @@
       "wage": 190500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -185,6 +188,9 @@
       "wage": 309000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 81,
@@ -207,10 +213,13 @@
       "name": "Eden Hazerd",
       "nation": "BEL",
       "number": 7,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 336000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 80,
@@ -244,7 +253,7 @@
         "ldr": 73,
         "pac": 82,
         "pas": 74,
-        "pos": 56,
+        "pos": 76,
         "sho": 85,
         "sta": 77,
         "str": 80,
@@ -264,7 +273,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 64,
@@ -293,7 +303,8 @@
     },
     {
       "alt": [
-        "ST"
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 65,
@@ -344,7 +355,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 294500
     },
     {
@@ -374,9 +385,6 @@
       "wage": 123500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 80,
         "com": 85,
@@ -403,6 +411,10 @@
       "wage": 474500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 80,
@@ -436,7 +448,7 @@
         "ldr": 74,
         "pac": 76,
         "pas": 69,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 76,
         "str": 75,
@@ -455,19 +467,23 @@
       "wage": 183500
     },
     {
+      "alt": [
+        "RB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 79,
-        "dri": 76,
-        "ldr": 70,
-        "pac": 77,
-        "pas": 67,
-        "pos": 54,
-        "sho": 83,
-        "sta": 75,
-        "str": 80,
-        "tac": 46,
-        "vis": 70
+        "aer": 60,
+        "com": 76,
+        "dri": 81,
+        "ldr": 68,
+        "pac": 81,
+        "pas": 73,
+        "pos": 56,
+        "sho": 78,
+        "sta": 77,
+        "str": 70,
+        "tac": 52,
+        "vis": 76
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -477,23 +493,27 @@
       "name": "Lucas Vazqoez",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 172000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 84,
-        "dri": 78,
-        "ldr": 77,
-        "pac": 82,
-        "pas": 75,
-        "pos": 57,
-        "sho": 84,
-        "sta": 79,
-        "str": 83,
-        "tac": 55,
-        "vis": 77
+        "aer": 64,
+        "com": 81,
+        "dri": 83,
+        "ldr": 75,
+        "pac": 86,
+        "pas": 81,
+        "pos": 59,
+        "sho": 79,
+        "sta": 81,
+        "str": 73,
+        "tac": 61,
+        "vis": 83
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -503,23 +523,27 @@
       "name": "Gareth Bala",
       "nation": "WAL",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 297500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 77,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 71,
-        "pas": 78,
-        "pos": 77,
-        "sho": 71,
-        "sta": 82,
-        "str": 77,
-        "tac": 78,
-        "vis": 78
+        "aer": 71,
+        "com": 79,
+        "dri": 79,
+        "ldr": 76,
+        "pac": 72,
+        "pas": 80,
+        "pos": 78,
+        "sho": 73,
+        "sta": 84,
+        "str": 78,
+        "tac": 79,
+        "vis": 80
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -533,19 +557,23 @@
       "wage": 303000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 75,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 74,
-        "pas": 67,
-        "pos": 52,
-        "sho": 80,
-        "sta": 74,
-        "str": 78,
-        "tac": 43,
-        "vis": 65
+        "aer": 60,
+        "com": 72,
+        "dri": 82,
+        "ldr": 70,
+        "pac": 78,
+        "pas": 73,
+        "pos": 54,
+        "sho": 75,
+        "sta": 76,
+        "str": 68,
+        "tac": 49,
+        "vis": 71
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -556,10 +584,13 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 20,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 142500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 55,
         "com": 74,
@@ -587,19 +618,23 @@
       "wage": 96500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 84,
-        "dri": 79,
-        "ldr": 78,
-        "pac": 77,
+        "aer": 69,
+        "com": 85,
+        "dri": 83,
+        "ldr": 76,
+        "pac": 80,
         "pas": 86,
-        "pos": 79,
-        "sho": 74,
-        "sta": 84,
-        "str": 76,
-        "tac": 78,
-        "vis": 83
+        "pos": 64,
+        "sho": 80,
+        "sta": 78,
+        "str": 71,
+        "tac": 60,
+        "vis": 85
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -609,7 +644,7 @@
       "name": "Iscu",
       "nation": "ESP",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 450500
     },
     {
@@ -635,7 +670,7 @@
       "name": "Ferland Mendi",
       "nation": "FRA",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 202000
     },
     {
@@ -646,7 +681,7 @@
         "ldr": 70,
         "pac": 74,
         "pas": 65,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 74,
         "str": 74,
@@ -665,6 +700,11 @@
       "wage": 141000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 69,

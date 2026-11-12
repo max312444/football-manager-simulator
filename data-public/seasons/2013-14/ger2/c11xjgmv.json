@@ -51,6 +51,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 50,
@@ -78,18 +83,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 51,
-        "dri": 39,
-        "ldr": 48,
-        "pac": 47,
-        "pas": 46,
-        "pos": 53,
-        "sho": 28,
-        "sta": 50,
-        "str": 57,
-        "tac": 54,
-        "vis": 40
+        "aer": 43,
+        "com": 49,
+        "dri": 49,
+        "ldr": 44,
+        "pac": 55,
+        "pas": 50,
+        "pos": 48,
+        "sho": 35,
+        "sta": 56,
+        "str": 49,
+        "tac": 51,
+        "vis": 46
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -99,10 +104,13 @@
       "name": "Dennis Riemar",
       "nation": "GER",
       "number": 3,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 56,
@@ -156,19 +164,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 57,
-        "dri": 59,
-        "ldr": 53,
-        "pac": 58,
-        "pas": 65,
-        "pos": 55,
-        "sho": 52,
+        "dri": 55,
+        "ldr": 55,
+        "pac": 55,
+        "pas": 64,
+        "pos": 59,
+        "sho": 46,
         "sta": 65,
-        "str": 54,
-        "tac": 59,
-        "vis": 62
+        "str": 59,
+        "tac": 65,
+        "vis": 59
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -178,10 +189,13 @@
       "name": "Tom Schotz",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -209,18 +223,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 53,
-        "dri": 51,
-        "ldr": 50,
-        "pac": 47,
-        "pas": 58,
-        "pos": 53,
-        "sho": 52,
+        "dri": 47,
+        "ldr": 52,
+        "pac": 44,
+        "pas": 57,
+        "pos": 57,
+        "sho": 46,
         "sta": 55,
-        "str": 49,
-        "tac": 51,
-        "vis": 55
+        "str": 54,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -230,7 +244,7 @@
       "name": "Tim Jeret",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -241,7 +255,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 55,
         "str": 59,
@@ -267,7 +281,7 @@
         "ldr": 51,
         "pac": 59,
         "pas": 48,
-        "pos": 36,
+        "pos": 56,
         "sho": 64,
         "sta": 52,
         "str": 62,
@@ -312,17 +326,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 56,
-        "dri": 56,
+        "aer": 55,
+        "com": 63,
+        "dri": 62,
         "ldr": 52,
-        "pac": 52,
+        "pac": 57,
         "pas": 55,
-        "pos": 56,
-        "sho": 48,
+        "pos": 62,
+        "sho": 55,
         "sta": 61,
-        "str": 53,
+        "str": 60,
         "tac": 53,
         "vis": 58
       },
@@ -334,7 +353,7 @@
       "name": "Johannes Rehn",
       "nation": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4000
     },
     {
@@ -364,6 +383,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 64,
@@ -371,7 +395,7 @@
         "ldr": 57,
         "pac": 60,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 59,
         "str": 59,
@@ -391,6 +415,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 57,
@@ -417,6 +445,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -450,7 +481,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 48,
-        "pos": 37,
+        "pos": 57,
         "sho": 60,
         "sta": 54,
         "str": 54,
@@ -496,18 +527,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 59,
-        "dri": 60,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 64,
-        "pos": 58,
-        "sho": 56,
+        "dri": 56,
+        "ldr": 54,
+        "pac": 50,
+        "pas": 63,
+        "pos": 62,
+        "sho": 50,
         "sta": 59,
-        "str": 51,
-        "tac": 55,
-        "vis": 60
+        "str": 56,
+        "tac": 61,
+        "vis": 57
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -517,10 +548,13 @@
       "name": "Jan Fiasser",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -548,18 +582,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 55,
-        "dri": 56,
-        "ldr": 51,
-        "pac": 52,
-        "pas": 59,
-        "pos": 54,
-        "sho": 52,
-        "sta": 54,
-        "str": 53,
-        "tac": 48,
-        "vis": 58
+        "aer": 39,
+        "com": 53,
+        "dri": 59,
+        "ldr": 49,
+        "pac": 60,
+        "pas": 63,
+        "pos": 46,
+        "sho": 50,
+        "sta": 61,
+        "str": 50,
+        "tac": 46,
+        "vis": 61
       },
       "birth": "1982-08-01",
       "contract": null,
@@ -569,7 +603,7 @@
       "name": "Philipp Heytholter",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 3500
     },
     {
@@ -600,18 +634,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 52,
+        "aer": 54,
+        "com": 53,
         "dri": 55,
-        "ldr": 49,
-        "pac": 53,
-        "pas": 59,
+        "ldr": 47,
+        "pac": 58,
+        "pas": 49,
         "pos": 51,
-        "sho": 46,
-        "sta": 56,
-        "str": 51,
-        "tac": 48,
-        "vis": 54
+        "sho": 55,
+        "sta": 50,
+        "str": 56,
+        "tac": 22,
+        "vis": 45
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -621,10 +655,13 @@
       "name": "Sebastian Hilla",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,

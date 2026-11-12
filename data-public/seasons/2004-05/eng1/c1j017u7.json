@@ -70,6 +70,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 58,
@@ -97,6 +100,7 @@
     },
     {
       "alt": [
+        "CB",
         "LB"
       ],
       "attrs": {
@@ -126,7 +130,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 64,
@@ -150,7 +154,7 @@
       "name": "Ricardo Gerdner",
       "nation": "JAM",
       "number": 11,
-      "pos": "LB",
+      "pos": "LWB",
       "wage": 37000
     },
     {
@@ -239,20 +243,22 @@
     },
     {
       "alt": [
-        "DM"
+        "DM",
+        "RB",
+        "LB"
       ],
       "attrs": {
-        "aer": 76,
+        "aer": 77,
         "com": 84,
         "dri": 58,
         "ldr": 86,
-        "pac": 40,
+        "pac": 41,
         "pas": 76,
-        "pos": 82,
+        "pos": 83,
         "sho": 60,
         "sta": 56,
-        "str": 72,
-        "tac": 72,
+        "str": 73,
+        "tac": 73,
         "vis": 72
       },
       "birth": "1968-03-01",
@@ -305,21 +311,22 @@
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
         "aer": 74,
-        "com": 66,
+        "com": 71,
         "dri": 68,
         "ldr": 66,
         "pac": 66,
-        "pas": 68,
+        "pas": 73,
         "pos": 66,
         "sho": 72,
         "sta": 82,
         "str": 76,
-        "tac": 64,
-        "vis": 64
+        "tac": 69,
+        "vis": 69
       },
       "birth": "1982-06-01",
       "contract": "2009-06-30",
@@ -338,17 +345,17 @@
       ],
       "attrs": {
         "aer": 78,
-        "com": 78,
-        "dri": 66,
+        "com": 79,
+        "dri": 67,
         "ldr": 80,
         "pac": 54,
-        "pas": 76,
+        "pas": 77,
         "pos": 74,
-        "sho": 66,
-        "sta": 74,
+        "sho": 67,
+        "sta": 75,
         "str": 72,
         "tac": 70,
-        "vis": 74
+        "vis": 75
       },
       "birth": "1969-09-01",
       "contract": "2006-06-30",
@@ -365,9 +372,6 @@
       "wage": 58000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 54,
         "com": 80,
@@ -399,22 +403,22 @@
     },
     {
       "alt": [
-        "LM",
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 60,
-        "com": 72,
+        "com": 76,
         "dri": 76,
         "ldr": 60,
         "pac": 74,
-        "pas": 72,
+        "pas": 76,
         "pos": 64,
-        "sho": 70,
+        "sho": 74,
         "sta": 82,
         "str": 64,
         "tac": 56,
-        "vis": 70
+        "vis": 74
       },
       "birth": "1974-07-01",
       "contract": "2006-06-30",
@@ -424,26 +428,27 @@
       "name": "Stelios Giannakopoolos",
       "nation": "GRE",
       "number": 7,
-      "pos": "RM",
+      "pos": "AM",
       "wage": 49000
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 56,
-        "com": 54,
+        "com": 62,
         "dri": 58,
         "ldr": 40,
         "pac": 66,
-        "pas": 60,
-        "pos": 58,
+        "pas": 68,
+        "pos": 66,
         "sho": 50,
         "sta": 70,
-        "str": 60,
-        "tac": 62,
-        "vis": 54
+        "str": 68,
+        "tac": 70,
+        "vis": 62
       },
       "birth": "1986-02-01",
       "contract": "2007-06-30",
@@ -453,19 +458,19 @@
       "name": "Joey O'Brian",
       "nation": "IRL",
       "number": 33,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14000
     },
     {
       "attrs": {
         "aer": 86,
-        "com": 64,
-        "dri": 62,
+        "com": 65,
+        "dri": 63,
         "ldr": 66,
-        "pac": 64,
+        "pac": 65,
         "pas": 62,
         "pos": 64,
-        "sho": 64,
+        "sho": 65,
         "sta": 80,
         "str": 88,
         "tac": 56,
@@ -488,16 +493,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 64,
+        "aer": 67,
+        "com": 65,
         "dri": 66,
         "ldr": 50,
         "pac": 76,
         "pas": 60,
-        "pos": 54,
-        "sho": 70,
+        "pos": 55,
+        "sho": 71,
         "sta": 76,
-        "str": 70,
+        "str": 71,
         "tac": 44,
         "vis": 56
       },
@@ -514,6 +519,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -569,20 +575,17 @@
       "wage": 16500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 52,
+        "aer": 63,
+        "com": 61,
         "dri": 66,
         "ldr": 36,
         "pac": 74,
         "pas": 54,
-        "pos": 44,
-        "sho": 60,
+        "pos": 53,
+        "sho": 69,
         "sta": 64,
-        "str": 56,
+        "str": 65,
         "tac": 34,
         "vis": 50
       },
@@ -598,9 +601,6 @@
       "wage": 9500
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 62,
@@ -657,19 +657,22 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 58,
-        "dri": 60,
+        "com": 65,
+        "dri": 61,
         "ldr": 44,
         "pac": 64,
-        "pas": 62,
+        "pas": 69,
         "pos": 58,
-        "sho": 56,
+        "sho": 57,
         "sta": 70,
         "str": 66,
-        "tac": 58,
-        "vis": 56
+        "tac": 64,
+        "vis": 63
       },
       "birth": "1978-03-01",
       "contract": "2006-06-30",
@@ -683,17 +686,22 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 79,
+        "aer": 78,
+        "com": 80,
         "dri": 81,
         "ldr": 59,
         "pac": 76,
         "pas": 73,
-        "pos": 55,
-        "sho": 85,
+        "pos": 56,
+        "sho": 86,
         "sta": 76,
-        "str": 75,
+        "str": 76,
         "tac": 41,
         "vis": 71
       },

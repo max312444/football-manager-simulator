@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 77,
-        "dri": 75,
-        "ldr": 74,
-        "pac": 78,
-        "pas": 80,
-        "pos": 75,
-        "sho": 73,
+        "dri": 71,
+        "ldr": 76,
+        "pac": 75,
+        "pas": 79,
+        "pos": 79,
+        "sho": 67,
         "sta": 80,
-        "str": 77,
-        "tac": 78,
-        "vis": 82
+        "str": 82,
+        "tac": 84,
+        "vis": 79
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -99,26 +99,26 @@
       "name": "Asier Illarramandi",
       "nation": "ESP",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 97500
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 71,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 75,
-        "pos": 65,
-        "sho": 62,
+        "dri": 65,
+        "ldr": 67,
+        "pac": 61,
+        "pas": 74,
+        "pos": 69,
+        "sho": 56,
         "sta": 69,
-        "str": 63,
-        "tac": 67,
-        "vis": 74
+        "str": 68,
+        "tac": 73,
+        "vis": 71
       },
       "birth": "1997-03-01",
       "contract": null,
@@ -128,13 +128,10 @@
       "name": "Igor Zobeldia",
       "nation": "ESP",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 48500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 77,
         "com": 69,
@@ -161,19 +158,22 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 69,
-        "dri": 69,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 75,
-        "pos": 73,
-        "sho": 63,
-        "sta": 76,
-        "str": 68,
-        "tac": 67,
-        "vis": 70
+        "aer": 55,
+        "com": 67,
+        "dri": 74,
+        "ldr": 67,
+        "pac": 78,
+        "pas": 71,
+        "pos": 55,
+        "sho": 67,
+        "sta": 72,
+        "str": 63,
+        "tac": 47,
+        "vis": 67
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -183,12 +183,14 @@
       "name": "Porto",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 62000
     },
     {
       "alt": [
-        "CM"
+        "ST",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 71,
@@ -223,7 +225,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 69,
-        "pos": 52,
+        "pos": 72,
         "sho": 76,
         "sta": 74,
         "str": 73,
@@ -242,19 +244,23 @@
       "wage": 58500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 78,
-        "dri": 76,
+        "aer": 77,
+        "com": 91,
+        "dri": 85,
         "ldr": 75,
-        "pac": 72,
-        "pas": 82,
-        "pos": 73,
-        "sho": 69,
+        "pac": 86,
+        "pas": 84,
+        "pos": 86,
+        "sho": 82,
         "sta": 79,
-        "str": 73,
+        "str": 86,
         "tac": 76,
-        "vis": 81
+        "vis": 83
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -264,23 +270,26 @@
       "name": "Mikel Oyarzabel",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 97500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 79,
-        "dri": 76,
-        "ldr": 75,
-        "pac": 74,
-        "pas": 81,
-        "pos": 77,
-        "sho": 70,
-        "sta": 81,
-        "str": 70,
-        "tac": 75,
-        "vis": 78
+        "aer": 59,
+        "com": 77,
+        "dri": 81,
+        "ldr": 71,
+        "pac": 83,
+        "pas": 77,
+        "pos": 59,
+        "sho": 74,
+        "sta": 77,
+        "str": 65,
+        "tac": 55,
+        "vis": 75
       },
       "birth": "1995-02-01",
       "contract": null,
@@ -290,10 +299,13 @@
       "name": "Adnan Januzej",
       "nation": "BEL",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 97500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 53,
         "com": 60,
@@ -316,7 +328,7 @@
       "name": "Aihen Monoz",
       "nation": "ESP",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 20500
     },
     {
@@ -347,7 +359,9 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 64,
@@ -402,6 +416,10 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -428,19 +446,22 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 62,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 58,
-        "pas": 62,
-        "pos": 60,
-        "sho": 56,
-        "sta": 62,
-        "str": 60,
-        "tac": 62,
-        "vis": 63
+        "aer": 44,
+        "com": 60,
+        "dri": 64,
+        "ldr": 52,
+        "pac": 67,
+        "pas": 58,
+        "pos": 42,
+        "sho": 60,
+        "sta": 58,
+        "str": 55,
+        "tac": 42,
+        "vis": 60
       },
       "birth": "1995-06-01",
       "contract": null,
@@ -450,7 +471,7 @@
       "name": "Martin Marquelanz",
       "nation": "ESP",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 19500
     },
     {
@@ -487,7 +508,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 64,
-        "pos": 49,
+        "pos": 69,
         "sho": 78,
         "sta": 69,
         "str": 74,
@@ -507,7 +528,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 76,
@@ -535,19 +556,23 @@
       "wage": 70500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 75,
-        "dri": 75,
-        "ldr": 76,
-        "pac": 71,
-        "pas": 79,
-        "pos": 79,
-        "sho": 69,
-        "sta": 83,
-        "str": 73,
-        "tac": 76,
-        "vis": 79
+        "aer": 71,
+        "com": 77,
+        "dri": 77,
+        "ldr": 77,
+        "pac": 72,
+        "pas": 81,
+        "pos": 80,
+        "sho": 71,
+        "sta": 85,
+        "str": 74,
+        "tac": 77,
+        "vis": 81
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -561,19 +586,23 @@
       "wage": 97500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 64,
-        "ldr": 56,
-        "pac": 61,
-        "pas": 54,
-        "pos": 43,
-        "sho": 64,
-        "sta": 58,
-        "str": 65,
-        "tac": 35,
-        "vis": 56
+        "aer": 45,
+        "com": 65,
+        "dri": 69,
+        "ldr": 54,
+        "pac": 65,
+        "pas": 60,
+        "pos": 45,
+        "sho": 59,
+        "sta": 60,
+        "str": 55,
+        "tac": 41,
+        "vis": 62
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -583,23 +612,23 @@
       "name": "Ander Barrenetxaa",
       "nation": "ESP",
       "number": 22,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 15500
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 64,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 58,
+        "aer": 53,
+        "com": 65,
+        "dri": 71,
+        "ldr": 63,
+        "pac": 61,
         "pas": 70,
-        "pos": 64,
-        "sho": 62,
-        "sta": 71,
-        "str": 60,
-        "tac": 62,
-        "vis": 70
+        "pos": 49,
+        "sho": 68,
+        "sta": 65,
+        "str": 55,
+        "tac": 44,
+        "vis": 72
       },
       "birth": "1995-02-01",
       "contract": null,
@@ -609,7 +638,7 @@
       "name": "Luca Sangelli",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 35500
     },
     {
@@ -647,7 +676,7 @@
         "ldr": 63,
         "pac": 68,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 63,
         "str": 66,
@@ -667,18 +696,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 60,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 59,
+        "aer": 46,
+        "com": 61,
+        "dri": 64,
+        "ldr": 58,
+        "pac": 62,
         "pas": 65,
-        "pos": 60,
-        "sho": 56,
-        "sta": 61,
-        "str": 58,
-        "tac": 56,
-        "vis": 60
+        "pos": 45,
+        "sho": 62,
+        "sta": 55,
+        "str": 53,
+        "tac": 38,
+        "vis": 62
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -688,23 +717,23 @@
       "name": "Roberto Lupez",
       "nation": "ESP",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19000
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 71,
-        "dri": 68,
-        "ldr": 64,
-        "pac": 63,
-        "pas": 72,
-        "pos": 65,
-        "sho": 61,
+        "dri": 64,
+        "ldr": 66,
+        "pac": 60,
+        "pas": 71,
+        "pos": 69,
+        "sho": 55,
         "sta": 71,
-        "str": 62,
-        "tac": 65,
-        "vis": 70
+        "str": 67,
+        "tac": 71,
+        "vis": 67
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -714,7 +743,7 @@
       "name": "Martin Zubimandi",
       "nation": "ESP",
       "number": 36,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43000
     }
   ],

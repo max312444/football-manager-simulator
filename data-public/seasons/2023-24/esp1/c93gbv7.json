@@ -129,9 +129,6 @@
       "wage": 63000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 66,
         "com": 70,
@@ -159,7 +156,8 @@
     },
     {
       "alt": [
-        "ST"
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 55,
@@ -187,22 +185,19 @@
       "wage": 32000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 60,
-        "com": 73,
-        "dri": 73,
-        "ldr": 69,
-        "pac": 70,
+        "aer": 54,
+        "com": 74,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 73,
         "pas": 73,
-        "pos": 73,
-        "sho": 69,
-        "sta": 71,
-        "str": 69,
-        "tac": 69,
-        "vis": 74
+        "pos": 58,
+        "sho": 75,
+        "sta": 65,
+        "str": 64,
+        "tac": 51,
+        "vis": 76
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -212,7 +207,7 @@
       "name": "Oihan Sencet",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 94500
     },
     {
@@ -223,7 +218,7 @@
         "ldr": 74,
         "pac": 81,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 81,
         "sta": 76,
         "str": 79,
@@ -244,6 +239,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -273,7 +269,7 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
         "aer": 57,
@@ -309,7 +305,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 61,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 62,
         "str": 71,
@@ -354,9 +350,6 @@
       "wage": 33500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 67,
@@ -384,7 +377,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LB"
       ],
       "attrs": {
         "aer": 59,
@@ -412,6 +405,10 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -460,13 +457,14 @@
       "name": "Yuri Berchyche",
       "nation": "ESP",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 66000
     },
     {
       "alt": [
-        "RW",
-        "ST"
+        "LB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 60,
@@ -516,7 +514,7 @@
       "name": "Imanol Garcia de Albenyz",
       "nation": "ESP",
       "number": 19,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 13500
     },
     {
@@ -527,7 +525,7 @@
         "ldr": 67,
         "pac": 74,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 74,
         "sta": 68,
         "str": 77,
@@ -546,6 +544,9 @@
       "wage": 66000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 76,
@@ -572,6 +573,9 @@
       "wage": 114500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -579,7 +583,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 67,
-        "pos": 47,
+        "pos": 67,
         "sho": 73,
         "sta": 68,
         "str": 75,
@@ -598,19 +602,22 @@
       "wage": 57000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 65,
-        "dri": 68,
-        "ldr": 64,
-        "pac": 63,
-        "pas": 71,
-        "pos": 64,
-        "sho": 59,
+        "dri": 64,
+        "ldr": 66,
+        "pac": 60,
+        "pas": 70,
+        "pos": 68,
+        "sho": 53,
         "sta": 67,
-        "str": 62,
-        "tac": 66,
-        "vis": 66
+        "str": 67,
+        "tac": 72,
+        "vis": 63
       },
       "birth": "1998-10-01",
       "contract": null,
@@ -620,23 +627,26 @@
       "name": "Peru Nulaskoain",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 48000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 61,
-        "dri": 53,
-        "ldr": 54,
-        "pac": 58,
-        "pas": 50,
-        "pos": 34,
-        "sho": 57,
-        "sta": 54,
-        "str": 54,
-        "tac": 29,
-        "vis": 49
+        "aer": 42,
+        "com": 58,
+        "dri": 58,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 56,
+        "pos": 36,
+        "sho": 52,
+        "sta": 56,
+        "str": 44,
+        "tac": 35,
+        "vis": 55
       },
       "birth": "2001-10-01",
       "contract": null,
@@ -646,26 +656,23 @@
       "name": "Malcom Adu Aras",
       "nation": "ESP",
       "number": 29,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 47,
-        "com": 58,
-        "dri": 53,
-        "ldr": 54,
-        "pac": 55,
+        "aer": 41,
+        "com": 59,
+        "dri": 57,
+        "ldr": 52,
+        "pac": 58,
         "pas": 61,
-        "pos": 52,
-        "sho": 50,
-        "sta": 59,
-        "str": 52,
-        "tac": 55,
-        "vis": 60
+        "pos": 37,
+        "sho": 56,
+        "sta": 53,
+        "str": 47,
+        "tac": 37,
+        "vis": 62
       },
       "birth": "2003-05-01",
       "contract": null,
@@ -675,10 +682,13 @@
       "name": "Unai Gomaz",
       "nation": "ESP",
       "number": 30,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,

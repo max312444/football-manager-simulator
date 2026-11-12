@@ -25,9 +25,6 @@
   },
   "squad": [
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 69,
         "com": 61,
@@ -82,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 59,
-        "dri": 57,
-        "ldr": 60,
-        "pac": 57,
+        "aer": 46,
+        "com": 60,
+        "dri": 61,
+        "ldr": 58,
+        "pac": 60,
         "pas": 64,
-        "pos": 58,
-        "sho": 55,
-        "sta": 60,
-        "str": 57,
-        "tac": 57,
-        "vis": 64
+        "pos": 43,
+        "sho": 61,
+        "sta": 54,
+        "str": 52,
+        "tac": 39,
+        "vis": 66
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -103,10 +100,13 @@
       "name": "Gregory Lacomba",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -140,7 +140,7 @@
         "ldr": 55,
         "pac": 58,
         "pas": 48,
-        "pos": 38,
+        "pos": 58,
         "sho": 61,
         "sta": 57,
         "str": 58,
@@ -166,7 +166,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 61,
-        "pos": 44,
+        "pos": 64,
         "sho": 73,
         "sta": 64,
         "str": 69,
@@ -186,19 +186,22 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 67,
-        "dri": 61,
-        "ldr": 63,
-        "pac": 65,
-        "pas": 55,
-        "pos": 44,
-        "sho": 70,
-        "sta": 65,
-        "str": 68,
-        "tac": 34,
-        "vis": 61
+        "aer": 47,
+        "com": 64,
+        "dri": 66,
+        "ldr": 61,
+        "pac": 69,
+        "pas": 61,
+        "pos": 46,
+        "sho": 65,
+        "sta": 67,
+        "str": 58,
+        "tac": 40,
+        "vis": 67
       },
       "birth": "1980-12-01",
       "contract": null,
@@ -208,7 +211,7 @@
       "name": "Geoffrey Darnis",
       "nation": "FRA",
       "number": 12,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 16500
     },
     {
@@ -239,18 +242,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 55,
-        "dri": 45,
-        "ldr": 55,
-        "pac": 55,
-        "pas": 50,
-        "pos": 58,
-        "sho": 31,
-        "sta": 55,
-        "str": 57,
-        "tac": 60,
-        "vis": 41
+        "aer": 49,
+        "com": 53,
+        "dri": 55,
+        "ldr": 51,
+        "pac": 63,
+        "pas": 54,
+        "pos": 53,
+        "sho": 38,
+        "sta": 61,
+        "str": 49,
+        "tac": 57,
+        "vis": 47
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -260,10 +263,13 @@
       "name": "Mourad Benhamide",
       "nation": "FRA",
       "number": 14,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 58,
@@ -316,6 +322,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -342,20 +351,22 @@
       "wage": 17500
     },
     {
-      "alt": [],
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 61,
-        "dri": 63,
-        "ldr": 58,
-        "pac": 64,
-        "pas": 57,
-        "pos": 42,
-        "sho": 67,
-        "sta": 56,
-        "str": 64,
-        "tac": 29,
-        "vis": 56
+        "aer": 48,
+        "com": 58,
+        "dri": 68,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 63,
+        "pos": 44,
+        "sho": 62,
+        "sta": 58,
+        "str": 54,
+        "tac": 35,
+        "vis": 62
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -366,7 +377,7 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 12000
     },
     {
@@ -377,7 +388,7 @@
         "ldr": 60,
         "pac": 69,
         "pas": 60,
-        "pos": 42,
+        "pos": 62,
         "sho": 71,
         "sta": 62,
         "str": 66,
@@ -450,19 +461,24 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 57,
-        "dri": 47,
-        "ldr": 59,
-        "pac": 52,
-        "pas": 55,
-        "pos": 64,
-        "sho": 36,
-        "sta": 58,
-        "str": 62,
-        "tac": 66,
-        "vis": 44
+        "aer": 53,
+        "com": 55,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 60,
+        "pas": 59,
+        "pos": 59,
+        "sho": 43,
+        "sta": 64,
+        "str": 54,
+        "tac": 63,
+        "vis": 50
       },
       "birth": "1975-12-01",
       "contract": null,
@@ -472,7 +488,7 @@
       "name": "Cyril Jaunechamp",
       "nation": "FRA",
       "number": 27,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10500
     },
     {

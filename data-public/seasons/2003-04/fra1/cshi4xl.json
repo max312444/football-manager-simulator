@@ -31,7 +31,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 66,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 66,
         "str": 74,
@@ -59,7 +59,7 @@
         "ldr": 63,
         "pac": 66,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 72,
         "sta": 66,
         "str": 68,
@@ -80,18 +80,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 70,
-        "dri": 64,
-        "ldr": 65,
-        "pac": 63,
+        "aer": 53,
+        "com": 71,
+        "dri": 68,
+        "ldr": 63,
+        "pac": 66,
         "pas": 70,
-        "pos": 68,
-        "sho": 59,
-        "sta": 71,
-        "str": 61,
-        "tac": 61,
-        "vis": 72
+        "pos": 53,
+        "sho": 65,
+        "sta": 65,
+        "str": 56,
+        "tac": 43,
+        "vis": 74
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -101,7 +101,7 @@
       "name": "Tressor Morano",
       "nation": "COL",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14500
     },
     {
@@ -159,18 +159,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 66,
-        "dri": 64,
-        "ldr": 65,
-        "pac": 60,
-        "pas": 70,
-        "pos": 63,
-        "sho": 62,
+        "dri": 60,
+        "ldr": 67,
+        "pac": 57,
+        "pas": 69,
+        "pos": 67,
+        "sho": 56,
         "sta": 68,
-        "str": 64,
-        "tac": 65,
-        "vis": 67
+        "str": 69,
+        "tac": 71,
+        "vis": 64
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -180,7 +180,7 @@
       "name": "Serga Die",
       "nation": "CIV",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 14000
     },
@@ -192,7 +192,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 67,
         "sta": 56,
         "str": 61,
@@ -212,19 +212,23 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 59,
+        "aer": 59,
+        "com": 60,
         "dri": 62,
-        "ldr": 59,
-        "pac": 56,
-        "pas": 63,
+        "ldr": 57,
+        "pac": 61,
+        "pas": 53,
         "pos": 57,
-        "sho": 56,
-        "sta": 61,
-        "str": 60,
-        "tac": 55,
-        "vis": 61
+        "sho": 65,
+        "sta": 55,
+        "str": 65,
+        "tac": 29,
+        "vis": 52
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -234,7 +238,7 @@
       "name": "Toifilou Meoulida",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 7000
     },
@@ -292,6 +296,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -420,7 +427,7 @@
       "name": "Franck Signorinu",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -431,7 +438,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 55,
         "str": 62,
@@ -477,19 +484,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 61,
-        "dri": 55,
+        "dri": 66,
         "ldr": 56,
         "pac": 56,
-        "pas": 48,
-        "pos": 39,
+        "pas": 59,
+        "pos": 59,
         "sho": 64,
         "sta": 58,
         "str": 61,
         "tac": 30,
-        "vis": 48
+        "vis": 59
       },
       "birth": "1975-02-01",
       "contract": null,
@@ -499,7 +511,7 @@
       "name": "Patricio D'Amicu",
       "nation": "ARG",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 4000
     },
@@ -511,7 +523,7 @@
         "ldr": 51,
         "pac": 56,
         "pas": 53,
-        "pos": 35,
+        "pos": 55,
         "sho": 60,
         "sta": 57,
         "str": 56,
@@ -532,18 +544,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 55,
-        "dri": 42,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 53,
-        "pos": 63,
-        "sho": 31,
-        "sta": 56,
-        "str": 58,
-        "tac": 63,
-        "vis": 41
+        "aer": 50,
+        "com": 53,
+        "dri": 52,
+        "ldr": 51,
+        "pac": 61,
+        "pas": 57,
+        "pos": 58,
+        "sho": 38,
+        "sta": 62,
+        "str": 50,
+        "tac": 60,
+        "vis": 47
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -553,7 +565,7 @@
       "name": "Franck Baria",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
@@ -585,18 +597,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 56,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 56,
+        "aer": 39,
+        "com": 57,
+        "dri": 61,
+        "ldr": 54,
+        "pac": 59,
         "pas": 59,
-        "pos": 54,
-        "sho": 55,
-        "sta": 58,
-        "str": 50,
-        "tac": 55,
-        "vis": 61
+        "pos": 39,
+        "sho": 61,
+        "sta": 52,
+        "str": 45,
+        "tac": 37,
+        "vis": 63
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -607,23 +619,23 @@
       "nation": "POL",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 60,
-        "dri": 58,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 61,
-        "pos": 53,
-        "sho": 52,
+        "dri": 54,
+        "ldr": 57,
+        "pac": 47,
+        "pas": 60,
+        "pos": 57,
+        "sho": 46,
         "sta": 58,
-        "str": 54,
-        "tac": 56,
-        "vis": 60
+        "str": 59,
+        "tac": 62,
+        "vis": 57
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -633,7 +645,7 @@
       "name": "Mario Espartaro",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -664,6 +676,11 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -742,19 +759,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 54,
-        "dri": 54,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 62,
-        "pos": 53,
-        "sho": 53,
+        "dri": 50,
+        "ldr": 55,
+        "pac": 51,
+        "pas": 61,
+        "pos": 57,
+        "sho": 47,
         "sta": 60,
-        "str": 51,
-        "tac": 53,
-        "vis": 59
+        "str": 56,
+        "tac": 59,
+        "vis": 56
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -764,23 +784,23 @@
       "name": "Stephane Murisot",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 58,
-        "dri": 53,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 61,
-        "pos": 51,
-        "sho": 49,
+        "dri": 49,
+        "ldr": 57,
+        "pac": 47,
+        "pas": 60,
+        "pos": 55,
+        "sho": 43,
         "sta": 57,
-        "str": 52,
-        "tac": 53,
-        "vis": 60
+        "str": 57,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -791,24 +811,29 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 54,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 49,
-        "pas": 56,
-        "pos": 56,
-        "sho": 52,
+        "dri": 51,
+        "ldr": 53,
+        "pac": 46,
+        "pas": 55,
+        "pos": 60,
+        "sho": 46,
         "sta": 54,
-        "str": 52,
-        "tac": 49,
-        "vis": 58
+        "str": 57,
+        "tac": 55,
+        "vis": 55
       },
       "birth": "1982-12-01",
       "contract": null,
@@ -819,7 +844,7 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4000
     },
     {
@@ -851,18 +876,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 57,
-        "dri": 52,
-        "ldr": 47,
-        "pac": 47,
-        "pas": 59,
-        "pos": 52,
-        "sho": 46,
-        "sta": 56,
-        "str": 46,
-        "tac": 52,
-        "vis": 56
+        "aer": 37,
+        "com": 55,
+        "dri": 57,
+        "ldr": 43,
+        "pac": 56,
+        "pas": 55,
+        "pos": 34,
+        "sho": 50,
+        "sta": 52,
+        "str": 41,
+        "tac": 32,
+        "vis": 53
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -873,24 +898,27 @@
       "nation": "BRA",
       "nation2": "TOG",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
-        "com": 51,
-        "dri": 49,
+        "com": 53,
+        "dri": 51,
         "ldr": 49,
         "pac": 49,
-        "pas": 56,
+        "pas": 58,
         "pos": 54,
-        "sho": 47,
-        "sta": 55,
+        "sho": 49,
+        "sta": 57,
         "str": 50,
         "tac": 53,
-        "vis": 52
+        "vis": 54
       },
       "birth": "1979-05-01",
       "contract": null,
@@ -905,6 +933,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -938,7 +969,7 @@
         "ldr": 43,
         "pac": 54,
         "pas": 41,
-        "pos": 27,
+        "pos": 47,
         "sho": 58,
         "sta": 51,
         "str": 55,
@@ -959,6 +990,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,
@@ -986,6 +1020,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 52,
@@ -1014,6 +1051,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 34,
         "com": 44,

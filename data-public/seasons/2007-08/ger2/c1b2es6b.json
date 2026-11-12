@@ -78,6 +78,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -163,7 +166,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 54,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 58,
         "str": 63,
@@ -182,17 +185,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 66,
-        "dri": 65,
+        "aer": 62,
+        "com": 72,
+        "dri": 69,
         "ldr": 60,
-        "pac": 60,
+        "pac": 66,
         "pas": 65,
-        "pos": 61,
-        "sho": 60,
+        "pos": 67,
+        "sho": 66,
         "sta": 67,
-        "str": 60,
+        "str": 66,
         "tac": 63,
         "vis": 66
       },
@@ -204,7 +212,7 @@
       "name": "Froylan Ledezme",
       "nation": "CRC",
       "number": 8,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 6500
     },
     {
@@ -215,7 +223,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 63,
         "str": 71,
@@ -234,6 +242,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 57,
@@ -267,7 +278,7 @@
         "ldr": 56,
         "pac": 58,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 52,
         "str": 61,
@@ -312,6 +323,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -338,6 +352,11 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -364,6 +383,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -390,6 +412,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 50,
@@ -416,6 +441,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 55,
@@ -442,6 +470,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -475,7 +506,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 48,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 49,
         "str": 57,
@@ -520,6 +551,10 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 49,
@@ -546,19 +581,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 41,
-        "com": 52,
-        "dri": 49,
-        "ldr": 49,
-        "pac": 46,
+        "aer": 35,
+        "com": 53,
+        "dri": 53,
+        "ldr": 47,
+        "pac": 49,
         "pas": 54,
-        "pos": 45,
-        "sho": 46,
-        "sta": 54,
-        "str": 42,
-        "tac": 49,
-        "vis": 49
+        "pos": 30,
+        "sho": 52,
+        "sta": 48,
+        "str": 37,
+        "tac": 31,
+        "vis": 51
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -568,7 +608,7 @@
       "name": "Bajram Nabihi",
       "nation": "GER",
       "number": 29,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 1500
     },
     {
@@ -624,19 +664,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 51,
-        "dri": 47,
+        "com": 55,
+        "dri": 56,
         "ldr": 48,
         "pac": 54,
-        "pas": 42,
-        "pos": 28,
-        "sho": 58,
+        "pas": 55,
+        "pos": 48,
+        "sho": 62,
         "sta": 47,
         "str": 54,
         "tac": 21,
-        "vis": 41
+        "vis": 54
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -647,7 +692,7 @@
       "nation": "UKR",
       "nation2": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1000
     }
   ],

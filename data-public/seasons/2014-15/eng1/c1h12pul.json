@@ -212,20 +212,22 @@
     },
     {
       "alt": [
-        "LB"
+        "LB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 57,
         "com": 68,
         "dri": 67,
         "ldr": 59,
-        "pac": 65,
+        "pac": 71,
         "pas": 73,
-        "pos": 63,
+        "pos": 69,
         "sho": 71,
-        "sta": 76,
-        "str": 65,
-        "tac": 67,
+        "sta": 77,
+        "str": 71,
+        "tac": 73,
         "vis": 67
       },
       "birth": "1984-08-01",
@@ -301,13 +303,13 @@
       "attrs": {
         "aer": 64,
         "com": 61,
-        "dri": 54,
+        "dri": 56,
         "ldr": 53,
-        "pac": 66,
-        "pas": 56,
+        "pac": 68,
+        "pas": 58,
         "pos": 64,
         "sho": 40,
-        "sta": 71,
+        "sta": 73,
         "str": 71,
         "tac": 68,
         "vis": 48
@@ -326,17 +328,17 @@
     {
       "attrs": {
         "aer": 52,
-        "com": 65,
+        "com": 66,
         "dri": 65,
         "ldr": 59,
         "pac": 64,
-        "pas": 70,
-        "pos": 65,
+        "pas": 71,
+        "pos": 66,
         "sho": 54,
         "sta": 81,
-        "str": 63,
-        "tac": 69,
-        "vis": 64
+        "str": 64,
+        "tac": 70,
+        "vis": 65
       },
       "birth": "1989-10-01",
       "contract": "2019-06-30",
@@ -346,23 +348,23 @@
       "name": "Jack Colbeck",
       "nation": "ENG",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 73000
     },
     {
       "attrs": {
         "aer": 47,
-        "com": 65,
+        "com": 66,
         "dri": 65,
         "ldr": 51,
         "pac": 64,
-        "pas": 71,
-        "pos": 65,
+        "pas": 72,
+        "pos": 66,
         "sho": 49,
         "sta": 78,
-        "str": 58,
-        "tac": 69,
-        "vis": 63
+        "str": 59,
+        "tac": 70,
+        "vis": 64
       },
       "birth": "1989-04-01",
       "contract": "2016-06-30",
@@ -376,19 +378,22 @@
       "wage": 57000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 63,
+        "com": 80,
         "dri": 75,
         "ldr": 61,
         "pac": 82,
-        "pas": 69,
+        "pas": 86,
         "pos": 57,
         "sho": 63,
         "sta": 86,
         "str": 84,
-        "tac": 63,
-        "vis": 63
+        "tac": 80,
+        "vis": 80
       },
       "birth": "1989-08-01",
       "contract": "2019-06-30",
@@ -431,6 +436,11 @@
       "wage": 93500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 67,
@@ -460,6 +470,10 @@
       "wage": 95000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -486,6 +500,9 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "ST"
+      ],
       "attrs": {
         "aer": 63,
         "com": 67,
@@ -515,6 +532,9 @@
       "wage": 60500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -543,17 +563,17 @@
     {
       "attrs": {
         "aer": 40,
-        "com": 64,
+        "com": 69,
         "dri": 78,
         "ldr": 44,
         "pac": 74,
-        "pas": 74,
+        "pas": 79,
         "pos": 66,
-        "sho": 66,
+        "sho": 71,
         "sta": 70,
         "str": 54,
         "tac": 32,
-        "vis": 72
+        "vis": 77
       },
       "birth": "1990-03-01",
       "contract": "2020-06-30",
@@ -568,21 +588,23 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 56,
-        "com": 58,
+        "com": 59,
         "dri": 64,
         "ldr": 40,
         "pac": 60,
-        "pas": 63,
+        "pas": 64,
         "pos": 53,
-        "sho": 60,
+        "sho": 61,
         "sta": 61,
         "str": 63,
         "tac": 36,
-        "vis": 61
+        "vis": 62
       },
       "birth": "1992-08-01",
       "contract": "2015-06-30",
@@ -597,19 +619,22 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
-        "com": 54,
+        "com": 67,
         "dri": 64,
         "ldr": 40,
         "pac": 70,
-        "pas": 63,
+        "pas": 76,
         "pos": 55,
         "sho": 51,
         "sta": 76,
         "str": 60,
-        "tac": 59,
-        "vis": 57
+        "tac": 72,
+        "vis": 70
       },
       "birth": "1993-10-01",
       "contract": "2017-06-30",
@@ -650,6 +675,9 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 64,
@@ -672,21 +700,21 @@
       "name": "Ayoze Peraz",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 44500
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 58,
+        "aer": 64,
+        "com": 60,
         "dri": 66,
         "ldr": 42,
         "pac": 74,
         "pas": 60,
-        "pos": 64,
-        "sho": 64,
+        "pos": 66,
+        "sho": 66,
         "sta": 70,
-        "str": 68,
+        "str": 70,
         "tac": 30,
         "vis": 56
       },
@@ -731,7 +759,7 @@
     },
     {
       "alt": [
-        "ST"
+        "RW"
       ],
       "attrs": {
         "aer": 55,
@@ -759,6 +787,9 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 36,
         "com": 50,

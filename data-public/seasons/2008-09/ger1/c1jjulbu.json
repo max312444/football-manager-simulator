@@ -51,6 +51,9 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 65,
@@ -78,9 +81,6 @@
       "wage": 30500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 82,
         "com": 74,
@@ -107,9 +107,6 @@
       "wage": 61000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 74,
         "com": 71,
@@ -136,6 +133,9 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -158,24 +158,26 @@
       "name": "Dusko Tusic",
       "nation": "SRB",
       "number": 5,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 16000
     },
     {
-      "alt": [],
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 76,
-        "dri": 75,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 77,
-        "pos": 76,
-        "sho": 72,
+        "dri": 71,
+        "ldr": 70,
+        "pac": 65,
+        "pas": 76,
+        "pos": 80,
+        "sho": 66,
         "sta": 78,
-        "str": 70,
-        "tac": 70,
-        "vis": 74
+        "str": 75,
+        "tac": 76,
+        "vis": 71
       },
       "birth": "1975-10-01",
       "contract": null,
@@ -185,10 +187,13 @@
       "name": "Frank Baomann",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 61500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -215,6 +220,9 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -248,7 +256,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 77,
         "sta": 75,
         "str": 80,
@@ -268,18 +276,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 74,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 69,
+        "aer": 61,
+        "com": 75,
+        "dri": 76,
+        "ldr": 68,
+        "pac": 72,
         "pas": 80,
-        "pos": 76,
-        "sho": 72,
-        "sta": 80,
-        "str": 67,
-        "tac": 72,
-        "vis": 73
+        "pos": 61,
+        "sho": 78,
+        "sta": 74,
+        "str": 62,
+        "tac": 54,
+        "vis": 75
       },
       "birth": "1985-02-01",
       "contract": null,
@@ -290,13 +298,10 @@
       "nation": "BRA",
       "nation2": "ITA",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 64000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 59,
         "com": 78,
@@ -325,18 +330,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
+        "aer": 56,
         "com": 75,
-        "dri": 68,
+        "dri": 72,
         "ldr": 65,
-        "pac": 68,
-        "pas": 65,
-        "pos": 46,
-        "sho": 76,
+        "pac": 66,
+        "pas": 75,
+        "pos": 51,
+        "sho": 73,
         "sta": 69,
-        "str": 71,
-        "tac": 38,
-        "vis": 62
+        "str": 61,
+        "tac": 46,
+        "vis": 73
       },
       "birth": "1986-09-01",
       "contract": null,
@@ -346,23 +351,23 @@
       "name": "Aaron Hont",
       "nation": "GER",
       "number": 14,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 25000
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 69,
-        "dri": 69,
-        "ldr": 62,
-        "pac": 75,
-        "pas": 70,
-        "pos": 66,
-        "sho": 49,
-        "sta": 73,
-        "str": 66,
-        "tac": 70,
-        "vis": 60
+        "aer": 75,
+        "com": 71,
+        "dri": 59,
+        "ldr": 66,
+        "pac": 67,
+        "pas": 66,
+        "pos": 71,
+        "sho": 42,
+        "sta": 67,
+        "str": 74,
+        "tac": 73,
+        "vis": 54
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -372,7 +377,7 @@
       "name": "Sebastian Prudl",
       "nation": "AUT",
       "number": 15,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 30000
     },
     {
@@ -403,18 +408,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 63,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 57,
+        "aer": 45,
+        "com": 64,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 60,
         "pas": 59,
-        "pos": 57,
-        "sho": 55,
-        "sta": 60,
-        "str": 52,
-        "tac": 54,
-        "vis": 63
+        "pos": 42,
+        "sho": 61,
+        "sta": 54,
+        "str": 47,
+        "tac": 36,
+        "vis": 65
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -424,7 +429,7 @@
       "name": "Said Husajinovic",
       "nation": "BIH",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11000
     },
     {
@@ -435,7 +440,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 68,
-        "pos": 49,
+        "pos": 69,
         "sho": 80,
         "sta": 70,
         "str": 71,
@@ -454,6 +459,10 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -506,19 +515,23 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
-        "com": 76,
-        "dri": 77,
+        "com": 78,
+        "dri": 79,
         "ldr": 77,
         "pac": 74,
-        "pas": 77,
+        "pas": 79,
         "pos": 78,
-        "sho": 70,
-        "sta": 78,
+        "sho": 72,
+        "sta": 80,
         "str": 76,
         "tac": 75,
-        "vis": 76
+        "vis": 78
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -539,7 +552,7 @@
         "ldr": 72,
         "pac": 77,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 77,
         "sta": 72,
         "str": 79,
@@ -565,7 +578,7 @@
         "ldr": 72,
         "pac": 81,
         "pas": 72,
-        "pos": 60,
+        "pos": 80,
         "sho": 81,
         "sta": 74,
         "str": 80,
@@ -586,19 +599,22 @@
       "wage": 69000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 67,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 63,
-        "pas": 71,
-        "pos": 66,
-        "sho": 66,
+        "dri": 66,
+        "ldr": 68,
+        "pac": 60,
+        "pas": 70,
+        "pos": 70,
+        "sho": 60,
         "sta": 72,
-        "str": 66,
-        "tac": 68,
-        "vis": 69
+        "str": 71,
+        "tac": 74,
+        "vis": 66
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -608,23 +624,23 @@
       "name": "Peter Nyemeyer",
       "nation": "GER",
       "number": 25,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 33500
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 55,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 51,
-        "pos": 59,
-        "sho": 34,
-        "sta": 53,
-        "str": 62,
-        "tac": 58,
-        "vis": 44
+        "aer": 47,
+        "com": 53,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 59,
+        "pas": 55,
+        "pos": 54,
+        "sho": 41,
+        "sta": 59,
+        "str": 54,
+        "tac": 55,
+        "vis": 50
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -634,7 +650,7 @@
       "name": "Niklas Andersan",
       "nation": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6500
     },
     {
@@ -716,19 +732,23 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 72,
-        "dri": 69,
-        "ldr": 62,
-        "pac": 71,
-        "pas": 62,
-        "pos": 48,
-        "sho": 75,
-        "sta": 68,
-        "str": 74,
-        "tac": 44,
-        "vis": 60
+        "aer": 55,
+        "com": 69,
+        "dri": 74,
+        "ldr": 60,
+        "pac": 75,
+        "pas": 68,
+        "pos": 50,
+        "sho": 70,
+        "sta": 70,
+        "str": 64,
+        "tac": 50,
+        "vis": 66
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -739,13 +759,14 @@
       "nation": "AUT",
       "nation2": "GER",
       "number": 34,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 25500
     },
     {
       "alt": [
-        "CM",
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 51,
@@ -801,17 +822,17 @@
     {
       "attrs": {
         "aer": 53,
-        "com": 66,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 62,
-        "pas": 67,
+        "com": 62,
+        "dri": 59,
+        "ldr": 58,
+        "pac": 69,
+        "pas": 61,
         "pos": 61,
-        "sho": 61,
+        "sho": 47,
         "sta": 69,
-        "str": 56,
-        "tac": 58,
-        "vis": 64
+        "str": 55,
+        "tac": 62,
+        "vis": 55
       },
       "birth": "1989-10-01",
       "contract": null,
@@ -821,7 +842,7 @@
       "name": "Dennis Diekmeyer",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 18000
     },
     {
@@ -832,7 +853,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 63,
         "sta": 55,
         "str": 64,
@@ -878,18 +899,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 55,
-        "dri": 59,
-        "ldr": 53,
-        "pac": 56,
-        "pas": 58,
-        "pos": 53,
-        "sho": 49,
+        "dri": 55,
+        "ldr": 55,
+        "pac": 53,
+        "pas": 57,
+        "pos": 57,
+        "sho": 43,
         "sta": 57,
-        "str": 50,
-        "tac": 53,
-        "vis": 61
+        "str": 55,
+        "tac": 59,
+        "vis": 58
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -899,10 +920,13 @@
       "name": "Nicolas Faldhahn",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -931,17 +955,17 @@
     {
       "attrs": {
         "aer": 48,
-        "com": 57,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 61,
+        "com": 53,
+        "dri": 52,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 55,
         "pos": 58,
-        "sho": 55,
+        "sho": 41,
         "sta": 61,
-        "str": 52,
-        "tac": 56,
-        "vis": 57
+        "str": 51,
+        "tac": 60,
+        "vis": 48
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -951,10 +975,13 @@
       "name": "Timo Perthal",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -988,7 +1015,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 47,
-        "pos": 36,
+        "pos": 56,
         "sho": 62,
         "sta": 51,
         "str": 55,
@@ -1007,19 +1034,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 51,
+        "com": 60,
         "dri": 40,
         "ldr": 57,
         "pac": 49,
-        "pas": 49,
+        "pas": 58,
         "pos": 59,
         "sho": 26,
-        "sta": 52,
+        "sta": 61,
         "str": 60,
         "tac": 60,
-        "vis": 41
+        "vis": 50
       },
       "birth": "1983-08-01",
       "contract": null,
@@ -1029,7 +1061,7 @@
       "name": "Finn Holsyng",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -1040,7 +1072,7 @@
         "ldr": 46,
         "pac": 54,
         "pas": 48,
-        "pos": 31,
+        "pos": 51,
         "sho": 59,
         "sta": 47,
         "str": 55,
@@ -1060,19 +1092,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
-        "com": 46,
+        "com": 47,
         "dri": 47,
         "ldr": 42,
         "pac": 47,
-        "pas": 49,
+        "pas": 50,
         "pos": 48,
         "sho": 40,
         "sta": 51,
         "str": 43,
-        "tac": 43,
-        "vis": 49
+        "tac": 44,
+        "vis": 50
       },
       "birth": "1988-06-01",
       "contract": null,

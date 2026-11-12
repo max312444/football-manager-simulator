@@ -26,17 +26,17 @@
     {
       "attrs": {
         "aer": 60,
-        "com": 69,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 66,
+        "com": 65,
+        "dri": 60,
+        "ldr": 60,
+        "pac": 67,
+        "pas": 60,
         "pos": 62,
-        "sho": 59,
+        "sho": 45,
         "sta": 70,
-        "str": 61,
-        "tac": 62,
-        "vis": 70
+        "str": 60,
+        "tac": 66,
+        "vis": 61
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -46,11 +46,15 @@
       "name": "Adrian Aliej",
       "nation": "ALB",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 62,
@@ -84,7 +88,7 @@
         "ldr": 56,
         "pac": 65,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 67,
         "sta": 58,
         "str": 64,
@@ -138,7 +142,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 56,
         "str": 57,
@@ -158,6 +162,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -185,6 +192,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -220,7 +230,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 48,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 53,
         "str": 54,
@@ -268,19 +278,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 58,
-        "dri": 54,
-        "ldr": 54,
-        "pac": 50,
+        "aer": 37,
+        "com": 59,
+        "dri": 58,
+        "ldr": 52,
+        "pac": 53,
         "pas": 55,
-        "pos": 56,
-        "sho": 49,
-        "sta": 58,
-        "str": 48,
-        "tac": 50,
-        "vis": 55
+        "pos": 41,
+        "sho": 55,
+        "sta": 52,
+        "str": 43,
+        "tac": 32,
+        "vis": 57
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -290,11 +305,14 @@
       "name": "Boyko Velichkuv",
       "nation": "BUL",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -322,6 +340,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 56,
@@ -348,18 +369,23 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 56,
+        "aer": 55,
+        "com": 58,
         "dri": 56,
         "ldr": 48,
-        "pac": 52,
+        "pac": 57,
         "pas": 57,
-        "pos": 51,
+        "pos": 58,
         "sho": 49,
         "sta": 58,
-        "str": 53,
-        "tac": 52,
+        "str": 60,
+        "tac": 59,
         "vis": 53
       },
       "birth": "1967-12-01",
@@ -370,10 +396,13 @@
       "name": "Jurgen Lugynger",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -401,18 +430,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 55,
-        "dri": 51,
-        "ldr": 51,
-        "pac": 48,
+        "aer": 40,
+        "com": 56,
+        "dri": 55,
+        "ldr": 49,
+        "pac": 51,
         "pas": 60,
-        "pos": 51,
-        "sho": 47,
-        "sta": 60,
-        "str": 53,
-        "tac": 54,
-        "vis": 59
+        "pos": 36,
+        "sho": 53,
+        "sta": 54,
+        "str": 48,
+        "tac": 36,
+        "vis": 61
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -422,7 +451,7 @@
       "name": "Sasa Raduluvic",
       "nation": "AUS",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2500
     },
     {
@@ -506,6 +535,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 53,
@@ -540,7 +572,7 @@
         "ldr": 48,
         "pac": 50,
         "pas": 44,
-        "pos": 26,
+        "pos": 46,
         "sho": 56,
         "sta": 47,
         "str": 53,
@@ -618,7 +650,7 @@
         "ldr": 45,
         "pac": 54,
         "pas": 42,
-        "pos": 29,
+        "pos": 49,
         "sho": 54,
         "sta": 48,
         "str": 54,
@@ -667,17 +699,17 @@
     {
       "attrs": {
         "aer": 40,
-        "com": 48,
-        "dri": 47,
-        "ldr": 46,
-        "pac": 40,
-        "pas": 52,
+        "com": 44,
+        "dri": 45,
+        "ldr": 44,
+        "pac": 47,
+        "pas": 46,
         "pos": 45,
-        "sho": 41,
+        "sho": 27,
         "sta": 47,
-        "str": 46,
-        "tac": 47,
-        "vis": 49
+        "str": 45,
+        "tac": 51,
+        "vis": 40
       },
       "birth": "1966-06-01",
       "contract": null,
@@ -687,7 +719,7 @@
       "name": "Daniel Cyuca",
       "nation": "ROU",
       "number": null,
-      "pos": "CM",
+      "pos": "RB",
       "verify": true,
       "wage": 1000
     }

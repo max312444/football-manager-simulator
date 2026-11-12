@@ -51,6 +51,11 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 69,
         "com": 73,
@@ -58,7 +63,7 @@
         "ldr": 67,
         "pac": 72,
         "pas": 64,
-        "pos": 53,
+        "pos": 73,
         "sho": 78,
         "sta": 69,
         "str": 76,
@@ -86,7 +91,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 65,
         "str": 73,
@@ -107,6 +112,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 71,
@@ -141,7 +149,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 64,
-        "pos": 45,
+        "pos": 65,
         "sho": 75,
         "sta": 67,
         "str": 69,
@@ -216,6 +224,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 66,
@@ -244,6 +255,11 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 66,
@@ -298,6 +314,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -324,6 +343,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 63,
@@ -385,7 +407,7 @@
         "ldr": 55,
         "pac": 64,
         "pas": 51,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 54,
         "str": 59,
@@ -406,6 +428,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 61,
@@ -413,7 +440,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 54,
-        "pos": 36,
+        "pos": 56,
         "sho": 67,
         "sta": 58,
         "str": 60,
@@ -459,6 +486,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -519,7 +549,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 51,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 54,
         "str": 59,
@@ -539,6 +569,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -566,9 +599,6 @@
       "wage": 5000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -628,7 +658,7 @@
         "ldr": 49,
         "pac": 58,
         "pas": 46,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 51,
         "str": 56,
@@ -681,7 +711,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 57,
         "sta": 53,
         "str": 57,
@@ -729,6 +759,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -756,19 +789,24 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 58,
-        "dri": 50,
+        "com": 63,
+        "dri": 57,
         "ldr": 49,
         "pac": 58,
-        "pas": 45,
-        "pos": 31,
-        "sho": 55,
+        "pas": 57,
+        "pos": 51,
+        "sho": 60,
         "sta": 53,
         "str": 57,
         "tac": 25,
-        "vis": 44
+        "vis": 56
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -778,24 +816,24 @@
       "name": "Aleksandar Simyc",
       "nation": "SRB",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 55,
-        "dri": 53,
-        "ldr": 49,
-        "pac": 49,
-        "pas": 58,
-        "pos": 51,
-        "sho": 48,
+        "dri": 49,
+        "ldr": 51,
+        "pac": 46,
+        "pas": 57,
+        "pos": 55,
+        "sho": 42,
         "sta": 59,
-        "str": 51,
-        "tac": 54,
-        "vis": 53
+        "str": 56,
+        "tac": 60,
+        "vis": 50
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -805,7 +843,7 @@
       "name": "Leonardo Olyveira",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
@@ -838,18 +876,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 54,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 52,
-        "pas": 58,
-        "pos": 55,
-        "sho": 51,
+        "dri": 51,
+        "ldr": 53,
+        "pac": 49,
+        "pas": 57,
+        "pos": 59,
+        "sho": 45,
         "sta": 55,
-        "str": 52,
-        "tac": 53,
-        "vis": 53
+        "str": 57,
+        "tac": 59,
+        "vis": 50
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -859,7 +897,7 @@
       "name": "Gerald Furschelet",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
@@ -891,19 +929,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
-        "com": 49,
+        "com": 50,
         "dri": 53,
         "ldr": 51,
         "pac": 50,
-        "pas": 52,
+        "pas": 53,
         "pos": 53,
         "sho": 48,
         "sta": 53,
         "str": 44,
-        "tac": 48,
-        "vis": 53
+        "tac": 49,
+        "vis": 54
       },
       "birth": "1981-08-01",
       "contract": null,
@@ -918,6 +959,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 49,
@@ -953,7 +997,7 @@
         "ldr": 48,
         "pac": 51,
         "pas": 44,
-        "pos": 32,
+        "pos": 52,
         "sho": 54,
         "sta": 44,
         "str": 48,
@@ -973,6 +1017,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 48,
@@ -1007,7 +1054,7 @@
         "ldr": 39,
         "pac": 47,
         "pas": 38,
-        "pos": 23,
+        "pos": 43,
         "sho": 51,
         "sta": 43,
         "str": 47,
@@ -1027,6 +1074,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 47,

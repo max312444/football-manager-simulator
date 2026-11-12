@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 72,
+        "aer": 78,
         "com": 85,
-        "dri": 85,
-        "ldr": 79,
-        "pac": 77,
-        "pas": 88,
-        "pos": 81,
-        "sho": 78,
+        "dri": 81,
+        "ldr": 81,
+        "pac": 74,
+        "pas": 87,
+        "pos": 85,
+        "sho": 72,
         "sta": 88,
-        "str": 79,
-        "tac": 77,
-        "vis": 85
+        "str": 84,
+        "tac": 83,
+        "vis": 82
       },
       "birth": "1971-01-01",
       "contract": null,
@@ -46,26 +46,28 @@
       "name": "Pep Guardiole",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 88500
     },
     {
       "alt": [
-        "ST"
+        "LW",
+        "ST",
+        "RW"
       ],
       "attrs": {
-        "aer": 71,
-        "com": 84,
-        "dri": 80,
-        "ldr": 81,
-        "pac": 75,
+        "aer": 65,
+        "com": 85,
+        "dri": 84,
+        "ldr": 79,
+        "pac": 78,
         "pas": 82,
-        "pos": 83,
-        "sho": 78,
-        "sta": 84,
-        "str": 77,
-        "tac": 81,
-        "vis": 82
+        "pos": 68,
+        "sho": 84,
+        "sta": 78,
+        "str": 72,
+        "tac": 63,
+        "vis": 84
       },
       "birth": "1972-04-01",
       "contract": null,
@@ -76,11 +78,13 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 88500
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -109,9 +113,6 @@
       "wage": 77000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 75,
         "com": 84,
@@ -139,6 +140,9 @@
       "wage": 77000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 83,
         "com": 76,
@@ -166,22 +170,21 @@
     },
     {
       "alt": [
-        "CM",
         "ST"
       ],
       "attrs": {
         "aer": 63,
-        "com": 84,
+        "com": 85,
         "dri": 86,
         "ldr": 78,
         "pac": 82,
-        "pas": 81,
+        "pas": 82,
         "pos": 67,
-        "sho": 78,
+        "sho": 79,
         "sta": 74,
         "str": 69,
         "tac": 62,
-        "vis": 84
+        "vis": 85
       },
       "birth": "1971-02-01",
       "contract": null,
@@ -195,19 +198,22 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 80,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 73,
-        "pas": 79,
-        "pos": 78,
-        "sho": 72,
-        "sta": 82,
-        "str": 78,
-        "tac": 75,
-        "vis": 78
+        "aer": 62,
+        "com": 78,
+        "dri": 81,
+        "ldr": 70,
+        "pac": 82,
+        "pas": 75,
+        "pos": 60,
+        "sho": 76,
+        "sta": 78,
+        "str": 73,
+        "tac": 55,
+        "vis": 75
       },
       "birth": "1973-03-01",
       "contract": null,
@@ -217,11 +223,14 @@
       "name": "Marc Ovarmars",
       "nation": "NED",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 58500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -255,7 +264,7 @@
         "ldr": 76,
         "pac": 81,
         "pas": 71,
-        "pos": 60,
+        "pos": 80,
         "sho": 85,
         "sta": 73,
         "str": 78,
@@ -274,6 +283,11 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 80,
@@ -334,7 +348,7 @@
         "ldr": 69,
         "pac": 79,
         "pas": 68,
-        "pos": 56,
+        "pos": 76,
         "sho": 80,
         "sta": 77,
         "str": 76,
@@ -354,19 +368,22 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 79,
-        "dri": 79,
-        "ldr": 73,
-        "pac": 76,
-        "pas": 77,
-        "pos": 73,
-        "sho": 69,
-        "sta": 80,
-        "str": 74,
-        "tac": 75,
-        "vis": 81
+        "aer": 60,
+        "com": 77,
+        "dri": 84,
+        "ldr": 69,
+        "pac": 85,
+        "pas": 73,
+        "pos": 55,
+        "sho": 73,
+        "sta": 76,
+        "str": 69,
+        "tac": 55,
+        "vis": 78
       },
       "birth": "1970-12-01",
       "contract": null,
@@ -376,11 +393,15 @@
       "name": "Emmanuel Amunyke",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 53000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 74,
@@ -429,10 +450,14 @@
       "name": "Sergi Berjuan",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 41500
     },
     {
+      "alt": [
+        "DM",
+        "LM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 80,
@@ -486,6 +511,9 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 79,
@@ -512,6 +540,9 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 77,
@@ -546,7 +577,7 @@
         "ldr": 65,
         "pac": 73,
         "pas": 64,
-        "pos": 53,
+        "pos": 73,
         "sho": 80,
         "sta": 73,
         "str": 72,
@@ -591,19 +622,22 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 73,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 73,
-        "pos": 70,
-        "sho": 63,
-        "sta": 72,
-        "str": 67,
-        "tac": 70,
-        "vis": 70
+        "aer": 55,
+        "com": 71,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 78,
+        "pas": 69,
+        "pos": 52,
+        "sho": 67,
+        "sta": 68,
+        "str": 62,
+        "tac": 50,
+        "vis": 67
       },
       "birth": "1979-10-01",
       "contract": null,
@@ -613,11 +647,14 @@
       "name": "Simao Sabrose",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 72,
@@ -671,6 +708,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -753,18 +793,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 59,
-        "dri": 52,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 59,
-        "pos": 70,
-        "sho": 36,
-        "sta": 63,
-        "str": 66,
-        "tac": 69,
-        "vis": 53
+        "aer": 56,
+        "com": 57,
+        "dri": 62,
+        "ldr": 56,
+        "pac": 67,
+        "pas": 63,
+        "pos": 65,
+        "sho": 43,
+        "sta": 69,
+        "str": 58,
+        "tac": 66,
+        "vis": 59
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -774,10 +814,13 @@
       "name": "Samuel Okunuwo",
       "nation": "NGA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -805,18 +848,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 60,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 58,
+        "aer": 48,
+        "com": 61,
+        "dri": 63,
+        "ldr": 56,
+        "pac": 61,
         "pas": 66,
-        "pos": 59,
-        "sho": 56,
-        "sta": 65,
-        "str": 54,
-        "tac": 55,
-        "vis": 60
+        "pos": 44,
+        "sho": 62,
+        "sta": 59,
+        "str": 49,
+        "tac": 37,
+        "vis": 62
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -826,7 +869,7 @@
       "name": "Sergio Santamarya",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 8000
     },
@@ -838,7 +881,7 @@
         "ldr": 52,
         "pac": 58,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 57,
         "str": 59,
@@ -857,19 +900,23 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LW",
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 64,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 62,
-        "pos": 62,
-        "sho": 56,
-        "sta": 60,
-        "str": 58,
-        "tac": 56,
-        "vis": 59
+        "aer": 47,
+        "com": 62,
+        "dri": 64,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 58,
+        "pos": 44,
+        "sho": 60,
+        "sta": 56,
+        "str": 53,
+        "tac": 36,
+        "vis": 56
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -879,7 +926,7 @@
       "name": "Neno",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 7500
     },

@@ -131,6 +131,10 @@
       "wage": 434500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 78,
@@ -164,7 +168,7 @@
         "ldr": 66,
         "pac": 71,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 76,
         "sta": 71,
         "str": 73,
@@ -183,19 +187,23 @@
       "wage": 256000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 81,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 80,
-        "pas": 70,
-        "pos": 55,
-        "sho": 85,
-        "sta": 77,
-        "str": 80,
-        "tac": 52,
-        "vis": 75
+        "aer": 61,
+        "com": 78,
+        "dri": 82,
+        "ldr": 70,
+        "pac": 84,
+        "pas": 76,
+        "pos": 57,
+        "sho": 80,
+        "sta": 79,
+        "str": 70,
+        "tac": 58,
+        "vis": 81
       },
       "birth": "1997-05-01",
       "contract": null,
@@ -205,12 +213,13 @@
       "name": "Ousmane Dembela",
       "nation": "FRA",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 515000
     },
     {
       "alt": [
-        "ST"
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 65,
@@ -238,19 +247,23 @@
       "wage": 486500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 69,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 61,
+        "aer": 50,
+        "com": 70,
+        "dri": 70,
+        "ldr": 61,
+        "pac": 64,
         "pas": 68,
-        "pos": 64,
-        "sho": 64,
-        "sta": 73,
-        "str": 65,
-        "tac": 68,
-        "vis": 71
+        "pos": 49,
+        "sho": 70,
+        "sta": 67,
+        "str": 60,
+        "tac": 50,
+        "vis": 73
       },
       "birth": "2005-06-01",
       "contract": null,
@@ -261,13 +274,12 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 218000
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 77,
@@ -295,6 +307,10 @@
       "wage": 312000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -323,7 +339,7 @@
     {
       "alt": [
         "RW",
-        "CM"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -351,6 +367,9 @@
       "wage": 256000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 78,
         "com": 78,
@@ -385,7 +404,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 72,
         "str": 78,
@@ -404,6 +423,9 @@
       "wage": 426500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 65,
@@ -452,7 +474,7 @@
       "name": "Nuno Mendas",
       "nation": "POR",
       "number": 25,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 281500
     },
     {
@@ -463,7 +485,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 62,
-        "pos": 51,
+        "pos": 71,
         "sho": 73,
         "sta": 69,
         "str": 72,
@@ -483,6 +505,8 @@
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -511,6 +535,9 @@
       "wage": 179000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 62,
@@ -590,18 +617,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 54,
-        "dri": 47,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 54,
-        "pos": 62,
-        "sho": 31,
-        "sta": 57,
-        "str": 64,
-        "tac": 60,
-        "vis": 47
+        "aer": 50,
+        "com": 52,
+        "dri": 57,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 58,
+        "pos": 57,
+        "sho": 38,
+        "sta": 63,
+        "str": 56,
+        "tac": 57,
+        "vis": 53
       },
       "birth": "2006-05-01",
       "contract": null,
@@ -611,7 +638,7 @@
       "name": "Yoram Zagoe",
       "nation": "FRA",
       "number": 42,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 59000
     },
     {
@@ -723,6 +750,9 @@
       "wage": 131000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 49,
@@ -779,18 +809,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 41,
-        "dri": 27,
-        "ldr": 44,
-        "pac": 36,
-        "pas": 36,
-        "pos": 46,
-        "sho": 17,
-        "sta": 38,
-        "str": 44,
-        "tac": 43,
-        "vis": 30
+        "aer": 31,
+        "com": 39,
+        "dri": 37,
+        "ldr": 40,
+        "pac": 44,
+        "pas": 40,
+        "pos": 41,
+        "sho": 24,
+        "sta": 44,
+        "str": 36,
+        "tac": 40,
+        "vis": 36
       },
       "birth": "2005-09-01",
       "contract": null,
@@ -801,7 +831,7 @@
       "nation": "GNB",
       "nation2": "POR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8500
     }
   ],

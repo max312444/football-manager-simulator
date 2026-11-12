@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 75,
@@ -52,6 +55,11 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 70,
         "com": 71,
@@ -59,7 +67,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 67,
         "str": 71,
@@ -80,19 +88,23 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 69,
-        "dri": 67,
-        "ldr": 69,
-        "pac": 63,
-        "pas": 71,
-        "pos": 66,
-        "sho": 65,
-        "sta": 70,
-        "str": 67,
-        "tac": 66,
-        "vis": 71
+        "aer": 54,
+        "com": 67,
+        "dri": 72,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 67,
+        "pos": 48,
+        "sho": 69,
+        "sta": 66,
+        "str": 62,
+        "tac": 46,
+        "vis": 68
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -102,7 +114,7 @@
       "name": "Steve Marlat",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 19000
     },
@@ -134,6 +146,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 72,
@@ -162,6 +177,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 68,
@@ -220,6 +238,10 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -248,6 +270,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -362,7 +387,7 @@
         "ldr": 57,
         "pac": 64,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 60,
         "str": 66,
@@ -382,7 +407,9 @@
     },
     {
       "alt": [
-        "RW"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 46,
@@ -438,18 +465,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 61,
-        "dri": 55,
-        "ldr": 55,
-        "pac": 67,
-        "pas": 60,
-        "pos": 62,
-        "sho": 42,
-        "sta": 66,
-        "str": 59,
-        "tac": 64,
-        "vis": 53
+        "aer": 63,
+        "com": 63,
+        "dri": 45,
+        "ldr": 59,
+        "pac": 59,
+        "pas": 56,
+        "pos": 67,
+        "sho": 35,
+        "sta": 60,
+        "str": 67,
+        "tac": 67,
+        "vis": 47
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -460,7 +487,7 @@
       "nation": "MAD",
       "nation2": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 6500
     },
     {
@@ -517,19 +544,23 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 63,
-        "dri": 60,
-        "ldr": 52,
-        "pac": 62,
-        "pas": 53,
-        "pos": 38,
-        "sho": 62,
-        "sta": 57,
-        "str": 64,
-        "tac": 32,
-        "vis": 50
+        "aer": 47,
+        "com": 60,
+        "dri": 65,
+        "ldr": 50,
+        "pac": 66,
+        "pas": 59,
+        "pos": 40,
+        "sho": 57,
+        "sta": 59,
+        "str": 54,
+        "tac": 38,
+        "vis": 56
       },
       "birth": "1975-07-01",
       "contract": null,
@@ -539,24 +570,27 @@
       "name": "Fabrice Fiurese",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 61,
-        "dri": 49,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 56,
-        "pos": 66,
-        "sho": 33,
-        "sta": 57,
-        "str": 63,
-        "tac": 63,
-        "vis": 50
+        "aer": 51,
+        "com": 59,
+        "dri": 59,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 60,
+        "pos": 61,
+        "sho": 40,
+        "sta": 63,
+        "str": 55,
+        "tac": 60,
+        "vis": 56
       },
       "birth": "1980-03-01",
       "contract": null,
@@ -566,10 +600,13 @@
       "name": "Guillaume Muullec",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -630,7 +667,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 54,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 56,
         "str": 61,
@@ -651,7 +688,9 @@
     },
     {
       "alt": [
-        "RW"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 42,
@@ -680,19 +719,23 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 57,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 62,
-        "pos": 55,
-        "sho": 53,
-        "sta": 58,
-        "str": 57,
-        "tac": 55,
-        "vis": 57
+        "aer": 42,
+        "com": 55,
+        "dri": 60,
+        "ldr": 50,
+        "pac": 64,
+        "pas": 58,
+        "pos": 37,
+        "sho": 57,
+        "sta": 54,
+        "str": 52,
+        "tac": 35,
+        "vis": 54
       },
       "birth": "1983-12-01",
       "contract": null,
@@ -702,24 +745,24 @@
       "name": "Johan Aodel",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 45,
         "com": 54,
-        "dri": 43,
-        "ldr": 56,
-        "pac": 51,
-        "pas": 54,
-        "pos": 64,
-        "sho": 29,
-        "sta": 57,
-        "str": 62,
-        "tac": 62,
-        "vis": 45
+        "dri": 60,
+        "ldr": 50,
+        "pac": 61,
+        "pas": 60,
+        "pos": 41,
+        "sho": 54,
+        "sta": 59,
+        "str": 50,
+        "tac": 35,
+        "vis": 57
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -729,7 +772,7 @@
       "name": "Juan Manuel Berrientos",
       "nation": "ARG",
       "number": null,
-      "pos": "CB",
+      "pos": "LW",
       "wage": 4000
     },
     {
@@ -740,7 +783,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 57,
         "str": 57,
@@ -786,19 +829,23 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 53,
-        "pas": 59,
-        "pos": 57,
-        "sho": 52,
-        "sta": 60,
-        "str": 52,
-        "tac": 52,
-        "vis": 60
+        "aer": 44,
+        "com": 58,
+        "dri": 60,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 55,
+        "pos": 39,
+        "sho": 56,
+        "sta": 56,
+        "str": 47,
+        "tac": 32,
+        "vis": 57
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -808,7 +855,7 @@
       "name": "Sebastien Le Toox",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 5000
     },
@@ -839,18 +886,23 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 71,
         "com": 59,
         "dri": 51,
         "ldr": 49,
         "pac": 59,
-        "pas": 45,
-        "pos": 35,
+        "pas": 63,
+        "pos": 73,
         "sho": 59,
         "sta": 50,
-        "str": 58,
-        "tac": 25,
+        "str": 76,
+        "tac": 43,
         "vis": 48
       },
       "birth": "1986-06-01",
@@ -862,23 +914,26 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": null,
-      "pos": "ST",
+      "pos": "CB",
       "wage": 2500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 55,
-        "dri": 54,
-        "ldr": 48,
-        "pac": 59,
-        "pas": 45,
-        "pos": 37,
-        "sho": 58,
-        "sta": 50,
-        "str": 53,
-        "tac": 27,
-        "vis": 46
+        "aer": 39,
+        "com": 52,
+        "dri": 59,
+        "ldr": 46,
+        "pac": 63,
+        "pas": 51,
+        "pos": 39,
+        "sho": 53,
+        "sta": 52,
+        "str": 43,
+        "tac": 33,
+        "vis": 52
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -888,11 +943,14 @@
       "name": "Stephane N'Goema",
       "nation": "GAB",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -954,7 +1012,7 @@
         "ldr": 47,
         "pac": 55,
         "pas": 48,
-        "pos": 31,
+        "pos": 51,
         "sho": 55,
         "sta": 47,
         "str": 57,
@@ -1001,6 +1059,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -1027,19 +1088,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 55,
-        "dri": 52,
-        "ldr": 46,
-        "pac": 45,
-        "pas": 56,
-        "pos": 53,
-        "sho": 44,
-        "sta": 58,
-        "str": 46,
-        "tac": 48,
-        "vis": 54
+        "aer": 37,
+        "com": 53,
+        "dri": 57,
+        "ldr": 42,
+        "pac": 54,
+        "pas": 52,
+        "pos": 35,
+        "sho": 48,
+        "sta": 54,
+        "str": 41,
+        "tac": 28,
+        "vis": 51
       },
       "birth": "1985-08-01",
       "contract": null,
@@ -1049,24 +1113,27 @@
       "name": "Virgile Raset",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 49,
-        "dri": 47,
-        "ldr": 47,
-        "pac": 44,
-        "pas": 52,
-        "pos": 47,
-        "sho": 49,
-        "sta": 57,
-        "str": 48,
-        "tac": 49,
-        "vis": 56
+        "aer": 34,
+        "com": 47,
+        "dri": 52,
+        "ldr": 43,
+        "pac": 53,
+        "pas": 48,
+        "pos": 29,
+        "sho": 53,
+        "sta": 53,
+        "str": 43,
+        "tac": 29,
+        "vis": 53
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -1076,7 +1143,7 @@
       "name": "Mamadou Densoko",
       "nation": "CIV",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 2500
     },
@@ -1108,6 +1175,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 49,
@@ -1136,6 +1206,10 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 53,
@@ -1163,6 +1237,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 46,

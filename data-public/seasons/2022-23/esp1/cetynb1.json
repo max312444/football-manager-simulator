@@ -104,8 +104,7 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 82,
@@ -159,6 +158,10 @@
       "wage": 301500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 72,
         "com": 75,
@@ -185,6 +188,9 @@
       "wage": 350500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 81,
@@ -207,10 +213,13 @@
       "name": "Eden Hazerd",
       "nation": "BEL",
       "number": 7,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 404000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 83,
@@ -244,7 +253,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 75,
-        "pos": 60,
+        "pos": 80,
         "sho": 80,
         "sta": 76,
         "str": 83,
@@ -264,7 +273,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 64,
@@ -293,7 +303,8 @@
     },
     {
       "alt": [
-        "ST"
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 67,
@@ -321,6 +332,11 @@
       "wage": 316000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 69,
@@ -374,6 +390,10 @@
       "wage": 148500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 79,
@@ -426,19 +446,23 @@
       "wage": 221000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 80,
-        "dri": 76,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 83,
+        "com": 76,
+        "dri": 74,
+        "ldr": 73,
+        "pac": 83,
+        "pas": 77,
         "pos": 73,
-        "sho": 73,
+        "sho": 59,
         "sta": 80,
-        "str": 76,
-        "tac": 74,
-        "vis": 82
+        "str": 75,
+        "tac": 78,
+        "vis": 73
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -448,23 +472,26 @@
       "name": "Lucas Vazqoez",
       "nation": "ESP",
       "number": 17,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 408000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 79,
-        "dri": 77,
-        "ldr": 69,
-        "pac": 73,
-        "pas": 75,
-        "pos": 77,
-        "sho": 72,
+        "dri": 73,
+        "ldr": 71,
+        "pac": 70,
+        "pas": 74,
+        "pos": 81,
+        "sho": 66,
         "sta": 75,
-        "str": 68,
-        "tac": 69,
-        "vis": 77
+        "str": 73,
+        "tac": 75,
+        "vis": 74
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -474,10 +501,14 @@
       "name": "Aurelien Tchouamani",
       "nation": "FRA",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 279500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 80,
@@ -504,19 +535,23 @@
       "wage": 479000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 79,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 79,
-        "pas": 69,
-        "pos": 54,
-        "sho": 78,
-        "sta": 74,
-        "str": 76,
-        "tac": 50,
-        "vis": 68
+        "aer": 58,
+        "com": 76,
+        "dri": 77,
+        "ldr": 69,
+        "pac": 83,
+        "pas": 75,
+        "pos": 56,
+        "sho": 73,
+        "sta": 76,
+        "str": 66,
+        "tac": 56,
+        "vis": 74
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -527,10 +562,13 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 20,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 206500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 61,
         "com": 75,
@@ -606,7 +644,7 @@
       "name": "Ferland Mendi",
       "nation": "FRA",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 285000
     },
     {
@@ -617,7 +655,7 @@
         "ldr": 72,
         "pac": 73,
         "pas": 64,
-        "pos": 55,
+        "pos": 75,
         "sho": 76,
         "sta": 70,
         "str": 76,

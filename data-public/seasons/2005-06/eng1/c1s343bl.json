@@ -71,7 +71,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 68,
@@ -99,6 +100,9 @@
       "wage": 61500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
@@ -152,7 +156,9 @@
     },
     {
       "alt": [
-        "LB"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 72,
@@ -235,6 +241,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 53,
@@ -296,17 +305,17 @@
       ],
       "attrs": {
         "aer": 64,
-        "com": 67,
-        "dri": 64,
+        "com": 76,
+        "dri": 72,
         "ldr": 71,
         "pac": 71,
-        "pas": 70,
+        "pas": 79,
         "pos": 70,
-        "sho": 56,
-        "sta": 88,
+        "sho": 64,
+        "sta": 89,
         "str": 72,
-        "tac": 76,
-        "vis": 63
+        "tac": 77,
+        "vis": 72
       },
       "birth": "1974-10-01",
       "contract": "2008-06-30",
@@ -404,13 +413,13 @@
         "dri": 73,
         "ldr": 57,
         "pac": 82,
-        "pas": 68,
+        "pas": 69,
         "pos": 57,
         "sho": 64,
-        "sta": 83,
+        "sta": 84,
         "str": 66,
-        "tac": 55,
-        "vis": 63
+        "tac": 56,
+        "vis": 64
       },
       "birth": "1979-02-01",
       "contract": "2007-06-30",
@@ -425,7 +434,9 @@
     },
     {
       "alt": [
-        "LW"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 56,
@@ -433,13 +444,13 @@
         "dri": 73,
         "ldr": 51,
         "pac": 78,
-        "pas": 73,
+        "pas": 78,
         "pos": 53,
         "sho": 70,
-        "sta": 78,
+        "sta": 83,
         "str": 64,
-        "tac": 44,
-        "vis": 66
+        "tac": 49,
+        "vis": 71
       },
       "birth": "1981-09-01",
       "contract": "2008-06-30",
@@ -458,7 +469,9 @@
     },
     {
       "alt": [
-        "RM"
+        "LM",
+        "RB",
+        "CM"
       ],
       "attrs": {
         "aer": 57,
@@ -482,25 +495,27 @@
       "name": "Steven Reyd",
       "nation": "IRL",
       "number": 14,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 31500
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 55,
         "com": 67,
         "dri": 71,
         "ldr": 55,
-        "pac": 68,
+        "pac": 70,
         "pas": 75,
         "pos": 63,
         "sho": 71,
-        "sta": 74,
+        "sta": 76,
         "str": 60,
-        "tac": 57,
+        "tac": 59,
         "vis": 71
       },
       "birth": "1977-09-01",
@@ -519,16 +534,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 67,
+        "aer": 60,
+        "com": 68,
         "dri": 65,
         "ldr": 67,
         "pac": 68,
         "pas": 61,
-        "pos": 55,
-        "sho": 69,
+        "pos": 56,
+        "sho": 70,
         "sta": 79,
-        "str": 65,
+        "str": 66,
         "tac": 49,
         "vis": 61
       },
@@ -545,19 +560,19 @@
     },
     {
       "alt": [
-        "LW"
+        "AM"
       ],
       "attrs": {
-        "aer": 61,
-        "com": 74,
+        "aer": 71,
+        "com": 84,
         "dri": 79,
         "ldr": 60,
         "pac": 90,
         "pas": 68,
-        "pos": 52,
-        "sho": 79,
+        "pos": 62,
+        "sho": 89,
         "sta": 76,
-        "str": 66,
+        "str": 76,
         "tac": 38,
         "vis": 67
       },
@@ -603,16 +618,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 61,
+        "aer": 68,
+        "com": 64,
         "dri": 67,
         "ldr": 45,
         "pac": 66,
         "pas": 63,
-        "pos": 51,
-        "sho": 67,
+        "pos": 54,
+        "sho": 70,
         "sta": 60,
-        "str": 64,
+        "str": 67,
         "tac": 39,
         "vis": 59
       },
@@ -632,7 +647,7 @@
     },
     {
       "alt": [
-        "AM"
+        "LW"
       ],
       "attrs": {
         "aer": 48,
@@ -657,13 +672,10 @@
       "name": "David Bentlei",
       "nation": "ENG",
       "number": 29,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 22000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 59,

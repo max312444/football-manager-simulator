@@ -71,18 +71,18 @@
     },
     {
       "alt": [
-        "CB"
+        "RM"
       ],
       "attrs": {
         "aer": 56,
         "com": 68,
-        "dri": 54,
+        "dri": 63,
         "ldr": 64,
-        "pac": 52,
+        "pac": 61,
         "pas": 60,
         "pos": 70,
         "sho": 38,
-        "sta": 60,
+        "sta": 69,
         "str": 62,
         "tac": 68,
         "vis": 52
@@ -100,7 +100,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB"
       ],
       "attrs": {
         "aer": 58,
@@ -128,19 +129,22 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 72,
-        "dri": 60,
+        "com": 76,
+        "dri": 64,
         "ldr": 84,
         "pac": 50,
-        "pas": 70,
+        "pas": 74,
         "pos": 70,
-        "sho": 56,
-        "sta": 72,
+        "sho": 60,
+        "sta": 76,
         "str": 62,
         "tac": 70,
-        "vis": 68
+        "vis": 72
       },
       "birth": "1964-06-01",
       "contract": "2002-06-30",
@@ -185,7 +189,8 @@
     {
       "alt": [
         "ST",
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 40,
@@ -217,20 +222,22 @@
     },
     {
       "alt": [
-        "RB"
+        "LB",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 54,
         "com": 72,
         "dri": 70,
         "ldr": 64,
-        "pac": 62,
+        "pac": 73,
         "pas": 74,
-        "pos": 62,
+        "pos": 73,
         "sho": 66,
-        "sta": 66,
-        "str": 60,
-        "tac": 60,
+        "sta": 77,
+        "str": 71,
+        "tac": 71,
         "vis": 72
       },
       "birth": "1967-12-01",
@@ -241,24 +248,26 @@
       "name": "Dan Petrascu",
       "nation": "ROU",
       "number": 26,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 31500
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
-        "aer": 48,
-        "com": 64,
+        "aer": 57,
+        "com": 73,
         "dri": 72,
         "ldr": 46,
         "pac": 66,
         "pas": 62,
-        "pos": 44,
-        "sho": 70,
+        "pos": 53,
+        "sho": 79,
         "sta": 64,
-        "str": 58,
+        "str": 67,
         "tac": 30,
         "vis": 62
       },
@@ -275,16 +284,16 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 70,
+        "aer": 53,
+        "com": 71,
         "dri": 62,
         "ldr": 62,
-        "pac": 50,
+        "pac": 51,
         "pas": 58,
-        "pos": 46,
-        "sho": 66,
+        "pos": 47,
+        "sho": 67,
         "sta": 54,
-        "str": 60,
+        "str": 61,
         "tac": 30,
         "vis": 56
       },
@@ -306,9 +315,9 @@
       "attrs": {
         "aer": 44,
         "com": 66,
-        "dri": 72,
+        "dri": 78,
         "ldr": 58,
-        "pac": 58,
+        "pac": 64,
         "pas": 70,
         "pos": 50,
         "sho": 60,
@@ -325,16 +334,13 @@
       "name": "Peter Baagrie",
       "nation": "ENG",
       "number": 11,
-      "pos": "LM",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
       "wage": 17000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 56,
         "com": 60,
@@ -357,11 +363,13 @@
       "name": "Lee Sharpa",
       "nation": "ENG",
       "number": 16,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 19500
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -390,6 +398,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -416,22 +427,19 @@
       "wage": 20000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 48,
-        "com": 54,
-        "dri": 64,
+        "com": 57,
+        "dri": 67,
         "ldr": 50,
-        "pac": 74,
-        "pas": 58,
+        "pac": 77,
+        "pas": 60,
         "pos": 54,
-        "sho": 52,
+        "sho": 55,
         "sta": 72,
         "str": 64,
         "tac": 54,
-        "vis": 50
+        "vis": 52
       },
       "birth": "1970-03-01",
       "contract": "2002-06-30",
@@ -446,7 +454,7 @@
       "name": "Jamie Lawrance",
       "nation": "JAM",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 17500
     },
     {
@@ -477,16 +485,19 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 58,
-        "dri": 52,
+        "dri": 55,
         "ldr": 50,
-        "pac": 56,
-        "pas": 56,
+        "pac": 59,
+        "pas": 59,
         "pos": 62,
         "sho": 36,
-        "sta": 60,
+        "sta": 63,
         "str": 60,
         "tac": 62,
         "vis": 44
@@ -506,13 +517,13 @@
       "attrs": {
         "aer": 52,
         "com": 62,
-        "dri": 52,
+        "dri": 55,
         "ldr": 58,
-        "pac": 56,
+        "pac": 59,
         "pas": 58,
         "pos": 64,
         "sho": 36,
-        "sta": 62,
+        "sta": 65,
         "str": 58,
         "tac": 64,
         "vis": 46
@@ -610,7 +621,8 @@
     {
       "alt": [
         "RB",
-        "DM"
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 69,

@@ -156,6 +156,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 60,
@@ -190,7 +193,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 61,
         "sta": 53,
         "str": 58,
@@ -210,6 +213,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,
@@ -244,7 +250,7 @@
         "ldr": 57,
         "pac": 60,
         "pas": 56,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 58,
         "str": 63,
@@ -263,6 +269,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -289,6 +298,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -376,7 +388,7 @@
         "ldr": 58,
         "pac": 61,
         "pas": 53,
-        "pos": 44,
+        "pos": 64,
         "sho": 65,
         "sta": 60,
         "str": 61,
@@ -423,6 +435,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -476,18 +491,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 61,
-        "dri": 44,
-        "ldr": 58,
-        "pac": 57,
-        "pas": 51,
-        "pos": 62,
-        "sho": 32,
-        "sta": 55,
-        "str": 61,
-        "tac": 62,
-        "vis": 48
+        "aer": 53,
+        "com": 59,
+        "dri": 54,
+        "ldr": 54,
+        "pac": 65,
+        "pas": 55,
+        "pos": 57,
+        "sho": 39,
+        "sta": 61,
+        "str": 53,
+        "tac": 59,
+        "vis": 54
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -497,23 +512,23 @@
       "name": "Damien Tyxier",
       "nation": "FRA",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8500
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 60,
-        "dri": 57,
-        "ldr": 57,
-        "pac": 51,
+        "aer": 40,
+        "com": 61,
+        "dri": 61,
+        "ldr": 55,
+        "pac": 54,
         "pas": 59,
-        "pos": 56,
-        "sho": 52,
-        "sta": 62,
-        "str": 51,
-        "tac": 56,
-        "vis": 63
+        "pos": 41,
+        "sho": 58,
+        "sta": 56,
+        "str": 46,
+        "tac": 38,
+        "vis": 65
       },
       "birth": "1977-05-01",
       "contract": null,
@@ -523,23 +538,28 @@
       "name": "Jean-Michel Lesaga",
       "nation": "FRA",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
-        "dri": 57,
+        "dri": 64,
         "ldr": 57,
         "pac": 59,
-        "pas": 50,
-        "pos": 40,
+        "pas": 57,
+        "pos": 60,
         "sho": 61,
         "sta": 58,
         "str": 61,
         "tac": 31,
-        "vis": 55
+        "vis": 62
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -549,7 +569,7 @@
       "name": "Stephane Noru",
       "nation": "FRA",
       "number": 23,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 8000
     },
     {
@@ -583,6 +603,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 64,
@@ -609,6 +632,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -713,6 +739,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 62,
@@ -740,19 +769,24 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 58,
-        "dri": 59,
+        "com": 65,
+        "dri": 63,
         "ldr": 54,
         "pac": 61,
-        "pas": 52,
-        "pos": 34,
-        "sho": 61,
+        "pas": 63,
+        "pos": 54,
+        "sho": 68,
         "sta": 55,
         "str": 61,
         "tac": 30,
-        "vis": 47
+        "vis": 58
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -762,7 +796,7 @@
       "name": "David Mertot",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 6500
     },
     {

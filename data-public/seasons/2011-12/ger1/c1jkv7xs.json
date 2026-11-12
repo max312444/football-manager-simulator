@@ -99,7 +99,7 @@
       "name": "Leon Jessan",
       "nation": "DEN",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 24000
     },
     {
@@ -155,6 +155,11 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -181,7 +186,9 @@
       "wage": 27500
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 69,
@@ -215,7 +222,7 @@
         "ldr": 67,
         "pac": 69,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 75,
         "sta": 68,
         "str": 73,
@@ -234,19 +241,23 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 64,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 65,
+        "aer": 53,
+        "com": 65,
+        "dri": 67,
+        "ldr": 60,
+        "pac": 68,
         "pas": 67,
-        "pos": 66,
-        "sho": 60,
-        "sta": 66,
-        "str": 64,
-        "tac": 65,
-        "vis": 70
+        "pos": 51,
+        "sho": 66,
+        "sta": 60,
+        "str": 59,
+        "tac": 47,
+        "vis": 72
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -257,7 +268,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 25500
     },
     {
@@ -268,7 +279,7 @@
         "ldr": 59,
         "pac": 61,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 63,
         "sta": 56,
         "str": 64,
@@ -288,18 +299,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 65,
-        "pas": 57,
-        "pos": 60,
-        "sho": 43,
+        "aer": 57,
+        "com": 65,
+        "dri": 58,
+        "ldr": 60,
+        "pac": 55,
+        "pas": 62,
+        "pos": 64,
+        "sho": 51,
         "sta": 65,
-        "str": 60,
-        "tac": 62,
-        "vis": 58
+        "str": 66,
+        "tac": 64,
+        "vis": 64
       },
       "birth": "1991-06-01",
       "contract": null,
@@ -311,23 +322,27 @@
       "nation": "GRE",
       "nation2": "GER",
       "number": 13,
-      "pos": "RB",
+      "pos": "DM",
       "wage": 12500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 74,
-        "dri": 71,
-        "ldr": 71,
-        "pac": 65,
+        "aer": 54,
+        "com": 75,
+        "dri": 75,
+        "ldr": 69,
+        "pac": 68,
         "pas": 77,
-        "pos": 67,
-        "sho": 65,
-        "sta": 71,
-        "str": 68,
-        "tac": 67,
-        "vis": 76
+        "pos": 52,
+        "sho": 71,
+        "sta": 65,
+        "str": 63,
+        "tac": 49,
+        "vis": 78
       },
       "birth": "1985-08-01",
       "contract": null,
@@ -338,23 +353,23 @@
       "nation": "ISR",
       "nation2": "POL",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 42500
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 67,
-        "dri": 65,
-        "ldr": 60,
-        "pac": 61,
+        "aer": 51,
+        "com": 65,
+        "dri": 68,
+        "ldr": 58,
+        "pac": 69,
         "pas": 68,
-        "pos": 65,
-        "sho": 60,
-        "sta": 68,
-        "str": 62,
-        "tac": 64,
-        "vis": 68
+        "pos": 57,
+        "sho": 58,
+        "sta": 71,
+        "str": 59,
+        "tac": 58,
+        "vis": 67
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -364,7 +379,7 @@
       "name": "Clemens Welch",
       "nation": "AUT",
       "number": 15,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 23500
     },
     {
@@ -375,7 +390,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 61,
         "str": 67,
@@ -416,23 +431,23 @@
       "name": "Alexander Bugere",
       "nation": "GER",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 16000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 71,
+        "aer": 71,
+        "com": 72,
         "dri": 69,
-        "ldr": 67,
-        "pac": 64,
-        "pas": 69,
+        "ldr": 65,
+        "pac": 69,
+        "pas": 59,
         "pos": 68,
-        "sho": 66,
-        "sta": 72,
-        "str": 62,
-        "tac": 68,
-        "vis": 69
+        "sho": 75,
+        "sta": 66,
+        "str": 67,
+        "tac": 42,
+        "vis": 60
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -443,23 +458,23 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 18,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 36000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 65,
-        "dri": 67,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 67,
-        "pos": 65,
-        "sho": 63,
-        "sta": 69,
-        "str": 60,
-        "tac": 64,
-        "vis": 69
+        "aer": 72,
+        "com": 63,
+        "dri": 55,
+        "ldr": 63,
+        "pac": 61,
+        "pas": 57,
+        "pos": 70,
+        "sho": 42,
+        "sta": 63,
+        "str": 67,
+        "tac": 71,
+        "vis": 54
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -469,7 +484,7 @@
       "name": "Jiri Bylek",
       "nation": "CZE",
       "number": 19,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 25500
     },
     {
@@ -499,18 +514,21 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
         "dri": 60,
         "ldr": 54,
         "pac": 51,
-        "pas": 60,
+        "pas": 61,
         "pos": 54,
         "sho": 55,
-        "sta": 58,
+        "sta": 59,
         "str": 54,
-        "tac": 52,
+        "tac": 53,
         "vis": 58
       },
       "birth": "1987-09-01",
@@ -525,6 +543,10 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 63,
@@ -551,6 +573,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -577,19 +602,23 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 67,
-        "ldr": 61,
-        "pac": 60,
+        "aer": 48,
+        "com": 65,
+        "dri": 71,
+        "ldr": 59,
+        "pac": 63,
         "pas": 68,
-        "pos": 66,
-        "sho": 60,
-        "sta": 71,
-        "str": 62,
-        "tac": 65,
-        "vis": 67
+        "pos": 51,
+        "sho": 66,
+        "sta": 65,
+        "str": 57,
+        "tac": 47,
+        "vis": 69
       },
       "birth": "1992-10-01",
       "contract": null,
@@ -599,7 +628,7 @@
       "name": "Kostas Fortounys",
       "nation": "GRE",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 24000
     },
     {
@@ -636,7 +665,7 @@
         "ldr": 66,
         "pac": 70,
         "pas": 63,
-        "pos": 47,
+        "pos": 67,
         "sho": 69,
         "sta": 67,
         "str": 72,
@@ -663,7 +692,7 @@
         "ldr": 70,
         "pac": 75,
         "pas": 65,
-        "pos": 56,
+        "pos": 76,
         "sho": 76,
         "sta": 70,
         "str": 75,

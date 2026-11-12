@@ -105,17 +105,17 @@
     {
       "attrs": {
         "aer": 48,
-        "com": 59,
-        "dri": 56,
-        "ldr": 54,
-        "pac": 57,
-        "pas": 65,
+        "com": 55,
+        "dri": 54,
+        "ldr": 52,
+        "pac": 64,
+        "pas": 59,
         "pos": 59,
-        "sho": 53,
+        "sho": 39,
         "sta": 60,
-        "str": 53,
-        "tac": 60,
-        "vis": 61
+        "str": 52,
+        "tac": 64,
+        "vis": 52
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -126,10 +126,13 @@
       "nation": "FRA",
       "nation2": "CMR",
       "number": 5,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -164,7 +167,7 @@
         "ldr": 54,
         "pac": 66,
         "pas": 55,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 57,
         "str": 63,
@@ -183,6 +186,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -209,19 +215,23 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 73,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 72,
+        "aer": 62,
+        "com": 74,
+        "dri": 79,
+        "ldr": 69,
+        "pac": 75,
         "pas": 75,
-        "pos": 74,
-        "sho": 67,
-        "sta": 76,
-        "str": 71,
-        "tac": 74,
-        "vis": 78
+        "pos": 59,
+        "sho": 73,
+        "sta": 70,
+        "str": 66,
+        "tac": 56,
+        "vis": 80
       },
       "birth": "1995-12-01",
       "contract": null,
@@ -232,7 +242,7 @@
       "name": "Rony Lopas",
       "nation": "POR",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 47000
     },
     {
@@ -262,19 +272,22 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 54,
-        "dri": 53,
-        "ldr": 47,
-        "pac": 52,
-        "pas": 44,
-        "pos": 33,
-        "sho": 52,
-        "sta": 51,
-        "str": 53,
-        "tac": 22,
-        "vis": 42
+        "aer": 36,
+        "com": 51,
+        "dri": 58,
+        "ldr": 45,
+        "pac": 56,
+        "pas": 50,
+        "pos": 35,
+        "sho": 47,
+        "sta": 53,
+        "str": 43,
+        "tac": 28,
+        "vis": 48
       },
       "birth": "2004-02-01",
       "contract": null,
@@ -284,7 +297,7 @@
       "name": "Amar Fetah",
       "nation": "SWE",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
@@ -315,18 +328,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 63,
-        "dri": 55,
-        "ldr": 55,
-        "pac": 58,
+        "aer": 42,
+        "com": 64,
+        "dri": 59,
+        "ldr": 53,
+        "pac": 61,
         "pas": 59,
-        "pos": 61,
-        "sho": 52,
-        "sta": 59,
-        "str": 52,
-        "tac": 58,
-        "vis": 62
+        "pos": 46,
+        "sho": 58,
+        "sta": 53,
+        "str": 47,
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -336,23 +349,23 @@
       "name": "Luka Ilyc",
       "nation": "SRB",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 21000
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 54,
-        "dri": 42,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 48,
-        "pos": 61,
-        "sho": 29,
-        "sta": 52,
-        "str": 58,
-        "tac": 63,
-        "vis": 43
+        "aer": 45,
+        "com": 52,
+        "dri": 52,
+        "ldr": 52,
+        "pac": 61,
+        "pas": 52,
+        "pos": 56,
+        "sho": 36,
+        "sta": 58,
+        "str": 50,
+        "tac": 60,
+        "vis": 49
       },
       "birth": "1999-01-01",
       "contract": null,
@@ -362,21 +375,26 @@
       "name": "Andreas Bruos",
       "nation": "DEN",
       "number": 19,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 11500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 62,
-        "dri": 60,
+        "aer": 60,
+        "com": 72,
+        "dri": 66,
         "ldr": 57,
-        "pac": 53,
+        "pac": 63,
         "pas": 65,
-        "pos": 60,
-        "sho": 55,
+        "pos": 70,
+        "sho": 65,
         "sta": 64,
-        "str": 53,
+        "str": 63,
         "tac": 58,
         "vis": 64
       },
@@ -388,7 +406,7 @@
       "name": "Renaud Rypart",
       "nation": "FRA",
       "number": 20,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 25500
     },
     {
@@ -445,6 +463,9 @@
       "wage": 47000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 63,
@@ -471,19 +492,23 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 63,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 64,
-        "pas": 59,
-        "pos": 44,
-        "sho": 65,
-        "sta": 63,
-        "str": 68,
-        "tac": 33,
-        "vis": 58
+        "aer": 49,
+        "com": 60,
+        "dri": 65,
+        "ldr": 54,
+        "pac": 68,
+        "pas": 65,
+        "pos": 46,
+        "sho": 60,
+        "sta": 65,
+        "str": 58,
+        "tac": 39,
+        "vis": 64
       },
       "birth": "1995-11-01",
       "contract": null,
@@ -493,23 +518,26 @@
       "name": "Mama Balda",
       "nation": "GNB",
       "number": 25,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 24000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 54,
-        "dri": 54,
-        "ldr": 48,
-        "pac": 57,
-        "pas": 50,
-        "pos": 35,
-        "sho": 57,
-        "sta": 53,
-        "str": 56,
-        "tac": 27,
-        "vis": 51
+        "aer": 37,
+        "com": 51,
+        "dri": 59,
+        "ldr": 46,
+        "pac": 61,
+        "pas": 56,
+        "pos": 37,
+        "sho": 52,
+        "sta": 55,
+        "str": 46,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -521,7 +549,7 @@
       "nation": "SEN",
       "nation2": "MTN",
       "number": 26,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9000
     },
     {
@@ -532,7 +560,7 @@
         "ldr": 43,
         "pac": 44,
         "pas": 41,
-        "pos": 24,
+        "pos": 44,
         "sho": 47,
         "sta": 40,
         "str": 48,
@@ -551,6 +579,10 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 43,
@@ -579,19 +611,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 58,
-        "ldr": 55,
-        "pac": 50,
+        "aer": 44,
+        "com": 61,
+        "dri": 62,
+        "ldr": 53,
+        "pac": 53,
         "pas": 63,
-        "pos": 54,
-        "sho": 55,
-        "sta": 61,
-        "str": 55,
-        "tac": 53,
-        "vis": 57
+        "pos": 39,
+        "sho": 61,
+        "sta": 55,
+        "str": 50,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "2004-11-01",
       "contract": null,
@@ -601,7 +636,7 @@
       "name": "Wilson Odobart",
       "nation": "FRA",
       "number": 29,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19000
     },
     {
@@ -631,6 +666,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 32,
         "com": 45,
@@ -683,6 +721,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 45,
         "com": 54,
@@ -706,7 +747,7 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": 39,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 13000
     },
     {
@@ -762,19 +803,22 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 53,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 56,
-        "pas": 48,
-        "pos": 29,
-        "sho": 58,
-        "sta": 51,
-        "str": 55,
-        "tac": 22,
-        "vis": 49
+        "aer": 41,
+        "com": 50,
+        "dri": 58,
+        "ldr": 49,
+        "pac": 60,
+        "pas": 54,
+        "pos": 31,
+        "sho": 53,
+        "sta": 53,
+        "str": 45,
+        "tac": 28,
+        "vis": 55
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -784,7 +828,7 @@
       "name": "Levi Lumaka",
       "nation": "ENG",
       "number": 44,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8000
     },
     {

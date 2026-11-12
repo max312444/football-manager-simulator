@@ -51,6 +51,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 58,
@@ -131,6 +134,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 76,
@@ -158,19 +164,23 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 65,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 58,
-        "pas": 62,
-        "pos": 58,
-        "sho": 57,
+        "dri": 54,
+        "ldr": 59,
+        "pac": 55,
+        "pas": 61,
+        "pos": 62,
+        "sho": 51,
         "sta": 67,
-        "str": 54,
-        "tac": 56,
-        "vis": 63
+        "str": 59,
+        "tac": 62,
+        "vis": 60
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -180,23 +190,23 @@
       "name": "Benjamin Andra",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12500
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 59,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 57,
-        "pas": 63,
-        "pos": 61,
-        "sho": 56,
+        "dri": 55,
+        "ldr": 57,
+        "pac": 54,
+        "pas": 62,
+        "pos": 65,
+        "sho": 50,
         "sta": 60,
-        "str": 59,
-        "tac": 56,
-        "vis": 65
+        "str": 64,
+        "tac": 62,
+        "vis": 62
       },
       "birth": "1985-06-01",
       "contract": null,
@@ -206,7 +216,7 @@
       "name": "Jean-Baptiste Pierazzy",
       "nation": "FRA",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12000
     },
     {
@@ -217,7 +227,7 @@
         "ldr": 57,
         "pac": 58,
         "pas": 54,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 57,
         "str": 63,
@@ -238,18 +248,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 60,
-        "dri": 61,
-        "ldr": 53,
-        "pac": 55,
-        "pas": 65,
-        "pos": 58,
-        "sho": 52,
-        "sta": 60,
-        "str": 52,
-        "tac": 57,
-        "vis": 63
+        "aer": 43,
+        "com": 58,
+        "dri": 66,
+        "ldr": 49,
+        "pac": 64,
+        "pas": 61,
+        "pos": 40,
+        "sho": 56,
+        "sta": 56,
+        "str": 47,
+        "tac": 37,
+        "vis": 60
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -260,23 +270,28 @@
       "nation": "COD",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 10000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 60,
-        "dri": 55,
+        "dri": 59,
         "ldr": 51,
         "pac": 54,
-        "pas": 49,
-        "pos": 31,
+        "pas": 53,
+        "pos": 51,
         "sho": 57,
         "sta": 50,
         "str": 53,
         "tac": 26,
-        "vis": 51
+        "vis": 55
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -286,10 +301,13 @@
       "name": "Karim El Hani",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -318,17 +336,17 @@
     {
       "attrs": {
         "aer": 52,
-        "com": 58,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 60,
+        "com": 54,
+        "dri": 55,
+        "ldr": 54,
+        "pac": 60,
+        "pas": 54,
         "pos": 56,
-        "sho": 53,
+        "sho": 39,
         "sta": 65,
-        "str": 52,
-        "tac": 56,
-        "vis": 61
+        "str": 51,
+        "tac": 60,
+        "vis": 52
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -338,23 +356,23 @@
       "name": "Fabrice Begeurgi",
       "nation": "FRA",
       "number": 13,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 9500
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 75,
-        "dri": 75,
-        "ldr": 67,
-        "pac": 71,
-        "pas": 76,
-        "pos": 74,
-        "sho": 69,
+        "dri": 71,
+        "ldr": 69,
+        "pac": 68,
+        "pas": 75,
+        "pos": 78,
+        "sho": 63,
         "sta": 76,
-        "str": 66,
-        "tac": 67,
-        "vis": 76
+        "str": 71,
+        "tac": 73,
+        "vis": 73
       },
       "birth": "1983-08-01",
       "contract": null,
@@ -365,7 +383,7 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25500
     },
     {
@@ -421,6 +439,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 65,
@@ -447,6 +468,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -474,18 +498,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 56,
-        "dri": 41,
-        "ldr": 59,
-        "pac": 51,
-        "pas": 51,
-        "pos": 58,
-        "sho": 32,
-        "sta": 55,
-        "str": 59,
-        "tac": 58,
-        "vis": 47
+        "aer": 46,
+        "com": 54,
+        "dri": 51,
+        "ldr": 55,
+        "pac": 59,
+        "pas": 55,
+        "pos": 53,
+        "sho": 39,
+        "sta": 61,
+        "str": 51,
+        "tac": 55,
+        "vis": 53
       },
       "birth": "1988-11-01",
       "contract": null,
@@ -495,7 +519,7 @@
       "name": "Anthony Lippiny",
       "nation": "FRA",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
@@ -506,7 +530,7 @@
         "ldr": 58,
         "pac": 67,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 57,
         "str": 63,
@@ -526,22 +550,19 @@
       "wage": 9500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 76,
-        "com": 68,
-        "dri": 60,
-        "ldr": 71,
-        "pac": 68,
-        "pas": 65,
-        "pos": 78,
-        "sho": 44,
-        "sta": 68,
-        "str": 75,
-        "tac": 72,
-        "vis": 61
+        "aer": 63,
+        "com": 66,
+        "dri": 70,
+        "ldr": 67,
+        "pac": 76,
+        "pas": 69,
+        "pos": 73,
+        "sho": 51,
+        "sta": 74,
+        "str": 67,
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -552,7 +573,7 @@
       "nation": "MLI",
       "nation2": "FRA",
       "number": 22,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 25500
     },
     {
@@ -583,18 +604,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 58,
-        "dri": 58,
-        "ldr": 55,
-        "pac": 57,
-        "pas": 64,
-        "pos": 55,
-        "sho": 55,
-        "sta": 60,
-        "str": 52,
-        "tac": 52,
-        "vis": 62
+        "aer": 43,
+        "com": 56,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 66,
+        "pos": 47,
+        "sho": 53,
+        "sta": 65,
+        "str": 49,
+        "tac": 48,
+        "vis": 63
       },
       "birth": "1985-08-01",
       "contract": null,
@@ -604,7 +625,7 @@
       "name": "Damien Tyberi",
       "nation": "FRA",
       "number": 24,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 9500
     },
     {
@@ -615,7 +636,7 @@
         "ldr": 58,
         "pac": 69,
         "pas": 58,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 65,
         "str": 64,
@@ -635,6 +656,10 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,

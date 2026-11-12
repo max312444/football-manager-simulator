@@ -75,7 +75,7 @@
       "name": "Leon Jessan",
       "nation": "DEN",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 8000
     },
     {
@@ -105,6 +105,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -133,18 +136,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 52,
+        "aer": 41,
+        "com": 58,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 55,
         "pas": 63,
-        "pos": 56,
-        "sho": 55,
-        "sta": 62,
-        "str": 52,
-        "tac": 58,
-        "vis": 60
+        "pos": 41,
+        "sho": 61,
+        "sta": 56,
+        "str": 47,
+        "tac": 40,
+        "vis": 62
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -154,23 +157,23 @@
       "name": "Christoph Knesmullner",
       "nation": "AUT",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 62,
-        "dri": 46,
+        "aer": 60,
+        "com": 64,
+        "dri": 54,
         "ldr": 57,
-        "pac": 58,
-        "pas": 50,
-        "pos": 64,
-        "sho": 32,
-        "sta": 60,
-        "str": 66,
-        "tac": 61,
-        "vis": 46
+        "pac": 56,
+        "pas": 59,
+        "pos": 63,
+        "sho": 47,
+        "sta": 66,
+        "str": 64,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "1985-08-01",
       "contract": null,
@@ -180,7 +183,7 @@
       "name": "Roger Bernardu",
       "nation": "BRA",
       "number": 8,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 4500
     },
     {
@@ -191,7 +194,7 @@
         "ldr": 55,
         "pac": 62,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 57,
         "str": 57,
@@ -210,17 +213,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 55,
-        "dri": 57,
+        "aer": 59,
+        "com": 65,
+        "dri": 59,
         "ldr": 56,
-        "pac": 54,
+        "pac": 63,
         "pas": 61,
-        "pos": 52,
-        "sho": 52,
+        "pos": 62,
+        "sho": 62,
         "sta": 57,
-        "str": 49,
+        "str": 59,
         "tac": 54,
         "vis": 61
       },
@@ -232,23 +240,26 @@
       "name": "Collin Quener",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 71,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 72,
-        "pos": 64,
-        "sho": 61,
-        "sta": 67,
-        "str": 63,
-        "tac": 61,
-        "vis": 70
+        "aer": 52,
+        "com": 69,
+        "dri": 72,
+        "ldr": 58,
+        "pac": 69,
+        "pas": 68,
+        "pos": 46,
+        "sho": 65,
+        "sta": 63,
+        "str": 58,
+        "tac": 41,
+        "vis": 67
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -259,10 +270,13 @@
       "nation": "AUT",
       "nation2": "TUR",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -296,7 +310,7 @@
         "ldr": 53,
         "pac": 64,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 56,
         "str": 64,
@@ -322,7 +336,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 57,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 57,
         "str": 66,
@@ -368,7 +382,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 60,
@@ -396,6 +411,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 52,
         "com": 55,
@@ -430,7 +448,7 @@
         "ldr": 48,
         "pac": 56,
         "pas": 46,
-        "pos": 37,
+        "pos": 57,
         "sho": 59,
         "sta": 56,
         "str": 60,
@@ -482,7 +500,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 50,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 60,
         "str": 62,
@@ -503,18 +521,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 72,
-        "dri": 69,
-        "ldr": 62,
-        "pac": 65,
+        "aer": 55,
+        "com": 73,
+        "dri": 73,
+        "ldr": 60,
+        "pac": 68,
         "pas": 70,
-        "pos": 70,
-        "sho": 61,
-        "sta": 74,
-        "str": 64,
-        "tac": 66,
-        "vis": 72
+        "pos": 55,
+        "sho": 67,
+        "sta": 68,
+        "str": 59,
+        "tac": 48,
+        "vis": 74
       },
       "birth": "1981-03-01",
       "contract": null,
@@ -524,23 +542,27 @@
       "name": "Tamas Hejnal",
       "nation": "HUN",
       "number": 30,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10000
     },
     {
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 61,
-        "dri": 57,
+        "dri": 63,
         "ldr": 55,
-        "pac": 58,
-        "pas": 52,
-        "pos": 38,
+        "pac": 64,
+        "pas": 58,
+        "pos": 58,
         "sho": 66,
         "sta": 58,
         "str": 57,
         "tac": 28,
-        "vis": 49
+        "vis": 55
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -550,7 +572,7 @@
       "name": "Ceiuby",
       "nation": "BRA",
       "number": 31,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 3500
     },
     {

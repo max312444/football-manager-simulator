@@ -52,7 +52,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 63,
@@ -135,18 +135,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 64,
-        "dri": 61,
-        "ldr": 63,
-        "pac": 57,
-        "pas": 65,
-        "pos": 61,
-        "sho": 56,
+        "dri": 57,
+        "ldr": 65,
+        "pac": 54,
+        "pas": 64,
+        "pos": 65,
+        "sho": 50,
         "sta": 68,
-        "str": 58,
-        "tac": 60,
-        "vis": 66
+        "str": 63,
+        "tac": 66,
+        "vis": 63
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -157,10 +157,15 @@
       "nation": "GER",
       "nation2": "TUN",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -168,7 +173,7 @@
         "ldr": 63,
         "pac": 71,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 62,
         "str": 71,
@@ -220,7 +225,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 61,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 61,
         "str": 65,
@@ -241,22 +246,21 @@
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "LW"
       ],
       "attrs": {
         "aer": 58,
-        "com": 69,
+        "com": 70,
         "dri": 73,
         "ldr": 62,
         "pac": 72,
-        "pas": 75,
+        "pas": 76,
         "pos": 53,
-        "sho": 72,
+        "sho": 73,
         "sta": 67,
         "str": 58,
         "tac": 47,
-        "vis": 71
+        "vis": 72
       },
       "birth": "1991-10-01",
       "contract": null,
@@ -271,18 +275,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 70,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 67,
-        "pas": 72,
-        "pos": 68,
-        "sho": 63,
+        "dri": 66,
+        "ldr": 71,
+        "pac": 64,
+        "pas": 71,
+        "pos": 72,
+        "sho": 57,
         "sta": 71,
-        "str": 69,
-        "tac": 68,
-        "vis": 72
+        "str": 74,
+        "tac": 74,
+        "vis": 69
       },
       "birth": "1989-05-01",
       "contract": null,
@@ -292,23 +296,26 @@
       "name": "Stefan Ilsankar",
       "nation": "AUT",
       "number": 13,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 62,
-        "dri": 63,
-        "ldr": 63,
-        "pac": 56,
-        "pas": 68,
-        "pos": 63,
-        "sho": 58,
-        "sta": 66,
-        "str": 61,
-        "tac": 59,
-        "vis": 65
+        "aer": 51,
+        "com": 60,
+        "dri": 68,
+        "ldr": 59,
+        "pac": 65,
+        "pas": 64,
+        "pos": 45,
+        "sho": 62,
+        "sta": 62,
+        "str": 56,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -319,10 +326,13 @@
       "nation": "BEL",
       "nation2": "ITA",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 10000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 62,
@@ -356,7 +366,7 @@
         "ldr": 52,
         "pac": 62,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 54,
         "str": 57,
@@ -382,7 +392,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 65,
         "sta": 59,
         "str": 63,
@@ -402,6 +412,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -428,22 +441,19 @@
       "wage": 7000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 41,
-        "com": 50,
-        "dri": 48,
-        "ldr": 47,
-        "pac": 42,
-        "pas": 54,
+        "com": 46,
+        "dri": 46,
+        "ldr": 45,
+        "pac": 49,
+        "pas": 48,
         "pos": 44,
-        "sho": 45,
+        "sho": 31,
         "sta": 49,
-        "str": 45,
-        "tac": 42,
-        "vis": 47
+        "str": 44,
+        "tac": 46,
+        "vis": 38
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -453,10 +463,13 @@
       "name": "Ken Gypson",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 1500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -479,7 +492,7 @@
       "name": "Dmitri Skupintsev",
       "nation": "RUS",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3500
     },
     {
@@ -509,6 +522,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 65,
@@ -535,6 +551,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 67,
@@ -568,7 +587,7 @@
         "ldr": 61,
         "pac": 65,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 66,
         "sta": 61,
         "str": 61,
@@ -588,18 +607,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 60,
-        "dri": 57,
-        "ldr": 59,
-        "pac": 54,
-        "pas": 61,
-        "pos": 57,
-        "sho": 54,
+        "dri": 53,
+        "ldr": 61,
+        "pac": 51,
+        "pas": 60,
+        "pos": 61,
+        "sho": 48,
         "sta": 62,
-        "str": 59,
-        "tac": 61,
-        "vis": 63
+        "str": 64,
+        "tac": 67,
+        "vis": 60
       },
       "birth": "1991-11-01",
       "contract": null,
@@ -609,7 +628,7 @@
       "name": "Diego Demma",
       "nation": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     },
     {
@@ -668,17 +687,17 @@
     {
       "attrs": {
         "aer": 53,
-        "com": 67,
-        "dri": 64,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 70,
+        "com": 63,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 68,
+        "pas": 64,
         "pos": 64,
-        "sho": 61,
+        "sho": 47,
         "sta": 69,
-        "str": 60,
-        "tac": 62,
-        "vis": 63
+        "str": 59,
+        "tac": 66,
+        "vis": 54
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -688,10 +707,13 @@
       "name": "Georg Teygl",
       "nation": "AUT",
       "number": 39,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 46,
@@ -718,6 +740,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 46,

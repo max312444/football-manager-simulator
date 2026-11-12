@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 77,
-        "com": 71,
-        "dri": 59,
-        "ldr": 76,
-        "pac": 68,
-        "pas": 68,
-        "pos": 76,
-        "sho": 48,
-        "sta": 74,
-        "str": 78,
-        "tac": 81,
-        "vis": 58
+        "aer": 64,
+        "com": 69,
+        "dri": 69,
+        "ldr": 72,
+        "pac": 76,
+        "pas": 72,
+        "pos": 71,
+        "sho": 55,
+        "sta": 80,
+        "str": 70,
+        "tac": 78,
+        "vis": 64
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -100,23 +100,23 @@
       "name": "Sergio Reguilun",
       "nation": "ESP",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 107000
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 77,
-        "dri": 76,
-        "ldr": 78,
-        "pac": 75,
-        "pas": 81,
-        "pos": 80,
-        "sho": 74,
+        "dri": 72,
+        "ldr": 80,
+        "pac": 72,
+        "pas": 80,
+        "pos": 84,
+        "sho": 68,
         "sta": 81,
-        "str": 75,
-        "tac": 78,
-        "vis": 79
+        "str": 80,
+        "tac": 84,
+        "vis": 76
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -127,22 +127,25 @@
       "nation": "CTA",
       "nation2": "FRA",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 252500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 81,
         "dri": 82,
         "ldr": 76,
         "pac": 77,
-        "pas": 81,
+        "pas": 82,
         "pos": 80,
         "sho": 78,
-        "sta": 83,
+        "sta": 84,
         "str": 76,
-        "tac": 74,
+        "tac": 75,
         "vis": 82
       },
       "birth": "1994-05-01",
@@ -158,6 +161,9 @@
       "wage": 288500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -184,6 +190,11 @@
       "wage": 291500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 78,
         "com": 81,
@@ -191,7 +202,7 @@
         "ldr": 72,
         "pac": 80,
         "pas": 72,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 75,
         "str": 76,
@@ -210,6 +221,11 @@
       "wage": 131500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 83,
         "com": 86,
@@ -217,7 +233,7 @@
         "ldr": 81,
         "pac": 81,
         "pas": 73,
-        "pos": 60,
+        "pos": 80,
         "sho": 87,
         "sta": 81,
         "str": 86,
@@ -237,19 +253,24 @@
       "wage": 262500
     },
     {
+      "alt": [
+        "AM",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 78,
-        "dri": 77,
-        "ldr": 69,
-        "pac": 79,
-        "pas": 68,
-        "pos": 52,
-        "sho": 77,
-        "sta": 73,
-        "str": 78,
-        "tac": 49,
-        "vis": 69
+        "aer": 61,
+        "com": 75,
+        "dri": 82,
+        "ldr": 67,
+        "pac": 83,
+        "pas": 74,
+        "pos": 54,
+        "sho": 72,
+        "sta": 75,
+        "str": 68,
+        "tac": 55,
+        "vis": 75
       },
       "birth": "1999-05-01",
       "contract": null,
@@ -259,23 +280,27 @@
       "name": "Matheus Conha",
       "nation": "BRA",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 117500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 79,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 79,
-        "pas": 74,
-        "pos": 59,
-        "sho": 82,
-        "sta": 77,
-        "str": 79,
-        "tac": 53,
-        "vis": 71
+        "aer": 61,
+        "com": 76,
+        "dri": 82,
+        "ldr": 73,
+        "pac": 83,
+        "pas": 80,
+        "pos": 61,
+        "sho": 77,
+        "sta": 79,
+        "str": 69,
+        "tac": 59,
+        "vis": 77
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -285,10 +310,15 @@
       "name": "Angel Corraa",
       "nation": "ARG",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 165000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 79,
@@ -341,6 +371,11 @@
       "wage": 234000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 83,
@@ -394,18 +429,18 @@
     },
     {
       "attrs": {
-        "aer": 84,
-        "com": 77,
-        "dri": 65,
-        "ldr": 73,
-        "pac": 73,
-        "pas": 69,
-        "pos": 78,
-        "sho": 51,
-        "sta": 72,
-        "str": 79,
-        "tac": 78,
-        "vis": 61
+        "aer": 71,
+        "com": 75,
+        "dri": 75,
+        "ldr": 69,
+        "pac": 81,
+        "pas": 73,
+        "pos": 73,
+        "sho": 58,
+        "sta": 78,
+        "str": 71,
+        "tac": 75,
+        "vis": 67
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -415,10 +450,13 @@
       "name": "Nahuel Mulina",
       "nation": "ARG",
       "number": 16,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 136500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 77,
@@ -478,7 +516,7 @@
         "ldr": 73,
         "pac": 84,
         "pas": 72,
-        "pos": 62,
+        "pos": 82,
         "sho": 87,
         "sta": 77,
         "str": 82,
@@ -498,7 +536,9 @@
     },
     {
       "alt": [
-        "DM"
+        "CB",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 71,
@@ -527,18 +567,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 79,
-        "dri": 82,
-        "ldr": 80,
-        "pac": 74,
-        "pas": 80,
-        "pos": 77,
-        "sho": 74,
-        "sta": 85,
-        "str": 78,
-        "tac": 78,
-        "vis": 83
+        "aer": 67,
+        "com": 77,
+        "dri": 85,
+        "ldr": 78,
+        "pac": 82,
+        "pas": 79,
+        "pos": 69,
+        "sho": 72,
+        "sta": 87,
+        "str": 75,
+        "tac": 71,
+        "vis": 81
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -548,7 +588,7 @@
       "name": "Yannick Carrascu",
       "nation": "BEL",
       "number": 21,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 291500
     },
     {
@@ -600,23 +640,27 @@
       "name": "Reinildo Mendava",
       "nation": "MOZ",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 64000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 58,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 61,
-        "pas": 54,
-        "pos": 36,
-        "sho": 64,
-        "sta": 52,
-        "str": 59,
-        "tac": 26,
-        "vis": 51
+        "aer": 44,
+        "com": 55,
+        "dri": 60,
+        "ldr": 52,
+        "pac": 65,
+        "pas": 60,
+        "pos": 38,
+        "sho": 59,
+        "sta": 54,
+        "str": 49,
+        "tac": 32,
+        "vis": 57
       },
       "birth": "2001-02-01",
       "contract": null,
@@ -626,7 +670,7 @@
       "name": "Marcos Paolo",
       "nation": "POR",
       "number": 26,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15500
     }
   ],

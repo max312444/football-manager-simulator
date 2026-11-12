@@ -58,7 +58,7 @@
         "ldr": 78,
         "pac": 83,
         "pas": 76,
-        "pos": 63,
+        "pos": 83,
         "sho": 85,
         "sta": 76,
         "str": 84,
@@ -80,7 +80,9 @@
     },
     {
       "alt": [
-        "CM"
+        "LB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 74,
@@ -141,7 +143,7 @@
         "ldr": 76,
         "pac": 80,
         "pas": 69,
-        "pos": 57,
+        "pos": 77,
         "sho": 86,
         "sta": 74,
         "str": 81,
@@ -160,6 +162,11 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 77,
@@ -167,7 +174,7 @@
         "ldr": 74,
         "pac": 82,
         "pas": 72,
-        "pos": 59,
+        "pos": 79,
         "sho": 82,
         "sta": 73,
         "str": 81,
@@ -238,19 +245,22 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 78,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 74,
-        "pas": 83,
-        "pos": 75,
-        "sho": 71,
-        "sta": 79,
-        "str": 74,
-        "tac": 74,
-        "vis": 80
+        "aer": 65,
+        "com": 76,
+        "dri": 80,
+        "ldr": 68,
+        "pac": 83,
+        "pas": 79,
+        "pos": 57,
+        "sho": 75,
+        "sta": 75,
+        "str": 69,
+        "tac": 54,
+        "vis": 77
       },
       "birth": "1974-11-01",
       "contract": null,
@@ -260,7 +270,7 @@
       "name": "Sergio Conceicau",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 70500
     },
@@ -292,6 +302,11 @@
       "wage": 52000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 77,
@@ -321,16 +336,16 @@
       "attrs": {
         "aer": 65,
         "com": 71,
-        "dri": 71,
+        "dri": 73,
         "ldr": 71,
-        "pac": 81,
-        "pas": 71,
-        "pos": 73,
-        "sho": 55,
-        "sta": 82,
+        "pac": 83,
+        "pas": 72,
+        "pos": 71,
+        "sho": 58,
+        "sta": 84,
         "str": 72,
-        "tac": 74,
-        "vis": 69
+        "tac": 72,
+        "vis": 70
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -340,24 +355,24 @@
       "name": "Francesco Cocu",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LWB",
       "verify": true,
       "wage": 43500
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 79,
-        "dri": 76,
-        "ldr": 76,
-        "pac": 75,
-        "pas": 76,
-        "pos": 76,
-        "sho": 68,
+        "dri": 72,
+        "ldr": 78,
+        "pac": 72,
+        "pas": 75,
+        "pos": 80,
+        "sho": 62,
         "sta": 77,
-        "str": 74,
-        "tac": 74,
-        "vis": 77
+        "str": 79,
+        "tac": 80,
+        "vis": 74
       },
       "birth": "1973-12-01",
       "contract": null,
@@ -367,11 +382,14 @@
       "name": "Matias Almeida",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 64000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 77,
@@ -398,6 +416,9 @@
       "wage": 60000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 73,
@@ -424,6 +445,9 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 71,
@@ -476,6 +500,9 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -503,21 +530,22 @@
     },
     {
       "alt": [
-        "RB"
+        "LM",
+        "LW"
       ],
       "attrs": {
-        "aer": 76,
-        "com": 69,
-        "dri": 55,
-        "ldr": 73,
-        "pac": 69,
-        "pas": 61,
-        "pos": 76,
-        "sho": 44,
-        "sta": 69,
-        "str": 73,
-        "tac": 73,
-        "vis": 59
+        "aer": 63,
+        "com": 67,
+        "dri": 65,
+        "ldr": 69,
+        "pac": 77,
+        "pas": 65,
+        "pos": 71,
+        "sho": 51,
+        "sta": 75,
+        "str": 65,
+        "tac": 70,
+        "vis": 65
       },
       "birth": "1972-10-01",
       "contract": null,
@@ -527,7 +555,7 @@
       "name": "Grigoris Gaorgatos",
       "nation": "GRE",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 25000
     },
@@ -539,7 +567,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 65,
         "str": 72,
@@ -565,7 +593,7 @@
         "ldr": 65,
         "pac": 69,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 74,
         "sta": 66,
         "str": 72,
@@ -611,22 +639,19 @@
       "wage": 21500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 61,
-        "com": 73,
-        "dri": 71,
-        "ldr": 63,
-        "pac": 65,
+        "aer": 55,
+        "com": 74,
+        "dri": 75,
+        "ldr": 61,
+        "pac": 68,
         "pas": 74,
-        "pos": 68,
-        "sho": 64,
-        "sta": 71,
-        "str": 66,
-        "tac": 63,
-        "vis": 69
+        "pos": 53,
+        "sho": 70,
+        "sta": 65,
+        "str": 61,
+        "tac": 45,
+        "vis": 71
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -636,11 +661,14 @@
       "name": "Domenico Morfao",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 28000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 71,
@@ -695,18 +723,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 60,
-        "dri": 51,
-        "ldr": 66,
-        "pac": 58,
-        "pas": 58,
-        "pos": 65,
-        "sho": 35,
-        "sta": 64,
-        "str": 67,
-        "tac": 70,
-        "vis": 54
+        "aer": 52,
+        "com": 58,
+        "dri": 61,
+        "ldr": 62,
+        "pac": 66,
+        "pas": 62,
+        "pos": 60,
+        "sho": 42,
+        "sta": 70,
+        "str": 59,
+        "tac": 67,
+        "vis": 60
       },
       "birth": "1970-03-01",
       "contract": null,
@@ -716,7 +744,7 @@
       "name": "Michele Serene",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 11500
     },
     {
@@ -747,6 +775,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 63,
@@ -774,21 +805,23 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 53,
-        "com": 64,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 53,
+        "aer": 47,
+        "com": 65,
+        "dri": 63,
+        "ldr": 55,
+        "pac": 56,
         "pas": 66,
-        "pos": 56,
-        "sho": 55,
-        "sta": 63,
-        "str": 58,
-        "tac": 60,
-        "vis": 65
+        "pos": 41,
+        "sho": 61,
+        "sta": 57,
+        "str": 53,
+        "tac": 42,
+        "vis": 67
       },
       "birth": "1970-01-01",
       "contract": null,
@@ -798,7 +831,7 @@
       "name": "Anselmo Robbyati",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 11000
     },
@@ -825,7 +858,7 @@
       "name": "Giovanni Pesquale",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 7500
     },
@@ -837,7 +870,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 62,
         "sta": 59,
         "str": 61,
@@ -882,6 +915,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 56,
@@ -969,7 +1005,7 @@
         "ldr": 51,
         "pac": 54,
         "pas": 49,
-        "pos": 31,
+        "pos": 51,
         "sho": 60,
         "sta": 49,
         "str": 56,
@@ -996,7 +1032,7 @@
         "ldr": 44,
         "pac": 53,
         "pas": 42,
-        "pos": 28,
+        "pos": 48,
         "sho": 58,
         "sta": 48,
         "str": 52,
@@ -1015,6 +1051,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 50,
@@ -1048,7 +1087,7 @@
         "ldr": 45,
         "pac": 47,
         "pas": 43,
-        "pos": 29,
+        "pos": 49,
         "sho": 51,
         "sta": 43,
         "str": 48,
@@ -1095,6 +1134,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 45,

@@ -77,6 +77,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 56,
@@ -104,7 +107,8 @@
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 49,
@@ -134,17 +138,17 @@
     {
       "attrs": {
         "aer": 49,
-        "com": 64,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 59,
-        "pas": 61,
+        "com": 60,
+        "dri": 57,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 55,
         "pos": 58,
-        "sho": 59,
+        "sho": 45,
         "sta": 65,
-        "str": 55,
-        "tac": 59,
-        "vis": 61
+        "str": 54,
+        "tac": 63,
+        "vis": 52
       },
       "birth": "1993-12-01",
       "contract": null,
@@ -154,7 +158,7 @@
       "name": "Jean Zimmar",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 14500
     },
     {
@@ -165,7 +169,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 68,
         "sta": 61,
         "str": 65,
@@ -184,6 +188,10 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -210,6 +218,10 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 56,
@@ -244,7 +256,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 53,
-        "pos": 42,
+        "pos": 62,
         "sho": 67,
         "sta": 59,
         "str": 62,
@@ -292,18 +304,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 61,
-        "dri": 50,
-        "ldr": 57,
-        "pac": 54,
-        "pas": 51,
-        "pos": 62,
-        "sho": 36,
-        "sta": 60,
-        "str": 63,
-        "tac": 64,
-        "vis": 48
+        "aer": 49,
+        "com": 59,
+        "dri": 60,
+        "ldr": 53,
+        "pac": 62,
+        "pas": 55,
+        "pos": 57,
+        "sho": 43,
+        "sta": 66,
+        "str": 55,
+        "tac": 61,
+        "vis": 54
       },
       "birth": "1999-01-01",
       "contract": null,
@@ -314,10 +326,13 @@
       "name": "Tymoteusz Puchecz",
       "nation": "POL",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -344,6 +359,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 53,
@@ -377,7 +395,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 58,
         "sta": 55,
         "str": 59,
@@ -396,6 +414,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -423,18 +444,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 56,
-        "ldr": 50,
-        "pac": 54,
-        "pas": 62,
-        "pos": 53,
-        "sho": 51,
-        "sta": 60,
-        "str": 53,
-        "tac": 52,
-        "vis": 55
+        "aer": 41,
+        "com": 53,
+        "dri": 61,
+        "ldr": 46,
+        "pac": 63,
+        "pas": 58,
+        "pos": 35,
+        "sho": 55,
+        "sta": 56,
+        "str": 48,
+        "tac": 32,
+        "vis": 52
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -444,23 +465,23 @@
       "name": "Hendrick Zock",
       "nation": "GER",
       "number": 21,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 8500
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 55,
-        "dri": 43,
-        "ldr": 53,
-        "pac": 49,
-        "pas": 51,
-        "pos": 60,
-        "sho": 28,
-        "sta": 55,
-        "str": 58,
-        "tac": 61,
-        "vis": 42
+        "aer": 44,
+        "com": 53,
+        "dri": 53,
+        "ldr": 49,
+        "pac": 57,
+        "pas": 55,
+        "pos": 55,
+        "sho": 35,
+        "sta": 61,
+        "str": 50,
+        "tac": 58,
+        "vis": 48
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -470,23 +491,23 @@
       "name": "Philipp Harcher",
       "nation": "GER",
       "number": 23,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 61,
-        "dri": 54,
-        "ldr": 48,
-        "pac": 56,
-        "pas": 46,
-        "pos": 33,
-        "sho": 59,
-        "sta": 52,
-        "str": 59,
-        "tac": 29,
-        "vis": 48
+        "aer": 39,
+        "com": 58,
+        "dri": 59,
+        "ldr": 46,
+        "pac": 60,
+        "pas": 52,
+        "pos": 35,
+        "sho": 54,
+        "sta": 54,
+        "str": 49,
+        "tac": 35,
+        "vis": 54
       },
       "birth": "1999-03-01",
       "contract": null,
@@ -496,7 +517,7 @@
       "name": "Aaron Opuku",
       "nation": "GER",
       "number": 25,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 5000
     },
     {
@@ -507,7 +528,7 @@
         "ldr": 44,
         "pac": 54,
         "pas": 42,
-        "pos": 32,
+        "pos": 52,
         "sho": 53,
         "sta": 50,
         "str": 50,
@@ -533,7 +554,7 @@
         "ldr": 46,
         "pac": 52,
         "pas": 47,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 52,
         "str": 57,
@@ -579,6 +600,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "RW",
+        "RB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 56,
@@ -586,7 +611,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 52,
         "str": 59,
@@ -631,6 +656,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 69,

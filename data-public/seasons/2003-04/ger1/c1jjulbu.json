@@ -25,7 +25,7 @@
   "squad": [
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 80,
@@ -86,7 +86,7 @@
         "ldr": 69,
         "pac": 77,
         "pas": 71,
-        "pos": 53,
+        "pos": 73,
         "sho": 78,
         "sta": 69,
         "str": 75,
@@ -105,19 +105,24 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "LWB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 75,
-        "dri": 60,
-        "ldr": 74,
-        "pac": 73,
-        "pas": 68,
-        "pos": 82,
-        "sho": 48,
-        "sta": 73,
-        "str": 79,
-        "tac": 80,
-        "vis": 64
+        "aer": 63,
+        "com": 73,
+        "dri": 72,
+        "ldr": 70,
+        "pac": 83,
+        "pas": 73,
+        "pos": 75,
+        "sho": 58,
+        "sta": 81,
+        "str": 71,
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -127,10 +132,15 @@
       "name": "Paul Staltery",
       "nation": "CAN",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "wage": 38000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 73,
@@ -160,18 +170,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 78,
-        "dri": 76,
-        "ldr": 70,
-        "pac": 70,
+        "aer": 61,
+        "com": 79,
+        "dri": 80,
+        "ldr": 68,
+        "pac": 73,
         "pas": 78,
-        "pos": 71,
-        "sho": 71,
-        "sta": 80,
-        "str": 73,
-        "tac": 70,
-        "vis": 76
+        "pos": 56,
+        "sho": 77,
+        "sta": 74,
+        "str": 68,
+        "tac": 52,
+        "vis": 78
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -181,7 +191,7 @@
       "name": "Johan Mycoud",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 38500
     },
     {
@@ -207,10 +217,13 @@
       "name": "Ludovic Magnyn",
       "nation": "SUI",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 34000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 77,
@@ -237,6 +250,9 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 73,
@@ -264,6 +280,10 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,
@@ -297,7 +317,7 @@
         "ldr": 65,
         "pac": 72,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 68,
         "str": 71,
@@ -317,18 +337,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 67,
-        "dri": 53,
-        "ldr": 71,
-        "pac": 67,
-        "pas": 60,
-        "pos": 72,
-        "sho": 40,
-        "sta": 64,
-        "str": 70,
-        "tac": 71,
-        "vis": 57
+        "aer": 59,
+        "com": 65,
+        "dri": 63,
+        "ldr": 67,
+        "pac": 75,
+        "pas": 64,
+        "pos": 67,
+        "sho": 47,
+        "sta": 70,
+        "str": 62,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1969-11-01",
       "contract": null,
@@ -339,7 +359,7 @@
       "nation": "RUS",
       "nation2": "UKR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 16500
     },
     {
@@ -350,7 +370,7 @@
         "ldr": 66,
         "pac": 69,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 69,
         "sta": 65,
         "str": 67,
@@ -370,7 +390,9 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW",
+        "DM"
       ],
       "attrs": {
         "aer": 56,
@@ -459,7 +481,7 @@
         "ldr": 61,
         "pac": 64,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 61,
         "str": 63,
@@ -559,7 +581,7 @@
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 60,
@@ -588,18 +610,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 59,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 62,
-        "pos": 60,
-        "sho": 55,
+        "dri": 57,
+        "ldr": 61,
+        "pac": 55,
+        "pas": 61,
+        "pos": 64,
+        "sho": 49,
         "sta": 63,
-        "str": 58,
-        "tac": 57,
-        "vis": 61
+        "str": 63,
+        "tac": 63,
+        "vis": 58
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -609,7 +631,7 @@
       "name": "Ivica Banuvic",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
@@ -667,6 +689,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -701,7 +726,7 @@
         "ldr": 51,
         "pac": 59,
         "pas": 46,
-        "pos": 37,
+        "pos": 57,
         "sho": 59,
         "sta": 50,
         "str": 59,
@@ -727,7 +752,7 @@
         "ldr": 44,
         "pac": 53,
         "pas": 43,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 48,
         "str": 51,

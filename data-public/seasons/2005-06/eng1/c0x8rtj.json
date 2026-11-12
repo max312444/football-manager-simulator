@@ -96,9 +96,6 @@
       "wage": 7000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 67,
         "com": 69,
@@ -125,9 +122,6 @@
       "wage": 46500
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 65,
@@ -154,9 +148,6 @@
       "wage": 31500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 74,
@@ -212,9 +203,6 @@
       "wage": 56500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 61,
@@ -272,13 +260,13 @@
       ],
       "attrs": {
         "aer": 55,
-        "com": 65,
-        "dri": 67,
+        "com": 69,
+        "dri": 71,
         "ldr": 57,
-        "pac": 72,
+        "pac": 76,
         "pas": 67,
         "pos": 61,
-        "sho": 55,
+        "sho": 59,
         "sta": 73,
         "str": 63,
         "tac": 63,
@@ -292,10 +280,14 @@
       "name": "Stan Lezaridis",
       "nation": "AUS",
       "number": 11,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 31000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 53,
@@ -323,21 +315,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 59,
-        "com": 66,
-        "dri": 65,
+        "com": 77,
+        "dri": 73,
         "ldr": 60,
         "pac": 73,
-        "pas": 67,
+        "pas": 78,
         "pos": 69,
-        "sho": 53,
+        "sho": 61,
         "sta": 85,
         "str": 68,
-        "tac": 73,
-        "vis": 62
+        "tac": 76,
+        "vis": 73
       },
       "birth": "1978-11-01",
       "contract": "2008-06-30",
@@ -351,19 +343,22 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 63,
-        "dri": 65,
+        "com": 66,
+        "dri": 66,
         "ldr": 53,
         "pac": 64,
-        "pas": 69,
+        "pas": 72,
         "pos": 65,
-        "sho": 57,
+        "sho": 58,
         "sta": 76,
         "str": 64,
-        "tac": 67,
-        "vis": 63
+        "tac": 69,
+        "vis": 66
       },
       "birth": "1978-03-01",
       "contract": "2007-06-30",
@@ -377,6 +372,9 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 71,
@@ -404,19 +402,23 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 53,
+        "com": 62,
         "dri": 62,
         "ldr": 39,
         "pac": 65,
-        "pas": 62,
+        "pas": 71,
         "pos": 56,
         "sho": 54,
         "sta": 70,
         "str": 55,
-        "tac": 56,
-        "vis": 57
+        "tac": 65,
+        "vis": 66
       },
       "birth": "1985-12-01",
       "contract": "2008-06-30",
@@ -431,9 +433,6 @@
       "wage": 14500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 51,
         "com": 72,
@@ -463,9 +462,6 @@
       "wage": 38000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -488,10 +484,13 @@
       "name": "Julian Grey",
       "nation": "ENG",
       "number": 21,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 25000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -514,12 +513,14 @@
       "name": "Jermaine Pennent",
       "nation": "ENG",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 30500
     },
     {
       "alt": [
-        "DM"
+        "CB",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 62,
@@ -578,6 +579,9 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -634,16 +638,16 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 72,
+        "aer": 66,
+        "com": 74,
         "dri": 72,
         "ldr": 48,
         "pac": 77,
         "pas": 64,
-        "pos": 52,
-        "sho": 78,
+        "pos": 54,
+        "sho": 80,
         "sta": 71,
-        "str": 68,
+        "str": 70,
         "tac": 38,
         "vis": 60
       },
@@ -660,16 +664,16 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 70,
+        "aer": 72,
+        "com": 71,
         "dri": 71,
         "ldr": 60,
         "pac": 73,
         "pas": 63,
-        "pos": 45,
-        "sho": 74,
+        "pos": 46,
+        "sho": 75,
         "sta": 67,
-        "str": 71,
+        "str": 72,
         "tac": 35,
         "vis": 58
       },

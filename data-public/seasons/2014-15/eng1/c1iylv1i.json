@@ -127,13 +127,13 @@
         "com": 67,
         "dri": 67,
         "ldr": 68,
-        "pac": 78,
+        "pac": 79,
         "pas": 73,
-        "pos": 65,
+        "pos": 66,
         "sho": 49,
         "sta": 86,
-        "str": 58,
-        "tac": 67,
+        "str": 59,
+        "tac": 68,
         "vis": 67
       },
       "birth": "1994-03-01",
@@ -285,9 +285,6 @@
       "wage": 43500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 58,
@@ -320,13 +317,13 @@
       "attrs": {
         "aer": 67,
         "com": 67,
-        "dri": 59,
+        "dri": 62,
         "ldr": 63,
-        "pac": 64,
-        "pas": 65,
+        "pac": 67,
+        "pas": 68,
         "pos": 69,
         "sho": 51,
-        "sta": 75,
+        "sta": 78,
         "str": 75,
         "tac": 73,
         "vis": 55
@@ -346,21 +343,18 @@
       "wage": 69500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 57,
         "com": 64,
         "dri": 71,
         "ldr": 53,
-        "pac": 77,
+        "pac": 84,
         "pas": 71,
-        "pos": 57,
+        "pos": 64,
         "sho": 61,
         "sta": 83,
-        "str": 73,
-        "tac": 57,
+        "str": 80,
+        "tac": 64,
         "vis": 63
       },
       "birth": "1987-09-01",
@@ -371,23 +365,27 @@
       "name": "Ahmed Elmohemady",
       "nation": "EGY",
       "number": 27,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 72000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 61,
-        "dri": 63,
+        "com": 68,
+        "dri": 70,
         "ldr": 53,
         "pac": 64,
-        "pas": 67,
+        "pas": 74,
         "pos": 65,
-        "sho": 57,
-        "sta": 77,
+        "sho": 64,
+        "sta": 84,
         "str": 75,
         "tac": 71,
-        "vis": 61
+        "vis": 68
       },
       "birth": "1989-05-01",
       "contract": "2017-06-30",
@@ -408,11 +406,11 @@
         "ldr": 57,
         "pac": 42,
         "pas": 78,
-        "pos": 62,
+        "pos": 68,
         "sho": 72,
         "sta": 64,
-        "str": 80,
-        "tac": 60,
+        "str": 86,
+        "tac": 66,
         "vis": 76
       },
       "birth": "1986-12-01",
@@ -423,7 +421,7 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
@@ -432,17 +430,17 @@
     {
       "attrs": {
         "aer": 64,
-        "com": 64,
+        "com": 67,
         "dri": 64,
         "ldr": 54,
         "pac": 69,
-        "pas": 66,
-        "pos": 66,
+        "pas": 69,
+        "pos": 69,
         "sho": 52,
         "sta": 80,
-        "str": 76,
-        "tac": 72,
-        "vis": 60
+        "str": 79,
+        "tac": 75,
+        "vis": 63
       },
       "birth": "1989-11-01",
       "contract": "2018-06-30",
@@ -456,19 +454,22 @@
       "wage": 72000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
-        "com": 60,
-        "dri": 62,
+        "com": 66,
+        "dri": 63,
         "ldr": 48,
         "pac": 66,
-        "pas": 64,
+        "pas": 70,
         "pos": 60,
-        "sho": 52,
+        "sho": 53,
         "sta": 74,
         "str": 58,
-        "tac": 62,
-        "vis": 60
+        "tac": 67,
+        "vis": 66
       },
       "birth": "1986-04-01",
       "contract": "2015-06-30",
@@ -482,19 +483,22 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 65,
-        "dri": 73,
+        "com": 72,
+        "dri": 76,
         "ldr": 57,
         "pac": 67,
-        "pas": 69,
+        "pas": 76,
         "pos": 65,
-        "sho": 63,
-        "sta": 81,
+        "sho": 66,
+        "sta": 82,
         "str": 81,
-        "tac": 71,
-        "vis": 64
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1987-06-01",
       "contract": "2017-06-30",
@@ -508,12 +512,17 @@
       "wage": 94500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 69,
-        "dri": 68,
+        "dri": 82,
         "ldr": 61,
-        "pac": 57,
+        "pac": 71,
         "pas": 76,
         "pos": 66,
         "sho": 72,
@@ -530,7 +539,7 @@
       "name": "Robert Snudgrass",
       "nation": "SCO",
       "number": 10,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
@@ -538,17 +547,18 @@
     },
     {
       "alt": [
-        "LB"
+        "LB",
+        "LWB"
       ],
       "attrs": {
         "aer": 48,
-        "com": 63,
-        "dri": 68,
+        "com": 64,
+        "dri": 69,
         "ldr": 53,
-        "pac": 74,
+        "pac": 75,
         "pas": 70,
         "pos": 54,
-        "sho": 64,
+        "sho": 65,
         "sta": 75,
         "str": 57,
         "tac": 56,
@@ -562,13 +572,17 @@
       "name": "Robbie Bradi",
       "nation": "IRL",
       "number": 11,
-      "pos": "LM",
+      "pos": "LW",
       "traits": [
         "free_kick"
       ],
       "wage": 49000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 40,
         "com": 58,
@@ -596,6 +610,9 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 62,
@@ -650,7 +667,8 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "LW"
       ],
       "attrs": {
         "aer": 38,

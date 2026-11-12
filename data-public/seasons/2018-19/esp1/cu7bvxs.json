@@ -58,7 +58,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 66,
         "str": 73,
@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 61,
-        "dri": 52,
-        "ldr": 63,
-        "pac": 57,
-        "pas": 60,
-        "pos": 67,
-        "sho": 41,
-        "sta": 64,
-        "str": 67,
-        "tac": 69,
-        "vis": 49
+        "aer": 53,
+        "com": 59,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 65,
+        "pas": 64,
+        "pos": 62,
+        "sho": 48,
+        "sta": 70,
+        "str": 59,
+        "tac": 66,
+        "vis": 55
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "name": "Tono Garcya",
       "nation": "ESP",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 20000
     },
     {
@@ -131,6 +131,10 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 70,
@@ -184,19 +188,23 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 67,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 69,
-        "pas": 58,
-        "pos": 44,
-        "sho": 67,
-        "sta": 59,
-        "str": 68,
-        "tac": 33,
-        "vis": 56
+        "aer": 52,
+        "com": 64,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 73,
+        "pas": 64,
+        "pos": 46,
+        "sho": 62,
+        "sta": 61,
+        "str": 58,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "1995-07-01",
       "contract": null,
@@ -206,10 +214,13 @@
       "name": "Moses Symon",
       "nation": "NGA",
       "number": 7,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 71,
@@ -244,7 +255,7 @@
         "ldr": 62,
         "pac": 64,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 63,
         "str": 68,
@@ -264,18 +275,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 72,
-        "dri": 66,
-        "ldr": 68,
-        "pac": 67,
+        "aer": 54,
+        "com": 73,
+        "dri": 70,
+        "ldr": 66,
+        "pac": 70,
         "pas": 72,
-        "pos": 64,
-        "sho": 65,
-        "sta": 73,
-        "str": 63,
-        "tac": 64,
-        "vis": 72
+        "pos": 49,
+        "sho": 71,
+        "sta": 67,
+        "str": 58,
+        "tac": 46,
+        "vis": 74
       },
       "birth": "1995-07-01",
       "contract": null,
@@ -285,23 +296,27 @@
       "name": "Enis Berdhi",
       "nation": "MKD",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 46500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 70,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 65,
-        "pas": 67,
-        "pos": 65,
-        "sho": 59,
-        "sta": 68,
-        "str": 62,
-        "tac": 63,
-        "vis": 68
+        "aer": 55,
+        "com": 68,
+        "dri": 71,
+        "ldr": 59,
+        "pac": 74,
+        "pas": 63,
+        "pos": 47,
+        "sho": 63,
+        "sta": 64,
+        "str": 57,
+        "tac": 43,
+        "vis": 65
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -311,23 +326,23 @@
       "name": "Jose Luis Moreles",
       "nation": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 35500
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 71,
-        "dri": 56,
-        "ldr": 69,
-        "pac": 67,
-        "pas": 60,
-        "pos": 74,
-        "sho": 46,
-        "sta": 69,
-        "str": 71,
-        "tac": 76,
-        "vis": 53
+        "aer": 58,
+        "com": 69,
+        "dri": 66,
+        "ldr": 65,
+        "pac": 75,
+        "pas": 64,
+        "pos": 69,
+        "sho": 53,
+        "sta": 75,
+        "str": 63,
+        "tac": 73,
+        "vis": 59
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -337,7 +352,7 @@
       "name": "Coka",
       "nation": "ESP",
       "number": 12,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 37500
     },
     {
@@ -367,19 +382,23 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 69,
-        "dri": 64,
-        "ldr": 65,
-        "pac": 58,
-        "pas": 70,
-        "pos": 63,
-        "sho": 60,
-        "sta": 69,
-        "str": 60,
-        "tac": 61,
-        "vis": 64
+        "aer": 49,
+        "com": 67,
+        "dri": 69,
+        "ldr": 61,
+        "pac": 67,
+        "pas": 66,
+        "pos": 45,
+        "sho": 64,
+        "sta": 65,
+        "str": 55,
+        "tac": 41,
+        "vis": 61
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -389,7 +408,7 @@
       "name": "Samu Garcya",
       "nation": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 29500
     },
     {
@@ -419,19 +438,23 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 72,
-        "dri": 73,
-        "ldr": 65,
-        "pac": 73,
-        "pas": 69,
-        "pos": 52,
-        "sho": 78,
-        "sta": 69,
-        "str": 77,
-        "tac": 46,
-        "vis": 69
+        "aer": 57,
+        "com": 69,
+        "dri": 78,
+        "ldr": 63,
+        "pac": 77,
+        "pas": 75,
+        "pos": 54,
+        "sho": 73,
+        "sta": 71,
+        "str": 67,
+        "tac": 52,
+        "vis": 75
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -441,23 +464,23 @@
       "name": "Ruben Ruchina",
       "nation": "ESP",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 50500
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 68,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 73,
-        "pos": 69,
-        "sho": 63,
+        "dri": 60,
+        "ldr": 65,
+        "pac": 60,
+        "pas": 72,
+        "pos": 73,
+        "sho": 57,
         "sta": 67,
-        "str": 65,
-        "tac": 65,
-        "vis": 70
+        "str": 70,
+        "tac": 71,
+        "vis": 67
       },
       "birth": "1991-12-01",
       "contract": null,
@@ -467,7 +490,7 @@
       "name": "Nikola Vukcavic",
       "nation": "MNE",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 38500
     },
     {
@@ -530,7 +553,7 @@
         "ldr": 61,
         "pac": 71,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 75,
         "sta": 63,
         "str": 72,
@@ -556,7 +579,7 @@
         "ldr": 50,
         "pac": 58,
         "pas": 53,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 57,
         "str": 62,
@@ -576,18 +599,18 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 70,
-        "dri": 56,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 64,
-        "pos": 76,
-        "sho": 49,
-        "sta": 69,
-        "str": 75,
-        "tac": 77,
-        "vis": 59
+        "aer": 61,
+        "com": 68,
+        "dri": 66,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 68,
+        "pos": 71,
+        "sho": 56,
+        "sta": 75,
+        "str": 67,
+        "tac": 74,
+        "vis": 65
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -597,23 +620,26 @@
       "name": "Antonio Lune",
       "nation": "ESP",
       "number": 22,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 45000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 58,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 68,
-        "pos": 59,
-        "sho": 60,
-        "sta": 63,
-        "str": 59,
-        "tac": 57,
-        "vis": 67
+        "aer": 46,
+        "com": 60,
+        "dri": 63,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 64,
+        "pos": 41,
+        "sho": 64,
+        "sta": 59,
+        "str": 54,
+        "tac": 37,
+        "vis": 64
       },
       "birth": "1994-07-01",
       "contract": null,
@@ -623,10 +649,13 @@
       "name": "Jasun",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 75,
@@ -660,7 +689,7 @@
         "ldr": 72,
         "pac": 81,
         "pas": 70,
-        "pos": 54,
+        "pos": 74,
         "sho": 82,
         "sta": 73,
         "str": 82,

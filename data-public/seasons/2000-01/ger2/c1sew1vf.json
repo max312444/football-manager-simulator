@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 60,
@@ -51,19 +54,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
-        "dri": 62,
+        "dri": 67,
         "ldr": 53,
         "pac": 61,
-        "pas": 56,
-        "pos": 43,
+        "pas": 61,
+        "pos": 63,
         "sho": 65,
         "sta": 60,
         "str": 59,
         "tac": 32,
-        "vis": 57
+        "vis": 62
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -74,10 +82,13 @@
       "nation": "GER",
       "nation2": "SEN",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -106,21 +117,23 @@
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
-        "aer": 46,
-        "com": 57,
-        "dri": 54,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 64,
-        "pos": 60,
-        "sho": 53,
-        "sta": 64,
-        "str": 57,
-        "tac": 57,
-        "vis": 60
+        "aer": 47,
+        "com": 59,
+        "dri": 56,
+        "ldr": 54,
+        "pac": 55,
+        "pas": 66,
+        "pos": 61,
+        "sho": 55,
+        "sta": 66,
+        "str": 58,
+        "tac": 58,
+        "vis": 62
       },
       "birth": "1969-07-01",
       "contract": null,
@@ -162,6 +175,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 61,
@@ -188,6 +204,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -275,7 +294,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 48,
-        "pos": 32,
+        "pos": 52,
         "sho": 60,
         "sta": 48,
         "str": 55,
@@ -353,7 +372,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 46,
-        "pos": 33,
+        "pos": 53,
         "sho": 53,
         "sta": 49,
         "str": 56,
@@ -373,6 +392,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 53,
@@ -400,17 +422,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 39,
-        "com": 51,
-        "dri": 47,
+        "aer": 46,
+        "com": 58,
+        "dri": 53,
         "ldr": 46,
-        "pac": 46,
+        "pac": 53,
         "pas": 54,
-        "pos": 48,
-        "sho": 48,
+        "pos": 55,
+        "sho": 55,
         "sta": 57,
-        "str": 44,
+        "str": 51,
         "tac": 46,
         "vis": 51
       },
@@ -423,7 +450,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 1000
     },
@@ -488,7 +515,7 @@
         "ldr": 45,
         "pac": 51,
         "pas": 42,
-        "pos": 33,
+        "pos": 53,
         "sho": 57,
         "sta": 48,
         "str": 54,
@@ -541,7 +568,7 @@
         "ldr": 47,
         "pac": 51,
         "pas": 45,
-        "pos": 29,
+        "pos": 49,
         "sho": 53,
         "sta": 46,
         "str": 53,
@@ -594,7 +621,7 @@
         "ldr": 46,
         "pac": 50,
         "pas": 40,
-        "pos": 31,
+        "pos": 51,
         "sho": 55,
         "sta": 48,
         "str": 52,

@@ -101,11 +101,14 @@
       "name": "Lucas Digna",
       "nation": "FRA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 55500
     },
     {
-      "alt": [],
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 77,
@@ -159,18 +162,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 78,
-        "dri": 79,
-        "ldr": 76,
-        "pac": 76,
-        "pas": 77,
-        "pos": 76,
-        "sho": 71,
+        "dri": 75,
+        "ldr": 78,
+        "pac": 73,
+        "pas": 76,
+        "pos": 80,
+        "sho": 65,
         "sta": 81,
-        "str": 76,
-        "tac": 71,
-        "vis": 82
+        "str": 81,
+        "tac": 77,
+        "vis": 79
       },
       "birth": "1990-02-01",
       "contract": null,
@@ -180,23 +183,26 @@
       "name": "Kevin Strootmen",
       "nation": "NED",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 117000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 68,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 72,
-        "pas": 59,
-        "pos": 48,
-        "sho": 74,
-        "sta": 63,
-        "str": 71,
-        "tac": 42,
-        "vis": 62
+        "aer": 52,
+        "com": 65,
+        "dri": 70,
+        "ldr": 61,
+        "pac": 76,
+        "pas": 65,
+        "pos": 50,
+        "sho": 69,
+        "sta": 65,
+        "str": 61,
+        "tac": 48,
+        "vis": 68
       },
       "birth": "1993-06-01",
       "contract": null,
@@ -207,7 +213,7 @@
       "nation": "ARG",
       "nation2": "PAR",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 27000
     },
     {
@@ -218,7 +224,7 @@
         "ldr": 73,
         "pac": 83,
         "pas": 73,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 78,
         "str": 84,
@@ -238,7 +244,11 @@
       "wage": 103500
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 72,
         "com": 73,
@@ -246,7 +256,7 @@
         "ldr": 72,
         "pac": 76,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 78,
         "sta": 74,
         "str": 73,
@@ -265,9 +275,6 @@
       "wage": 49500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
         "aer": 66,
         "com": 78,
@@ -321,19 +328,23 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 73,
         "com": 77,
-        "dri": 72,
+        "dri": 78,
         "ldr": 69,
-        "pac": 76,
-        "pas": 69,
-        "pos": 55,
+        "pac": 82,
+        "pas": 75,
+        "pos": 75,
         "sho": 81,
         "sta": 68,
         "str": 78,
         "tac": 43,
-        "vis": 70
+        "vis": 76
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -343,10 +354,13 @@
       "name": "Iago Falqua",
       "nation": "ESP",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 56500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 80,
@@ -374,6 +388,9 @@
       "wage": 132000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 77,
@@ -400,19 +417,23 @@
       "wage": 132500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 75,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 77,
-        "pas": 67,
-        "pos": 53,
-        "sho": 76,
-        "sta": 72,
-        "str": 72,
-        "tac": 48,
-        "vis": 65
+        "aer": 57,
+        "com": 72,
+        "dri": 80,
+        "ldr": 69,
+        "pac": 81,
+        "pas": 73,
+        "pos": 55,
+        "sho": 71,
+        "sta": 74,
+        "str": 62,
+        "tac": 54,
+        "vis": 71
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -423,10 +444,13 @@
       "name": "Victor Ibarbu",
       "nation": "COL",
       "number": 19,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 52000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -454,6 +478,9 @@
       "wage": 75500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 65,
@@ -481,6 +508,9 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 68,
@@ -508,19 +538,22 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 76,
-        "dri": 76,
-        "ldr": 71,
-        "pac": 74,
-        "pas": 78,
+        "com": 72,
+        "dri": 74,
+        "ldr": 69,
+        "pac": 81,
+        "pas": 72,
         "pos": 75,
-        "sho": 71,
+        "sho": 57,
         "sta": 79,
-        "str": 71,
-        "tac": 72,
-        "vis": 79
+        "str": 70,
+        "tac": 76,
+        "vis": 70
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -530,7 +563,7 @@
       "name": "Alessandro Florenzy",
       "nation": "ITA",
       "number": 24,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 96500
     },
     {
@@ -587,19 +620,23 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 83,
-        "dri": 76,
-        "ldr": 71,
-        "pac": 77,
-        "pas": 75,
-        "pos": 58,
-        "sho": 80,
-        "sta": 78,
-        "str": 77,
-        "tac": 48,
-        "vis": 69
+        "aer": 64,
+        "com": 80,
+        "dri": 81,
+        "ldr": 69,
+        "pac": 81,
+        "pas": 81,
+        "pos": 60,
+        "sho": 75,
+        "sta": 80,
+        "str": 67,
+        "tac": 54,
+        "vis": 75
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -609,7 +646,7 @@
       "name": "Garvinho",
       "nation": "CIV",
       "number": 27,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 81500
     },
     {
@@ -639,6 +676,11 @@
       "wage": 105500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "ST"
+      ],
       "attrs": {
         "aer": 80,
         "com": 76,
@@ -665,18 +707,21 @@
       "wage": 68000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,
         "dri": 66,
         "ldr": 64,
         "pac": 66,
-        "pas": 68,
+        "pas": 69,
         "pos": 65,
         "sho": 66,
-        "sta": 68,
+        "sta": 69,
         "str": 64,
-        "tac": 62,
+        "tac": 63,
         "vis": 70
       },
       "birth": "1994-01-01",

@@ -51,6 +51,10 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -77,6 +81,9 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 70,
@@ -138,7 +145,7 @@
         "ldr": 71,
         "pac": 77,
         "pas": 64,
-        "pos": 49,
+        "pos": 69,
         "sho": 78,
         "sta": 72,
         "str": 71,
@@ -185,19 +192,23 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 69,
-        "dri": 68,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 76,
-        "pos": 72,
-        "sho": 65,
-        "sta": 75,
-        "str": 65,
-        "tac": 66,
-        "vis": 76
+        "aer": 54,
+        "com": 67,
+        "dri": 73,
+        "ldr": 67,
+        "pac": 78,
+        "pas": 72,
+        "pos": 54,
+        "sho": 69,
+        "sta": 71,
+        "str": 60,
+        "tac": 46,
+        "vis": 73
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -207,7 +218,7 @@
       "name": "Steve Marlat",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 27500
     },
@@ -238,6 +249,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 65,
         "com": 68,
@@ -245,7 +259,7 @@
         "ldr": 66,
         "pac": 71,
         "pas": 64,
-        "pos": 48,
+        "pos": 68,
         "sho": 72,
         "sta": 64,
         "str": 67,
@@ -272,7 +286,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 63,
-        "pos": 46,
+        "pos": 66,
         "sho": 73,
         "sta": 66,
         "str": 68,
@@ -291,6 +305,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -319,6 +336,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 70,
@@ -373,6 +393,11 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "RM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -426,6 +451,11 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 60,
@@ -453,6 +483,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 62,
@@ -479,19 +512,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 56,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 49,
-        "pos": 65,
-        "sho": 34,
-        "sta": 53,
-        "str": 64,
-        "tac": 65,
-        "vis": 44
+        "aer": 50,
+        "com": 54,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 64,
+        "pas": 53,
+        "pos": 60,
+        "sho": 41,
+        "sta": 59,
+        "str": 56,
+        "tac": 62,
+        "vis": 50
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -501,23 +537,23 @@
       "name": "Jeremie Brachet",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6000
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 59,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 52,
-        "pas": 60,
-        "pos": 56,
-        "sho": 53,
+        "dri": 54,
+        "ldr": 58,
+        "pac": 49,
+        "pas": 59,
+        "pos": 60,
+        "sho": 47,
         "sta": 65,
-        "str": 54,
-        "tac": 58,
-        "vis": 58
+        "str": 59,
+        "tac": 64,
+        "vis": 55
       },
       "birth": "1970-09-01",
       "contract": null,
@@ -527,7 +563,7 @@
       "name": "Philippe Violaau",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7500
     },
     {
@@ -611,18 +647,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 55,
-        "dri": 41,
-        "ldr": 51,
-        "pac": 49,
-        "pas": 45,
-        "pos": 60,
-        "sho": 25,
-        "sta": 48,
-        "str": 55,
-        "tac": 55,
-        "vis": 38
+        "aer": 47,
+        "com": 53,
+        "dri": 51,
+        "ldr": 47,
+        "pac": 57,
+        "pas": 49,
+        "pos": 55,
+        "sho": 32,
+        "sta": 54,
+        "str": 47,
+        "tac": 52,
+        "vis": 44
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -633,11 +669,16 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 49,
@@ -672,7 +713,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 42,
-        "pos": 26,
+        "pos": 46,
         "sho": 52,
         "sta": 50,
         "str": 48,

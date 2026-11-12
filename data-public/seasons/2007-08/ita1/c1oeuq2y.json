@@ -51,6 +51,10 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "RWB",
+        "RW"
+      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -103,6 +107,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 69,
@@ -156,18 +164,18 @@
     },
     {
       "attrs": {
-        "aer": 78,
-        "com": 68,
-        "dri": 62,
-        "ldr": 73,
-        "pac": 66,
-        "pas": 64,
-        "pos": 79,
-        "sho": 44,
-        "sta": 67,
-        "str": 72,
-        "tac": 74,
-        "vis": 57
+        "aer": 65,
+        "com": 66,
+        "dri": 72,
+        "ldr": 69,
+        "pac": 74,
+        "pas": 68,
+        "pos": 74,
+        "sho": 51,
+        "sta": 73,
+        "str": 64,
+        "tac": 71,
+        "vis": 63
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -177,7 +185,7 @@
       "name": "Paolo Castellyni",
       "nation": "ITA",
       "number": 7,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 22500
     },
     {
@@ -188,7 +196,7 @@
         "ldr": 48,
         "pac": 59,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 61,
         "sta": 51,
         "str": 59,
@@ -207,22 +215,19 @@
       "wage": 3500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 57,
-        "com": 67,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 63,
+        "aer": 51,
+        "com": 68,
+        "dri": 73,
+        "ldr": 65,
+        "pac": 66,
         "pas": 72,
-        "pos": 68,
-        "sho": 61,
-        "sta": 70,
-        "str": 64,
-        "tac": 67,
-        "vis": 73
+        "pos": 53,
+        "sho": 67,
+        "sta": 64,
+        "str": 59,
+        "tac": 49,
+        "vis": 75
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -232,23 +237,27 @@
       "name": "Domenico Morfao",
       "nation": "ITA",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 22500
     },
     {
+      "alt": [
+        "RM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 63,
-        "dri": 63,
+        "aer": 64,
+        "com": 70,
+        "dri": 68,
         "ldr": 62,
-        "pac": 63,
-        "pas": 68,
-        "pos": 62,
-        "sho": 59,
+        "pac": 68,
+        "pas": 69,
+        "pos": 69,
+        "sho": 66,
         "sta": 71,
-        "str": 59,
+        "str": 66,
         "tac": 60,
-        "vis": 65
+        "vis": 66
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -258,7 +267,7 @@
       "name": "Andrea Pisenu",
       "nation": "ITA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 14500
     },
     {
@@ -288,6 +297,11 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 56,
@@ -314,6 +328,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -373,7 +390,7 @@
         "ldr": 66,
         "pac": 73,
         "pas": 63,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 68,
         "str": 71,
@@ -392,6 +409,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -418,19 +438,24 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 58,
-        "dri": 57,
+        "com": 62,
+        "dri": 63,
         "ldr": 47,
         "pac": 57,
-        "pas": 49,
-        "pos": 34,
-        "sho": 58,
+        "pas": 59,
+        "pos": 54,
+        "sho": 62,
         "sta": 50,
         "str": 57,
         "tac": 28,
-        "vis": 46
+        "vis": 56
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -440,10 +465,13 @@
       "name": "Federico Moratti",
       "nation": "ITA",
       "number": 22,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -522,6 +550,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -549,6 +580,9 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -628,6 +662,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 64,
@@ -635,7 +672,7 @@
         "ldr": 57,
         "pac": 68,
         "pas": 57,
-        "pos": 45,
+        "pos": 65,
         "sho": 70,
         "sta": 59,
         "str": 64,

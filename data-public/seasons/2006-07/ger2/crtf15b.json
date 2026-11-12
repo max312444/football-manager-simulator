@@ -31,7 +31,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 61,
-        "pos": 49,
+        "pos": 69,
         "sho": 69,
         "sta": 62,
         "str": 71,
@@ -52,6 +52,10 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 58,
@@ -86,7 +90,7 @@
         "ldr": 60,
         "pac": 61,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 69,
         "sta": 59,
         "str": 63,
@@ -106,19 +110,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 60,
-        "dri": 59,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 62,
-        "pos": 58,
-        "sho": 55,
-        "sta": 68,
-        "str": 57,
-        "tac": 57,
-        "vis": 63
+        "aer": 48,
+        "com": 62,
+        "dri": 63,
+        "ldr": 58,
+        "pac": 63,
+        "pas": 63,
+        "pos": 43,
+        "sho": 62,
+        "sta": 62,
+        "str": 52,
+        "tac": 39,
+        "vis": 66
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -128,24 +137,24 @@
       "name": "Patrick de Napoly",
       "nation": "SUI",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 55,
-        "dri": 58,
+        "aer": 51,
+        "com": 57,
+        "dri": 63,
         "ldr": 58,
-        "pac": 63,
-        "pas": 55,
-        "pos": 59,
-        "sho": 39,
-        "sta": 64,
-        "str": 56,
-        "tac": 61,
-        "vis": 54
+        "pac": 64,
+        "pas": 60,
+        "pos": 51,
+        "sho": 51,
+        "sta": 66,
+        "str": 54,
+        "tac": 50,
+        "vis": 61
       },
       "birth": "1973-02-01",
       "contract": null,
@@ -155,7 +164,7 @@
       "name": "Ronald Maol",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LM",
       "verify": true,
       "wage": 3000
     },
@@ -167,7 +176,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 61,
         "sta": 57,
         "str": 59,
@@ -188,6 +197,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -249,7 +261,7 @@
         "ldr": 51,
         "pac": 60,
         "pas": 52,
-        "pos": 33,
+        "pos": 53,
         "sho": 62,
         "sta": 55,
         "str": 58,
@@ -269,17 +281,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 61,
-        "dri": 59,
+        "aer": 52,
+        "com": 67,
+        "dri": 61,
         "ldr": 56,
-        "pac": 52,
+        "pac": 58,
         "pas": 57,
-        "pos": 53,
-        "sho": 54,
+        "pos": 59,
+        "sho": 60,
         "sta": 58,
-        "str": 55,
+        "str": 61,
         "tac": 55,
         "vis": 58
       },
@@ -291,11 +308,14 @@
       "name": "Sebastian Helbyg",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -329,7 +349,7 @@
         "ldr": 48,
         "pac": 58,
         "pas": 51,
-        "pos": 32,
+        "pos": 52,
         "sho": 62,
         "sta": 55,
         "str": 53,
@@ -349,6 +369,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -375,6 +398,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 54,
@@ -403,19 +429,23 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 54,
-        "dri": 52,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 60,
-        "pos": 55,
-        "sho": 47,
-        "sta": 55,
-        "str": 51,
-        "tac": 55,
-        "vis": 58
+        "aer": 41,
+        "com": 52,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 58,
+        "pas": 58,
+        "pos": 47,
+        "sho": 45,
+        "sta": 56,
+        "str": 48,
+        "tac": 47,
+        "vis": 55
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -425,7 +455,7 @@
       "name": "Tobias Warner",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 2000
     },
     {
@@ -455,6 +485,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -489,7 +524,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 50,
-        "pos": 31,
+        "pos": 51,
         "sho": 58,
         "sta": 54,
         "str": 53,
@@ -508,6 +543,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -542,7 +580,7 @@
         "ldr": 48,
         "pac": 56,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 58,
         "sta": 50,
         "str": 56,
@@ -568,7 +606,7 @@
         "ldr": 48,
         "pac": 52,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 57,
         "sta": 47,
         "str": 55,
@@ -587,6 +625,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -639,6 +680,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -665,6 +709,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -692,6 +741,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 50,
@@ -746,18 +798,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 49,
-        "dri": 36,
-        "ldr": 53,
-        "pac": 48,
-        "pas": 46,
-        "pos": 53,
-        "sho": 24,
-        "sta": 50,
-        "str": 57,
-        "tac": 53,
-        "vis": 41
+        "aer": 44,
+        "com": 47,
+        "dri": 46,
+        "ldr": 49,
+        "pac": 56,
+        "pas": 50,
+        "pos": 48,
+        "sho": 31,
+        "sta": 56,
+        "str": 49,
+        "tac": 50,
+        "vis": 47
       },
       "birth": "1984-10-01",
       "contract": null,
@@ -767,7 +819,7 @@
       "name": "Robert Paol",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 1000
     },
@@ -799,18 +851,18 @@
     },
     {
       "attrs": {
-        "aer": 39,
-        "com": 48,
-        "dri": 49,
-        "ldr": 46,
-        "pac": 42,
-        "pas": 52,
-        "pos": 48,
-        "sho": 41,
-        "sta": 55,
-        "str": 45,
-        "tac": 43,
-        "vis": 48
+        "aer": 33,
+        "com": 46,
+        "dri": 54,
+        "ldr": 42,
+        "pac": 51,
+        "pas": 48,
+        "pos": 30,
+        "sho": 45,
+        "sta": 51,
+        "str": 40,
+        "tac": 23,
+        "vis": 45
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -821,11 +873,14 @@
       "nation": "GER",
       "nation2": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 47,

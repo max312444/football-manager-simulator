@@ -51,6 +51,10 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -78,7 +82,9 @@
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "LB",
+        "DM"
       ],
       "attrs": {
         "aer": 73,
@@ -128,23 +134,23 @@
       "name": "Ludwig Aogustinsson",
       "nation": "SWE",
       "number": 5,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 56000
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 80,
-        "dri": 78,
-        "ldr": 76,
-        "pac": 75,
-        "pas": 83,
-        "pos": 78,
-        "sho": 74,
+        "dri": 74,
+        "ldr": 78,
+        "pac": 72,
+        "pas": 82,
+        "pos": 82,
+        "sho": 68,
         "sta": 77,
-        "str": 70,
-        "tac": 77,
-        "vis": 81
+        "str": 75,
+        "tac": 83,
+        "vis": 78
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -154,10 +160,13 @@
       "name": "Thomas Deleney",
       "nation": "DEN",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 91000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 78,
@@ -184,6 +193,10 @@
       "wage": 81500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -217,7 +230,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 65,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 69,
         "str": 74,
@@ -238,7 +251,9 @@
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 76,
@@ -247,7 +262,7 @@
         "ldr": 72,
         "pac": 74,
         "pas": 70,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 76,
         "str": 79,
@@ -267,18 +282,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 68,
-        "dri": 68,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 70,
-        "pos": 72,
-        "sho": 66,
-        "sta": 76,
-        "str": 69,
-        "tac": 69,
-        "vis": 70
+        "aer": 73,
+        "com": 66,
+        "dri": 56,
+        "ldr": 71,
+        "pac": 63,
+        "pas": 60,
+        "pos": 77,
+        "sho": 45,
+        "sta": 70,
+        "str": 76,
+        "tac": 76,
+        "vis": 55
       },
       "birth": "1995-09-01",
       "contract": null,
@@ -289,23 +304,26 @@
       "nation": "SRB",
       "nation2": "SUI",
       "number": 13,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 52000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 78,
-        "dri": 75,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 79,
-        "pos": 75,
-        "sho": 69,
-        "sta": 81,
-        "str": 74,
-        "tac": 76,
-        "vis": 76
+        "aer": 58,
+        "com": 76,
+        "dri": 80,
+        "ldr": 66,
+        "pac": 78,
+        "pas": 75,
+        "pos": 57,
+        "sho": 73,
+        "sta": 77,
+        "str": 69,
+        "tac": 56,
+        "vis": 73
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -316,10 +334,13 @@
       "nation": "BIH",
       "nation2": "SUI",
       "number": 15,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 91000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 81,
@@ -354,7 +375,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 60,
         "str": 60,
@@ -406,7 +427,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 60,
         "str": 60,
@@ -449,10 +470,15 @@
       "nation": "SUI",
       "nation2": "POR",
       "number": 20,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 17500
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
@@ -480,7 +506,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 71,
@@ -515,7 +542,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 53,
-        "pos": 44,
+        "pos": 64,
         "sho": 64,
         "sta": 60,
         "str": 62,
@@ -534,6 +561,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 75,
@@ -594,7 +624,7 @@
         "ldr": 70,
         "pac": 72,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 75,
         "sta": 73,
         "str": 72,
@@ -668,18 +698,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 68,
-        "dri": 66,
-        "ldr": 66,
-        "pac": 60,
-        "pas": 71,
-        "pos": 66,
-        "sho": 64,
+        "dri": 62,
+        "ldr": 68,
+        "pac": 57,
+        "pas": 70,
+        "pos": 70,
+        "sho": 58,
         "sta": 71,
-        "str": 63,
-        "tac": 62,
-        "vis": 67
+        "str": 68,
+        "tac": 68,
+        "vis": 64
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -689,10 +719,13 @@
       "name": "Maximilian Eggestain",
       "nation": "GER",
       "number": 35,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 35500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 53,
@@ -719,19 +752,22 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 70,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 67,
-        "pas": 71,
-        "pos": 71,
-        "sho": 63,
-        "sta": 69,
-        "str": 67,
-        "tac": 68,
-        "vis": 68
+        "aer": 61,
+        "com": 72,
+        "dri": 71,
+        "ldr": 68,
+        "pac": 68,
+        "pas": 73,
+        "pos": 72,
+        "sho": 65,
+        "sta": 71,
+        "str": 68,
+        "tac": 69,
+        "vis": 70
       },
       "birth": "1989-03-01",
       "contract": null,

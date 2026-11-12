@@ -104,6 +104,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -157,9 +160,6 @@
       "wage": 23000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 76,
         "com": 72,
@@ -193,7 +193,7 @@
         "ldr": 70,
         "pac": 74,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 68,
         "str": 72,
@@ -214,18 +214,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 61,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 54,
-        "pas": 64,
-        "pos": 59,
-        "sho": 54,
+        "dri": 57,
+        "ldr": 59,
+        "pac": 51,
+        "pas": 63,
+        "pos": 63,
+        "sho": 48,
         "sta": 67,
-        "str": 59,
-        "tac": 58,
-        "vis": 64
+        "str": 64,
+        "tac": 64,
+        "vis": 61
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -235,7 +235,7 @@
       "name": "Didier Dygard",
       "nation": "FRA",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11000
     },
     {
@@ -246,7 +246,7 @@
         "ldr": 69,
         "pac": 73,
         "pas": 66,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 72,
         "str": 71,
@@ -266,18 +266,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 75,
-        "dri": 73,
-        "ldr": 73,
-        "pac": 70,
+        "aer": 58,
+        "com": 76,
+        "dri": 77,
+        "ldr": 71,
+        "pac": 73,
         "pas": 80,
-        "pos": 73,
-        "sho": 66,
-        "sta": 80,
-        "str": 69,
-        "tac": 74,
-        "vis": 77
+        "pos": 58,
+        "sho": 72,
+        "sta": 74,
+        "str": 64,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -287,7 +287,7 @@
       "name": "Marcelo Gallerdo",
       "nation": "ARG",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 32500
     },
     {
@@ -298,7 +298,7 @@
         "ldr": 57,
         "pac": 69,
         "pas": 59,
-        "pos": 42,
+        "pos": 62,
         "sho": 69,
         "sta": 63,
         "str": 63,
@@ -318,18 +318,23 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
+        "aer": 57,
         "com": 60,
         "dri": 57,
         "ldr": 54,
-        "pac": 50,
+        "pac": 59,
         "pas": 58,
-        "pos": 57,
+        "pos": 66,
         "sho": 48,
         "sta": 58,
-        "str": 53,
-        "tac": 50,
+        "str": 62,
+        "tac": 59,
         "vis": 60
       },
       "birth": "1987-10-01",
@@ -341,10 +346,14 @@
       "nation": "FRA",
       "nation2": "COD",
       "number": 12,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 6500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 61,
         "com": 64,
@@ -352,7 +361,7 @@
         "ldr": 58,
         "pac": 68,
         "pas": 55,
-        "pos": 46,
+        "pos": 66,
         "sho": 68,
         "sta": 58,
         "str": 65,
@@ -378,7 +387,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 68,
         "sta": 57,
         "str": 59,
@@ -483,7 +492,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 53,
         "str": 56,
@@ -503,18 +512,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 46,
         "com": 63,
-        "dri": 61,
+        "dri": 65,
         "ldr": 60,
-        "pac": 61,
-        "pas": 53,
-        "pos": 39,
-        "sho": 67,
+        "pac": 59,
+        "pas": 63,
+        "pos": 44,
+        "sho": 64,
         "sta": 61,
-        "str": 62,
-        "tac": 30,
-        "vis": 54
+        "str": 52,
+        "tac": 38,
+        "vis": 65
       },
       "birth": "1980-05-01",
       "contract": null,
@@ -524,10 +533,14 @@
       "name": "Fabrice Pancrata",
       "nation": "FRA",
       "number": 19,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 66,
@@ -555,18 +568,18 @@
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 66,
-        "dri": 58,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 60,
-        "pos": 77,
-        "sho": 43,
-        "sta": 65,
-        "str": 74,
-        "tac": 73,
-        "vis": 59
+        "aer": 62,
+        "com": 64,
+        "dri": 68,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 64,
+        "pos": 72,
+        "sho": 50,
+        "sta": 71,
+        "str": 66,
+        "tac": 70,
+        "vis": 65
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -576,10 +589,13 @@
       "name": "Sylvain Armend",
       "nation": "FRA",
       "number": 22,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,
@@ -632,19 +648,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 71,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 67,
-        "pas": 74,
-        "pos": 74,
-        "sho": 64,
-        "sta": 73,
-        "str": 71,
-        "tac": 68,
-        "vis": 73
+        "aer": 57,
+        "com": 69,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 76,
+        "pas": 70,
+        "pos": 56,
+        "sho": 68,
+        "sta": 69,
+        "str": 66,
+        "tac": 48,
+        "vis": 70
       },
       "birth": "1978-03-01",
       "contract": null,
@@ -654,10 +673,13 @@
       "name": "Jerome Ruthen",
       "nation": "FRA",
       "number": 25,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -685,6 +707,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 57,

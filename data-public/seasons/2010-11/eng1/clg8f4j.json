@@ -124,7 +124,8 @@
     },
     {
       "alt": [
-        "LB"
+        "RW",
+        "ST"
       ],
       "attrs": {
         "aer": 64,
@@ -183,6 +184,9 @@
       "wage": 53500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 47,
         "com": 73,
@@ -205,16 +209,13 @@
       "name": "David Bentlei",
       "nation": "ENG",
       "number": 5,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
       "wage": 47500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 73,
@@ -222,11 +223,11 @@
         "ldr": 59,
         "pac": 53,
         "pas": 81,
-        "pos": 64,
+        "pos": 73,
         "sho": 75,
         "sta": 72,
-        "str": 75,
-        "tac": 63,
+        "str": 84,
+        "tac": 72,
         "vis": 79
       },
       "birth": "1986-12-01",
@@ -237,13 +238,16 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
       "wage": 60500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 68,
@@ -273,6 +277,9 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -328,9 +335,6 @@
       "wage": 40500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 75,
         "com": 85,
@@ -392,22 +396,19 @@
       "wage": 71000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 63,
-        "com": 65,
+        "com": 67,
         "dri": 66,
         "ldr": 61,
         "pac": 69,
-        "pas": 68,
-        "pos": 72,
+        "pas": 70,
+        "pos": 74,
         "sho": 55,
         "sta": 85,
-        "str": 76,
-        "tac": 79,
-        "vis": 62
+        "str": 78,
+        "tac": 81,
+        "vis": 64
       },
       "birth": "1984-07-01",
       "contract": "2012-06-30",
@@ -417,7 +418,7 @@
       "name": "Wilson Palecios",
       "nation": "HON",
       "number": 12,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 62500
     },
     {
@@ -451,18 +452,22 @@
       "wage": 86000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 84,
         "dri": 87,
         "ldr": 69,
         "pac": 73,
-        "pas": 87,
+        "pas": 88,
         "pos": 64,
         "sho": 72,
-        "sta": 86,
+        "sta": 87,
         "str": 62,
-        "tac": 65,
+        "tac": 66,
         "vis": 88
       },
       "birth": "1985-09-01",
@@ -516,21 +521,23 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 45,
-        "com": 66,
+        "com": 77,
         "dri": 82,
         "ldr": 47,
         "pac": 79,
-        "pas": 69,
+        "pas": 80,
         "pos": 40,
-        "sho": 70,
+        "sho": 81,
         "sta": 70,
         "str": 59,
         "tac": 33,
-        "vis": 70
+        "vis": 81
       },
       "birth": "1989-05-01",
       "contract": "2012-06-30",
@@ -545,16 +552,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 79,
+        "aer": 64,
+        "com": 84,
         "dri": 77,
         "ldr": 60,
         "pac": 80,
         "pas": 65,
-        "pos": 41,
-        "sho": 85,
+        "pos": 46,
+        "sho": 90,
         "sta": 71,
-        "str": 69,
+        "str": 74,
         "tac": 33,
         "vis": 65
       },
@@ -570,6 +577,10 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 65,
@@ -654,6 +665,9 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -680,9 +694,6 @@
       "wage": 31000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 44,
         "com": 76,
@@ -745,17 +756,17 @@
     {
       "attrs": {
         "aer": 68,
-        "com": 68,
+        "com": 69,
         "dri": 64,
         "ldr": 62,
         "pac": 71,
-        "pas": 68,
+        "pas": 69,
         "pos": 72,
         "sho": 60,
-        "sta": 79,
+        "sta": 80,
         "str": 83,
         "tac": 80,
-        "vis": 62
+        "vis": 63
       },
       "birth": "1989-03-01",
       "contract": "2014-06-30",

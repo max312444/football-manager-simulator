@@ -31,7 +31,7 @@
         "ldr": 66,
         "pac": 78,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 77,
         "sta": 70,
         "str": 74,
@@ -57,7 +57,7 @@
         "ldr": 72,
         "pac": 81,
         "pas": 68,
-        "pos": 57,
+        "pos": 77,
         "sho": 81,
         "sta": 75,
         "str": 79,
@@ -76,6 +76,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 70,
@@ -103,6 +106,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 71,
@@ -129,10 +135,6 @@
       "wage": 26000
     },
     {
-      "alt": [
-        "CM",
-        "ST"
-      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -212,19 +214,22 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 71,
-        "dri": 67,
-        "ldr": 61,
-        "pac": 66,
-        "pas": 72,
-        "pos": 68,
-        "sho": 64,
-        "sta": 71,
-        "str": 65,
-        "tac": 61,
-        "vis": 66
+        "aer": 53,
+        "com": 69,
+        "dri": 72,
+        "ldr": 57,
+        "pac": 75,
+        "pas": 68,
+        "pos": 50,
+        "sho": 68,
+        "sta": 67,
+        "str": 60,
+        "tac": 41,
+        "vis": 63
       },
       "birth": "1981-04-01",
       "contract": null,
@@ -235,7 +240,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 18500
     },
@@ -293,18 +298,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 62,
-        "dri": 50,
-        "ldr": 64,
-        "pac": 61,
-        "pas": 60,
-        "pos": 69,
-        "sho": 37,
-        "sta": 66,
-        "str": 68,
-        "tac": 72,
-        "vis": 50
+        "aer": 57,
+        "com": 60,
+        "dri": 60,
+        "ldr": 60,
+        "pac": 69,
+        "pas": 64,
+        "pos": 64,
+        "sho": 44,
+        "sta": 72,
+        "str": 60,
+        "tac": 69,
+        "vis": 56
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -314,7 +319,7 @@
       "name": "Enrique Correles",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -426,6 +431,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 64,
@@ -433,7 +441,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 56,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 64,
         "str": 64,
@@ -480,7 +488,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 48,
@@ -509,8 +518,7 @@
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 69,
@@ -540,18 +548,19 @@
     },
     {
       "alt": [
-        "RB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 64,
         "com": 58,
-        "dri": 49,
+        "dri": 56,
         "ldr": 62,
-        "pac": 57,
-        "pas": 56,
+        "pac": 64,
+        "pas": 63,
         "pos": 63,
         "sho": 37,
-        "sta": 61,
+        "sta": 68,
         "str": 62,
         "tac": 67,
         "vis": 48
@@ -564,13 +573,14 @@
       "name": "Cesar Azpilicoeta",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6500
     },
     {
       "alt": [
         "CM",
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 47,
@@ -605,7 +615,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 68,
         "sta": 57,
         "str": 62,
@@ -625,18 +635,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 63,
-        "dri": 48,
-        "ldr": 63,
-        "pac": 56,
-        "pas": 54,
-        "pos": 62,
-        "sho": 37,
-        "sta": 56,
-        "str": 62,
-        "tac": 66,
-        "vis": 48
+        "aer": 49,
+        "com": 61,
+        "dri": 58,
+        "ldr": 59,
+        "pac": 64,
+        "pas": 58,
+        "pos": 57,
+        "sho": 44,
+        "sta": 62,
+        "str": 54,
+        "tac": 63,
+        "vis": 54
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -646,10 +656,15 @@
       "name": "Jose Izqoierdo",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -677,18 +692,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 63,
-        "dri": 49,
-        "ldr": 61,
-        "pac": 53,
-        "pas": 53,
-        "pos": 66,
-        "sho": 34,
-        "sta": 57,
-        "str": 61,
-        "tac": 68,
-        "vis": 49
+        "aer": 50,
+        "com": 61,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 61,
+        "pas": 57,
+        "pos": 61,
+        "sho": 41,
+        "sta": 63,
+        "str": 53,
+        "tac": 65,
+        "vis": 55
       },
       "birth": "1977-02-01",
       "contract": null,
@@ -698,7 +713,7 @@
       "name": "Rafael Clavaro",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6500
     },
     {
@@ -709,7 +724,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 59,
         "str": 63,
@@ -762,7 +777,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 49,
-        "pos": 35,
+        "pos": 55,
         "sho": 60,
         "sta": 54,
         "str": 55,
@@ -783,18 +798,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 36,
         "com": 58,
-        "dri": 52,
+        "dri": 56,
         "ldr": 49,
-        "pac": 52,
-        "pas": 48,
-        "pos": 34,
-        "sho": 57,
+        "pac": 50,
+        "pas": 58,
+        "pos": 39,
+        "sho": 54,
         "sta": 54,
-        "str": 55,
-        "tac": 22,
-        "vis": 46
+        "str": 45,
+        "tac": 30,
+        "vis": 57
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -804,24 +819,29 @@
       "name": "Fran Mureno",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 54,
-        "dri": 52,
+        "com": 60,
+        "dri": 56,
         "ldr": 49,
         "pac": 55,
-        "pas": 45,
-        "pos": 31,
-        "sho": 52,
+        "pas": 55,
+        "pos": 51,
+        "sho": 58,
         "sta": 50,
         "str": 54,
         "tac": 21,
-        "vis": 44
+        "vis": 54
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -831,14 +851,11 @@
       "name": "Roberto Torras",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 46,
         "com": 53,
@@ -872,7 +889,7 @@
         "ldr": 42,
         "pac": 48,
         "pas": 44,
-        "pos": 27,
+        "pos": 47,
         "sho": 54,
         "sta": 46,
         "str": 52,

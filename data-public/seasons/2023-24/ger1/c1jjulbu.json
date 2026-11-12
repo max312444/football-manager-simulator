@@ -52,7 +52,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 67,
@@ -82,7 +82,7 @@
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 77,
@@ -136,6 +136,9 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -169,7 +172,7 @@
         "ldr": 70,
         "pac": 78,
         "pas": 70,
-        "pos": 53,
+        "pos": 73,
         "sho": 76,
         "sta": 68,
         "str": 72,
@@ -189,21 +192,21 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB"
       ],
       "attrs": {
-        "aer": 77,
-        "com": 74,
-        "dri": 66,
-        "ldr": 73,
-        "pac": 71,
-        "pas": 72,
-        "pos": 77,
-        "sho": 51,
-        "sta": 75,
-        "str": 78,
-        "tac": 81,
-        "vis": 61
+        "aer": 64,
+        "com": 72,
+        "dri": 76,
+        "ldr": 69,
+        "pac": 79,
+        "pas": 76,
+        "pos": 72,
+        "sho": 58,
+        "sta": 81,
+        "str": 70,
+        "tac": 78,
+        "vis": 67
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -214,11 +217,10 @@
       "nation": "GER",
       "nation2": "ALG",
       "number": 8,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 125000
     },
     {
-      "alt": [],
       "attrs": {
         "aer": 77,
         "com": 77,
@@ -226,7 +228,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 65,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 74,
         "str": 79,
@@ -245,6 +247,10 @@
       "wage": 110500
     },
     {
+      "alt": [
+        "AM",
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -300,18 +306,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 63,
-        "dri": 62,
-        "ldr": 56,
-        "pac": 60,
-        "pas": 65,
-        "pos": 58,
-        "sho": 56,
+        "dri": 58,
+        "ldr": 58,
+        "pac": 57,
+        "pas": 64,
+        "pos": 62,
+        "sho": 50,
         "sta": 66,
-        "str": 58,
-        "tac": 61,
-        "vis": 64
+        "str": 63,
+        "tac": 67,
+        "vis": 61
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -321,23 +327,27 @@
       "name": "Senne Linen",
       "nation": "BEL",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 37500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 58,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 56,
-        "pas": 51,
-        "pos": 37,
-        "sho": 64,
-        "sta": 54,
-        "str": 60,
-        "tac": 25,
-        "vis": 48
+        "aer": 44,
+        "com": 55,
+        "dri": 63,
+        "ldr": 50,
+        "pac": 60,
+        "pas": 57,
+        "pos": 39,
+        "sho": 59,
+        "sta": 56,
+        "str": 50,
+        "tac": 31,
+        "vis": 54
       },
       "birth": "2000-11-01",
       "contract": null,
@@ -347,10 +357,14 @@
       "name": "Justin Njynmah",
       "nation": "GER",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 14500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -377,9 +391,6 @@
       "wage": 125000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 49,
         "com": 50,
@@ -408,18 +419,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 76,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 67,
+        "aer": 55,
+        "com": 77,
+        "dri": 73,
+        "ldr": 68,
+        "pac": 70,
         "pas": 75,
-        "pos": 69,
-        "sho": 66,
-        "sta": 79,
-        "str": 66,
-        "tac": 71,
-        "vis": 76
+        "pos": 54,
+        "sho": 72,
+        "sta": 73,
+        "str": 61,
+        "tac": 53,
+        "vis": 78
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -429,23 +440,26 @@
       "name": "Romano Schmyd",
       "nation": "AUT",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 120000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 62,
-        "dri": 57,
-        "ldr": 60,
-        "pac": 55,
-        "pas": 63,
-        "pos": 61,
-        "sho": 59,
+        "dri": 53,
+        "ldr": 62,
+        "pac": 52,
+        "pas": 62,
+        "pos": 65,
+        "sho": 53,
         "sta": 63,
-        "str": 55,
-        "tac": 60,
-        "vis": 61
+        "str": 60,
+        "tac": 66,
+        "vis": 58
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -455,23 +469,27 @@
       "name": "Nicolai Repp",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 33500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 69,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 69,
-        "pas": 63,
-        "pos": 45,
-        "sho": 72,
-        "sta": 64,
-        "str": 67,
-        "tac": 36,
-        "vis": 63
+        "aer": 52,
+        "com": 66,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 73,
+        "pas": 69,
+        "pos": 47,
+        "sho": 67,
+        "sta": 66,
+        "str": 57,
+        "tac": 42,
+        "vis": 69
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -481,12 +499,12 @@
       "name": "Oliver Borke",
       "nation": "SCO",
       "number": 24,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 47000
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 52,
@@ -522,11 +540,11 @@
         "ldr": 56,
         "pac": 54,
         "pas": 67,
-        "pos": 57,
+        "pos": 63,
         "sho": 54,
         "sta": 65,
-        "str": 55,
-        "tac": 57,
+        "str": 61,
+        "tac": 63,
         "vis": 62
       },
       "birth": "2000-05-01",
@@ -538,12 +556,14 @@
       "nation": "BUL",
       "nation2": "GER",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 32500
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 67,
@@ -552,7 +572,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 66,
         "str": 71,
@@ -597,6 +617,9 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 77,
         "com": 72,
@@ -623,19 +646,22 @@
       "wage": 121500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 38,
-        "com": 50,
-        "dri": 49,
-        "ldr": 47,
-        "pac": 48,
-        "pas": 49,
-        "pos": 46,
-        "sho": 45,
-        "sta": 49,
-        "str": 43,
-        "tac": 43,
-        "vis": 52
+        "aer": 32,
+        "com": 48,
+        "dri": 54,
+        "ldr": 43,
+        "pac": 57,
+        "pas": 45,
+        "pos": 28,
+        "sho": 49,
+        "sta": 45,
+        "str": 38,
+        "tac": 23,
+        "vis": 49
       },
       "birth": "2005-04-01",
       "contract": null,
@@ -645,10 +671,13 @@
       "name": "Leon Opytz",
       "nation": "GER",
       "number": 35,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 55,

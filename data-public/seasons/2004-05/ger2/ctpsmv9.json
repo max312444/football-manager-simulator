@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -57,7 +60,7 @@
         "ldr": 64,
         "pac": 69,
         "pas": 64,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 65,
         "str": 72,
@@ -76,6 +79,11 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 69,
@@ -124,11 +132,14 @@
       "name": "Janne Saarinan",
       "nation": "FIN",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 68,
@@ -156,18 +167,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 65,
-        "dri": 66,
-        "ldr": 65,
-        "pac": 61,
+        "aer": 50,
+        "com": 66,
+        "dri": 70,
+        "ldr": 63,
+        "pac": 64,
         "pas": 70,
-        "pos": 66,
-        "sho": 61,
-        "sta": 72,
-        "str": 63,
-        "tac": 63,
-        "vis": 65
+        "pos": 51,
+        "sho": 67,
+        "sta": 66,
+        "str": 58,
+        "tac": 45,
+        "vis": 67
       },
       "birth": "1970-01-01",
       "contract": null,
@@ -177,24 +188,24 @@
       "name": "Daniel Borymirov",
       "nation": "BUL",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 9000
     },
     {
       "attrs": {
         "aer": 54,
-        "com": 65,
+        "com": 61,
         "dri": 66,
-        "ldr": 63,
-        "pac": 62,
-        "pas": 70,
-        "pos": 67,
-        "sho": 64,
-        "sta": 67,
-        "str": 64,
-        "tac": 64,
-        "vis": 66
+        "ldr": 61,
+        "pac": 71,
+        "pas": 65,
+        "pos": 65,
+        "sho": 53,
+        "sta": 69,
+        "str": 63,
+        "tac": 66,
+        "vis": 58
       },
       "birth": "1975-01-01",
       "contract": null,
@@ -204,7 +215,7 @@
       "name": "Erol Bulot",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "LWB",
       "verify": true,
       "wage": 9000
     },
@@ -236,19 +247,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 66,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 70,
-        "pos": 60,
-        "sho": 62,
+        "dri": 61,
+        "ldr": 64,
+        "pac": 59,
+        "pas": 69,
+        "pos": 64,
+        "sho": 56,
         "sta": 68,
-        "str": 58,
-        "tac": 59,
-        "vis": 63
+        "str": 63,
+        "tac": 65,
+        "vis": 60
       },
       "birth": "1976-12-01",
       "contract": null,
@@ -259,24 +275,24 @@
       "nation": "NGA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 61,
-        "dri": 49,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 55,
-        "pos": 68,
-        "sho": 34,
-        "sta": 63,
-        "str": 68,
-        "tac": 64,
-        "vis": 51
+        "aer": 55,
+        "com": 59,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 69,
+        "pas": 59,
+        "pos": 63,
+        "sho": 41,
+        "sta": 69,
+        "str": 60,
+        "tac": 61,
+        "vis": 57
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -286,10 +302,13 @@
       "name": "Remo Meier",
       "nation": "SUI",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 66,
@@ -316,6 +335,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -344,18 +366,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 61,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 59,
-        "pas": 63,
-        "pos": 56,
-        "sho": 57,
+        "dri": 55,
+        "ldr": 57,
+        "pac": 56,
+        "pas": 62,
+        "pos": 60,
+        "sho": 51,
         "sta": 61,
-        "str": 54,
-        "tac": 56,
-        "vis": 64
+        "str": 59,
+        "tac": 62,
+        "vis": 61
       },
       "birth": "1969-09-01",
       "contract": null,
@@ -365,11 +387,14 @@
       "name": "Gerhard Poschnar",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -404,7 +429,7 @@
         "ldr": 57,
         "pac": 58,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 56,
         "str": 63,
@@ -424,6 +449,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "LW",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -451,6 +481,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 57,
@@ -477,19 +510,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 54,
+        "com": 61,
         "dri": 44,
         "ldr": 55,
         "pac": 51,
-        "pas": 53,
+        "pas": 60,
         "pos": 60,
         "sho": 35,
-        "sta": 54,
+        "sta": 61,
         "str": 59,
         "tac": 60,
-        "vis": 43
+        "vis": 50
       },
       "birth": "1972-10-01",
       "contract": null,
@@ -499,27 +537,24 @@
       "name": "Marco Gabhardt",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 2500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 47,
         "com": 55,
-        "dri": 52,
+        "dri": 54,
         "ldr": 55,
-        "pac": 60,
-        "pas": 52,
-        "pos": 55,
-        "sho": 38,
-        "sta": 59,
+        "pac": 62,
+        "pas": 53,
+        "pos": 53,
+        "sho": 41,
+        "sta": 61,
         "str": 55,
-        "tac": 56,
-        "vis": 51
+        "tac": 54,
+        "vis": 52
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -529,7 +564,7 @@
       "name": "Marcel Schafar",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LWB",
       "wage": 2500
     },
     {
@@ -666,6 +701,10 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -720,6 +759,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -780,7 +822,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 44,
-        "pos": 32,
+        "pos": 52,
         "sho": 60,
         "sta": 49,
         "str": 54,
@@ -855,6 +897,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 44,

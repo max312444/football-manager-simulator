@@ -128,13 +128,13 @@
         "com": 71,
         "dri": 67,
         "ldr": 57,
-        "pac": 74,
+        "pac": 76,
         "pas": 75,
-        "pos": 67,
+        "pos": 69,
         "sho": 57,
         "sta": 82,
-        "str": 62,
-        "tac": 69,
+        "str": 64,
+        "tac": 71,
         "vis": 69
       },
       "birth": "1989-12-01",
@@ -204,6 +204,10 @@
       "wage": 58000
     },
     {
+      "alt": [
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 63,
@@ -263,13 +267,13 @@
       "attrs": {
         "aer": 68,
         "com": 62,
-        "dri": 58,
+        "dri": 65,
         "ldr": 56,
-        "pac": 62,
-        "pas": 60,
+        "pac": 69,
+        "pas": 67,
         "pos": 66,
         "sho": 40,
-        "sta": 64,
+        "sta": 71,
         "str": 74,
         "tac": 70,
         "vis": 52
@@ -344,21 +348,22 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 48,
-        "com": 69,
-        "dri": 65,
+        "com": 72,
+        "dri": 68,
         "ldr": 80,
-        "pac": 57,
+        "pac": 60,
         "pas": 72,
         "pos": 55,
-        "sho": 59,
+        "sho": 62,
         "sta": 69,
         "str": 59,
         "tac": 53,
-        "vis": 72
+        "vis": 75
       },
       "birth": "1982-06-01",
       "contract": "2016-06-30",
@@ -375,6 +380,10 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 77,
@@ -405,19 +414,22 @@
       "wage": 101500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 75,
-        "com": 67,
+        "com": 72,
         "dri": 65,
         "ldr": 65,
         "pac": 70,
-        "pas": 65,
+        "pas": 70,
         "pos": 71,
         "sho": 55,
-        "sta": 82,
+        "sta": 87,
         "str": 84,
         "tac": 77,
-        "vis": 59
+        "vis": 64
       },
       "birth": "1989-12-01",
       "contract": "2018-06-30",
@@ -431,6 +443,11 @@
       "wage": 101500
     },
     {
+      "alt": [
+        "CM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 73,
@@ -459,8 +476,7 @@
     },
     {
       "alt": [
-        "RM",
-        "LM"
+        "LB"
       ],
       "attrs": {
         "aer": 49,
@@ -484,23 +500,28 @@
       "name": "Stewart Downyng",
       "nation": "ENG",
       "number": 11,
-      "pos": "AM",
+      "pos": "LW",
       "wage": 65500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
         "dri": 73,
         "ldr": 48,
         "pac": 80,
-        "pas": 66,
+        "pas": 74,
         "pos": 45,
         "sho": 63,
-        "sta": 74,
+        "sta": 82,
         "str": 56,
-        "tac": 39,
-        "vis": 60
+        "tac": 47,
+        "vis": 68
       },
       "birth": "1986-05-01",
       "contract": "2017-06-30",
@@ -515,21 +536,22 @@
     },
     {
       "alt": [
-        "RM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 44,
-        "com": 64,
+        "com": 69,
         "dri": 72,
         "ldr": 48,
         "pac": 72,
-        "pas": 70,
+        "pas": 75,
         "pos": 64,
-        "sho": 62,
+        "sho": 67,
         "sta": 72,
         "str": 58,
         "tac": 40,
-        "vis": 68
+        "vis": 73
       },
       "birth": "1985-03-01",
       "contract": "2015-06-30",
@@ -543,19 +565,22 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 56,
+        "com": 59,
         "dri": 58,
         "ldr": 40,
         "pac": 62,
-        "pas": 62,
-        "pos": 60,
+        "pas": 65,
+        "pos": 63,
         "sho": 44,
         "sta": 70,
-        "str": 62,
-        "tac": 62,
-        "vis": 56
+        "str": 65,
+        "tac": 65,
+        "vis": 59
       },
       "birth": "1995-04-01",
       "contract": "2018-06-30",
@@ -570,6 +595,10 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 69,
         "com": 65,
@@ -592,7 +621,7 @@
       "name": "Enner Valencya",
       "nation": "ECU",
       "number": 31,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 56000
     },
     {
@@ -658,17 +687,22 @@
       "wage": 70500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 67,
+        "aer": 60,
+        "com": 81,
         "dri": 78,
         "ldr": 47,
         "pac": 74,
         "pas": 66,
-        "pos": 40,
-        "sho": 74,
+        "pos": 54,
+        "sho": 88,
         "sta": 66,
-        "str": 58,
+        "str": 72,
         "tac": 32,
         "vis": 66
       },

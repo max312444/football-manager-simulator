@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 56,
-        "dri": 44,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 50,
-        "pos": 58,
-        "sho": 31,
-        "sta": 53,
-        "str": 57,
-        "tac": 59,
-        "vis": 43
+        "aer": 47,
+        "com": 54,
+        "dri": 54,
+        "ldr": 48,
+        "pac": 61,
+        "pas": 54,
+        "pos": 53,
+        "sho": 38,
+        "sta": 59,
+        "str": 49,
+        "tac": 56,
+        "vis": 49
       },
       "birth": "1999-04-01",
       "contract": null,
@@ -74,23 +74,23 @@
       "nation": "ESP",
       "nation2": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 54,
-        "dri": 37,
-        "ldr": 50,
-        "pac": 45,
-        "pas": 45,
-        "pos": 58,
-        "sho": 27,
-        "sta": 49,
-        "str": 53,
-        "tac": 56,
-        "vis": 41
+        "aer": 46,
+        "com": 52,
+        "dri": 47,
+        "ldr": 46,
+        "pac": 53,
+        "pas": 49,
+        "pos": 53,
+        "sho": 34,
+        "sta": 55,
+        "str": 45,
+        "tac": 53,
+        "vis": 47
       },
       "birth": "2002-09-01",
       "contract": null,
@@ -101,7 +101,7 @@
       "name": "Guille Buano",
       "nation": "ESP",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5500
     },
     {
@@ -164,7 +164,7 @@
         "ldr": 62,
         "pac": 65,
         "pas": 57,
-        "pos": 46,
+        "pos": 66,
         "sho": 66,
         "sta": 61,
         "str": 64,
@@ -183,6 +183,10 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -216,7 +220,7 @@
         "ldr": 55,
         "pac": 62,
         "pas": 48,
-        "pos": 39,
+        "pos": 59,
         "sho": 62,
         "sta": 58,
         "str": 58,
@@ -235,6 +239,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 58,
@@ -261,6 +268,11 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -289,18 +301,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 55,
-        "dri": 50,
-        "ldr": 50,
-        "pac": 52,
-        "pas": 55,
-        "pos": 50,
-        "sho": 47,
+        "dri": 46,
+        "ldr": 52,
+        "pac": 49,
+        "pas": 54,
+        "pos": 54,
+        "sho": 41,
         "sta": 57,
-        "str": 49,
-        "tac": 50,
-        "vis": 57
+        "str": 54,
+        "tac": 56,
+        "vis": 54
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -310,10 +322,13 @@
       "name": "Andreas Mullar",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -347,7 +362,7 @@
         "ldr": 41,
         "pac": 50,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 53,
         "sta": 47,
         "str": 51,
@@ -393,18 +408,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 55,
-        "dri": 53,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 55,
-        "pos": 55,
-        "sho": 52,
+        "dri": 49,
+        "ldr": 55,
+        "pac": 49,
+        "pas": 54,
+        "pos": 59,
+        "sho": 46,
         "sta": 58,
-        "str": 49,
-        "tac": 48,
-        "vis": 59
+        "str": 54,
+        "tac": 54,
+        "vis": 56
       },
       "birth": "2001-01-01",
       "contract": null,
@@ -414,7 +429,7 @@
       "name": "Merveille Papele",
       "nation": "GER",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
@@ -444,19 +459,22 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 58,
-        "dri": 44,
-        "ldr": 56,
-        "pac": 51,
-        "pas": 54,
-        "pos": 65,
-        "sho": 34,
-        "sta": 59,
-        "str": 64,
-        "tac": 66,
-        "vis": 49
+        "aer": 50,
+        "com": 56,
+        "dri": 54,
+        "ldr": 52,
+        "pac": 59,
+        "pas": 58,
+        "pos": 60,
+        "sho": 41,
+        "sta": 65,
+        "str": 56,
+        "tac": 63,
+        "vis": 55
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -466,10 +484,13 @@
       "name": "Matthias Beder",
       "nation": "GER",
       "number": 26,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 58,
@@ -503,7 +524,7 @@
         "ldr": 50,
         "pac": 53,
         "pas": 44,
-        "pos": 35,
+        "pos": 55,
         "sho": 60,
         "sta": 48,
         "str": 51,
@@ -548,19 +569,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 59,
-        "dri": 44,
-        "ldr": 56,
-        "pac": 52,
-        "pas": 49,
-        "pos": 65,
-        "sho": 30,
-        "sta": 56,
-        "str": 62,
-        "tac": 65,
-        "vis": 45
+        "aer": 49,
+        "com": 57,
+        "dri": 54,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 53,
+        "pos": 60,
+        "sho": 37,
+        "sta": 62,
+        "str": 54,
+        "tac": 62,
+        "vis": 51
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -570,7 +594,7 @@
       "name": "Fabian Hollend",
       "nation": "GER",
       "number": 32,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -581,7 +605,7 @@
         "ldr": 48,
         "pac": 52,
         "pas": 44,
-        "pos": 31,
+        "pos": 51,
         "sho": 59,
         "sta": 50,
         "str": 55,
@@ -633,7 +657,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 52,
-        "pos": 35,
+        "pos": 55,
         "sho": 64,
         "sta": 52,
         "str": 55,
@@ -660,7 +684,7 @@
         "ldr": 40,
         "pac": 48,
         "pas": 36,
-        "pos": 27,
+        "pos": 47,
         "sho": 49,
         "sta": 44,
         "str": 45,

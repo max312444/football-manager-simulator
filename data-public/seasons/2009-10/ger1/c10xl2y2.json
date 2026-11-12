@@ -131,18 +131,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 61,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 53,
+        "aer": 43,
+        "com": 62,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 56,
         "pas": 63,
-        "pos": 57,
-        "sho": 55,
-        "sta": 66,
-        "str": 56,
-        "tac": 54,
-        "vis": 59
+        "pos": 42,
+        "sho": 61,
+        "sta": 60,
+        "str": 51,
+        "tac": 36,
+        "vis": 61
       },
       "birth": "1986-06-01",
       "contract": null,
@@ -152,23 +152,23 @@
       "name": "Meicosuel",
       "nation": "BRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10000
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 65,
-        "dri": 52,
-        "ldr": 63,
-        "pac": 58,
-        "pas": 55,
-        "pos": 69,
-        "sho": 35,
-        "sta": 60,
-        "str": 67,
-        "tac": 65,
-        "vis": 48
+        "aer": 52,
+        "com": 63,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 66,
+        "pas": 59,
+        "pos": 64,
+        "sho": 42,
+        "sta": 66,
+        "str": 59,
+        "tac": 62,
+        "vis": 54
       },
       "birth": "1982-11-01",
       "contract": null,
@@ -178,7 +178,7 @@
       "name": "Christian Eychner",
       "nation": "GER",
       "number": 8,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
@@ -189,7 +189,7 @@
         "ldr": 72,
         "pac": 73,
         "pas": 67,
-        "pos": 56,
+        "pos": 76,
         "sho": 78,
         "sta": 68,
         "str": 77,
@@ -209,19 +209,23 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 66,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 59,
+        "aer": 50,
+        "com": 67,
+        "dri": 71,
+        "ldr": 61,
+        "pac": 62,
         "pas": 65,
-        "pos": 63,
-        "sho": 61,
-        "sta": 71,
-        "str": 60,
-        "tac": 62,
-        "vis": 67
+        "pos": 48,
+        "sho": 67,
+        "sta": 65,
+        "str": 55,
+        "tac": 44,
+        "vis": 69
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -231,23 +235,26 @@
       "name": "Carlos Eduardu",
       "nation": "BRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 20000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 62,
-        "dri": 60,
-        "ldr": 53,
-        "pac": 61,
-        "pas": 51,
-        "pos": 40,
-        "sho": 64,
-        "sta": 53,
-        "str": 58,
-        "tac": 28,
-        "vis": 48
+        "aer": 45,
+        "com": 59,
+        "dri": 65,
+        "ldr": 51,
+        "pac": 65,
+        "pas": 57,
+        "pos": 42,
+        "sho": 59,
+        "sta": 55,
+        "str": 48,
+        "tac": 34,
+        "vis": 54
       },
       "birth": "1991-04-01",
       "contract": null,
@@ -258,7 +265,7 @@
       "nation": "GER",
       "nation2": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 6000
     },
     {
@@ -289,6 +296,10 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -322,7 +333,7 @@
         "ldr": 75,
         "pac": 80,
         "pas": 72,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 73,
         "str": 75,
@@ -348,7 +359,7 @@
         "ldr": 67,
         "pac": 70,
         "pas": 64,
-        "pos": 53,
+        "pos": 73,
         "sho": 73,
         "sta": 72,
         "str": 74,
@@ -368,9 +379,6 @@
       "wage": 28000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 63,
@@ -398,7 +406,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 61,
@@ -426,6 +435,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 73,
@@ -479,18 +491,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 70,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 72,
-        "pos": 64,
-        "sho": 64,
-        "sta": 73,
-        "str": 65,
-        "tac": 62,
-        "vis": 71
+        "aer": 69,
+        "com": 68,
+        "dri": 53,
+        "ldr": 65,
+        "pac": 62,
+        "pas": 62,
+        "pos": 69,
+        "sho": 43,
+        "sta": 67,
+        "str": 72,
+        "tac": 69,
+        "vis": 56
       },
       "birth": "1988-06-01",
       "contract": null,
@@ -500,23 +512,23 @@
       "name": "Isaac Vursah",
       "nation": "GHA",
       "number": 25,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 26000
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 69,
-        "dri": 59,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 62,
-        "pos": 76,
-        "sho": 45,
-        "sta": 68,
-        "str": 71,
-        "tac": 75,
-        "vis": 55
+        "aer": 62,
+        "com": 67,
+        "dri": 69,
+        "ldr": 66,
+        "pac": 77,
+        "pas": 66,
+        "pos": 71,
+        "sho": 52,
+        "sta": 74,
+        "str": 63,
+        "tac": 72,
+        "vis": 61
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -526,7 +538,7 @@
       "name": "Andreas Ibartsberger",
       "nation": "AUT",
       "number": 26,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 27500
     },
     {
@@ -583,6 +595,9 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -610,18 +625,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 60,
-        "dri": 59,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 67,
-        "pos": 63,
-        "sho": 57,
+        "dri": 55,
+        "ldr": 63,
+        "pac": 57,
+        "pas": 66,
+        "pos": 67,
+        "sho": 51,
         "sta": 67,
-        "str": 60,
-        "tac": 61,
-        "vis": 64
+        "str": 65,
+        "tac": 67,
+        "vis": 61
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -632,10 +647,14 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 36,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,

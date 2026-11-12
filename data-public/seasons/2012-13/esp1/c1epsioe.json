@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 63,
-        "dri": 66,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 70,
-        "pos": 64,
-        "sho": 58,
+        "dri": 62,
+        "ldr": 67,
+        "pac": 61,
+        "pas": 69,
+        "pos": 68,
+        "sho": 52,
         "sta": 66,
-        "str": 58,
-        "tac": 63,
-        "vis": 67
+        "str": 63,
+        "tac": 69,
+        "vis": 64
       },
       "birth": "1988-11-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Joao Vyctor",
       "nation": "BRA",
       "number": 3,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 24000
     },
     {
@@ -103,6 +103,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -151,23 +154,26 @@
       "name": "Antonio Lupez",
       "nation": "ESP",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 40000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 62,
-        "dri": 60,
-        "ldr": 62,
-        "pac": 59,
-        "pas": 66,
-        "pos": 60,
-        "sho": 56,
-        "sta": 64,
-        "str": 56,
-        "tac": 59,
-        "vis": 61
+        "aer": 49,
+        "com": 60,
+        "dri": 65,
+        "ldr": 58,
+        "pac": 68,
+        "pas": 62,
+        "pos": 42,
+        "sho": 60,
+        "sta": 60,
+        "str": 51,
+        "tac": 39,
+        "vis": 58
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -177,23 +183,27 @@
       "name": "Michael Pereire",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 16500
     },
     {
+      "alt": [
+        "RB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 72,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 75,
-        "pas": 63,
-        "pos": 54,
-        "sho": 74,
-        "sta": 72,
-        "str": 70,
-        "tac": 44,
-        "vis": 62
+        "aer": 57,
+        "com": 69,
+        "dri": 74,
+        "ldr": 68,
+        "pac": 79,
+        "pas": 69,
+        "pos": 56,
+        "sho": 69,
+        "sta": 74,
+        "str": 60,
+        "tac": 50,
+        "vis": 68
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -204,7 +214,7 @@
       "nation": "ESP",
       "nation2": "EQG",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 34000
     },
     {
@@ -215,7 +225,7 @@
         "ldr": 73,
         "pac": 78,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 77,
         "sta": 69,
         "str": 75,
@@ -234,6 +244,10 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -339,6 +353,11 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 62,
@@ -372,7 +391,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 67,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 66,
         "str": 74,
@@ -391,6 +410,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -417,19 +439,22 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 69,
-        "dri": 72,
-        "ldr": 66,
-        "pac": 64,
-        "pas": 71,
-        "pos": 69,
-        "sho": 65,
-        "sta": 73,
-        "str": 65,
-        "tac": 67,
-        "vis": 74
+        "aer": 57,
+        "com": 67,
+        "dri": 77,
+        "ldr": 62,
+        "pac": 73,
+        "pas": 67,
+        "pos": 51,
+        "sho": 69,
+        "sta": 69,
+        "str": 60,
+        "tac": 47,
+        "vis": 71
       },
       "birth": "1986-11-01",
       "contract": null,
@@ -439,24 +464,27 @@
       "name": "Alejandro Alfaru",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 40000
     },
     {
-      "alt": [],
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 76,
-        "dri": 77,
-        "ldr": 69,
-        "pac": 79,
-        "pas": 65,
-        "pos": 51,
-        "sho": 81,
-        "sta": 69,
-        "str": 73,
-        "tac": 45,
-        "vis": 67
+        "aer": 62,
+        "com": 73,
+        "dri": 82,
+        "ldr": 67,
+        "pac": 83,
+        "pas": 71,
+        "pos": 53,
+        "sho": 76,
+        "sta": 71,
+        "str": 63,
+        "tac": 51,
+        "vis": 73
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -466,23 +494,23 @@
       "name": "Javier Arizmandi",
       "nation": "ESP",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 40000
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 56,
-        "dri": 46,
-        "ldr": 59,
-        "pac": 56,
-        "pas": 54,
-        "pos": 63,
-        "sho": 33,
-        "sta": 57,
-        "str": 59,
-        "tac": 59,
-        "vis": 47
+        "aer": 52,
+        "com": 54,
+        "dri": 56,
+        "ldr": 55,
+        "pac": 64,
+        "pas": 58,
+        "pos": 58,
+        "sho": 40,
+        "sta": 63,
+        "str": 51,
+        "tac": 56,
+        "vis": 53
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -492,7 +520,7 @@
       "name": "Kevin Gercia",
       "nation": "ESP",
       "number": 23,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 9000
     },
     {
@@ -523,7 +551,9 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 58,

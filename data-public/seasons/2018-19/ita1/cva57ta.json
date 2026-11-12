@@ -26,18 +26,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 66,
-        "dri": 58,
-        "ldr": 58,
-        "pac": 61,
-        "pas": 66,
-        "pos": 60,
-        "sho": 56,
+        "dri": 54,
+        "ldr": 60,
+        "pac": 58,
+        "pas": 65,
+        "pos": 64,
+        "sho": 50,
         "sta": 66,
-        "str": 59,
-        "tac": 59,
-        "vis": 67
+        "str": 64,
+        "tac": 65,
+        "vis": 64
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -47,7 +47,7 @@
       "name": "Francesco Magnenelli",
       "nation": "ITA",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 19000
     },
     {
@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 55,
-        "dri": 43,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 49,
-        "pos": 60,
-        "sho": 29,
-        "sta": 53,
-        "str": 58,
-        "tac": 59,
-        "vis": 45
+        "aer": 44,
+        "com": 53,
+        "dri": 53,
+        "ldr": 51,
+        "pac": 58,
+        "pas": 53,
+        "pos": 55,
+        "sho": 36,
+        "sta": 59,
+        "str": 50,
+        "tac": 56,
+        "vis": 51
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -101,26 +101,23 @@
       "name": "Rogeriu",
       "nation": "BRA",
       "number": 6,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 70,
-        "com": 77,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 70,
+        "aer": 64,
+        "com": 78,
+        "dri": 81,
+        "ldr": 70,
+        "pac": 73,
         "pas": 80,
-        "pos": 79,
-        "sho": 73,
-        "sta": 79,
-        "str": 73,
-        "tac": 74,
-        "vis": 76
+        "pos": 64,
+        "sho": 79,
+        "sta": 73,
+        "str": 68,
+        "tac": 56,
+        "vis": 78
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -130,7 +127,7 @@
       "name": "Filip Đoricic",
       "nation": "SRB",
       "number": 9,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 51500
     },
     {
@@ -141,7 +138,7 @@
         "ldr": 66,
         "pac": 68,
         "pas": 60,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 64,
         "str": 68,
@@ -160,6 +157,9 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -208,7 +208,7 @@
       "name": "Federico Paluso",
       "nation": "ITA",
       "number": 13,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 24000
     },
     {
@@ -234,23 +234,28 @@
       "name": "Leonardo Sernicole",
       "nation": "ITA",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 5000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 56,
-        "dri": 55,
+        "com": 60,
+        "dri": 62,
         "ldr": 50,
         "pac": 56,
-        "pas": 45,
-        "pos": 35,
-        "sho": 57,
+        "pas": 56,
+        "pos": 55,
+        "sho": 61,
         "sta": 53,
         "str": 55,
         "tac": 27,
-        "vis": 45
+        "vis": 56
       },
       "birth": "1999-03-01",
       "contract": null,
@@ -260,23 +265,27 @@
       "name": "Jens Odgaerd",
       "nation": "DEN",
       "number": 19,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 5000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 61,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 59,
+        "aer": 50,
+        "com": 62,
+        "dri": 65,
+        "ldr": 59,
+        "pac": 62,
         "pas": 68,
-        "pos": 59,
-        "sho": 58,
-        "sta": 68,
-        "str": 58,
-        "tac": 58,
-        "vis": 62
+        "pos": 44,
+        "sho": 64,
+        "sta": 62,
+        "str": 53,
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -287,7 +296,7 @@
       "nation": "CIV",
       "nation2": "FRA",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19000
     },
     {
@@ -344,19 +353,23 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 76,
-        "dri": 74,
-        "ldr": 67,
-        "pac": 73,
-        "pas": 67,
-        "pos": 55,
-        "sho": 80,
-        "sta": 75,
-        "str": 75,
-        "tac": 46,
-        "vis": 69
+        "aer": 60,
+        "com": 73,
+        "dri": 79,
+        "ldr": 65,
+        "pac": 77,
+        "pas": 73,
+        "pos": 57,
+        "sho": 75,
+        "sta": 77,
+        "str": 65,
+        "tac": 52,
+        "vis": 75
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -366,11 +379,13 @@
       "name": "Domenico Barardi",
       "nation": "ITA",
       "number": 25,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 49500
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -407,7 +422,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 61,
-        "pos": 51,
+        "pos": 71,
         "sho": 72,
         "sta": 66,
         "str": 74,
@@ -433,7 +448,7 @@
         "ldr": 68,
         "pac": 69,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 69,
         "str": 73,
@@ -479,18 +494,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 69,
-        "dri": 73,
-        "ldr": 70,
-        "pac": 68,
-        "pas": 71,
-        "pos": 71,
-        "sho": 66,
+        "dri": 69,
+        "ldr": 72,
+        "pac": 65,
+        "pas": 70,
+        "pos": 75,
+        "sho": 60,
         "sta": 73,
-        "str": 64,
-        "tac": 68,
-        "vis": 75
+        "str": 69,
+        "tac": 74,
+        "vis": 72
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -501,23 +516,27 @@
       "nation": "GHA",
       "nation2": "ITA",
       "number": 32,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 48500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 64,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 62,
-        "pas": 58,
-        "pos": 44,
-        "sho": 70,
-        "sta": 63,
-        "str": 63,
-        "tac": 34,
-        "vis": 59
+        "aer": 46,
+        "com": 61,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 64,
+        "pos": 46,
+        "sho": 65,
+        "sta": 65,
+        "str": 53,
+        "tac": 40,
+        "vis": 65
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -527,7 +546,7 @@
       "name": "Federico Di Francescu",
       "nation": "ITA",
       "number": 34,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 14000
     },
     {
@@ -583,19 +602,22 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 63,
-        "dri": 64,
+        "com": 65,
+        "dri": 66,
         "ldr": 60,
         "pac": 60,
-        "pas": 66,
+        "pas": 68,
         "pos": 66,
-        "sho": 57,
-        "sta": 70,
+        "sho": 59,
+        "sta": 72,
         "str": 64,
         "tac": 64,
-        "vis": 64
+        "vis": 66
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -611,18 +633,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 73,
-        "dri": 71,
-        "ldr": 65,
-        "pac": 66,
-        "pas": 75,
-        "pos": 71,
-        "sho": 68,
+        "dri": 67,
+        "ldr": 67,
+        "pac": 63,
+        "pas": 74,
+        "pos": 75,
+        "sho": 62,
         "sta": 70,
-        "str": 63,
-        "tac": 67,
-        "vis": 71
+        "str": 68,
+        "tac": 73,
+        "vis": 68
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -633,7 +655,7 @@
       "name": "Manuel Locatalli",
       "nation": "ITA",
       "number": 73,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 45000
     },
     {
@@ -664,18 +686,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 56,
-        "dri": 41,
-        "ldr": 55,
-        "pac": 49,
-        "pas": 46,
-        "pos": 59,
-        "sho": 32,
-        "sta": 50,
-        "str": 56,
-        "tac": 58,
-        "vis": 45
+        "aer": 45,
+        "com": 54,
+        "dri": 51,
+        "ldr": 51,
+        "pac": 57,
+        "pas": 50,
+        "pos": 54,
+        "sho": 39,
+        "sta": 56,
+        "str": 48,
+        "tac": 55,
+        "vis": 51
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -685,23 +707,26 @@
       "name": "Claud Adjapung",
       "nation": "ITA",
       "number": 98,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 53,
-        "dri": 48,
-        "ldr": 48,
-        "pac": 56,
-        "pas": 46,
-        "pos": 31,
-        "sho": 53,
-        "sta": 48,
-        "str": 50,
-        "tac": 23,
-        "vis": 42
+        "aer": 35,
+        "com": 50,
+        "dri": 53,
+        "ldr": 46,
+        "pac": 60,
+        "pas": 52,
+        "pos": 33,
+        "sho": 48,
+        "sta": 50,
+        "str": 40,
+        "tac": 29,
+        "vis": 48
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -711,7 +736,7 @@
       "name": "Enrico Brignole",
       "nation": "ITA",
       "number": 99,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
@@ -722,7 +747,7 @@
         "ldr": 38,
         "pac": 46,
         "pas": 37,
-        "pos": 20,
+        "pos": 40,
         "sho": 48,
         "sta": 40,
         "str": 44,

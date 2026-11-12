@@ -24,9 +24,6 @@
   },
   "squad": [
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 83,
         "com": 76,
@@ -60,7 +57,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 68,
-        "pos": 56,
+        "pos": 76,
         "sho": 76,
         "sta": 74,
         "str": 73,
@@ -106,18 +103,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 67,
-        "dri": 64,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 72,
-        "pos": 63,
-        "sho": 63,
+        "dri": 60,
+        "ldr": 63,
+        "pac": 58,
+        "pas": 71,
+        "pos": 67,
+        "sho": 57,
         "sta": 69,
-        "str": 64,
-        "tac": 64,
-        "vis": 66
+        "str": 69,
+        "tac": 70,
+        "vis": 63
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -127,10 +124,15 @@
       "name": "Jeremy Toulelan",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -165,7 +167,7 @@
         "ldr": 60,
         "pac": 70,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 69,
         "sta": 66,
         "str": 65,
@@ -184,22 +186,19 @@
       "wage": 10500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 68,
+        "aer": 62,
+        "com": 69,
         "dri": 64,
-        "ldr": 62,
-        "pac": 63,
-        "pas": 66,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 56,
         "pos": 65,
-        "sho": 58,
-        "sta": 66,
-        "str": 62,
-        "tac": 60,
-        "vis": 66
+        "sho": 67,
+        "sta": 60,
+        "str": 67,
+        "tac": 34,
+        "vis": 57
       },
       "birth": "1980-05-01",
       "contract": null,
@@ -209,7 +208,7 @@
       "name": "Marama Vahiroa",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 12000
     },
     {
@@ -240,18 +239,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 63,
-        "dri": 48,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 59,
-        "pos": 69,
-        "sho": 35,
-        "sta": 61,
-        "str": 68,
-        "tac": 70,
-        "vis": 52
+        "aer": 52,
+        "com": 61,
+        "dri": 58,
+        "ldr": 58,
+        "pac": 68,
+        "pas": 63,
+        "pos": 64,
+        "sho": 42,
+        "sta": 67,
+        "str": 60,
+        "tac": 67,
+        "vis": 58
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -261,7 +260,7 @@
       "name": "Sylvain Armend",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8000
     },
     {
@@ -272,7 +271,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 56,
-        "pos": 41,
+        "pos": 61,
         "sho": 68,
         "sta": 60,
         "str": 64,
@@ -293,6 +292,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 62,
@@ -320,18 +322,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 58,
-        "ldr": 61,
-        "pac": 57,
+        "aer": 45,
+        "com": 62,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 60,
         "pas": 64,
-        "pos": 60,
-        "sho": 59,
-        "sta": 65,
-        "str": 58,
-        "tac": 56,
-        "vis": 65
+        "pos": 45,
+        "sho": 65,
+        "sta": 59,
+        "str": 53,
+        "tac": 38,
+        "vis": 67
       },
       "birth": "1971-12-01",
       "contract": null,
@@ -341,10 +343,13 @@
       "name": "Stephane Zieni",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -452,21 +457,18 @@
       "wage": 4500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 46,
-        "com": 54,
-        "dri": 62,
-        "ldr": 54,
-        "pac": 63,
-        "pas": 54,
-        "pos": 38,
-        "sho": 59,
-        "sta": 59,
-        "str": 46,
-        "tac": 33,
+        "aer": 58,
+        "com": 56,
+        "dri": 53,
+        "ldr": 60,
+        "pac": 51,
+        "pas": 57,
+        "pos": 60,
+        "sho": 49,
+        "sta": 63,
+        "str": 56,
+        "tac": 59,
         "vis": 56
       },
       "birth": "1979-08-01",
@@ -477,7 +479,7 @@
       "name": "Charles Devyneau",
       "nation": "FRA",
       "number": null,
-      "pos": "LW",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
@@ -489,7 +491,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 57,
         "str": 57,
@@ -508,6 +510,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 62,
@@ -541,7 +546,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 49,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 56,
         "str": 62,
@@ -586,6 +591,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -638,19 +646,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
-        "com": 54,
-        "dri": 52,
+        "com": 56,
+        "dri": 54,
         "ldr": 53,
         "pac": 51,
-        "pas": 62,
+        "pas": 64,
         "pos": 58,
-        "sho": 49,
-        "sta": 61,
+        "sho": 51,
+        "sta": 63,
         "str": 54,
         "tac": 54,
-        "vis": 55
+        "vis": 57
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -665,6 +676,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 53,
@@ -725,7 +739,7 @@
         "ldr": 47,
         "pac": 56,
         "pas": 45,
-        "pos": 33,
+        "pos": 53,
         "sho": 53,
         "sta": 52,
         "str": 56,
@@ -745,6 +759,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 49,
@@ -806,7 +825,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 42,
-        "pos": 29,
+        "pos": 49,
         "sho": 55,
         "sta": 48,
         "str": 50,
@@ -832,7 +851,7 @@
         "ldr": 44,
         "pac": 51,
         "pas": 47,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 47,
         "str": 54,
@@ -851,6 +870,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -878,6 +900,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -911,7 +936,7 @@
         "ldr": 48,
         "pac": 49,
         "pas": 42,
-        "pos": 29,
+        "pos": 49,
         "sho": 54,
         "sta": 47,
         "str": 50,

@@ -51,6 +51,11 @@
       "wage": 63500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 70,
@@ -100,13 +105,10 @@
       "nation": "CHI",
       "nation2": "SWE",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 47000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 65,
         "com": 72,
@@ -133,18 +135,21 @@
       "wage": 63500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 62,
+        "aer": 64,
+        "com": 66,
         "dri": 62,
         "ldr": 60,
         "pac": 69,
         "pas": 60,
-        "pos": 63,
+        "pos": 67,
         "sho": 47,
         "sta": 68,
-        "str": 64,
-        "tac": 67,
+        "str": 68,
+        "tac": 71,
         "vis": 62
       },
       "birth": "1990-08-01",
@@ -156,23 +161,23 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 5,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 21500
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 67,
-        "dri": 71,
-        "ldr": 64,
-        "pac": 67,
-        "pas": 69,
-        "pos": 65,
-        "sho": 67,
+        "dri": 67,
+        "ldr": 66,
+        "pac": 64,
+        "pas": 68,
+        "pos": 69,
+        "sho": 61,
         "sta": 74,
-        "str": 66,
-        "tac": 65,
-        "vis": 74
+        "str": 71,
+        "tac": 71,
+        "vis": 71
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -183,23 +188,26 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 39500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 63,
+        "com": 64,
         "dri": 64,
         "ldr": 59,
         "pac": 63,
-        "pas": 67,
+        "pas": 68,
         "pos": 61,
         "sho": 62,
         "sta": 69,
         "str": 62,
-        "tac": 58,
-        "vis": 64
+        "tac": 59,
+        "vis": 65
       },
       "birth": "1989-12-01",
       "contract": null,
@@ -215,18 +223,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 73,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 64,
-        "pas": 70,
-        "pos": 72,
-        "sho": 67,
+        "dri": 63,
+        "ldr": 66,
+        "pac": 61,
+        "pas": 69,
+        "pos": 76,
+        "sho": 61,
         "sta": 73,
-        "str": 65,
-        "tac": 67,
-        "vis": 72
+        "str": 70,
+        "tac": 73,
+        "vis": 69
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -236,7 +244,7 @@
       "name": "Manuel Schmiedebech",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 41500
     },
     {
@@ -247,7 +255,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 74,
         "sta": 72,
         "str": 75,
@@ -266,19 +274,23 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 82,
-        "dri": 75,
-        "ldr": 79,
-        "pac": 75,
+        "aer": 61,
+        "com": 83,
+        "dri": 79,
+        "ldr": 77,
+        "pac": 78,
         "pas": 85,
-        "pos": 80,
-        "sho": 77,
-        "sta": 81,
-        "str": 75,
-        "tac": 74,
-        "vis": 82
+        "pos": 65,
+        "sho": 83,
+        "sta": 75,
+        "str": 70,
+        "tac": 56,
+        "vis": 84
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -288,23 +300,26 @@
       "name": "Hiroshi Kiyotaka",
       "nation": "JPN",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 63500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 64,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 67,
-        "pos": 67,
-        "sho": 62,
-        "sta": 69,
-        "str": 61,
-        "tac": 62,
-        "vis": 69
+        "aer": 52,
+        "com": 62,
+        "dri": 71,
+        "ldr": 59,
+        "pac": 72,
+        "pas": 63,
+        "pos": 49,
+        "sho": 66,
+        "sta": 65,
+        "str": 56,
+        "tac": 42,
+        "vis": 66
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -314,7 +329,7 @@
       "name": "Felix Kleus",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 27500
     },
     {
@@ -345,18 +360,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 66,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 62,
-        "pas": 70,
-        "pos": 70,
-        "sho": 66,
+        "dri": 64,
+        "ldr": 70,
+        "pac": 59,
+        "pas": 69,
+        "pos": 74,
+        "sho": 60,
         "sta": 74,
-        "str": 63,
-        "tac": 62,
-        "vis": 68
+        "str": 68,
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -366,12 +381,12 @@
       "name": "Andre Hoffmenn",
       "nation": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 35500
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
         "aer": 55,
@@ -400,7 +415,7 @@
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 77,
@@ -455,18 +470,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 58,
-        "dri": 51,
-        "ldr": 52,
-        "pac": 48,
-        "pas": 57,
-        "pos": 54,
-        "sho": 51,
+        "dri": 47,
+        "ldr": 54,
+        "pac": 45,
+        "pas": 56,
+        "pos": 58,
+        "sho": 45,
         "sta": 59,
-        "str": 49,
-        "tac": 48,
-        "vis": 56
+        "str": 54,
+        "tac": 54,
+        "vis": 53
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -476,13 +491,10 @@
       "name": "Maurice Hyrsch",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 77,
         "com": 69,
@@ -516,7 +528,7 @@
         "ldr": 60,
         "pac": 67,
         "pas": 58,
-        "pos": 49,
+        "pos": 69,
         "sho": 70,
         "sta": 68,
         "str": 66,
@@ -589,18 +601,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 56,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 53,
+        "aer": 41,
+        "com": 57,
+        "dri": 60,
+        "ldr": 53,
+        "pac": 56,
         "pas": 57,
-        "pos": 56,
-        "sho": 52,
-        "sta": 59,
-        "str": 53,
-        "tac": 53,
-        "vis": 60
+        "pos": 41,
+        "sho": 58,
+        "sta": 53,
+        "str": 48,
+        "tac": 35,
+        "vis": 62
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -610,7 +622,7 @@
       "name": "Tim Diarssen",
       "nation": "GER",
       "number": 34,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9500
     },
     {
@@ -621,7 +633,7 @@
         "ldr": 59,
         "pac": 69,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 59,
         "str": 67,
@@ -641,6 +653,10 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 64,
@@ -674,7 +690,7 @@
         "ldr": 52,
         "pac": 62,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 55,
         "str": 61,
@@ -701,7 +717,7 @@
         "ldr": 68,
         "pac": 76,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 75,
         "str": 74,

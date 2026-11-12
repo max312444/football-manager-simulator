@@ -75,6 +75,9 @@
       "wage": 79000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 70,
@@ -219,7 +222,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 50,
@@ -250,6 +254,9 @@
       "wage": 80500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 70,
@@ -278,7 +285,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 50,
@@ -302,22 +310,22 @@
       "name": "Clinton N'Jia",
       "nation": "CMR",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 33000
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 82,
+        "aer": 79,
+        "com": 85,
         "dri": 76,
         "ldr": 70,
-        "pac": 72,
+        "pac": 75,
         "pas": 76,
-        "pos": 50,
-        "sho": 86,
+        "pos": 53,
+        "sho": 89,
         "sta": 82,
-        "str": 80,
+        "str": 83,
         "tac": 46,
         "vis": 76
       },
@@ -450,6 +458,9 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 86,
@@ -476,22 +487,19 @@
       "wage": 190500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
-        "com": 76,
+        "com": 77,
         "dri": 78,
         "ldr": 58,
         "pac": 74,
-        "pas": 74,
+        "pas": 75,
         "pos": 62,
-        "sho": 74,
+        "sho": 75,
         "sta": 82,
         "str": 70,
         "tac": 62,
-        "vis": 74
+        "vis": 75
       },
       "birth": "1996-04-01",
       "contract": "2020-06-30",
@@ -507,21 +515,22 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 66,
-        "com": 70,
+        "com": 73,
         "dri": 74,
         "ldr": 54,
         "pac": 72,
-        "pas": 72,
+        "pas": 75,
         "pos": 56,
-        "sho": 72,
+        "sho": 75,
         "sta": 74,
         "str": 72,
         "tac": 50,
-        "vis": 68
+        "vis": 71
       },
       "birth": "1989-08-01",
       "contract": "2019-06-30",
@@ -531,10 +540,14 @@
       "name": "Nacer Chadly",
       "nation": "BEL",
       "number": 22,
-      "pos": "LM",
+      "pos": "AM",
       "wage": 82000
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 82,
@@ -566,21 +579,22 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 46,
-        "com": 60,
+        "com": 70,
         "dri": 70,
         "ldr": 40,
         "pac": 72,
-        "pas": 64,
+        "pas": 74,
         "pos": 48,
-        "sho": 56,
+        "sho": 66,
         "sta": 70,
         "str": 62,
         "tac": 46,
-        "vis": 62
+        "vis": 72
       },
       "birth": "1997-04-01",
       "contract": "2018-06-30",
@@ -622,6 +636,10 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 66,
@@ -649,6 +667,9 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 70,
@@ -682,11 +703,11 @@
         "ldr": 54,
         "pac": 62,
         "pas": 74,
-        "pos": 66,
+        "pos": 68,
         "sho": 58,
         "sta": 74,
-        "str": 70,
-        "tac": 68,
+        "str": 72,
+        "tac": 70,
         "vis": 70
       },
       "birth": "1994-11-01",
@@ -697,7 +718,7 @@
       "name": "Nabil Benteleb",
       "nation": "ALG",
       "number": 42,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 77500
     }

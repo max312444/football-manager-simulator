@@ -77,6 +77,9 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 65,
@@ -104,6 +107,9 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 62,
@@ -132,21 +138,21 @@
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 79,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 74,
-        "pas": 79,
-        "pos": 76,
-        "sho": 73,
+        "dri": 69,
+        "ldr": 73,
+        "pac": 71,
+        "pas": 78,
+        "pos": 80,
+        "sho": 67,
         "sta": 78,
-        "str": 69,
-        "tac": 70,
-        "vis": 79
+        "str": 74,
+        "tac": 76,
+        "vis": 76
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -156,23 +162,26 @@
       "name": "Hugo Guillemon",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 104500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 75,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 66,
-        "pas": 73,
-        "pos": 70,
-        "sho": 65,
-        "sta": 79,
-        "str": 72,
-        "tac": 73,
-        "vis": 78
+        "aer": 61,
+        "com": 73,
+        "dri": 76,
+        "ldr": 65,
+        "pac": 75,
+        "pas": 69,
+        "pos": 52,
+        "sho": 69,
+        "sta": 75,
+        "str": 67,
+        "tac": 53,
+        "vis": 75
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -182,10 +191,13 @@
       "name": "Sergi Canus",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 104500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 58,
@@ -219,7 +231,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 54,
-        "pos": 43,
+        "pos": 63,
         "sho": 71,
         "sta": 58,
         "str": 62,
@@ -238,18 +250,21 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 60,
         "dri": 63,
         "ldr": 58,
         "pac": 61,
-        "pas": 67,
+        "pas": 68,
         "pos": 63,
         "sho": 60,
-        "sta": 63,
+        "sta": 64,
         "str": 57,
-        "tac": 56,
+        "tac": 57,
         "vis": 64
       },
       "birth": "2000-05-01",
@@ -271,7 +286,7 @@
         "ldr": 70,
         "pac": 74,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 82,
         "sta": 74,
         "str": 75,
@@ -292,18 +307,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 65,
-        "dri": 51,
-        "ldr": 61,
-        "pac": 58,
-        "pas": 55,
-        "pos": 68,
-        "sho": 39,
-        "sta": 60,
-        "str": 65,
-        "tac": 70,
-        "vis": 54
+        "aer": 53,
+        "com": 63,
+        "dri": 61,
+        "ldr": 57,
+        "pac": 66,
+        "pas": 59,
+        "pos": 63,
+        "sho": 46,
+        "sta": 66,
+        "str": 57,
+        "tac": 67,
+        "vis": 60
       },
       "birth": "1999-03-01",
       "contract": null,
@@ -313,7 +328,7 @@
       "name": "Thierry Correya",
       "nation": "POR",
       "number": 12,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 31000
     },
     {
@@ -365,7 +380,7 @@
       "name": "Jose Geya",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 104500
     },
     {
@@ -395,19 +410,23 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 68,
-        "dri": 68,
-        "ldr": 59,
-        "pac": 69,
-        "pas": 59,
-        "pos": 42,
-        "sho": 69,
-        "sta": 60,
-        "str": 70,
-        "tac": 40,
-        "vis": 59
+        "aer": 48,
+        "com": 65,
+        "dri": 73,
+        "ldr": 57,
+        "pac": 73,
+        "pas": 65,
+        "pos": 44,
+        "sho": 64,
+        "sta": 62,
+        "str": 60,
+        "tac": 46,
+        "vis": 65
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -417,7 +436,7 @@
       "name": "Diego Lopaz",
       "nation": "ESP",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 35000
     },
     {
@@ -428,7 +447,7 @@
         "ldr": 66,
         "pac": 69,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 67,
         "str": 70,
@@ -448,6 +467,10 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -475,18 +498,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 60,
-        "dri": 56,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 61,
-        "pos": 57,
-        "sho": 58,
+        "dri": 52,
+        "ldr": 62,
+        "pac": 56,
+        "pas": 60,
+        "pos": 61,
+        "sho": 52,
         "sta": 64,
-        "str": 57,
-        "tac": 58,
-        "vis": 60
+        "str": 62,
+        "tac": 64,
+        "vis": 57
       },
       "birth": "2001-05-01",
       "contract": null,
@@ -497,7 +520,7 @@
       "name": "Enzo Berrenechea",
       "nation": "ARG",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 27500
     },
     {
@@ -529,18 +552,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 53,
-        "dri": 41,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 51,
-        "pos": 59,
-        "sho": 28,
-        "sta": 54,
-        "str": 57,
-        "tac": 60,
-        "vis": 46
+        "aer": 45,
+        "com": 51,
+        "dri": 51,
+        "ldr": 53,
+        "pac": 59,
+        "pas": 55,
+        "pos": 54,
+        "sho": 35,
+        "sta": 60,
+        "str": 49,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "2003-01-01",
       "contract": null,
@@ -550,23 +573,26 @@
       "name": "Jesus Vazquaz",
       "nation": "ESP",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 68,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 64,
-        "pas": 56,
-        "pos": 42,
-        "sho": 65,
-        "sta": 62,
-        "str": 68,
-        "tac": 35,
-        "vis": 54
+        "aer": 52,
+        "com": 65,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 62,
+        "pos": 44,
+        "sho": 60,
+        "sta": 64,
+        "str": 58,
+        "tac": 41,
+        "vis": 60
       },
       "birth": "1993-10-01",
       "contract": null,
@@ -576,23 +602,26 @@
       "name": "Luis Rioje",
       "nation": "ESP",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 27500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 60,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 56,
-        "pos": 58,
-        "sho": 52,
-        "sta": 59,
-        "str": 50,
-        "tac": 56,
-        "vis": 61
+        "aer": 43,
+        "com": 58,
+        "dri": 61,
+        "ldr": 49,
+        "pac": 61,
+        "pas": 52,
+        "pos": 40,
+        "sho": 56,
+        "sta": 55,
+        "str": 45,
+        "tac": 36,
+        "vis": 58
       },
       "birth": "2002-09-01",
       "contract": null,
@@ -602,7 +631,7 @@
       "name": "Fran Parez",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 19500
     },
     {
@@ -659,19 +688,22 @@
       "wage": 104500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 58,
-        "dri": 56,
-        "ldr": 51,
-        "pac": 58,
-        "pas": 50,
-        "pos": 40,
-        "sho": 61,
-        "sta": 54,
-        "str": 61,
-        "tac": 28,
-        "vis": 49
+        "aer": 44,
+        "com": 55,
+        "dri": 61,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 56,
+        "pos": 42,
+        "sho": 56,
+        "sta": 56,
+        "str": 51,
+        "tac": 34,
+        "vis": 55
       },
       "birth": "2002-03-01",
       "contract": null,
@@ -681,7 +713,7 @@
       "name": "German Velera",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 13500
     }
   ],

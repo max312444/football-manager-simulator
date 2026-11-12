@@ -45,6 +45,8 @@
     },
     {
       "alt": [
+        "RWB",
+        "LWB",
         "RB"
       ],
       "attrs": {
@@ -128,6 +130,9 @@
       "wage": 125000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 49,
         "com": 73,
@@ -154,18 +159,21 @@
       "wage": 98000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 82,
         "dri": 78,
         "ldr": 73,
         "pac": 72,
-        "pas": 84,
+        "pas": 85,
         "pos": 74,
         "sho": 80,
-        "sta": 81,
+        "sta": 82,
         "str": 71,
-        "tac": 69,
+        "tac": 70,
         "vis": 82
       },
       "birth": "1997-05-01",
@@ -184,16 +192,16 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 76,
+        "aer": 69,
+        "com": 77,
         "dri": 73,
         "ldr": 80,
         "pac": 80,
         "pas": 65,
-        "pos": 50,
-        "sho": 83,
+        "pos": 51,
+        "sho": 84,
         "sta": 65,
-        "str": 76,
+        "str": 77,
         "tac": 45,
         "vis": 67
       },
@@ -243,7 +251,9 @@
     },
     {
       "alt": [
-        "RWB"
+        "LW",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 46,
@@ -267,21 +277,21 @@
       "name": "Marc Albrightun",
       "nation": "ENG",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 28500
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 72,
+        "aer": 62,
+        "com": 74,
         "dri": 66,
         "ldr": 59,
         "pac": 70,
         "pas": 62,
-        "pos": 44,
-        "sho": 71,
+        "pos": 46,
+        "sho": 73,
         "sta": 67,
-        "str": 68,
+        "str": 70,
         "tac": 40,
         "vis": 61
       },
@@ -298,7 +308,7 @@
     },
     {
       "alt": [
-        "ST"
+        "AM"
       ],
       "attrs": {
         "aer": 54,
@@ -322,12 +332,14 @@
       "name": "Ayoze Peraz",
       "nation": "ESP",
       "number": 17,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 69000
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 68,
@@ -356,16 +368,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 69,
+        "aer": 68,
+        "com": 77,
         "dri": 66,
         "ldr": 58,
         "pac": 85,
         "pas": 62,
-        "pos": 45,
-        "sho": 71,
+        "pos": 53,
+        "sho": 79,
         "sta": 63,
-        "str": 64,
+        "str": 72,
         "tac": 39,
         "vis": 62
       },
@@ -412,17 +424,17 @@
     {
       "attrs": {
         "aer": 62,
-        "com": 72,
-        "dri": 72,
+        "com": 80,
+        "dri": 80,
         "ldr": 64,
-        "pac": 66,
+        "pac": 74,
         "pas": 73,
         "pos": 68,
-        "sho": 67,
+        "sho": 75,
         "sta": 86,
         "str": 65,
         "tac": 66,
-        "vis": 73
+        "vis": 81
       },
       "birth": "1998-09-01",
       "contract": "2027-06-30",
@@ -432,7 +444,7 @@
       "name": "Kiernan Dewsburi-Hall",
       "nation": "ENG",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 148000
     },
     {
@@ -488,6 +500,10 @@
       "wage": 189000
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 67,
@@ -596,6 +612,9 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -625,13 +644,13 @@
       "attrs": {
         "aer": 60,
         "com": 70,
-        "dri": 68,
+        "dri": 71,
         "ldr": 66,
-        "pac": 66,
+        "pac": 69,
         "pas": 72,
         "pos": 72,
         "sho": 56,
-        "sta": 70,
+        "sta": 73,
         "str": 69,
         "tac": 74,
         "vis": 64

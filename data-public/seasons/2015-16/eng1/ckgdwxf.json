@@ -70,6 +70,10 @@
       "wage": 43500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 66,
@@ -122,19 +126,22 @@
       "wage": 61000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 62,
-        "dri": 62,
+        "com": 67,
+        "dri": 63,
         "ldr": 56,
         "pac": 64,
-        "pas": 66,
+        "pas": 71,
         "pos": 62,
-        "sho": 60,
-        "sta": 78,
+        "sho": 61,
+        "sta": 79,
         "str": 66,
-        "tac": 64,
-        "vis": 60
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1990-02-01",
       "contract": "2017-06-30",
@@ -177,6 +184,9 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 70,
@@ -203,19 +213,23 @@
       "wage": 66000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 62,
+        "com": 71,
         "dri": 70,
         "ldr": 50,
         "pac": 72,
-        "pas": 66,
+        "pas": 75,
         "pos": 50,
-        "sho": 64,
+        "sho": 73,
         "sta": 74,
         "str": 60,
         "tac": 44,
-        "vis": 62
+        "vis": 71
       },
       "birth": "1987-04-01",
       "contract": "2017-06-30",
@@ -225,22 +239,26 @@
       "name": "Marc Pogh",
       "nation": "ENG",
       "number": 7,
-      "pos": "LM",
+      "pos": "AM",
       "wage": 39500
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 66,
+        "com": 69,
         "dri": 66,
         "ldr": 58,
         "pac": 66,
         "pas": 72,
-        "pos": 64,
+        "pos": 67,
         "sho": 64,
         "sta": 82,
-        "str": 64,
-        "tac": 68,
+        "str": 67,
+        "tac": 71,
         "vis": 68
       },
       "birth": "1989-12-01",
@@ -252,7 +270,7 @@
       "nation": "IRL",
       "nation2": "ENG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 74000
     },
     {
@@ -282,6 +300,10 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 64,
@@ -309,16 +331,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 66,
+        "aer": 68,
+        "com": 72,
         "dri": 70,
         "ldr": 50,
         "pac": 86,
         "pas": 58,
-        "pos": 40,
-        "sho": 74,
+        "pos": 46,
+        "sho": 80,
         "sta": 76,
-        "str": 70,
+        "str": 76,
         "tac": 34,
         "vis": 52
       },
@@ -337,6 +359,9 @@
       "wage": 45000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 46,
         "com": 60,
@@ -363,6 +388,9 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 60,
@@ -389,6 +417,9 @@
       "wage": 42500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 64,
@@ -416,7 +447,8 @@
     },
     {
       "alt": [
-        "LW"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 56,
@@ -440,7 +472,7 @@
       "name": "Joshua Kyng",
       "nation": "NOR",
       "number": 17,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 41000
     },
     {
@@ -473,6 +505,9 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -529,6 +564,10 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 72,
@@ -585,15 +624,19 @@
       "wage": 45000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 66,
-        "dri": 72,
+        "com": 68,
+        "dri": 74,
         "ldr": 56,
-        "pac": 76,
+        "pac": 78,
         "pas": 70,
         "pos": 54,
-        "sho": 70,
+        "sho": 72,
         "sta": 84,
         "str": 62,
         "tac": 52,
@@ -607,7 +650,7 @@
       "name": "Matt Rytchie",
       "nation": "SCO",
       "number": 30,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 67000
     },
     {
@@ -690,10 +733,6 @@
       "wage": 39000
     },
     {
-      "alt": [
-        "ST",
-        "LW"
-      ],
       "attrs": {
         "aer": 50,
         "com": 66,
@@ -750,16 +789,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 56,
+        "aer": 58,
+        "com": 64,
         "dri": 66,
         "ldr": 40,
         "pac": 82,
         "pas": 54,
-        "pos": 60,
-        "sho": 62,
+        "pos": 68,
+        "sho": 70,
         "sta": 66,
-        "str": 58,
+        "str": 66,
         "tac": 30,
         "vis": 52
       },

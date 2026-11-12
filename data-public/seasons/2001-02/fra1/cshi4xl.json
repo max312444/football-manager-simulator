@@ -58,7 +58,7 @@
         "ldr": 68,
         "pac": 76,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 77,
         "sta": 74,
         "str": 78,
@@ -112,7 +112,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 72,
         "sta": 63,
         "str": 66,
@@ -132,17 +132,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 69,
-        "dri": 63,
+        "aer": 68,
+        "com": 77,
+        "dri": 69,
         "ldr": 61,
-        "pac": 63,
+        "pac": 71,
         "pas": 69,
-        "pos": 64,
-        "sho": 61,
+        "pos": 72,
+        "sho": 69,
         "sta": 70,
-        "str": 59,
+        "str": 67,
         "tac": 65,
         "vis": 70
       },
@@ -154,7 +159,7 @@
       "name": "Igor Juvicevic",
       "nation": "CRO",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 12000
     },
@@ -188,18 +193,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 66,
-        "dri": 64,
-        "ldr": 64,
-        "pac": 58,
+        "aer": 51,
+        "com": 67,
+        "dri": 68,
+        "ldr": 62,
+        "pac": 61,
         "pas": 65,
-        "pos": 67,
-        "sho": 63,
-        "sta": 69,
-        "str": 58,
-        "tac": 61,
-        "vis": 67
+        "pos": 52,
+        "sho": 69,
+        "sta": 63,
+        "str": 53,
+        "tac": 43,
+        "vis": 69
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -209,23 +214,23 @@
       "name": "Tressor Morano",
       "nation": "COL",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10500
     },
     {
       "attrs": {
         "aer": 54,
-        "com": 67,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 58,
-        "pas": 69,
+        "com": 63,
+        "dri": 59,
+        "ldr": 58,
+        "pac": 65,
+        "pas": 63,
         "pos": 63,
-        "sho": 56,
+        "sho": 42,
         "sta": 66,
-        "str": 61,
-        "tac": 59,
-        "vis": 66
+        "str": 60,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1980-05-01",
       "contract": null,
@@ -235,7 +240,7 @@
       "name": "Richmond Forsun",
       "nation": "TOG",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 9000
     },
@@ -354,7 +359,7 @@
         "ldr": 57,
         "pac": 57,
         "pas": 54,
-        "pos": 35,
+        "pos": 55,
         "sho": 66,
         "sta": 59,
         "str": 63,
@@ -382,7 +387,7 @@
         "ldr": 53,
         "pac": 57,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 54,
         "str": 63,
@@ -401,18 +406,23 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 56,
         "com": 60,
         "dri": 54,
         "ldr": 56,
-        "pac": 55,
+        "pac": 62,
         "pas": 58,
-        "pos": 58,
+        "pos": 65,
         "sho": 56,
         "sta": 61,
-        "str": 55,
-        "tac": 56,
+        "str": 62,
+        "tac": 63,
         "vis": 60
       },
       "birth": "1970-12-01",
@@ -423,24 +433,29 @@
       "name": "Didier Leng",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 5000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 57,
-        "dri": 55,
+        "com": 58,
+        "dri": 62,
         "ldr": 51,
         "pac": 58,
-        "pas": 54,
-        "pos": 40,
-        "sho": 61,
+        "pas": 62,
+        "pos": 60,
+        "sho": 62,
         "sta": 53,
         "str": 62,
         "tac": 31,
-        "vis": 50
+        "vis": 58
       },
       "birth": "1975-02-01",
       "contract": null,
@@ -450,7 +465,7 @@
       "name": "Patricio D'Amicu",
       "nation": "ARG",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 3000
     },
@@ -515,7 +530,7 @@
         "ldr": 49,
         "pac": 60,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 63,
         "sta": 52,
         "str": 58,
@@ -535,18 +550,21 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
         "dri": 57,
         "ldr": 50,
         "pac": 55,
-        "pas": 58,
+        "pas": 60,
         "pos": 56,
         "sho": 54,
-        "sta": 57,
+        "sta": 59,
         "str": 53,
-        "tac": 50,
+        "tac": 52,
         "vis": 60
       },
       "birth": "1968-02-01",
@@ -561,6 +579,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -635,23 +656,26 @@
       "name": "Franck Signorinu",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 56,
-        "dri": 53,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 60,
-        "pos": 51,
-        "sho": 51,
-        "sta": 55,
-        "str": 51,
-        "tac": 54,
-        "vis": 56
+        "aer": 38,
+        "com": 54,
+        "dri": 58,
+        "ldr": 48,
+        "pac": 63,
+        "pas": 56,
+        "pos": 33,
+        "sho": 55,
+        "sta": 51,
+        "str": 46,
+        "tac": 34,
+        "vis": 53
       },
       "birth": "1978-12-01",
       "contract": null,
@@ -661,7 +685,7 @@
       "name": "Gunter Van Handenhovan",
       "nation": "BEL",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 3500
     },
@@ -673,7 +697,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 51,
-        "pos": 35,
+        "pos": 55,
         "sho": 56,
         "sta": 53,
         "str": 55,
@@ -726,7 +750,7 @@
         "ldr": 51,
         "pac": 52,
         "pas": 50,
-        "pos": 30,
+        "pos": 50,
         "sho": 58,
         "sta": 51,
         "str": 54,
@@ -746,18 +770,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 56,
-        "dri": 43,
-        "ldr": 55,
-        "pac": 52,
-        "pas": 48,
-        "pos": 57,
-        "sho": 25,
-        "sta": 51,
-        "str": 58,
-        "tac": 55,
-        "vis": 42
+        "aer": 43,
+        "com": 54,
+        "dri": 53,
+        "ldr": 51,
+        "pac": 60,
+        "pas": 52,
+        "pos": 52,
+        "sho": 32,
+        "sta": 57,
+        "str": 50,
+        "tac": 52,
+        "vis": 48
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -767,11 +791,14 @@
       "name": "Franck Baria",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -799,18 +826,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 52,
-        "dri": 52,
-        "ldr": 50,
-        "pac": 51,
-        "pas": 58,
-        "pos": 55,
-        "sho": 48,
+        "dri": 48,
+        "ldr": 52,
+        "pac": 48,
+        "pas": 57,
+        "pos": 59,
+        "sho": 42,
         "sta": 60,
-        "str": 50,
-        "tac": 50,
-        "vis": 57
+        "str": 55,
+        "tac": 56,
+        "vis": 54
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -820,7 +847,7 @@
       "name": "Mario Espartaro",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -877,6 +904,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 44,
         "com": 53,
@@ -983,19 +1015,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 55,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 47,
-        "pas": 54,
-        "pos": 54,
-        "sho": 46,
+        "dri": 51,
+        "ldr": 55,
+        "pac": 44,
+        "pas": 53,
+        "pos": 58,
+        "sho": 40,
         "sta": 57,
-        "str": 51,
-        "tac": 51,
-        "vis": 54
+        "str": 56,
+        "tac": 57,
+        "vis": 51
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -1005,7 +1040,7 @@
       "name": "Stephane Murisot",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -1036,19 +1071,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 40,
+        "aer": 46,
         "com": 54,
-        "dri": 47,
-        "ldr": 44,
-        "pac": 48,
-        "pas": 52,
-        "pos": 50,
-        "sho": 44,
+        "dri": 43,
+        "ldr": 46,
+        "pac": 45,
+        "pas": 51,
+        "pos": 54,
+        "sho": 38,
         "sta": 53,
-        "str": 49,
-        "tac": 46,
-        "vis": 50
+        "str": 54,
+        "tac": 52,
+        "vis": 47
       },
       "birth": "1982-12-01",
       "contract": null,
@@ -1059,7 +1099,7 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },

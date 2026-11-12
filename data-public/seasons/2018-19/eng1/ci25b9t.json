@@ -99,9 +99,6 @@
       "wage": 29000
     },
     {
-      "alt": [
-        "RM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 72,
@@ -157,6 +154,10 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "LWB",
+        "CB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -186,13 +187,13 @@
       "attrs": {
         "aer": 66,
         "com": 74,
-        "dri": 62,
+        "dri": 72,
         "ldr": 74,
-        "pac": 60,
+        "pac": 70,
         "pas": 72,
         "pos": 72,
         "sho": 56,
-        "sta": 70,
+        "sta": 80,
         "str": 74,
         "tac": 70,
         "vis": 64
@@ -329,7 +330,8 @@
     {
       "alt": [
         "RB",
-        "DM"
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 70,
@@ -443,19 +445,22 @@
       "wage": 43500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 58,
+        "com": 64,
         "dri": 60,
         "ldr": 50,
         "pac": 68,
-        "pas": 64,
-        "pos": 62,
+        "pas": 70,
+        "pos": 68,
         "sho": 44,
         "sta": 76,
-        "str": 70,
-        "tac": 72,
-        "vis": 54
+        "str": 76,
+        "tac": 78,
+        "vis": 60
       },
       "birth": "1997-10-01",
       "contract": "2023-06-30",
@@ -469,22 +474,19 @@
       "wage": 36000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 78,
-        "com": 70,
+        "com": 72,
         "dri": 62,
         "ldr": 66,
         "pac": 50,
-        "pas": 70,
+        "pas": 72,
         "pos": 70,
         "sho": 62,
-        "sta": 70,
+        "sta": 72,
         "str": 80,
         "tac": 70,
-        "vis": 64
+        "vis": 66
       },
       "birth": "1988-01-01",
       "contract": "2021-06-30",
@@ -494,10 +496,13 @@
       "name": "Vicente Iborre",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 75000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 72,
@@ -555,17 +560,19 @@
     },
     {
       "alt": [
-        "LM"
+        "LW",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 50,
-        "com": 70,
-        "dri": 70,
+        "com": 75,
+        "dri": 76,
         "ldr": 66,
-        "pac": 70,
+        "pac": 76,
         "pas": 78,
         "pos": 66,
-        "sho": 62,
+        "sho": 68,
         "sta": 82,
         "str": 60,
         "tac": 54,
@@ -579,23 +586,26 @@
       "name": "Marc Albrightun",
       "nation": "ENG",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 68500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 68,
-        "dri": 66,
+        "com": 69,
+        "dri": 67,
         "ldr": 57,
         "pac": 65,
-        "pas": 74,
+        "pas": 75,
         "pos": 68,
-        "sho": 62,
-        "sta": 73,
+        "sho": 63,
+        "sta": 74,
         "str": 66,
         "tac": 70,
-        "vis": 68
+        "vis": 69
       },
       "birth": "1991-07-01",
       "contract": "2019-06-30",
@@ -612,19 +622,22 @@
       "wage": 65000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 67,
-        "dri": 63,
+        "com": 69,
+        "dri": 65,
         "ldr": 68,
         "pac": 55,
-        "pas": 67,
+        "pas": 69,
         "pos": 67,
-        "sho": 62,
-        "sta": 73,
+        "sho": 64,
+        "sta": 75,
         "str": 67,
         "tac": 63,
-        "vis": 63
+        "vis": 65
       },
       "birth": "1988-10-01",
       "contract": "2019-06-30",
@@ -780,6 +793,8 @@
     },
     {
       "alt": [
+        "AM",
+        "ST",
         "RW"
       ],
       "attrs": {

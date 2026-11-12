@@ -125,21 +125,22 @@
     },
     {
       "alt": [
-        "LM"
+        "ST",
+        "LW"
       ],
       "attrs": {
         "aer": 59,
-        "com": 66,
-        "dri": 65,
+        "com": 78,
+        "dri": 77,
         "ldr": 52,
-        "pac": 88,
-        "pas": 74,
+        "pac": 99,
+        "pas": 86,
         "pos": 70,
-        "sho": 46,
+        "sho": 58,
         "sta": 78,
         "str": 65,
         "tac": 76,
-        "vis": 60
+        "vis": 72
       },
       "birth": "1989-07-01",
       "contract": "2011-06-30",
@@ -149,28 +150,25 @@
       "name": "Gareth Bala",
       "nation": "WAL",
       "number": 3,
-      "pos": "LB",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
       "wage": 60000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
-        "aer": 69,
+        "aer": 76,
         "com": 77,
         "dri": 71,
         "ldr": 79,
-        "pac": 71,
+        "pac": 78,
         "pas": 76,
-        "pos": 79,
+        "pos": 86,
         "sho": 61,
         "sta": 88,
-        "str": 79,
-        "tac": 85,
+        "str": 86,
+        "tac": 92,
         "vis": 70
       },
       "birth": "1980-12-01",
@@ -181,10 +179,13 @@
       "name": "Didier Zokura",
       "nation": "CIV",
       "number": 4,
-      "pos": "DM",
+      "pos": "CB",
       "wage": 107500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 45,
         "com": 71,
@@ -207,7 +208,7 @@
       "name": "David Bentlei",
       "nation": "ENG",
       "number": 5,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
@@ -215,6 +216,9 @@
       "wage": 47000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 73,
@@ -244,6 +248,9 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 78,
@@ -298,16 +305,16 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 77,
+        "aer": 72,
+        "com": 78,
         "dri": 71,
         "ldr": 62,
         "pac": 73,
         "pas": 67,
-        "pos": 41,
-        "sho": 82,
+        "pos": 42,
+        "sho": 83,
         "sta": 68,
-        "str": 72,
+        "str": 73,
         "tac": 35,
         "vis": 65
       },
@@ -331,11 +338,11 @@
         "ldr": 56,
         "pac": 62,
         "pas": 80,
-        "pos": 60,
+        "pos": 75,
         "sho": 74,
         "sta": 76,
-        "str": 58,
-        "tac": 60,
+        "str": 73,
+        "tac": 75,
         "vis": 76
       },
       "birth": "1986-12-01",
@@ -346,7 +353,7 @@
       "name": "Tom Huddlestona",
       "nation": "ENG",
       "number": 12,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
@@ -355,6 +362,7 @@
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -386,6 +394,11 @@
       "wage": 107500
     },
     {
+      "alt": [
+        "LM",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 69,
@@ -416,6 +429,7 @@
     {
       "alt": [
         "AM",
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -446,16 +460,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 64,
+        "aer": 60,
+        "com": 65,
         "dri": 61,
         "ldr": 47,
         "pac": 63,
         "pas": 52,
-        "pos": 31,
-        "sho": 71,
+        "pos": 32,
+        "sho": 72,
         "sta": 56,
-        "str": 61,
+        "str": 62,
         "tac": 20,
         "vis": 56
       },
@@ -473,6 +487,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 34,
         "com": 62,
@@ -559,6 +576,11 @@
       "wage": 89500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 47,
         "com": 66,
@@ -587,6 +609,9 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 63,
@@ -614,6 +639,10 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,

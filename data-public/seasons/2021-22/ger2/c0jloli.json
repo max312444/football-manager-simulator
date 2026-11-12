@@ -105,18 +105,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 57,
-        "dri": 53,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 59,
-        "pos": 54,
-        "sho": 55,
+        "dri": 49,
+        "ldr": 56,
+        "pac": 49,
+        "pas": 58,
+        "pos": 58,
+        "sho": 49,
         "sta": 57,
-        "str": 56,
-        "tac": 53,
-        "vis": 56
+        "str": 61,
+        "tac": 59,
+        "vis": 53
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -126,10 +126,13 @@
       "name": "Lukas Froda",
       "nation": "GER",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -156,6 +159,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -182,6 +188,10 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -215,7 +225,7 @@
         "ldr": 48,
         "pac": 48,
         "pas": 41,
-        "pos": 28,
+        "pos": 48,
         "sho": 55,
         "sta": 46,
         "str": 49,
@@ -236,18 +246,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 63,
-        "dri": 58,
-        "ldr": 55,
-        "pac": 53,
+        "aer": 41,
+        "com": 64,
+        "dri": 62,
+        "ldr": 53,
+        "pac": 56,
         "pas": 61,
-        "pos": 60,
-        "sho": 55,
-        "sta": 65,
-        "str": 56,
-        "tac": 55,
-        "vis": 64
+        "pos": 45,
+        "sho": 61,
+        "sta": 59,
+        "str": 51,
+        "tac": 37,
+        "vis": 66
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -257,23 +267,23 @@
       "name": "Marvin Wanitzak",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11000
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 57,
-        "dri": 55,
-        "ldr": 57,
-        "pac": 55,
+        "aer": 40,
+        "com": 58,
+        "dri": 59,
+        "ldr": 55,
+        "pac": 58,
         "pas": 59,
-        "pos": 59,
-        "sho": 52,
-        "sta": 61,
-        "str": 55,
-        "tac": 51,
-        "vis": 60
+        "pos": 44,
+        "sho": 58,
+        "sta": 55,
+        "str": 50,
+        "tac": 33,
+        "vis": 62
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -283,7 +293,7 @@
       "name": "Choi Kioung-rok",
       "nation": "KOR",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9000
     },
     {
@@ -309,21 +319,26 @@
       "name": "Philip Haise",
       "nation": "GER",
       "number": 16,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 56,
-        "dri": 59,
+        "aer": 54,
+        "com": 64,
+        "dri": 61,
         "ldr": 51,
-        "pac": 50,
+        "pac": 58,
         "pas": 57,
-        "pos": 55,
-        "sho": 49,
+        "pos": 63,
+        "sho": 57,
         "sta": 57,
-        "str": 53,
+        "str": 61,
         "tac": 51,
         "vis": 59
       },
@@ -335,7 +350,7 @@
       "name": "Lucas Cuato",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 7000
     },
     {
@@ -346,7 +361,7 @@
         "ldr": 44,
         "pac": 53,
         "pas": 45,
-        "pos": 29,
+        "pos": 49,
         "sho": 56,
         "sta": 47,
         "str": 55,
@@ -365,19 +380,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 51,
-        "dri": 41,
-        "ldr": 54,
-        "pac": 48,
-        "pas": 46,
-        "pos": 59,
-        "sho": 26,
-        "sta": 50,
-        "str": 55,
-        "tac": 59,
-        "vis": 39
+        "aer": 48,
+        "com": 49,
+        "dri": 51,
+        "ldr": 50,
+        "pac": 56,
+        "pas": 50,
+        "pos": 54,
+        "sho": 33,
+        "sta": 56,
+        "str": 47,
+        "tac": 56,
+        "vis": 45
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -387,7 +405,7 @@
       "name": "Marco Thiade",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
@@ -417,6 +435,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 41,
         "com": 58,
@@ -502,7 +524,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 59,
-        "pos": 47,
+        "pos": 67,
         "sho": 71,
         "sta": 66,
         "str": 67,
@@ -522,18 +544,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 47,
-        "dri": 36,
-        "ldr": 46,
-        "pac": 44,
-        "pas": 40,
-        "pos": 53,
-        "sho": 23,
-        "sta": 42,
-        "str": 52,
-        "tac": 52,
-        "vis": 32
+        "aer": 35,
+        "com": 45,
+        "dri": 46,
+        "ldr": 42,
+        "pac": 52,
+        "pas": 44,
+        "pos": 48,
+        "sho": 30,
+        "sta": 48,
+        "str": 44,
+        "tac": 49,
+        "vis": 38
       },
       "birth": "2001-03-01",
       "contract": null,
@@ -543,7 +565,7 @@
       "name": "Jannis Rabuld",
       "nation": "GER",
       "number": 34,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2000
     },
     {
@@ -574,18 +596,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 57,
-        "dri": 54,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 57,
-        "pos": 54,
-        "sho": 50,
-        "sta": 62,
-        "str": 56,
-        "tac": 56,
-        "vis": 59
+        "aer": 39,
+        "com": 55,
+        "dri": 59,
+        "ldr": 51,
+        "pac": 59,
+        "pas": 53,
+        "pos": 36,
+        "sho": 54,
+        "sta": 58,
+        "str": 51,
+        "tac": 36,
+        "vis": 56
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -595,23 +617,23 @@
       "name": "Fabio Kaofmann",
       "nation": "GER",
       "number": 37,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 40,
+        "aer": 46,
         "com": 49,
-        "dri": 45,
-        "ldr": 47,
-        "pac": 48,
-        "pas": 49,
-        "pos": 47,
-        "sho": 46,
+        "dri": 41,
+        "ldr": 49,
+        "pac": 45,
+        "pas": 48,
+        "pos": 51,
+        "sho": 40,
         "sta": 54,
-        "str": 47,
-        "tac": 45,
-        "vis": 49
+        "str": 52,
+        "tac": 51,
+        "vis": 46
       },
       "birth": "2002-02-01",
       "contract": null,
@@ -621,7 +643,7 @@
       "name": "Tim Breithaopt",
       "nation": "GER",
       "number": 38,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     }
   ],

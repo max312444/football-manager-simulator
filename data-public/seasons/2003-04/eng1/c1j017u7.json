@@ -70,6 +70,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 55,
@@ -98,6 +101,7 @@
     },
     {
       "alt": [
+        "CB",
         "LB"
       ],
       "attrs": {
@@ -127,7 +131,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 63,
@@ -151,7 +155,7 @@
       "name": "Ricardo Gerdner",
       "nation": "JAM",
       "number": 11,
-      "pos": "LB",
+      "pos": "LWB",
       "wage": 39000
     },
     {
@@ -182,18 +186,18 @@
     },
     {
       "alt": [
-        "CB"
+        "RB"
       ],
       "attrs": {
         "aer": 61,
         "com": 63,
-        "dri": 57,
+        "dri": 61,
         "ldr": 57,
-        "pac": 58,
-        "pas": 63,
+        "pac": 62,
+        "pas": 65,
         "pos": 67,
         "sho": 45,
-        "sta": 65,
+        "sta": 69,
         "str": 65,
         "tac": 67,
         "vis": 51
@@ -274,21 +278,22 @@
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
         "aer": 71,
-        "com": 63,
+        "com": 69,
         "dri": 65,
         "ldr": 63,
         "pac": 65,
-        "pas": 65,
+        "pas": 71,
         "pos": 63,
         "sho": 69,
         "sta": 80,
         "str": 75,
-        "tac": 61,
-        "vis": 61
+        "tac": 67,
+        "vis": 67
       },
       "birth": "1982-06-01",
       "contract": "2009-06-30",
@@ -302,9 +307,6 @@
       "wage": 49000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 54,
         "com": 79,
@@ -336,22 +338,22 @@
     },
     {
       "alt": [
-        "LM",
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 60,
-        "com": 71,
+        "com": 76,
         "dri": 76,
         "ldr": 59,
         "pac": 75,
-        "pas": 72,
+        "pas": 77,
         "pos": 64,
-        "sho": 70,
+        "sho": 75,
         "sta": 82,
         "str": 64,
         "tac": 56,
-        "vis": 69
+        "vis": 74
       },
       "birth": "1974-07-01",
       "contract": "2006-06-30",
@@ -361,12 +363,14 @@
       "name": "Stelios Giannakopoolos",
       "nation": "GRE",
       "number": 7,
-      "pos": "RM",
+      "pos": "AM",
       "wage": 49500
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -394,6 +398,9 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 69,
@@ -422,7 +429,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 44,
@@ -452,16 +460,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 63,
+        "aer": 67,
+        "com": 64,
         "dri": 66,
         "ldr": 49,
         "pac": 77,
         "pas": 60,
-        "pos": 54,
-        "sho": 70,
+        "pos": 55,
+        "sho": 71,
         "sta": 76,
-        "str": 70,
+        "str": 71,
         "tac": 44,
         "vis": 55
       },
@@ -561,20 +569,17 @@
       "wage": 10500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 50,
-        "com": 49,
+        "aer": 60,
+        "com": 59,
         "dri": 62,
         "ldr": 33,
         "pac": 73,
         "pas": 50,
-        "pos": 40,
-        "sho": 56,
+        "pos": 50,
+        "sho": 66,
         "sta": 62,
-        "str": 53,
+        "str": 63,
         "tac": 30,
         "vis": 47
       },

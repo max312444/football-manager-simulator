@@ -25,6 +25,10 @@
   },
   "squad": [
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,
@@ -51,6 +55,11 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 52,
@@ -125,10 +134,13 @@
       "name": "Soren Halfer",
       "nation": "GER",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -163,7 +175,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 57,
-        "pos": 47,
+        "pos": 67,
         "sho": 69,
         "sta": 65,
         "str": 64,
@@ -189,7 +201,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 52,
         "str": 53,
@@ -209,18 +221,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 58,
+        "aer": 55,
+        "com": 59,
         "dri": 55,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 61,
+        "ldr": 52,
+        "pac": 57,
+        "pas": 51,
         "pos": 54,
-        "sho": 54,
-        "sta": 60,
-        "str": 53,
-        "tac": 58,
-        "vis": 61
+        "sho": 63,
+        "sta": 54,
+        "str": 58,
+        "tac": 32,
+        "vis": 52
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -230,7 +242,7 @@
       "name": "Davyd Ulm",
       "nation": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 5500
     },
     {
@@ -241,7 +253,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 52,
         "str": 56,
@@ -261,6 +273,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 57,
@@ -320,7 +335,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 61,
         "sta": 54,
         "str": 52,
@@ -346,7 +361,7 @@
         "ldr": 51,
         "pac": 61,
         "pas": 53,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 52,
         "str": 56,
@@ -450,7 +465,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 49,
         "str": 55,
@@ -471,19 +486,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 57,
-        "dri": 53,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 58,
-        "pos": 56,
-        "sho": 50,
-        "sta": 58,
-        "str": 54,
-        "tac": 52,
-        "vis": 54
+        "aer": 44,
+        "com": 59,
+        "dri": 55,
+        "ldr": 56,
+        "pac": 51,
+        "pas": 60,
+        "pos": 57,
+        "sho": 52,
+        "sta": 60,
+        "str": 55,
+        "tac": 53,
+        "vis": 56
       },
       "birth": "1986-09-01",
       "contract": null,

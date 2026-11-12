@@ -156,6 +156,10 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 58,
@@ -189,7 +193,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 62,
         "sta": 54,
         "str": 55,
@@ -216,7 +220,7 @@
         "ldr": 47,
         "pac": 53,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 56,
         "sta": 55,
         "str": 57,
@@ -242,7 +246,7 @@
         "ldr": 56,
         "pac": 58,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 60,
         "sta": 55,
         "str": 60,
@@ -261,18 +265,23 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 53,
+        "aer": 53,
+        "com": 55,
         "dri": 51,
         "ldr": 49,
-        "pac": 52,
+        "pac": 60,
         "pas": 55,
-        "pos": 51,
+        "pos": 61,
         "sho": 52,
         "sta": 58,
-        "str": 49,
-        "tac": 55,
+        "str": 59,
+        "tac": 65,
         "vis": 56
       },
       "birth": "1984-08-01",
@@ -283,7 +292,7 @@
       "name": "Marcel Landars",
       "nation": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 3500
     },
     {
@@ -339,19 +348,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 62,
-        "dri": 57,
+        "dri": 65,
         "ldr": 52,
         "pac": 59,
-        "pas": 54,
-        "pos": 40,
+        "pas": 62,
+        "pos": 60,
         "sho": 62,
         "sta": 54,
         "str": 64,
         "tac": 33,
-        "vis": 51
+        "vis": 59
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -361,23 +375,23 @@
       "name": "Markus Happke",
       "nation": "GER",
       "number": 19,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 62,
-        "dri": 56,
-        "ldr": 52,
-        "pac": 51,
-        "pas": 63,
-        "pos": 60,
-        "sho": 55,
+        "dri": 52,
+        "ldr": 54,
+        "pac": 48,
+        "pas": 62,
+        "pos": 64,
+        "sho": 49,
         "sta": 59,
-        "str": 51,
-        "tac": 58,
-        "vis": 57
+        "str": 56,
+        "tac": 64,
+        "vis": 54
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -387,7 +401,7 @@
       "name": "Tim Krose",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
@@ -424,7 +438,7 @@
         "ldr": 47,
         "pac": 55,
         "pas": 47,
-        "pos": 37,
+        "pos": 57,
         "sho": 58,
         "sta": 54,
         "str": 53,
@@ -443,6 +457,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -469,6 +486,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -502,7 +522,7 @@
         "ldr": 55,
         "pac": 55,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 58,
         "sta": 51,
         "str": 57,

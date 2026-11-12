@@ -100,13 +100,13 @@
       "attrs": {
         "aer": 57,
         "com": 65,
-        "dri": 59,
+        "dri": 62,
         "ldr": 60,
-        "pac": 61,
+        "pac": 64,
         "pas": 65,
         "pos": 71,
         "sho": 47,
-        "sta": 75,
+        "sta": 78,
         "str": 69,
         "tac": 71,
         "vis": 57
@@ -233,16 +233,20 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 69,
-        "dri": 59,
+        "dri": 63,
         "ldr": 63,
-        "pac": 64,
-        "pas": 65,
+        "pac": 68,
+        "pas": 69,
         "pos": 71,
         "sho": 45,
-        "sta": 72,
+        "sta": 76,
         "str": 71,
         "tac": 75,
         "vis": 57
@@ -259,16 +263,19 @@
       "wage": 86000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
-        "dri": 51,
+        "dri": 60,
         "ldr": 63,
-        "pac": 49,
+        "pac": 58,
         "pas": 57,
         "pos": 67,
         "sho": 43,
-        "sta": 63,
+        "sta": 72,
         "str": 69,
         "tac": 67,
         "vis": 47
@@ -333,10 +340,13 @@
       "name": "Jack Curk",
       "nation": "ENG",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 111000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -363,6 +373,9 @@
       "wage": 76000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 70,
@@ -392,12 +405,17 @@
       "wage": 99500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
-        "dri": 75,
+        "dri": 76,
         "ldr": 59,
-        "pac": 69,
+        "pac": 70,
         "pas": 75,
         "pos": 65,
         "sho": 69,
@@ -414,26 +432,27 @@
       "name": "Johann Berg Goðmundsson",
       "nation": "ISL",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 99500
     },
     {
       "alt": [
+        "RW",
         "LW"
       ],
       "attrs": {
         "aer": 51,
-        "com": 68,
+        "com": 73,
         "dri": 71,
         "ldr": 60,
         "pac": 75,
-        "pas": 78,
+        "pas": 83,
         "pos": 53,
-        "sho": 68,
+        "sho": 73,
         "sta": 72,
         "str": 56,
         "tac": 48,
-        "vis": 65
+        "vis": 70
       },
       "birth": "1999-11-01",
       "contract": "2023-06-30",
@@ -443,16 +462,20 @@
       "name": "Dwight McNail",
       "nation": "ENG",
       "number": 11,
-      "pos": "LM",
+      "pos": "AM",
       "wage": 76000
     },
     {
+      "alt": [
+        "LB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 67,
-        "dri": 71,
+        "dri": 72,
         "ldr": 57,
-        "pac": 70,
+        "pac": 71,
         "pas": 75,
         "pos": 63,
         "sho": 67,
@@ -469,7 +492,7 @@
       "name": "Robbie Bradi",
       "nation": "IRL",
       "number": 12,
-      "pos": "LM",
+      "pos": "LW",
       "traits": [
         "free_kick",
         "injury_prone"
@@ -477,6 +500,10 @@
       "wage": 79000
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 71,
@@ -503,19 +530,22 @@
       "wage": 84000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
-        "com": 55,
+        "com": 63,
         "dri": 60,
         "ldr": 42,
         "pac": 64,
-        "pas": 60,
+        "pas": 68,
         "pos": 54,
         "sho": 52,
         "sta": 68,
         "str": 55,
-        "tac": 52,
-        "vis": 57
+        "tac": 60,
+        "vis": 65
       },
       "birth": "1999-12-01",
       "contract": "2021-06-30",
@@ -615,16 +645,16 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 65,
+        "aer": 58,
+        "com": 66,
         "dri": 69,
         "ldr": 49,
         "pac": 76,
         "pas": 61,
-        "pos": 71,
-        "sho": 71,
+        "pos": 72,
+        "sho": 72,
         "sta": 70,
-        "str": 64,
+        "str": 65,
         "tac": 35,
         "vis": 59
       },

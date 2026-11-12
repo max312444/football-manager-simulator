@@ -51,6 +51,10 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 53,
@@ -77,19 +81,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 62,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 67,
-        "pos": 58,
-        "sho": 55,
+        "dri": 55,
+        "ldr": 58,
+        "pac": 51,
+        "pas": 66,
+        "pos": 62,
+        "sho": 49,
         "sta": 66,
-        "str": 58,
-        "tac": 57,
-        "vis": 65
+        "str": 63,
+        "tac": 63,
+        "vis": 62
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -100,10 +107,13 @@
       "name": "Kevin N'Dorem",
       "nation": "FRA",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 66,
@@ -137,7 +147,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 56,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 56,
         "str": 60,
@@ -163,7 +173,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 54,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 52,
         "str": 57,
@@ -184,17 +194,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 61,
-        "dri": 57,
+        "aer": 55,
+        "com": 70,
+        "dri": 64,
         "ldr": 57,
-        "pac": 53,
+        "pac": 62,
         "pas": 64,
-        "pos": 57,
-        "sho": 50,
+        "pos": 66,
+        "sho": 59,
         "sta": 61,
-        "str": 53,
+        "str": 62,
         "tac": 56,
         "vis": 58
       },
@@ -207,23 +222,26 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": 10,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 18000
     },
     {
+      "alt": [
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 66,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 62,
+        "aer": 54,
+        "com": 67,
+        "dri": 69,
+        "ldr": 62,
+        "pac": 65,
         "pas": 69,
-        "pos": 65,
-        "sho": 61,
-        "sta": 69,
-        "str": 60,
-        "tac": 64,
-        "vis": 72
+        "pos": 50,
+        "sho": 67,
+        "sta": 63,
+        "str": 55,
+        "tac": 46,
+        "vis": 74
       },
       "birth": "1994-07-01",
       "contract": null,
@@ -234,23 +252,26 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 37000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 69,
-        "dri": 62,
-        "ldr": 60,
-        "pac": 70,
-        "pas": 58,
-        "pos": 46,
-        "sho": 72,
-        "sta": 61,
-        "str": 70,
-        "tac": 38,
-        "vis": 59
+        "aer": 54,
+        "com": 66,
+        "dri": 67,
+        "ldr": 58,
+        "pac": 74,
+        "pas": 64,
+        "pos": 48,
+        "sho": 67,
+        "sta": 63,
+        "str": 60,
+        "tac": 44,
+        "vis": 65
       },
       "birth": "1995-06-01",
       "contract": null,
@@ -260,12 +281,14 @@
       "name": "Adama Traora",
       "nation": "MLI",
       "number": 12,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 31500
     },
     {
       "alt": [
-        "CM"
+        "DM",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 67,
@@ -293,19 +316,22 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 59,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 64,
-        "pos": 54,
-        "sho": 55,
-        "sta": 62,
-        "str": 56,
-        "tac": 54,
-        "vis": 61
+        "aer": 43,
+        "com": 57,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 60,
+        "pos": 36,
+        "sho": 59,
+        "sta": 58,
+        "str": 51,
+        "tac": 34,
+        "vis": 58
       },
       "birth": "1998-11-01",
       "contract": null,
@@ -315,7 +341,7 @@
       "name": "Ablie Jalluw",
       "nation": "GAM",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 19500
     },
     {
@@ -373,18 +399,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 56,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 52,
-        "pas": 51,
-        "pos": 62,
-        "sho": 31,
-        "sta": 57,
-        "str": 60,
-        "tac": 66,
-        "vis": 47
+        "aer": 49,
+        "com": 54,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 60,
+        "pas": 55,
+        "pos": 57,
+        "sho": 38,
+        "sta": 63,
+        "str": 52,
+        "tac": 63,
+        "vis": 53
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -394,10 +420,13 @@
       "name": "Fabien Centonza",
       "nation": "FRA",
       "number": 18,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -431,7 +460,7 @@
         "ldr": 57,
         "pac": 65,
         "pas": 57,
-        "pos": 45,
+        "pos": 65,
         "sho": 67,
         "sta": 62,
         "str": 61,
@@ -483,7 +512,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 44,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 51,
         "str": 52,
@@ -502,6 +531,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -529,18 +561,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 62,
-        "dri": 59,
-        "ldr": 61,
-        "pac": 56,
+        "aer": 49,
+        "com": 63,
+        "dri": 63,
+        "ldr": 59,
+        "pac": 59,
         "pas": 65,
-        "pos": 60,
-        "sho": 60,
-        "sta": 64,
-        "str": 57,
-        "tac": 61,
-        "vis": 67
+        "pos": 45,
+        "sho": 66,
+        "sta": 58,
+        "str": 52,
+        "tac": 43,
+        "vis": 69
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -551,23 +583,23 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 27,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 29500
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 59,
-        "dri": 50,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 51,
-        "pos": 65,
-        "sho": 34,
-        "sta": 54,
-        "str": 65,
-        "tac": 61,
-        "vis": 47
+        "aer": 54,
+        "com": 57,
+        "dri": 60,
+        "ldr": 52,
+        "pac": 65,
+        "pas": 55,
+        "pos": 60,
+        "sho": 41,
+        "sta": 60,
+        "str": 57,
+        "tac": 58,
+        "vis": 53
       },
       "birth": "1993-06-01",
       "contract": null,
@@ -577,10 +609,13 @@
       "name": "Manuel Cabyt",
       "nation": "FRA",
       "number": 28,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,

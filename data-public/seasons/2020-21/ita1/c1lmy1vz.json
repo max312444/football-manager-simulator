@@ -51,9 +51,6 @@
       "wage": 280500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 76,
         "com": 74,
@@ -106,6 +103,9 @@
       "wage": 96500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 76,
@@ -132,6 +132,10 @@
       "wage": 183500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 81,
@@ -159,6 +163,9 @@
       "wage": 272500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 78,
         "com": 80,
@@ -166,7 +173,7 @@
         "ldr": 76,
         "pac": 82,
         "pas": 72,
-        "pos": 58,
+        "pos": 78,
         "sho": 87,
         "sta": 80,
         "str": 79,
@@ -185,6 +192,9 @@
       "wage": 217500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 80,
@@ -218,7 +228,7 @@
         "ldr": 78,
         "pac": 84,
         "pas": 70,
-        "pos": 60,
+        "pos": 80,
         "sho": 87,
         "sta": 76,
         "str": 81,
@@ -238,7 +248,11 @@
       "wage": 234500
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 83,
@@ -246,7 +260,7 @@
         "ldr": 78,
         "pac": 82,
         "pas": 71,
-        "pos": 63,
+        "pos": 83,
         "sho": 86,
         "sta": 80,
         "str": 79,
@@ -288,10 +302,13 @@
       "name": "Alex Sandru",
       "nation": "BRA",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 187000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 84,
         "com": 75,
@@ -318,6 +335,9 @@
       "wage": 194000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -345,6 +365,10 @@
       "wage": 129500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 76,
@@ -371,9 +395,6 @@
       "wage": 199500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 79,
         "com": 80,
@@ -400,6 +421,9 @@
       "wage": 201500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 83,
@@ -452,6 +476,10 @@
       "wage": 95500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 79,
@@ -504,19 +532,23 @@
       "wage": 109000
     },
     {
+      "alt": [
+        "RW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 82,
-        "dri": 76,
-        "ldr": 75,
-        "pac": 72,
-        "pas": 83,
-        "pos": 78,
-        "sho": 74,
-        "sta": 83,
-        "str": 72,
-        "tac": 75,
-        "vis": 82
+        "aer": 65,
+        "com": 80,
+        "dri": 79,
+        "ldr": 73,
+        "pac": 80,
+        "pas": 81,
+        "pos": 70,
+        "sho": 72,
+        "sta": 84,
+        "str": 69,
+        "tac": 67,
+        "vis": 79
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -526,23 +558,27 @@
       "name": "Federico Bernerdeschi",
       "nation": "ITA",
       "number": 33,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 272500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 71,
-        "ldr": 66,
-        "pac": 66,
+        "aer": 53,
+        "com": 70,
+        "dri": 75,
+        "ldr": 64,
+        "pac": 69,
         "pas": 75,
-        "pos": 66,
-        "sho": 65,
-        "sta": 70,
-        "str": 65,
-        "tac": 64,
-        "vis": 69
+        "pos": 51,
+        "sho": 71,
+        "sta": 64,
+        "str": 60,
+        "tac": 46,
+        "vis": 71
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -553,7 +589,7 @@
       "nation": "SWE",
       "nation2": "MKD",
       "number": 44,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 91000
     },
     {
@@ -583,19 +619,23 @@
       "wage": 69500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 76,
         "com": 76,
-        "dri": 74,
+        "dri": 81,
         "ldr": 67,
-        "pac": 74,
-        "pas": 65,
-        "pos": 52,
+        "pac": 81,
+        "pas": 72,
+        "pos": 72,
         "sho": 81,
         "sta": 75,
         "str": 78,
         "tac": 47,
-        "vis": 68
+        "vis": 75
       },
       "birth": "1997-10-01",
       "contract": null,
@@ -606,7 +646,7 @@
       "name": "Federico Chiasa",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 119000
     }
   ],

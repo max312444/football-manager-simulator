@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 39,
-        "com": 49,
-        "dri": 48,
-        "ldr": 44,
-        "pac": 47,
-        "pas": 54,
-        "pos": 49,
-        "sho": 46,
-        "sta": 52,
-        "str": 44,
-        "tac": 44,
-        "vis": 55
+        "aer": 52,
+        "com": 47,
+        "dri": 36,
+        "ldr": 46,
+        "pac": 46,
+        "pas": 44,
+        "pos": 54,
+        "sho": 25,
+        "sta": 46,
+        "str": 51,
+        "tac": 51,
+        "vis": 40
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -99,7 +99,7 @@
       "name": "Jesper Verleat",
       "nation": "NED",
       "number": 4,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 2500
     },
     {
@@ -130,18 +130,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 57,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 62,
-        "pos": 56,
-        "sho": 54,
+        "dri": 54,
+        "ldr": 59,
+        "pac": 50,
+        "pas": 61,
+        "pos": 60,
+        "sho": 48,
         "sta": 63,
-        "str": 56,
-        "tac": 56,
-        "vis": 56
+        "str": 61,
+        "tac": 62,
+        "vis": 53
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -151,7 +151,7 @@
       "name": "Denis Lynsmayer",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
@@ -162,7 +162,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 59,
         "str": 58,
@@ -182,19 +182,22 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 61,
-        "dri": 56,
-        "ldr": 50,
-        "pac": 60,
-        "pas": 48,
-        "pos": 37,
-        "sho": 60,
-        "sta": 54,
-        "str": 61,
-        "tac": 27,
-        "vis": 54
+        "aer": 40,
+        "com": 58,
+        "dri": 61,
+        "ldr": 48,
+        "pac": 64,
+        "pas": 54,
+        "pos": 39,
+        "sho": 55,
+        "sta": 56,
+        "str": 51,
+        "tac": 33,
+        "vis": 60
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -205,10 +208,15 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -235,6 +243,10 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -262,17 +274,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 56,
-        "dri": 56,
+        "aer": 57,
+        "com": 63,
+        "dri": 58,
         "ldr": 53,
-        "pac": 53,
+        "pac": 60,
         "pas": 57,
-        "pos": 55,
-        "sho": 50,
+        "pos": 62,
+        "sho": 57,
         "sta": 57,
-        "str": 53,
+        "str": 60,
         "tac": 51,
         "vis": 61
       },
@@ -285,21 +302,26 @@
       "name": "Fabian Schleusaner",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 50,
-        "dri": 52,
+        "aer": 51,
+        "com": 57,
+        "dri": 57,
         "ldr": 47,
-        "pac": 46,
+        "pac": 51,
         "pas": 51,
-        "pos": 52,
-        "sho": 43,
+        "pos": 58,
+        "sho": 50,
         "sta": 54,
-        "str": 45,
+        "str": 52,
         "tac": 48,
         "vis": 51
       },
@@ -311,7 +333,7 @@
       "name": "Florian Hensch",
       "nation": "GER",
       "number": 12,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2500
     },
     {
@@ -348,7 +370,7 @@
         "ldr": 60,
         "pac": 63,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 68,
         "sta": 57,
         "str": 62,
@@ -368,18 +390,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 60,
-        "dri": 58,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 65,
-        "pos": 63,
-        "sho": 55,
+        "dri": 54,
+        "ldr": 60,
+        "pac": 55,
+        "pas": 64,
+        "pos": 67,
+        "sho": 49,
         "sta": 67,
-        "str": 57,
-        "tac": 62,
-        "vis": 62
+        "str": 62,
+        "tac": 68,
+        "vis": 59
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -389,26 +411,23 @@
       "name": "Erik Zanga",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 66,
-        "com": 59,
-        "dri": 53,
-        "ldr": 63,
-        "pac": 59,
-        "pas": 59,
-        "pos": 70,
-        "sho": 39,
-        "sta": 60,
-        "str": 63,
-        "tac": 64,
-        "vis": 50
+        "aer": 53,
+        "com": 57,
+        "dri": 63,
+        "ldr": 59,
+        "pac": 67,
+        "pas": 63,
+        "pos": 65,
+        "sho": 46,
+        "sta": 66,
+        "str": 55,
+        "tac": 61,
+        "vis": 56
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -419,23 +438,28 @@
       "nation": "GER",
       "nation2": "KVX",
       "number": 19,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 50,
+        "com": 59,
         "dri": 42,
         "ldr": 55,
         "pac": 49,
-        "pas": 43,
+        "pas": 52,
         "pos": 57,
         "sho": 27,
-        "sta": 52,
+        "sta": 61,
         "str": 55,
         "tac": 57,
-        "vis": 37
+        "vis": 46
       },
       "birth": "1995-02-01",
       "contract": null,
@@ -445,23 +469,28 @@
       "name": "Emanuel Taffertshufer",
       "nation": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 59,
-        "dri": 56,
+        "dri": 64,
         "ldr": 53,
         "pac": 60,
-        "pas": 53,
-        "pos": 41,
+        "pas": 61,
+        "pos": 61,
         "sho": 63,
         "sta": 55,
         "str": 64,
         "tac": 32,
-        "vis": 55
+        "vis": 63
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -472,23 +501,23 @@
       "nation": "SVK",
       "nation2": "GER",
       "number": 21,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 59,
-        "dri": 53,
-        "ldr": 49,
-        "pac": 50,
+        "aer": 42,
+        "com": 60,
+        "dri": 57,
+        "ldr": 47,
+        "pac": 53,
         "pas": 58,
-        "pos": 56,
-        "sho": 47,
-        "sta": 59,
-        "str": 51,
-        "tac": 50,
-        "vis": 55
+        "pos": 41,
+        "sho": 53,
+        "sta": 53,
+        "str": 46,
+        "tac": 32,
+        "vis": 57
       },
       "birth": "1993-10-01",
       "contract": null,
@@ -498,10 +527,13 @@
       "name": "Korbinian Vullmann",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -580,6 +612,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 58,
@@ -606,19 +641,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 54,
+        "com": 55,
         "dri": 57,
         "ldr": 51,
         "pac": 54,
-        "pas": 56,
+        "pas": 57,
         "pos": 54,
         "sho": 54,
         "sta": 59,
         "str": 50,
-        "tac": 53,
-        "vis": 55
+        "tac": 54,
+        "vis": 56
       },
       "birth": "1995-02-01",
       "contract": null,
@@ -659,6 +697,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -737,22 +778,19 @@
       "wage": 3000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 55,
-        "com": 52,
-        "dri": 36,
-        "ldr": 48,
-        "pac": 46,
-        "pas": 46,
-        "pos": 59,
-        "sho": 24,
-        "sta": 49,
-        "str": 57,
-        "tac": 59,
-        "vis": 42
+        "aer": 42,
+        "com": 50,
+        "dri": 46,
+        "ldr": 44,
+        "pac": 54,
+        "pas": 50,
+        "pos": 54,
+        "sho": 31,
+        "sta": 55,
+        "str": 49,
+        "tac": 56,
+        "vis": 48
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -762,7 +800,7 @@
       "name": "Ken Gypson",
       "nation": "GER",
       "number": 36,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2500
     }
   ],

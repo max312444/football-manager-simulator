@@ -77,13 +77,13 @@
       "attrs": {
         "aer": 70,
         "com": 80,
-        "dri": 64,
+        "dri": 72,
         "ldr": 80,
-        "pac": 70,
+        "pac": 78,
         "pas": 76,
         "pos": 84,
         "sho": 50,
-        "sta": 82,
+        "sta": 90,
         "str": 72,
         "tac": 82,
         "vis": 70
@@ -105,18 +105,19 @@
     {
       "alt": [
         "RB",
+        "CM",
         "DM"
       ],
       "attrs": {
         "aer": 62,
         "com": 74,
-        "dri": 64,
+        "dri": 67,
         "ldr": 66,
-        "pac": 70,
+        "pac": 73,
         "pas": 74,
         "pos": 76,
         "sho": 50,
-        "sta": 84,
+        "sta": 87,
         "str": 68,
         "tac": 76,
         "vis": 66
@@ -134,18 +135,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB"
       ],
       "attrs": {
         "aer": 76,
         "com": 76,
-        "dri": 66,
+        "dri": 70,
         "ldr": 70,
-        "pac": 76,
-        "pas": 70,
+        "pac": 80,
+        "pas": 74,
         "pos": 80,
         "sho": 52,
-        "sta": 82,
+        "sta": 86,
         "str": 80,
         "tac": 82,
         "vis": 60
@@ -247,9 +249,9 @@
     },
     {
       "alt": [
-        "LB",
+        "DM",
         "RB",
-        "DM"
+        "LB"
       ],
       "attrs": {
         "aer": 74,
@@ -278,8 +280,9 @@
     },
     {
       "alt": [
-        "LB",
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 60,
@@ -303,7 +306,7 @@
       "name": "Quinton Fortone",
       "nation": "RSA",
       "number": 25,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 77000
     },
     {
@@ -346,7 +349,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 60,
@@ -354,12 +357,12 @@
         "dri": 80,
         "ldr": 70,
         "pac": 66,
-        "pas": 88,
+        "pas": 89,
         "pos": 80,
         "sho": 82,
-        "sta": 82,
+        "sta": 83,
         "str": 64,
-        "tac": 66,
+        "tac": 67,
         "vis": 90
       },
       "birth": "1974-11-01",
@@ -384,21 +387,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 64,
-        "com": 68,
-        "dri": 68,
+        "com": 72,
+        "dri": 70,
         "ldr": 54,
         "pac": 70,
-        "pas": 72,
+        "pas": 76,
         "pos": 70,
-        "sho": 58,
+        "sho": 60,
         "sta": 82,
         "str": 66,
-        "tac": 70,
-        "vis": 68
+        "tac": 72,
+        "vis": 72
       },
       "birth": "1984-02-01",
       "contract": "2008-06-30",
@@ -412,19 +415,22 @@
       "wage": 80000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 68,
+        "com": 71,
         "dri": 72,
         "ldr": 52,
         "pac": 72,
-        "pas": 74,
+        "pas": 77,
         "pos": 66,
         "sho": 62,
         "sta": 76,
         "str": 62,
-        "tac": 66,
-        "vis": 70
+        "tac": 69,
+        "vis": 73
       },
       "birth": "1979-06-01",
       "contract": "2008-06-30",
@@ -439,19 +445,22 @@
       "wage": 70000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 64,
+        "com": 69,
         "dri": 64,
         "ldr": 54,
         "pac": 72,
-        "pas": 66,
-        "pos": 70,
+        "pas": 71,
+        "pos": 75,
         "sho": 52,
         "sta": 80,
-        "str": 74,
-        "tac": 76,
-        "vis": 58
+        "str": 79,
+        "tac": 81,
+        "vis": 63
       },
       "birth": "1981-05-01",
       "contract": "2008-06-30",
@@ -465,19 +474,22 @@
       "wage": 68500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 62,
+        "com": 68,
         "dri": 68,
         "ldr": 48,
         "pac": 70,
-        "pas": 68,
+        "pas": 74,
         "pos": 64,
         "sho": 58,
         "sta": 74,
         "str": 62,
-        "tac": 64,
-        "vis": 64
+        "tac": 70,
+        "vis": 70
       },
       "birth": "1981-02-01",
       "contract": "2008-06-30",
@@ -492,7 +504,9 @@
     },
     {
       "alt": [
-        "LB"
+        "LW",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 54,
@@ -516,7 +530,7 @@
       "name": "Kieran Rychardson",
       "nation": "ENG",
       "number": 23,
-      "pos": "LM",
+      "pos": "RW",
       "wage": 39500
     },
     {
@@ -553,6 +567,7 @@
     },
     {
       "alt": [
+        "ST",
         "LW"
       ],
       "attrs": {
@@ -586,19 +601,21 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
-        "aer": 70,
-        "com": 78,
+        "aer": 77,
+        "com": 85,
         "dri": 86,
         "ldr": 60,
         "pac": 82,
         "pas": 78,
-        "pos": 66,
-        "sho": 82,
+        "pos": 73,
+        "sho": 89,
         "sta": 82,
-        "str": 82,
+        "str": 89,
         "tac": 52,
         "vis": 82
       },
@@ -619,19 +636,21 @@
     },
     {
       "alt": [
-        "DM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
-        "aer": 74,
-        "com": 70,
+        "aer": 76,
+        "com": 72,
         "dri": 70,
         "ldr": 64,
         "pac": 72,
         "pas": 70,
-        "pos": 66,
-        "sho": 70,
+        "pos": 68,
+        "sho": 72,
         "sta": 84,
-        "str": 76,
+        "str": 78,
         "tac": 64,
         "vis": 64
       },
@@ -648,16 +667,16 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 74,
+        "aer": 79,
+        "com": 79,
         "dri": 78,
         "ldr": 52,
         "pac": 84,
         "pas": 70,
-        "pos": 50,
-        "sho": 80,
+        "pos": 55,
+        "sho": 85,
         "sta": 72,
-        "str": 76,
+        "str": 81,
         "tac": 40,
         "vis": 66
       },
@@ -707,16 +726,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 84,
+        "aer": 66,
+        "com": 90,
         "dri": 72,
         "ldr": 62,
-        "pac": 68,
+        "pac": 74,
         "pas": 70,
-        "pos": 46,
-        "sho": 80,
+        "pos": 52,
+        "sho": 86,
         "sta": 60,
-        "str": 66,
+        "str": 72,
         "tac": 38,
         "vis": 72
       },
@@ -736,20 +755,17 @@
       "wage": 59000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 60,
+        "aer": 66,
+        "com": 72,
         "dri": 70,
         "ldr": 40,
         "pac": 86,
         "pas": 58,
-        "pos": 44,
-        "sho": 66,
+        "pos": 56,
+        "sho": 78,
         "sta": 70,
-        "str": 60,
+        "str": 72,
         "tac": 36,
         "vis": 56
       },
@@ -766,20 +782,20 @@
     },
     {
       "alt": [
-        "CB"
+        "RB"
       ],
       "attrs": {
-        "aer": 42,
-        "com": 51,
+        "aer": 51,
+        "com": 60,
         "dri": 48,
         "ldr": 39,
         "pac": 65,
         "pas": 47,
-        "pos": 55,
+        "pos": 64,
         "sho": 31,
         "sta": 61,
-        "str": 50,
-        "tac": 57,
+        "str": 59,
+        "tac": 66,
         "vis": 39
       },
       "birth": "1986-03-01",

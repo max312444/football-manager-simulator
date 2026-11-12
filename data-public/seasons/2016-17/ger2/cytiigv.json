@@ -51,19 +51,23 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 64,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 59,
-        "pas": 72,
-        "pos": 67,
-        "sho": 63,
+        "dri": 63,
+        "ldr": 64,
+        "pac": 56,
+        "pas": 71,
+        "pos": 71,
+        "sho": 57,
         "sta": 71,
-        "str": 59,
-        "tac": 64,
-        "vis": 71
+        "str": 64,
+        "tac": 70,
+        "vis": 68
       },
       "birth": "1985-06-01",
       "contract": null,
@@ -73,10 +77,13 @@
       "name": "Tim Hooglend",
       "nation": "GER",
       "number": 2,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 56,
@@ -104,19 +111,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 65,
-        "dri": 60,
-        "ldr": 62,
-        "pac": 71,
-        "pas": 64,
-        "pos": 62,
-        "sho": 46,
-        "sta": 71,
-        "str": 61,
-        "tac": 64,
-        "vis": 61
+        "aer": 67,
+        "com": 67,
+        "dri": 50,
+        "ldr": 66,
+        "pac": 63,
+        "pas": 60,
+        "pos": 67,
+        "sho": 39,
+        "sta": 65,
+        "str": 69,
+        "tac": 67,
+        "vis": 55
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -126,10 +136,13 @@
       "name": "Felix Bastiens",
       "nation": "GER",
       "number": 5,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -157,19 +170,24 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 54,
-        "dri": 52,
+        "com": 58,
+        "dri": 55,
         "ldr": 48,
         "pac": 56,
-        "pas": 48,
-        "pos": 34,
-        "sho": 54,
+        "pas": 55,
+        "pos": 54,
+        "sho": 58,
         "sta": 50,
         "str": 54,
         "tac": 22,
-        "vis": 48
+        "vis": 55
       },
       "birth": "1994-05-01",
       "contract": null,
@@ -180,13 +198,10 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 7,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 55,
         "com": 58,
@@ -214,6 +229,11 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 61,
@@ -221,7 +241,7 @@
         "ldr": 57,
         "pac": 57,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 53,
         "str": 58,
@@ -241,18 +261,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 59,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 54,
+        "aer": 45,
+        "com": 60,
+        "dri": 64,
+        "ldr": 57,
+        "pac": 57,
         "pas": 62,
-        "pos": 59,
-        "sho": 56,
-        "sta": 62,
-        "str": 55,
-        "tac": 58,
-        "vis": 61
+        "pos": 44,
+        "sho": 62,
+        "sta": 56,
+        "str": 50,
+        "tac": 40,
+        "vis": 63
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -262,23 +282,26 @@
       "name": "Thomas Eisfald",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 71,
-        "dri": 64,
-        "ldr": 66,
-        "pac": 72,
-        "pas": 62,
-        "pos": 45,
-        "sho": 70,
-        "sta": 68,
-        "str": 66,
-        "tac": 38,
-        "vis": 64
+        "aer": 51,
+        "com": 68,
+        "dri": 69,
+        "ldr": 64,
+        "pac": 76,
+        "pas": 68,
+        "pos": 47,
+        "sho": 65,
+        "sta": 70,
+        "str": 56,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1990-12-01",
       "contract": null,
@@ -288,7 +311,7 @@
       "name": "Arvydas Nuvikovas",
       "nation": "LTU",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 12000
     },
     {
@@ -299,7 +322,7 @@
         "ldr": 63,
         "pac": 72,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 75,
         "sta": 63,
         "str": 71,
@@ -319,6 +342,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 68,
@@ -347,7 +373,9 @@
     },
     {
       "alt": [
-        "CM"
+        "DM",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 68,
@@ -455,6 +483,10 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -481,19 +513,24 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
-        "dri": 57,
+        "dri": 62,
         "ldr": 55,
         "pac": 56,
-        "pas": 54,
-        "pos": 35,
+        "pas": 59,
+        "pos": 55,
         "sho": 63,
         "sta": 56,
         "str": 60,
         "tac": 31,
-        "vis": 52
+        "vis": 57
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -503,7 +540,7 @@
       "name": "Tom Weylandt",
       "nation": "GER",
       "number": 23,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4000
     },
     {
@@ -529,23 +566,23 @@
       "name": "Timo Perthal",
       "nation": "GER",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7000
     },
     {
       "attrs": {
-        "aer": 41,
-        "com": 50,
-        "dri": 45,
-        "ldr": 47,
-        "pac": 44,
+        "aer": 35,
+        "com": 51,
+        "dri": 49,
+        "ldr": 45,
+        "pac": 47,
         "pas": 49,
-        "pos": 46,
-        "sho": 45,
-        "sta": 55,
-        "str": 44,
-        "tac": 48,
-        "vis": 53
+        "pos": 31,
+        "sho": 51,
+        "sta": 49,
+        "str": 39,
+        "tac": 30,
+        "vis": 55
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -556,7 +593,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2000
     },
     {
@@ -567,7 +604,7 @@
         "ldr": 52,
         "pac": 54,
         "pas": 49,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 48,
         "str": 53,
@@ -587,18 +624,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 62,
+        "aer": 57,
+        "com": 63,
         "dri": 61,
-        "ldr": 58,
-        "pac": 60,
-        "pas": 63,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 53,
         "pos": 60,
-        "sho": 54,
-        "sta": 65,
-        "str": 60,
-        "tac": 56,
-        "vis": 61
+        "sho": 63,
+        "sta": 59,
+        "str": 65,
+        "tac": 30,
+        "vis": 52
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -609,23 +646,23 @@
       "name": "Nils Quaschnar",
       "nation": "GER",
       "number": 36,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 67,
-        "dri": 64,
-        "ldr": 67,
-        "pac": 60,
+        "aer": 53,
+        "com": 68,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 63,
         "pas": 72,
-        "pos": 65,
-        "sho": 59,
-        "sta": 68,
-        "str": 60,
-        "tac": 62,
-        "vis": 66
+        "pos": 50,
+        "sho": 65,
+        "sta": 62,
+        "str": 55,
+        "tac": 44,
+        "vis": 68
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -635,7 +672,7 @@
       "name": "Marco Stiapermann",
       "nation": "GER",
       "number": 39,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 13000
     }
   ],

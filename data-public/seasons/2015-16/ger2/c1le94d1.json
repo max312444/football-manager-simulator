@@ -77,6 +77,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 68,
@@ -129,6 +132,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -156,18 +162,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 56,
-        "dri": 42,
-        "ldr": 58,
-        "pac": 52,
-        "pas": 48,
-        "pos": 61,
-        "sho": 30,
-        "sta": 56,
-        "str": 58,
-        "tac": 62,
-        "vis": 42
+        "aer": 48,
+        "com": 54,
+        "dri": 52,
+        "ldr": 54,
+        "pac": 60,
+        "pas": 52,
+        "pos": 56,
+        "sho": 37,
+        "sta": 62,
+        "str": 50,
+        "tac": 59,
+        "vis": 48
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -177,23 +183,23 @@
       "name": "Niko Giessalmann",
       "nation": "GER",
       "number": 7,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 60,
-        "dri": 61,
-        "ldr": 54,
-        "pac": 59,
+        "aer": 47,
+        "com": 61,
+        "dri": 65,
+        "ldr": 52,
+        "pac": 62,
         "pas": 62,
-        "pos": 61,
-        "sho": 53,
-        "sta": 63,
-        "str": 55,
-        "tac": 60,
-        "vis": 64
+        "pos": 46,
+        "sho": 59,
+        "sta": 57,
+        "str": 50,
+        "tac": 42,
+        "vis": 66
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -204,7 +210,7 @@
       "nation": "ALB",
       "nation2": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7500
     },
     {
@@ -215,7 +221,7 @@
         "ldr": 62,
         "pac": 64,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 61,
         "str": 69,
@@ -235,22 +241,22 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 75,
-        "com": 66,
-        "dri": 57,
-        "ldr": 71,
-        "pac": 65,
-        "pas": 60,
-        "pos": 70,
-        "sho": 40,
+        "aer": 56,
+        "com": 69,
+        "dri": 73,
+        "ldr": 67,
+        "pac": 69,
+        "pas": 70,
+        "pos": 50,
+        "sho": 67,
         "sta": 64,
-        "str": 72,
-        "tac": 74,
-        "vis": 57
+        "str": 60,
+        "tac": 49,
+        "vis": 74
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -261,23 +267,23 @@
       "nation": "PHI",
       "nation2": "GER",
       "number": 10,
-      "pos": "CB",
+      "pos": "AM",
       "wage": 11500
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 65,
-        "dri": 64,
-        "ldr": 58,
-        "pac": 57,
+        "aer": 51,
+        "com": 66,
+        "dri": 68,
+        "ldr": 56,
+        "pac": 60,
         "pas": 69,
-        "pos": 60,
-        "sho": 60,
-        "sta": 69,
-        "str": 62,
-        "tac": 57,
-        "vis": 64
+        "pos": 45,
+        "sho": 66,
+        "sta": 63,
+        "str": 57,
+        "tac": 39,
+        "vis": 66
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -287,23 +293,28 @@
       "name": "Florian Trynks",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 10500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 60,
+        "com": 69,
         "dri": 52,
         "ldr": 65,
         "pac": 60,
-        "pas": 57,
+        "pas": 66,
         "pos": 70,
         "sho": 38,
-        "sta": 61,
+        "sta": 70,
         "str": 70,
         "tac": 68,
-        "vis": 53
+        "vis": 62
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -313,10 +324,14 @@
       "name": "Marco Caligyuri",
       "nation": "GER",
       "number": 13,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -343,6 +358,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -369,19 +387,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 58,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 57,
-        "pas": 49,
-        "pos": 35,
-        "sho": 64,
-        "sta": 51,
-        "str": 61,
-        "tac": 28,
-        "vis": 50
+        "aer": 41,
+        "com": 55,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 55,
+        "pos": 37,
+        "sho": 59,
+        "sta": 53,
+        "str": 51,
+        "tac": 34,
+        "vis": 56
       },
       "birth": "1992-12-01",
       "contract": null,
@@ -392,7 +413,7 @@
       "nation": "NOR",
       "nation2": "BIH",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
@@ -403,7 +424,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 51,
-        "pos": 40,
+        "pos": 60,
         "sho": 59,
         "sta": 54,
         "str": 57,
@@ -429,7 +450,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 67,
         "sta": 61,
         "str": 63,
@@ -448,6 +469,11 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 65,
@@ -455,7 +481,7 @@
         "ldr": 61,
         "pac": 62,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 70,
         "sta": 61,
         "str": 63,
@@ -474,6 +500,11 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 57,
         "com": 62,
@@ -481,7 +512,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 48,
-        "pos": 40,
+        "pos": 60,
         "sho": 59,
         "sta": 55,
         "str": 58,
@@ -501,18 +532,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 69,
-        "dri": 67,
-        "ldr": 60,
-        "pac": 61,
+        "aer": 52,
+        "com": 70,
+        "dri": 71,
+        "ldr": 58,
+        "pac": 64,
         "pas": 70,
-        "pos": 64,
-        "sho": 59,
-        "sta": 69,
-        "str": 64,
-        "tac": 65,
-        "vis": 69
+        "pos": 49,
+        "sho": 65,
+        "sta": 63,
+        "str": 59,
+        "tac": 47,
+        "vis": 71
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -522,23 +553,23 @@
       "name": "Marco Stiapermann",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11500
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 51,
-        "dri": 47,
+        "aer": 35,
+        "com": 48,
+        "dri": 50,
         "ldr": 45,
-        "pac": 48,
-        "pas": 41,
-        "pos": 27,
-        "sho": 53,
-        "sta": 49,
-        "str": 53,
-        "tac": 19,
-        "vis": 41
+        "pac": 51,
+        "pas": 49,
+        "pos": 39,
+        "sho": 42,
+        "sta": 56,
+        "str": 45,
+        "tac": 37,
+        "vis": 47
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -548,10 +579,15 @@
       "name": "George Davias",
       "nation": "SLE",
       "number": 25,
-      "pos": "ST",
+      "pos": "LM",
       "wage": 1500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -611,7 +647,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 53,
-        "pos": 33,
+        "pos": 53,
         "sho": 62,
         "sta": 57,
         "str": 59,
@@ -631,18 +667,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 63,
-        "dri": 58,
-        "ldr": 58,
-        "pac": 60,
-        "pas": 65,
-        "pos": 59,
-        "sho": 55,
+        "dri": 54,
+        "ldr": 60,
+        "pac": 57,
+        "pas": 64,
+        "pos": 63,
+        "sho": 49,
         "sta": 64,
-        "str": 57,
-        "tac": 57,
-        "vis": 61
+        "str": 62,
+        "tac": 63,
+        "vis": 58
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -652,7 +688,7 @@
       "name": "Tom Tryboll",
       "nation": "GER",
       "number": 39,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     }
   ],

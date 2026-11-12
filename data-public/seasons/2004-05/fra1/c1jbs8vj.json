@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 74,
+        "aer": 60,
         "com": 77,
-        "dri": 75,
+        "dri": 79,
         "ldr": 67,
-        "pac": 78,
-        "pas": 67,
-        "pos": 56,
-        "sho": 75,
+        "pac": 76,
+        "pas": 77,
+        "pos": 61,
+        "sho": 72,
         "sta": 74,
-        "str": 74,
-        "tac": 43,
-        "vis": 69
+        "str": 64,
+        "tac": 51,
+        "vis": 80
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -47,7 +47,7 @@
       "nation": "CIV",
       "nation2": "NED",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 24500
     },
     {
@@ -58,7 +58,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 65,
-        "pos": 49,
+        "pos": 69,
         "sho": 78,
         "sta": 67,
         "str": 72,
@@ -131,18 +131,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 71,
-        "dri": 72,
-        "ldr": 69,
-        "pac": 70,
-        "pas": 72,
-        "pos": 71,
-        "sho": 65,
+        "dri": 68,
+        "ldr": 71,
+        "pac": 67,
+        "pas": 71,
+        "pos": 75,
+        "sho": 59,
         "sta": 74,
-        "str": 67,
-        "tac": 66,
-        "vis": 72
+        "str": 72,
+        "tac": 72,
+        "vis": 69
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -152,7 +152,7 @@
       "name": "Teemu Tainiu",
       "nation": "FIN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 24500
     },
     {
@@ -210,6 +210,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 71,
@@ -268,18 +271,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 65,
-        "dri": 65,
-        "ldr": 60,
-        "pac": 62,
-        "pas": 70,
-        "pos": 67,
-        "sho": 62,
+        "dri": 61,
+        "ldr": 62,
+        "pac": 59,
+        "pas": 69,
+        "pos": 71,
+        "sho": 56,
         "sta": 71,
-        "str": 58,
-        "tac": 59,
-        "vis": 68
+        "str": 63,
+        "tac": 65,
+        "vis": 65
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -290,10 +293,13 @@
       "nation": "TOG",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 67,
@@ -322,6 +328,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 66,
@@ -329,7 +338,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 63,
         "sta": 61,
         "str": 65,
@@ -400,6 +409,10 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -453,6 +466,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -538,7 +554,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 54,
         "str": 58,
@@ -558,6 +574,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 62,
@@ -613,18 +632,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 61,
+        "aer": 53,
+        "com": 62,
         "dri": 56,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 59,
+        "ldr": 52,
+        "pac": 58,
+        "pas": 49,
         "pos": 55,
-        "sho": 51,
-        "sta": 57,
-        "str": 52,
-        "tac": 56,
-        "vis": 57
+        "sho": 60,
+        "sta": 51,
+        "str": 57,
+        "tac": 30,
+        "vis": 48
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -634,7 +653,7 @@
       "name": "Romain Puyet",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 5000
     },
@@ -700,7 +719,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 61,
         "sta": 50,
         "str": 57,
@@ -749,6 +768,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 60,
@@ -777,18 +799,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 59,
-        "dri": 58,
-        "ldr": 51,
-        "pac": 54,
-        "pas": 59,
-        "pos": 55,
-        "sho": 51,
+        "dri": 54,
+        "ldr": 53,
+        "pac": 51,
+        "pas": 58,
+        "pos": 59,
+        "sho": 45,
         "sta": 57,
-        "str": 49,
-        "tac": 50,
-        "vis": 61
+        "str": 54,
+        "tac": 56,
+        "vis": 58
       },
       "birth": "1970-09-01",
       "contract": null,
@@ -798,7 +820,7 @@
       "name": "Philippe Violaau",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -809,7 +831,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 57,
         "sta": 55,
         "str": 55,
@@ -828,17 +850,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 53,
-        "dri": 54,
+        "aer": 52,
+        "com": 62,
+        "dri": 59,
         "ldr": 50,
-        "pac": 51,
+        "pac": 60,
         "pas": 60,
-        "pos": 53,
-        "sho": 50,
+        "pos": 62,
+        "sho": 59,
         "sta": 60,
-        "str": 53,
+        "str": 62,
         "tac": 50,
         "vis": 58
       },
@@ -850,23 +877,23 @@
       "name": "David Vandenbosscha",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 52,
+        "aer": 53,
+        "com": 53,
         "dri": 51,
-        "ldr": 48,
-        "pac": 49,
-        "pas": 59,
+        "ldr": 46,
+        "pac": 54,
+        "pas": 49,
         "pos": 51,
-        "sho": 51,
-        "sta": 56,
-        "str": 51,
-        "tac": 50,
-        "vis": 52
+        "sho": 60,
+        "sta": 50,
+        "str": 56,
+        "tac": 24,
+        "vis": 43
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -876,7 +903,7 @@
       "name": "Benoit Leruy",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 3500
     },
@@ -907,19 +934,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 56,
-        "dri": 51,
+        "com": 59,
+        "dri": 57,
         "ldr": 48,
         "pac": 54,
-        "pas": 43,
-        "pos": 28,
-        "sho": 54,
+        "pas": 52,
+        "pos": 48,
+        "sho": 57,
         "sta": 48,
         "str": 50,
         "tac": 21,
-        "vis": 45
+        "vis": 54
       },
       "birth": "1981-10-01",
       "contract": null,
@@ -929,23 +961,23 @@
       "name": "Damien Dofour",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 40,
-        "com": 51,
-        "dri": 53,
-        "ldr": 48,
-        "pac": 47,
+        "aer": 36,
+        "com": 49,
+        "dri": 56,
+        "ldr": 46,
+        "pac": 55,
         "pas": 56,
-        "pos": 48,
-        "sho": 44,
-        "sta": 54,
-        "str": 48,
-        "tac": 48,
-        "vis": 56
+        "pos": 40,
+        "sho": 42,
+        "sta": 57,
+        "str": 45,
+        "tac": 42,
+        "vis": 55
       },
       "birth": "1973-05-01",
       "contract": null,
@@ -955,11 +987,14 @@
       "name": "Pierre Dablock",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 48,

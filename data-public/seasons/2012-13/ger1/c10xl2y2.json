@@ -131,7 +131,9 @@
     },
     {
       "alt": [
-        "DM"
+        "DM",
+        "AM",
+        "CB"
       ],
       "attrs": {
         "aer": 64,
@@ -159,6 +161,9 @@
       "wage": 55500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -185,19 +190,23 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 63,
-        "dri": 60,
-        "ldr": 54,
-        "pac": 58,
-        "pas": 59,
-        "pos": 56,
-        "sho": 52,
-        "sta": 62,
-        "str": 53,
-        "tac": 53,
-        "vis": 60
+        "aer": 46,
+        "com": 61,
+        "dri": 65,
+        "ldr": 50,
+        "pac": 67,
+        "pas": 55,
+        "pos": 38,
+        "sho": 56,
+        "sta": 58,
+        "str": 48,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "1992-11-01",
       "contract": null,
@@ -207,7 +216,7 @@
       "name": "Filip Malbesic",
       "nation": "SRB",
       "number": 8,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 11500
     },
     {
@@ -218,7 +227,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 66,
         "sta": 61,
         "str": 60,
@@ -244,7 +253,7 @@
         "ldr": 69,
         "pac": 80,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 81,
         "sta": 75,
         "str": 79,
@@ -264,6 +273,9 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 59,
@@ -291,18 +303,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 66,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 77,
-        "pas": 69,
-        "pos": 71,
-        "sho": 51,
-        "sta": 72,
-        "str": 67,
-        "tac": 74,
-        "vis": 65
+        "aer": 79,
+        "com": 68,
+        "dri": 59,
+        "ldr": 71,
+        "pac": 69,
+        "pas": 65,
+        "pos": 76,
+        "sho": 44,
+        "sta": 66,
+        "str": 75,
+        "tac": 77,
+        "vis": 59
       },
       "birth": "1981-04-01",
       "contract": null,
@@ -312,23 +324,28 @@
       "name": "Matthieu Delpyerre",
       "nation": "FRA",
       "number": 15,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 41000
     },
     {
+      "alt": [
+        "LB",
+        "RM",
+        "LM"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 71,
-        "dri": 63,
-        "ldr": 74,
-        "pac": 66,
-        "pas": 63,
-        "pos": 74,
-        "sho": 47,
-        "sta": 67,
-        "str": 78,
-        "tac": 75,
-        "vis": 58
+        "aer": 65,
+        "com": 69,
+        "dri": 73,
+        "ldr": 70,
+        "pac": 74,
+        "pas": 67,
+        "pos": 69,
+        "sho": 54,
+        "sta": 73,
+        "str": 70,
+        "tac": 72,
+        "vis": 64
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -339,10 +356,14 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 16,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 41000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 71,
@@ -376,7 +397,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 76,
         "sta": 71,
         "str": 74,
@@ -397,8 +418,9 @@
     },
     {
       "alt": [
-        "CM",
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 50,
@@ -426,6 +448,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 75,
@@ -452,6 +477,10 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 68,
@@ -459,7 +488,7 @@
         "ldr": 57,
         "pac": 69,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 66,
         "sta": 59,
         "str": 67,
@@ -504,22 +533,19 @@
       "wage": 34500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 81,
-        "com": 75,
-        "dri": 61,
-        "ldr": 74,
-        "pac": 72,
-        "pas": 69,
-        "pos": 83,
-        "sho": 53,
-        "sta": 75,
-        "str": 82,
-        "tac": 82,
-        "vis": 61
+        "aer": 68,
+        "com": 73,
+        "dri": 71,
+        "ldr": 70,
+        "pac": 80,
+        "pas": 73,
+        "pos": 78,
+        "sho": 60,
+        "sta": 81,
+        "str": 74,
+        "tac": 79,
+        "vis": 67
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -529,7 +555,7 @@
       "name": "Edson Braefheid",
       "nation": "NED",
       "number": 28,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 57500
     },
     {
@@ -559,6 +585,10 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 68,
         "com": 68,
@@ -566,7 +596,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 75,
         "sta": 69,
         "str": 68,
@@ -585,19 +615,23 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 69,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 65,
-        "pas": 72,
-        "pos": 67,
-        "sho": 63,
-        "sta": 71,
-        "str": 66,
-        "tac": 69,
-        "vis": 70
+        "aer": 55,
+        "com": 67,
+        "dri": 74,
+        "ldr": 66,
+        "pac": 74,
+        "pas": 68,
+        "pos": 49,
+        "sho": 67,
+        "sta": 67,
+        "str": 61,
+        "tac": 49,
+        "vis": 67
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -608,27 +642,27 @@
       "name": "Takashi Usamy",
       "nation": "JPN",
       "number": 33,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 40000
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 75,
-        "com": 72,
-        "dri": 63,
-        "ldr": 76,
-        "pac": 67,
-        "pas": 65,
-        "pos": 75,
-        "sho": 51,
+        "aer": 56,
+        "com": 75,
+        "dri": 79,
+        "ldr": 72,
+        "pac": 71,
+        "pas": 75,
+        "pos": 55,
+        "sho": 78,
         "sta": 69,
-        "str": 77,
-        "tac": 76,
-        "vis": 61
+        "str": 65,
+        "tac": 51,
+        "vis": 78
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -639,7 +673,7 @@
       "nation": "PHI",
       "nation2": "GER",
       "number": 40,
-      "pos": "CB",
+      "pos": "AM",
       "wage": 46000
     }
   ],

@@ -78,7 +78,9 @@
     },
     {
       "alt": [
-        "CM"
+        "LB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 68,
@@ -106,6 +108,9 @@
       "wage": 63500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 83,
@@ -155,23 +160,26 @@
       "nation": "BRA",
       "nation2": "NED",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 54500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 77,
-        "dri": 72,
-        "ldr": 75,
-        "pac": 73,
-        "pas": 78,
-        "pos": 73,
-        "sho": 72,
-        "sta": 79,
-        "str": 68,
-        "tac": 75,
-        "vis": 74
+        "aer": 60,
+        "com": 75,
+        "dri": 77,
+        "ldr": 71,
+        "pac": 82,
+        "pas": 74,
+        "pos": 55,
+        "sho": 76,
+        "sta": 75,
+        "str": 63,
+        "tac": 55,
+        "vis": 71
       },
       "birth": "1972-11-01",
       "contract": null,
@@ -181,7 +189,7 @@
       "name": "Luis Figu",
       "nation": "POR",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 77500
     },
     {
@@ -192,7 +200,7 @@
         "ldr": 81,
         "pac": 83,
         "pas": 77,
-        "pos": 65,
+        "pos": 85,
         "sho": 85,
         "sta": 79,
         "str": 82,
@@ -218,7 +226,7 @@
         "ldr": 70,
         "pac": 73,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 76,
         "sta": 69,
         "str": 73,
@@ -244,7 +252,7 @@
         "ldr": 73,
         "pac": 83,
         "pas": 70,
-        "pos": 56,
+        "pos": 76,
         "sho": 83,
         "sta": 76,
         "str": 83,
@@ -264,18 +272,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 69,
-        "dri": 67,
-        "ldr": 70,
-        "pac": 64,
+        "aer": 58,
+        "com": 70,
+        "dri": 71,
+        "ldr": 68,
+        "pac": 67,
         "pas": 74,
-        "pos": 71,
-        "sho": 69,
-        "sta": 74,
-        "str": 66,
-        "tac": 68,
-        "vis": 75
+        "pos": 56,
+        "sho": 75,
+        "sta": 68,
+        "str": 61,
+        "tac": 50,
+        "vis": 77
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -286,7 +294,7 @@
       "nation": "CHI",
       "nation2": "ITA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 48000
     },
     {
@@ -371,6 +379,9 @@
       "wage": 128000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 71,
@@ -397,9 +408,6 @@
       "wage": 49000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 79,
         "com": 75,
@@ -433,7 +441,7 @@
         "ldr": 73,
         "pac": 76,
         "pas": 74,
-        "pos": 59,
+        "pos": 79,
         "sho": 79,
         "sta": 73,
         "str": 81,
@@ -453,6 +461,9 @@
       "wage": 71000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 79,
@@ -479,7 +490,9 @@
       "wage": 123000
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 80,
@@ -610,6 +623,9 @@
       "wage": 90000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 83,
         "com": 76,
@@ -636,6 +652,9 @@
       "wage": 82000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -662,19 +681,23 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 78,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 69,
-        "pas": 76,
-        "pos": 74,
-        "sho": 70,
-        "sta": 76,
-        "str": 73,
-        "tac": 69,
-        "vis": 76
+        "aer": 56,
+        "com": 76,
+        "dri": 80,
+        "ldr": 69,
+        "pac": 78,
+        "pas": 72,
+        "pos": 56,
+        "sho": 74,
+        "sta": 72,
+        "str": 68,
+        "tac": 49,
+        "vis": 73
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -684,10 +707,13 @@
       "name": "Manciny",
       "nation": "BRA",
       "number": 33,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 69500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 65,
@@ -721,7 +747,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 68,
         "str": 72,

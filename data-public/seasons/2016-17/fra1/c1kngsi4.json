@@ -131,6 +131,10 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -157,19 +161,22 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 55,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 49,
-        "pas": 57,
-        "pos": 55,
-        "sho": 50,
-        "sta": 55,
-        "str": 49,
-        "tac": 50,
-        "vis": 54
+        "aer": 42,
+        "com": 53,
+        "dri": 62,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 53,
+        "pos": 37,
+        "sho": 54,
+        "sta": 51,
+        "str": 44,
+        "tac": 30,
+        "vis": 51
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -179,10 +186,14 @@
       "name": "Julien Vercautaren",
       "nation": "BEL",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -217,7 +228,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 58,
-        "pos": 41,
+        "pos": 61,
         "sho": 63,
         "sta": 56,
         "str": 64,
@@ -236,19 +247,22 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 66,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 62,
-        "pas": 56,
-        "pos": 46,
-        "sho": 65,
-        "sta": 62,
-        "str": 66,
-        "tac": 38,
-        "vis": 57
+        "aer": 52,
+        "com": 63,
+        "dri": 65,
+        "ldr": 58,
+        "pac": 66,
+        "pas": 62,
+        "pos": 48,
+        "sho": 60,
+        "sta": 64,
+        "str": 56,
+        "tac": 44,
+        "vis": 63
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -259,23 +273,23 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 16000
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 55,
-        "dri": 53,
-        "ldr": 50,
-        "pac": 51,
-        "pas": 57,
-        "pos": 57,
-        "sho": 50,
+        "dri": 49,
+        "ldr": 52,
+        "pac": 48,
+        "pas": 56,
+        "pos": 61,
+        "sho": 44,
         "sta": 56,
-        "str": 49,
-        "tac": 52,
-        "vis": 54
+        "str": 54,
+        "tac": 58,
+        "vis": 51
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -286,23 +300,27 @@
       "nation": "FRA",
       "nation2": "MAD",
       "number": 12,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
+      "alt": [
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 67,
-        "dri": 69,
+        "com": 73,
+        "dri": 75,
         "ldr": 65,
-        "pac": 62,
+        "pac": 68,
         "pas": 69,
         "pos": 63,
-        "sho": 59,
+        "sho": 65,
         "sta": 72,
         "str": 65,
         "tac": 67,
-        "vis": 72
+        "vis": 78
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -312,23 +330,28 @@
       "name": "Valentin Eysseryc",
       "nation": "FRA",
       "number": 13,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 35500
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 71,
-        "dri": 71,
-        "ldr": 63,
-        "pac": 74,
-        "pas": 65,
-        "pos": 46,
-        "sho": 77,
-        "sta": 67,
-        "str": 70,
-        "tac": 43,
-        "vis": 60
+        "aer": 57,
+        "com": 68,
+        "dri": 76,
+        "ldr": 61,
+        "pac": 78,
+        "pas": 71,
+        "pos": 48,
+        "sho": 72,
+        "sta": 69,
+        "str": 60,
+        "tac": 49,
+        "vis": 66
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -338,7 +361,7 @@
       "name": "Alassane Plee",
       "nation": "FRA",
       "number": 14,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 32500
     },
     {
@@ -369,18 +392,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 61,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 61,
-        "pas": 65,
-        "pos": 60,
-        "sho": 60,
+        "dri": 55,
+        "ldr": 60,
+        "pac": 58,
+        "pas": 64,
+        "pos": 64,
+        "sho": 54,
         "sta": 64,
-        "str": 57,
-        "tac": 58,
-        "vis": 63
+        "str": 62,
+        "tac": 64,
+        "vis": 60
       },
       "birth": "1995-04-01",
       "contract": null,
@@ -390,7 +413,7 @@
       "name": "Remi Welter",
       "nation": "FRA",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 19000
     },
     {
@@ -401,7 +424,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 59,
         "sta": 53,
         "str": 60,
@@ -420,19 +443,22 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 64,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 67,
-        "pas": 60,
-        "pos": 66,
-        "sho": 46,
-        "sta": 65,
-        "str": 57,
-        "tac": 62,
-        "vis": 60
+        "aer": 68,
+        "com": 66,
+        "dri": 49,
+        "ldr": 60,
+        "pac": 59,
+        "pas": 56,
+        "pos": 71,
+        "sho": 39,
+        "sta": 59,
+        "str": 65,
+        "tac": 65,
+        "vis": 54
       },
       "birth": "1989-10-01",
       "contract": null,
@@ -442,20 +468,20 @@
       "name": "Maxime Le Marchend",
       "nation": "FRA",
       "number": 20,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 18500
     },
     {
       "attrs": {
         "aer": 75,
         "com": 68,
-        "dri": 58,
+        "dri": 67,
         "ldr": 71,
-        "pac": 68,
-        "pas": 66,
+        "pac": 77,
+        "pas": 75,
         "pos": 71,
         "sho": 43,
-        "sta": 65,
+        "sta": 74,
         "str": 73,
         "tac": 77,
         "vis": 55
@@ -469,7 +495,7 @@
       "name": "Ricardo Peraira",
       "nation": "POR",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 36500
     },
     {
@@ -480,7 +506,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 68,
         "sta": 59,
         "str": 60,
@@ -500,9 +526,6 @@
       "wage": 12000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 69,
@@ -510,7 +533,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 63,
         "str": 65,
@@ -530,21 +553,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 70,
-        "com": 62,
+        "com": 69,
         "dri": 51,
         "ldr": 63,
         "pac": 57,
-        "pas": 60,
+        "pas": 67,
         "pos": 65,
         "sho": 36,
-        "sta": 64,
+        "sta": 71,
         "str": 69,
         "tac": 67,
-        "vis": 49
+        "vis": 56
       },
       "birth": "1982-11-01",
       "contract": null,
@@ -554,10 +579,13 @@
       "name": "Mathieu Budmer",
       "nation": "FRA",
       "number": 24,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 65,
@@ -584,19 +612,22 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 61,
-        "dri": 55,
-        "ldr": 59,
-        "pac": 55,
-        "pas": 61,
-        "pos": 60,
-        "sho": 51,
-        "sta": 65,
-        "str": 54,
-        "tac": 57,
-        "vis": 58
+        "aer": 53,
+        "com": 63,
+        "dri": 57,
+        "ldr": 60,
+        "pac": 56,
+        "pas": 63,
+        "pos": 61,
+        "sho": 53,
+        "sta": 67,
+        "str": 55,
+        "tac": 58,
+        "vis": 60
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -617,7 +648,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 55,
         "str": 59,
@@ -636,6 +667,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 59,
@@ -662,19 +696,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 60,
-        "dri": 45,
-        "ldr": 60,
-        "pac": 55,
-        "pas": 52,
-        "pos": 67,
-        "sho": 37,
-        "sta": 56,
-        "str": 65,
-        "tac": 63,
-        "vis": 48
+        "aer": 55,
+        "com": 58,
+        "dri": 55,
+        "ldr": 56,
+        "pac": 63,
+        "pas": 56,
+        "pos": 62,
+        "sho": 44,
+        "sta": 62,
+        "str": 57,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -684,7 +721,7 @@
       "name": "Delbert",
       "nation": "BRA",
       "number": 29,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12500
     },
     {

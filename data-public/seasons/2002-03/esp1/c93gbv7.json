@@ -58,7 +58,7 @@
         "ldr": 68,
         "pac": 76,
         "pas": 67,
-        "pos": 58,
+        "pos": 78,
         "sho": 77,
         "sta": 76,
         "str": 79,
@@ -77,19 +77,23 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 77,
-        "dri": 74,
-        "ldr": 69,
-        "pac": 79,
-        "pas": 69,
-        "pos": 54,
-        "sho": 77,
-        "sta": 72,
-        "str": 74,
-        "tac": 45,
-        "vis": 72
+        "aer": 60,
+        "com": 74,
+        "dri": 79,
+        "ldr": 67,
+        "pac": 83,
+        "pas": 75,
+        "pos": 56,
+        "sho": 72,
+        "sta": 74,
+        "str": 64,
+        "tac": 51,
+        "vis": 78
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -99,23 +103,23 @@
       "name": "Joseba Etxeberrie",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 21000
     },
     {
       "attrs": {
-        "aer": 74,
+        "aer": 60,
         "com": 78,
-        "dri": 75,
+        "dri": 79,
         "ldr": 71,
-        "pac": 77,
-        "pas": 69,
-        "pos": 56,
-        "sho": 82,
+        "pac": 75,
+        "pas": 79,
+        "pos": 61,
+        "sho": 79,
         "sta": 76,
-        "str": 80,
-        "tac": 45,
-        "vis": 66
+        "str": 70,
+        "tac": 53,
+        "vis": 77
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -125,7 +129,7 @@
       "name": "Julen Guerraro",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 24000
     },
     {
@@ -183,18 +187,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 72,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 66,
-        "pas": 77,
-        "pos": 74,
-        "sho": 70,
+        "dri": 66,
+        "ldr": 69,
+        "pac": 63,
+        "pas": 76,
+        "pos": 78,
+        "sho": 64,
         "sta": 73,
-        "str": 66,
-        "tac": 68,
-        "vis": 71
+        "str": 71,
+        "tac": 74,
+        "vis": 68
       },
       "birth": "1979-02-01",
       "contract": null,
@@ -204,7 +208,7 @@
       "name": "Pablo Orbayz",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 22000
     },
     {
@@ -215,7 +219,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 67,
-        "pos": 47,
+        "pos": 67,
         "sho": 78,
         "sta": 67,
         "str": 71,
@@ -290,9 +294,6 @@
       "wage": 19000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 73,
         "com": 69,
@@ -346,22 +347,19 @@
       "wage": 12500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 74,
-        "com": 68,
-        "dri": 58,
-        "ldr": 71,
-        "pac": 63,
-        "pas": 60,
-        "pos": 72,
-        "sho": 41,
-        "sta": 63,
-        "str": 70,
-        "tac": 72,
-        "vis": 57
+        "aer": 61,
+        "com": 66,
+        "dri": 68,
+        "ldr": 67,
+        "pac": 71,
+        "pas": 64,
+        "pos": 67,
+        "sho": 48,
+        "sta": 69,
+        "str": 62,
+        "tac": 69,
+        "vis": 63
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -371,10 +369,13 @@
       "name": "Asier del Hurno",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -402,18 +403,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 51,
         "com": 74,
-        "dri": 67,
+        "dri": 71,
         "ldr": 61,
-        "pac": 73,
-        "pas": 61,
-        "pos": 45,
-        "sho": 73,
+        "pac": 71,
+        "pas": 71,
+        "pos": 50,
+        "sho": 70,
         "sta": 64,
-        "str": 70,
-        "tac": 40,
-        "vis": 63
+        "str": 60,
+        "tac": 48,
+        "vis": 74
       },
       "birth": "1979-12-01",
       "contract": null,
@@ -423,7 +424,7 @@
       "name": "Francisco Yesta",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 10000
     },
     {
@@ -449,26 +450,23 @@
       "name": "Aitor Lerrazabal",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 12000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 75,
-        "com": 67,
-        "dri": 57,
-        "ldr": 67,
-        "pac": 61,
-        "pas": 62,
-        "pos": 74,
-        "sho": 43,
-        "sta": 62,
-        "str": 73,
-        "tac": 72,
-        "vis": 56
+        "aer": 62,
+        "com": 65,
+        "dri": 67,
+        "ldr": 63,
+        "pac": 69,
+        "pas": 66,
+        "pos": 69,
+        "sho": 50,
+        "sta": 68,
+        "str": 65,
+        "tac": 69,
+        "vis": 62
       },
       "birth": "1971-06-01",
       "contract": null,
@@ -478,26 +476,26 @@
       "name": "Inigo Larrainzer",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 11000
     },
     {
       "alt": [
-        "CM"
+        "RM"
       ],
       "attrs": {
         "aer": 58,
-        "com": 62,
-        "dri": 64,
+        "com": 69,
+        "dri": 66,
         "ldr": 65,
-        "pac": 69,
-        "pas": 64,
-        "pos": 65,
+        "pac": 71,
+        "pas": 71,
+        "pos": 72,
         "sho": 47,
-        "sta": 69,
-        "str": 62,
-        "tac": 65,
-        "vis": 58
+        "sta": 71,
+        "str": 69,
+        "tac": 72,
+        "vis": 65
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -511,10 +509,6 @@
       "wage": 9000
     },
     {
-      "alt": [
-        "RB",
-        "DM"
-      ],
       "attrs": {
         "aer": 69,
         "com": 69,
@@ -541,19 +535,23 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "CM",
+        "LM"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 66,
-        "dri": 65,
+        "com": 69,
+        "dri": 71,
         "ldr": 65,
         "pac": 67,
-        "pas": 60,
-        "pos": 47,
-        "sho": 70,
+        "pas": 69,
+        "pos": 67,
+        "sho": 73,
         "sta": 62,
         "str": 65,
         "tac": 41,
-        "vis": 57
+        "vis": 66
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -563,7 +561,7 @@
       "name": "Tiku",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 8000
     },
     {
@@ -593,9 +591,6 @@
       "wage": 7500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 64,
@@ -629,7 +624,7 @@
         "ldr": 56,
         "pac": 66,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 62,
         "str": 65,
@@ -650,7 +645,7 @@
     },
     {
       "alt": [
-        "CM"
+        "CB"
       ],
       "attrs": {
         "aer": 57,
@@ -679,8 +674,7 @@
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 63,
@@ -710,21 +704,21 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
-        "aer": 52,
-        "com": 59,
-        "dri": 60,
-        "ldr": 54,
-        "pac": 63,
-        "pas": 61,
-        "pos": 63,
-        "sho": 41,
-        "sta": 63,
-        "str": 56,
-        "tac": 59,
-        "vis": 52
+        "aer": 46,
+        "com": 61,
+        "dri": 67,
+        "ldr": 52,
+        "pac": 65,
+        "pas": 63,
+        "pos": 45,
+        "sho": 59,
+        "sta": 59,
+        "str": 52,
+        "tac": 35,
+        "vis": 58
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -734,24 +728,29 @@
       "name": "David Cuallar",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "RW",
       "verify": true,
       "wage": 5000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 60,
-        "dri": 61,
+        "com": 63,
+        "dri": 66,
         "ldr": 59,
         "pac": 62,
-        "pas": 53,
-        "pos": 38,
-        "sho": 66,
+        "pas": 61,
+        "pos": 58,
+        "sho": 69,
         "sta": 59,
         "str": 60,
         "tac": 29,
-        "vis": 56
+        "vis": 64
       },
       "birth": "1974-03-01",
       "contract": null,
@@ -761,7 +760,7 @@
       "name": "Javi Gunzalez",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4000
     },
     {
@@ -798,7 +797,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 56,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 54,
         "str": 62,
@@ -877,7 +876,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 59,
         "str": 62,
@@ -897,6 +896,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -930,7 +932,7 @@
         "ldr": 50,
         "pac": 60,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 52,
         "str": 61,
@@ -977,22 +979,19 @@
       "wage": 2500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 60,
-        "com": 52,
-        "dri": 45,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 49,
-        "pos": 63,
-        "sho": 29,
-        "sta": 53,
-        "str": 58,
-        "tac": 60,
-        "vis": 42
+        "aer": 47,
+        "com": 50,
+        "dri": 55,
+        "ldr": 50,
+        "pac": 61,
+        "pas": 53,
+        "pos": 58,
+        "sho": 36,
+        "sta": 59,
+        "str": 50,
+        "tac": 57,
+        "vis": 48
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -1002,7 +1001,7 @@
       "name": "Javier Terantino",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 2500
     },
@@ -1014,7 +1013,7 @@
         "ldr": 50,
         "pac": 60,
         "pas": 50,
-        "pos": 32,
+        "pos": 52,
         "sho": 57,
         "sta": 54,
         "str": 59,
@@ -1035,7 +1034,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "LW"
       ],
       "attrs": {
         "aer": 39,
@@ -1071,7 +1071,7 @@
         "ldr": 51,
         "pac": 51,
         "pas": 45,
-        "pos": 34,
+        "pos": 54,
         "sho": 58,
         "sta": 51,
         "str": 51,
@@ -1091,7 +1091,9 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 38,
@@ -1120,19 +1122,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 51,
-        "dri": 51,
+        "dri": 58,
         "ldr": 43,
         "pac": 48,
-        "pas": 40,
-        "pos": 32,
+        "pas": 47,
+        "pos": 52,
         "sho": 53,
         "sta": 48,
         "str": 50,
         "tac": 24,
-        "vis": 46
+        "vis": 53
       },
       "birth": "1985-10-01",
       "contract": null,
@@ -1142,7 +1149,7 @@
       "name": "Joseba Germendia",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1000
     },
     {
@@ -1153,7 +1160,7 @@
         "ldr": 47,
         "pac": 52,
         "pas": 44,
-        "pos": 30,
+        "pos": 50,
         "sho": 55,
         "sta": 48,
         "str": 52,
@@ -1199,19 +1206,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 48,
-        "dri": 44,
-        "ldr": 45,
-        "pac": 48,
-        "pas": 38,
-        "pos": 29,
-        "sho": 48,
-        "sta": 42,
-        "str": 46,
-        "tac": 20,
-        "vis": 41
+        "aer": 29,
+        "com": 45,
+        "dri": 49,
+        "ldr": 43,
+        "pac": 52,
+        "pas": 44,
+        "pos": 31,
+        "sho": 43,
+        "sta": 44,
+        "str": 36,
+        "tac": 26,
+        "vis": 47
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -1221,7 +1231,7 @@
       "name": "Mikel Danubeitia",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 1000
     }

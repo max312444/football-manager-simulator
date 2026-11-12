@@ -99,16 +99,19 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 66,
-        "dri": 60,
+        "dri": 61,
         "ldr": 60,
-        "pac": 66,
-        "pas": 62,
+        "pac": 67,
+        "pas": 63,
         "pos": 70,
         "sho": 46,
-        "sta": 74,
+        "sta": 75,
         "str": 72,
         "tac": 72,
         "vis": 54
@@ -159,13 +162,13 @@
         "com": 64,
         "dri": 74,
         "ldr": 56,
-        "pac": 82,
+        "pac": 86,
         "pas": 70,
-        "pos": 60,
+        "pos": 64,
         "sho": 66,
         "sta": 78,
-        "str": 66,
-        "tac": 66,
+        "str": 70,
+        "tac": 70,
         "vis": 62
       },
       "birth": "1990-08-01",
@@ -207,21 +210,22 @@
     },
     {
       "alt": [
-        "LB",
-        "DM"
+        "DM",
+        "RB",
+        "LB"
       ],
       "attrs": {
-        "aer": 60,
-        "com": 58,
+        "aer": 63,
+        "com": 61,
         "dri": 62,
         "ldr": 48,
         "pac": 64,
         "pas": 64,
-        "pos": 60,
+        "pos": 63,
         "sho": 40,
         "sta": 66,
-        "str": 68,
-        "tac": 66,
+        "str": 71,
+        "tac": 69,
         "vis": 56
       },
       "birth": "1996-09-01",
@@ -352,6 +356,9 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 80,
@@ -383,22 +390,21 @@
     },
     {
       "alt": [
-        "CM",
         "CB"
       ],
       "attrs": {
         "aer": 76,
-        "com": 66,
+        "com": 70,
         "dri": 62,
         "ldr": 70,
         "pac": 64,
-        "pas": 66,
+        "pas": 70,
         "pos": 70,
         "sho": 54,
-        "sta": 82,
+        "sta": 86,
         "str": 84,
         "tac": 76,
-        "vis": 58
+        "vis": 62
       },
       "birth": "1989-12-01",
       "contract": "2022-06-30",
@@ -412,19 +418,23 @@
       "wage": 116500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 70,
-        "dri": 66,
+        "com": 73,
+        "dri": 69,
         "ldr": 66,
         "pac": 62,
-        "pas": 72,
+        "pas": 75,
         "pos": 72,
-        "sho": 64,
-        "sta": 84,
+        "sho": 67,
+        "sta": 87,
         "str": 66,
         "tac": 70,
-        "vis": 66
+        "vis": 69
       },
       "birth": "1987-10-01",
       "contract": "2020-06-30",
@@ -441,9 +451,6 @@
       "wage": 106000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 40,
         "com": 66,
@@ -466,13 +473,14 @@
       "name": "Max Meier",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 49000
     },
     {
       "alt": [
-        "LB",
-        "LW"
+        "LWB",
+        "LW",
+        "CM"
       ],
       "attrs": {
         "aer": 52,
@@ -481,11 +489,11 @@
         "ldr": 48,
         "pac": 82,
         "pas": 64,
-        "pos": 60,
+        "pos": 62,
         "sho": 58,
-        "sta": 74,
-        "str": 66,
-        "tac": 58,
+        "sta": 76,
+        "str": 68,
+        "tac": 60,
         "vis": 58
       },
       "birth": "1992-12-01",
@@ -497,13 +505,10 @@
       "nation": "GHA",
       "nation2": "GER",
       "number": 15,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 57000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 46,
         "com": 66,
@@ -534,7 +539,6 @@
     },
     {
       "alt": [
-        "ST",
         "RW"
       ],
       "attrs": {
@@ -568,7 +572,8 @@
     },
     {
       "alt": [
-        "RM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 44,
@@ -628,7 +633,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 64,
@@ -653,10 +659,13 @@
       "name": "Jordan Ayaw",
       "nation": "GHA",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 65000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 76,
         "com": 56,
@@ -683,19 +692,23 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 74,
         "com": 60,
-        "dri": 62,
+        "dri": 72,
         "ldr": 50,
-        "pac": 60,
-        "pas": 60,
+        "pac": 70,
+        "pas": 70,
         "pos": 66,
         "sho": 66,
         "sta": 62,
         "str": 82,
         "tac": 36,
-        "vis": 54
+        "vis": 64
       },
       "birth": "1993-03-01",
       "contract": "2020-06-30",
@@ -705,7 +718,7 @@
       "name": "Connor Wyckham",
       "nation": "ENG",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],

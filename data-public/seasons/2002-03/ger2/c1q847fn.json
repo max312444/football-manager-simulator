@@ -57,7 +57,7 @@
         "ldr": 56,
         "pac": 66,
         "pas": 59,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 57,
         "str": 67,
@@ -85,7 +85,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 58,
         "str": 61,
@@ -112,7 +112,7 @@
         "ldr": 54,
         "pac": 63,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 56,
         "str": 58,
@@ -132,6 +132,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -159,6 +162,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 55,
@@ -192,7 +198,7 @@
         "ldr": 53,
         "pac": 55,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 56,
         "str": 55,
@@ -268,16 +274,16 @@
       "attrs": {
         "aer": 49,
         "com": 54,
-        "dri": 55,
+        "dri": 57,
         "ldr": 49,
-        "pac": 62,
-        "pas": 53,
-        "pos": 55,
-        "sho": 37,
-        "sta": 62,
+        "pac": 64,
+        "pas": 54,
+        "pos": 53,
+        "sho": 40,
+        "sta": 64,
         "str": 52,
-        "tac": 57,
-        "vis": 52
+        "tac": 55,
+        "vis": 53
       },
       "birth": "1974-07-01",
       "contract": null,
@@ -287,23 +293,23 @@
       "name": "Ronny Nykol",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LWB",
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 58,
-        "dri": 55,
-        "ldr": 52,
-        "pac": 52,
+        "aer": 40,
+        "com": 59,
+        "dri": 59,
+        "ldr": 50,
+        "pac": 55,
         "pas": 61,
-        "pos": 57,
-        "sho": 49,
-        "sta": 59,
-        "str": 54,
-        "tac": 51,
-        "vis": 57
+        "pos": 42,
+        "sho": 55,
+        "sta": 53,
+        "str": 49,
+        "tac": 33,
+        "vis": 59
       },
       "birth": "1972-01-01",
       "contract": null,
@@ -313,7 +319,7 @@
       "name": "Bozidar Đurkuvic",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2500
     },
@@ -392,24 +398,27 @@
       "name": "Youssef El Akcheoui",
       "nation": "NED",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
-        "com": 55,
-        "dri": 51,
+        "com": 57,
+        "dri": 53,
         "ldr": 51,
         "pac": 51,
-        "pas": 54,
+        "pas": 56,
         "pos": 55,
-        "sho": 46,
-        "sta": 60,
+        "sho": 48,
+        "sta": 62,
         "str": 52,
         "tac": 53,
-        "vis": 55
+        "vis": 57
       },
       "birth": "1979-09-01",
       "contract": null,
@@ -423,22 +432,19 @@
       "wage": 2000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 43,
-        "com": 53,
+        "aer": 51,
+        "com": 54,
         "dri": 52,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 54,
+        "ldr": 51,
+        "pac": 56,
+        "pas": 44,
         "pos": 51,
-        "sho": 46,
-        "sta": 56,
-        "str": 49,
-        "tac": 51,
-        "vis": 55
+        "sho": 55,
+        "sta": 50,
+        "str": 54,
+        "tac": 25,
+        "vis": 46
       },
       "birth": "1976-07-01",
       "contract": null,
@@ -448,7 +454,7 @@
       "name": "Fardinand Chi Fon",
       "nation": "CMR",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 2000
     },
@@ -460,7 +466,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 57,
         "sta": 51,
         "str": 57,
@@ -507,19 +513,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 57,
-        "dri": 56,
+        "com": 59,
+        "dri": 65,
         "ldr": 46,
         "pac": 54,
-        "pas": 46,
-        "pos": 36,
-        "sho": 59,
+        "pas": 57,
+        "pos": 56,
+        "sho": 61,
         "sta": 48,
         "str": 57,
         "tac": 28,
-        "vis": 44
+        "vis": 55
       },
       "birth": "1975-01-01",
       "contract": null,
@@ -529,11 +540,14 @@
       "name": "Michael Zachner",
       "nation": "AUT",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -561,6 +575,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 55,
@@ -588,6 +605,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -668,18 +688,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 55,
-        "dri": 49,
-        "ldr": 45,
-        "pac": 48,
-        "pas": 51,
-        "pos": 50,
-        "sho": 48,
+        "dri": 45,
+        "ldr": 47,
+        "pac": 45,
+        "pas": 50,
+        "pos": 54,
+        "sho": 42,
         "sta": 53,
-        "str": 48,
-        "tac": 49,
-        "vis": 56
+        "str": 53,
+        "tac": 55,
+        "vis": 53
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -689,7 +709,7 @@
       "name": "Heiner Backhaos",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },

@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 64,
-        "dri": 50,
+        "aer": 61,
+        "com": 66,
+        "dri": 58,
         "ldr": 65,
-        "pac": 63,
-        "pas": 59,
-        "pos": 69,
-        "sho": 42,
-        "sta": 64,
-        "str": 71,
-        "tac": 69,
-        "vis": 50
+        "pac": 61,
+        "pas": 68,
+        "pos": 68,
+        "sho": 57,
+        "sta": 70,
+        "str": 69,
+        "tac": 68,
+        "vis": 62
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -73,10 +73,14 @@
       "name": "Julian Kuch",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 10500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -105,18 +109,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 57,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 52,
-        "pos": 63,
-        "sho": 31,
-        "sta": 56,
-        "str": 60,
-        "tac": 62,
-        "vis": 50
+        "aer": 52,
+        "com": 55,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 56,
+        "pos": 58,
+        "sho": 38,
+        "sta": 62,
+        "str": 52,
+        "tac": 59,
+        "vis": 56
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -126,10 +130,13 @@
       "name": "Julian Schauarte",
       "nation": "GER",
       "number": 4,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 64,
@@ -157,6 +164,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 56,
@@ -183,17 +193,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 60,
-        "dri": 63,
+        "aer": 55,
+        "com": 66,
+        "dri": 66,
         "ldr": 56,
-        "pac": 56,
+        "pac": 61,
         "pas": 62,
-        "pos": 58,
-        "sho": 59,
+        "pos": 64,
+        "sho": 65,
         "sta": 67,
-        "str": 55,
+        "str": 61,
         "tac": 57,
         "vis": 60
       },
@@ -206,23 +221,23 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 63,
-        "dri": 61,
-        "ldr": 56,
-        "pac": 58,
+        "aer": 45,
+        "com": 64,
+        "dri": 65,
+        "ldr": 54,
+        "pac": 61,
         "pas": 67,
-        "pos": 59,
-        "sho": 53,
-        "sta": 64,
-        "str": 55,
-        "tac": 58,
-        "vis": 62
+        "pos": 44,
+        "sho": 59,
+        "sta": 58,
+        "str": 50,
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -233,24 +248,28 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 9,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8000
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 57,
-        "dri": 53,
+        "com": 59,
+        "dri": 59,
         "ldr": 51,
         "pac": 53,
-        "pas": 46,
-        "pos": 31,
-        "sho": 55,
+        "pas": 54,
+        "pos": 51,
+        "sho": 57,
         "sta": 48,
         "str": 52,
         "tac": 28,
-        "vis": 44
+        "vis": 52
       },
       "birth": "1994-10-01",
       "contract": null,
@@ -260,23 +279,23 @@
       "name": "Marlon Rittar",
       "nation": "GER",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 58,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 55,
-        "pas": 58,
-        "pos": 58,
-        "sho": 54,
-        "sta": 63,
-        "str": 54,
-        "tac": 57,
-        "vis": 59
+        "aer": 45,
+        "com": 56,
+        "dri": 59,
+        "ldr": 51,
+        "pac": 63,
+        "pas": 56,
+        "pos": 50,
+        "sho": 52,
+        "sta": 64,
+        "str": 51,
+        "tac": 49,
+        "vis": 56
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -286,24 +305,24 @@
       "name": "Axel Ballinghausen",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 6000
     },
     {
       "alt": [],
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 63,
-        "dri": 59,
-        "ldr": 59,
-        "pac": 54,
-        "pas": 66,
-        "pos": 58,
-        "sho": 58,
+        "dri": 55,
+        "ldr": 61,
+        "pac": 51,
+        "pas": 65,
+        "pos": 62,
+        "sho": 52,
         "sta": 65,
-        "str": 55,
-        "tac": 57,
-        "vis": 60
+        "str": 60,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -314,23 +333,23 @@
       "nation": "POL",
       "nation2": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 59,
-        "dri": 51,
-        "ldr": 63,
-        "pac": 58,
-        "pas": 54,
-        "pos": 68,
-        "sho": 37,
-        "sta": 58,
-        "str": 64,
-        "tac": 66,
-        "vis": 50
+        "aer": 53,
+        "com": 57,
+        "dri": 61,
+        "ldr": 59,
+        "pac": 66,
+        "pas": 58,
+        "pos": 63,
+        "sho": 44,
+        "sta": 64,
+        "str": 56,
+        "tac": 63,
+        "vis": 56
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -340,7 +359,7 @@
       "name": "Lukas Schmytz",
       "nation": "GER",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -370,18 +389,23 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "ST",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
+        "aer": 66,
         "com": 52,
         "dri": 47,
         "ldr": 44,
         "pac": 54,
-        "pas": 43,
-        "pos": 32,
+        "pas": 61,
+        "pos": 70,
         "sho": 55,
         "sta": 46,
-        "str": 51,
-        "tac": 19,
+        "str": 69,
+        "tac": 37,
         "vis": 46
       },
       "birth": "1997-10-01",
@@ -392,10 +416,13 @@
       "name": "Emmanuel Iyuha",
       "nation": "GER",
       "number": 20,
-      "pos": "ST",
+      "pos": "CB",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -429,7 +456,7 @@
         "ldr": 50,
         "pac": 50,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 59,
         "sta": 50,
         "str": 55,
@@ -449,18 +476,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 55,
-        "dri": 53,
-        "ldr": 50,
-        "pac": 50,
+        "aer": 40,
+        "com": 56,
+        "dri": 57,
+        "ldr": 48,
+        "pac": 53,
         "pas": 58,
-        "pos": 56,
-        "sho": 49,
-        "sta": 56,
-        "str": 53,
-        "tac": 53,
-        "vis": 59
+        "pos": 41,
+        "sho": 55,
+        "sta": 50,
+        "str": 48,
+        "tac": 35,
+        "vis": 61
       },
       "birth": "1997-09-01",
       "contract": null,
@@ -470,23 +497,28 @@
       "name": "Arianit Fereti",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 58,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 61,
-        "pos": 55,
-        "sho": 51,
+        "dri": 54,
+        "ldr": 58,
+        "pac": 51,
+        "pas": 60,
+        "pos": 59,
+        "sho": 45,
         "sta": 61,
-        "str": 49,
-        "tac": 56,
-        "vis": 58
+        "str": 54,
+        "tac": 62,
+        "vis": 55
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -496,7 +528,7 @@
       "name": "Marcel Sobuttka",
       "nation": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5500
     },
     {
@@ -507,7 +539,7 @@
         "ldr": 62,
         "pac": 72,
         "pas": 58,
-        "pos": 48,
+        "pos": 68,
         "sho": 74,
         "sta": 64,
         "str": 70,
@@ -526,6 +558,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 58,
         "com": 60,
@@ -533,7 +568,7 @@
         "ldr": 54,
         "pac": 56,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 62,
         "sta": 54,
         "str": 56,
@@ -554,18 +589,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 61,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 66,
-        "pas": 59,
-        "pos": 62,
-        "sho": 43,
-        "sta": 70,
-        "str": 57,
-        "tac": 65,
-        "vis": 60
+        "aer": 67,
+        "com": 63,
+        "dri": 54,
+        "ldr": 63,
+        "pac": 58,
+        "pas": 55,
+        "pos": 67,
+        "sho": 36,
+        "sta": 64,
+        "str": 65,
+        "tac": 68,
+        "vis": 54
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -575,7 +610,7 @@
       "name": "Alexander Madlong",
       "nation": "GER",
       "number": 39,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 9500
     }
   ],

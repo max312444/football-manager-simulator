@@ -74,7 +74,7 @@
       "nation": "CHI",
       "nation2": "SWE",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 16000
     },
     {
@@ -105,18 +105,21 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 68,
+        "aer": 62,
+        "com": 69,
         "dri": 63,
         "ldr": 63,
-        "pac": 63,
+        "pac": 71,
         "pas": 66,
-        "pos": 66,
+        "pos": 75,
         "sho": 58,
         "sta": 69,
-        "str": 60,
-        "tac": 63,
+        "str": 69,
+        "tac": 72,
         "vis": 66
       },
       "birth": "1990-08-01",
@@ -128,10 +131,13 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 5,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -158,6 +164,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -186,18 +195,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 66,
-        "dri": 64,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 69,
-        "pos": 67,
-        "sho": 58,
+        "dri": 60,
+        "ldr": 63,
+        "pac": 56,
+        "pas": 68,
+        "pos": 71,
+        "sho": 52,
         "sta": 67,
-        "str": 60,
-        "tac": 64,
-        "vis": 69
+        "str": 65,
+        "tac": 70,
+        "vis": 66
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -207,7 +216,7 @@
       "name": "Manuel Schmiedebech",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12000
     },
     {
@@ -218,7 +227,7 @@
         "ldr": 65,
         "pac": 69,
         "pas": 58,
-        "pos": 48,
+        "pos": 68,
         "sho": 69,
         "sta": 65,
         "str": 69,
@@ -238,18 +247,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 59,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 54,
+        "aer": 44,
+        "com": 60,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 57,
         "pas": 63,
-        "pos": 58,
-        "sho": 56,
-        "sta": 58,
-        "str": 54,
-        "tac": 58,
-        "vis": 58
+        "pos": 43,
+        "sho": 62,
+        "sta": 52,
+        "str": 49,
+        "tac": 40,
+        "vis": 60
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -259,23 +268,26 @@
       "name": "Sebastian Mayer",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 63,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 61,
-        "pas": 66,
-        "pos": 63,
-        "sho": 61,
-        "sta": 70,
-        "str": 63,
-        "tac": 62,
-        "vis": 65
+        "aer": 52,
+        "com": 61,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 70,
+        "pas": 62,
+        "pos": 45,
+        "sho": 65,
+        "sta": 66,
+        "str": 58,
+        "tac": 42,
+        "vis": 62
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -285,23 +297,27 @@
       "name": "Felix Kleus",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 11000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 74,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 72,
-        "pas": 68,
-        "pos": 48,
-        "sho": 74,
-        "sta": 68,
-        "str": 73,
-        "tac": 46,
-        "vis": 64
+        "aer": 58,
+        "com": 71,
+        "dri": 73,
+        "ldr": 64,
+        "pac": 76,
+        "pas": 74,
+        "pos": 50,
+        "sho": 69,
+        "sta": 70,
+        "str": 63,
+        "tac": 52,
+        "vis": 70
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -312,23 +328,23 @@
       "nation": "AUT",
       "nation2": "GER",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 16000
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 68,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 71,
-        "pos": 62,
-        "sho": 58,
+        "dri": 57,
+        "ldr": 62,
+        "pac": 57,
+        "pas": 70,
+        "pos": 66,
+        "sho": 52,
         "sta": 66,
-        "str": 60,
-        "tac": 64,
-        "vis": 65
+        "str": 65,
+        "tac": 70,
+        "vis": 62
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -338,12 +354,12 @@
       "name": "Andre Hoffmenn",
       "nation": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 10500
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
         "aer": 50,
@@ -371,6 +387,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 61,
@@ -450,21 +469,23 @@
     },
     {
       "alt": [
-        "RW"
+        "RWB",
+        "LWB",
+        "RB"
       ],
       "attrs": {
-        "aer": 58,
-        "com": 57,
-        "dri": 55,
-        "ldr": 50,
-        "pac": 62,
-        "pas": 54,
-        "pos": 38,
-        "sho": 61,
-        "sta": 56,
-        "str": 59,
-        "tac": 28,
-        "vis": 49
+        "aer": 44,
+        "com": 54,
+        "dri": 60,
+        "ldr": 48,
+        "pac": 66,
+        "pas": 60,
+        "pos": 40,
+        "sho": 56,
+        "sta": 58,
+        "str": 49,
+        "tac": 34,
+        "vis": 55
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -474,7 +495,7 @@
       "name": "Marius Wulf",
       "nation": "GER",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
@@ -485,7 +506,7 @@
         "ldr": 60,
         "pac": 71,
         "pas": 58,
-        "pos": 47,
+        "pos": 67,
         "sho": 71,
         "sta": 63,
         "str": 72,
@@ -537,7 +558,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 71,
         "sta": 62,
         "str": 66,
@@ -584,18 +605,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 53,
-        "dri": 38,
-        "ldr": 53,
-        "pac": 47,
-        "pas": 47,
-        "pos": 56,
-        "sho": 27,
+        "aer": 34,
+        "com": 56,
+        "dri": 54,
+        "ldr": 49,
+        "pac": 51,
+        "pas": 57,
+        "pos": 36,
+        "sho": 54,
         "sta": 51,
-        "str": 51,
-        "tac": 55,
-        "vis": 36
+        "str": 39,
+        "tac": 30,
+        "vis": 53
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -605,7 +626,7 @@
       "name": "Mike-Steven Bahra",
       "nation": "GER",
       "number": 28,
-      "pos": "CB",
+      "pos": "AM",
       "wage": 2000
     },
     {
@@ -616,7 +637,7 @@
         "ldr": 63,
         "pac": 66,
         "pas": 58,
-        "pos": 47,
+        "pos": 67,
         "sho": 69,
         "sta": 67,
         "str": 65,
@@ -689,18 +710,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 56,
-        "dri": 52,
-        "ldr": 53,
-        "pac": 49,
+        "aer": 41,
+        "com": 57,
+        "dri": 56,
+        "ldr": 51,
+        "pac": 52,
         "pas": 61,
-        "pos": 54,
-        "sho": 51,
-        "sta": 57,
-        "str": 49,
-        "tac": 54,
-        "vis": 59
+        "pos": 39,
+        "sho": 57,
+        "sta": 51,
+        "str": 44,
+        "tac": 36,
+        "vis": 61
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -710,7 +731,7 @@
       "name": "Tim Diarssen",
       "nation": "GER",
       "number": 34,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
@@ -721,7 +742,7 @@
         "ldr": 53,
         "pac": 64,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 59,
         "str": 62,
@@ -748,7 +769,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 51,
         "str": 57,
@@ -774,7 +795,7 @@
         "ldr": 45,
         "pac": 52,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 60,
         "sta": 50,
         "str": 57,
@@ -794,18 +815,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 55,
-        "dri": 50,
-        "ldr": 53,
-        "pac": 46,
-        "pas": 54,
-        "pos": 49,
-        "sho": 51,
+        "dri": 46,
+        "ldr": 55,
+        "pac": 43,
+        "pas": 53,
+        "pos": 53,
+        "sho": 45,
         "sta": 59,
-        "str": 49,
-        "tac": 50,
-        "vis": 54
+        "str": 54,
+        "tac": 56,
+        "vis": 51
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -815,7 +836,7 @@
       "name": "Maurice Hyrsch",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     }
   ],

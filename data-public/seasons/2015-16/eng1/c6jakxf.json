@@ -70,16 +70,19 @@
       "wage": 52000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 66,
-        "dri": 60,
+        "dri": 62,
         "ldr": 64,
-        "pac": 64,
-        "pas": 62,
+        "pac": 66,
+        "pas": 64,
         "pos": 68,
         "sho": 50,
-        "sta": 72,
+        "sta": 74,
         "str": 72,
         "tac": 70,
         "vis": 54
@@ -96,16 +99,20 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 70,
-        "dri": 60,
+        "dri": 61,
         "ldr": 60,
-        "pac": 70,
-        "pas": 66,
+        "pac": 71,
+        "pas": 67,
         "pos": 72,
         "sho": 46,
-        "sta": 78,
+        "sta": 79,
         "str": 74,
         "tac": 76,
         "vis": 58
@@ -123,7 +130,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 48,
@@ -151,21 +159,18 @@
       "wage": 60000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
-        "aer": 62,
-        "com": 64,
+        "aer": 65,
+        "com": 65,
         "dri": 62,
         "ldr": 52,
-        "pac": 64,
+        "pac": 66,
         "pas": 66,
-        "pos": 66,
+        "pos": 69,
         "sho": 42,
         "sta": 70,
-        "str": 66,
-        "tac": 70,
+        "str": 69,
+        "tac": 73,
         "vis": 58
       },
       "birth": "1992-03-01",
@@ -284,20 +289,17 @@
       "wage": 31500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 66,
-        "com": 72,
+        "aer": 75,
+        "com": 81,
         "dri": 82,
         "ldr": 58,
         "pac": 82,
         "pas": 72,
-        "pos": 50,
-        "sho": 76,
+        "pos": 59,
+        "sho": 85,
         "sta": 76,
-        "str": 80,
+        "str": 89,
         "tac": 40,
         "vis": 70
       },
@@ -309,26 +311,29 @@
       "name": "Marko Arnautuvic",
       "nation": "AUT",
       "number": 10,
-      "pos": "LW",
+      "pos": "ST",
       "traits": [
         "flair"
       ],
       "wage": 80000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 66,
+        "com": 67,
         "dri": 70,
         "ldr": 54,
         "pac": 66,
-        "pas": 72,
+        "pas": 73,
         "pos": 64,
         "sho": 64,
         "sta": 76,
         "str": 70,
-        "tac": 66,
-        "vis": 68
+        "tac": 67,
+        "vis": 69
       },
       "birth": "1992-12-01",
       "contract": "2018-06-30",
@@ -343,6 +348,9 @@
       "wage": 62500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 72,
@@ -404,16 +412,16 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 62,
+        "aer": 75,
+        "com": 63,
         "dri": 66,
         "ldr": 54,
         "pac": 80,
         "pas": 58,
-        "pos": 46,
-        "sho": 68,
+        "pos": 47,
+        "sho": 69,
         "sta": 80,
-        "str": 80,
+        "str": 81,
         "tac": 40,
         "vis": 54
       },
@@ -429,9 +437,6 @@
       "wage": 44500
     },
     {
-      "alt": [
-        "RM"
-      ],
       "attrs": {
         "aer": 80,
         "com": 72,
@@ -461,10 +466,6 @@
       "wage": 91000
     },
     {
-      "alt": [
-        "RB",
-        "DM"
-      ],
       "attrs": {
         "aer": 76,
         "com": 70,
@@ -492,6 +493,7 @@
     },
     {
       "alt": [
+        "LW",
         "AM"
       ],
       "attrs": {
@@ -524,19 +526,22 @@
       "wage": 62500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 70,
-        "dri": 62,
+        "com": 72,
+        "dri": 64,
         "ldr": 64,
         "pac": 56,
-        "pas": 70,
+        "pas": 72,
         "pos": 66,
-        "sho": 62,
-        "sta": 74,
+        "sho": 64,
+        "sta": 76,
         "str": 66,
         "tac": 66,
-        "vis": 62
+        "vis": 64
       },
       "birth": "1982-12-01",
       "contract": "2016-06-30",
@@ -607,6 +612,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -631,7 +637,7 @@
       "name": "Bojan Krkyc",
       "nation": "ESP",
       "number": 27,
-      "pos": "AM",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],
@@ -639,16 +645,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 70,
+        "aer": 66,
+        "com": 76,
         "dri": 74,
         "ldr": 55,
         "pac": 71,
         "pas": 66,
-        "pos": 40,
-        "sho": 76,
+        "pos": 46,
+        "sho": 82,
         "sta": 67,
-        "str": 69,
+        "str": 75,
         "tac": 34,
         "vis": 64
       },
@@ -665,7 +671,9 @@
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 73,

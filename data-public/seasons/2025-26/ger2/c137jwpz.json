@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 56,
-        "dri": 43,
-        "ldr": 53,
-        "pac": 49,
-        "pas": 50,
-        "pos": 60,
-        "sho": 30,
-        "sta": 52,
-        "str": 57,
-        "tac": 61,
-        "vis": 47
+        "aer": 45,
+        "com": 54,
+        "dri": 53,
+        "ldr": 49,
+        "pac": 57,
+        "pas": 54,
+        "pos": 55,
+        "sho": 37,
+        "sta": 58,
+        "str": 49,
+        "tac": 58,
+        "vis": 53
       },
       "birth": "1999-04-01",
       "contract": null,
@@ -73,23 +73,23 @@
       "name": "Sergio Lupez",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8500
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 54,
-        "dri": 43,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 50,
-        "pos": 61,
-        "sho": 31,
-        "sta": 57,
-        "str": 60,
-        "tac": 64,
-        "vis": 44
+        "aer": 48,
+        "com": 52,
+        "dri": 53,
+        "ldr": 50,
+        "pac": 60,
+        "pas": 54,
+        "pos": 56,
+        "sho": 38,
+        "sta": 63,
+        "str": 52,
+        "tac": 61,
+        "vis": 50
       },
       "birth": "2000-05-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "nation": "RUS",
       "nation2": "GER",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10000
     },
     {
@@ -164,7 +164,7 @@
         "ldr": 58,
         "pac": 69,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 67,
         "sta": 61,
         "str": 66,
@@ -183,19 +183,24 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 54,
-        "dri": 53,
+        "com": 55,
+        "dri": 58,
         "ldr": 52,
         "pac": 56,
-        "pas": 51,
-        "pos": 37,
-        "sho": 61,
+        "pas": 57,
+        "pos": 57,
+        "sho": 62,
         "sta": 52,
         "str": 53,
         "tac": 28,
-        "vis": 50
+        "vis": 56
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -205,7 +210,7 @@
       "name": "Luca Merseiler",
       "nation": "GER",
       "number": 8,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7000
     },
     {
@@ -216,7 +221,7 @@
         "ldr": 53,
         "pac": 63,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 61,
         "sta": 59,
         "str": 64,
@@ -235,19 +240,23 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 70,
-        "dri": 65,
-        "ldr": 67,
-        "pac": 66,
+        "aer": 56,
+        "com": 71,
+        "dri": 69,
+        "ldr": 65,
+        "pac": 69,
         "pas": 71,
-        "pos": 69,
-        "sho": 61,
-        "sta": 69,
-        "str": 66,
-        "tac": 67,
-        "vis": 71
+        "pos": 54,
+        "sho": 67,
+        "sta": 63,
+        "str": 61,
+        "tac": 49,
+        "vis": 73
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -258,7 +267,7 @@
       "nation": "SUR",
       "nation2": "NED",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 21500
     },
     {
@@ -288,19 +297,24 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 57,
-        "dri": 55,
-        "ldr": 56,
-        "pac": 58,
-        "pas": 59,
-        "pos": 60,
-        "sho": 52,
-        "sta": 60,
-        "str": 53,
-        "tac": 58,
-        "vis": 60
+        "aer": 49,
+        "com": 59,
+        "dri": 57,
+        "ldr": 57,
+        "pac": 59,
+        "pas": 61,
+        "pos": 61,
+        "sho": 54,
+        "sta": 62,
+        "str": 54,
+        "tac": 59,
+        "vis": 62
       },
       "birth": "1999-07-01",
       "contract": null,
@@ -315,18 +329,21 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
         "dri": 61,
         "ldr": 55,
         "pac": 59,
-        "pas": 61,
+        "pas": 62,
         "pos": 59,
         "sho": 57,
-        "sta": 61,
+        "sta": 62,
         "str": 57,
-        "tac": 54,
+        "tac": 55,
         "vis": 64
       },
       "birth": "2000-12-01",
@@ -342,6 +359,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -375,7 +395,7 @@
         "ldr": 44,
         "pac": 48,
         "pas": 41,
-        "pos": 28,
+        "pos": 48,
         "sho": 57,
         "sta": 50,
         "str": 50,
@@ -421,18 +441,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 57,
-        "dri": 57,
-        "ldr": 51,
-        "pac": 54,
-        "pas": 56,
-        "pos": 55,
-        "sho": 50,
+        "dri": 53,
+        "ldr": 53,
+        "pac": 51,
+        "pas": 55,
+        "pos": 59,
+        "sho": 44,
         "sta": 61,
-        "str": 52,
-        "tac": 50,
-        "vis": 55
+        "str": 57,
+        "tac": 56,
+        "vis": 52
       },
       "birth": "2001-01-01",
       "contract": null,
@@ -442,23 +462,27 @@
       "name": "Merveille Papele",
       "nation": "GER",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 68,
-        "dri": 63,
-        "ldr": 65,
-        "pac": 65,
-        "pas": 57,
-        "pos": 45,
-        "sho": 74,
-        "sta": 65,
-        "str": 70,
-        "tac": 41,
-        "vis": 60
+        "aer": 54,
+        "com": 65,
+        "dri": 68,
+        "ldr": 63,
+        "pac": 69,
+        "pas": 63,
+        "pos": 47,
+        "sho": 69,
+        "sta": 67,
+        "str": 60,
+        "tac": 47,
+        "vis": 66
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -469,23 +493,26 @@
       "name": "Marco Richtar",
       "nation": "GER",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 21500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 60,
-        "dri": 43,
-        "ldr": 61,
-        "pac": 51,
-        "pas": 52,
-        "pos": 65,
-        "sho": 35,
-        "sta": 59,
-        "str": 61,
-        "tac": 61,
-        "vis": 47
+        "aer": 48,
+        "com": 58,
+        "dri": 53,
+        "ldr": 57,
+        "pac": 59,
+        "pas": 56,
+        "pos": 60,
+        "sho": 42,
+        "sta": 65,
+        "str": 53,
+        "tac": 58,
+        "vis": 53
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -495,7 +522,7 @@
       "name": "Matthias Beder",
       "nation": "GER",
       "number": 26,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 12500
     },
     {
@@ -506,7 +533,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 47,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 55,
         "str": 57,
@@ -525,6 +552,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -577,19 +607,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 54,
-        "dri": 46,
-        "ldr": 56,
-        "pac": 52,
-        "pas": 52,
-        "pos": 60,
-        "sho": 32,
-        "sta": 53,
-        "str": 59,
-        "tac": 63,
-        "vis": 42
+        "aer": 46,
+        "com": 52,
+        "dri": 56,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 56,
+        "pos": 55,
+        "sho": 39,
+        "sta": 59,
+        "str": 51,
+        "tac": 60,
+        "vis": 48
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -599,7 +632,7 @@
       "name": "Fabian Hollend",
       "nation": "GER",
       "number": 32,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 9500
     },
     {
@@ -610,7 +643,7 @@
         "ldr": 48,
         "pac": 52,
         "pas": 48,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 54,
         "str": 55,
@@ -629,19 +662,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 54,
-        "dri": 54,
+        "com": 59,
+        "dri": 57,
         "ldr": 47,
         "pac": 57,
-        "pas": 47,
-        "pos": 32,
-        "sho": 56,
+        "pas": 55,
+        "pos": 52,
+        "sho": 61,
         "sta": 49,
         "str": 52,
         "tac": 24,
-        "vis": 50
+        "vis": 58
       },
       "birth": "2003-07-01",
       "contract": null,
@@ -651,7 +689,7 @@
       "name": "Yosuke Forukawa",
       "nation": "JPN",
       "number": 44,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 6000
     }
   ],

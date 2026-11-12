@@ -24,19 +24,22 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 75,
-        "dri": 68,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 78,
-        "pos": 74,
-        "sho": 69,
-        "sta": 76,
-        "str": 68,
-        "tac": 71,
-        "vis": 71
+        "aer": 63,
+        "com": 77,
+        "dri": 70,
+        "ldr": 71,
+        "pac": 72,
+        "pas": 80,
+        "pos": 75,
+        "sho": 71,
+        "sta": 78,
+        "str": 69,
+        "tac": 72,
+        "vis": 73
       },
       "birth": "1975-10-01",
       "contract": null,
@@ -50,6 +53,11 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 73,
         "com": 75,
@@ -57,7 +65,7 @@
         "ldr": 64,
         "pac": 75,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 76,
         "sta": 68,
         "str": 71,
@@ -77,6 +85,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 72,
@@ -105,6 +116,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 65,
@@ -138,7 +152,7 @@
         "ldr": 60,
         "pac": 68,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 69,
         "sta": 67,
         "str": 69,
@@ -185,19 +199,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 67,
-        "dri": 65,
-        "ldr": 57,
-        "pac": 58,
-        "pas": 67,
-        "pos": 64,
-        "sho": 56,
-        "sta": 67,
-        "str": 62,
-        "tac": 57,
-        "vis": 68
+        "aer": 45,
+        "com": 65,
+        "dri": 70,
+        "ldr": 53,
+        "pac": 67,
+        "pas": 63,
+        "pos": 46,
+        "sho": 60,
+        "sta": 63,
+        "str": 57,
+        "tac": 37,
+        "vis": 65
       },
       "birth": "1978-03-01",
       "contract": null,
@@ -207,7 +224,7 @@
       "name": "Jerome Ruthen",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 9000
     },
@@ -246,7 +263,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 57,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 59,
         "str": 65,
@@ -300,7 +317,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 59,
         "str": 60,
@@ -381,7 +398,7 @@
         "ldr": 57,
         "pac": 61,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 55,
         "str": 58,
@@ -455,18 +472,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 57,
-        "dri": 60,
-        "ldr": 55,
-        "pac": 55,
-        "pas": 60,
-        "pos": 58,
-        "sho": 55,
+        "dri": 56,
+        "ldr": 57,
+        "pac": 52,
+        "pas": 59,
+        "pos": 62,
+        "sho": 49,
         "sta": 62,
-        "str": 55,
-        "tac": 53,
-        "vis": 60
+        "str": 60,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1972-06-01",
       "contract": null,
@@ -476,7 +493,7 @@
       "name": "Carl Touranne",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -506,6 +523,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -541,7 +561,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 48,
-        "pos": 38,
+        "pos": 58,
         "sho": 59,
         "sta": 52,
         "str": 57,
@@ -616,18 +636,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 38,
         "com": 61,
-        "dri": 56,
+        "dri": 60,
         "ldr": 50,
-        "pac": 57,
-        "pas": 49,
-        "pos": 35,
-        "sho": 63,
+        "pac": 55,
+        "pas": 59,
+        "pos": 40,
+        "sho": 60,
         "sta": 52,
-        "str": 54,
-        "tac": 30,
-        "vis": 51
+        "str": 44,
+        "tac": 38,
+        "vis": 62
       },
       "birth": "1976-02-01",
       "contract": null,
@@ -637,10 +657,13 @@
       "name": "Danlaba Mendi",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 58,
@@ -648,7 +671,7 @@
         "ldr": 49,
         "pac": 58,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 50,
         "str": 54,
@@ -720,6 +743,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 54,
@@ -747,6 +773,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -774,19 +803,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 55,
-        "dri": 39,
-        "ldr": 52,
-        "pac": 49,
-        "pas": 46,
-        "pos": 58,
-        "sho": 26,
-        "sta": 52,
-        "str": 59,
-        "tac": 59,
-        "vis": 39
+        "aer": 43,
+        "com": 53,
+        "dri": 51,
+        "ldr": 48,
+        "pac": 59,
+        "pas": 51,
+        "pos": 51,
+        "sho": 36,
+        "sta": 60,
+        "str": 51,
+        "tac": 54,
+        "vis": 46
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -796,7 +828,7 @@
       "name": "Marc Pfertzal",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "verify": true,
       "wage": 2000
     },
@@ -828,18 +860,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 49,
-        "dri": 42,
-        "ldr": 48,
-        "pac": 46,
-        "pas": 48,
-        "pos": 57,
-        "sho": 24,
-        "sta": 52,
-        "str": 57,
-        "tac": 55,
-        "vis": 38
+        "aer": 46,
+        "com": 47,
+        "dri": 52,
+        "ldr": 44,
+        "pac": 54,
+        "pas": 52,
+        "pos": 52,
+        "sho": 31,
+        "sta": 58,
+        "str": 49,
+        "tac": 52,
+        "vis": 44
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -849,7 +881,7 @@
       "name": "Alex Jeennin",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 2000
     },
@@ -934,19 +966,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 54,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 44,
+        "aer": 36,
+        "com": 52,
+        "dri": 55,
+        "ldr": 46,
+        "pac": 52,
         "pas": 55,
-        "pos": 46,
-        "sho": 47,
-        "sta": 56,
-        "str": 49,
-        "tac": 44,
-        "vis": 53
+        "pos": 38,
+        "sho": 45,
+        "sta": 59,
+        "str": 46,
+        "tac": 38,
+        "vis": 52
       },
       "birth": "1982-12-01",
       "contract": null,
@@ -956,22 +991,22 @@
       "name": "Ibrahima Bangoora",
       "nation": "GUI",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 54,
-        "dri": 48,
+        "aer": 48,
+        "com": 58,
+        "dri": 52,
         "ldr": 48,
-        "pac": 49,
+        "pac": 53,
         "pas": 53,
-        "pos": 50,
-        "sho": 47,
+        "pos": 54,
+        "sho": 51,
         "sta": 56,
-        "str": 49,
+        "str": 53,
         "tac": 48,
         "vis": 50
       },
@@ -984,11 +1019,16 @@
       "nation": "FRA",
       "nation2": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -1023,7 +1063,7 @@
         "ldr": 44,
         "pac": 46,
         "pas": 41,
-        "pos": 27,
+        "pos": 47,
         "sho": 52,
         "sta": 43,
         "str": 45,
@@ -1049,7 +1089,7 @@
         "ldr": 41,
         "pac": 46,
         "pas": 42,
-        "pos": 22,
+        "pos": 42,
         "sho": 47,
         "sta": 44,
         "str": 49,
@@ -1068,6 +1108,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 33,
         "com": 48,
@@ -1094,6 +1137,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 33,
         "com": 43,

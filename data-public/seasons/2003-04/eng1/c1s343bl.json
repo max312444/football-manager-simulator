@@ -72,7 +72,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 69,
@@ -100,9 +101,6 @@
       "wage": 50500
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 58,
@@ -130,9 +128,6 @@
       "wage": 24500
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 72,
         "com": 60,
@@ -301,6 +296,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 70,
@@ -429,7 +427,9 @@
     },
     {
       "alt": [
-        "RM"
+        "LM",
+        "RB",
+        "CM"
       ],
       "attrs": {
         "aer": 60,
@@ -453,12 +453,14 @@
       "name": "Steven Reyd",
       "nation": "IRL",
       "number": 20,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 29500
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 52,
@@ -490,19 +492,22 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 53,
-        "dri": 57,
+        "com": 66,
+        "dri": 62,
         "ldr": 41,
         "pac": 65,
-        "pas": 59,
+        "pas": 72,
         "pos": 57,
-        "sho": 51,
+        "sho": 56,
         "sta": 74,
         "str": 65,
-        "tac": 61,
-        "vis": 51
+        "tac": 69,
+        "vis": 64
       },
       "birth": "1981-11-01",
       "contract": "2007-06-30",
@@ -518,21 +523,22 @@
     },
     {
       "alt": [
-        "LW"
+        "RW",
+        "AM"
       ],
       "attrs": {
-        "aer": 60,
-        "com": 51,
-        "dri": 58,
+        "aer": 64,
+        "com": 68,
+        "dri": 59,
         "ldr": 35,
-        "pac": 67,
-        "pas": 52,
-        "pos": 42,
-        "sho": 58,
+        "pac": 68,
+        "pas": 66,
+        "pos": 46,
+        "sho": 75,
         "sta": 62,
-        "str": 63,
+        "str": 67,
         "tac": 32,
-        "vis": 49
+        "vis": 63
       },
       "birth": "1984-08-01",
       "contract": "2008-06-30",
@@ -548,16 +554,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 79,
+        "aer": 63,
+        "com": 81,
         "dri": 72,
         "ldr": 58,
         "pac": 74,
         "pas": 66,
-        "pos": 49,
-        "sho": 80,
+        "pos": 51,
+        "sho": 82,
         "sta": 69,
-        "str": 68,
+        "str": 70,
         "tac": 36,
         "vis": 64
       },
@@ -574,14 +580,15 @@
     },
     {
       "alt": [
-        "AM"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 66,
         "com": 74,
-        "dri": 73,
+        "dri": 79,
         "ldr": 61,
-        "pac": 65,
+        "pac": 71,
         "pas": 72,
         "pos": 54,
         "sho": 73,
@@ -598,21 +605,21 @@
       "name": "Dwight Yurke",
       "nation": "TRI",
       "number": 12,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 37000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 58,
+        "aer": 66,
+        "com": 61,
         "dri": 65,
         "ldr": 42,
         "pac": 66,
         "pas": 61,
-        "pos": 49,
-        "sho": 65,
+        "pos": 52,
+        "sho": 68,
         "sta": 59,
-        "str": 64,
+        "str": 67,
         "tac": 37,
         "vis": 56
       },
@@ -632,16 +639,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 60,
+        "aer": 66,
+        "com": 64,
         "dri": 66,
         "ldr": 48,
         "pac": 73,
         "pas": 58,
-        "pos": 48,
-        "sho": 66,
+        "pos": 52,
+        "sho": 70,
         "sta": 67,
-        "str": 67,
+        "str": 71,
         "tac": 36,
         "vis": 54
       },

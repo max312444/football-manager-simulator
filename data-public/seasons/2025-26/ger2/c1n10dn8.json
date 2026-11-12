@@ -167,7 +167,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 68,
         "sta": 57,
         "str": 59,
@@ -186,6 +186,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 52,
@@ -219,7 +222,7 @@
         "ldr": 57,
         "pac": 65,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 55,
         "str": 65,
@@ -238,19 +241,23 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 59,
-        "dri": 52,
-        "ldr": 53,
-        "pac": 53,
+        "aer": 44,
+        "com": 60,
+        "dri": 56,
+        "ldr": 51,
+        "pac": 56,
         "pas": 60,
-        "pos": 55,
-        "sho": 53,
-        "sta": 56,
-        "str": 54,
-        "tac": 55,
-        "vis": 59
+        "pos": 40,
+        "sho": 59,
+        "sta": 50,
+        "str": 49,
+        "tac": 37,
+        "vis": 61
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -260,7 +267,7 @@
       "name": "Jannik Rochalt",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 13000
     },
     {
@@ -271,7 +278,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 50,
-        "pos": 40,
+        "pos": 60,
         "sho": 61,
         "sta": 56,
         "str": 62,
@@ -290,6 +297,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,
@@ -316,19 +326,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 50,
-        "dri": 51,
-        "ldr": 45,
-        "pac": 50,
-        "pas": 46,
-        "pos": 31,
-        "sho": 58,
-        "sta": 51,
-        "str": 53,
-        "tac": 22,
-        "vis": 46
+        "aer": 36,
+        "com": 47,
+        "dri": 56,
+        "ldr": 43,
+        "pac": 54,
+        "pas": 52,
+        "pos": 33,
+        "sho": 53,
+        "sta": 53,
+        "str": 43,
+        "tac": 28,
+        "vis": 52
       },
       "birth": "2004-11-01",
       "contract": null,
@@ -339,7 +352,7 @@
       "nation": "LBN",
       "nation2": "GER",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4500
     },
     {
@@ -374,6 +387,10 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 68,
@@ -381,7 +398,7 @@
         "ldr": 62,
         "pac": 66,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 74,
         "sta": 63,
         "str": 72,
@@ -401,18 +418,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 52,
-        "dri": 35,
-        "ldr": 49,
-        "pac": 46,
-        "pas": 47,
-        "pos": 53,
-        "sho": 26,
-        "sta": 48,
-        "str": 57,
-        "tac": 56,
-        "vis": 36
+        "aer": 44,
+        "com": 50,
+        "dri": 45,
+        "ldr": 45,
+        "pac": 54,
+        "pas": 51,
+        "pos": 48,
+        "sho": 33,
+        "sta": 54,
+        "str": 49,
+        "tac": 53,
+        "vis": 42
       },
       "birth": "2002-02-01",
       "contract": null,
@@ -422,23 +439,23 @@
       "name": "Bastian Allgeiar",
       "nation": "GER",
       "number": 17,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 56,
-        "dri": 56,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 57,
-        "pos": 56,
-        "sho": 53,
-        "sta": 58,
-        "str": 54,
-        "tac": 57,
-        "vis": 61
+        "aer": 39,
+        "com": 54,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 60,
+        "pas": 53,
+        "pos": 38,
+        "sho": 57,
+        "sta": 54,
+        "str": 49,
+        "tac": 37,
+        "vis": 58
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -449,7 +466,7 @@
       "name": "Daisuke Yukota",
       "nation": "JPN",
       "number": 18,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 13000
     },
     {
@@ -479,6 +496,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 55,
@@ -507,18 +527,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 53,
-        "dri": 41,
-        "ldr": 52,
-        "pac": 51,
-        "pas": 46,
-        "pos": 57,
-        "sho": 26,
-        "sta": 54,
-        "str": 58,
-        "tac": 61,
-        "vis": 40
+        "aer": 43,
+        "com": 51,
+        "dri": 51,
+        "ldr": 48,
+        "pac": 59,
+        "pas": 50,
+        "pos": 52,
+        "sho": 33,
+        "sta": 60,
+        "str": 50,
+        "tac": 58,
+        "vis": 46
       },
       "birth": "2003-10-01",
       "contract": null,
@@ -528,13 +548,10 @@
       "name": "Hayate Matsude",
       "nation": "JPN",
       "number": 27,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 36,
         "com": 53,
@@ -587,6 +604,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 53,
@@ -614,18 +634,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 56,
-        "dri": 39,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 48,
-        "pos": 56,
-        "sho": 26,
-        "sta": 54,
-        "str": 61,
-        "tac": 58,
-        "vis": 40
+        "aer": 48,
+        "com": 54,
+        "dri": 49,
+        "ldr": 53,
+        "pac": 59,
+        "pas": 52,
+        "pos": 51,
+        "sho": 33,
+        "sta": 60,
+        "str": 53,
+        "tac": 55,
+        "vis": 46
       },
       "birth": "1996-04-01",
       "contract": null,
@@ -635,23 +655,23 @@
       "name": "Maurice Neubeuer",
       "nation": "GER",
       "number": 33,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 55,
-        "dri": 44,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 48,
-        "pos": 60,
-        "sho": 28,
-        "sta": 50,
-        "str": 60,
-        "tac": 55,
-        "vis": 43
+        "aer": 48,
+        "com": 53,
+        "dri": 54,
+        "ldr": 51,
+        "pac": 59,
+        "pas": 52,
+        "pos": 55,
+        "sho": 35,
+        "sta": 56,
+        "str": 52,
+        "tac": 52,
+        "vis": 49
       },
       "birth": "2001-06-01",
       "contract": null,
@@ -662,7 +682,7 @@
       "nation": "GER",
       "nation2": "NGA",
       "number": 37,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8000
     },
     {
@@ -673,7 +693,7 @@
         "ldr": 44,
         "pac": 50,
         "pas": 39,
-        "pos": 27,
+        "pos": 47,
         "sho": 49,
         "sta": 45,
         "str": 49,

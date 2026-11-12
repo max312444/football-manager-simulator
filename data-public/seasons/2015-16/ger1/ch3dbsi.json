@@ -51,6 +51,11 @@
       "wage": 71000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 74,
@@ -73,7 +78,7 @@
       "name": "Park Joo-hu",
       "nation": "KOR",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 119500
     },
     {
@@ -103,19 +108,22 @@
       "wage": 130000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 70,
+        "aer": 76,
         "com": 81,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 75,
-        "pas": 78,
-        "pos": 79,
-        "sho": 73,
+        "dri": 71,
+        "ldr": 75,
+        "pac": 72,
+        "pas": 77,
+        "pos": 83,
+        "sho": 67,
         "sta": 80,
-        "str": 70,
-        "tac": 72,
-        "vis": 78
+        "str": 75,
+        "tac": 78,
+        "vis": 75
       },
       "birth": "1989-04-01",
       "contract": null,
@@ -125,23 +133,23 @@
       "name": "Sven Bander",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 163000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 75,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 67,
-        "pas": 74,
-        "pos": 71,
-        "sho": 65,
-        "sta": 75,
-        "str": 64,
-        "tac": 68,
-        "vis": 76
+        "aer": 53,
+        "com": 73,
+        "dri": 75,
+        "ldr": 63,
+        "pac": 76,
+        "pas": 70,
+        "pos": 53,
+        "sho": 69,
+        "sta": 71,
+        "str": 59,
+        "tac": 48,
+        "vis": 73
       },
       "birth": "1992-07-01",
       "contract": null,
@@ -151,10 +159,13 @@
       "name": "Jonas Hofmenn",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 82000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 76,
@@ -181,19 +192,22 @@
       "wage": 172500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 72,
-        "dri": 67,
-        "ldr": 66,
-        "pac": 63,
-        "pas": 69,
-        "pos": 67,
-        "sho": 60,
-        "sta": 68,
-        "str": 66,
-        "tac": 63,
-        "vis": 67
+        "aer": 52,
+        "com": 70,
+        "dri": 72,
+        "ldr": 62,
+        "pac": 72,
+        "pas": 65,
+        "pos": 49,
+        "sho": 64,
+        "sta": 64,
+        "str": 61,
+        "tac": 43,
+        "vis": 64
       },
       "birth": "1995-02-01",
       "contract": null,
@@ -204,23 +218,27 @@
       "name": "Adnan Januzej",
       "nation": "BEL",
       "number": 9,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 53500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 81,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 76,
+        "aer": 63,
+        "com": 82,
+        "dri": 81,
+        "ldr": 73,
+        "pac": 79,
         "pas": 80,
-        "pos": 78,
-        "sho": 73,
-        "sta": 80,
-        "str": 76,
-        "tac": 75,
-        "vis": 85
+        "pos": 63,
+        "sho": 79,
+        "sta": 74,
+        "str": 71,
+        "tac": 57,
+        "vis": 87
       },
       "birth": "1989-01-01",
       "contract": null,
@@ -230,12 +248,14 @@
       "name": "Henrikh Mkhiteryan",
       "nation": "ARM",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 199000
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 81,
@@ -244,7 +264,7 @@
         "ldr": 73,
         "pac": 81,
         "pas": 75,
-        "pos": 58,
+        "pos": 78,
         "sho": 88,
         "sta": 79,
         "str": 85,
@@ -263,6 +283,9 @@
       "wage": 177500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 64,
@@ -289,6 +312,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,
@@ -348,7 +374,7 @@
         "ldr": 76,
         "pac": 78,
         "pas": 75,
-        "pos": 58,
+        "pos": 78,
         "sho": 84,
         "sta": 78,
         "str": 81,
@@ -368,19 +394,22 @@
       "wage": 158500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
-        "com": 77,
+        "com": 78,
         "dri": 81,
         "ldr": 76,
         "pac": 76,
-        "pas": 79,
+        "pas": 80,
         "pos": 78,
         "sho": 71,
         "sta": 84,
         "str": 72,
-        "tac": 77,
-        "vis": 78
+        "tac": 78,
+        "vis": 79
       },
       "birth": "1988-09-01",
       "contract": null,
@@ -402,7 +431,7 @@
         "ldr": 70,
         "pac": 80,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 71,
         "str": 80,
@@ -421,6 +450,10 @@
       "wage": 90000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -528,6 +561,11 @@
       "wage": 131500
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -603,13 +641,10 @@
       "name": "Marcel Schmelzar",
       "nation": "GER",
       "number": 29,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 130000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 65,
@@ -643,7 +678,7 @@
         "ldr": 63,
         "pac": 68,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 61,
         "str": 67,
@@ -663,18 +698,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 58,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 48,
-        "pos": 63,
-        "sho": 35,
-        "sta": 53,
-        "str": 63,
-        "tac": 59,
-        "vis": 48
+        "aer": 47,
+        "com": 56,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 52,
+        "pos": 58,
+        "sho": 42,
+        "sta": 59,
+        "str": 55,
+        "tac": 56,
+        "vis": 54
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -684,10 +719,13 @@
       "name": "Pascal Stanzel",
       "nation": "GER",
       "number": 35,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 67,

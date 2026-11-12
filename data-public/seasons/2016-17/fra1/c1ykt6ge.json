@@ -25,6 +25,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 67,
@@ -51,19 +54,24 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
-        "com": 67,
+        "com": 75,
         "dri": 53,
         "ldr": 66,
         "pac": 62,
-        "pas": 63,
+        "pas": 71,
         "pos": 70,
         "sho": 40,
-        "sta": 63,
+        "sta": 71,
         "str": 67,
         "tac": 68,
-        "vis": 54
+        "vis": 62
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -74,23 +82,28 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 5,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 28000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 60,
+        "com": 68,
         "dri": 45,
         "ldr": 55,
         "pac": 52,
-        "pas": 55,
+        "pas": 63,
         "pos": 60,
         "sho": 33,
-        "sta": 54,
+        "sta": 62,
         "str": 61,
         "tac": 62,
-        "vis": 45
+        "vis": 53
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -100,10 +113,13 @@
       "name": "Francois Bellugoo",
       "nation": "FRA",
       "number": 6,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -130,6 +146,10 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 65,
         "com": 66,
@@ -137,7 +157,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 56,
-        "pos": 44,
+        "pos": 64,
         "sho": 72,
         "sta": 60,
         "str": 64,
@@ -156,6 +176,11 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 61,
         "com": 73,
@@ -182,19 +207,22 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
+        "aer": 45,
         "com": 58,
-        "dri": 41,
-        "ldr": 59,
-        "pac": 51,
-        "pas": 50,
-        "pos": 64,
-        "sho": 28,
-        "sta": 52,
-        "str": 61,
-        "tac": 59,
-        "vis": 46
+        "dri": 58,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 56,
+        "pos": 41,
+        "sho": 53,
+        "sta": 54,
+        "str": 49,
+        "tac": 32,
+        "vis": 58
       },
       "birth": "1993-11-01",
       "contract": null,
@@ -204,7 +232,7 @@
       "name": "Faiz Selemany",
       "nation": "FRA",
       "number": 11,
-      "pos": "CB",
+      "pos": "RW",
       "wage": 10000
     },
     {
@@ -215,7 +243,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 71,
         "sta": 61,
         "str": 71,
@@ -261,6 +289,11 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 58,
         "com": 62,
@@ -288,19 +321,22 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 60,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 54,
-        "pas": 66,
-        "pos": 63,
-        "sho": 53,
-        "sta": 66,
-        "str": 54,
-        "tac": 55,
-        "vis": 63
+        "aer": 48,
+        "com": 58,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 63,
+        "pas": 62,
+        "pos": 45,
+        "sho": 57,
+        "sta": 62,
+        "str": 49,
+        "tac": 35,
+        "vis": 60
       },
       "birth": "1988-03-01",
       "contract": null,
@@ -310,26 +346,26 @@
       "name": "Romain Philippoteaox",
       "nation": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 20000
     },
     {
       "alt": [
-        "RB"
+        "CB"
       ],
       "attrs": {
         "aer": 53,
-        "com": 68,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 69,
+        "com": 64,
+        "dri": 59,
+        "ldr": 59,
+        "pac": 69,
+        "pas": 63,
         "pos": 66,
-        "sho": 57,
+        "sho": 43,
         "sta": 67,
-        "str": 59,
-        "tac": 63,
-        "vis": 64
+        "str": 58,
+        "tac": 67,
+        "vis": 55
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -340,7 +376,7 @@
       "nation": "FRA",
       "nation2": "CPV",
       "number": 20,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 29500
     },
     {
@@ -351,7 +387,7 @@
         "ldr": 65,
         "pac": 65,
         "pas": 61,
-        "pos": 45,
+        "pos": 65,
         "sho": 72,
         "sta": 61,
         "str": 67,
@@ -370,19 +406,22 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 61,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 62,
-        "pos": 54,
-        "sho": 53,
-        "sta": 59,
-        "str": 51,
-        "tac": 55,
-        "vis": 59
+        "aer": 40,
+        "com": 59,
+        "dri": 60,
+        "ldr": 49,
+        "pac": 60,
+        "pas": 58,
+        "pos": 36,
+        "sho": 57,
+        "sta": 55,
+        "str": 46,
+        "tac": 35,
+        "vis": 56
       },
       "birth": "1991-11-01",
       "contract": null,
@@ -392,10 +431,15 @@
       "name": "Moryke Fofane",
       "nation": "CIV",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 12500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 61,
@@ -444,23 +488,26 @@
       "name": "Vincent Le Guff",
       "nation": "FRA",
       "number": 25,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 15500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 62,
-        "dri": 58,
-        "ldr": 51,
-        "pac": 59,
-        "pas": 52,
-        "pos": 39,
-        "sho": 62,
-        "sta": 56,
-        "str": 59,
-        "tac": 25,
-        "vis": 53
+        "aer": 39,
+        "com": 59,
+        "dri": 63,
+        "ldr": 49,
+        "pac": 63,
+        "pas": 58,
+        "pos": 41,
+        "sho": 57,
+        "sta": 58,
+        "str": 49,
+        "tac": 31,
+        "vis": 59
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -470,10 +517,13 @@
       "name": "Jimmy Cebot",
       "nation": "FRA",
       "number": 27,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -500,6 +550,9 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -528,18 +581,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 52,
-        "dri": 39,
-        "ldr": 52,
-        "pac": 49,
-        "pas": 50,
-        "pos": 58,
-        "sho": 25,
-        "sta": 48,
-        "str": 55,
-        "tac": 60,
-        "vis": 41
+        "aer": 46,
+        "com": 50,
+        "dri": 49,
+        "ldr": 48,
+        "pac": 57,
+        "pas": 54,
+        "pos": 53,
+        "sho": 32,
+        "sta": 54,
+        "str": 47,
+        "tac": 57,
+        "vis": 47
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -549,7 +602,7 @@
       "name": "Erwin Kuffi",
       "nation": "FRA",
       "number": 34,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6500
     },
     {

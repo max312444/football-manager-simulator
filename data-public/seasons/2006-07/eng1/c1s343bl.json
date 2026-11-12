@@ -45,7 +45,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 66,
@@ -73,6 +74,9 @@
       "wage": 60000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
@@ -203,13 +207,13 @@
         "dri": 74,
         "ldr": 59,
         "pac": 81,
-        "pas": 68,
+        "pas": 73,
         "pos": 52,
         "sho": 65,
-        "sta": 79,
+        "sta": 84,
         "str": 62,
-        "tac": 49,
-        "vis": 64
+        "tac": 54,
+        "vis": 69
       },
       "birth": "1979-02-01",
       "contract": "2009-06-30",
@@ -224,16 +228,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 69,
+        "aer": 68,
+        "com": 72,
         "dri": 69,
         "ldr": 47,
         "pac": 75,
         "pas": 63,
-        "pos": 53,
-        "sho": 75,
+        "pos": 56,
+        "sho": 78,
         "sta": 67,
-        "str": 62,
+        "str": 65,
         "tac": 39,
         "vis": 61
       },
@@ -277,7 +281,7 @@
     },
     {
       "alt": [
-        "AM"
+        "LW"
       ],
       "attrs": {
         "aer": 47,
@@ -301,13 +305,15 @@
       "name": "David Bentlei",
       "nation": "ENG",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 30000
     },
     {
       "alt": [
-        "LW"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 52,
@@ -315,13 +321,13 @@
         "dri": 74,
         "ldr": 55,
         "pac": 79,
-        "pas": 75,
+        "pas": 82,
         "pos": 50,
         "sho": 70,
-        "sta": 76,
+        "sta": 83,
         "str": 61,
-        "tac": 42,
-        "vis": 67
+        "tac": 49,
+        "vis": 74
       },
       "birth": "1981-09-01",
       "contract": "2011-06-30",
@@ -369,16 +375,16 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 57,
+        "aer": 53,
+        "com": 58,
         "dri": 52,
         "ldr": 42,
         "pac": 59,
         "pas": 46,
-        "pos": 21,
-        "sho": 63,
+        "pos": 22,
+        "sho": 64,
         "sta": 50,
-        "str": 55,
+        "str": 56,
         "tac": 13,
         "vis": 44
       },
@@ -395,7 +401,9 @@
     },
     {
       "alt": [
-        "RM"
+        "LM",
+        "RB",
+        "CM"
       ],
       "attrs": {
         "aer": 51,
@@ -403,13 +411,13 @@
         "dri": 69,
         "ldr": 55,
         "pac": 74,
-        "pas": 67,
+        "pas": 71,
         "pos": 52,
         "sho": 66,
-        "sta": 74,
+        "sta": 78,
         "str": 61,
-        "tac": 48,
-        "vis": 62
+        "tac": 52,
+        "vis": 66
       },
       "birth": "1981-03-01",
       "contract": "2010-06-30",
@@ -419,26 +427,27 @@
       "name": "Steven Reyd",
       "nation": "IRL",
       "number": 20,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 28500
     },
     {
       "alt": [
-        "LW"
+        "ST",
+        "AM"
       ],
       "attrs": {
-        "aer": 69,
-        "com": 59,
-        "dri": 67,
+        "aer": 71,
+        "com": 71,
+        "dri": 69,
         "ldr": 43,
-        "pac": 71,
-        "pas": 61,
-        "pos": 51,
-        "sho": 67,
+        "pac": 72,
+        "pas": 72,
+        "pos": 53,
+        "sho": 79,
         "sta": 67,
-        "str": 69,
+        "str": 71,
         "tac": 41,
-        "vis": 57
+        "vis": 68
       },
       "birth": "1984-08-01",
       "contract": "2008-06-30",
@@ -448,7 +457,7 @@
       "name": "Paul Gellagher",
       "nation": "SCO",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 23000
     },
@@ -508,16 +517,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 70,
+        "aer": 67,
+        "com": 71,
         "dri": 70,
         "ldr": 56,
         "pac": 70,
         "pas": 64,
-        "pos": 44,
-        "sho": 76,
+        "pos": 45,
+        "sho": 77,
         "sta": 68,
-        "str": 74,
+        "str": 75,
         "tac": 34,
         "vis": 60
       },
@@ -614,9 +623,6 @@
       "wage": 12000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 83,
         "com": 78,
@@ -649,17 +655,17 @@
       ],
       "attrs": {
         "aer": 63,
-        "com": 67,
-        "dri": 63,
+        "com": 75,
+        "dri": 71,
         "ldr": 71,
         "pac": 69,
-        "pas": 69,
+        "pas": 77,
         "pos": 70,
-        "sho": 55,
-        "sta": 86,
+        "sho": 63,
+        "sta": 90,
         "str": 70,
         "tac": 75,
-        "vis": 63
+        "vis": 71
       },
       "birth": "1974-10-01",
       "contract": "2008-06-30",

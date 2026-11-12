@@ -76,6 +76,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -102,6 +105,9 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -129,6 +135,9 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 74,
         "com": 75,
@@ -136,7 +145,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 62,
-        "pos": 51,
+        "pos": 71,
         "sho": 75,
         "sta": 68,
         "str": 70,
@@ -156,6 +165,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -184,18 +196,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 72,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 64,
+        "aer": 59,
+        "com": 73,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 67,
         "pas": 77,
-        "pos": 70,
-        "sho": 67,
-        "sta": 71,
-        "str": 67,
-        "tac": 65,
-        "vis": 75
+        "pos": 55,
+        "sho": 73,
+        "sta": 65,
+        "str": 62,
+        "tac": 47,
+        "vis": 77
       },
       "birth": "1983-03-01",
       "contract": null,
@@ -205,7 +217,7 @@
       "name": "Thomas Kahlanberg",
       "nation": "DEN",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 25500
     },
     {
@@ -267,7 +279,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 50,
@@ -296,6 +309,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 69,
@@ -349,6 +365,10 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -383,7 +403,7 @@
         "ldr": 57,
         "pac": 65,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 60,
         "str": 62,
@@ -462,7 +482,7 @@
         "ldr": 55,
         "pac": 65,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 61,
         "str": 64,
@@ -509,6 +529,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 59,
@@ -562,18 +585,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 62,
-        "pos": 58,
-        "sho": 54,
-        "sta": 66,
-        "str": 55,
-        "tac": 61,
-        "vis": 66
+        "aer": 48,
+        "com": 61,
+        "dri": 67,
+        "ldr": 55,
+        "pac": 66,
+        "pas": 58,
+        "pos": 40,
+        "sho": 58,
+        "sta": 62,
+        "str": 50,
+        "tac": 41,
+        "vis": 63
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -583,11 +606,14 @@
       "name": "Kevin Lejaune",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LW",
       "verify": true,
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -642,6 +668,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -670,18 +699,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 59,
+        "aer": 58,
+        "com": 60,
         "dri": 58,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 64,
+        "ldr": 54,
+        "pac": 62,
+        "pas": 54,
         "pos": 59,
-        "sho": 53,
-        "sta": 61,
-        "str": 53,
-        "tac": 59,
-        "vis": 63
+        "sho": 62,
+        "sta": 55,
+        "str": 58,
+        "tac": 33,
+        "vis": 54
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -691,7 +720,7 @@
       "name": "Romain Puyet",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 7000
     },
@@ -730,7 +759,7 @@
         "ldr": 57,
         "pac": 58,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 65,
         "sta": 57,
         "str": 59,
@@ -804,19 +833,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 59,
-        "dri": 56,
+        "com": 63,
+        "dri": 61,
         "ldr": 51,
         "pac": 58,
-        "pas": 49,
-        "pos": 37,
-        "sho": 58,
+        "pas": 58,
+        "pos": 57,
+        "sho": 62,
         "sta": 53,
         "str": 55,
         "tac": 28,
-        "vis": 49
+        "vis": 58
       },
       "birth": "1981-10-01",
       "contract": null,
@@ -826,10 +860,13 @@
       "name": "Damien Dofour",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 59,
@@ -864,7 +901,7 @@
         "ldr": 47,
         "pac": 54,
         "pas": 49,
-        "pos": 30,
+        "pos": 50,
         "sho": 58,
         "sta": 49,
         "str": 57,
@@ -886,18 +923,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 58,
-        "dri": 56,
-        "ldr": 48,
-        "pac": 48,
-        "pas": 58,
-        "pos": 51,
-        "sho": 51,
+        "dri": 52,
+        "ldr": 50,
+        "pac": 45,
+        "pas": 57,
+        "pos": 55,
+        "sho": 45,
         "sta": 57,
-        "str": 53,
-        "tac": 51,
-        "vis": 55
+        "str": 58,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "1970-09-01",
       "contract": null,
@@ -907,7 +944,7 @@
       "name": "Philippe Violaau",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
@@ -945,7 +982,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 45,
-        "pos": 33,
+        "pos": 53,
         "sho": 53,
         "sta": 51,
         "str": 50,
@@ -998,7 +1035,7 @@
         "ldr": 49,
         "pac": 52,
         "pas": 41,
-        "pos": 30,
+        "pos": 50,
         "sho": 58,
         "sta": 46,
         "str": 55,

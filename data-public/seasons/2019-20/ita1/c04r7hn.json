@@ -25,6 +25,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 61,
@@ -78,6 +81,10 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -104,6 +111,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -130,6 +140,9 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 70,
@@ -163,7 +176,7 @@
         "ldr": 58,
         "pac": 59,
         "pas": 55,
-        "pos": 38,
+        "pos": 58,
         "sho": 64,
         "sta": 61,
         "str": 65,
@@ -189,7 +202,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 54,
-        "pos": 36,
+        "pos": 56,
         "sho": 65,
         "sta": 58,
         "str": 57,
@@ -208,19 +221,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 65,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 65,
-        "pas": 68,
-        "pos": 68,
-        "sho": 58,
-        "sta": 69,
-        "str": 65,
-        "tac": 65,
-        "vis": 69
+        "aer": 61,
+        "com": 67,
+        "dri": 68,
+        "ldr": 61,
+        "pac": 66,
+        "pas": 70,
+        "pos": 69,
+        "sho": 60,
+        "sta": 71,
+        "str": 66,
+        "tac": 66,
+        "vis": 71
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -235,18 +251,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 60,
-        "dri": 49,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 56,
-        "pos": 62,
-        "sho": 36,
-        "sta": 55,
-        "str": 66,
-        "tac": 64,
-        "vis": 49
+        "aer": 52,
+        "com": 58,
+        "dri": 59,
+        "ldr": 54,
+        "pac": 64,
+        "pas": 60,
+        "pos": 57,
+        "sho": 43,
+        "sta": 61,
+        "str": 58,
+        "tac": 61,
+        "vis": 55
       },
       "birth": "1995-06-01",
       "contract": null,
@@ -257,10 +273,13 @@
       "name": "Arkadiusz Rece",
       "nation": "POL",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 74,
@@ -314,18 +333,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 52,
-        "dri": 46,
-        "ldr": 55,
-        "pac": 52,
-        "pas": 52,
-        "pos": 58,
-        "sho": 27,
-        "sta": 50,
-        "str": 60,
-        "tac": 58,
-        "vis": 42
+        "aer": 46,
+        "com": 50,
+        "dri": 56,
+        "ldr": 51,
+        "pac": 60,
+        "pas": 56,
+        "pos": 53,
+        "sho": 34,
+        "sta": 56,
+        "str": 52,
+        "tac": 55,
+        "vis": 48
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -335,7 +354,7 @@
       "name": "Lorenzo Dickmenn",
       "nation": "ITA",
       "number": 24,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 7000
     },
     {
@@ -392,19 +411,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 68,
-        "dri": 67,
-        "ldr": 60,
-        "pac": 63,
-        "pas": 71,
-        "pos": 67,
-        "sho": 61,
-        "sta": 66,
-        "str": 63,
-        "tac": 59,
-        "vis": 67
+        "aer": 48,
+        "com": 66,
+        "dri": 72,
+        "ldr": 56,
+        "pac": 72,
+        "pas": 67,
+        "pos": 49,
+        "sho": 65,
+        "sta": 62,
+        "str": 58,
+        "tac": 39,
+        "vis": 64
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -415,7 +438,7 @@
       "name": "Federico Di Francescu",
       "nation": "ITA",
       "number": 31,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 29500
     },
     {
@@ -426,7 +449,7 @@
         "ldr": 66,
         "pac": 73,
         "pas": 64,
-        "pos": 54,
+        "pos": 74,
         "sho": 75,
         "sta": 69,
         "str": 71,
@@ -446,18 +469,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 67,
-        "dri": 67,
-        "ldr": 68,
-        "pac": 72,
-        "pas": 67,
-        "pos": 69,
-        "sho": 50,
-        "sta": 74,
-        "str": 63,
-        "tac": 69,
-        "vis": 65
+        "aer": 75,
+        "com": 69,
+        "dri": 57,
+        "ldr": 72,
+        "pac": 64,
+        "pas": 63,
+        "pos": 74,
+        "sho": 43,
+        "sta": 68,
+        "str": 71,
+        "tac": 72,
+        "vis": 59
       },
       "birth": "1987-08-01",
       "contract": null,
@@ -468,7 +491,7 @@
       "name": "Nenad Tomuvic",
       "nation": "SRB",
       "number": 40,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 38000
     },
     {
@@ -479,7 +502,7 @@
         "ldr": 74,
         "pac": 78,
         "pas": 68,
-        "pos": 58,
+        "pos": 78,
         "sho": 80,
         "sta": 72,
         "str": 76,
@@ -524,19 +547,22 @@
       "wage": 53500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 76,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 66,
-        "pas": 74,
-        "pos": 74,
-        "sho": 70,
-        "sta": 74,
-        "str": 67,
-        "tac": 71,
-        "vis": 77
+        "aer": 59,
+        "com": 74,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 75,
+        "pas": 70,
+        "pos": 56,
+        "sho": 74,
+        "sta": 70,
+        "str": 62,
+        "tac": 51,
+        "vis": 74
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -547,23 +573,23 @@
       "name": "Marco D'Alessandru",
       "nation": "ITA",
       "number": 77,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 53500
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 75,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 70,
-        "pas": 78,
-        "pos": 73,
-        "sho": 69,
+        "dri": 67,
+        "ldr": 71,
+        "pac": 67,
+        "pas": 77,
+        "pos": 77,
+        "sho": 63,
         "sta": 72,
-        "str": 67,
-        "tac": 66,
-        "vis": 73
+        "str": 72,
+        "tac": 72,
+        "vis": 70
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -573,26 +599,26 @@
       "name": "Federico Viviany",
       "nation": "ITA",
       "number": 92,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 53500
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
         "aer": 58,
-        "com": 68,
+        "com": 64,
         "dri": 68,
-        "ldr": 60,
-        "pac": 61,
-        "pas": 67,
-        "pos": 65,
-        "sho": 58,
-        "sta": 68,
-        "str": 63,
-        "tac": 66,
-        "vis": 70
+        "ldr": 58,
+        "pac": 70,
+        "pas": 62,
+        "pos": 63,
+        "sho": 47,
+        "sta": 70,
+        "str": 62,
+        "tac": 68,
+        "vis": 62
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -603,23 +629,27 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 93,
-      "pos": "CM",
+      "pos": "LWB",
       "wage": 31000
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 71,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 74,
-        "pas": 61,
-        "pos": 48,
-        "sho": 74,
-        "sta": 65,
-        "str": 68,
-        "tac": 44,
-        "vis": 66
+        "aer": 53,
+        "com": 68,
+        "dri": 73,
+        "ldr": 63,
+        "pac": 78,
+        "pas": 67,
+        "pos": 50,
+        "sho": 69,
+        "sta": 67,
+        "str": 58,
+        "tac": 50,
+        "vis": 72
       },
       "birth": "1995-07-01",
       "contract": null,
@@ -629,10 +659,13 @@
       "name": "Marko Jankuvic",
       "nation": "MNE",
       "number": 95,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 30500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 46,

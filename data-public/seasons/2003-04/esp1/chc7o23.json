@@ -31,7 +31,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 72,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 73,
         "str": 78,
@@ -58,7 +58,7 @@
         "ldr": 68,
         "pac": 79,
         "pas": 71,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 73,
         "str": 76,
@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 75,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 70,
-        "pas": 75,
-        "pos": 74,
-        "sho": 71,
+        "dri": 70,
+        "ldr": 75,
+        "pac": 67,
+        "pas": 74,
+        "pos": 78,
+        "sho": 65,
         "sta": 76,
-        "str": 71,
-        "tac": 75,
-        "vis": 79
+        "str": 76,
+        "tac": 81,
+        "vis": 76
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -101,23 +101,23 @@
       "nation": "MEX",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 29500
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 78,
-        "dri": 77,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 78,
-        "pos": 75,
-        "sho": 70,
-        "sta": 75,
-        "str": 70,
-        "tac": 70,
-        "vis": 79
+        "aer": 81,
+        "com": 76,
+        "dri": 65,
+        "ldr": 73,
+        "pac": 70,
+        "pas": 68,
+        "pos": 80,
+        "sho": 49,
+        "sta": 69,
+        "str": 77,
+        "tac": 77,
+        "vis": 64
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -127,7 +127,7 @@
       "name": "Javi Naverro",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 29500
     },
     {
@@ -138,7 +138,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 75,
         "sta": 73,
         "str": 77,
@@ -158,6 +158,11 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 74,
         "com": 77,
@@ -165,7 +170,7 @@
         "ldr": 68,
         "pac": 71,
         "pas": 62,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 72,
         "str": 76,
@@ -212,19 +217,22 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 73,
-        "dri": 69,
-        "ldr": 71,
-        "pac": 68,
-        "pas": 71,
-        "pos": 69,
-        "sho": 69,
-        "sta": 76,
-        "str": 67,
-        "tac": 71,
-        "vis": 73
+        "aer": 54,
+        "com": 71,
+        "dri": 74,
+        "ldr": 67,
+        "pac": 77,
+        "pas": 67,
+        "pos": 51,
+        "sho": 73,
+        "sta": 72,
+        "str": 62,
+        "tac": 51,
+        "vis": 70
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -234,27 +242,24 @@
       "name": "Jose Antonio Rayes",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 23500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 71,
-        "com": 68,
-        "dri": 60,
-        "ldr": 68,
-        "pac": 67,
-        "pas": 64,
-        "pos": 74,
-        "sho": 44,
-        "sta": 67,
-        "str": 70,
-        "tac": 76,
-        "vis": 59
+        "aer": 58,
+        "com": 66,
+        "dri": 70,
+        "ldr": 64,
+        "pac": 75,
+        "pas": 68,
+        "pos": 69,
+        "sho": 51,
+        "sta": 73,
+        "str": 62,
+        "tac": 73,
+        "vis": 65
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -265,23 +270,23 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14500
     },
     {
       "attrs": {
-        "aer": 77,
-        "com": 66,
-        "dri": 59,
-        "ldr": 69,
-        "pac": 65,
-        "pas": 65,
-        "pos": 75,
-        "sho": 41,
-        "sta": 67,
-        "str": 74,
-        "tac": 75,
-        "vis": 59
+        "aer": 64,
+        "com": 64,
+        "dri": 69,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 69,
+        "pos": 70,
+        "sho": 48,
+        "sta": 73,
+        "str": 66,
+        "tac": 72,
+        "vis": 65
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -291,10 +296,13 @@
       "name": "Juan Redondu",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -355,7 +363,7 @@
         "ldr": 62,
         "pac": 71,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 72,
         "sta": 62,
         "str": 71,
@@ -402,6 +410,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -429,19 +440,22 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 64,
+        "com": 66,
         "dri": 67,
         "ldr": 64,
         "pac": 65,
-        "pas": 66,
+        "pas": 68,
         "pos": 66,
         "sho": 63,
         "sta": 69,
         "str": 60,
-        "tac": 61,
-        "vis": 66
+        "tac": 63,
+        "vis": 68
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -481,6 +495,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -534,18 +551,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 62,
-        "dri": 53,
-        "ldr": 63,
-        "pac": 56,
-        "pas": 54,
-        "pos": 71,
-        "sho": 35,
-        "sta": 61,
-        "str": 65,
-        "tac": 71,
-        "vis": 50
+        "aer": 55,
+        "com": 60,
+        "dri": 63,
+        "ldr": 59,
+        "pac": 64,
+        "pas": 58,
+        "pos": 66,
+        "sho": 42,
+        "sta": 67,
+        "str": 57,
+        "tac": 68,
+        "vis": 56
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -555,10 +572,13 @@
       "name": "David Castado",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -586,18 +606,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 60,
-        "dri": 47,
-        "ldr": 60,
-        "pac": 56,
-        "pas": 56,
-        "pos": 64,
-        "sho": 38,
-        "sta": 56,
-        "str": 64,
-        "tac": 62,
-        "vis": 49
+        "aer": 49,
+        "com": 58,
+        "dri": 57,
+        "ldr": 56,
+        "pac": 64,
+        "pas": 60,
+        "pos": 59,
+        "sho": 45,
+        "sta": 62,
+        "str": 56,
+        "tac": 59,
+        "vis": 55
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -607,7 +627,7 @@
       "name": "Alejandro Marenon",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 5000
     },
@@ -646,7 +666,7 @@
         "ldr": 59,
         "pac": 63,
         "pas": 53,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 56,
         "str": 62,
@@ -666,6 +686,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -693,6 +716,11 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 57,
@@ -726,7 +754,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 51,
-        "pos": 40,
+        "pos": 60,
         "sho": 61,
         "sta": 59,
         "str": 64,
@@ -745,6 +773,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -779,7 +810,7 @@
         "ldr": 51,
         "pac": 62,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 60,
         "sta": 55,
         "str": 57,
@@ -799,6 +830,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 56,
@@ -853,6 +887,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -906,6 +943,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -940,7 +980,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 61,
         "sta": 53,
         "str": 54,
@@ -960,6 +1000,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,

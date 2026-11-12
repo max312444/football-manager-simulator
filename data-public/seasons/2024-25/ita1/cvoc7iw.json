@@ -26,21 +26,21 @@
   "squad": [
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 62,
         "com": 73,
-        "dri": 73,
+        "dri": 75,
         "ldr": 71,
-        "pac": 76,
-        "pas": 71,
-        "pos": 74,
-        "sho": 53,
-        "sta": 76,
+        "pac": 78,
+        "pas": 72,
+        "pos": 72,
+        "sho": 56,
+        "sta": 78,
         "str": 66,
-        "tac": 74,
-        "vis": 66
+        "tac": 72,
+        "vis": 67
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -50,23 +50,23 @@
       "name": "Angelyno",
       "nation": "ESP",
       "number": 3,
-      "pos": "RB",
+      "pos": "LWB",
       "wage": 114000
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 79,
-        "dri": 75,
-        "ldr": 74,
-        "pac": 70,
-        "pas": 80,
-        "pos": 76,
-        "sho": 69,
+        "dri": 71,
+        "ldr": 76,
+        "pac": 67,
+        "pas": 79,
+        "pos": 80,
+        "sho": 63,
         "sta": 79,
-        "str": 73,
-        "tac": 75,
-        "vis": 81
+        "str": 78,
+        "tac": 81,
+        "vis": 78
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -76,7 +76,7 @@
       "name": "Bryan Cristente",
       "nation": "ITA",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 184500
     },
     {
@@ -134,18 +134,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 76,
-        "dri": 79,
-        "ldr": 75,
-        "pac": 74,
+        "aer": 66,
+        "com": 77,
+        "dri": 83,
+        "ldr": 73,
+        "pac": 77,
         "pas": 78,
-        "pos": 79,
-        "sho": 75,
-        "sta": 84,
-        "str": 75,
-        "tac": 76,
-        "vis": 80
+        "pos": 64,
+        "sho": 81,
+        "sta": 78,
+        "str": 70,
+        "tac": 58,
+        "vis": 82
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -155,7 +155,7 @@
       "name": "Lorenzo Pellegriny",
       "nation": "ITA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 184500
     },
     {
@@ -166,7 +166,7 @@
         "ldr": 71,
         "pac": 81,
         "pas": 73,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 72,
         "str": 75,
@@ -218,7 +218,7 @@
         "ldr": 68,
         "pac": 77,
         "pas": 68,
-        "pos": 51,
+        "pos": 71,
         "sho": 80,
         "sta": 74,
         "str": 75,
@@ -238,18 +238,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 77,
-        "dri": 76,
-        "ldr": 73,
-        "pac": 74,
-        "pas": 83,
-        "pos": 78,
-        "sho": 71,
+        "dri": 72,
+        "ldr": 75,
+        "pac": 71,
+        "pas": 82,
+        "pos": 82,
+        "sho": 65,
         "sta": 80,
-        "str": 78,
-        "tac": 75,
-        "vis": 83
+        "str": 83,
+        "tac": 81,
+        "vis": 80
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -259,10 +259,13 @@
       "name": "Leandro Peredes",
       "nation": "ARG",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 184500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -290,19 +293,24 @@
       "wage": 59000
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 61,
-        "dri": 55,
-        "ldr": 56,
-        "pac": 58,
-        "pas": 50,
-        "pos": 38,
-        "sho": 66,
-        "sta": 54,
-        "str": 62,
-        "tac": 27,
-        "vis": 55
+        "aer": 46,
+        "com": 58,
+        "dri": 60,
+        "ldr": 54,
+        "pac": 62,
+        "pas": 56,
+        "pos": 40,
+        "sho": 61,
+        "sta": 56,
+        "str": 52,
+        "tac": 33,
+        "vis": 61
       },
       "birth": "2003-04-01",
       "contract": null,
@@ -312,10 +320,15 @@
       "name": "Matias Soole",
       "nation": "ARG",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 18500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 72,
@@ -342,7 +355,11 @@
       "wage": 172500
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 81,
         "com": 85,
@@ -350,7 +367,7 @@
         "ldr": 76,
         "pac": 83,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 75,
         "str": 83,
@@ -396,19 +413,22 @@
       "wage": 169500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 57,
-        "dri": 46,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 49,
-        "pos": 61,
-        "sho": 33,
-        "sta": 55,
-        "str": 58,
-        "tac": 61,
-        "vis": 41
+        "aer": 46,
+        "com": 55,
+        "dri": 56,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 53,
+        "pos": 56,
+        "sho": 40,
+        "sta": 61,
+        "str": 50,
+        "tac": 58,
+        "vis": 47
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -418,10 +438,13 @@
       "name": "Samuel Dehl",
       "nation": "SWE",
       "number": 26,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -448,9 +471,6 @@
       "wage": 40500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 40,
         "com": 61,
@@ -477,19 +497,24 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 81,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 79,
-        "pas": 68,
-        "pos": 57,
-        "sho": 82,
-        "sta": 72,
-        "str": 74,
-        "tac": 50,
-        "vis": 71
+        "aer": 58,
+        "com": 78,
+        "dri": 77,
+        "ldr": 68,
+        "pac": 83,
+        "pas": 74,
+        "pos": 59,
+        "sho": 77,
+        "sta": 74,
+        "str": 64,
+        "tac": 56,
+        "vis": 77
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -500,23 +525,27 @@
       "name": "Alexis Saelemeekers",
       "nation": "BEL",
       "number": 56,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 128500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 63,
-        "dri": 64,
-        "ldr": 60,
-        "pac": 62,
+        "aer": 47,
+        "com": 64,
+        "dri": 68,
+        "ldr": 58,
+        "pac": 77,
         "pas": 70,
-        "pos": 61,
-        "sho": 59,
-        "sta": 64,
-        "str": 62,
-        "tac": 58,
-        "vis": 69
+        "pos": 69,
+        "sho": 65,
+        "sta": 73,
+        "str": 80,
+        "tac": 63,
+        "vis": 71
       },
       "birth": "2002-01-01",
       "contract": null,
@@ -526,10 +555,13 @@
       "name": "Nicola Zalewsky",
       "nation": "POL",
       "number": 59,
-      "pos": "CM",
+      "pos": "LWB",
       "wage": 48500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 58,
@@ -579,7 +611,7 @@
       "nation": "ITA",
       "nation2": "EGY",
       "number": 92,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 152500
     },
     {

@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 66,
-        "dri": 54,
-        "ldr": 68,
-        "pac": 68,
-        "pas": 60,
-        "pos": 73,
-        "sho": 44,
-        "sta": 65,
-        "str": 74,
-        "tac": 72,
-        "vis": 57
+        "aer": 63,
+        "com": 64,
+        "dri": 64,
+        "ldr": 64,
+        "pac": 76,
+        "pas": 64,
+        "pos": 68,
+        "sho": 51,
+        "sta": 71,
+        "str": 66,
+        "tac": 69,
+        "vis": 63
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -73,12 +73,12 @@
       "name": "Nelson Marcus",
       "nation": "POR",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 21000
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 84,
@@ -132,19 +132,22 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 63,
-        "dri": 67,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 70,
-        "pos": 64,
-        "sho": 62,
+        "dri": 63,
+        "ldr": 63,
+        "pac": 58,
+        "pas": 69,
+        "pos": 68,
+        "sho": 56,
         "sta": 69,
-        "str": 60,
-        "tac": 65,
-        "vis": 64
+        "str": 65,
+        "tac": 71,
+        "vis": 61
       },
       "birth": "1984-08-01",
       "contract": null,
@@ -154,23 +157,27 @@
       "name": "Lulo",
       "nation": "ESP",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 18500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 79,
-        "dri": 75,
-        "ldr": 77,
-        "pac": 72,
-        "pas": 82,
-        "pos": 80,
-        "sho": 73,
-        "sta": 80,
-        "str": 71,
-        "tac": 78,
-        "vis": 78
+        "aer": 67,
+        "com": 81,
+        "dri": 77,
+        "ldr": 78,
+        "pac": 73,
+        "pas": 84,
+        "pos": 81,
+        "sho": 75,
+        "sta": 82,
+        "str": 72,
+        "tac": 79,
+        "vis": 80
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -191,7 +198,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 64,
-        "pos": 50,
+        "pos": 70,
         "sho": 72,
         "sta": 64,
         "str": 69,
@@ -211,18 +218,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 76,
-        "dri": 79,
-        "ldr": 77,
-        "pac": 70,
+        "aer": 62,
+        "com": 77,
+        "dri": 83,
+        "ldr": 75,
+        "pac": 73,
         "pas": 77,
-        "pos": 76,
-        "sho": 70,
-        "sta": 83,
-        "str": 73,
-        "tac": 74,
-        "vis": 76
+        "pos": 61,
+        "sho": 76,
+        "sta": 77,
+        "str": 68,
+        "tac": 56,
+        "vis": 78
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -232,7 +239,7 @@
       "name": "Masoud Shojaai",
       "nation": "IRN",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 49000
     },
     {
@@ -243,7 +250,7 @@
         "ldr": 63,
         "pac": 74,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 64,
         "str": 72,
@@ -262,10 +269,6 @@
       "wage": 20000
     },
     {
-      "alt": [
-        "CM",
-        "ST"
-      ],
       "attrs": {
         "aer": 63,
         "com": 69,
@@ -299,7 +302,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 61,
-        "pos": 45,
+        "pos": 65,
         "sho": 72,
         "sta": 68,
         "str": 66,
@@ -318,22 +321,19 @@
       "wage": 15000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 69,
-        "com": 76,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 74,
-        "pas": 84,
+        "com": 72,
+        "dri": 74,
+        "ldr": 72,
+        "pac": 81,
+        "pas": 78,
         "pos": 79,
-        "sho": 75,
+        "sho": 61,
         "sta": 83,
-        "str": 77,
-        "tac": 78,
-        "vis": 78
+        "str": 76,
+        "tac": 82,
+        "vis": 69
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -343,7 +343,7 @@
       "name": "Joanfran",
       "nation": "ESP",
       "number": 12,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 49000
     },
     {
@@ -400,8 +400,9 @@
     },
     {
       "alt": [
+        "DM",
         "RB",
-        "DM"
+        "LB"
       ],
       "attrs": {
         "aer": 73,
@@ -455,6 +456,11 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -481,6 +487,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -507,18 +516,22 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 71,
         "dri": 72,
         "ldr": 65,
         "pac": 70,
-        "pas": 72,
+        "pas": 73,
         "pos": 70,
         "sho": 69,
-        "sta": 72,
+        "sta": 73,
         "str": 65,
-        "tac": 68,
+        "tac": 69,
         "vis": 75
       },
       "birth": "1979-09-01",
@@ -533,6 +546,9 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -559,9 +575,6 @@
       "wage": 45000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 61,
@@ -614,6 +627,11 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 73,
@@ -640,17 +658,22 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 62,
-        "dri": 61,
+        "aer": 64,
+        "com": 68,
+        "dri": 67,
         "ldr": 64,
-        "pac": 59,
+        "pac": 65,
         "pas": 64,
-        "pos": 64,
-        "sho": 62,
+        "pos": 70,
+        "sho": 68,
         "sta": 70,
-        "str": 57,
+        "str": 63,
         "tac": 63,
         "vis": 68
       },
@@ -662,7 +685,7 @@
       "name": "Nicolas Medine",
       "nation": "CHI",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 16500
     }
   ],

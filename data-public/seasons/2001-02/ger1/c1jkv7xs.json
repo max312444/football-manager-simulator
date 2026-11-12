@@ -31,7 +31,7 @@
         "ldr": 71,
         "pac": 79,
         "pas": 72,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 76,
         "str": 82,
@@ -86,7 +86,7 @@
         "ldr": 69,
         "pac": 74,
         "pas": 70,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 74,
         "str": 78,
@@ -106,21 +106,23 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 66,
-        "com": 75,
-        "dri": 77,
-        "ldr": 71,
-        "pac": 72,
+        "aer": 60,
+        "com": 76,
+        "dri": 81,
+        "ldr": 69,
+        "pac": 75,
         "pas": 78,
-        "pos": 77,
-        "sho": 70,
-        "sta": 76,
-        "str": 75,
-        "tac": 75,
-        "vis": 77
+        "pos": 62,
+        "sho": 76,
+        "sta": 70,
+        "str": 70,
+        "tac": 57,
+        "vis": 79
       },
       "birth": "1968-03-01",
       "contract": null,
@@ -130,7 +132,7 @@
       "name": "Youri Djorkeeff",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 43000
     },
     {
@@ -161,18 +163,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 78,
-        "dri": 76,
-        "ldr": 68,
-        "pac": 67,
+        "aer": 61,
+        "com": 76,
+        "dri": 79,
+        "ldr": 66,
+        "pac": 75,
         "pas": 75,
-        "pos": 74,
-        "sho": 69,
-        "sta": 79,
-        "str": 72,
-        "tac": 68,
-        "vis": 73
+        "pos": 66,
+        "sho": 67,
+        "sta": 82,
+        "str": 69,
+        "tac": 62,
+        "vis": 72
       },
       "birth": "1968-12-01",
       "contract": null,
@@ -182,7 +184,7 @@
       "name": "Mario Baslar",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 37000
     },
     {
@@ -213,6 +215,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -319,6 +324,9 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -353,7 +361,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 66,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 71,
         "str": 75,
@@ -398,6 +406,11 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 67,
@@ -451,19 +464,22 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 64,
-        "pas": 70,
-        "pos": 65,
-        "sho": 60,
-        "sta": 72,
-        "str": 67,
-        "tac": 66,
-        "vis": 70
+        "aer": 53,
+        "com": 67,
+        "dri": 71,
+        "ldr": 63,
+        "pac": 73,
+        "pas": 66,
+        "pos": 47,
+        "sho": 64,
+        "sta": 68,
+        "str": 62,
+        "tac": 46,
+        "vis": 67
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -473,7 +489,7 @@
       "name": "Jose Domynguez",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 19500
     },
@@ -485,7 +501,7 @@
         "ldr": 62,
         "pac": 71,
         "pas": 60,
-        "pos": 44,
+        "pos": 64,
         "sho": 73,
         "sta": 67,
         "str": 68,
@@ -585,18 +601,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 66,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 57,
+        "aer": 52,
+        "com": 67,
+        "dri": 70,
+        "ldr": 58,
+        "pac": 60,
         "pas": 69,
-        "pos": 63,
-        "sho": 61,
-        "sta": 69,
-        "str": 60,
-        "tac": 59,
-        "vis": 68
+        "pos": 48,
+        "sho": 67,
+        "sta": 63,
+        "str": 55,
+        "tac": 41,
+        "vis": 70
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -606,7 +622,7 @@
       "name": "Lyncoln",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 13500
     },
@@ -638,18 +654,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 58,
-        "ldr": 59,
-        "pac": 56,
+        "aer": 45,
+        "com": 62,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 59,
         "pas": 59,
-        "pos": 58,
-        "sho": 57,
-        "sta": 65,
-        "str": 56,
-        "tac": 59,
-        "vis": 59
+        "pos": 43,
+        "sho": 63,
+        "sta": 59,
+        "str": 51,
+        "tac": 41,
+        "vis": 61
       },
       "birth": "1983-12-01",
       "contract": null,
@@ -659,24 +675,24 @@
       "name": "Datsakorn Thunglao",
       "nation": "THA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 59,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 54,
-        "pas": 65,
-        "pos": 56,
-        "sho": 55,
+        "dri": 56,
+        "ldr": 59,
+        "pac": 51,
+        "pas": 64,
+        "pos": 60,
+        "sho": 49,
         "sta": 65,
-        "str": 52,
-        "tac": 57,
-        "vis": 60
+        "str": 57,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -687,7 +703,7 @@
       "nation": "GER",
       "nation2": "GRE",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7000
     },
     {
@@ -698,7 +714,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 62,
         "sta": 58,
         "str": 57,
@@ -718,6 +734,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 61,
@@ -744,19 +763,24 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 56,
+        "com": 64,
         "dri": 48,
         "ldr": 57,
         "pac": 50,
-        "pas": 49,
+        "pas": 57,
         "pos": 64,
         "sho": 31,
-        "sta": 58,
+        "sta": 66,
         "str": 61,
         "tac": 59,
-        "vis": 46
+        "vis": 54
       },
       "birth": "1972-06-01",
       "contract": null,
@@ -766,11 +790,14 @@
       "name": "Stefan Melz",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -797,6 +824,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -824,6 +854,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -905,6 +938,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 44,
         "com": 47,
@@ -927,23 +963,23 @@
       "name": "Sebastian Pelzar",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 2500
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 52,
-        "dri": 49,
-        "ldr": 46,
-        "pac": 47,
-        "pas": 53,
-        "pos": 50,
-        "sho": 43,
+        "dri": 45,
+        "ldr": 48,
+        "pac": 44,
+        "pas": 52,
+        "pos": 54,
+        "sho": 37,
         "sta": 56,
-        "str": 48,
-        "tac": 50,
-        "vis": 53
+        "str": 53,
+        "tac": 56,
+        "vis": 50
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -953,7 +989,7 @@
       "name": "Rudiger Ziahl",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
@@ -985,19 +1021,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
-        "com": 52,
-        "dri": 52,
+        "com": 55,
+        "dri": 54,
         "ldr": 47,
         "pac": 51,
-        "pas": 46,
-        "pos": 29,
-        "sho": 52,
+        "pas": 51,
+        "pos": 49,
+        "sho": 55,
         "sta": 49,
         "str": 50,
         "tac": 22,
-        "vis": 46
+        "vis": 51
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -1007,7 +1048,7 @@
       "name": "Silvio Adzyc",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2000
     },
     {
@@ -1018,7 +1059,7 @@
         "ldr": 44,
         "pac": 47,
         "pas": 43,
-        "pos": 25,
+        "pos": 45,
         "sho": 49,
         "sta": 43,
         "str": 47,
@@ -1038,19 +1079,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
-        "com": 47,
+        "com": 54,
         "dri": 30,
         "ldr": 46,
         "pac": 40,
-        "pas": 38,
+        "pas": 45,
         "pos": 48,
         "sho": 19,
-        "sta": 43,
+        "sta": 50,
         "str": 46,
         "tac": 51,
-        "vis": 32
+        "vis": 39
       },
       "birth": "1982-09-01",
       "contract": null,
@@ -1060,7 +1106,7 @@
       "name": "Torsten Rauter",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1000
     }

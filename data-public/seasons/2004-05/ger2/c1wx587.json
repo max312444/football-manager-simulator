@@ -26,17 +26,17 @@
     {
       "attrs": {
         "aer": 57,
-        "com": 65,
-        "dri": 62,
-        "ldr": 61,
-        "pac": 61,
-        "pas": 70,
+        "com": 61,
+        "dri": 60,
+        "ldr": 59,
+        "pac": 68,
+        "pas": 64,
         "pos": 63,
-        "sho": 58,
+        "sho": 44,
         "sta": 69,
-        "str": 65,
-        "tac": 65,
-        "vis": 65
+        "str": 64,
+        "tac": 69,
+        "vis": 56
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -46,7 +46,7 @@
       "name": "Adrian Aliej",
       "nation": "ALB",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 5500
     },
     {
@@ -57,7 +57,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 58,
-        "pos": 46,
+        "pos": 66,
         "sho": 68,
         "sta": 62,
         "str": 67,
@@ -104,6 +104,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -137,7 +141,7 @@
         "ldr": 60,
         "pac": 62,
         "pas": 53,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 62,
         "str": 62,
@@ -163,7 +167,7 @@
         "ldr": 60,
         "pac": 62,
         "pas": 53,
-        "pos": 45,
+        "pos": 65,
         "sho": 67,
         "sta": 59,
         "str": 61,
@@ -212,19 +216,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 60,
+        "com": 69,
         "dri": 50,
         "ldr": 62,
         "pac": 56,
-        "pas": 57,
+        "pas": 66,
         "pos": 65,
         "sho": 35,
-        "sta": 57,
+        "sta": 66,
         "str": 67,
         "tac": 62,
-        "vis": 50
+        "vis": 59
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -234,7 +243,7 @@
       "name": "Gerd Wimmar",
       "nation": "AUT",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
@@ -265,6 +274,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,
@@ -319,6 +331,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -345,6 +360,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -372,6 +390,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -399,6 +420,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -426,15 +450,20 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 54,
-        "dri": 43,
+        "com": 73,
+        "dri": 62,
         "ldr": 52,
-        "pac": 49,
+        "pac": 68,
         "pas": 50,
         "pos": 59,
-        "sho": 32,
+        "sho": 51,
         "sta": 55,
         "str": 55,
         "tac": 60,
@@ -448,24 +477,29 @@
       "name": "Tibor Tokudy",
       "nation": "HUN",
       "number": null,
-      "pos": "CB",
+      "pos": "ST",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 58,
-        "dri": 52,
-        "ldr": 53,
-        "pac": 47,
+        "aer": 37,
+        "com": 59,
+        "dri": 56,
+        "ldr": 51,
+        "pac": 50,
         "pas": 60,
-        "pos": 54,
-        "sho": 47,
-        "sta": 55,
-        "str": 49,
-        "tac": 49,
-        "vis": 59
+        "pos": 39,
+        "sho": 53,
+        "sta": 49,
+        "str": 44,
+        "tac": 31,
+        "vis": 61
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -475,10 +509,13 @@
       "name": "Boyko Velichkuv",
       "nation": "BUL",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 52,
@@ -505,6 +542,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 58,
@@ -532,6 +572,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 52,
@@ -565,7 +608,7 @@
         "ldr": 48,
         "pac": 57,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 55,
         "sta": 52,
         "str": 52,
@@ -585,18 +628,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 55,
+        "aer": 56,
+        "com": 56,
         "dri": 54,
         "ldr": 49,
-        "pac": 49,
+        "pac": 59,
         "pas": 57,
-        "pos": 55,
+        "pos": 66,
         "sho": 46,
         "sta": 59,
-        "str": 47,
-        "tac": 47,
+        "str": 58,
+        "tac": 58,
         "vis": 57
       },
       "birth": "1967-12-01",
@@ -607,7 +655,7 @@
       "name": "Jurgen Lugynger",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 2000
     },
     {
@@ -618,7 +666,7 @@
         "ldr": 45,
         "pac": 53,
         "pas": 44,
-        "pos": 29,
+        "pos": 49,
         "sho": 53,
         "sta": 45,
         "str": 52,
@@ -670,7 +718,7 @@
         "ldr": 46,
         "pac": 55,
         "pas": 43,
-        "pos": 28,
+        "pos": 48,
         "sho": 57,
         "sta": 48,
         "str": 52,
@@ -743,6 +791,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 47,

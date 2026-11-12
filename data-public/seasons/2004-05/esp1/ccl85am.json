@@ -24,6 +24,10 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 76,
@@ -51,18 +55,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 60,
-        "dri": 48,
-        "ldr": 58,
-        "pac": 52,
-        "pas": 49,
-        "pos": 63,
-        "sho": 34,
-        "sta": 55,
-        "str": 65,
-        "tac": 61,
-        "vis": 47
+        "aer": 52,
+        "com": 58,
+        "dri": 58,
+        "ldr": 54,
+        "pac": 60,
+        "pas": 53,
+        "pos": 58,
+        "sho": 41,
+        "sta": 61,
+        "str": 57,
+        "tac": 58,
+        "vis": 53
       },
       "birth": "1982-05-01",
       "contract": "2008-07-01",
@@ -72,23 +76,23 @@
       "name": "Ayoze Diez",
       "nation": "ESP",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 81,
-        "com": 78,
-        "dri": 63,
-        "ldr": 77,
-        "pac": 74,
-        "pas": 70,
-        "pos": 83,
-        "sho": 54,
-        "sta": 71,
-        "str": 81,
-        "tac": 84,
-        "vis": 64
+        "aer": 68,
+        "com": 76,
+        "dri": 73,
+        "ldr": 73,
+        "pac": 82,
+        "pas": 74,
+        "pos": 78,
+        "sho": 61,
+        "sta": 77,
+        "str": 73,
+        "tac": 81,
+        "vis": 70
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -99,7 +103,7 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 28000
     },
@@ -132,18 +136,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 75,
-        "dri": 78,
-        "ldr": 70,
-        "pac": 74,
-        "pas": 81,
-        "pos": 72,
-        "sho": 74,
+        "dri": 74,
+        "ldr": 72,
+        "pac": 71,
+        "pas": 80,
+        "pos": 76,
+        "sho": 68,
         "sta": 76,
-        "str": 75,
-        "tac": 76,
-        "vis": 76
+        "str": 80,
+        "tac": 82,
+        "vis": 73
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -154,24 +158,27 @@
       "nation": "MEX",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 28000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 75,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 76,
-        "pos": 75,
-        "sho": 69,
-        "sta": 81,
-        "str": 70,
-        "tac": 74,
-        "vis": 79
+        "aer": 61,
+        "com": 73,
+        "dri": 79,
+        "ldr": 68,
+        "pac": 77,
+        "pas": 72,
+        "pos": 57,
+        "sho": 73,
+        "sta": 77,
+        "str": 65,
+        "tac": 54,
+        "vis": 76
       },
       "birth": "1978-09-01",
       "contract": null,
@@ -181,7 +188,7 @@
       "name": "Mario Regoeiro",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 28000
     },
@@ -193,7 +200,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 63,
-        "pos": 54,
+        "pos": 74,
         "sho": 75,
         "sta": 70,
         "str": 73,
@@ -221,7 +228,7 @@
         "ldr": 69,
         "pac": 74,
         "pas": 66,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 70,
         "str": 74,
@@ -241,6 +248,11 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 68,
@@ -294,19 +306,22 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 68,
-        "dri": 65,
-        "ldr": 61,
-        "pac": 65,
-        "pas": 71,
-        "pos": 68,
-        "sho": 64,
+        "dri": 61,
+        "ldr": 63,
+        "pac": 62,
+        "pas": 70,
+        "pos": 72,
+        "sho": 58,
         "sta": 70,
-        "str": 63,
-        "tac": 63,
-        "vis": 70
+        "str": 68,
+        "tac": 69,
+        "vis": 67
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -317,10 +332,13 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 68,
@@ -381,7 +399,7 @@
         "ldr": 55,
         "pac": 66,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 62,
         "str": 64,
@@ -400,6 +418,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -479,19 +500,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 58,
-        "dri": 47,
-        "ldr": 63,
-        "pac": 54,
-        "pas": 53,
-        "pos": 66,
-        "sho": 32,
-        "sta": 61,
-        "str": 65,
-        "tac": 65,
-        "vis": 45
+        "aer": 52,
+        "com": 56,
+        "dri": 57,
+        "ldr": 59,
+        "pac": 62,
+        "pas": 57,
+        "pos": 61,
+        "sho": 39,
+        "sta": 67,
+        "str": 57,
+        "tac": 62,
+        "vis": 51
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -501,23 +527,23 @@
       "name": "Cristian Alvaraz",
       "nation": "ARG",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 64,
-        "dri": 58,
-        "ldr": 61,
-        "pac": 54,
-        "pas": 66,
-        "pos": 58,
-        "sho": 58,
+        "dri": 54,
+        "ldr": 63,
+        "pac": 51,
+        "pas": 65,
+        "pos": 62,
+        "sho": 52,
         "sta": 63,
-        "str": 55,
-        "tac": 55,
-        "vis": 61
+        "str": 60,
+        "tac": 61,
+        "vis": 58
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -527,7 +553,7 @@
       "name": "Diego Mateu",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 7000
     },
@@ -585,19 +611,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 63,
-        "dri": 62,
-        "ldr": 56,
-        "pac": 60,
-        "pas": 63,
-        "pos": 62,
-        "sho": 58,
-        "sta": 63,
-        "str": 57,
-        "tac": 58,
-        "vis": 62
+        "aer": 44,
+        "com": 61,
+        "dri": 67,
+        "ldr": 52,
+        "pac": 69,
+        "pas": 59,
+        "pos": 44,
+        "sho": 62,
+        "sta": 59,
+        "str": 52,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "1974-08-01",
       "contract": null,
@@ -607,24 +636,24 @@
       "name": "Pablo Lego",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 63,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 63,
-        "pos": 59,
-        "sho": 59,
+        "dri": 57,
+        "ldr": 63,
+        "pac": 57,
+        "pas": 62,
+        "pos": 63,
+        "sho": 53,
         "sta": 63,
-        "str": 57,
-        "tac": 60,
-        "vis": 65
+        "str": 62,
+        "tac": 66,
+        "vis": 62
       },
       "birth": "1979-02-01",
       "contract": null,
@@ -634,7 +663,7 @@
       "name": "Sergio Matebuena",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8500
     },
     {
@@ -664,19 +693,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 58,
-        "dri": 61,
-        "ldr": 54,
-        "pac": 58,
-        "pas": 63,
-        "pos": 56,
-        "sho": 55,
-        "sta": 64,
-        "str": 56,
-        "tac": 53,
-        "vis": 60
+        "aer": 44,
+        "com": 56,
+        "dri": 66,
+        "ldr": 50,
+        "pac": 67,
+        "pas": 59,
+        "pos": 38,
+        "sho": 59,
+        "sta": 60,
+        "str": 51,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -686,11 +718,15 @@
       "name": "Pablo Siarra",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 6000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -744,19 +780,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
-        "com": 55,
-        "dri": 52,
+        "com": 57,
+        "dri": 54,
         "ldr": 51,
         "pac": 53,
-        "pas": 58,
+        "pas": 60,
         "pos": 57,
-        "sho": 48,
-        "sta": 60,
+        "sho": 50,
+        "sta": 62,
         "str": 54,
         "tac": 55,
-        "vis": 55
+        "vis": 57
       },
       "birth": "1982-08-01",
       "contract": null,
@@ -770,6 +809,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -798,18 +840,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 58,
-        "dri": 54,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 62,
-        "pos": 57,
-        "sho": 48,
-        "sta": 60,
-        "str": 51,
-        "tac": 55,
-        "vis": 57
+        "aer": 57,
+        "com": 56,
+        "dri": 42,
+        "ldr": 57,
+        "pac": 53,
+        "pas": 52,
+        "pos": 62,
+        "sho": 27,
+        "sta": 54,
+        "str": 58,
+        "tac": 62,
+        "vis": 42
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -820,7 +862,7 @@
       "nation": "FRA",
       "nation2": "HAI",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 4500
     },
@@ -859,7 +901,7 @@
         "ldr": 52,
         "pac": 53,
         "pas": 50,
-        "pos": 31,
+        "pos": 51,
         "sho": 57,
         "sta": 50,
         "str": 58,
@@ -879,19 +921,23 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 49,
-        "dri": 41,
-        "ldr": 49,
-        "pac": 43,
+        "aer": 48,
+        "com": 52,
+        "dri": 53,
+        "ldr": 45,
+        "pac": 49,
         "pas": 42,
-        "pos": 55,
-        "sho": 27,
+        "pos": 50,
+        "sho": 57,
         "sta": 50,
-        "str": 54,
-        "tac": 55,
-        "vis": 36
+        "str": 52,
+        "tac": 22,
+        "vis": 42
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -901,7 +947,7 @@
       "name": "Claude Gnekpa",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "ST",
       "wage": 1500
     }
   ],

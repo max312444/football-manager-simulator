@@ -123,21 +123,18 @@
       "wage": 56500
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 50,
         "com": 62,
         "dri": 70,
         "ldr": 52,
-        "pac": 78,
+        "pac": 80,
         "pas": 68,
-        "pos": 60,
+        "pos": 62,
         "sho": 58,
         "sta": 80,
-        "str": 64,
-        "tac": 64,
+        "str": 66,
+        "tac": 66,
         "vis": 62
       },
       "birth": "1993-09-01",
@@ -153,18 +150,18 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 58,
         "com": 60,
-        "dri": 54,
+        "dri": 55,
         "ldr": 56,
-        "pac": 61,
-        "pas": 60,
+        "pac": 62,
+        "pas": 61,
         "pos": 64,
         "sho": 38,
-        "sta": 65,
+        "sta": 66,
         "str": 64,
         "tac": 66,
         "vis": 50
@@ -177,7 +174,7 @@
       "name": "Denis Odui",
       "nation": "BEL",
       "number": 4,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 33000
     },
     {
@@ -208,6 +205,9 @@
       "wage": 106500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 67,
@@ -290,7 +290,9 @@
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 54,
@@ -375,9 +377,6 @@
       "wage": 45500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -385,11 +384,11 @@
         "ldr": 63,
         "pac": 65,
         "pas": 73,
-        "pos": 63,
+        "pos": 69,
         "sho": 64,
         "sta": 74,
-        "str": 65,
-        "tac": 63,
+        "str": 71,
+        "tac": 69,
         "vis": 69
       },
       "birth": "1995-01-01",
@@ -400,23 +399,27 @@
       "name": "Harrison Read",
       "nation": "ENG",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 86000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 72,
-        "com": 70,
-        "dri": 80,
+        "com": 79,
+        "dri": 86,
         "ldr": 60,
         "pac": 76,
-        "pas": 76,
+        "pas": 85,
         "pos": 72,
-        "sho": 66,
+        "sho": 72,
         "sta": 86,
         "str": 88,
-        "tac": 80,
-        "vis": 68
+        "tac": 83,
+        "vis": 77
       },
       "birth": "1995-11-01",
       "contract": "2022-06-30",
@@ -430,18 +433,21 @@
       "wage": 138500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 73,
         "dri": 72,
         "ldr": 75,
         "pac": 61,
-        "pas": 80,
+        "pas": 81,
         "pos": 67,
         "sho": 70,
-        "sta": 71,
+        "sta": 72,
         "str": 63,
-        "tac": 59,
+        "tac": 60,
         "vis": 75
       },
       "birth": "1991-01-01",
@@ -461,6 +467,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -490,9 +497,6 @@
       "wage": 60000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 68,
@@ -521,21 +525,21 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 65,
-        "com": 74,
+        "com": 75,
         "dri": 80,
         "ldr": 62,
         "pac": 72,
-        "pas": 75,
+        "pas": 78,
         "pos": 68,
         "sho": 70,
-        "sta": 76,
+        "sta": 79,
         "str": 84,
-        "tac": 65,
-        "vis": 73
+        "tac": 68,
+        "vis": 74
       },
       "birth": "1996-01-01",
       "contract": "2021-06-30",
@@ -551,6 +555,7 @@
     },
     {
       "alt": [
+        "RW",
         "ST"
       ],
       "attrs": {
@@ -580,7 +585,9 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "ST",
+        "AM"
       ],
       "attrs": {
         "aer": 43,
@@ -609,6 +616,9 @@
       "wage": 46500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 63,
@@ -631,7 +641,7 @@
       "name": "Neeskens Kebanu",
       "nation": "COD",
       "number": 7,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 47500
     },
     {
@@ -665,19 +675,23 @@
       "wage": 138500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 68,
+        "com": 79,
         "dri": 78,
         "ldr": 48,
         "pac": 80,
-        "pas": 72,
+        "pas": 83,
         "pos": 56,
         "sho": 64,
-        "sta": 78,
+        "sta": 83,
         "str": 70,
-        "tac": 54,
-        "vis": 70
+        "tac": 65,
+        "vis": 81
       },
       "birth": "1997-04-01",
       "contract": "2023-06-30",
@@ -691,6 +705,10 @@
       "wage": 82000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -717,6 +735,9 @@
       "wage": 85000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 65,

@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 71,
-        "dri": 64,
-        "ldr": 75,
-        "pac": 67,
-        "pas": 67,
-        "pos": 82,
-        "sho": 47,
-        "sta": 70,
-        "str": 81,
-        "tac": 79,
-        "vis": 64
+        "aer": 63,
+        "com": 69,
+        "dri": 74,
+        "ldr": 71,
+        "pac": 75,
+        "pas": 71,
+        "pos": 77,
+        "sho": 54,
+        "sta": 76,
+        "str": 73,
+        "tac": 76,
+        "vis": 70
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Mario Gespar",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 66500
     },
     {
@@ -129,6 +129,9 @@
       "wage": 47500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -155,6 +158,10 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 68,
@@ -188,7 +195,7 @@
         "ldr": 70,
         "pac": 75,
         "pas": 70,
-        "pos": 55,
+        "pos": 75,
         "sho": 83,
         "sta": 74,
         "str": 78,
@@ -207,6 +214,10 @@
       "wage": 75000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 77,
@@ -240,7 +251,7 @@
         "ldr": 67,
         "pac": 70,
         "pas": 59,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 68,
         "str": 70,
@@ -260,18 +271,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 71,
-        "dri": 70,
-        "ldr": 63,
-        "pac": 68,
+        "aer": 69,
+        "com": 72,
+        "dri": 66,
+        "ldr": 65,
+        "pac": 65,
         "pas": 71,
-        "pos": 68,
-        "sho": 63,
-        "sta": 69,
-        "str": 65,
-        "tac": 67,
-        "vis": 68
+        "pos": 72,
+        "sho": 57,
+        "sta": 70,
+        "str": 70,
+        "tac": 73,
+        "vis": 66
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -281,23 +292,27 @@
       "name": "Vicente Iborre",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 47000
     },
     {
+      "alt": [
+        "LW",
+        "RWB"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 63,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 65,
-        "pos": 64,
-        "sho": 56,
-        "sta": 65,
-        "str": 58,
-        "tac": 58,
-        "vis": 62
+        "aer": 50,
+        "com": 61,
+        "dri": 69,
+        "ldr": 58,
+        "pac": 70,
+        "pas": 61,
+        "pos": 46,
+        "sho": 60,
+        "sta": 61,
+        "str": 53,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "1999-05-01",
       "contract": null,
@@ -307,7 +322,7 @@
       "name": "Samuel Chukwuaze",
       "nation": "NGA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 23500
     },
     {
@@ -337,6 +352,9 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 73,
@@ -363,6 +381,10 @@
       "wage": 57000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 60,
@@ -390,18 +412,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 56,
-        "dri": 47,
-        "ldr": 61,
-        "pac": 51,
-        "pas": 49,
-        "pos": 66,
-        "sho": 35,
-        "sta": 59,
-        "str": 62,
-        "tac": 60,
-        "vis": 45
+        "aer": 49,
+        "com": 54,
+        "dri": 57,
+        "ldr": 57,
+        "pac": 59,
+        "pas": 53,
+        "pos": 61,
+        "sho": 42,
+        "sta": 65,
+        "str": 54,
+        "tac": 57,
+        "vis": 51
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -411,7 +433,7 @@
       "name": "Xavi Qointilla",
       "nation": "ESP",
       "number": 16,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11000
     },
     {
@@ -422,7 +444,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 61,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 67,
         "str": 70,
@@ -464,10 +486,14 @@
       "name": "Alberto Morenu",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 82500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 75,
@@ -495,19 +521,23 @@
       "wage": 82500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 64,
-        "dri": 49,
-        "ldr": 63,
-        "pac": 59,
-        "pas": 55,
-        "pos": 71,
-        "sho": 38,
-        "sta": 65,
-        "str": 71,
-        "tac": 71,
-        "vis": 52
+        "aer": 55,
+        "com": 62,
+        "dri": 59,
+        "ldr": 59,
+        "pac": 67,
+        "pas": 59,
+        "pos": 66,
+        "sho": 45,
+        "sta": 71,
+        "str": 63,
+        "tac": 68,
+        "vis": 58
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -517,23 +547,23 @@
       "name": "Ruben Pene",
       "nation": "ESP",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 22000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 68,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 70,
-        "pos": 72,
-        "sho": 66,
-        "sta": 70,
-        "str": 63,
-        "tac": 65,
-        "vis": 69
+        "aer": 70,
+        "com": 70,
+        "dri": 67,
+        "ldr": 72,
+        "pac": 66,
+        "pas": 71,
+        "pos": 76,
+        "sho": 60,
+        "sta": 72,
+        "str": 68,
+        "tac": 71,
+        "vis": 68
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -543,23 +573,26 @@
       "name": "Bruno Soryano",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 52000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 70,
-        "dri": 68,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 72,
-        "pos": 63,
-        "sho": 58,
-        "sta": 67,
-        "str": 61,
-        "tac": 65,
-        "vis": 67
+        "aer": 48,
+        "com": 68,
+        "dri": 73,
+        "ldr": 59,
+        "pac": 70,
+        "pas": 68,
+        "pos": 45,
+        "sho": 62,
+        "sta": 63,
+        "str": 56,
+        "tac": 45,
+        "vis": 64
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -569,23 +602,23 @@
       "name": "Leonardo Suaraz",
       "nation": "ARG",
       "number": 22,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 33000
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 77,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 68,
+        "aer": 60,
+        "com": 78,
+        "dri": 76,
+        "ldr": 68,
+        "pac": 71,
         "pas": 78,
-        "pos": 73,
-        "sho": 65,
-        "sta": 74,
-        "str": 70,
-        "tac": 67,
-        "vis": 78
+        "pos": 58,
+        "sho": 71,
+        "sta": 68,
+        "str": 65,
+        "tac": 49,
+        "vis": 80
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -595,23 +628,26 @@
       "name": "Moi Gomaz",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 76500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 61,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 65,
-        "pos": 61,
-        "sho": 62,
-        "sta": 66,
-        "str": 62,
-        "tac": 61,
-        "vis": 67
+        "aer": 49,
+        "com": 63,
+        "dri": 66,
+        "ldr": 59,
+        "pac": 70,
+        "pas": 61,
+        "pos": 43,
+        "sho": 66,
+        "sta": 62,
+        "str": 57,
+        "tac": 41,
+        "vis": 64
       },
       "birth": "1997-09-01",
       "contract": null,
@@ -621,7 +657,7 @@
       "name": "Javier Ontyveros",
       "nation": "ESP",
       "number": 24,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 27500
     },
     {

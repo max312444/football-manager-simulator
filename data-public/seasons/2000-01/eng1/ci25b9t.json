@@ -74,18 +74,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 66,
         "com": 68,
-        "dri": 56,
+        "dri": 61,
         "ldr": 60,
-        "pac": 62,
-        "pas": 62,
+        "pac": 67,
+        "pas": 67,
         "pos": 70,
         "sho": 44,
-        "sta": 72,
+        "sta": 77,
         "str": 70,
         "tac": 72,
         "vis": 52
@@ -102,9 +103,6 @@
       "wage": 27000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 66,
         "com": 60,
@@ -131,19 +129,22 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 64,
-        "dri": 64,
+        "com": 75,
+        "dri": 70,
         "ldr": 66,
         "pac": 70,
-        "pas": 66,
+        "pas": 77,
         "pos": 66,
-        "sho": 56,
+        "sho": 62,
         "sta": 88,
         "str": 68,
-        "tac": 74,
-        "vis": 60
+        "tac": 79,
+        "vis": 71
       },
       "birth": "1974-10-01",
       "contract": "2004-06-30",
@@ -196,7 +197,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 52,
@@ -255,20 +256,22 @@
     },
     {
       "alt": [
-        "RB"
+        "LB",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 50,
         "com": 64,
         "dri": 70,
         "ldr": 54,
-        "pac": 76,
+        "pac": 78,
         "pas": 66,
-        "pos": 60,
+        "pos": 62,
         "sho": 52,
         "sta": 76,
-        "str": 60,
-        "tac": 60,
+        "str": 62,
+        "tac": 62,
         "vis": 60
       },
       "birth": "1971-09-01",
@@ -279,7 +282,7 @@
       "name": "Andy Impei",
       "nation": "ENG",
       "number": 24,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 25500
     },
     {
@@ -310,20 +313,17 @@
       "wage": 17500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 66,
+        "aer": 62,
+        "com": 74,
         "dri": 72,
         "ldr": 50,
-        "pac": 64,
+        "pac": 67,
         "pas": 66,
-        "pos": 46,
-        "sho": 70,
+        "pos": 54,
+        "sho": 78,
         "sta": 62,
-        "str": 60,
+        "str": 68,
         "tac": 32,
         "vis": 64
       },
@@ -340,17 +340,19 @@
     },
     {
       "alt": [
+        "LW",
+        "RWB",
         "LWB"
       ],
       "attrs": {
         "aer": 50,
         "com": 68,
-        "dri": 68,
+        "dri": 75,
         "ldr": 58,
-        "pac": 64,
+        "pac": 71,
         "pas": 76,
         "pos": 58,
-        "sho": 56,
+        "sho": 58,
         "sta": 70,
         "str": 60,
         "tac": 52,
@@ -364,7 +366,7 @@
       "name": "Steve Guppi",
       "nation": "ENG",
       "number": 11,
-      "pos": "LM",
+      "pos": "RW",
       "traits": [
         "free_kick"
       ],
@@ -425,7 +427,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 52,
@@ -480,7 +482,9 @@
     },
     {
       "alt": [
-        "RW"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 44,
@@ -537,19 +541,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 56,
-        "dri": 58,
+        "com": 63,
+        "dri": 61,
         "ldr": 46,
         "pac": 62,
-        "pas": 60,
+        "pas": 67,
         "pos": 56,
-        "sho": 46,
+        "sho": 49,
         "sta": 70,
         "str": 58,
-        "tac": 60,
-        "vis": 54
+        "tac": 64,
+        "vis": 61
       },
       "birth": "1977-12-01",
       "contract": "2002-06-30",
@@ -563,6 +570,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 52,
         "com": 48,

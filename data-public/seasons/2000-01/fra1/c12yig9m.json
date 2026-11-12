@@ -31,7 +31,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 67,
-        "pos": 50,
+        "pos": 70,
         "sho": 79,
         "sta": 71,
         "str": 74,
@@ -85,7 +85,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 63,
-        "pos": 45,
+        "pos": 65,
         "sho": 74,
         "sta": 61,
         "str": 68,
@@ -106,6 +106,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -133,18 +136,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 63,
-        "dri": 53,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 57,
-        "pos": 64,
-        "sho": 34,
-        "sta": 60,
-        "str": 68,
-        "tac": 65,
-        "vis": 47
+        "aer": 56,
+        "com": 61,
+        "dri": 63,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 61,
+        "pos": 59,
+        "sho": 41,
+        "sta": 66,
+        "str": 60,
+        "tac": 62,
+        "vis": 53
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -154,24 +157,24 @@
       "name": "Mario Silve",
       "nation": "POR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 7000
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 62,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 68,
-        "pos": 63,
-        "sho": 61,
-        "sta": 67,
-        "str": 61,
-        "tac": 62,
-        "vis": 65
+        "aer": 47,
+        "com": 60,
+        "dri": 66,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 67,
+        "pos": 55,
+        "sho": 59,
+        "sta": 69,
+        "str": 58,
+        "tac": 55,
+        "vis": 63
       },
       "birth": "1980-12-01",
       "contract": null,
@@ -182,10 +185,13 @@
       "nation": "CMR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -212,6 +218,11 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -240,18 +251,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 62,
-        "dri": 52,
-        "ldr": 62,
-        "pac": 59,
-        "pas": 53,
-        "pos": 63,
-        "sho": 35,
-        "sta": 57,
-        "str": 68,
-        "tac": 69,
-        "vis": 51
+        "aer": 50,
+        "com": 60,
+        "dri": 62,
+        "ldr": 58,
+        "pac": 67,
+        "pas": 57,
+        "pos": 58,
+        "sho": 42,
+        "sta": 63,
+        "str": 60,
+        "tac": 66,
+        "vis": 57
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -261,27 +272,24 @@
       "name": "Sylvain Armend",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 7000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 55,
-        "com": 60,
+        "aer": 63,
+        "com": 61,
         "dri": 61,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 62,
+        "ldr": 57,
+        "pac": 62,
+        "pas": 52,
         "pos": 60,
-        "sho": 53,
-        "sta": 66,
-        "str": 59,
-        "tac": 58,
-        "vis": 65
+        "sho": 62,
+        "sta": 60,
+        "str": 64,
+        "tac": 32,
+        "vis": 56
       },
       "birth": "1980-05-01",
       "contract": null,
@@ -291,7 +299,7 @@
       "name": "Marama Vahiroa",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 8500
     },
     {
@@ -347,6 +355,11 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -375,18 +388,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 59,
-        "dri": 58,
-        "ldr": 58,
-        "pac": 56,
+        "aer": 46,
+        "com": 60,
+        "dri": 62,
+        "ldr": 56,
+        "pac": 59,
         "pas": 64,
-        "pos": 60,
-        "sho": 56,
-        "sta": 65,
-        "str": 55,
-        "tac": 56,
-        "vis": 61
+        "pos": 45,
+        "sho": 62,
+        "sta": 59,
+        "str": 50,
+        "tac": 38,
+        "vis": 63
       },
       "birth": "1971-12-01",
       "contract": null,
@@ -396,7 +409,7 @@
       "name": "Stephane Zieni",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 7000
     },
@@ -434,7 +447,7 @@
         "ldr": 52,
         "pac": 57,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 61,
         "sta": 53,
         "str": 58,
@@ -461,7 +474,7 @@
         "ldr": 52,
         "pac": 63,
         "pas": 55,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 54,
         "str": 58,
@@ -515,7 +528,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 53,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 56,
         "str": 59,
@@ -535,6 +548,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -563,6 +579,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -616,18 +635,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 51,
-        "dri": 39,
-        "ldr": 53,
-        "pac": 53,
-        "pas": 50,
-        "pos": 62,
-        "sho": 32,
-        "sta": 54,
-        "str": 57,
-        "tac": 57,
-        "vis": 40
+        "aer": 46,
+        "com": 49,
+        "dri": 49,
+        "ldr": 49,
+        "pac": 61,
+        "pas": 54,
+        "pos": 57,
+        "sho": 39,
+        "sta": 60,
+        "str": 49,
+        "tac": 54,
+        "vis": 46
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -637,7 +656,7 @@
       "name": "Yves Deruff",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
@@ -668,18 +687,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 39,
         "com": 57,
-        "dri": 49,
+        "dri": 53,
         "ldr": 51,
-        "pac": 52,
-        "pas": 43,
-        "pos": 29,
-        "sho": 54,
+        "pac": 50,
+        "pas": 53,
+        "pos": 34,
+        "sho": 51,
         "sta": 50,
-        "str": 52,
-        "tac": 27,
-        "vis": 44
+        "str": 42,
+        "tac": 35,
+        "vis": 55
       },
       "birth": "1978-09-01",
       "contract": null,
@@ -690,10 +709,13 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -722,18 +744,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 51,
-        "dri": 38,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 43,
-        "pos": 56,
-        "sho": 29,
-        "sta": 52,
-        "str": 56,
-        "tac": 56,
-        "vis": 42
+        "aer": 42,
+        "com": 49,
+        "dri": 48,
+        "ldr": 47,
+        "pac": 58,
+        "pas": 47,
+        "pos": 51,
+        "sho": 36,
+        "sta": 58,
+        "str": 48,
+        "tac": 53,
+        "vis": 48
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -743,10 +765,13 @@
       "name": "Ludovic Mari",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 51,
@@ -773,21 +798,18 @@
       "wage": 3000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 39,
-        "com": 53,
-        "dri": 58,
-        "ldr": 42,
-        "pac": 60,
-        "pas": 54,
-        "pos": 32,
-        "sho": 54,
-        "sta": 50,
-        "str": 44,
-        "tac": 32,
+        "aer": 51,
+        "com": 55,
+        "dri": 49,
+        "ldr": 48,
+        "pac": 48,
+        "pas": 57,
+        "pos": 54,
+        "sho": 44,
+        "sta": 54,
+        "str": 54,
+        "tac": 58,
         "vis": 49
       },
       "birth": "1979-08-01",
@@ -798,11 +820,14 @@
       "name": "Charles Devyneau",
       "nation": "FRA",
       "number": null,
-      "pos": "LW",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 50,
@@ -830,6 +855,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -890,7 +918,7 @@
         "ldr": 48,
         "pac": 52,
         "pas": 43,
-        "pos": 29,
+        "pos": 49,
         "sho": 51,
         "sta": 44,
         "str": 50,
@@ -916,7 +944,7 @@
         "ldr": 44,
         "pac": 53,
         "pas": 45,
-        "pos": 26,
+        "pos": 46,
         "sho": 53,
         "sta": 50,
         "str": 53,
@@ -935,19 +963,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 52,
-        "dri": 47,
-        "ldr": 43,
-        "pac": 46,
-        "pas": 53,
-        "pos": 51,
-        "sho": 45,
-        "sta": 51,
-        "str": 46,
-        "tac": 48,
-        "vis": 48
+        "aer": 44,
+        "com": 54,
+        "dri": 49,
+        "ldr": 44,
+        "pac": 47,
+        "pas": 55,
+        "pos": 52,
+        "sho": 47,
+        "sta": 53,
+        "str": 47,
+        "tac": 49,
+        "vis": 50
       },
       "birth": "1979-09-01",
       "contract": null,
@@ -961,6 +992,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 51,
@@ -995,7 +1031,7 @@
         "ldr": 44,
         "pac": 48,
         "pas": 45,
-        "pos": 25,
+        "pos": 45,
         "sho": 55,
         "sta": 48,
         "str": 51,
@@ -1014,6 +1050,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 52,

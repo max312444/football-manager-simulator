@@ -212,18 +212,19 @@
     },
     {
       "alt": [
+        "RWB",
         "CB"
       ],
       "attrs": {
         "aer": 58,
         "com": 68,
-        "dri": 63,
+        "dri": 65,
         "ldr": 65,
-        "pac": 64,
+        "pac": 66,
         "pas": 67,
         "pos": 68,
         "sho": 45,
-        "sta": 67,
+        "sta": 69,
         "str": 63,
         "tac": 69,
         "vis": 59
@@ -294,7 +295,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 73,
@@ -322,6 +325,10 @@
       "wage": 162000
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 74,
@@ -351,6 +358,10 @@
       "wage": 136000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 73,
@@ -378,7 +389,8 @@
     },
     {
       "alt": [
-        "DM"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 54,
@@ -410,7 +422,8 @@
     },
     {
       "alt": [
-        "AM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 54,
@@ -434,13 +447,14 @@
       "name": "Daichi Kameda",
       "nation": "JPN",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 112500
     },
     {
       "alt": [
-        "LM",
-        "LB"
+        "LB",
+        "LWB",
+        "LW"
       ],
       "attrs": {
         "aer": 58,
@@ -468,16 +482,21 @@
       "wage": 67000
     },
     {
+      "alt": [
+        "LM",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 69,
-        "dri": 66,
+        "dri": 71,
         "ldr": 60,
-        "pac": 61,
+        "pac": 66,
         "pas": 71,
         "pos": 63,
-        "sho": 61,
-        "sta": 73,
+        "sho": 66,
+        "sta": 78,
         "str": 61,
         "tac": 63,
         "vis": 67
@@ -490,27 +509,29 @@
       "name": "Naouirou Ahemada",
       "nation": "FRA",
       "number": 29,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 64000
     },
     {
       "alt": [
-        "RWB"
+        "RWB",
+        "LWB",
+        "CM"
       ],
       "attrs": {
         "aer": 54,
-        "com": 64,
-        "dri": 68,
+        "com": 71,
+        "dri": 75,
         "ldr": 50,
         "pac": 69,
-        "pas": 68,
+        "pas": 75,
         "pos": 60,
-        "sho": 58,
+        "sho": 65,
         "sta": 75,
         "str": 63,
         "tac": 60,
-        "vis": 64
+        "vis": 71
       },
       "birth": "2003-10-01",
       "contract": "2028-06-30",
@@ -520,14 +541,11 @@
       "name": "Justin Devenni",
       "nation": "NIR",
       "number": 55,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 54500
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 52,
         "com": 83,
@@ -560,6 +578,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -591,6 +610,11 @@
       "wage": 85000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 70,
@@ -618,16 +642,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 71,
+        "aer": 66,
+        "com": 76,
         "dri": 71,
         "ldr": 59,
         "pac": 77,
         "pas": 64,
-        "pos": 48,
-        "sho": 74,
+        "pos": 53,
+        "sho": 79,
         "sta": 72,
-        "str": 68,
+        "str": 73,
         "tac": 42,
         "vis": 63
       },

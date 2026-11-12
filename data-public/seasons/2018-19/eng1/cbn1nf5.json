@@ -96,6 +96,9 @@
       "wage": 69500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 50,
         "com": 66,
@@ -334,9 +337,6 @@
       "wage": 81000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -359,7 +359,7 @@
       "name": "Pierre-Emile Hojbjarg",
       "nation": "DEN",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "leader"
       ],
@@ -392,9 +392,6 @@
       "wage": 91000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 66,
@@ -417,12 +414,13 @@
       "name": "Mario Lemine",
       "nation": "GAB",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 89000
     },
     {
       "alt": [
-        "RM"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 54,
@@ -453,6 +451,9 @@
       "wage": 114000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 74,
@@ -483,22 +484,21 @@
     },
     {
       "alt": [
-        "LM",
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 54,
-        "com": 66,
+        "com": 70,
         "dri": 72,
         "ldr": 56,
         "pac": 68,
-        "pas": 72,
+        "pas": 76,
         "pos": 66,
         "sho": 68,
         "sta": 80,
         "str": 64,
-        "tac": 60,
-        "vis": 68
+        "tac": 64,
+        "vis": 72
       },
       "birth": "1992-03-01",
       "contract": "2022-06-30",
@@ -513,7 +513,9 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "AM",
+        "ST"
       ],
       "attrs": {
         "aer": 44,
@@ -684,6 +686,10 @@
       "wage": 59000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 72,
         "com": 59,
@@ -710,6 +716,9 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 37,
         "com": 54,

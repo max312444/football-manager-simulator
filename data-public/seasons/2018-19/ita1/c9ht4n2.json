@@ -51,6 +51,9 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -78,6 +81,11 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 80,
@@ -104,19 +112,22 @@
       "wage": 147500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 77,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 70,
-        "pas": 64,
-        "pos": 48,
-        "sho": 75,
-        "sta": 66,
-        "str": 73,
-        "tac": 46,
-        "vis": 63
+        "aer": 59,
+        "com": 74,
+        "dri": 73,
+        "ldr": 63,
+        "pac": 74,
+        "pas": 70,
+        "pos": 50,
+        "sho": 70,
+        "sta": 68,
+        "str": 63,
+        "tac": 52,
+        "vis": 69
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -126,23 +137,26 @@
       "name": "Samu Castyllejo",
       "nation": "ESP",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 43000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 77,
-        "dri": 72,
-        "ldr": 69,
-        "pac": 80,
-        "pas": 71,
-        "pos": 52,
-        "sho": 81,
-        "sta": 75,
-        "str": 76,
-        "tac": 49,
-        "vis": 67
+        "aer": 63,
+        "com": 74,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 84,
+        "pas": 77,
+        "pos": 54,
+        "sho": 76,
+        "sta": 77,
+        "str": 66,
+        "tac": 55,
+        "vis": 73
       },
       "birth": "1993-11-01",
       "contract": null,
@@ -152,7 +166,7 @@
       "name": "Soso",
       "nation": "ESP",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 74000
     },
     {
@@ -163,7 +177,7 @@
         "ldr": 76,
         "pac": 83,
         "pas": 75,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 75,
         "str": 83,
@@ -184,19 +198,24 @@
       "wage": 116500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 75,
-        "com": 78,
-        "dri": 77,
+        "com": 80,
+        "dri": 86,
         "ldr": 70,
         "pac": 77,
-        "pas": 67,
-        "pos": 58,
-        "sho": 82,
+        "pas": 78,
+        "pos": 78,
+        "sho": 84,
         "sta": 74,
         "str": 81,
         "tac": 51,
-        "vis": 68
+        "vis": 79
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -207,23 +226,28 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 83000
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 78,
-        "dri": 80,
-        "ldr": 74,
-        "pac": 80,
-        "pas": 71,
-        "pos": 58,
-        "sho": 80,
-        "sta": 78,
-        "str": 81,
-        "tac": 49,
-        "vis": 74
+        "aer": 61,
+        "com": 75,
+        "dri": 85,
+        "ldr": 72,
+        "pac": 84,
+        "pas": 77,
+        "pos": 60,
+        "sho": 75,
+        "sta": 80,
+        "str": 71,
+        "tac": 55,
+        "vis": 80
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -233,7 +257,7 @@
       "name": "Fabio Boryni",
       "nation": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 100000
     },
     {
@@ -263,9 +287,6 @@
       "wage": 57000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 77,
@@ -293,18 +314,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 77,
-        "dri": 74,
-        "ldr": 74,
-        "pac": 71,
-        "pas": 76,
-        "pos": 72,
-        "sho": 69,
+        "dri": 70,
+        "ldr": 76,
+        "pac": 68,
+        "pas": 75,
+        "pos": 76,
+        "sho": 63,
         "sta": 78,
-        "str": 67,
-        "tac": 74,
-        "vis": 78
+        "str": 72,
+        "tac": 80,
+        "vis": 75
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -315,10 +336,13 @@
       "name": "Tiemoue Bakaioko",
       "nation": "FRA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 98000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 79,
@@ -371,6 +395,9 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 78,
@@ -424,18 +451,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 78,
-        "dri": 79,
-        "ldr": 75,
-        "pac": 75,
-        "pas": 77,
-        "pos": 75,
-        "sho": 71,
+        "dri": 75,
+        "ldr": 77,
+        "pac": 72,
+        "pas": 76,
+        "pos": 79,
+        "sho": 65,
         "sta": 82,
-        "str": 75,
-        "tac": 76,
-        "vis": 79
+        "str": 80,
+        "tac": 82,
+        "vis": 76
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -445,23 +472,23 @@
       "name": "Lucas Biglie",
       "nation": "ARG",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 134000
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 70,
-        "dri": 70,
-        "ldr": 73,
-        "pac": 81,
-        "pas": 74,
-        "pos": 71,
-        "sho": 53,
-        "sta": 80,
-        "str": 67,
-        "tac": 76,
-        "vis": 71
+        "aer": 80,
+        "com": 72,
+        "dri": 60,
+        "ldr": 77,
+        "pac": 73,
+        "pas": 70,
+        "pos": 76,
+        "sho": 46,
+        "sta": 74,
+        "str": 75,
+        "tac": 79,
+        "vis": 65
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -471,7 +498,7 @@
       "name": "Mateo Mosacchio",
       "nation": "ARG",
       "number": 22,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 79000
     },
     {
@@ -497,7 +524,7 @@
       "name": "Ivan Strynic",
       "nation": "CRO",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 114000
     },
     {
@@ -579,6 +606,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 73,
         "com": 66,
@@ -605,6 +635,11 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
         "com": 62,
@@ -612,7 +647,7 @@
         "ldr": 60,
         "pac": 60,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 69,
         "sta": 58,
         "str": 66,
@@ -653,23 +688,23 @@
       "name": "Ricardo Rudriguez",
       "nation": "SUI",
       "number": 68,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 123000
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 55,
         "com": 73,
-        "dri": 73,
+        "dri": 77,
         "ldr": 68,
-        "pac": 76,
-        "pas": 67,
-        "pos": 54,
-        "sho": 74,
+        "pac": 74,
+        "pas": 77,
+        "pos": 59,
+        "sho": 71,
         "sta": 69,
-        "str": 76,
-        "tac": 41,
-        "vis": 66
+        "str": 66,
+        "tac": 49,
+        "vis": 77
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -679,10 +714,13 @@
       "name": "Alen Helilovic",
       "nation": "CRO",
       "number": 77,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 50500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 70,
@@ -737,21 +775,23 @@
     },
     {
       "alt": [
-        "CM"
+        "LM",
+        "CM",
+        "DM"
       ],
       "attrs": {
-        "aer": 83,
-        "com": 77,
-        "dri": 63,
-        "ldr": 77,
-        "pac": 70,
-        "pas": 73,
-        "pos": 78,
-        "sho": 50,
-        "sta": 76,
-        "str": 80,
-        "tac": 80,
-        "vis": 61
+        "aer": 70,
+        "com": 75,
+        "dri": 73,
+        "ldr": 73,
+        "pac": 78,
+        "pas": 77,
+        "pos": 73,
+        "sho": 57,
+        "sta": 82,
+        "str": 72,
+        "tac": 77,
+        "vis": 67
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -762,7 +802,7 @@
       "nation": "URU",
       "nation2": "ITA",
       "number": 93,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 91000
     },
     {

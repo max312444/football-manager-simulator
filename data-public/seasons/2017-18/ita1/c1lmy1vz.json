@@ -77,9 +77,6 @@
       "wage": 150500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 82,
         "com": 78,
@@ -133,6 +130,9 @@
       "wage": 178000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 83,
@@ -160,6 +160,10 @@
       "wage": 241000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 83,
@@ -187,19 +191,23 @@
       "wage": 300500
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 79,
-        "dri": 81,
-        "ldr": 74,
-        "pac": 76,
-        "pas": 80,
-        "pos": 77,
-        "sho": 74,
-        "sta": 80,
-        "str": 77,
-        "tac": 75,
-        "vis": 80
+        "aer": 64,
+        "com": 77,
+        "dri": 86,
+        "ldr": 70,
+        "pac": 85,
+        "pas": 76,
+        "pos": 59,
+        "sho": 78,
+        "sta": 76,
+        "str": 72,
+        "tac": 55,
+        "vis": 77
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -209,10 +217,13 @@
       "name": "Juan Cuedrado",
       "nation": "COL",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 241000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 83,
@@ -246,7 +257,7 @@
         "ldr": 74,
         "pac": 79,
         "pas": 72,
-        "pos": 58,
+        "pos": 78,
         "sho": 82,
         "sta": 79,
         "str": 81,
@@ -266,7 +277,11 @@
       "wage": 183000
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 78,
         "com": 79,
@@ -274,7 +289,7 @@
         "ldr": 72,
         "pac": 78,
         "pas": 74,
-        "pos": 58,
+        "pos": 78,
         "sho": 85,
         "sta": 72,
         "str": 81,
@@ -294,19 +309,22 @@
       "wage": 154500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 82,
-        "dri": 77,
-        "ldr": 77,
-        "pac": 78,
-        "pas": 69,
-        "pos": 56,
-        "sho": 80,
-        "sta": 79,
-        "str": 83,
-        "tac": 51,
-        "vis": 69
+        "aer": 63,
+        "com": 79,
+        "dri": 82,
+        "ldr": 75,
+        "pac": 82,
+        "pas": 75,
+        "pos": 58,
+        "sho": 75,
+        "sta": 81,
+        "str": 73,
+        "tac": 57,
+        "vis": 75
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -317,7 +335,7 @@
       "name": "Douglas Coste",
       "nation": "BRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 157500
     },
     {
@@ -343,10 +361,13 @@
       "name": "Alex Sandru",
       "nation": "BRA",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 171500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 84,
@@ -433,7 +454,7 @@
         "ldr": 76,
         "pac": 82,
         "pas": 71,
-        "pos": 61,
+        "pos": 81,
         "sho": 82,
         "sta": 76,
         "str": 82,
@@ -452,19 +473,22 @@
       "wage": 185000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 78,
-        "dri": 73,
-        "ldr": 68,
-        "pac": 77,
-        "pas": 69,
-        "pos": 53,
-        "sho": 75,
-        "sta": 68,
-        "str": 71,
-        "tac": 43,
-        "vis": 64
+        "aer": 56,
+        "com": 75,
+        "dri": 78,
+        "ldr": 66,
+        "pac": 81,
+        "pas": 75,
+        "pos": 55,
+        "sho": 70,
+        "sta": 70,
+        "str": 61,
+        "tac": 49,
+        "vis": 70
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -474,7 +498,7 @@
       "name": "Marko Pjace",
       "nation": "CRO",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 82000
     },
     {
@@ -505,18 +529,23 @@
       "wage": 230000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 81,
-        "dri": 75,
-        "ldr": 74,
-        "pac": 75,
-        "pas": 78,
-        "pos": 75,
-        "sho": 74,
-        "sta": 80,
-        "str": 76,
-        "tac": 74,
+        "aer": 66,
+        "com": 79,
+        "dri": 78,
+        "ldr": 72,
+        "pac": 83,
+        "pas": 79,
+        "pos": 67,
+        "sho": 72,
+        "sta": 84,
+        "str": 73,
+        "tac": 69,
         "vis": 82
       },
       "birth": "1988-12-01",
@@ -527,7 +556,7 @@
       "name": "Kwadwo Asamoeh",
       "nation": "GHA",
       "number": 22,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 221500
     },
     {
@@ -557,6 +586,10 @@
       "wage": 221500
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 80,
         "com": 75,
@@ -609,6 +642,9 @@
       "wage": 129000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,
@@ -635,6 +671,10 @@
       "wage": 134000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -661,19 +701,23 @@
       "wage": 90000
     },
     {
+      "alt": [
+        "RM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 80,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 74,
-        "pas": 69,
-        "pos": 52,
-        "sho": 81,
-        "sta": 72,
-        "str": 78,
-        "tac": 48,
-        "vis": 68
+        "aer": 57,
+        "com": 77,
+        "dri": 79,
+        "ldr": 70,
+        "pac": 78,
+        "pas": 75,
+        "pos": 54,
+        "sho": 76,
+        "sta": 74,
+        "str": 68,
+        "tac": 54,
+        "vis": 74
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -683,7 +727,7 @@
       "name": "Federico Bernerdeschi",
       "nation": "ITA",
       "number": 33,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 109000
     },
     {
@@ -694,7 +738,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 61,
         "str": 66,
@@ -714,18 +758,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 47,
-        "dri": 40,
-        "ldr": 49,
-        "pac": 46,
-        "pas": 46,
-        "pos": 57,
-        "sho": 25,
-        "sta": 48,
-        "str": 53,
-        "tac": 57,
-        "vis": 38
+        "aer": 40,
+        "com": 45,
+        "dri": 50,
+        "ldr": 45,
+        "pac": 54,
+        "pas": 50,
+        "pos": 52,
+        "sho": 32,
+        "sta": 54,
+        "str": 45,
+        "tac": 54,
+        "vis": 44
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -735,7 +779,7 @@
       "name": "Vlad Merin",
       "nation": "ROU",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -746,7 +790,7 @@
         "ldr": 42,
         "pac": 49,
         "pas": 41,
-        "pos": 25,
+        "pos": 45,
         "sho": 56,
         "sta": 48,
         "str": 53,

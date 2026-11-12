@@ -103,7 +103,10 @@
       "wage": 17000
     },
     {
-      "alt": [],
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 74,
@@ -130,6 +133,9 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -156,6 +162,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -206,7 +215,7 @@
       "nation": "BRA",
       "nation2": "ITA",
       "number": 8,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -217,7 +226,7 @@
         "ldr": 63,
         "pac": 66,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 70,
         "sta": 68,
         "str": 71,
@@ -264,18 +273,18 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 71,
-        "dri": 56,
-        "ldr": 71,
-        "pac": 68,
-        "pas": 61,
-        "pos": 72,
-        "sho": 42,
-        "sta": 68,
-        "str": 71,
-        "tac": 78,
-        "vis": 60
+        "aer": 61,
+        "com": 69,
+        "dri": 66,
+        "ldr": 67,
+        "pac": 76,
+        "pas": 65,
+        "pos": 67,
+        "sho": 49,
+        "sta": 74,
+        "str": 63,
+        "tac": 75,
+        "vis": 66
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -285,10 +294,13 @@
       "name": "Francesco Piseno",
       "nation": "ITA",
       "number": 14,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 23000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 61,
@@ -315,7 +327,11 @@
       "wage": 14000
     },
     {
-      "alt": [],
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 73,
@@ -349,7 +365,7 @@
         "ldr": 62,
         "pac": 64,
         "pas": 55,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 63,
         "str": 68,
@@ -375,7 +391,7 @@
         "ldr": 62,
         "pac": 63,
         "pas": 55,
-        "pos": 45,
+        "pos": 65,
         "sho": 70,
         "sta": 61,
         "str": 65,
@@ -395,18 +411,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 71,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 70,
-        "pas": 74,
-        "pos": 71,
-        "sho": 69,
+        "dri": 69,
+        "ldr": 73,
+        "pac": 67,
+        "pas": 73,
+        "pos": 75,
+        "sho": 63,
         "sta": 76,
-        "str": 71,
-        "tac": 69,
-        "vis": 74
+        "str": 76,
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -416,10 +432,13 @@
       "name": "Albin Ekdel",
       "nation": "SWE",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 77,
@@ -446,19 +465,23 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 71,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 68,
-        "pas": 64,
-        "pos": 45,
-        "sho": 74,
-        "sta": 69,
-        "str": 72,
-        "tac": 41,
-        "vis": 63
+        "aer": 51,
+        "com": 68,
+        "dri": 70,
+        "ldr": 60,
+        "pac": 72,
+        "pas": 70,
+        "pos": 47,
+        "sho": 69,
+        "sta": 71,
+        "str": 62,
+        "tac": 47,
+        "vis": 69
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -468,23 +491,23 @@
       "name": "Victor Ibarbu",
       "nation": "COL",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 16500
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 65,
-        "dri": 53,
-        "ldr": 69,
-        "pac": 66,
-        "pas": 60,
-        "pos": 75,
-        "sho": 43,
-        "sta": 65,
-        "str": 70,
-        "tac": 71,
-        "vis": 54
+        "aer": 57,
+        "com": 63,
+        "dri": 63,
+        "ldr": 65,
+        "pac": 74,
+        "pas": 64,
+        "pos": 70,
+        "sho": 50,
+        "sta": 71,
+        "str": 62,
+        "tac": 68,
+        "vis": 60
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -494,7 +517,7 @@
       "name": "Gabriele Parico",
       "nation": "ITA",
       "number": 24,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 17000
     },
     {
@@ -531,7 +554,7 @@
         "ldr": 61,
         "pac": 65,
         "pas": 58,
-        "pos": 41,
+        "pos": 61,
         "sho": 71,
         "sta": 64,
         "str": 68,
@@ -551,18 +574,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 62,
-        "dri": 49,
-        "ldr": 58,
-        "pac": 52,
-        "pas": 54,
-        "pos": 66,
-        "sho": 37,
-        "sta": 54,
-        "str": 65,
-        "tac": 66,
-        "vis": 46
+        "aer": 49,
+        "com": 60,
+        "dri": 59,
+        "ldr": 54,
+        "pac": 60,
+        "pas": 58,
+        "pos": 61,
+        "sho": 44,
+        "sta": 60,
+        "str": 57,
+        "tac": 63,
+        "vis": 52
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -572,7 +595,7 @@
       "name": "Nicola Morru",
       "nation": "ITA",
       "number": 29,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -583,7 +606,7 @@
         "ldr": 71,
         "pac": 72,
         "pas": 63,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 71,
         "str": 72,
@@ -602,19 +625,24 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
-        "com": 60,
+        "com": 71,
         "dri": 52,
         "ldr": 59,
         "pac": 57,
-        "pas": 55,
+        "pas": 66,
         "pos": 64,
         "sho": 35,
-        "sta": 57,
+        "sta": 68,
         "str": 64,
         "tac": 63,
-        "vis": 49
+        "vis": 60
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -624,10 +652,13 @@
       "name": "Federico Casariny",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 65,
@@ -656,17 +687,17 @@
     {
       "attrs": {
         "aer": 51,
-        "com": 62,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 64,
+        "com": 58,
+        "dri": 56,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 58,
         "pos": 55,
-        "sho": 50,
+        "sho": 36,
         "sta": 59,
-        "str": 55,
-        "tac": 55,
-        "vis": 58
+        "str": 54,
+        "tac": 59,
+        "vis": 49
       },
       "birth": "1980-04-01",
       "contract": null,
@@ -676,7 +707,7 @@
       "name": "Vlado Smyt",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 7500
     }
   ],

@@ -52,6 +52,8 @@
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -106,6 +108,11 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 62,
@@ -140,7 +147,7 @@
         "ldr": 55,
         "pac": 57,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 65,
         "sta": 55,
         "str": 62,
@@ -159,6 +166,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -185,6 +195,9 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -218,7 +231,7 @@
         "ldr": 55,
         "pac": 56,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 62,
         "sta": 52,
         "str": 59,
@@ -237,7 +250,10 @@
       "wage": 5500
     },
     {
-      "alt": [],
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 63,
         "com": 64,
@@ -245,7 +261,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 56,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 60,
         "str": 66,
@@ -264,19 +280,22 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 61,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 58,
-        "pas": 53,
-        "pos": 40,
-        "sho": 65,
-        "sta": 56,
-        "str": 58,
-        "tac": 29,
-        "vis": 55
+        "aer": 45,
+        "com": 58,
+        "dri": 63,
+        "ldr": 52,
+        "pac": 62,
+        "pas": 59,
+        "pos": 42,
+        "sho": 60,
+        "sta": 58,
+        "str": 48,
+        "tac": 35,
+        "vis": 61
       },
       "birth": "1987-10-01",
       "contract": null,
@@ -287,10 +306,13 @@
       "nation": "FRA",
       "nation2": "COD",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 65,
@@ -350,7 +372,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 44,
-        "pos": 35,
+        "pos": 55,
         "sho": 56,
         "sta": 49,
         "str": 57,
@@ -423,18 +445,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 67,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 61,
+        "aer": 45,
+        "com": 68,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 64,
         "pas": 69,
-        "pos": 61,
-        "sho": 60,
-        "sta": 67,
-        "str": 62,
-        "tac": 61,
-        "vis": 67
+        "pos": 46,
+        "sho": 66,
+        "sta": 61,
+        "str": 57,
+        "tac": 43,
+        "vis": 69
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -444,7 +466,7 @@
       "name": "Benjamin Nivat",
       "nation": "FRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 17500
     },
     {
@@ -476,17 +498,17 @@
     {
       "attrs": {
         "aer": 48,
-        "com": 63,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 53,
-        "pas": 60,
+        "com": 59,
+        "dri": 55,
+        "ldr": 51,
+        "pac": 60,
+        "pas": 54,
         "pos": 55,
-        "sho": 53,
+        "sho": 39,
         "sta": 62,
-        "str": 57,
-        "tac": 56,
-        "vis": 64
+        "str": 56,
+        "tac": 60,
+        "vis": 55
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -496,7 +518,7 @@
       "name": "Reynald Lemeitre",
       "nation": "FRA",
       "number": 20,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 9500
     },
     {
@@ -507,7 +529,7 @@
         "ldr": 57,
         "pac": 65,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 67,
         "sta": 55,
         "str": 61,
@@ -526,6 +548,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 57,
@@ -579,6 +604,11 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -612,7 +642,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 55,
         "str": 59,
@@ -631,6 +661,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -658,18 +691,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 57,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 56,
-        "pas": 62,
-        "pos": 57,
-        "sho": 56,
-        "sta": 61,
-        "str": 53,
-        "tac": 56,
-        "vis": 59
+        "aer": 48,
+        "com": 55,
+        "dri": 58,
+        "ldr": 51,
+        "pac": 64,
+        "pas": 61,
+        "pos": 49,
+        "sho": 54,
+        "sta": 63,
+        "str": 50,
+        "tac": 49,
+        "vis": 57
       },
       "birth": "1980-04-01",
       "contract": null,
@@ -679,7 +712,7 @@
       "name": "Juan Eluchens",
       "nation": "ARG",
       "number": 28,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 9000
     },
     {

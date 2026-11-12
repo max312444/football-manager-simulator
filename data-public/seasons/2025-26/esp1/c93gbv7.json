@@ -155,9 +155,6 @@
       "wage": 75000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 67,
         "com": 68,
@@ -185,7 +182,8 @@
     },
     {
       "alt": [
-        "ST"
+        "LW",
+        "AM"
       ],
       "attrs": {
         "aer": 55,
@@ -213,22 +211,19 @@
       "wage": 37500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 64,
-        "com": 77,
-        "dri": 70,
-        "ldr": 72,
-        "pac": 69,
+        "aer": 58,
+        "com": 78,
+        "dri": 74,
+        "ldr": 70,
+        "pac": 72,
         "pas": 80,
-        "pos": 72,
-        "sho": 69,
-        "sta": 79,
-        "str": 67,
-        "tac": 72,
-        "vis": 74
+        "pos": 57,
+        "sho": 75,
+        "sta": 73,
+        "str": 62,
+        "tac": 54,
+        "vis": 76
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -238,7 +233,7 @@
       "name": "Oihan Sencet",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 128000
     },
     {
@@ -249,7 +244,7 @@
         "ldr": 76,
         "pac": 79,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 80,
         "sta": 77,
         "str": 80,
@@ -270,7 +265,7 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
         "aer": 58,
@@ -306,7 +301,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 65,
-        "pos": 48,
+        "pos": 68,
         "sho": 74,
         "sta": 67,
         "str": 69,
@@ -381,7 +376,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LB"
       ],
       "attrs": {
         "aer": 56,
@@ -409,6 +404,10 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -457,7 +456,7 @@
       "name": "Yuri Berchyche",
       "nation": "ESP",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 55500
     },
     {
@@ -490,9 +489,6 @@
       "wage": 35000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -516,26 +512,23 @@
       "nation": "ESP",
       "nation2": "SEN",
       "number": 19,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 24500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 56,
+        "aer": 48,
+        "com": 64,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 59,
         "pas": 62,
-        "pos": 60,
-        "sho": 53,
-        "sta": 65,
-        "str": 55,
-        "tac": 55,
-        "vis": 64
+        "pos": 45,
+        "sho": 59,
+        "sta": 59,
+        "str": 50,
+        "tac": 37,
+        "vis": 66
       },
       "birth": "2003-05-01",
       "contract": null,
@@ -545,7 +538,7 @@
       "name": "Unai Gomaz",
       "nation": "ESP",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 32500
     },
     {
@@ -556,7 +549,7 @@
         "ldr": 59,
         "pac": 68,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 67,
         "sta": 61,
         "str": 65,
@@ -576,19 +569,22 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 68,
-        "dri": 70,
-        "ldr": 61,
-        "pac": 70,
-        "pas": 59,
-        "pos": 49,
-        "sho": 74,
-        "sta": 68,
-        "str": 66,
-        "tac": 38,
-        "vis": 58
+        "aer": 50,
+        "com": 65,
+        "dri": 75,
+        "ldr": 59,
+        "pac": 74,
+        "pas": 65,
+        "pos": 51,
+        "sho": 69,
+        "sta": 70,
+        "str": 56,
+        "tac": 44,
+        "vis": 64
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -598,23 +594,28 @@
       "name": "Nico Sarrano",
       "nation": "ESP",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 45000
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 69,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 72,
-        "pas": 60,
-        "pos": 51,
-        "sho": 75,
-        "sta": 67,
-        "str": 68,
-        "tac": 38,
-        "vis": 60
+        "aer": 57,
+        "com": 66,
+        "dri": 73,
+        "ldr": 63,
+        "pac": 76,
+        "pas": 66,
+        "pos": 53,
+        "sho": 70,
+        "sta": 69,
+        "str": 58,
+        "tac": 44,
+        "vis": 66
       },
       "birth": "2002-04-01",
       "contract": null,
@@ -624,10 +625,13 @@
       "name": "Robert Nevarro",
       "nation": "ESP",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 54000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -661,7 +665,7 @@
         "ldr": 55,
         "pac": 62,
         "pas": 54,
-        "pos": 43,
+        "pos": 63,
         "sho": 69,
         "sta": 61,
         "str": 64,

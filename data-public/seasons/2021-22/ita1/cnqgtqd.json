@@ -79,6 +79,9 @@
       "wage": 110500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 70,
@@ -131,6 +134,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -157,6 +163,9 @@
       "wage": 98000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 77,
@@ -179,10 +188,15 @@
       "name": "Robin Gusens",
       "nation": "GER",
       "number": 8,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 107500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 80,
         "com": 77,
@@ -190,7 +204,7 @@
         "ldr": 76,
         "pac": 82,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 85,
         "sta": 73,
         "str": 78,
@@ -210,18 +224,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 79,
-        "dri": 80,
-        "ldr": 75,
-        "pac": 74,
-        "pas": 83,
-        "pos": 78,
-        "sho": 73,
+        "dri": 76,
+        "ldr": 77,
+        "pac": 71,
+        "pas": 82,
+        "pos": 82,
+        "sho": 67,
         "sta": 81,
-        "str": 74,
-        "tac": 78,
-        "vis": 82
+        "str": 79,
+        "tac": 84,
+        "vis": 79
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -231,7 +245,7 @@
       "name": "Remo Freular",
       "nation": "SUI",
       "number": 11,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 139000
     },
     {
@@ -258,23 +272,23 @@
       "name": "Giuseppe Pazzella",
       "nation": "ITA",
       "number": 13,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 24500
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 79,
-        "dri": 78,
-        "ldr": 71,
-        "pac": 75,
-        "pas": 78,
-        "pos": 76,
-        "sho": 71,
+        "dri": 74,
+        "ldr": 73,
+        "pac": 72,
+        "pas": 77,
+        "pos": 80,
+        "sho": 65,
         "sta": 80,
-        "str": 76,
-        "tac": 73,
-        "vis": 81
+        "str": 81,
+        "tac": 79,
+        "vis": 78
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -284,23 +298,27 @@
       "name": "Marten de Ruon",
       "nation": "NED",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 135000
     },
     {
+      "alt": [
+        "RW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 81,
-        "dri": 78,
-        "ldr": 71,
-        "pac": 76,
+        "aer": 59,
+        "com": 82,
+        "dri": 82,
+        "ldr": 69,
+        "pac": 79,
         "pas": 81,
-        "pos": 73,
-        "sho": 73,
-        "sta": 78,
-        "str": 74,
-        "tac": 71,
-        "vis": 78
+        "pos": 58,
+        "sho": 79,
+        "sta": 72,
+        "str": 69,
+        "tac": 53,
+        "vis": 80
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -310,7 +328,7 @@
       "name": "Ruslan Melinovskyi",
       "nation": "UKR",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 130000
     },
     {
@@ -394,6 +412,9 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 75,
@@ -498,19 +519,24 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 78,
-        "dri": 75,
-        "ldr": 70,
-        "pac": 74,
+        "aer": 61,
+        "com": 79,
+        "dri": 79,
+        "ldr": 68,
+        "pac": 77,
         "pas": 81,
-        "pos": 72,
-        "sho": 72,
-        "sta": 78,
-        "str": 71,
-        "tac": 74,
-        "vis": 80
+        "pos": 57,
+        "sho": 78,
+        "sta": 72,
+        "str": 66,
+        "tac": 56,
+        "vis": 82
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -520,7 +546,7 @@
       "name": "Aleksei Miranchok",
       "nation": "RUS",
       "number": 59,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 121500
     },
     {
@@ -550,19 +576,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 76,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 66,
-        "pos": 51,
-        "sho": 73,
-        "sta": 65,
-        "str": 74,
-        "tac": 39,
-        "vis": 63
+        "aer": 58,
+        "com": 73,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 72,
+        "pos": 53,
+        "sho": 68,
+        "sta": 67,
+        "str": 64,
+        "tac": 45,
+        "vis": 69
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -572,23 +602,27 @@
       "name": "Josip Ilycic",
       "nation": "SVN",
       "number": 72,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 44000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 75,
-        "dri": 62,
-        "ldr": 75,
-        "pac": 72,
-        "pas": 71,
-        "pos": 82,
-        "sho": 49,
-        "sta": 72,
-        "str": 82,
-        "tac": 79,
-        "vis": 66
+        "aer": 65,
+        "com": 73,
+        "dri": 72,
+        "ldr": 71,
+        "pac": 80,
+        "pas": 75,
+        "pos": 77,
+        "sho": 56,
+        "sta": 78,
+        "str": 74,
+        "tac": 76,
+        "vis": 72
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -598,10 +632,13 @@
       "name": "Davide Zappacoste",
       "nation": "ITA",
       "number": 77,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 92500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 80,
@@ -635,7 +672,7 @@
         "ldr": 71,
         "pac": 76,
         "pas": 73,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 76,
         "str": 78,
@@ -661,7 +698,7 @@
         "ldr": 52,
         "pac": 57,
         "pas": 47,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 55,
         "str": 58,
@@ -680,19 +717,24 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 79,
-        "com": 71,
-        "dri": 57,
-        "ldr": 69,
-        "pac": 66,
-        "pas": 69,
-        "pos": 77,
-        "sho": 45,
-        "sta": 67,
-        "str": 79,
-        "tac": 80,
-        "vis": 59
+        "aer": 66,
+        "com": 69,
+        "dri": 67,
+        "ldr": 65,
+        "pac": 74,
+        "pas": 73,
+        "pos": 72,
+        "sho": 52,
+        "sta": 73,
+        "str": 71,
+        "tac": 77,
+        "vis": 65
       },
       "birth": "1995-07-01",
       "contract": null,
@@ -702,10 +744,13 @@
       "name": "Federico Mettiello",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 60500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,

@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 68,
-        "dri": 72,
-        "ldr": 64,
-        "pac": 64,
-        "pas": 72,
-        "pos": 68,
-        "sho": 64,
+        "dri": 68,
+        "ldr": 66,
+        "pac": 61,
+        "pas": 71,
+        "pos": 72,
+        "sho": 58,
         "sta": 73,
-        "str": 65,
-        "tac": 70,
-        "vis": 75
+        "str": 70,
+        "tac": 76,
+        "vis": 72
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -99,23 +99,26 @@
       "name": "Christian Obudo",
       "nation": "NGA",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 76,
-        "dri": 73,
-        "ldr": 70,
-        "pac": 79,
-        "pas": 73,
-        "pos": 56,
-        "sho": 84,
-        "sta": 72,
-        "str": 78,
-        "tac": 46,
-        "vis": 68
+        "aer": 63,
+        "com": 73,
+        "dri": 78,
+        "ldr": 68,
+        "pac": 83,
+        "pas": 79,
+        "pos": 58,
+        "sho": 79,
+        "sta": 74,
+        "str": 68,
+        "tac": 52,
+        "vis": 74
       },
       "birth": "1983-08-01",
       "contract": null,
@@ -125,10 +128,13 @@
       "name": "Simone Pepa",
       "nation": "ITA",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 34500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -162,7 +168,7 @@
         "ldr": 76,
         "pac": 82,
         "pas": 70,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 79,
         "str": 79,
@@ -181,19 +187,23 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 75,
-        "dri": 67,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 71,
-        "pos": 68,
-        "sho": 63,
-        "sta": 76,
-        "str": 64,
-        "tac": 68,
-        "vis": 72
+        "aer": 53,
+        "com": 73,
+        "dri": 72,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 67,
+        "pos": 50,
+        "sho": 67,
+        "sta": 72,
+        "str": 59,
+        "tac": 48,
+        "vis": 69
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -203,7 +213,7 @@
       "name": "Alexis Sanchaz",
       "nation": "CHI",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 24500
     },
     {
@@ -259,6 +269,11 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 74,
@@ -311,19 +326,24 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 64,
-        "dri": 57,
-        "ldr": 61,
-        "pac": 55,
+        "aer": 45,
+        "com": 62,
+        "dri": 60,
+        "ldr": 59,
+        "pac": 63,
         "pas": 63,
-        "pos": 63,
-        "sho": 56,
-        "sta": 61,
-        "str": 60,
-        "tac": 60,
-        "vis": 60
+        "pos": 55,
+        "sho": 54,
+        "sta": 64,
+        "str": 57,
+        "tac": 54,
+        "vis": 59
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -333,10 +353,13 @@
       "name": "Kwadwo Asamoeh",
       "nation": "GHA",
       "number": 20,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 75,
@@ -416,7 +439,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 83,
@@ -492,7 +515,7 @@
       "name": "Giovanni Pesquale",
       "nation": "ITA",
       "number": 26,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 14500
     },
     {
@@ -503,7 +526,7 @@
         "ldr": 73,
         "pac": 83,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 80,
         "sta": 79,
         "str": 77,
@@ -581,7 +604,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 66,
         "str": 71,
@@ -600,6 +623,10 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,

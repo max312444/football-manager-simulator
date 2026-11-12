@@ -207,6 +207,9 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 70,
@@ -235,6 +238,11 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 64,
@@ -324,6 +332,9 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 59,
@@ -352,7 +363,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
@@ -360,12 +371,12 @@
         "dri": 68,
         "ldr": 53,
         "pac": 58,
-        "pas": 72,
+        "pas": 73,
         "pos": 62,
         "sho": 74,
-        "sta": 70,
+        "sta": 71,
         "str": 67,
-        "tac": 62,
+        "tac": 63,
         "vis": 69
       },
       "birth": "1982-04-01",
@@ -385,16 +396,16 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 66,
+        "aer": 69,
+        "com": 68,
         "dri": 66,
         "ldr": 55,
         "pac": 71,
         "pas": 64,
-        "pos": 46,
-        "sho": 69,
+        "pos": 48,
+        "sho": 71,
         "sta": 68,
-        "str": 72,
+        "str": 74,
         "tac": 32,
         "vis": 57
       },
@@ -439,7 +450,9 @@
     },
     {
       "alt": [
-        "LM"
+        "RW",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 39,
@@ -493,6 +506,10 @@
       "wage": 53500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 72,
@@ -523,7 +540,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 56,
@@ -551,21 +569,18 @@
       "wage": 27500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 39,
         "com": 64,
         "dri": 72,
         "ldr": 54,
-        "pac": 73,
+        "pac": 86,
         "pas": 66,
-        "pos": 42,
+        "pos": 68,
         "sho": 63,
-        "sta": 69,
-        "str": 47,
-        "tac": 33,
+        "sta": 82,
+        "str": 73,
+        "tac": 59,
         "vis": 64
       },
       "birth": "1983-08-01",
@@ -576,10 +591,13 @@
       "name": "Julien Faobert",
       "nation": "FRA",
       "number": 18,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 18000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 41,
         "com": 64,
@@ -608,7 +626,7 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 54,
@@ -636,20 +654,17 @@
       "wage": 48000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 46,
-        "com": 68,
+        "aer": 63,
+        "com": 85,
         "dri": 78,
         "ldr": 54,
         "pac": 86,
         "pas": 69,
-        "pos": 46,
-        "sho": 68,
+        "pos": 63,
+        "sho": 85,
         "sta": 74,
-        "str": 62,
+        "str": 79,
         "tac": 40,
         "vis": 65
       },
@@ -662,7 +677,7 @@
       "name": "Victor Obinne",
       "nation": "NGA",
       "number": 21,
-      "pos": "LW",
+      "pos": "ST",
       "verify": true,
       "wage": 35000
     },
@@ -721,6 +736,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 43,
         "com": 55,

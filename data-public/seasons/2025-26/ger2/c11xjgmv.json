@@ -130,18 +130,21 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
         "dri": 59,
         "ldr": 54,
         "pac": 55,
-        "pas": 60,
+        "pas": 61,
         "pos": 55,
         "sho": 54,
-        "sta": 57,
+        "sta": 58,
         "str": 50,
-        "tac": 54,
+        "tac": 55,
         "vis": 62
       },
       "birth": "1994-09-01",
@@ -164,7 +167,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 42,
-        "pos": 28,
+        "pos": 48,
         "sho": 53,
         "sta": 50,
         "str": 50,
@@ -183,6 +186,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -216,7 +222,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 66,
         "sta": 58,
         "str": 60,
@@ -236,6 +242,9 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -269,7 +278,7 @@
         "ldr": 50,
         "pac": 58,
         "pas": 46,
-        "pos": 36,
+        "pos": 56,
         "sho": 58,
         "sta": 49,
         "str": 55,
@@ -288,6 +297,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 50,
@@ -315,18 +327,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 52,
-        "dri": 38,
+        "aer": 54,
+        "com": 54,
+        "dri": 46,
         "ldr": 50,
-        "pac": 52,
-        "pas": 48,
-        "pos": 56,
-        "sho": 28,
-        "sta": 50,
-        "str": 59,
-        "tac": 58,
-        "vis": 42
+        "pac": 50,
+        "pas": 57,
+        "pos": 55,
+        "sho": 43,
+        "sta": 56,
+        "str": 57,
+        "tac": 57,
+        "vis": 54
       },
       "birth": "2001-07-01",
       "contract": null,
@@ -336,23 +348,23 @@
       "name": "Maximilian Grossar",
       "nation": "GER",
       "number": 19,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 52,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 49,
-        "pas": 56,
-        "pos": 52,
-        "sho": 50,
+        "dri": 48,
+        "ldr": 50,
+        "pac": 46,
+        "pas": 55,
+        "pos": 56,
+        "sho": 44,
         "sta": 58,
-        "str": 49,
-        "tac": 49,
-        "vis": 52
+        "str": 54,
+        "tac": 55,
+        "vis": 49
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -363,23 +375,28 @@
       "nation": "GER",
       "nation2": "ITA",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 52,
+        "com": 60,
         "dri": 38,
         "ldr": 49,
         "pac": 47,
-        "pas": 47,
+        "pas": 55,
         "pos": 56,
         "sho": 29,
-        "sta": 48,
+        "sta": 56,
         "str": 56,
         "tac": 59,
-        "vis": 42
+        "vis": 50
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -389,23 +406,23 @@
       "name": "Leon Schneidar",
       "nation": "GER",
       "number": 23,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 7000
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 49,
-        "dri": 37,
-        "ldr": 48,
-        "pac": 47,
-        "pas": 47,
-        "pos": 53,
-        "sho": 25,
-        "sta": 45,
-        "str": 51,
-        "tac": 57,
-        "vis": 41
+        "aer": 40,
+        "com": 47,
+        "dri": 47,
+        "ldr": 44,
+        "pac": 55,
+        "pas": 51,
+        "pos": 48,
+        "sho": 32,
+        "sta": 51,
+        "str": 43,
+        "tac": 54,
+        "vis": 47
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -415,23 +432,26 @@
       "name": "Christopher Lannart",
       "nation": "GER",
       "number": 24,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 30,
         "com": 43,
-        "dri": 35,
-        "ldr": 48,
-        "pac": 43,
-        "pas": 37,
-        "pos": 52,
-        "sho": 18,
-        "sta": 46,
-        "str": 48,
-        "tac": 51,
-        "vis": 32
+        "dri": 52,
+        "ldr": 42,
+        "pac": 53,
+        "pas": 43,
+        "pos": 29,
+        "sho": 43,
+        "sta": 48,
+        "str": 36,
+        "tac": 24,
+        "vis": 44
       },
       "birth": "2005-03-01",
       "contract": null,
@@ -441,7 +461,7 @@
       "name": "Benjamin Buakye",
       "nation": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "RW",
       "wage": 3500
     },
     {
@@ -452,7 +472,7 @@
         "ldr": 64,
         "pac": 66,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 75,
         "sta": 67,
         "str": 72,
@@ -472,18 +492,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 53,
-        "dri": 46,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 51,
-        "pos": 61,
-        "sho": 31,
-        "sta": 51,
-        "str": 60,
-        "tac": 61,
-        "vis": 42
+        "aer": 45,
+        "com": 51,
+        "dri": 56,
+        "ldr": 49,
+        "pac": 60,
+        "pas": 55,
+        "pos": 56,
+        "sho": 38,
+        "sta": 57,
+        "str": 52,
+        "tac": 58,
+        "vis": 48
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -493,7 +513,7 @@
       "name": "Tim Handwerkar",
       "nation": "GER",
       "number": 29,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10000
     },
     {
@@ -504,7 +524,7 @@
         "ldr": 48,
         "pac": 58,
         "pas": 46,
-        "pos": 36,
+        "pos": 56,
         "sho": 58,
         "sta": 50,
         "str": 55,
@@ -524,18 +544,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 61,
-        "dri": 56,
-        "ldr": 56,
-        "pac": 51,
-        "pas": 59,
-        "pos": 54,
-        "sho": 51,
-        "sta": 60,
-        "str": 55,
-        "tac": 58,
-        "vis": 58
+        "aer": 40,
+        "com": 59,
+        "dri": 61,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 55,
+        "pos": 36,
+        "sho": 55,
+        "sta": 56,
+        "str": 50,
+        "tac": 38,
+        "vis": 55
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -545,23 +565,26 @@
       "name": "Noah Sarenren Bazea",
       "nation": "GER",
       "number": 37,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
-        "com": 46,
-        "dri": 46,
+        "com": 48,
+        "dri": 48,
         "ldr": 46,
         "pac": 44,
-        "pas": 48,
+        "pas": 50,
         "pos": 49,
-        "sho": 40,
-        "sta": 53,
+        "sho": 42,
+        "sta": 55,
         "str": 46,
         "tac": 47,
-        "vis": 47
+        "vis": 49
       },
       "birth": "2004-04-01",
       "contract": null,

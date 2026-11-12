@@ -51,6 +51,10 @@
       "wage": 73500
     },
     {
+      "alt": [
+        "DM",
+        "RB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 70,
@@ -129,19 +133,23 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "LB",
+        "LM"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 67,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 75,
-        "pas": 69,
-        "pos": 69,
-        "sho": 54,
-        "sta": 70,
-        "str": 63,
-        "tac": 69,
-        "vis": 65
+        "aer": 71,
+        "com": 69,
+        "dri": 60,
+        "ldr": 70,
+        "pac": 67,
+        "pas": 65,
+        "pos": 74,
+        "sho": 47,
+        "sta": 64,
+        "str": 71,
+        "tac": 72,
+        "vis": 59
       },
       "birth": "1993-06-01",
       "contract": null,
@@ -152,23 +160,23 @@
       "nation": "GER",
       "nation2": "BIH",
       "number": 6,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 50000
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 66,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 62,
+        "aer": 47,
+        "com": 67,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 65,
         "pas": 70,
-        "pos": 60,
-        "sho": 58,
-        "sta": 64,
-        "str": 61,
-        "tac": 58,
-        "vis": 65
+        "pos": 45,
+        "sho": 64,
+        "sta": 58,
+        "str": 56,
+        "tac": 40,
+        "vis": 67
       },
       "birth": "1995-09-01",
       "contract": null,
@@ -178,10 +186,13 @@
       "name": "Max Meier",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 28500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -209,6 +220,8 @@
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -238,19 +251,23 @@
       "wage": 146500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 68,
-        "ldr": 67,
-        "pac": 68,
+        "aer": 55,
+        "com": 72,
+        "dri": 72,
+        "ldr": 65,
+        "pac": 71,
         "pas": 73,
-        "pos": 72,
-        "sho": 64,
-        "sta": 76,
-        "str": 68,
-        "tac": 70,
-        "vis": 71
+        "pos": 57,
+        "sho": 70,
+        "sta": 70,
+        "str": 63,
+        "tac": 52,
+        "vis": 73
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -260,23 +277,26 @@
       "name": "Julian Drexler",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 69000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 64,
-        "ldr": 64,
-        "pac": 62,
-        "pas": 70,
-        "pos": 65,
-        "sho": 62,
-        "sta": 74,
-        "str": 66,
-        "tac": 64,
-        "vis": 68
+        "aer": 54,
+        "com": 65,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 71,
+        "pas": 66,
+        "pos": 47,
+        "sho": 66,
+        "sta": 70,
+        "str": 61,
+        "tac": 44,
+        "vis": 65
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -286,10 +306,15 @@
       "name": "Christian Clamens",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 46000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 58,
@@ -317,18 +342,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 73,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 72,
-        "pas": 79,
-        "pos": 70,
-        "sho": 68,
+        "dri": 67,
+        "ldr": 69,
+        "pac": 69,
+        "pas": 78,
+        "pos": 74,
+        "sho": 62,
         "sta": 73,
-        "str": 70,
-        "tac": 70,
-        "vis": 78
+        "str": 75,
+        "tac": 76,
+        "vis": 75
       },
       "birth": "1981-11-01",
       "contract": null,
@@ -339,7 +364,7 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 89500
     },
     {
@@ -370,21 +395,23 @@
     },
     {
       "alt": [
-        "RB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
-        "aer": 80,
-        "com": 78,
-        "dri": 66,
-        "ldr": 75,
-        "pac": 71,
-        "pas": 68,
-        "pos": 82,
-        "sho": 53,
-        "sta": 77,
-        "str": 78,
-        "tac": 78,
-        "vis": 65
+        "aer": 67,
+        "com": 76,
+        "dri": 76,
+        "ldr": 71,
+        "pac": 79,
+        "pas": 72,
+        "pos": 77,
+        "sho": 60,
+        "sta": 83,
+        "str": 70,
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -395,23 +422,26 @@
       "name": "Dennis Aogu",
       "nation": "GER",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 102500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 80,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 71,
-        "pas": 81,
-        "pos": 75,
-        "sho": 75,
-        "sta": 77,
-        "str": 72,
-        "tac": 77,
-        "vis": 77
+        "aer": 65,
+        "com": 78,
+        "dri": 79,
+        "ldr": 68,
+        "pac": 80,
+        "pas": 77,
+        "pos": 57,
+        "sho": 79,
+        "sta": 73,
+        "str": 67,
+        "tac": 57,
+        "vis": 74
       },
       "birth": "1984-10-01",
       "contract": null,
@@ -421,7 +451,7 @@
       "name": "Jefferson Farfen",
       "nation": "PER",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 137000
     },
     {
@@ -432,7 +462,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 67,
-        "pos": 58,
+        "pos": 78,
         "sho": 78,
         "sta": 75,
         "str": 74,
@@ -500,7 +530,7 @@
       "name": "Christian Fochs",
       "nation": "AUT",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 112500
     },
     {
@@ -511,7 +541,7 @@
         "ldr": 74,
         "pac": 81,
         "pas": 72,
-        "pos": 57,
+        "pos": 77,
         "sho": 84,
         "sta": 75,
         "str": 81,
@@ -530,6 +560,9 @@
       "wage": 121000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 75,
@@ -564,7 +597,7 @@
         "ldr": 70,
         "pac": 75,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 74,
         "str": 79,
@@ -583,9 +616,6 @@
       "wage": 66000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 71,
@@ -613,20 +643,22 @@
       "wage": 55000
     },
     {
-      "alt": [],
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 74,
-        "dri": 71,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 77,
-        "pos": 73,
-        "sho": 67,
+        "dri": 67,
+        "ldr": 73,
+        "pac": 66,
+        "pas": 76,
+        "pos": 77,
+        "sho": 61,
         "sta": 77,
-        "str": 66,
-        "tac": 65,
-        "vis": 74
+        "str": 71,
+        "tac": 71,
+        "vis": 71
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -637,7 +669,7 @@
       "nation": "GER",
       "nation2": "RUS",
       "number": 33,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 82500
     },
     {
@@ -693,6 +725,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 79,

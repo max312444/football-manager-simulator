@@ -51,19 +51,22 @@
       "wage": 45000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 65,
-        "dri": 50,
-        "ldr": 67,
-        "pac": 63,
-        "pas": 61,
-        "pos": 66,
-        "sho": 37,
-        "sta": 62,
-        "str": 67,
-        "tac": 68,
-        "vis": 51
+        "aer": 57,
+        "com": 63,
+        "dri": 60,
+        "ldr": 63,
+        "pac": 71,
+        "pas": 65,
+        "pos": 61,
+        "sho": 44,
+        "sta": 68,
+        "str": 59,
+        "tac": 65,
+        "vis": 57
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -74,23 +77,23 @@
       "nation": "FRA",
       "nation2": "MAR",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 21000
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 68,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 71,
-        "pos": 67,
-        "sho": 62,
+        "dri": 60,
+        "ldr": 65,
+        "pac": 58,
+        "pas": 70,
+        "pos": 71,
+        "sho": 56,
         "sta": 68,
-        "str": 65,
-        "tac": 65,
-        "vis": 72
+        "str": 70,
+        "tac": 71,
+        "vis": 69
       },
       "birth": "1991-11-01",
       "contract": null,
@@ -100,7 +103,7 @@
       "name": "Diego Demma",
       "nation": "GER",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 37000
     },
     {
@@ -126,23 +129,27 @@
       "name": "Merio Rui",
       "nation": "POR",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 79000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 73,
-        "dri": 70,
-        "ldr": 70,
-        "pac": 69,
+        "aer": 58,
+        "com": 74,
+        "dri": 74,
+        "ldr": 68,
+        "pac": 72,
         "pas": 72,
-        "pos": 72,
-        "sho": 68,
-        "sta": 76,
-        "str": 67,
-        "tac": 67,
-        "vis": 75
+        "pos": 57,
+        "sho": 74,
+        "sta": 70,
+        "str": 62,
+        "tac": 49,
+        "vis": 77
       },
       "birth": "1999-09-01",
       "contract": null,
@@ -152,10 +159,14 @@
       "name": "Eljif Elmes",
       "nation": "MKD",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 62500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -189,7 +200,7 @@
         "ldr": 65,
         "pac": 74,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 77,
         "sta": 67,
         "str": 73,
@@ -209,18 +220,18 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 78,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 71,
-        "pos": 56,
-        "sho": 80,
-        "sta": 74,
-        "str": 77,
-        "tac": 47,
-        "vis": 73
+        "aer": 60,
+        "com": 75,
+        "dri": 82,
+        "ldr": 73,
+        "pac": 80,
+        "pas": 77,
+        "pos": 58,
+        "sho": 75,
+        "sta": 76,
+        "str": 67,
+        "tac": 53,
+        "vis": 79
       },
       "birth": "1995-07-01",
       "contract": null,
@@ -230,23 +241,28 @@
       "name": "Hirving Luzano",
       "nation": "MEX",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 71500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 77,
-        "dri": 75,
-        "ldr": 74,
-        "pac": 80,
-        "pas": 66,
-        "pos": 54,
-        "sho": 82,
-        "sta": 72,
-        "str": 75,
-        "tac": 47,
-        "vis": 68
+        "aer": 60,
+        "com": 74,
+        "dri": 80,
+        "ldr": 72,
+        "pac": 84,
+        "pas": 72,
+        "pos": 56,
+        "sho": 77,
+        "sta": 74,
+        "str": 65,
+        "tac": 53,
+        "vis": 74
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -256,7 +272,7 @@
       "name": "Dries Mertans",
       "nation": "BEL",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 63000
     },
     {
@@ -313,6 +329,10 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 80,
@@ -339,19 +359,22 @@
       "wage": 130500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 80,
-        "dri": 79,
-        "ldr": 73,
-        "pac": 75,
-        "pas": 67,
-        "pos": 59,
-        "sho": 78,
-        "sta": 72,
-        "str": 81,
-        "tac": 48,
-        "vis": 71
+        "aer": 60,
+        "com": 77,
+        "dri": 84,
+        "ldr": 71,
+        "pac": 79,
+        "pas": 73,
+        "pos": 61,
+        "sho": 73,
+        "sta": 74,
+        "str": 71,
+        "tac": 54,
+        "vis": 77
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -361,23 +384,23 @@
       "name": "Matteo Politanu",
       "nation": "ITA",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 71000
     },
     {
       "attrs": {
-        "aer": 81,
-        "com": 78,
-        "dri": 66,
-        "ldr": 79,
-        "pac": 74,
-        "pas": 70,
-        "pos": 84,
-        "sho": 49,
-        "sta": 73,
-        "str": 82,
-        "tac": 83,
-        "vis": 68
+        "aer": 68,
+        "com": 76,
+        "dri": 76,
+        "ldr": 75,
+        "pac": 82,
+        "pas": 74,
+        "pos": 79,
+        "sho": 56,
+        "sta": 79,
+        "str": 74,
+        "tac": 80,
+        "vis": 74
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -387,10 +410,13 @@
       "name": "Giovanni Di Lorenzu",
       "nation": "ITA",
       "number": 22,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 94500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 76,
@@ -417,19 +443,22 @@
       "wage": 96000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 81,
-        "com": 80,
-        "dri": 76,
-        "ldr": 76,
-        "pac": 79,
-        "pas": 71,
-        "pos": 59,
-        "sho": 83,
-        "sta": 77,
-        "str": 78,
-        "tac": 51,
-        "vis": 70
+        "aer": 67,
+        "com": 77,
+        "dri": 81,
+        "ldr": 74,
+        "pac": 83,
+        "pas": 77,
+        "pos": 61,
+        "sho": 78,
+        "sta": 79,
+        "str": 68,
+        "tac": 57,
+        "vis": 76
       },
       "birth": "1991-06-01",
       "contract": null,
@@ -439,7 +468,7 @@
       "name": "Lorenzo Insygne",
       "nation": "ITA",
       "number": 24,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 89000
     },
     {
@@ -520,7 +549,7 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 31,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 36500
     },
     {
@@ -558,7 +587,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 71,
         "str": 74,
@@ -577,6 +606,11 @@
       "wage": 46500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "ST"
+      ],
       "attrs": {
         "aer": 79,
         "com": 75,
@@ -604,18 +638,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 79,
-        "dri": 76,
-        "ldr": 72,
-        "pac": 76,
-        "pas": 78,
-        "pos": 75,
-        "sho": 74,
+        "dri": 72,
+        "ldr": 74,
+        "pac": 73,
+        "pas": 77,
+        "pos": 79,
+        "sho": 68,
         "sta": 79,
-        "str": 74,
-        "tac": 76,
-        "vis": 82
+        "str": 79,
+        "tac": 82,
+        "vis": 79
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -625,7 +659,7 @@
       "name": "Stanislav Lobotke",
       "nation": "SVK",
       "number": 68,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 113000
     },
     {
@@ -636,7 +670,7 @@
         "ldr": 74,
         "pac": 80,
         "pas": 71,
-        "pos": 60,
+        "pos": 80,
         "sho": 86,
         "sta": 79,
         "str": 83,
@@ -656,18 +690,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 80,
-        "dri": 76,
-        "ldr": 72,
-        "pac": 74,
-        "pas": 77,
-        "pos": 73,
-        "sho": 73,
+        "dri": 72,
+        "ldr": 74,
+        "pac": 71,
+        "pas": 76,
+        "pos": 77,
+        "sho": 67,
         "sta": 80,
-        "str": 71,
-        "tac": 71,
-        "vis": 77
+        "str": 76,
+        "tac": 77,
+        "vis": 74
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -678,7 +712,7 @@
       "name": "Tiemoue Bakaioko",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 97000
     },
     {
@@ -689,7 +723,7 @@
         "ldr": 72,
         "pac": 73,
         "pas": 70,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 69,
         "str": 78,

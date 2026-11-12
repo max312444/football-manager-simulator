@@ -130,18 +130,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 75,
-        "dri": 70,
-        "ldr": 72,
-        "pac": 66,
-        "pas": 75,
-        "pos": 70,
-        "sho": 66,
+        "dri": 66,
+        "ldr": 74,
+        "pac": 63,
+        "pas": 74,
+        "pos": 74,
+        "sho": 60,
         "sta": 74,
-        "str": 69,
-        "tac": 71,
-        "vis": 74
+        "str": 74,
+        "tac": 77,
+        "vis": 71
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -151,7 +151,7 @@
       "name": "Altin Lale",
       "nation": "ALB",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 46000
     },
     {
@@ -162,7 +162,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 80,
         "sta": 73,
         "str": 79,
@@ -182,18 +182,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 76,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 70,
+        "aer": 56,
+        "com": 77,
+        "dri": 76,
+        "ldr": 69,
+        "pac": 73,
         "pas": 74,
-        "pos": 69,
-        "sho": 70,
-        "sta": 76,
-        "str": 71,
-        "tac": 70,
-        "vis": 73
+        "pos": 54,
+        "sho": 76,
+        "sta": 70,
+        "str": 66,
+        "tac": 52,
+        "vis": 75
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -203,10 +203,13 @@
       "name": "Arnold Bruggynk",
       "nation": "NED",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 49000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -233,7 +236,11 @@
       "wage": 51500
     },
     {
-      "alt": [],
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 71,
@@ -241,7 +248,7 @@
         "ldr": 66,
         "pac": 70,
         "pas": 61,
-        "pos": 49,
+        "pos": 69,
         "sho": 77,
         "sta": 70,
         "str": 71,
@@ -260,19 +267,22 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 76,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 69,
-        "pas": 75,
-        "pos": 73,
-        "sho": 65,
-        "sta": 77,
-        "str": 71,
-        "tac": 70,
-        "vis": 72
+        "aer": 62,
+        "com": 78,
+        "dri": 70,
+        "ldr": 67,
+        "pac": 70,
+        "pas": 77,
+        "pos": 74,
+        "sho": 67,
+        "sta": 79,
+        "str": 72,
+        "tac": 71,
+        "vis": 74
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -286,19 +296,24 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 58,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 61,
-        "pos": 58,
-        "sho": 58,
-        "sta": 66,
-        "str": 56,
-        "tac": 59,
-        "vis": 64
+        "aer": 48,
+        "com": 56,
+        "dri": 61,
+        "ldr": 51,
+        "pac": 62,
+        "pas": 57,
+        "pos": 40,
+        "sho": 62,
+        "sta": 62,
+        "str": 51,
+        "tac": 39,
+        "vis": 61
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -308,10 +323,13 @@
       "name": "Sal Zyzzo",
       "nation": "USA",
       "number": 15,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,
@@ -341,16 +359,16 @@
       "attrs": {
         "aer": 54,
         "com": 59,
-        "dri": 60,
+        "dri": 62,
         "ldr": 59,
-        "pac": 65,
-        "pas": 60,
-        "pos": 65,
-        "sho": 47,
-        "sta": 65,
+        "pac": 67,
+        "pas": 61,
+        "pos": 63,
+        "sho": 50,
+        "sta": 67,
         "str": 61,
-        "tac": 62,
-        "vis": 56
+        "tac": 60,
+        "vis": 57
       },
       "birth": "1969-10-01",
       "contract": null,
@@ -360,24 +378,26 @@
       "name": "Michael Tarnet",
       "nation": "GER",
       "number": 18,
-      "pos": "LB",
+      "pos": "LWB",
       "wage": 13000
     },
     {
-      "alt": [],
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 77,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 72,
-        "pas": 73,
-        "pos": 71,
-        "sho": 69,
-        "sta": 79,
-        "str": 67,
-        "tac": 67,
-        "vis": 75
+        "aer": 79,
+        "com": 75,
+        "dri": 59,
+        "ldr": 70,
+        "pac": 71,
+        "pas": 63,
+        "pos": 76,
+        "sho": 48,
+        "sta": 73,
+        "str": 74,
+        "tac": 74,
+        "vis": 60
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -387,7 +407,7 @@
       "name": "Christian Scholz",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 49500
     },
     {
@@ -417,6 +437,9 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 69,
@@ -443,6 +466,9 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 75,
@@ -450,7 +476,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 74,
         "sta": 71,
         "str": 77,
@@ -496,18 +522,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 64,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 63,
-        "pas": 66,
-        "pos": 64,
-        "sho": 61,
-        "sta": 71,
-        "str": 63,
-        "tac": 63,
-        "vis": 65
+        "aer": 50,
+        "com": 66,
+        "dri": 70,
+        "ldr": 60,
+        "pac": 66,
+        "pas": 67,
+        "pos": 49,
+        "sho": 68,
+        "sta": 65,
+        "str": 58,
+        "tac": 45,
+        "vis": 68
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -517,7 +543,7 @@
       "name": "Jan Rusenthal",
       "nation": "GER",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 21000
     },
     {
@@ -547,6 +573,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 59,
@@ -607,7 +636,7 @@
         "ldr": 67,
         "pac": 76,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 74,
         "str": 79,
@@ -627,21 +656,21 @@
     },
     {
       "alt": [
-        "RB"
+        "LM"
       ],
       "attrs": {
-        "aer": 66,
-        "com": 63,
-        "dri": 50,
-        "ldr": 63,
-        "pac": 58,
-        "pas": 58,
-        "pos": 68,
-        "sho": 36,
-        "sta": 59,
-        "str": 66,
-        "tac": 65,
-        "vis": 49
+        "aer": 53,
+        "com": 61,
+        "dri": 60,
+        "ldr": 59,
+        "pac": 66,
+        "pas": 62,
+        "pos": 63,
+        "sho": 43,
+        "sta": 65,
+        "str": 58,
+        "tac": 62,
+        "vis": 55
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -652,10 +681,13 @@
       "nation": "GER",
       "nation2": "RUS",
       "number": 34,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 56,

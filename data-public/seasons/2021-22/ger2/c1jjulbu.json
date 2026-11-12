@@ -52,7 +52,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 70,
@@ -88,7 +88,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 63,
         "str": 68,
@@ -107,6 +107,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 70,
@@ -141,7 +144,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 75,
         "sta": 67,
         "str": 71,
@@ -194,7 +197,7 @@
         "ldr": 54,
         "pac": 65,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 65,
         "sta": 58,
         "str": 61,
@@ -214,19 +217,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 35,
-        "com": 45,
-        "dri": 43,
-        "ldr": 47,
-        "pac": 42,
-        "pas": 47,
-        "pos": 49,
-        "sho": 42,
-        "sta": 51,
-        "str": 40,
-        "tac": 46,
-        "vis": 46
+        "aer": 29,
+        "com": 43,
+        "dri": 48,
+        "ldr": 43,
+        "pac": 51,
+        "pas": 43,
+        "pos": 31,
+        "sho": 46,
+        "sta": 47,
+        "str": 35,
+        "tac": 26,
+        "vis": 43
       },
       "birth": "2001-02-01",
       "contract": null,
@@ -236,7 +242,7 @@
       "name": "Oscar Schonfalder",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 2500
     },
     {
@@ -247,7 +253,7 @@
         "ldr": 42,
         "pac": 49,
         "pas": 37,
-        "pos": 24,
+        "pos": 44,
         "sho": 52,
         "sta": 41,
         "str": 51,
@@ -267,18 +273,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 66,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 60,
+        "aer": 48,
+        "com": 67,
+        "dri": 65,
+        "ldr": 59,
+        "pac": 63,
         "pas": 64,
-        "pos": 60,
-        "sho": 62,
-        "sta": 67,
-        "str": 61,
-        "tac": 58,
-        "vis": 66
+        "pos": 45,
+        "sho": 68,
+        "sta": 61,
+        "str": 56,
+        "tac": 40,
+        "vis": 68
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -288,7 +294,7 @@
       "name": "Romano Schmyd",
       "nation": "AUT",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 17500
     },
     {
@@ -319,6 +325,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -345,19 +354,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 57,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 63,
-        "pos": 56,
-        "sho": 53,
+        "dri": 51,
+        "ldr": 56,
+        "pac": 49,
+        "pas": 62,
+        "pos": 60,
+        "sho": 47,
         "sta": 60,
-        "str": 53,
-        "tac": 57,
-        "vis": 58
+        "str": 58,
+        "tac": 63,
+        "vis": 55
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -367,7 +379,7 @@
       "name": "Nicolai Repp",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9000
     },
     {
@@ -399,7 +411,7 @@
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 44,
@@ -435,11 +447,11 @@
         "ldr": 53,
         "pac": 54,
         "pas": 60,
-        "pos": 57,
+        "pos": 60,
         "sho": 54,
         "sta": 56,
-        "str": 55,
-        "tac": 52,
+        "str": 58,
+        "tac": 55,
         "vis": 58
       },
       "birth": "2000-05-01",
@@ -451,12 +463,14 @@
       "nation": "BUL",
       "nation2": "GER",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 60,
@@ -465,7 +479,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 64,
         "sta": 56,
         "str": 62,
@@ -510,6 +524,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 64,
@@ -536,6 +553,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -562,6 +582,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 54,
@@ -614,19 +637,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 55,
-        "dri": 48,
-        "ldr": 49,
-        "pac": 51,
-        "pas": 45,
-        "pos": 28,
-        "sho": 53,
-        "sta": 48,
-        "str": 53,
-        "tac": 26,
-        "vis": 48
+        "aer": 37,
+        "com": 52,
+        "dri": 53,
+        "ldr": 47,
+        "pac": 55,
+        "pas": 51,
+        "pos": 30,
+        "sho": 48,
+        "sta": 50,
+        "str": 43,
+        "tac": 32,
+        "vis": 54
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -637,26 +663,26 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 43,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3000
     },
     {
       "alt": [
-        "CM"
+        "RWB"
       ],
       "attrs": {
-        "aer": 74,
-        "com": 71,
-        "dri": 59,
-        "ldr": 73,
-        "pac": 67,
-        "pas": 62,
-        "pos": 75,
-        "sho": 46,
-        "sta": 66,
-        "str": 74,
-        "tac": 76,
-        "vis": 60
+        "aer": 61,
+        "com": 69,
+        "dri": 69,
+        "ldr": 69,
+        "pac": 75,
+        "pas": 66,
+        "pos": 70,
+        "sho": 53,
+        "sta": 72,
+        "str": 66,
+        "tac": 73,
+        "vis": 66
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -668,7 +694,7 @@
       "nation": "GER",
       "nation2": "ALG",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 23000
     }
   ],

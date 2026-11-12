@@ -122,9 +122,6 @@
       "wage": 29500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 74,
         "com": 69,
@@ -204,20 +201,22 @@
     },
     {
       "alt": [
-        "LM"
+        "CB",
+        "RB",
+        "CM"
       ],
       "attrs": {
         "aer": 57,
         "com": 64,
         "dri": 69,
         "ldr": 52,
-        "pac": 75,
+        "pac": 81,
         "pas": 67,
-        "pos": 57,
+        "pos": 63,
         "sho": 65,
         "sta": 78,
-        "str": 62,
-        "tac": 57,
+        "str": 68,
+        "tac": 63,
         "vis": 59
       },
       "birth": "1981-11-01",
@@ -235,6 +234,10 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 60,
@@ -309,26 +312,26 @@
       "name": "Richard Hoghes",
       "nation": "SCO",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 28500
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 53,
-        "com": 65,
+        "com": 69,
         "dri": 69,
         "ldr": 53,
         "pac": 68,
-        "pas": 71,
+        "pas": 75,
         "pos": 61,
         "sho": 63,
         "sta": 79,
         "str": 60,
-        "tac": 59,
-        "vis": 68
+        "tac": 63,
+        "vis": 72
       },
       "birth": "1983-05-01",
       "contract": "2008-06-30",
@@ -342,6 +345,9 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 69,
@@ -370,17 +376,17 @@
     {
       "attrs": {
         "aer": 62,
-        "com": 60,
+        "com": 62,
         "dri": 58,
         "ldr": 53,
         "pac": 63,
-        "pas": 60,
-        "pos": 67,
+        "pas": 62,
+        "pos": 69,
         "sho": 47,
         "sta": 75,
-        "str": 72,
-        "tac": 70,
-        "vis": 54
+        "str": 74,
+        "tac": 72,
+        "vis": 56
       },
       "birth": "1977-02-01",
       "contract": "2006-06-30",
@@ -395,9 +401,6 @@
       "wage": 26000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 56,
         "com": 71,
@@ -421,7 +424,7 @@
       "name": "Laurent Rubert",
       "nation": "FRA",
       "number": 11,
-      "pos": "LM",
+      "pos": "LW",
       "traits": [
         "free_kick",
         "long_shot"
@@ -456,7 +459,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 58,
@@ -488,16 +492,16 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 63,
+        "aer": 65,
+        "com": 65,
         "dri": 63,
         "ldr": 46,
         "pac": 63,
         "pas": 55,
-        "pos": 36,
-        "sho": 66,
+        "pos": 38,
+        "sho": 68,
         "sta": 56,
-        "str": 59,
+        "str": 61,
         "tac": 27,
         "vis": 51
       },
@@ -513,17 +517,20 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 70,
+        "aer": 67,
+        "com": 74,
         "dri": 71,
         "ldr": 52,
         "pac": 75,
         "pas": 63,
-        "pos": 51,
-        "sho": 75,
+        "pos": 55,
+        "sho": 79,
         "sta": 69,
-        "str": 64,
+        "str": 68,
         "tac": 37,
         "vis": 62
       },
@@ -568,19 +575,24 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 60,
+        "com": 66,
         "dri": 54,
         "ldr": 60,
         "pac": 68,
-        "pas": 58,
-        "pos": 68,
+        "pas": 64,
+        "pos": 71,
         "sho": 44,
-        "sta": 78,
-        "str": 74,
-        "tac": 74,
-        "vis": 50
+        "sta": 81,
+        "str": 77,
+        "tac": 77,
+        "vis": 56
       },
       "birth": "1976-03-01",
       "contract": "2006-06-30",
@@ -599,6 +611,11 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "CB",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 74,
         "com": 60,
@@ -652,6 +669,9 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,
@@ -675,7 +695,7 @@
       "nation": "FRA",
       "nation2": "CMR",
       "number": 21,
-      "pos": "LM",
+      "pos": "RW",
       "wage": 7000
     }
   ],

@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 65,
-        "dri": 57,
-        "ldr": 63,
-        "pac": 64,
-        "pas": 57,
-        "pos": 68,
-        "sho": 44,
-        "sta": 61,
-        "str": 68,
-        "tac": 71,
-        "vis": 51
+        "aer": 57,
+        "com": 63,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 72,
+        "pas": 61,
+        "pos": 63,
+        "sho": 51,
+        "sta": 67,
+        "str": 60,
+        "tac": 68,
+        "vis": 57
       },
       "birth": "1990-02-01",
       "contract": null,
@@ -99,7 +99,7 @@
       "name": "Niklas Holt",
       "nation": "SWE",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 16500
     },
     {
@@ -130,19 +130,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 64,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 59,
-        "pas": 69,
-        "pos": 63,
-        "sho": 63,
+        "dri": 61,
+        "ldr": 66,
+        "pac": 56,
+        "pas": 68,
+        "pos": 67,
+        "sho": 57,
         "sta": 68,
-        "str": 63,
-        "tac": 61,
-        "vis": 66
+        "str": 68,
+        "tac": 67,
+        "vis": 63
       },
       "birth": "1999-02-01",
       "contract": null,
@@ -153,23 +156,26 @@
       "name": "Jaka Byjol",
       "nation": "SVN",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 63,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 66,
-        "pas": 54,
-        "pos": 42,
-        "sho": 65,
-        "sta": 59,
-        "str": 62,
-        "tac": 38,
-        "vis": 60
+        "aer": 51,
+        "com": 60,
+        "dri": 65,
+        "ldr": 55,
+        "pac": 70,
+        "pas": 60,
+        "pos": 44,
+        "sho": 60,
+        "sta": 61,
+        "str": 52,
+        "tac": 44,
+        "vis": 66
       },
       "birth": "1994-05-01",
       "contract": null,
@@ -179,10 +185,14 @@
       "name": "Patrick Twumasy",
       "nation": "GHA",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 62,
@@ -216,7 +226,7 @@
         "ldr": 51,
         "pac": 60,
         "pas": 52,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 53,
         "str": 58,
@@ -236,18 +246,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 77,
-        "dri": 73,
-        "ldr": 69,
-        "pac": 68,
+        "aer": 57,
+        "com": 78,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 71,
         "pas": 78,
-        "pos": 72,
-        "sho": 67,
-        "sta": 77,
-        "str": 68,
-        "tac": 67,
-        "vis": 73
+        "pos": 57,
+        "sho": 73,
+        "sta": 71,
+        "str": 63,
+        "tac": 49,
+        "vis": 75
       },
       "birth": "1991-05-01",
       "contract": null,
@@ -257,23 +267,23 @@
       "name": "Genki Hareguchi",
       "nation": "JPN",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 20000
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 52,
-        "dri": 54,
-        "ldr": 47,
-        "pac": 51,
+        "aer": 37,
+        "com": 53,
+        "dri": 58,
+        "ldr": 45,
+        "pac": 54,
         "pas": 54,
-        "pos": 51,
-        "sho": 45,
-        "sta": 59,
-        "str": 49,
-        "tac": 51,
-        "vis": 56
+        "pos": 36,
+        "sho": 51,
+        "sta": 53,
+        "str": 44,
+        "tac": 33,
+        "vis": 58
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -283,10 +293,13 @@
       "name": "Linton Maine",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -346,7 +359,7 @@
         "ldr": 64,
         "pac": 72,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 72,
         "sta": 66,
         "str": 68,
@@ -365,19 +378,23 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 52,
-        "dri": 52,
-        "ldr": 49,
-        "pac": 52,
-        "pas": 46,
-        "pos": 31,
-        "sho": 55,
-        "sta": 48,
-        "str": 51,
-        "tac": 25,
-        "vis": 46
+        "aer": 35,
+        "com": 49,
+        "dri": 57,
+        "ldr": 47,
+        "pac": 56,
+        "pas": 52,
+        "pos": 33,
+        "sho": 50,
+        "sta": 50,
+        "str": 41,
+        "tac": 31,
+        "vis": 52
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -388,7 +405,7 @@
       "nation": "CMR",
       "nation2": "GER",
       "number": 18,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 3000
     },
     {
@@ -399,7 +416,7 @@
         "ldr": 60,
         "pac": 63,
         "pas": 53,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 61,
         "str": 64,
@@ -419,19 +436,22 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 59,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 60,
-        "pos": 53,
-        "sho": 49,
-        "sta": 62,
-        "str": 50,
-        "tac": 55,
-        "vis": 62
+        "aer": 40,
+        "com": 57,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 56,
+        "pos": 35,
+        "sho": 53,
+        "sta": 58,
+        "str": 45,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -441,23 +461,23 @@
       "name": "Phylipp Ochs",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8500
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 67,
-        "dri": 52,
-        "ldr": 65,
-        "pac": 59,
-        "pas": 58,
-        "pos": 68,
-        "sho": 39,
-        "sta": 67,
-        "str": 73,
-        "tac": 73,
-        "vis": 57
+        "aer": 58,
+        "com": 65,
+        "dri": 62,
+        "ldr": 61,
+        "pac": 67,
+        "pas": 62,
+        "pos": 63,
+        "sho": 46,
+        "sta": 73,
+        "str": 65,
+        "tac": 70,
+        "vis": 63
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -467,7 +487,7 @@
       "name": "Sei Muroye",
       "nation": "JPN",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18000
     },
     {
@@ -497,9 +517,6 @@
       "wage": 2500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 68,
         "com": 64,
@@ -527,6 +544,10 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -581,19 +602,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 35,
-        "com": 47,
-        "dri": 40,
-        "ldr": 38,
-        "pac": 43,
-        "pas": 46,
-        "pos": 41,
-        "sho": 38,
-        "sta": 49,
-        "str": 41,
-        "tac": 41,
-        "vis": 47
+        "aer": 29,
+        "com": 45,
+        "dri": 45,
+        "ldr": 34,
+        "pac": 52,
+        "pas": 42,
+        "pos": 23,
+        "sho": 42,
+        "sta": 45,
+        "str": 36,
+        "tac": 21,
+        "vis": 44
       },
       "birth": "2001-09-01",
       "contract": null,
@@ -603,7 +627,7 @@
       "name": "Simon Stahle",
       "nation": "GER",
       "number": 29,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 2000
     },
     {
@@ -633,6 +657,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,

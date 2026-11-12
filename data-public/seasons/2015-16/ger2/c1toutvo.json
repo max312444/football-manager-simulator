@@ -77,6 +77,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -156,19 +161,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 58,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 49,
-        "pas": 57,
-        "pos": 58,
-        "sho": 50,
-        "sta": 57,
-        "str": 51,
-        "tac": 54,
-        "vis": 55
+        "aer": 47,
+        "com": 60,
+        "dri": 55,
+        "ldr": 52,
+        "pac": 50,
+        "pas": 59,
+        "pos": 59,
+        "sho": 52,
+        "sta": 59,
+        "str": 52,
+        "tac": 55,
+        "vis": 57
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -208,19 +216,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 62,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 57,
-        "pos": 40,
-        "sho": 69,
-        "sta": 60,
-        "str": 65,
-        "tac": 33,
-        "vis": 59
+        "aer": 46,
+        "com": 59,
+        "dri": 67,
+        "ldr": 57,
+        "pac": 65,
+        "pas": 63,
+        "pos": 42,
+        "sho": 64,
+        "sta": 62,
+        "str": 55,
+        "tac": 39,
+        "vis": 65
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -230,10 +241,13 @@
       "name": "Thomas Bruker",
       "nation": "GER",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 57,
@@ -267,7 +281,7 @@
         "ldr": 50,
         "pac": 60,
         "pas": 52,
-        "pos": 34,
+        "pos": 54,
         "sho": 64,
         "sta": 54,
         "str": 57,
@@ -293,7 +307,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 57,
         "str": 57,
@@ -313,17 +327,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 57,
-        "dri": 56,
+        "aer": 60,
+        "com": 67,
+        "dri": 63,
         "ldr": 57,
-        "pac": 54,
+        "pac": 63,
         "pas": 63,
-        "pos": 59,
-        "sho": 51,
+        "pos": 69,
+        "sho": 61,
         "sta": 62,
-        "str": 50,
+        "str": 60,
         "tac": 56,
         "vis": 61
       },
@@ -335,23 +354,23 @@
       "name": "Zlatko Jenjic",
       "nation": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 5500
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 53,
-        "dri": 56,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 57,
-        "pos": 56,
-        "sho": 49,
+        "dri": 52,
+        "ldr": 54,
+        "pac": 50,
+        "pas": 56,
+        "pos": 60,
+        "sho": 43,
         "sta": 59,
-        "str": 52,
-        "tac": 50,
-        "vis": 59
+        "str": 57,
+        "tac": 56,
+        "vis": 56
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -361,23 +380,26 @@
       "name": "Tim Albotat",
       "nation": "GER",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 58,
-        "dri": 56,
-        "ldr": 50,
-        "pac": 53,
-        "pas": 61,
-        "pos": 57,
-        "sho": 53,
-        "sta": 58,
-        "str": 55,
-        "tac": 53,
-        "vis": 56
+        "aer": 41,
+        "com": 56,
+        "dri": 61,
+        "ldr": 46,
+        "pac": 62,
+        "pas": 57,
+        "pos": 39,
+        "sho": 57,
+        "sta": 54,
+        "str": 50,
+        "tac": 33,
+        "vis": 53
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -387,10 +409,13 @@
       "name": "Andreas Wyegel",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 4500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -413,7 +438,7 @@
       "name": "Kevin Wolza",
       "nation": "GER",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3000
     },
     {
@@ -424,7 +449,7 @@
         "ldr": 54,
         "pac": 55,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 51,
         "str": 56,
@@ -443,6 +468,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 48,
         "com": 55,
@@ -469,6 +499,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 63,
@@ -522,6 +555,10 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -574,19 +611,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 49,
-        "dri": 51,
-        "ldr": 44,
-        "pac": 46,
-        "pas": 53,
-        "pos": 51,
-        "sho": 45,
-        "sta": 50,
-        "str": 43,
-        "tac": 44,
-        "vis": 53
+        "aer": 37,
+        "com": 47,
+        "dri": 56,
+        "ldr": 40,
+        "pac": 55,
+        "pas": 49,
+        "pos": 33,
+        "sho": 49,
+        "sta": 46,
+        "str": 38,
+        "tac": 24,
+        "vis": 50
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -596,7 +636,7 @@
       "name": "Ahmet Engyn",
       "nation": "GER",
       "number": 26,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 2000
     },
     {
@@ -622,23 +662,28 @@
       "name": "Dan-Patrick Poggenbarg",
       "nation": "GER",
       "number": 27,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 52,
+        "com": 62,
         "dri": 40,
         "ldr": 51,
         "pac": 51,
-        "pas": 44,
+        "pas": 54,
         "pos": 60,
         "sho": 26,
-        "sta": 54,
+        "sta": 64,
         "str": 55,
         "tac": 58,
-        "vis": 39
+        "vis": 49
       },
       "birth": "1983-12-01",
       "contract": null,
@@ -648,7 +693,7 @@
       "name": "Steffen Buhl",
       "nation": "GER",
       "number": 28,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
@@ -659,7 +704,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 59,
         "str": 59,

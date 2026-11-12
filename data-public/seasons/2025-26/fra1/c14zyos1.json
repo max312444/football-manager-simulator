@@ -136,7 +136,7 @@
         "ldr": 46,
         "pac": 50,
         "pas": 43,
-        "pos": 26,
+        "pos": 46,
         "sho": 50,
         "sta": 47,
         "str": 51,
@@ -162,7 +162,7 @@
         "ldr": 56,
         "pac": 66,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 57,
         "str": 61,
@@ -183,18 +183,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 43,
         "com": 60,
-        "dri": 60,
+        "dri": 64,
         "ldr": 57,
-        "pac": 64,
-        "pas": 52,
-        "pos": 39,
-        "sho": 63,
+        "pac": 62,
+        "pas": 62,
+        "pos": 44,
+        "sho": 60,
         "sta": 56,
-        "str": 64,
-        "tac": 34,
-        "vis": 57
+        "str": 54,
+        "tac": 42,
+        "vis": 68
       },
       "birth": "2001-01-01",
       "contract": null,
@@ -205,7 +205,7 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 29000
     },
     {
@@ -216,7 +216,7 @@
         "ldr": 44,
         "pac": 55,
         "pas": 44,
-        "pos": 32,
+        "pos": 52,
         "sho": 52,
         "sta": 47,
         "str": 50,
@@ -236,18 +236,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 55,
-        "dri": 49,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 53,
-        "pos": 65,
-        "sho": 32,
-        "sta": 53,
-        "str": 63,
-        "tac": 61,
-        "vis": 44
+        "aer": 49,
+        "com": 53,
+        "dri": 59,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 57,
+        "pos": 60,
+        "sho": 39,
+        "sta": 59,
+        "str": 55,
+        "tac": 58,
+        "vis": 50
       },
       "birth": "2000-11-01",
       "contract": null,
@@ -257,26 +257,26 @@
       "name": "Warren Kamenzi",
       "nation": "NOR",
       "number": 12,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 25000
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 51,
-        "com": 62,
-        "dri": 65,
-        "ldr": 57,
-        "pac": 60,
-        "pas": 63,
-        "pos": 65,
-        "sho": 56,
-        "sta": 67,
-        "str": 61,
-        "tac": 60,
-        "vis": 64
+        "aer": 45,
+        "com": 60,
+        "dri": 70,
+        "ldr": 53,
+        "pac": 69,
+        "pas": 59,
+        "pos": 47,
+        "sho": 60,
+        "sta": 63,
+        "str": 56,
+        "tac": 40,
+        "vis": 61
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -286,7 +286,7 @@
       "name": "Aron Dunnum",
       "nation": "NOR",
       "number": 15,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 51000
     },
     {
@@ -316,6 +316,9 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -342,6 +345,10 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -368,6 +375,9 @@
       "wage": 51000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -396,17 +406,17 @@
     {
       "attrs": {
         "aer": 46,
-        "com": 56,
-        "dri": 54,
-        "ldr": 50,
-        "pac": 46,
-        "pas": 57,
+        "com": 52,
+        "dri": 52,
+        "ldr": 48,
+        "pac": 53,
+        "pas": 51,
         "pos": 51,
-        "sho": 48,
+        "sho": 34,
         "sta": 59,
-        "str": 48,
-        "tac": 49,
-        "vis": 52
+        "str": 47,
+        "tac": 53,
+        "vis": 43
       },
       "birth": "2003-04-01",
       "contract": null,
@@ -417,10 +427,13 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 22,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -447,19 +460,22 @@
       "wage": 50000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 48,
-        "dri": 39,
-        "ldr": 50,
-        "pac": 43,
-        "pas": 42,
-        "pos": 56,
-        "sho": 23,
-        "sta": 50,
-        "str": 53,
-        "tac": 56,
-        "vis": 35
+        "aer": 42,
+        "com": 46,
+        "dri": 49,
+        "ldr": 46,
+        "pac": 51,
+        "pas": 46,
+        "pos": 51,
+        "sho": 30,
+        "sta": 56,
+        "str": 45,
+        "tac": 53,
+        "vis": 41
       },
       "birth": "2006-02-01",
       "contract": null,
@@ -469,7 +485,7 @@
       "name": "Dayann Mathalie",
       "nation": "FRA",
       "number": 24,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10000
     },
     {
@@ -532,7 +548,7 @@
         "ldr": 50,
         "pac": 54,
         "pas": 44,
-        "pos": 29,
+        "pos": 49,
         "sho": 56,
         "sta": 52,
         "str": 52,
@@ -551,19 +567,23 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 49,
-        "dri": 42,
-        "ldr": 41,
-        "pac": 48,
-        "pas": 39,
-        "pos": 26,
-        "sho": 50,
-        "sta": 44,
-        "str": 46,
-        "tac": 19,
-        "vis": 35
+        "aer": 33,
+        "com": 46,
+        "dri": 47,
+        "ldr": 39,
+        "pac": 52,
+        "pas": 45,
+        "pos": 28,
+        "sho": 45,
+        "sta": 46,
+        "str": 36,
+        "tac": 25,
+        "vis": 41
       },
       "birth": "2008-04-01",
       "contract": null,
@@ -573,23 +593,23 @@
       "name": "Ilyas Azizy",
       "nation": "FRA",
       "number": 37,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5500
     },
     {
       "attrs": {
-        "aer": 31,
-        "com": 46,
-        "dri": 39,
-        "ldr": 42,
-        "pac": 36,
+        "aer": 25,
+        "com": 47,
+        "dri": 43,
+        "ldr": 40,
+        "pac": 39,
         "pas": 46,
-        "pos": 42,
-        "sho": 40,
-        "sta": 43,
-        "str": 37,
-        "tac": 42,
-        "vis": 43
+        "pos": 27,
+        "sho": 46,
+        "sta": 37,
+        "str": 32,
+        "tac": 24,
+        "vis": 45
       },
       "birth": "2006-09-01",
       "contract": null,
@@ -599,10 +619,13 @@
       "name": "Mathis Sake",
       "nation": "FRA",
       "number": 39,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 46,
@@ -629,19 +652,22 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 55,
-        "dri": 51,
-        "ldr": 52,
-        "pac": 48,
-        "pas": 54,
-        "pos": 55,
-        "sho": 48,
-        "sta": 59,
-        "str": 51,
-        "tac": 51,
-        "vis": 54
+        "aer": 44,
+        "com": 57,
+        "dri": 53,
+        "ldr": 53,
+        "pac": 49,
+        "pas": 56,
+        "pos": 56,
+        "sho": 50,
+        "sta": 61,
+        "str": 52,
+        "tac": 52,
+        "vis": 56
       },
       "birth": "2004-05-01",
       "contract": null,

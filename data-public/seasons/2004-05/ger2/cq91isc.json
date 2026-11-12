@@ -31,7 +31,7 @@
         "ldr": 55,
         "pac": 66,
         "pas": 52,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 57,
         "str": 60,
@@ -51,6 +51,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 62,
@@ -79,6 +82,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 64,
@@ -106,6 +112,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -132,6 +141,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 63,
@@ -186,18 +198,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 59,
+        "aer": 54,
+        "com": 60,
         "dri": 55,
-        "ldr": 55,
-        "pac": 57,
-        "pas": 62,
+        "ldr": 53,
+        "pac": 62,
+        "pas": 52,
         "pos": 58,
-        "sho": 54,
-        "sta": 63,
-        "str": 53,
-        "tac": 52,
-        "vis": 61
+        "sho": 63,
+        "sta": 57,
+        "str": 58,
+        "tac": 26,
+        "vis": 52
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -207,10 +219,13 @@
       "name": "Sambo Chojy",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -244,7 +259,7 @@
         "ldr": 51,
         "pac": 59,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 62,
         "sta": 54,
         "str": 58,
@@ -297,7 +312,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 47,
-        "pos": 32,
+        "pos": 52,
         "sho": 60,
         "sta": 54,
         "str": 56,
@@ -345,6 +360,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 55,
@@ -432,7 +452,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 49,
-        "pos": 37,
+        "pos": 57,
         "sho": 58,
         "sta": 52,
         "str": 57,
@@ -451,19 +471,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 53,
-        "dri": 54,
-        "ldr": 49,
-        "pac": 48,
-        "pas": 60,
-        "pos": 52,
-        "sho": 51,
+        "dri": 50,
+        "ldr": 51,
+        "pac": 45,
+        "pas": 59,
+        "pos": 56,
+        "sho": 45,
         "sta": 57,
-        "str": 49,
-        "tac": 54,
-        "vis": 59
+        "str": 54,
+        "tac": 60,
+        "vis": 56
       },
       "birth": "1982-12-01",
       "contract": null,
@@ -474,24 +499,24 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 52,
+        "aer": 52,
+        "com": 53,
         "dri": 50,
-        "ldr": 50,
-        "pac": 53,
-        "pas": 58,
+        "ldr": 48,
+        "pac": 58,
+        "pas": 48,
         "pos": 50,
-        "sho": 52,
-        "sta": 57,
-        "str": 49,
-        "tac": 49,
-        "vis": 53
+        "sho": 61,
+        "sta": 51,
+        "str": 54,
+        "tac": 23,
+        "vis": 44
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -501,7 +526,7 @@
       "name": "Chadli Amry",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 2000
     },
@@ -561,17 +586,17 @@
     {
       "attrs": {
         "aer": 45,
-        "com": 53,
+        "com": 54,
         "dri": 53,
         "ldr": 45,
         "pac": 50,
-        "pas": 51,
+        "pas": 52,
         "pos": 47,
         "sho": 45,
         "sta": 57,
         "str": 45,
-        "tac": 46,
-        "vis": 51
+        "tac": 47,
+        "vis": 52
       },
       "birth": "1978-02-01",
       "contract": null,
@@ -586,18 +611,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 50,
-        "dri": 49,
-        "ldr": 51,
-        "pac": 49,
+        "aer": 37,
+        "com": 51,
+        "dri": 53,
+        "ldr": 49,
+        "pac": 52,
         "pas": 55,
-        "pos": 50,
-        "sho": 44,
-        "sta": 56,
-        "str": 46,
-        "tac": 45,
-        "vis": 52
+        "pos": 35,
+        "sho": 50,
+        "sta": 50,
+        "str": 41,
+        "tac": 27,
+        "vis": 54
       },
       "birth": "1980-04-01",
       "contract": null,
@@ -607,7 +632,7 @@
       "name": "Nico Weissmenn",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 1500
     },
     {
@@ -664,19 +689,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 45,
+        "com": 52,
         "dri": 36,
         "ldr": 49,
         "pac": 43,
-        "pas": 42,
+        "pas": 49,
         "pos": 56,
         "sho": 21,
-        "sta": 49,
+        "sta": 56,
         "str": 53,
         "tac": 53,
-        "vis": 34
+        "vis": 41
       },
       "birth": "1982-09-01",
       "contract": null,
@@ -686,7 +716,7 @@
       "name": "Torsten Rauter",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1000
     },
@@ -698,7 +728,7 @@
         "ldr": 41,
         "pac": 48,
         "pas": 40,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 49,
         "str": 52,
@@ -718,18 +748,18 @@
     },
     {
       "attrs": {
-        "aer": 33,
+        "aer": 39,
         "com": 48,
-        "dri": 42,
-        "ldr": 43,
-        "pac": 44,
-        "pas": 49,
-        "pos": 44,
-        "sho": 43,
+        "dri": 38,
+        "ldr": 45,
+        "pac": 41,
+        "pas": 48,
+        "pos": 48,
+        "sho": 37,
         "sta": 46,
-        "str": 42,
-        "tac": 43,
-        "vis": 45
+        "str": 47,
+        "tac": 49,
+        "vis": 42
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -739,7 +769,7 @@
       "name": "Christoph Holsta",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 1000
     },
     {

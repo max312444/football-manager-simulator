@@ -79,6 +79,10 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -161,18 +165,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 68,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 64,
-        "pas": 70,
-        "pos": 66,
-        "sho": 63,
+        "dri": 61,
+        "ldr": 64,
+        "pac": 61,
+        "pas": 69,
+        "pos": 70,
+        "sho": 57,
         "sta": 72,
-        "str": 62,
-        "tac": 63,
-        "vis": 71
+        "str": 67,
+        "tac": 69,
+        "vis": 68
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -182,10 +186,13 @@
       "name": "Didier Dygard",
       "nation": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 27000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 65,
@@ -212,6 +219,9 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 64,
@@ -245,7 +255,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 59,
         "str": 63,
@@ -264,6 +274,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 68,
@@ -292,18 +305,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 48,
         "com": 63,
-        "dri": 59,
+        "dri": 63,
         "ldr": 57,
-        "pac": 64,
-        "pas": 58,
-        "pos": 43,
-        "sho": 69,
+        "pac": 62,
+        "pas": 68,
+        "pos": 48,
+        "sho": 66,
         "sta": 60,
-        "str": 62,
-        "tac": 35,
-        "vis": 56
+        "str": 52,
+        "tac": 43,
+        "vis": 67
       },
       "birth": "1987-08-01",
       "contract": null,
@@ -313,7 +326,7 @@
       "name": "Eric Baotheac",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 13000
     },
     {
@@ -324,7 +337,7 @@
         "ldr": 61,
         "pac": 70,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 73,
         "sta": 60,
         "str": 68,
@@ -343,19 +356,24 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "LW",
+        "RW",
+        "CM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 54,
-        "dri": 46,
+        "com": 84,
+        "dri": 67,
         "ldr": 58,
-        "pac": 51,
-        "pas": 51,
+        "pac": 72,
+        "pas": 70,
         "pos": 59,
-        "sho": 33,
-        "sta": 54,
+        "sho": 54,
+        "sta": 63,
         "str": 58,
         "tac": 61,
-        "vis": 42
+        "vis": 72
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -366,22 +384,22 @@
       "name": "Valentin Eysseryc",
       "nation": "FRA",
       "number": 13,
-      "pos": "CB",
+      "pos": "AM",
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 70,
-        "dri": 67,
+        "aer": 59,
+        "com": 65,
+        "dri": 65,
         "ldr": 60,
-        "pac": 66,
-        "pas": 59,
-        "pos": 43,
-        "sho": 69,
-        "sta": 64,
-        "str": 70,
-        "tac": 37,
+        "pac": 68,
+        "pas": 63,
+        "pos": 63,
+        "sho": 46,
+        "sta": 70,
+        "str": 64,
+        "tac": 67,
         "vis": 57
       },
       "birth": "1989-02-01",
@@ -392,7 +410,7 @@
       "name": "Jeremy Pyed",
       "nation": "FRA",
       "number": 14,
-      "pos": "ST",
+      "pos": "RB",
       "wage": 19500
     },
     {
@@ -422,6 +440,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -448,19 +469,22 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 64,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 65,
-        "pos": 58,
-        "sho": 56,
+        "dri": 56,
+        "ldr": 58,
+        "pac": 51,
+        "pas": 64,
+        "pos": 62,
+        "sho": 50,
         "sta": 67,
-        "str": 56,
-        "tac": 56,
-        "vis": 63
+        "str": 61,
+        "tac": 62,
+        "vis": 60
       },
       "birth": "1988-11-01",
       "contract": null,
@@ -471,7 +495,7 @@
       "nation": "GAB",
       "nation2": "FRA",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15500
     },
     {
@@ -501,23 +525,19 @@
       "wage": 4500
     },
     {
-      "alt": [
-        "CM",
-        "ST"
-      ],
       "attrs": {
-        "aer": 45,
+        "aer": 59,
         "com": 60,
-        "dri": 62,
+        "dri": 58,
         "ldr": 55,
-        "pac": 57,
-        "pas": 61,
-        "pos": 47,
-        "sho": 62,
+        "pac": 59,
+        "pas": 51,
+        "pos": 62,
+        "sho": 65,
         "sta": 58,
-        "str": 55,
-        "tac": 42,
-        "vis": 66
+        "str": 65,
+        "tac": 34,
+        "vis": 55
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -527,7 +547,7 @@
       "name": "Alexy Busetti",
       "nation": "FRA",
       "number": 23,
-      "pos": "AM",
+      "pos": "ST",
       "wage": 11000
     },
     {
@@ -585,6 +605,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 50,

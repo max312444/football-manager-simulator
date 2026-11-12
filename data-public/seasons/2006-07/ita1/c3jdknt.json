@@ -31,7 +31,7 @@
         "ldr": 77,
         "pac": 80,
         "pas": 75,
-        "pos": 62,
+        "pos": 82,
         "sho": 83,
         "sta": 79,
         "str": 81,
@@ -57,7 +57,7 @@
         "ldr": 79,
         "pac": 82,
         "pas": 73,
-        "pos": 60,
+        "pos": 80,
         "sho": 82,
         "sta": 81,
         "str": 82,
@@ -134,6 +134,9 @@
       "wage": 94500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 77,
@@ -160,6 +163,9 @@
       "wage": 108500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 81,
@@ -208,11 +214,14 @@
       "name": "Fabio Grusso",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 86000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 82,
@@ -266,6 +275,11 @@
       "wage": 85000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 75,
         "com": 77,
@@ -273,7 +287,7 @@
         "ldr": 71,
         "pac": 82,
         "pas": 71,
-        "pos": 58,
+        "pos": 78,
         "sho": 84,
         "sta": 74,
         "str": 79,
@@ -319,7 +333,9 @@
     },
     {
       "alt": [
-        "CM"
+        "LB",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 72,
@@ -347,19 +363,22 @@
       "wage": 80500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 79,
-        "dri": 79,
-        "ldr": 78,
-        "pac": 74,
-        "pas": 81,
-        "pos": 76,
-        "sho": 74,
-        "sta": 79,
-        "str": 74,
-        "tac": 77,
-        "vis": 80
+        "aer": 62,
+        "com": 77,
+        "dri": 84,
+        "ldr": 74,
+        "pac": 83,
+        "pas": 77,
+        "pos": 58,
+        "sho": 78,
+        "sta": 75,
+        "str": 69,
+        "tac": 57,
+        "vis": 77
       },
       "birth": "1972-11-01",
       "contract": null,
@@ -369,7 +388,7 @@
       "name": "Luis Figu",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 103500
     },
@@ -401,9 +420,6 @@
       "wage": 68000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 82,
         "com": 80,
@@ -437,7 +453,7 @@
         "ldr": 72,
         "pac": 81,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 83,
         "sta": 75,
         "str": 78,
@@ -482,6 +498,9 @@
       "wage": 68500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 79,
@@ -516,7 +535,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 69,
-        "pos": 53,
+        "pos": 73,
         "sho": 78,
         "sta": 70,
         "str": 77,
@@ -535,19 +554,22 @@
       "wage": 45000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 73,
-        "pas": 77,
-        "pos": 72,
-        "sho": 72,
-        "sta": 75,
-        "str": 74,
-        "tac": 74,
-        "vis": 74
+        "aer": 57,
+        "com": 74,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 82,
+        "pas": 73,
+        "pos": 54,
+        "sho": 76,
+        "sta": 71,
+        "str": 69,
+        "tac": 54,
+        "vis": 71
       },
       "birth": "1974-08-01",
       "contract": null,
@@ -557,7 +579,7 @@
       "name": "Kily Gonzelez",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 66500
     },
@@ -588,6 +610,9 @@
       "wage": 50000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -616,18 +641,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 77,
-        "dri": 70,
-        "ldr": 72,
-        "pac": 68,
+        "aer": 59,
+        "com": 75,
+        "dri": 73,
+        "ldr": 70,
+        "pac": 76,
         "pas": 78,
-        "pos": 71,
-        "sho": 67,
-        "sta": 74,
-        "str": 72,
-        "tac": 69,
-        "vis": 75
+        "pos": 63,
+        "sho": 65,
+        "sta": 77,
+        "str": 69,
+        "tac": 63,
+        "vis": 74
       },
       "birth": "1976-10-01",
       "contract": null,
@@ -637,7 +662,7 @@
       "name": "Santiago Solary",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 57000
     },
     {
@@ -669,6 +694,11 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 69,
@@ -749,18 +779,21 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 65,
-        "dri": 68,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 70,
-        "pos": 67,
-        "sho": 60,
-        "sta": 68,
-        "str": 65,
-        "tac": 60,
+        "aer": 54,
+        "com": 63,
+        "dri": 71,
+        "ldr": 59,
+        "pac": 68,
+        "pas": 71,
+        "pos": 59,
+        "sho": 58,
+        "sta": 72,
+        "str": 62,
+        "tac": 55,
         "vis": 65
       },
       "birth": "1974-10-01",
@@ -771,14 +804,11 @@
       "name": "Ceser",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "verify": true,
       "wage": 24500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 65,
@@ -865,7 +895,7 @@
         "ldr": 57,
         "pac": 58,
         "pas": 54,
-        "pos": 36,
+        "pos": 56,
         "sho": 67,
         "sta": 60,
         "str": 59,
@@ -886,18 +916,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 59,
-        "dri": 52,
-        "ldr": 54,
-        "pac": 48,
+        "aer": 37,
+        "com": 60,
+        "dri": 56,
+        "ldr": 52,
+        "pac": 51,
         "pas": 55,
-        "pos": 55,
-        "sho": 53,
-        "sta": 60,
-        "str": 50,
-        "tac": 54,
-        "vis": 54
+        "pos": 40,
+        "sho": 59,
+        "sta": 54,
+        "str": 45,
+        "tac": 36,
+        "vis": 56
       },
       "birth": "1987-09-01",
       "contract": null,
@@ -908,7 +938,7 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7000
     },
     {
@@ -919,7 +949,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 48,
-        "pos": 36,
+        "pos": 56,
         "sho": 56,
         "sta": 54,
         "str": 55,
@@ -939,6 +969,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,
@@ -965,19 +998,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 52,
+        "com": 62,
         "dri": 37,
         "ldr": 53,
         "pac": 49,
-        "pas": 47,
+        "pas": 57,
         "pos": 57,
         "sho": 26,
-        "sta": 48,
+        "sta": 58,
         "str": 55,
         "tac": 54,
-        "vis": 36
+        "vis": 46
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -987,11 +1025,14 @@
       "name": "Enrico Schirinzy",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 51,
@@ -1026,7 +1067,7 @@
         "ldr": 44,
         "pac": 46,
         "pas": 44,
-        "pos": 30,
+        "pos": 50,
         "sho": 53,
         "sta": 45,
         "str": 48,
@@ -1053,7 +1094,7 @@
         "ldr": 42,
         "pac": 49,
         "pas": 42,
-        "pos": 24,
+        "pos": 44,
         "sho": 51,
         "sta": 43,
         "str": 50,
@@ -1072,6 +1113,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 46,
@@ -1099,6 +1143,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -1132,7 +1179,7 @@
         "ldr": 43,
         "pac": 45,
         "pas": 43,
-        "pos": 27,
+        "pos": 47,
         "sho": 51,
         "sta": 41,
         "str": 45,

@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 54,
-        "dri": 43,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 44,
-        "pos": 55,
-        "sho": 29,
-        "sta": 48,
-        "str": 58,
-        "tac": 55,
-        "vis": 37
+        "aer": 45,
+        "com": 52,
+        "dri": 53,
+        "ldr": 47,
+        "pac": 55,
+        "pas": 48,
+        "pos": 50,
+        "sho": 36,
+        "sta": 54,
+        "str": 50,
+        "tac": 52,
+        "vis": 43
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -99,23 +99,28 @@
       "name": "Philipp Ziareis",
       "nation": "GER",
       "number": 4,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 62,
-        "dri": 53,
-        "ldr": 66,
-        "pac": 63,
-        "pas": 60,
-        "pos": 71,
-        "sho": 38,
-        "sta": 60,
-        "str": 65,
-        "tac": 69,
-        "vis": 54
+        "aer": 56,
+        "com": 60,
+        "dri": 63,
+        "ldr": 62,
+        "pac": 71,
+        "pas": 64,
+        "pos": 66,
+        "sho": 45,
+        "sta": 66,
+        "str": 57,
+        "tac": 66,
+        "vis": 60
       },
       "birth": "1986-09-01",
       "contract": null,
@@ -125,10 +130,13 @@
       "name": "Bernd Nahrig",
       "nation": "GER",
       "number": 7,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -157,18 +165,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 54,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 55,
+        "aer": 39,
+        "com": 55,
+        "dri": 60,
+        "ldr": 53,
+        "pac": 58,
         "pas": 61,
-        "pos": 57,
-        "sho": 49,
-        "sta": 57,
-        "str": 50,
-        "tac": 54,
-        "vis": 60
+        "pos": 42,
+        "sho": 55,
+        "sta": 51,
+        "str": 45,
+        "tac": 36,
+        "vis": 62
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -178,23 +186,23 @@
       "name": "Christopher Buchtmenn",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 59,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 62,
-        "pos": 55,
-        "sho": 51,
-        "sta": 63,
-        "str": 51,
-        "tac": 53,
-        "vis": 58
+        "aer": 40,
+        "com": 61,
+        "dri": 64,
+        "ldr": 54,
+        "pac": 60,
+        "pas": 63,
+        "pos": 40,
+        "sho": 58,
+        "sta": 57,
+        "str": 46,
+        "tac": 35,
+        "vis": 61
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -204,7 +212,7 @@
       "name": "Marc Rzatkuwski",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
@@ -215,7 +223,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 62,
         "sta": 56,
         "str": 61,
@@ -234,19 +242,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 66,
-        "dri": 67,
-        "ldr": 68,
-        "pac": 65,
-        "pas": 68,
-        "pos": 68,
-        "sho": 66,
-        "sta": 72,
-        "str": 67,
-        "tac": 67,
-        "vis": 71
+        "aer": 53,
+        "com": 64,
+        "dri": 72,
+        "ldr": 64,
+        "pac": 74,
+        "pas": 64,
+        "pos": 50,
+        "sho": 70,
+        "sta": 68,
+        "str": 62,
+        "tac": 47,
+        "vis": 68
       },
       "birth": "1992-12-01",
       "contract": null,
@@ -256,7 +267,7 @@
       "name": "Ryo Miyeichi",
       "nation": "JPN",
       "number": 13,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 9500
     },
     {
@@ -267,7 +278,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 59,
-        "pos": 41,
+        "pos": 61,
         "sho": 72,
         "sta": 64,
         "str": 65,
@@ -286,6 +297,10 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 44,
         "com": 50,
@@ -372,7 +387,7 @@
         "ldr": 59,
         "pac": 69,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 63,
         "str": 67,
@@ -391,19 +406,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 63,
-        "dri": 61,
+        "com": 65,
+        "dri": 63,
         "ldr": 60,
         "pac": 64,
-        "pas": 69,
+        "pas": 71,
         "pos": 67,
-        "sho": 57,
-        "sta": 66,
+        "sho": 59,
+        "sta": 68,
         "str": 59,
         "tac": 65,
-        "vis": 65
+        "vis": 67
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -418,6 +436,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 34,
         "com": 49,
@@ -451,7 +472,7 @@
         "ldr": 38,
         "pac": 47,
         "pas": 40,
-        "pos": 21,
+        "pos": 41,
         "sho": 47,
         "sta": 44,
         "str": 46,
@@ -470,6 +491,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 51,
@@ -548,6 +572,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
@@ -576,18 +605,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 59,
-        "dri": 52,
-        "ldr": 54,
-        "pac": 53,
+        "aer": 38,
+        "com": 60,
+        "dri": 56,
+        "ldr": 52,
+        "pac": 56,
         "pas": 58,
-        "pos": 54,
-        "sho": 53,
-        "sta": 57,
-        "str": 50,
-        "tac": 51,
-        "vis": 60
+        "pos": 39,
+        "sho": 59,
+        "sta": 51,
+        "str": 45,
+        "tac": 33,
+        "vis": 62
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -597,7 +626,7 @@
       "name": "Sebastian Mayer",
       "nation": "GER",
       "number": 29,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
@@ -627,19 +656,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 35,
-        "com": 45,
-        "dri": 44,
-        "ldr": 47,
-        "pac": 43,
-        "pas": 49,
-        "pos": 47,
-        "sho": 43,
-        "sta": 49,
-        "str": 46,
-        "tac": 47,
-        "vis": 48
+        "aer": 29,
+        "com": 43,
+        "dri": 49,
+        "ldr": 43,
+        "pac": 52,
+        "pas": 45,
+        "pos": 29,
+        "sho": 47,
+        "sta": 45,
+        "str": 41,
+        "tac": 27,
+        "vis": 45
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -649,7 +681,7 @@
       "name": "Maurice Lytka",
       "nation": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 1500
     },
     {
@@ -680,18 +712,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 48,
-        "dri": 35,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 42,
-        "pos": 53,
-        "sho": 24,
-        "sta": 47,
-        "str": 55,
-        "tac": 50,
-        "vis": 38
+        "aer": 40,
+        "com": 46,
+        "dri": 45,
+        "ldr": 47,
+        "pac": 55,
+        "pas": 46,
+        "pos": 48,
+        "sho": 31,
+        "sta": 53,
+        "str": 47,
+        "tac": 47,
+        "vis": 44
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -702,10 +734,13 @@
       "nation": "GER",
       "nation2": "KAZ",
       "number": 34,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,
@@ -734,18 +769,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 52,
-        "dri": 49,
-        "ldr": 44,
-        "pac": 46,
+        "aer": 36,
+        "com": 53,
+        "dri": 53,
+        "ldr": 42,
+        "pac": 49,
         "pas": 50,
-        "pos": 48,
-        "sho": 46,
-        "sta": 53,
-        "str": 44,
-        "tac": 48,
-        "vis": 53
+        "pos": 33,
+        "sho": 52,
+        "sta": 47,
+        "str": 39,
+        "tac": 30,
+        "vis": 55
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -755,7 +790,7 @@
       "name": "Choi Kioung-rok",
       "nation": "KOR",
       "number": 37,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2000
     }
   ],

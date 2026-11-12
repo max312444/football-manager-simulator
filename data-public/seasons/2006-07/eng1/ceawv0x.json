@@ -74,6 +74,10 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 56,
@@ -185,7 +189,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 54,
@@ -214,22 +220,19 @@
       "wage": 37000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 54,
-        "com": 60,
+        "com": 63,
         "dri": 58,
         "ldr": 58,
         "pac": 64,
-        "pas": 62,
-        "pos": 66,
+        "pas": 65,
+        "pos": 69,
         "sho": 46,
         "sta": 82,
-        "str": 66,
-        "tac": 72,
-        "vis": 54
+        "str": 69,
+        "tac": 75,
+        "vis": 57
       },
       "birth": "1981-10-01",
       "contract": "2009-06-30",
@@ -271,16 +274,16 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 58,
+        "aer": 61,
+        "com": 67,
         "dri": 66,
         "ldr": 44,
         "pac": 74,
         "pas": 56,
-        "pos": 38,
-        "sho": 66,
+        "pos": 47,
+        "sho": 75,
         "sta": 64,
-        "str": 58,
+        "str": 67,
         "tac": 30,
         "vis": 54
       },
@@ -298,7 +301,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 47,
@@ -322,27 +325,24 @@
       "name": "Keith Gillespye",
       "nation": "NIR",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 30000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 64,
-        "com": 57,
+        "com": 63,
         "dri": 55,
         "ldr": 47,
         "pac": 64,
-        "pas": 58,
-        "pos": 63,
+        "pas": 64,
+        "pos": 66,
         "sho": 43,
-        "sta": 72,
-        "str": 70,
-        "tac": 66,
-        "vis": 49
+        "sta": 75,
+        "str": 73,
+        "tac": 69,
+        "vis": 55
       },
       "birth": "1982-11-01",
       "contract": "2008-06-30",
@@ -353,7 +353,7 @@
       "nation": "ATG",
       "nation2": "ENG",
       "number": 12,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 26000
     },
@@ -385,20 +385,17 @@
       "wage": 26000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 50,
+        "aer": 64,
+        "com": 60,
         "dri": 66,
         "ldr": 40,
         "pac": 80,
         "pas": 54,
-        "pos": 40,
-        "sho": 58,
+        "pos": 50,
+        "sho": 68,
         "sta": 66,
-        "str": 72,
+        "str": 82,
         "tac": 34,
         "vis": 50
       },
@@ -417,21 +414,21 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 48,
-        "com": 60,
+        "com": 66,
         "dri": 64,
         "ldr": 52,
         "pac": 64,
-        "pas": 64,
+        "pas": 70,
         "pos": 56,
         "sho": 62,
         "sta": 74,
         "str": 58,
-        "tac": 52,
-        "vis": 60
+        "tac": 58,
+        "vis": 66
       },
       "birth": "1979-06-01",
       "contract": "2008-06-30",
@@ -561,19 +558,22 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 26,
-        "com": 46,
-        "dri": 48,
+        "com": 58,
+        "dri": 50,
         "ldr": 34,
         "pac": 59,
-        "pas": 50,
+        "pas": 62,
         "pos": 46,
-        "sho": 38,
+        "sho": 40,
         "sta": 67,
         "str": 51,
-        "tac": 48,
-        "vis": 46
+        "tac": 58,
+        "vis": 58
       },
       "birth": "1986-04-01",
       "contract": "2009-06-30",

@@ -77,6 +77,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -103,6 +106,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -129,6 +135,9 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 52,
@@ -162,7 +171,7 @@
         "ldr": 40,
         "pac": 48,
         "pas": 41,
-        "pos": 28,
+        "pos": 48,
         "sho": 49,
         "sta": 45,
         "str": 46,
@@ -183,18 +192,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 62,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 55,
+        "aer": 43,
+        "com": 63,
+        "dri": 59,
+        "ldr": 52,
+        "pac": 58,
         "pas": 65,
-        "pos": 61,
-        "sho": 54,
-        "sta": 59,
-        "str": 52,
-        "tac": 54,
-        "vis": 58
+        "pos": 46,
+        "sho": 60,
+        "sta": 53,
+        "str": 47,
+        "tac": 36,
+        "vis": 60
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -204,7 +213,7 @@
       "name": "Marvin Wanitzak",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14500
     },
     {
@@ -215,7 +224,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 59,
-        "pos": 42,
+        "pos": 62,
         "sho": 69,
         "sta": 57,
         "str": 61,
@@ -234,6 +243,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -268,7 +280,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 51,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 53,
         "str": 57,
@@ -288,19 +300,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 61,
-        "dri": 56,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 59,
-        "pos": 60,
-        "sho": 54,
+        "dri": 52,
+        "ldr": 59,
+        "pac": 52,
+        "pas": 58,
+        "pos": 64,
+        "sho": 48,
         "sta": 60,
-        "str": 51,
-        "tac": 52,
-        "vis": 58
+        "str": 56,
+        "tac": 58,
+        "vis": 55
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -310,23 +325,23 @@
       "name": "Nicolai Repp",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14000
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 51,
-        "dri": 34,
-        "ldr": 47,
-        "pac": 46,
-        "pas": 45,
-        "pos": 51,
-        "sho": 22,
-        "sta": 48,
-        "str": 54,
-        "tac": 56,
-        "vis": 39
+        "aer": 44,
+        "com": 49,
+        "dri": 44,
+        "ldr": 43,
+        "pac": 54,
+        "pas": 49,
+        "pos": 46,
+        "sho": 29,
+        "sta": 54,
+        "str": 46,
+        "tac": 53,
+        "vis": 45
       },
       "birth": "2003-02-01",
       "contract": null,
@@ -336,7 +351,7 @@
       "name": "David Harold",
       "nation": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4500
     },
     {
@@ -366,6 +381,10 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,
@@ -418,19 +437,24 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 54,
-        "dri": 53,
-        "ldr": 48,
-        "pac": 55,
-        "pas": 44,
-        "pos": 32,
-        "sho": 59,
-        "sta": 47,
-        "str": 56,
-        "tac": 23,
-        "vis": 48
+        "aer": 34,
+        "com": 51,
+        "dri": 58,
+        "ldr": 46,
+        "pac": 59,
+        "pas": 50,
+        "pos": 34,
+        "sho": 54,
+        "sta": 49,
+        "str": 46,
+        "tac": 29,
+        "vis": 54
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -441,23 +465,27 @@
       "name": "Lasse Gonther",
       "nation": "GER",
       "number": 29,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 53,
-        "dri": 52,
-        "ldr": 46,
-        "pac": 50,
-        "pas": 48,
-        "pos": 32,
-        "sho": 57,
-        "sta": 52,
-        "str": 52,
-        "tac": 21,
-        "vis": 48
+        "aer": 37,
+        "com": 50,
+        "dri": 57,
+        "ldr": 44,
+        "pac": 54,
+        "pas": 54,
+        "pos": 34,
+        "sho": 52,
+        "sta": 54,
+        "str": 42,
+        "tac": 27,
+        "vis": 54
       },
       "birth": "2003-07-01",
       "contract": null,
@@ -469,7 +497,7 @@
       "nation": "GER",
       "nation2": "GUI",
       "number": 31,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
@@ -525,6 +553,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 34,
         "com": 43,

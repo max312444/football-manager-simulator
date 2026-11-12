@@ -139,7 +139,7 @@
         "ldr": 58,
         "pac": 63,
         "pas": 58,
-        "pos": 42,
+        "pos": 62,
         "sho": 69,
         "sta": 57,
         "str": 64,
@@ -158,6 +158,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
@@ -192,7 +195,7 @@
         "ldr": 57,
         "pac": 68,
         "pas": 59,
-        "pos": 43,
+        "pos": 63,
         "sho": 70,
         "sta": 60,
         "str": 66,
@@ -219,7 +222,7 @@
         "ldr": 52,
         "pac": 58,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 59,
         "str": 60,
@@ -265,18 +268,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 56,
-        "dri": 43,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 50,
-        "pos": 58,
-        "sho": 27,
-        "sta": 49,
-        "str": 57,
-        "tac": 58,
-        "vis": 45
+        "aer": 45,
+        "com": 54,
+        "dri": 53,
+        "ldr": 51,
+        "pac": 58,
+        "pas": 54,
+        "pos": 53,
+        "sho": 34,
+        "sta": 55,
+        "str": 49,
+        "tac": 55,
+        "vis": 51
       },
       "birth": "1990-04-01",
       "contract": null,
@@ -287,7 +290,7 @@
       "nation": "CIV",
       "nation2": "ITA",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
@@ -350,7 +353,7 @@
         "ldr": 42,
         "pac": 49,
         "pas": 43,
-        "pos": 31,
+        "pos": 51,
         "sho": 57,
         "sta": 44,
         "str": 53,
@@ -370,18 +373,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 52,
-        "dri": 51,
-        "ldr": 51,
-        "pac": 45,
-        "pas": 56,
-        "pos": 50,
-        "sho": 48,
+        "dri": 47,
+        "ldr": 53,
+        "pac": 42,
+        "pas": 55,
+        "pos": 54,
+        "sho": 42,
         "sta": 53,
-        "str": 45,
-        "tac": 50,
-        "vis": 57
+        "str": 50,
+        "tac": 56,
+        "vis": 54
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -391,23 +394,23 @@
       "name": "Sanaa Altema",
       "nation": "FRA",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5500
     },
     {
       "attrs": {
         "aer": 53,
-        "com": 57,
-        "dri": 55,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 62,
+        "com": 53,
+        "dri": 53,
+        "ldr": 53,
+        "pac": 60,
+        "pas": 56,
         "pos": 56,
-        "sho": 57,
+        "sho": 43,
         "sta": 59,
-        "str": 55,
-        "tac": 56,
-        "vis": 64
+        "str": 54,
+        "tac": 60,
+        "vis": 55
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -417,23 +420,23 @@
       "name": "Lesly Maluuda",
       "nation": "FRA",
       "number": 26,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 12000
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 55,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 66,
-        "pas": 57,
-        "pos": 59,
-        "sho": 42,
-        "sta": 61,
-        "str": 52,
-        "tac": 61,
-        "vis": 51
+        "aer": 63,
+        "com": 57,
+        "dri": 47,
+        "ldr": 59,
+        "pac": 58,
+        "pas": 53,
+        "pos": 64,
+        "sho": 35,
+        "sta": 55,
+        "str": 60,
+        "tac": 64,
+        "vis": 45
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -443,10 +446,13 @@
       "name": "Cedric Varraolt",
       "nation": "FRA",
       "number": 27,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -473,6 +479,11 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 60,

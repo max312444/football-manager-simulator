@@ -110,7 +110,7 @@
         "ldr": 78,
         "pac": 81,
         "pas": 73,
-        "pos": 62,
+        "pos": 82,
         "sho": 89,
         "sta": 76,
         "str": 81,
@@ -129,6 +129,9 @@
       "wage": 279000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 87,
@@ -155,20 +158,23 @@
       "wage": 294500
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 82,
         "com": 84,
-        "dri": 81,
+        "dri": 86,
         "ldr": 80,
-        "pac": 88,
-        "pas": 78,
-        "pos": 64,
+        "pac": 93,
+        "pas": 83,
+        "pos": 84,
         "sho": 89,
         "sta": 79,
         "str": 88,
         "tac": 52,
-        "vis": 74
+        "vis": 79
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -179,23 +185,27 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 294500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 64,
-        "dri": 64,
-        "ldr": 58,
-        "pac": 67,
-        "pas": 54,
-        "pos": 45,
-        "sho": 68,
-        "sta": 61,
-        "str": 62,
-        "tac": 34,
-        "vis": 57
+        "aer": 51,
+        "com": 61,
+        "dri": 69,
+        "ldr": 56,
+        "pac": 71,
+        "pas": 60,
+        "pos": 47,
+        "sho": 63,
+        "sta": 63,
+        "str": 52,
+        "tac": 40,
+        "vis": 63
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -206,7 +216,7 @@
       "nation": "ESP",
       "nation2": "SRB",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 36000
     },
     {
@@ -236,20 +246,22 @@
       "wage": 55500
     },
     {
-      "alt": [],
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 74,
+        "aer": 80,
         "com": 83,
-        "dri": 77,
-        "ldr": 81,
-        "pac": 76,
-        "pas": 86,
-        "pos": 82,
-        "sho": 73,
+        "dri": 73,
+        "ldr": 83,
+        "pac": 73,
+        "pas": 85,
+        "pos": 86,
+        "sho": 67,
         "sta": 87,
-        "str": 78,
-        "tac": 75,
-        "vis": 80
+        "str": 83,
+        "tac": 81,
+        "vis": 77
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -260,10 +272,13 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 294500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 81,
@@ -291,9 +306,6 @@
       "wage": 294500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 70,
         "com": 74,
@@ -320,19 +332,22 @@
       "wage": 210500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 75,
-        "dri": 73,
-        "ldr": 74,
-        "pac": 78,
-        "pas": 72,
-        "pos": 56,
-        "sho": 83,
-        "sta": 75,
-        "str": 78,
-        "tac": 47,
-        "vis": 69
+        "aer": 63,
+        "com": 72,
+        "dri": 78,
+        "ldr": 72,
+        "pac": 82,
+        "pas": 78,
+        "pos": 58,
+        "sho": 78,
+        "sta": 77,
+        "str": 68,
+        "tac": 53,
+        "vis": 75
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -342,7 +357,7 @@
       "name": "Pedru",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 160000
     },
     {
@@ -395,23 +410,27 @@
       "nation": "BRA",
       "nation2": "NED",
       "number": 19,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 158500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 76,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 71,
-        "pas": 66,
-        "pos": 54,
-        "sho": 73,
-        "sta": 67,
-        "str": 74,
-        "tac": 43,
-        "vis": 62
+        "aer": 60,
+        "com": 73,
+        "dri": 75,
+        "ldr": 64,
+        "pac": 75,
+        "pas": 72,
+        "pos": 56,
+        "sho": 68,
+        "sta": 69,
+        "str": 64,
+        "tac": 49,
+        "vis": 68
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -421,10 +440,15 @@
       "name": "Jeffren Soarez",
       "nation": "ESP",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 90000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 75,
@@ -452,7 +476,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 83,

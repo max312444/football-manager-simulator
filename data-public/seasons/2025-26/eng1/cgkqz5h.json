@@ -238,18 +238,20 @@
     },
     {
       "alt": [
-        "RWB"
+        "LB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 66,
         "com": 72,
-        "dri": 66,
+        "dri": 72,
         "ldr": 70,
-        "pac": 62,
+        "pac": 68,
         "pas": 72,
         "pos": 70,
         "sho": 56,
-        "sta": 70,
+        "sta": 76,
         "str": 70,
         "tac": 70,
         "vis": 64
@@ -267,7 +269,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 58,
@@ -292,7 +294,7 @@
       "nation": "CMR",
       "nation2": "BEL",
       "number": 38,
-      "pos": "RWB",
+      "pos": "RB",
       "verify": true,
       "wage": 75500
     },
@@ -327,9 +329,6 @@
       "wage": 75500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -352,27 +351,28 @@
       "name": "Pedro Lime",
       "nation": "BRA",
       "number": 30,
-      "pos": "RWB",
+      "pos": "RB",
       "verify": true,
       "wage": 43000
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 62,
-        "com": 74,
+        "com": 76,
         "dri": 76,
         "ldr": 66,
         "pac": 74,
-        "pas": 76,
-        "pos": 76,
+        "pas": 78,
+        "pos": 78,
         "sho": 60,
         "sta": 88,
-        "str": 74,
-        "tac": 82,
-        "vis": 72
+        "str": 76,
+        "tac": 84,
+        "vis": 74
       },
       "birth": "2001-02-01",
       "contract": "2029-06-30",
@@ -389,9 +389,6 @@
       "wage": 152500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 76,
@@ -418,22 +415,19 @@
       "wage": 143000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 74,
-        "com": 70,
+        "com": 72,
         "dri": 70,
         "ldr": 64,
         "pac": 70,
-        "pas": 70,
-        "pos": 72,
+        "pas": 72,
+        "pos": 73,
         "sho": 66,
-        "sta": 80,
-        "str": 78,
-        "tac": 74,
-        "vis": 64
+        "sta": 81,
+        "str": 79,
+        "tac": 75,
+        "vis": 66
       },
       "birth": "1996-06-01",
       "contract": "2028-06-30",
@@ -443,26 +437,27 @@
       "name": "Marshall Munetsy",
       "nation": "ZIM",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 140500
     },
     {
       "alt": [
-        "RW"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 50,
-        "com": 72,
+        "com": 76,
         "dri": 80,
         "ldr": 58,
         "pac": 76,
-        "pas": 74,
+        "pas": 78,
         "pos": 62,
-        "sho": 70,
+        "sho": 74,
         "sta": 82,
         "str": 64,
         "tac": 60,
-        "vis": 74
+        "vis": 78
       },
       "birth": "1998-06-01",
       "contract": "2029-06-30",
@@ -561,19 +556,19 @@
     },
     {
       "alt": [
-        "LW"
+        "RW"
       ],
       "attrs": {
-        "aer": 56,
-        "com": 68,
+        "aer": 66,
+        "com": 78,
         "dri": 74,
         "ldr": 62,
         "pac": 82,
         "pas": 66,
-        "pos": 50,
-        "sho": 72,
+        "pos": 60,
+        "sho": 82,
         "sta": 76,
-        "str": 66,
+        "str": 76,
         "tac": 44,
         "vis": 64
       },
@@ -590,6 +585,7 @@
     },
     {
       "alt": [
+        "LM",
         "AM"
       ],
       "attrs": {
@@ -598,13 +594,13 @@
         "dri": 84,
         "ldr": 62,
         "pac": 84,
-        "pas": 78,
+        "pas": 85,
         "pos": 60,
         "sho": 74,
-        "sta": 82,
+        "sta": 89,
         "str": 66,
-        "tac": 54,
-        "vis": 78
+        "tac": 61,
+        "vis": 85
       },
       "birth": "1997-09-01",
       "contract": "2029-06-30",
@@ -614,27 +610,24 @@
       "name": "Jhon Aryas",
       "nation": "COL",
       "number": 10,
-      "pos": "RW",
+      "pos": "RM",
       "verify": true,
       "wage": 130500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 52,
-        "com": 66,
+        "com": 71,
         "dri": 74,
         "ldr": 50,
         "pac": 72,
-        "pas": 70,
+        "pas": 75,
         "pos": 56,
-        "sho": 66,
+        "sho": 71,
         "sta": 76,
         "str": 64,
         "tac": 52,
-        "vis": 68
+        "vis": 73
       },
       "birth": "2004-05-01",
       "contract": "2030-06-30",

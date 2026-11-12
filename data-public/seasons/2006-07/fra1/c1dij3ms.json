@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -57,7 +60,7 @@
         "ldr": 66,
         "pac": 75,
         "pas": 61,
-        "pos": 50,
+        "pos": 70,
         "sho": 72,
         "sta": 71,
         "str": 71,
@@ -84,7 +87,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 63,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 63,
         "str": 71,
@@ -126,11 +129,14 @@
       "name": "Ivan Strynic",
       "nation": "CRO",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 11500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 63,
@@ -184,6 +190,11 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM",
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -211,19 +222,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 62,
+        "com": 63,
         "dri": 65,
         "ldr": 61,
         "pac": 61,
-        "pas": 64,
+        "pas": 65,
         "pos": 61,
         "sho": 58,
         "sta": 69,
         "str": 60,
-        "tac": 58,
-        "vis": 64
+        "tac": 59,
+        "vis": 65
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -237,19 +251,23 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 64,
-        "dri": 59,
-        "ldr": 60,
-        "pac": 56,
+        "aer": 49,
+        "com": 65,
+        "dri": 63,
+        "ldr": 58,
+        "pac": 59,
         "pas": 68,
-        "pos": 59,
-        "sho": 59,
-        "sta": 63,
-        "str": 58,
-        "tac": 63,
-        "vis": 67
+        "pos": 44,
+        "sho": 65,
+        "sta": 57,
+        "str": 53,
+        "tac": 45,
+        "vis": 69
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -259,11 +277,15 @@
       "name": "Davide Chiumientu",
       "nation": "SUI",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 10000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -291,18 +313,23 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 62,
+        "aer": 61,
+        "com": 65,
         "dri": 64,
         "ldr": 56,
-        "pac": 61,
+        "pac": 66,
         "pas": 63,
-        "pos": 60,
+        "pos": 68,
         "sho": 59,
         "sta": 65,
-        "str": 60,
-        "tac": 60,
+        "str": 68,
+        "tac": 68,
         "vis": 63
       },
       "birth": "1981-08-01",
@@ -313,7 +340,7 @@
       "name": "Luigi Lavecchya",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 9500
     },
@@ -325,7 +352,7 @@
         "ldr": 59,
         "pac": 60,
         "pas": 57,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 59,
         "str": 62,
@@ -352,7 +379,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 65,
         "sta": 55,
         "str": 65,
@@ -398,18 +425,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 64,
+        "aer": 56,
+        "com": 65,
         "dri": 61,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 63,
+        "ldr": 54,
+        "pac": 62,
+        "pas": 53,
         "pos": 58,
-        "sho": 55,
-        "sta": 65,
-        "str": 57,
-        "tac": 54,
-        "vis": 63
+        "sho": 64,
+        "sta": 59,
+        "str": 62,
+        "tac": 28,
+        "vis": 54
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -419,7 +446,7 @@
       "name": "James Fanchune",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 7500
     },
     {
@@ -476,6 +503,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -531,6 +561,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -636,18 +669,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 55,
-        "dri": 40,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 51,
-        "pos": 59,
-        "sho": 33,
-        "sta": 53,
-        "str": 59,
-        "tac": 61,
-        "vis": 46
+        "aer": 44,
+        "com": 53,
+        "dri": 50,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 55,
+        "pos": 54,
+        "sho": 40,
+        "sta": 59,
+        "str": 51,
+        "tac": 58,
+        "vis": 52
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -657,7 +690,7 @@
       "name": "Jean Calva",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3500
     },
@@ -669,7 +702,7 @@
         "ldr": 53,
         "pac": 53,
         "pas": 48,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 51,
         "str": 58,
@@ -749,7 +782,7 @@
         "ldr": 45,
         "pac": 53,
         "pas": 46,
-        "pos": 29,
+        "pos": 49,
         "sho": 56,
         "sta": 50,
         "str": 54,
@@ -776,7 +809,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 59,
         "sta": 47,
         "str": 54,
@@ -796,6 +829,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 56,
@@ -831,7 +867,7 @@
         "ldr": 44,
         "pac": 54,
         "pas": 42,
-        "pos": 30,
+        "pos": 50,
         "sho": 54,
         "sta": 49,
         "str": 49,
@@ -906,6 +942,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -960,6 +999,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -1012,6 +1054,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 51,
@@ -1038,6 +1083,10 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 43,

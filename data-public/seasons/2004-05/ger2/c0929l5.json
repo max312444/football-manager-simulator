@@ -59,7 +59,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 57,
-        "pos": 46,
+        "pos": 66,
         "sho": 72,
         "sta": 64,
         "str": 66,
@@ -87,7 +87,7 @@
         "ldr": 62,
         "pac": 66,
         "pas": 60,
-        "pos": 47,
+        "pos": 67,
         "sho": 66,
         "sta": 62,
         "str": 67,
@@ -108,19 +108,21 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 55,
-        "com": 62,
-        "dri": 60,
+        "aer": 62,
+        "com": 69,
+        "dri": 64,
         "ldr": 58,
-        "pac": 57,
+        "pac": 64,
         "pas": 69,
-        "pos": 66,
-        "sho": 61,
+        "pos": 73,
+        "sho": 68,
         "sta": 64,
-        "str": 60,
+        "str": 67,
         "tac": 59,
         "vis": 66
       },
@@ -132,11 +134,14 @@
       "name": "Senad Tyganj",
       "nation": "SVN",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -191,6 +196,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -225,7 +233,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 51,
         "str": 60,
@@ -252,7 +260,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 52,
-        "pos": 33,
+        "pos": 53,
         "sho": 57,
         "sta": 52,
         "str": 55,
@@ -272,19 +280,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 52,
+        "com": 61,
         "dri": 39,
         "ldr": 51,
         "pac": 50,
-        "pas": 50,
+        "pas": 59,
         "pos": 62,
         "sho": 32,
-        "sta": 55,
+        "sta": 64,
         "str": 61,
         "tac": 56,
-        "vis": 43
+        "vis": 52
       },
       "birth": "1977-02-01",
       "contract": null,
@@ -294,11 +307,16 @@
       "name": "Angelo Berletta",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -326,6 +344,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 59,
@@ -333,7 +356,7 @@
         "ldr": 50,
         "pac": 53,
         "pas": 45,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 53,
         "str": 56,
@@ -353,6 +376,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -465,7 +493,7 @@
         "ldr": 47,
         "pac": 53,
         "pas": 48,
-        "pos": 30,
+        "pos": 50,
         "sho": 57,
         "sta": 49,
         "str": 58,
@@ -485,22 +513,19 @@
       "wage": 1000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 45,
-        "com": 56,
+        "aer": 53,
+        "com": 57,
         "dri": 53,
-        "ldr": 53,
-        "pac": 48,
-        "pas": 59,
+        "ldr": 51,
+        "pac": 53,
+        "pas": 49,
         "pos": 51,
-        "sho": 51,
-        "sta": 60,
-        "str": 48,
-        "tac": 52,
-        "vis": 57
+        "sho": 60,
+        "sta": 54,
+        "str": 53,
+        "tac": 26,
+        "vis": 48
       },
       "birth": "1978-12-01",
       "contract": null,
@@ -510,7 +535,7 @@
       "name": "Tomasz Szawczuk",
       "nation": "POL",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 2000
     },
@@ -522,7 +547,7 @@
         "ldr": 46,
         "pac": 57,
         "pas": 43,
-        "pos": 31,
+        "pos": 51,
         "sho": 54,
         "sta": 51,
         "str": 56,
@@ -542,18 +567,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 57,
-        "dri": 55,
-        "ldr": 49,
-        "pac": 49,
-        "pas": 58,
-        "pos": 51,
-        "sho": 51,
+        "dri": 51,
+        "ldr": 51,
+        "pac": 46,
+        "pas": 57,
+        "pos": 55,
+        "sho": 45,
         "sta": 57,
-        "str": 52,
-        "tac": 52,
-        "vis": 57
+        "str": 57,
+        "tac": 58,
+        "vis": 54
       },
       "birth": "1974-08-01",
       "contract": null,
@@ -563,23 +588,28 @@
       "name": "Rudolf Zadi",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 50,
+        "com": 60,
         "dri": 42,
         "ldr": 53,
         "pac": 44,
-        "pas": 43,
+        "pas": 53,
         "pos": 59,
         "sho": 26,
-        "sta": 49,
+        "sta": 59,
         "str": 52,
         "tac": 59,
-        "vis": 41
+        "vis": 51
       },
       "birth": "1969-12-01",
       "contract": null,
@@ -589,7 +619,7 @@
       "name": "Henning Burgar",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
@@ -621,6 +651,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 49,

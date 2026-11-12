@@ -31,7 +31,7 @@
         "ldr": 70,
         "pac": 77,
         "pas": 70,
-        "pos": 58,
+        "pos": 78,
         "sho": 82,
         "sta": 73,
         "str": 75,
@@ -73,7 +73,7 @@
       "name": "Agustin Aranzebal",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 30000
     },
     {
@@ -84,7 +84,7 @@
         "ldr": 72,
         "pac": 77,
         "pas": 67,
-        "pos": 58,
+        "pos": 78,
         "sho": 80,
         "sta": 74,
         "str": 74,
@@ -110,7 +110,7 @@
         "ldr": 71,
         "pac": 73,
         "pas": 65,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 74,
         "str": 79,
@@ -130,6 +130,9 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 74,
@@ -156,6 +159,9 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -182,6 +188,9 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -209,22 +218,19 @@
       "wage": 30000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 80,
-        "com": 74,
-        "dri": 62,
-        "ldr": 73,
-        "pac": 69,
-        "pas": 65,
-        "pos": 78,
-        "sho": 50,
-        "sta": 67,
-        "str": 73,
-        "tac": 76,
-        "vis": 59
+        "aer": 67,
+        "com": 72,
+        "dri": 72,
+        "ldr": 69,
+        "pac": 77,
+        "pas": 69,
+        "pos": 73,
+        "sho": 57,
+        "sta": 73,
+        "str": 65,
+        "tac": 73,
+        "vis": 65
       },
       "birth": "1975-08-01",
       "contract": null,
@@ -234,7 +240,7 @@
       "name": "Aitor Lopez Rekerte",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 21000
     },
     {
@@ -245,7 +251,7 @@
         "ldr": 66,
         "pac": 76,
         "pas": 64,
-        "pos": 53,
+        "pos": 73,
         "sho": 75,
         "sta": 70,
         "str": 75,
@@ -292,6 +298,11 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 68,
         "com": 73,
@@ -299,7 +310,7 @@
         "ldr": 63,
         "pac": 75,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 67,
         "str": 69,
@@ -318,6 +329,10 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
@@ -370,6 +385,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 73,
@@ -430,7 +448,7 @@
         "ldr": 59,
         "pac": 69,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 71,
         "sta": 63,
         "str": 68,
@@ -450,18 +468,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
+        "aer": 49,
         "com": 65,
-        "dri": 62,
+        "dri": 66,
         "ldr": 59,
-        "pac": 68,
-        "pas": 56,
-        "pos": 46,
-        "sho": 71,
+        "pac": 66,
+        "pas": 66,
+        "pos": 51,
+        "sho": 68,
         "sta": 60,
-        "str": 66,
-        "tac": 35,
-        "vis": 57
+        "str": 56,
+        "tac": 43,
+        "vis": 68
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -471,7 +489,7 @@
       "name": "Jose Barkaro",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7000
     },
     {
@@ -583,6 +601,11 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 59,
@@ -642,7 +665,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 57,
         "str": 64,
@@ -717,6 +740,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 65,
@@ -804,18 +830,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 55,
-        "dri": 40,
-        "ldr": 52,
-        "pac": 49,
-        "pas": 49,
-        "pos": 58,
-        "sho": 26,
-        "sta": 50,
-        "str": 60,
-        "tac": 60,
-        "vis": 38
+        "aer": 42,
+        "com": 53,
+        "dri": 50,
+        "ldr": 48,
+        "pac": 57,
+        "pas": 53,
+        "pos": 53,
+        "sho": 33,
+        "sta": 56,
+        "str": 52,
+        "tac": 57,
+        "vis": 44
       },
       "birth": "1964-08-01",
       "contract": null,
@@ -825,7 +851,7 @@
       "name": "Miguel Angel Foentes",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2500
     },
@@ -889,7 +915,7 @@
         "ldr": 41,
         "pac": 47,
         "pas": 39,
-        "pos": 29,
+        "pos": 49,
         "sho": 50,
         "sta": 44,
         "str": 49,
@@ -916,7 +942,7 @@
         "ldr": 40,
         "pac": 46,
         "pas": 41,
-        "pos": 29,
+        "pos": 49,
         "sho": 49,
         "sta": 43,
         "str": 50,
@@ -942,7 +968,7 @@
         "ldr": 45,
         "pac": 47,
         "pas": 39,
-        "pos": 26,
+        "pos": 46,
         "sho": 53,
         "sta": 45,
         "str": 45,

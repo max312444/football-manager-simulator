@@ -111,7 +111,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 57,
         "str": 63,
@@ -130,6 +130,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -152,10 +155,15 @@
       "name": "Robin Gusens",
       "nation": "GER",
       "number": 8,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 128500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 77,
@@ -163,7 +171,7 @@
         "ldr": 71,
         "pac": 79,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 80,
         "sta": 74,
         "str": 78,
@@ -182,19 +190,22 @@
       "wage": 98000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 75,
-        "dri": 72,
-        "ldr": 67,
-        "pac": 77,
-        "pas": 69,
-        "pos": 51,
-        "sho": 78,
-        "sta": 67,
-        "str": 72,
-        "tac": 45,
-        "vis": 65
+        "aer": 61,
+        "com": 72,
+        "dri": 77,
+        "ldr": 65,
+        "pac": 81,
+        "pas": 75,
+        "pos": 53,
+        "sho": 73,
+        "sta": 69,
+        "str": 62,
+        "tac": 51,
+        "vis": 71
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -204,23 +215,23 @@
       "name": "Papu Gomaz",
       "nation": "ARG",
       "number": 10,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 66000
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 80,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 75,
-        "pas": 84,
-        "pos": 74,
-        "sho": 73,
+        "dri": 73,
+        "ldr": 77,
+        "pac": 72,
+        "pas": 83,
+        "pos": 78,
+        "sho": 67,
         "sta": 83,
-        "str": 75,
-        "tac": 76,
-        "vis": 82
+        "str": 80,
+        "tac": 82,
+        "vis": 79
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -230,7 +241,7 @@
       "name": "Remo Freular",
       "nation": "SUI",
       "number": 11,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 139000
     },
     {
@@ -262,18 +273,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
+        "aer": 76,
         "com": 78,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 74,
-        "pas": 80,
-        "pos": 79,
-        "sho": 75,
+        "dri": 70,
+        "ldr": 73,
+        "pac": 71,
+        "pas": 79,
+        "pos": 83,
+        "sho": 69,
         "sta": 82,
-        "str": 74,
-        "tac": 74,
-        "vis": 76
+        "str": 79,
+        "tac": 80,
+        "vis": 73
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -283,7 +294,7 @@
       "name": "Marten de Ruon",
       "nation": "NED",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 139000
     },
     {
@@ -314,19 +325,23 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "RW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 76,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 75,
+        "aer": 61,
+        "com": 77,
+        "dri": 79,
+        "ldr": 69,
+        "pac": 78,
         "pas": 82,
-        "pos": 77,
-        "sho": 69,
-        "sta": 83,
-        "str": 71,
-        "tac": 75,
-        "vis": 79
+        "pos": 62,
+        "sho": 75,
+        "sta": 77,
+        "str": 66,
+        "tac": 57,
+        "vis": 81
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -336,7 +351,7 @@
       "name": "Ruslan Melinovskyi",
       "nation": "UKR",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 139000
     },
     {
@@ -443,23 +458,28 @@
       "name": "Johan Mujica",
       "nation": "COL",
       "number": 26,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 40500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 60,
-        "dri": 49,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 55,
-        "pos": 63,
-        "sho": 36,
-        "sta": 60,
-        "str": 60,
-        "tac": 67,
-        "vis": 47
+        "aer": 54,
+        "com": 58,
+        "dri": 59,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 59,
+        "pos": 58,
+        "sho": 43,
+        "sta": 66,
+        "str": 52,
+        "tac": 64,
+        "vis": 53
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -470,7 +490,7 @@
       "name": "Fabio Dapaoli",
       "nation": "ITA",
       "number": 27,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18000
     },
     {
@@ -500,6 +520,9 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 73,
@@ -553,18 +576,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 54,
-        "dri": 45,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 47,
-        "pos": 62,
-        "sho": 30,
-        "sta": 54,
-        "str": 61,
-        "tac": 57,
-        "vis": 40
+        "aer": 46,
+        "com": 52,
+        "dri": 55,
+        "ldr": 51,
+        "pac": 61,
+        "pas": 51,
+        "pos": 57,
+        "sho": 37,
+        "sta": 60,
+        "str": 53,
+        "tac": 54,
+        "vis": 46
       },
       "birth": "2002-07-01",
       "contract": null,
@@ -574,7 +597,7 @@
       "name": "Matteo Ruggery",
       "nation": "ITA",
       "number": 40,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -604,19 +627,24 @@
       "wage": 42500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 74,
-        "dri": 71,
-        "ldr": 72,
-        "pac": 66,
+        "aer": 59,
+        "com": 75,
+        "dri": 75,
+        "ldr": 70,
+        "pac": 69,
         "pas": 76,
-        "pos": 70,
-        "sho": 68,
-        "sta": 76,
-        "str": 67,
-        "tac": 73,
-        "vis": 72
+        "pos": 55,
+        "sho": 74,
+        "sta": 70,
+        "str": 62,
+        "tac": 55,
+        "vis": 74
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -626,23 +654,27 @@
       "name": "Aleksei Miranchok",
       "nation": "RUS",
       "number": 59,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 93500
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 71,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 71,
-        "pas": 62,
-        "pos": 49,
-        "sho": 77,
-        "sta": 67,
-        "str": 74,
-        "tac": 44,
-        "vis": 64
+        "aer": 59,
+        "com": 68,
+        "dri": 76,
+        "ldr": 66,
+        "pac": 75,
+        "pas": 68,
+        "pos": 51,
+        "sho": 72,
+        "sta": 69,
+        "str": 64,
+        "tac": 50,
+        "vis": 70
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -652,10 +684,13 @@
       "name": "Josip Ilycic",
       "nation": "SVN",
       "number": 72,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 53500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -689,7 +724,7 @@
         "ldr": 69,
         "pac": 81,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 81,
         "sta": 76,
         "str": 81,

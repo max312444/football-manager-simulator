@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 55,
-        "dri": 46,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 47,
-        "pos": 61,
-        "sho": 31,
-        "sta": 51,
-        "str": 59,
-        "tac": 62,
-        "vis": 44
+        "aer": 50,
+        "com": 53,
+        "dri": 56,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 51,
+        "pos": 56,
+        "sho": 38,
+        "sta": 57,
+        "str": 51,
+        "tac": 59,
+        "vis": 50
       },
       "birth": "1987-04-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Simone Iacuponi",
       "nation": "ITA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 9000
     },
     {
@@ -99,10 +99,13 @@
       "name": "Giuseppe Pazzella",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 64,
@@ -129,6 +132,9 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 64,
@@ -157,18 +163,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 71,
-        "dri": 69,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 72,
-        "pos": 72,
-        "sho": 67,
+        "dri": 65,
+        "ldr": 71,
+        "pac": 66,
+        "pas": 71,
+        "pos": 76,
+        "sho": 61,
         "sta": 73,
-        "str": 65,
-        "tac": 69,
-        "vis": 70
+        "str": 70,
+        "tac": 75,
+        "vis": 67
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -178,23 +184,27 @@
       "name": "Alberto Gressi",
       "nation": "ITA",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 53000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 64,
-        "dri": 62,
-        "ldr": 55,
-        "pac": 62,
-        "pas": 52,
-        "pos": 38,
-        "sho": 62,
-        "sta": 57,
-        "str": 60,
-        "tac": 32,
-        "vis": 57
+        "aer": 45,
+        "com": 61,
+        "dri": 67,
+        "ldr": 53,
+        "pac": 66,
+        "pas": 58,
+        "pos": 40,
+        "sho": 57,
+        "sta": 59,
+        "str": 50,
+        "tac": 38,
+        "vis": 63
       },
       "birth": "1998-07-01",
       "contract": null,
@@ -205,7 +215,7 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 12000
     },
     {
@@ -216,7 +226,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 69,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 75,
         "str": 75,
@@ -236,6 +246,9 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -262,6 +275,9 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -288,6 +304,9 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -314,6 +333,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 68,
@@ -392,6 +414,9 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 71,
@@ -418,19 +443,23 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 78,
-        "dri": 78,
-        "ldr": 69,
-        "pac": 75,
-        "pas": 67,
-        "pos": 55,
-        "sho": 80,
-        "sta": 70,
-        "str": 75,
-        "tac": 46,
-        "vis": 70
+        "aer": 61,
+        "com": 75,
+        "dri": 83,
+        "ldr": 67,
+        "pac": 79,
+        "pas": 73,
+        "pos": 57,
+        "sho": 75,
+        "sta": 72,
+        "str": 65,
+        "tac": 52,
+        "vis": 76
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -440,7 +469,7 @@
       "name": "Garvinho",
       "nation": "CIV",
       "number": 27,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 53000
     },
     {
@@ -471,19 +500,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 50,
-        "dri": 37,
-        "ldr": 50,
-        "pac": 48,
-        "pas": 47,
-        "pos": 57,
-        "sho": 24,
-        "sta": 49,
-        "str": 53,
-        "tac": 54,
-        "vis": 36
+        "aer": 43,
+        "com": 48,
+        "dri": 47,
+        "ldr": 46,
+        "pac": 56,
+        "pas": 51,
+        "pos": 52,
+        "sho": 31,
+        "sta": 55,
+        "str": 45,
+        "tac": 51,
+        "vis": 42
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -493,10 +525,13 @@
       "name": "Giacomo Riccy",
       "nation": "ITA",
       "number": 31,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 73,
@@ -556,7 +591,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 68,
         "sta": 64,
         "str": 68,
@@ -575,6 +610,10 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,

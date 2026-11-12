@@ -57,7 +57,7 @@
         "ldr": 55,
         "pac": 62,
         "pas": 49,
-        "pos": 38,
+        "pos": 58,
         "sho": 60,
         "sta": 54,
         "str": 58,
@@ -104,6 +104,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 62,
@@ -165,7 +168,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 55,
         "str": 62,
@@ -185,19 +188,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 57,
+        "com": 67,
         "dri": 44,
         "ldr": 54,
         "pac": 55,
-        "pas": 52,
+        "pas": 62,
         "pos": 64,
         "sho": 35,
-        "sta": 55,
+        "sta": 65,
         "str": 63,
         "tac": 62,
-        "vis": 42
+        "vis": 52
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -207,11 +215,16 @@
       "name": "Rudiger Rahm",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 56,
@@ -219,7 +232,7 @@
         "ldr": 55,
         "pac": 56,
         "pas": 50,
-        "pos": 33,
+        "pos": 53,
         "sho": 62,
         "sta": 54,
         "str": 60,
@@ -240,18 +253,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 55,
-        "dri": 52,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 58,
-        "pos": 53,
-        "sho": 52,
+        "dri": 48,
+        "ldr": 54,
+        "pac": 51,
+        "pas": 57,
+        "pos": 57,
+        "sho": 46,
         "sta": 62,
-        "str": 52,
-        "tac": 53,
-        "vis": 58
+        "str": 57,
+        "tac": 59,
+        "vis": 55
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -261,11 +274,14 @@
       "name": "Ramezan Yıldırım",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
@@ -299,7 +315,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 51,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 53,
         "str": 55,
@@ -326,7 +342,7 @@
         "ldr": 49,
         "pac": 58,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 51,
         "str": 57,
@@ -346,6 +362,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST"
+      ],
       "attrs": {
         "aer": 57,
         "com": 54,
@@ -424,6 +443,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -451,6 +473,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -478,6 +503,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 54,
@@ -505,6 +535,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 52,
@@ -558,6 +593,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 48,
@@ -585,18 +623,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 38,
+        "aer": 49,
         "com": 48,
         "dri": 48,
         "ldr": 45,
-        "pac": 44,
+        "pac": 55,
         "pas": 54,
-        "pos": 51,
+        "pos": 62,
         "sho": 45,
         "sta": 53,
-        "str": 44,
-        "tac": 48,
+        "str": 55,
+        "tac": 59,
         "vis": 51
       },
       "birth": "1983-08-01",
@@ -607,7 +650,7 @@
       "name": "Christian Mullar",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 1500
     },
     {
@@ -638,6 +681,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 49,
@@ -664,6 +710,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,
@@ -698,7 +747,7 @@
         "ldr": 42,
         "pac": 47,
         "pas": 43,
-        "pos": 26,
+        "pos": 46,
         "sho": 50,
         "sta": 42,
         "str": 47,
@@ -752,7 +801,7 @@
         "ldr": 37,
         "pac": 43,
         "pas": 39,
-        "pos": 24,
+        "pos": 44,
         "sho": 50,
         "sta": 39,
         "str": 48,

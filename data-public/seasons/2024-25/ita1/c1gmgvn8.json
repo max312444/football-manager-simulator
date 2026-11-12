@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 62,
-        "dri": 55,
-        "ldr": 64,
-        "pac": 64,
-        "pas": 58,
-        "pos": 72,
-        "sho": 42,
-        "sta": 63,
-        "str": 71,
-        "tac": 72,
-        "vis": 56
+        "aer": 54,
+        "com": 60,
+        "dri": 65,
+        "ldr": 60,
+        "pac": 72,
+        "pas": 62,
+        "pos": 67,
+        "sho": 49,
+        "sta": 69,
+        "str": 63,
+        "tac": 69,
+        "vis": 62
       },
       "birth": "1998-11-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Dodu",
       "nation": "BRA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 32500
     },
     {
@@ -99,10 +99,13 @@
       "name": "Cristiano Biraghy",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 80500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -184,18 +187,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 73,
-        "dri": 70,
-        "ldr": 63,
-        "pac": 67,
-        "pas": 64,
-        "pos": 48,
-        "sho": 70,
-        "sta": 63,
-        "str": 70,
-        "tac": 40,
-        "vis": 61
+        "aer": 53,
+        "com": 70,
+        "dri": 75,
+        "ldr": 61,
+        "pac": 71,
+        "pas": 70,
+        "pos": 50,
+        "sho": 65,
+        "sta": 65,
+        "str": 60,
+        "tac": 46,
+        "vis": 67
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -205,23 +208,23 @@
       "name": "Riccardo Suttil",
       "nation": "ITA",
       "number": 7,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 36000
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 73,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 67,
-        "pas": 75,
-        "pos": 74,
-        "sho": 66,
+        "dri": 70,
+        "ldr": 73,
+        "pac": 64,
+        "pas": 74,
+        "pos": 78,
+        "sho": 60,
         "sta": 78,
-        "str": 72,
-        "tac": 72,
-        "vis": 79
+        "str": 77,
+        "tac": 78,
+        "vis": 76
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -231,10 +234,15 @@
       "name": "Rolando Mendragora",
       "nation": "ITA",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 100500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 65,
@@ -242,7 +250,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 71,
         "sta": 64,
         "str": 68,
@@ -263,7 +271,9 @@
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 77,
@@ -272,7 +282,7 @@
         "ldr": 70,
         "pac": 77,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 83,
         "sta": 72,
         "str": 79,
@@ -293,6 +303,8 @@
     },
     {
       "alt": [
+        "RM",
+        "LM",
         "ST"
       ],
       "attrs": {
@@ -348,19 +360,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 61,
-        "dri": 54,
-        "ldr": 57,
-        "pac": 54,
+        "aer": 43,
+        "com": 59,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 62,
         "pas": 60,
-        "pos": 59,
-        "sho": 55,
-        "sta": 60,
-        "str": 51,
-        "tac": 55,
-        "vis": 62
+        "pos": 51,
+        "sho": 53,
+        "sta": 63,
+        "str": 48,
+        "tac": 49,
+        "vis": 61
       },
       "birth": "2003-05-01",
       "contract": null,
@@ -370,7 +385,7 @@
       "name": "Gino Infentino",
       "nation": "ARG",
       "number": 19,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 16500
     },
     {
@@ -381,7 +396,7 @@
         "ldr": 74,
         "pac": 78,
         "pas": 71,
-        "pos": 53,
+        "pos": 73,
         "sho": 82,
         "sta": 75,
         "str": 77,
@@ -400,6 +415,9 @@
       "wage": 93000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 72,
@@ -423,10 +441,15 @@
       "name": "Robin Gusens",
       "nation": "GER",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 105000
     },
     {
+      "alt": [
+        "RW",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 72,
@@ -454,6 +477,9 @@
       "wage": 65000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 72,
@@ -481,9 +507,6 @@
       "wage": 58500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 69,
         "com": 67,
@@ -510,6 +533,9 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -564,19 +590,23 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 75,
-        "dri": 70,
-        "ldr": 70,
-        "pac": 70,
-        "pas": 72,
-        "pos": 73,
-        "sho": 65,
+        "dri": 66,
+        "ldr": 72,
+        "pac": 67,
+        "pas": 71,
+        "pos": 77,
+        "sho": 59,
         "sta": 72,
-        "str": 66,
-        "tac": 66,
-        "vis": 73
+        "str": 71,
+        "tac": 72,
+        "vis": 70
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -587,23 +617,23 @@
       "name": "Danilo Cataldy",
       "nation": "ITA",
       "number": 32,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 74000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 55,
-        "dri": 45,
-        "ldr": 55,
-        "pac": 49,
-        "pas": 51,
-        "pos": 60,
-        "sho": 30,
-        "sta": 52,
-        "str": 57,
-        "tac": 64,
-        "vis": 42
+        "aer": 50,
+        "com": 53,
+        "dri": 55,
+        "ldr": 51,
+        "pac": 57,
+        "pas": 55,
+        "pos": 55,
+        "sho": 37,
+        "sta": 58,
+        "str": 49,
+        "tac": 61,
+        "vis": 48
       },
       "birth": "2004-07-01",
       "contract": null,
@@ -613,7 +643,7 @@
       "name": "Michael Keyode",
       "nation": "ITA",
       "number": 33,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10000
     },
     {
@@ -670,18 +700,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 63,
-        "dri": 47,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 56,
-        "pos": 66,
-        "sho": 32,
-        "sta": 60,
-        "str": 67,
-        "tac": 64,
-        "vis": 48
+        "aer": 52,
+        "com": 61,
+        "dri": 57,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 60,
+        "pos": 61,
+        "sho": 39,
+        "sta": 66,
+        "str": 59,
+        "tac": 61,
+        "vis": 54
       },
       "birth": "2000-11-01",
       "contract": null,
@@ -691,23 +721,23 @@
       "name": "Fabiano Parysi",
       "nation": "ITA",
       "number": 65,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 18000
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 77,
-        "dri": 71,
-        "ldr": 71,
-        "pac": 71,
+        "aer": 56,
+        "com": 78,
+        "dri": 75,
+        "ldr": 69,
+        "pac": 74,
         "pas": 78,
-        "pos": 70,
-        "sho": 67,
-        "sta": 77,
-        "str": 66,
-        "tac": 68,
-        "vis": 72
+        "pos": 55,
+        "sho": 73,
+        "sta": 71,
+        "str": 61,
+        "tac": 50,
+        "vis": 74
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -717,23 +747,23 @@
       "name": "Antonin Barek",
       "nation": "CZE",
       "number": 72,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 87000
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 78,
-        "dri": 73,
-        "ldr": 69,
-        "pac": 75,
-        "pas": 67,
-        "pos": 54,
-        "sho": 80,
-        "sta": 71,
-        "str": 76,
-        "tac": 50,
-        "vis": 71
+        "aer": 61,
+        "com": 75,
+        "dri": 78,
+        "ldr": 67,
+        "pac": 79,
+        "pas": 73,
+        "pos": 56,
+        "sho": 75,
+        "sta": 73,
+        "str": 66,
+        "tac": 56,
+        "vis": 77
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -743,23 +773,27 @@
       "name": "Josip Brekalu",
       "nation": "CRO",
       "number": 77,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 78500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 69,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 67,
-        "pas": 59,
-        "pos": 43,
-        "sho": 71,
-        "sta": 66,
-        "str": 69,
-        "tac": 41,
-        "vis": 57
+        "aer": 53,
+        "com": 66,
+        "dri": 72,
+        "ldr": 62,
+        "pac": 71,
+        "pas": 65,
+        "pos": 45,
+        "sho": 66,
+        "sta": 68,
+        "str": 59,
+        "tac": 47,
+        "vis": 63
       },
       "birth": "1997-12-01",
       "contract": null,
@@ -769,23 +803,23 @@
       "name": "Christian Kuuame",
       "nation": "CIV",
       "number": 99,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 31000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 75,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 66,
+        "aer": 57,
+        "com": 76,
+        "dri": 79,
+        "ldr": 70,
+        "pac": 69,
         "pas": 73,
-        "pos": 73,
-        "sho": 68,
-        "sta": 74,
-        "str": 72,
-        "tac": 68,
-        "vis": 76
+        "pos": 58,
+        "sho": 74,
+        "sta": 68,
+        "str": 67,
+        "tac": 50,
+        "vis": 78
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -796,23 +830,23 @@
       "nation": "MAR",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 91000
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 57,
-        "dri": 41,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 45,
-        "pos": 57,
-        "sho": 27,
-        "sta": 55,
-        "str": 58,
-        "tac": 61,
-        "vis": 42
+        "aer": 47,
+        "com": 55,
+        "dri": 51,
+        "ldr": 49,
+        "pac": 59,
+        "pas": 49,
+        "pos": 52,
+        "sho": 34,
+        "sta": 61,
+        "str": 50,
+        "tac": 58,
+        "vis": 48
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -822,7 +856,7 @@
       "name": "Gabriele Ferraryni",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 9000
     }
   ],

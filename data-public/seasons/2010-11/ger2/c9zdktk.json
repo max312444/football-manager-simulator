@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 55,
-        "dri": 57,
-        "ldr": 51,
-        "pac": 53,
-        "pas": 60,
-        "pos": 56,
-        "sho": 49,
+        "dri": 53,
+        "ldr": 53,
+        "pac": 50,
+        "pas": 59,
+        "pos": 60,
+        "sho": 43,
         "sta": 62,
-        "str": 53,
-        "tac": 51,
-        "vis": 56
+        "str": 58,
+        "tac": 57,
+        "vis": 53
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Claus Coste",
       "nation": "GER",
       "number": 3,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4000
     },
     {
@@ -156,6 +156,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -182,6 +185,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 65,
@@ -215,7 +221,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 55,
         "str": 60,
@@ -235,6 +241,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -261,20 +270,22 @@
       "wage": 4500
     },
     {
-      "alt": [],
+      "alt": [
+        "ST"
+      ],
       "attrs": {
         "aer": 57,
         "com": 62,
-        "dri": 58,
+        "dri": 65,
         "ldr": 52,
-        "pac": 59,
-        "pas": 50,
-        "pos": 37,
+        "pac": 66,
+        "pas": 57,
+        "pos": 57,
         "sho": 66,
         "sta": 59,
         "str": 61,
         "tac": 30,
-        "vis": 50
+        "vis": 57
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -285,7 +296,7 @@
       "name": "Maximilian Beistar",
       "nation": "GER",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 3500
     },
     {
@@ -296,7 +307,7 @@
         "ldr": 63,
         "pac": 72,
         "pas": 64,
-        "pos": 45,
+        "pos": 65,
         "sho": 72,
         "sta": 63,
         "str": 67,
@@ -315,6 +326,11 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -348,7 +364,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 71,
         "sta": 62,
         "str": 67,
@@ -368,6 +384,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -394,19 +413,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 63,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 66,
-        "pas": 55,
-        "pos": 38,
-        "sho": 63,
-        "sta": 60,
-        "str": 61,
-        "tac": 36,
-        "vis": 55
+        "aer": 48,
+        "com": 60,
+        "dri": 65,
+        "ldr": 55,
+        "pac": 70,
+        "pas": 61,
+        "pos": 40,
+        "sho": 58,
+        "sta": 62,
+        "str": 51,
+        "tac": 42,
+        "vis": 61
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -416,22 +438,22 @@
       "name": "Thomas Bruker",
       "nation": "GER",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 56,
-        "dri": 48,
+        "aer": 41,
+        "com": 51,
+        "dri": 46,
         "ldr": 44,
-        "pac": 51,
-        "pas": 48,
-        "pos": 34,
-        "sho": 56,
-        "sta": 51,
-        "str": 56,
-        "tac": 26,
+        "pac": 53,
+        "pas": 52,
+        "pos": 54,
+        "sho": 33,
+        "sta": 57,
+        "str": 50,
+        "tac": 56,
         "vis": 43
       },
       "birth": "1989-08-01",
@@ -442,23 +464,26 @@
       "name": "Marcel Geus",
       "nation": "GER",
       "number": 19,
-      "pos": "ST",
+      "pos": "LB",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 57,
-        "dri": 52,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 57,
-        "pos": 57,
-        "sho": 51,
-        "sta": 55,
-        "str": 50,
-        "tac": 55,
-        "vis": 55
+        "aer": 45,
+        "com": 59,
+        "dri": 54,
+        "ldr": 56,
+        "pac": 52,
+        "pas": 59,
+        "pos": 58,
+        "sho": 53,
+        "sta": 57,
+        "str": 51,
+        "tac": 56,
+        "vis": 57
       },
       "birth": "1985-02-01",
       "contract": null,
@@ -473,18 +498,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 60,
-        "dri": 48,
-        "ldr": 59,
-        "pac": 54,
-        "pas": 51,
-        "pos": 62,
-        "sho": 32,
-        "sta": 55,
-        "str": 59,
-        "tac": 61,
-        "vis": 46
+        "aer": 51,
+        "com": 58,
+        "dri": 58,
+        "ldr": 55,
+        "pac": 62,
+        "pas": 55,
+        "pos": 57,
+        "sho": 39,
+        "sta": 61,
+        "str": 51,
+        "tac": 58,
+        "vis": 52
       },
       "birth": "1986-11-01",
       "contract": null,
@@ -494,7 +519,7 @@
       "name": "Johannes van den Bargh",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -525,18 +550,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 49,
-        "dri": 39,
+        "aer": 44,
+        "com": 51,
+        "dri": 47,
         "ldr": 46,
-        "pac": 47,
-        "pas": 41,
-        "pos": 50,
-        "sho": 21,
-        "sta": 47,
-        "str": 52,
-        "tac": 52,
-        "vis": 36
+        "pac": 45,
+        "pas": 50,
+        "pos": 49,
+        "sho": 36,
+        "sta": 53,
+        "str": 50,
+        "tac": 51,
+        "vis": 48
       },
       "birth": "1988-09-01",
       "contract": null,
@@ -546,7 +571,7 @@
       "name": "Kai Schwertfager",
       "nation": "GER",
       "number": 31,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     }
   ],

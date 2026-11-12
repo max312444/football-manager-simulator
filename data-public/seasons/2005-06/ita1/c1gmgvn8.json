@@ -31,7 +31,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 75,
-        "pos": 58,
+        "pos": 78,
         "sho": 80,
         "sta": 73,
         "str": 78,
@@ -77,6 +77,9 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 74,
@@ -103,6 +106,9 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 77,
@@ -137,7 +143,7 @@
         "ldr": 68,
         "pac": 79,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 79,
         "sta": 71,
         "str": 78,
@@ -164,7 +170,7 @@
         "ldr": 68,
         "pac": 77,
         "pas": 69,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 75,
         "str": 74,
@@ -185,21 +191,22 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 80,
-        "com": 74,
-        "dri": 60,
-        "ldr": 71,
-        "pac": 66,
-        "pas": 66,
-        "pos": 80,
-        "sho": 45,
-        "sta": 71,
-        "str": 76,
-        "tac": 81,
-        "vis": 59
+        "aer": 67,
+        "com": 72,
+        "dri": 70,
+        "ldr": 67,
+        "pac": 74,
+        "pas": 70,
+        "pos": 75,
+        "sho": 52,
+        "sta": 77,
+        "str": 68,
+        "tac": 78,
+        "vis": 65
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -209,23 +216,23 @@
       "name": "Christian Maggiu",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 21000
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 76,
-        "dri": 70,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 75,
-        "pos": 75,
-        "sho": 72,
+        "dri": 66,
+        "ldr": 73,
+        "pac": 68,
+        "pas": 74,
+        "pos": 79,
+        "sho": 66,
         "sta": 74,
-        "str": 72,
-        "tac": 69,
-        "vis": 74
+        "str": 77,
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1975-02-01",
       "contract": null,
@@ -235,7 +242,7 @@
       "name": "Gianni Guigoo",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 29000
     },
@@ -274,7 +281,7 @@
         "ldr": 68,
         "pac": 71,
         "pas": 61,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 68,
         "str": 69,
@@ -294,6 +301,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 74,
@@ -321,6 +331,9 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 74,
@@ -401,6 +414,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 63,
@@ -429,18 +445,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 67,
-        "dri": 70,
-        "ldr": 65,
-        "pac": 65,
-        "pas": 70,
-        "pos": 65,
-        "sho": 65,
+        "dri": 66,
+        "ldr": 67,
+        "pac": 62,
+        "pas": 69,
+        "pos": 69,
+        "sho": 59,
         "sta": 70,
-        "str": 64,
-        "tac": 66,
-        "vis": 71
+        "str": 69,
+        "tac": 72,
+        "vis": 68
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -450,11 +466,16 @@
       "name": "Cristian Brocchy",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 15000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 69,
@@ -489,7 +510,7 @@
         "ldr": 59,
         "pac": 67,
         "pas": 61,
-        "pos": 49,
+        "pos": 69,
         "sho": 74,
         "sta": 64,
         "str": 71,
@@ -531,11 +552,14 @@
       "name": "Manuel Pasqoal",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -570,7 +594,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 54,
-        "pos": 44,
+        "pos": 64,
         "sho": 64,
         "sta": 60,
         "str": 66,
@@ -597,7 +621,7 @@
         "ldr": 59,
         "pac": 61,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 67,
         "sta": 62,
         "str": 60,
@@ -616,18 +640,23 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 55,
+        "aer": 62,
         "com": 64,
         "dri": 61,
         "ldr": 60,
-        "pac": 55,
+        "pac": 62,
         "pas": 62,
-        "pos": 63,
+        "pos": 70,
         "sho": 56,
         "sta": 66,
-        "str": 56,
-        "tac": 58,
+        "str": 63,
+        "tac": 65,
         "vis": 61
       },
       "birth": "1978-12-01",
@@ -638,24 +667,24 @@
       "name": "Luca Aryatti",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 7000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 61,
-        "dri": 46,
-        "ldr": 60,
-        "pac": 58,
-        "pas": 55,
-        "pos": 64,
-        "sho": 39,
-        "sta": 58,
-        "str": 66,
-        "tac": 67,
-        "vis": 51
+        "aer": 56,
+        "com": 59,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 59,
+        "pos": 59,
+        "sho": 46,
+        "sta": 64,
+        "str": 58,
+        "tac": 64,
+        "vis": 57
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -665,7 +694,7 @@
       "name": "Mirko Savyni",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 6000
     },
@@ -772,7 +801,7 @@
       "name": "Davide Bryvio",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 4500
     },
@@ -803,6 +832,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 55,
@@ -831,18 +863,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 52,
-        "dri": 38,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 46,
-        "pos": 59,
-        "sho": 24,
-        "sta": 52,
-        "str": 54,
-        "tac": 54,
-        "vis": 41
+        "aer": 44,
+        "com": 50,
+        "dri": 48,
+        "ldr": 50,
+        "pac": 58,
+        "pas": 50,
+        "pos": 54,
+        "sho": 31,
+        "sta": 58,
+        "str": 46,
+        "tac": 51,
+        "vis": 47
       },
       "birth": "1981-03-01",
       "contract": null,
@@ -852,7 +884,7 @@
       "name": "Antonio Ryzzo",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2000
     }

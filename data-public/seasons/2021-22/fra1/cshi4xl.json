@@ -52,6 +52,10 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 59,
@@ -106,19 +110,22 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 67,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 66,
-        "pos": 66,
-        "sho": 60,
+        "dri": 59,
+        "ldr": 61,
+        "pac": 57,
+        "pas": 65,
+        "pos": 70,
+        "sho": 54,
         "sta": 64,
-        "str": 62,
-        "tac": 58,
-        "vis": 64
+        "str": 67,
+        "tac": 64,
+        "vis": 61
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -128,7 +135,7 @@
       "name": "Kevin N'Dorem",
       "nation": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 37000
     },
     {
@@ -139,7 +146,7 @@
         "ldr": 57,
         "pac": 61,
         "pas": 56,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 60,
         "str": 61,
@@ -165,11 +172,11 @@
         "ldr": 54,
         "pac": 55,
         "pas": 61,
-        "pos": 52,
+        "pos": 54,
         "sho": 48,
         "sta": 57,
-        "str": 55,
-        "tac": 55,
+        "str": 57,
+        "tac": 57,
         "vis": 57
       },
       "birth": "2001-08-01",
@@ -180,23 +187,23 @@
       "name": "Boubacar Traure",
       "nation": "MLI",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 16500
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 66,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 61,
+        "aer": 46,
+        "com": 67,
+        "dri": 68,
+        "ldr": 60,
+        "pac": 64,
         "pas": 69,
-        "pos": 64,
-        "sho": 60,
-        "sta": 67,
-        "str": 59,
-        "tac": 61,
-        "vis": 64
+        "pos": 49,
+        "sho": 66,
+        "sta": 61,
+        "str": 54,
+        "tac": 43,
+        "vis": 66
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -207,23 +214,26 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 39500
     },
     {
+      "alt": [
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 65,
+        "aer": 53,
+        "com": 69,
+        "dri": 70,
+        "ldr": 61,
+        "pac": 68,
         "pas": 69,
-        "pos": 64,
-        "sho": 61,
-        "sta": 71,
-        "str": 64,
-        "tac": 65,
-        "vis": 71
+        "pos": 49,
+        "sho": 67,
+        "sta": 65,
+        "str": 59,
+        "tac": 47,
+        "vis": 73
       },
       "birth": "1994-07-01",
       "contract": null,
@@ -234,10 +244,13 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 44500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -265,18 +278,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 56,
-        "dri": 53,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 63,
-        "pos": 53,
-        "sho": 49,
-        "sta": 59,
-        "str": 50,
-        "tac": 53,
-        "vis": 56
+        "aer": 43,
+        "com": 54,
+        "dri": 58,
+        "ldr": 53,
+        "pac": 64,
+        "pas": 59,
+        "pos": 35,
+        "sho": 53,
+        "sta": 55,
+        "str": 45,
+        "tac": 33,
+        "vis": 53
       },
       "birth": "1999-03-01",
       "contract": null,
@@ -286,23 +299,26 @@
       "name": "Cheikh Sebaly",
       "nation": "SEN",
       "number": 13,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 66,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 63,
-        "pas": 67,
-        "pos": 66,
-        "sho": 58,
-        "sta": 71,
-        "str": 64,
-        "tac": 66,
-        "vis": 65
+        "aer": 57,
+        "com": 68,
+        "dri": 68,
+        "ldr": 61,
+        "pac": 64,
+        "pas": 69,
+        "pos": 67,
+        "sho": 60,
+        "sta": 73,
+        "str": 65,
+        "tac": 67,
+        "vis": 67
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -316,6 +332,9 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -397,18 +416,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 59,
-        "dri": 49,
-        "ldr": 58,
-        "pac": 57,
-        "pas": 56,
-        "pos": 66,
-        "sho": 33,
-        "sta": 58,
-        "str": 65,
-        "tac": 67,
-        "vis": 50
+        "aer": 53,
+        "com": 57,
+        "dri": 59,
+        "ldr": 54,
+        "pac": 65,
+        "pas": 60,
+        "pos": 61,
+        "sho": 40,
+        "sta": 64,
+        "str": 57,
+        "tac": 64,
+        "vis": 56
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -418,10 +437,13 @@
       "name": "Fabien Centonza",
       "nation": "FRA",
       "number": 18,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 61,
@@ -455,7 +477,7 @@
         "ldr": 53,
         "pac": 55,
         "pas": 50,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 53,
         "str": 54,
@@ -474,6 +496,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -502,17 +527,17 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 63,
-        "dri": 59,
+        "aer": 51,
+        "com": 58,
+        "dri": 57,
         "ldr": 58,
-        "pac": 61,
-        "pas": 53,
-        "pos": 36,
-        "sho": 62,
-        "sta": 58,
-        "str": 58,
-        "tac": 31,
+        "pac": 63,
+        "pas": 57,
+        "pos": 56,
+        "sho": 39,
+        "sta": 64,
+        "str": 52,
+        "tac": 61,
         "vis": 51
       },
       "birth": "1998-07-01",
@@ -524,7 +549,7 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 22,
-      "pos": "ST",
+      "pos": "RB",
       "wage": 15500
     },
     {
@@ -561,7 +586,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 48,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 56,
         "str": 55,
@@ -581,19 +606,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 54,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 54,
-        "pas": 43,
-        "pos": 35,
-        "sho": 58,
-        "sta": 48,
-        "str": 56,
-        "tac": 25,
-        "vis": 49
+        "aer": 40,
+        "com": 51,
+        "dri": 59,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 49,
+        "pos": 37,
+        "sho": 53,
+        "sta": 50,
+        "str": 46,
+        "tac": 31,
+        "vis": 55
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -604,23 +632,23 @@
       "nation": "SEN",
       "nation2": "MTN",
       "number": 26,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 61,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 51,
-        "pos": 67,
-        "sho": 34,
-        "sta": 56,
-        "str": 60,
-        "tac": 63,
-        "vis": 45
+        "aer": 48,
+        "com": 59,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 55,
+        "pos": 62,
+        "sho": 41,
+        "sta": 62,
+        "str": 52,
+        "tac": 60,
+        "vis": 51
       },
       "birth": "1993-06-01",
       "contract": null,
@@ -631,7 +659,7 @@
       "nation": "MTQ",
       "nation2": "FRA",
       "number": 28,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 17500
     },
     {
@@ -668,7 +696,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 57,
-        "pos": 47,
+        "pos": 67,
         "sho": 73,
         "sta": 66,
         "str": 71,

@@ -31,7 +31,7 @@
         "ldr": 62,
         "pac": 66,
         "pas": 62,
-        "pos": 43,
+        "pos": 63,
         "sho": 72,
         "sta": 61,
         "str": 70,
@@ -51,6 +51,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 63,
@@ -78,6 +81,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 60,
@@ -112,7 +120,7 @@
         "ldr": 55,
         "pac": 63,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 58,
         "str": 63,
@@ -165,7 +173,7 @@
         "ldr": 57,
         "pac": 58,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 65,
         "sta": 56,
         "str": 64,
@@ -185,6 +193,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -245,7 +256,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 55,
         "str": 58,
@@ -299,7 +310,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 50,
         "str": 59,
@@ -319,6 +330,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -405,7 +419,7 @@
         "ldr": 47,
         "pac": 56,
         "pas": 46,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 55,
         "str": 57,
@@ -450,6 +464,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 44,
         "com": 48,
@@ -472,11 +489,14 @@
       "name": "Sebastian Pelzar",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -503,6 +523,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -555,6 +578,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,
@@ -589,7 +615,7 @@
         "ldr": 46,
         "pac": 56,
         "pas": 45,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 47,
         "str": 55,
@@ -608,6 +634,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -715,6 +744,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 52,
@@ -775,7 +807,7 @@
         "ldr": 40,
         "pac": 52,
         "pas": 39,
-        "pos": 29,
+        "pos": 49,
         "sho": 54,
         "sta": 42,
         "str": 51,
@@ -794,19 +826,24 @@
       "wage": 500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 36,
-        "com": 49,
-        "dri": 44,
-        "ldr": 42,
-        "pac": 43,
-        "pas": 49,
-        "pos": 46,
-        "sho": 43,
-        "sta": 53,
-        "str": 47,
-        "tac": 48,
-        "vis": 47
+        "aer": 37,
+        "com": 51,
+        "dri": 46,
+        "ldr": 43,
+        "pac": 44,
+        "pas": 51,
+        "pos": 47,
+        "sho": 45,
+        "sta": 55,
+        "str": 48,
+        "tac": 49,
+        "vis": 49
       },
       "birth": "1983-10-01",
       "contract": null,
@@ -821,6 +858,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 48,
@@ -875,6 +915,9 @@
       "wage": 500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 48,
@@ -903,18 +946,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 45,
-        "dri": 48,
-        "ldr": 40,
-        "pac": 45,
-        "pas": 42,
-        "pos": 25,
-        "sho": 48,
-        "sta": 42,
-        "str": 46,
-        "tac": 18,
-        "vis": 36
+        "aer": 32,
+        "com": 42,
+        "dri": 53,
+        "ldr": 38,
+        "pac": 49,
+        "pas": 48,
+        "pos": 27,
+        "sho": 43,
+        "sta": 44,
+        "str": 36,
+        "tac": 24,
+        "vis": 42
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -924,7 +967,7 @@
       "name": "Thomas Klesen",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 500
     },
     {
@@ -935,7 +978,7 @@
         "ldr": 37,
         "pac": 49,
         "pas": 35,
-        "pos": 24,
+        "pos": 44,
         "sho": 46,
         "sta": 44,
         "str": 46,

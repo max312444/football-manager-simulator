@@ -101,6 +101,10 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 69,
@@ -128,7 +132,8 @@
     },
     {
       "alt": [
-        "DM"
+        "DM",
+        "CB"
       ],
       "attrs": {
         "aer": 61,
@@ -214,7 +219,9 @@
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 72,
@@ -243,21 +250,21 @@
     },
     {
       "alt": [
-        "LM"
+        "CM"
       ],
       "attrs": {
         "aer": 46,
-        "com": 60,
-        "dri": 73,
+        "com": 68,
+        "dri": 75,
         "ldr": 54,
-        "pac": 70,
-        "pas": 67,
+        "pac": 72,
+        "pas": 80,
         "pos": 54,
-        "sho": 62,
-        "sta": 70,
+        "sho": 64,
+        "sta": 77,
         "str": 56,
-        "tac": 47,
-        "vis": 61
+        "tac": 60,
+        "vis": 74
       },
       "birth": "1983-06-01",
       "contract": "2013-06-30",
@@ -272,6 +279,10 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 71,
@@ -298,6 +309,9 @@
       "wage": 43000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 82,
@@ -330,16 +344,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 73,
+        "aer": 68,
+        "com": 79,
         "dri": 73,
         "ldr": 60,
         "pac": 79,
         "pas": 63,
-        "pos": 41,
-        "sho": 77,
+        "pos": 47,
+        "sho": 83,
         "sta": 71,
-        "str": 66,
+        "str": 72,
         "tac": 34,
         "vis": 62
       },
@@ -359,7 +373,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 40,
@@ -383,13 +397,10 @@
       "name": "Damien Doff",
       "nation": "IRL",
       "number": 16,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 34000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 74,
         "com": 76,
@@ -418,17 +429,17 @@
     {
       "attrs": {
         "aer": 70,
-        "com": 64,
+        "com": 67,
         "dri": 60,
         "ldr": 61,
         "pac": 60,
-        "pas": 66,
+        "pas": 69,
         "pos": 70,
         "sho": 51,
-        "sta": 73,
+        "sta": 76,
         "str": 79,
         "tac": 73,
-        "vis": 56
+        "vis": 59
       },
       "birth": "1982-06-01",
       "contract": "2012-06-30",
@@ -470,7 +481,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 61,
@@ -502,16 +515,16 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 71,
+        "aer": 74,
+        "com": 72,
         "dri": 69,
         "ldr": 63,
-        "pac": 65,
+        "pac": 66,
         "pas": 67,
-        "pos": 41,
-        "sho": 76,
+        "pos": 42,
+        "sho": 77,
         "sta": 66,
-        "str": 76,
+        "str": 77,
         "tac": 35,
         "vis": 66
       },
@@ -530,6 +543,9 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 72,
@@ -558,7 +574,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 44,
@@ -582,11 +598,14 @@
       "name": "Simon Devies",
       "nation": "WAL",
       "number": 29,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 27500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 81,

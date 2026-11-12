@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 66,
-        "dri": 51,
-        "ldr": 61,
-        "pac": 58,
-        "pas": 57,
-        "pos": 70,
-        "sho": 37,
-        "sta": 59,
-        "str": 69,
-        "tac": 70,
-        "vis": 48
+        "aer": 55,
+        "com": 64,
+        "dri": 61,
+        "ldr": 57,
+        "pac": 66,
+        "pas": 61,
+        "pos": 65,
+        "sho": 44,
+        "sta": 65,
+        "str": 61,
+        "tac": 67,
+        "vis": 54
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "name": "Joevin Junes",
       "nation": "TRI",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -131,19 +131,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 66,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 72,
-        "pos": 66,
-        "sho": 65,
+        "dri": 61,
+        "ldr": 65,
+        "pac": 60,
+        "pas": 71,
+        "pos": 70,
+        "sho": 59,
         "sta": 72,
-        "str": 66,
-        "tac": 64,
-        "vis": 71
+        "str": 71,
+        "tac": 70,
+        "vis": 68
       },
       "birth": "1990-10-01",
       "contract": null,
@@ -153,10 +156,13 @@
       "name": "Slobodan Medojavic",
       "nation": "SRB",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -190,7 +196,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 49,
-        "pos": 38,
+        "pos": 58,
         "sho": 60,
         "sta": 57,
         "str": 63,
@@ -209,6 +215,10 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
@@ -236,6 +246,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 64,
@@ -243,7 +258,7 @@
         "ldr": 54,
         "pac": 62,
         "pas": 57,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 57,
         "str": 59,
@@ -262,6 +277,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -322,7 +340,7 @@
         "ldr": 61,
         "pac": 64,
         "pas": 58,
-        "pos": 42,
+        "pos": 62,
         "sho": 70,
         "sta": 60,
         "str": 63,
@@ -349,7 +367,7 @@
         "ldr": 55,
         "pac": 64,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 63,
         "sta": 59,
         "str": 62,
@@ -369,19 +387,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 63,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 67,
-        "pos": 62,
-        "sho": 57,
-        "sta": 66,
-        "str": 60,
-        "tac": 57,
-        "vis": 63
+        "aer": 47,
+        "com": 61,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 71,
+        "pas": 63,
+        "pos": 44,
+        "sho": 61,
+        "sta": 62,
+        "str": 55,
+        "tac": 37,
+        "vis": 60
       },
       "birth": "1986-02-01",
       "contract": null,
@@ -391,7 +412,7 @@
       "name": "Marcel Hellar",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 11500
     },
     {
@@ -447,6 +468,10 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -473,19 +498,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 48,
-        "dri": 49,
-        "ldr": 45,
-        "pac": 52,
-        "pas": 44,
-        "pos": 29,
-        "sho": 55,
-        "sta": 45,
-        "str": 50,
-        "tac": 21,
-        "vis": 43
+        "aer": 33,
+        "com": 45,
+        "dri": 54,
+        "ldr": 43,
+        "pac": 56,
+        "pas": 50,
+        "pos": 31,
+        "sho": 50,
+        "sta": 47,
+        "str": 40,
+        "tac": 27,
+        "vis": 49
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -495,7 +523,7 @@
       "name": "McKinze Geines",
       "nation": "USA",
       "number": 27,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 2000
     },
     {
@@ -553,6 +581,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 59,
@@ -580,6 +611,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 52,

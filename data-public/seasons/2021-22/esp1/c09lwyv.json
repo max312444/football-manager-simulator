@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 82,
-        "com": 77,
-        "dri": 64,
-        "ldr": 77,
-        "pac": 70,
-        "pas": 67,
-        "pos": 79,
-        "sho": 47,
-        "sta": 72,
-        "str": 77,
-        "tac": 81,
-        "vis": 64
+        "aer": 69,
+        "com": 75,
+        "dri": 74,
+        "ldr": 73,
+        "pac": 78,
+        "pas": 71,
+        "pos": 74,
+        "sho": 54,
+        "sta": 78,
+        "str": 69,
+        "tac": 78,
+        "vis": 70
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Mario Gespar",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 93000
     },
     {
@@ -129,6 +129,10 @@
       "wage": 85000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -156,18 +160,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 78,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 76,
-        "pos": 74,
-        "sho": 67,
+        "dri": 73,
+        "ldr": 74,
+        "pac": 65,
+        "pas": 75,
+        "pos": 78,
+        "sho": 61,
         "sta": 81,
-        "str": 69,
-        "tac": 75,
-        "vis": 76
+        "str": 74,
+        "tac": 81,
+        "vis": 73
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -177,7 +181,7 @@
       "name": "Etienne Capoua",
       "nation": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 118000
     },
     {
@@ -188,7 +192,7 @@
         "ldr": 70,
         "pac": 79,
         "pas": 67,
-        "pos": 55,
+        "pos": 75,
         "sho": 81,
         "sta": 71,
         "str": 77,
@@ -207,6 +211,9 @@
       "wage": 85000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 79,
         "com": 70,
@@ -240,7 +247,7 @@
         "ldr": 74,
         "pac": 79,
         "pas": 69,
-        "pos": 61,
+        "pos": 81,
         "sho": 81,
         "sta": 75,
         "str": 82,
@@ -260,18 +267,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 69,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 63,
-        "pas": 70,
-        "pos": 66,
-        "sho": 60,
+        "dri": 62,
+        "ldr": 62,
+        "pac": 60,
+        "pas": 69,
+        "pos": 70,
+        "sho": 54,
         "sta": 68,
-        "str": 61,
-        "tac": 62,
-        "vis": 68
+        "str": 66,
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -281,23 +288,27 @@
       "name": "Vicente Iborre",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 41500
     },
     {
+      "alt": [
+        "LW",
+        "RWB"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 67,
-        "dri": 62,
-        "ldr": 60,
-        "pac": 69,
-        "pas": 56,
-        "pos": 47,
-        "sho": 67,
-        "sta": 64,
-        "str": 65,
-        "tac": 38,
-        "vis": 58
+        "aer": 51,
+        "com": 64,
+        "dri": 67,
+        "ldr": 58,
+        "pac": 73,
+        "pas": 62,
+        "pos": 49,
+        "sho": 62,
+        "sta": 66,
+        "str": 55,
+        "tac": 44,
+        "vis": 64
       },
       "birth": "1999-05-01",
       "contract": null,
@@ -307,23 +318,26 @@
       "name": "Samuel Chukwuaze",
       "nation": "NGA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 25000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 79,
-        "com": 70,
-        "dri": 61,
-        "ldr": 70,
-        "pac": 68,
-        "pas": 68,
-        "pos": 79,
-        "sho": 46,
-        "sta": 70,
-        "str": 80,
-        "tac": 81,
-        "vis": 59
+        "aer": 66,
+        "com": 68,
+        "dri": 71,
+        "ldr": 66,
+        "pac": 76,
+        "pas": 72,
+        "pos": 74,
+        "sho": 53,
+        "sta": 76,
+        "str": 72,
+        "tac": 78,
+        "vis": 65
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -333,7 +347,7 @@
       "name": "Pervis Estupynan",
       "nation": "ECU",
       "number": 12,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 73000
     },
     {
@@ -363,19 +377,22 @@
       "wage": 102500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 71,
-        "dri": 67,
-        "ldr": 66,
-        "pac": 69,
-        "pas": 72,
-        "pos": 71,
-        "sho": 66,
-        "sta": 72,
-        "str": 70,
-        "tac": 69,
-        "vis": 72
+        "aer": 63,
+        "com": 73,
+        "dri": 69,
+        "ldr": 67,
+        "pac": 70,
+        "pas": 74,
+        "pos": 72,
+        "sho": 68,
+        "sta": 74,
+        "str": 71,
+        "tac": 70,
+        "vis": 74
       },
       "birth": "1991-10-01",
       "contract": null,
@@ -389,19 +406,23 @@
       "wage": 70000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 76,
-        "dri": 72,
-        "ldr": 68,
-        "pac": 70,
-        "pas": 64,
-        "pos": 54,
-        "sho": 76,
-        "sta": 71,
-        "str": 75,
-        "tac": 44,
-        "vis": 66
+        "aer": 59,
+        "com": 73,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 74,
+        "pas": 70,
+        "pos": 56,
+        "sho": 71,
+        "sta": 73,
+        "str": 65,
+        "tac": 50,
+        "vis": 72
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -412,7 +433,7 @@
       "nation": "NED",
       "nation2": "NGA",
       "number": 15,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 59000
     },
     {
@@ -423,7 +444,7 @@
         "ldr": 67,
         "pac": 77,
         "pas": 71,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 69,
         "str": 79,
@@ -443,19 +464,22 @@
       "wage": 82500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 69,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 62,
-        "pas": 54,
-        "pos": 40,
-        "sho": 69,
-        "sta": 59,
-        "str": 62,
-        "tac": 33,
-        "vis": 57
+        "aer": 50,
+        "com": 66,
+        "dri": 66,
+        "ldr": 58,
+        "pac": 66,
+        "pas": 60,
+        "pos": 42,
+        "sho": 64,
+        "sta": 61,
+        "str": 52,
+        "tac": 39,
+        "vis": 63
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -465,7 +489,7 @@
       "name": "Dani Rabe",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 19000
     },
     {
@@ -491,13 +515,10 @@
       "name": "Alberto Morenu",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 103500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 77,
         "com": 80,
@@ -524,19 +545,23 @@
       "wage": 132500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 61,
-        "dri": 52,
-        "ldr": 65,
-        "pac": 57,
-        "pas": 55,
-        "pos": 69,
-        "sho": 38,
-        "sta": 61,
-        "str": 71,
-        "tac": 67,
-        "vis": 49
+        "aer": 59,
+        "com": 59,
+        "dri": 62,
+        "ldr": 61,
+        "pac": 65,
+        "pas": 59,
+        "pos": 64,
+        "sho": 45,
+        "sta": 67,
+        "str": 63,
+        "tac": 64,
+        "vis": 55
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -546,7 +571,7 @@
       "name": "Ruben Pene",
       "nation": "ESP",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 25000
     },
     {
@@ -577,18 +602,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 72,
-        "dri": 71,
-        "ldr": 74,
-        "pac": 72,
+        "aer": 61,
+        "com": 73,
+        "dri": 75,
+        "ldr": 72,
+        "pac": 75,
         "pas": 76,
-        "pos": 74,
-        "sho": 68,
-        "sta": 77,
-        "str": 72,
-        "tac": 68,
-        "vis": 75
+        "pos": 59,
+        "sho": 74,
+        "sta": 71,
+        "str": 67,
+        "tac": 50,
+        "vis": 77
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -598,23 +623,27 @@
       "name": "Moi Gomaz",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 101500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 71,
-        "dri": 61,
-        "ldr": 71,
-        "pac": 63,
-        "pas": 67,
-        "pos": 73,
-        "sho": 46,
-        "sta": 65,
-        "str": 74,
-        "tac": 73,
-        "vis": 59
+        "aer": 63,
+        "com": 69,
+        "dri": 71,
+        "ldr": 67,
+        "pac": 71,
+        "pas": 71,
+        "pos": 68,
+        "sho": 53,
+        "sta": 71,
+        "str": 66,
+        "tac": 70,
+        "vis": 65
       },
       "birth": "1996-04-01",
       "contract": null,
@@ -624,23 +653,27 @@
       "name": "Alfonso Padraza",
       "nation": "ESP",
       "number": 24,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 54000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 57,
-        "dri": 58,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 61,
-        "pos": 58,
-        "sho": 56,
-        "sta": 65,
-        "str": 57,
-        "tac": 58,
-        "vis": 60
+        "aer": 42,
+        "com": 55,
+        "dri": 63,
+        "ldr": 49,
+        "pac": 63,
+        "pas": 57,
+        "pos": 40,
+        "sho": 60,
+        "sta": 61,
+        "str": 52,
+        "tac": 38,
+        "vis": 57
       },
       "birth": "2002-10-01",
       "contract": null,
@@ -650,7 +683,7 @@
       "name": "Yeremy Pyno",
       "nation": "ESP",
       "number": 30,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 18500
     }
   ],

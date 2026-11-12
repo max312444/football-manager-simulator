@@ -96,6 +96,9 @@
       "wage": 85500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 57,
@@ -231,21 +234,23 @@
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 55,
-        "com": 58,
+        "com": 68,
         "dri": 64,
         "ldr": 45,
         "pac": 69,
-        "pas": 66,
+        "pas": 76,
         "pos": 58,
         "sho": 63,
         "sta": 76,
         "str": 70,
-        "tac": 60,
-        "vis": 60
+        "tac": 70,
+        "vis": 70
       },
       "birth": "1991-08-01",
       "contract": "2017-06-30",
@@ -262,17 +267,17 @@
     {
       "attrs": {
         "aer": 56,
-        "com": 66,
+        "com": 67,
         "dri": 68,
         "ldr": 58,
         "pac": 65,
-        "pas": 70,
-        "pos": 66,
+        "pas": 71,
+        "pos": 67,
         "sho": 56,
         "sta": 79,
-        "str": 70,
-        "tac": 70,
-        "vis": 62
+        "str": 71,
+        "tac": 71,
+        "vis": 63
       },
       "birth": "1985-01-01",
       "contract": "2015-06-30",
@@ -283,7 +288,7 @@
       "nation": "MAR",
       "nation2": "NED",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 80000
     },
     {
@@ -314,19 +319,21 @@
     },
     {
       "alt": [
-        "RW"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 56,
-        "com": 60,
+        "aer": 66,
+        "com": 70,
         "dri": 68,
         "ldr": 46,
         "pac": 79,
         "pas": 60,
-        "pos": 42,
-        "sho": 65,
+        "pos": 52,
+        "sho": 75,
         "sta": 78,
-        "str": 65,
+        "str": 75,
         "tac": 36,
         "vis": 58
       },
@@ -346,16 +353,16 @@
         "LW"
       ],
       "attrs": {
-        "aer": 56,
-        "com": 63,
+        "aer": 66,
+        "com": 73,
         "dri": 72,
         "ldr": 55,
         "pac": 87,
         "pas": 61,
-        "pos": 44,
-        "sho": 71,
+        "pos": 54,
+        "sho": 81,
         "sta": 74,
-        "str": 72,
+        "str": 82,
         "tac": 38,
         "vis": 57
       },
@@ -371,15 +378,20 @@
       "wage": 57000
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 63,
-        "dri": 69,
+        "com": 64,
+        "dri": 70,
         "ldr": 51,
-        "pac": 72,
+        "pac": 73,
         "pas": 72,
         "pos": 54,
-        "sho": 60,
+        "sho": 61,
         "sta": 75,
         "str": 60,
         "tac": 49,
@@ -393,7 +405,7 @@
       "name": "Marc Albrightun",
       "nation": "ENG",
       "number": 12,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 51500
     },
     {
@@ -423,6 +435,9 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 65,
@@ -449,19 +464,24 @@
       "wage": 65000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 64,
+        "com": 71,
         "dri": 73,
         "ldr": 56,
         "pac": 72,
-        "pas": 72,
+        "pas": 79,
         "pos": 64,
         "sho": 59,
         "sta": 81,
         "str": 66,
-        "tac": 68,
-        "vis": 68
+        "tac": 75,
+        "vis": 75
       },
       "birth": "1989-11-01",
       "contract": "2016-06-30",
@@ -475,19 +495,24 @@
       "wage": 85500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 56,
-        "dri": 59,
+        "com": 67,
+        "dri": 65,
         "ldr": 48,
         "pac": 65,
-        "pas": 61,
+        "pas": 72,
         "pos": 59,
-        "sho": 50,
+        "sho": 56,
         "sta": 75,
         "str": 66,
-        "tac": 64,
-        "vis": 54
+        "tac": 69,
+        "vis": 65
       },
       "birth": "1989-04-01",
       "contract": "2015-06-30",
@@ -503,17 +528,17 @@
     {
       "attrs": {
         "aer": 62,
-        "com": 56,
+        "com": 58,
         "dri": 58,
         "ldr": 44,
         "pac": 62,
-        "pas": 62,
-        "pos": 62,
+        "pas": 64,
+        "pos": 64,
         "sho": 50,
         "sta": 72,
-        "str": 72,
-        "tac": 66,
-        "vis": 54
+        "str": 74,
+        "tac": 68,
+        "vis": 56
       },
       "birth": "1990-11-01",
       "contract": "2016-06-30",
@@ -524,7 +549,7 @@
       "nation": "MLI",
       "nation2": "MLI",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43000
     },
     {
@@ -557,19 +582,23 @@
       "wage": 88000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 56,
+        "com": 65,
         "dri": 64,
         "ldr": 44,
         "pac": 68,
-        "pas": 64,
+        "pas": 73,
         "pos": 56,
         "sho": 58,
         "sta": 72,
         "str": 64,
-        "tac": 56,
-        "vis": 60
+        "tac": 65,
+        "vis": 69
       },
       "birth": "1992-06-01",
       "contract": "2015-06-30",
@@ -583,6 +612,9 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 40,
         "com": 56,
@@ -609,17 +641,22 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CB"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 48,
+        "aer": 61,
+        "com": 51,
         "dri": 56,
         "ldr": 38,
         "pac": 70,
         "pas": 48,
-        "pos": 36,
-        "sho": 56,
+        "pos": 39,
+        "sho": 59,
         "sta": 66,
-        "str": 70,
+        "str": 73,
         "tac": 32,
         "vis": 44
       },

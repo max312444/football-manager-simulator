@@ -51,6 +51,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -105,18 +108,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 63,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 62,
-        "pas": 66,
-        "pos": 59,
-        "sho": 60,
+        "dri": 59,
+        "ldr": 61,
+        "pac": 59,
+        "pas": 65,
+        "pos": 63,
+        "sho": 54,
         "sta": 67,
-        "str": 62,
-        "tac": 60,
-        "vis": 68
+        "str": 67,
+        "tac": 66,
+        "vis": 65
       },
       "birth": "1990-02-01",
       "contract": null,
@@ -127,23 +130,23 @@
       "name": "Patrick Fonk",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 59,
-        "dri": 54,
-        "ldr": 49,
-        "pac": 53,
-        "pas": 55,
-        "pos": 51,
-        "sho": 50,
+        "dri": 50,
+        "ldr": 51,
+        "pac": 50,
+        "pas": 54,
+        "pos": 55,
+        "sho": 44,
         "sta": 60,
-        "str": 50,
-        "tac": 55,
-        "vis": 57
+        "str": 55,
+        "tac": 61,
+        "vis": 54
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -153,10 +156,13 @@
       "name": "Dennis Dauba",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -190,7 +196,7 @@
         "ldr": 52,
         "pac": 54,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 57,
         "sta": 52,
         "str": 54,
@@ -216,7 +222,7 @@
         "ldr": 58,
         "pac": 59,
         "pas": 55,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 55,
         "str": 59,
@@ -262,19 +268,23 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 59,
-        "dri": 54,
-        "ldr": 53,
-        "pac": 53,
+        "aer": 42,
+        "com": 60,
+        "dri": 58,
+        "ldr": 51,
+        "pac": 56,
         "pas": 61,
-        "pos": 58,
-        "sho": 53,
-        "sta": 59,
-        "str": 54,
-        "tac": 55,
-        "vis": 63
+        "pos": 43,
+        "sho": 59,
+        "sta": 53,
+        "str": 49,
+        "tac": 37,
+        "vis": 65
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -285,23 +295,28 @@
       "name": "Akaki Gogya",
       "nation": "GER",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 62,
-        "dri": 55,
-        "ldr": 52,
-        "pac": 58,
-        "pas": 54,
-        "pos": 36,
-        "sho": 60,
-        "sta": 59,
-        "str": 63,
-        "tac": 28,
-        "vis": 54
+        "aer": 47,
+        "com": 59,
+        "dri": 60,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 60,
+        "pos": 38,
+        "sho": 55,
+        "sta": 61,
+        "str": 53,
+        "tac": 34,
+        "vis": 60
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -312,7 +327,7 @@
       "name": "Joe Gyao",
       "nation": "USA",
       "number": 15,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
@@ -342,6 +357,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -375,7 +393,7 @@
         "ldr": 58,
         "pac": 59,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 56,
         "str": 62,
@@ -401,7 +419,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 66,
         "sta": 61,
         "str": 64,
@@ -447,6 +465,11 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -499,22 +522,19 @@
       "wage": 3500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 55,
-        "com": 64,
-        "dri": 62,
-        "ldr": 57,
-        "pac": 58,
-        "pas": 68,
-        "pos": 58,
-        "sho": 60,
-        "sta": 62,
-        "str": 57,
-        "tac": 56,
-        "vis": 63
+        "aer": 49,
+        "com": 62,
+        "dri": 67,
+        "ldr": 53,
+        "pac": 67,
+        "pas": 64,
+        "pos": 40,
+        "sho": 64,
+        "sta": 58,
+        "str": 52,
+        "tac": 36,
+        "vis": 60
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -524,7 +544,7 @@
       "name": "Kevin Schyndler",
       "nation": "GER",
       "number": 25,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 7500
     },
     {

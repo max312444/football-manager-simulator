@@ -97,7 +97,9 @@
     },
     {
       "alt": [
-        "RB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 54,
@@ -122,7 +124,7 @@
       "name": "Mauricio Isle",
       "nation": "CHI",
       "number": 14,
-      "pos": "RWB",
+      "pos": "RB",
       "wage": 70000
     },
     {
@@ -240,9 +242,6 @@
       "wage": 24000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 70,
         "com": 63,
@@ -321,6 +320,9 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 61,
@@ -347,6 +349,9 @@
       "wage": 53500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 67,
@@ -376,19 +381,23 @@
       "wage": 92000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
-        "com": 62,
-        "dri": 64,
+        "com": 67,
+        "dri": 68,
         "ldr": 50,
         "pac": 62,
-        "pas": 66,
+        "pas": 71,
         "pos": 64,
-        "sho": 64,
-        "sta": 72,
+        "sho": 68,
+        "sta": 76,
         "str": 78,
-        "tac": 62,
-        "vis": 60
+        "tac": 63,
+        "vis": 65
       },
       "birth": "1990-01-01",
       "contract": "2018-06-30",
@@ -404,17 +413,17 @@
     {
       "attrs": {
         "aer": 67,
-        "com": 68,
+        "com": 69,
         "dri": 63,
         "ldr": 60,
         "pac": 66,
-        "pas": 67,
+        "pas": 68,
         "pos": 71,
         "sho": 59,
-        "sta": 75,
+        "sta": 76,
         "str": 81,
         "tac": 79,
-        "vis": 61
+        "vis": 62
       },
       "birth": "1989-03-01",
       "contract": "2016-06-30",
@@ -429,6 +438,11 @@
       "wage": 92000
     },
     {
+      "alt": [
+        "LW",
+        "LWB",
+        "ST"
+      ],
       "attrs": {
         "aer": 54,
         "com": 56,
@@ -456,19 +470,23 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 61,
+        "com": 65,
         "dri": 64,
         "ldr": 49,
         "pac": 64,
-        "pas": 66,
+        "pas": 70,
         "pos": 54,
         "sho": 60,
         "sta": 71,
         "str": 63,
-        "tac": 54,
-        "vis": 62
+        "tac": 58,
+        "vis": 66
       },
       "birth": "1991-12-01",
       "contract": "2018-06-30",
@@ -512,9 +530,6 @@
       "wage": 38500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
         "aer": 40,
         "com": 63,
@@ -541,6 +556,9 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 36,
         "com": 62,
@@ -563,10 +581,13 @@
       "name": "Shaun Wryght-Phillips",
       "nation": "ENG",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 38500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 73,
@@ -598,17 +619,17 @@
       ],
       "attrs": {
         "aer": 40,
-        "com": 64,
+        "com": 65,
         "dri": 83,
         "ldr": 40,
         "pac": 68,
-        "pas": 72,
+        "pas": 73,
         "pos": 40,
-        "sho": 71,
+        "sho": 72,
         "sta": 56,
         "str": 60,
         "tac": 30,
-        "vis": 74
+        "vis": 75
       },
       "birth": "1989-05-01",
       "contract": "2015-06-30",
@@ -656,16 +677,16 @@
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 70,
+        "aer": 78,
+        "com": 73,
         "dri": 69,
         "ldr": 62,
-        "pac": 55,
+        "pac": 58,
         "pas": 69,
-        "pos": 43,
-        "sho": 73,
+        "pos": 46,
+        "sho": 76,
         "sta": 63,
-        "str": 78,
+        "str": 81,
         "tac": 37,
         "vis": 67
       },
@@ -685,7 +706,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 52,
@@ -710,7 +732,7 @@
       "name": "Eduardo Vergas",
       "nation": "CHI",
       "number": 24,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 49000
     }
   ],

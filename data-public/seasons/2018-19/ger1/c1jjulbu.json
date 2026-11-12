@@ -77,6 +77,10 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 71,
@@ -110,7 +114,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 61,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 64,
         "str": 71,
@@ -152,10 +156,13 @@
       "name": "Ludwig Aogustinsson",
       "nation": "SWE",
       "number": 5,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 65000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -182,6 +189,9 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 79,
@@ -215,7 +225,7 @@
         "ldr": 76,
         "pac": 79,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 75,
         "str": 81,
@@ -234,19 +244,23 @@
       "wage": 90500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 79,
-        "dri": 79,
-        "ldr": 70,
-        "pac": 77,
-        "pas": 67,
-        "pos": 58,
-        "sho": 80,
-        "sta": 74,
-        "str": 76,
-        "tac": 50,
-        "vis": 73
+        "aer": 64,
+        "com": 76,
+        "dri": 84,
+        "ldr": 68,
+        "pac": 81,
+        "pas": 73,
+        "pos": 60,
+        "sho": 75,
+        "sta": 76,
+        "str": 66,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -257,12 +271,14 @@
       "nation": "AUT",
       "nation2": "GER",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 77000
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 72,
@@ -271,7 +287,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 68,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 71,
         "str": 78,
@@ -290,19 +306,23 @@
       "wage": 62000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 71,
-        "dri": 72,
-        "ldr": 69,
-        "pac": 63,
+        "aer": 57,
+        "com": 72,
+        "dri": 76,
+        "ldr": 67,
+        "pac": 66,
         "pas": 71,
-        "pos": 69,
-        "sho": 67,
-        "sta": 74,
-        "str": 66,
-        "tac": 70,
-        "vis": 74
+        "pos": 54,
+        "sho": 73,
+        "sta": 68,
+        "str": 61,
+        "tac": 52,
+        "vis": 76
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -313,7 +333,7 @@
       "nation": "KVX",
       "nation2": "ALB",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 57000
     },
     {
@@ -344,19 +364,22 @@
       "wage": 43500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 55,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 57,
-        "pos": 59,
-        "sho": 52,
-        "sta": 58,
-        "str": 56,
-        "tac": 56,
-        "vis": 59
+        "aer": 46,
+        "com": 57,
+        "dri": 61,
+        "ldr": 56,
+        "pac": 51,
+        "pas": 59,
+        "pos": 60,
+        "sho": 54,
+        "sta": 60,
+        "str": 57,
+        "tac": 57,
+        "vis": 61
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -370,6 +393,10 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 65,
@@ -422,6 +449,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 78,
@@ -482,7 +512,7 @@
         "ldr": 52,
         "pac": 60,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 52,
         "str": 60,
@@ -508,7 +538,7 @@
         "ldr": 67,
         "pac": 72,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 74,
         "sta": 72,
         "str": 76,
@@ -528,6 +558,11 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -555,7 +590,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 66,
@@ -590,7 +626,7 @@
         "ldr": 59,
         "pac": 65,
         "pas": 58,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 63,
         "str": 67,
@@ -635,6 +671,9 @@
       "wage": 51000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 79,
@@ -661,6 +700,9 @@
       "wage": 98500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 73,
         "com": 67,
@@ -715,18 +757,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 70,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 69,
-        "pos": 66,
-        "sho": 64,
+        "dri": 62,
+        "ldr": 64,
+        "pac": 58,
+        "pas": 68,
+        "pos": 70,
+        "sho": 58,
         "sta": 71,
-        "str": 60,
-        "tac": 62,
-        "vis": 68
+        "str": 65,
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -736,23 +778,26 @@
       "name": "Maximilian Eggestain",
       "nation": "GER",
       "number": 35,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 34000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 45,
-        "dri": 35,
-        "ldr": 44,
-        "pac": 41,
-        "pas": 44,
-        "pos": 53,
-        "sho": 23,
-        "sta": 47,
-        "str": 50,
-        "tac": 52,
-        "vis": 36
+        "aer": 40,
+        "com": 43,
+        "dri": 45,
+        "ldr": 40,
+        "pac": 49,
+        "pas": 48,
+        "pos": 48,
+        "sho": 30,
+        "sta": 53,
+        "str": 42,
+        "tac": 49,
+        "vis": 42
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -762,10 +807,13 @@
       "name": "Thore Jacobsan",
       "nation": "GER",
       "number": 36,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 69,

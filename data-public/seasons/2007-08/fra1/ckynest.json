@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 55,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 49,
-        "pos": 65,
-        "sho": 34,
-        "sta": 59,
-        "str": 61,
-        "tac": 63,
-        "vis": 48
+        "aer": 49,
+        "com": 53,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 53,
+        "pos": 60,
+        "sho": 41,
+        "sta": 65,
+        "str": 53,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "1974-03-01",
       "contract": null,
@@ -73,10 +73,15 @@
       "name": "Manuel dos Santus",
       "nation": "FRA",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 52,
@@ -131,6 +136,11 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 72,
@@ -164,7 +174,7 @@
         "ldr": 48,
         "pac": 49,
         "pas": 44,
-        "pos": 29,
+        "pos": 49,
         "sho": 52,
         "sta": 48,
         "str": 49,
@@ -184,6 +194,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -217,7 +230,7 @@
         "ldr": 56,
         "pac": 65,
         "pas": 60,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 61,
         "str": 64,
@@ -236,19 +249,22 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 68,
-        "dri": 65,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 72,
-        "pos": 66,
-        "sho": 63,
-        "sta": 71,
-        "str": 62,
-        "tac": 66,
-        "vis": 70
+        "aer": 49,
+        "com": 66,
+        "dri": 70,
+        "ldr": 57,
+        "pac": 71,
+        "pas": 68,
+        "pos": 48,
+        "sho": 67,
+        "sta": 67,
+        "str": 57,
+        "tac": 46,
+        "vis": 67
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -259,23 +275,26 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 19500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 65,
-        "dri": 64,
-        "ldr": 60,
-        "pac": 70,
-        "pas": 59,
-        "pos": 43,
-        "sho": 67,
-        "sta": 62,
-        "str": 66,
-        "tac": 39,
-        "vis": 62
+        "aer": 54,
+        "com": 62,
+        "dri": 69,
+        "ldr": 58,
+        "pac": 74,
+        "pas": 65,
+        "pos": 45,
+        "sho": 62,
+        "sta": 64,
+        "str": 56,
+        "tac": 45,
+        "vis": 68
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -285,22 +304,27 @@
       "name": "Eric Mouluungui",
       "nation": "GAB",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 14000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 53,
+        "aer": 58,
+        "com": 55,
         "dri": 52,
         "ldr": 50,
-        "pac": 52,
+        "pac": 60,
         "pas": 60,
-        "pos": 51,
+        "pos": 61,
         "sho": 49,
         "sta": 58,
-        "str": 47,
-        "tac": 48,
+        "str": 57,
+        "tac": 58,
         "vis": 56
       },
       "birth": "1983-12-01",
@@ -311,23 +335,23 @@
       "name": "Edgar Luue",
       "nation": "CIV",
       "number": 12,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 5500
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 66,
-        "dri": 62,
-        "ldr": 61,
-        "pac": 58,
-        "pas": 64,
-        "pos": 59,
-        "sho": 60,
+        "dri": 58,
+        "ldr": 63,
+        "pac": 55,
+        "pas": 63,
+        "pos": 63,
+        "sho": 54,
         "sta": 68,
-        "str": 57,
-        "tac": 58,
-        "vis": 65
+        "str": 62,
+        "tac": 64,
+        "vis": 62
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -337,23 +361,28 @@
       "name": "Morgan Schneidarlin",
       "nation": "FRA",
       "number": 13,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 56,
-        "dri": 52,
-        "ldr": 46,
-        "pac": 51,
-        "pas": 55,
-        "pos": 51,
-        "sho": 45,
-        "sta": 55,
-        "str": 51,
-        "tac": 50,
-        "vis": 51
+        "aer": 40,
+        "com": 58,
+        "dri": 56,
+        "ldr": 44,
+        "pac": 54,
+        "pas": 56,
+        "pos": 36,
+        "sho": 52,
+        "sta": 49,
+        "str": 46,
+        "tac": 32,
+        "vis": 54
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -363,7 +392,7 @@
       "name": "Romain Gesmi",
       "nation": "FRA",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
@@ -394,18 +423,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 63,
+        "aer": 61,
+        "com": 64,
         "dri": 59,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 61,
+        "ldr": 52,
+        "pac": 61,
+        "pas": 51,
         "pos": 57,
-        "sho": 53,
-        "sta": 63,
-        "str": 53,
-        "tac": 57,
-        "vis": 60
+        "sho": 62,
+        "sta": 57,
+        "str": 58,
+        "tac": 31,
+        "vis": 51
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -415,10 +444,13 @@
       "name": "James Fanchune",
       "nation": "FRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 64,
@@ -446,18 +478,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 62,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 65,
-        "pos": 59,
-        "sho": 58,
+        "dri": 56,
+        "ldr": 62,
+        "pac": 56,
+        "pas": 64,
+        "pos": 63,
+        "sho": 52,
         "sta": 64,
-        "str": 60,
-        "tac": 58,
-        "vis": 61
+        "str": 65,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -467,7 +499,7 @@
       "name": "Guillaume Lacuur",
       "nation": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13000
     },
     {
@@ -493,7 +525,7 @@
       "name": "Ahmed Abou Moslam",
       "nation": "EGY",
       "number": 20,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -504,7 +536,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 54,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 61,
         "str": 66,
@@ -604,18 +636,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 50,
-        "dri": 37,
-        "ldr": 48,
-        "pac": 44,
-        "pas": 42,
-        "pos": 58,
-        "sho": 23,
-        "sta": 48,
-        "str": 53,
-        "tac": 56,
-        "vis": 37
+        "aer": 44,
+        "com": 48,
+        "dri": 47,
+        "ldr": 44,
+        "pac": 52,
+        "pas": 46,
+        "pos": 53,
+        "sho": 30,
+        "sta": 54,
+        "str": 45,
+        "tac": 53,
+        "vis": 43
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -625,10 +657,15 @@
       "name": "Stephane Trytz",
       "nation": "FRA",
       "number": 25,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 55,
@@ -656,18 +693,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 72,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 68,
-        "pas": 71,
-        "pos": 67,
-        "sho": 63,
-        "sta": 74,
-        "str": 62,
-        "tac": 65,
-        "vis": 69
+        "aer": 56,
+        "com": 74,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 71,
+        "pas": 72,
+        "pos": 52,
+        "sho": 70,
+        "sta": 68,
+        "str": 57,
+        "tac": 47,
+        "vis": 72
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -677,10 +714,13 @@
       "name": "Emil Gargurov",
       "nation": "BUL",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,

@@ -130,6 +130,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,
@@ -164,7 +167,7 @@
         "ldr": 52,
         "pac": 63,
         "pas": 55,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 53,
         "str": 57,
@@ -183,6 +186,10 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 65,
@@ -216,7 +223,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 63,
         "sta": 61,
         "str": 62,
@@ -236,18 +243,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
+        "aer": 56,
         "com": 70,
-        "dri": 67,
+        "dri": 71,
         "ldr": 65,
-        "pac": 71,
-        "pas": 65,
-        "pos": 49,
-        "sho": 76,
+        "pac": 69,
+        "pas": 75,
+        "pos": 54,
+        "sho": 73,
         "sta": 67,
-        "str": 72,
-        "tac": 41,
-        "vis": 66
+        "str": 62,
+        "tac": 49,
+        "vis": 77
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -257,10 +264,13 @@
       "name": "Jan Rusenthal",
       "nation": "GER",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -287,19 +297,22 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 75,
-        "dri": 62,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 68,
-        "pos": 79,
-        "sho": 46,
-        "sta": 69,
-        "str": 77,
-        "tac": 79,
-        "vis": 59
+        "aer": 64,
+        "com": 73,
+        "dri": 72,
+        "ldr": 68,
+        "pac": 76,
+        "pas": 72,
+        "pos": 74,
+        "sho": 53,
+        "sta": 75,
+        "str": 69,
+        "tac": 76,
+        "vis": 65
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -310,7 +323,7 @@
       "nation": "AUT",
       "nation2": "HUN",
       "number": 13,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 52500
     },
     {
@@ -321,7 +334,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 64,
-        "pos": 50,
+        "pos": 70,
         "sho": 78,
         "sta": 68,
         "str": 71,
@@ -340,22 +353,19 @@
       "wage": 45500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 76,
-        "com": 75,
-        "dri": 63,
-        "ldr": 74,
-        "pac": 66,
-        "pas": 66,
-        "pos": 76,
-        "sho": 45,
-        "sta": 69,
-        "str": 78,
-        "tac": 79,
-        "vis": 61
+        "aer": 63,
+        "com": 73,
+        "dri": 73,
+        "ldr": 70,
+        "pac": 74,
+        "pas": 70,
+        "pos": 71,
+        "sho": 52,
+        "sta": 75,
+        "str": 70,
+        "tac": 76,
+        "vis": 67
       },
       "birth": "1983-09-01",
       "contract": null,
@@ -365,7 +375,7 @@
       "name": "Junior Diez",
       "nation": "CRC",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 52500
     },
     {
@@ -395,19 +405,22 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 74,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 64,
-        "pas": 73,
-        "pos": 70,
-        "sho": 66,
+        "dri": 65,
+        "ldr": 69,
+        "pac": 61,
+        "pas": 72,
+        "pos": 74,
+        "sho": 60,
         "sta": 70,
-        "str": 67,
-        "tac": 65,
-        "vis": 72
+        "str": 72,
+        "tac": 71,
+        "vis": 69
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -417,23 +430,26 @@
       "name": "Peter Nyemeyer",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 52500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 68,
-        "dri": 65,
-        "ldr": 68,
-        "pac": 62,
-        "pas": 70,
-        "pos": 67,
-        "sho": 64,
-        "sta": 73,
-        "str": 64,
-        "tac": 69,
-        "vis": 68
+        "aer": 51,
+        "com": 66,
+        "dri": 70,
+        "ldr": 64,
+        "pac": 71,
+        "pas": 66,
+        "pos": 49,
+        "sho": 68,
+        "sta": 69,
+        "str": 59,
+        "tac": 49,
+        "vis": 65
       },
       "birth": "1986-02-01",
       "contract": null,
@@ -443,10 +459,15 @@
       "name": "Marcel Hellar",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 42500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 74,
@@ -473,6 +494,10 @@
       "wage": 52500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -499,19 +524,23 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 61,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 66,
-        "pos": 62,
-        "sho": 55,
-        "sta": 63,
-        "str": 61,
-        "tac": 57,
-        "vis": 65
+        "aer": 46,
+        "com": 59,
+        "dri": 68,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 62,
+        "pos": 44,
+        "sho": 59,
+        "sta": 59,
+        "str": 56,
+        "tac": 37,
+        "vis": 62
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -521,7 +550,7 @@
       "name": "Milan Ivane",
       "nation": "SVK",
       "number": 27,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 20500
     },
     {
@@ -551,6 +580,10 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -579,21 +612,21 @@
     },
     {
       "alt": [
-        "RB"
+        "LM"
       ],
       "attrs": {
-        "aer": 75,
-        "com": 71,
-        "dri": 58,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 65,
-        "pos": 75,
-        "sho": 46,
-        "sta": 72,
-        "str": 76,
-        "tac": 79,
-        "vis": 60
+        "aer": 62,
+        "com": 69,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 77,
+        "pas": 69,
+        "pos": 70,
+        "sho": 53,
+        "sta": 78,
+        "str": 68,
+        "tac": 76,
+        "vis": 66
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -604,7 +637,7 @@
       "nation": "GER",
       "nation2": "RUS",
       "number": 34,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 51500
     }
   ],

@@ -51,6 +51,10 @@
       "wage": 46500
     },
     {
+      "alt": [
+        "DM",
+        "RB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 62,
@@ -156,6 +160,10 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 68,
@@ -163,7 +171,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 72,
         "sta": 64,
         "str": 68,
@@ -182,19 +190,23 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 68,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 66,
-        "pas": 74,
-        "pos": 69,
-        "sho": 60,
-        "sta": 69,
-        "str": 66,
-        "tac": 62,
-        "vis": 71
+        "aer": 52,
+        "com": 66,
+        "dri": 75,
+        "ldr": 62,
+        "pac": 75,
+        "pas": 70,
+        "pos": 51,
+        "sho": 64,
+        "sta": 65,
+        "str": 61,
+        "tac": 42,
+        "vis": 68
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -205,7 +217,7 @@
       "name": "Vitulo",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 50500
     },
     {
@@ -216,7 +228,7 @@
         "ldr": 51,
         "pac": 62,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 58,
         "str": 63,
@@ -243,7 +255,7 @@
         "ldr": 66,
         "pac": 73,
         "pas": 67,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 74,
         "str": 73,
@@ -262,6 +274,10 @@
       "wage": 59000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -295,7 +311,7 @@
         "ldr": 74,
         "pac": 77,
         "pas": 66,
-        "pos": 55,
+        "pos": 75,
         "sho": 80,
         "sta": 70,
         "str": 75,
@@ -341,6 +357,11 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -367,6 +388,9 @@
       "wage": 84000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 72,
@@ -395,7 +419,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 74,
@@ -430,7 +455,7 @@
         "ldr": 51,
         "pac": 63,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 59,
         "str": 60,
@@ -449,6 +474,10 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 79,
@@ -476,18 +505,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 58,
-        "dri": 43,
-        "ldr": 59,
-        "pac": 56,
-        "pas": 51,
-        "pos": 65,
-        "sho": 31,
-        "sta": 56,
-        "str": 64,
-        "tac": 65,
-        "vis": 49
+        "aer": 53,
+        "com": 56,
+        "dri": 53,
+        "ldr": 55,
+        "pac": 64,
+        "pas": 55,
+        "pos": 60,
+        "sho": 38,
+        "sta": 62,
+        "str": 56,
+        "tac": 62,
+        "vis": 55
       },
       "birth": "1998-07-01",
       "contract": null,
@@ -497,23 +526,23 @@
       "name": "Juan Iglesyas",
       "nation": "ESP",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14000
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 64,
-        "dri": 56,
-        "ldr": 69,
-        "pac": 65,
-        "pas": 63,
-        "pos": 72,
-        "sho": 41,
-        "sta": 66,
-        "str": 71,
-        "tac": 72,
-        "vis": 54
+        "aer": 58,
+        "com": 62,
+        "dri": 66,
+        "ldr": 65,
+        "pac": 73,
+        "pas": 67,
+        "pos": 67,
+        "sho": 48,
+        "sta": 72,
+        "str": 63,
+        "tac": 69,
+        "vis": 60
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -523,7 +552,7 @@
       "name": "Damian Suerez",
       "nation": "URU",
       "number": 22,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 36000
     },
     {
@@ -553,6 +582,9 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -627,10 +659,13 @@
       "name": "Jonathan Silve",
       "nation": "ARG",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 67500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 63,
@@ -659,18 +694,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 63,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 54,
-        "pas": 64,
-        "pos": 63,
-        "sho": 56,
+        "dri": 58,
+        "ldr": 61,
+        "pac": 51,
+        "pas": 63,
+        "pos": 67,
+        "sho": 50,
         "sta": 61,
-        "str": 55,
-        "tac": 60,
-        "vis": 65
+        "str": 60,
+        "tac": 66,
+        "vis": 62
       },
       "birth": "1999-08-01",
       "contract": null,
@@ -682,7 +717,7 @@
       "nation": "POR",
       "nation2": "ANG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 23000
     }
   ],

@@ -101,6 +101,8 @@
     },
     {
       "alt": [
+        "RWB",
+        "LWB",
         "LB"
       ],
       "attrs": {
@@ -214,7 +216,9 @@
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 69,
@@ -303,6 +307,9 @@
       "wage": 106000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 65,
@@ -361,13 +368,13 @@
       "attrs": {
         "aer": 61,
         "com": 71,
-        "dri": 69,
+        "dri": 71,
         "ldr": 67,
-        "pac": 68,
+        "pac": 70,
         "pas": 73,
         "pos": 73,
         "sho": 57,
-        "sta": 72,
+        "sta": 74,
         "str": 70,
         "tac": 75,
         "vis": 65
@@ -411,18 +418,21 @@
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 81,
         "dri": 77,
         "ldr": 73,
         "pac": 72,
-        "pas": 83,
+        "pas": 84,
         "pos": 73,
         "sho": 79,
-        "sta": 81,
+        "sta": 82,
         "str": 70,
-        "tac": 68,
+        "tac": 69,
         "vis": 81
       },
       "birth": "1997-05-01",
@@ -496,9 +506,6 @@
       "wage": 64500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 67,
@@ -527,17 +534,17 @@
     {
       "attrs": {
         "aer": 61,
-        "com": 71,
-        "dri": 71,
+        "com": 79,
+        "dri": 79,
         "ldr": 63,
-        "pac": 65,
+        "pac": 73,
         "pas": 72,
         "pos": 67,
-        "sho": 66,
+        "sho": 74,
         "sta": 85,
         "str": 64,
         "tac": 65,
-        "vis": 72
+        "vis": 80
       },
       "birth": "1998-09-01",
       "contract": "2025-06-30",
@@ -547,7 +554,7 @@
       "name": "Kiernan Dewsburi-Hall",
       "nation": "ENG",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 115000
     },
     {
@@ -582,7 +589,9 @@
     },
     {
       "alt": [
-        "RB"
+        "LW",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 47,
@@ -606,23 +615,26 @@
       "name": "Marc Albrightun",
       "nation": "ENG",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 36500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 59,
+        "com": 64,
         "dri": 61,
         "ldr": 51,
         "pac": 68,
-        "pas": 65,
-        "pos": 63,
+        "pas": 70,
+        "pos": 68,
         "sho": 45,
         "sta": 76,
-        "str": 70,
-        "tac": 73,
-        "vis": 55
+        "str": 75,
+        "tac": 78,
+        "vis": 60
       },
       "birth": "1997-10-01",
       "contract": "2024-06-30",
@@ -636,6 +648,9 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 72,
@@ -663,22 +678,21 @@
     },
     {
       "alt": [
-        "ST",
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
-        "com": 73,
+        "com": 76,
         "dri": 74,
         "ldr": 61,
         "pac": 72,
-        "pas": 69,
+        "pas": 72,
         "pos": 60,
-        "sho": 71,
+        "sho": 74,
         "sta": 72,
         "str": 60,
         "tac": 49,
-        "vis": 68
+        "vis": 71
       },
       "birth": "1993-07-01",
       "contract": "2023-06-30",
@@ -693,7 +707,9 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "ST",
+        "AM"
       ],
       "attrs": {
         "aer": 43,
@@ -752,16 +768,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 73,
+        "aer": 63,
+        "com": 74,
         "dri": 69,
         "ldr": 59,
         "pac": 73,
         "pas": 65,
-        "pos": 54,
-        "sho": 74,
+        "pos": 55,
+        "sho": 75,
         "sta": 69,
-        "str": 71,
+        "str": 72,
         "tac": 40,
         "vis": 63
       },
@@ -778,16 +794,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 68,
+        "aer": 67,
+        "com": 76,
         "dri": 65,
         "ldr": 57,
         "pac": 84,
         "pas": 61,
-        "pos": 44,
-        "sho": 70,
+        "pos": 52,
+        "sho": 78,
         "sta": 62,
-        "str": 63,
+        "str": 71,
         "tac": 38,
         "vis": 61
       },

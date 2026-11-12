@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 67,
-        "dri": 55,
+        "aer": 63,
+        "com": 69,
+        "dri": 63,
         "ldr": 64,
-        "pac": 66,
-        "pas": 60,
-        "pos": 71,
-        "sho": 42,
-        "sta": 64,
-        "str": 69,
-        "tac": 74,
-        "vis": 52
+        "pac": 64,
+        "pas": 69,
+        "pos": 70,
+        "sho": 57,
+        "sta": 70,
+        "str": 67,
+        "tac": 73,
+        "vis": 64
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -73,10 +73,14 @@
       "name": "Andre Hoffmenn",
       "nation": "GER",
       "number": 3,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 22000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 70,
@@ -129,19 +133,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 66,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 64,
-        "pas": 56,
-        "pos": 45,
-        "sho": 73,
-        "sta": 65,
-        "str": 64,
-        "tac": 35,
-        "vis": 57
+        "aer": 51,
+        "com": 63,
+        "dri": 67,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 62,
+        "pos": 47,
+        "sho": 68,
+        "sta": 67,
+        "str": 54,
+        "tac": 41,
+        "vis": 63
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -151,23 +158,26 @@
       "name": "Kristoffer Paterson",
       "nation": "SWE",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 53,
-        "dri": 44,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 50,
-        "pos": 59,
-        "sho": 30,
-        "sta": 54,
-        "str": 59,
-        "tac": 61,
-        "vis": 39
+        "aer": 44,
+        "com": 51,
+        "dri": 54,
+        "ldr": 50,
+        "pac": 58,
+        "pas": 54,
+        "pos": 54,
+        "sho": 37,
+        "sta": 60,
+        "str": 51,
+        "tac": 58,
+        "vis": 45
       },
       "birth": "2001-03-01",
       "contract": null,
@@ -178,11 +188,10 @@
       "name": "Michal Karbownyk",
       "nation": "POL",
       "number": 8,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
-      "alt": [],
       "attrs": {
         "aer": 65,
         "com": 72,
@@ -190,7 +199,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 61,
-        "pos": 49,
+        "pos": 69,
         "sho": 70,
         "sta": 67,
         "str": 67,
@@ -216,7 +225,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 73,
         "sta": 62,
         "str": 70,
@@ -235,19 +244,22 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 64,
-        "dri": 68,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 69,
-        "pos": 68,
-        "sho": 59,
-        "sta": 70,
-        "str": 60,
-        "tac": 60,
-        "vis": 68
+        "aer": 49,
+        "com": 62,
+        "dri": 73,
+        "ldr": 58,
+        "pac": 69,
+        "pas": 65,
+        "pos": 50,
+        "sho": 63,
+        "sta": 66,
+        "str": 55,
+        "tac": 40,
+        "vis": 65
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -257,23 +269,27 @@
       "name": "Felix Kleus",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 22000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 52,
-        "dri": 47,
-        "ldr": 47,
-        "pac": 52,
-        "pas": 47,
-        "pos": 29,
-        "sho": 53,
-        "sta": 47,
-        "str": 54,
-        "tac": 25,
-        "vis": 47
+        "aer": 33,
+        "com": 49,
+        "dri": 52,
+        "ldr": 45,
+        "pac": 56,
+        "pas": 53,
+        "pos": 31,
+        "sho": 48,
+        "sta": 49,
+        "str": 44,
+        "tac": 31,
+        "vis": 53
       },
       "birth": "2003-01-01",
       "contract": null,
@@ -285,7 +301,7 @@
       "nation": "GER",
       "nation2": "ENG",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3000
     },
     {
@@ -315,18 +331,23 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "ST",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 55,
+        "aer": 74,
         "com": 58,
         "dri": 55,
         "ldr": 52,
         "pac": 58,
-        "pas": 49,
-        "pos": 33,
+        "pas": 68,
+        "pos": 72,
         "sho": 61,
         "sta": 51,
-        "str": 61,
-        "tac": 26,
+        "str": 80,
+        "tac": 45,
         "vis": 49
       },
       "birth": "1997-10-01",
@@ -337,7 +358,7 @@
       "name": "Emmanuel Iyuha",
       "nation": "GER",
       "number": 19,
-      "pos": "ST",
+      "pos": "CB",
       "wage": 6000
     },
     {
@@ -367,6 +388,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 57,
@@ -420,19 +444,22 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 63,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 63,
-        "pas": 51,
-        "pos": 39,
-        "sho": 61,
-        "sta": 55,
-        "str": 60,
-        "tac": 32,
-        "vis": 51
+        "aer": 46,
+        "com": 60,
+        "dri": 63,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 57,
+        "pos": 41,
+        "sho": 56,
+        "sta": 57,
+        "str": 50,
+        "tac": 38,
+        "vis": 57
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -442,7 +469,7 @@
       "name": "Nana Ampumah",
       "nation": "GHA",
       "number": 27,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8500
     },
     {
@@ -453,7 +480,7 @@
         "ldr": 57,
         "pac": 64,
         "pas": 59,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 61,
         "str": 62,
@@ -527,19 +554,24 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 63,
-        "dri": 57,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 66,
-        "pos": 58,
-        "sho": 53,
+        "dri": 53,
+        "ldr": 59,
+        "pac": 52,
+        "pas": 65,
+        "pos": 62,
+        "sho": 47,
         "sta": 66,
-        "str": 60,
-        "tac": 56,
-        "vis": 66
+        "str": 65,
+        "tac": 62,
+        "vis": 63
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -549,7 +581,7 @@
       "name": "Marcel Sobuttka",
       "nation": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
@@ -580,18 +612,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 61,
-        "dri": 49,
-        "ldr": 60,
-        "pac": 58,
-        "pas": 53,
-        "pos": 68,
-        "sho": 38,
-        "sta": 55,
-        "str": 66,
-        "tac": 62,
-        "vis": 47
+        "aer": 52,
+        "com": 59,
+        "dri": 59,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 57,
+        "pos": 63,
+        "sho": 45,
+        "sta": 61,
+        "str": 58,
+        "tac": 59,
+        "vis": 53
       },
       "birth": "1995-02-01",
       "contract": null,
@@ -601,23 +633,23 @@
       "name": "Nicolas Gavury",
       "nation": "FRA",
       "number": 34,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 52,
-        "dri": 44,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 51,
-        "pos": 61,
-        "sho": 31,
-        "sta": 51,
-        "str": 57,
-        "tac": 59,
-        "vis": 39
+        "aer": 43,
+        "com": 50,
+        "dri": 54,
+        "ldr": 51,
+        "pac": 61,
+        "pas": 55,
+        "pos": 56,
+        "sho": 38,
+        "sta": 57,
+        "str": 49,
+        "tac": 56,
+        "vis": 45
       },
       "birth": "2001-03-01",
       "contract": null,
@@ -627,7 +659,7 @@
       "name": "Takashi Uchinu",
       "nation": "JPN",
       "number": 41,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     }
   ],

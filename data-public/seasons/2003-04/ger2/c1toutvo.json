@@ -99,7 +99,7 @@
       "name": "Alexander Bugere",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 3500
     },
@@ -111,7 +111,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 51,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 56,
         "str": 59,
@@ -132,6 +132,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -185,6 +188,11 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -212,6 +220,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -238,9 +249,6 @@
       "wage": 3500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -269,6 +277,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -302,7 +313,7 @@
         "ldr": 55,
         "pac": 58,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 57,
         "str": 57,
@@ -329,7 +340,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 64,
         "sta": 55,
         "str": 55,
@@ -349,6 +360,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 53,
@@ -482,6 +498,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -543,7 +562,7 @@
         "ldr": 53,
         "pac": 55,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 54,
         "str": 59,
@@ -570,7 +589,7 @@
         "ldr": 49,
         "pac": 60,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 59,
         "sta": 50,
         "str": 59,
@@ -590,6 +609,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -617,6 +639,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -644,6 +669,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 53,
@@ -679,7 +707,7 @@
         "ldr": 52,
         "pac": 53,
         "pas": 49,
-        "pos": 37,
+        "pos": 57,
         "sho": 57,
         "sta": 55,
         "str": 53,
@@ -727,6 +755,11 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -760,7 +793,7 @@
         "ldr": 51,
         "pac": 56,
         "pas": 49,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 50,
         "str": 52,
@@ -808,18 +841,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 53,
-        "dri": 50,
-        "ldr": 48,
-        "pac": 46,
-        "pas": 58,
-        "pos": 55,
-        "sho": 51,
+        "dri": 46,
+        "ldr": 50,
+        "pac": 43,
+        "pas": 57,
+        "pos": 59,
+        "sho": 45,
         "sta": 58,
-        "str": 49,
-        "tac": 51,
-        "vis": 58
+        "str": 54,
+        "tac": 57,
+        "vis": 55
       },
       "birth": "1972-10-01",
       "contract": null,
@@ -829,10 +862,13 @@
       "name": "Thomas Vena",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 53,
@@ -860,22 +896,19 @@
       "wage": 1000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 56,
-        "com": 51,
-        "dri": 36,
+        "aer": 49,
+        "com": 53,
+        "dri": 44,
         "ldr": 50,
-        "pac": 43,
-        "pas": 42,
-        "pos": 52,
-        "sho": 25,
-        "sta": 44,
-        "str": 53,
-        "tac": 51,
-        "vis": 38
+        "pac": 41,
+        "pas": 51,
+        "pos": 51,
+        "sho": 40,
+        "sta": 50,
+        "str": 51,
+        "tac": 50,
+        "vis": 50
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -886,7 +919,7 @@
       "nation": "GER",
       "nation2": "POL",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1000
     },
@@ -898,7 +931,7 @@
         "ldr": 46,
         "pac": 48,
         "pas": 43,
-        "pos": 26,
+        "pos": 46,
         "sho": 56,
         "sta": 49,
         "str": 49,
@@ -926,7 +959,7 @@
         "ldr": 42,
         "pac": 49,
         "pas": 40,
-        "pos": 24,
+        "pos": 44,
         "sho": 50,
         "sta": 40,
         "str": 43,

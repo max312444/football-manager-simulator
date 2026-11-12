@@ -51,6 +51,9 @@
       "wage": 411500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,
@@ -104,6 +107,9 @@
       "wage": 269000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 71,
@@ -130,9 +136,6 @@
       "wage": 150000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 74,
         "com": 81,
@@ -159,6 +162,9 @@
       "wage": 427500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 66,
@@ -185,6 +191,9 @@
       "wage": 114000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 82,
@@ -212,6 +221,9 @@
       "wage": 374500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 83,
         "com": 85,
@@ -219,7 +231,7 @@
         "ldr": 76,
         "pac": 81,
         "pas": 76,
-        "pos": 60,
+        "pos": 80,
         "sho": 87,
         "sta": 79,
         "str": 79,
@@ -239,19 +251,23 @@
       "wage": 344000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 84,
-        "dri": 82,
-        "ldr": 75,
-        "pac": 80,
-        "pas": 73,
-        "pos": 62,
-        "sho": 86,
-        "sta": 80,
-        "str": 84,
-        "tac": 50,
-        "vis": 70
+        "aer": 62,
+        "com": 81,
+        "dri": 87,
+        "ldr": 73,
+        "pac": 84,
+        "pas": 79,
+        "pos": 64,
+        "sho": 81,
+        "sta": 82,
+        "str": 74,
+        "tac": 56,
+        "vis": 76
       },
       "birth": "1997-05-01",
       "contract": null,
@@ -261,10 +277,14 @@
       "name": "Ousmane Dembela",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 319000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 78,
         "com": 83,
@@ -272,7 +292,7 @@
         "ldr": 71,
         "pac": 77,
         "pas": 75,
-        "pos": 60,
+        "pos": 80,
         "sho": 86,
         "sta": 73,
         "str": 83,
@@ -318,18 +338,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 84,
-        "dri": 78,
-        "ldr": 78,
-        "pac": 80,
+        "aer": 65,
+        "com": 85,
+        "dri": 82,
+        "ldr": 76,
+        "pac": 83,
         "pas": 85,
-        "pos": 82,
-        "sho": 74,
-        "sta": 84,
-        "str": 79,
-        "tac": 77,
-        "vis": 83
+        "pos": 67,
+        "sho": 80,
+        "sta": 78,
+        "str": 74,
+        "tac": 59,
+        "vis": 85
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -340,7 +360,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 431000
     },
     {
@@ -370,6 +390,9 @@
       "wage": 313000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 74,
@@ -418,7 +441,7 @@
       "name": "Jordi Albe",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 334500
     },
     {
@@ -429,7 +452,7 @@
         "ldr": 77,
         "pac": 78,
         "pas": 72,
-        "pos": 59,
+        "pos": 79,
         "sho": 86,
         "sta": 75,
         "str": 83,
@@ -448,19 +471,24 @@
       "wage": 313000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 81,
-        "com": 77,
-        "dri": 66,
-        "ldr": 79,
-        "pac": 77,
-        "pas": 76,
-        "pos": 81,
-        "sho": 52,
-        "sta": 79,
-        "str": 80,
-        "tac": 87,
-        "vis": 65
+        "aer": 68,
+        "com": 75,
+        "dri": 76,
+        "ldr": 75,
+        "pac": 85,
+        "pas": 80,
+        "pos": 76,
+        "sho": 59,
+        "sta": 85,
+        "str": 72,
+        "tac": 84,
+        "vis": 71
       },
       "birth": "1992-02-01",
       "contract": null,
@@ -470,10 +498,13 @@
       "name": "Sergi Ruberto",
       "nation": "ESP",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 313000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 81,
@@ -527,6 +558,11 @@
       "wage": 400000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 73,
         "com": 70,
@@ -553,6 +589,11 @@
       "wage": 119500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "RWB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 65,
@@ -580,18 +621,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 70,
-        "dri": 60,
-        "ldr": 74,
-        "pac": 68,
-        "pas": 66,
-        "pos": 73,
-        "sho": 47,
-        "sta": 66,
-        "str": 78,
-        "tac": 77,
-        "vis": 58
+        "aer": 60,
+        "com": 68,
+        "dri": 70,
+        "ldr": 70,
+        "pac": 76,
+        "pas": 70,
+        "pos": 68,
+        "sho": 54,
+        "sta": 72,
+        "str": 70,
+        "tac": 74,
+        "vis": 64
       },
       "birth": "1998-10-01",
       "contract": null,
@@ -601,23 +642,27 @@
       "name": "Moussa Wegue",
       "nation": "SEN",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 133500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 69,
-        "dri": 69,
-        "ldr": 60,
-        "pac": 69,
-        "pas": 58,
-        "pos": 47,
-        "sho": 73,
-        "sta": 68,
-        "str": 70,
-        "tac": 37,
-        "vis": 61
+        "aer": 50,
+        "com": 66,
+        "dri": 74,
+        "ldr": 58,
+        "pac": 73,
+        "pas": 64,
+        "pos": 49,
+        "sho": 68,
+        "sta": 70,
+        "str": 60,
+        "tac": 43,
+        "vis": 67
       },
       "birth": "2002-10-01",
       "contract": null,
@@ -628,7 +673,7 @@
       "nation": "ESP",
       "nation2": "GNB",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 72500
     }
   ],

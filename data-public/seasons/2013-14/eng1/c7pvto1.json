@@ -70,6 +70,9 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 64,
@@ -97,6 +100,9 @@
       "wage": 60500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 56,
         "com": 60,
@@ -149,6 +155,9 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 73,
         "com": 68,
@@ -205,18 +214,20 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 52,
         "com": 69,
-        "dri": 67,
+        "dri": 71,
         "ldr": 64,
-        "pac": 61,
+        "pac": 65,
         "pas": 76,
         "pos": 61,
-        "sho": 68,
-        "sta": 81,
+        "sho": 72,
+        "sta": 85,
         "str": 64,
         "tac": 60,
         "vis": 70
@@ -238,17 +249,17 @@
     {
       "attrs": {
         "aer": 50,
-        "com": 58,
+        "com": 60,
         "dri": 62,
         "ldr": 46,
         "pac": 60,
-        "pas": 64,
-        "pos": 60,
+        "pas": 66,
+        "pos": 62,
         "sho": 46,
         "sta": 72,
-        "str": 64,
-        "tac": 64,
-        "vis": 56
+        "str": 66,
+        "tac": 66,
+        "vis": 58
       },
       "birth": "1988-10-01",
       "contract": "2015-06-30",
@@ -259,7 +270,7 @@
       "nation": "SUI",
       "nation2": "CPV",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 34000
     },
     {
@@ -289,19 +300,23 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 69,
         "com": 56,
-        "dri": 63,
+        "dri": 64,
         "ldr": 44,
-        "pac": 68,
-        "pas": 57,
+        "pac": 69,
+        "pas": 58,
         "pos": 42,
         "sho": 65,
         "sta": 68,
         "str": 79,
         "tac": 36,
-        "vis": 53
+        "vis": 54
       },
       "birth": "1993-03-01",
       "contract": "2016-06-30",
@@ -311,7 +326,7 @@
       "name": "Connor Wyckham",
       "nation": "ENG",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 33000
     },
     {
@@ -344,6 +359,9 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 73,
@@ -373,17 +391,17 @@
     {
       "attrs": {
         "aer": 49,
-        "com": 63,
+        "com": 65,
         "dri": 65,
         "ldr": 56,
         "pac": 63,
-        "pas": 70,
-        "pos": 64,
+        "pas": 71,
+        "pos": 66,
         "sho": 54,
         "sta": 81,
-        "str": 62,
-        "tac": 68,
-        "vis": 64
+        "str": 64,
+        "tac": 70,
+        "vis": 65
       },
       "birth": "1989-10-01",
       "contract": "2014-06-30",
@@ -393,10 +411,13 @@
       "name": "Jack Colbeck",
       "nation": "ENG",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 58000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 67,
@@ -423,6 +444,11 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 72,
@@ -452,19 +478,24 @@
       "wage": 77000
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
-        "com": 48,
-        "dri": 62,
+        "com": 72,
+        "dri": 68,
         "ldr": 34,
-        "pac": 66,
-        "pas": 58,
+        "pac": 72,
+        "pas": 76,
         "pos": 50,
-        "sho": 46,
+        "sho": 70,
         "sta": 70,
         "str": 62,
         "tac": 52,
-        "vis": 50
+        "vis": 68
       },
       "birth": "1993-03-01",
       "contract": "2016-06-30",
@@ -475,21 +506,21 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": 22,
-      "pos": "LW",
+      "pos": "AM",
       "wage": 19000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 55,
+        "aer": 68,
+        "com": 60,
         "dri": 63,
         "ldr": 40,
         "pac": 69,
         "pas": 57,
-        "pos": 40,
-        "sho": 62,
+        "pos": 45,
+        "sho": 67,
         "sta": 69,
-        "str": 68,
+        "str": 73,
         "tac": 33,
         "vis": 55
       },
@@ -531,6 +562,10 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 56,
@@ -559,21 +594,22 @@
     },
     {
       "alt": [
-        "LW"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 34,
-        "com": 66,
+        "com": 73,
         "dri": 78,
         "ldr": 50,
         "pac": 76,
-        "pas": 72,
+        "pas": 79,
         "pos": 54,
-        "sho": 68,
+        "sho": 75,
         "sta": 80,
         "str": 54,
         "tac": 50,
-        "vis": 70
+        "vis": 77
       },
       "birth": "1985-05-01",
       "contract": "2017-06-30",
@@ -640,7 +676,9 @@
     },
     {
       "alt": [
-        "LW"
+        "AM",
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 56,
@@ -665,23 +703,27 @@
       "name": "Fabio Boryni",
       "nation": "ITA",
       "number": 31,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 54500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 62,
+        "com": 66,
         "dri": 63,
         "ldr": 57,
         "pac": 63,
-        "pas": 68,
+        "pas": 72,
         "pos": 62,
         "sho": 69,
         "sta": 78,
         "str": 70,
-        "tac": 65,
-        "vis": 62
+        "tac": 69,
+        "vis": 66
       },
       "birth": "1986-11-01",
       "contract": "2014-06-30",
@@ -699,7 +741,7 @@
     },
     {
       "alt": [
-        "RW"
+        "RB"
       ],
       "attrs": {
         "aer": 37,
@@ -707,13 +749,13 @@
         "dri": 63,
         "ldr": 35,
         "pac": 69,
-        "pas": 57,
+        "pas": 63,
         "pos": 41,
         "sho": 49,
-        "sta": 63,
+        "sta": 69,
         "str": 51,
-        "tac": 37,
-        "vis": 54
+        "tac": 43,
+        "vis": 60
       },
       "birth": "1994-02-01",
       "contract": "2016-06-30",
@@ -728,7 +770,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 40,

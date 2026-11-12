@@ -105,18 +105,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 78,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 72,
-        "pas": 83,
-        "pos": 75,
-        "sho": 73,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 69,
+        "pas": 82,
+        "pos": 79,
+        "sho": 67,
         "sta": 82,
-        "str": 72,
-        "tac": 73,
-        "vis": 78
+        "str": 77,
+        "tac": 79,
+        "vis": 75
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -126,23 +126,23 @@
       "name": "Christoph Kramar",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 124500
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 74,
-        "dri": 75,
-        "ldr": 70,
-        "pac": 74,
-        "pas": 80,
-        "pos": 78,
-        "sho": 69,
-        "sta": 81,
-        "str": 69,
-        "tac": 72,
-        "vis": 80
+        "aer": 58,
+        "com": 72,
+        "dri": 80,
+        "ldr": 66,
+        "pac": 83,
+        "pas": 76,
+        "pos": 60,
+        "sho": 73,
+        "sta": 77,
+        "str": 64,
+        "tac": 52,
+        "vis": 77
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -152,23 +152,23 @@
       "name": "Patrick Herrmenn",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 113500
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 74,
-        "dri": 72,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 79,
-        "pos": 75,
-        "sho": 73,
+        "dri": 68,
+        "ldr": 74,
+        "pac": 65,
+        "pas": 78,
+        "pos": 79,
+        "sho": 67,
         "sta": 81,
-        "str": 74,
-        "tac": 75,
-        "vis": 79
+        "str": 79,
+        "tac": 81,
+        "vis": 76
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -178,7 +178,7 @@
       "name": "Denis Zakarie",
       "nation": "SUI",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 116500
     },
     {
@@ -189,7 +189,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 79,
         "sta": 69,
         "str": 78,
@@ -208,19 +208,23 @@
       "wage": 55000
     },
     {
+      "alt": [
+        "RM",
+        "LM"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 58,
-        "dri": 56,
-        "ldr": 59,
-        "pac": 57,
+        "aer": 42,
+        "com": 59,
+        "dri": 60,
+        "ldr": 57,
+        "pac": 60,
         "pas": 64,
-        "pos": 61,
-        "sho": 52,
-        "sta": 59,
-        "str": 57,
-        "tac": 55,
-        "vis": 64
+        "pos": 46,
+        "sho": 58,
+        "sta": 53,
+        "str": 52,
+        "tac": 37,
+        "vis": 66
       },
       "birth": "1999-04-01",
       "contract": null,
@@ -231,10 +235,15 @@
       "name": "Hannes Wulf",
       "nation": "AUT",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 18000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 73,
         "com": 74,
@@ -242,7 +251,7 @@
         "ldr": 72,
         "pac": 74,
         "pas": 69,
-        "pos": 51,
+        "pos": 71,
         "sho": 79,
         "sta": 71,
         "str": 73,
@@ -261,19 +270,24 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 76,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 79,
-        "pas": 67,
-        "pos": 56,
-        "sho": 79,
-        "sta": 69,
-        "str": 76,
-        "tac": 47,
-        "vis": 65
+        "aer": 62,
+        "com": 73,
+        "dri": 76,
+        "ldr": 67,
+        "pac": 83,
+        "pas": 73,
+        "pos": 58,
+        "sho": 74,
+        "sta": 71,
+        "str": 66,
+        "tac": 53,
+        "vis": 71
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -283,7 +297,7 @@
       "name": "Alassane Plee",
       "nation": "FRA",
       "number": 14,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 67000
     },
     {
@@ -314,18 +328,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 68,
-        "ldr": 62,
-        "pac": 65,
-        "pas": 71,
-        "pos": 67,
-        "sho": 64,
-        "sta": 70,
-        "str": 65,
-        "tac": 63,
-        "vis": 71
+        "aer": 49,
+        "com": 63,
+        "dri": 73,
+        "ldr": 58,
+        "pac": 74,
+        "pas": 67,
+        "pos": 49,
+        "sho": 68,
+        "sta": 66,
+        "str": 60,
+        "tac": 43,
+        "vis": 68
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -336,7 +350,7 @@
       "nation": "GUI",
       "nation2": "FRA",
       "number": 16,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 44000
     },
     {
@@ -362,23 +376,23 @@
       "name": "Oscar Wandt",
       "nation": "SWE",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 56500
     },
     {
       "attrs": {
-        "aer": 78,
-        "com": 72,
-        "dri": 58,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 67,
-        "pos": 77,
-        "sho": 49,
-        "sta": 72,
-        "str": 77,
-        "tac": 76,
-        "vis": 57
+        "aer": 65,
+        "com": 70,
+        "dri": 68,
+        "ldr": 67,
+        "pac": 79,
+        "pas": 71,
+        "pos": 72,
+        "sho": 56,
+        "sta": 78,
+        "str": 69,
+        "tac": 73,
+        "vis": 63
       },
       "birth": "1992-08-01",
       "contract": null,
@@ -388,22 +402,27 @@
       "name": "Stefan Leiner",
       "nation": "AUT",
       "number": 18,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 63500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "RW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 76,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 78,
-        "pos": 76,
-        "sho": 70,
-        "sta": 75,
-        "str": 67,
-        "tac": 69,
+        "aer": 60,
+        "com": 74,
+        "dri": 75,
+        "ldr": 68,
+        "pac": 77,
+        "pas": 79,
+        "pos": 68,
+        "sho": 68,
+        "sta": 79,
+        "str": 64,
+        "tac": 64,
         "vis": 74
       },
       "birth": "1996-03-01",
@@ -415,7 +434,7 @@
       "name": "Valentino Lezaro",
       "nation": "AUT",
       "number": 19,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 88500
     },
     {
@@ -426,7 +445,7 @@
         "ldr": 57,
         "pac": 61,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 64,
         "sta": 56,
         "str": 62,
@@ -471,6 +490,9 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 70,
@@ -498,18 +520,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 76,
-        "dri": 79,
-        "ldr": 77,
-        "pac": 73,
-        "pas": 83,
-        "pos": 75,
-        "sho": 71,
-        "sta": 78,
-        "str": 71,
-        "tac": 73,
-        "vis": 82
+        "aer": 61,
+        "com": 74,
+        "dri": 84,
+        "ldr": 73,
+        "pac": 82,
+        "pas": 79,
+        "pos": 57,
+        "sho": 75,
+        "sta": 74,
+        "str": 66,
+        "tac": 53,
+        "vis": 79
       },
       "birth": "1992-07-01",
       "contract": null,
@@ -519,10 +541,13 @@
       "name": "Jonas Hofmenn",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 124500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -549,6 +574,9 @@
       "wage": 72500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 66,
@@ -575,6 +603,11 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -582,7 +615,7 @@
         "ldr": 48,
         "pac": 56,
         "pas": 50,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 52,
         "str": 55,
@@ -679,6 +712,9 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 75,
@@ -712,7 +748,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 82,
         "sta": 75,
         "str": 77,
@@ -754,7 +790,7 @@
       "name": "Andreas Poulsan",
       "nation": "DEN",
       "number": 40,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 8000
     }
   ],

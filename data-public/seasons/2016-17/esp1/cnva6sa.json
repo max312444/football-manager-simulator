@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 59,
-        "dri": 53,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 56,
-        "pos": 65,
-        "sho": 35,
-        "sta": 60,
-        "str": 68,
-        "tac": 68,
-        "vis": 49
+        "aer": 54,
+        "com": 57,
+        "dri": 63,
+        "ldr": 55,
+        "pac": 69,
+        "pas": 60,
+        "pos": 60,
+        "sho": 42,
+        "sta": 66,
+        "str": 60,
+        "tac": 65,
+        "vis": 55
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "David Simun",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 15000
     },
     {
@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 68,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 70,
-        "pos": 61,
-        "sho": 61,
+        "dri": 57,
+        "ldr": 61,
+        "pac": 55,
+        "pas": 69,
+        "pos": 65,
+        "sho": 55,
         "sta": 64,
-        "str": 61,
-        "tac": 63,
-        "vis": 68
+        "str": 66,
+        "tac": 69,
+        "vis": 65
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -125,7 +125,7 @@
       "name": "Vicente Gomaz",
       "nation": "ESP",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 23000
     },
     {
@@ -155,6 +155,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 73,
@@ -182,6 +185,8 @@
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -211,19 +216,22 @@
       "wage": 48500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 75,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 72,
-        "pas": 67,
-        "pos": 54,
-        "sho": 77,
-        "sta": 72,
-        "str": 78,
-        "tac": 43,
-        "vis": 68
+        "aer": 62,
+        "com": 72,
+        "dri": 75,
+        "ldr": 67,
+        "pac": 76,
+        "pas": 73,
+        "pos": 56,
+        "sho": 72,
+        "sta": 74,
+        "str": 68,
+        "tac": 49,
+        "vis": 74
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -234,10 +242,15 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 46500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 74,
         "com": 75,
@@ -245,7 +258,7 @@
         "ldr": 67,
         "pac": 76,
         "pas": 65,
-        "pos": 54,
+        "pos": 74,
         "sho": 75,
         "sta": 73,
         "str": 72,
@@ -271,7 +284,7 @@
         "ldr": 64,
         "pac": 68,
         "pas": 66,
-        "pos": 48,
+        "pos": 68,
         "sho": 77,
         "sta": 66,
         "str": 74,
@@ -290,19 +303,22 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 61,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 64,
-        "pos": 58,
-        "sho": 57,
-        "sta": 64,
-        "str": 54,
-        "tac": 56,
-        "vis": 66
+        "aer": 49,
+        "com": 59,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 69,
+        "pas": 60,
+        "pos": 40,
+        "sho": 61,
+        "sta": 60,
+        "str": 49,
+        "tac": 36,
+        "vis": 63
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -312,7 +328,7 @@
       "name": "Mumo",
       "nation": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17000
     },
     {
@@ -342,19 +358,22 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 62,
-        "dri": 65,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 66,
-        "pos": 62,
-        "sho": 57,
+        "dri": 61,
+        "ldr": 63,
+        "pac": 54,
+        "pas": 65,
+        "pos": 66,
+        "sho": 51,
         "sta": 64,
-        "str": 56,
-        "tac": 61,
-        "vis": 64
+        "str": 61,
+        "tac": 67,
+        "vis": 61
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -364,10 +383,13 @@
       "name": "Hernan Sentana",
       "nation": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -420,6 +442,11 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 66,
@@ -447,18 +474,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 64,
-        "dri": 62,
-        "ldr": 60,
-        "pac": 55,
-        "pas": 66,
-        "pos": 63,
-        "sho": 53,
+        "dri": 58,
+        "ldr": 62,
+        "pac": 52,
+        "pas": 65,
+        "pos": 67,
+        "sho": 47,
         "sta": 63,
-        "str": 56,
-        "tac": 61,
-        "vis": 65
+        "str": 61,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1987-11-01",
       "contract": null,
@@ -468,23 +495,23 @@
       "name": "Javi Cestellano",
       "nation": "ESP",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 18500
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 58,
-        "dri": 56,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 60,
-        "pos": 51,
-        "sho": 48,
-        "sta": 55,
-        "str": 53,
-        "tac": 55,
-        "vis": 54
+        "aer": 37,
+        "com": 56,
+        "dri": 61,
+        "ldr": 47,
+        "pac": 59,
+        "pas": 56,
+        "pos": 33,
+        "sho": 52,
+        "sta": 51,
+        "str": 48,
+        "tac": 35,
+        "vis": 51
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -494,23 +521,27 @@
       "name": "Mateo Gercia",
       "nation": "ARG",
       "number": 19,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 8000
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 63,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 63,
-        "pas": 51,
-        "pos": 43,
-        "sho": 65,
-        "sta": 56,
-        "str": 65,
-        "tac": 33,
-        "vis": 56
+        "aer": 45,
+        "com": 60,
+        "dri": 68,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 57,
+        "pos": 45,
+        "sho": 60,
+        "sta": 58,
+        "str": 55,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -520,23 +551,27 @@
       "name": "Tyronne del Pyno",
       "nation": "ESP",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 11500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 74,
-        "dri": 68,
-        "ldr": 70,
-        "pac": 63,
+        "aer": 55,
+        "com": 75,
+        "dri": 72,
+        "ldr": 68,
+        "pac": 66,
         "pas": 70,
-        "pos": 68,
-        "sho": 67,
-        "sta": 70,
-        "str": 69,
-        "tac": 67,
-        "vis": 75
+        "pos": 53,
+        "sho": 73,
+        "sta": 64,
+        "str": 64,
+        "tac": 49,
+        "vis": 77
       },
       "birth": "1989-10-01",
       "contract": null,
@@ -546,23 +581,23 @@
       "name": "Jonathan Viere",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 46500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 60,
-        "dri": 49,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 55,
-        "pos": 65,
-        "sho": 37,
-        "sta": 59,
-        "str": 63,
-        "tac": 67,
-        "vis": 53
+        "aer": 52,
+        "com": 58,
+        "dri": 59,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 59,
+        "pos": 60,
+        "sho": 44,
+        "sta": 65,
+        "str": 55,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1989-01-01",
       "contract": null,
@@ -572,23 +607,28 @@
       "name": "Helder Lupes",
       "nation": "POR",
       "number": 22,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 14000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 60,
-        "dri": 51,
-        "ldr": 63,
-        "pac": 55,
-        "pas": 52,
-        "pos": 64,
-        "sho": 33,
-        "sta": 58,
-        "str": 63,
-        "tac": 64,
-        "vis": 48
+        "aer": 51,
+        "com": 58,
+        "dri": 61,
+        "ldr": 59,
+        "pac": 63,
+        "pas": 56,
+        "pos": 59,
+        "sho": 40,
+        "sta": 64,
+        "str": 55,
+        "tac": 61,
+        "vis": 54
       },
       "birth": "1987-11-01",
       "contract": null,
@@ -598,23 +638,27 @@
       "name": "Dani Castelleno",
       "nation": "ESP",
       "number": 23,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 68,
-        "dri": 66,
-        "ldr": 61,
-        "pac": 63,
+        "aer": 50,
+        "com": 69,
+        "dri": 70,
+        "ldr": 59,
+        "pac": 66,
         "pas": 65,
-        "pos": 64,
-        "sho": 56,
-        "sta": 67,
-        "str": 63,
-        "tac": 59,
-        "vis": 68
+        "pos": 49,
+        "sho": 62,
+        "sta": 61,
+        "str": 58,
+        "tac": 41,
+        "vis": 70
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -624,23 +668,27 @@
       "name": "Tane",
       "nation": "ESP",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 25000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 65,
-        "dri": 57,
-        "ldr": 57,
-        "pac": 63,
-        "pas": 54,
-        "pos": 36,
-        "sho": 65,
-        "sta": 59,
-        "str": 63,
-        "tac": 31,
-        "vis": 52
+        "aer": 47,
+        "com": 62,
+        "dri": 62,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 60,
+        "pos": 38,
+        "sho": 60,
+        "sta": 61,
+        "str": 53,
+        "tac": 37,
+        "vis": 58
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -650,23 +698,27 @@
       "name": "Asdrubal Padrun",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 59,
-        "dri": 56,
-        "ldr": 47,
-        "pac": 55,
-        "pas": 45,
-        "pos": 33,
-        "sho": 61,
-        "sta": 55,
-        "str": 56,
-        "tac": 24,
-        "vis": 45
+        "aer": 37,
+        "com": 56,
+        "dri": 61,
+        "ldr": 45,
+        "pac": 59,
+        "pas": 51,
+        "pos": 35,
+        "sho": 56,
+        "sta": 57,
+        "str": 46,
+        "tac": 30,
+        "vis": 51
       },
       "birth": "1993-06-01",
       "contract": null,
@@ -676,7 +728,7 @@
       "name": "Jose Artyles",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     }
   ],

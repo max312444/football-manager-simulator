@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 61,
-        "dri": 51,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 55,
-        "pos": 71,
-        "sho": 38,
-        "sta": 59,
-        "str": 66,
-        "tac": 68,
-        "vis": 54
+        "aer": 52,
+        "com": 59,
+        "dri": 61,
+        "ldr": 57,
+        "pac": 65,
+        "pas": 59,
+        "pos": 66,
+        "sho": 45,
+        "sta": 65,
+        "str": 58,
+        "tac": 65,
+        "vis": 60
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -73,23 +73,23 @@
       "name": "Manuel Peblo",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14000
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 66,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 64,
-        "pas": 68,
-        "pos": 66,
-        "sho": 64,
+        "dri": 61,
+        "ldr": 66,
+        "pac": 61,
+        "pas": 67,
+        "pos": 70,
+        "sho": 58,
         "sta": 73,
-        "str": 61,
-        "tac": 68,
-        "vis": 67
+        "str": 66,
+        "tac": 74,
+        "vis": 64
       },
       "birth": "1985-06-01",
       "contract": null,
@@ -99,23 +99,23 @@
       "name": "Alex Bergantynos",
       "nation": "ESP",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30000
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 77,
-        "dri": 75,
-        "ldr": 70,
-        "pac": 68,
-        "pas": 79,
-        "pos": 75,
-        "sho": 66,
+        "dri": 71,
+        "ldr": 72,
+        "pac": 65,
+        "pas": 78,
+        "pos": 79,
+        "sho": 60,
         "sta": 76,
-        "str": 69,
-        "tac": 73,
-        "vis": 76
+        "str": 74,
+        "tac": 79,
+        "vis": 73
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -125,23 +125,23 @@
       "name": "Pedro Mosquere",
       "nation": "ESP",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 52000
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 65,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 58,
-        "pas": 64,
-        "pos": 66,
-        "sho": 59,
-        "sta": 69,
-        "str": 60,
-        "tac": 62,
-        "vis": 65
+        "aer": 52,
+        "com": 63,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 66,
+        "pas": 63,
+        "pos": 58,
+        "sho": 57,
+        "sta": 71,
+        "str": 57,
+        "tac": 55,
+        "vis": 63
       },
       "birth": "1981-08-01",
       "contract": null,
@@ -151,21 +151,26 @@
       "name": "Cany",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 22000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 72,
-        "dri": 70,
+        "aer": 71,
+        "com": 79,
+        "dri": 74,
         "ldr": 69,
-        "pac": 68,
+        "pac": 74,
         "pas": 76,
-        "pos": 66,
-        "sho": 65,
+        "pos": 73,
+        "sho": 72,
         "sta": 70,
-        "str": 67,
+        "str": 74,
         "tac": 70,
         "vis": 69
       },
@@ -177,23 +182,26 @@
       "name": "Lucas Peraz",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 44000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
-        "com": 75,
-        "dri": 77,
+        "com": 76,
+        "dri": 78,
         "ldr": 74,
         "pac": 76,
-        "pas": 78,
+        "pas": 79,
         "pos": 78,
-        "sho": 69,
+        "sho": 70,
         "sta": 79,
         "str": 74,
         "tac": 73,
-        "vis": 76
+        "vis": 77
       },
       "birth": "1985-03-01",
       "contract": null,
@@ -215,7 +223,7 @@
         "ldr": 62,
         "pac": 70,
         "pas": 60,
-        "pos": 48,
+        "pos": 68,
         "sho": 70,
         "sta": 64,
         "str": 68,
@@ -234,6 +242,10 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 69,
@@ -260,19 +272,23 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 68,
-        "dri": 55,
-        "ldr": 67,
-        "pac": 61,
-        "pas": 56,
-        "pos": 73,
-        "sho": 38,
-        "sta": 63,
-        "str": 70,
-        "tac": 69,
-        "vis": 56
+        "aer": 56,
+        "com": 66,
+        "dri": 65,
+        "ldr": 63,
+        "pac": 69,
+        "pas": 60,
+        "pos": 68,
+        "sho": 45,
+        "sta": 69,
+        "str": 62,
+        "tac": 66,
+        "vis": 62
       },
       "birth": "1988-09-01",
       "contract": null,
@@ -283,7 +299,7 @@
       "name": "Juenfran",
       "nation": "ESP",
       "number": 11,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 20500
     },
     {
@@ -367,18 +383,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 64,
-        "dri": 54,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 58,
-        "pos": 69,
-        "sho": 40,
-        "sta": 62,
-        "str": 71,
-        "tac": 68,
-        "vis": 55
+        "aer": 55,
+        "com": 62,
+        "dri": 64,
+        "ldr": 59,
+        "pac": 71,
+        "pas": 62,
+        "pos": 64,
+        "sho": 47,
+        "sta": 68,
+        "str": 63,
+        "tac": 65,
+        "vis": 61
       },
       "birth": "1985-03-01",
       "contract": null,
@@ -388,23 +404,23 @@
       "name": "Leure",
       "nation": "ESP",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18500
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 66,
-        "dri": 54,
-        "ldr": 64,
-        "pac": 60,
-        "pas": 57,
-        "pos": 67,
-        "sho": 36,
-        "sta": 61,
-        "str": 67,
-        "tac": 72,
-        "vis": 53
+        "aer": 54,
+        "com": 64,
+        "dri": 64,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 61,
+        "pos": 62,
+        "sho": 43,
+        "sta": 67,
+        "str": 59,
+        "tac": 69,
+        "vis": 59
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -414,23 +430,26 @@
       "name": "Luisinhu",
       "nation": "POR",
       "number": 16,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 16500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 65,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 65,
-        "pos": 64,
-        "sho": 56,
-        "sta": 64,
-        "str": 57,
-        "tac": 62,
-        "vis": 64
+        "aer": 46,
+        "com": 63,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 61,
+        "pos": 46,
+        "sho": 60,
+        "sta": 60,
+        "str": 52,
+        "tac": 42,
+        "vis": 61
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -442,23 +461,23 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 17,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17500
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 59,
-        "dri": 43,
-        "ldr": 56,
-        "pac": 52,
-        "pas": 49,
-        "pos": 60,
-        "sho": 31,
-        "sta": 56,
-        "str": 60,
-        "tac": 63,
-        "vis": 42
+        "aer": 49,
+        "com": 57,
+        "dri": 53,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 53,
+        "pos": 55,
+        "sho": 38,
+        "sta": 62,
+        "str": 52,
+        "tac": 60,
+        "vis": 48
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -468,23 +487,23 @@
       "name": "Saul Gercia",
       "nation": "ESP",
       "number": 18,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 67,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 62,
+        "aer": 53,
+        "com": 68,
+        "dri": 71,
+        "ldr": 62,
+        "pac": 65,
         "pas": 73,
-        "pos": 64,
-        "sho": 62,
-        "sta": 74,
-        "str": 63,
-        "tac": 62,
-        "vis": 70
+        "pos": 49,
+        "sho": 68,
+        "sta": 68,
+        "str": 58,
+        "tac": 44,
+        "vis": 72
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -496,23 +515,27 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 30500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 65,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 63,
-        "pas": 51,
-        "pos": 40,
-        "sho": 66,
-        "sta": 56,
-        "str": 63,
-        "tac": 31,
-        "vis": 51
+        "aer": 44,
+        "com": 62,
+        "dri": 67,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 57,
+        "pos": 42,
+        "sho": 61,
+        "sta": 58,
+        "str": 53,
+        "tac": 37,
+        "vis": 57
       },
       "birth": "1993-07-01",
       "contract": null,
@@ -523,13 +546,10 @@
       "name": "Jonathan Rodrigoez",
       "nation": "URU",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 74,
@@ -557,6 +577,9 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 82,

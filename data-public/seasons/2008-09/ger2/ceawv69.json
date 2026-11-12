@@ -51,6 +51,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 57,
@@ -103,19 +108,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 66,
-        "dri": 66,
-        "ldr": 58,
-        "pac": 61,
-        "pas": 65,
-        "pos": 61,
-        "sho": 60,
-        "sta": 65,
-        "str": 59,
-        "tac": 61,
-        "vis": 64
+        "aer": 46,
+        "com": 64,
+        "dri": 71,
+        "ldr": 54,
+        "pac": 70,
+        "pas": 61,
+        "pos": 43,
+        "sho": 64,
+        "sta": 61,
+        "str": 54,
+        "tac": 41,
+        "vis": 61
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -126,23 +134,28 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
-        "com": 60,
+        "com": 68,
         "dri": 51,
         "ldr": 65,
         "pac": 56,
-        "pas": 57,
+        "pas": 65,
         "pos": 64,
         "sho": 40,
-        "sta": 62,
+        "sta": 70,
         "str": 63,
         "tac": 70,
-        "vis": 48
+        "vis": 56
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -153,7 +166,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 7,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 6000
     },
     {
@@ -164,7 +177,7 @@
         "ldr": 62,
         "pac": 72,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 76,
         "sta": 64,
         "str": 73,
@@ -190,7 +203,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 50,
-        "pos": 30,
+        "pos": 50,
         "sho": 57,
         "sta": 54,
         "str": 53,
@@ -217,7 +230,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 47,
-        "pos": 34,
+        "pos": 54,
         "sho": 63,
         "sta": 53,
         "str": 55,
@@ -236,19 +249,23 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 61,
-        "ldr": 55,
-        "pac": 66,
-        "pas": 59,
-        "pos": 39,
-        "sho": 64,
-        "sta": 59,
-        "str": 66,
-        "tac": 32,
-        "vis": 58
+        "aer": 46,
+        "com": 64,
+        "dri": 66,
+        "ldr": 53,
+        "pac": 70,
+        "pas": 65,
+        "pos": 41,
+        "sho": 59,
+        "sta": 61,
+        "str": 56,
+        "tac": 38,
+        "vis": 64
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -258,23 +275,28 @@
       "name": "Tommy Bachmann",
       "nation": "DEN",
       "number": 13,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 54,
+        "com": 63,
         "dri": 41,
         "ldr": 57,
         "pac": 54,
-        "pas": 50,
+        "pas": 59,
         "pos": 63,
         "sho": 34,
-        "sta": 57,
+        "sta": 66,
         "str": 60,
         "tac": 58,
-        "vis": 44
+        "vis": 53
       },
       "birth": "1981-11-01",
       "contract": null,
@@ -284,7 +306,7 @@
       "name": "Kevin Schlitta",
       "nation": "GER",
       "number": 14,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -315,18 +337,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 33,
         "com": 52,
-        "dri": 49,
+        "dri": 53,
         "ldr": 44,
-        "pac": 50,
-        "pas": 40,
-        "pos": 31,
-        "sho": 54,
+        "pac": 48,
+        "pas": 50,
+        "pos": 36,
+        "sho": 51,
         "sta": 49,
-        "str": 49,
-        "tac": 24,
-        "vis": 46
+        "str": 39,
+        "tac": 32,
+        "vis": 57
       },
       "birth": "1987-11-01",
       "contract": null,
@@ -336,10 +358,13 @@
       "name": "Felix Ruth",
       "nation": "GER",
       "number": 16,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -366,22 +391,19 @@
       "wage": 4000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 47,
-        "com": 54,
-        "dri": 52,
-        "ldr": 52,
-        "pac": 47,
-        "pas": 59,
-        "pos": 54,
-        "sho": 46,
-        "sta": 59,
-        "str": 51,
-        "tac": 48,
-        "vis": 56
+        "aer": 41,
+        "com": 52,
+        "dri": 57,
+        "ldr": 48,
+        "pac": 56,
+        "pas": 55,
+        "pos": 36,
+        "sho": 50,
+        "sta": 55,
+        "str": 46,
+        "tac": 28,
+        "vis": 53
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -391,23 +413,23 @@
       "name": "Andreas Glocknar",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 61,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 58,
-        "pas": 64,
-        "pos": 64,
-        "sho": 54,
+        "dri": 59,
+        "ldr": 63,
+        "pac": 55,
+        "pas": 63,
+        "pos": 68,
+        "sho": 48,
         "sta": 65,
-        "str": 60,
-        "tac": 60,
-        "vis": 64
+        "str": 65,
+        "tac": 66,
+        "vis": 61
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -417,7 +439,7 @@
       "name": "Ivica Banuvic",
       "nation": "CRO",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6500
     },
     {
@@ -449,17 +471,17 @@
     {
       "attrs": {
         "aer": 39,
-        "com": 50,
-        "dri": 51,
-        "ldr": 44,
-        "pac": 47,
-        "pas": 52,
+        "com": 46,
+        "dri": 49,
+        "ldr": 42,
+        "pac": 54,
+        "pas": 46,
         "pos": 51,
-        "sho": 44,
+        "sho": 30,
         "sta": 49,
-        "str": 46,
-        "tac": 49,
-        "vis": 52
+        "str": 45,
+        "tac": 53,
+        "vis": 43
       },
       "birth": "1989-08-01",
       "contract": null,
@@ -469,23 +491,26 @@
       "name": "Eke Uzome",
       "nation": "NGA",
       "number": 22,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 60,
-        "dri": 58,
+        "com": 62,
+        "dri": 60,
         "ldr": 59,
         "pac": 56,
-        "pas": 61,
+        "pas": 63,
         "pos": 60,
-        "sho": 52,
-        "sta": 62,
+        "sho": 54,
+        "sta": 64,
         "str": 58,
         "tac": 59,
-        "vis": 59
+        "vis": 61
       },
       "birth": "1985-04-01",
       "contract": null,
@@ -499,6 +524,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 53,
@@ -525,6 +553,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,

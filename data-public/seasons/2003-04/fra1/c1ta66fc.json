@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 77,
@@ -58,7 +61,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 60,
-        "pos": 49,
+        "pos": 69,
         "sho": 71,
         "sta": 63,
         "str": 68,
@@ -78,9 +81,6 @@
       "wage": 12000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 69,
         "com": 65,
@@ -108,19 +108,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 65,
-        "dri": 61,
-        "ldr": 63,
-        "pac": 69,
-        "pas": 57,
-        "pos": 44,
-        "sho": 68,
-        "sta": 62,
-        "str": 67,
-        "tac": 34,
-        "vis": 60
+        "aer": 49,
+        "com": 62,
+        "dri": 66,
+        "ldr": 61,
+        "pac": 73,
+        "pas": 63,
+        "pos": 46,
+        "sho": 63,
+        "sta": 64,
+        "str": 57,
+        "tac": 40,
+        "vis": 66
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -131,10 +134,13 @@
       "nation": "FRA",
       "nation2": "GUI",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 62,
@@ -161,6 +167,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -239,6 +248,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -298,7 +310,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 53,
-        "pos": 34,
+        "pos": 54,
         "sho": 62,
         "sta": 53,
         "str": 56,
@@ -345,19 +357,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 57,
-        "dri": 40,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 46,
-        "pos": 57,
-        "sho": 27,
-        "sta": 53,
-        "str": 62,
-        "tac": 63,
-        "vis": 46
+        "aer": 50,
+        "com": 55,
+        "dri": 50,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 50,
+        "pos": 52,
+        "sho": 34,
+        "sta": 59,
+        "str": 54,
+        "tac": 60,
+        "vis": 52
       },
       "birth": "1980-03-01",
       "contract": null,
@@ -367,7 +382,7 @@
       "name": "Guillaume Muullec",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
@@ -431,7 +446,7 @@
         "ldr": 51,
         "pac": 58,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 58,
         "sta": 50,
         "str": 59,
@@ -528,19 +543,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 53,
-        "dri": 49,
-        "ldr": 48,
-        "pac": 46,
+        "aer": 37,
+        "com": 54,
+        "dri": 53,
+        "ldr": 46,
+        "pac": 49,
         "pas": 56,
-        "pos": 53,
-        "sho": 48,
-        "sta": 53,
-        "str": 51,
-        "tac": 53,
-        "vis": 55
+        "pos": 38,
+        "sho": 54,
+        "sta": 47,
+        "str": 46,
+        "tac": 35,
+        "vis": 57
       },
       "birth": "1984-02-01",
       "contract": null,
@@ -551,7 +569,7 @@
       "nation": "TUR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3500
     },
@@ -563,7 +581,7 @@
         "ldr": 45,
         "pac": 55,
         "pas": 48,
-        "pos": 29,
+        "pos": 49,
         "sho": 59,
         "sta": 53,
         "str": 56,
@@ -584,18 +602,23 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 56,
+        "aer": 52,
+        "com": 58,
         "dri": 53,
         "ldr": 52,
-        "pac": 52,
+        "pac": 59,
         "pas": 56,
-        "pos": 52,
+        "pos": 61,
         "sho": 48,
         "sta": 55,
-        "str": 47,
-        "tac": 52,
+        "str": 56,
+        "tac": 61,
         "vis": 55
       },
       "birth": "1982-04-01",
@@ -607,10 +630,13 @@
       "nation": "CMR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 55,
@@ -645,7 +671,7 @@
         "ldr": 44,
         "pac": 54,
         "pas": 43,
-        "pos": 29,
+        "pos": 49,
         "sho": 54,
         "sta": 52,
         "str": 50,
@@ -664,19 +690,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 51,
-        "dri": 52,
-        "ldr": 46,
-        "pac": 55,
-        "pas": 47,
-        "pos": 29,
-        "sho": 58,
-        "sta": 50,
-        "str": 52,
-        "tac": 22,
-        "vis": 44
+        "aer": 34,
+        "com": 48,
+        "dri": 57,
+        "ldr": 44,
+        "pac": 59,
+        "pas": 53,
+        "pos": 31,
+        "sho": 53,
+        "sta": 52,
+        "str": 42,
+        "tac": 28,
+        "vis": 50
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -686,7 +715,7 @@
       "name": "Bertrand Rubert",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 2000
     },
     {
@@ -743,6 +772,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -798,18 +830,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 52,
-        "dri": 41,
-        "ldr": 49,
-        "pac": 44,
-        "pas": 41,
-        "pos": 57,
-        "sho": 28,
-        "sta": 49,
-        "str": 56,
-        "tac": 58,
-        "vis": 37
+        "aer": 45,
+        "com": 50,
+        "dri": 51,
+        "ldr": 45,
+        "pac": 52,
+        "pas": 45,
+        "pos": 52,
+        "sho": 35,
+        "sta": 55,
+        "str": 48,
+        "tac": 55,
+        "vis": 43
       },
       "birth": "1983-03-01",
       "contract": null,
@@ -819,7 +851,7 @@
       "name": "Jimmy Mainfrui",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2500
     },
@@ -857,7 +889,7 @@
         "ldr": 45,
         "pac": 47,
         "pas": 43,
-        "pos": 29,
+        "pos": 49,
         "sho": 52,
         "sta": 48,
         "str": 51,
@@ -883,7 +915,7 @@
         "ldr": 42,
         "pac": 49,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 55,
         "sta": 49,
         "str": 53,
@@ -928,6 +960,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 50,
@@ -955,6 +990,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 47,

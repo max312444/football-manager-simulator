@@ -70,9 +70,6 @@
       "wage": 23000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 71,
         "com": 63,
@@ -127,6 +124,9 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -156,6 +156,9 @@
       "wage": 51000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 66,
@@ -183,7 +186,8 @@
     },
     {
       "alt": [
-        "RM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 31,
@@ -211,6 +215,10 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM",
+        "RM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 63,
@@ -264,17 +272,17 @@
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 39,
-        "com": 60,
-        "dri": 69,
+        "com": 63,
+        "dri": 72,
         "ldr": 54,
-        "pac": 70,
+        "pac": 73,
         "pas": 69,
         "pos": 48,
-        "sho": 61,
+        "sho": 64,
         "sta": 76,
         "str": 56,
         "tac": 53,
@@ -288,12 +296,13 @@
       "name": "Stephen Hont",
       "nation": "IRL",
       "number": 10,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 36000
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -350,21 +359,18 @@
       "wage": 19500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 35,
         "com": 60,
         "dri": 68,
         "ldr": 54,
-        "pac": 71,
+        "pac": 84,
         "pas": 61,
-        "pos": 33,
+        "pos": 61,
         "sho": 57,
-        "sta": 64,
-        "str": 42,
-        "tac": 27,
+        "sta": 79,
+        "str": 70,
+        "tac": 55,
         "vis": 58
       },
       "birth": "1981-08-01",
@@ -375,7 +381,7 @@
       "name": "Bernard Mandy",
       "nation": "FRA",
       "number": 15,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 16000
     },
     {
@@ -408,6 +414,9 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 71,
@@ -437,17 +446,17 @@
     {
       "attrs": {
         "aer": 37,
-        "com": 68,
-        "dri": 61,
+        "com": 71,
+        "dri": 64,
         "ldr": 61,
-        "pac": 44,
+        "pac": 47,
         "pas": 65,
         "pos": 45,
-        "sho": 51,
+        "sho": 54,
         "sta": 59,
         "str": 49,
         "tac": 49,
-        "vis": 62
+        "vis": 65
       },
       "birth": "1976-06-01",
       "contract": "2010-06-30",
@@ -457,12 +466,13 @@
       "name": "Bryan Hoghes",
       "nation": "ENG",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19500
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 41,
@@ -496,21 +506,23 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 32,
-        "com": 59,
+        "com": 69,
         "dri": 68,
         "ldr": 50,
         "pac": 67,
-        "pas": 59,
+        "pas": 69,
         "pos": 34,
-        "sho": 59,
+        "sho": 69,
         "sta": 64,
         "str": 44,
         "tac": 27,
-        "vis": 56
+        "vis": 66
       },
       "birth": "1981-09-01",
       "contract": "2010-06-30",
@@ -520,22 +532,25 @@
       "name": "Richard Garcya",
       "nation": "AUS",
       "number": 23,
-      "pos": "RM",
+      "pos": "AM",
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 76,
         "dri": 69,
         "ldr": 70,
         "pac": 59,
-        "pas": 74,
+        "pas": 75,
         "pos": 59,
         "sho": 71,
-        "sta": 74,
+        "sta": 75,
         "str": 58,
-        "tac": 56,
+        "tac": 57,
         "vis": 75
       },
       "birth": "1978-10-01",
@@ -556,7 +571,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "LW"
       ],
       "attrs": {
         "aer": 37,
@@ -641,16 +657,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 65,
+        "aer": 68,
+        "com": 68,
         "dri": 69,
         "ldr": 52,
         "pac": 67,
         "pas": 61,
-        "pos": 41,
-        "sho": 70,
+        "pos": 44,
+        "sho": 73,
         "sta": 66,
-        "str": 70,
+        "str": 73,
         "tac": 35,
         "vis": 58
       },

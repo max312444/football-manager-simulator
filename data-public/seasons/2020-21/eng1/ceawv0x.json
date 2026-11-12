@@ -96,9 +96,6 @@
       "wage": 37000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -122,13 +119,10 @@
       "nation": "ENG",
       "nation2": "GRE",
       "number": 2,
-      "pos": "RWB",
+      "pos": "RB",
       "wage": 83500
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 59,
         "com": 71,
@@ -151,7 +145,7 @@
       "name": "Enda Stavens",
       "nation": "IRL",
       "number": 3,
-      "pos": "LWB",
+      "pos": "LB",
       "wage": 93500
     },
     {
@@ -182,7 +176,7 @@
     },
     {
       "alt": [
-        "RB"
+        "DM"
       ],
       "attrs": {
         "aer": 71,
@@ -323,9 +317,6 @@
       "wage": 45500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 65,
@@ -349,10 +340,15 @@
       "name": "Ethan Ampado",
       "nation": "WAL",
       "number": 22,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 50500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 56,
@@ -408,6 +404,9 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 72,
@@ -434,9 +433,6 @@
       "wage": 93500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 74,
@@ -444,11 +440,11 @@
         "ldr": 65,
         "pac": 65,
         "pas": 75,
-        "pos": 69,
+        "pos": 77,
         "sho": 68,
         "sta": 76,
-        "str": 64,
-        "tac": 64,
+        "str": 72,
+        "tac": 72,
         "vis": 74
       },
       "birth": "1991-04-01",
@@ -464,9 +460,6 @@
       "wage": 112500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 73,
         "com": 73,
@@ -489,7 +482,7 @@
       "name": "Sander Berga",
       "nation": "NOR",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 112500
     },
     {
@@ -501,13 +494,13 @@
         "com": 68,
         "dri": 69,
         "ldr": 56,
-        "pac": 69,
+        "pac": 78,
         "pas": 67,
-        "pos": 49,
+        "pos": 67,
         "sho": 65,
-        "sta": 66,
-        "str": 53,
-        "tac": 47,
+        "sta": 75,
+        "str": 71,
+        "tac": 65,
         "vis": 65
       },
       "birth": "1994-08-01",
@@ -518,10 +511,13 @@
       "name": "Ben Osburn",
       "nation": "ENG",
       "number": 23,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 47500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -578,16 +574,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 69,
+        "aer": 62,
+        "com": 71,
         "dri": 66,
         "ldr": 62,
         "pac": 69,
         "pas": 62,
-        "pos": 47,
-        "sho": 70,
+        "pos": 49,
+        "sho": 72,
         "sta": 65,
-        "str": 67,
+        "str": 69,
         "tac": 40,
         "vis": 61
       },
@@ -659,16 +655,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 71,
+        "aer": 60,
+        "com": 72,
         "dri": 66,
         "ldr": 67,
         "pac": 66,
         "pas": 60,
-        "pos": 46,
-        "sho": 71,
+        "pos": 47,
+        "sho": 72,
         "sta": 66,
-        "str": 66,
+        "str": 67,
         "tac": 44,
         "vis": 62
       },
@@ -686,7 +682,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "LW"
       ],
       "attrs": {
         "aer": 44,

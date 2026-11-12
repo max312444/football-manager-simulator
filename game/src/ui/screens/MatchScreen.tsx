@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { clubKo, playerKo } from '../../data/db';
-import { SEGMENTS, type TeamInMatch } from '../../engine/match';
+import { canSubInto, SEGMENTS, type TeamInMatch } from '../../engine/match';
 import { FORMATIONS } from '../../engine/squad';
 import type { FeedLine } from '../../engine/commentary';
 import { slotRating } from '../../engine/ratings';
@@ -214,11 +214,13 @@ export function MatchScreen() {
             {me.bench.map((id) => {
               const p = w.players[id];
               const outSlot = subOut ? me.onPitch.find((o) => o.id === subOut)?.slot : null;
+              const fits = !outSlot || canSubInto(p, outSlot);
               return (
-                <button key={id} disabled={!subOut} onClick={() => doSub(id)}
-                  className={`flex w-full items-center gap-3 px-5 py-2 text-left text-[13px] ${subOut ? 'hover:bg-neon-ghost' : 'opacity-70'}`}>
+                <button key={id} disabled={!subOut || !fits} onClick={() => doSub(id)} title={fits ? undefined : '이 자리에 맞지 않는 선수입니다 (주 · 보조 · 가까운 포지션만 교체 가능)'}
+                  className={`flex w-full items-center gap-3 px-5 py-2 text-left text-[13px] ${subOut && fits ? 'hover:bg-neon-ghost' : 'opacity-50'}`}>
                   <PosTag pos={p.pos} />
                   <span className="flex-1 truncate">{name(id)}</span>
+                  {!fits && <span className="shrink-0 text-[11px] text-lo">자리 안 맞음</span>}
                   {outSlot && <span className={`tnum text-[12px] font-semibold ${ratingTone(slotRating(p, outSlot))}`}>{Math.round(slotRating(p, outSlot))}</span>}
                   <ConditionIcon value={p.condition} />
                 </button>

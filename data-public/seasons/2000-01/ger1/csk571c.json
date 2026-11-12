@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 71,
@@ -31,7 +36,7 @@
         "ldr": 67,
         "pac": 70,
         "pas": 68,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 72,
         "str": 70,
@@ -57,7 +62,7 @@
         "ldr": 67,
         "pac": 72,
         "pas": 67,
-        "pos": 48,
+        "pos": 68,
         "sho": 72,
         "sta": 67,
         "str": 74,
@@ -78,17 +83,17 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 73,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 73,
-        "pos": 69,
-        "sho": 68,
-        "sta": 76,
-        "str": 66,
-        "tac": 66,
+        "aer": 56,
+        "com": 71,
+        "dri": 76,
+        "ldr": 69,
+        "pac": 77,
+        "pas": 74,
+        "pos": 61,
+        "sho": 66,
+        "sta": 80,
+        "str": 63,
+        "tac": 61,
         "vis": 70
       },
       "birth": "1973-11-01",
@@ -99,7 +104,7 @@
       "name": "Tibor Domby",
       "nation": "HUN",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "verify": true,
       "wage": 22500
     },
@@ -111,7 +116,7 @@
         "ldr": 65,
         "pac": 73,
         "pas": 64,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 68,
         "str": 69,
@@ -159,17 +164,17 @@
     {
       "attrs": {
         "aer": 63,
-        "com": 73,
+        "com": 69,
         "dri": 69,
-        "ldr": 69,
-        "pac": 62,
-        "pas": 71,
-        "pos": 69,
-        "sho": 63,
-        "sta": 72,
-        "str": 65,
-        "tac": 69,
-        "vis": 73
+        "ldr": 67,
+        "pac": 71,
+        "pas": 66,
+        "pos": 67,
+        "sho": 52,
+        "sta": 74,
+        "str": 64,
+        "tac": 71,
+        "vis": 65
       },
       "birth": "1975-01-01",
       "contract": null,
@@ -179,10 +184,13 @@
       "name": "Erol Bulot",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "LWB",
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -216,7 +224,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 60,
-        "pos": 49,
+        "pos": 69,
         "sho": 69,
         "sta": 65,
         "str": 71,
@@ -236,6 +244,9 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -263,6 +274,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
@@ -322,7 +336,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 54,
-        "pos": 39,
+        "pos": 59,
         "sho": 69,
         "sta": 58,
         "str": 66,
@@ -421,6 +435,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -447,19 +464,24 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 59,
+        "com": 66,
         "dri": 46,
         "ldr": 61,
         "pac": 54,
-        "pas": 57,
+        "pas": 64,
         "pos": 65,
         "sho": 38,
-        "sta": 59,
+        "sta": 66,
         "str": 63,
         "tac": 66,
-        "vis": 47
+        "vis": 54
       },
       "birth": "1972-10-01",
       "contract": null,
@@ -469,10 +491,13 @@
       "name": "Marco Gabhardt",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -499,6 +524,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -526,19 +554,24 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 57,
+        "com": 66,
         "dri": 45,
         "ldr": 62,
         "pac": 57,
-        "pas": 53,
+        "pas": 62,
         "pos": 63,
         "sho": 34,
-        "sta": 59,
+        "sta": 68,
         "str": 64,
         "tac": 62,
-        "vis": 47
+        "vis": 56
       },
       "birth": "1977-01-01",
       "contract": null,
@@ -548,7 +581,7 @@
       "name": "Gerd Wimmar",
       "nation": "AUT",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 5500
     },
@@ -579,6 +612,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -606,18 +642,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 59,
-        "dri": 54,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 63,
-        "pos": 55,
-        "sho": 55,
+        "dri": 50,
+        "ldr": 59,
+        "pac": 48,
+        "pas": 62,
+        "pos": 59,
+        "sho": 49,
         "sta": 64,
-        "str": 55,
-        "tac": 58,
-        "vis": 62
+        "str": 60,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1981-11-01",
       "contract": null,
@@ -628,7 +664,7 @@
       "nation": "USA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
@@ -658,6 +694,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -684,6 +723,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 59,
@@ -766,17 +808,17 @@
     {
       "attrs": {
         "aer": 44,
-        "com": 55,
-        "dri": 56,
-        "ldr": 50,
-        "pac": 54,
-        "pas": 61,
+        "com": 51,
+        "dri": 54,
+        "ldr": 48,
+        "pac": 61,
+        "pas": 55,
         "pos": 52,
-        "sho": 53,
+        "sho": 39,
         "sta": 55,
-        "str": 49,
-        "tac": 55,
-        "vis": 59
+        "str": 48,
+        "tac": 59,
+        "vis": 50
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -786,11 +828,16 @@
       "name": "Giuseppe Gamiti",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 53,
@@ -818,6 +865,11 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 56,
@@ -852,7 +904,7 @@
         "ldr": 52,
         "pac": 54,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 60,
         "sta": 49,
         "str": 55,
@@ -872,6 +924,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 57,
@@ -905,7 +960,7 @@
         "ldr": 46,
         "pac": 53,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 50,
         "str": 57,
@@ -925,6 +980,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -978,6 +1036,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -1005,6 +1066,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 45,
         "com": 48,
@@ -1031,6 +1095,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 49,
@@ -1058,6 +1125,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -1084,6 +1154,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 48,

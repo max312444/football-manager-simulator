@@ -130,18 +130,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 77,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 76,
+        "aer": 77,
+        "com": 78,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 73,
         "pas": 78,
-        "pos": 73,
-        "sho": 69,
-        "sta": 77,
-        "str": 76,
-        "tac": 71,
-        "vis": 76
+        "pos": 77,
+        "sho": 63,
+        "sta": 78,
+        "str": 81,
+        "tac": 77,
+        "vis": 74
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -152,23 +152,27 @@
       "nation": "FRA",
       "nation2": "CTA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 120500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 74,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 71,
-        "pas": 66,
-        "pos": 49,
-        "sho": 77,
-        "sta": 70,
-        "str": 73,
-        "tac": 40,
-        "vis": 66
+        "aer": 58,
+        "com": 71,
+        "dri": 76,
+        "ldr": 66,
+        "pac": 75,
+        "pas": 72,
+        "pos": 51,
+        "sho": 72,
+        "sta": 72,
+        "str": 63,
+        "tac": 46,
+        "vis": 72
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -178,10 +182,13 @@
       "name": "Goncalo Goedes",
       "nation": "POR",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 50000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -215,7 +222,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 74,
         "str": 81,
@@ -234,6 +241,10 @@
       "wage": 102500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 80,
@@ -260,19 +271,22 @@
       "wage": 136500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 83,
-        "dri": 79,
-        "ldr": 81,
-        "pac": 79,
-        "pas": 81,
-        "pos": 79,
-        "sho": 73,
-        "sta": 87,
-        "str": 76,
-        "tac": 75,
-        "vis": 84
+        "aer": 65,
+        "com": 81,
+        "dri": 84,
+        "ldr": 77,
+        "pac": 88,
+        "pas": 77,
+        "pos": 61,
+        "sho": 77,
+        "sta": 83,
+        "str": 71,
+        "tac": 55,
+        "vis": 81
       },
       "birth": "1990-12-01",
       "contract": null,
@@ -284,10 +298,13 @@
       "nation": "RUS",
       "nation2": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 136500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 61,
@@ -363,23 +380,23 @@
       "name": "Jose Geya",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 84000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 61,
-        "dri": 44,
-        "ldr": 56,
-        "pac": 51,
-        "pas": 54,
-        "pos": 61,
-        "sho": 35,
-        "sta": 58,
-        "str": 59,
-        "tac": 64,
-        "vis": 49
+        "aer": 51,
+        "com": 59,
+        "dri": 54,
+        "ldr": 52,
+        "pac": 59,
+        "pas": 58,
+        "pos": 56,
+        "sho": 42,
+        "sta": 64,
+        "str": 51,
+        "tac": 61,
+        "vis": 55
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -389,13 +406,10 @@
       "name": "Toni Latu",
       "nation": "ESP",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 13000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 76,
         "com": 78,
@@ -422,6 +436,11 @@
       "wage": 136500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 82,
@@ -448,6 +467,10 @@
       "wage": 136500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 80,
         "com": 78,
@@ -455,7 +478,7 @@
         "ldr": 73,
         "pac": 83,
         "pas": 69,
-        "pos": 55,
+        "pos": 75,
         "sho": 82,
         "sta": 74,
         "str": 78,
@@ -476,21 +499,22 @@
     },
     {
       "alt": [
-        "ST"
+        "RM",
+        "LW"
       ],
       "attrs": {
-        "aer": 59,
-        "com": 71,
-        "dri": 69,
+        "aer": 68,
+        "com": 80,
+        "dri": 74,
         "ldr": 65,
-        "pac": 67,
-        "pas": 72,
-        "pos": 67,
-        "sho": 68,
+        "pac": 78,
+        "pas": 74,
+        "pos": 76,
+        "sho": 77,
         "sta": 71,
-        "str": 63,
+        "str": 72,
         "tac": 64,
-        "vis": 74
+        "vis": 76
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -500,7 +524,7 @@
       "name": "Ferran Torras",
       "nation": "ESP",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 56500
     },
     {
@@ -537,7 +561,7 @@
         "ldr": 67,
         "pac": 70,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 71,
         "sta": 67,
         "str": 68,
@@ -563,7 +587,7 @@
         "ldr": 73,
         "pac": 76,
         "pas": 68,
-        "pos": 59,
+        "pos": 79,
         "sho": 83,
         "sta": 72,
         "str": 78,
@@ -584,18 +608,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 76,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 82,
-        "pas": 75,
-        "pos": 75,
-        "sho": 62,
-        "sta": 79,
-        "str": 72,
-        "tac": 83,
-        "vis": 74
+        "aer": 86,
+        "com": 78,
+        "dri": 65,
+        "ldr": 77,
+        "pac": 74,
+        "pas": 71,
+        "pos": 80,
+        "sho": 55,
+        "sta": 73,
+        "str": 80,
+        "tac": 86,
+        "vis": 68
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -605,23 +629,23 @@
       "name": "Ezequiel Garey",
       "nation": "ARG",
       "number": 24,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 131500
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 60,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 56,
-        "pas": 60,
-        "pos": 61,
-        "sho": 53,
+        "dri": 53,
+        "ldr": 58,
+        "pac": 53,
+        "pas": 59,
+        "pos": 65,
+        "sho": 47,
         "sta": 63,
-        "str": 54,
-        "tac": 58,
-        "vis": 64
+        "str": 59,
+        "tac": 64,
+        "vis": 61
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -631,7 +655,7 @@
       "name": "Uros Racyc",
       "nation": "SRB",
       "number": 26,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 19000
     }
   ],

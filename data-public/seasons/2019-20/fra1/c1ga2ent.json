@@ -78,6 +78,9 @@
       "wage": 210000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 73,
         "com": 69,
@@ -131,6 +134,9 @@
       "wage": 249000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 79,
@@ -164,7 +170,7 @@
         "ldr": 67,
         "pac": 78,
         "pas": 70,
-        "pos": 52,
+        "pos": 72,
         "sho": 81,
         "sta": 68,
         "str": 78,
@@ -184,18 +190,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 74,
-        "dri": 72,
-        "ldr": 75,
-        "pac": 72,
-        "pas": 77,
-        "pos": 76,
-        "sho": 74,
+        "dri": 68,
+        "ldr": 77,
+        "pac": 69,
+        "pas": 76,
+        "pos": 80,
+        "sho": 68,
         "sta": 77,
-        "str": 69,
-        "tac": 75,
-        "vis": 81
+        "str": 74,
+        "tac": 81,
+        "vis": 78
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -205,7 +211,7 @@
       "name": "Leandro Peredes",
       "nation": "ARG",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 349500
     },
     {
@@ -216,7 +222,7 @@
         "ldr": 71,
         "pac": 82,
         "pas": 73,
-        "pos": 54,
+        "pos": 74,
         "sho": 82,
         "sta": 75,
         "str": 79,
@@ -235,6 +241,11 @@
       "wage": 298000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 82,
         "com": 83,
@@ -242,7 +253,7 @@
         "ldr": 78,
         "pac": 85,
         "pas": 77,
-        "pos": 64,
+        "pos": 84,
         "sho": 88,
         "sta": 79,
         "str": 85,
@@ -261,19 +272,23 @@
       "wage": 471000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 79,
-        "dri": 77,
-        "ldr": 77,
-        "pac": 78,
-        "pas": 79,
-        "pos": 76,
-        "sho": 72,
-        "sta": 81,
-        "str": 75,
-        "tac": 73,
-        "vis": 81
+        "aer": 63,
+        "com": 81,
+        "dri": 81,
+        "ldr": 75,
+        "pac": 81,
+        "pas": 80,
+        "pos": 61,
+        "sho": 79,
+        "sta": 75,
+        "str": 70,
+        "tac": 55,
+        "vis": 84
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -284,7 +299,7 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 460000
     },
     {
@@ -336,7 +351,7 @@
       "name": "Juan Bernet",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 249000
     },
     {
@@ -373,7 +388,7 @@
         "ldr": 74,
         "pac": 78,
         "pas": 68,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 75,
         "str": 79,
@@ -394,7 +409,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 64,
@@ -445,10 +461,13 @@
       "nation": "FRA",
       "nation2": "POL",
       "number": 20,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 281500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 75,
@@ -502,19 +521,23 @@
       "wage": 149500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 79,
-        "dri": 77,
-        "ldr": 73,
-        "pac": 74,
+        "aer": 66,
+        "com": 80,
+        "dri": 81,
+        "ldr": 71,
+        "pac": 77,
         "pas": 80,
-        "pos": 75,
-        "sho": 75,
-        "sta": 83,
-        "str": 72,
-        "tac": 77,
-        "vis": 82
+        "pos": 60,
+        "sho": 81,
+        "sta": 77,
+        "str": 67,
+        "tac": 59,
+        "vis": 84
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -524,23 +547,27 @@
       "name": "Julian Drexler",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 468500
     },
     {
+      "alt": [
+        "LWB",
+        "LM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 49,
-        "pas": 52,
-        "pos": 60,
-        "sho": 33,
-        "sta": 57,
-        "str": 57,
-        "tac": 64,
-        "vis": 46
+        "aer": 50,
+        "com": 57,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 57,
+        "pas": 56,
+        "pos": 55,
+        "sho": 40,
+        "sta": 63,
+        "str": 49,
+        "tac": 61,
+        "vis": 52
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -550,23 +577,23 @@
       "name": "Mitchel Bakkar",
       "nation": "NED",
       "number": 25,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 35000
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 75,
-        "dri": 79,
-        "ldr": 76,
-        "pac": 74,
-        "pas": 83,
-        "pos": 74,
-        "sho": 71,
+        "dri": 75,
+        "ldr": 78,
+        "pac": 71,
+        "pas": 82,
+        "pos": 78,
+        "sho": 65,
         "sta": 80,
-        "str": 72,
-        "tac": 73,
-        "vis": 81
+        "str": 77,
+        "tac": 79,
+        "vis": 78
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -576,7 +603,7 @@
       "name": "Idrissa Guaye",
       "nation": "SEN",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 426500
     },
     {
@@ -661,18 +688,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 56,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 49,
+        "aer": 39,
+        "com": 57,
+        "dri": 58,
+        "ldr": 49,
+        "pac": 52,
         "pas": 57,
-        "pos": 55,
-        "sho": 51,
-        "sta": 55,
-        "str": 49,
-        "tac": 51,
-        "vis": 52
+        "pos": 40,
+        "sho": 57,
+        "sta": 49,
+        "str": 44,
+        "tac": 33,
+        "vis": 54
       },
       "birth": "2002-07-01",
       "contract": null,
@@ -683,23 +710,27 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": 38,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 29000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 80,
-        "dri": 76,
-        "ldr": 72,
-        "pac": 75,
-        "pas": 72,
-        "pos": 54,
-        "sho": 81,
-        "sta": 73,
-        "str": 77,
-        "tac": 46,
-        "vis": 71
+        "aer": 63,
+        "com": 77,
+        "dri": 81,
+        "ldr": 70,
+        "pac": 79,
+        "pas": 78,
+        "pos": 56,
+        "sho": 76,
+        "sta": 75,
+        "str": 67,
+        "tac": 52,
+        "vis": 77
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -709,7 +740,7 @@
       "name": "Jase",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 253500
     }
   ],

@@ -99,6 +99,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 69,
@@ -106,11 +109,11 @@
         "ldr": 60,
         "pac": 93,
         "pas": 69,
-        "pos": 69,
+        "pos": 70,
         "sho": 58,
-        "sta": 77,
-        "str": 58,
-        "tac": 73,
+        "sta": 78,
+        "str": 59,
+        "tac": 74,
         "vis": 67
       },
       "birth": "2000-09-01",
@@ -239,6 +242,9 @@
       "wage": 79500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -296,7 +302,8 @@
     {
       "alt": [
         "RB",
-        "LB"
+        "LB",
+        "RW"
       ],
       "attrs": {
         "aer": 59,
@@ -329,8 +336,8 @@
     },
     {
       "alt": [
-        "LW",
-        "RWB"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 48,
@@ -354,7 +361,7 @@
       "name": "Solly Merch",
       "nation": "ENG",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 77500
     },
     {
@@ -365,11 +372,11 @@
         "ldr": 63,
         "pac": 61,
         "pas": 76,
-        "pos": 65,
+        "pos": 72,
         "sho": 63,
         "sta": 74,
-        "str": 63,
-        "tac": 63,
+        "str": 70,
+        "tac": 70,
         "vis": 71
       },
       "birth": "1996-01-01",
@@ -380,13 +387,10 @@
       "name": "Mahmoud Dahuud",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 85000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -394,11 +398,11 @@
         "ldr": 61,
         "pac": 69,
         "pas": 80,
-        "pos": 65,
+        "pos": 73,
         "sho": 66,
         "sta": 74,
-        "str": 64,
-        "tac": 65,
+        "str": 72,
+        "tac": 73,
         "vis": 73
       },
       "birth": "2001-06-01",
@@ -409,12 +413,12 @@
       "name": "Billy Gylmour",
       "nation": "SCO",
       "number": 11,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 106000
     },
     {
       "alt": [
-        "RB",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -447,22 +451,19 @@
       "wage": 157500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 58,
-        "com": 70,
-        "dri": 71,
+        "com": 72,
+        "dri": 73,
         "ldr": 73,
-        "pac": 55,
+        "pac": 57,
         "pas": 79,
         "pos": 64,
-        "sho": 65,
+        "sho": 67,
         "sta": 65,
         "str": 62,
         "tac": 64,
-        "vis": 80
+        "vis": 82
       },
       "birth": "1988-05-01",
       "contract": "2024-06-30",
@@ -472,13 +473,16 @@
       "name": "Adam Lallena",
       "nation": "ENG",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "traits": [
         "injury_prone"
       ],
       "wage": 93500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 69,
@@ -513,17 +517,17 @@
       ],
       "attrs": {
         "aer": 67,
-        "com": 71,
+        "com": 76,
         "dri": 75,
         "ldr": 57,
         "pac": 76,
-        "pas": 73,
-        "pos": 71,
+        "pas": 78,
+        "pos": 76,
         "sho": 57,
         "sta": 82,
-        "str": 78,
-        "tac": 77,
-        "vis": 67
+        "str": 83,
+        "tac": 82,
+        "vis": 72
       },
       "birth": "2004-01-01",
       "contract": "2028-06-30",
@@ -538,21 +542,22 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 34,
-        "com": 66,
+        "com": 69,
         "dri": 74,
         "ldr": 46,
         "pac": 69,
-        "pas": 68,
+        "pas": 71,
         "pos": 42,
-        "sho": 62,
+        "sho": 65,
         "sta": 65,
         "str": 51,
         "tac": 38,
-        "vis": 70
+        "vis": 73
       },
       "birth": "2004-12-01",
       "contract": "2028-06-30",
@@ -567,21 +572,21 @@
     },
     {
       "alt": [
-        "RB"
+        "DM"
       ],
       "attrs": {
         "aer": 56,
-        "com": 64,
-        "dri": 64,
+        "com": 66,
+        "dri": 65,
         "ldr": 50,
         "pac": 63,
-        "pas": 66,
+        "pas": 68,
         "pos": 62,
-        "sho": 52,
+        "sho": 53,
         "sta": 73,
         "str": 61,
-        "tac": 64,
-        "vis": 62
+        "tac": 65,
+        "vis": 64
       },
       "birth": "2005-04-01",
       "contract": "2027-06-30",
@@ -654,7 +659,6 @@
     },
     {
       "alt": [
-        "RW",
         "ST"
       ],
       "attrs": {
@@ -684,7 +688,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 51,
@@ -716,20 +721,17 @@
       "wage": 95500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 66,
-        "com": 78,
+        "aer": 75,
+        "com": 87,
         "dri": 80,
         "ldr": 62,
-        "pac": 77,
+        "pac": 79,
         "pas": 74,
-        "pos": 51,
-        "sho": 78,
+        "pos": 60,
+        "sho": 87,
         "sta": 79,
-        "str": 69,
+        "str": 78,
         "tac": 44,
         "vis": 76
       },
@@ -775,16 +777,16 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 60,
+        "aer": 57,
+        "com": 62,
         "dri": 60,
         "ldr": 50,
         "pac": 60,
         "pas": 54,
-        "pos": 40,
-        "sho": 66,
+        "pos": 42,
+        "sho": 68,
         "sta": 59,
-        "str": 60,
+        "str": 62,
         "tac": 38,
         "vis": 57
       },

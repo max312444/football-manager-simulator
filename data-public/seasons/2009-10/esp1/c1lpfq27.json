@@ -52,18 +52,19 @@
     },
     {
       "alt": [
-        "RB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 79,
         "com": 72,
-        "dri": 60,
+        "dri": 72,
         "ldr": 70,
-        "pac": 65,
-        "pas": 65,
+        "pac": 77,
+        "pas": 77,
         "pos": 77,
         "sho": 47,
-        "sta": 66,
+        "sta": 78,
         "str": 72,
         "tac": 78,
         "vis": 58
@@ -76,12 +77,12 @@
       "name": "Cesar Azpilicoeta",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 28500
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 79,
@@ -161,6 +162,10 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 79,
@@ -188,7 +193,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 48,
@@ -217,18 +223,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 77,
-        "dri": 77,
-        "ldr": 70,
-        "pac": 74,
-        "pas": 77,
-        "pos": 78,
-        "sho": 70,
-        "sta": 79,
-        "str": 73,
-        "tac": 74,
-        "vis": 76
+        "aer": 61,
+        "com": 79,
+        "dri": 81,
+        "ldr": 68,
+        "pac": 77,
+        "pas": 78,
+        "pos": 63,
+        "sho": 77,
+        "sta": 73,
+        "str": 68,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -238,7 +244,7 @@
       "name": "Masoud Shojaai",
       "nation": "IRN",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 43000
     },
     {
@@ -249,7 +255,7 @@
         "ldr": 65,
         "pac": 73,
         "pas": 69,
-        "pos": 53,
+        "pos": 73,
         "sho": 78,
         "sta": 67,
         "str": 75,
@@ -268,10 +274,6 @@
       "wage": 27000
     },
     {
-      "alt": [
-        "CM",
-        "ST"
-      ],
       "attrs": {
         "aer": 61,
         "com": 65,
@@ -305,7 +307,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 66,
         "str": 73,
@@ -324,22 +326,19 @@
       "wage": 19500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 69,
-        "com": 81,
-        "dri": 76,
-        "ldr": 77,
-        "pac": 70,
-        "pas": 80,
+        "com": 77,
+        "dri": 74,
+        "ldr": 75,
+        "pac": 77,
+        "pas": 74,
         "pos": 75,
-        "sho": 72,
+        "sho": 58,
         "sta": 81,
-        "str": 74,
-        "tac": 74,
-        "vis": 79
+        "str": 73,
+        "tac": 78,
+        "vis": 70
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -349,7 +348,7 @@
       "name": "Joanfran",
       "nation": "ESP",
       "number": 12,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 43000
     },
     {
@@ -405,6 +404,11 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -438,7 +442,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 64,
-        "pos": 53,
+        "pos": 73,
         "sho": 74,
         "sta": 69,
         "str": 74,
@@ -458,18 +462,21 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
         "dri": 69,
         "ldr": 65,
         "pac": 66,
-        "pas": 67,
+        "pas": 68,
         "pos": 69,
         "sho": 64,
-        "sta": 70,
+        "sta": 71,
         "str": 66,
-        "tac": 62,
+        "tac": 63,
         "vis": 70
       },
       "birth": "1978-05-01",
@@ -491,7 +498,7 @@
         "ldr": 62,
         "pac": 68,
         "pas": 61,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 63,
         "str": 71,
@@ -510,6 +517,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 75,
@@ -595,7 +605,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 56,
-        "pos": 45,
+        "pos": 65,
         "sho": 66,
         "sta": 58,
         "str": 64,

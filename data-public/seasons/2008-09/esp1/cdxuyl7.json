@@ -26,18 +26,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 70,
-        "com": 65,
-        "dri": 51,
-        "ldr": 62,
-        "pac": 56,
-        "pas": 54,
-        "pos": 70,
-        "sho": 39,
-        "sta": 60,
-        "str": 69,
-        "tac": 65,
-        "vis": 51
+        "aer": 57,
+        "com": 63,
+        "dri": 61,
+        "ldr": 58,
+        "pac": 64,
+        "pas": 58,
+        "pos": 65,
+        "sho": 46,
+        "sta": 66,
+        "str": 61,
+        "tac": 62,
+        "vis": 57
       },
       "birth": "1980-04-01",
       "contract": null,
@@ -47,13 +47,10 @@
       "name": "Juenra",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 16500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 55,
         "com": 58,
@@ -80,6 +77,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -107,7 +107,7 @@
     },
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
@@ -136,18 +136,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 62,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 61,
+        "aer": 50,
+        "com": 63,
+        "dri": 67,
+        "ldr": 55,
+        "pac": 64,
         "pas": 69,
-        "pos": 62,
-        "sho": 61,
-        "sta": 64,
-        "str": 62,
-        "tac": 61,
-        "vis": 68
+        "pos": 47,
+        "sho": 67,
+        "sta": 58,
+        "str": 57,
+        "tac": 43,
+        "vis": 70
       },
       "birth": "1975-04-01",
       "contract": null,
@@ -157,7 +157,7 @@
       "name": "Juan Carlos Morano",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 23000
     },
     {
@@ -168,7 +168,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 68,
         "sta": 61,
         "str": 63,
@@ -194,7 +194,7 @@
         "ldr": 67,
         "pac": 68,
         "pas": 61,
-        "pos": 49,
+        "pos": 69,
         "sho": 74,
         "sta": 65,
         "str": 67,
@@ -214,21 +214,21 @@
     },
     {
       "alt": [
-        "CM"
+        "RM"
       ],
       "attrs": {
         "aer": 56,
-        "com": 62,
-        "dri": 63,
+        "com": 69,
+        "dri": 65,
         "ldr": 57,
-        "pac": 67,
-        "pas": 59,
-        "pos": 65,
+        "pac": 69,
+        "pas": 66,
+        "pos": 72,
         "sho": 49,
-        "sta": 71,
-        "str": 60,
-        "tac": 67,
-        "vis": 57
+        "sta": 73,
+        "str": 67,
+        "tac": 74,
+        "vis": 64
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -269,18 +269,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 44,
         "com": 62,
-        "dri": 58,
+        "dri": 62,
         "ldr": 54,
-        "pac": 56,
-        "pas": 49,
-        "pos": 35,
-        "sho": 59,
+        "pac": 54,
+        "pas": 59,
+        "pos": 40,
+        "sho": 56,
         "sta": 54,
-        "str": 62,
-        "tac": 31,
-        "vis": 52
+        "str": 52,
+        "tac": 39,
+        "vis": 63
       },
       "birth": "1984-10-01",
       "contract": null,
@@ -290,7 +290,7 @@
       "name": "Juan Queru",
       "nation": "ESP",
       "number": 19,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7500
     },
     {
@@ -327,7 +327,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 60,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 61,
         "str": 62,
@@ -405,7 +405,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 59,
         "str": 61,
@@ -451,18 +451,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 70,
-        "dri": 69,
-        "ldr": 68,
-        "pac": 69,
+        "aer": 57,
+        "com": 71,
+        "dri": 73,
+        "ldr": 66,
+        "pac": 72,
         "pas": 71,
-        "pos": 70,
-        "sho": 66,
-        "sta": 71,
-        "str": 64,
-        "tac": 66,
-        "vis": 73
+        "pos": 55,
+        "sho": 72,
+        "sta": 65,
+        "str": 59,
+        "tac": 48,
+        "vis": 75
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -472,23 +472,27 @@
       "name": "Jose Barkaro",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 26000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 71,
-        "dri": 65,
-        "ldr": 67,
-        "pac": 71,
-        "pas": 64,
-        "pos": 48,
-        "sho": 72,
-        "sta": 68,
-        "str": 71,
-        "tac": 37,
-        "vis": 65
+        "aer": 51,
+        "com": 68,
+        "dri": 70,
+        "ldr": 65,
+        "pac": 75,
+        "pas": 70,
+        "pos": 50,
+        "sho": 67,
+        "sta": 70,
+        "str": 61,
+        "tac": 43,
+        "vis": 71
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -498,7 +502,7 @@
       "name": "Antonio Gueyre",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 26000
     },
     {
@@ -524,7 +528,7 @@
       "name": "Domingo Cysma",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 22000
     },
     {
@@ -561,7 +565,7 @@
         "ldr": 49,
         "pac": 51,
         "pas": 45,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 48,
         "str": 52,

@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 55,
-        "com": 62,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 58,
-        "pas": 68,
-        "pos": 64,
-        "sho": 57,
-        "sta": 64,
-        "str": 61,
-        "tac": 58,
-        "vis": 62
+        "aer": 49,
+        "com": 60,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 67,
+        "pas": 64,
+        "pos": 46,
+        "sho": 61,
+        "sta": 60,
+        "str": 56,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -46,12 +46,14 @@
       "name": "Gregory Dufar",
       "nation": "BEL",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 12500
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -162,21 +164,22 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 52,
-        "com": 62,
+        "aer": 60,
+        "com": 63,
         "dri": 56,
-        "ldr": 58,
-        "pac": 54,
-        "pas": 62,
+        "ldr": 56,
+        "pac": 59,
+        "pas": 52,
         "pos": 57,
-        "sho": 56,
-        "sta": 62,
-        "str": 57,
-        "tac": 55,
-        "vis": 59
+        "sho": 65,
+        "sta": 56,
+        "str": 62,
+        "tac": 29,
+        "vis": 50
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -186,10 +189,13 @@
       "name": "Yoan Gooffran",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 62,
@@ -216,6 +222,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 60,
@@ -303,7 +312,7 @@
         "ldr": 57,
         "pac": 57,
         "pas": 55,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 54,
         "str": 60,
@@ -329,7 +338,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 52,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 58,
         "str": 57,
@@ -348,6 +357,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 62,
@@ -374,6 +386,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -427,9 +442,6 @@
       "wage": 6000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 57,
@@ -483,6 +495,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -543,7 +558,7 @@
         "ldr": 53,
         "pac": 57,
         "pas": 46,
-        "pos": 34,
+        "pos": 54,
         "sho": 60,
         "sta": 54,
         "str": 56,
@@ -569,7 +584,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 49,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 50,
         "str": 54,
@@ -589,6 +604,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -616,6 +634,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -670,18 +691,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 55,
-        "dri": 43,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 47,
-        "pos": 57,
-        "sho": 28,
-        "sta": 53,
-        "str": 57,
-        "tac": 58,
-        "vis": 39
+        "aer": 43,
+        "com": 53,
+        "dri": 53,
+        "ldr": 47,
+        "pac": 55,
+        "pas": 51,
+        "pos": 52,
+        "sho": 35,
+        "sta": 59,
+        "str": 49,
+        "tac": 55,
+        "vis": 45
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -691,10 +712,13 @@
       "name": "Reynald Lemeitre",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -722,18 +746,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 52,
+        "aer": 50,
+        "com": 53,
         "dri": 51,
-        "ldr": 49,
-        "pac": 52,
-        "pas": 56,
+        "ldr": 47,
+        "pac": 57,
+        "pas": 46,
         "pos": 53,
-        "sho": 50,
-        "sta": 55,
-        "str": 51,
-        "tac": 48,
-        "vis": 53
+        "sho": 59,
+        "sta": 49,
+        "str": 56,
+        "tac": 22,
+        "vis": 44
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -743,10 +767,13 @@
       "name": "Yohann Eudelyne",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -806,7 +833,7 @@
         "ldr": 44,
         "pac": 48,
         "pas": 42,
-        "pos": 27,
+        "pos": 47,
         "sho": 53,
         "sta": 48,
         "str": 51,
@@ -826,6 +853,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 48,
@@ -853,6 +883,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 51,

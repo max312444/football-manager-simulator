@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 51,
-        "dri": 41,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 50,
-        "pos": 60,
-        "sho": 27,
-        "sta": 53,
-        "str": 59,
-        "tac": 57,
-        "vis": 42
+        "aer": 46,
+        "com": 49,
+        "dri": 51,
+        "ldr": 50,
+        "pac": 61,
+        "pas": 54,
+        "pos": 55,
+        "sho": 34,
+        "sta": 59,
+        "str": 51,
+        "tac": 54,
+        "vis": 48
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -73,23 +73,26 @@
       "name": "Steffen Leng",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 58,
-        "dri": 53,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 61,
-        "pos": 55,
-        "sho": 55,
+        "dri": 49,
+        "ldr": 59,
+        "pac": 48,
+        "pas": 60,
+        "pos": 59,
+        "sho": 49,
         "sta": 58,
-        "str": 51,
-        "tac": 52,
-        "vis": 61
+        "str": 56,
+        "tac": 58,
+        "vis": 58
       },
       "birth": "1991-10-01",
       "contract": null,
@@ -99,7 +102,7 @@
       "name": "Brian Behrandt",
       "nation": "GER",
       "number": 3,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
@@ -130,18 +133,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 61,
+        "aer": 53,
+        "com": 62,
         "dri": 58,
-        "ldr": 51,
-        "pac": 56,
-        "pas": 62,
+        "ldr": 49,
+        "pac": 61,
+        "pas": 52,
         "pos": 53,
-        "sho": 49,
-        "sta": 57,
-        "str": 53,
-        "tac": 52,
-        "vis": 59
+        "sho": 58,
+        "sta": 51,
+        "str": 58,
+        "tac": 26,
+        "vis": 50
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -151,23 +154,26 @@
       "name": "Davyd Ulm",
       "nation": "FRA",
       "number": 5,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 61,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 57,
-        "pas": 64,
-        "pos": 55,
-        "sho": 55,
+        "dri": 55,
+        "ldr": 56,
+        "pac": 54,
+        "pas": 63,
+        "pos": 59,
+        "sho": 49,
         "sta": 61,
-        "str": 54,
-        "tac": 57,
-        "vis": 59
+        "str": 59,
+        "tac": 63,
+        "vis": 56
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -177,10 +183,13 @@
       "name": "Tom Schotz",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -207,6 +216,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 62,
@@ -240,7 +252,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 67,
         "sta": 59,
         "str": 62,
@@ -259,6 +271,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 53,
@@ -363,19 +378,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 61,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 57,
-        "pas": 54,
-        "pos": 34,
-        "sho": 62,
-        "sta": 55,
-        "str": 60,
-        "tac": 29,
-        "vis": 48
+        "aer": 44,
+        "com": 58,
+        "dri": 60,
+        "ldr": 52,
+        "pac": 61,
+        "pas": 60,
+        "pos": 36,
+        "sho": 57,
+        "sta": 57,
+        "str": 50,
+        "tac": 35,
+        "vis": 54
       },
       "birth": "1990-12-01",
       "contract": null,
@@ -385,7 +403,7 @@
       "name": "Christoph Hamlein",
       "nation": "GER",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
@@ -396,7 +414,7 @@
         "ldr": 57,
         "pac": 64,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 62,
         "sta": 60,
         "str": 59,
@@ -415,6 +433,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -441,6 +462,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -474,7 +499,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 57,
-        "pos": 42,
+        "pos": 62,
         "sho": 62,
         "sta": 55,
         "str": 60,
@@ -493,6 +518,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -520,6 +548,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 57,
@@ -546,19 +578,24 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 59,
+        "com": 71,
         "dri": 44,
         "ldr": 57,
         "pac": 56,
-        "pas": 48,
+        "pas": 60,
         "pos": 64,
         "sho": 35,
-        "sta": 54,
+        "sta": 66,
         "str": 63,
         "tac": 59,
-        "vis": 43
+        "vis": 55
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -568,23 +605,23 @@
       "name": "Sebastian Schuppen",
       "nation": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 51,
-        "ldr": 63,
-        "pac": 55,
-        "pas": 57,
-        "pos": 64,
-        "sho": 38,
-        "sta": 61,
-        "str": 64,
-        "tac": 69,
-        "vis": 49
+        "aer": 50,
+        "com": 57,
+        "dri": 61,
+        "ldr": 59,
+        "pac": 63,
+        "pas": 61,
+        "pos": 59,
+        "sho": 45,
+        "sta": 67,
+        "str": 56,
+        "tac": 66,
+        "vis": 55
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -594,10 +631,13 @@
       "name": "Florian Hertherz",
       "nation": "GER",
       "number": 28,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,

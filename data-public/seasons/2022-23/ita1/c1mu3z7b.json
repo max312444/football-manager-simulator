@@ -158,6 +158,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 56,
@@ -185,6 +188,10 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -219,7 +226,7 @@
         "ldr": 55,
         "pac": 58,
         "pas": 50,
-        "pos": 33,
+        "pos": 53,
         "sho": 61,
         "sta": 53,
         "str": 55,
@@ -239,19 +246,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 70,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 65,
-        "pas": 58,
-        "pos": 49,
-        "sho": 71,
-        "sta": 67,
-        "str": 69,
-        "tac": 40,
-        "vis": 57
+        "aer": 49,
+        "com": 67,
+        "dri": 68,
+        "ldr": 60,
+        "pac": 69,
+        "pas": 64,
+        "pos": 51,
+        "sho": 66,
+        "sta": 69,
+        "str": 59,
+        "tac": 46,
+        "vis": 63
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -261,7 +272,7 @@
       "name": "Federico Di Francescu",
       "nation": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 28500
     },
     {
@@ -292,18 +303,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 55,
-        "dri": 57,
-        "ldr": 52,
-        "pac": 49,
+        "aer": 39,
+        "com": 56,
+        "dri": 61,
+        "ldr": 50,
+        "pac": 52,
         "pas": 56,
-        "pos": 58,
-        "sho": 48,
-        "sta": 60,
-        "str": 54,
-        "tac": 52,
-        "vis": 57
+        "pos": 43,
+        "sho": 54,
+        "sta": 54,
+        "str": 49,
+        "tac": 34,
+        "vis": 59
       },
       "birth": "2000-09-01",
       "contract": null,
@@ -313,23 +324,28 @@
       "name": "Þorir Johann Halgason",
       "nation": "ISL",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 12000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 56,
+        "com": 69,
         "dri": 45,
         "ldr": 51,
         "pac": 50,
-        "pas": 45,
+        "pas": 58,
         "pos": 62,
         "sho": 29,
-        "sta": 51,
+        "sta": 64,
         "str": 57,
         "tac": 59,
-        "vis": 41
+        "vis": 54
       },
       "birth": "2002-02-01",
       "contract": null,
@@ -339,23 +355,23 @@
       "name": "Joan Gunzalez",
       "nation": "ESP",
       "number": 16,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 8500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 55,
-        "dri": 44,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 55,
-        "pos": 65,
-        "sho": 34,
-        "sta": 59,
-        "str": 63,
-        "tac": 66,
-        "vis": 45
+        "aer": 52,
+        "com": 53,
+        "dri": 54,
+        "ldr": 51,
+        "pac": 61,
+        "pas": 59,
+        "pos": 60,
+        "sho": 41,
+        "sta": 65,
+        "str": 55,
+        "tac": 63,
+        "vis": 51
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -365,10 +381,15 @@
       "name": "Valentin Gandrey",
       "nation": "FRA",
       "number": 17,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 67,
@@ -376,7 +397,7 @@
         "ldr": 56,
         "pac": 67,
         "pas": 53,
-        "pos": 43,
+        "pos": 63,
         "sho": 70,
         "sta": 58,
         "str": 67,
@@ -395,6 +416,11 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -448,18 +474,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 58,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 56,
-        "pas": 48,
-        "pos": 37,
-        "sho": 63,
-        "sta": 55,
-        "str": 55,
-        "tac": 26,
-        "vis": 50
+        "aer": 44,
+        "com": 55,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 60,
+        "pas": 54,
+        "pos": 39,
+        "sho": 58,
+        "sta": 57,
+        "str": 45,
+        "tac": 32,
+        "vis": 56
       },
       "birth": "2001-01-01",
       "contract": null,
@@ -469,10 +495,13 @@
       "name": "Lameck Bande",
       "nation": "ZAM",
       "number": 22,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 56,
@@ -500,18 +529,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 61,
-        "dri": 48,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 51,
-        "pos": 61,
-        "sho": 37,
-        "sta": 55,
-        "str": 65,
-        "tac": 61,
-        "vis": 50
+        "aer": 54,
+        "com": 59,
+        "dri": 58,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 55,
+        "pos": 56,
+        "sho": 44,
+        "sta": 61,
+        "str": 57,
+        "tac": 58,
+        "vis": 56
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -522,23 +551,23 @@
       "name": "Gianluca Frabotte",
       "nation": "ITA",
       "number": 24,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 15500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 58,
-        "dri": 44,
-        "ldr": 59,
-        "pac": 56,
-        "pas": 52,
-        "pos": 62,
-        "sho": 30,
-        "sta": 58,
-        "str": 59,
-        "tac": 62,
-        "vis": 46
+        "aer": 52,
+        "com": 56,
+        "dri": 54,
+        "ldr": 55,
+        "pac": 64,
+        "pas": 56,
+        "pos": 57,
+        "sho": 37,
+        "sta": 64,
+        "str": 51,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -548,24 +577,28 @@
       "name": "Antonino Gallu",
       "nation": "ITA",
       "number": 25,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 13000
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 66,
-        "dri": 59,
+        "com": 68,
+        "dri": 61,
         "ldr": 63,
         "pac": 60,
-        "pas": 65,
+        "pas": 67,
         "pos": 65,
-        "sho": 58,
-        "sta": 63,
+        "sho": 60,
+        "sta": 65,
         "str": 59,
         "tac": 63,
-        "vis": 62
+        "vis": 64
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -580,18 +613,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 70,
-        "dri": 71,
-        "ldr": 71,
-        "pac": 66,
-        "pas": 73,
-        "pos": 69,
-        "sho": 67,
+        "dri": 67,
+        "ldr": 73,
+        "pac": 63,
+        "pas": 72,
+        "pos": 73,
+        "sho": 61,
         "sta": 76,
-        "str": 65,
-        "tac": 69,
-        "vis": 76
+        "str": 70,
+        "tac": 75,
+        "vis": 73
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -601,7 +634,7 @@
       "name": "Alexis Blyn",
       "nation": "FRA",
       "number": 29,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 53500
     },
     {
@@ -639,7 +672,7 @@
         "ldr": 43,
         "pac": 50,
         "pas": 44,
-        "pos": 28,
+        "pos": 48,
         "sho": 52,
         "sta": 46,
         "str": 51,
@@ -658,19 +691,23 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 37,
-        "com": 51,
-        "dri": 50,
-        "ldr": 42,
-        "pac": 43,
-        "pas": 53,
-        "pos": 45,
-        "sho": 42,
-        "sta": 48,
-        "str": 42,
-        "tac": 43,
-        "vis": 49
+        "aer": 31,
+        "com": 49,
+        "dri": 55,
+        "ldr": 38,
+        "pac": 52,
+        "pas": 49,
+        "pos": 27,
+        "sho": 46,
+        "sta": 44,
+        "str": 37,
+        "tac": 23,
+        "vis": 46
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -680,13 +717,10 @@
       "name": "Eetu Mummo",
       "nation": "FIN",
       "number": 34,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 5000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 69,
         "com": 68,
@@ -746,7 +780,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 71,
         "sta": 61,
         "str": 68,
@@ -794,18 +828,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 39,
         "com": 58,
-        "dri": 55,
+        "dri": 59,
         "ldr": 48,
-        "pac": 54,
-        "pas": 50,
-        "pos": 33,
-        "sho": 57,
+        "pac": 52,
+        "pas": 60,
+        "pos": 38,
+        "sho": 54,
         "sta": 52,
-        "str": 52,
-        "tac": 25,
-        "vis": 46
+        "str": 42,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "2001-08-01",
       "contract": null,
@@ -815,7 +849,7 @@
       "name": "Pablo Rodrigoez",
       "nation": "ESP",
       "number": 99,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7000
     }
   ],

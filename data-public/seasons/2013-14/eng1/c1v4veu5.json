@@ -97,16 +97,21 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "RM",
+        "LM",
+        "CM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 64,
-        "dri": 58,
+        "dri": 64,
         "ldr": 64,
-        "pac": 57,
+        "pac": 63,
         "pas": 63,
         "pos": 64,
         "sho": 51,
-        "sta": 64,
+        "sta": 70,
         "str": 70,
         "tac": 66,
         "vis": 57
@@ -124,9 +129,6 @@
       "wage": 50000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 84,
         "com": 70,
@@ -180,9 +182,6 @@
       "wage": 81000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 71,
         "com": 65,
@@ -210,18 +209,20 @@
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
         "aer": 55,
         "com": 67,
-        "dri": 70,
+        "dri": 72,
         "ldr": 58,
-        "pac": 64,
+        "pac": 66,
         "pas": 74,
         "pos": 62,
-        "sho": 68,
-        "sta": 79,
+        "sho": 70,
+        "sta": 81,
         "str": 64,
         "tac": 63,
         "vis": 70
@@ -239,16 +240,16 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 64,
+        "aer": 75,
+        "com": 65,
         "dri": 68,
         "ldr": 57,
         "pac": 83,
         "pas": 58,
-        "pos": 52,
-        "sho": 72,
+        "pos": 53,
+        "sho": 73,
         "sta": 83,
-        "str": 74,
+        "str": 75,
         "tac": 45,
         "vis": 56
       },
@@ -264,19 +265,23 @@
       "wage": 78500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
-        "com": 64,
+        "com": 67,
         "dri": 76,
         "ldr": 48,
         "pac": 70,
-        "pas": 72,
+        "pas": 75,
         "pos": 50,
-        "sho": 66,
+        "sho": 69,
         "sta": 74,
         "str": 58,
         "tac": 44,
-        "vis": 70
+        "vis": 73
       },
       "birth": "1985-03-01",
       "contract": "2014-06-30",
@@ -292,19 +297,23 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "LW",
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 69,
-        "dri": 66,
+        "com": 73,
+        "dri": 70,
         "ldr": 68,
-        "pac": 57,
+        "pac": 61,
         "pas": 78,
         "pos": 59,
-        "sho": 68,
+        "sho": 72,
         "sta": 73,
         "str": 68,
         "tac": 57,
-        "vis": 75
+        "vis": 79
       },
       "birth": "1984-12-01",
       "contract": "2016-06-30",
@@ -314,7 +323,7 @@
       "name": "Chris Bront",
       "nation": "NIR",
       "number": 11,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "free_kick",
         "long_shot"
@@ -323,16 +332,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 60,
+        "aer": 60,
+        "com": 70,
         "dri": 68,
         "ldr": 40,
         "pac": 80,
         "pas": 58,
-        "pos": 38,
-        "sho": 70,
+        "pos": 48,
+        "sho": 80,
         "sta": 72,
-        "str": 62,
+        "str": 72,
         "tac": 30,
         "vis": 56
       },
@@ -377,6 +386,9 @@
       "wage": 59500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 65,
@@ -405,16 +417,16 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 63,
+        "aer": 62,
+        "com": 71,
         "dri": 69,
         "ldr": 41,
         "pac": 80,
         "pas": 58,
-        "pos": 40,
-        "sho": 71,
+        "pos": 48,
+        "sho": 79,
         "sta": 72,
-        "str": 64,
+        "str": 72,
         "tac": 34,
         "vis": 56
       },
@@ -431,6 +443,9 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 39,
         "com": 60,
@@ -490,17 +505,17 @@
       ],
       "attrs": {
         "aer": 57,
-        "com": 65,
+        "com": 68,
         "dri": 67,
         "ldr": 60,
         "pac": 68,
-        "pas": 69,
-        "pos": 68,
+        "pas": 72,
+        "pos": 71,
         "sho": 59,
         "sta": 83,
-        "str": 70,
-        "tac": 75,
-        "vis": 63
+        "str": 73,
+        "tac": 78,
+        "vis": 66
       },
       "birth": "1987-01-01",
       "contract": "2015-06-30",
@@ -541,21 +556,22 @@
     },
     {
       "alt": [
-        "LW"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 39,
-        "com": 69,
+        "com": 74,
         "dri": 80,
         "ldr": 54,
         "pac": 76,
-        "pas": 72,
+        "pas": 77,
         "pos": 48,
-        "sho": 70,
+        "sho": 75,
         "sta": 72,
         "str": 60,
         "tac": 41,
-        "vis": 74
+        "vis": 79
       },
       "birth": "1984-06-01",
       "contract": "2017-06-30",
@@ -597,16 +613,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 75,
+        "aer": 69,
+        "com": 85,
         "dri": 75,
         "ldr": 60,
-        "pac": 68,
+        "pac": 77,
         "pas": 73,
-        "pos": 41,
-        "sho": 75,
+        "pos": 51,
+        "sho": 85,
         "sta": 64,
-        "str": 71,
+        "str": 81,
         "tac": 33,
         "vis": 73
       },

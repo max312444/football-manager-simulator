@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 68,
-        "dri": 55,
-        "ldr": 68,
-        "pac": 64,
-        "pas": 58,
-        "pos": 69,
-        "sho": 43,
-        "sta": 65,
-        "str": 67,
-        "tac": 72,
-        "vis": 55
+        "aer": 58,
+        "com": 66,
+        "dri": 65,
+        "ldr": 64,
+        "pac": 72,
+        "pas": 62,
+        "pos": 64,
+        "sho": 50,
+        "sta": 71,
+        "str": 59,
+        "tac": 69,
+        "vis": 61
       },
       "birth": "1993-12-01",
       "contract": null,
@@ -73,23 +73,28 @@
       "name": "Kostas Stefylidis",
       "nation": "GRE",
       "number": 2,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 23500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 74,
-        "dri": 69,
-        "ldr": 68,
-        "pac": 67,
-        "pas": 77,
-        "pos": 75,
-        "sho": 71,
+        "dri": 65,
+        "ldr": 70,
+        "pac": 64,
+        "pas": 76,
+        "pos": 79,
+        "sho": 65,
         "sta": 74,
-        "str": 72,
-        "tac": 70,
-        "vis": 72
+        "str": 77,
+        "tac": 76,
+        "vis": 69
       },
       "birth": "1989-01-01",
       "contract": null,
@@ -99,7 +104,7 @@
       "name": "Stefan Reynartz",
       "nation": "GER",
       "number": 3,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 58000
     },
     {
@@ -156,18 +161,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 75,
-        "dri": 79,
-        "ldr": 74,
-        "pac": 70,
-        "pas": 81,
-        "pos": 76,
-        "sho": 71,
+        "dri": 75,
+        "ldr": 76,
+        "pac": 67,
+        "pas": 80,
+        "pos": 80,
+        "sho": 65,
         "sta": 81,
-        "str": 74,
-        "tac": 76,
-        "vis": 76
+        "str": 79,
+        "tac": 82,
+        "vis": 73
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -177,10 +182,13 @@
       "name": "Simon Rolfas",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 75500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -188,7 +196,7 @@
         "ldr": 68,
         "pac": 78,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 72,
         "str": 77,
@@ -207,19 +215,22 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 70,
+        "aer": 76,
         "com": 75,
-        "dri": 74,
-        "ldr": 75,
-        "pac": 69,
-        "pas": 76,
-        "pos": 77,
-        "sho": 72,
+        "dri": 70,
+        "ldr": 77,
+        "pac": 66,
+        "pas": 75,
+        "pos": 81,
+        "sho": 66,
         "sta": 79,
-        "str": 72,
-        "tac": 74,
-        "vis": 79
+        "str": 77,
+        "tac": 80,
+        "vis": 76
       },
       "birth": "1989-04-01",
       "contract": null,
@@ -229,23 +240,26 @@
       "name": "Lars Bander",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 75500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 71,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 64,
-        "pas": 71,
-        "pos": 66,
-        "sho": 63,
+        "dri": 65,
+        "ldr": 69,
+        "pac": 61,
+        "pas": 70,
+        "pos": 70,
+        "sho": 57,
         "sta": 75,
-        "str": 68,
-        "tac": 70,
-        "vis": 70
+        "str": 73,
+        "tac": 76,
+        "vis": 67
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -256,7 +270,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 10,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43000
     },
     {
@@ -267,7 +281,7 @@
         "ldr": 72,
         "pac": 81,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 81,
         "sta": 72,
         "str": 77,
@@ -286,6 +300,9 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 71,
@@ -312,6 +329,11 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,
@@ -338,6 +360,9 @@
       "wage": 53500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -365,6 +390,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -392,19 +420,23 @@
       "wage": 75500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 67,
-        "pas": 77,
-        "pos": 76,
-        "sho": 68,
-        "sta": 78,
-        "str": 72,
-        "tac": 71,
-        "vis": 74
+        "aer": 57,
+        "com": 74,
+        "dri": 78,
+        "ldr": 67,
+        "pac": 76,
+        "pas": 73,
+        "pos": 58,
+        "sho": 72,
+        "sta": 74,
+        "str": 67,
+        "tac": 51,
+        "vis": 71
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -414,7 +446,7 @@
       "name": "Sidnay Sam",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 67500
     },
     {
@@ -472,19 +504,24 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 75,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 71,
+        "aer": 60,
+        "com": 76,
+        "dri": 80,
+        "ldr": 72,
+        "pac": 74,
         "pas": 76,
-        "pos": 72,
-        "sho": 73,
-        "sta": 81,
-        "str": 71,
-        "tac": 74,
-        "vis": 76
+        "pos": 57,
+        "sho": 79,
+        "sta": 75,
+        "str": 66,
+        "tac": 56,
+        "vis": 78
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -494,7 +531,7 @@
       "name": "Robbie Krose",
       "nation": "AUS",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 75500
     },
     {
@@ -551,6 +588,11 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -578,19 +620,22 @@
       "wage": 75500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 62,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 62,
-        "pas": 64,
-        "pos": 63,
-        "sho": 58,
+        "dri": 56,
+        "ldr": 62,
+        "pac": 59,
+        "pas": 63,
+        "pos": 67,
+        "sho": 52,
         "sta": 66,
-        "str": 58,
-        "tac": 59,
-        "vis": 66
+        "str": 63,
+        "tac": 65,
+        "vis": 63
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -600,23 +645,23 @@
       "name": "Dominik Kuhr",
       "nation": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 19500
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 55,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 61,
-        "pos": 53,
-        "sho": 49,
+        "dri": 55,
+        "ldr": 57,
+        "pac": 47,
+        "pas": 60,
+        "pos": 57,
+        "sho": 43,
         "sta": 60,
-        "str": 55,
-        "tac": 56,
-        "vis": 58
+        "str": 60,
+        "tac": 62,
+        "vis": 55
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -626,7 +671,7 @@
       "name": "Jonas Meffart",
       "nation": "GER",
       "number": 32,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {

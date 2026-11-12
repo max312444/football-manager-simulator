@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 66,
-        "dri": 56,
-        "ldr": 66,
-        "pac": 65,
-        "pas": 57,
-        "pos": 69,
-        "sho": 44,
-        "sta": 65,
-        "str": 71,
-        "tac": 71,
-        "vis": 57
+        "aer": 59,
+        "com": 64,
+        "dri": 66,
+        "ldr": 62,
+        "pac": 73,
+        "pas": 61,
+        "pos": 64,
+        "sho": 51,
+        "sta": 71,
+        "str": 63,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "2001-11-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Adrien Truffart",
       "nation": "FRA",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 52000
     },
     {
@@ -105,18 +105,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 63,
-        "dri": 59,
-        "ldr": 60,
-        "pac": 55,
-        "pas": 63,
-        "pos": 64,
-        "sho": 60,
+        "dri": 55,
+        "ldr": 62,
+        "pac": 52,
+        "pas": 62,
+        "pos": 68,
+        "sho": 54,
         "sta": 62,
-        "str": 55,
-        "tac": 58,
-        "vis": 61
+        "str": 60,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -126,23 +126,26 @@
       "name": "Azor Metusiwa",
       "nation": "NED",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 34000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 57,
+        "com": 58,
         "dri": 59,
         "ldr": 55,
         "pac": 56,
-        "pas": 58,
+        "pas": 59,
         "pos": 58,
         "sho": 50,
         "sta": 63,
         "str": 53,
-        "tac": 56,
-        "vis": 58
+        "tac": 57,
+        "vis": 59
       },
       "birth": "2001-05-01",
       "contract": null,
@@ -156,6 +159,10 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -189,7 +196,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 76,
         "sta": 67,
         "str": 67,
@@ -209,6 +216,9 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 74,
         "com": 72,
@@ -216,7 +226,7 @@
         "ldr": 71,
         "pac": 71,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 74,
         "sta": 72,
         "str": 77,
@@ -236,19 +246,22 @@
       "wage": 68500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 73,
-        "dri": 72,
-        "ldr": 68,
-        "pac": 69,
-        "pas": 63,
-        "pos": 47,
-        "sho": 74,
-        "sta": 69,
-        "str": 72,
-        "tac": 39,
-        "vis": 66
+        "aer": 56,
+        "com": 70,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 73,
+        "pas": 69,
+        "pos": 49,
+        "sho": 69,
+        "sta": 71,
+        "str": 62,
+        "tac": 45,
+        "vis": 72
       },
       "birth": "1997-12-01",
       "contract": null,
@@ -258,7 +271,7 @@
       "name": "Ludovic Bles",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 64500
     },
     {
@@ -288,19 +301,22 @@
       "wage": 68500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 68,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 56,
-        "pos": 43,
-        "sho": 65,
-        "sta": 61,
-        "str": 67,
-        "tac": 32,
-        "vis": 59
+        "aer": 47,
+        "com": 65,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 66,
+        "pas": 62,
+        "pos": 45,
+        "sho": 60,
+        "sta": 63,
+        "str": 57,
+        "tac": 38,
+        "vis": 65
       },
       "birth": "1999-03-01",
       "contract": null,
@@ -310,23 +326,26 @@
       "name": "Juta",
       "nation": "POR",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 53,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 57,
-        "pos": 57,
-        "sho": 52,
-        "sta": 62,
-        "str": 53,
-        "tac": 53,
-        "vis": 55
+        "aer": 48,
+        "com": 59,
+        "dri": 55,
+        "ldr": 55,
+        "pac": 53,
+        "pas": 59,
+        "pos": 58,
+        "sho": 54,
+        "sta": 64,
+        "str": 54,
+        "tac": 54,
+        "vis": 57
       },
       "birth": "2004-07-01",
       "contract": null,
@@ -341,18 +360,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 47,
-        "dri": 38,
-        "ldr": 53,
-        "pac": 44,
-        "pas": 42,
-        "pos": 55,
-        "sho": 27,
-        "sta": 46,
-        "str": 52,
-        "tac": 55,
-        "vis": 37
+        "aer": 40,
+        "com": 45,
+        "dri": 48,
+        "ldr": 49,
+        "pac": 52,
+        "pas": 46,
+        "pos": 50,
+        "sho": 34,
+        "sta": 52,
+        "str": 44,
+        "tac": 52,
+        "vis": 43
       },
       "birth": "2005-06-01",
       "contract": null,
@@ -362,7 +381,7 @@
       "name": "Aboubakar Negida",
       "nation": "CMR",
       "number": 18,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7000
     },
     {
@@ -373,7 +392,7 @@
         "ldr": 45,
         "pac": 53,
         "pas": 44,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 53,
         "str": 54,
@@ -392,19 +411,23 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 61,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 54,
-        "pos": 36,
-        "sho": 66,
-        "sta": 59,
-        "str": 60,
-        "tac": 30,
-        "vis": 51
+        "aer": 47,
+        "com": 58,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 60,
+        "pos": 38,
+        "sho": 61,
+        "sta": 61,
+        "str": 50,
+        "tac": 36,
+        "vis": 57
       },
       "birth": "2002-09-01",
       "contract": null,
@@ -414,7 +437,7 @@
       "name": "Andres Gumez",
       "nation": "COL",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 18000
     },
     {
@@ -445,6 +468,10 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 71,
@@ -584,7 +611,7 @@
         "ldr": 50,
         "pac": 59,
         "pas": 45,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 54,
         "str": 54,

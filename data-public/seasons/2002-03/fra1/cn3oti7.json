@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 68,
-        "com": 78,
-        "dri": 78,
-        "ldr": 74,
-        "pac": 76,
+        "aer": 62,
+        "com": 79,
+        "dri": 82,
+        "ldr": 72,
+        "pac": 79,
         "pas": 78,
-        "pos": 76,
-        "sho": 72,
-        "sta": 83,
-        "str": 71,
-        "tac": 76,
-        "vis": 80
+        "pos": 61,
+        "sho": 78,
+        "sta": 77,
+        "str": 66,
+        "tac": 58,
+        "vis": 82
       },
       "birth": "1975-01-01",
       "contract": null,
@@ -47,10 +47,13 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 53000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 79,
         "com": 73,
@@ -156,6 +159,9 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 68,
         "com": 77,
@@ -163,7 +169,7 @@
         "ldr": 67,
         "pac": 70,
         "pas": 62,
-        "pos": 53,
+        "pos": 73,
         "sho": 76,
         "sta": 72,
         "str": 73,
@@ -189,7 +195,7 @@
         "ldr": 67,
         "pac": 75,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 68,
         "str": 70,
@@ -208,6 +214,9 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -241,7 +250,7 @@
         "ldr": 63,
         "pac": 73,
         "pas": 59,
-        "pos": 51,
+        "pos": 71,
         "sho": 72,
         "sta": 66,
         "str": 68,
@@ -268,7 +277,7 @@
         "ldr": 65,
         "pac": 68,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 68,
         "str": 71,
@@ -315,18 +324,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 69,
-        "dri": 64,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 71,
-        "pos": 64,
-        "sho": 62,
+        "dri": 60,
+        "ldr": 63,
+        "pac": 59,
+        "pas": 70,
+        "pos": 68,
+        "sho": 56,
         "sta": 67,
-        "str": 61,
-        "tac": 61,
-        "vis": 68
+        "str": 66,
+        "tac": 67,
+        "vis": 65
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -336,24 +345,27 @@
       "name": "Mahamadou Diarre",
       "nation": "MLI",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 32000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 63,
-        "dri": 52,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 60,
-        "pos": 69,
-        "sho": 39,
-        "sta": 64,
-        "str": 69,
-        "tac": 70,
-        "vis": 50
+        "aer": 58,
+        "com": 61,
+        "dri": 62,
+        "ldr": 58,
+        "pac": 69,
+        "pas": 64,
+        "pos": 64,
+        "sho": 46,
+        "sta": 70,
+        "str": 61,
+        "tac": 67,
+        "vis": 56
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -363,7 +375,7 @@
       "name": "Jeremie Brachet",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 22500
     },
     {
@@ -420,6 +432,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 62,
@@ -448,18 +463,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 57,
-        "dri": 55,
-        "ldr": 58,
-        "pac": 51,
-        "pas": 61,
-        "pos": 60,
-        "sho": 54,
+        "dri": 51,
+        "ldr": 60,
+        "pac": 48,
+        "pas": 60,
+        "pos": 64,
+        "sho": 48,
         "sta": 62,
-        "str": 57,
-        "tac": 55,
-        "vis": 62
+        "str": 62,
+        "tac": 61,
+        "vis": 59
       },
       "birth": "1970-09-01",
       "contract": null,
@@ -469,10 +484,15 @@
       "name": "Philippe Violaau",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 54,
@@ -553,19 +573,24 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 58,
-        "dri": 54,
+        "dri": 58,
         "ldr": 53,
         "pac": 54,
-        "pas": 50,
-        "pos": 31,
+        "pas": 54,
+        "pos": 51,
         "sho": 58,
         "sta": 49,
         "str": 54,
         "tac": 23,
-        "vis": 51
+        "vis": 55
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -575,7 +600,7 @@
       "name": "Bryan Bergougnoox",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 6000
     },
     {
@@ -613,7 +638,7 @@
         "ldr": 48,
         "pac": 57,
         "pas": 44,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 47,
         "str": 53,
@@ -633,18 +658,18 @@
     },
     {
       "attrs": {
-        "aer": 39,
-        "com": 49,
+        "aer": 47,
+        "com": 50,
         "dri": 50,
-        "ldr": 49,
-        "pac": 48,
-        "pas": 54,
+        "ldr": 47,
+        "pac": 53,
+        "pas": 44,
         "pos": 48,
-        "sho": 47,
-        "sta": 56,
-        "str": 44,
-        "tac": 46,
-        "vis": 53
+        "sho": 56,
+        "sta": 50,
+        "str": 49,
+        "tac": 20,
+        "vis": 44
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -655,11 +680,14 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 54,

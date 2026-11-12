@@ -153,6 +153,7 @@
     },
     {
       "alt": [
+        "RB",
         "LB"
       ],
       "attrs": {
@@ -218,14 +219,14 @@
         "com": 74,
         "dri": 75,
         "ldr": 64,
-        "pac": 77,
-        "pas": 69,
+        "pac": 78,
+        "pas": 82,
         "pos": 42,
         "sho": 68,
-        "sta": 70,
+        "sta": 84,
         "str": 52,
-        "tac": 38,
-        "vis": 65
+        "tac": 52,
+        "vis": 78
       },
       "birth": "1979-02-01",
       "contract": "2011-06-30",
@@ -239,9 +240,6 @@
       "wage": 32500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 43,
         "com": 74,
@@ -272,16 +270,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 71,
+        "aer": 67,
+        "com": 72,
         "dri": 71,
         "ldr": 55,
         "pac": 68,
         "pas": 59,
-        "pos": 46,
-        "sho": 70,
+        "pos": 47,
+        "sho": 71,
         "sta": 69,
-        "str": 70,
+        "str": 71,
         "tac": 39,
         "vis": 61
       },
@@ -350,19 +348,24 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 68,
         "dri": 75,
         "ldr": 62,
-        "pac": 78,
-        "pas": 78,
+        "pac": 79,
+        "pas": 87,
         "pos": 46,
         "sho": 70,
-        "sta": 73,
+        "sta": 83,
         "str": 58,
-        "tac": 41,
-        "vis": 70
+        "tac": 51,
+        "vis": 79
       },
       "birth": "1981-09-01",
       "contract": "2011-06-30",
@@ -380,16 +383,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 58,
+        "aer": 65,
+        "com": 62,
         "dri": 63,
         "ldr": 43,
         "pac": 62,
         "pas": 56,
-        "pos": 30,
-        "sho": 67,
+        "pos": 34,
+        "sho": 71,
         "sta": 60,
-        "str": 63,
+        "str": 67,
         "tac": 24,
         "vis": 53
       },
@@ -407,9 +410,6 @@
       "wage": 13000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 66,
         "com": 62,
@@ -432,7 +432,7 @@
       "name": "Steven Nzunzi",
       "nation": "FRA",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 39500
     },
@@ -444,11 +444,11 @@
         "ldr": 63,
         "pac": 60,
         "pas": 74,
-        "pos": 54,
+        "pos": 68,
         "sho": 58,
         "sta": 71,
-        "str": 57,
-        "tac": 52,
+        "str": 71,
+        "tac": 66,
         "vis": 69
       },
       "birth": "1980-09-01",
@@ -459,10 +459,15 @@
       "name": "Keith Andraws",
       "nation": "IRL",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 32500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 59,
@@ -485,12 +490,13 @@
       "name": "Elrio van Haerden",
       "nation": "RSA",
       "number": 17,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 20000
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -521,6 +527,8 @@
     },
     {
       "alt": [
+        "LM",
+        "RB",
         "CM"
       ],
       "attrs": {
@@ -529,13 +537,13 @@
         "dri": 68,
         "ldr": 60,
         "pac": 72,
-        "pas": 67,
+        "pas": 74,
         "pos": 49,
         "sho": 62,
-        "sta": 68,
+        "sta": 75,
         "str": 58,
-        "tac": 45,
-        "vis": 62
+        "tac": 52,
+        "vis": 69
       },
       "birth": "1981-03-01",
       "contract": "2010-06-30",
@@ -637,13 +645,13 @@
       "attrs": {
         "aer": 58,
         "com": 66,
-        "dri": 58,
+        "dri": 62,
         "ldr": 70,
-        "pac": 60,
+        "pac": 64,
         "pas": 64,
         "pos": 68,
         "sho": 44,
-        "sta": 66,
+        "sta": 70,
         "str": 72,
         "tac": 70,
         "vis": 52
@@ -661,9 +669,6 @@
       "wage": 36000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 51,
         "com": 57,

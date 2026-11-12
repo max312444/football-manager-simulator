@@ -126,7 +126,6 @@
     },
     {
       "alt": [
-        "CB",
         "RB"
       ],
       "attrs": {
@@ -269,6 +268,9 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -323,8 +325,9 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 64,
@@ -348,7 +351,7 @@
       "name": "Steve Watsun",
       "nation": "ENG",
       "number": 7,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 40500
     },
     {
@@ -388,9 +391,6 @@
       "wage": 59000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 71,
@@ -422,20 +422,20 @@
     },
     {
       "alt": [
-        "LB"
+        "LW"
       ],
       "attrs": {
         "aer": 69,
         "com": 64,
         "dri": 69,
         "ldr": 55,
-        "pac": 72,
+        "pac": 73,
         "pas": 68,
-        "pos": 63,
+        "pos": 64,
         "sho": 60,
         "sta": 84,
-        "str": 73,
-        "tac": 63,
+        "str": 74,
+        "tac": 64,
         "vis": 60
       },
       "birth": "1977-02-01",
@@ -446,23 +446,23 @@
       "name": "Kevin Kylbane",
       "nation": "IRL",
       "number": 14,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 39500
     },
     {
       "attrs": {
         "aer": 57,
-        "com": 61,
+        "com": 64,
         "dri": 59,
         "ldr": 51,
         "pac": 66,
-        "pas": 65,
-        "pos": 67,
+        "pas": 68,
+        "pos": 70,
         "sho": 49,
         "sta": 80,
-        "str": 66,
-        "tac": 69,
-        "vis": 57
+        "str": 69,
+        "tac": 72,
+        "vis": 60
       },
       "birth": "1977-09-01",
       "contract": "2006-06-30",
@@ -476,6 +476,9 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 71,
@@ -504,22 +507,21 @@
     },
     {
       "alt": [
-        "AM",
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 48,
-        "com": 66,
+        "com": 74,
         "dri": 74,
         "ldr": 46,
         "pac": 74,
-        "pas": 70,
+        "pas": 78,
         "pos": 58,
         "sho": 64,
-        "sta": 79,
+        "sta": 80,
         "str": 55,
-        "tac": 54,
-        "vis": 68
+        "tac": 62,
+        "vis": 76
       },
       "birth": "1981-05-01",
       "contract": "2008-06-30",
@@ -535,19 +537,21 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
-        "aer": 66,
-        "com": 73,
+        "aer": 74,
+        "com": 81,
         "dri": 82,
         "ldr": 57,
         "pac": 81,
         "pas": 74,
-        "pos": 62,
-        "sho": 76,
+        "pos": 70,
+        "sho": 84,
         "sta": 80,
-        "str": 79,
+        "str": 87,
         "tac": 48,
         "vis": 79
       },
@@ -624,19 +628,20 @@
     },
     {
       "alt": [
+        "RW",
         "LW"
       ],
       "attrs": {
-        "aer": 58,
-        "com": 65,
+        "aer": 67,
+        "com": 74,
         "dri": 74,
         "ldr": 49,
         "pac": 83,
         "pas": 64,
-        "pos": 52,
-        "sho": 72,
+        "pos": 61,
+        "sho": 81,
         "sta": 74,
-        "str": 64,
+        "str": 73,
         "tac": 40,
         "vis": 59
       },
@@ -654,16 +659,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 66,
+        "aer": 64,
+        "com": 70,
         "dri": 67,
         "ldr": 44,
         "pac": 75,
         "pas": 60,
-        "pos": 48,
-        "sho": 73,
+        "pos": 52,
+        "sho": 77,
         "sta": 66,
-        "str": 59,
+        "str": 63,
         "tac": 35,
         "vis": 58
       },
@@ -683,7 +688,7 @@
     {
       "alt": [
         "ST",
-        "AM"
+        "RW"
       ],
       "attrs": {
         "aer": 47,

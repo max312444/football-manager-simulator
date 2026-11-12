@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 57,
-        "dri": 51,
-        "ldr": 55,
-        "pac": 48,
+        "aer": 38,
+        "com": 58,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 51,
         "pas": 56,
-        "pos": 55,
-        "sho": 49,
-        "sta": 58,
-        "str": 51,
-        "tac": 54,
-        "vis": 56
+        "pos": 40,
+        "sho": 55,
+        "sta": 52,
+        "str": 46,
+        "tac": 36,
+        "vis": 58
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -125,23 +125,23 @@
       "name": "Clemens Fendrich",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 53,
-        "dri": 53,
-        "ldr": 46,
-        "pac": 45,
+        "aer": 36,
+        "com": 54,
+        "dri": 57,
+        "ldr": 44,
+        "pac": 48,
         "pas": 53,
-        "pos": 47,
-        "sho": 49,
-        "sta": 51,
-        "str": 45,
-        "tac": 47,
-        "vis": 54
+        "pos": 32,
+        "sho": 55,
+        "sta": 45,
+        "str": 40,
+        "tac": 29,
+        "vis": 56
       },
       "birth": "1995-12-01",
       "contract": null,
@@ -152,23 +152,23 @@
       "nation": "MNE",
       "nation2": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2500
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 54,
-        "dri": 52,
-        "ldr": 50,
-        "pac": 50,
-        "pas": 54,
-        "pos": 53,
-        "sho": 50,
-        "sta": 58,
-        "str": 50,
-        "tac": 52,
-        "vis": 58
+        "aer": 38,
+        "com": 52,
+        "dri": 57,
+        "ldr": 46,
+        "pac": 59,
+        "pas": 50,
+        "pos": 35,
+        "sho": 54,
+        "sta": 54,
+        "str": 45,
+        "tac": 32,
+        "vis": 55
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -178,7 +178,7 @@
       "name": "Simon Handla",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 4000
     },
     {
@@ -189,7 +189,7 @@
         "ldr": 60,
         "pac": 68,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 63,
         "str": 62,
@@ -215,7 +215,7 @@
         "ldr": 48,
         "pac": 59,
         "pas": 52,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 55,
         "str": 58,
@@ -234,19 +234,23 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 58,
-        "dri": 54,
-        "ldr": 49,
-        "pac": 51,
+        "aer": 37,
+        "com": 59,
+        "dri": 58,
+        "ldr": 47,
+        "pac": 54,
         "pas": 55,
-        "pos": 52,
-        "sho": 51,
-        "sta": 58,
-        "str": 51,
-        "tac": 52,
-        "vis": 59
+        "pos": 37,
+        "sho": 57,
+        "sta": 52,
+        "str": 46,
+        "tac": 34,
+        "vis": 61
       },
       "birth": "1991-06-01",
       "contract": null,
@@ -256,23 +260,28 @@
       "name": "Simon Skarletidis",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 59,
-        "dri": 55,
+        "com": 64,
+        "dri": 60,
         "ldr": 51,
         "pac": 58,
-        "pas": 45,
-        "pos": 36,
-        "sho": 55,
+        "pas": 55,
+        "pos": 56,
+        "sho": 60,
         "sta": 50,
         "str": 54,
         "tac": 24,
-        "vis": 48
+        "vis": 58
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -282,7 +291,7 @@
       "name": "Bjorn Kloft",
       "nation": "GER",
       "number": 11,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2500
     },
     {
@@ -320,7 +329,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 57,
         "sta": 55,
         "str": 54,
@@ -339,6 +348,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -365,6 +377,10 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 57,
@@ -398,7 +414,7 @@
         "ldr": 58,
         "pac": 60,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 59,
         "str": 60,
@@ -417,6 +433,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -445,18 +464,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 56,
-        "dri": 40,
-        "ldr": 56,
-        "pac": 50,
-        "pas": 47,
-        "pos": 58,
-        "sho": 30,
-        "sta": 48,
-        "str": 60,
-        "tac": 61,
-        "vis": 38
+        "aer": 42,
+        "com": 54,
+        "dri": 50,
+        "ldr": 52,
+        "pac": 58,
+        "pas": 51,
+        "pos": 53,
+        "sho": 37,
+        "sta": 54,
+        "str": 52,
+        "tac": 58,
+        "vis": 44
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -466,7 +485,7 @@
       "name": "Calogero Rizzutu",
       "nation": "GER",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
@@ -497,18 +516,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 55,
-        "dri": 54,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 58,
-        "pos": 53,
-        "sho": 51,
-        "sta": 58,
-        "str": 51,
-        "tac": 55,
-        "vis": 57
+        "aer": 38,
+        "com": 53,
+        "dri": 59,
+        "ldr": 49,
+        "pac": 60,
+        "pas": 54,
+        "pos": 35,
+        "sho": 55,
+        "sta": 54,
+        "str": 46,
+        "tac": 35,
+        "vis": 54
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -518,23 +537,26 @@
       "name": "Fabio Kaofmann",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 4500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 61,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 64,
-        "pas": 52,
-        "pos": 38,
-        "sho": 66,
-        "sta": 61,
-        "str": 61,
-        "tac": 29,
-        "vis": 53
+        "aer": 43,
+        "com": 58,
+        "dri": 65,
+        "ldr": 54,
+        "pac": 68,
+        "pas": 58,
+        "pos": 40,
+        "sho": 61,
+        "sta": 63,
+        "str": 51,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "1991-06-01",
       "contract": null,
@@ -544,7 +566,7 @@
       "name": "Soren Bartram",
       "nation": "GER",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
@@ -581,7 +603,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 57,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 61,
         "str": 60,
@@ -601,7 +623,9 @@
       "wage": 5500
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,

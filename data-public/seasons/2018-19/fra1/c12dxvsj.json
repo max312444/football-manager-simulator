@@ -78,22 +78,19 @@
       "wage": 16000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 64,
-        "com": 64,
-        "dri": 52,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 58,
-        "pos": 69,
-        "sho": 38,
-        "sta": 57,
-        "str": 68,
-        "tac": 65,
-        "vis": 46
+        "aer": 51,
+        "com": 62,
+        "dri": 62,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 62,
+        "pos": 64,
+        "sho": 45,
+        "sta": 63,
+        "str": 60,
+        "tac": 62,
+        "vis": 52
       },
       "birth": "1995-12-01",
       "contract": null,
@@ -103,10 +100,15 @@
       "name": "Ghislain Kunan",
       "nation": "CIV",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 17500
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -187,6 +189,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -213,6 +218,9 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 75,
@@ -246,7 +254,7 @@
         "ldr": 58,
         "pac": 58,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 55,
         "str": 59,
@@ -273,7 +281,7 @@
         "ldr": 63,
         "pac": 73,
         "pas": 60,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 69,
         "str": 72,
@@ -292,19 +300,24 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 65,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 64,
-        "pos": 63,
-        "sho": 57,
-        "sta": 66,
-        "str": 58,
-        "tac": 63,
-        "vis": 69
+        "aer": 52,
+        "com": 63,
+        "dri": 67,
+        "ldr": 55,
+        "pac": 69,
+        "pas": 60,
+        "pos": 45,
+        "sho": 61,
+        "sta": 62,
+        "str": 53,
+        "tac": 43,
+        "vis": 66
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -315,7 +328,7 @@
       "name": "Sheyy Ojo",
       "nation": "ENG",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 26500
     },
     {
@@ -326,7 +339,7 @@
         "ldr": 55,
         "pac": 62,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 70,
         "sta": 62,
         "str": 64,
@@ -346,19 +359,22 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 61,
-        "dri": 63,
-        "ldr": 55,
-        "pac": 60,
-        "pas": 61,
+        "com": 57,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 67,
+        "pas": 55,
         "pos": 61,
-        "sho": 54,
+        "sho": 40,
         "sta": 66,
-        "str": 56,
-        "tac": 57,
-        "vis": 61
+        "str": 55,
+        "tac": 61,
+        "vis": 52
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -369,7 +385,7 @@
       "nation": "GAM",
       "nation2": "CIV",
       "number": 13,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 19000
     },
     {
@@ -428,18 +444,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 57,
-        "dri": 50,
-        "ldr": 50,
-        "pac": 50,
-        "pas": 54,
-        "pos": 49,
-        "sho": 48,
+        "dri": 46,
+        "ldr": 52,
+        "pac": 47,
+        "pas": 53,
+        "pos": 53,
+        "sho": 42,
         "sta": 55,
-        "str": 47,
-        "tac": 49,
-        "vis": 53
+        "str": 52,
+        "tac": 55,
+        "vis": 50
       },
       "birth": "1996-05-01",
       "contract": null,
@@ -450,23 +466,28 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 56,
-        "dri": 55,
-        "ldr": 52,
-        "pac": 58,
-        "pas": 48,
-        "pos": 32,
-        "sho": 61,
-        "sta": 55,
-        "str": 58,
-        "tac": 24,
-        "vis": 48
+        "aer": 40,
+        "com": 53,
+        "dri": 60,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 54,
+        "pos": 34,
+        "sho": 56,
+        "sta": 57,
+        "str": 48,
+        "tac": 30,
+        "vis": 54
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -476,7 +497,7 @@
       "name": "Remi Oudyn",
       "nation": "FRA",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 7000
     },
     {
@@ -509,17 +530,17 @@
     {
       "attrs": {
         "aer": 49,
-        "com": 61,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 64,
+        "com": 57,
+        "dri": 59,
+        "ldr": 55,
+        "pac": 63,
+        "pas": 58,
         "pos": 58,
-        "sho": 52,
+        "sho": 38,
         "sta": 65,
-        "str": 59,
-        "tac": 59,
-        "vis": 64
+        "str": 58,
+        "tac": 63,
+        "vis": 55
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -530,10 +551,14 @@
       "nation": "FRA",
       "nation2": "CMR",
       "number": 20,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 18500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -560,19 +585,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 60,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 63,
-        "pos": 61,
-        "sho": 54,
-        "sta": 65,
-        "str": 61,
-        "tac": 62,
-        "vis": 63
+        "aer": 57,
+        "com": 62,
+        "dri": 62,
+        "ldr": 58,
+        "pac": 56,
+        "pas": 65,
+        "pos": 62,
+        "sho": 56,
+        "sta": 67,
+        "str": 62,
+        "tac": 63,
+        "vis": 65
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -586,6 +614,9 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -613,6 +644,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 50,
@@ -666,19 +700,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 66,
-        "dri": 51,
-        "ldr": 66,
-        "pac": 63,
-        "pas": 58,
-        "pos": 72,
-        "sho": 44,
-        "sta": 62,
-        "str": 73,
-        "tac": 71,
-        "vis": 51
+        "aer": 55,
+        "com": 64,
+        "dri": 61,
+        "ldr": 62,
+        "pac": 71,
+        "pas": 62,
+        "pos": 67,
+        "sho": 51,
+        "sta": 68,
+        "str": 65,
+        "tac": 68,
+        "vis": 57
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -688,23 +725,23 @@
       "name": "Thomas Fuket",
       "nation": "BEL",
       "number": 32,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 27000
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 53,
-        "dri": 39,
-        "ldr": 50,
-        "pac": 47,
-        "pas": 46,
-        "pos": 56,
-        "sho": 29,
-        "sta": 49,
-        "str": 54,
-        "tac": 56,
-        "vis": 42
+        "aer": 43,
+        "com": 51,
+        "dri": 49,
+        "ldr": 46,
+        "pac": 55,
+        "pas": 50,
+        "pos": 51,
+        "sho": 36,
+        "sta": 55,
+        "str": 46,
+        "tac": 53,
+        "vis": 48
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -714,7 +751,7 @@
       "name": "Hendrick Cekin",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5500
     }
   ],

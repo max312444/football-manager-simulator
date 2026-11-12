@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 77,
@@ -31,7 +36,7 @@
         "ldr": 70,
         "pac": 77,
         "pas": 69,
-        "pos": 54,
+        "pos": 74,
         "sho": 81,
         "sta": 70,
         "str": 78,
@@ -72,10 +77,13 @@
       "name": "Bruno Bernar",
       "nation": "SUI",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -102,6 +110,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 74,
@@ -129,6 +140,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 71,
@@ -156,18 +170,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 71,
-        "dri": 72,
-        "ldr": 66,
-        "pac": 64,
-        "pas": 74,
-        "pos": 68,
-        "sho": 67,
+        "dri": 68,
+        "ldr": 68,
+        "pac": 61,
+        "pas": 73,
+        "pos": 72,
+        "sho": 61,
         "sta": 75,
-        "str": 67,
-        "tac": 64,
-        "vis": 73
+        "str": 72,
+        "tac": 70,
+        "vis": 70
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -178,7 +192,7 @@
       "nation": "GER",
       "nation2": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25500
     },
     {
@@ -189,7 +203,7 @@
         "ldr": 62,
         "pac": 65,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 67,
         "str": 69,
@@ -208,6 +222,9 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -235,19 +252,23 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 67,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 62,
-        "pas": 70,
-        "pos": 69,
-        "sho": 61,
-        "sta": 67,
-        "str": 64,
-        "tac": 67,
-        "vis": 66
+        "aer": 51,
+        "com": 65,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 71,
+        "pas": 66,
+        "pos": 51,
+        "sho": 65,
+        "sta": 63,
+        "str": 59,
+        "tac": 47,
+        "vis": 63
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -257,11 +278,14 @@
       "name": "Wilfried Sanuu",
       "nation": "BFA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -315,17 +339,22 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 65,
-        "dri": 57,
+        "aer": 61,
+        "com": 73,
+        "dri": 62,
         "ldr": 55,
-        "pac": 55,
+        "pac": 63,
         "pas": 64,
-        "pos": 59,
-        "sho": 55,
+        "pos": 67,
+        "sho": 63,
         "sta": 64,
-        "str": 57,
+        "str": 65,
         "tac": 55,
         "vis": 65
       },
@@ -337,7 +366,7 @@
       "name": "Abder Remdane",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 10000
     },
     {
@@ -419,6 +448,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -446,21 +478,21 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 48,
-        "com": 59,
-        "dri": 57,
-        "ldr": 57,
-        "pac": 57,
-        "pas": 61,
-        "pos": 62,
-        "sho": 58,
-        "sta": 65,
-        "str": 58,
-        "tac": 60,
-        "vis": 60
+        "aer": 42,
+        "com": 57,
+        "dri": 62,
+        "ldr": 53,
+        "pac": 66,
+        "pas": 57,
+        "pos": 44,
+        "sho": 62,
+        "sta": 61,
+        "str": 53,
+        "tac": 40,
+        "vis": 57
       },
       "birth": "1978-08-01",
       "contract": "2005-07-01",
@@ -470,7 +502,7 @@
       "name": "Ellery Cairu",
       "nation": "NED",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 9500
     },
     {
@@ -500,6 +532,11 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 61,
@@ -507,7 +544,7 @@
         "ldr": 53,
         "pac": 57,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 56,
         "str": 61,
@@ -527,6 +564,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -634,6 +674,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 52,
@@ -667,7 +710,7 @@
         "ldr": 47,
         "pac": 50,
         "pas": 42,
-        "pos": 32,
+        "pos": 52,
         "sho": 57,
         "sta": 49,
         "str": 54,
@@ -693,7 +736,7 @@
         "ldr": 46,
         "pac": 48,
         "pas": 39,
-        "pos": 25,
+        "pos": 45,
         "sho": 51,
         "sta": 44,
         "str": 51,

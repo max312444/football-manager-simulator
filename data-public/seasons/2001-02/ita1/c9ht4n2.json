@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 80,
         "com": 78,
@@ -57,7 +60,7 @@
         "ldr": 72,
         "pac": 81,
         "pas": 74,
-        "pos": 56,
+        "pos": 76,
         "sho": 87,
         "sta": 75,
         "str": 78,
@@ -83,7 +86,7 @@
         "ldr": 72,
         "pac": 84,
         "pas": 71,
-        "pos": 62,
+        "pos": 82,
         "sho": 86,
         "sta": 77,
         "str": 80,
@@ -130,19 +133,23 @@
       "wage": 87500
     },
     {
+      "alt": [
+        "LW",
+        "LB"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 82,
-        "dri": 79,
-        "ldr": 76,
-        "pac": 72,
+        "aer": 67,
+        "com": 83,
+        "dri": 83,
+        "ldr": 74,
+        "pac": 75,
         "pas": 85,
-        "pos": 80,
-        "sho": 74,
-        "sta": 82,
-        "str": 76,
-        "tac": 77,
-        "vis": 83
+        "pos": 65,
+        "sho": 80,
+        "sta": 76,
+        "str": 71,
+        "tac": 59,
+        "vis": 85
       },
       "birth": "1969-09-01",
       "contract": null,
@@ -152,24 +159,24 @@
       "name": "Leonardo Arauju",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 122000
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 78,
-        "dri": 81,
-        "ldr": 78,
-        "pac": 76,
+        "aer": 66,
+        "com": 79,
+        "dri": 85,
+        "ldr": 76,
+        "pac": 79,
         "pas": 84,
-        "pos": 79,
-        "sho": 75,
-        "sta": 85,
-        "str": 75,
-        "tac": 74,
-        "vis": 84
+        "pos": 64,
+        "sho": 81,
+        "sta": 79,
+        "str": 70,
+        "tac": 56,
+        "vis": 86
       },
       "birth": "1972-03-01",
       "contract": null,
@@ -179,11 +186,14 @@
       "name": "Rui Custa",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 122000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 80,
@@ -210,19 +220,24 @@
       "wage": 105500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 84,
-        "com": 73,
-        "dri": 61,
-        "ldr": 77,
-        "pac": 74,
-        "pas": 68,
-        "pos": 82,
-        "sho": 51,
-        "sta": 71,
-        "str": 77,
-        "tac": 78,
-        "vis": 63
+        "aer": 71,
+        "com": 71,
+        "dri": 71,
+        "ldr": 73,
+        "pac": 82,
+        "pas": 72,
+        "pos": 77,
+        "sho": 58,
+        "sta": 77,
+        "str": 69,
+        "tac": 75,
+        "vis": 69
       },
       "birth": "1975-12-01",
       "contract": null,
@@ -232,24 +247,24 @@
       "name": "Cosmin Cuntra",
       "nation": "ROU",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 59500
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 75,
-        "dri": 74,
-        "ldr": 74,
-        "pac": 71,
-        "pas": 76,
-        "pos": 73,
-        "sho": 69,
+        "dri": 70,
+        "ldr": 76,
+        "pac": 68,
+        "pas": 75,
+        "pos": 77,
+        "sho": 63,
         "sta": 77,
-        "str": 69,
-        "tac": 76,
-        "vis": 81
+        "str": 74,
+        "tac": 82,
+        "vis": 78
       },
       "birth": "1969-06-01",
       "contract": null,
@@ -259,10 +274,13 @@
       "name": "Fernando Redondu",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 71500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 79,
@@ -289,6 +307,9 @@
       "wage": 78000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 77,
@@ -315,6 +336,11 @@
       "wage": 89000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 77,
         "com": 72,
@@ -369,6 +395,9 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 73,
@@ -423,18 +452,18 @@
     },
     {
       "attrs": {
-        "aer": 80,
-        "com": 71,
-        "dri": 62,
-        "ldr": 77,
-        "pac": 67,
-        "pas": 66,
-        "pos": 76,
-        "sho": 46,
-        "sta": 71,
-        "str": 79,
-        "tac": 81,
-        "vis": 61
+        "aer": 67,
+        "com": 69,
+        "dri": 72,
+        "ldr": 73,
+        "pac": 75,
+        "pas": 70,
+        "pos": 71,
+        "sho": 53,
+        "sta": 77,
+        "str": 71,
+        "tac": 78,
+        "vis": 67
       },
       "birth": "1971-06-01",
       "contract": null,
@@ -444,7 +473,7 @@
       "name": "Thomas Helvag",
       "nation": "DEN",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 48000
     },
     {
@@ -470,23 +499,27 @@
       "name": "Jose Chamut",
       "nation": "ARG",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 52500
     },
     {
+      "alt": [
+        "LB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 73,
-        "dri": 74,
-        "ldr": 70,
-        "pac": 68,
-        "pas": 78,
-        "pos": 75,
-        "sho": 66,
-        "sta": 78,
-        "str": 70,
-        "tac": 72,
-        "vis": 78
+        "aer": 61,
+        "com": 71,
+        "dri": 77,
+        "ldr": 68,
+        "pac": 76,
+        "pas": 76,
+        "pos": 67,
+        "sho": 64,
+        "sta": 79,
+        "str": 67,
+        "tac": 64,
+        "vis": 75
       },
       "birth": "1971-06-01",
       "contract": null,
@@ -496,13 +529,10 @@
       "name": "Sergynho",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 64000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 76,
         "com": 70,
@@ -582,19 +612,23 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 71,
+        "aer": 68,
+        "com": 72,
         "dri": 74,
-        "ldr": 66,
-        "pac": 70,
-        "pas": 77,
+        "ldr": 64,
+        "pac": 75,
+        "pas": 67,
         "pos": 73,
-        "sho": 64,
-        "sta": 74,
-        "str": 70,
-        "tac": 68,
-        "vis": 76
+        "sho": 73,
+        "sta": 68,
+        "str": 75,
+        "tac": 42,
+        "vis": 67
       },
       "birth": "1969-01-01",
       "contract": null,
@@ -604,7 +638,7 @@
       "name": "Marco Simune",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 51000
     },
@@ -616,7 +650,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 72,
         "sta": 64,
         "str": 70,
@@ -662,18 +696,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 66,
-        "dri": 67,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 74,
-        "pos": 70,
-        "sho": 65,
+        "dri": 63,
+        "ldr": 68,
+        "pac": 59,
+        "pas": 73,
+        "pos": 74,
+        "sho": 59,
         "sta": 70,
-        "str": 62,
-        "tac": 68,
-        "vis": 72
+        "str": 67,
+        "tac": 74,
+        "vis": 69
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -683,7 +717,7 @@
       "name": "Cristian Brocchy",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 33500
     },
@@ -695,7 +729,7 @@
         "ldr": 64,
         "pac": 68,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 64,
         "str": 71,
@@ -715,6 +749,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
@@ -742,6 +779,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 63,
@@ -821,19 +861,24 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 57,
+        "com": 64,
         "dri": 47,
         "ldr": 60,
         "pac": 54,
-        "pas": 55,
+        "pas": 62,
         "pos": 61,
         "sho": 33,
-        "sta": 57,
+        "sta": 64,
         "str": 65,
         "tac": 66,
-        "vis": 48
+        "vis": 55
       },
       "birth": "1971-07-01",
       "contract": null,
@@ -844,7 +889,7 @@
       "nation": "BEL",
       "nation2": "CRO",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 9500
     },
@@ -883,7 +928,7 @@
         "ldr": 47,
         "pac": 58,
         "pas": 46,
-        "pos": 32,
+        "pos": 52,
         "sho": 60,
         "sta": 53,
         "str": 57,

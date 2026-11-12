@@ -105,19 +105,23 @@
       "wage": 333500
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 68,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 63,
-        "pas": 75,
-        "pos": 69,
-        "sho": 67,
+        "dri": 66,
+        "ldr": 68,
+        "pac": 60,
+        "pas": 74,
+        "pos": 73,
+        "sho": 61,
         "sta": 69,
-        "str": 68,
-        "tac": 67,
-        "vis": 70
+        "str": 73,
+        "tac": 73,
+        "vis": 67
       },
       "birth": "2001-04-01",
       "contract": null,
@@ -127,7 +131,7 @@
       "name": "Manuel Ugerte",
       "nation": "URU",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 198500
     },
     {
@@ -158,6 +162,9 @@
       "wage": 370000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 78,
@@ -191,7 +198,7 @@
         "ldr": 76,
         "pac": 78,
         "pas": 71,
-        "pos": 62,
+        "pos": 82,
         "sho": 81,
         "sta": 78,
         "str": 79,
@@ -210,6 +217,10 @@
       "wage": 403000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 81,
@@ -243,7 +254,7 @@
         "ldr": 69,
         "pac": 73,
         "pas": 66,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 69,
         "str": 70,
@@ -263,19 +274,23 @@
       "wage": 161000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 84,
-        "dri": 75,
-        "ldr": 77,
-        "pac": 79,
-        "pas": 75,
-        "pos": 55,
-        "sho": 84,
-        "sta": 76,
-        "str": 80,
-        "tac": 52,
-        "vis": 72
+        "aer": 62,
+        "com": 81,
+        "dri": 80,
+        "ldr": 75,
+        "pac": 83,
+        "pas": 81,
+        "pos": 57,
+        "sho": 79,
+        "sta": 78,
+        "str": 70,
+        "tac": 58,
+        "vis": 78
       },
       "birth": "1997-05-01",
       "contract": null,
@@ -285,26 +300,27 @@
       "name": "Ousmane Dembela",
       "nation": "FRA",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 406500
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 69,
-        "com": 78,
-        "dri": 75,
-        "ldr": 78,
-        "pac": 75,
+        "aer": 63,
+        "com": 79,
+        "dri": 79,
+        "ldr": 76,
+        "pac": 78,
         "pas": 79,
-        "pos": 80,
-        "sho": 75,
-        "sta": 84,
-        "str": 72,
-        "tac": 73,
-        "vis": 81
+        "pos": 65,
+        "sho": 81,
+        "sta": 78,
+        "str": 67,
+        "tac": 55,
+        "vis": 83
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -314,7 +330,7 @@
       "name": "Marco Asensiu",
       "nation": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 560500
     },
     {
@@ -340,26 +356,26 @@
       "name": "Juan Bernet",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 292000
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 74,
-        "dri": 77,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 78,
-        "pos": 75,
-        "sho": 71,
+        "dri": 73,
+        "ldr": 71,
+        "pac": 66,
+        "pas": 77,
+        "pos": 79,
+        "sho": 65,
         "sta": 81,
-        "str": 74,
-        "tac": 75,
-        "vis": 79
+        "str": 79,
+        "tac": 81,
+        "vis": 76
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -369,7 +385,7 @@
       "name": "Danilo Pereyra",
       "nation": "POR",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 430500
     },
     {
@@ -399,6 +415,10 @@
       "wage": 164500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -427,7 +447,7 @@
     {
       "alt": [
         "RW",
-        "CM"
+        "LW"
       ],
       "attrs": {
         "aer": 59,
@@ -455,6 +475,9 @@
       "wage": 189000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 83,
         "com": 77,
@@ -504,10 +527,13 @@
       "name": "Nuno Mendas",
       "nation": "POR",
       "number": 25,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 155000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
@@ -535,6 +561,9 @@
       "wage": 120500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -561,6 +590,9 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 78,
@@ -594,7 +626,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 69,
         "sta": 66,
         "str": 71,
@@ -662,11 +694,13 @@
       "nation": "FRA",
       "nation2": "POL",
       "number": 32,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 318000
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -695,19 +729,23 @@
       "wage": 112500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 78,
-        "dri": 75,
-        "ldr": 76,
-        "pac": 77,
+        "aer": 66,
+        "com": 79,
+        "dri": 79,
+        "ldr": 74,
+        "pac": 80,
         "pas": 83,
-        "pos": 78,
-        "sho": 71,
-        "sta": 79,
-        "str": 73,
-        "tac": 77,
-        "vis": 83
+        "pos": 63,
+        "sho": 77,
+        "sta": 73,
+        "str": 68,
+        "tac": 59,
+        "vis": 85
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -717,10 +755,13 @@
       "name": "Julian Drexler",
       "nation": "GER",
       "number": 34,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 577000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -749,18 +790,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 38,
-        "dri": 25,
-        "ldr": 41,
-        "pac": 38,
-        "pas": 34,
-        "pos": 46,
-        "sho": 16,
-        "sta": 35,
-        "str": 42,
-        "tac": 45,
-        "vis": 28
+        "aer": 29,
+        "com": 36,
+        "dri": 35,
+        "ldr": 37,
+        "pac": 46,
+        "pas": 38,
+        "pos": 41,
+        "sho": 23,
+        "sta": 41,
+        "str": 34,
+        "tac": 42,
+        "vis": 34
       },
       "birth": "2005-09-01",
       "contract": null,
@@ -771,7 +812,7 @@
       "nation": "GNB",
       "nation2": "POR",
       "number": 36,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5500
     },
     {
@@ -801,6 +842,11 @@
       "wage": 286500
     },
     {
+      "alt": [
+        "RW",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -835,7 +881,7 @@
         "ldr": 45,
         "pac": 48,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 51,
         "sta": 49,
         "str": 48,
@@ -862,7 +908,7 @@
         "ldr": 60,
         "pac": 63,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 67,
         "sta": 59,
         "str": 66,
@@ -934,18 +980,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 55,
-        "dri": 43,
-        "ldr": 58,
-        "pac": 49,
-        "pas": 53,
-        "pos": 58,
-        "sho": 29,
-        "sta": 51,
-        "str": 57,
-        "tac": 63,
-        "vis": 41
+        "aer": 45,
+        "com": 53,
+        "dri": 53,
+        "ldr": 54,
+        "pac": 57,
+        "pas": 57,
+        "pos": 53,
+        "sho": 36,
+        "sta": 57,
+        "str": 49,
+        "tac": 60,
+        "vis": 47
       },
       "birth": "2002-09-01",
       "contract": null,
@@ -955,7 +1001,7 @@
       "name": "Timothee Pambele",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 32000
     }
   ],

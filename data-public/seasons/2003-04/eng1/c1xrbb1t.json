@@ -106,8 +106,8 @@
     },
     {
       "alt": [
-        "LB",
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 61,
@@ -136,6 +136,7 @@
     },
     {
       "alt": [
+        "RB",
         "LB"
       ],
       "attrs": {
@@ -212,7 +213,7 @@
       "name": "Michael Tarnet",
       "nation": "GER",
       "number": 3,
-      "pos": "LB",
+      "pos": "LWB",
       "traits": [
         "free_kick"
       ],
@@ -247,6 +248,10 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 51,
@@ -274,6 +279,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 75,
@@ -304,14 +312,14 @@
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 51,
         "com": 73,
-        "dri": 77,
+        "dri": 83,
         "ldr": 61,
-        "pac": 66,
+        "pac": 72,
         "pas": 77,
         "pos": 61,
         "sho": 63,
@@ -328,7 +336,7 @@
       "name": "Steve McMenaman",
       "nation": "ENG",
       "number": 11,
-      "pos": "AM",
+      "pos": "RW",
       "wage": 42000
     },
     {
@@ -359,7 +367,8 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 70,
@@ -417,9 +426,6 @@
       "wage": 33500
     },
     {
-      "alt": [
-        "RM"
-      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -442,12 +448,12 @@
       "name": "Trevor Sinclayr",
       "nation": "ENG",
       "number": 14,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 49000
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 47,
@@ -478,19 +484,22 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 59,
+        "com": 68,
         "dri": 65,
         "ldr": 53,
         "pac": 69,
-        "pas": 69,
+        "pas": 78,
         "pos": 63,
         "sho": 63,
         "sta": 82,
         "str": 69,
-        "tac": 69,
-        "vis": 63
+        "tac": 78,
+        "vis": 72
       },
       "birth": "1982-09-01",
       "contract": "2007-06-30",
@@ -506,21 +515,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 42,
-        "com": 49,
+        "com": 67,
         "dri": 60,
         "ldr": 35,
         "pac": 71,
-        "pas": 56,
+        "pas": 74,
         "pos": 52,
         "sho": 46,
         "sta": 74,
         "str": 51,
-        "tac": 54,
-        "vis": 51
+        "tac": 72,
+        "vis": 69
       },
       "birth": "1985-04-01",
       "contract": "2007-06-30",
@@ -536,16 +545,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 74,
+        "aer": 74,
+        "com": 83,
         "dri": 83,
         "ldr": 48,
         "pac": 86,
         "pas": 73,
-        "pos": 51,
-        "sho": 83,
+        "pos": 60,
+        "sho": 92,
         "sta": 73,
-        "str": 76,
+        "str": 85,
         "tac": 39,
         "vis": 72
       },
@@ -562,16 +571,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 83,
+        "aer": 71,
+        "com": 89,
         "dri": 75,
         "ldr": 65,
-        "pac": 67,
+        "pac": 73,
         "pas": 72,
-        "pos": 49,
-        "sho": 83,
+        "pos": 55,
+        "sho": 89,
         "sta": 64,
-        "str": 66,
+        "str": 72,
         "tac": 36,
         "vis": 75
       },
@@ -589,16 +598,16 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 74,
+        "aer": 79,
+        "com": 77,
         "dri": 80,
         "ldr": 56,
         "pac": 76,
         "pas": 68,
-        "pos": 52,
-        "sho": 80,
+        "pos": 55,
+        "sho": 83,
         "sta": 71,
-        "str": 72,
+        "str": 75,
         "tac": 36,
         "vis": 70
       },

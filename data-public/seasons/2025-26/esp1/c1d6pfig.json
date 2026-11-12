@@ -77,6 +77,11 @@
       "wage": 72500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "RWB"
+      ],
       "attrs": {
         "aer": 80,
         "com": 75,
@@ -130,18 +135,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 63,
-        "dri": 51,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 57,
-        "pos": 63,
-        "sho": 38,
-        "sta": 59,
-        "str": 63,
-        "tac": 64,
-        "vis": 46
+        "aer": 51,
+        "com": 61,
+        "dri": 61,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 61,
+        "pos": 58,
+        "sho": 45,
+        "sta": 65,
+        "str": 55,
+        "tac": 61,
+        "vis": 52
       },
       "birth": "2000-10-01",
       "contract": null,
@@ -151,10 +156,14 @@
       "name": "Sergio Cerreira",
       "nation": "ESP",
       "number": 5,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 30500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -189,7 +198,7 @@
         "ldr": 65,
         "pac": 76,
         "pas": 63,
-        "pos": 52,
+        "pos": 72,
         "sho": 79,
         "sta": 68,
         "str": 72,
@@ -208,6 +217,9 @@
       "wage": 94500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 69,
@@ -241,7 +253,7 @@
         "ldr": 60,
         "pac": 69,
         "pas": 61,
-        "pos": 46,
+        "pos": 66,
         "sho": 67,
         "sta": 63,
         "str": 69,
@@ -267,7 +279,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 64,
         "str": 72,
@@ -286,19 +298,22 @@
       "wage": 71500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 71,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 71,
-        "pas": 64,
-        "pos": 44,
-        "sho": 74,
-        "sta": 65,
-        "str": 66,
-        "tac": 38,
-        "vis": 61
+        "aer": 53,
+        "com": 68,
+        "dri": 71,
+        "ldr": 58,
+        "pac": 75,
+        "pas": 70,
+        "pos": 46,
+        "sho": 69,
+        "sta": 67,
+        "str": 56,
+        "tac": 44,
+        "vis": 67
       },
       "birth": "1994-05-01",
       "contract": null,
@@ -309,7 +324,7 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 54500
     },
     {
@@ -366,18 +381,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 60,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 60,
-        "pos": 53,
-        "sho": 50,
+        "dri": 54,
+        "ldr": 56,
+        "pac": 49,
+        "pas": 59,
+        "pos": 57,
+        "sho": 44,
         "sta": 60,
-        "str": 53,
-        "tac": 54,
-        "vis": 59
+        "str": 58,
+        "tac": 60,
+        "vis": 56
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -387,27 +402,27 @@
       "name": "Damian Rodrigoez",
       "nation": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 24000
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "LW",
+        "AM"
       ],
       "attrs": {
-        "aer": 64,
-        "com": 69,
-        "dri": 69,
-        "ldr": 60,
-        "pac": 71,
-        "pas": 60,
-        "pos": 44,
-        "sho": 68,
-        "sta": 61,
-        "str": 70,
-        "tac": 41,
-        "vis": 62
+        "aer": 50,
+        "com": 66,
+        "dri": 74,
+        "ldr": 58,
+        "pac": 75,
+        "pas": 66,
+        "pos": 46,
+        "sho": 63,
+        "sta": 63,
+        "str": 60,
+        "tac": 47,
+        "vis": 68
       },
       "birth": "2001-09-01",
       "contract": null,
@@ -418,10 +433,13 @@
       "name": "Bryan Zaraguza",
       "nation": "ESP",
       "number": 15,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 50500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -449,18 +467,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 54,
-        "dri": 46,
-        "ldr": 55,
-        "pac": 52,
-        "pas": 48,
-        "pos": 57,
-        "sho": 30,
-        "sta": 52,
-        "str": 59,
-        "tac": 62,
-        "vis": 45
+        "aer": 50,
+        "com": 52,
+        "dri": 56,
+        "ldr": 51,
+        "pac": 60,
+        "pas": 52,
+        "pos": 52,
+        "sho": 37,
+        "sta": 58,
+        "str": 51,
+        "tac": 59,
+        "vis": 51
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -470,7 +488,7 @@
       "name": "Javi Ruada",
       "nation": "ESP",
       "number": 17,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 17000
     },
     {
@@ -481,7 +499,7 @@
         "ldr": 56,
         "pac": 58,
         "pas": 51,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 60,
         "str": 63,
@@ -500,19 +518,22 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 61,
-        "dri": 62,
-        "ldr": 57,
-        "pac": 59,
-        "pas": 52,
-        "pos": 36,
-        "sho": 64,
-        "sta": 57,
-        "str": 59,
-        "tac": 29,
-        "vis": 52
+        "aer": 45,
+        "com": 58,
+        "dri": 67,
+        "ldr": 55,
+        "pac": 63,
+        "pas": 58,
+        "pos": 38,
+        "sho": 59,
+        "sta": 59,
+        "str": 49,
+        "tac": 35,
+        "vis": 58
       },
       "birth": "2004-02-01",
       "contract": null,
@@ -522,10 +543,14 @@
       "name": "Williot Swedbarg",
       "nation": "SWE",
       "number": 19,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 21000
     },
     {
+      "alt": [
+        "CB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -548,10 +573,14 @@
       "name": "Marcos Alonsu",
       "nation": "ESP",
       "number": 20,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 98000
     },
     {
+      "alt": [
+        "LB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 72,
@@ -578,6 +607,10 @@
       "wage": 98000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -604,19 +637,22 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 56,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 58,
-        "pas": 52,
-        "pos": 37,
-        "sho": 63,
-        "sta": 53,
-        "str": 54,
-        "tac": 29,
-        "vis": 46
+        "aer": 40,
+        "com": 53,
+        "dri": 58,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 58,
+        "pos": 39,
+        "sho": 58,
+        "sta": 55,
+        "str": 44,
+        "tac": 35,
+        "vis": 52
       },
       "birth": "2003-07-01",
       "contract": null,
@@ -626,10 +662,13 @@
       "name": "Hugo Alvaraz",
       "nation": "ESP",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 14500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 62,
@@ -683,18 +722,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 58,
-        "dri": 45,
-        "ldr": 54,
-        "pac": 51,
-        "pas": 52,
-        "pos": 57,
-        "sho": 30,
-        "sta": 50,
-        "str": 58,
-        "tac": 61,
-        "vis": 42
+        "aer": 48,
+        "com": 56,
+        "dri": 55,
+        "ldr": 50,
+        "pac": 59,
+        "pas": 56,
+        "pos": 52,
+        "sho": 37,
+        "sta": 56,
+        "str": 50,
+        "tac": 58,
+        "vis": 48
       },
       "birth": "2003-06-01",
       "contract": null,
@@ -704,7 +743,7 @@
       "name": "Javi Rudriguez",
       "nation": "ESP",
       "number": 32,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 16500
     }
   ],

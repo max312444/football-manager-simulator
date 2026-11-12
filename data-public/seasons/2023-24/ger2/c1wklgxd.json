@@ -77,6 +77,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -103,6 +106,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 61,
@@ -130,18 +136,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 58,
-        "dri": 51,
-        "ldr": 51,
-        "pac": 52,
+        "aer": 40,
+        "com": 59,
+        "dri": 55,
+        "ldr": 49,
+        "pac": 55,
         "pas": 57,
-        "pos": 56,
-        "sho": 51,
-        "sta": 59,
-        "str": 53,
-        "tac": 52,
-        "vis": 54
+        "pos": 41,
+        "sho": 57,
+        "sta": 53,
+        "str": 48,
+        "tac": 34,
+        "vis": 56
       },
       "birth": "2000-03-01",
       "contract": null,
@@ -151,23 +157,26 @@
       "name": "Nick Betzner",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 59,
-        "dri": 57,
-        "ldr": 54,
-        "pac": 62,
-        "pas": 48,
-        "pos": 40,
-        "sho": 63,
-        "sta": 53,
-        "str": 59,
-        "tac": 29,
-        "vis": 51
+        "aer": 43,
+        "com": 56,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 66,
+        "pas": 54,
+        "pos": 42,
+        "sho": 58,
+        "sta": 55,
+        "str": 49,
+        "tac": 35,
+        "vis": 57
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -177,23 +186,28 @@
       "name": "Thijmen Guppel",
       "nation": "NED",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 7500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
-        "dri": 55,
+        "dri": 62,
         "ldr": 49,
         "pac": 51,
-        "pas": 47,
-        "pos": 35,
+        "pas": 54,
+        "pos": 55,
         "sho": 56,
         "sta": 49,
         "str": 51,
         "tac": 27,
-        "vis": 43
+        "vis": 50
       },
       "birth": "1999-08-01",
       "contract": null,
@@ -203,23 +217,26 @@
       "name": "Antonio Jonjyc",
       "nation": "GER",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 58,
-        "dri": 57,
-        "ldr": 51,
-        "pac": 50,
-        "pas": 61,
-        "pos": 55,
-        "sho": 50,
-        "sta": 62,
-        "str": 54,
-        "tac": 50,
-        "vis": 60
+        "aer": 38,
+        "com": 56,
+        "dri": 62,
+        "ldr": 47,
+        "pac": 59,
+        "pas": 57,
+        "pos": 37,
+        "sho": 54,
+        "sta": 58,
+        "str": 49,
+        "tac": 30,
+        "vis": 57
       },
       "birth": "1999-03-01",
       "contract": null,
@@ -229,7 +246,7 @@
       "name": "Keanan Bennatts",
       "nation": "ENG",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 9000
     },
     {
@@ -260,19 +277,23 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 58,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 60,
-        "pas": 50,
-        "pos": 33,
-        "sho": 58,
-        "sta": 51,
-        "str": 57,
-        "tac": 29,
-        "vis": 49
+        "aer": 45,
+        "com": 55,
+        "dri": 63,
+        "ldr": 50,
+        "pac": 64,
+        "pas": 56,
+        "pos": 35,
+        "sho": 53,
+        "sta": 53,
+        "str": 47,
+        "tac": 35,
+        "vis": 55
       },
       "birth": "1999-08-01",
       "contract": null,
@@ -282,23 +303,28 @@
       "name": "Franko Kuvacevic",
       "nation": "CRO",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 57,
+        "com": 65,
         "dri": 41,
         "ldr": 55,
         "pac": 53,
-        "pas": 51,
+        "pas": 59,
         "pos": 60,
         "sho": 33,
-        "sta": 57,
+        "sta": 65,
         "str": 63,
         "tac": 61,
-        "vis": 44
+        "vis": 52
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -308,7 +334,7 @@
       "name": "Max Reinthalar",
       "nation": "ITA",
       "number": 15,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 7500
     },
     {
@@ -372,7 +398,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 55,
         "str": 60,
@@ -391,6 +417,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -418,8 +447,8 @@
     },
     {
       "alt": [
-        "LW",
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 35,
@@ -448,19 +477,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 56,
-        "dri": 54,
-        "ldr": 55,
-        "pac": 57,
-        "pas": 64,
-        "pos": 57,
-        "sho": 52,
-        "sta": 58,
-        "str": 57,
-        "tac": 56,
-        "vis": 57
+        "aer": 49,
+        "com": 58,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 58,
+        "pas": 66,
+        "pos": 58,
+        "sho": 54,
+        "sta": 60,
+        "str": 58,
+        "tac": 57,
+        "vis": 59
       },
       "birth": "1999-05-01",
       "contract": null,
@@ -474,6 +506,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 33,
         "com": 43,
@@ -553,18 +588,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 55,
-        "dri": 43,
-        "ldr": 55,
-        "pac": 48,
-        "pas": 51,
-        "pos": 59,
-        "sho": 28,
-        "sta": 54,
-        "str": 58,
-        "tac": 57,
-        "vis": 43
+        "aer": 45,
+        "com": 53,
+        "dri": 53,
+        "ldr": 51,
+        "pac": 56,
+        "pas": 55,
+        "pos": 54,
+        "sho": 35,
+        "sta": 60,
+        "str": 50,
+        "tac": 54,
+        "vis": 49
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -574,23 +609,28 @@
       "name": "Nico Ryeble",
       "nation": "GER",
       "number": 27,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 6000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 51,
-        "dri": 51,
-        "ldr": 47,
-        "pac": 53,
-        "pas": 47,
-        "pos": 31,
-        "sho": 52,
-        "sta": 50,
-        "str": 49,
-        "tac": 22,
-        "vis": 41
+        "aer": 37,
+        "com": 48,
+        "dri": 56,
+        "ldr": 45,
+        "pac": 57,
+        "pas": 53,
+        "pos": 33,
+        "sho": 47,
+        "sta": 52,
+        "str": 39,
+        "tac": 28,
+        "vis": 47
       },
       "birth": "2003-03-01",
       "contract": null,
@@ -601,23 +641,23 @@
       "name": "Lasse Gonther",
       "nation": "GER",
       "number": 29,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 64,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 59,
+        "aer": 50,
+        "com": 65,
+        "dri": 69,
+        "ldr": 61,
+        "pac": 62,
         "pas": 69,
-        "pos": 66,
-        "sho": 62,
-        "sta": 68,
-        "str": 58,
-        "tac": 59,
-        "vis": 67
+        "pos": 51,
+        "sho": 68,
+        "sta": 62,
+        "str": 53,
+        "tac": 41,
+        "vis": 69
       },
       "birth": "1996-04-01",
       "contract": null,
@@ -628,7 +668,7 @@
       "nation": "CAN",
       "nation2": "CUB",
       "number": 30,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15500
     },
     {
@@ -639,7 +679,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 46,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 50,
         "str": 57,
@@ -658,19 +698,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 56,
-        "dri": 57,
-        "ldr": 52,
-        "pac": 57,
-        "pas": 51,
-        "pos": 38,
-        "sho": 63,
-        "sta": 54,
-        "str": 57,
-        "tac": 30,
-        "vis": 50
+        "aer": 42,
+        "com": 53,
+        "dri": 62,
+        "ldr": 50,
+        "pac": 61,
+        "pas": 57,
+        "pos": 40,
+        "sho": 58,
+        "sta": 56,
+        "str": 47,
+        "tac": 36,
+        "vis": 56
       },
       "birth": "1999-01-01",
       "contract": null,
@@ -681,7 +724,7 @@
       "nation": "BIH",
       "nation2": "NED",
       "number": 34,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6500
     }
   ],

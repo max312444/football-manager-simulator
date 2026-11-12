@@ -26,18 +26,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 52,
-        "com": 56,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 62,
-        "pos": 57,
-        "sho": 50,
-        "sta": 63,
-        "str": 55,
-        "tac": 53,
-        "vis": 62
+        "aer": 46,
+        "com": 54,
+        "dri": 62,
+        "ldr": 51,
+        "pac": 60,
+        "pas": 58,
+        "pos": 39,
+        "sho": 54,
+        "sta": 59,
+        "str": 50,
+        "tac": 33,
+        "vis": 59
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -47,7 +47,7 @@
       "name": "Christopher Qoiring",
       "nation": "GER",
       "number": 2,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 5000
     },
     {
@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 59,
-        "dri": 42,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 52,
-        "pos": 63,
-        "sho": 33,
-        "sta": 57,
-        "str": 59,
-        "tac": 64,
-        "vis": 42
+        "aer": 48,
+        "com": 57,
+        "dri": 52,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 56,
+        "pos": 58,
+        "sho": 40,
+        "sta": 63,
+        "str": 51,
+        "tac": 61,
+        "vis": 48
       },
       "birth": "1987-10-01",
       "contract": null,
@@ -125,7 +125,7 @@
       "name": "Benjamin Kassel",
       "nation": "GER",
       "number": 5,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3500
     },
     {
@@ -155,19 +155,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 56,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 56,
+        "aer": 39,
+        "com": 57,
+        "dri": 60,
+        "ldr": 51,
+        "pac": 59,
         "pas": 63,
-        "pos": 57,
-        "sho": 51,
-        "sta": 62,
-        "str": 53,
-        "tac": 55,
-        "vis": 61
+        "pos": 42,
+        "sho": 57,
+        "sta": 56,
+        "str": 48,
+        "tac": 37,
+        "vis": 63
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -177,10 +180,13 @@
       "name": "Benjamin Kohlar",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -214,7 +220,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 62,
         "sta": 52,
         "str": 56,
@@ -234,18 +240,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 57,
-        "dri": 56,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 61,
-        "pos": 59,
-        "sho": 55,
+        "dri": 52,
+        "ldr": 58,
+        "pac": 51,
+        "pas": 60,
+        "pos": 63,
+        "sho": 49,
         "sta": 59,
-        "str": 53,
-        "tac": 53,
-        "vis": 57
+        "str": 58,
+        "tac": 59,
+        "vis": 54
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -255,10 +261,15 @@
       "name": "Dennis Dauba",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -311,6 +322,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
@@ -337,6 +351,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -371,7 +388,7 @@
         "ldr": 58,
         "pac": 70,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 63,
         "str": 69,
@@ -390,6 +407,10 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 56,
@@ -417,6 +438,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -450,7 +474,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 50,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 59,
         "str": 58,
@@ -470,7 +494,8 @@
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 63,
@@ -505,7 +530,7 @@
         "ldr": 54,
         "pac": 56,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 55,
         "str": 61,
@@ -525,18 +550,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 56,
-        "dri": 51,
-        "ldr": 54,
-        "pac": 48,
+        "aer": 37,
+        "com": 57,
+        "dri": 55,
+        "ldr": 52,
+        "pac": 51,
         "pas": 58,
-        "pos": 53,
-        "sho": 46,
-        "sta": 57,
-        "str": 49,
-        "tac": 53,
-        "vis": 57
+        "pos": 38,
+        "sho": 52,
+        "sta": 51,
+        "str": 44,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "1994-10-01",
       "contract": null,
@@ -546,23 +571,27 @@
       "name": "Eroll Zejnullehu",
       "nation": "GER",
       "number": 27,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 3500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 68,
-        "dri": 51,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 59,
-        "pos": 71,
-        "sho": 38,
-        "sta": 63,
-        "str": 66,
-        "tac": 69,
-        "vis": 55
+        "aer": 58,
+        "com": 66,
+        "dri": 61,
+        "ldr": 58,
+        "pac": 69,
+        "pas": 63,
+        "pos": 66,
+        "sho": 45,
+        "sta": 69,
+        "str": 58,
+        "tac": 66,
+        "vis": 61
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -572,7 +601,7 @@
       "name": "Christopher Trimmal",
       "nation": "AUT",
       "number": 28,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 9500
     },
     {

@@ -48,26 +48,28 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 73000
     },
     {
       "alt": [
-        "RB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
-        "aer": 83,
-        "com": 79,
-        "dri": 63,
-        "ldr": 74,
-        "pac": 74,
-        "pas": 71,
-        "pos": 80,
-        "sho": 50,
-        "sta": 75,
-        "str": 83,
-        "tac": 84,
-        "vis": 66
+        "aer": 70,
+        "com": 77,
+        "dri": 73,
+        "ldr": 70,
+        "pac": 82,
+        "pas": 75,
+        "pos": 75,
+        "sho": 57,
+        "sta": 81,
+        "str": 75,
+        "tac": 81,
+        "vis": 72
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -77,7 +79,7 @@
       "name": "Dennis Aogu",
       "nation": "GER",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 73000
     },
     {
@@ -108,18 +110,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 56,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 56,
-        "pas": 64,
-        "pos": 60,
-        "sho": 51,
+        "dri": 51,
+        "ldr": 55,
+        "pac": 53,
+        "pas": 63,
+        "pos": 64,
+        "sho": 45,
         "sta": 62,
-        "str": 57,
-        "tac": 52,
-        "vis": 59
+        "str": 62,
+        "tac": 58,
+        "vis": 56
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -129,23 +131,23 @@
       "name": "Santiago Ascacybar",
       "nation": "ARG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 65,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 68,
-        "pas": 57,
-        "pos": 45,
-        "sho": 71,
-        "sta": 65,
-        "str": 67,
-        "tac": 40,
-        "vis": 59
+        "aer": 52,
+        "com": 62,
+        "dri": 69,
+        "ldr": 61,
+        "pac": 72,
+        "pas": 63,
+        "pos": 47,
+        "sho": 66,
+        "sta": 67,
+        "str": 57,
+        "tac": 46,
+        "vis": 65
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -156,10 +158,13 @@
       "name": "Josip Brekalu",
       "nation": "CRO",
       "number": 7,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,
@@ -193,7 +198,7 @@
         "ldr": 63,
         "pac": 68,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 62,
         "str": 69,
@@ -219,7 +224,7 @@
         "ldr": 60,
         "pac": 69,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 71,
         "sta": 65,
         "str": 70,
@@ -272,7 +277,7 @@
         "ldr": 61,
         "pac": 69,
         "pas": 56,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 64,
         "str": 66,
@@ -291,19 +296,23 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 74,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 64,
-        "pas": 74,
-        "pos": 72,
-        "sho": 67,
-        "sta": 71,
-        "str": 70,
-        "tac": 69,
-        "vis": 73
+        "aer": 58,
+        "com": 72,
+        "dri": 74,
+        "ldr": 66,
+        "pac": 73,
+        "pas": 70,
+        "pos": 54,
+        "sho": 71,
+        "sta": 67,
+        "str": 65,
+        "tac": 49,
+        "vis": 70
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -315,7 +324,7 @@
       "nation": "POR",
       "nation2": "GNB",
       "number": 15,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 61500
     },
     {
@@ -345,6 +354,9 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 54,
@@ -371,17 +383,22 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 63,
-        "dri": 60,
+        "aer": 59,
+        "com": 73,
+        "dri": 66,
         "ldr": 55,
-        "pac": 56,
+        "pac": 66,
         "pas": 67,
-        "pos": 57,
-        "sho": 54,
+        "pos": 67,
+        "sho": 64,
         "sta": 67,
-        "str": 56,
+        "str": 66,
         "tac": 55,
         "vis": 62
       },
@@ -393,22 +410,25 @@
       "name": "Chadrac Akolu",
       "nation": "COD",
       "number": 19,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
         "dri": 75,
         "ldr": 71,
         "pac": 68,
-        "pas": 73,
+        "pas": 74,
         "pos": 75,
         "sho": 71,
-        "sta": 74,
+        "sta": 75,
         "str": 68,
-        "tac": 67,
+        "tac": 68,
         "vis": 78
       },
       "birth": "1985-08-01",
@@ -452,6 +472,9 @@
       "wage": 50000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -479,18 +502,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 62,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 58,
-        "pos": 60,
-        "sho": 51,
+        "dri": 54,
+        "ldr": 56,
+        "pac": 50,
+        "pas": 57,
+        "pos": 64,
+        "sho": 45,
         "sta": 61,
-        "str": 57,
-        "tac": 52,
-        "vis": 59
+        "str": 62,
+        "tac": 58,
+        "vis": 56
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -500,10 +523,13 @@
       "name": "Orel Mangale",
       "nation": "BEL",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 55,
@@ -585,18 +611,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 57,
-        "dri": 46,
-        "ldr": 59,
-        "pac": 54,
-        "pas": 48,
-        "pos": 62,
-        "sho": 29,
-        "sta": 52,
-        "str": 60,
-        "tac": 63,
-        "vis": 46
+        "aer": 45,
+        "com": 55,
+        "dri": 56,
+        "ldr": 55,
+        "pac": 62,
+        "pas": 52,
+        "pos": 57,
+        "sho": 36,
+        "sta": 58,
+        "str": 52,
+        "tac": 60,
+        "vis": 52
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -606,10 +632,14 @@
       "name": "Aylton",
       "nation": "BRA",
       "number": 29,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -670,7 +700,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 77,
         "sta": 67,
         "str": 74,

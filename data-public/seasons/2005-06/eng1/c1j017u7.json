@@ -70,6 +70,9 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 58,
@@ -97,7 +100,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 62,
@@ -121,7 +124,7 @@
       "name": "Ricardo Gerdner",
       "nation": "JAM",
       "number": 11,
-      "pos": "LB",
+      "pos": "LWB",
       "wage": 37500
     },
     {
@@ -273,21 +276,22 @@
     },
     {
       "alt": [
-        "RB"
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 55,
-        "com": 55,
+        "com": 63,
         "dri": 58,
         "ldr": 42,
         "pac": 66,
-        "pas": 60,
-        "pos": 59,
+        "pas": 68,
+        "pos": 67,
         "sho": 47,
         "sta": 69,
-        "str": 58,
-        "tac": 62,
-        "vis": 52
+        "str": 66,
+        "tac": 70,
+        "vis": 60
       },
       "birth": "1986-02-01",
       "contract": "2007-06-30",
@@ -297,26 +301,27 @@
       "name": "Joey O'Brian",
       "nation": "IRL",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14000
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
         "aer": 69,
-        "com": 68,
+        "com": 71,
         "dri": 69,
         "ldr": 70,
         "pac": 67,
-        "pas": 70,
+        "pas": 73,
         "pos": 65,
         "sho": 70,
         "sta": 81,
         "str": 73,
-        "tac": 63,
-        "vis": 67
+        "tac": 66,
+        "vis": 70
       },
       "birth": "1982-06-01",
       "contract": "2009-06-30",
@@ -335,17 +340,17 @@
       ],
       "attrs": {
         "aer": 76,
-        "com": 78,
-        "dri": 64,
+        "com": 79,
+        "dri": 65,
         "ldr": 80,
         "pac": 51,
-        "pas": 74,
+        "pas": 75,
         "pos": 72,
-        "sho": 64,
-        "sta": 72,
+        "sho": 65,
+        "sta": 73,
         "str": 71,
         "tac": 68,
-        "vis": 74
+        "vis": 75
       },
       "birth": "1969-09-01",
       "contract": "2007-06-30",
@@ -362,9 +367,6 @@
       "wage": 58000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 54,
         "com": 81,
@@ -396,22 +398,22 @@
     },
     {
       "alt": [
-        "LM",
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 60,
-        "com": 73,
+        "com": 75,
         "dri": 76,
         "ldr": 61,
         "pac": 73,
-        "pas": 72,
+        "pas": 74,
         "pos": 64,
-        "sho": 70,
+        "sho": 72,
         "sta": 82,
         "str": 64,
         "tac": 56,
-        "vis": 71
+        "vis": 73
       },
       "birth": "1974-07-01",
       "contract": "2007-06-30",
@@ -421,11 +423,13 @@
       "name": "Stelios Giannakopoolos",
       "nation": "GRE",
       "number": 7,
-      "pos": "RM",
+      "pos": "AM",
       "wage": 52000
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -433,14 +437,14 @@
         "com": 65,
         "dri": 76,
         "ldr": 53,
-        "pac": 73,
-        "pas": 70,
+        "pac": 74,
+        "pas": 80,
         "pos": 56,
         "sho": 64,
-        "sta": 66,
+        "sta": 77,
         "str": 62,
-        "tac": 46,
-        "vis": 69
+        "tac": 57,
+        "vis": 79
       },
       "birth": "1974-12-01",
       "contract": "2006-06-30",
@@ -455,21 +459,22 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 55,
-        "com": 74,
+        "com": 75,
         "dri": 78,
         "ldr": 64,
         "pac": 74,
-        "pas": 76,
+        "pas": 77,
         "pos": 56,
-        "sho": 74,
+        "sho": 75,
         "sta": 71,
         "str": 62,
         "tac": 48,
-        "vis": 74
+        "vis": 75
       },
       "birth": "1977-01-01",
       "contract": "2006-06-30",
@@ -514,16 +519,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 65,
+        "aer": 67,
+        "com": 66,
         "dri": 66,
         "ldr": 51,
         "pac": 75,
         "pas": 60,
-        "pos": 54,
-        "sho": 70,
+        "pos": 55,
+        "sho": 71,
         "sta": 76,
-        "str": 70,
+        "str": 71,
         "tac": 44,
         "vis": 57
       },
@@ -540,6 +545,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -597,20 +603,17 @@
       "wage": 22500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 54,
+        "aer": 61,
+        "com": 61,
         "dri": 63,
         "ldr": 38,
         "pac": 70,
         "pas": 53,
-        "pos": 39,
-        "sho": 62,
+        "pos": 46,
+        "sho": 69,
         "sta": 61,
-        "str": 56,
+        "str": 63,
         "tac": 31,
         "vis": 49
       },
@@ -627,7 +630,7 @@
     },
     {
       "alt": [
-        "CB"
+        "DM"
       ],
       "attrs": {
         "aer": 68,
@@ -656,7 +659,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 50,
@@ -680,7 +683,7 @@
       "name": "Fabrice Fernandas",
       "nation": "FRA",
       "number": 23,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 20500
     }
   ],

@@ -52,18 +52,19 @@
     },
     {
       "alt": [
-        "RB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 74,
         "com": 72,
-        "dri": 62,
+        "dri": 73,
         "ldr": 72,
-        "pac": 64,
-        "pas": 67,
+        "pac": 75,
+        "pas": 78,
         "pos": 77,
         "sho": 46,
-        "sta": 66,
+        "sta": 77,
         "str": 76,
         "tac": 77,
         "vis": 57
@@ -76,23 +77,23 @@
       "name": "Cesar Azpilicoeta",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 74000
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 69,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 72,
-        "pas": 68,
-        "pos": 69,
-        "sho": 49,
-        "sta": 70,
-        "str": 63,
-        "tac": 68,
-        "vis": 62
+        "aer": 73,
+        "com": 71,
+        "dri": 59,
+        "ldr": 69,
+        "pac": 64,
+        "pas": 64,
+        "pos": 74,
+        "sho": 42,
+        "sta": 64,
+        "str": 71,
+        "tac": 71,
+        "vis": 56
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -102,23 +103,23 @@
       "name": "Nicolas Nkouloo",
       "nation": "CMR",
       "number": 3,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 58000
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 73,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 72,
-        "pas": 75,
-        "pos": 77,
-        "sho": 69,
+        "dri": 70,
+        "ldr": 74,
+        "pac": 69,
+        "pas": 74,
+        "pos": 81,
+        "sho": 63,
         "sta": 75,
-        "str": 73,
-        "tac": 72,
-        "vis": 78
+        "str": 78,
+        "tac": 78,
+        "vis": 75
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -128,10 +129,13 @@
       "name": "Alou Dyarra",
       "nation": "FRA",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 111500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 73,
@@ -158,6 +162,9 @@
       "wage": 105000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -191,7 +198,7 @@
         "ldr": 70,
         "pac": 74,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 74,
         "str": 79,
@@ -217,7 +224,7 @@
         "ldr": 67,
         "pac": 77,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 76,
         "sta": 69,
         "str": 77,
@@ -236,6 +243,9 @@
       "wage": 89000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -263,6 +273,9 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 66,
@@ -291,18 +304,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 63,
-        "dri": 62,
-        "ldr": 60,
-        "pac": 72,
-        "pas": 65,
-        "pos": 63,
-        "sho": 47,
-        "sta": 71,
-        "str": 58,
-        "tac": 70,
-        "vis": 58
+        "aer": 71,
+        "com": 65,
+        "dri": 52,
+        "ldr": 64,
+        "pac": 64,
+        "pas": 61,
+        "pos": 68,
+        "sho": 40,
+        "sta": 65,
+        "str": 66,
+        "tac": 73,
+        "vis": 52
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -313,7 +326,7 @@
       "nation": "FRA",
       "nation2": "MAD",
       "number": 15,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 41000
     },
     {
@@ -344,6 +357,11 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 78,
         "com": 74,
@@ -371,6 +389,10 @@
       "wage": 94000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 69,
@@ -397,19 +419,23 @@
       "wage": 46500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 70,
-        "dri": 73,
-        "ldr": 69,
-        "pac": 71,
-        "pas": 63,
-        "pos": 52,
-        "sho": 73,
-        "sta": 71,
-        "str": 70,
-        "tac": 45,
-        "vis": 66
+        "aer": 57,
+        "com": 67,
+        "dri": 78,
+        "ldr": 67,
+        "pac": 75,
+        "pas": 69,
+        "pos": 54,
+        "sho": 68,
+        "sta": 73,
+        "str": 60,
+        "tac": 51,
+        "vis": 72
       },
       "birth": "1989-12-01",
       "contract": null,
@@ -420,7 +446,7 @@
       "nation": "GHA",
       "nation2": "FRA",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 64000
     },
     {
@@ -451,19 +477,23 @@
       "wage": 74000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 68,
-        "dri": 69,
-        "ldr": 64,
-        "pac": 66,
-        "pas": 60,
-        "pos": 46,
-        "sho": 70,
-        "sta": 67,
-        "str": 69,
-        "tac": 37,
-        "vis": 62
+        "aer": 53,
+        "com": 65,
+        "dri": 74,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 66,
+        "pos": 48,
+        "sho": 65,
+        "sta": 69,
+        "str": 59,
+        "tac": 43,
+        "vis": 68
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -474,23 +504,23 @@
       "nation": "GHA",
       "nation2": "FRA",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 40000
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 64,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 73,
-        "pas": 68,
-        "pos": 70,
-        "sho": 54,
-        "sta": 74,
-        "str": 63,
-        "tac": 72,
-        "vis": 65
+        "aer": 74,
+        "com": 66,
+        "dri": 60,
+        "ldr": 71,
+        "pac": 65,
+        "pas": 64,
+        "pos": 75,
+        "sho": 47,
+        "sta": 68,
+        "str": 71,
+        "tac": 75,
+        "vis": 59
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -500,7 +530,7 @@
       "name": "Rod Fanny",
       "nation": "FRA",
       "number": 24,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 68000
     },
     {
@@ -531,7 +561,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RM",
+        "LM"
       ],
       "attrs": {
         "aer": 60,

@@ -130,7 +130,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 61,
@@ -158,6 +159,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 56,
@@ -192,7 +196,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 56,
         "str": 61,
@@ -212,6 +216,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 69,
@@ -219,7 +228,7 @@
         "ldr": 58,
         "pac": 69,
         "pas": 57,
-        "pos": 46,
+        "pos": 66,
         "sho": 66,
         "sta": 59,
         "str": 68,
@@ -238,19 +247,22 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 66,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 63,
-        "pas": 71,
-        "pos": 64,
-        "sho": 61,
-        "sta": 69,
-        "str": 62,
-        "tac": 60,
-        "vis": 71
+        "aer": 54,
+        "com": 64,
+        "dri": 72,
+        "ldr": 58,
+        "pac": 72,
+        "pas": 67,
+        "pos": 46,
+        "sho": 65,
+        "sta": 65,
+        "str": 57,
+        "tac": 40,
+        "vis": 68
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -261,23 +273,26 @@
       "nation": "RSA",
       "nation2": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 7500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 62,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 60,
-        "pas": 50,
-        "pos": 41,
-        "sho": 64,
-        "sta": 54,
-        "str": 63,
-        "tac": 33,
-        "vis": 52
+        "aer": 44,
+        "com": 59,
+        "dri": 60,
+        "ldr": 52,
+        "pac": 64,
+        "pas": 56,
+        "pos": 43,
+        "sho": 59,
+        "sta": 56,
+        "str": 53,
+        "tac": 39,
+        "vis": 58
       },
       "birth": "1991-04-01",
       "contract": null,
@@ -288,10 +303,13 @@
       "nation": "GER",
       "nation2": "ITA",
       "number": 11,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -325,7 +343,7 @@
         "ldr": 49,
         "pac": 60,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 62,
         "sta": 54,
         "str": 58,
@@ -371,6 +389,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -404,7 +425,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 70,
         "sta": 59,
         "str": 66,
@@ -423,6 +444,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -475,19 +499,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
-        "com": 59,
+        "com": 72,
         "dri": 50,
         "ldr": 63,
         "pac": 59,
-        "pas": 53,
+        "pas": 66,
         "pos": 70,
         "sho": 40,
-        "sta": 57,
+        "sta": 70,
         "str": 68,
         "tac": 70,
-        "vis": 53
+        "vis": 66
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -497,7 +526,7 @@
       "name": "Patrick Milchreum",
       "nation": "GER",
       "number": 26,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 7000
     },
     {
@@ -508,7 +537,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 67,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 70,
         "str": 71,

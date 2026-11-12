@@ -51,6 +51,9 @@
       "wage": 504500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -104,9 +107,6 @@
       "wage": 333000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 80,
         "com": 79,
@@ -133,6 +133,10 @@
       "wage": 528000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -159,6 +163,11 @@
       "wage": 241500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 80,
         "com": 88,
@@ -166,7 +175,7 @@
         "ldr": 79,
         "pac": 86,
         "pas": 74,
-        "pos": 62,
+        "pos": 82,
         "sho": 88,
         "sta": 77,
         "str": 85,
@@ -185,18 +194,21 @@
       "wage": 495000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 81,
         "dri": 80,
         "ldr": 77,
         "pac": 78,
-        "pas": 82,
+        "pas": 83,
         "pos": 77,
         "sho": 77,
-        "sta": 80,
+        "sta": 81,
         "str": 78,
-        "tac": 75,
+        "tac": 76,
         "vis": 80
       },
       "birth": "1990-04-01",
@@ -212,20 +224,23 @@
       "wage": 528000
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 85,
         "com": 84,
-        "dri": 86,
+        "dri": 90,
         "ldr": 81,
-        "pac": 85,
-        "pas": 80,
-        "pos": 64,
+        "pac": 89,
+        "pas": 84,
+        "pos": 84,
         "sho": 92,
         "sta": 82,
         "str": 86,
         "tac": 56,
-        "vis": 80
+        "vis": 84
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -236,23 +251,27 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 528000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 82,
-        "dri": 78,
-        "ldr": 72,
-        "pac": 82,
-        "pas": 70,
-        "pos": 55,
-        "sho": 82,
-        "sta": 72,
-        "str": 78,
-        "tac": 48,
-        "vis": 69
+        "aer": 61,
+        "com": 79,
+        "dri": 83,
+        "ldr": 70,
+        "pac": 86,
+        "pas": 76,
+        "pos": 57,
+        "sho": 77,
+        "sta": 74,
+        "str": 68,
+        "tac": 54,
+        "vis": 75
       },
       "birth": "1997-05-01",
       "contract": null,
@@ -262,7 +281,7 @@
       "name": "Ousmane Dembela",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 268000
     },
     {
@@ -293,18 +312,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 86,
-        "dri": 78,
-        "ldr": 79,
-        "pac": 76,
+        "aer": 67,
+        "com": 87,
+        "dri": 82,
+        "ldr": 77,
+        "pac": 79,
         "pas": 87,
-        "pos": 80,
-        "sho": 79,
-        "sta": 82,
-        "str": 78,
-        "tac": 82,
-        "vis": 81
+        "pos": 65,
+        "sho": 85,
+        "sta": 76,
+        "str": 73,
+        "tac": 64,
+        "vis": 83
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -315,7 +334,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 528000
     },
     {
@@ -345,6 +364,9 @@
       "wage": 326500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -371,19 +393,22 @@
       "wage": 130500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 73,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 71,
-        "pas": 64,
-        "pos": 51,
-        "sho": 72,
-        "sta": 68,
-        "str": 73,
-        "tac": 42,
-        "vis": 64
+        "aer": 54,
+        "com": 70,
+        "dri": 73,
+        "ldr": 66,
+        "pac": 75,
+        "pas": 70,
+        "pos": 53,
+        "sho": 67,
+        "sta": 70,
+        "str": 63,
+        "tac": 48,
+        "vis": 70
       },
       "birth": "1999-12-01",
       "contract": null,
@@ -393,7 +418,7 @@
       "name": "Francisco Trincau",
       "nation": "POR",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 124500
     },
     {
@@ -419,10 +444,14 @@
       "name": "Jordi Albe",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 459000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 81,
         "com": 79,
@@ -430,7 +459,7 @@
         "ldr": 77,
         "pac": 78,
         "pas": 72,
-        "pos": 60,
+        "pos": 80,
         "sho": 80,
         "sta": 78,
         "str": 83,
@@ -449,19 +478,24 @@
       "wage": 333000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 82,
-        "com": 76,
-        "dri": 66,
-        "ldr": 76,
-        "pac": 75,
-        "pas": 74,
-        "pos": 86,
-        "sho": 56,
-        "sta": 76,
-        "str": 80,
-        "tac": 81,
-        "vis": 65
+        "aer": 69,
+        "com": 74,
+        "dri": 76,
+        "ldr": 72,
+        "pac": 83,
+        "pas": 78,
+        "pos": 81,
+        "sho": 63,
+        "sta": 82,
+        "str": 72,
+        "tac": 78,
+        "vis": 71
       },
       "birth": "1992-02-01",
       "contract": null,
@@ -471,10 +505,13 @@
       "name": "Sergi Ruberto",
       "nation": "ESP",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 355500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 76,
@@ -501,19 +538,23 @@
       "wage": 323500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 69,
-        "dri": 64,
-        "ldr": 60,
-        "pac": 65,
-        "pas": 61,
-        "pos": 42,
-        "sho": 73,
-        "sta": 61,
-        "str": 64,
-        "tac": 39,
-        "vis": 56
+        "aer": 48,
+        "com": 66,
+        "dri": 69,
+        "ldr": 58,
+        "pac": 69,
+        "pas": 67,
+        "pos": 44,
+        "sho": 68,
+        "sta": 63,
+        "str": 54,
+        "tac": 45,
+        "vis": 62
       },
       "birth": "2002-10-01",
       "contract": null,
@@ -524,7 +565,7 @@
       "nation": "ESP",
       "nation2": "GNB",
       "number": 22,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 67000
     },
     {
@@ -555,22 +596,19 @@
       "wage": 413500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 71,
-        "com": 67,
-        "dri": 55,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 59,
-        "pos": 67,
-        "sho": 43,
-        "sta": 63,
-        "str": 70,
-        "tac": 69,
-        "vis": 53
+        "aer": 58,
+        "com": 65,
+        "dri": 65,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 63,
+        "pos": 62,
+        "sho": 50,
+        "sta": 69,
+        "str": 62,
+        "tac": 66,
+        "vis": 59
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -580,10 +618,14 @@
       "name": "Junior Firpu",
       "nation": "ESP",
       "number": 24,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 88000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,

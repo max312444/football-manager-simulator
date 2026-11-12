@@ -130,6 +130,10 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -156,6 +160,9 @@
       "wage": 66000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -189,7 +196,7 @@
         "ldr": 76,
         "pac": 79,
         "pas": 71,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 74,
         "str": 79,
@@ -208,6 +215,10 @@
       "wage": 76500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -241,7 +252,7 @@
         "ldr": 65,
         "pac": 68,
         "pas": 63,
-        "pos": 46,
+        "pos": 66,
         "sho": 74,
         "sta": 64,
         "str": 71,
@@ -308,23 +319,26 @@
       "name": "Jose Geya",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 49500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 75,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 75,
-        "pas": 79,
-        "pos": 75,
-        "sho": 72,
-        "sta": 82,
-        "str": 73,
-        "tac": 72,
-        "vis": 81
+        "aer": 60,
+        "com": 73,
+        "dri": 80,
+        "ldr": 71,
+        "pac": 84,
+        "pas": 75,
+        "pos": 57,
+        "sho": 76,
+        "sta": 78,
+        "str": 68,
+        "tac": 52,
+        "vis": 78
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -334,23 +348,23 @@
       "name": "Fabian Orellane",
       "nation": "CHI",
       "number": 15,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 83500
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 74,
-        "dri": 72,
-        "ldr": 74,
-        "pac": 73,
-        "pas": 80,
-        "pos": 75,
-        "sho": 70,
+        "dri": 68,
+        "ldr": 76,
+        "pac": 70,
+        "pas": 79,
+        "pos": 79,
+        "sho": 64,
         "sta": 76,
-        "str": 74,
-        "tac": 73,
-        "vis": 75
+        "str": 79,
+        "tac": 79,
+        "vis": 72
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -362,10 +376,13 @@
       "nation": "FRA",
       "nation2": "CTA",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 83500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 72,
@@ -392,6 +409,10 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 82,
@@ -399,7 +420,7 @@
         "ldr": 75,
         "pac": 82,
         "pas": 73,
-        "pos": 55,
+        "pos": 75,
         "sho": 86,
         "sta": 79,
         "str": 81,
@@ -419,19 +440,22 @@
       "wage": 83500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 66,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 56,
-        "pas": 63,
-        "pos": 64,
-        "sho": 58,
-        "sta": 69,
-        "str": 59,
-        "tac": 63,
-        "vis": 64
+        "aer": 49,
+        "com": 64,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 59,
+        "pos": 46,
+        "sho": 62,
+        "sta": 65,
+        "str": 54,
+        "tac": 43,
+        "vis": 61
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -441,7 +465,7 @@
       "name": "Robert Ibanaz",
       "nation": "ESP",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 21500
     },
     {
@@ -478,7 +502,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 59,
-        "pos": 49,
+        "pos": 69,
         "sho": 70,
         "sta": 68,
         "str": 69,
@@ -498,18 +522,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 79,
-        "dri": 76,
-        "ldr": 75,
-        "pac": 82,
-        "pas": 78,
-        "pos": 80,
-        "sho": 61,
-        "sta": 81,
-        "str": 74,
-        "tac": 79,
-        "vis": 75
+        "aer": 83,
+        "com": 81,
+        "dri": 66,
+        "ldr": 79,
+        "pac": 74,
+        "pas": 74,
+        "pos": 85,
+        "sho": 54,
+        "sta": 75,
+        "str": 82,
+        "tac": 82,
+        "vis": 69
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -519,23 +543,23 @@
       "name": "Ezequiel Garey",
       "nation": "ARG",
       "number": 24,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 83500
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 55,
-        "dri": 46,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 49,
-        "pos": 58,
-        "sho": 32,
-        "sta": 55,
-        "str": 60,
-        "tac": 59,
-        "vis": 41
+        "aer": 48,
+        "com": 53,
+        "dri": 56,
+        "ldr": 50,
+        "pac": 63,
+        "pas": 53,
+        "pos": 53,
+        "sho": 39,
+        "sta": 61,
+        "str": 52,
+        "tac": 56,
+        "vis": 47
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -545,7 +569,7 @@
       "name": "Toni Latu",
       "nation": "ESP",
       "number": 26,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -578,13 +602,13 @@
       "attrs": {
         "aer": 52,
         "com": 47,
-        "dri": 37,
+        "dri": 44,
         "ldr": 47,
-        "pac": 46,
-        "pas": 46,
+        "pac": 53,
+        "pas": 53,
         "pos": 52,
         "sho": 24,
-        "sta": 49,
+        "sta": 56,
         "str": 50,
         "tac": 57,
         "vis": 39
@@ -597,26 +621,23 @@
       "name": "Nacho Vydal",
       "nation": "ESP",
       "number": 30,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 49,
-        "com": 62,
-        "dri": 54,
-        "ldr": 57,
-        "pac": 54,
+        "aer": 43,
+        "com": 63,
+        "dri": 58,
+        "ldr": 55,
+        "pac": 57,
         "pas": 59,
-        "pos": 59,
-        "sho": 51,
-        "sta": 64,
-        "str": 56,
-        "tac": 56,
-        "vis": 63
+        "pos": 44,
+        "sho": 57,
+        "sta": 58,
+        "str": 51,
+        "tac": 38,
+        "vis": 65
       },
       "birth": "1995-09-01",
       "contract": null,
@@ -626,7 +647,7 @@
       "name": "Nachu Gil",
       "nation": "ESP",
       "number": 31,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 13000
     }
   ],

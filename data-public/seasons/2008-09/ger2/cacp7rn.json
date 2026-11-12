@@ -51,18 +51,23 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 46,
+        "aer": 53,
         "com": 53,
         "dri": 53,
         "ldr": 55,
-        "pac": 49,
+        "pac": 56,
         "pas": 56,
-        "pos": 53,
+        "pos": 60,
         "sho": 50,
         "sta": 56,
-        "str": 53,
-        "tac": 54,
+        "str": 60,
+        "tac": 61,
         "vis": 54
       },
       "birth": "1982-02-01",
@@ -73,7 +78,7 @@
       "name": "Marcel Bosch",
       "nation": "GER",
       "number": 2,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 4000
     },
     {
@@ -157,18 +162,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 55,
-        "dri": 56,
+        "aer": 44,
+        "com": 57,
+        "dri": 61,
         "ldr": 57,
-        "pac": 60,
-        "pas": 57,
-        "pos": 56,
-        "sho": 37,
-        "sta": 59,
-        "str": 51,
-        "tac": 57,
-        "vis": 54
+        "pac": 61,
+        "pas": 64,
+        "pos": 48,
+        "sho": 49,
+        "sta": 63,
+        "str": 49,
+        "tac": 48,
+        "vis": 63
       },
       "birth": "1973-02-01",
       "contract": null,
@@ -178,10 +183,14 @@
       "name": "Ronald Maol",
       "nation": "GER",
       "number": 6,
-      "pos": "RB",
+      "pos": "LM",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -209,6 +218,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -242,7 +254,7 @@
         "ldr": 51,
         "pac": 53,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 56,
         "sta": 50,
         "str": 56,
@@ -261,6 +273,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -314,21 +329,23 @@
     },
     {
       "alt": [
-        "CM"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 64,
-        "com": 62,
-        "dri": 48,
-        "ldr": 58,
-        "pac": 52,
-        "pas": 51,
-        "pos": 65,
-        "sho": 31,
+        "aer": 45,
+        "com": 65,
+        "dri": 64,
+        "ldr": 54,
+        "pac": 56,
+        "pas": 61,
+        "pos": 45,
+        "sho": 58,
         "sta": 57,
-        "str": 62,
-        "tac": 65,
-        "vis": 50
+        "str": 50,
+        "tac": 40,
+        "vis": 67
       },
       "birth": "1989-05-01",
       "contract": null,
@@ -338,7 +355,7 @@
       "name": "Marco Raus",
       "nation": "GER",
       "number": 18,
-      "pos": "CB",
+      "pos": "AM",
       "wage": 4500
     },
     {
@@ -369,18 +386,18 @@
     },
     {
       "attrs": {
-        "aer": 37,
-        "com": 52,
-        "dri": 49,
-        "ldr": 47,
-        "pac": 44,
-        "pas": 51,
-        "pos": 46,
-        "sho": 46,
-        "sta": 52,
-        "str": 41,
-        "tac": 45,
-        "vis": 49
+        "aer": 50,
+        "com": 50,
+        "dri": 37,
+        "ldr": 49,
+        "pac": 43,
+        "pas": 41,
+        "pos": 51,
+        "sho": 25,
+        "sta": 46,
+        "str": 48,
+        "tac": 52,
+        "vis": 34
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -390,23 +407,27 @@
       "name": "Michael Wiemenn",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 58,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 60,
-        "pas": 52,
-        "pos": 40,
-        "sho": 61,
-        "sta": 58,
-        "str": 57,
-        "tac": 28,
-        "vis": 51
+        "aer": 41,
+        "com": 55,
+        "dri": 64,
+        "ldr": 54,
+        "pac": 64,
+        "pas": 58,
+        "pos": 42,
+        "sho": 56,
+        "sta": 60,
+        "str": 47,
+        "tac": 34,
+        "vis": 57
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -416,23 +437,23 @@
       "name": "Kevin Grusskreutz",
       "nation": "GER",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 56,
-        "dri": 55,
-        "ldr": 49,
-        "pac": 48,
-        "pas": 59,
-        "pos": 49,
-        "sho": 48,
+        "dri": 51,
+        "ldr": 51,
+        "pac": 45,
+        "pas": 58,
+        "pos": 53,
+        "sho": 42,
         "sta": 59,
-        "str": 48,
-        "tac": 52,
-        "vis": 52
+        "str": 53,
+        "tac": 58,
+        "vis": 49
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -442,7 +463,7 @@
       "name": "Manuel Bulstler",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
@@ -472,6 +493,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,

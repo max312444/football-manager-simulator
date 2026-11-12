@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -51,6 +54,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -78,6 +86,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 61,
@@ -104,6 +115,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -131,6 +145,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 57,
@@ -160,7 +177,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 46,
@@ -189,19 +208,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 56,
+        "com": 63,
         "dri": 43,
         "ldr": 58,
         "pac": 50,
-        "pas": 49,
+        "pas": 56,
         "pos": 60,
         "sho": 31,
-        "sta": 57,
+        "sta": 64,
         "str": 59,
         "tac": 60,
-        "vis": 41
+        "vis": 48
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -212,7 +236,7 @@
       "nation": "NGA",
       "nation2": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -243,19 +267,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 56,
+        "com": 68,
         "dri": 41,
         "ldr": 54,
         "pac": 50,
-        "pas": 46,
+        "pas": 58,
         "pos": 61,
         "sho": 29,
-        "sta": 49,
+        "sta": 61,
         "str": 61,
         "tac": 56,
-        "vis": 45
+        "vis": 57
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -266,23 +295,23 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 57,
-        "dri": 44,
-        "ldr": 51,
-        "pac": 48,
-        "pas": 45,
-        "pos": 61,
-        "sho": 27,
-        "sta": 54,
-        "str": 59,
-        "tac": 57,
-        "vis": 41
+        "aer": 48,
+        "com": 55,
+        "dri": 54,
+        "ldr": 47,
+        "pac": 56,
+        "pas": 49,
+        "pos": 56,
+        "sho": 34,
+        "sta": 60,
+        "str": 51,
+        "tac": 54,
+        "vis": 47
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -292,7 +321,7 @@
       "name": "Bruno Custus",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 1500
     },
     {
@@ -322,6 +351,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 54,
@@ -349,19 +383,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 56,
+        "com": 68,
         "dri": 38,
         "ldr": 51,
         "pac": 49,
-        "pas": 44,
+        "pas": 56,
         "pos": 60,
         "sho": 30,
-        "sta": 49,
+        "sta": 61,
         "str": 59,
         "tac": 55,
-        "vis": 40
+        "vis": 52
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -371,24 +410,27 @@
       "name": "Carsten Strassar",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 56,
-        "dri": 53,
-        "ldr": 48,
-        "pac": 53,
-        "pas": 56,
-        "pos": 55,
-        "sho": 48,
+        "dri": 49,
+        "ldr": 50,
+        "pac": 50,
+        "pas": 55,
+        "pos": 59,
+        "sho": 42,
         "sta": 60,
-        "str": 49,
-        "tac": 48,
-        "vis": 54
+        "str": 54,
+        "tac": 54,
+        "vis": 51
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -398,7 +440,7 @@
       "name": "Ivica Majstoruvic",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -409,7 +451,7 @@
         "ldr": 51,
         "pac": 51,
         "pas": 43,
-        "pos": 29,
+        "pos": 49,
         "sho": 59,
         "sta": 52,
         "str": 51,
@@ -429,6 +471,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -462,7 +507,7 @@
         "ldr": 47,
         "pac": 53,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 60,
         "sta": 50,
         "str": 51,
@@ -515,7 +560,7 @@
         "ldr": 50,
         "pac": 51,
         "pas": 43,
-        "pos": 32,
+        "pos": 52,
         "sho": 54,
         "sta": 53,
         "str": 52,
@@ -534,19 +579,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 53,
-        "dri": 51,
+        "com": 58,
+        "dri": 57,
         "ldr": 45,
         "pac": 57,
-        "pas": 46,
-        "pos": 29,
-        "sho": 60,
+        "pas": 57,
+        "pos": 49,
+        "sho": 65,
         "sta": 51,
         "str": 52,
         "tac": 22,
-        "vis": 44
+        "vis": 55
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -556,7 +606,7 @@
       "name": "Silvio Adzyc",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1000
     },
@@ -588,6 +638,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 54,

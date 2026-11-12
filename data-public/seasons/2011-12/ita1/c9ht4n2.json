@@ -73,23 +73,23 @@
       "name": "Taye Taiwu",
       "nation": "NGA",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 85000
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 77,
-        "dri": 77,
-        "ldr": 75,
-        "pac": 70,
-        "pas": 78,
-        "pos": 76,
-        "sho": 74,
+        "dri": 73,
+        "ldr": 77,
+        "pac": 67,
+        "pas": 77,
+        "pos": 80,
+        "sho": 68,
         "sta": 81,
-        "str": 70,
-        "tac": 76,
-        "vis": 78
+        "str": 75,
+        "tac": 82,
+        "vis": 75
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -99,7 +99,7 @@
       "name": "Mark van Bummel",
       "nation": "NED",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 114000
     },
     {
@@ -136,7 +136,7 @@
         "ldr": 69,
         "pac": 74,
         "pas": 66,
-        "pos": 55,
+        "pos": 75,
         "sho": 81,
         "sta": 73,
         "str": 72,
@@ -155,6 +155,9 @@
       "wage": 59000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 81,
@@ -188,7 +191,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 67,
-        "pos": 48,
+        "pos": 68,
         "sho": 78,
         "sta": 69,
         "str": 76,
@@ -207,6 +210,9 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 77,
@@ -240,7 +246,7 @@
         "ldr": 81,
         "pac": 83,
         "pas": 76,
-        "pos": 65,
+        "pos": 85,
         "sho": 90,
         "sta": 77,
         "str": 82,
@@ -285,6 +291,9 @@
       "wage": 58000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -312,6 +321,9 @@
       "wage": 149500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -338,6 +350,11 @@
       "wage": 81000
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -390,6 +407,9 @@
       "wage": 85500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 75,
@@ -417,18 +437,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 72,
-        "dri": 74,
-        "ldr": 75,
-        "pac": 79,
-        "pas": 76,
-        "pos": 79,
-        "sho": 61,
-        "sta": 81,
-        "str": 75,
-        "tac": 77,
-        "vis": 73
+        "aer": 78,
+        "com": 74,
+        "dri": 64,
+        "ldr": 79,
+        "pac": 71,
+        "pas": 72,
+        "pos": 84,
+        "sho": 54,
+        "sta": 75,
+        "str": 83,
+        "tac": 80,
+        "vis": 67
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -438,11 +458,13 @@
       "name": "Daniele Bonere",
       "nation": "ITA",
       "number": 25,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 103500
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -472,6 +494,11 @@
       "wage": 137500
     },
     {
+      "alt": [
+        "LB",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 69,
         "com": 76,
@@ -577,19 +604,23 @@
       "wage": 140000
     },
     {
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 79,
         "com": 82,
-        "dri": 80,
+        "dri": 85,
         "ldr": 77,
-        "pac": 80,
-        "pas": 75,
-        "pos": 62,
+        "pac": 85,
+        "pas": 80,
+        "pos": 82,
         "sho": 85,
         "sta": 75,
         "str": 79,
         "tac": 49,
-        "vis": 71
+        "vis": 76
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -599,13 +630,10 @@
       "name": "Robinhu",
       "nation": "BRA",
       "number": 70,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 110500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 69,
@@ -654,7 +682,7 @@
       "name": "Luca Antonyni",
       "nation": "ITA",
       "number": 77,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 54000
     },
     {
@@ -681,10 +709,15 @@
       "nation": "ITA",
       "nation2": "EGY",
       "number": 92,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 27000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 80,
         "com": 83,
@@ -692,7 +725,7 @@
         "ldr": 73,
         "pac": 78,
         "pas": 73,
-        "pos": 61,
+        "pos": 81,
         "sho": 86,
         "sta": 79,
         "str": 79,
@@ -711,6 +744,9 @@
       "wage": 112500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 80,

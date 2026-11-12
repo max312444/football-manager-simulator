@@ -107,13 +107,13 @@
       "attrs": {
         "aer": 70,
         "com": 84,
-        "dri": 66,
+        "dri": 79,
         "ldr": 82,
-        "pac": 62,
+        "pac": 75,
         "pas": 74,
         "pos": 84,
         "sho": 50,
-        "sta": 70,
+        "sta": 83,
         "str": 70,
         "tac": 80,
         "vis": 70
@@ -258,7 +258,7 @@
     },
     {
       "alt": [
-        "AM",
+        "RW",
         "LW"
       ],
       "attrs": {
@@ -288,7 +288,7 @@
       "name": "Robert Piras",
       "nation": "FRA",
       "number": 7,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "flair"
       ],
@@ -296,8 +296,9 @@
     },
     {
       "alt": [
-        "CM",
-        "LM"
+        "LM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 66,
@@ -305,13 +306,13 @@
         "dri": 80,
         "ldr": 60,
         "pac": 82,
-        "pas": 74,
+        "pas": 77,
         "pos": 66,
         "sho": 76,
-        "sta": 86,
+        "sta": 89,
         "str": 64,
-        "tac": 62,
-        "vis": 74
+        "tac": 65,
+        "vis": 77
       },
       "birth": "1977-04-01",
       "contract": "2004-06-30",
@@ -335,19 +336,21 @@
     },
     {
       "alt": [
-        "AM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 64,
-        "com": 92,
+        "aer": 91,
+        "com": 99,
         "dri": 90,
         "ldr": 76,
-        "pac": 66,
+        "pac": 93,
         "pas": 90,
-        "pos": 50,
-        "sho": 84,
+        "pos": 77,
+        "sho": 99,
         "sta": 70,
-        "str": 70,
+        "str": 97,
         "tac": 40,
         "vis": 94
       },
@@ -367,10 +370,6 @@
       "wage": 58500
     },
     {
-      "alt": [
-        "RW",
-        "RM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 78,
@@ -393,13 +392,12 @@
       "name": "Sylvain Wyltord",
       "nation": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 30000
     },
     {
       "alt": [
-        "RM",
-        "CM"
+        "RM"
       ],
       "attrs": {
         "aer": 66,
@@ -428,20 +426,17 @@
       "wage": 43000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
-        "aer": 62,
-        "com": 82,
+        "aer": 79,
+        "com": 99,
         "dri": 90,
         "ldr": 66,
         "pac": 95,
         "pas": 80,
-        "pos": 48,
-        "sho": 88,
+        "pos": 65,
+        "sho": 99,
         "sta": 84,
-        "str": 76,
+        "str": 93,
         "tac": 40,
         "vis": 82
       },
@@ -466,21 +461,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 62,
         "com": 76,
-        "dri": 72,
+        "dri": 73,
         "ldr": 70,
         "pac": 74,
-        "pas": 76,
+        "pas": 77,
         "pos": 72,
-        "sho": 70,
-        "sta": 90,
+        "sho": 71,
+        "sta": 91,
         "str": 76,
         "tac": 76,
-        "vis": 70
+        "vis": 71
       },
       "birth": "1973-03-01",
       "contract": "2004-06-30",
@@ -502,13 +499,13 @@
         "com": 74,
         "dri": 78,
         "ldr": 60,
-        "pac": 78,
+        "pac": 79,
         "pas": 76,
-        "pos": 72,
+        "pos": 73,
         "sho": 60,
         "sta": 80,
-        "str": 62,
-        "tac": 72,
+        "str": 63,
+        "tac": 73,
         "vis": 72
       },
       "birth": "1974-04-01",
@@ -525,21 +522,22 @@
     },
     {
       "alt": [
+        "CM",
         "DM"
       ],
       "attrs": {
         "aer": 66,
-        "com": 72,
-        "dri": 74,
+        "com": 78,
+        "dri": 80,
         "ldr": 58,
-        "pac": 66,
+        "pac": 72,
         "pas": 78,
         "pos": 72,
-        "sho": 70,
+        "sho": 76,
         "sta": 78,
         "str": 72,
         "tac": 72,
-        "vis": 74
+        "vis": 80
       },
       "birth": "1978-05-01",
       "contract": "2004-06-30",
@@ -550,13 +548,14 @@
       "name": "Eduo",
       "nation": "BRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 42500
     },
     {
       "alt": [
+        "CM",
         "DM",
-        "RB"
+        "AM"
       ],
       "attrs": {
         "aer": 74,
@@ -610,19 +609,16 @@
       "wage": 17000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 72,
         "com": 70,
-        "dri": 56,
+        "dri": 61,
         "ldr": 66,
-        "pac": 70,
-        "pas": 64,
+        "pac": 75,
+        "pas": 69,
         "pos": 74,
         "sho": 45,
-        "sta": 76,
+        "sta": 81,
         "str": 74,
         "tac": 76,
         "vis": 54
@@ -639,20 +635,17 @@
       "wage": 25000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 72,
-        "com": 80,
+        "aer": 85,
+        "com": 93,
         "dri": 86,
         "ldr": 66,
-        "pac": 70,
+        "pac": 83,
         "pas": 78,
-        "pos": 46,
-        "sho": 80,
+        "pos": 59,
+        "sho": 93,
         "sta": 70,
-        "str": 70,
+        "str": 83,
         "tac": 40,
         "vis": 82
       },
@@ -724,6 +717,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,

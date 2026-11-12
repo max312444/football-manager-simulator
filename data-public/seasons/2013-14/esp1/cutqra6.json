@@ -103,6 +103,10 @@
       "wage": 338000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 85,
@@ -155,19 +159,22 @@
       "wage": 173000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 82,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 84,
-        "pas": 72,
-        "pos": 59,
-        "sho": 82,
-        "sta": 79,
-        "str": 84,
-        "tac": 49,
-        "vis": 70
+        "aer": 64,
+        "com": 79,
+        "dri": 82,
+        "ldr": 70,
+        "pac": 88,
+        "pas": 78,
+        "pos": 61,
+        "sho": 77,
+        "sta": 81,
+        "str": 74,
+        "tac": 55,
+        "vis": 76
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -177,10 +184,13 @@
       "name": "Pedru",
       "nation": "ESP",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 209000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 84,
@@ -207,6 +217,10 @@
       "wage": 357500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 83,
@@ -214,7 +228,7 @@
         "ldr": 75,
         "pac": 79,
         "pas": 75,
-        "pos": 59,
+        "pos": 79,
         "sho": 84,
         "sta": 80,
         "str": 83,
@@ -233,20 +247,23 @@
       "wage": 236000
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 84,
         "com": 90,
-        "dri": 85,
+        "dri": 93,
         "ldr": 82,
-        "pac": 86,
-        "pas": 78,
-        "pos": 68,
+        "pac": 94,
+        "pas": 86,
+        "pos": 88,
         "sho": 92,
         "sta": 85,
         "str": 92,
         "tac": 57,
-        "vis": 79
+        "vis": 87
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -257,10 +274,15 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 357500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 81,
         "com": 82,
@@ -268,7 +290,7 @@
         "ldr": 73,
         "pac": 78,
         "pas": 73,
-        "pos": 57,
+        "pos": 77,
         "sho": 85,
         "sta": 77,
         "str": 79,
@@ -288,18 +310,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 75,
-        "dri": 74,
-        "ldr": 74,
-        "pac": 67,
-        "pas": 78,
-        "pos": 70,
-        "sho": 71,
+        "dri": 70,
+        "ldr": 76,
+        "pac": 64,
+        "pas": 77,
+        "pos": 74,
+        "sho": 65,
         "sta": 74,
-        "str": 67,
-        "tac": 73,
-        "vis": 76
+        "str": 72,
+        "tac": 79,
+        "vis": 73
       },
       "birth": "1990-04-01",
       "contract": null,
@@ -310,7 +332,7 @@
       "nation": "MEX",
       "nation2": "ESP",
       "number": 12,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 168000
     },
     {
@@ -341,7 +363,7 @@
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 86,
@@ -396,9 +418,6 @@
       "wage": 110000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 78,
         "com": 82,
@@ -425,6 +444,11 @@
       "wage": 341500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 79,
@@ -474,23 +498,27 @@
       "name": "Jordi Albe",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 250000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 77,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 72,
-        "pas": 65,
-        "pos": 48,
-        "sho": 74,
-        "sta": 68,
-        "str": 73,
-        "tac": 41,
-        "vis": 68
+        "aer": 59,
+        "com": 74,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 76,
+        "pas": 71,
+        "pos": 50,
+        "sho": 69,
+        "sta": 70,
+        "str": 63,
+        "tac": 47,
+        "vis": 74
       },
       "birth": "1991-08-01",
       "contract": null,
@@ -500,10 +528,15 @@
       "name": "Cristian Tallo",
       "nation": "ESP",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 87000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 73,
@@ -530,19 +563,22 @@
       "wage": 205000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 73,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 71,
-        "pas": 63,
-        "pos": 48,
-        "sho": 73,
-        "sta": 63,
-        "str": 68,
-        "tac": 42,
-        "vis": 64
+        "aer": 56,
+        "com": 70,
+        "dri": 72,
+        "ldr": 62,
+        "pac": 75,
+        "pas": 69,
+        "pos": 50,
+        "sho": 68,
+        "sta": 65,
+        "str": 58,
+        "tac": 48,
+        "vis": 70
       },
       "birth": "1991-04-01",
       "contract": null,
@@ -552,10 +588,15 @@
       "name": "Isaac Cuence",
       "nation": "ESP",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 66000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -608,19 +649,23 @@
       "wage": 65000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 73,
-        "dri": 74,
-        "ldr": 70,
-        "pac": 70,
-        "pas": 73,
-        "pos": 73,
-        "sho": 64,
-        "sta": 72,
-        "str": 68,
-        "tac": 66,
-        "vis": 73
+        "aer": 58,
+        "com": 75,
+        "dri": 78,
+        "ldr": 68,
+        "pac": 73,
+        "pas": 74,
+        "pos": 58,
+        "sho": 71,
+        "sta": 66,
+        "str": 63,
+        "tac": 48,
+        "vis": 76
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -630,7 +675,7 @@
       "name": "Ibrahim Afelley",
       "nation": "NED",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 132500
     }
   ],

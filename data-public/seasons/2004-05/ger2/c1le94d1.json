@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -52,18 +55,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 63,
+        "aer": 62,
+        "com": 64,
         "dri": 64,
-        "ldr": 63,
-        "pac": 56,
-        "pas": 63,
+        "ldr": 61,
+        "pac": 61,
+        "pas": 53,
         "pos": 61,
-        "sho": 61,
-        "sta": 67,
-        "str": 58,
-        "tac": 63,
-        "vis": 67
+        "sho": 70,
+        "sta": 61,
+        "str": 63,
+        "tac": 37,
+        "vis": 58
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -73,23 +76,23 @@
       "name": "Sascha Rusler",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 59,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 67,
-        "pas": 61,
-        "pos": 64,
-        "sho": 44,
-        "sta": 63,
-        "str": 56,
-        "tac": 62,
-        "vis": 53
+        "aer": 63,
+        "com": 61,
+        "dri": 48,
+        "ldr": 58,
+        "pac": 59,
+        "pas": 57,
+        "pos": 69,
+        "sho": 37,
+        "sta": 57,
+        "str": 64,
+        "tac": 65,
+        "vis": 47
       },
       "birth": "1983-08-01",
       "contract": null,
@@ -99,7 +102,7 @@
       "name": "Heiko Wastermann",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 3500
     },
     {
@@ -156,6 +159,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -183,6 +189,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,
@@ -217,7 +226,7 @@
         "ldr": 58,
         "pac": 60,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 56,
         "str": 59,
@@ -236,19 +245,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 59,
-        "dri": 57,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 63,
-        "pos": 63,
-        "sho": 56,
-        "sta": 67,
-        "str": 58,
-        "tac": 60,
-        "vis": 64
+        "aer": 52,
+        "com": 61,
+        "dri": 59,
+        "ldr": 61,
+        "pac": 61,
+        "pas": 65,
+        "pos": 64,
+        "sho": 58,
+        "sta": 69,
+        "str": 59,
+        "tac": 61,
+        "vis": 66
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -264,6 +276,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -291,22 +306,22 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 59,
-        "com": 59,
-        "dri": 44,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 53,
-        "pos": 65,
-        "sho": 34,
+        "aer": 40,
+        "com": 62,
+        "dri": 60,
+        "ldr": 50,
+        "pac": 60,
+        "pas": 63,
+        "pos": 45,
+        "sho": 61,
         "sta": 53,
-        "str": 59,
-        "tac": 61,
-        "vis": 42
+        "str": 47,
+        "tac": 36,
+        "vis": 59
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -317,7 +332,7 @@
       "nation": "GER",
       "nation2": "PHI",
       "number": null,
-      "pos": "CB",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
@@ -382,7 +397,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 51,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 53,
         "str": 58,
@@ -429,6 +444,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -463,7 +483,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 54,
         "str": 55,
@@ -489,7 +509,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 47,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 54,
         "str": 53,
@@ -563,19 +583,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 53,
-        "dri": 52,
+        "com": 54,
+        "dri": 61,
         "ldr": 49,
         "pac": 53,
-        "pas": 47,
-        "pos": 36,
-        "sho": 60,
+        "pas": 57,
+        "pos": 56,
+        "sho": 61,
         "sta": 50,
         "str": 56,
         "tac": 24,
-        "vis": 44
+        "vis": 54
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -585,10 +610,13 @@
       "name": "Florian Haller",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -615,19 +643,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
-        "com": 52,
+        "com": 53,
         "dri": 54,
         "ldr": 49,
         "pac": 53,
-        "pas": 57,
+        "pas": 58,
         "pos": 52,
         "sho": 48,
         "sta": 56,
         "str": 47,
-        "tac": 50,
-        "vis": 53
+        "tac": 51,
+        "vis": 54
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -642,6 +673,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,
@@ -668,19 +702,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
-        "com": 51,
-        "dri": 49,
+        "com": 53,
+        "dri": 51,
         "ldr": 51,
         "pac": 49,
-        "pas": 53,
+        "pas": 55,
         "pos": 55,
-        "sho": 48,
-        "sta": 58,
+        "sho": 50,
+        "sta": 60,
         "str": 52,
         "tac": 52,
-        "vis": 56
+        "vis": 58
       },
       "birth": "1979-09-01",
       "contract": null,
@@ -695,6 +732,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 54,
@@ -748,6 +790,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -774,6 +819,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 51,
@@ -801,6 +849,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 49,
@@ -862,7 +915,7 @@
         "ldr": 39,
         "pac": 47,
         "pas": 37,
-        "pos": 27,
+        "pos": 47,
         "sho": 49,
         "sta": 45,
         "str": 47,

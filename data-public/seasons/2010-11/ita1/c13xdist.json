@@ -51,6 +51,10 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 71,
@@ -77,6 +81,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 71,
@@ -129,19 +136,23 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 67,
-        "dri": 59,
+        "com": 70,
+        "dri": 62,
         "ldr": 59,
         "pac": 59,
-        "pas": 63,
+        "pas": 66,
         "pos": 65,
-        "sho": 56,
-        "sta": 66,
+        "sho": 59,
+        "sta": 69,
         "str": 62,
         "tac": 63,
-        "vis": 62
+        "vis": 65
       },
       "birth": "1987-09-01",
       "contract": null,
@@ -155,19 +166,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 69,
-        "com": 74,
-        "dri": 72,
-        "ldr": 73,
-        "pac": 70,
-        "pas": 81,
+        "com": 70,
+        "dri": 70,
+        "ldr": 71,
+        "pac": 77,
+        "pas": 75,
         "pos": 76,
-        "sho": 73,
+        "sho": 59,
         "sta": 79,
-        "str": 70,
-        "tac": 72,
-        "vis": 79
+        "str": 69,
+        "tac": 76,
+        "vis": 70
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -178,7 +192,7 @@
       "nation": "AUT",
       "nation2": "HUN",
       "number": 8,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 27500
     },
     {
@@ -189,7 +203,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 61,
-        "pos": 46,
+        "pos": 66,
         "sho": 74,
         "sta": 63,
         "str": 67,
@@ -209,18 +223,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 74,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 63,
-        "pas": 73,
-        "pos": 72,
-        "sho": 67,
+        "dri": 67,
+        "ldr": 69,
+        "pac": 60,
+        "pas": 72,
+        "pos": 76,
+        "sho": 61,
         "sta": 70,
-        "str": 66,
-        "tac": 66,
-        "vis": 72
+        "str": 71,
+        "tac": 72,
+        "vis": 69
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -230,7 +244,7 @@
       "name": "Albin Ekdel",
       "nation": "SWE",
       "number": 12,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 27500
     },
     {
@@ -260,19 +274,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "AM",
+        "RM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 66,
-        "dri": 68,
+        "aer": 67,
+        "com": 73,
+        "dri": 73,
         "ldr": 65,
-        "pac": 61,
-        "pas": 72,
-        "pos": 67,
-        "sho": 62,
+        "pac": 70,
+        "pas": 73,
+        "pos": 74,
+        "sho": 69,
         "sta": 71,
-        "str": 61,
+        "str": 68,
         "tac": 60,
-        "vis": 66
+        "vis": 67
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -282,7 +300,7 @@
       "name": "Andrea Pisenu",
       "nation": "ITA",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 19000
     },
     {
@@ -360,10 +378,14 @@
       "name": "Matteo Robin",
       "nation": "ITA",
       "number": 19,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 8500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -371,7 +393,7 @@
         "ldr": 56,
         "pac": 67,
         "pas": 54,
-        "pos": 45,
+        "pos": 65,
         "sho": 67,
         "sta": 58,
         "str": 61,
@@ -443,18 +465,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 52,
-        "dri": 55,
-        "ldr": 49,
-        "pac": 53,
-        "pas": 54,
-        "pos": 52,
-        "sho": 50,
-        "sta": 57,
-        "str": 47,
-        "tac": 48,
-        "vis": 56
+        "aer": 42,
+        "com": 55,
+        "dri": 59,
+        "ldr": 47,
+        "pac": 56,
+        "pas": 56,
+        "pos": 37,
+        "sho": 58,
+        "sta": 51,
+        "str": 42,
+        "tac": 30,
+        "vis": 60
       },
       "birth": "1975-12-01",
       "contract": null,
@@ -464,10 +486,13 @@
       "name": "Antonio Busca",
       "nation": "ITA",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 77,
@@ -495,6 +520,9 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 63,
@@ -528,7 +556,7 @@
         "ldr": 53,
         "pac": 60,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 68,
         "sta": 55,
         "str": 64,
@@ -580,7 +608,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 57,
-        "pos": 44,
+        "pos": 64,
         "sho": 72,
         "sta": 60,
         "str": 64,
@@ -600,18 +628,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 60,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 54,
+        "aer": 41,
+        "com": 61,
+        "dri": 62,
+        "ldr": 50,
+        "pac": 57,
         "pas": 59,
-        "pos": 58,
-        "sho": 51,
-        "sta": 58,
-        "str": 53,
-        "tac": 55,
-        "vis": 59
+        "pos": 43,
+        "sho": 57,
+        "sta": 52,
+        "str": 48,
+        "tac": 37,
+        "vis": 61
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -621,7 +649,7 @@
       "name": "Luca Syligardi",
       "nation": "ITA",
       "number": 77,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 6500
     },
     {
@@ -632,7 +660,7 @@
         "ldr": 43,
         "pac": 49,
         "pas": 40,
-        "pos": 24,
+        "pos": 44,
         "sho": 51,
         "sta": 48,
         "str": 47,

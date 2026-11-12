@@ -123,6 +123,9 @@
       "wage": 59500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -306,6 +309,9 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 70,
@@ -360,18 +366,23 @@
       "wage": 66000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
-        "dri": 68,
+        "dri": 72,
         "ldr": 63,
-        "pac": 64,
+        "pac": 70,
         "pas": 72,
         "pos": 65,
-        "sho": 67,
-        "sta": 71,
+        "sho": 71,
+        "sta": 77,
         "str": 66,
-        "tac": 62,
+        "tac": 64,
         "vis": 70
       },
       "birth": "1992-01-01",
@@ -382,10 +393,13 @@
       "name": "Kenny McLeen",
       "nation": "SCO",
       "number": 23,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 98500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 69,
@@ -419,11 +433,11 @@
         "ldr": 64,
         "pac": 64,
         "pas": 72,
-        "pos": 62,
+        "pos": 68,
         "sho": 65,
         "sta": 71,
-        "str": 63,
-        "tac": 64,
+        "str": 69,
+        "tac": 70,
         "vis": 70
       },
       "birth": "1993-03-01",
@@ -434,10 +448,13 @@
       "name": "Tom Tryboll",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -491,12 +508,15 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 68,
-        "dri": 72,
+        "dri": 80,
         "ldr": 61,
-        "pac": 61,
+        "pac": 69,
         "pas": 68,
         "pos": 45,
         "sho": 67,
@@ -513,23 +533,23 @@
       "name": "Emiliano Boendia",
       "nation": "ARG",
       "number": 17,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 47500
     },
     {
       "attrs": {
         "aer": 50,
-        "com": 69,
+        "com": 73,
         "dri": 71,
         "ldr": 57,
         "pac": 72,
-        "pas": 67,
+        "pas": 71,
         "pos": 51,
-        "sho": 68,
+        "sho": 72,
         "sta": 68,
         "str": 59,
         "tac": 52,
-        "vis": 69
+        "vis": 73
       },
       "birth": "1998-02-01",
       "contract": "2024-06-30",
@@ -539,7 +559,7 @@
       "name": "Todd Cantwall",
       "nation": "ENG",
       "number": 14,
-      "pos": "LW",
+      "pos": "AM",
       "wage": 62000
     },
     {
@@ -570,6 +590,9 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 45,
         "com": 71,
@@ -598,16 +621,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 75,
+        "aer": 67,
+        "com": 77,
         "dri": 71,
         "ldr": 66,
         "pac": 76,
         "pas": 67,
-        "pos": 51,
-        "sho": 77,
+        "pos": 53,
+        "sho": 79,
         "sta": 73,
-        "str": 73,
+        "str": 75,
         "tac": 45,
         "vis": 64
       },
@@ -624,16 +647,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 67,
+        "aer": 64,
+        "com": 69,
         "dri": 68,
         "ldr": 62,
         "pac": 69,
         "pas": 62,
-        "pos": 51,
-        "sho": 72,
+        "pos": 53,
+        "sho": 74,
         "sta": 66,
-        "str": 67,
+        "str": 69,
         "tac": 46,
         "vis": 60
       },
@@ -651,16 +674,16 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 50,
+        "aer": 48,
+        "com": 53,
         "dri": 49,
         "ldr": 40,
         "pac": 55,
         "pas": 48,
-        "pos": 34,
-        "sho": 57,
+        "pos": 37,
+        "sho": 60,
         "sta": 48,
-        "str": 50,
+        "str": 53,
         "tac": 28,
         "vis": 49
       },

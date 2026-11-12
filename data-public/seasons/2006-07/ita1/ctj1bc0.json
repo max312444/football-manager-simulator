@@ -57,7 +57,7 @@
         "ldr": 69,
         "pac": 78,
         "pas": 65,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 70,
         "str": 77,
@@ -83,7 +83,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 64,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 70,
         "str": 77,
@@ -103,18 +103,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 73,
-        "dri": 73,
-        "ldr": 69,
-        "pac": 68,
+        "aer": 61,
+        "com": 74,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 71,
         "pas": 75,
-        "pos": 71,
-        "sho": 71,
-        "sta": 76,
-        "str": 69,
-        "tac": 74,
-        "vis": 79
+        "pos": 56,
+        "sho": 77,
+        "sta": 70,
+        "str": 64,
+        "tac": 56,
+        "vis": 81
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -124,7 +124,7 @@
       "name": "Stefano Maury",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 31500
     },
@@ -136,7 +136,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 70,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 71,
         "str": 77,
@@ -155,6 +155,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 76,
@@ -189,7 +192,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 67,
-        "pos": 48,
+        "pos": 68,
         "sho": 79,
         "sta": 72,
         "str": 75,
@@ -209,6 +212,11 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "LB",
+        "RM",
+        "LM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 67,
@@ -235,6 +243,9 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 73,
@@ -262,6 +273,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 71,
@@ -314,6 +328,9 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -367,18 +384,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 68,
-        "dri": 68,
-        "ldr": 66,
-        "pac": 64,
-        "pas": 76,
-        "pos": 70,
-        "sho": 67,
+        "dri": 64,
+        "ldr": 68,
+        "pac": 61,
+        "pas": 75,
+        "pos": 74,
+        "sho": 61,
         "sta": 73,
-        "str": 66,
-        "tac": 64,
-        "vis": 71
+        "str": 71,
+        "tac": 70,
+        "vis": 68
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -388,7 +405,7 @@
       "name": "Christian Kaller",
       "nation": "DEN",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 19500
     },
@@ -420,19 +437,22 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 66,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 61,
+        "aer": 54,
+        "com": 64,
+        "dri": 70,
+        "ldr": 65,
+        "pac": 69,
         "pas": 69,
-        "pos": 66,
-        "sho": 61,
-        "sta": 69,
-        "str": 60,
-        "tac": 63,
-        "vis": 69
+        "pos": 58,
+        "sho": 59,
+        "sta": 72,
+        "str": 57,
+        "tac": 57,
+        "vis": 68
       },
       "birth": "1975-05-01",
       "contract": null,
@@ -442,7 +462,7 @@
       "name": "Christian Manfredyni",
       "nation": "CIV",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 13500
     },
     {
@@ -472,19 +492,23 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 71,
-        "dri": 65,
-        "ldr": 67,
-        "pac": 62,
+        "aer": 52,
+        "com": 72,
+        "dri": 69,
+        "ldr": 65,
+        "pac": 65,
         "pas": 70,
-        "pos": 63,
-        "sho": 61,
-        "sta": 68,
-        "str": 60,
-        "tac": 61,
-        "vis": 71
+        "pos": 48,
+        "sho": 67,
+        "sta": 62,
+        "str": 55,
+        "tac": 43,
+        "vis": 73
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -494,7 +518,7 @@
       "name": "Pasquale Fuggia",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 13500
     },
@@ -506,7 +530,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 58,
-        "pos": 48,
+        "pos": 68,
         "sho": 70,
         "sta": 61,
         "str": 70,
@@ -526,6 +550,11 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 67,
@@ -533,7 +562,7 @@
         "ldr": 64,
         "pac": 67,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 60,
         "str": 66,
@@ -553,19 +582,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 67,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 59,
-        "pas": 70,
-        "pos": 67,
-        "sho": 57,
-        "sta": 70,
-        "str": 64,
-        "tac": 65,
-        "vis": 66
+        "aer": 59,
+        "com": 69,
+        "dri": 67,
+        "ldr": 64,
+        "pac": 60,
+        "pas": 72,
+        "pos": 68,
+        "sho": 59,
+        "sta": 72,
+        "str": 65,
+        "tac": 66,
+        "vis": 68
       },
       "birth": "1982-09-01",
       "contract": null,
@@ -661,6 +693,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -714,19 +749,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 61,
-        "dri": 48,
-        "ldr": 62,
-        "pac": 57,
-        "pas": 53,
-        "pos": 63,
-        "sho": 35,
-        "sta": 58,
-        "str": 68,
-        "tac": 69,
-        "vis": 50
+        "aer": 55,
+        "com": 59,
+        "dri": 58,
+        "ldr": 58,
+        "pac": 65,
+        "pas": 57,
+        "pos": 58,
+        "sho": 42,
+        "sta": 64,
+        "str": 60,
+        "tac": 66,
+        "vis": 56
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -736,11 +774,14 @@
       "name": "Riccardo Bunetto",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 65,
@@ -769,18 +810,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 58,
-        "dri": 44,
-        "ldr": 62,
-        "pac": 54,
-        "pas": 50,
-        "pos": 67,
-        "sho": 36,
-        "sta": 56,
-        "str": 60,
-        "tac": 65,
-        "vis": 48
+        "aer": 51,
+        "com": 56,
+        "dri": 54,
+        "ldr": 58,
+        "pac": 62,
+        "pas": 54,
+        "pos": 62,
+        "sho": 43,
+        "sta": 62,
+        "str": 52,
+        "tac": 62,
+        "vis": 54
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -790,11 +831,14 @@
       "name": "Andrea Giellombardo",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -822,6 +866,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 60,
@@ -870,7 +917,7 @@
       "name": "Guilherme Siqueyra",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5000
     },

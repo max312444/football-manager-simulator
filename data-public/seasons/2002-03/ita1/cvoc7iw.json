@@ -25,21 +25,23 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 72,
-        "com": 82,
-        "dri": 80,
-        "ldr": 84,
-        "pac": 78,
+        "aer": 66,
+        "com": 83,
+        "dri": 84,
+        "ldr": 82,
+        "pac": 81,
         "pas": 84,
-        "pos": 85,
-        "sho": 80,
-        "sta": 89,
-        "str": 80,
-        "tac": 78,
-        "vis": 84
+        "pos": 70,
+        "sho": 86,
+        "sta": 83,
+        "str": 75,
+        "tac": 60,
+        "vis": 86
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -49,23 +51,23 @@
       "name": "Francesco Tutti",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 101000
     },
     {
       "attrs": {
-        "aer": 70,
+        "aer": 76,
         "com": 82,
-        "dri": 81,
-        "ldr": 81,
-        "pac": 77,
-        "pas": 84,
-        "pos": 77,
-        "sho": 77,
+        "dri": 77,
+        "ldr": 83,
+        "pac": 74,
+        "pas": 83,
+        "pos": 81,
+        "sho": 71,
         "sta": 85,
-        "str": 75,
-        "tac": 76,
-        "vis": 80
+        "str": 80,
+        "tac": 82,
+        "vis": 77
       },
       "birth": "1971-01-01",
       "contract": null,
@@ -75,7 +77,7 @@
       "name": "Pep Guardiole",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 101000
     },
@@ -107,18 +109,18 @@
     },
     {
       "attrs": {
-        "aer": 85,
-        "com": 79,
-        "dri": 66,
-        "ldr": 77,
-        "pac": 73,
-        "pas": 73,
-        "pos": 80,
-        "sho": 55,
-        "sta": 79,
-        "str": 82,
-        "tac": 85,
-        "vis": 66
+        "aer": 72,
+        "com": 77,
+        "dri": 76,
+        "ldr": 73,
+        "pac": 81,
+        "pas": 77,
+        "pos": 75,
+        "sho": 62,
+        "sta": 85,
+        "str": 74,
+        "tac": 82,
+        "vis": 72
       },
       "birth": "1973-04-01",
       "contract": null,
@@ -128,23 +130,23 @@
       "name": "Christian Panocci",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 78500
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 82,
-        "dri": 80,
-        "ldr": 75,
-        "pac": 73,
-        "pas": 79,
-        "pos": 75,
-        "sho": 70,
+        "dri": 76,
+        "ldr": 77,
+        "pac": 70,
+        "pas": 78,
+        "pos": 79,
+        "sho": 64,
         "sta": 82,
-        "str": 71,
-        "tac": 73,
-        "vis": 81
+        "str": 76,
+        "tac": 79,
+        "vis": 78
       },
       "birth": "1976-04-01",
       "contract": null,
@@ -154,10 +156,13 @@
       "name": "Emersun",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 85000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 73,
@@ -191,7 +196,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 68,
-        "pos": 56,
+        "pos": 76,
         "sho": 78,
         "sta": 73,
         "str": 79,
@@ -218,7 +223,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 69,
-        "pos": 58,
+        "pos": 78,
         "sho": 81,
         "sta": 73,
         "str": 75,
@@ -271,7 +276,7 @@
         "ldr": 70,
         "pac": 75,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 82,
         "sta": 76,
         "str": 79,
@@ -316,6 +321,9 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 77,
@@ -370,18 +378,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 73,
-        "dri": 72,
-        "ldr": 69,
-        "pac": 73,
+        "aer": 74,
+        "com": 74,
+        "dri": 68,
+        "ldr": 71,
+        "pac": 70,
         "pas": 75,
-        "pos": 75,
-        "sho": 66,
-        "sta": 74,
-        "str": 68,
-        "tac": 73,
-        "vis": 74
+        "pos": 79,
+        "sho": 60,
+        "sta": 75,
+        "str": 73,
+        "tac": 79,
+        "vis": 72
       },
       "birth": "1975-02-01",
       "contract": null,
@@ -391,11 +399,14 @@
       "name": "Gianni Guigoo",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 54000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 73,
         "com": 73,
@@ -450,18 +461,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 70,
-        "dri": 67,
-        "ldr": 70,
-        "pac": 65,
-        "pas": 77,
-        "pos": 67,
-        "sho": 68,
-        "sta": 76,
-        "str": 68,
-        "tac": 71,
-        "vis": 74
+        "aer": 54,
+        "com": 68,
+        "dri": 72,
+        "ldr": 66,
+        "pac": 74,
+        "pas": 73,
+        "pos": 49,
+        "sho": 72,
+        "sta": 72,
+        "str": 63,
+        "tac": 51,
+        "vis": 71
       },
       "birth": "1968-11-01",
       "contract": null,
@@ -471,7 +482,7 @@
       "name": "Diego Fusar",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 41500
     },
     {
@@ -501,6 +512,11 @@
       "wage": 31000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 72,
@@ -535,7 +551,7 @@
         "ldr": 68,
         "pac": 71,
         "pas": 62,
-        "pos": 51,
+        "pos": 71,
         "sho": 75,
         "sta": 70,
         "str": 71,
@@ -555,6 +571,11 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 69,
@@ -562,7 +583,7 @@
         "ldr": 66,
         "pac": 71,
         "pas": 65,
-        "pos": 47,
+        "pos": 67,
         "sho": 77,
         "sta": 64,
         "str": 72,
@@ -581,6 +602,9 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 70,
@@ -608,6 +632,9 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 69,
@@ -689,6 +716,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -715,6 +745,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -774,7 +807,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 59,
         "str": 60,
@@ -821,17 +854,17 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 58,
-        "dri": 62,
-        "ldr": 54,
-        "pac": 58,
-        "pas": 65,
-        "pos": 58,
-        "sho": 52,
-        "sta": 60,
-        "str": 58,
-        "tac": 60,
+        "aer": 49,
+        "com": 56,
+        "dri": 65,
+        "ldr": 52,
+        "pac": 66,
+        "pas": 66,
+        "pos": 50,
+        "sho": 50,
+        "sta": 64,
+        "str": 55,
+        "tac": 55,
         "vis": 60
       },
       "birth": "1974-06-01",
@@ -842,11 +875,14 @@
       "name": "Davide Bomberdini",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "verify": true,
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -901,6 +937,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 49,

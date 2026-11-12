@@ -51,6 +51,10 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -129,6 +133,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 65,
@@ -156,6 +163,11 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -183,18 +195,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 66,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 56,
-        "pas": 66,
-        "pos": 61,
-        "sho": 59,
+        "dri": 59,
+        "ldr": 61,
+        "pac": 53,
+        "pas": 65,
+        "pos": 65,
+        "sho": 53,
         "sta": 66,
-        "str": 57,
-        "tac": 59,
-        "vis": 61
+        "str": 62,
+        "tac": 65,
+        "vis": 58
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -204,7 +216,7 @@
       "name": "Sebastien Pyocelle",
       "nation": "FRA",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
@@ -215,7 +227,7 @@
         "ldr": 69,
         "pac": 76,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 83,
         "sta": 73,
         "str": 80,
@@ -234,19 +246,23 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 67,
-        "dri": 71,
+        "aer": 65,
+        "com": 75,
+        "dri": 73,
         "ldr": 67,
-        "pac": 67,
-        "pas": 70,
-        "pos": 66,
-        "sho": 65,
+        "pac": 71,
+        "pas": 71,
+        "pos": 73,
+        "sho": 72,
         "sta": 74,
-        "str": 65,
-        "tac": 64,
-        "vis": 69
+        "str": 72,
+        "tac": 65,
+        "vis": 70
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -258,26 +274,23 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 28000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 64,
-        "com": 69,
-        "dri": 73,
-        "ldr": 65,
-        "pac": 70,
-        "pas": 71,
-        "pos": 72,
-        "sho": 69,
-        "sta": 73,
-        "str": 67,
-        "tac": 68,
-        "vis": 74
+        "aer": 58,
+        "com": 67,
+        "dri": 78,
+        "ldr": 61,
+        "pac": 79,
+        "pas": 67,
+        "pos": 54,
+        "sho": 73,
+        "sta": 69,
+        "str": 62,
+        "tac": 48,
+        "vis": 71
       },
       "birth": "1985-02-01",
       "contract": null,
@@ -288,7 +301,7 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 28000
     },
     {
@@ -319,6 +332,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 60,
@@ -326,7 +342,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 51,
-        "pos": 35,
+        "pos": 55,
         "sho": 61,
         "sta": 56,
         "str": 59,
@@ -398,6 +414,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -431,7 +450,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 59,
         "str": 60,
@@ -458,7 +477,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 68,
         "sta": 61,
         "str": 65,
@@ -501,10 +520,13 @@
       "name": "Jean-Alain Fanchona",
       "nation": "FRA",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -532,18 +554,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 74,
-        "dri": 68,
-        "ldr": 68,
-        "pac": 71,
-        "pas": 73,
-        "pos": 72,
-        "sho": 70,
+        "dri": 64,
+        "ldr": 70,
+        "pac": 68,
+        "pas": 72,
+        "pos": 76,
+        "sho": 64,
         "sta": 75,
-        "str": 69,
-        "tac": 68,
-        "vis": 75
+        "str": 74,
+        "tac": 74,
+        "vis": 72
       },
       "birth": "1976-01-01",
       "contract": null,
@@ -553,23 +575,23 @@
       "name": "Angelos Basynas",
       "nation": "GRE",
       "number": 26,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 28000
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 59,
+        "aer": 57,
+        "com": 60,
         "dri": 60,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 63,
+        "ldr": 58,
+        "pac": 62,
+        "pas": 53,
         "pos": 58,
-        "sho": 55,
-        "sta": 63,
-        "str": 57,
-        "tac": 55,
-        "vis": 63
+        "sho": 64,
+        "sta": 57,
+        "str": 62,
+        "tac": 29,
+        "vis": 54
       },
       "birth": "1985-02-01",
       "contract": null,
@@ -579,10 +601,13 @@
       "name": "Deme N'Dieye",
       "nation": "SEN",
       "number": 27,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -617,7 +642,7 @@
         "ldr": 64,
         "pac": 69,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 71,
         "sta": 63,
         "str": 66,

@@ -123,7 +123,6 @@
     },
     {
       "alt": [
-        "CB",
         "RB"
       ],
       "attrs": {
@@ -153,7 +152,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 61,
@@ -262,6 +261,10 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -290,18 +293,19 @@
     {
       "alt": [
         "RB",
+        "CM",
         "DM"
       ],
       "attrs": {
         "aer": 63,
         "com": 75,
-        "dri": 65,
+        "dri": 69,
         "ldr": 71,
-        "pac": 69,
+        "pac": 73,
         "pas": 73,
         "pos": 77,
         "sho": 52,
-        "sta": 82,
+        "sta": 86,
         "str": 70,
         "tac": 78,
         "vis": 66
@@ -344,9 +348,6 @@
       "wage": 28500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -378,21 +379,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "ST"
       ],
       "attrs": {
         "aer": 83,
         "com": 76,
-        "dri": 73,
+        "dri": 75,
         "ldr": 65,
         "pac": 73,
-        "pas": 73,
+        "pas": 75,
         "pos": 66,
         "sho": 76,
         "sta": 82,
         "str": 69,
         "tac": 61,
-        "vis": 71
+        "vis": 73
       },
       "birth": "1979-12-01",
       "contract": "2008-06-30",
@@ -410,22 +413,21 @@
     },
     {
       "alt": [
-        "AM",
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 51,
-        "com": 71,
+        "com": 74,
         "dri": 76,
         "ldr": 54,
         "pac": 72,
-        "pas": 74,
+        "pas": 77,
         "pos": 60,
         "sho": 66,
         "sta": 79,
         "str": 58,
-        "tac": 58,
-        "vis": 71
+        "tac": 61,
+        "vis": 74
       },
       "birth": "1981-05-01",
       "contract": "2008-06-30",
@@ -440,20 +442,20 @@
     },
     {
       "alt": [
-        "LB"
+        "LW"
       ],
       "attrs": {
         "aer": 62,
         "com": 66,
         "dri": 69,
         "ldr": 57,
-        "pac": 72,
+        "pac": 78,
         "pas": 68,
-        "pos": 57,
+        "pos": 63,
         "sho": 61,
         "sta": 79,
-        "str": 68,
-        "tac": 56,
+        "str": 74,
+        "tac": 62,
         "vis": 61
       },
       "birth": "1977-02-01",
@@ -464,26 +466,27 @@
       "name": "Kevin Kylbane",
       "nation": "IRL",
       "number": 14,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 35000
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 46,
-        "com": 77,
+        "com": 78,
         "dri": 82,
         "ldr": 66,
         "pac": 79,
-        "pas": 82,
+        "pas": 83,
         "pos": 48,
-        "sho": 77,
+        "sho": 78,
         "sta": 74,
         "str": 61,
         "tac": 38,
-        "vis": 79
+        "vis": 80
       },
       "birth": "1982-03-01",
       "contract": "2010-06-30",
@@ -502,7 +505,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 53,
@@ -526,23 +529,23 @@
       "name": "Simon Devies",
       "nation": "WAL",
       "number": 10,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 37000
     },
     {
       "attrs": {
         "aer": 58,
-        "com": 63,
+        "com": 65,
         "dri": 60,
         "ldr": 53,
         "pac": 66,
-        "pas": 66,
-        "pos": 68,
+        "pas": 68,
+        "pos": 70,
         "sho": 50,
         "sta": 80,
-        "str": 66,
-        "tac": 70,
-        "vis": 59
+        "str": 68,
+        "tac": 72,
+        "vis": 61
       },
       "birth": "1977-09-01",
       "contract": "2006-06-30",
@@ -587,7 +590,7 @@
     {
       "alt": [
         "ST",
-        "AM"
+        "RW"
       ],
       "attrs": {
         "aer": 53,
@@ -616,16 +619,16 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 61,
+        "aer": 75,
+        "com": 63,
         "dri": 67,
         "ldr": 51,
         "pac": 84,
         "pas": 59,
-        "pos": 53,
-        "sho": 67,
+        "pos": 55,
+        "sho": 69,
         "sta": 80,
-        "str": 78,
+        "str": 80,
         "tac": 45,
         "vis": 53
       },
@@ -672,7 +675,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 31,
@@ -696,7 +699,7 @@
       "name": "Andy van der Meide",
       "nation": "NED",
       "number": 27,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],

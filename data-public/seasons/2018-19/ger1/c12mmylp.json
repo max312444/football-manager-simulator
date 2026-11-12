@@ -53,18 +53,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 54,
-        "dri": 41,
-        "ldr": 57,
-        "pac": 47,
-        "pas": 50,
-        "pos": 61,
-        "sho": 31,
-        "sta": 55,
-        "str": 55,
-        "tac": 57,
-        "vis": 44
+        "aer": 44,
+        "com": 52,
+        "dri": 51,
+        "ldr": 53,
+        "pac": 55,
+        "pas": 54,
+        "pos": 56,
+        "sho": 38,
+        "sta": 61,
+        "str": 47,
+        "tac": 54,
+        "vis": 50
       },
       "birth": "1997-08-01",
       "contract": null,
@@ -74,10 +74,15 @@
       "name": "Mandela Egbu",
       "nation": "ENG",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -105,18 +110,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 77,
-        "dri": 78,
-        "ldr": 75,
-        "pac": 70,
-        "pas": 78,
-        "pos": 76,
-        "sho": 74,
+        "dri": 74,
+        "ldr": 77,
+        "pac": 67,
+        "pas": 77,
+        "pos": 80,
+        "sho": 68,
         "sta": 78,
-        "str": 71,
-        "tac": 71,
-        "vis": 80
+        "str": 76,
+        "tac": 77,
+        "vis": 77
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -126,23 +131,23 @@
       "name": "Christoph Kramar",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 105500
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 78,
-        "dri": 78,
-        "ldr": 70,
-        "pac": 74,
-        "pas": 79,
-        "pos": 78,
-        "sho": 68,
-        "sta": 78,
-        "str": 71,
-        "tac": 72,
-        "vis": 78
+        "aer": 63,
+        "com": 76,
+        "dri": 83,
+        "ldr": 66,
+        "pac": 83,
+        "pas": 75,
+        "pos": 60,
+        "sho": 72,
+        "sta": 74,
+        "str": 66,
+        "tac": 52,
+        "vis": 75
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -152,23 +157,23 @@
       "name": "Patrick Herrmenn",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 105500
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 71,
-        "dri": 74,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 75,
-        "pos": 69,
-        "sho": 64,
+        "dri": 70,
+        "ldr": 69,
+        "pac": 66,
+        "pas": 74,
+        "pos": 73,
+        "sho": 58,
         "sta": 72,
-        "str": 68,
-        "tac": 70,
-        "vis": 74
+        "str": 73,
+        "tac": 76,
+        "vis": 71
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -178,23 +183,27 @@
       "name": "Denis Zakarie",
       "nation": "SUI",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 67500
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 79,
-        "com": 79,
-        "dri": 77,
-        "ldr": 72,
-        "pac": 78,
-        "pas": 67,
-        "pos": 53,
-        "sho": 81,
-        "sta": 72,
-        "str": 80,
-        "tac": 51,
-        "vis": 73
+        "aer": 65,
+        "com": 76,
+        "dri": 82,
+        "ldr": 70,
+        "pac": 82,
+        "pas": 73,
+        "pos": 55,
+        "sho": 76,
+        "sta": 74,
+        "str": 70,
+        "tac": 57,
+        "vis": 79
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -204,10 +213,15 @@
       "name": "Thorgan Hezard",
       "nation": "BEL",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 87000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 63,
         "com": 69,
@@ -215,7 +229,7 @@
         "ldr": 62,
         "pac": 62,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 69,
         "sta": 64,
         "str": 65,
@@ -234,6 +248,11 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
         "com": 76,
@@ -241,7 +260,7 @@
         "ldr": 72,
         "pac": 77,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 82,
         "sta": 72,
         "str": 74,
@@ -260,19 +279,24 @@
       "wage": 69500
     },
     {
+      "alt": [
+        "AM",
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 77,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 76,
-        "pas": 70,
-        "pos": 56,
-        "sho": 78,
-        "sta": 69,
-        "str": 73,
-        "tac": 48,
-        "vis": 70
+        "aer": 56,
+        "com": 74,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 80,
+        "pas": 76,
+        "pos": 58,
+        "sho": 73,
+        "sta": 71,
+        "str": 63,
+        "tac": 54,
+        "vis": 76
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -282,7 +306,7 @@
       "name": "Alassane Plee",
       "nation": "FRA",
       "number": 14,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 61000
     },
     {
@@ -313,18 +337,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 67,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 67,
-        "pas": 68,
-        "pos": 68,
-        "sho": 62,
-        "sta": 72,
-        "str": 64,
-        "tac": 66,
-        "vis": 67
+        "aer": 50,
+        "com": 65,
+        "dri": 74,
+        "ldr": 61,
+        "pac": 76,
+        "pas": 64,
+        "pos": 50,
+        "sho": 66,
+        "sta": 68,
+        "str": 59,
+        "tac": 46,
+        "vis": 64
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -335,7 +359,7 @@
       "nation": "GUI",
       "nation2": "FRA",
       "number": 16,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 44500
     },
     {
@@ -361,7 +385,7 @@
       "name": "Oscar Wandt",
       "nation": "SWE",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 68500
     },
     {
@@ -372,7 +396,7 @@
         "ldr": 75,
         "pac": 79,
         "pas": 68,
-        "pos": 56,
+        "pos": 76,
         "sho": 80,
         "sta": 76,
         "str": 80,
@@ -391,19 +415,24 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "LM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 75,
-        "dri": 71,
-        "ldr": 72,
-        "pac": 71,
-        "pas": 80,
-        "pos": 72,
-        "sho": 72,
-        "sta": 80,
-        "str": 71,
-        "tac": 71,
-        "vis": 75
+        "aer": 65,
+        "com": 73,
+        "dri": 74,
+        "ldr": 70,
+        "pac": 79,
+        "pas": 78,
+        "pos": 64,
+        "sho": 70,
+        "sta": 81,
+        "str": 68,
+        "tac": 63,
+        "vis": 72
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -414,7 +443,7 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 102000
     },
     {
@@ -425,7 +454,7 @@
         "ldr": 51,
         "pac": 59,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 60,
         "sta": 57,
         "str": 60,
@@ -470,6 +499,9 @@
       "wage": 51000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -497,18 +529,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 74,
-        "dri": 76,
-        "ldr": 72,
-        "pac": 70,
-        "pas": 76,
-        "pos": 77,
-        "sho": 73,
-        "sta": 81,
-        "str": 74,
-        "tac": 75,
-        "vis": 76
+        "aer": 59,
+        "com": 72,
+        "dri": 81,
+        "ldr": 68,
+        "pac": 79,
+        "pas": 72,
+        "pos": 59,
+        "sho": 77,
+        "sta": 77,
+        "str": 69,
+        "tac": 55,
+        "vis": 73
       },
       "birth": "1992-07-01",
       "contract": null,
@@ -518,10 +550,13 @@
       "name": "Jonas Hofmenn",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 105500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 74,
@@ -548,6 +583,11 @@
       "wage": 70500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -555,7 +595,7 @@
         "ldr": 46,
         "pac": 49,
         "pas": 42,
-        "pos": 28,
+        "pos": 48,
         "sho": 54,
         "sta": 48,
         "str": 49,
@@ -574,18 +614,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,
         "dri": 60,
         "ldr": 53,
         "pac": 53,
-        "pas": 61,
+        "pas": 62,
         "pos": 57,
         "sho": 55,
-        "sta": 58,
+        "sta": 59,
         "str": 57,
-        "tac": 53,
+        "tac": 54,
         "vis": 63
       },
       "birth": "1999-08-01",
@@ -652,6 +696,9 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -726,7 +773,7 @@
       "name": "Andreas Poulsan",
       "nation": "DEN",
       "number": 40,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 5500
     },
     {

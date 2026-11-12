@@ -72,7 +72,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -159,17 +159,17 @@
       ],
       "attrs": {
         "aer": 63,
-        "com": 66,
-        "dri": 66,
+        "com": 72,
+        "dri": 72,
         "ldr": 60,
         "pac": 66,
-        "pas": 70,
+        "pas": 76,
         "pos": 70,
-        "sho": 62,
-        "sta": 82,
+        "sho": 68,
+        "sta": 88,
         "str": 72,
         "tac": 74,
-        "vis": 64
+        "vis": 70
       },
       "birth": "1978-01-01",
       "contract": "2004-06-30",
@@ -184,16 +184,16 @@
     },
     {
       "attrs": {
-        "aer": 87,
-        "com": 78,
+        "aer": 88,
+        "com": 79,
         "dri": 63,
         "ldr": 76,
-        "pac": 38,
+        "pac": 39,
         "pas": 71,
-        "pos": 52,
-        "sho": 71,
+        "pos": 53,
+        "sho": 72,
         "sta": 58,
-        "str": 80,
+        "str": 81,
         "tac": 35,
         "vis": 72
       },
@@ -215,16 +215,16 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 81,
+        "aer": 58,
+        "com": 86,
         "dri": 75,
         "ldr": 56,
         "pac": 77,
         "pas": 64,
-        "pos": 46,
-        "sho": 84,
+        "pos": 51,
+        "sho": 89,
         "sta": 73,
-        "str": 59,
+        "str": 64,
         "tac": 33,
         "vis": 65
       },
@@ -243,18 +243,21 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 67,
         "com": 63,
         "dri": 70,
         "ldr": 53,
-        "pac": 72,
+        "pac": 75,
         "pas": 68,
-        "pos": 61,
+        "pos": 64,
         "sho": 60,
         "sta": 83,
-        "str": 71,
-        "tac": 60,
+        "str": 74,
+        "tac": 63,
         "vis": 60
       },
       "birth": "1977-02-01",
@@ -265,7 +268,7 @@
       "name": "Kevin Kylbane",
       "nation": "IRL",
       "number": 11,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 38500
     },
     {
@@ -296,10 +299,6 @@
       "wage": 27000
     },
     {
-      "alt": [
-        "RB",
-        "DM"
-      ],
       "attrs": {
         "aer": 68,
         "com": 66,
@@ -327,7 +326,9 @@
     },
     {
       "alt": [
-        "CM"
+        "LWB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 62,
@@ -412,21 +413,22 @@
     },
     {
       "alt": [
-        "LB",
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 50,
         "com": 65,
         "dri": 75,
         "ldr": 48,
-        "pac": 71,
+        "pac": 81,
         "pas": 72,
-        "pos": 58,
+        "pos": 69,
         "sho": 62,
-        "sta": 75,
-        "str": 58,
-        "tac": 56,
+        "sta": 76,
+        "str": 69,
+        "tac": 67,
         "vis": 68
       },
       "birth": "1981-01-01",
@@ -437,12 +439,14 @@
       "name": "Julio Arce",
       "nation": "ARG",
       "number": 21,
-      "pos": "LM",
+      "pos": "LWB",
       "wage": 29000
     },
     {
       "alt": [
-        "AM"
+        "LW",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 46,
@@ -466,7 +470,7 @@
       "name": "John Ostar",
       "nation": "WAL",
       "number": 22,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 20000
     },
@@ -498,19 +502,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 58,
-        "dri": 58,
+        "com": 65,
+        "dri": 65,
         "ldr": 50,
         "pac": 61,
-        "pas": 62,
+        "pas": 69,
         "pos": 60,
-        "sho": 46,
-        "sta": 71,
+        "sho": 53,
+        "sta": 73,
         "str": 63,
         "tac": 66,
-        "vis": 54
+        "vis": 61
       },
       "birth": "1979-02-01",
       "contract": "2004-06-30",
@@ -525,20 +532,17 @@
       "wage": 17500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 46,
-        "com": 52,
+        "aer": 58,
+        "com": 64,
         "dri": 62,
         "ldr": 32,
         "pac": 81,
         "pas": 50,
-        "pos": 36,
-        "sho": 58,
+        "pos": 48,
+        "sho": 70,
         "sta": 65,
-        "str": 55,
+        "str": 67,
         "tac": 28,
         "vis": 48
       },
@@ -609,19 +613,23 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 44,
-        "com": 54,
+        "com": 60,
         "dri": 62,
         "ldr": 40,
         "pac": 64,
-        "pas": 64,
+        "pas": 70,
         "pos": 50,
         "sho": 52,
         "sta": 66,
         "str": 54,
-        "tac": 52,
-        "vis": 60
+        "tac": 58,
+        "vis": 66
       },
       "birth": "1982-02-01",
       "contract": "2006-06-30",

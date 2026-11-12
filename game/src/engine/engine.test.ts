@@ -4,7 +4,7 @@ import path from 'node:path';
 import { buildFixtures, roundRobin } from './fixtures';
 import { createRng } from './rng';
 import { advanceDay, createWorld, prepareMatch, seasonOver, type SeasonInput } from './world';
-import { playToEnd, setTactics, step, substitute } from './match';
+import { playToEnd, setTactics, step, substitute, canSubInto } from './match';
 import type { ClubSeasonFile, LeagueSeasonFile } from '../data/types';
 
 // 공개용(패러디) 데이터로 테스트 — 저장소만 받아도 돌아가도록
@@ -75,8 +75,11 @@ describe('월드 진행', () => {
     for (let i = 0; i < 9; i++) step(m, ctx);
     setTactics(m, 'home', { mentality: 2, pressing: 2 });
     expect(m.home.tactics.mentality).toBe(2);
-    const out = m.home.onPitch.find((o) => o.slot !== 'GK')!.id;
-    const inn = m.home.bench.find((id) => w.players[id].pos !== 'GK')!;
+    // 자리에 맞는 선수만 교체 가능 (canSubInto) → 맞는 짝을 찾는다
+    const pair = m.home.onPitch.filter((o) => o.slot !== 'GK').flatMap((o) => m.home.bench.filter((id) => canSubInto(w.players[id], o.slot)).map((id) => [o.id, id] as const))[0]!;
+    const [out, inn] = pair;
+    const wrong = m.home.bench.find((id) => w.players[id].pos === 'GK');
+    if (wrong) expect(substitute(m, 'home', out, wrong, ctx)).toBe(false);   // 골키퍼를 필드 자리에 넣을 수 없음
     expect(substitute(m, 'home', out, inn, ctx)).toBe(true);
     expect(m.home.onPitch.some((o) => o.id === inn)).toBe(true);
     const s = playToEnd(m, ctx);

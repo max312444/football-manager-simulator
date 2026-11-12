@@ -70,6 +70,10 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -122,6 +126,9 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -177,6 +184,9 @@
       "wage": 47500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 65,
@@ -205,7 +215,8 @@
     },
     {
       "alt": [
-        "RM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 32,
@@ -233,6 +244,10 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM",
+        "RM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 63,
@@ -285,6 +300,11 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -312,6 +332,7 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -340,19 +361,24 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 64,
         "dri": 70,
         "ldr": 56,
         "pac": 70,
-        "pas": 64,
+        "pas": 76,
         "pos": 37,
         "sho": 62,
-        "sta": 67,
+        "sta": 79,
         "str": 45,
-        "tac": 28,
-        "vis": 58
+        "tac": 40,
+        "vis": 70
       },
       "birth": "1979-09-01",
       "contract": "2011-06-30",
@@ -392,21 +418,18 @@
       "wage": 10500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 35,
         "com": 59,
         "dri": 68,
         "ldr": 53,
-        "pac": 72,
+        "pac": 85,
         "pas": 61,
-        "pos": 33,
+        "pos": 61,
         "sho": 57,
-        "sta": 65,
-        "str": 43,
-        "tac": 27,
+        "sta": 80,
+        "str": 71,
+        "tac": 55,
         "vis": 57
       },
       "birth": "1981-08-01",
@@ -417,7 +440,7 @@
       "name": "Bernard Mandy",
       "nation": "FRA",
       "number": 15,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 13000
     },
     {
@@ -507,17 +530,17 @@
     {
       "attrs": {
         "aer": 38,
-        "com": 68,
-        "dri": 62,
+        "com": 72,
+        "dri": 66,
         "ldr": 61,
-        "pac": 47,
+        "pac": 51,
         "pas": 66,
         "pos": 46,
-        "sho": 52,
+        "sho": 56,
         "sta": 62,
         "str": 52,
         "tac": 50,
-        "vis": 62
+        "vis": 66
       },
       "birth": "1976-06-01",
       "contract": "2010-06-30",
@@ -527,12 +550,13 @@
       "name": "Bryan Hoghes",
       "nation": "ENG",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 18500
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 41,
@@ -565,6 +589,9 @@
       "wage": 43500
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 28,
         "com": 57,
@@ -587,26 +614,28 @@
       "name": "Ryan Franca",
       "nation": "ENG",
       "number": 13,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 6500
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 32,
-        "com": 58,
+        "com": 69,
         "dri": 68,
         "ldr": 49,
         "pac": 68,
-        "pas": 59,
+        "pas": 70,
         "pos": 34,
-        "sho": 59,
+        "sho": 70,
         "sta": 65,
         "str": 45,
         "tac": 27,
-        "vis": 55
+        "vis": 66
       },
       "birth": "1981-09-01",
       "contract": "2010-06-30",
@@ -616,7 +645,7 @@
       "name": "Richard Garcya",
       "nation": "AUS",
       "number": 14,
-      "pos": "RM",
+      "pos": "AM",
       "wage": 12000
     },
     {
@@ -648,9 +677,6 @@
       "wage": 15000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 71,
         "com": 64,
@@ -706,8 +732,9 @@
     },
     {
       "alt": [
+        "CB",
         "RB",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 57,
@@ -735,6 +762,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 57,

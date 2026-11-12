@@ -31,7 +31,7 @@
         "ldr": 69,
         "pac": 72,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 71,
         "str": 75,
@@ -111,7 +111,7 @@
         "ldr": 63,
         "pac": 66,
         "pas": 56,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 65,
         "str": 66,
@@ -138,7 +138,7 @@
         "ldr": 56,
         "pac": 67,
         "pas": 54,
-        "pos": 46,
+        "pos": 66,
         "sho": 66,
         "sta": 64,
         "str": 64,
@@ -158,6 +158,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -245,7 +248,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 55,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 59,
         "str": 60,
@@ -265,6 +268,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -318,6 +324,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 63,
@@ -344,6 +353,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -371,6 +383,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 57,
@@ -425,6 +440,11 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 58,
@@ -452,6 +472,10 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 57,
         "com": 61,
@@ -459,7 +483,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 49,
-        "pos": 34,
+        "pos": 54,
         "sho": 58,
         "sta": 51,
         "str": 60,
@@ -507,6 +531,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -587,18 +614,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 52,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 53,
-        "pas": 60,
-        "pos": 51,
-        "sho": 50,
+        "dri": 51,
+        "ldr": 55,
+        "pac": 50,
+        "pas": 59,
+        "pos": 55,
+        "sho": 44,
         "sta": 60,
-        "str": 51,
-        "tac": 48,
-        "vis": 53
+        "str": 56,
+        "tac": 54,
+        "vis": 50
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -608,24 +635,27 @@
       "name": "Fabien Bouderene",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 53,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 52,
-        "pas": 55,
-        "pos": 54,
-        "sho": 52,
-        "sta": 57,
-        "str": 50,
-        "tac": 49,
-        "vis": 59
+        "aer": 37,
+        "com": 51,
+        "dri": 57,
+        "ldr": 44,
+        "pac": 61,
+        "pas": 51,
+        "pos": 36,
+        "sho": 56,
+        "sta": 53,
+        "str": 45,
+        "tac": 29,
+        "vis": 56
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -636,11 +666,14 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 52,
@@ -667,17 +700,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 56,
-        "dri": 52,
+        "aer": 52,
+        "com": 63,
+        "dri": 56,
         "ldr": 51,
-        "pac": 52,
+        "pac": 59,
         "pas": 58,
-        "pos": 53,
-        "sho": 51,
+        "pos": 60,
+        "sho": 58,
         "sta": 57,
-        "str": 50,
+        "str": 57,
         "tac": 53,
         "vis": 58
       },
@@ -689,7 +727,7 @@
       "name": "Marcelo Trapesso",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 4000
     },
@@ -720,6 +758,10 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 39,
         "com": 50,
@@ -800,6 +842,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 51,
@@ -828,18 +873,18 @@
     },
     {
       "attrs": {
-        "aer": 38,
-        "com": 47,
-        "dri": 48,
-        "ldr": 43,
-        "pac": 40,
+        "aer": 32,
+        "com": 48,
+        "dri": 52,
+        "ldr": 41,
+        "pac": 43,
         "pas": 47,
-        "pos": 44,
-        "sho": 43,
-        "sta": 48,
-        "str": 45,
-        "tac": 41,
-        "vis": 50
+        "pos": 29,
+        "sho": 49,
+        "sta": 42,
+        "str": 40,
+        "tac": 23,
+        "vis": 52
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -849,7 +894,7 @@
       "name": "Kendal Ucer",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 1500
     },
     {

@@ -51,6 +51,9 @@
       "wage": 165500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 68,
@@ -100,7 +103,7 @@
       "nation": "MAR",
       "nation2": "CIV",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 27000
     },
     {
@@ -131,18 +134,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 66,
-        "dri": 65,
-        "ldr": 67,
-        "pac": 63,
-        "pas": 71,
-        "pos": 68,
-        "sho": 65,
+        "dri": 61,
+        "ldr": 69,
+        "pac": 60,
+        "pas": 70,
+        "pos": 72,
+        "sho": 59,
         "sta": 69,
-        "str": 66,
-        "tac": 62,
-        "vis": 72
+        "str": 71,
+        "tac": 68,
+        "vis": 69
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -153,7 +156,7 @@
       "nation": "ESP",
       "nation2": "EQG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 79500
     },
     {
@@ -164,7 +167,7 @@
         "ldr": 65,
         "pac": 66,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 71,
         "sta": 61,
         "str": 68,
@@ -183,6 +186,9 @@
       "wage": 46500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 64,
@@ -216,7 +222,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 65,
-        "pos": 55,
+        "pos": 75,
         "sho": 82,
         "sta": 75,
         "str": 79,
@@ -236,18 +242,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 69,
-        "dri": 67,
-        "ldr": 66,
-        "pac": 62,
-        "pas": 67,
-        "pos": 66,
-        "sho": 65,
+        "dri": 63,
+        "ldr": 68,
+        "pac": 59,
+        "pas": 66,
+        "pos": 70,
+        "sho": 59,
         "sta": 67,
-        "str": 60,
-        "tac": 63,
-        "vis": 67
+        "str": 65,
+        "tac": 69,
+        "vis": 64
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -258,26 +264,26 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 69000
     },
     {
       "alt": [
-        "CM"
+        "LW"
       ],
       "attrs": {
         "aer": 66,
-        "com": 78,
-        "dri": 80,
-        "ldr": 71,
-        "pac": 77,
-        "pas": 81,
-        "pos": 61,
-        "sho": 77,
-        "sta": 78,
+        "com": 75,
+        "dri": 81,
+        "ldr": 69,
+        "pac": 83,
+        "pas": 77,
+        "pos": 58,
+        "sho": 75,
+        "sta": 80,
         "str": 71,
-        "tac": 57,
-        "vis": 83
+        "tac": 55,
+        "vis": 78
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -287,12 +293,14 @@
       "name": "Yevhen Konoplyenka",
       "nation": "UKR",
       "number": 11,
-      "pos": "AM",
+      "pos": "RW",
       "wage": 180500
     },
     {
       "alt": [
-        "DM"
+        "DM",
+        "AM",
+        "CB"
       ],
       "attrs": {
         "aer": 69,
@@ -320,22 +328,19 @@
       "wage": 180500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 80,
-        "com": 70,
-        "dri": 59,
-        "ldr": 70,
-        "pac": 67,
-        "pas": 67,
-        "pos": 78,
-        "sho": 45,
-        "sta": 73,
-        "str": 74,
-        "tac": 80,
-        "vis": 61
+        "aer": 67,
+        "com": 68,
+        "dri": 69,
+        "ldr": 66,
+        "pac": 75,
+        "pas": 71,
+        "pos": 73,
+        "sho": 52,
+        "sta": 79,
+        "str": 66,
+        "tac": 77,
+        "vis": 67
       },
       "birth": "1994-07-01",
       "contract": null,
@@ -346,23 +351,23 @@
       "name": "Abdul Rahman Beba",
       "nation": "GHA",
       "number": 14,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 108500
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 77,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 69,
-        "pas": 79,
-        "pos": 75,
-        "sho": 69,
+        "dri": 71,
+        "ldr": 74,
+        "pac": 66,
+        "pas": 78,
+        "pos": 79,
+        "sho": 63,
         "sta": 77,
-        "str": 68,
-        "tac": 68,
-        "vis": 77
+        "str": 73,
+        "tac": 74,
+        "vis": 74
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -372,26 +377,26 @@
       "name": "Johannes Geys",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 164000
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 76,
-        "dri": 73,
-        "ldr": 72,
-        "pac": 70,
-        "pas": 79,
-        "pos": 70,
-        "sho": 67,
+        "dri": 69,
+        "ldr": 74,
+        "pac": 67,
+        "pas": 78,
+        "pos": 74,
+        "sho": 61,
         "sta": 79,
-        "str": 67,
-        "tac": 73,
-        "vis": 78
+        "str": 72,
+        "tac": 79,
+        "vis": 75
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -401,23 +406,28 @@
       "name": "Benjamin Stembouli",
       "nation": "FRA",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 162500
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 68,
-        "dri": 65,
-        "ldr": 65,
-        "pac": 62,
-        "pas": 70,
-        "pos": 67,
-        "sho": 65,
-        "sta": 68,
-        "str": 61,
-        "tac": 67,
-        "vis": 67
+        "aer": 51,
+        "com": 66,
+        "dri": 70,
+        "ldr": 61,
+        "pac": 71,
+        "pas": 66,
+        "pos": 49,
+        "sho": 69,
+        "sta": 64,
+        "str": 56,
+        "tac": 47,
+        "vis": 64
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -427,7 +437,7 @@
       "name": "Daniel Caligiori",
       "nation": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 73000
     },
     {
@@ -438,7 +448,7 @@
         "ldr": 70,
         "pac": 71,
         "pas": 69,
-        "pos": 54,
+        "pos": 74,
         "sho": 75,
         "sta": 69,
         "str": 71,
@@ -490,7 +500,7 @@
         "ldr": 55,
         "pac": 64,
         "pas": 57,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 63,
         "str": 65,
@@ -516,7 +526,7 @@
         "ldr": 50,
         "pac": 61,
         "pas": 48,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 52,
         "str": 59,
@@ -557,23 +567,23 @@
       "name": "Bastian Oczypka",
       "nation": "GER",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 89500
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 63,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 58,
+        "aer": 49,
+        "com": 64,
+        "dri": 67,
+        "ldr": 55,
+        "pac": 61,
         "pas": 67,
-        "pos": 61,
-        "sho": 57,
-        "sta": 66,
-        "str": 57,
-        "tac": 58,
-        "vis": 65
+        "pos": 46,
+        "sho": 63,
+        "sta": 60,
+        "str": 52,
+        "tac": 40,
+        "vis": 67
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -584,22 +594,25 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 25,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 43500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
+        "aer": 64,
+        "com": 73,
         "dri": 62,
         "ldr": 62,
         "pac": 74,
         "pas": 62,
-        "pos": 69,
+        "pos": 74,
         "sho": 50,
         "sta": 71,
-        "str": 62,
-        "tac": 66,
+        "str": 67,
+        "tac": 71,
         "vis": 58
       },
       "birth": "1990-08-01",
@@ -611,10 +624,13 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 26,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 61000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 78,
@@ -641,9 +657,6 @@
       "wage": 180500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 72,
         "com": 66,
@@ -729,7 +742,7 @@
         "ldr": 69,
         "pac": 76,
         "pas": 64,
-        "pos": 52,
+        "pos": 72,
         "sho": 77,
         "sta": 71,
         "str": 76,

@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 65,
-        "dri": 67,
-        "ldr": 66,
-        "pac": 65,
-        "pas": 71,
-        "pos": 68,
-        "sho": 60,
+        "dri": 63,
+        "ldr": 68,
+        "pac": 62,
+        "pas": 70,
+        "pos": 72,
+        "sho": 54,
         "sta": 70,
-        "str": 63,
-        "tac": 60,
-        "vis": 71
+        "str": 68,
+        "tac": 66,
+        "vis": 68
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -46,7 +46,7 @@
       "name": "Simon Rolfas",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 5500
     },
@@ -84,7 +84,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 62,
         "str": 64,
@@ -104,19 +104,23 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 66,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 62,
-        "pas": 59,
-        "pos": 42,
-        "sho": 65,
-        "sta": 60,
-        "str": 68,
-        "tac": 32,
-        "vis": 57
+        "aer": 47,
+        "com": 63,
+        "dri": 68,
+        "ldr": 55,
+        "pac": 66,
+        "pas": 65,
+        "pos": 44,
+        "sho": 60,
+        "sta": 62,
+        "str": 58,
+        "tac": 38,
+        "vis": 63
       },
       "birth": "1976-04-01",
       "contract": null,
@@ -126,10 +130,13 @@
       "name": "Kai Mychalke",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,
@@ -157,6 +164,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 65,
@@ -212,18 +222,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 64,
-        "dri": 52,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 54,
-        "pos": 66,
-        "sho": 34,
-        "sta": 62,
-        "str": 65,
-        "tac": 63,
-        "vis": 48
+        "aer": 51,
+        "com": 62,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 58,
+        "pos": 61,
+        "sho": 41,
+        "sta": 68,
+        "str": 57,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -233,7 +243,7 @@
       "name": "Stefan Blenk",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 3500
     },
     {
@@ -244,7 +254,7 @@
         "ldr": 59,
         "pac": 60,
         "pas": 54,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 61,
         "str": 64,
@@ -271,7 +281,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 56,
         "str": 57,
@@ -297,7 +307,7 @@
         "ldr": 51,
         "pac": 56,
         "pas": 53,
-        "pos": 36,
+        "pos": 56,
         "sho": 64,
         "sta": 58,
         "str": 59,
@@ -316,19 +326,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 61,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 61,
-        "pos": 58,
-        "sho": 52,
-        "sta": 62,
-        "str": 55,
-        "tac": 56,
-        "vis": 61
+        "aer": 43,
+        "com": 59,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 57,
+        "pos": 40,
+        "sho": 56,
+        "sta": 58,
+        "str": 50,
+        "tac": 36,
+        "vis": 58
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -339,11 +352,14 @@
       "nation": "GER",
       "nation2": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -370,6 +386,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -399,18 +418,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 56,
-        "dri": 40,
-        "ldr": 53,
-        "pac": 51,
-        "pas": 52,
-        "pos": 57,
-        "sho": 27,
-        "sta": 55,
-        "str": 60,
-        "tac": 62,
-        "vis": 46
+        "aer": 48,
+        "com": 54,
+        "dri": 50,
+        "ldr": 49,
+        "pac": 59,
+        "pas": 56,
+        "pos": 52,
+        "sho": 34,
+        "sta": 61,
+        "str": 52,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -420,7 +439,7 @@
       "name": "Dennis Brinkmenn",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2000
     },
     {
@@ -452,19 +471,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 59,
-        "dri": 57,
-        "ldr": 54,
-        "pac": 51,
-        "pas": 59,
-        "pos": 58,
-        "sho": 49,
-        "sta": 61,
-        "str": 55,
-        "tac": 55,
-        "vis": 55
+        "aer": 46,
+        "com": 61,
+        "dri": 59,
+        "ldr": 55,
+        "pac": 52,
+        "pas": 61,
+        "pos": 59,
+        "sho": 51,
+        "sta": 63,
+        "str": 56,
+        "tac": 56,
+        "vis": 57
       },
       "birth": "1976-12-01",
       "contract": null,
@@ -505,19 +527,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 58,
-        "dri": 52,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 57,
-        "pos": 55,
-        "sho": 51,
-        "sta": 56,
-        "str": 50,
-        "tac": 49,
-        "vis": 60
+        "aer": 43,
+        "com": 56,
+        "dri": 55,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 59,
+        "pos": 47,
+        "sho": 49,
+        "sta": 61,
+        "str": 47,
+        "tac": 45,
+        "vis": 61
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -527,7 +552,7 @@
       "name": "Ivan Petruvic",
       "nation": "SRB",
       "number": null,
-      "pos": "CM",
+      "pos": "LM",
       "verify": true,
       "wage": 2500
     },
@@ -539,7 +564,7 @@
         "ldr": 50,
         "pac": 59,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 58,
         "sta": 51,
         "str": 53,
@@ -613,6 +638,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 57,
@@ -718,6 +746,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -745,6 +776,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 49,
@@ -771,6 +805,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,

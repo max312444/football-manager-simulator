@@ -44,16 +44,20 @@
       "wage": 50500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
-        "dri": 58,
+        "dri": 61,
         "ldr": 76,
-        "pac": 66,
-        "pas": 62,
+        "pac": 69,
+        "pas": 65,
         "pos": 74,
         "sho": 46,
-        "sta": 72,
+        "sta": 75,
         "str": 66,
         "tac": 72,
         "vis": 54
@@ -73,6 +77,9 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
@@ -100,7 +107,8 @@
     },
     {
       "alt": [
-        "DM"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 62,
@@ -155,23 +163,19 @@
       "wage": 22000
     },
     {
-      "alt": [
-        "CB",
-        "CM"
-      ],
       "attrs": {
         "aer": 74,
-        "com": 66,
+        "com": 71,
         "dri": 58,
         "ldr": 62,
         "pac": 58,
-        "pas": 64,
+        "pas": 69,
         "pos": 70,
         "sho": 58,
-        "sta": 72,
+        "sta": 77,
         "str": 74,
         "tac": 72,
-        "vis": 56
+        "vis": 61
       },
       "birth": "1975-10-01",
       "contract": "2008-06-30",
@@ -186,12 +190,15 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
-        "dri": 72,
+        "dri": 76,
         "ldr": 50,
-        "pac": 62,
+        "pac": 66,
         "pas": 70,
         "pos": 50,
         "sho": 56,
@@ -208,11 +215,14 @@
       "name": "Glen Littla",
       "nation": "ENG",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 68,
@@ -240,16 +250,16 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 56,
+        "aer": 66,
+        "com": 58,
         "dri": 56,
         "ldr": 52,
         "pac": 63,
         "pas": 56,
-        "pos": 40,
-        "sho": 62,
+        "pos": 42,
+        "sho": 64,
         "sta": 79,
-        "str": 67,
+        "str": 69,
         "tac": 36,
         "vis": 52
       },
@@ -266,16 +276,16 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 50,
+        "aer": 57,
+        "com": 54,
         "dri": 57,
         "ldr": 36,
         "pac": 67,
         "pas": 49,
-        "pos": 30,
-        "sho": 59,
+        "pos": 34,
+        "sho": 63,
         "sta": 61,
-        "str": 67,
+        "str": 71,
         "tac": 25,
         "vis": 44
       },
@@ -291,9 +301,6 @@
       "wage": 8000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 46,
         "com": 62,
@@ -316,7 +323,7 @@
       "name": "Bobby Cunvey",
       "nation": "USA",
       "number": 11,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 27500
     },
     {
@@ -347,19 +354,22 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 66,
-        "dri": 66,
+        "com": 70,
+        "dri": 67,
         "ldr": 58,
         "pac": 66,
-        "pas": 70,
+        "pas": 74,
         "pos": 66,
-        "sho": 60,
+        "sho": 61,
         "sta": 84,
         "str": 66,
-        "tac": 70,
-        "vis": 64
+        "tac": 73,
+        "vis": 68
       },
       "birth": "1980-11-01",
       "contract": "2009-06-30",
@@ -401,17 +411,17 @@
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 37,
-        "com": 57,
-        "dri": 67,
+        "com": 60,
+        "dri": 70,
         "ldr": 51,
-        "pac": 70,
+        "pac": 73,
         "pas": 67,
         "pos": 45,
-        "sho": 59,
+        "sho": 62,
         "sta": 76,
         "str": 56,
         "tac": 51,
@@ -425,13 +435,15 @@
       "name": "Stephen Hont",
       "nation": "IRL",
       "number": 17,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 20000
     },
     {
       "alt": [
-        "AM"
+        "LW",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 52,
@@ -455,13 +467,13 @@
       "name": "John Ostar",
       "nation": "WAL",
       "number": 18,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 45500
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
         "aer": 37,
@@ -485,22 +497,22 @@
       "name": "Seol Ki-hyaon",
       "nation": "KOR",
       "number": 19,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 14000
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 49,
+        "aer": 61,
+        "com": 54,
         "dri": 54,
         "ldr": 41,
         "pac": 73,
         "pas": 44,
-        "pos": 31,
-        "sho": 56,
+        "pos": 36,
+        "sho": 61,
         "sta": 71,
-        "str": 61,
+        "str": 66,
         "tac": 24,
         "vis": 43
       },
@@ -545,7 +557,9 @@
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 70,
@@ -575,7 +589,8 @@
     },
     {
       "alt": [
-        "RM"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 61,
@@ -632,21 +647,21 @@
     },
     {
       "alt": [
-        "CM"
+        "CB"
       ],
       "attrs": {
         "aer": 70,
-        "com": 58,
+        "com": 62,
         "dri": 58,
         "ldr": 50,
         "pac": 60,
-        "pas": 62,
+        "pas": 66,
         "pos": 62,
         "sho": 54,
-        "sta": 74,
+        "sta": 78,
         "str": 78,
         "tac": 68,
-        "vis": 52
+        "vis": 56
       },
       "birth": "1984-01-01",
       "contract": "2009-06-30",

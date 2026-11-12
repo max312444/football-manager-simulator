@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 75,
-        "dri": 63,
-        "ldr": 75,
-        "pac": 73,
-        "pas": 66,
-        "pos": 77,
-        "sho": 49,
-        "sta": 74,
-        "str": 76,
-        "tac": 82,
-        "vis": 62
+        "aer": 63,
+        "com": 73,
+        "dri": 73,
+        "ldr": 71,
+        "pac": 81,
+        "pas": 70,
+        "pos": 72,
+        "sho": 56,
+        "sta": 80,
+        "str": 68,
+        "tac": 79,
+        "vis": 68
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Miso Brecku",
       "nation": "SVN",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 43500
     },
     {
@@ -125,7 +125,7 @@
       "name": "Pierre Wume",
       "nation": "CMR",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 43500
     },
     {
@@ -136,7 +136,7 @@
         "ldr": 60,
         "pac": 69,
         "pas": 60,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 65,
         "str": 68,
@@ -156,18 +156,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 76,
-        "dri": 72,
-        "ldr": 74,
-        "pac": 67,
-        "pas": 75,
-        "pos": 71,
-        "sho": 69,
+        "dri": 68,
+        "ldr": 76,
+        "pac": 64,
+        "pas": 74,
+        "pos": 75,
+        "sho": 63,
         "sta": 77,
-        "str": 69,
-        "tac": 73,
-        "vis": 73
+        "str": 74,
+        "tac": 79,
+        "vis": 70
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -177,7 +177,7 @@
       "name": "Petyt",
       "nation": "POR",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 43500
     },
     {
@@ -188,7 +188,7 @@
         "ldr": 61,
         "pac": 70,
         "pas": 57,
-        "pos": 48,
+        "pos": 68,
         "sho": 69,
         "sta": 61,
         "str": 71,
@@ -208,6 +208,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 75,
         "com": 82,
@@ -215,7 +218,7 @@
         "ldr": 77,
         "pac": 79,
         "pas": 70,
-        "pos": 60,
+        "pos": 80,
         "sho": 86,
         "sta": 75,
         "str": 83,
@@ -242,7 +245,7 @@
         "ldr": 67,
         "pac": 71,
         "pas": 61,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 68,
         "str": 74,
@@ -261,6 +264,10 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 78,
@@ -289,17 +296,17 @@
     {
       "attrs": {
         "aer": 53,
-        "com": 66,
-        "dri": 65,
-        "ldr": 59,
-        "pac": 62,
-        "pas": 68,
+        "com": 62,
+        "dri": 63,
+        "ldr": 57,
+        "pac": 69,
+        "pas": 62,
         "pos": 65,
-        "sho": 61,
+        "sho": 47,
         "sta": 63,
-        "str": 56,
-        "tac": 63,
-        "vis": 68
+        "str": 55,
+        "tac": 67,
+        "vis": 59
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -309,10 +316,14 @@
       "name": "Daniel Brosynski",
       "nation": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 19000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 76,
         "com": 76,
@@ -320,7 +331,7 @@
         "ldr": 69,
         "pac": 77,
         "pas": 69,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 70,
         "str": 76,
@@ -391,6 +402,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -418,19 +432,24 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
-        "dri": 57,
+        "dri": 65,
         "ldr": 53,
         "pac": 59,
-        "pas": 53,
-        "pos": 37,
+        "pas": 61,
+        "pos": 57,
         "sho": 62,
         "sta": 59,
         "str": 61,
         "tac": 28,
-        "vis": 50
+        "vis": 58
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -441,7 +460,7 @@
       "nation": "MAR",
       "nation2": "GER",
       "number": 20,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7000
     },
     {
@@ -472,18 +491,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 66,
-        "pas": 73,
-        "pos": 71,
-        "sho": 61,
-        "sta": 75,
-        "str": 68,
-        "tac": 68,
-        "vis": 74
+        "aer": 56,
+        "com": 65,
+        "dri": 70,
+        "ldr": 63,
+        "pac": 74,
+        "pas": 71,
+        "pos": 63,
+        "sho": 59,
+        "sta": 76,
+        "str": 65,
+        "tac": 60,
+        "vis": 71
       },
       "birth": "1979-09-01",
       "contract": null,
@@ -493,10 +512,13 @@
       "name": "Fabrice Ehrat",
       "nation": "FRA",
       "number": 22,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -523,6 +545,9 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 79,
         "com": 75,

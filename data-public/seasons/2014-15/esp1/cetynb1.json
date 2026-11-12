@@ -77,6 +77,11 @@
       "wage": 135000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 86,
         "com": 81,
@@ -130,6 +135,10 @@
       "wage": 368000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 72,
         "com": 75,
@@ -152,10 +161,14 @@
       "name": "Fabio Cuentrao",
       "nation": "POR",
       "number": 5,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 262000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 81,
@@ -183,6 +196,9 @@
       "wage": 382000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 89,
         "com": 90,
@@ -190,7 +206,7 @@
         "ldr": 81,
         "pac": 86,
         "pas": 78,
-        "pos": 66,
+        "pos": 86,
         "sho": 91,
         "sta": 84,
         "str": 91,
@@ -209,6 +225,9 @@
       "wage": 407000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 82,
@@ -242,7 +261,7 @@
         "ldr": 78,
         "pac": 85,
         "pas": 75,
-        "pos": 66,
+        "pos": 86,
         "sho": 90,
         "sta": 83,
         "str": 84,
@@ -261,19 +280,22 @@
       "wage": 357500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 76,
-        "dri": 78,
-        "ldr": 78,
-        "pac": 75,
+        "aer": 66,
+        "com": 77,
+        "dri": 82,
+        "ldr": 76,
+        "pac": 78,
         "pas": 83,
-        "pos": 79,
-        "sho": 75,
-        "sta": 78,
-        "str": 77,
-        "tac": 74,
-        "vis": 81
+        "pos": 64,
+        "sho": 81,
+        "sta": 72,
+        "str": 72,
+        "tac": 56,
+        "vis": 83
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -284,23 +306,27 @@
       "nation": "COL",
       "nation2": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 288000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 84,
-        "dri": 83,
-        "ldr": 79,
-        "pac": 78,
-        "pas": 88,
-        "pos": 80,
-        "sho": 75,
-        "sta": 85,
-        "str": 77,
-        "tac": 82,
-        "vis": 87
+        "aer": 65,
+        "com": 82,
+        "dri": 88,
+        "ldr": 75,
+        "pac": 87,
+        "pas": 84,
+        "pos": 62,
+        "sho": 79,
+        "sta": 81,
+        "str": 72,
+        "tac": 62,
+        "vis": 84
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -310,7 +336,7 @@
       "name": "Gareth Bala",
       "nation": "WAL",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 407000
     },
     {
@@ -337,7 +363,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 290500
     },
     {
@@ -394,6 +420,9 @@
       "wage": 178000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 80,
@@ -420,6 +449,10 @@
       "wage": 272000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 78,
@@ -447,7 +480,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 72,
@@ -475,19 +509,23 @@
       "wage": 338000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 77,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 71,
-        "pas": 66,
-        "pos": 51,
-        "sho": 73,
-        "sta": 68,
-        "str": 74,
-        "tac": 41,
-        "vis": 64
+        "aer": 59,
+        "com": 74,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 75,
+        "pas": 72,
+        "pos": 53,
+        "sho": 68,
+        "sta": 70,
+        "str": 64,
+        "tac": 47,
+        "vis": 70
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -497,23 +535,27 @@
       "name": "Jase",
       "nation": "ESP",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 83500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 74,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 71,
+        "aer": 59,
+        "com": 75,
+        "dri": 77,
+        "ldr": 69,
+        "pac": 74,
         "pas": 75,
-        "pos": 75,
-        "sho": 72,
-        "sta": 80,
-        "str": 70,
-        "tac": 73,
-        "vis": 78
+        "pos": 60,
+        "sho": 78,
+        "sta": 74,
+        "str": 65,
+        "tac": 55,
+        "vis": 80
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -523,23 +565,23 @@
       "name": "Iscu",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 181000
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 79,
-        "dri": 75,
-        "ldr": 70,
-        "pac": 74,
-        "pas": 81,
-        "pos": 73,
-        "sho": 70,
+        "dri": 71,
+        "ldr": 72,
+        "pac": 71,
+        "pas": 80,
+        "pos": 77,
+        "sho": 64,
         "sta": 80,
-        "str": 72,
-        "tac": 70,
-        "vis": 81
+        "str": 77,
+        "tac": 76,
+        "vis": 78
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -549,7 +591,7 @@
       "name": "Asier Illarramandi",
       "nation": "ESP",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 212500
     },
     {
@@ -586,7 +628,7 @@
         "ldr": 59,
         "pac": 65,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 59,
         "str": 68,

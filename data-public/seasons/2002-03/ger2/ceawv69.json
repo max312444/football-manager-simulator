@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 68,
@@ -31,7 +36,7 @@
         "ldr": 61,
         "pac": 68,
         "pas": 59,
-        "pos": 51,
+        "pos": 71,
         "sho": 74,
         "sta": 68,
         "str": 70,
@@ -50,6 +55,11 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -72,7 +82,7 @@
       "name": "Levan Kobieshvili",
       "nation": "GEO",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -83,7 +93,7 @@
         "ldr": 66,
         "pac": 71,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 72,
         "sta": 67,
         "str": 68,
@@ -125,11 +135,14 @@
       "name": "Bruno Bernar",
       "nation": "SUI",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 70,
@@ -156,6 +169,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -183,18 +199,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 67,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 70,
-        "pos": 64,
-        "sho": 62,
+        "dri": 60,
+        "ldr": 65,
+        "pac": 58,
+        "pas": 69,
+        "pos": 68,
+        "sho": 56,
         "sta": 67,
-        "str": 64,
-        "tac": 65,
-        "vis": 68
+        "str": 69,
+        "tac": 71,
+        "vis": 65
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -205,7 +221,7 @@
       "nation": "GER",
       "nation2": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 7500
     },
@@ -217,7 +233,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 63,
         "sta": 59,
         "str": 60,
@@ -236,6 +252,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -263,6 +282,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -342,17 +364,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 59,
-        "dri": 59,
+        "aer": 59,
+        "com": 67,
+        "dri": 64,
         "ldr": 54,
-        "pac": 53,
+        "pac": 61,
         "pas": 60,
-        "pos": 57,
-        "sho": 55,
+        "pos": 65,
+        "sho": 63,
         "sta": 64,
-        "str": 51,
+        "str": 59,
         "tac": 58,
         "vis": 62
       },
@@ -364,7 +391,7 @@
       "name": "Abder Remdane",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4000
     },
     {
@@ -447,6 +474,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -499,6 +529,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -561,7 +594,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 49,
-        "pos": 32,
+        "pos": 52,
         "sho": 61,
         "sta": 48,
         "str": 54,
@@ -607,6 +640,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 53,
@@ -660,6 +696,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -714,6 +753,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 53,
@@ -801,7 +843,7 @@
         "ldr": 38,
         "pac": 48,
         "pas": 38,
-        "pos": 24,
+        "pos": 44,
         "sho": 47,
         "sta": 45,
         "str": 49,

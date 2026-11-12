@@ -77,9 +77,6 @@
       "wage": 185500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 78,
         "com": 77,
@@ -133,6 +130,9 @@
       "wage": 165500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -160,6 +160,10 @@
       "wage": 241500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -187,6 +191,9 @@
       "wage": 260500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 83,
         "com": 89,
@@ -194,7 +201,7 @@
         "ldr": 78,
         "pac": 86,
         "pas": 75,
-        "pos": 60,
+        "pos": 80,
         "sho": 89,
         "sta": 80,
         "str": 83,
@@ -213,7 +220,11 @@
       "wage": 292000
     },
     {
-      "alt": [],
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 77,
         "com": 83,
@@ -221,7 +232,7 @@
         "ldr": 73,
         "pac": 79,
         "pas": 74,
-        "pos": 59,
+        "pos": 79,
         "sho": 80,
         "sta": 73,
         "str": 81,
@@ -241,19 +252,22 @@
       "wage": 165500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 83,
-        "dri": 78,
-        "ldr": 71,
-        "pac": 82,
-        "pas": 75,
-        "pos": 58,
-        "sho": 80,
-        "sta": 78,
-        "str": 83,
-        "tac": 52,
-        "vis": 75
+        "aer": 61,
+        "com": 80,
+        "dri": 83,
+        "ldr": 69,
+        "pac": 86,
+        "pas": 81,
+        "pos": 60,
+        "sho": 75,
+        "sta": 80,
+        "str": 73,
+        "tac": 58,
+        "vis": 81
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -263,7 +277,7 @@
       "name": "Douglas Coste",
       "nation": "BRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 182000
     },
     {
@@ -289,10 +303,13 @@
       "name": "Alex Sandru",
       "nation": "BRA",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 178500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 77,
@@ -346,19 +363,23 @@
       "wage": 84500
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
-        "aer": 79,
-        "com": 82,
-        "dri": 78,
-        "ldr": 75,
-        "pac": 82,
-        "pas": 69,
-        "pos": 55,
-        "sho": 80,
-        "sta": 75,
-        "str": 81,
-        "tac": 47,
-        "vis": 69
+        "aer": 65,
+        "com": 79,
+        "dri": 83,
+        "ldr": 73,
+        "pac": 86,
+        "pas": 75,
+        "pos": 57,
+        "sho": 75,
+        "sta": 77,
+        "str": 71,
+        "tac": 53,
+        "vis": 75
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -368,7 +389,7 @@
       "name": "Juan Cuedrado",
       "nation": "COL",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 153500
     },
     {
@@ -379,7 +400,7 @@
         "ldr": 72,
         "pac": 83,
         "pas": 74,
-        "pos": 56,
+        "pos": 76,
         "sho": 84,
         "sta": 75,
         "str": 77,
@@ -405,7 +426,7 @@
         "ldr": 60,
         "pac": 67,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 70,
         "sta": 65,
         "str": 71,
@@ -424,9 +445,6 @@
       "wage": 44500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 81,
         "com": 80,
@@ -453,6 +471,9 @@
       "wage": 211500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 77,
@@ -531,19 +552,22 @@
       "wage": 173500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 81,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 73,
-        "pas": 83,
-        "pos": 78,
-        "sho": 71,
+        "dri": 71,
+        "ldr": 75,
+        "pac": 70,
+        "pas": 82,
+        "pos": 82,
+        "sho": 65,
         "sta": 83,
-        "str": 76,
-        "tac": 76,
-        "vis": 79
+        "str": 81,
+        "tac": 82,
+        "vis": 76
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -554,10 +578,14 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 232500
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 80,
         "com": 71,
@@ -584,6 +612,10 @@
       "wage": 105000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 75,
@@ -610,19 +642,23 @@
       "wage": 127000
     },
     {
+      "alt": [
+        "RM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 81,
-        "dri": 75,
-        "ldr": 70,
-        "pac": 77,
-        "pas": 67,
-        "pos": 55,
-        "sho": 83,
-        "sta": 73,
-        "str": 75,
-        "tac": 50,
-        "vis": 70
+        "aer": 63,
+        "com": 78,
+        "dri": 80,
+        "ldr": 68,
+        "pac": 81,
+        "pas": 73,
+        "pos": 57,
+        "sho": 78,
+        "sta": 75,
+        "str": 65,
+        "tac": 56,
+        "vis": 76
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -632,26 +668,23 @@
       "name": "Federico Bernerdeschi",
       "nation": "ITA",
       "number": 33,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 128500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 78,
-        "com": 78,
-        "dri": 61,
-        "ldr": 79,
-        "pac": 71,
-        "pas": 68,
-        "pos": 79,
-        "sho": 53,
-        "sta": 73,
-        "str": 81,
-        "tac": 81,
-        "vis": 66
+        "aer": 65,
+        "com": 76,
+        "dri": 71,
+        "ldr": 75,
+        "pac": 79,
+        "pas": 72,
+        "pos": 74,
+        "sho": 60,
+        "sta": 79,
+        "str": 73,
+        "tac": 78,
+        "vis": 72
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -661,7 +694,7 @@
       "name": "Leonardo Spinazzole",
       "nation": "ITA",
       "number": 37,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 148000
     }
   ],

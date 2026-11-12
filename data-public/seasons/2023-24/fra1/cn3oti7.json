@@ -51,6 +51,9 @@
       "wage": 137500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 56,
@@ -99,7 +102,7 @@
       "name": "Nicolas Tagliafyco",
       "nation": "ARG",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 147500
     },
     {
@@ -130,18 +133,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 60,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 61,
-        "pas": 62,
-        "pos": 59,
-        "sho": 57,
+        "dri": 58,
+        "ldr": 60,
+        "pac": 58,
+        "pas": 61,
+        "pos": 63,
+        "sho": 51,
         "sta": 65,
-        "str": 55,
-        "tac": 58,
-        "vis": 61
+        "str": 60,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -151,10 +154,14 @@
       "name": "Maxence Caquaret",
       "nation": "FRA",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 50500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 76,
@@ -188,7 +195,7 @@
         "ldr": 73,
         "pac": 78,
         "pas": 68,
-        "pos": 53,
+        "pos": 73,
         "sho": 80,
         "sta": 71,
         "str": 79,
@@ -207,19 +214,23 @@
       "wage": 147500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 65,
-        "dri": 68,
-        "ldr": 63,
-        "pac": 66,
-        "pas": 60,
-        "pos": 43,
-        "sho": 68,
-        "sta": 60,
-        "str": 66,
-        "tac": 35,
-        "vis": 59
+        "aer": 48,
+        "com": 62,
+        "dri": 73,
+        "ldr": 61,
+        "pac": 70,
+        "pas": 66,
+        "pos": 45,
+        "sho": 63,
+        "sta": 62,
+        "str": 56,
+        "tac": 41,
+        "vis": 65
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -229,7 +240,7 @@
       "name": "Tino Kadeware",
       "nation": "ZIM",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 51000
     },
     {
@@ -285,19 +296,23 @@
       "wage": 43000
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 67,
-        "dri": 69,
-        "ldr": 59,
-        "pac": 70,
-        "pas": 60,
-        "pos": 49,
-        "sho": 73,
-        "sta": 66,
-        "str": 66,
-        "tac": 37,
-        "vis": 57
+        "aer": 51,
+        "com": 64,
+        "dri": 74,
+        "ldr": 57,
+        "pac": 74,
+        "pas": 66,
+        "pos": 51,
+        "sho": 68,
+        "sta": 68,
+        "str": 56,
+        "tac": 43,
+        "vis": 63
       },
       "birth": "2003-08-01",
       "contract": null,
@@ -307,7 +322,7 @@
       "name": "Rayan Cherky",
       "nation": "FRA",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 63500
     },
     {
@@ -338,18 +353,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 65,
-        "dri": 48,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 58,
-        "pos": 69,
-        "sho": 37,
-        "sta": 62,
-        "str": 66,
-        "tac": 64,
-        "vis": 49
+        "aer": 51,
+        "com": 63,
+        "dri": 58,
+        "ldr": 59,
+        "pac": 69,
+        "pas": 62,
+        "pos": 64,
+        "sho": 44,
+        "sta": 68,
+        "str": 58,
+        "tac": 61,
+        "vis": 55
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -359,23 +374,23 @@
       "name": "Henryque",
       "nation": "BRA",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 47000
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 66,
-        "dri": 52,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 58,
-        "pos": 68,
-        "sho": 36,
-        "sta": 58,
-        "str": 65,
-        "tac": 69,
-        "vis": 49
+        "aer": 57,
+        "com": 64,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 62,
+        "pos": 63,
+        "sho": 43,
+        "sta": 64,
+        "str": 57,
+        "tac": 66,
+        "vis": 55
       },
       "birth": "1992-11-01",
       "contract": null,
@@ -386,13 +401,10 @@
       "nation": "ANG",
       "nation2": "BEL",
       "number": 22,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 49000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 53,
         "com": 57,
@@ -446,19 +458,22 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 58,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 61,
-        "pas": 51,
-        "pos": 38,
-        "sho": 64,
-        "sta": 57,
-        "str": 61,
-        "tac": 29,
-        "vis": 53
+        "aer": 42,
+        "com": 55,
+        "dri": 60,
+        "ldr": 51,
+        "pac": 65,
+        "pas": 57,
+        "pos": 40,
+        "sho": 59,
+        "sta": 59,
+        "str": 51,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "2003-11-01",
       "contract": null,
@@ -469,23 +484,26 @@
       "name": "Ernest Nuemah",
       "nation": "GHA",
       "number": 37,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 24000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 59,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 61,
-        "pas": 50,
-        "pos": 40,
-        "sho": 61,
-        "sta": 58,
-        "str": 60,
-        "tac": 33,
-        "vis": 51
+        "aer": 48,
+        "com": 56,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 65,
+        "pas": 56,
+        "pos": 42,
+        "sho": 56,
+        "sta": 60,
+        "str": 50,
+        "tac": 39,
+        "vis": 57
       },
       "birth": "1999-12-01",
       "contract": null,
@@ -495,7 +513,7 @@
       "name": "Jeffinhu",
       "nation": "BRA",
       "number": 47,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 27000
     },
     {
@@ -526,6 +544,10 @@
       "wage": 147500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 72,
@@ -552,19 +574,22 @@
       "wage": 92500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 41,
-        "com": 56,
-        "dri": 54,
-        "ldr": 50,
-        "pac": 46,
-        "pas": 55,
-        "pos": 55,
-        "sho": 45,
-        "sta": 53,
-        "str": 52,
-        "tac": 52,
-        "vis": 54
+        "aer": 42,
+        "com": 58,
+        "dri": 56,
+        "ldr": 51,
+        "pac": 47,
+        "pas": 57,
+        "pos": 56,
+        "sho": 47,
+        "sta": 55,
+        "str": 53,
+        "tac": 53,
+        "vis": 56
       },
       "birth": "2002-05-01",
       "contract": null,
@@ -579,6 +604,9 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,
@@ -608,17 +636,17 @@
       "alt": [],
       "attrs": {
         "aer": 66,
-        "com": 76,
-        "dri": 74,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 76,
+        "com": 72,
+        "dri": 72,
+        "ldr": 68,
+        "pac": 76,
+        "pas": 70,
         "pos": 71,
-        "sho": 69,
+        "sho": 55,
         "sta": 78,
-        "str": 74,
-        "tac": 74,
-        "vis": 76
+        "str": 73,
+        "tac": 78,
+        "vis": 67
       },
       "birth": "1997-08-01",
       "contract": null,
@@ -628,23 +656,27 @@
       "name": "Ainsley Maitland-Nyles",
       "nation": "ENG",
       "number": 98,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 147500
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 64,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 63,
-        "pas": 57,
-        "pos": 44,
-        "sho": 68,
-        "sta": 63,
-        "str": 68,
-        "tac": 38,
-        "vis": 55
+        "aer": 52,
+        "com": 61,
+        "dri": 70,
+        "ldr": 60,
+        "pac": 67,
+        "pas": 63,
+        "pos": 46,
+        "sho": 63,
+        "sta": 65,
+        "str": 58,
+        "tac": 44,
+        "vis": 61
       },
       "birth": "1995-11-01",
       "contract": null,
@@ -655,7 +687,7 @@
       "name": "Mama Balda",
       "nation": "GNB",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 50000
     }
   ],

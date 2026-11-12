@@ -130,6 +130,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -156,18 +159,23 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 63,
-        "dri": 55,
+        "aer": 49,
+        "com": 58,
+        "dri": 53,
         "ldr": 57,
-        "pac": 60,
-        "pas": 49,
-        "pos": 36,
-        "sho": 60,
-        "sta": 55,
-        "str": 62,
-        "tac": 33,
+        "pac": 62,
+        "pas": 53,
+        "pos": 56,
+        "sho": 37,
+        "sta": 61,
+        "str": 56,
+        "tac": 63,
         "vis": 55
       },
       "birth": "1986-09-01",
@@ -178,10 +186,13 @@
       "name": "Bernd Nahrig",
       "nation": "GER",
       "number": 7,
-      "pos": "ST",
+      "pos": "RB",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -215,7 +226,7 @@
         "ldr": 52,
         "pac": 58,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 56,
         "str": 59,
@@ -234,6 +245,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -267,7 +281,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 49,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 55,
         "str": 63,
@@ -287,18 +301,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 62,
-        "dri": 55,
-        "ldr": 52,
-        "pac": 51,
-        "pas": 58,
-        "pos": 54,
-        "sho": 56,
+        "dri": 51,
+        "ldr": 54,
+        "pac": 48,
+        "pas": 57,
+        "pos": 58,
+        "sho": 50,
         "sta": 60,
-        "str": 52,
-        "tac": 57,
-        "vis": 61
+        "str": 57,
+        "tac": 63,
+        "vis": 58
       },
       "birth": "1984-07-01",
       "contract": null,
@@ -308,22 +322,27 @@
       "name": "Martin Lenig",
       "nation": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 44,
+        "aer": 54,
         "com": 53,
         "dri": 52,
         "ldr": 54,
-        "pac": 49,
+        "pac": 59,
         "pas": 57,
-        "pos": 51,
+        "pos": 61,
         "sho": 51,
         "sta": 55,
-        "str": 49,
-        "tac": 54,
+        "str": 59,
+        "tac": 64,
         "vis": 59
       },
       "birth": "1976-05-01",
@@ -334,23 +353,26 @@
       "name": "Daniel Felganhauer",
       "nation": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 2500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 61,
-        "dri": 54,
-        "ldr": 56,
-        "pac": 52,
-        "pas": 61,
-        "pos": 59,
-        "sho": 54,
+        "dri": 50,
+        "ldr": 58,
+        "pac": 49,
+        "pas": 60,
+        "pos": 63,
+        "sho": 48,
         "sta": 63,
-        "str": 54,
-        "tac": 56,
-        "vis": 63
+        "str": 59,
+        "tac": 62,
+        "vis": 60
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -360,26 +382,27 @@
       "name": "Juri Jodt",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
       "alt": [
-        "RB"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 57,
-        "com": 62,
-        "dri": 61,
-        "ldr": 61,
-        "pac": 58,
+        "aer": 51,
+        "com": 63,
+        "dri": 65,
+        "ldr": 59,
+        "pac": 61,
         "pas": 67,
-        "pos": 63,
-        "sho": 61,
-        "sta": 64,
-        "str": 62,
-        "tac": 60,
-        "vis": 68
+        "pos": 48,
+        "sho": 67,
+        "sta": 58,
+        "str": 57,
+        "tac": 42,
+        "vis": 70
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -390,10 +413,13 @@
       "nation": "GER",
       "nation2": "PHI",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -427,7 +453,7 @@
         "ldr": 50,
         "pac": 52,
         "pas": 48,
-        "pos": 31,
+        "pos": 51,
         "sho": 58,
         "sta": 53,
         "str": 57,
@@ -446,6 +472,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,
@@ -498,19 +527,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 60,
-        "dri": 54,
-        "ldr": 50,
-        "pac": 53,
-        "pas": 48,
-        "pos": 37,
-        "sho": 62,
-        "sta": 53,
-        "str": 54,
-        "tac": 25,
-        "vis": 50
+        "aer": 42,
+        "com": 57,
+        "dri": 59,
+        "ldr": 48,
+        "pac": 57,
+        "pas": 54,
+        "pos": 39,
+        "sho": 57,
+        "sta": 55,
+        "str": 44,
+        "tac": 31,
+        "vis": 56
       },
       "birth": "1987-09-01",
       "contract": null,
@@ -520,7 +552,7 @@
       "name": "Nicolai Mullar",
       "nation": "GER",
       "number": 25,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 2000
     },
     {
@@ -584,7 +616,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 43,
-        "pos": 29,
+        "pos": 49,
         "sho": 52,
         "sta": 48,
         "str": 50,

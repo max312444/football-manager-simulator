@@ -103,18 +103,23 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 64,
+        "aer": 59,
+        "com": 65,
         "dri": 56,
         "ldr": 56,
-        "pac": 59,
+        "pac": 66,
         "pas": 62,
-        "pos": 56,
+        "pos": 64,
         "sho": 56,
         "sta": 62,
-        "str": 55,
-        "tac": 56,
+        "str": 63,
+        "tac": 64,
         "vis": 59
       },
       "birth": "1986-11-01",
@@ -125,10 +130,14 @@
       "name": "Robert Mullar",
       "nation": "GER",
       "number": 4,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -181,6 +190,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -207,18 +219,21 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 49,
         "dri": 50,
         "ldr": 48,
         "pac": 49,
-        "pas": 50,
+        "pas": 51,
         "pos": 49,
         "sho": 46,
-        "sta": 50,
+        "sta": 51,
         "str": 45,
-        "tac": 44,
+        "tac": 45,
         "vis": 52
       },
       "birth": "1991-10-01",
@@ -233,18 +248,23 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 47,
+        "aer": 67,
         "com": 50,
         "dri": 50,
         "ldr": 41,
         "pac": 47,
-        "pas": 42,
-        "pos": 29,
+        "pas": 62,
+        "pos": 69,
         "sho": 56,
         "sta": 44,
-        "str": 48,
-        "tac": 18,
+        "str": 68,
+        "tac": 38,
         "vis": 44
       },
       "birth": "1991-01-01",
@@ -255,7 +275,7 @@
       "name": "Lucas Albracht",
       "nation": "GER",
       "number": 9,
-      "pos": "ST",
+      "pos": "CB",
       "wage": 1000
     },
     {
@@ -266,7 +286,7 @@
         "ldr": 47,
         "pac": 55,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 49,
         "str": 55,
@@ -286,21 +306,23 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 64,
+        "aer": 53,
+        "com": 70,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 67,
         "pas": 69,
-        "pos": 68,
-        "sho": 65,
-        "sta": 67,
-        "str": 60,
-        "tac": 63,
-        "vis": 67
+        "pos": 53,
+        "sho": 71,
+        "sta": 61,
+        "str": 55,
+        "tac": 45,
+        "vis": 69
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -310,10 +332,15 @@
       "name": "Marek Mintel",
       "nation": "SVK",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 50,
@@ -340,6 +367,10 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 50,
@@ -366,18 +397,23 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 51,
+        "aer": 61,
         "com": 55,
         "dri": 55,
         "ldr": 55,
-        "pac": 50,
+        "pac": 60,
         "pas": 62,
-        "pos": 58,
+        "pos": 68,
         "sho": 49,
         "sta": 63,
-        "str": 52,
-        "tac": 57,
+        "str": 62,
+        "tac": 67,
         "vis": 59
       },
       "birth": "1980-12-01",
@@ -388,7 +424,7 @@
       "name": "Dexter Langan",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 4500
     },
     {
@@ -414,7 +450,7 @@
       "name": "Timo Perthal",
       "nation": "GER",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -445,18 +481,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 50,
-        "ldr": 54,
-        "pac": 50,
-        "pas": 55,
-        "pos": 50,
-        "sho": 50,
-        "sta": 59,
-        "str": 49,
-        "tac": 48,
-        "vis": 54
+        "aer": 60,
+        "com": 53,
+        "dri": 38,
+        "ldr": 56,
+        "pac": 49,
+        "pas": 45,
+        "pos": 55,
+        "sho": 29,
+        "sta": 53,
+        "str": 56,
+        "tac": 55,
+        "vis": 39
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -466,10 +502,13 @@
       "name": "Michael Blom",
       "nation": "GER",
       "number": 21,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 3000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 45,
         "com": 53,
@@ -492,10 +531,13 @@
       "name": "Sebastian Pelzar",
       "nation": "GER",
       "number": 25,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -529,7 +571,7 @@
         "ldr": 51,
         "pac": 60,
         "pas": 54,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 56,
         "str": 62,
@@ -549,18 +591,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 50,
-        "dri": 48,
-        "ldr": 51,
-        "pac": 45,
+        "aer": 38,
+        "com": 51,
+        "dri": 52,
+        "ldr": 49,
+        "pac": 48,
         "pas": 51,
-        "pos": 52,
-        "sho": 43,
-        "sta": 55,
-        "str": 49,
-        "tac": 49,
-        "vis": 50
+        "pos": 37,
+        "sho": 49,
+        "sta": 49,
+        "str": 44,
+        "tac": 31,
+        "vis": 52
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -570,7 +612,7 @@
       "name": "Tobias Janicka",
       "nation": "GER",
       "number": 29,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 2000
     },
     {
@@ -607,7 +649,7 @@
         "ldr": 46,
         "pac": 54,
         "pas": 47,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 51,
         "str": 53,

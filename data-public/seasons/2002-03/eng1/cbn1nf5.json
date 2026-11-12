@@ -45,16 +45,19 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 71,
-        "dri": 60,
+        "dri": 66,
         "ldr": 73,
-        "pac": 61,
+        "pac": 67,
         "pas": 68,
         "pos": 72,
         "sho": 54,
-        "sta": 71,
+        "sta": 77,
         "str": 68,
         "tac": 72,
         "vis": 59
@@ -74,9 +77,6 @@
       "wage": 40000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 68,
@@ -109,17 +109,17 @@
       ],
       "attrs": {
         "aer": 57,
-        "com": 71,
-        "dri": 61,
+        "com": 78,
+        "dri": 68,
         "ldr": 69,
         "pac": 52,
-        "pas": 69,
+        "pas": 76,
         "pos": 71,
-        "sho": 51,
-        "sta": 70,
+        "sho": 58,
+        "sta": 77,
         "str": 66,
         "tac": 71,
-        "vis": 67
+        "vis": 74
       },
       "birth": "1969-01-01",
       "contract": "2004-06-30",
@@ -190,21 +190,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
-        "com": 66,
-        "dri": 64,
+        "com": 69,
+        "dri": 67,
         "ldr": 59,
         "pac": 63,
-        "pas": 70,
+        "pas": 73,
         "pos": 67,
-        "sho": 57,
-        "sta": 78,
+        "sho": 60,
+        "sta": 81,
         "str": 65,
         "tac": 68,
-        "vis": 65
+        "vis": 68
       },
       "birth": "1977-08-01",
       "contract": "2005-06-30",
@@ -248,7 +248,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 49,
@@ -272,21 +272,24 @@
       "name": "Fabrice Fernandas",
       "nation": "FRA",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 19000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
-        "dri": 48,
+        "dri": 55,
         "ldr": 63,
-        "pac": 59,
-        "pas": 52,
+        "pac": 66,
+        "pas": 59,
         "pos": 71,
         "sho": 30,
-        "sta": 69,
+        "sta": 76,
         "str": 67,
         "tac": 72,
         "vis": 43
@@ -332,8 +335,7 @@
     },
     {
       "alt": [
-        "AM",
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 55,
@@ -365,10 +367,6 @@
       "wage": 37000
     },
     {
-      "alt": [
-        "RB",
-        "CM"
-      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -391,22 +389,22 @@
       "name": "Paul Telfar",
       "nation": "SCO",
       "number": 16,
-      "pos": "RM",
+      "pos": "RB",
       "verify": true,
       "wage": 27500
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 55,
+        "aer": 62,
+        "com": 58,
         "dri": 61,
         "ldr": 45,
         "pac": 73,
         "pas": 55,
-        "pos": 49,
-        "sho": 63,
+        "pos": 52,
+        "sho": 66,
         "sta": 75,
-        "str": 63,
+        "str": 66,
         "tac": 39,
         "vis": 49
       },
@@ -424,21 +422,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 67,
         "com": 62,
-        "dri": 63,
+        "dri": 69,
         "ldr": 56,
         "pac": 69,
-        "pas": 63,
+        "pas": 69,
         "pos": 63,
-        "sho": 57,
-        "sta": 80,
+        "sho": 63,
+        "sta": 86,
         "str": 75,
         "tac": 66,
-        "vis": 56
+        "vis": 62
       },
       "birth": "1976-07-01",
       "contract": "2005-06-30",
@@ -454,16 +454,16 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 70,
+        "aer": 60,
+        "com": 81,
         "dri": 76,
         "ldr": 49,
         "pac": 80,
         "pas": 64,
-        "pos": 48,
-        "sho": 75,
+        "pos": 59,
+        "sho": 86,
         "sta": 69,
-        "str": 56,
+        "str": 67,
         "tac": 33,
         "vis": 64
       },
@@ -511,7 +511,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 70,
@@ -541,7 +543,9 @@
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 74,
@@ -601,7 +605,9 @@
     },
     {
       "alt": [
-        "DM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 72,

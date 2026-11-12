@@ -31,7 +31,7 @@
         "ldr": 70,
         "pac": 77,
         "pas": 72,
-        "pos": 55,
+        "pos": 75,
         "sho": 80,
         "sta": 70,
         "str": 74,
@@ -77,18 +77,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 74,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 71,
-        "pas": 79,
-        "pos": 72,
-        "sho": 69,
-        "sta": 74,
-        "str": 72,
-        "tac": 71,
-        "vis": 76
+        "aer": 60,
+        "com": 72,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 80,
+        "pas": 75,
+        "pos": 54,
+        "sho": 73,
+        "sta": 70,
+        "str": 67,
+        "tac": 51,
+        "vis": 73
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -98,7 +98,7 @@
       "name": "Edgar Alverez",
       "nation": "HON",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 19000
     },
@@ -130,6 +130,11 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 68,
         "com": 73,
@@ -137,7 +142,7 @@
         "ldr": 66,
         "pac": 69,
         "pas": 61,
-        "pos": 50,
+        "pos": 70,
         "sho": 71,
         "sta": 67,
         "str": 74,
@@ -156,6 +161,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 74,
@@ -182,19 +190,22 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 67,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 67,
-        "pas": 72,
-        "pos": 69,
-        "sho": 63,
-        "sta": 72,
-        "str": 67,
-        "tac": 63,
-        "vis": 71
+        "aer": 51,
+        "com": 65,
+        "dri": 71,
+        "ldr": 63,
+        "pac": 76,
+        "pas": 68,
+        "pos": 51,
+        "sho": 67,
+        "sta": 68,
+        "str": 62,
+        "tac": 43,
+        "vis": 68
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -204,24 +215,24 @@
       "name": "Mauro Esposyto",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 17000
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 70,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 61,
+        "aer": 52,
+        "com": 71,
+        "dri": 69,
+        "ldr": 62,
+        "pac": 64,
         "pas": 71,
-        "pos": 66,
-        "sho": 63,
-        "sta": 72,
-        "str": 63,
-        "tac": 62,
-        "vis": 67
+        "pos": 51,
+        "sho": 69,
+        "sta": 66,
+        "str": 58,
+        "tac": 44,
+        "vis": 69
       },
       "birth": "1973-03-01",
       "contract": null,
@@ -231,10 +242,13 @@
       "name": "Massimo Brembilla",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
@@ -268,7 +282,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 73,
         "sta": 64,
         "str": 70,
@@ -295,7 +309,7 @@
         "ldr": 64,
         "pac": 70,
         "pas": 58,
-        "pos": 47,
+        "pos": 67,
         "sho": 69,
         "sta": 66,
         "str": 65,
@@ -316,18 +330,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 65,
-        "dri": 54,
-        "ldr": 67,
-        "pac": 59,
-        "pas": 55,
-        "pos": 69,
-        "sho": 38,
-        "sta": 61,
-        "str": 67,
-        "tac": 70,
-        "vis": 53
+        "aer": 53,
+        "com": 63,
+        "dri": 64,
+        "ldr": 63,
+        "pac": 67,
+        "pas": 59,
+        "pos": 64,
+        "sho": 45,
+        "sta": 67,
+        "str": 59,
+        "tac": 67,
+        "vis": 59
       },
       "birth": "1979-07-01",
       "contract": null,
@@ -337,24 +351,28 @@
       "name": "Alessandro Agostyni",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 8500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 66,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 63,
-        "pas": 55,
-        "pos": 45,
-        "sho": 69,
-        "sta": 64,
-        "str": 65,
-        "tac": 34,
-        "vis": 58
+        "aer": 47,
+        "com": 63,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 61,
+        "pos": 47,
+        "sho": 64,
+        "sta": 66,
+        "str": 55,
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -364,7 +382,7 @@
       "name": "Antonio Lengella",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6500
     },
     {
@@ -394,6 +412,11 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 64,
@@ -474,6 +497,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -527,6 +553,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -603,11 +632,14 @@
       "name": "Fabio Macallari",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 56,
@@ -636,18 +668,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 53,
-        "dri": 41,
-        "ldr": 54,
-        "pac": 51,
-        "pas": 48,
-        "pos": 56,
-        "sho": 26,
-        "sta": 50,
-        "str": 55,
-        "tac": 58,
-        "vis": 45
+        "aer": 43,
+        "com": 51,
+        "dri": 51,
+        "ldr": 50,
+        "pac": 59,
+        "pas": 52,
+        "pos": 51,
+        "sho": 33,
+        "sta": 56,
+        "str": 47,
+        "tac": 55,
+        "vis": 51
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -657,23 +689,26 @@
       "name": "Francesco Piseno",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 55,
         "dri": 57,
         "ldr": 51,
         "pac": 51,
-        "pas": 57,
+        "pas": 58,
         "pos": 52,
         "sho": 53,
-        "sta": 55,
+        "sta": 56,
         "str": 48,
-        "tac": 50,
+        "tac": 51,
         "vis": 59
       },
       "birth": "1971-04-01",
@@ -821,6 +856,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 49,

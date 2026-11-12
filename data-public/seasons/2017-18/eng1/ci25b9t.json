@@ -125,6 +125,10 @@
       "wage": 80000
     },
     {
+      "alt": [
+        "LWB",
+        "CB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -154,13 +158,13 @@
       "attrs": {
         "aer": 68,
         "com": 75,
-        "dri": 63,
+        "dri": 70,
         "ldr": 73,
-        "pac": 64,
+        "pac": 71,
         "pas": 73,
         "pos": 72,
         "sho": 58,
-        "sta": 74,
+        "sta": 81,
         "str": 75,
         "tac": 72,
         "vis": 65
@@ -326,6 +330,11 @@
       "wage": 74500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 60,
@@ -357,17 +366,17 @@
     {
       "attrs": {
         "aer": 68,
-        "com": 70,
+        "com": 71,
         "dri": 64,
         "ldr": 64,
         "pac": 71,
-        "pas": 68,
-        "pos": 76,
+        "pas": 69,
+        "pos": 77,
         "sho": 52,
         "sta": 85,
-        "str": 78,
-        "tac": 84,
-        "vis": 60
+        "str": 79,
+        "tac": 85,
+        "vis": 61
       },
       "birth": "1996-12-01",
       "contract": "2022-06-30",
@@ -386,17 +395,17 @@
     {
       "attrs": {
         "aer": 78,
-        "com": 70,
+        "com": 72,
         "dri": 62,
         "ldr": 65,
         "pac": 51,
-        "pas": 70,
+        "pas": 72,
         "pos": 70,
         "sho": 62,
-        "sta": 71,
+        "sta": 73,
         "str": 80,
         "tac": 70,
-        "vis": 64
+        "vis": 66
       },
       "birth": "1988-01-01",
       "contract": "2021-06-30",
@@ -406,23 +415,26 @@
       "name": "Vicente Iborre",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 130000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 67,
-        "dri": 65,
+        "com": 68,
+        "dri": 66,
         "ldr": 56,
         "pac": 65,
-        "pas": 73,
+        "pas": 74,
         "pos": 67,
-        "sho": 61,
-        "sta": 73,
+        "sho": 62,
+        "sta": 74,
         "str": 66,
         "tac": 69,
-        "vis": 67
+        "vis": 68
       },
       "birth": "1991-07-01",
       "contract": "2019-06-30",
@@ -439,19 +451,22 @@
       "wage": 102500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 68,
-        "dri": 64,
+        "com": 70,
+        "dri": 66,
         "ldr": 68,
         "pac": 57,
-        "pas": 68,
+        "pas": 70,
         "pos": 68,
-        "sho": 64,
-        "sta": 75,
+        "sho": 66,
+        "sta": 77,
         "str": 67,
         "tac": 64,
-        "vis": 64
+        "vis": 66
       },
       "birth": "1988-10-01",
       "contract": "2019-06-30",
@@ -465,15 +480,20 @@
       "wage": 105500
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 71,
-        "dri": 70,
+        "com": 77,
+        "dri": 76,
         "ldr": 64,
-        "pac": 71,
+        "pac": 77,
         "pas": 78,
         "pos": 65,
-        "sho": 62,
+        "sho": 68,
         "sta": 83,
         "str": 61,
         "tac": 56,
@@ -487,16 +507,16 @@
       "name": "Marc Albrightun",
       "nation": "ENG",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 121500
     },
     {
       "attrs": {
         "aer": 43,
         "com": 82,
-        "dri": 88,
+        "dri": 89,
         "ldr": 63,
-        "pac": 81,
+        "pac": 82,
         "pas": 82,
         "pos": 63,
         "sho": 80,
@@ -520,6 +540,9 @@
       "wage": 163000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 44,
         "com": 60,
@@ -547,16 +570,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 69,
+        "aer": 67,
+        "com": 70,
         "dri": 69,
         "ldr": 63,
         "pac": 69,
         "pas": 65,
-        "pos": 70,
-        "sho": 70,
+        "pos": 71,
+        "sho": 71,
         "sta": 83,
-        "str": 66,
+        "str": 67,
         "tac": 55,
         "vis": 64
       },
@@ -576,16 +599,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 80,
+        "aer": 59,
+        "com": 81,
         "dri": 75,
         "ldr": 70,
         "pac": 91,
         "pas": 65,
-        "pos": 74,
-        "sho": 85,
+        "pos": 75,
+        "sho": 86,
         "sta": 86,
-        "str": 69,
+        "str": 70,
         "tac": 46,
         "vis": 63
       },
@@ -606,16 +629,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 68,
+        "aer": 60,
+        "com": 69,
         "dri": 72,
         "ldr": 47,
         "pac": 73,
         "pas": 64,
-        "pos": 64,
-        "sho": 74,
+        "pos": 65,
+        "sho": 75,
         "sta": 67,
-        "str": 70,
+        "str": 71,
         "tac": 32,
         "vis": 62
       },
@@ -632,16 +655,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 77,
+        "aer": 66,
+        "com": 78,
         "dri": 70,
         "ldr": 69,
         "pac": 75,
         "pas": 66,
-        "pos": 51,
-        "sho": 78,
+        "pos": 52,
+        "sho": 79,
         "sta": 69,
-        "str": 73,
+        "str": 74,
         "tac": 44,
         "vis": 67
       },
@@ -657,6 +680,9 @@
       "wage": 119000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 46,
         "com": 67,

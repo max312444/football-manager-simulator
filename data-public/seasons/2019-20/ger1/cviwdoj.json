@@ -77,6 +77,9 @@
       "wage": 75500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 77,
@@ -103,6 +106,9 @@
       "wage": 83000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 71,
@@ -130,7 +136,7 @@
     },
     {
       "alt": [
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 74,
@@ -158,6 +164,9 @@
       "wage": 59500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 75,
@@ -184,7 +193,9 @@
       "wage": 103500
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -211,19 +222,23 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 76,
-        "dri": 73,
-        "ldr": 72,
-        "pac": 74,
-        "pas": 65,
-        "pos": 57,
-        "sho": 80,
-        "sta": 73,
-        "str": 78,
-        "tac": 48,
-        "vis": 70
+        "aer": 58,
+        "com": 73,
+        "dri": 78,
+        "ldr": 70,
+        "pac": 78,
+        "pas": 71,
+        "pos": 59,
+        "sho": 75,
+        "sta": 75,
+        "str": 68,
+        "tac": 54,
+        "vis": 76
       },
       "birth": "1985-08-01",
       "contract": null,
@@ -233,23 +248,27 @@
       "name": "Salomon Kaloo",
       "nation": "CIV",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 70000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 78,
-        "dri": 76,
-        "ldr": 69,
-        "pac": 73,
-        "pas": 69,
-        "pos": 55,
-        "sho": 80,
-        "sta": 70,
-        "str": 75,
-        "tac": 44,
-        "vis": 66
+        "aer": 57,
+        "com": 75,
+        "dri": 81,
+        "ldr": 67,
+        "pac": 77,
+        "pas": 75,
+        "pos": 57,
+        "sho": 75,
+        "sta": 72,
+        "str": 65,
+        "tac": 50,
+        "vis": 72
       },
       "birth": "1990-03-01",
       "contract": null,
@@ -259,10 +278,13 @@
       "name": "Alexander Esswain",
       "nation": "GER",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 62500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 78,
@@ -289,6 +311,11 @@
       "wage": 103500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 77,
@@ -315,6 +342,11 @@
       "wage": 103500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 61,
@@ -348,7 +380,7 @@
         "ldr": 55,
         "pac": 63,
         "pas": 56,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 62,
         "str": 64,
@@ -367,6 +399,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 77,
@@ -394,19 +429,22 @@
       "wage": 82000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 62,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 65,
-        "pos": 55,
-        "sho": 54,
-        "sta": 64,
-        "str": 54,
-        "tac": 53,
-        "vis": 60
+        "aer": 43,
+        "com": 60,
+        "dri": 65,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 61,
+        "pos": 37,
+        "sho": 58,
+        "sta": 60,
+        "str": 49,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -416,13 +454,12 @@
       "name": "Javairo Dilroson",
       "nation": "NED",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17000
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 73,
@@ -457,7 +494,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 63,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 70,
         "str": 74,
@@ -524,7 +561,7 @@
       "name": "Marvin Plattanhardt",
       "nation": "GER",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 90500
     },
     {
@@ -554,6 +591,9 @@
       "wage": 55500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -580,19 +620,22 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 60,
-        "dri": 53,
-        "ldr": 47,
-        "pac": 59,
-        "pas": 50,
-        "pos": 37,
-        "sho": 62,
-        "sta": 52,
-        "str": 54,
-        "tac": 28,
-        "vis": 48
+        "aer": 41,
+        "com": 57,
+        "dri": 58,
+        "ldr": 45,
+        "pac": 63,
+        "pas": 56,
+        "pos": 39,
+        "sho": 57,
+        "sta": 54,
+        "str": 44,
+        "tac": 34,
+        "vis": 54
       },
       "birth": "1999-04-01",
       "contract": null,
@@ -603,7 +646,7 @@
       "nation": "GER",
       "nation2": "HUN",
       "number": 24,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8000
     },
     {
@@ -633,6 +676,9 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -666,7 +712,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 65,
-        "pos": 53,
+        "pos": 73,
         "sho": 74,
         "sta": 71,
         "str": 77,
@@ -685,19 +731,22 @@
       "wage": 54000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 66,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 66,
-        "pas": 58,
-        "pos": 39,
-        "sho": 66,
-        "sta": 63,
-        "str": 65,
-        "tac": 37,
-        "vis": 53
+        "aer": 45,
+        "com": 63,
+        "dri": 68,
+        "ldr": 55,
+        "pac": 70,
+        "pas": 64,
+        "pos": 41,
+        "sho": 61,
+        "sta": 65,
+        "str": 55,
+        "tac": 43,
+        "vis": 59
       },
       "birth": "1997-09-01",
       "contract": null,
@@ -707,7 +756,7 @@
       "name": "Dodi Lokebakio",
       "nation": "BEL",
       "number": 28,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 17500
     },
     {
@@ -737,19 +786,22 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 56,
-        "dri": 49,
-        "ldr": 47,
-        "pac": 55,
-        "pas": 43,
-        "pos": 34,
-        "sho": 53,
-        "sta": 52,
-        "str": 51,
-        "tac": 22,
-        "vis": 43
+        "aer": 36,
+        "com": 53,
+        "dri": 54,
+        "ldr": 45,
+        "pac": 59,
+        "pas": 49,
+        "pos": 36,
+        "sho": 48,
+        "sta": 54,
+        "str": 41,
+        "tac": 28,
+        "vis": 49
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -759,7 +811,7 @@
       "name": "Dennis Jastrzembsky",
       "nation": "GER",
       "number": 32,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
@@ -770,7 +822,7 @@
         "ldr": 47,
         "pac": 51,
         "pas": 46,
-        "pos": 29,
+        "pos": 49,
         "sho": 57,
         "sta": 52,
         "str": 54,
@@ -796,7 +848,7 @@
         "ldr": 45,
         "pac": 48,
         "pas": 46,
-        "pos": 32,
+        "pos": 52,
         "sho": 55,
         "sta": 47,
         "str": 52,

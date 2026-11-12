@@ -130,6 +130,9 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 83,
         "com": 75,
@@ -156,6 +159,9 @@
       "wage": 72500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 77,
@@ -182,6 +188,11 @@
       "wage": 92000
     },
     {
+      "alt": [
+        "RW",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -215,7 +226,7 @@
         "ldr": 71,
         "pac": 73,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 73,
         "str": 78,
@@ -234,6 +245,9 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 83,
@@ -260,17 +274,22 @@
       "wage": 122500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 62,
+        "aer": 65,
+        "com": 74,
+        "dri": 65,
         "ldr": 62,
-        "pac": 64,
+        "pac": 70,
         "pas": 70,
-        "pos": 65,
-        "sho": 61,
+        "pos": 71,
+        "sho": 67,
         "sta": 65,
-        "str": 60,
+        "str": 66,
         "tac": 61,
         "vis": 68
       },
@@ -282,7 +301,7 @@
       "name": "Joaquin Corree",
       "nation": "ARG",
       "number": 11,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 32000
     },
     {
@@ -313,18 +332,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 68,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 67,
-        "pas": 70,
-        "pos": 67,
-        "sho": 62,
+        "dri": 66,
+        "ldr": 69,
+        "pac": 64,
+        "pas": 69,
+        "pos": 71,
+        "sho": 56,
         "sta": 70,
-        "str": 62,
-        "tac": 68,
-        "vis": 71
+        "str": 67,
+        "tac": 74,
+        "vis": 68
       },
       "birth": "1990-02-01",
       "contract": null,
@@ -335,13 +354,10 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 44500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 73,
         "com": 80,
@@ -368,19 +384,22 @@
       "wage": 122500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 69,
-        "com": 80,
-        "dri": 82,
-        "ldr": 77,
-        "pac": 76,
-        "pas": 80,
+        "com": 76,
+        "dri": 80,
+        "ldr": 75,
+        "pac": 83,
+        "pas": 74,
         "pos": 80,
-        "sho": 74,
+        "sho": 60,
         "sta": 81,
-        "str": 78,
-        "tac": 76,
-        "vis": 80
+        "str": 77,
+        "tac": 80,
+        "vis": 71
       },
       "birth": "1985-11-01",
       "contract": null,
@@ -390,12 +409,13 @@
       "name": "Jesus Nevas",
       "nation": "ESP",
       "number": 16,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 122500
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 63,
@@ -424,18 +444,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 70,
-        "dri": 57,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 62,
-        "pos": 76,
-        "sho": 41,
-        "sta": 63,
-        "str": 72,
-        "tac": 71,
-        "vis": 53
+        "aer": 59,
+        "com": 68,
+        "dri": 67,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 66,
+        "pos": 71,
+        "sho": 48,
+        "sta": 69,
+        "str": 64,
+        "tac": 68,
+        "vis": 59
       },
       "birth": "1989-09-01",
       "contract": null,
@@ -445,23 +465,23 @@
       "name": "Sergio Escuderu",
       "nation": "ESP",
       "number": 18,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 34000
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 79,
-        "dri": 76,
-        "ldr": 69,
-        "pac": 73,
+        "aer": 63,
+        "com": 80,
+        "dri": 80,
+        "ldr": 67,
+        "pac": 76,
         "pas": 81,
-        "pos": 72,
-        "sho": 73,
-        "sta": 80,
-        "str": 72,
-        "tac": 73,
-        "vis": 80
+        "pos": 57,
+        "sho": 79,
+        "sta": 74,
+        "str": 67,
+        "tac": 55,
+        "vis": 82
       },
       "birth": "1989-10-01",
       "contract": null,
@@ -471,10 +491,15 @@
       "name": "Paulo Henrique Gansu",
       "nation": "BRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 112000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 81,
         "com": 81,
@@ -482,7 +507,7 @@
         "ldr": 72,
         "pac": 82,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 86,
         "sta": 78,
         "str": 77,
@@ -501,9 +526,6 @@
       "wage": 98000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 75,
         "com": 66,
@@ -532,18 +554,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 73,
-        "dri": 67,
-        "ldr": 69,
-        "pac": 67,
+        "aer": 57,
+        "com": 74,
+        "dri": 71,
+        "ldr": 67,
+        "pac": 70,
         "pas": 75,
-        "pos": 67,
-        "sho": 62,
-        "sta": 73,
-        "str": 65,
-        "tac": 68,
-        "vis": 74
+        "pos": 52,
+        "sho": 68,
+        "sta": 67,
+        "str": 60,
+        "tac": 50,
+        "vis": 76
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -554,23 +576,23 @@
       "nation": "ITA",
       "nation2": "ARG",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 55500
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 62,
-        "dri": 57,
-        "ldr": 59,
-        "pac": 58,
+        "aer": 43,
+        "com": 63,
+        "dri": 61,
+        "ldr": 57,
+        "pac": 61,
         "pas": 63,
-        "pos": 55,
-        "sho": 56,
-        "sta": 65,
-        "str": 52,
-        "tac": 54,
-        "vis": 61
+        "pos": 40,
+        "sho": 62,
+        "sta": 59,
+        "str": 47,
+        "tac": 36,
+        "vis": 63
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -580,23 +602,27 @@
       "name": "Borja Lesso",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 79,
-        "dri": 77,
-        "ldr": 74,
-        "pac": 75,
-        "pas": 69,
-        "pos": 58,
-        "sho": 79,
-        "sta": 76,
-        "str": 75,
-        "tac": 46,
-        "vis": 71
+        "aer": 63,
+        "com": 76,
+        "dri": 82,
+        "ldr": 72,
+        "pac": 79,
+        "pas": 75,
+        "pos": 60,
+        "sho": 74,
+        "sta": 78,
+        "str": 65,
+        "tac": 52,
+        "vis": 77
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -606,7 +632,7 @@
       "name": "Nolitu",
       "nation": "ESP",
       "number": 24,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 76000
     },
     {
@@ -659,7 +685,7 @@
       "name": "Lionel Carola",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 41500
     }
   ],

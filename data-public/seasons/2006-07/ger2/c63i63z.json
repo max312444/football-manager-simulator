@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -50,17 +53,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 61,
-        "dri": 55,
+        "aer": 52,
+        "com": 66,
+        "dri": 59,
         "ldr": 56,
-        "pac": 53,
+        "pac": 58,
         "pas": 57,
-        "pos": 56,
-        "sho": 49,
+        "pos": 61,
+        "sho": 54,
         "sta": 59,
-        "str": 56,
+        "str": 61,
         "tac": 51,
         "vis": 57
       },
@@ -72,7 +80,7 @@
       "name": "Daniel Gref",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 3000
     },
     {
@@ -83,7 +91,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 53,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 54,
         "str": 61,
@@ -104,18 +112,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 58,
-        "dri": 42,
-        "ldr": 58,
-        "pac": 50,
-        "pas": 51,
-        "pos": 61,
-        "sho": 30,
-        "sta": 55,
-        "str": 61,
-        "tac": 57,
-        "vis": 46
+        "aer": 45,
+        "com": 56,
+        "dri": 52,
+        "ldr": 54,
+        "pac": 58,
+        "pas": 55,
+        "pos": 56,
+        "sho": 37,
+        "sta": 61,
+        "str": 53,
+        "tac": 54,
+        "vis": 52
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -125,7 +133,7 @@
       "name": "Dennis Brinkmenn",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2000
     },
     {
@@ -136,7 +144,7 @@
         "ldr": 48,
         "pac": 59,
         "pas": 46,
-        "pos": 32,
+        "pos": 52,
         "sho": 60,
         "sta": 49,
         "str": 58,
@@ -164,7 +172,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 52,
         "str": 57,
@@ -185,6 +193,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 58,
@@ -212,6 +223,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "ST"
+      ],
       "attrs": {
         "aer": 58,
         "com": 51,
@@ -266,6 +282,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -318,19 +337,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 54,
+        "com": 63,
         "dri": 39,
         "ldr": 50,
         "pac": 49,
-        "pas": 49,
+        "pas": 58,
         "pos": 57,
         "sho": 29,
-        "sta": 51,
+        "sta": 60,
         "str": 58,
         "tac": 61,
-        "vis": 41
+        "vis": 50
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -340,21 +364,26 @@
       "name": "Kosta Rodrygues",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 52,
-        "dri": 54,
+        "aer": 52,
+        "com": 61,
+        "dri": 59,
         "ldr": 52,
-        "pac": 47,
+        "pac": 56,
         "pas": 55,
-        "pos": 50,
-        "sho": 47,
+        "pos": 59,
+        "sho": 56,
         "sta": 58,
-        "str": 49,
+        "str": 58,
         "tac": 49,
         "vis": 57
       },
@@ -366,10 +395,13 @@
       "name": "Lars Fochs",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -396,6 +428,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -455,7 +490,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 55,
         "sta": 53,
         "str": 51,
@@ -482,7 +517,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 44,
-        "pos": 31,
+        "pos": 51,
         "sho": 54,
         "sta": 52,
         "str": 57,
@@ -502,6 +537,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 55,
@@ -562,7 +600,7 @@
         "ldr": 44,
         "pac": 53,
         "pas": 45,
-        "pos": 33,
+        "pos": 53,
         "sho": 55,
         "sta": 48,
         "str": 56,
@@ -581,6 +619,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 52,
@@ -607,19 +648,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 50,
-        "dri": 48,
-        "ldr": 49,
-        "pac": 48,
-        "pas": 53,
-        "pos": 53,
-        "sho": 46,
-        "sta": 57,
-        "str": 46,
-        "tac": 52,
-        "vis": 54
+        "aer": 44,
+        "com": 52,
+        "dri": 50,
+        "ldr": 50,
+        "pac": 49,
+        "pas": 55,
+        "pos": 54,
+        "sho": 48,
+        "sta": 59,
+        "str": 47,
+        "tac": 53,
+        "vis": 56
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -661,18 +705,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 53,
-        "dri": 51,
-        "ldr": 48,
-        "pac": 50,
-        "pas": 54,
-        "pos": 53,
-        "sho": 45,
-        "sta": 56,
-        "str": 50,
-        "tac": 50,
-        "vis": 50
+        "aer": 44,
+        "com": 55,
+        "dri": 53,
+        "ldr": 49,
+        "pac": 51,
+        "pas": 56,
+        "pos": 54,
+        "sho": 47,
+        "sta": 58,
+        "str": 51,
+        "tac": 51,
+        "vis": 52
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -694,7 +738,7 @@
         "ldr": 49,
         "pac": 50,
         "pas": 44,
-        "pos": 33,
+        "pos": 53,
         "sho": 53,
         "sta": 51,
         "str": 51,
@@ -714,19 +758,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 48,
+        "com": 58,
         "dri": 35,
         "ldr": 51,
         "pac": 48,
-        "pas": 44,
+        "pas": 54,
         "pos": 57,
         "sho": 24,
-        "sta": 47,
+        "sta": 57,
         "str": 51,
         "tac": 56,
-        "vis": 35
+        "vis": 45
       },
       "birth": "1983-08-01",
       "contract": null,
@@ -736,7 +785,7 @@
       "name": "Finn Holsyng",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1000
     },
     {

@@ -97,6 +97,9 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 66,
@@ -123,16 +126,19 @@
       "wage": 68000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 61,
-        "dri": 53,
+        "dri": 62,
         "ldr": 55,
-        "pac": 59,
-        "pas": 59,
+        "pac": 68,
+        "pas": 68,
         "pos": 65,
         "sho": 39,
-        "sta": 65,
+        "sta": 74,
         "str": 72,
         "tac": 69,
         "vis": 49
@@ -154,13 +160,13 @@
         "com": 65,
         "dri": 75,
         "ldr": 57,
-        "pac": 82,
+        "pac": 85,
         "pas": 71,
-        "pos": 61,
+        "pos": 65,
         "sho": 67,
-        "sta": 78,
-        "str": 66,
-        "tac": 67,
+        "sta": 79,
+        "str": 70,
+        "tac": 71,
         "vis": 63
       },
       "birth": "1990-08-01",
@@ -291,19 +297,24 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 59,
+        "com": 61,
         "dri": 61,
         "ldr": 49,
         "pac": 62,
-        "pas": 64,
-        "pos": 59,
+        "pas": 66,
+        "pos": 61,
         "sho": 44,
         "sta": 65,
-        "str": 64,
-        "tac": 63,
-        "vis": 57
+        "str": 66,
+        "tac": 65,
+        "vis": 59
       },
       "birth": "1996-09-01",
       "contract": "2022-06-30",
@@ -313,10 +324,13 @@
       "name": "Jairo Riedeweld",
       "nation": "NED",
       "number": 44,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 36000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 78,
@@ -346,19 +360,22 @@
       "wage": 129000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 74,
-        "com": 68,
+        "com": 70,
         "dri": 64,
         "ldr": 71,
         "pac": 63,
-        "pas": 68,
+        "pas": 70,
         "pos": 71,
         "sho": 55,
-        "sta": 79,
+        "sta": 81,
         "str": 80,
         "tac": 76,
-        "vis": 61
+        "vis": 63
       },
       "birth": "1989-12-01",
       "contract": "2021-06-30",
@@ -372,19 +389,23 @@
       "wage": 118000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 71,
-        "dri": 67,
+        "com": 72,
+        "dri": 68,
         "ldr": 69,
         "pac": 61,
-        "pas": 72,
+        "pas": 73,
         "pos": 71,
-        "sho": 65,
-        "sta": 80,
+        "sho": 66,
+        "sta": 81,
         "str": 66,
         "tac": 69,
-        "vis": 68
+        "vis": 69
       },
       "birth": "1987-10-01",
       "contract": "2022-06-30",
@@ -401,19 +422,23 @@
       "wage": 107500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 69,
-        "dri": 67,
+        "com": 74,
+        "dri": 72,
         "ldr": 61,
         "pac": 64,
-        "pas": 73,
+        "pas": 78,
         "pos": 71,
-        "sho": 55,
-        "sta": 78,
+        "sho": 60,
+        "sta": 83,
         "str": 68,
         "tac": 73,
-        "vis": 65
+        "vis": 70
       },
       "birth": "1990-11-01",
       "contract": "2022-06-30",
@@ -456,6 +481,11 @@
       "wage": 63500
     },
     {
+      "alt": [
+        "LWB",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -463,11 +493,11 @@
         "ldr": 53,
         "pac": 78,
         "pas": 66,
-        "pos": 61,
+        "pos": 63,
         "sho": 60,
-        "sta": 73,
-        "str": 65,
-        "tac": 60,
+        "sta": 75,
+        "str": 67,
+        "tac": 62,
         "vis": 61
       },
       "birth": "1992-12-01",
@@ -478,7 +508,7 @@
       "name": "Jeffrey Schlopp",
       "nation": "GHA",
       "number": 15,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 63500
     },
     {
@@ -511,6 +541,9 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 55,
         "com": 74,
@@ -570,6 +603,10 @@
       "wage": 86500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 61,
         "com": 63,
@@ -592,23 +629,27 @@
       "name": "Jordan Ayaw",
       "nation": "GHA",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 69500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 76,
         "com": 62,
-        "dri": 64,
+        "dri": 74,
         "ldr": 51,
-        "pac": 60,
-        "pas": 62,
+        "pac": 70,
+        "pas": 72,
         "pos": 68,
         "sho": 68,
         "sta": 62,
         "str": 82,
         "tac": 38,
-        "vis": 56
+        "vis": 66
       },
       "birth": "1993-03-01",
       "contract": "2020-06-30",
@@ -618,13 +659,16 @@
       "name": "Connor Wyckham",
       "nation": "ENG",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],
       "wage": 55000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -652,6 +696,7 @@
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -660,12 +705,12 @@
         "dri": 70,
         "ldr": 52,
         "pac": 60,
-        "pas": 72,
+        "pas": 73,
         "pos": 62,
         "sho": 65,
-        "sta": 71,
+        "sta": 72,
         "str": 62,
-        "tac": 56,
+        "tac": 57,
         "vis": 68
       },
       "birth": "1994-05-01",

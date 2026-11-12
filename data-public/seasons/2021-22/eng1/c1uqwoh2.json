@@ -201,6 +201,9 @@
       "wage": 64000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 62,
@@ -257,17 +260,17 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 61,
+        "aer": 72,
+        "com": 64,
         "dri": 65,
         "ldr": 52,
         "pac": 74,
         "pas": 65,
-        "pos": 67,
+        "pos": 70,
         "sho": 51,
         "sta": 76,
-        "str": 76,
-        "tac": 71,
+        "str": 79,
+        "tac": 74,
         "vis": 57
       },
       "birth": "1994-01-01",
@@ -279,7 +282,7 @@
       "nation": "ITA",
       "nation2": "MAR",
       "number": 11,
-      "pos": "LB",
+      "pos": "CB",
       "wage": 87000
     },
     {
@@ -309,6 +312,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 65,
@@ -335,6 +341,9 @@
       "wage": 61500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 76,
@@ -387,19 +396,22 @@
       "wage": 94000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 70,
-        "dri": 78,
+        "com": 81,
+        "dri": 81,
         "ldr": 64,
         "pac": 79,
-        "pas": 72,
+        "pas": 83,
         "pos": 68,
-        "sho": 62,
+        "sho": 65,
         "sta": 85,
         "str": 85,
-        "tac": 70,
-        "vis": 66
+        "tac": 78,
+        "vis": 77
       },
       "birth": "1989-08-01",
       "contract": "2023-06-30",
@@ -417,21 +429,22 @@
     },
     {
       "alt": [
-        "AM"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 57,
-        "com": 69,
-        "dri": 67,
+        "com": 73,
+        "dri": 71,
         "ldr": 60,
-        "pac": 61,
+        "pac": 65,
         "pas": 71,
         "pos": 64,
-        "sho": 63,
+        "sho": 67,
         "sta": 69,
         "str": 61,
         "tac": 64,
-        "vis": 70
+        "vis": 74
       },
       "birth": "1995-03-01",
       "contract": "2022-06-30",
@@ -442,7 +455,7 @@
       "name": "Ozan Tufen",
       "nation": "TUR",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 81000
     },
     {
@@ -473,19 +486,22 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 63,
-        "dri": 63,
+        "com": 67,
+        "dri": 67,
         "ldr": 57,
         "pac": 55,
-        "pas": 65,
+        "pas": 69,
         "pos": 65,
-        "sho": 59,
-        "sta": 71,
+        "sho": 63,
+        "sta": 75,
         "str": 64,
         "tac": 65,
-        "vis": 59
+        "vis": 63
       },
       "birth": "1990-02-01",
       "contract": "2022-06-30",
@@ -500,21 +516,22 @@
     },
     {
       "alt": [
+        "LWB",
         "LW"
       ],
       "attrs": {
         "aer": 54,
         "com": 62,
-        "dri": 72,
+        "dri": 73,
         "ldr": 52,
-        "pac": 78,
-        "pas": 68,
-        "pos": 60,
-        "sho": 62,
-        "sta": 78,
-        "str": 68,
-        "tac": 54,
-        "vis": 62
+        "pac": 83,
+        "pas": 69,
+        "pos": 66,
+        "sho": 63,
+        "sta": 80,
+        "str": 74,
+        "tac": 60,
+        "vis": 63
       },
       "birth": "1993-09-01",
       "contract": "2023-06-30",
@@ -528,6 +545,10 @@
       "wage": 76500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 55,
         "com": 69,
@@ -558,7 +579,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 58,
@@ -582,26 +604,27 @@
       "name": "Emmanuel Dennys",
       "nation": "NGA",
       "number": 25,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 46000
     },
     {
       "alt": [
-        "LW"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 65,
         "com": 71,
-        "dri": 77,
+        "dri": 78,
         "ldr": 57,
-        "pac": 81,
-        "pas": 67,
+        "pac": 82,
+        "pas": 68,
         "pos": 75,
         "sho": 79,
         "sta": 77,
         "str": 76,
         "tac": 43,
-        "vis": 65
+        "vis": 66
       },
       "birth": "1992-01-01",
       "contract": "2022-06-30",
@@ -611,21 +634,25 @@
       "name": "Joshua Kyng",
       "nation": "NOR",
       "number": 7,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 130000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 68,
+        "aer": 66,
+        "com": 69,
         "dri": 67,
         "ldr": 58,
         "pac": 70,
         "pas": 59,
-        "pos": 52,
-        "sho": 68,
+        "pos": 53,
+        "sho": 69,
         "sta": 62,
-        "str": 66,
+        "str": 67,
         "tac": 36,
         "vis": 60
       },
@@ -668,20 +695,17 @@
       "wage": 31500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 58,
-        "com": 70,
+        "aer": 67,
+        "com": 79,
         "dri": 72,
         "ldr": 54,
-        "pac": 69,
+        "pac": 71,
         "pas": 66,
-        "pos": 43,
-        "sho": 70,
+        "pos": 52,
+        "sho": 79,
         "sta": 71,
-        "str": 61,
+        "str": 70,
         "tac": 36,
         "vis": 68
       },
@@ -697,6 +721,10 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "RW",
+        "ST"
+      ],
       "attrs": {
         "aer": 31,
         "com": 49,

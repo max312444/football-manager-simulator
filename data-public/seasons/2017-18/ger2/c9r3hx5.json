@@ -26,18 +26,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 53,
-        "com": 50,
-        "dri": 38,
-        "ldr": 49,
-        "pac": 46,
-        "pas": 44,
-        "pos": 51,
-        "sho": 22,
-        "sta": 47,
-        "str": 49,
-        "tac": 51,
-        "vis": 36
+        "aer": 40,
+        "com": 48,
+        "dri": 48,
+        "ldr": 45,
+        "pac": 54,
+        "pas": 48,
+        "pos": 46,
+        "sho": 29,
+        "sta": 53,
+        "str": 41,
+        "tac": 48,
+        "vis": 42
       },
       "birth": "1997-04-01",
       "contract": null,
@@ -47,7 +47,7 @@
       "name": "Arne Sickar",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2000
     },
     {
@@ -129,19 +129,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 54,
+        "com": 64,
         "dri": 39,
         "ldr": 56,
         "pac": 50,
-        "pas": 44,
+        "pas": 54,
         "pos": 60,
         "sho": 25,
-        "sta": 52,
+        "sta": 62,
         "str": 59,
         "tac": 61,
-        "vis": 41
+        "vis": 51
       },
       "birth": "1995-12-01",
       "contract": null,
@@ -152,23 +157,26 @@
       "nation": "GER",
       "nation2": "COD",
       "number": 6,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 58,
-        "dri": 46,
-        "ldr": 54,
-        "pac": 48,
-        "pas": 51,
-        "pos": 63,
-        "sho": 28,
-        "sta": 53,
-        "str": 56,
-        "tac": 61,
-        "vis": 46
+        "aer": 44,
+        "com": 56,
+        "dri": 56,
+        "ldr": 50,
+        "pac": 56,
+        "pas": 55,
+        "pos": 58,
+        "sho": 35,
+        "sta": 59,
+        "str": 48,
+        "tac": 58,
+        "vis": 52
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -178,10 +186,13 @@
       "name": "Sebastian Heydinger",
       "nation": "GER",
       "number": 7,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -208,6 +219,10 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -242,7 +257,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 60,
         "str": 68,
@@ -262,6 +277,10 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 62,
@@ -288,6 +307,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -321,7 +343,7 @@
         "ldr": 54,
         "pac": 57,
         "pas": 49,
-        "pos": 39,
+        "pos": 59,
         "sho": 61,
         "sta": 52,
         "str": 57,
@@ -342,18 +364,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 56,
-        "dri": 41,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 48,
-        "pos": 61,
-        "sho": 31,
-        "sta": 57,
-        "str": 57,
-        "tac": 58,
-        "vis": 47
+        "aer": 51,
+        "com": 54,
+        "dri": 51,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 52,
+        "pos": 56,
+        "sho": 38,
+        "sta": 63,
+        "str": 49,
+        "tac": 55,
+        "vis": 53
       },
       "birth": "1994-09-01",
       "contract": null,
@@ -364,23 +386,23 @@
       "name": "Christopher Lanz",
       "nation": "GER",
       "number": 16,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 61,
-        "ldr": 53,
-        "pac": 57,
-        "pas": 59,
-        "pos": 59,
-        "sho": 54,
-        "sta": 65,
-        "str": 57,
-        "tac": 53,
-        "vis": 64
+        "aer": 47,
+        "com": 57,
+        "dri": 66,
+        "ldr": 49,
+        "pac": 66,
+        "pas": 55,
+        "pos": 41,
+        "sho": 58,
+        "sta": 61,
+        "str": 52,
+        "tac": 33,
+        "vis": 61
       },
       "birth": "1991-05-01",
       "contract": null,
@@ -390,7 +412,7 @@
       "name": "Steven Leweranz",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 8000
     },
     {
@@ -422,18 +444,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 55,
-        "dri": 44,
-        "ldr": 56,
-        "pac": 51,
-        "pas": 46,
-        "pos": 58,
-        "sho": 29,
-        "sta": 56,
-        "str": 62,
-        "tac": 62,
-        "vis": 43
+        "aer": 45,
+        "com": 53,
+        "dri": 54,
+        "ldr": 52,
+        "pac": 59,
+        "pas": 50,
+        "pos": 53,
+        "sho": 36,
+        "sta": 62,
+        "str": 54,
+        "tac": 59,
+        "vis": 49
       },
       "birth": "1988-03-01",
       "contract": null,
@@ -443,23 +465,23 @@
       "name": "Patrick Herrmenn",
       "nation": "GER",
       "number": 19,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 54,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 50,
+        "aer": 36,
+        "com": 55,
+        "dri": 58,
+        "ldr": 49,
+        "pac": 53,
         "pas": 58,
-        "pos": 53,
-        "sho": 46,
-        "sta": 55,
-        "str": 50,
-        "tac": 48,
-        "vis": 51
+        "pos": 38,
+        "sho": 52,
+        "sta": 49,
+        "str": 45,
+        "tac": 30,
+        "vis": 53
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -469,10 +491,13 @@
       "name": "Joel Gerazgiher",
       "nation": "GER",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 53,
@@ -499,6 +524,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -526,18 +554,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 48,
         "com": 62,
-        "dri": 61,
+        "dri": 65,
         "ldr": 57,
-        "pac": 63,
-        "pas": 51,
-        "pos": 42,
-        "sho": 67,
+        "pac": 61,
+        "pas": 61,
+        "pos": 47,
+        "sho": 64,
         "sta": 60,
-        "str": 64,
-        "tac": 28,
-        "vis": 56
+        "str": 54,
+        "tac": 36,
+        "vis": 67
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -547,7 +575,7 @@
       "name": "Dominick Draxler",
       "nation": "GER",
       "number": 24,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 6500
     },
     {
@@ -558,7 +586,7 @@
         "ldr": 42,
         "pac": 46,
         "pas": 41,
-        "pos": 27,
+        "pos": 47,
         "sho": 52,
         "sta": 45,
         "str": 45,
@@ -578,19 +606,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 52,
+        "com": 62,
         "dri": 46,
         "ldr": 55,
         "pac": 48,
-        "pas": 51,
+        "pas": 61,
         "pos": 63,
         "sho": 29,
-        "sta": 53,
+        "sta": 63,
         "str": 61,
         "tac": 59,
-        "vis": 40
+        "vis": 50
       },
       "birth": "1993-07-01",
       "contract": null,
@@ -601,10 +634,13 @@
       "nation": "GER",
       "nation2": "GHA",
       "number": 27,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -640,7 +676,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 50,
-        "pos": 36,
+        "pos": 56,
         "sho": 62,
         "sta": 54,
         "str": 62,

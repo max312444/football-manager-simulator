@@ -111,7 +111,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 59,
         "str": 62,
@@ -130,6 +130,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -156,6 +159,10 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 62,
@@ -190,7 +197,7 @@
         "ldr": 56,
         "pac": 58,
         "pas": 52,
-        "pos": 42,
+        "pos": 62,
         "sho": 62,
         "sta": 58,
         "str": 58,
@@ -209,19 +216,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 67,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 66,
+        "com": 63,
+        "dri": 61,
+        "ldr": 60,
+        "pac": 67,
+        "pas": 60,
         "pos": 60,
-        "sho": 56,
+        "sho": 42,
         "sta": 67,
-        "str": 62,
-        "tac": 60,
-        "vis": 63
+        "str": 61,
+        "tac": 64,
+        "vis": 54
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -232,7 +243,7 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": 10,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 21500
     },
     {
@@ -243,7 +254,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 48,
-        "pos": 39,
+        "pos": 59,
         "sho": 58,
         "sta": 54,
         "str": 59,
@@ -270,7 +281,7 @@
         "ldr": 48,
         "pac": 57,
         "pas": 45,
-        "pos": 35,
+        "pos": 55,
         "sho": 57,
         "sta": 48,
         "str": 52,
@@ -290,18 +301,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 51,
-        "dri": 38,
-        "ldr": 52,
-        "pac": 50,
-        "pas": 42,
-        "pos": 54,
-        "sho": 23,
-        "sta": 49,
-        "str": 54,
-        "tac": 55,
-        "vis": 39
+        "aer": 40,
+        "com": 49,
+        "dri": 48,
+        "ldr": 48,
+        "pac": 58,
+        "pas": 46,
+        "pos": 49,
+        "sho": 30,
+        "sta": 55,
+        "str": 46,
+        "tac": 52,
+        "vis": 45
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -311,7 +322,7 @@
       "name": "Ali Bambe",
       "nation": "CIV",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -369,19 +380,24 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 66,
-        "dri": 63,
-        "ldr": 55,
-        "pac": 62,
-        "pas": 54,
-        "pos": 40,
-        "sho": 68,
-        "sta": 58,
-        "str": 66,
-        "tac": 31,
-        "vis": 58
+        "aer": 47,
+        "com": 63,
+        "dri": 68,
+        "ldr": 53,
+        "pac": 66,
+        "pas": 60,
+        "pos": 42,
+        "sho": 63,
+        "sta": 60,
+        "str": 56,
+        "tac": 37,
+        "vis": 64
       },
       "birth": "1996-09-01",
       "contract": null,
@@ -392,7 +408,7 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 12500
     },
     {
@@ -422,18 +438,21 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 64,
-        "dri": 59,
+        "aer": 52,
+        "com": 59,
+        "dri": 57,
         "ldr": 60,
-        "pac": 61,
-        "pas": 52,
-        "pos": 38,
-        "sho": 64,
-        "sta": 59,
-        "str": 66,
-        "tac": 33,
+        "pac": 63,
+        "pas": 56,
+        "pos": 58,
+        "sho": 41,
+        "sta": 65,
+        "str": 60,
+        "tac": 63,
         "vis": 56
       },
       "birth": "1993-12-01",
@@ -444,10 +463,14 @@
       "name": "Thibaut Vyon",
       "nation": "FRA",
       "number": 19,
-      "pos": "ST",
+      "pos": "RB",
       "wage": 11500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 68,
@@ -455,7 +478,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 57,
-        "pos": 48,
+        "pos": 68,
         "sho": 67,
         "sta": 60,
         "str": 69,
@@ -475,6 +498,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -503,18 +529,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 68,
-        "dri": 65,
-        "ldr": 65,
-        "pac": 61,
-        "pas": 69,
-        "pos": 64,
-        "sho": 64,
-        "sta": 73,
-        "str": 61,
-        "tac": 61,
-        "vis": 70
+        "aer": 51,
+        "com": 66,
+        "dri": 70,
+        "ldr": 61,
+        "pac": 70,
+        "pas": 65,
+        "pos": 46,
+        "sho": 68,
+        "sta": 69,
+        "str": 56,
+        "tac": 41,
+        "vis": 67
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -524,23 +550,26 @@
       "name": "Kevin Lejaune",
       "nation": "FRA",
       "number": 22,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 29500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 65,
-        "dri": 61,
-        "ldr": 60,
-        "pac": 59,
-        "pas": 69,
-        "pos": 63,
-        "sho": 60,
-        "sta": 66,
-        "str": 58,
-        "tac": 61,
-        "vis": 67
+        "aer": 50,
+        "com": 63,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 68,
+        "pas": 65,
+        "pos": 45,
+        "sho": 64,
+        "sta": 62,
+        "str": 53,
+        "tac": 41,
+        "vis": 64
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -551,7 +580,7 @@
       "nation": "FRA",
       "nation2": "COD",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 22500
     },
     {
@@ -577,23 +606,23 @@
       "name": "Gaetan Bussmenn",
       "nation": "FRA",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 18500
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 72,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 67,
-        "pas": 75,
-        "pos": 70,
-        "sho": 68,
+        "dri": 68,
+        "ldr": 73,
+        "pac": 64,
+        "pas": 74,
+        "pos": 74,
+        "sho": 62,
         "sta": 78,
-        "str": 69,
-        "tac": 67,
-        "vis": 71
+        "str": 74,
+        "tac": 73,
+        "vis": 68
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -603,10 +632,13 @@
       "name": "Guirane N'Dew",
       "nation": "SEN",
       "number": 25,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 60,
@@ -633,6 +665,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 71,

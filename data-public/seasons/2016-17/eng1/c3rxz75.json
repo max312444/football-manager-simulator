@@ -258,16 +258,20 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
-        "dri": 68,
+        "dri": 71,
         "ldr": 68,
-        "pac": 72,
+        "pac": 75,
         "pas": 73,
         "pos": 79,
         "sho": 51,
-        "sta": 79,
+        "sta": 82,
         "str": 70,
         "tac": 80,
         "vis": 65
@@ -310,6 +314,10 @@
       "wage": 96000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -372,17 +380,17 @@
     {
       "attrs": {
         "aer": 65,
-        "com": 72,
+        "com": 74,
         "dri": 67,
         "ldr": 65,
         "pac": 73,
-        "pas": 69,
-        "pos": 79,
+        "pas": 71,
+        "pos": 81,
         "sho": 51,
         "sta": 85,
-        "str": 76,
-        "tac": 83,
-        "vis": 61
+        "str": 78,
+        "tac": 85,
+        "vis": 63
       },
       "birth": "1991-05-01",
       "contract": "2019-06-30",
@@ -403,11 +411,11 @@
         "ldr": 76,
         "pac": 56,
         "pas": 82,
-        "pos": 70,
+        "pos": 75,
         "sho": 72,
         "sta": 83,
-        "str": 74,
-        "tac": 70,
+        "str": 79,
+        "tac": 75,
         "vis": 78
       },
       "birth": "1992-09-01",
@@ -423,7 +431,7 @@
       "name": "Granit Xhake",
       "nation": "SUI",
       "number": 29,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot"
       ],
@@ -432,17 +440,17 @@
     {
       "attrs": {
         "aer": 56,
-        "com": 69,
+        "com": 70,
         "dri": 68,
         "ldr": 60,
         "pac": 68,
-        "pas": 74,
-        "pos": 70,
+        "pas": 75,
+        "pos": 71,
         "sho": 56,
         "sta": 81,
-        "str": 62,
-        "tac": 70,
-        "vis": 66
+        "str": 63,
+        "tac": 71,
+        "vis": 67
       },
       "birth": "1992-07-01",
       "contract": "2020-06-30",
@@ -457,10 +465,13 @@
       "name": "Mohamed Elneni",
       "nation": "EGY",
       "number": 35,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 134500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 77,
@@ -490,18 +501,22 @@
       "wage": 318000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 88,
         "dri": 86,
         "ldr": 70,
         "pac": 64,
-        "pas": 88,
+        "pas": 93,
         "pos": 62,
         "sho": 76,
-        "sta": 79,
+        "sta": 84,
         "str": 58,
-        "tac": 60,
+        "tac": 65,
         "vis": 88
       },
       "birth": "1984-12-01",
@@ -549,6 +564,7 @@
     },
     {
       "alt": [
+        "RW",
         "ST"
       ],
       "attrs": {
@@ -581,7 +597,9 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 52,
@@ -589,13 +607,13 @@
         "dri": 81,
         "ldr": 55,
         "pac": 85,
-        "pas": 74,
+        "pas": 81,
         "pos": 60,
         "sho": 70,
-        "sta": 79,
+        "sta": 86,
         "str": 71,
-        "tac": 55,
-        "vis": 70
+        "tac": 62,
+        "vis": 77
       },
       "birth": "1993-08-01",
       "contract": "2017-06-30",
@@ -612,6 +630,11 @@
       "wage": 162500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 64,
@@ -638,6 +661,10 @@
       "wage": 73000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 45,
         "com": 73,
@@ -668,16 +695,16 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 67,
+        "aer": 77,
+        "com": 74,
         "dri": 76,
         "ldr": 60,
         "pac": 83,
         "pas": 69,
-        "pos": 60,
-        "sho": 71,
+        "pos": 67,
+        "sho": 78,
         "sta": 77,
-        "str": 73,
+        "str": 80,
         "tac": 47,
         "vis": 65
       },
@@ -697,16 +724,16 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 65,
+        "aer": 58,
+        "com": 66,
         "dri": 71,
         "ldr": 50,
         "pac": 69,
         "pas": 67,
-        "pos": 71,
-        "sho": 73,
+        "pos": 72,
+        "sho": 74,
         "sta": 69,
-        "str": 66,
+        "str": 67,
         "tac": 35,
         "vis": 63
       },
@@ -762,13 +789,13 @@
         "com": 61,
         "dri": 68,
         "ldr": 50,
-        "pac": 80,
+        "pac": 82,
         "pas": 64,
-        "pos": 56,
+        "pos": 58,
         "sho": 52,
         "sta": 74,
-        "str": 60,
-        "tac": 58,
+        "str": 62,
+        "tac": 60,
         "vis": 58
       },
       "birth": "1997-08-01",
@@ -779,26 +806,27 @@
       "name": "Ainsley Maitland-Nyles",
       "nation": "ENG",
       "number": 55,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 69000
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
         "aer": 45,
-        "com": 56,
+        "com": 64,
         "dri": 66,
         "ldr": 40,
         "pac": 66,
-        "pas": 62,
+        "pas": 70,
         "pos": 55,
         "sho": 52,
-        "sta": 62,
+        "sta": 69,
         "str": 58,
-        "tac": 42,
-        "vis": 60
+        "tac": 50,
+        "vis": 68
       },
       "birth": "1998-01-01",
       "contract": "2019-06-30",

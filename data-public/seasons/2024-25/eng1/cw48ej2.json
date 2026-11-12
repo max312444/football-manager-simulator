@@ -152,6 +152,9 @@
       "wage": 99000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 67,
@@ -288,9 +291,6 @@
       "wage": 130000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 72,
         "com": 64,
@@ -355,11 +355,11 @@
         "ldr": 57,
         "pac": 56,
         "pas": 68,
-        "pos": 61,
+        "pos": 67,
         "sho": 59,
         "sta": 69,
-        "str": 59,
-        "tac": 58,
+        "str": 65,
+        "tac": 64,
         "vis": 65
       },
       "birth": "1992-09-01",
@@ -370,7 +370,7 @@
       "name": "Massimo Loongo",
       "nation": "AUS",
       "number": 25,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 58000
     },
     {
@@ -401,6 +401,10 @@
       "wage": 150000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -436,11 +440,11 @@
         "ldr": 57,
         "pac": 57,
         "pas": 68,
-        "pos": 60,
+        "pos": 65,
         "sho": 58,
         "sta": 68,
-        "str": 58,
-        "tac": 59,
+        "str": 63,
+        "tac": 64,
         "vis": 64
       },
       "birth": "1998-06-01",
@@ -451,11 +455,12 @@
       "name": "Jack Teylor",
       "nation": "IRL",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 55500
     },
     {
       "alt": [
+        "LW",
         "AM"
       ],
       "attrs": {
@@ -485,22 +490,19 @@
       "wage": 72000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
         "aer": 57,
-        "com": 62,
-        "dri": 65,
+        "com": 68,
+        "dri": 71,
         "ldr": 53,
-        "pac": 73,
-        "pas": 63,
+        "pac": 79,
+        "pas": 69,
         "pos": 63,
-        "sho": 51,
+        "sho": 57,
         "sta": 72,
         "str": 61,
         "tac": 65,
-        "vis": 58
+        "vis": 64
       },
       "birth": "1994-11-01",
       "contract": "2026-06-30",
@@ -510,10 +512,13 @@
       "name": "Wes Borns",
       "nation": "WAL",
       "number": 7,
-      "pos": "RWB",
+      "pos": "RW",
       "wage": 63000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 70,
@@ -541,7 +546,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 46,
@@ -569,6 +575,9 @@
       "wage": 63500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 43,
         "com": 65,
@@ -597,7 +606,9 @@
     },
     {
       "alt": [
-        "ST"
+        "LM",
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 48,
@@ -627,21 +638,21 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
-        "com": 64,
-        "dri": 68,
+        "com": 70,
+        "dri": 74,
         "ldr": 54,
-        "pac": 83,
-        "pas": 64,
+        "pac": 89,
+        "pas": 70,
         "pos": 66,
-        "sho": 51,
+        "sho": 57,
         "sta": 74,
         "str": 63,
         "tac": 67,
-        "vis": 59
+        "vis": 65
       },
       "birth": "1997-05-01",
       "contract": "2028-06-30",
@@ -651,7 +662,7 @@
       "name": "Chiedozie Ogbena",
       "nation": "IRL",
       "number": 17,
-      "pos": "RWB",
+      "pos": "RW",
       "traits": [
         "speedster"
       ],
@@ -659,6 +670,9 @@
       "wage": 80500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 50,
         "com": 70,
@@ -687,16 +701,16 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 62,
+        "aer": 62,
+        "com": 64,
         "dri": 62,
         "ldr": 52,
         "pac": 63,
         "pas": 56,
-        "pos": 37,
-        "sho": 66,
+        "pos": 39,
+        "sho": 68,
         "sta": 61,
-        "str": 65,
+        "str": 67,
         "tac": 32,
         "vis": 54
       },
@@ -714,16 +728,16 @@
     },
     {
       "attrs": {
-        "aer": 74,
-        "com": 70,
+        "aer": 75,
+        "com": 71,
         "dri": 72,
         "ldr": 60,
         "pac": 81,
         "pas": 62,
-        "pos": 46,
-        "sho": 76,
+        "pos": 47,
+        "sho": 77,
         "sta": 79,
-        "str": 83,
+        "str": 84,
         "tac": 40,
         "vis": 62
       },
@@ -740,16 +754,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 68,
+        "aer": 67,
+        "com": 70,
         "dri": 68,
         "ldr": 56,
         "pac": 69,
         "pas": 61,
-        "pos": 43,
-        "sho": 69,
+        "pos": 45,
+        "sho": 71,
         "sta": 67,
-        "str": 70,
+        "str": 72,
         "tac": 36,
         "vis": 59
       },

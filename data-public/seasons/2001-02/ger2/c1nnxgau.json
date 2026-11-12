@@ -25,7 +25,9 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "ST",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 69,
@@ -61,7 +63,7 @@
         "ldr": 63,
         "pac": 72,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 75,
         "sta": 66,
         "str": 74,
@@ -82,18 +84,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 66,
-        "dri": 64,
-        "ldr": 61,
-        "pac": 60,
+        "aer": 53,
+        "com": 67,
+        "dri": 68,
+        "ldr": 59,
+        "pac": 63,
         "pas": 66,
-        "pos": 64,
-        "sho": 62,
-        "sta": 68,
-        "str": 59,
-        "tac": 63,
-        "vis": 65
+        "pos": 49,
+        "sho": 68,
+        "sta": 62,
+        "str": 54,
+        "tac": 45,
+        "vis": 67
       },
       "birth": "1970-12-01",
       "contract": null,
@@ -103,11 +105,14 @@
       "name": "Abderrahim Ouekili",
       "nation": "MAR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 70,
@@ -160,6 +165,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -186,6 +194,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 63,
@@ -193,7 +204,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 56,
         "str": 63,
@@ -240,6 +251,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -266,6 +280,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -326,7 +343,7 @@
         "ldr": 57,
         "pac": 61,
         "pas": 49,
-        "pos": 39,
+        "pos": 59,
         "sho": 64,
         "sta": 53,
         "str": 58,
@@ -345,6 +362,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -398,9 +418,6 @@
       "wage": 2000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 58,
         "com": 59,
@@ -428,6 +445,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 58,
@@ -454,6 +474,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -488,7 +511,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 51,
-        "pos": 32,
+        "pos": 52,
         "sho": 63,
         "sta": 50,
         "str": 58,
@@ -534,6 +557,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 56,
@@ -586,6 +612,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -634,7 +663,7 @@
       "name": "Markus Scholer",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 1500
     },
     {
@@ -805,7 +834,7 @@
         "ldr": 44,
         "pac": 48,
         "pas": 43,
-        "pos": 28,
+        "pos": 48,
         "sho": 54,
         "sta": 49,
         "str": 53,
@@ -851,19 +880,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 36,
-        "com": 51,
-        "dri": 45,
-        "ldr": 48,
-        "pac": 47,
-        "pas": 52,
-        "pos": 50,
-        "sho": 40,
-        "sta": 50,
-        "str": 46,
-        "tac": 47,
-        "vis": 50
+        "aer": 37,
+        "com": 53,
+        "dri": 47,
+        "ldr": 49,
+        "pac": 48,
+        "pas": 54,
+        "pos": 51,
+        "sho": 42,
+        "sta": 52,
+        "str": 47,
+        "tac": 48,
+        "vis": 52
       },
       "birth": "1980-08-01",
       "contract": null,

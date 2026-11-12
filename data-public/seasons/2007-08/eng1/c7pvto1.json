@@ -45,7 +45,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 55,
@@ -74,18 +75,23 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,
-        "dri": 61,
+        "dri": 70,
         "ldr": 63,
-        "pac": 55,
+        "pac": 70,
         "pas": 74,
-        "pos": 64,
+        "pos": 70,
         "sho": 71,
-        "sta": 66,
-        "str": 69,
-        "tac": 66,
+        "sta": 80,
+        "str": 75,
+        "tac": 72,
         "vis": 67
       },
       "birth": "1977-08-01",
@@ -135,6 +141,9 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -163,6 +172,7 @@
     },
     {
       "alt": [
+        "LW",
         "LB",
         "CM"
       ],
@@ -188,10 +198,14 @@
       "name": "Kieran Rychardson",
       "nation": "ENG",
       "number": 6,
-      "pos": "LM",
+      "pos": "RW",
       "wage": 26000
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
         "aer": 36,
         "com": 65,
@@ -214,10 +228,13 @@
       "name": "Carlos Edwerds",
       "nation": "TRI",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 19000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 62,
@@ -298,6 +315,9 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 39,
         "com": 54,
@@ -320,14 +340,11 @@
       "name": "Ross Wallaca",
       "nation": "SCO",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 12000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 67,
@@ -382,18 +399,23 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 66,
         "dri": 68,
         "ldr": 59,
         "pac": 63,
-        "pas": 70,
+        "pas": 71,
         "pos": 53,
         "sho": 62,
-        "sta": 72,
+        "sta": 73,
         "str": 58,
-        "tac": 53,
+        "tac": 54,
         "vis": 70
       },
       "birth": "1982-01-01",
@@ -408,19 +430,22 @@
       "wage": 33000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 66,
+        "com": 70,
         "dri": 71,
         "ldr": 52,
         "pac": 71,
-        "pas": 71,
+        "pas": 75,
         "pos": 68,
         "sho": 61,
         "sta": 75,
         "str": 64,
-        "tac": 67,
-        "vis": 68
+        "tac": 71,
+        "vis": 72
       },
       "birth": "1981-02-01",
       "contract": "2008-06-30",
@@ -493,7 +518,8 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "ST"
       ],
       "attrs": {
         "aer": 46,
@@ -523,14 +549,15 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
         "aer": 48,
         "com": 69,
-        "dri": 64,
+        "dri": 80,
         "ldr": 75,
-        "pac": 49,
+        "pac": 65,
         "pas": 72,
         "pos": 50,
         "sho": 58,
@@ -547,21 +574,21 @@
       "name": "Dwight Yurke",
       "nation": "TRI",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 26000
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 56,
+        "aer": 59,
+        "com": 63,
         "dri": 66,
         "ldr": 40,
         "pac": 74,
         "pas": 54,
-        "pos": 42,
-        "sho": 64,
+        "pos": 49,
+        "sho": 71,
         "sta": 64,
-        "str": 60,
+        "str": 67,
         "tac": 30,
         "vis": 50
       },
@@ -578,9 +605,6 @@
       "wage": 14500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 69,
         "com": 62,
@@ -608,16 +632,16 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 63,
+        "aer": 58,
+        "com": 64,
         "dri": 59,
         "ldr": 48,
         "pac": 62,
         "pas": 51,
-        "pos": 29,
-        "sho": 68,
+        "pos": 30,
+        "sho": 69,
         "sta": 58,
-        "str": 59,
+        "str": 60,
         "tac": 21,
         "vis": 49
       },
@@ -634,16 +658,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 50,
+        "aer": 56,
+        "com": 56,
         "dri": 60,
         "ldr": 42,
         "pac": 70,
         "pas": 50,
-        "pos": 42,
-        "sho": 58,
+        "pos": 48,
+        "sho": 64,
         "sta": 66,
-        "str": 60,
+        "str": 66,
         "tac": 34,
         "vis": 46
       },
@@ -660,20 +684,17 @@
       "wage": 11500
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
-        "aer": 58,
-        "com": 61,
+        "aer": 59,
+        "com": 62,
         "dri": 58,
         "ldr": 50,
         "pac": 63,
         "pas": 50,
-        "pos": 28,
-        "sho": 65,
+        "pos": 29,
+        "sho": 66,
         "sta": 55,
-        "str": 61,
+        "str": 62,
         "tac": 19,
         "vis": 49
       },

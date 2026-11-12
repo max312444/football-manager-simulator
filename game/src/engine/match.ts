@@ -22,6 +22,7 @@ export const TUNING = {
   yellowPerSeg: 0.088,
   redPerSeg: 0.0016,
   injuryPerSeg: 0.0072,
+  tire: 2.1,             // 구간당 체력 소모 기준 (보통 선수 90분에 약 34 · 높은 압박 더)
   openShare: 0.8,        // 일반 공격 xG 비율 (나머지는 세트피스 · 페널티)
   setXg: 0.0115,         // 구간당 세트피스(코너 · 프리킥) 기본 xG
   penPerSeg: 0.0095,     // 구간당 페널티 얻을 확률
@@ -218,11 +219,15 @@ function bestBenchFor(t: TeamInMatch, slot: Position, ctx: MatchCtx): string | n
   return best;
 }
 
-/** 교체. 성공하면 true */
+/** 이 자리에 교체로 넣을 수 있는가: 골키퍼 ↔ 필드 불가, 필드는 주 · 보조 · 가까운 포지션(친숙도 0.7 이상)만 */
+export const canSubInto = (p: PlayerState, slot: import('../data/types').Position) => (slot === 'GK') === (p.pos === 'GK') && playerFamiliarity(p, slot) >= 0.7;
+
+/** 교체. 성공하면 true (사용자가 직접 하는 교체는 자리에 맞는 선수만) */
 export function substitute(m: MatchState, side: Side, outId: string, inId: string, ctx: MatchCtx): boolean {
   const t = m[side];
   const i = t.onPitch.findIndex((o) => o.id === outId);
   if (i < 0 || !t.bench.includes(inId) || t.subsUsed >= t.maxSubs) return false;
+  if (t.manual && !canSubInto(ctx.players[inId], t.onPitch[i].slot)) return false;
   const minute = m.segment * SEG_MIN;
   const p = ctx.players[inId];
   const { factor, z } = rollDayForm(p, ctx.rng, m.bigMatch);
@@ -362,7 +367,7 @@ export function step(m: MatchState, ctx: MatchCtx): void {
     const pressMult = 1 + 0.25 * (me.tactics.pressing - 1);
     for (const op of me.onPitch) {
       const p = ctx.players[op.id];
-      op.fitness = Math.max(0, op.fitness - 1.45 * pressMult * (1.25 - attr(p, 'sta') / 200) * (op.slot === 'GK' ? 0.3 : 1) * (op.instr ? INSTR[op.instr].tire : 1));
+      op.fitness = Math.max(0, op.fitness - TUNING.tire * pressMult * (1.25 - attr(p, 'sta') / 200) * (op.slot === 'GK' ? 0.3 : 1) * (op.instr ? INSTR[op.instr].tire : 1));
     }
   }
 

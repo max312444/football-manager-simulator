@@ -155,6 +155,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -188,7 +191,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 74,
         "sta": 67,
         "str": 66,
@@ -208,18 +211,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 59,
-        "dri": 56,
-        "ldr": 52,
-        "pac": 57,
-        "pas": 58,
-        "pos": 60,
-        "sho": 54,
+        "dri": 52,
+        "ldr": 54,
+        "pac": 54,
+        "pas": 57,
+        "pos": 64,
+        "sho": 48,
         "sta": 60,
-        "str": 51,
-        "tac": 53,
-        "vis": 59
+        "str": 56,
+        "tac": 59,
+        "vis": 56
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -229,23 +232,27 @@
       "name": "Dennis Dauba",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 63,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 62,
+        "aer": 52,
+        "com": 64,
+        "dri": 70,
+        "ldr": 60,
+        "pac": 65,
         "pas": 69,
-        "pos": 66,
-        "sho": 61,
-        "sta": 69,
-        "str": 60,
-        "tac": 62,
-        "vis": 68
+        "pos": 51,
+        "sho": 67,
+        "sta": 63,
+        "str": 55,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -255,7 +262,7 @@
       "name": "Akaki Gogya",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16000
     },
     {
@@ -286,18 +293,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 48,
-        "dri": 39,
-        "ldr": 54,
-        "pac": 47,
-        "pas": 43,
-        "pos": 53,
-        "sho": 25,
-        "sta": 47,
-        "str": 57,
-        "tac": 58,
-        "vis": 40
+        "aer": 43,
+        "com": 46,
+        "dri": 49,
+        "ldr": 50,
+        "pac": 55,
+        "pas": 47,
+        "pos": 48,
+        "sho": 32,
+        "sta": 53,
+        "str": 49,
+        "tac": 55,
+        "vis": 46
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -307,7 +314,7 @@
       "name": "Peter Korzweg",
       "nation": "GER",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2500
     },
     {
@@ -344,7 +351,7 @@
         "ldr": 64,
         "pac": 70,
         "pas": 58,
-        "pos": 48,
+        "pos": 68,
         "sho": 67,
         "sta": 63,
         "str": 69,
@@ -363,19 +370,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 65,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 65,
-        "pas": 56,
-        "pos": 41,
-        "sho": 70,
-        "sta": 64,
-        "str": 67,
-        "tac": 34,
-        "vis": 55
+        "aer": 50,
+        "com": 62,
+        "dri": 67,
+        "ldr": 56,
+        "pac": 69,
+        "pas": 62,
+        "pos": 43,
+        "sho": 65,
+        "sta": 66,
+        "str": 57,
+        "tac": 40,
+        "vis": 61
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -385,10 +395,14 @@
       "name": "Simon Hedlond",
       "nation": "SWE",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -416,6 +430,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 67,
@@ -442,6 +459,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -469,7 +489,8 @@
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 64,
@@ -504,7 +525,7 @@
         "ldr": 56,
         "pac": 57,
         "pas": 49,
-        "pos": 35,
+        "pos": 55,
         "sho": 63,
         "sta": 54,
         "str": 59,
@@ -523,19 +544,23 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 67,
-        "dri": 55,
-        "ldr": 65,
-        "pac": 60,
-        "pas": 57,
-        "pos": 69,
-        "sho": 39,
-        "sta": 62,
-        "str": 68,
-        "tac": 73,
-        "vis": 55
+        "aer": 60,
+        "com": 65,
+        "dri": 65,
+        "ldr": 61,
+        "pac": 68,
+        "pas": 61,
+        "pos": 64,
+        "sho": 46,
+        "sta": 68,
+        "str": 60,
+        "tac": 70,
+        "vis": 61
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -545,7 +570,7 @@
       "name": "Christopher Trimmal",
       "nation": "AUT",
       "number": 28,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 13000
     },
     {
@@ -653,6 +678,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 52,

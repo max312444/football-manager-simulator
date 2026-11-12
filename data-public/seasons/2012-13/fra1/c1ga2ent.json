@@ -127,7 +127,7 @@
       "name": "Siaka Tiane",
       "nation": "CIV",
       "number": 5,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 34000
     },
     {
@@ -157,19 +157,23 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 79,
-        "dri": 77,
-        "ldr": 74,
-        "pac": 73,
-        "pas": 78,
-        "pos": 77,
-        "sho": 71,
-        "sta": 80,
-        "str": 75,
-        "tac": 72,
-        "vis": 76
+        "aer": 61,
+        "com": 77,
+        "dri": 82,
+        "ldr": 70,
+        "pac": 82,
+        "pas": 74,
+        "pos": 59,
+        "sho": 75,
+        "sta": 76,
+        "str": 70,
+        "tac": 52,
+        "vis": 73
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -179,7 +183,7 @@
       "name": "Jeremy Manez",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 154000
     },
     {
@@ -190,7 +194,7 @@
         "ldr": 63,
         "pac": 74,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 78,
         "sta": 65,
         "str": 70,
@@ -217,7 +221,7 @@
         "ldr": 68,
         "pac": 71,
         "pas": 61,
-        "pos": 52,
+        "pos": 72,
         "sho": 73,
         "sta": 66,
         "str": 72,
@@ -237,18 +241,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 70,
-        "ldr": 69,
-        "pac": 63,
+        "aer": 53,
+        "com": 69,
+        "dri": 74,
+        "ldr": 67,
+        "pac": 66,
         "pas": 72,
-        "pos": 67,
-        "sho": 66,
-        "sta": 72,
-        "str": 67,
-        "tac": 67,
-        "vis": 70
+        "pos": 52,
+        "sho": 72,
+        "sta": 66,
+        "str": 62,
+        "tac": 49,
+        "vis": 72
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -259,23 +263,27 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 66500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 76,
-        "dri": 73,
-        "ldr": 74,
-        "pac": 77,
-        "pas": 72,
-        "pos": 55,
-        "sho": 78,
-        "sta": 73,
-        "str": 77,
-        "tac": 46,
-        "vis": 67
+        "aer": 63,
+        "com": 73,
+        "dri": 78,
+        "ldr": 72,
+        "pac": 81,
+        "pas": 78,
+        "pos": 57,
+        "sho": 73,
+        "sta": 75,
+        "str": 67,
+        "tac": 52,
+        "vis": 73
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -285,11 +293,13 @@
       "name": "Ezequiel Levezzi",
       "nation": "ARG",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 92500
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 71,
@@ -316,9 +326,6 @@
       "wage": 44500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 80,
         "com": 76,
@@ -345,6 +352,9 @@
       "wage": 112000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 75,
@@ -422,7 +432,7 @@
       "nation": "BRA",
       "nation2": "NED",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 70500
     },
     {
@@ -433,7 +443,7 @@
         "ldr": 74,
         "pac": 84,
         "pas": 71,
-        "pos": 59,
+        "pos": 79,
         "sho": 83,
         "sta": 76,
         "str": 84,
@@ -459,7 +469,7 @@
         "ldr": 71,
         "pac": 72,
         "pas": 64,
-        "pos": 52,
+        "pos": 72,
         "sho": 74,
         "sta": 70,
         "str": 75,
@@ -478,6 +488,10 @@
       "wage": 61000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 73,
@@ -505,18 +519,18 @@
     },
     {
       "attrs": {
-        "aer": 76,
-        "com": 71,
-        "dri": 59,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 63,
-        "pos": 75,
-        "sho": 45,
-        "sta": 69,
-        "str": 73,
-        "tac": 74,
-        "vis": 55
+        "aer": 63,
+        "com": 69,
+        "dri": 69,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 67,
+        "pos": 70,
+        "sho": 52,
+        "sta": 75,
+        "str": 65,
+        "tac": 71,
+        "vis": 61
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -526,23 +540,23 @@
       "name": "Sylvain Armend",
       "nation": "FRA",
       "number": 22,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 56500
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 76,
-        "dri": 76,
-        "ldr": 71,
-        "pac": 70,
-        "pas": 81,
-        "pos": 74,
-        "sho": 70,
+        "dri": 72,
+        "ldr": 73,
+        "pac": 67,
+        "pas": 80,
+        "pos": 78,
+        "sho": 64,
         "sta": 76,
-        "str": 72,
-        "tac": 72,
-        "vis": 80
+        "str": 77,
+        "tac": 78,
+        "vis": 77
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -553,10 +567,13 @@
       "nation": "MLI",
       "nation2": "FRA",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 136500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 67,
@@ -583,6 +600,9 @@
       "wage": 64500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 69,
@@ -636,18 +656,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 73,
-        "dri": 70,
-        "ldr": 72,
-        "pac": 65,
+        "aer": 54,
+        "com": 74,
+        "dri": 74,
+        "ldr": 70,
+        "pac": 68,
         "pas": 74,
-        "pos": 70,
-        "sho": 67,
-        "sta": 74,
-        "str": 65,
-        "tac": 69,
-        "vis": 77
+        "pos": 55,
+        "sho": 73,
+        "sta": 68,
+        "str": 60,
+        "tac": 51,
+        "vis": 79
       },
       "birth": "1989-06-01",
       "contract": null,
@@ -657,23 +677,23 @@
       "name": "Javier Pasture",
       "nation": "ARG",
       "number": 27,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 85000
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 77,
-        "dri": 73,
-        "ldr": 73,
-        "pac": 75,
-        "pas": 81,
-        "pos": 78,
-        "sho": 72,
+        "dri": 69,
+        "ldr": 75,
+        "pac": 72,
+        "pas": 80,
+        "pos": 82,
+        "sho": 66,
         "sta": 82,
-        "str": 74,
-        "tac": 75,
-        "vis": 76
+        "str": 79,
+        "tac": 81,
+        "vis": 73
       },
       "birth": "1982-08-01",
       "contract": null,
@@ -684,23 +704,26 @@
       "nation": "ITA",
       "nation2": "BRA",
       "number": 28,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 163500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 67,
-        "dri": 62,
-        "ldr": 61,
-        "pac": 57,
+        "aer": 52,
+        "com": 68,
+        "dri": 66,
+        "ldr": 59,
+        "pac": 60,
         "pas": 68,
-        "pos": 66,
-        "sho": 58,
-        "sta": 70,
-        "str": 63,
-        "tac": 62,
-        "vis": 69
+        "pos": 51,
+        "sho": 64,
+        "sta": 64,
+        "str": 58,
+        "tac": 44,
+        "vis": 71
       },
       "birth": "1992-03-01",
       "contract": null,
@@ -711,7 +734,7 @@
       "nation": "FRA",
       "nation2": "COD",
       "number": 29,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 42000
     },
     {
@@ -741,6 +764,10 @@
       "wage": 116000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 53,
@@ -767,17 +794,22 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 64,
+        "aer": 62,
+        "com": 72,
+        "dri": 68,
         "ldr": 60,
-        "pac": 58,
+        "pac": 68,
         "pas": 69,
-        "pos": 64,
-        "sho": 61,
+        "pos": 74,
+        "sho": 71,
         "sta": 68,
-        "str": 58,
+        "str": 68,
         "tac": 59,
         "vis": 69
       },
@@ -790,7 +822,7 @@
       "nation": "HAI",
       "nation2": "FRA",
       "number": 33,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 35500
     },
     {

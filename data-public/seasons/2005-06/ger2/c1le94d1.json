@@ -31,7 +31,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 65,
         "str": 67,
@@ -85,7 +85,7 @@
         "ldr": 55,
         "pac": 66,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 70,
         "sta": 58,
         "str": 65,
@@ -127,23 +127,26 @@
       "name": "Ales Kukot",
       "nation": "SVN",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
         "dri": 64,
         "ldr": 59,
         "pac": 59,
-        "pas": 67,
+        "pas": 68,
         "pos": 63,
         "sho": 59,
-        "sta": 62,
+        "sta": 63,
         "str": 60,
-        "tac": 56,
+        "tac": 57,
         "vis": 64
       },
       "birth": "1979-01-01",
@@ -159,6 +162,11 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -237,6 +245,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -265,22 +276,22 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 62,
-        "com": 61,
-        "dri": 43,
-        "ldr": 60,
-        "pac": 52,
-        "pas": 55,
-        "pos": 61,
-        "sho": 31,
+        "aer": 43,
+        "com": 64,
+        "dri": 59,
+        "ldr": 56,
+        "pac": 56,
+        "pas": 65,
+        "pos": 41,
+        "sho": 58,
         "sta": 54,
-        "str": 61,
-        "tac": 65,
-        "vis": 48
+        "str": 49,
+        "tac": 40,
+        "vis": 65
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -291,10 +302,13 @@
       "nation": "GER",
       "nation2": "PHI",
       "number": null,
-      "pos": "CB",
+      "pos": "AM",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 56,
@@ -374,18 +388,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 55,
-        "dri": 41,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 52,
-        "pos": 64,
-        "sho": 29,
-        "sta": 52,
-        "str": 59,
-        "tac": 58,
-        "vis": 41
+        "aer": 46,
+        "com": 53,
+        "dri": 51,
+        "ldr": 53,
+        "pac": 63,
+        "pas": 56,
+        "pos": 59,
+        "sho": 36,
+        "sta": 58,
+        "str": 51,
+        "tac": 55,
+        "vis": 47
       },
       "birth": "1982-02-01",
       "contract": null,
@@ -395,24 +409,29 @@
       "name": "Josef Lestovka",
       "nation": "CZE",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 54,
+        "com": 64,
         "dri": 41,
         "ldr": 52,
         "pac": 50,
-        "pas": 48,
+        "pas": 58,
         "pos": 60,
         "sho": 28,
-        "sta": 51,
+        "sta": 61,
         "str": 61,
         "tac": 61,
-        "vis": 41
+        "vis": 51
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -423,7 +442,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
@@ -435,7 +454,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 46,
-        "pos": 36,
+        "pos": 56,
         "sho": 61,
         "sta": 55,
         "str": 60,
@@ -454,6 +473,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 53,
@@ -562,19 +584,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 55,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 59,
-        "pos": 54,
-        "sho": 51,
+        "dri": 49,
+        "ldr": 53,
+        "pac": 44,
+        "pas": 58,
+        "pos": 58,
+        "sho": 45,
         "sta": 55,
-        "str": 49,
-        "tac": 49,
-        "vis": 56
+        "str": 54,
+        "tac": 55,
+        "vis": 53
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -584,7 +609,7 @@
       "name": "Juri Jodt",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 2000
     },
@@ -596,7 +621,7 @@
         "ldr": 47,
         "pac": 55,
         "pas": 44,
-        "pos": 33,
+        "pos": 53,
         "sho": 56,
         "sta": 53,
         "str": 52,
@@ -616,6 +641,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -642,6 +670,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -677,7 +708,7 @@
         "ldr": 52,
         "pac": 54,
         "pas": 45,
-        "pos": 34,
+        "pos": 54,
         "sho": 56,
         "sta": 51,
         "str": 54,
@@ -723,6 +754,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 53,
@@ -749,19 +785,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 52,
-        "dri": 47,
-        "ldr": 51,
-        "pac": 49,
-        "pas": 54,
-        "pos": 52,
-        "sho": 44,
-        "sta": 55,
-        "str": 49,
-        "tac": 48,
-        "vis": 51
+        "aer": 45,
+        "com": 54,
+        "dri": 49,
+        "ldr": 52,
+        "pac": 50,
+        "pas": 56,
+        "pos": 53,
+        "sho": 46,
+        "sta": 57,
+        "str": 50,
+        "tac": 49,
+        "vis": 53
       },
       "birth": "1987-10-01",
       "contract": null,
@@ -776,6 +815,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 51,

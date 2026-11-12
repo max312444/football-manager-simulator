@@ -96,6 +96,10 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 71,
@@ -130,6 +134,9 @@
       "wage": 154000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -356,6 +363,10 @@
       "wage": 81000
     },
     {
+      "alt": [
+        "CB",
+        "LM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 66,
@@ -387,6 +398,9 @@
       "wage": 131000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 64,
@@ -413,10 +427,6 @@
       "wage": 75000
     },
     {
-      "alt": [
-        "CM",
-        "LB"
-      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -443,9 +453,6 @@
       "wage": 69500
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -453,11 +460,11 @@
         "ldr": 80,
         "pac": 57,
         "pas": 84,
-        "pos": 71,
+        "pos": 77,
         "sho": 76,
         "sta": 80,
-        "str": 72,
-        "tac": 74,
+        "str": 78,
+        "tac": 80,
         "vis": 80
       },
       "birth": "1992-09-01",
@@ -468,7 +475,7 @@
       "name": "Granit Xhake",
       "nation": "SUI",
       "number": 34,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "long_shot",
         "leader"
@@ -476,9 +483,6 @@
       "wage": 271000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 72,
         "com": 81,
@@ -539,6 +543,10 @@
       "wage": 141500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 76,
@@ -567,21 +575,21 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 60,
-        "com": 68,
+        "com": 76,
         "dri": 70,
         "ldr": 58,
         "pac": 77,
-        "pas": 70,
+        "pas": 78,
         "pos": 64,
         "sho": 63,
         "sta": 80,
         "str": 66,
-        "tac": 61,
-        "vis": 68
+        "tac": 69,
+        "vis": 76
       },
       "birth": "1999-08-01",
       "contract": "2023-06-30",
@@ -595,22 +603,19 @@
       "wage": 124000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 48,
-        "com": 66,
+        "com": 71,
         "dri": 73,
         "ldr": 48,
         "pac": 72,
-        "pas": 71,
+        "pas": 76,
         "pos": 52,
-        "sho": 65,
+        "sho": 70,
         "sta": 66,
         "str": 56,
         "tac": 42,
-        "vis": 68
+        "vis": 73
       },
       "birth": "2000-07-01",
       "contract": "2023-06-30",
@@ -656,10 +661,6 @@
       "wage": 75000
     },
     {
-      "alt": [
-        "LW",
-        "LB"
-      ],
       "attrs": {
         "aer": 48,
         "com": 74,
@@ -692,7 +693,9 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "AM",
+        "RM"
       ],
       "attrs": {
         "aer": 50,
@@ -720,6 +723,10 @@
       "wage": 172500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 49,
         "com": 77,
@@ -777,7 +784,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 42,
@@ -809,20 +817,17 @@
       "wage": 69000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 66,
-        "com": 82,
+        "aer": 68,
+        "com": 84,
         "dri": 79,
         "ldr": 71,
         "pac": 87,
         "pas": 72,
-        "pos": 68,
-        "sho": 86,
+        "pos": 70,
+        "sho": 88,
         "sta": 77,
-        "str": 74,
+        "str": 76,
         "tac": 40,
         "vis": 71
       },
@@ -834,7 +839,7 @@
       "name": "Pierre-Emerick Aobameyang",
       "nation": "GAB",
       "number": 14,
-      "pos": "LW",
+      "pos": "ST",
       "traits": [
         "speedster"
       ],
@@ -871,16 +876,16 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 67,
+        "aer": 61,
+        "com": 71,
         "dri": 68,
         "ldr": 53,
         "pac": 78,
         "pas": 60,
-        "pos": 58,
-        "sho": 70,
+        "pos": 62,
+        "sho": 74,
         "sta": 69,
-        "str": 65,
+        "str": 69,
         "tac": 37,
         "vis": 60
       },

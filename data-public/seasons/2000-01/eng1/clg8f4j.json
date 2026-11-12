@@ -125,9 +125,6 @@
       "wage": 30500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -214,7 +211,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -238,7 +236,7 @@
       "name": "Darren Andarton",
       "nation": "ENG",
       "number": 7,
-      "pos": "RM",
+      "pos": "AM",
       "traits": [
         "injury_prone",
         "free_kick"
@@ -246,19 +244,22 @@
       "wage": 40500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 74,
-        "dri": 64,
+        "com": 76,
+        "dri": 66,
         "ldr": 76,
         "pac": 56,
-        "pas": 76,
+        "pas": 78,
         "pos": 70,
-        "sho": 64,
-        "sta": 74,
+        "sho": 66,
+        "sta": 76,
         "str": 72,
         "tac": 72,
-        "vis": 72
+        "vis": 74
       },
       "birth": "1969-02-01",
       "contract": "2002-06-30",
@@ -332,16 +333,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 74,
+        "aer": 61,
+        "com": 85,
         "dri": 78,
         "ldr": 54,
         "pac": 76,
         "pas": 70,
-        "pos": 46,
-        "sho": 78,
+        "pos": 57,
+        "sho": 89,
         "sta": 72,
-        "str": 60,
+        "str": 71,
         "tac": 32,
         "vis": 70
       },
@@ -358,22 +359,21 @@
     },
     {
       "alt": [
-        "LM",
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 58,
-        "com": 68,
+        "com": 72,
         "dri": 68,
         "ldr": 60,
         "pac": 68,
-        "pas": 70,
+        "pas": 74,
         "pos": 64,
         "sho": 64,
         "sta": 82,
         "str": 62,
-        "tac": 64,
-        "vis": 66
+        "tac": 68,
+        "vis": 70
       },
       "birth": "1970-08-01",
       "contract": "2002-06-30",
@@ -414,6 +414,8 @@
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "ST"
       ],
       "attrs": {
@@ -442,9 +444,6 @@
       "wage": 16500
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -467,7 +466,7 @@
       "name": "Willem Korstan",
       "nation": "NED",
       "number": 15,
-      "pos": "LM",
+      "pos": "LW",
       "traits": [
         "injury_prone"
       ],
@@ -500,19 +499,16 @@
       "wage": 16500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 66,
         "com": 62,
-        "dri": 56,
+        "dri": 59,
         "ldr": 58,
-        "pac": 68,
-        "pas": 58,
+        "pac": 71,
+        "pas": 61,
         "pos": 68,
         "sho": 38,
-        "sta": 74,
+        "sta": 77,
         "str": 76,
         "tac": 74,
         "vis": 46
@@ -529,9 +525,6 @@
       "wage": 23000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 76,
         "com": 72,
@@ -559,7 +552,8 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 64,
@@ -588,17 +582,17 @@
     },
     {
       "alt": [
-        "CM"
+        "LW"
       ],
       "attrs": {
         "aer": 52,
-        "com": 64,
-        "dri": 72,
+        "com": 65,
+        "dri": 73,
         "ldr": 48,
-        "pac": 70,
+        "pac": 71,
         "pas": 70,
         "pos": 58,
-        "sho": 62,
+        "sho": 63,
         "sta": 76,
         "str": 60,
         "tac": 52,
@@ -612,7 +606,7 @@
       "name": "Simon Devies",
       "nation": "WAL",
       "number": 29,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 24500
     },
     {
@@ -621,17 +615,17 @@
       ],
       "attrs": {
         "aer": 56,
-        "com": 62,
-        "dri": 62,
+        "com": 64,
+        "dri": 64,
         "ldr": 52,
         "pac": 60,
-        "pas": 68,
+        "pas": 70,
         "pos": 62,
-        "sho": 52,
-        "sta": 76,
+        "sho": 54,
+        "sta": 78,
         "str": 64,
         "tac": 66,
-        "vis": 62
+        "vis": 64
       },
       "birth": "1978-03-01",
       "contract": "2004-06-30",
@@ -699,7 +693,7 @@
       "name": "Matthew Etharington",
       "nation": "ENG",
       "number": 28,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 10500
     },
     {
@@ -729,9 +723,6 @@
       "wage": 13500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 62,
         "com": 52,

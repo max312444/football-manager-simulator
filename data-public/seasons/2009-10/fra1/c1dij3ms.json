@@ -129,19 +129,23 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 66,
-        "ldr": 64,
-        "pac": 65,
+        "aer": 55,
+        "com": 72,
+        "dri": 70,
+        "ldr": 62,
+        "pac": 68,
         "pas": 75,
-        "pos": 68,
-        "sho": 62,
-        "sta": 75,
-        "str": 67,
-        "tac": 68,
-        "vis": 68
+        "pos": 53,
+        "sho": 68,
+        "sta": 69,
+        "str": 62,
+        "tac": 50,
+        "vis": 70
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -151,10 +155,14 @@
       "name": "Fredrik Strumstad",
       "nation": "NOR",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 22500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 63,
         "com": 63,
@@ -162,7 +170,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 51,
-        "pos": 42,
+        "pos": 62,
         "sho": 63,
         "sta": 57,
         "str": 61,
@@ -181,7 +189,6 @@
       "wage": 8500
     },
     {
-      "alt": [],
       "attrs": {
         "aer": 70,
         "com": 73,
@@ -189,7 +196,7 @@
         "ldr": 60,
         "pac": 71,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 69,
         "sta": 63,
         "str": 66,
@@ -209,18 +216,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 64,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 65,
-        "pos": 65,
-        "sho": 58,
-        "sta": 70,
-        "str": 62,
-        "tac": 61,
-        "vis": 63
+        "aer": 47,
+        "com": 62,
+        "dri": 68,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 61,
+        "pos": 47,
+        "sho": 62,
+        "sta": 66,
+        "str": 57,
+        "tac": 41,
+        "vis": 60
       },
       "birth": "1987-09-01",
       "contract": null,
@@ -230,7 +237,7 @@
       "name": "Marcelo Estigarribie",
       "nation": "PAR",
       "number": 11,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 19500
     },
     {
@@ -260,19 +267,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 63,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 63,
-        "pos": 60,
-        "sho": 57,
-        "sta": 64,
-        "str": 56,
-        "tac": 61,
-        "vis": 66
+        "aer": 46,
+        "com": 61,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 66,
+        "pas": 59,
+        "pos": 42,
+        "sho": 61,
+        "sta": 60,
+        "str": 51,
+        "tac": 41,
+        "vis": 63
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -283,10 +293,13 @@
       "nation": "FRA",
       "nation2": "TOG",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -339,6 +352,10 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 44,
         "com": 53,
@@ -366,18 +383,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 54,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 52,
-        "pas": 53,
-        "pos": 51,
-        "sho": 47,
-        "sta": 53,
-        "str": 52,
-        "tac": 48,
-        "vis": 55
+        "aer": 56,
+        "com": 52,
+        "dri": 40,
+        "ldr": 50,
+        "pac": 51,
+        "pas": 43,
+        "pos": 56,
+        "sho": 26,
+        "sta": 47,
+        "str": 59,
+        "tac": 55,
+        "vis": 40
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -387,10 +404,13 @@
       "name": "Mamadou Wagoe",
       "nation": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -424,7 +444,7 @@
         "ldr": 62,
         "pac": 70,
         "pas": 66,
-        "pos": 48,
+        "pos": 68,
         "sho": 75,
         "sta": 68,
         "str": 74,
@@ -469,9 +489,6 @@
       "wage": 14000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -494,23 +511,23 @@
       "name": "Ludovic Bael",
       "nation": "FRA",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 10000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 65,
-        "dri": 64,
-        "ldr": 60,
-        "pac": 68,
-        "pas": 56,
-        "pos": 41,
-        "sho": 69,
-        "sta": 59,
-        "str": 68,
-        "tac": 33,
-        "vis": 57
+        "aer": 50,
+        "com": 62,
+        "dri": 69,
+        "ldr": 58,
+        "pac": 72,
+        "pas": 62,
+        "pos": 43,
+        "sho": 64,
+        "sta": 61,
+        "str": 58,
+        "tac": 39,
+        "vis": 63
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -520,23 +537,26 @@
       "name": "Roland Lemah",
       "nation": "BEL",
       "number": 25,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 13000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 59,
-        "dri": 54,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 61,
-        "pos": 55,
-        "sho": 54,
+        "dri": 50,
+        "ldr": 54,
+        "pac": 51,
+        "pas": 60,
+        "pos": 59,
+        "sho": 48,
         "sta": 57,
-        "str": 53,
-        "tac": 57,
-        "vis": 57
+        "str": 58,
+        "tac": 63,
+        "vis": 54
       },
       "birth": "1988-06-01",
       "contract": null,
@@ -546,7 +566,7 @@
       "name": "Herold Goulun",
       "nation": "FRA",
       "number": 26,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8500
     },
     {

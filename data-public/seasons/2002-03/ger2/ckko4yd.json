@@ -25,7 +25,7 @@
   "squad": [
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 61,
@@ -54,6 +54,11 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -88,7 +93,7 @@
         "ldr": 58,
         "pac": 58,
         "pas": 53,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 59,
         "str": 60,
@@ -115,7 +120,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 53,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 53,
         "str": 58,
@@ -136,18 +141,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 59,
-        "dri": 56,
-        "ldr": 58,
-        "pac": 54,
-        "pas": 62,
-        "pos": 59,
-        "sho": 52,
+        "dri": 52,
+        "ldr": 60,
+        "pac": 51,
+        "pas": 61,
+        "pos": 63,
+        "sho": 46,
         "sta": 61,
-        "str": 55,
-        "tac": 54,
-        "vis": 61
+        "str": 60,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "1973-08-01",
       "contract": null,
@@ -157,7 +162,7 @@
       "name": "Manfred Burghartswyeser",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
@@ -187,19 +192,23 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 62,
-        "dri": 54,
-        "ldr": 57,
-        "pac": 56,
+        "aer": 43,
+        "com": 63,
+        "dri": 58,
+        "ldr": 55,
+        "pac": 59,
         "pas": 64,
-        "pos": 55,
-        "sho": 52,
-        "sta": 60,
-        "str": 55,
-        "tac": 54,
-        "vis": 59
+        "pos": 40,
+        "sho": 58,
+        "sta": 54,
+        "str": 50,
+        "tac": 36,
+        "vis": 61
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -209,11 +218,14 @@
       "name": "Thomas Bruich",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -242,18 +254,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 55,
-        "dri": 53,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 60,
-        "pos": 54,
-        "sho": 54,
+        "dri": 49,
+        "ldr": 59,
+        "pac": 53,
+        "pas": 59,
+        "pos": 58,
+        "sho": 48,
         "sta": 57,
-        "str": 51,
-        "tac": 51,
-        "vis": 60
+        "str": 56,
+        "tac": 57,
+        "vis": 57
       },
       "birth": "1974-08-01",
       "contract": null,
@@ -264,7 +276,7 @@
       "nation": "GER",
       "nation2": "CGO",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -295,6 +307,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 55,
@@ -302,7 +319,7 @@
         "ldr": 50,
         "pac": 55,
         "pas": 47,
-        "pos": 31,
+        "pos": 51,
         "sho": 60,
         "sta": 54,
         "str": 58,
@@ -322,19 +339,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 51,
+        "com": 60,
         "dri": 41,
         "ldr": 50,
         "pac": 49,
-        "pas": 50,
+        "pas": 59,
         "pos": 59,
         "sho": 31,
-        "sta": 51,
+        "sta": 60,
         "str": 60,
         "tac": 57,
-        "vis": 40
+        "vis": 49
       },
       "birth": "1976-08-01",
       "contract": null,
@@ -344,10 +366,13 @@
       "name": "Bjorn Hartl",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -382,7 +407,7 @@
         "ldr": 47,
         "pac": 52,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 58,
         "sta": 54,
         "str": 58,
@@ -428,6 +453,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,
@@ -462,7 +490,7 @@
         "ldr": 43,
         "pac": 53,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 55,
         "sta": 49,
         "str": 51,
@@ -508,19 +536,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 48,
-        "dri": 49,
-        "ldr": 48,
-        "pac": 46,
-        "pas": 51,
-        "pos": 49,
-        "sho": 42,
-        "sta": 51,
-        "str": 41,
-        "tac": 46,
-        "vis": 48
+        "aer": 36,
+        "com": 46,
+        "dri": 54,
+        "ldr": 44,
+        "pac": 55,
+        "pas": 47,
+        "pos": 31,
+        "sho": 46,
+        "sta": 47,
+        "str": 36,
+        "tac": 26,
+        "vis": 45
       },
       "birth": "1981-10-01",
       "contract": null,
@@ -530,7 +561,7 @@
       "name": "Robert Buhme",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 1000
     },
@@ -562,6 +593,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 51,
@@ -589,19 +623,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 48,
+        "com": 57,
         "dri": 37,
         "ldr": 43,
         "pac": 44,
-        "pas": 42,
+        "pas": 51,
         "pos": 51,
         "sho": 21,
-        "sta": 46,
+        "sta": 55,
         "str": 47,
         "tac": 48,
-        "vis": 35
+        "vis": 44
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -611,7 +650,7 @@
       "name": "Timo Nagi",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1000
     }
   ],

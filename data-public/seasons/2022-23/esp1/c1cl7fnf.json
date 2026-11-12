@@ -78,6 +78,9 @@
       "wage": 34000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -100,7 +103,7 @@
       "name": "Miguel Gutyerrez",
       "nation": "ESP",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 24500
     },
     {
@@ -130,6 +133,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 68,
@@ -156,6 +162,9 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -189,7 +198,7 @@
         "ldr": 67,
         "pac": 72,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 74,
         "sta": 71,
         "str": 72,
@@ -209,6 +218,10 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,
@@ -242,7 +255,7 @@
         "ldr": 58,
         "pac": 66,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 65,
         "str": 68,
@@ -262,19 +275,24 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 71,
-        "dri": 63,
-        "ldr": 67,
-        "pac": 61,
+        "aer": 52,
+        "com": 72,
+        "dri": 67,
+        "ldr": 65,
+        "pac": 64,
         "pas": 70,
-        "pos": 67,
-        "sho": 64,
-        "sta": 69,
-        "str": 66,
-        "tac": 62,
-        "vis": 68
+        "pos": 52,
+        "sho": 70,
+        "sta": 63,
+        "str": 61,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -284,23 +302,27 @@
       "name": "Samuel Seiz",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 64500
     },
     {
+      "alt": [
+        "RB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 64,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 59,
-        "pas": 50,
-        "pos": 40,
-        "sho": 60,
-        "sta": 56,
-        "str": 57,
-        "tac": 33,
-        "vis": 49
+        "aer": 41,
+        "com": 61,
+        "dri": 63,
+        "ldr": 50,
+        "pac": 63,
+        "pas": 56,
+        "pos": 42,
+        "sho": 55,
+        "sta": 58,
+        "str": 47,
+        "tac": 39,
+        "vis": 55
       },
       "birth": "1999-11-01",
       "contract": null,
@@ -310,10 +332,14 @@
       "name": "Valery Fernandaz",
       "nation": "ESP",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 73,
@@ -366,6 +392,9 @@
       "wage": 33500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 58,
@@ -393,19 +422,23 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 63,
-        "dri": 58,
-        "ldr": 60,
-        "pac": 66,
-        "pas": 56,
-        "pos": 41,
-        "sho": 64,
-        "sta": 61,
-        "str": 60,
-        "tac": 32,
-        "vis": 54
+        "aer": 49,
+        "com": 60,
+        "dri": 63,
+        "ldr": 58,
+        "pac": 70,
+        "pas": 62,
+        "pos": 43,
+        "sho": 59,
+        "sta": 63,
+        "str": 50,
+        "tac": 38,
+        "vis": 60
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -416,23 +449,23 @@
       "name": "Rodrigo Riqoelme",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 23500
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 59,
-        "dri": 57,
-        "ldr": 55,
-        "pac": 59,
+        "aer": 47,
+        "com": 60,
+        "dri": 61,
+        "ldr": 53,
+        "pac": 62,
         "pas": 64,
-        "pos": 58,
-        "sho": 52,
-        "sta": 62,
-        "str": 58,
-        "tac": 56,
-        "vis": 65
+        "pos": 43,
+        "sho": 58,
+        "sta": 56,
+        "str": 53,
+        "tac": 38,
+        "vis": 67
       },
       "birth": "2002-01-01",
       "contract": null,
@@ -443,23 +476,26 @@
       "name": "Reinier Jesos",
       "nation": "BRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 28000
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 51,
-        "pas": 50,
-        "pos": 62,
-        "sho": 32,
-        "sta": 54,
-        "str": 63,
-        "tac": 60,
-        "vis": 45
+        "aer": 50,
+        "com": 57,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 59,
+        "pas": 54,
+        "pos": 57,
+        "sho": 39,
+        "sta": 60,
+        "str": 55,
+        "tac": 57,
+        "vis": 51
       },
       "birth": "2002-06-01",
       "contract": null,
@@ -470,10 +506,13 @@
       "name": "Yan Cuuto",
       "nation": "BRA",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 78,
@@ -527,6 +566,9 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 71,
@@ -555,18 +597,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 64,
-        "dri": 63,
-        "ldr": 63,
-        "pac": 62,
+        "aer": 52,
+        "com": 65,
+        "dri": 67,
+        "ldr": 61,
+        "pac": 65,
         "pas": 72,
-        "pos": 65,
-        "sho": 58,
-        "sta": 66,
-        "str": 62,
-        "tac": 61,
-        "vis": 67
+        "pos": 50,
+        "sho": 64,
+        "sta": 60,
+        "str": 57,
+        "tac": 43,
+        "vis": 69
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -576,7 +618,7 @@
       "name": "Borja Garcya",
       "nation": "ESP",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 51000
     }
   ],

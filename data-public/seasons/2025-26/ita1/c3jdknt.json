@@ -52,6 +52,9 @@
       "wage": 178000
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 73,
@@ -133,6 +136,10 @@
       "wage": 254500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 80,
@@ -159,6 +166,9 @@
       "wage": 398000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 62,
@@ -192,7 +202,7 @@
         "ldr": 74,
         "pac": 81,
         "pas": 72,
-        "pos": 59,
+        "pos": 79,
         "sho": 86,
         "sta": 79,
         "str": 82,
@@ -218,7 +228,7 @@
         "ldr": 73,
         "pac": 79,
         "pas": 74,
-        "pos": 59,
+        "pos": 79,
         "sho": 87,
         "sta": 79,
         "str": 84,
@@ -237,19 +247,24 @@
       "wage": 358000
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 65,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 68,
-        "pos": 63,
-        "sho": 57,
-        "sta": 68,
-        "str": 58,
-        "tac": 58,
-        "vis": 62
+        "aer": 45,
+        "com": 63,
+        "dri": 68,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 64,
+        "pos": 45,
+        "sho": 61,
+        "sta": 64,
+        "str": 53,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -259,7 +274,7 @@
       "name": "Luis Henriqua",
       "nation": "BRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 79500
     },
     {
@@ -322,7 +337,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 51,
-        "pos": 43,
+        "pos": 63,
         "sho": 63,
         "sta": 56,
         "str": 59,
@@ -368,6 +383,10 @@
       "wage": 112000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 80,
@@ -394,6 +413,11 @@
       "wage": 397000
     },
     {
+      "alt": [
+        "RWB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -421,6 +445,10 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 81,
@@ -448,19 +476,23 @@
       "wage": 398000
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 78,
-        "dri": 70,
-        "ldr": 71,
-        "pac": 68,
+        "aer": 60,
+        "com": 79,
+        "dri": 74,
+        "ldr": 69,
+        "pac": 71,
         "pas": 79,
-        "pos": 71,
-        "sho": 69,
-        "sta": 80,
-        "str": 69,
-        "tac": 74,
-        "vis": 79
+        "pos": 56,
+        "sho": 75,
+        "sta": 74,
+        "str": 64,
+        "tac": 56,
+        "vis": 81
       },
       "birth": "1989-01-01",
       "contract": null,
@@ -470,10 +502,13 @@
       "name": "Henrikh Mkhiteryan",
       "nation": "ARM",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 290500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 77,
@@ -500,6 +535,10 @@
       "wage": 398000
     },
     {
+      "alt": [
+        "LB",
+        "LM"
+      ],
       "attrs": {
         "aer": 78,
         "com": 69,
@@ -553,18 +592,18 @@
     },
     {
       "attrs": {
-        "aer": 83,
-        "com": 77,
-        "dri": 62,
-        "ldr": 75,
-        "pac": 71,
-        "pas": 72,
-        "pos": 83,
-        "sho": 55,
-        "sta": 76,
-        "str": 83,
-        "tac": 79,
-        "vis": 65
+        "aer": 70,
+        "com": 75,
+        "dri": 74,
+        "ldr": 71,
+        "pac": 81,
+        "pas": 77,
+        "pos": 76,
+        "sho": 65,
+        "sta": 84,
+        "str": 75,
+        "tac": 74,
+        "vis": 72
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -574,26 +613,28 @@
       "name": "Federico Dimerco",
       "nation": "ITA",
       "number": 32,
-      "pos": "CB",
+      "pos": "LWB",
       "wage": 310500
     },
     {
       "alt": [
-        "RB"
+        "LB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 77,
-        "com": 70,
-        "dri": 61,
-        "ldr": 72,
-        "pac": 71,
-        "pas": 64,
-        "pos": 79,
-        "sho": 49,
-        "sta": 71,
-        "str": 78,
-        "tac": 78,
-        "vis": 61
+        "aer": 64,
+        "com": 68,
+        "dri": 71,
+        "ldr": 68,
+        "pac": 79,
+        "pas": 68,
+        "pos": 74,
+        "sho": 56,
+        "sta": 77,
+        "str": 70,
+        "tac": 75,
+        "vis": 67
       },
       "birth": "1989-12-01",
       "contract": null,
@@ -603,7 +644,7 @@
       "name": "Matteo Dermian",
       "nation": "ITA",
       "number": 36,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 193500
     },
     {
@@ -640,7 +681,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 54,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 53,
         "str": 56,

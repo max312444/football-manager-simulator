@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { advanceDay, createWorld, seasonOver, type SeasonInput } from './world';
 import { closeSeason, startNextSeason } from './season';
-import { growTowardPotential, makeAttrs, rollPotential } from './youth';
+import { academyFill, growTowardPotential, makeAttrs, rollPotential, SQUAD_MIN } from './youth';
 import { createRng } from './rng';
 import { overall } from './ratings';
 import { newPlayer } from './world';
@@ -71,5 +71,23 @@ describe('유스 · 신규 선수', () => {
     closeSeason(w);
     const r = startNextSeason(w, load('2025-26', ['eng1']));
     expect(r.youth).toEqual([]);
+  });
+
+  it('선수단 구성이 모자란 구단은 아카데미에서 끌어올린다 (골키퍼 2 · 수비 5 · 미드 4 · 공격 2)', () => {
+    const GROUP: Record<string, string> = { GK: 'GK', CB: 'DF', LB: 'DF', RB: 'DF', LWB: 'DF', RWB: 'DF', DM: 'MF', CM: 'MF', AM: 'MF', LM: 'MF', RM: 'MF', LW: 'FW', RW: 'FW', ST: 'FW' };
+    const input = load('2002-03', ['ger2']);
+    const club = input.leagues[0].clubs[0];
+    club.squad = club.squad.filter((p) => GROUP[p.pos] !== 'DF').concat(club.squad.filter((p) => GROUP[p.pos] === 'DF').slice(0, 2));   // 수비수 2명만 남김
+    const w = createWorld(input, club.club, 9);
+    for (const c of Object.values(w.clubs)) {
+      const n: Record<string, number> = { GK: 0, DF: 0, MF: 0, FW: 0 };
+      for (const id of c.squad) n[GROUP[w.players[id].pos]]++;
+      for (const g of Object.keys(SQUAD_MIN)) expect(n[g], `${c.id} ${g}`).toBeGreaterThanOrEqual(SQUAD_MIN[g]);
+    }
+    const made = w.clubs[club.club].squad.filter((id) => w.players[id].generated);
+    console.log('끌어올린 선수', made.map((id) => `${w.players[id].name} ${w.players[id].pos} ${overall(w.players[id])}`));
+    expect(made.filter((id) => GROUP[w.players[id].pos] === 'DF').length).toBeGreaterThanOrEqual(3);
+    expect(new Set(made.map((id) => w.players[id].name)).size).toBe(made.length);   // 이름이 겹치지 않음
+    expect(academyFill(w, Object.values(w.clubs), '2002-03')).toEqual([]);   // 다시 불러도 더 만들지 않음
   });
 });

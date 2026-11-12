@@ -26,18 +26,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 57,
-        "com": 54,
-        "dri": 41,
-        "ldr": 56,
-        "pac": 47,
-        "pas": 45,
-        "pos": 57,
-        "sho": 29,
-        "sta": 48,
-        "str": 55,
-        "tac": 57,
-        "vis": 43
+        "aer": 44,
+        "com": 52,
+        "dri": 51,
+        "ldr": 52,
+        "pac": 55,
+        "pas": 49,
+        "pos": 52,
+        "sho": 36,
+        "sta": 54,
+        "str": 47,
+        "tac": 54,
+        "vis": 49
       },
       "birth": "1990-01-01",
       "contract": null,
@@ -47,13 +47,10 @@
       "name": "Paul Babiluni",
       "nation": "FRA",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 49,
         "com": 52,
@@ -81,6 +78,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 65,
@@ -107,6 +107,10 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 53,
         "com": 60,
@@ -135,18 +139,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 55,
-        "dri": 43,
-        "ldr": 56,
-        "pac": 53,
-        "pas": 48,
-        "pos": 61,
-        "sho": 34,
-        "sta": 58,
-        "str": 59,
-        "tac": 64,
-        "vis": 47
+        "aer": 46,
+        "com": 53,
+        "dri": 53,
+        "ldr": 52,
+        "pac": 61,
+        "pas": 52,
+        "pos": 56,
+        "sho": 41,
+        "sta": 64,
+        "str": 51,
+        "tac": 61,
+        "vis": 53
       },
       "birth": "1989-11-01",
       "contract": null,
@@ -156,23 +160,27 @@
       "name": "Dorian Levaque",
       "nation": "FRA",
       "number": 7,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 9000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 67,
-        "dri": 65,
-        "ldr": 59,
-        "pac": 61,
-        "pas": 71,
-        "pos": 64,
-        "sho": 61,
-        "sta": 71,
-        "str": 58,
-        "tac": 63,
-        "vis": 70
+        "aer": 49,
+        "com": 65,
+        "dri": 70,
+        "ldr": 55,
+        "pac": 70,
+        "pas": 67,
+        "pos": 46,
+        "sho": 65,
+        "sta": 67,
+        "str": 53,
+        "tac": 43,
+        "vis": 67
       },
       "birth": "1988-04-01",
       "contract": null,
@@ -183,7 +191,7 @@
       "nation": "FRA",
       "nation2": "GLP",
       "number": 8,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 25500
     },
     {
@@ -194,7 +202,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 56,
-        "pos": 45,
+        "pos": 65,
         "sho": 72,
         "sta": 65,
         "str": 68,
@@ -221,7 +229,7 @@
         "ldr": 52,
         "pac": 56,
         "pas": 47,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 54,
         "str": 57,
@@ -240,19 +248,22 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 66,
-        "dri": 64,
-        "ldr": 64,
-        "pac": 62,
-        "pas": 65,
-        "pos": 61,
-        "sho": 60,
-        "sta": 69,
-        "str": 64,
-        "tac": 60,
-        "vis": 65
+        "aer": 53,
+        "com": 64,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 71,
+        "pas": 61,
+        "pos": 43,
+        "sho": 64,
+        "sta": 65,
+        "str": 59,
+        "tac": 40,
+        "vis": 62
       },
       "birth": "1988-03-01",
       "contract": null,
@@ -262,10 +273,13 @@
       "name": "Steeven Langyl",
       "nation": "FRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 67,
@@ -300,7 +314,7 @@
         "ldr": 55,
         "pac": 62,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 60,
         "str": 65,
@@ -326,7 +340,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 54,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 58,
         "str": 61,
@@ -405,7 +419,7 @@
         "ldr": 53,
         "pac": 62,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 60,
         "sta": 58,
         "str": 58,
@@ -425,6 +439,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
@@ -504,18 +521,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 58,
-        "dri": 47,
-        "ldr": 61,
-        "pac": 54,
-        "pas": 54,
-        "pos": 64,
-        "sho": 35,
-        "sta": 61,
-        "str": 66,
-        "tac": 67,
-        "vis": 46
+        "aer": 54,
+        "com": 56,
+        "dri": 57,
+        "ldr": 57,
+        "pac": 62,
+        "pas": 58,
+        "pos": 59,
+        "sho": 42,
+        "sta": 67,
+        "str": 58,
+        "tac": 64,
+        "vis": 52
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -525,10 +542,13 @@
       "name": "Reynald Lemeitre",
       "nation": "FRA",
       "number": 25,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -581,19 +601,22 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 56,
+        "aer": 45,
+        "com": 62,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 59,
         "pas": 67,
-        "pos": 64,
-        "sho": 54,
-        "sta": 65,
-        "str": 61,
-        "tac": 59,
-        "vis": 64
+        "pos": 49,
+        "sho": 60,
+        "sta": 59,
+        "str": 56,
+        "tac": 41,
+        "vis": 66
       },
       "birth": "1984-02-01",
       "contract": null,
@@ -604,23 +627,23 @@
       "nation": "TUR",
       "nation2": "FRA",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 20500
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 64,
-        "dri": 61,
-        "ldr": 63,
-        "pac": 56,
-        "pas": 69,
-        "pos": 65,
-        "sho": 56,
-        "sta": 64,
-        "str": 58,
-        "tac": 60,
-        "vis": 68
+        "aer": 69,
+        "com": 62,
+        "dri": 49,
+        "ldr": 65,
+        "pac": 55,
+        "pas": 59,
+        "pos": 70,
+        "sho": 35,
+        "sta": 58,
+        "str": 65,
+        "tac": 67,
+        "vis": 53
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -630,7 +653,7 @@
       "name": "Christophe Karbrat",
       "nation": "FRA",
       "number": 29,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 23500
     }
   ],

@@ -31,7 +31,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 61,
         "str": 62,
@@ -58,7 +58,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 65,
         "sta": 59,
         "str": 65,
@@ -78,6 +78,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -106,18 +109,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 58,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 60,
-        "pos": 58,
-        "sho": 51,
+        "dri": 53,
+        "ldr": 58,
+        "pac": 54,
+        "pas": 59,
+        "pos": 62,
+        "sho": 45,
         "sta": 59,
-        "str": 54,
-        "tac": 56,
-        "vis": 58
+        "str": 59,
+        "tac": 62,
+        "vis": 55
       },
       "birth": "1980-12-01",
       "contract": null,
@@ -127,7 +130,7 @@
       "name": "Marco Engelherdt",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
@@ -159,6 +162,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,
@@ -186,6 +192,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -239,17 +248,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 55,
-        "dri": 54,
+        "aer": 51,
+        "com": 62,
+        "dri": 58,
         "ldr": 49,
-        "pac": 49,
+        "pac": 56,
         "pas": 58,
-        "pos": 53,
-        "sho": 47,
+        "pos": 60,
+        "sho": 54,
         "sta": 57,
-        "str": 51,
+        "str": 58,
         "tac": 49,
         "vis": 54
       },
@@ -261,7 +275,7 @@
       "name": "Daniel Gref",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2000
     },
     {
@@ -272,7 +286,7 @@
         "ldr": 49,
         "pac": 53,
         "pas": 45,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 51,
         "str": 58,
@@ -318,6 +332,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -371,19 +388,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 52,
-        "ldr": 48,
-        "pac": 50,
-        "pas": 56,
-        "pos": 55,
-        "sho": 46,
-        "sta": 59,
-        "str": 52,
-        "tac": 54,
-        "vis": 56
+        "aer": 48,
+        "com": 57,
+        "dri": 54,
+        "ldr": 49,
+        "pac": 51,
+        "pas": 58,
+        "pos": 56,
+        "sho": 48,
+        "sta": 61,
+        "str": 53,
+        "tac": 55,
+        "vis": 58
       },
       "birth": "1974-10-01",
       "contract": null,
@@ -397,6 +417,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,
@@ -424,19 +447,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 53,
-        "dri": 55,
-        "ldr": 46,
-        "pac": 51,
-        "pas": 43,
-        "pos": 29,
-        "sho": 60,
-        "sta": 48,
-        "str": 51,
-        "tac": 26,
-        "vis": 43
+        "aer": 39,
+        "com": 50,
+        "dri": 60,
+        "ldr": 44,
+        "pac": 55,
+        "pas": 49,
+        "pos": 31,
+        "sho": 55,
+        "sta": 50,
+        "str": 41,
+        "tac": 32,
+        "vis": 49
       },
       "birth": "1983-10-01",
       "contract": null,
@@ -446,7 +472,7 @@
       "name": "Ivan Seenko",
       "nation": "RUS",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 1000
     },
@@ -477,6 +503,11 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 49,
@@ -499,24 +530,24 @@
       "name": "Gabriel Melkem",
       "nation": "NGA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 1500
     },
     {
       "attrs": {
         "aer": 45,
-        "com": 50,
+        "com": 51,
         "dri": 52,
         "ldr": 50,
         "pac": 50,
-        "pas": 52,
+        "pas": 53,
         "pos": 49,
         "sho": 44,
         "sta": 57,
         "str": 48,
-        "tac": 46,
-        "vis": 51
+        "tac": 47,
+        "vis": 52
       },
       "birth": "1971-11-01",
       "contract": null,
@@ -558,17 +589,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 37,
-        "com": 52,
-        "dri": 44,
+        "aer": 44,
+        "com": 59,
+        "dri": 51,
         "ldr": 46,
-        "pac": 44,
+        "pac": 51,
         "pas": 51,
-        "pos": 44,
-        "sho": 40,
+        "pos": 51,
+        "sho": 47,
         "sta": 54,
-        "str": 47,
+        "str": 54,
         "tac": 43,
         "vis": 48
       },
@@ -581,10 +617,13 @@
       "nation": "RUS",
       "nation2": "CMR",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 46,
@@ -673,7 +712,7 @@
         "ldr": 43,
         "pac": 45,
         "pas": 40,
-        "pos": 22,
+        "pos": 42,
         "sho": 49,
         "sta": 44,
         "str": 44,

@@ -77,6 +77,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 61,
@@ -103,6 +106,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,
@@ -155,6 +161,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -181,6 +190,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -214,7 +226,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 71,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 74,
         "str": 79,
@@ -241,7 +253,7 @@
         "ldr": 58,
         "pac": 68,
         "pas": 61,
-        "pos": 43,
+        "pos": 63,
         "sho": 68,
         "sta": 62,
         "str": 64,
@@ -320,7 +332,7 @@
         "ldr": 51,
         "pac": 61,
         "pas": 52,
-        "pos": 35,
+        "pos": 55,
         "sho": 63,
         "sta": 58,
         "str": 58,
@@ -372,7 +384,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 50,
-        "pos": 33,
+        "pos": 53,
         "sho": 56,
         "sta": 54,
         "str": 57,
@@ -391,6 +403,10 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 66,
@@ -444,19 +460,22 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 55,
-        "dri": 45,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 52,
-        "pos": 62,
-        "sho": 35,
-        "sta": 55,
-        "str": 63,
-        "tac": 61,
-        "vis": 44
+        "aer": 52,
+        "com": 53,
+        "dri": 55,
+        "ldr": 54,
+        "pac": 64,
+        "pas": 56,
+        "pos": 57,
+        "sho": 42,
+        "sta": 61,
+        "str": 55,
+        "tac": 58,
+        "vis": 50
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -466,7 +485,7 @@
       "name": "Mirko Piery",
       "nation": "ITA",
       "number": 46,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 5500
     },
     {
@@ -497,6 +516,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -523,19 +545,22 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 73,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 72,
-        "pas": 74,
-        "pos": 72,
-        "sho": 66,
-        "sta": 73,
-        "str": 67,
-        "tac": 68,
-        "vis": 77
+        "aer": 62,
+        "com": 71,
+        "dri": 77,
+        "ldr": 70,
+        "pac": 80,
+        "pas": 77,
+        "pos": 64,
+        "sho": 64,
+        "sta": 79,
+        "str": 64,
+        "tac": 65,
+        "vis": 79
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -546,26 +571,28 @@
       "name": "Antonio Candrava",
       "nation": "ITA",
       "number": 83,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 25500
     },
     {
       "alt": [
-        "ST"
+        "LB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
-        "aer": 47,
-        "com": 59,
-        "dri": 59,
-        "ldr": 53,
-        "pac": 50,
+        "aer": 43,
+        "com": 57,
+        "dri": 62,
+        "ldr": 51,
+        "pac": 58,
         "pas": 60,
-        "pos": 54,
-        "sho": 54,
-        "sta": 59,
-        "str": 52,
-        "tac": 56,
-        "vis": 60
+        "pos": 46,
+        "sho": 52,
+        "sta": 62,
+        "str": 49,
+        "tac": 50,
+        "vis": 59
       },
       "birth": "1987-10-01",
       "contract": null,
@@ -576,7 +603,7 @@
       "name": "Luigi Vytale",
       "nation": "ITA",
       "number": 87,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 6500
     },
     {
@@ -587,7 +614,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 65,
-        "pos": 54,
+        "pos": 74,
         "sho": 74,
         "sta": 66,
         "str": 70,
@@ -608,18 +635,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 69,
-        "dri": 68,
-        "ldr": 70,
-        "pac": 68,
-        "pas": 77,
-        "pos": 68,
-        "sho": 67,
+        "dri": 64,
+        "ldr": 72,
+        "pac": 65,
+        "pas": 76,
+        "pos": 72,
+        "sho": 61,
         "sta": 72,
-        "str": 66,
-        "tac": 65,
-        "vis": 76
+        "str": 71,
+        "tac": 71,
+        "vis": 73
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -629,7 +656,7 @@
       "name": "Muzart",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25500
     },
     {

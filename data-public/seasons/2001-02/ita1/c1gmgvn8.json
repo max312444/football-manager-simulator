@@ -31,7 +31,7 @@
         "ldr": 69,
         "pac": 79,
         "pas": 72,
-        "pos": 56,
+        "pos": 76,
         "sho": 78,
         "sta": 76,
         "str": 81,
@@ -57,7 +57,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 81,
         "sta": 71,
         "str": 80,
@@ -111,7 +111,7 @@
         "ldr": 68,
         "pac": 79,
         "pas": 70,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 71,
         "str": 78,
@@ -130,6 +130,11 @@
       "wage": 19500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB",
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 73,
@@ -184,18 +189,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 74,
-        "dri": 73,
-        "ldr": 69,
-        "pac": 70,
-        "pas": 72,
-        "pos": 70,
-        "sho": 68,
+        "dri": 69,
+        "ldr": 71,
+        "pac": 67,
+        "pas": 71,
+        "pos": 74,
+        "sho": 62,
         "sta": 76,
-        "str": 70,
-        "tac": 69,
-        "vis": 77
+        "str": 75,
+        "tac": 75,
+        "vis": 74
       },
       "birth": "1972-06-01",
       "contract": null,
@@ -205,10 +210,13 @@
       "name": "Sandro Coys",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 70,
@@ -236,18 +244,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 74,
-        "dri": 66,
-        "ldr": 70,
-        "pac": 63,
-        "pas": 73,
-        "pos": 70,
-        "sho": 68,
+        "dri": 62,
+        "ldr": 72,
+        "pac": 60,
+        "pas": 72,
+        "pos": 74,
+        "sho": 62,
         "sta": 75,
-        "str": 63,
-        "tac": 67,
-        "vis": 70
+        "str": 68,
+        "tac": 73,
+        "vis": 67
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -257,24 +265,24 @@
       "name": "Roberto Baronyo",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 16000
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 69,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 69,
-        "pos": 67,
-        "sho": 64,
+        "dri": 67,
+        "ldr": 71,
+        "pac": 61,
+        "pas": 68,
+        "pos": 71,
+        "sho": 58,
         "sta": 71,
-        "str": 62,
-        "tac": 65,
-        "vis": 70
+        "str": 67,
+        "tac": 71,
+        "vis": 67
       },
       "birth": "1973-02-01",
       "contract": null,
@@ -284,7 +292,7 @@
       "name": "Ameral",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 13500
     },
     {
@@ -314,6 +322,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 64,
@@ -336,23 +347,23 @@
       "name": "Paolo Venoli",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 8500
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 68,
-        "dri": 62,
-        "ldr": 63,
-        "pac": 65,
-        "pas": 67,
-        "pos": 63,
-        "sho": 61,
+        "dri": 58,
+        "ldr": 65,
+        "pac": 62,
+        "pas": 66,
+        "pos": 67,
+        "sho": 55,
         "sta": 67,
-        "str": 60,
-        "tac": 62,
-        "vis": 68
+        "str": 65,
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -362,24 +373,24 @@
       "name": "Angelo Palombu",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 9500
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 66,
-        "dri": 63,
-        "ldr": 63,
-        "pac": 68,
-        "pas": 62,
-        "pos": 65,
-        "sho": 50,
-        "sta": 71,
-        "str": 64,
-        "tac": 67,
-        "vis": 62
+        "aer": 68,
+        "com": 68,
+        "dri": 53,
+        "ldr": 67,
+        "pac": 60,
+        "pas": 58,
+        "pos": 70,
+        "sho": 43,
+        "sta": 65,
+        "str": 72,
+        "tac": 70,
+        "vis": 56
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -389,10 +400,13 @@
       "name": "Emiliano Moratti",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -452,7 +466,7 @@
         "ldr": 57,
         "pac": 67,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 60,
         "str": 63,
@@ -479,7 +493,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 54,
-        "pos": 44,
+        "pos": 64,
         "sho": 66,
         "sta": 63,
         "str": 67,
@@ -500,18 +514,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 58,
-        "dri": 46,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 54,
-        "pos": 62,
-        "sho": 34,
-        "sta": 61,
-        "str": 64,
-        "tac": 63,
-        "vis": 48
+        "aer": 49,
+        "com": 56,
+        "dri": 56,
+        "ldr": 57,
+        "pac": 65,
+        "pas": 58,
+        "pos": 57,
+        "sho": 41,
+        "sta": 67,
+        "str": 56,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "1979-07-01",
       "contract": null,
@@ -521,7 +535,7 @@
       "name": "Alessandro Agostyni",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -551,19 +565,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 58,
-        "dri": 56,
-        "ldr": 59,
-        "pac": 56,
-        "pas": 60,
-        "pos": 58,
-        "sho": 51,
-        "sta": 64,
-        "str": 55,
-        "tac": 58,
-        "vis": 58
+        "aer": 49,
+        "com": 60,
+        "dri": 58,
+        "ldr": 60,
+        "pac": 57,
+        "pas": 62,
+        "pos": 59,
+        "sho": 53,
+        "sta": 66,
+        "str": 56,
+        "tac": 59,
+        "vis": 60
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -603,6 +620,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -630,6 +650,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 54,
@@ -692,7 +715,7 @@
         "ldr": 47,
         "pac": 54,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 59,
         "sta": 48,
         "str": 55,
@@ -744,7 +767,7 @@
         "ldr": 47,
         "pac": 50,
         "pas": 41,
-        "pos": 31,
+        "pos": 51,
         "sho": 53,
         "sta": 45,
         "str": 54,
@@ -770,7 +793,7 @@
         "ldr": 45,
         "pac": 48,
         "pas": 45,
-        "pos": 28,
+        "pos": 48,
         "sho": 54,
         "sta": 47,
         "str": 51,
@@ -790,19 +813,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 37,
-        "com": 48,
-        "dri": 46,
-        "ldr": 47,
-        "pac": 42,
-        "pas": 53,
-        "pos": 49,
-        "sho": 45,
-        "sta": 51,
-        "str": 48,
-        "tac": 49,
-        "vis": 48
+        "aer": 49,
+        "com": 50,
+        "dri": 48,
+        "ldr": 48,
+        "pac": 54,
+        "pas": 55,
+        "pos": 61,
+        "sho": 47,
+        "sta": 53,
+        "str": 60,
+        "tac": 61,
+        "vis": 50
       },
       "birth": "1967-01-01",
       "contract": null,
@@ -812,7 +840,7 @@
       "name": "Marco Franceschatti",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 1500
     },
@@ -844,6 +872,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 43,
@@ -925,6 +956,9 @@
       "wage": 500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 33,
         "com": 42,

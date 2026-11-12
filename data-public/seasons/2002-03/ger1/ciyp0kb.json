@@ -24,17 +24,22 @@
   },
   "squad": [
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 77,
-        "dri": 77,
+        "aer": 73,
+        "com": 85,
+        "dri": 81,
         "ldr": 74,
-        "pac": 74,
+        "pac": 80,
         "pas": 81,
-        "pos": 78,
-        "sho": 68,
+        "pos": 86,
+        "sho": 76,
         "sta": 81,
-        "str": 71,
+        "str": 79,
         "tac": 70,
         "vis": 77
       },
@@ -46,23 +51,26 @@
       "name": "Sergej Berbarez",
       "nation": "BIH",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 32000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 77,
-        "dri": 72,
-        "ldr": 74,
-        "pac": 69,
-        "pas": 81,
-        "pos": 76,
-        "sho": 67,
-        "sta": 81,
-        "str": 68,
-        "tac": 70,
-        "vis": 75
+        "aer": 60,
+        "com": 75,
+        "dri": 77,
+        "ldr": 70,
+        "pac": 78,
+        "pas": 77,
+        "pos": 58,
+        "sho": 71,
+        "sta": 77,
+        "str": 63,
+        "tac": 50,
+        "vis": 72
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -73,7 +81,7 @@
       "nation": "IRN",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 32000
     },
     {
@@ -104,18 +112,18 @@
     },
     {
       "attrs": {
-        "aer": 79,
-        "com": 70,
-        "dri": 58,
+        "aer": 72,
+        "com": 72,
+        "dri": 66,
         "ldr": 74,
-        "pac": 66,
-        "pas": 64,
-        "pos": 77,
-        "sho": 51,
-        "sta": 74,
-        "str": 77,
-        "tac": 78,
-        "vis": 62
+        "pac": 64,
+        "pas": 73,
+        "pos": 76,
+        "sho": 66,
+        "sta": 80,
+        "str": 75,
+        "tac": 77,
+        "vis": 74
       },
       "birth": "1969-04-01",
       "contract": null,
@@ -125,7 +133,7 @@
       "name": "Michael Baor",
       "nation": "AUT",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 29000
     },
@@ -157,6 +165,9 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -217,7 +228,7 @@
         "ldr": 62,
         "pac": 71,
         "pas": 60,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 69,
         "str": 74,
@@ -237,6 +248,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 66,
@@ -289,6 +303,9 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 69,
@@ -315,6 +332,11 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 55,
         "com": 70,
@@ -342,6 +364,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -369,6 +394,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 69,
@@ -395,19 +423,24 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 67,
-        "dri": 49,
-        "ldr": 64,
-        "pac": 62,
-        "pas": 55,
-        "pos": 69,
-        "sho": 39,
-        "sta": 60,
-        "str": 65,
-        "tac": 67,
-        "vis": 50
+        "aer": 54,
+        "com": 65,
+        "dri": 59,
+        "ldr": 60,
+        "pac": 70,
+        "pas": 59,
+        "pos": 64,
+        "sho": 46,
+        "sta": 66,
+        "str": 57,
+        "tac": 64,
+        "vis": 56
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -417,11 +450,16 @@
       "name": "Christian Rehn",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 10000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 67,
@@ -455,7 +493,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 63,
         "str": 64,
@@ -500,19 +538,24 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 60,
+        "com": 70,
         "dri": 45,
         "ldr": 58,
         "pac": 59,
-        "pas": 52,
+        "pas": 62,
         "pos": 68,
         "sho": 38,
-        "sta": 58,
+        "sta": 68,
         "str": 66,
         "tac": 64,
-        "vis": 47
+        "vis": 57
       },
       "birth": "1969-12-01",
       "contract": null,
@@ -522,7 +565,7 @@
       "name": "Bernd Hollarbach",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 7000
     },
     {
@@ -533,7 +576,7 @@
         "ldr": 59,
         "pac": 62,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 64,
         "sta": 57,
         "str": 65,
@@ -554,18 +597,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 57,
-        "dri": 56,
-        "ldr": 54,
-        "pac": 56,
-        "pas": 60,
-        "pos": 61,
-        "sho": 54,
+        "dri": 52,
+        "ldr": 56,
+        "pac": 53,
+        "pas": 59,
+        "pos": 65,
+        "sho": 48,
         "sta": 62,
-        "str": 52,
-        "tac": 58,
-        "vis": 58
+        "str": 57,
+        "tac": 64,
+        "vis": 55
       },
       "birth": "1978-12-01",
       "contract": null,
@@ -575,7 +618,7 @@
       "name": "Cristian Ladesma",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 7000
     },
@@ -587,7 +630,7 @@
         "ldr": 56,
         "pac": 61,
         "pas": 49,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 58,
         "str": 60,
@@ -606,6 +649,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 60,
@@ -718,7 +764,7 @@
         "ldr": 48,
         "pac": 58,
         "pas": 49,
-        "pos": 31,
+        "pos": 51,
         "sho": 59,
         "sta": 53,
         "str": 56,
@@ -745,7 +791,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 46,
-        "pos": 31,
+        "pos": 51,
         "sho": 57,
         "sta": 48,
         "str": 51,

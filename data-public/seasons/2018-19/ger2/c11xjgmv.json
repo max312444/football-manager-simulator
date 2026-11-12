@@ -51,6 +51,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 57,
@@ -104,6 +107,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 64,
@@ -130,19 +136,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 57,
-        "dri": 60,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 62,
-        "pos": 56,
-        "sho": 56,
+        "dri": 56,
+        "ldr": 58,
+        "pac": 54,
+        "pas": 61,
+        "pos": 60,
+        "sho": 50,
         "sta": 65,
-        "str": 54,
-        "tac": 53,
-        "vis": 61
+        "str": 59,
+        "tac": 59,
+        "vis": 58
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -152,23 +161,26 @@
       "name": "Tom Schotz",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 60,
-        "dri": 61,
-        "ldr": 56,
-        "pac": 56,
-        "pas": 61,
-        "pos": 56,
-        "sho": 56,
-        "sta": 60,
-        "str": 55,
-        "tac": 59,
-        "vis": 62
+        "aer": 45,
+        "com": 58,
+        "dri": 66,
+        "ldr": 52,
+        "pac": 65,
+        "pas": 57,
+        "pos": 38,
+        "sho": 60,
+        "sta": 56,
+        "str": 50,
+        "tac": 39,
+        "vis": 59
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -178,23 +190,23 @@
       "name": "Patrick Waihrauch",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 8500
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 62,
-        "dri": 52,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 60,
-        "pos": 70,
-        "sho": 41,
-        "sta": 61,
-        "str": 71,
-        "tac": 67,
-        "vis": 54
+        "aer": 55,
+        "com": 60,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 70,
+        "pas": 64,
+        "pos": 65,
+        "sho": 48,
+        "sta": 67,
+        "str": 63,
+        "tac": 64,
+        "vis": 60
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -204,7 +216,7 @@
       "name": "Florian Hertherz",
       "nation": "GER",
       "number": 8,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11500
     },
     {
@@ -215,7 +227,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 64,
         "sta": 55,
         "str": 60,
@@ -241,7 +253,7 @@
         "ldr": 57,
         "pac": 60,
         "pas": 56,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 56,
         "str": 59,
@@ -313,19 +325,21 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 58,
-        "com": 66,
-        "dri": 64,
+        "aer": 66,
+        "com": 74,
+        "dri": 71,
         "ldr": 63,
-        "pac": 64,
+        "pac": 72,
         "pas": 72,
-        "pos": 66,
-        "sho": 63,
+        "pos": 74,
+        "sho": 71,
         "sta": 73,
-        "str": 63,
+        "str": 71,
         "tac": 66,
         "vis": 70
       },
@@ -337,7 +351,7 @@
       "name": "Joan Simun Edmondsson",
       "nation": "DEN",
       "number": 14,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 12000
     },
     {
@@ -348,7 +362,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 50,
-        "pos": 32,
+        "pos": 52,
         "sho": 57,
         "sta": 51,
         "str": 54,
@@ -374,7 +388,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 53,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 54,
         "str": 61,
@@ -401,7 +415,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 54,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 57,
         "str": 66,
@@ -420,6 +434,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -446,6 +463,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 51,
@@ -479,7 +499,7 @@
         "ldr": 58,
         "pac": 66,
         "pas": 55,
-        "pos": 42,
+        "pos": 62,
         "sho": 65,
         "sta": 59,
         "str": 66,
@@ -498,19 +518,24 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "LW",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 52,
-        "dri": 47,
-        "ldr": 47,
-        "pac": 44,
-        "pas": 54,
-        "pos": 52,
-        "sho": 45,
-        "sta": 51,
-        "str": 46,
-        "tac": 47,
-        "vis": 55
+        "aer": 34,
+        "com": 50,
+        "dri": 52,
+        "ldr": 43,
+        "pac": 53,
+        "pas": 50,
+        "pos": 34,
+        "sho": 49,
+        "sta": 47,
+        "str": 41,
+        "tac": 27,
+        "vis": 52
       },
       "birth": "2000-10-01",
       "contract": null,
@@ -522,23 +547,23 @@
       "nation": "ITA",
       "nation2": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 62,
-        "dri": 50,
-        "ldr": 63,
-        "pac": 56,
-        "pas": 59,
-        "pos": 66,
-        "sho": 41,
-        "sta": 64,
-        "str": 69,
-        "tac": 71,
-        "vis": 53
+        "aer": 54,
+        "com": 60,
+        "dri": 60,
+        "ldr": 59,
+        "pac": 64,
+        "pas": 63,
+        "pos": 61,
+        "sho": 48,
+        "sta": 70,
+        "str": 61,
+        "tac": 68,
+        "vis": 59
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -548,23 +573,23 @@
       "name": "Jonathan Claoss",
       "nation": "FRA",
       "number": 23,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10500
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 58,
-        "dri": 48,
-        "ldr": 60,
-        "pac": 55,
-        "pas": 48,
-        "pos": 60,
-        "sho": 30,
-        "sta": 55,
-        "str": 58,
-        "tac": 65,
-        "vis": 46
+        "aer": 46,
+        "com": 56,
+        "dri": 58,
+        "ldr": 56,
+        "pac": 63,
+        "pas": 52,
+        "pos": 55,
+        "sho": 37,
+        "sta": 61,
+        "str": 50,
+        "tac": 62,
+        "vis": 52
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -574,10 +599,13 @@
       "name": "Cedric Bronner",
       "nation": "SUI",
       "number": 27,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 49,
@@ -605,18 +633,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 49,
-        "dri": 34,
-        "ldr": 45,
-        "pac": 41,
-        "pas": 39,
-        "pos": 52,
-        "sho": 20,
-        "sta": 44,
-        "str": 53,
-        "tac": 51,
-        "vis": 35
+        "aer": 39,
+        "com": 47,
+        "dri": 44,
+        "ldr": 41,
+        "pac": 49,
+        "pas": 43,
+        "pos": 47,
+        "sho": 27,
+        "sta": 50,
+        "str": 45,
+        "tac": 48,
+        "vis": 41
       },
       "birth": "1999-12-01",
       "contract": null,
@@ -627,7 +655,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 34,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 1500
     },
     {
@@ -638,7 +666,7 @@
         "ldr": 54,
         "pac": 59,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 62,
         "sta": 57,
         "str": 65,

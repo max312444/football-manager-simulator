@@ -31,7 +31,7 @@
         "ldr": 65,
         "pac": 68,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 70,
         "sta": 65,
         "str": 71,
@@ -50,6 +50,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 64,
@@ -76,19 +79,24 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 59,
+        "com": 70,
         "dri": 49,
         "ldr": 55,
         "pac": 57,
-        "pas": 51,
+        "pas": 62,
         "pos": 66,
         "sho": 36,
-        "sta": 53,
+        "sta": 64,
         "str": 62,
         "tac": 61,
-        "vis": 45
+        "vis": 56
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -98,10 +106,13 @@
       "name": "Rene Beuchal",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 61,
@@ -128,6 +139,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -209,6 +223,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 54,
@@ -235,19 +252,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 57,
-        "dri": 56,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 58,
-        "pos": 58,
-        "sho": 49,
-        "sta": 61,
-        "str": 53,
-        "tac": 56,
-        "vis": 58
+        "aer": 46,
+        "com": 59,
+        "dri": 58,
+        "ldr": 54,
+        "pac": 55,
+        "pas": 60,
+        "pos": 59,
+        "sho": 51,
+        "sta": 63,
+        "str": 54,
+        "tac": 57,
+        "vis": 60
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -269,7 +289,7 @@
         "ldr": 53,
         "pac": 58,
         "pas": 50,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 52,
         "str": 54,
@@ -289,19 +309,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 57,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 59,
-        "pas": 52,
-        "pos": 34,
-        "sho": 58,
-        "sta": 51,
-        "str": 59,
-        "tac": 27,
-        "vis": 51
+        "aer": 41,
+        "com": 54,
+        "dri": 63,
+        "ldr": 50,
+        "pac": 63,
+        "pas": 58,
+        "pos": 36,
+        "sho": 53,
+        "sta": 53,
+        "str": 49,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "1985-01-01",
       "contract": null,
@@ -311,11 +334,15 @@
       "name": "Thomas Bruker",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -401,7 +428,7 @@
         "ldr": 48,
         "pac": 58,
         "pas": 46,
-        "pos": 36,
+        "pos": 56,
         "sho": 56,
         "sta": 51,
         "str": 54,
@@ -421,6 +448,8 @@
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -457,7 +486,7 @@
         "ldr": 48,
         "pac": 57,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 54,
         "sta": 51,
         "str": 53,
@@ -531,18 +560,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
-        "com": 51,
-        "dri": 52,
-        "ldr": 53,
-        "pac": 47,
+        "aer": 37,
+        "com": 52,
+        "dri": 56,
+        "ldr": 51,
+        "pac": 50,
         "pas": 59,
-        "pos": 49,
-        "sho": 49,
-        "sta": 55,
-        "str": 50,
-        "tac": 51,
-        "vis": 54
+        "pos": 34,
+        "sho": 55,
+        "sta": 49,
+        "str": 45,
+        "tac": 33,
+        "vis": 56
       },
       "birth": "1967-07-01",
       "contract": null,
@@ -552,11 +581,14 @@
       "name": "Steffen Heidrych",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -585,21 +617,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 59,
-        "com": 52,
+        "com": 61,
         "dri": 37,
         "ldr": 52,
         "pac": 50,
-        "pas": 48,
+        "pas": 57,
         "pos": 56,
         "sho": 26,
-        "sta": 53,
+        "sta": 62,
         "str": 54,
         "tac": 58,
-        "vis": 39
+        "vis": 48
       },
       "birth": "1973-05-01",
       "contract": null,
@@ -609,24 +643,24 @@
       "name": "Witold Wewrzyczek",
       "nation": "POL",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 53,
-        "dri": 38,
-        "ldr": 47,
-        "pac": 48,
-        "pas": 42,
-        "pos": 57,
-        "sho": 27,
-        "sta": 48,
-        "str": 54,
-        "tac": 53,
-        "vis": 41
+        "aer": 44,
+        "com": 51,
+        "dri": 48,
+        "ldr": 43,
+        "pac": 56,
+        "pas": 46,
+        "pos": 52,
+        "sho": 34,
+        "sta": 54,
+        "str": 46,
+        "tac": 50,
+        "vis": 47
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -636,7 +670,7 @@
       "name": "Daniel Ziabig",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 1000
     },
@@ -668,17 +702,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 51,
-        "dri": 52,
+        "aer": 54,
+        "com": 61,
+        "dri": 57,
         "ldr": 47,
-        "pac": 44,
+        "pac": 54,
         "pas": 57,
-        "pos": 48,
-        "sho": 48,
+        "pos": 58,
+        "sho": 58,
         "sta": 57,
-        "str": 47,
+        "str": 57,
         "tac": 47,
         "vis": 55
       },
@@ -690,7 +729,7 @@
       "name": "Ronny Scholza",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 1500
     },
@@ -722,6 +761,10 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 39,
         "com": 47,
@@ -775,6 +818,11 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 37,
         "com": 47,
@@ -801,6 +849,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 44,

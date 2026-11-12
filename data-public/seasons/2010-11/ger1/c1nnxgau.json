@@ -101,7 +101,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 42500
     },
     {
@@ -132,18 +132,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 48,
-        "dri": 42,
-        "ldr": 51,
-        "pac": 44,
-        "pas": 46,
-        "pos": 53,
-        "sho": 24,
-        "sta": 49,
-        "str": 56,
-        "tac": 58,
-        "vis": 41
+        "aer": 41,
+        "com": 46,
+        "dri": 52,
+        "ldr": 47,
+        "pac": 52,
+        "pas": 50,
+        "pos": 48,
+        "sho": 31,
+        "sta": 55,
+        "str": 48,
+        "tac": 55,
+        "vis": 47
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -153,10 +153,13 @@
       "name": "Eugen Gopku",
       "nation": "GER",
       "number": 5,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 69,
@@ -184,18 +187,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 78,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 69,
-        "pas": 76,
-        "pos": 70,
-        "sho": 67,
+        "dri": 71,
+        "ldr": 75,
+        "pac": 66,
+        "pas": 75,
+        "pos": 74,
+        "sho": 61,
         "sta": 79,
-        "str": 67,
-        "tac": 68,
-        "vis": 78
+        "str": 72,
+        "tac": 74,
+        "vis": 75
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -206,23 +209,26 @@
       "nation": "GER",
       "nation2": "POL",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 52500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 81,
-        "com": 76,
-        "dri": 63,
-        "ldr": 72,
-        "pac": 70,
-        "pas": 70,
-        "pos": 80,
-        "sho": 53,
-        "sta": 73,
-        "str": 82,
-        "tac": 82,
-        "vis": 65
+        "aer": 68,
+        "com": 74,
+        "dri": 73,
+        "ldr": 68,
+        "pac": 78,
+        "pas": 74,
+        "pos": 75,
+        "sho": 60,
+        "sta": 79,
+        "str": 74,
+        "tac": 79,
+        "vis": 71
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -232,7 +238,7 @@
       "name": "Radoslav Zebavnik",
       "nation": "SVK",
       "number": 8,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 52500
     },
     {
@@ -243,7 +249,7 @@
         "ldr": 60,
         "pac": 62,
         "pas": 55,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 58,
         "str": 66,
@@ -264,18 +270,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 64,
-        "ldr": 67,
-        "pac": 63,
+        "aer": 53,
+        "com": 69,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 66,
         "pas": 72,
-        "pos": 67,
-        "sho": 63,
-        "sta": 74,
-        "str": 65,
-        "tac": 68,
-        "vis": 71
+        "pos": 52,
+        "sho": 69,
+        "sta": 68,
+        "str": 60,
+        "tac": 50,
+        "vis": 73
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -285,7 +291,7 @@
       "name": "Jan Simek",
       "nation": "CZE",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 30000
     },
     {
@@ -296,7 +302,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 63,
-        "pos": 48,
+        "pos": 68,
         "sho": 75,
         "sta": 70,
         "str": 70,
@@ -317,18 +323,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 62,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 61,
+        "aer": 48,
+        "com": 63,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 64,
         "pas": 68,
-        "pos": 63,
-        "sho": 57,
-        "sta": 63,
-        "str": 58,
-        "tac": 63,
-        "vis": 68
+        "pos": 48,
+        "sho": 63,
+        "sta": 57,
+        "str": 53,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "1989-12-01",
       "contract": null,
@@ -339,24 +345,27 @@
       "name": "Marcel Rysse",
       "nation": "GER",
       "number": 13,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16500
     },
     {
-      "alt": [],
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 71,
-        "dri": 68,
-        "ldr": 63,
-        "pac": 75,
-        "pas": 66,
-        "pos": 50,
-        "sho": 73,
-        "sta": 69,
-        "str": 74,
-        "tac": 43,
-        "vis": 61
+        "aer": 57,
+        "com": 68,
+        "dri": 73,
+        "ldr": 61,
+        "pac": 79,
+        "pas": 72,
+        "pos": 52,
+        "sho": 68,
+        "sta": 71,
+        "str": 64,
+        "tac": 49,
+        "vis": 67
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -366,10 +375,13 @@
       "name": "Andre Schorrle",
       "nation": "GER",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 64,
@@ -396,6 +408,10 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
@@ -422,19 +438,22 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 71,
-        "dri": 63,
-        "ldr": 63,
-        "pac": 71,
-        "pas": 59,
-        "pos": 43,
-        "sho": 69,
-        "sta": 63,
-        "str": 65,
-        "tac": 39,
-        "vis": 58
+        "aer": 54,
+        "com": 68,
+        "dri": 68,
+        "ldr": 61,
+        "pac": 75,
+        "pas": 65,
+        "pos": 45,
+        "sho": 64,
+        "sta": 65,
+        "str": 55,
+        "tac": 45,
+        "vis": 64
       },
       "birth": "1982-10-01",
       "contract": null,
@@ -444,10 +463,14 @@
       "name": "Haruna Babangyda",
       "nation": "NGA",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 15500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 69,
@@ -475,6 +498,9 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -501,6 +527,9 @@
       "wage": 45500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 75,
@@ -550,7 +579,7 @@
       "name": "Christian Fochs",
       "nation": "AUT",
       "number": 22,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 51500
     },
     {
@@ -576,23 +605,23 @@
       "name": "Zsult Low",
       "nation": "HUN",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 31500
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 80,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 72,
+        "aer": 63,
+        "com": 81,
+        "dri": 79,
+        "ldr": 69,
+        "pac": 75,
         "pas": 77,
-        "pos": 74,
-        "sho": 69,
-        "sta": 83,
-        "str": 75,
-        "tac": 77,
-        "vis": 76
+        "pos": 59,
+        "sho": 75,
+        "sta": 77,
+        "str": 70,
+        "tac": 59,
+        "vis": 78
       },
       "birth": "1983-10-01",
       "contract": null,
@@ -603,7 +632,7 @@
       "name": "Andreas Ivenschitz",
       "nation": "AUT",
       "number": 25,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 52500
     },
     {
@@ -640,7 +669,7 @@
         "ldr": 68,
         "pac": 71,
         "pas": 63,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 69,
         "str": 71,

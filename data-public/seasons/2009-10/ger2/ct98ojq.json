@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 43,
+        "aer": 49,
         "com": 48,
-        "dri": 50,
-        "ldr": 43,
-        "pac": 42,
-        "pas": 54,
-        "pos": 45,
-        "sho": 41,
+        "dri": 46,
+        "ldr": 45,
+        "pac": 39,
+        "pas": 53,
+        "pos": 49,
+        "sho": 35,
         "sta": 50,
-        "str": 43,
-        "tac": 46,
-        "vis": 52
+        "str": 48,
+        "tac": 52,
+        "vis": 49
       },
       "birth": "1974-08-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Rudolf Zadi",
       "nation": "GER",
       "number": 2,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 1500
     },
     {
@@ -129,19 +129,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
-        "com": 60,
+        "com": 68,
         "dri": 51,
         "ldr": 59,
         "pac": 56,
-        "pas": 57,
+        "pas": 65,
         "pos": 68,
         "sho": 39,
-        "sta": 60,
+        "sta": 68,
         "str": 65,
         "tac": 66,
-        "vis": 48
+        "vis": 56
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -152,7 +157,7 @@
       "nation": "GER",
       "nation2": "KVX",
       "number": 5,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -184,17 +189,17 @@
     {
       "attrs": {
         "aer": 46,
-        "com": 57,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 50,
-        "pas": 60,
+        "com": 53,
+        "dri": 54,
+        "ldr": 53,
+        "pac": 57,
+        "pas": 54,
         "pos": 51,
-        "sho": 50,
+        "sho": 36,
         "sta": 57,
-        "str": 50,
-        "tac": 50,
-        "vis": 60
+        "str": 49,
+        "tac": 54,
+        "vis": 51
       },
       "birth": "1985-10-01",
       "contract": null,
@@ -204,22 +209,27 @@
       "name": "Jens Wammer",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 58,
+        "aer": 56,
+        "com": 59,
         "dri": 53,
         "ldr": 54,
-        "pac": 55,
+        "pac": 63,
         "pas": 61,
-        "pos": 52,
+        "pos": 61,
         "sho": 52,
         "sta": 56,
-        "str": 52,
-        "tac": 52,
+        "str": 61,
+        "tac": 61,
         "vis": 58
       },
       "birth": "1984-11-01",
@@ -230,7 +240,7 @@
       "name": "Sebastian Schachtan",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 3500
     },
     {
@@ -241,7 +251,7 @@
         "ldr": 50,
         "pac": 54,
         "pas": 44,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 50,
         "str": 55,
@@ -267,7 +277,7 @@
         "ldr": 53,
         "pac": 63,
         "pas": 54,
-        "pos": 36,
+        "pos": 56,
         "sho": 65,
         "sta": 59,
         "str": 60,
@@ -287,17 +297,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 55,
-        "dri": 56,
+        "aer": 52,
+        "com": 62,
+        "dri": 59,
         "ldr": 52,
-        "pac": 54,
+        "pac": 60,
         "pas": 60,
-        "pos": 56,
-        "sho": 53,
+        "pos": 63,
+        "sho": 60,
         "sta": 58,
-        "str": 54,
+        "str": 61,
         "tac": 55,
         "vis": 59
       },
@@ -309,10 +324,13 @@
       "name": "Soren Brandi",
       "nation": "GER",
       "number": 12,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 53,
@@ -339,6 +357,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 64,
@@ -366,18 +387,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 55,
-        "dri": 51,
-        "ldr": 54,
-        "pac": 49,
+        "aer": 38,
+        "com": 53,
+        "dri": 54,
+        "ldr": 52,
+        "pac": 57,
         "pas": 58,
-        "pos": 56,
-        "sho": 50,
-        "sta": 56,
-        "str": 50,
-        "tac": 48,
-        "vis": 59
+        "pos": 48,
+        "sho": 48,
+        "sta": 59,
+        "str": 47,
+        "tac": 42,
+        "vis": 58
       },
       "birth": "1982-08-01",
       "contract": null,
@@ -387,23 +408,23 @@
       "name": "Philipp Heytholter",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 54,
-        "dri": 42,
+        "aer": 55,
+        "com": 56,
+        "dri": 50,
         "ldr": 54,
-        "pac": 49,
-        "pas": 52,
-        "pos": 58,
-        "sho": 29,
-        "sta": 54,
-        "str": 57,
-        "tac": 59,
-        "vis": 44
+        "pac": 47,
+        "pas": 61,
+        "pos": 57,
+        "sho": 44,
+        "sta": 60,
+        "str": 55,
+        "tac": 58,
+        "vis": 56
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -413,7 +434,7 @@
       "name": "Markus Krusche",
       "nation": "GER",
       "number": 18,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2500
     },
     {
@@ -469,6 +490,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -544,23 +568,23 @@
       "name": "Soren Halfer",
       "nation": "GER",
       "number": 23,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 2500
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 54,
-        "dri": 52,
-        "ldr": 50,
-        "pac": 54,
-        "pas": 54,
-        "pos": 53,
-        "sho": 36,
-        "sta": 56,
-        "str": 49,
-        "tac": 57,
-        "vis": 50
+        "aer": 60,
+        "com": 56,
+        "dri": 42,
+        "ldr": 54,
+        "pac": 46,
+        "pas": 50,
+        "pos": 58,
+        "sho": 29,
+        "sta": 50,
+        "str": 57,
+        "tac": 60,
+        "vis": 44
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -570,7 +594,7 @@
       "name": "Christian Strohdyek",
       "nation": "GER",
       "number": 24,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 2500
     },
     {
@@ -600,19 +624,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 56,
-        "dri": 57,
+        "com": 58,
+        "dri": 62,
         "ldr": 48,
         "pac": 56,
-        "pas": 50,
-        "pos": 38,
-        "sho": 57,
+        "pas": 57,
+        "pos": 58,
+        "sho": 59,
         "sta": 51,
         "str": 55,
         "tac": 28,
-        "vis": 51
+        "vis": 58
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -623,7 +652,7 @@
       "nation": "ITA",
       "nation2": "GER",
       "number": 29,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2500
     },
     {
@@ -660,7 +689,7 @@
         "ldr": 44,
         "pac": 52,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 54,
         "sta": 48,
         "str": 53,
@@ -679,19 +708,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
-        "com": 57,
-        "dri": 57,
+        "com": 59,
+        "dri": 61,
         "ldr": 51,
         "pac": 55,
-        "pas": 48,
-        "pos": 32,
-        "sho": 58,
+        "pas": 54,
+        "pos": 52,
+        "sho": 60,
         "sta": 49,
         "str": 58,
         "tac": 29,
-        "vis": 51
+        "vis": 57
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -702,7 +736,7 @@
       "nation": "TUN",
       "nation2": "GER",
       "number": 39,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2000
     }
   ],

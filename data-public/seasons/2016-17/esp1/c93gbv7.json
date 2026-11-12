@@ -51,9 +51,6 @@
       "wage": 26000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 74,
         "com": 71,
@@ -81,8 +78,7 @@
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 73,
@@ -138,7 +134,7 @@
     },
     {
       "alt": [
-        "ST"
+        "DM"
       ],
       "attrs": {
         "aer": 62,
@@ -167,8 +163,7 @@
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 85,
@@ -196,6 +191,10 @@
       "wage": 69500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 76,
@@ -222,9 +221,6 @@
       "wage": 66000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 67,
         "com": 76,
@@ -258,7 +254,7 @@
         "ldr": 67,
         "pac": 68,
         "pas": 60,
-        "pos": 49,
+        "pos": 69,
         "sho": 75,
         "sta": 69,
         "str": 70,
@@ -278,21 +274,22 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
-        "aer": 68,
-        "com": 79,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 80,
-        "pos": 75,
-        "sho": 69,
-        "sta": 76,
-        "str": 74,
-        "tac": 75,
-        "vis": 77
+        "aer": 62,
+        "com": 77,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 80,
+        "pas": 76,
+        "pos": 57,
+        "sho": 73,
+        "sta": 72,
+        "str": 69,
+        "tac": 55,
+        "vis": 74
       },
       "birth": "1992-12-01",
       "contract": null,
@@ -302,7 +299,7 @@
       "name": "Iker Munyain",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 69500
     },
     {
@@ -313,7 +310,7 @@
         "ldr": 68,
         "pac": 69,
         "pas": 61,
-        "pos": 49,
+        "pos": 69,
         "sho": 78,
         "sta": 67,
         "str": 69,
@@ -333,9 +330,6 @@
       "wage": 27500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -389,21 +383,21 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 70,
-        "com": 75,
-        "dri": 72,
-        "ldr": 76,
-        "pac": 69,
-        "pas": 77,
-        "pos": 73,
-        "sho": 69,
-        "sta": 77,
-        "str": 71,
-        "tac": 72,
-        "vis": 77
+        "aer": 64,
+        "com": 73,
+        "dri": 77,
+        "ldr": 72,
+        "pac": 78,
+        "pas": 73,
+        "pos": 55,
+        "sho": 73,
+        "sta": 73,
+        "str": 66,
+        "tac": 52,
+        "vis": 74
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -413,12 +407,12 @@
       "name": "Markel Sosaeta",
       "nation": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 69500
     },
     {
       "alt": [
-        "RW"
+        "LB"
       ],
       "attrs": {
         "aer": 52,
@@ -473,8 +467,7 @@
     },
     {
       "alt": [
-        "CM",
-        "ST"
+        "CM"
       ],
       "attrs": {
         "aer": 70,
@@ -503,8 +496,9 @@
     },
     {
       "alt": [
-        "RW",
-        "ST"
+        "RB",
+        "LB",
+        "DM"
       ],
       "attrs": {
         "aer": 67,
@@ -532,19 +526,22 @@
       "wage": 62000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 71,
-        "dri": 69,
-        "ldr": 63,
-        "pac": 71,
-        "pas": 60,
-        "pos": 48,
-        "sho": 71,
-        "sta": 67,
-        "str": 69,
-        "tac": 40,
-        "vis": 63
+        "aer": 55,
+        "com": 68,
+        "dri": 74,
+        "ldr": 61,
+        "pac": 75,
+        "pas": 66,
+        "pos": 50,
+        "sho": 66,
+        "sta": 69,
+        "str": 59,
+        "tac": 46,
+        "vis": 69
       },
       "birth": "1992-01-01",
       "contract": null,
@@ -554,7 +551,7 @@
       "name": "Sabin Merinu",
       "nation": "ESP",
       "number": 19,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 23500
     },
     {
@@ -565,7 +562,7 @@
         "ldr": 71,
         "pac": 71,
         "pas": 64,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 72,
         "str": 71,
@@ -585,18 +582,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 67,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 64,
+        "aer": 53,
+        "com": 68,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 67,
         "pas": 66,
-        "pos": 64,
-        "sho": 62,
-        "sta": 67,
-        "str": 58,
-        "tac": 63,
-        "vis": 70
+        "pos": 49,
+        "sho": 68,
+        "sta": 61,
+        "str": 53,
+        "tac": 45,
+        "vis": 72
       },
       "birth": "1993-12-01",
       "contract": null,
@@ -606,26 +603,23 @@
       "name": "Ager Akatxe",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 23500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 78,
-        "com": 71,
-        "dri": 58,
-        "ldr": 72,
-        "pac": 66,
-        "pas": 64,
-        "pos": 78,
-        "sho": 50,
-        "sta": 68,
-        "str": 79,
-        "tac": 80,
-        "vis": 62
+        "aer": 65,
+        "com": 69,
+        "dri": 68,
+        "ldr": 68,
+        "pac": 74,
+        "pas": 68,
+        "pos": 73,
+        "sho": 57,
+        "sta": 74,
+        "str": 71,
+        "tac": 77,
+        "vis": 68
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -635,26 +629,23 @@
       "name": "Mikel Belenziaga",
       "nation": "ESP",
       "number": 24,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 43500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 72,
-        "com": 71,
-        "dri": 59,
-        "ldr": 70,
-        "pac": 65,
-        "pas": 62,
-        "pos": 74,
-        "sho": 44,
-        "sta": 64,
-        "str": 75,
-        "tac": 72,
-        "vis": 56
+        "aer": 59,
+        "com": 69,
+        "dri": 69,
+        "ldr": 66,
+        "pac": 73,
+        "pas": 66,
+        "pos": 69,
+        "sho": 51,
+        "sta": 70,
+        "str": 67,
+        "tac": 69,
+        "vis": 62
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -664,7 +655,7 @@
       "name": "Enric Saboryt",
       "nation": "ESP",
       "number": 25,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 29500
     },
     {

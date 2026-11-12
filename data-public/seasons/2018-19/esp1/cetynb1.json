@@ -156,6 +156,10 @@
       "wage": 366500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 79,
@@ -189,7 +193,7 @@
         "ldr": 66,
         "pac": 75,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 72,
         "str": 71,
@@ -208,6 +212,9 @@
       "wage": 121500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 83,
@@ -241,7 +248,7 @@
         "ldr": 79,
         "pac": 84,
         "pas": 74,
-        "pos": 63,
+        "pos": 83,
         "sho": 91,
         "sta": 80,
         "str": 83,
@@ -261,7 +268,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 67,
@@ -289,19 +297,23 @@
       "wage": 434500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 80,
-        "com": 85,
-        "dri": 81,
-        "ldr": 75,
-        "pac": 86,
-        "pas": 74,
-        "pos": 65,
-        "sho": 88,
-        "sta": 79,
-        "str": 84,
-        "tac": 57,
-        "vis": 77
+        "aer": 66,
+        "com": 82,
+        "dri": 86,
+        "ldr": 73,
+        "pac": 90,
+        "pas": 80,
+        "pos": 67,
+        "sho": 83,
+        "sta": 81,
+        "str": 74,
+        "tac": 63,
+        "vis": 83
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -311,7 +323,7 @@
       "name": "Gareth Bala",
       "nation": "WAL",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 438500
     },
     {
@@ -338,7 +350,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 486500
     },
     {
@@ -368,9 +380,6 @@
       "wage": 196500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 77,
         "com": 83,
@@ -397,6 +406,10 @@
       "wage": 556000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 73,
@@ -423,19 +436,23 @@
       "wage": 179000
     },
     {
+      "alt": [
+        "RB",
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 76,
-        "dri": 78,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 69,
-        "pos": 57,
-        "sho": 84,
-        "sta": 73,
-        "str": 77,
-        "tac": 50,
-        "vis": 67
+        "aer": 61,
+        "com": 73,
+        "dri": 83,
+        "ldr": 73,
+        "pac": 80,
+        "pas": 75,
+        "pos": 59,
+        "sho": 79,
+        "sta": 75,
+        "str": 67,
+        "tac": 56,
+        "vis": 73
       },
       "birth": "1991-07-01",
       "contract": null,
@@ -445,10 +462,15 @@
       "name": "Lucas Vazqoez",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 218000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 77,
@@ -502,21 +524,22 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 67,
-        "com": 75,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 70,
+        "aer": 61,
+        "com": 76,
+        "dri": 79,
+        "ldr": 73,
+        "pac": 73,
         "pas": 78,
-        "pos": 76,
-        "sho": 67,
-        "sta": 79,
-        "str": 74,
-        "tac": 70,
-        "vis": 77
+        "pos": 61,
+        "sho": 73,
+        "sta": 73,
+        "str": 69,
+        "tac": 52,
+        "vis": 79
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -526,23 +549,27 @@
       "name": "Marco Asensiu",
       "nation": "ESP",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 279000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 85,
-        "dri": 83,
-        "ldr": 77,
-        "pac": 74,
+        "aer": 69,
+        "com": 86,
+        "dri": 87,
+        "ldr": 75,
+        "pac": 77,
         "pas": 83,
-        "pos": 77,
-        "sho": 78,
-        "sta": 83,
-        "str": 74,
-        "tac": 78,
-        "vis": 84
+        "pos": 62,
+        "sho": 84,
+        "sta": 77,
+        "str": 69,
+        "tac": 60,
+        "vis": 86
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -552,10 +579,14 @@
       "name": "Iscu",
       "nation": "ESP",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 530000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 77,
@@ -608,19 +639,23 @@
       "wage": 477500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 71,
-        "dri": 72,
-        "ldr": 66,
-        "pac": 69,
-        "pas": 62,
-        "pos": 50,
-        "sho": 77,
-        "sta": 69,
-        "str": 73,
-        "tac": 42,
-        "vis": 65
+        "aer": 57,
+        "com": 68,
+        "dri": 77,
+        "ldr": 64,
+        "pac": 73,
+        "pas": 68,
+        "pos": 52,
+        "sho": 72,
+        "sta": 71,
+        "str": 63,
+        "tac": 48,
+        "vis": 71
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -631,7 +666,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 28,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 112500
     }
   ],

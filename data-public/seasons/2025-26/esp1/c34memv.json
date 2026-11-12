@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 58,
-        "dri": 51,
-        "ldr": 61,
-        "pac": 54,
-        "pas": 54,
-        "pos": 65,
-        "sho": 38,
-        "sta": 56,
-        "str": 63,
-        "tac": 63,
-        "vis": 52
+        "aer": 51,
+        "com": 56,
+        "dri": 61,
+        "ldr": 57,
+        "pac": 62,
+        "pas": 58,
+        "pos": 60,
+        "sho": 45,
+        "sta": 62,
+        "str": 55,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "2005-10-01",
       "contract": null,
@@ -101,10 +101,13 @@
       "nation": "MAR",
       "nation2": "ESP",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 80,
@@ -158,6 +161,10 @@
       "wage": 99000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 67,
@@ -184,19 +191,22 @@
       "wage": 84000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 65,
-        "dri": 61,
-        "ldr": 62,
-        "pac": 61,
-        "pas": 68,
-        "pos": 63,
-        "sho": 55,
-        "sta": 63,
-        "str": 59,
-        "tac": 59,
-        "vis": 62
+        "aer": 50,
+        "com": 63,
+        "dri": 66,
+        "ldr": 58,
+        "pac": 70,
+        "pas": 64,
+        "pos": 45,
+        "sho": 59,
+        "sta": 59,
+        "str": 54,
+        "tac": 39,
+        "vis": 59
       },
       "birth": "1999-04-01",
       "contract": null,
@@ -206,23 +216,23 @@
       "name": "Carlos Vicenta",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 40500
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 63,
-        "dri": 67,
-        "ldr": 59,
-        "pac": 59,
-        "pas": 68,
-        "pos": 62,
-        "sho": 59,
+        "dri": 63,
+        "ldr": 61,
+        "pac": 56,
+        "pas": 67,
+        "pos": 66,
+        "sho": 53,
         "sta": 65,
-        "str": 59,
-        "tac": 61,
-        "vis": 68
+        "str": 64,
+        "tac": 67,
+        "vis": 65
       },
       "birth": "2000-07-01",
       "contract": null,
@@ -232,7 +242,7 @@
       "name": "Antonio Blancu",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 44500
     },
     {
@@ -243,7 +253,7 @@
         "ldr": 67,
         "pac": 73,
         "pas": 67,
-        "pos": 55,
+        "pos": 75,
         "sho": 76,
         "sta": 68,
         "str": 75,
@@ -262,6 +272,10 @@
       "wage": 82000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 79,
@@ -295,7 +309,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 69,
         "sta": 66,
         "str": 66,
@@ -367,18 +381,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 59,
-        "dri": 48,
-        "ldr": 65,
-        "pac": 55,
-        "pas": 58,
-        "pos": 68,
-        "sho": 36,
-        "sta": 63,
-        "str": 63,
-        "tac": 64,
-        "vis": 47
+        "aer": 53,
+        "com": 57,
+        "dri": 58,
+        "ldr": 61,
+        "pac": 63,
+        "pas": 62,
+        "pos": 63,
+        "sho": 43,
+        "sta": 69,
+        "str": 55,
+        "tac": 61,
+        "vis": 53
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -388,7 +402,7 @@
       "name": "Nahuel Tenaglie",
       "nation": "ARG",
       "number": 14,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 27500
     },
     {
@@ -399,7 +413,7 @@
         "ldr": 66,
         "pac": 73,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 63,
         "str": 72,
@@ -418,6 +432,10 @@
       "wage": 55500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -444,6 +462,9 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 77,
@@ -471,7 +492,9 @@
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 62,
@@ -499,22 +522,19 @@
       "wage": 64000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
-        "aer": 55,
+        "aer": 61,
         "com": 64,
-        "dri": 65,
-        "ldr": 59,
-        "pac": 62,
-        "pas": 65,
-        "pos": 62,
-        "sho": 55,
+        "dri": 61,
+        "ldr": 61,
+        "pac": 59,
+        "pas": 64,
+        "pos": 66,
+        "sho": 49,
         "sta": 69,
-        "str": 60,
-        "tac": 59,
-        "vis": 63
+        "str": 65,
+        "tac": 65,
+        "vis": 60
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -524,10 +544,13 @@
       "name": "Pablo Ibenez",
       "nation": "ESP",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 42500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 63,
@@ -556,18 +579,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 65,
-        "dri": 65,
-        "ldr": 59,
-        "pac": 59,
-        "pas": 66,
-        "pos": 62,
-        "sho": 60,
-        "sta": 67,
-        "str": 60,
-        "tac": 57,
-        "vis": 64
+        "aer": 48,
+        "com": 63,
+        "dri": 70,
+        "ldr": 55,
+        "pac": 68,
+        "pas": 62,
+        "pos": 44,
+        "sho": 64,
+        "sta": 63,
+        "str": 55,
+        "tac": 37,
+        "vis": 61
       },
       "birth": "1998-08-01",
       "contract": null,
@@ -577,7 +600,7 @@
       "name": "Abde Rabbach",
       "nation": "ALG",
       "number": 21,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 42500
     },
     {
@@ -608,6 +631,10 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -634,6 +661,9 @@
       "wage": 110500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 55,
@@ -661,18 +691,18 @@
     },
     {
       "attrs": {
-        "aer": 40,
-        "com": 53,
-        "dri": 53,
-        "ldr": 46,
-        "pac": 48,
+        "aer": 34,
+        "com": 54,
+        "dri": 57,
+        "ldr": 44,
+        "pac": 51,
         "pas": 56,
-        "pos": 48,
-        "sho": 47,
-        "sta": 54,
-        "str": 50,
-        "tac": 49,
-        "vis": 54
+        "pos": 33,
+        "sho": 53,
+        "sta": 48,
+        "str": 45,
+        "tac": 31,
+        "vis": 56
       },
       "birth": "2003-10-01",
       "contract": null,
@@ -682,7 +712,7 @@
       "name": "Lander Pinyllos",
       "nation": "ESP",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11500
     }
   ],

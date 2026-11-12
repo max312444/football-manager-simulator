@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 63,
-        "dri": 49,
+        "aer": 58,
+        "com": 65,
+        "dri": 57,
         "ldr": 61,
-        "pac": 55,
-        "pas": 53,
-        "pos": 67,
-        "sho": 36,
-        "sta": 61,
-        "str": 65,
-        "tac": 63,
-        "vis": 49
+        "pac": 53,
+        "pas": 62,
+        "pos": 66,
+        "sho": 51,
+        "sta": 67,
+        "str": 63,
+        "tac": 62,
+        "vis": 61
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Julian Kuch",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 14000
     },
     {
@@ -104,18 +104,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 79,
-        "dri": 79,
-        "ldr": 73,
-        "pac": 74,
-        "pas": 78,
-        "pos": 79,
-        "sho": 73,
+        "dri": 75,
+        "ldr": 75,
+        "pac": 71,
+        "pas": 77,
+        "pos": 83,
+        "sho": 67,
         "sta": 77,
-        "str": 72,
-        "tac": 74,
-        "vis": 77
+        "str": 77,
+        "tac": 80,
+        "vis": 74
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -125,10 +125,13 @@
       "name": "Sebastian Kahl",
       "nation": "GER",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 102500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 76,
@@ -155,6 +158,9 @@
       "wage": 62500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -181,6 +187,9 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,
@@ -214,7 +223,7 @@
         "ldr": 74,
         "pac": 79,
         "pas": 70,
-        "pos": 54,
+        "pos": 74,
         "sho": 80,
         "sta": 75,
         "str": 81,
@@ -240,7 +249,7 @@
         "ldr": 72,
         "pac": 75,
         "pas": 68,
-        "pos": 58,
+        "pos": 78,
         "sho": 79,
         "sta": 76,
         "str": 77,
@@ -260,19 +269,24 @@
       "wage": 69000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 75,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 64,
+        "aer": 58,
+        "com": 76,
+        "dri": 75,
+        "ldr": 67,
+        "pac": 67,
         "pas": 71,
-        "pos": 71,
-        "sho": 69,
-        "sta": 72,
-        "str": 70,
-        "tac": 66,
-        "vis": 71
+        "pos": 56,
+        "sho": 75,
+        "sta": 66,
+        "str": 65,
+        "tac": 48,
+        "vis": 73
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -282,26 +296,26 @@
       "name": "Mario Gutze",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 55000
     },
     {
       "alt": [
-        "CM"
+        "CB"
       ],
       "attrs": {
-        "aer": 63,
-        "com": 65,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 69,
-        "pas": 60,
-        "pos": 45,
-        "sho": 69,
-        "sta": 64,
+        "aer": 61,
+        "com": 64,
+        "dri": 63,
+        "ldr": 66,
+        "pac": 61,
+        "pas": 69,
+        "pos": 69,
+        "sho": 54,
+        "sta": 70,
         "str": 69,
-        "tac": 38,
-        "vis": 56
+        "tac": 70,
+        "vis": 62
       },
       "birth": "1990-04-01",
       "contract": null,
@@ -312,23 +326,23 @@
       "nation": "FRA",
       "nation2": "RUS",
       "number": 13,
-      "pos": "ST",
+      "pos": "DM",
       "wage": 20500
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 76,
-        "dri": 76,
-        "ldr": 70,
-        "pac": 69,
-        "pas": 78,
-        "pos": 75,
-        "sho": 68,
-        "sta": 75,
-        "str": 70,
-        "tac": 72,
-        "vis": 77
+        "aer": 58,
+        "com": 74,
+        "dri": 81,
+        "ldr": 66,
+        "pac": 78,
+        "pas": 74,
+        "pos": 57,
+        "sho": 72,
+        "sta": 71,
+        "str": 65,
+        "tac": 52,
+        "vis": 74
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -338,7 +352,7 @@
       "name": "Ivan Perisyc",
       "nation": "CRO",
       "number": 14,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 78000
     },
     {
@@ -368,19 +382,22 @@
       "wage": 74500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 79,
-        "dri": 76,
-        "ldr": 76,
-        "pac": 72,
-        "pas": 81,
-        "pos": 77,
-        "sho": 71,
-        "sta": 83,
-        "str": 75,
-        "tac": 73,
-        "vis": 78
+        "aer": 66,
+        "com": 77,
+        "dri": 81,
+        "ldr": 72,
+        "pac": 81,
+        "pas": 77,
+        "pos": 59,
+        "sho": 75,
+        "sta": 79,
+        "str": 70,
+        "tac": 53,
+        "vis": 75
       },
       "birth": "1985-12-01",
       "contract": null,
@@ -390,7 +407,7 @@
       "name": "Jakub Blaszczikowski",
       "nation": "POL",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 102500
     },
     {
@@ -401,7 +418,7 @@
         "ldr": 75,
         "pac": 78,
         "pas": 72,
-        "pos": 58,
+        "pos": 78,
         "sho": 79,
         "sta": 71,
         "str": 78,
@@ -421,19 +438,23 @@
       "wage": 72000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 70,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 71,
+        "com": 66,
+        "dri": 64,
+        "ldr": 65,
+        "pac": 76,
+        "pas": 65,
         "pos": 66,
-        "sho": 68,
+        "sho": 54,
         "sta": 71,
-        "str": 68,
-        "tac": 70,
-        "vis": 69
+        "str": 67,
+        "tac": 74,
+        "vis": 60
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -443,7 +464,7 @@
       "name": "Kevin Grusskreutz",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 46500
     },
     {
@@ -473,6 +494,9 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 72,
@@ -499,19 +523,22 @@
       "wage": 59000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 70,
-        "dri": 73,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 72,
-        "pos": 68,
-        "sho": 68,
+        "dri": 69,
+        "ldr": 73,
+        "pac": 68,
+        "pas": 71,
+        "pos": 72,
+        "sho": 62,
         "sta": 73,
-        "str": 65,
-        "tac": 71,
-        "vis": 75
+        "str": 70,
+        "tac": 77,
+        "vis": 72
       },
       "birth": "1989-04-01",
       "contract": null,
@@ -521,10 +548,14 @@
       "name": "Sven Bander",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 60500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 79,
@@ -573,7 +604,7 @@
       "name": "Chris Lowa",
       "nation": "GER",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 10500
     },
     {
@@ -706,7 +737,7 @@
       "name": "Marcel Schmelzar",
       "nation": "GER",
       "number": 29,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 58500
     },
     {

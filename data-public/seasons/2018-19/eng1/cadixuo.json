@@ -99,13 +99,13 @@
       "attrs": {
         "aer": 54,
         "com": 76,
-        "dri": 62,
+        "dri": 79,
         "ldr": 82,
-        "pac": 48,
+        "pac": 65,
         "pas": 70,
         "pos": 74,
         "sho": 48,
-        "sta": 60,
+        "sta": 77,
         "str": 64,
         "tac": 68,
         "vis": 66
@@ -151,6 +151,10 @@
       "wage": 55500
     },
     {
+      "alt": [
+        "RB",
+        "CB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 58,
@@ -180,13 +184,13 @@
       "attrs": {
         "aer": 62,
         "com": 62,
-        "dri": 56,
+        "dri": 58,
         "ldr": 56,
-        "pac": 62,
-        "pas": 60,
+        "pac": 64,
+        "pas": 62,
         "pos": 66,
         "sho": 42,
-        "sta": 70,
+        "sta": 72,
         "str": 72,
         "tac": 68,
         "vis": 50
@@ -262,6 +266,9 @@
       "wage": 79000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 62,
@@ -289,6 +296,9 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -343,6 +353,10 @@
       "wage": 50000
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 72,
@@ -369,19 +383,23 @@
       "wage": 90500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 70,
-        "dri": 70,
+        "com": 81,
+        "dri": 81,
         "ldr": 60,
-        "pac": 58,
+        "pac": 69,
         "pas": 74,
         "pos": 68,
-        "sho": 62,
+        "sho": 73,
         "sta": 82,
         "str": 68,
         "tac": 66,
-        "vis": 70
+        "vis": 81
       },
       "birth": "1991-09-01",
       "contract": "2021-06-30",
@@ -391,23 +409,23 @@
       "name": "Davy Proppar",
       "nation": "NED",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 107000
     },
     {
       "attrs": {
         "aer": 60,
-        "com": 62,
+        "com": 69,
         "dri": 74,
         "ldr": 50,
         "pac": 70,
-        "pas": 68,
-        "pos": 64,
+        "pas": 75,
+        "pos": 71,
         "sho": 60,
         "sta": 76,
-        "str": 74,
-        "tac": 72,
-        "vis": 62
+        "str": 81,
+        "tac": 79,
+        "vis": 69
       },
       "birth": "1996-08-01",
       "contract": "2022-06-30",
@@ -417,23 +435,27 @@
       "name": "Yves Bissoume",
       "nation": "MLI",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 92000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 64,
-        "dri": 62,
+        "com": 70,
+        "dri": 68,
         "ldr": 60,
         "pac": 56,
-        "pas": 68,
+        "pas": 74,
         "pos": 66,
-        "sho": 52,
-        "sta": 74,
+        "sho": 58,
+        "sta": 80,
         "str": 66,
         "tac": 70,
-        "vis": 62
+        "vis": 68
       },
       "birth": "1988-05-01",
       "contract": "2020-06-30",
@@ -448,21 +470,22 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 48,
-        "com": 72,
-        "dri": 70,
+        "com": 73,
+        "dri": 71,
         "ldr": 62,
-        "pac": 56,
+        "pac": 57,
         "pas": 80,
         "pos": 70,
-        "sho": 70,
+        "sho": 71,
         "sta": 76,
         "str": 56,
         "tac": 52,
-        "vis": 80
+        "vis": 81
       },
       "birth": "1991-06-01",
       "contract": "2020-06-30",
@@ -481,8 +504,8 @@
     },
     {
       "alt": [
-        "LW",
-        "RW"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 44,
@@ -506,10 +529,13 @@
       "name": "Solly Merch",
       "nation": "ENG",
       "number": 20,
-      "pos": "LM",
+      "pos": "RW",
       "wage": 59500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 40,
         "com": 66,
@@ -566,6 +592,10 @@
       "wage": 46500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -621,6 +651,10 @@
       "wage": 85500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 60,

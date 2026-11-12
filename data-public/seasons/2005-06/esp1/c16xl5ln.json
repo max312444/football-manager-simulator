@@ -31,7 +31,7 @@
         "ldr": 77,
         "pac": 81,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 83,
         "sta": 80,
         "str": 81,
@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 80,
-        "dri": 73,
-        "ldr": 76,
-        "pac": 75,
-        "pas": 78,
-        "pos": 75,
-        "sho": 73,
+        "dri": 69,
+        "ldr": 78,
+        "pac": 72,
+        "pas": 77,
+        "pos": 79,
+        "sho": 67,
         "sta": 77,
-        "str": 70,
-        "tac": 73,
-        "vis": 76
+        "str": 75,
+        "tac": 79,
+        "vis": 73
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -99,24 +99,27 @@
       "name": "Albert Calades",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 37000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 75,
-        "dri": 73,
-        "ldr": 74,
-        "pac": 68,
-        "pas": 78,
-        "pos": 72,
-        "sho": 72,
-        "sta": 79,
-        "str": 73,
-        "tac": 70,
-        "vis": 80
+        "aer": 63,
+        "com": 73,
+        "dri": 78,
+        "ldr": 70,
+        "pac": 77,
+        "pas": 74,
+        "pos": 54,
+        "sho": 76,
+        "sta": 75,
+        "str": 68,
+        "tac": 50,
+        "vis": 77
       },
       "birth": "1974-01-01",
       "contract": null,
@@ -127,7 +130,7 @@
       "nation": "BRA",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 37000
     },
@@ -154,23 +157,23 @@
       "name": "Agustin Aranzebal",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 24000
     },
     {
       "attrs": {
-        "aer": 79,
-        "com": 73,
-        "dri": 58,
-        "ldr": 72,
-        "pac": 69,
-        "pas": 67,
-        "pos": 80,
-        "sho": 49,
-        "sta": 68,
-        "str": 76,
-        "tac": 78,
-        "vis": 64
+        "aer": 66,
+        "com": 71,
+        "dri": 68,
+        "ldr": 68,
+        "pac": 77,
+        "pas": 71,
+        "pos": 75,
+        "sho": 56,
+        "sta": 74,
+        "str": 68,
+        "tac": 75,
+        "vis": 70
       },
       "birth": "1976-10-01",
       "contract": null,
@@ -180,7 +183,7 @@
       "name": "Delio Tolado",
       "nation": "PAR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 24000
     },
     {
@@ -237,19 +240,23 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 76,
-        "dri": 74,
-        "ldr": 69,
-        "pac": 67,
-        "pas": 72,
-        "pos": 74,
-        "sho": 67,
-        "sta": 72,
-        "str": 69,
-        "tac": 66,
-        "vis": 73
+        "aer": 55,
+        "com": 74,
+        "dri": 79,
+        "ldr": 65,
+        "pac": 76,
+        "pas": 68,
+        "pos": 56,
+        "sho": 71,
+        "sta": 68,
+        "str": 64,
+        "tac": 46,
+        "vis": 70
       },
       "birth": "1983-06-01",
       "contract": null,
@@ -259,24 +266,24 @@
       "name": "Sergio Garcya",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 26000
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 75,
-        "dri": 71,
-        "ldr": 65,
-        "pac": 64,
+        "aer": 54,
+        "com": 76,
+        "dri": 75,
+        "ldr": 63,
+        "pac": 67,
         "pas": 77,
-        "pos": 67,
-        "sho": 67,
-        "sta": 76,
-        "str": 67,
-        "tac": 66,
-        "vis": 71
+        "pos": 52,
+        "sho": 73,
+        "sta": 70,
+        "str": 62,
+        "tac": 48,
+        "vis": 73
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -286,10 +293,14 @@
       "name": "Coruna",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 22500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -318,18 +329,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 70,
-        "dri": 66,
-        "ldr": 70,
-        "pac": 66,
+        "aer": 54,
+        "com": 71,
+        "dri": 70,
+        "ldr": 68,
+        "pac": 69,
         "pas": 75,
-        "pos": 69,
-        "sho": 65,
-        "sta": 70,
-        "str": 69,
-        "tac": 67,
-        "vis": 75
+        "pos": 54,
+        "sho": 71,
+        "sta": 64,
+        "str": 64,
+        "tac": 49,
+        "vis": 77
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -339,7 +350,7 @@
       "name": "Juanjo Camecho",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 22000
     },
@@ -370,19 +381,23 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 67,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 68,
-        "pas": 61,
-        "pos": 46,
-        "sho": 72,
-        "sta": 63,
-        "str": 69,
-        "tac": 36,
-        "vis": 61
+        "aer": 53,
+        "com": 64,
+        "dri": 75,
+        "ldr": 64,
+        "pac": 72,
+        "pas": 67,
+        "pos": 48,
+        "sho": 67,
+        "sta": 65,
+        "str": 59,
+        "tac": 42,
+        "vis": 67
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -392,7 +407,7 @@
       "name": "Ewerthun",
       "nation": "BRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 10500
     },
@@ -404,7 +419,7 @@
         "ldr": 65,
         "pac": 66,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 71,
         "sta": 65,
         "str": 66,
@@ -424,19 +439,23 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 71,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 61,
-        "pas": 69,
-        "pos": 67,
-        "sho": 64,
-        "sta": 71,
-        "str": 66,
-        "tac": 66,
-        "vis": 67
+        "aer": 56,
+        "com": 69,
+        "dri": 72,
+        "ldr": 59,
+        "pac": 70,
+        "pas": 65,
+        "pos": 49,
+        "sho": 68,
+        "sta": 67,
+        "str": 61,
+        "tac": 46,
+        "vis": 64
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -446,7 +465,7 @@
       "name": "Pity",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 16500
     },
@@ -485,7 +504,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 56,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 61,
         "str": 67,
@@ -506,18 +525,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 62,
+        "aer": 49,
+        "com": 66,
+        "dri": 66,
+        "ldr": 60,
+        "pac": 65,
         "pas": 72,
-        "pos": 67,
-        "sho": 60,
-        "sta": 69,
-        "str": 59,
-        "tac": 66,
-        "vis": 68
+        "pos": 52,
+        "sho": 66,
+        "sta": 63,
+        "str": 54,
+        "tac": 48,
+        "vis": 70
       },
       "birth": "1982-11-01",
       "contract": null,
@@ -527,23 +546,23 @@
       "name": "Oscar Gonzelez",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 65,
-        "dri": 64,
-        "ldr": 60,
-        "pac": 64,
-        "pas": 65,
-        "pos": 65,
-        "sho": 63,
+        "dri": 60,
+        "ldr": 62,
+        "pac": 61,
+        "pas": 64,
+        "pos": 69,
+        "sho": 57,
         "sta": 69,
-        "str": 59,
-        "tac": 60,
-        "vis": 68
+        "str": 64,
+        "tac": 66,
+        "vis": 65
       },
       "birth": "1985-06-01",
       "contract": null,
@@ -553,10 +572,13 @@
       "name": "Alberto Zepater",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -583,6 +605,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -611,18 +636,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 66,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 61,
+        "aer": 49,
+        "com": 64,
+        "dri": 63,
+        "ldr": 56,
+        "pac": 69,
         "pas": 69,
-        "pos": 65,
-        "sho": 60,
-        "sta": 67,
-        "str": 60,
-        "tac": 58,
-        "vis": 65
+        "pos": 57,
+        "sho": 58,
+        "sta": 70,
+        "str": 57,
+        "tac": 52,
+        "vis": 64
       },
       "birth": "1981-08-01",
       "contract": null,
@@ -632,7 +657,7 @@
       "name": "Cany",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 10000
     },
     {
@@ -688,6 +713,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -742,19 +770,22 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 59,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 64,
-        "pos": 57,
-        "sho": 58,
-        "sta": 61,
-        "str": 54,
-        "tac": 55,
-        "vis": 62
+        "aer": 46,
+        "com": 57,
+        "dri": 64,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 60,
+        "pos": 39,
+        "sho": 62,
+        "sta": 57,
+        "str": 49,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "1984-08-01",
       "contract": null,
@@ -764,7 +795,7 @@
       "name": "Angel Lafyta",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 6000
     },
@@ -795,6 +826,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -881,7 +915,7 @@
         "ldr": 45,
         "pac": 54,
         "pas": 46,
-        "pos": 29,
+        "pos": 49,
         "sho": 55,
         "sta": 51,
         "str": 51,

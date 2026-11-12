@@ -31,7 +31,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 69,
-        "pos": 53,
+        "pos": 73,
         "sho": 80,
         "sta": 70,
         "str": 74,
@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 75,
-        "dri": 73,
-        "ldr": 68,
-        "pac": 69,
-        "pas": 79,
-        "pos": 73,
-        "sho": 68,
+        "dri": 69,
+        "ldr": 70,
+        "pac": 66,
+        "pas": 78,
+        "pos": 77,
+        "sho": 62,
         "sta": 75,
-        "str": 72,
-        "tac": 74,
-        "vis": 79
+        "str": 77,
+        "tac": 80,
+        "vis": 76
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Angelo Palombu",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 22500
     },
     {
@@ -84,7 +84,7 @@
         "ldr": 68,
         "pac": 76,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 68,
         "str": 76,
@@ -110,7 +110,7 @@
         "ldr": 68,
         "pac": 70,
         "pas": 62,
-        "pos": 54,
+        "pos": 74,
         "sho": 78,
         "sta": 66,
         "str": 70,
@@ -137,7 +137,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 66,
-        "pos": 48,
+        "pos": 68,
         "sho": 77,
         "sta": 67,
         "str": 74,
@@ -157,6 +157,11 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 75,
@@ -183,18 +188,21 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 73,
         "dri": 71,
         "ldr": 63,
         "pac": 63,
-        "pas": 69,
+        "pas": 71,
         "pos": 65,
         "sho": 67,
-        "sta": 69,
+        "sta": 71,
         "str": 68,
-        "tac": 63,
+        "tac": 65,
         "vis": 70
       },
       "birth": "1981-08-01",
@@ -210,19 +218,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 68,
-        "dri": 57,
-        "ldr": 65,
-        "pac": 62,
-        "pas": 62,
-        "pos": 69,
-        "sho": 44,
-        "sta": 63,
-        "str": 74,
-        "tac": 71,
-        "vis": 55
+        "aer": 56,
+        "com": 66,
+        "dri": 67,
+        "ldr": 61,
+        "pac": 70,
+        "pas": 66,
+        "pos": 64,
+        "sho": 51,
+        "sta": 69,
+        "str": 66,
+        "tac": 68,
+        "vis": 61
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -232,7 +243,7 @@
       "name": "Cristian Zenuni",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 11000
     },
@@ -311,10 +322,13 @@
       "name": "Luca Antonyni",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 72,
@@ -369,6 +383,9 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 65,
@@ -395,19 +412,22 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 67,
-        "dri": 67,
+        "com": 72,
+        "dri": 69,
         "ldr": 60,
-        "pac": 69,
-        "pas": 67,
-        "pos": 64,
+        "pac": 71,
+        "pas": 72,
+        "pos": 69,
         "sho": 51,
-        "sta": 67,
-        "str": 59,
-        "tac": 71,
-        "vis": 61
+        "sta": 69,
+        "str": 64,
+        "tac": 76,
+        "vis": 66
       },
       "birth": "1974-11-01",
       "contract": null,
@@ -417,7 +437,7 @@
       "name": "Max Tonettu",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11500
     },
     {
@@ -428,7 +448,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 62,
-        "pos": 45,
+        "pos": 65,
         "sho": 67,
         "sta": 65,
         "str": 69,
@@ -447,22 +467,19 @@
       "wage": 8500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 72,
-        "com": 62,
-        "dri": 53,
-        "ldr": 62,
-        "pac": 58,
-        "pas": 59,
-        "pos": 68,
-        "sho": 42,
-        "sta": 61,
-        "str": 68,
-        "tac": 66,
-        "vis": 52
+        "aer": 59,
+        "com": 64,
+        "dri": 65,
+        "ldr": 60,
+        "pac": 59,
+        "pas": 69,
+        "pos": 63,
+        "sho": 63,
+        "sta": 67,
+        "str": 61,
+        "tac": 59,
+        "vis": 67
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -472,7 +489,7 @@
       "name": "Sergio Volpy",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "CM",
       "wage": 8000
     },
     {
@@ -498,7 +515,7 @@
       "name": "Marco Pisanu",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 8000
     },
     {
@@ -688,6 +705,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -715,18 +735,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 56,
-        "dri": 56,
-        "ldr": 51,
-        "pac": 51,
+        "aer": 45,
+        "com": 57,
+        "dri": 60,
+        "ldr": 49,
+        "pac": 54,
         "pas": 61,
-        "pos": 57,
-        "sho": 55,
-        "sta": 59,
-        "str": 54,
-        "tac": 51,
-        "vis": 61
+        "pos": 42,
+        "sho": 61,
+        "sta": 53,
+        "str": 49,
+        "tac": 33,
+        "vis": 63
       },
       "birth": "1971-07-01",
       "contract": null,
@@ -736,24 +756,27 @@
       "name": "Lamberto Zeuli",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 4500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 56,
-        "dri": 41,
-        "ldr": 53,
-        "pac": 54,
-        "pas": 52,
-        "pos": 59,
-        "sho": 28,
-        "sta": 56,
-        "str": 60,
-        "tac": 59,
-        "vis": 42
+        "aer": 49,
+        "com": 54,
+        "dri": 51,
+        "ldr": 49,
+        "pac": 62,
+        "pas": 56,
+        "pos": 54,
+        "sho": 35,
+        "sta": 62,
+        "str": 52,
+        "tac": 56,
+        "vis": 48
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -763,11 +786,14 @@
       "name": "Fabrizio Cacciature",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -795,6 +821,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 53,
@@ -856,7 +885,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 46,
-        "pos": 31,
+        "pos": 51,
         "sho": 60,
         "sta": 54,
         "str": 57,
@@ -876,6 +905,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 51,

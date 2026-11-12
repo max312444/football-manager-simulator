@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 62,
-        "dri": 60,
-        "ldr": 64,
-        "pac": 60,
-        "pas": 66,
-        "pos": 65,
-        "sho": 60,
+        "dri": 56,
+        "ldr": 66,
+        "pac": 57,
+        "pas": 65,
+        "pos": 69,
+        "sho": 54,
         "sta": 65,
-        "str": 61,
-        "tac": 63,
-        "vis": 69
+        "str": 66,
+        "tac": 69,
+        "vis": 66
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Roberto Guena",
       "nation": "ITA",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 14500
     },
     {
@@ -99,7 +99,7 @@
       "name": "Maurizio Leuro",
       "nation": "ITA",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -110,7 +110,7 @@
         "ldr": 62,
         "pac": 67,
         "pas": 62,
-        "pos": 47,
+        "pos": 67,
         "sho": 73,
         "sta": 67,
         "str": 70,
@@ -130,18 +130,21 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 76,
-        "dri": 76,
-        "ldr": 73,
-        "pac": 71,
-        "pas": 81,
-        "pos": 76,
-        "sho": 74,
-        "sta": 76,
-        "str": 72,
-        "tac": 74,
+        "aer": 60,
+        "com": 74,
+        "dri": 79,
+        "ldr": 71,
+        "pac": 79,
+        "pas": 82,
+        "pos": 68,
+        "sho": 72,
+        "sta": 80,
+        "str": 69,
+        "tac": 69,
         "vis": 79
       },
       "birth": "1987-02-01",
@@ -153,10 +156,14 @@
       "name": "Antonio Candrava",
       "nation": "ITA",
       "number": 8,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 32500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -183,6 +190,11 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 75,
         "com": 80,
@@ -190,7 +202,7 @@
         "ldr": 74,
         "pac": 80,
         "pas": 70,
-        "pos": 55,
+        "pos": 75,
         "sho": 84,
         "sta": 77,
         "str": 76,
@@ -216,7 +228,7 @@
         "ldr": 52,
         "pac": 58,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 65,
         "sta": 56,
         "str": 57,
@@ -263,6 +275,10 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 67,
@@ -289,19 +305,22 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 58,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 54,
+        "aer": 42,
+        "com": 59,
+        "dri": 65,
+        "ldr": 55,
+        "pac": 57,
         "pas": 59,
-        "pos": 57,
-        "sho": 53,
-        "sta": 65,
-        "str": 52,
-        "tac": 58,
-        "vis": 61
+        "pos": 42,
+        "sho": 59,
+        "sta": 59,
+        "str": 47,
+        "tac": 40,
+        "vis": 63
       },
       "birth": "1988-01-01",
       "contract": null,
@@ -312,23 +331,23 @@
       "name": "Raphael Martynho",
       "nation": "BRA",
       "number": 15,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 60,
-        "dri": 47,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 56,
-        "pos": 67,
-        "sho": 38,
-        "sta": 60,
-        "str": 67,
-        "tac": 69,
-        "vis": 50
+        "aer": 54,
+        "com": 58,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 66,
+        "pas": 60,
+        "pos": 62,
+        "sho": 45,
+        "sta": 66,
+        "str": 59,
+        "tac": 66,
+        "vis": 56
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -338,10 +357,13 @@
       "name": "Gianluca Comottu",
       "nation": "ITA",
       "number": 16,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 79,
@@ -375,7 +397,7 @@
         "ldr": 52,
         "pac": 54,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 54,
         "str": 60,
@@ -447,6 +469,11 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 65,
         "com": 65,
@@ -454,7 +481,7 @@
         "ldr": 63,
         "pac": 65,
         "pas": 56,
-        "pos": 42,
+        "pos": 62,
         "sho": 71,
         "sta": 62,
         "str": 66,
@@ -480,7 +507,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 76,
         "sta": 67,
         "str": 72,
@@ -499,19 +526,22 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 60,
-        "dri": 49,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 51,
-        "pos": 60,
-        "sho": 32,
-        "sta": 56,
-        "str": 62,
-        "tac": 62,
-        "vis": 48
+        "aer": 48,
+        "com": 58,
+        "dri": 59,
+        "ldr": 55,
+        "pac": 65,
+        "pas": 55,
+        "pos": 55,
+        "sho": 39,
+        "sta": 62,
+        "str": 54,
+        "tac": 59,
+        "vis": 54
       },
       "birth": "1983-03-01",
       "contract": null,
@@ -521,10 +551,15 @@
       "name": "Luca Ceccaralli",
       "nation": "ITA",
       "number": 77,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 6000
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 79,
@@ -554,7 +589,8 @@
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 63,
@@ -584,18 +620,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 68,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 74,
-        "pas": 68,
-        "pos": 73,
-        "sho": 55,
-        "sta": 73,
-        "str": 67,
-        "tac": 70,
-        "vis": 66
+        "aer": 73,
+        "com": 70,
+        "dri": 59,
+        "ldr": 69,
+        "pac": 66,
+        "pas": 64,
+        "pos": 78,
+        "sho": 48,
+        "sta": 67,
+        "str": 75,
+        "tac": 73,
+        "vis": 60
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -605,7 +641,7 @@
       "name": "Guillermo Rodryguez",
       "nation": "URU",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 25000
     }
   ],

@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 70,
-        "dri": 72,
-        "ldr": 68,
-        "pac": 65,
+        "aer": 57,
+        "com": 71,
+        "dri": 76,
+        "ldr": 66,
+        "pac": 68,
         "pas": 71,
-        "pos": 68,
-        "sho": 63,
-        "sta": 73,
-        "str": 69,
-        "tac": 68,
-        "vis": 71
+        "pos": 53,
+        "sho": 69,
+        "sta": 67,
+        "str": 64,
+        "tac": 50,
+        "vis": 73
       },
       "birth": "1971-10-01",
       "contract": null,
@@ -73,10 +73,13 @@
       "name": "Reynald Padros",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 72,
@@ -110,7 +113,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 73,
         "sta": 67,
         "str": 70,
@@ -137,7 +140,7 @@
         "ldr": 61,
         "pac": 71,
         "pas": 63,
-        "pos": 49,
+        "pos": 69,
         "sho": 70,
         "sta": 66,
         "str": 66,
@@ -184,6 +187,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 65,
@@ -211,19 +217,24 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
-        "com": 67,
-        "dri": 68,
+        "com": 69,
+        "dri": 74,
         "ldr": 62,
         "pac": 66,
-        "pas": 57,
-        "pos": 44,
-        "sho": 71,
+        "pas": 65,
+        "pos": 64,
+        "sho": 73,
         "sta": 65,
         "str": 64,
         "tac": 40,
-        "vis": 61
+        "vis": 69
       },
       "birth": "1978-04-01",
       "contract": null,
@@ -234,7 +245,7 @@
       "nation": "FRA",
       "nation2": "LBR",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 10000
     },
@@ -300,7 +311,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 61,
         "str": 60,
@@ -400,18 +411,18 @@
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 58,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 59,
-        "pas": 62,
-        "pos": 56,
-        "sho": 54,
+        "dri": 58,
+        "ldr": 60,
+        "pac": 56,
+        "pas": 61,
+        "pos": 60,
+        "sho": 48,
         "sta": 66,
-        "str": 57,
-        "tac": 55,
-        "vis": 65
+        "str": 62,
+        "tac": 61,
+        "vis": 62
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -421,7 +432,7 @@
       "name": "Sebastien Pyocelle",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7500
     },
     {
@@ -451,19 +462,22 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 57,
-        "dri": 55,
+        "com": 59,
+        "dri": 57,
         "ldr": 54,
         "pac": 55,
-        "pas": 59,
+        "pas": 61,
         "pos": 59,
-        "sho": 52,
-        "sta": 60,
+        "sho": 54,
+        "sta": 62,
         "str": 55,
         "tac": 59,
-        "vis": 58
+        "vis": 60
       },
       "birth": "1979-12-01",
       "contract": null,
@@ -478,6 +492,11 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 59,
@@ -485,7 +504,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 52,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 58,
         "str": 59,
@@ -505,23 +524,19 @@
       "wage": 4500
     },
     {
-      "alt": [
-        "RW",
-        "ST"
-      ],
       "attrs": {
         "aer": 43,
-        "com": 60,
-        "dri": 60,
-        "ldr": 51,
-        "pac": 63,
-        "pas": 56,
-        "pos": 39,
-        "sho": 57,
-        "sta": 58,
+        "com": 63,
+        "dri": 59,
+        "ldr": 53,
+        "pac": 57,
+        "pas": 60,
+        "pos": 42,
+        "sho": 59,
+        "sta": 56,
         "str": 50,
-        "tac": 38,
-        "vis": 59
+        "tac": 40,
+        "vis": 64
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -531,7 +546,7 @@
       "name": "Damian Mansu",
       "nation": "ARG",
       "number": null,
-      "pos": "LW",
+      "pos": "AM",
       "verify": true,
       "wage": 4000
     },
@@ -617,6 +632,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -651,7 +669,7 @@
         "ldr": 54,
         "pac": 58,
         "pas": 48,
-        "pos": 34,
+        "pos": 54,
         "sho": 57,
         "sta": 51,
         "str": 60,
@@ -698,6 +716,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 57,
@@ -750,6 +771,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -784,7 +808,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 46,
-        "pos": 33,
+        "pos": 53,
         "sho": 56,
         "sta": 49,
         "str": 54,
@@ -811,7 +835,7 @@
         "ldr": 49,
         "pac": 52,
         "pas": 47,
-        "pos": 32,
+        "pos": 52,
         "sho": 57,
         "sta": 53,
         "str": 56,
@@ -831,6 +855,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 54,
@@ -891,7 +918,7 @@
         "ldr": 43,
         "pac": 49,
         "pas": 42,
-        "pos": 32,
+        "pos": 52,
         "sho": 57,
         "sta": 49,
         "str": 48,
@@ -918,7 +945,7 @@
         "ldr": 43,
         "pac": 52,
         "pas": 39,
-        "pos": 30,
+        "pos": 50,
         "sho": 50,
         "sta": 46,
         "str": 52,
@@ -940,18 +967,18 @@
     },
     {
       "attrs": {
-        "aer": 37,
+        "aer": 43,
         "com": 49,
-        "dri": 43,
-        "ldr": 43,
-        "pac": 44,
-        "pas": 51,
-        "pos": 44,
-        "sho": 42,
+        "dri": 39,
+        "ldr": 45,
+        "pac": 41,
+        "pas": 50,
+        "pos": 48,
+        "sho": 36,
         "sta": 48,
-        "str": 41,
-        "tac": 44,
-        "vis": 52
+        "str": 46,
+        "tac": 50,
+        "vis": 49
       },
       "birth": "1984-08-01",
       "contract": null,
@@ -961,11 +988,14 @@
       "name": "Harve Guy",
       "nation": "CIV",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 45,

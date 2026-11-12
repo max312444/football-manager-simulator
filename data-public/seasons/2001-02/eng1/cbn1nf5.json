@@ -44,16 +44,19 @@
       "wage": 39000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
-        "dri": 60,
+        "dri": 66,
         "ldr": 74,
-        "pac": 62,
+        "pac": 68,
         "pas": 68,
         "pos": 72,
         "sho": 55,
-        "sta": 72,
+        "sta": 78,
         "str": 69,
         "tac": 72,
         "vis": 59
@@ -73,16 +76,19 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 64,
-        "dri": 49,
+        "dri": 54,
         "ldr": 62,
-        "pac": 62,
-        "pas": 53,
+        "pac": 67,
+        "pas": 58,
         "pos": 70,
         "sho": 31,
-        "sta": 72,
+        "sta": 77,
         "str": 70,
         "tac": 73,
         "vis": 42
@@ -104,17 +110,17 @@
       ],
       "attrs": {
         "aer": 58,
-        "com": 71,
-        "dri": 62,
+        "com": 78,
+        "dri": 69,
         "ldr": 69,
         "pac": 55,
-        "pas": 70,
+        "pas": 77,
         "pos": 71,
-        "sho": 52,
-        "sta": 73,
+        "sho": 59,
+        "sta": 80,
         "str": 69,
         "tac": 72,
-        "vis": 67
+        "vis": 74
       },
       "birth": "1969-01-01",
       "contract": "2004-06-30",
@@ -181,9 +187,6 @@
       "wage": 34500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
         "aer": 55,
         "com": 84,
@@ -216,21 +219,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 57,
-        "com": 65,
-        "dri": 65,
+        "com": 67,
+        "dri": 66,
         "ldr": 58,
         "pac": 64,
-        "pas": 70,
+        "pas": 72,
         "pos": 66,
-        "sho": 58,
-        "sta": 79,
+        "sho": 59,
+        "sta": 80,
         "str": 65,
-        "tac": 67,
-        "vis": 65
+        "tac": 68,
+        "vis": 67
       },
       "birth": "1977-08-01",
       "contract": "2005-06-30",
@@ -273,12 +276,15 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 53,
         "com": 66,
-        "dri": 65,
+        "dri": 70,
         "ldr": 58,
-        "pac": 60,
+        "pac": 65,
         "pas": 69,
         "pos": 54,
         "sho": 53,
@@ -295,14 +301,11 @@
       "name": "Stuart Riplei",
       "nation": "ENG",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 17500
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 60,
         "com": 66,
@@ -389,7 +392,9 @@
     },
     {
       "alt": [
-        "DM"
+        "RB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 75,
@@ -418,10 +423,6 @@
       "wage": 21500
     },
     {
-      "alt": [
-        "RB",
-        "CM"
-      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -444,13 +445,15 @@
       "name": "Paul Telfar",
       "nation": "SCO",
       "number": 16,
-      "pos": "RM",
+      "pos": "RB",
       "verify": true,
       "wage": 24500
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 70,
@@ -480,16 +483,16 @@
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 71,
+        "aer": 60,
+        "com": 83,
         "dri": 77,
         "ldr": 50,
         "pac": 81,
         "pas": 64,
-        "pos": 46,
-        "sho": 77,
+        "pos": 58,
+        "sho": 89,
         "sta": 71,
-        "str": 56,
+        "str": 68,
         "tac": 32,
         "vis": 64
       },
@@ -509,21 +512,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 67,
         "com": 62,
-        "dri": 63,
+        "dri": 68,
         "ldr": 56,
         "pac": 69,
-        "pas": 63,
+        "pas": 68,
         "pos": 63,
-        "sho": 57,
-        "sta": 80,
+        "sho": 62,
+        "sta": 85,
         "str": 75,
         "tac": 65,
-        "vis": 56
+        "vis": 61
       },
       "birth": "1976-07-01",
       "contract": "2005-06-30",
@@ -539,8 +544,7 @@
     },
     {
       "alt": [
-        "AM",
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 54,
@@ -603,7 +607,9 @@
     },
     {
       "alt": [
-        "DM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 72,
@@ -633,7 +639,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 52,

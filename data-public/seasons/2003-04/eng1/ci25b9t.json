@@ -72,7 +72,9 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 62,
@@ -101,9 +103,6 @@
       "wage": 20500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 66,
         "com": 63,
@@ -195,13 +194,13 @@
       "attrs": {
         "aer": 69,
         "com": 62,
-        "dri": 56,
+        "dri": 61,
         "ldr": 58,
-        "pac": 67,
-        "pas": 57,
+        "pac": 72,
+        "pas": 62,
         "pos": 70,
         "sho": 40,
-        "sta": 74,
+        "sta": 79,
         "str": 76,
         "tac": 74,
         "vis": 46
@@ -246,6 +245,10 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 53,
@@ -273,6 +276,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 63,
         "com": 57,
@@ -301,21 +307,23 @@
     },
     {
       "alt": [
-        "CB"
+        "CM",
+        "RB",
+        "LB"
       ],
       "attrs": {
-        "aer": 66,
-        "com": 63,
-        "dri": 56,
+        "aer": 78,
+        "com": 75,
+        "dri": 68,
         "ldr": 59,
-        "pac": 61,
-        "pas": 64,
-        "pos": 68,
-        "sho": 50,
-        "sta": 72,
-        "str": 70,
-        "tac": 70,
-        "vis": 55
+        "pac": 73,
+        "pas": 76,
+        "pos": 80,
+        "sho": 62,
+        "sta": 84,
+        "str": 82,
+        "tac": 82,
+        "vis": 67
       },
       "birth": "1975-06-01",
       "contract": "2004-06-30",
@@ -325,11 +333,14 @@
       "name": "Riccardo Scimaca",
       "nation": "ENG",
       "number": 4,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 29500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 71,
@@ -358,6 +369,9 @@
       "wage": 44000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -385,6 +399,9 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -413,7 +430,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 47,
@@ -437,7 +454,7 @@
       "name": "Keith Gillespye",
       "nation": "NIR",
       "number": 11,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 24000
     },
@@ -471,7 +488,9 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 38,
@@ -501,16 +520,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 66,
+        "aer": 60,
+        "com": 68,
         "dri": 66,
         "ldr": 66,
         "pac": 69,
         "pas": 61,
-        "pos": 55,
-        "sho": 69,
+        "pos": 57,
+        "sho": 71,
         "sta": 79,
-        "str": 65,
+        "str": 67,
         "tac": 48,
         "vis": 59
       },
@@ -527,20 +546,17 @@
       "wage": 31500
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 77,
-        "com": 69,
+        "aer": 78,
+        "com": 70,
         "dri": 69,
         "ldr": 63,
-        "pac": 63,
+        "pac": 64,
         "pas": 69,
-        "pos": 61,
-        "sho": 69,
+        "pos": 62,
+        "sho": 70,
         "sta": 76,
-        "str": 72,
+        "str": 73,
         "tac": 53,
         "vis": 69
       },
@@ -585,16 +601,16 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 58,
+        "aer": 73,
+        "com": 60,
         "dri": 65,
         "ldr": 48,
         "pac": 84,
         "pas": 57,
-        "pos": 51,
-        "sho": 65,
+        "pos": 53,
+        "sho": 67,
         "sta": 79,
-        "str": 78,
+        "str": 80,
         "tac": 43,
         "vis": 50
       },

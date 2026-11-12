@@ -129,7 +129,9 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 64,
@@ -186,9 +188,6 @@
       "wage": 40500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 66,
@@ -215,6 +214,10 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "LW",
+        "RB"
+      ],
       "attrs": {
         "aer": 36,
         "com": 65,
@@ -237,12 +240,14 @@
       "name": "Carlos Edwerds",
       "nation": "TRI",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 19000
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -251,13 +256,13 @@
         "dri": 78,
         "ldr": 61,
         "pac": 79,
-        "pas": 70,
+        "pas": 85,
         "pos": 42,
         "sho": 66,
-        "sta": 69,
+        "sta": 84,
         "str": 50,
-        "tac": 37,
-        "vis": 69
+        "tac": 52,
+        "vis": 84
       },
       "birth": "1980-01-01",
       "contract": "2011-06-30",
@@ -299,16 +304,16 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 63,
+        "aer": 62,
+        "com": 66,
         "dri": 63,
         "ldr": 47,
         "pac": 67,
         "pas": 54,
-        "pos": 33,
-        "sho": 70,
+        "pos": 36,
+        "sho": 73,
         "sta": 61,
-        "str": 64,
+        "str": 67,
         "tac": 24,
         "vis": 55
       },
@@ -352,6 +357,8 @@
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -359,14 +366,14 @@
         "com": 69,
         "dri": 78,
         "ldr": 59,
-        "pac": 77,
-        "pas": 81,
+        "pac": 78,
+        "pas": 91,
         "pos": 41,
         "sho": 66,
-        "sta": 73,
+        "sta": 84,
         "str": 53,
-        "tac": 36,
-        "vis": 67
+        "tac": 47,
+        "vis": 77
       },
       "birth": "1982-07-01",
       "contract": "2011-06-30",
@@ -382,21 +389,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 56,
-        "com": 62,
+        "com": 68,
         "dri": 66,
         "ldr": 54,
         "pac": 70,
-        "pas": 72,
+        "pas": 78,
         "pos": 60,
         "sho": 60,
         "sta": 84,
         "str": 64,
-        "tac": 62,
-        "vis": 70
+        "tac": 68,
+        "vis": 76
       },
       "birth": "1990-06-01",
       "contract": "2011-06-30",
@@ -442,6 +449,7 @@
     },
     {
       "alt": [
+        "LW",
         "LB",
         "CM"
       ],
@@ -467,7 +475,7 @@
       "name": "Kieran Rychardson",
       "nation": "ENG",
       "number": 18,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 34000
     },
@@ -500,21 +508,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 58,
         "com": 75,
         "dri": 76,
         "ldr": 63,
-        "pac": 63,
-        "pas": 74,
+        "pac": 74,
+        "pas": 75,
         "pos": 62,
         "sho": 68,
-        "sta": 69,
+        "sta": 81,
         "str": 55,
-        "tac": 50,
-        "vis": 75
+        "tac": 62,
+        "vis": 76
       },
       "birth": "1976-08-01",
       "contract": "2011-06-30",
@@ -588,19 +598,23 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 52,
-        "dri": 54,
+        "com": 62,
+        "dri": 61,
         "ldr": 46,
         "pac": 60,
-        "pas": 58,
+        "pas": 68,
         "pos": 56,
-        "sho": 48,
-        "sta": 72,
+        "sho": 55,
+        "sta": 73,
         "str": 68,
-        "tac": 62,
-        "vis": 52
+        "tac": 65,
+        "vis": 62
       },
       "birth": "1989-05-01",
       "contract": "2014-06-30",

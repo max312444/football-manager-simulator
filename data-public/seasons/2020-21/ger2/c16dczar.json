@@ -51,6 +51,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 51,
@@ -105,18 +108,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 58,
-        "dri": 55,
-        "ldr": 51,
-        "pac": 50,
+        "aer": 43,
+        "com": 59,
+        "dri": 59,
+        "ldr": 49,
+        "pac": 53,
         "pas": 61,
-        "pos": 52,
-        "sho": 53,
-        "sta": 58,
-        "str": 55,
-        "tac": 52,
-        "vis": 58
+        "pos": 37,
+        "sho": 59,
+        "sta": 52,
+        "str": 50,
+        "tac": 34,
+        "vis": 60
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -127,10 +130,15 @@
       "nation": "POL",
       "nation2": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 49,
@@ -138,7 +146,7 @@
         "ldr": 44,
         "pac": 50,
         "pas": 42,
-        "pos": 26,
+        "pos": 46,
         "sho": 55,
         "sta": 47,
         "str": 51,
@@ -157,6 +165,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 55,
         "com": 59,
@@ -164,7 +177,7 @@
         "ldr": 51,
         "pac": 56,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 53,
         "str": 59,
@@ -183,6 +196,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -216,7 +232,7 @@
         "ldr": 52,
         "pac": 58,
         "pas": 47,
-        "pos": 35,
+        "pos": 55,
         "sho": 60,
         "sta": 49,
         "str": 58,
@@ -235,6 +251,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 55,
@@ -294,7 +313,7 @@
         "ldr": 48,
         "pac": 54,
         "pas": 46,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 52,
         "str": 58,
@@ -320,7 +339,7 @@
         "ldr": 40,
         "pac": 50,
         "pas": 43,
-        "pos": 25,
+        "pos": 45,
         "sho": 53,
         "sta": 45,
         "str": 49,
@@ -388,10 +407,15 @@
       "name": "Luke Hemmerych",
       "nation": "GER",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 55,
@@ -419,18 +443,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 55,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 63,
-        "pos": 57,
-        "sho": 52,
-        "sta": 60,
-        "str": 54,
-        "tac": 56,
-        "vis": 58
+        "aer": 45,
+        "com": 53,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 62,
+        "pas": 59,
+        "pos": 39,
+        "sho": 56,
+        "sta": 56,
+        "str": 49,
+        "tac": 36,
+        "vis": 55
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -440,10 +464,13 @@
       "name": "Florian Flacker",
       "nation": "AUT",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 47,
@@ -496,6 +523,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 63,
@@ -518,10 +548,13 @@
       "name": "Arne Feyck",
       "nation": "GER",
       "number": 28,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 50,
@@ -574,19 +607,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 50,
-        "dri": 43,
-        "ldr": 54,
-        "pac": 52,
-        "pas": 44,
-        "pos": 56,
-        "sho": 26,
-        "sta": 53,
-        "str": 58,
-        "tac": 55,
-        "vis": 43
+        "aer": 46,
+        "com": 48,
+        "dri": 53,
+        "ldr": 50,
+        "pac": 60,
+        "pas": 48,
+        "pos": 51,
+        "sho": 33,
+        "sta": 59,
+        "str": 50,
+        "tac": 52,
+        "vis": 49
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -596,23 +632,23 @@
       "name": "Frank Ronstedt",
       "nation": "GER",
       "number": 34,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 49,
-        "dri": 39,
-        "ldr": 51,
-        "pac": 43,
-        "pas": 41,
-        "pos": 52,
-        "sho": 25,
-        "sta": 48,
-        "str": 55,
-        "tac": 55,
-        "vis": 39
+        "aer": 40,
+        "com": 47,
+        "dri": 49,
+        "ldr": 47,
+        "pac": 51,
+        "pas": 45,
+        "pos": 47,
+        "sho": 32,
+        "sta": 54,
+        "str": 47,
+        "tac": 52,
+        "vis": 45
       },
       "birth": "1993-08-01",
       "contract": null,
@@ -623,7 +659,7 @@
       "name": "Robert Herrmenn",
       "nation": "GER",
       "number": 38,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 3000
     },
     {

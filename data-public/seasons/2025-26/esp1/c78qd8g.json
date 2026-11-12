@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 59,
-        "dri": 45,
-        "ldr": 61,
-        "pac": 52,
-        "pas": 53,
-        "pos": 65,
-        "sho": 36,
-        "sta": 54,
-        "str": 61,
-        "tac": 66,
-        "vis": 46
+        "aer": 50,
+        "com": 57,
+        "dri": 55,
+        "ldr": 57,
+        "pac": 60,
+        "pas": 57,
+        "pos": 60,
+        "sho": 43,
+        "sta": 60,
+        "str": 53,
+        "tac": 63,
+        "vis": 52
       },
       "birth": "2001-02-01",
       "contract": null,
@@ -73,26 +73,26 @@
       "name": "Ruben Senchez",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 29000
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 61,
-        "dri": 64,
-        "ldr": 58,
-        "pac": 57,
-        "pas": 64,
-        "pos": 59,
-        "sho": 56,
+        "dri": 60,
+        "ldr": 60,
+        "pac": 54,
+        "pas": 63,
+        "pos": 63,
+        "sho": 50,
         "sta": 64,
-        "str": 62,
-        "tac": 63,
-        "vis": 63
+        "str": 67,
+        "tac": 69,
+        "vis": 60
       },
       "birth": "2001-03-01",
       "contract": null,
@@ -102,7 +102,7 @@
       "name": "Urko Gonzalez de Zerate",
       "nation": "ESP",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 52500
     },
     {
@@ -158,19 +158,22 @@
       "wage": 72500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 73,
-        "dri": 65,
-        "ldr": 65,
-        "pac": 70,
-        "pas": 59,
-        "pos": 46,
-        "sho": 69,
-        "sta": 66,
-        "str": 69,
-        "tac": 41,
-        "vis": 60
+        "aer": 54,
+        "com": 70,
+        "dri": 70,
+        "ldr": 63,
+        "pac": 74,
+        "pas": 65,
+        "pos": 48,
+        "sho": 64,
+        "sta": 68,
+        "str": 59,
+        "tac": 47,
+        "vis": 66
       },
       "birth": "1998-05-01",
       "contract": null,
@@ -180,10 +183,14 @@
       "name": "Javi Puedo",
       "nation": "ESP",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 67500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 65,
@@ -217,7 +224,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 56,
-        "pos": 36,
+        "pos": 56,
         "sho": 67,
         "sta": 56,
         "str": 63,
@@ -236,6 +243,9 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -262,19 +272,22 @@
       "wage": 75500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 66,
-        "dri": 59,
-        "ldr": 59,
-        "pac": 67,
-        "pas": 57,
-        "pos": 39,
-        "sho": 70,
-        "sta": 63,
-        "str": 66,
-        "tac": 31,
-        "vis": 54
+        "aer": 48,
+        "com": 63,
+        "dri": 64,
+        "ldr": 57,
+        "pac": 71,
+        "pas": 63,
+        "pos": 41,
+        "sho": 65,
+        "sta": 65,
+        "str": 56,
+        "tac": 37,
+        "vis": 60
       },
       "birth": "1992-09-01",
       "contract": null,
@@ -284,23 +297,23 @@
       "name": "Pere Mylla",
       "nation": "ESP",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 39000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 56,
-        "dri": 48,
-        "ldr": 57,
-        "pac": 57,
-        "pas": 51,
-        "pos": 65,
-        "sho": 33,
-        "sta": 55,
-        "str": 65,
-        "tac": 64,
-        "vis": 46
+        "aer": 50,
+        "com": 54,
+        "dri": 58,
+        "ldr": 53,
+        "pac": 65,
+        "pas": 55,
+        "pos": 60,
+        "sho": 40,
+        "sta": 61,
+        "str": 57,
+        "tac": 61,
+        "vis": 52
       },
       "birth": "2000-09-01",
       "contract": null,
@@ -310,7 +323,7 @@
       "name": "Jose Salines",
       "nation": "ESP",
       "number": 12,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 28500
     },
     {
@@ -340,6 +353,10 @@
       "wage": 79500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 61,
@@ -393,19 +410,24 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "LW",
+        "RM",
+        "LM"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 62,
-        "dri": 55,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 52,
-        "pos": 40,
-        "sho": 63,
-        "sta": 52,
-        "str": 61,
-        "tac": 27,
-        "vis": 53
+        "aer": 40,
+        "com": 59,
+        "dri": 60,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 58,
+        "pos": 42,
+        "sho": 58,
+        "sta": 54,
+        "str": 51,
+        "tac": 33,
+        "vis": 59
       },
       "birth": "2004-09-01",
       "contract": null,
@@ -417,23 +439,26 @@
       "nation": "ITA",
       "nation2": "CAN",
       "number": 16,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 22000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 63,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 60,
-        "pas": 53,
-        "pos": 36,
-        "sho": 62,
-        "sta": 53,
-        "str": 59,
-        "tac": 29,
-        "vis": 55
+        "aer": 43,
+        "com": 60,
+        "dri": 64,
+        "ldr": 53,
+        "pac": 64,
+        "pas": 59,
+        "pos": 38,
+        "sho": 57,
+        "sta": 55,
+        "str": 49,
+        "tac": 35,
+        "vis": 61
       },
       "birth": "2001-06-01",
       "contract": null,
@@ -443,23 +468,23 @@
       "name": "Jofre Cerreras",
       "nation": "ESP",
       "number": 17,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 24000
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 70,
-        "dri": 68,
-        "ldr": 61,
-        "pac": 64,
-        "pas": 73,
-        "pos": 64,
-        "sho": 62,
+        "dri": 64,
+        "ldr": 63,
+        "pac": 61,
+        "pas": 72,
+        "pos": 68,
+        "sho": 56,
         "sta": 68,
-        "str": 64,
-        "tac": 62,
-        "vis": 67
+        "str": 69,
+        "tac": 68,
+        "vis": 64
       },
       "birth": "1997-05-01",
       "contract": null,
@@ -470,7 +495,7 @@
       "nation": "COD",
       "nation2": "SUI",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 79500
     },
     {
@@ -481,7 +506,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 62,
-        "pos": 46,
+        "pos": 66,
         "sho": 73,
         "sta": 61,
         "str": 68,
@@ -500,19 +525,22 @@
       "wage": 59000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 57,
-        "dri": 57,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 57,
-        "pos": 58,
-        "sho": 52,
-        "sta": 58,
-        "str": 50,
-        "tac": 53,
-        "vis": 60
+        "aer": 39,
+        "com": 55,
+        "dri": 62,
+        "ldr": 48,
+        "pac": 63,
+        "pas": 53,
+        "pos": 40,
+        "sho": 56,
+        "sta": 54,
+        "str": 45,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "2002-09-01",
       "contract": null,
@@ -522,23 +550,23 @@
       "name": "Antoniu Roce",
       "nation": "ESP",
       "number": 20,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 26500
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 60,
-        "dri": 48,
-        "ldr": 58,
-        "pac": 59,
-        "pas": 51,
-        "pos": 63,
-        "sho": 36,
-        "sta": 60,
-        "str": 61,
-        "tac": 66,
-        "vis": 49
+        "aer": 54,
+        "com": 58,
+        "dri": 58,
+        "ldr": 54,
+        "pac": 67,
+        "pas": 55,
+        "pos": 58,
+        "sho": 43,
+        "sta": 66,
+        "str": 53,
+        "tac": 63,
+        "vis": 55
       },
       "birth": "2001-10-01",
       "contract": null,
@@ -549,23 +577,23 @@
       "name": "Carlos Rumero",
       "nation": "ESP",
       "number": 22,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 34000
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 57,
-        "dri": 49,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 55,
-        "pos": 61,
-        "sho": 35,
-        "sta": 54,
-        "str": 63,
-        "tac": 62,
-        "vis": 43
+        "aer": 47,
+        "com": 55,
+        "dri": 59,
+        "ldr": 51,
+        "pac": 61,
+        "pas": 59,
+        "pos": 56,
+        "sho": 42,
+        "sta": 60,
+        "str": 55,
+        "tac": 59,
+        "vis": 49
       },
       "birth": "2003-09-01",
       "contract": null,
@@ -575,10 +603,14 @@
       "name": "Omar El Hileli",
       "nation": "MAR",
       "number": 23,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 25000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 65,
@@ -586,7 +618,7 @@
         "ldr": 52,
         "pac": 63,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 59,
         "str": 59,
@@ -606,18 +638,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 55,
-        "dri": 47,
-        "ldr": 48,
-        "pac": 44,
+        "aer": 39,
+        "com": 56,
+        "dri": 51,
+        "ldr": 46,
+        "pac": 47,
         "pas": 55,
-        "pos": 52,
-        "sho": 43,
-        "sta": 54,
-        "str": 47,
-        "tac": 50,
-        "vis": 52
+        "pos": 37,
+        "sho": 49,
+        "sta": 48,
+        "str": 42,
+        "tac": 32,
+        "vis": 54
       },
       "birth": "2004-01-01",
       "contract": null,
@@ -627,7 +659,7 @@
       "name": "Javi Harnandez",
       "nation": "ESP",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 15000
     },
     {

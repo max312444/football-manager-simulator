@@ -99,13 +99,13 @@
       "attrs": {
         "aer": 56,
         "com": 78,
-        "dri": 64,
+        "dri": 80,
         "ldr": 81,
-        "pac": 51,
+        "pac": 67,
         "pas": 72,
         "pos": 76,
         "sho": 50,
-        "sta": 63,
+        "sta": 79,
         "str": 65,
         "tac": 70,
         "vis": 68
@@ -125,6 +125,9 @@
       "wage": 85500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -180,13 +183,13 @@
       "attrs": {
         "aer": 62,
         "com": 62,
-        "dri": 56,
+        "dri": 58,
         "ldr": 55,
-        "pac": 63,
-        "pas": 60,
+        "pac": 65,
+        "pas": 62,
         "pos": 66,
         "sho": 42,
-        "sta": 71,
+        "sta": 73,
         "str": 72,
         "tac": 68,
         "vis": 50
@@ -340,6 +343,10 @@
       "wage": 61500
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 72,
@@ -366,19 +373,23 @@
       "wage": 83500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 69,
-        "dri": 69,
+        "com": 80,
+        "dri": 80,
         "ldr": 59,
-        "pac": 58,
+        "pac": 69,
         "pas": 73,
         "pos": 67,
-        "sho": 61,
+        "sho": 72,
         "sta": 82,
         "str": 68,
         "tac": 65,
-        "vis": 69
+        "vis": 80
       },
       "birth": "1991-09-01",
       "contract": "2021-06-30",
@@ -388,23 +399,27 @@
       "name": "Davy Proppar",
       "nation": "NED",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 90000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 64,
-        "dri": 62,
+        "com": 70,
+        "dri": 68,
         "ldr": 59,
         "pac": 57,
-        "pas": 68,
+        "pas": 74,
         "pos": 66,
-        "sho": 52,
-        "sta": 75,
+        "sho": 58,
+        "sta": 81,
         "str": 66,
         "tac": 70,
-        "vis": 62
+        "vis": 68
       },
       "birth": "1988-05-01",
       "contract": "2019-06-30",
@@ -418,19 +433,22 @@
       "wage": 58000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 68,
-        "dri": 60,
+        "com": 70,
+        "dri": 62,
         "ldr": 66,
         "pac": 50,
-        "pas": 68,
+        "pas": 70,
         "pos": 64,
-        "sho": 60,
-        "sta": 68,
+        "sho": 62,
+        "sta": 70,
         "str": 64,
         "tac": 64,
-        "vis": 60
+        "vis": 62
       },
       "birth": "1982-12-01",
       "contract": "2018-06-30",
@@ -444,19 +462,23 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 72,
-        "dri": 70,
+        "com": 73,
+        "dri": 71,
         "ldr": 61,
-        "pac": 56,
+        "pac": 57,
         "pas": 80,
         "pos": 70,
-        "sho": 70,
+        "sho": 71,
         "sta": 76,
         "str": 56,
         "tac": 52,
-        "vis": 80
+        "vis": 81
       },
       "birth": "1991-06-01",
       "contract": "2020-06-30",
@@ -474,6 +496,10 @@
       "wage": 83500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 42,
         "com": 60,
@@ -496,10 +522,13 @@
       "name": "Solly Merch",
       "nation": "ENG",
       "number": 20,
-      "pos": "LM",
+      "pos": "RW",
       "wage": 46500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 39,
         "com": 65,
@@ -556,6 +585,9 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 65,
@@ -582,6 +614,11 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 54,
         "com": 65,
@@ -611,7 +648,7 @@
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 50,
@@ -635,7 +672,7 @@
       "name": "Jamie Morphy",
       "nation": "SCO",
       "number": 15,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 48000
     },
@@ -670,16 +707,16 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 70,
+        "aer": 60,
+        "com": 73,
         "dri": 66,
         "ldr": 60,
         "pac": 69,
         "pas": 60,
-        "pos": 47,
-        "sho": 71,
+        "pos": 50,
+        "sho": 74,
         "sta": 66,
-        "str": 63,
+        "str": 66,
         "tac": 39,
         "vis": 62
       },
@@ -696,16 +733,16 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 68,
+        "aer": 64,
+        "com": 69,
         "dri": 67,
         "ldr": 63,
         "pac": 70,
         "pas": 61,
-        "pos": 50,
-        "sho": 73,
+        "pos": 51,
+        "sho": 74,
         "sta": 66,
-        "str": 70,
+        "str": 71,
         "tac": 45,
         "vis": 63
       },

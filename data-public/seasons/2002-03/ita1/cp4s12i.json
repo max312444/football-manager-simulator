@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 79,
         "com": 80,
@@ -31,7 +34,7 @@
         "ldr": 71,
         "pac": 79,
         "pas": 68,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 72,
         "str": 75,
@@ -85,7 +88,7 @@
         "ldr": 68,
         "pac": 79,
         "pas": 66,
-        "pos": 54,
+        "pos": 74,
         "sho": 77,
         "sta": 70,
         "str": 76,
@@ -159,18 +162,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 71,
-        "dri": 75,
-        "ldr": 67,
-        "pac": 71,
+        "aer": 55,
+        "com": 72,
+        "dri": 79,
+        "ldr": 65,
+        "pac": 74,
         "pas": 78,
-        "pos": 74,
-        "sho": 65,
-        "sta": 73,
-        "str": 67,
-        "tac": 71,
-        "vis": 74
+        "pos": 59,
+        "sho": 71,
+        "sta": 67,
+        "str": 62,
+        "tac": 53,
+        "vis": 76
       },
       "birth": "1973-10-01",
       "contract": null,
@@ -180,24 +183,27 @@
       "name": "Fabian O'Naill",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 19000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 80,
-        "com": 75,
-        "dri": 59,
-        "ldr": 71,
-        "pac": 66,
-        "pas": 68,
-        "pos": 80,
-        "sho": 47,
-        "sta": 72,
-        "str": 77,
-        "tac": 80,
-        "vis": 62
+        "aer": 67,
+        "com": 73,
+        "dri": 69,
+        "ldr": 67,
+        "pac": 74,
+        "pas": 72,
+        "pos": 75,
+        "sho": 54,
+        "sta": 78,
+        "str": 69,
+        "tac": 77,
+        "vis": 68
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -207,23 +213,23 @@
       "name": "Ze Marie",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18000
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 72,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 68,
-        "pas": 74,
-        "pos": 68,
-        "sho": 65,
+        "dri": 63,
+        "ldr": 67,
+        "pac": 65,
+        "pas": 73,
+        "pos": 72,
+        "sho": 59,
         "sta": 75,
-        "str": 64,
-        "tac": 65,
-        "vis": 75
+        "str": 69,
+        "tac": 71,
+        "vis": 72
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -233,7 +239,7 @@
       "name": "Roberto Baronyo",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 15000
     },
@@ -260,7 +266,7 @@
       "name": "Fabio Grusso",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11000
     },
     {
@@ -271,7 +277,7 @@
         "ldr": 66,
         "pac": 69,
         "pas": 63,
-        "pos": 46,
+        "pos": 66,
         "sho": 71,
         "sta": 65,
         "str": 67,
@@ -298,7 +304,7 @@
         "ldr": 61,
         "pac": 66,
         "pas": 61,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 62,
         "str": 71,
@@ -324,7 +330,7 @@
         "ldr": 58,
         "pac": 69,
         "pas": 56,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 62,
         "str": 63,
@@ -351,7 +357,7 @@
         "ldr": 57,
         "pac": 68,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 66,
         "sta": 64,
         "str": 68,
@@ -373,17 +379,17 @@
     {
       "attrs": {
         "aer": 54,
-        "com": 62,
+        "com": 63,
         "dri": 61,
         "ldr": 62,
         "pac": 62,
-        "pas": 64,
+        "pas": 65,
         "pos": 65,
         "sho": 58,
         "sta": 70,
         "str": 57,
-        "tac": 60,
-        "vis": 63
+        "tac": 61,
+        "vis": 64
       },
       "birth": "1972-05-01",
       "contract": null,
@@ -404,7 +410,7 @@
         "ldr": 58,
         "pac": 61,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 67,
         "sta": 60,
         "str": 63,
@@ -431,7 +437,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 54,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 60,
         "str": 60,
@@ -451,6 +457,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 66,
@@ -478,9 +487,6 @@
       "wage": 6500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 65,
         "com": 63,
@@ -594,7 +600,7 @@
         "ldr": 54,
         "pac": 57,
         "pas": 54,
-        "pos": 41,
+        "pos": 61,
         "sho": 61,
         "sta": 58,
         "str": 61,
@@ -614,6 +620,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 57,
@@ -642,18 +651,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 58,
-        "dri": 42,
-        "ldr": 60,
-        "pac": 50,
-        "pas": 51,
-        "pos": 65,
-        "sho": 29,
-        "sta": 55,
-        "str": 58,
-        "tac": 64,
-        "vis": 47
+        "aer": 52,
+        "com": 56,
+        "dri": 52,
+        "ldr": 56,
+        "pac": 58,
+        "pas": 55,
+        "pos": 60,
+        "sho": 36,
+        "sta": 61,
+        "str": 50,
+        "tac": 61,
+        "vis": 53
       },
       "birth": "1979-06-01",
       "contract": null,
@@ -663,11 +672,14 @@
       "name": "Kostas Loubootis",
       "nation": "GRE",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -753,7 +765,7 @@
         "ldr": 49,
         "pac": 61,
         "pas": 52,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 53,
         "str": 60,
@@ -827,19 +839,24 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 56,
-        "dri": 55,
+        "dri": 60,
         "ldr": 50,
         "pac": 53,
-        "pas": 49,
-        "pos": 33,
+        "pas": 54,
+        "pos": 53,
         "sho": 59,
         "sta": 55,
         "str": 54,
         "tac": 24,
-        "vis": 50
+        "vis": 55
       },
       "birth": "1970-10-01",
       "contract": null,
@@ -849,24 +866,24 @@
       "name": "Antonio Cryniti",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 48,
+        "aer": 54,
         "com": 54,
-        "dri": 53,
-        "ldr": 52,
-        "pac": 48,
-        "pas": 56,
-        "pos": 53,
-        "sho": 51,
+        "dri": 49,
+        "ldr": 54,
+        "pac": 45,
+        "pas": 55,
+        "pos": 57,
+        "sho": 45,
         "sta": 57,
-        "str": 50,
-        "tac": 49,
-        "vis": 55
+        "str": 55,
+        "tac": 55,
+        "vis": 52
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -876,7 +893,7 @@
       "name": "Christian Obudo",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2500
     },
     {
@@ -887,7 +904,7 @@
         "ldr": 47,
         "pac": 57,
         "pas": 47,
-        "pos": 33,
+        "pos": 53,
         "sho": 61,
         "sta": 49,
         "str": 54,
@@ -906,6 +923,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,
@@ -934,18 +954,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 57,
-        "dri": 43,
-        "ldr": 52,
-        "pac": 48,
-        "pas": 45,
-        "pos": 59,
-        "sho": 27,
-        "sta": 52,
-        "str": 60,
-        "tac": 62,
-        "vis": 44
+        "aer": 43,
+        "com": 55,
+        "dri": 53,
+        "ldr": 48,
+        "pac": 56,
+        "pas": 49,
+        "pos": 54,
+        "sho": 34,
+        "sta": 58,
+        "str": 52,
+        "tac": 59,
+        "vis": 50
       },
       "birth": "1974-05-01",
       "contract": null,
@@ -955,7 +975,7 @@
       "name": "Hilario Laal",
       "nation": "POR",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2000
     },
@@ -987,6 +1007,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -1020,7 +1043,7 @@
         "ldr": 43,
         "pac": 48,
         "pas": 45,
-        "pos": 27,
+        "pos": 47,
         "sho": 53,
         "sta": 44,
         "str": 48,

@@ -51,6 +51,9 @@
       "wage": 181500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 72,
@@ -78,6 +81,9 @@
       "wage": 146500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 82,
         "com": 76,
@@ -130,6 +136,9 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -163,7 +172,7 @@
         "ldr": 75,
         "pac": 78,
         "pas": 71,
-        "pos": 54,
+        "pos": 74,
         "sho": 79,
         "sta": 71,
         "str": 80,
@@ -182,19 +191,23 @@
       "wage": 181500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 63,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 52,
-        "pos": 42,
-        "sho": 62,
-        "sta": 59,
-        "str": 62,
-        "tac": 33,
-        "vis": 56
+        "aer": 45,
+        "com": 60,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 58,
+        "pos": 44,
+        "sho": 57,
+        "sta": 61,
+        "str": 52,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "2002-11-01",
       "contract": null,
@@ -205,7 +218,7 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 32500
     },
     {
@@ -216,7 +229,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 59,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 67,
         "str": 70,
@@ -243,7 +256,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 71,
         "sta": 65,
         "str": 73,
@@ -263,18 +276,18 @@
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 66,
-        "dri": 55,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 59,
-        "pos": 70,
-        "sho": 43,
-        "sta": 65,
-        "str": 74,
-        "tac": 74,
-        "vis": 53
+        "aer": 62,
+        "com": 64,
+        "dri": 65,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 63,
+        "pos": 65,
+        "sho": 50,
+        "sta": 71,
+        "str": 66,
+        "tac": 71,
+        "vis": 59
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -285,23 +298,23 @@
       "name": "Rasmus Kristansen",
       "nation": "DEN",
       "number": 13,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 82500
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 77,
-        "dri": 73,
-        "ldr": 72,
-        "pac": 75,
-        "pas": 80,
-        "pos": 75,
-        "sho": 72,
+        "dri": 69,
+        "ldr": 74,
+        "pac": 72,
+        "pas": 79,
+        "pos": 79,
+        "sho": 66,
         "sta": 77,
-        "str": 72,
-        "tac": 72,
-        "vis": 77
+        "str": 77,
+        "tac": 78,
+        "vis": 74
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -312,10 +325,13 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 181500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -343,18 +359,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 79,
-        "dri": 75,
-        "ldr": 74,
-        "pac": 75,
-        "pas": 80,
-        "pos": 76,
-        "sho": 69,
+        "dri": 71,
+        "ldr": 76,
+        "pac": 72,
+        "pas": 79,
+        "pos": 80,
+        "sho": 63,
         "sta": 78,
-        "str": 71,
-        "tac": 74,
-        "vis": 80
+        "str": 76,
+        "tac": 80,
+        "vis": 77
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -365,27 +381,26 @@
       "nation": "SYR",
       "nation2": "GER",
       "number": 18,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 181500
     },
     {
       "alt": [
-        "LW",
-        "RW"
+        "AM"
       ],
       "attrs": {
-        "aer": 60,
-        "com": 61,
-        "dri": 59,
-        "ldr": 54,
-        "pac": 60,
-        "pas": 54,
-        "pos": 35,
-        "sho": 65,
-        "sta": 58,
-        "str": 62,
-        "tac": 29,
-        "vis": 51
+        "aer": 46,
+        "com": 58,
+        "dri": 64,
+        "ldr": 52,
+        "pac": 64,
+        "pas": 60,
+        "pos": 37,
+        "sho": 60,
+        "sta": 60,
+        "str": 52,
+        "tac": 35,
+        "vis": 57
       },
       "birth": "2005-05-01",
       "contract": null,
@@ -396,13 +411,10 @@
       "nation": "FRA",
       "nation2": "CMR",
       "number": 19,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 27000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 50,
         "com": 67,
@@ -431,18 +443,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 59,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 59,
-        "pas": 57,
-        "pos": 64,
-        "sho": 35,
-        "sta": 56,
-        "str": 63,
-        "tac": 66,
-        "vis": 49
+        "aer": 51,
+        "com": 57,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 67,
+        "pas": 61,
+        "pos": 59,
+        "sho": 42,
+        "sta": 62,
+        "str": 55,
+        "tac": 63,
+        "vis": 55
       },
       "birth": "2003-06-01",
       "contract": null,
@@ -452,7 +464,7 @@
       "name": "Nathaniel Bruwn",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 35000
     },
     {
@@ -483,6 +495,9 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 54,
@@ -509,19 +524,22 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 55,
-        "com": 61,
-        "dri": 61,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 68,
-        "pos": 59,
-        "sho": 59,
-        "sta": 63,
-        "str": 57,
-        "tac": 59,
-        "vis": 65
+        "aer": 49,
+        "com": 59,
+        "dri": 66,
+        "ldr": 54,
+        "pac": 65,
+        "pas": 64,
+        "pos": 41,
+        "sho": 63,
+        "sta": 59,
+        "str": 52,
+        "tac": 39,
+        "vis": 62
       },
       "birth": "2000-11-01",
       "contract": null,
@@ -532,23 +550,28 @@
       "nation": "FRA",
       "nation2": "CMR",
       "number": 26,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 53500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 81,
-        "dri": 81,
-        "ldr": 74,
-        "pac": 74,
+        "aer": 67,
+        "com": 82,
+        "dri": 85,
+        "ldr": 72,
+        "pac": 77,
         "pas": 83,
-        "pos": 79,
-        "sho": 75,
-        "sta": 85,
-        "str": 78,
-        "tac": 75,
-        "vis": 83
+        "pos": 64,
+        "sho": 81,
+        "sta": 79,
+        "str": 73,
+        "tac": 57,
+        "vis": 85
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -558,10 +581,13 @@
       "name": "Mario Gutze",
       "nation": "GER",
       "number": 27,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 181500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 51,
@@ -610,7 +636,7 @@
       "name": "Niels Nkounkuu",
       "nation": "FRA",
       "number": 29,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 37500
     },
     {
@@ -640,6 +666,9 @@
       "wage": 29500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 53,
@@ -692,19 +721,22 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 66,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 63,
-        "pas": 54,
-        "pos": 41,
-        "sho": 65,
-        "sta": 61,
-        "str": 59,
-        "tac": 35,
-        "vis": 56
+        "aer": 49,
+        "com": 63,
+        "dri": 64,
+        "ldr": 55,
+        "pac": 67,
+        "pas": 60,
+        "pos": 43,
+        "sho": 60,
+        "sta": 63,
+        "str": 49,
+        "tac": 41,
+        "vis": 62
       },
       "birth": "2002-01-01",
       "contract": null,
@@ -714,7 +746,7 @@
       "name": "Ansgar Knaoff",
       "nation": "GER",
       "number": 36,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 36000
     },
     {
@@ -745,6 +777,9 @@
       "wage": 109500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 49,
@@ -772,7 +807,9 @@
       "wage": 13000
     },
     {
-      "alt": [],
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 33,
         "com": 43,

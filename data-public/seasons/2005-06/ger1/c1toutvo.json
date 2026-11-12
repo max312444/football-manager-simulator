@@ -31,7 +31,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 70,
         "str": 78,
@@ -58,7 +58,7 @@
         "ldr": 65,
         "pac": 69,
         "pas": 60,
-        "pos": 49,
+        "pos": 69,
         "sho": 71,
         "sta": 66,
         "str": 70,
@@ -78,19 +78,23 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 70,
-        "dri": 69,
-        "ldr": 64,
-        "pac": 68,
-        "pas": 63,
-        "pos": 47,
-        "sho": 75,
-        "sta": 63,
-        "str": 69,
-        "tac": 38,
-        "vis": 62
+        "aer": 53,
+        "com": 67,
+        "dri": 74,
+        "ldr": 62,
+        "pac": 72,
+        "pas": 69,
+        "pos": 49,
+        "sho": 70,
+        "sta": 65,
+        "str": 59,
+        "tac": 44,
+        "vis": 68
       },
       "birth": "1976-04-01",
       "contract": null,
@@ -100,7 +104,7 @@
       "name": "Kai Mychalke",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "verify": true,
       "wage": 19500
     },
@@ -127,7 +131,7 @@
       "name": "Alexander Bugere",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 19000
     },
     {
@@ -138,7 +142,7 @@
         "ldr": 62,
         "pac": 70,
         "pas": 62,
-        "pos": 43,
+        "pos": 63,
         "sho": 71,
         "sta": 63,
         "str": 68,
@@ -210,6 +214,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -237,6 +244,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 66,
@@ -263,6 +273,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 61,
@@ -350,7 +363,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 66,
         "sta": 59,
         "str": 62,
@@ -370,6 +383,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -456,7 +472,7 @@
         "ldr": 54,
         "pac": 56,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 52,
         "str": 61,
@@ -529,6 +545,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -563,7 +582,7 @@
         "ldr": 55,
         "pac": 55,
         "pas": 49,
-        "pos": 38,
+        "pos": 58,
         "sho": 60,
         "sta": 52,
         "str": 55,
@@ -582,6 +601,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 54,
@@ -608,6 +630,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -635,6 +660,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 59,
@@ -662,6 +690,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,
@@ -688,6 +719,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -715,6 +749,9 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -742,22 +779,19 @@
       "wage": 6500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 55,
-        "com": 55,
-        "dri": 39,
+        "aer": 48,
+        "com": 57,
+        "dri": 47,
         "ldr": 50,
-        "pac": 50,
-        "pas": 46,
-        "pos": 61,
-        "sho": 25,
-        "sta": 51,
-        "str": 55,
-        "tac": 59,
-        "vis": 40
+        "pac": 48,
+        "pas": 55,
+        "pos": 60,
+        "sho": 40,
+        "sta": 57,
+        "str": 53,
+        "tac": 58,
+        "vis": 52
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -768,11 +802,16 @@
       "nation": "GER",
       "nation2": "POL",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,
@@ -806,7 +845,7 @@
         "ldr": 35,
         "pac": 43,
         "pas": 39,
-        "pos": 21,
+        "pos": 41,
         "sho": 44,
         "sta": 40,
         "str": 42,

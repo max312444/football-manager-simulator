@@ -24,6 +24,11 @@
   },
   "squad": [
     {
+      "alt": [
+        "LB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 64,
@@ -57,7 +62,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 69,
         "sta": 62,
         "str": 67,
@@ -84,7 +89,7 @@
         "ldr": 55,
         "pac": 58,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 59,
         "str": 63,
@@ -104,6 +109,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 62,
@@ -138,7 +146,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 50,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 54,
         "str": 61,
@@ -158,6 +166,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 57,
@@ -211,6 +222,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 61,
@@ -238,19 +252,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 55,
+        "com": 64,
         "dri": 44,
         "ldr": 59,
         "pac": 53,
-        "pas": 52,
+        "pas": 61,
         "pos": 60,
         "sho": 30,
-        "sta": 51,
+        "sta": 60,
         "str": 61,
         "tac": 58,
-        "vis": 43
+        "vis": 52
       },
       "birth": "1978-07-01",
       "contract": null,
@@ -261,7 +280,7 @@
       "nation": "NGA",
       "nation2": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -292,19 +311,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 60,
-        "dri": 56,
-        "ldr": 52,
-        "pac": 50,
-        "pas": 62,
-        "pos": 54,
-        "sho": 52,
+        "dri": 52,
+        "ldr": 54,
+        "pac": 47,
+        "pas": 61,
+        "pos": 58,
+        "sho": 46,
         "sta": 60,
-        "str": 51,
-        "tac": 53,
-        "vis": 57
+        "str": 56,
+        "tac": 59,
+        "vis": 54
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -314,23 +336,28 @@
       "name": "Ivica Majstoruvic",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
-        "com": 54,
+        "com": 63,
         "dri": 45,
         "ldr": 54,
         "pac": 49,
-        "pas": 49,
+        "pas": 58,
         "pos": 63,
         "sho": 30,
-        "sta": 53,
+        "sta": 62,
         "str": 60,
         "tac": 61,
-        "vis": 41
+        "vis": 50
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -340,7 +367,7 @@
       "name": "Carsten Strassar",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -372,18 +399,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 52,
-        "dri": 41,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 49,
-        "pos": 60,
-        "sho": 29,
-        "sta": 53,
-        "str": 56,
-        "tac": 58,
-        "vis": 43
+        "aer": 45,
+        "com": 50,
+        "dri": 51,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 53,
+        "pos": 55,
+        "sho": 36,
+        "sta": 59,
+        "str": 48,
+        "tac": 55,
+        "vis": 49
       },
       "birth": "1977-04-01",
       "contract": null,
@@ -393,7 +420,7 @@
       "name": "Bruno Custus",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 1500
     },
     {
@@ -430,7 +457,7 @@
         "ldr": 52,
         "pac": 55,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 56,
         "sta": 52,
         "str": 53,
@@ -456,7 +483,7 @@
         "ldr": 49,
         "pac": 52,
         "pas": 47,
-        "pos": 31,
+        "pos": 51,
         "sho": 56,
         "sta": 54,
         "str": 57,
@@ -476,6 +503,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 56,
@@ -509,7 +539,7 @@
         "ldr": 45,
         "pac": 54,
         "pas": 43,
-        "pos": 31,
+        "pos": 51,
         "sho": 54,
         "sta": 51,
         "str": 51,
@@ -582,18 +612,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 55,
-        "dri": 50,
-        "ldr": 48,
-        "pac": 50,
-        "pas": 55,
-        "pos": 54,
-        "sho": 45,
+        "dri": 46,
+        "ldr": 50,
+        "pac": 47,
+        "pas": 54,
+        "pos": 58,
+        "sho": 39,
         "sta": 57,
-        "str": 46,
-        "tac": 50,
-        "vis": 54
+        "str": 51,
+        "tac": 56,
+        "vis": 51
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -603,7 +633,7 @@
       "name": "Nicolas Faldhahn",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -668,7 +698,7 @@
         "ldr": 45,
         "pac": 50,
         "pas": 46,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 49,
         "str": 48,
@@ -689,18 +719,18 @@
     },
     {
       "attrs": {
-        "aer": 36,
-        "com": 50,
+        "aer": 44,
+        "com": 51,
         "dri": 42,
-        "ldr": 41,
-        "pac": 39,
-        "pas": 48,
+        "ldr": 39,
+        "pac": 44,
+        "pas": 38,
         "pos": 46,
-        "sho": 43,
-        "sta": 51,
-        "str": 40,
-        "tac": 40,
-        "vis": 48
+        "sho": 52,
+        "sta": 45,
+        "str": 45,
+        "tac": 14,
+        "vis": 39
       },
       "birth": "1987-03-01",
       "contract": null,
@@ -711,7 +741,7 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 1000
     },
@@ -750,7 +780,7 @@
         "ldr": 40,
         "pac": 49,
         "pas": 36,
-        "pos": 23,
+        "pos": 43,
         "sho": 49,
         "sta": 43,
         "str": 48,

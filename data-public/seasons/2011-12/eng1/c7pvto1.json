@@ -129,20 +129,22 @@
     },
     {
       "alt": [
-        "LM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
         "aer": 56,
         "com": 64,
         "dri": 72,
         "ldr": 56,
-        "pac": 78,
+        "pac": 82,
         "pas": 70,
-        "pos": 60,
+        "pos": 64,
         "sho": 66,
         "sta": 76,
-        "str": 66,
-        "tac": 66,
+        "str": 70,
+        "tac": 70,
         "vis": 64
       },
       "birth": "1984-10-01",
@@ -217,9 +219,6 @@
       "wage": 48500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 66,
@@ -250,18 +249,20 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 52,
         "com": 70,
-        "dri": 70,
+        "dri": 72,
         "ldr": 58,
-        "pac": 66,
+        "pac": 68,
         "pas": 76,
         "pos": 60,
-        "sho": 72,
-        "sta": 80,
+        "sho": 74,
+        "sta": 82,
         "str": 62,
         "tac": 60,
         "vis": 72
@@ -281,19 +282,23 @@
       "wage": 60000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 62,
+        "com": 66,
         "dri": 64,
         "ldr": 56,
         "pac": 64,
-        "pas": 68,
+        "pas": 72,
         "pos": 62,
         "sho": 70,
         "sta": 78,
         "str": 70,
-        "tac": 66,
-        "vis": 62
+        "tac": 70,
+        "vis": 66
       },
       "birth": "1986-11-01",
       "contract": "2015-06-30",
@@ -310,6 +315,10 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 70,
         "com": 54,
@@ -332,24 +341,24 @@
       "name": "Connor Wyckham",
       "nation": "ENG",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 21000
     },
     {
       "attrs": {
         "aer": 50,
-        "com": 62,
+        "com": 65,
         "dri": 66,
         "ldr": 50,
         "pac": 64,
-        "pas": 70,
-        "pos": 62,
+        "pas": 71,
+        "pos": 65,
         "sho": 54,
         "sta": 78,
-        "str": 60,
-        "tac": 66,
-        "vis": 64
+        "str": 63,
+        "tac": 69,
+        "vis": 65
       },
       "birth": "1989-10-01",
       "contract": "2014-06-30",
@@ -359,11 +368,14 @@
       "name": "Jack Colbeck",
       "nation": "ENG",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 68,
@@ -392,7 +404,9 @@
     },
     {
       "alt": [
-        "RB"
+        "DM",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 76,
@@ -421,16 +435,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 56,
+        "aer": 71,
+        "com": 61,
         "dri": 64,
         "ldr": 40,
         "pac": 66,
         "pas": 60,
-        "pos": 38,
-        "sho": 62,
+        "pos": 43,
+        "sho": 67,
         "sta": 66,
-        "str": 68,
+        "str": 73,
         "tac": 30,
         "vis": 56
       },
@@ -448,16 +462,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 60,
+        "aer": 65,
+        "com": 67,
         "dri": 68,
         "ldr": 46,
         "pac": 76,
         "pas": 58,
-        "pos": 38,
-        "sho": 68,
+        "pos": 45,
+        "sho": 75,
         "sta": 70,
-        "str": 70,
+        "str": 77,
         "tac": 32,
         "vis": 54
       },
@@ -502,7 +516,7 @@
       "name": "James McClaan",
       "nation": "IRL",
       "number": 23,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 26500
     },
@@ -534,19 +548,23 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 56,
-        "dri": 58,
+        "com": 64,
+        "dri": 65,
         "ldr": 50,
         "pac": 62,
-        "pas": 62,
+        "pas": 70,
         "pos": 60,
-        "sho": 52,
-        "sta": 74,
+        "sho": 59,
+        "sta": 75,
         "str": 70,
-        "tac": 66,
-        "vis": 56
+        "tac": 67,
+        "vis": 64
       },
       "birth": "1989-05-01",
       "contract": "2014-06-30",
@@ -561,21 +579,18 @@
       "wage": 30500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 54,
         "com": 60,
         "dri": 68,
         "ldr": 50,
-        "pac": 76,
+        "pac": 83,
         "pas": 68,
-        "pos": 54,
+        "pos": 61,
         "sho": 58,
         "sta": 82,
-        "str": 70,
-        "tac": 54,
+        "str": 77,
+        "tac": 61,
         "vis": 60
       },
       "birth": "1987-09-01",
@@ -586,27 +601,28 @@
       "name": "Ahmed Elmohemady",
       "nation": "EGY",
       "number": 27,
-      "pos": "RM",
+      "pos": "RB",
       "verify": true,
       "wage": 39500
     },
     {
       "alt": [
-        "LW"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 40,
-        "com": 72,
+        "com": 79,
         "dri": 84,
         "ldr": 56,
         "pac": 80,
-        "pas": 74,
+        "pas": 81,
         "pos": 46,
-        "sho": 72,
+        "sho": 79,
         "sta": 76,
         "str": 62,
         "tac": 40,
-        "vis": 76
+        "vis": 83
       },
       "birth": "1984-06-01",
       "contract": "2014-06-30",

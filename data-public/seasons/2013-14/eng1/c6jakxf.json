@@ -71,16 +71,20 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 67,
-        "dri": 60,
+        "dri": 61,
         "ldr": 57,
-        "pac": 70,
-        "pas": 65,
+        "pac": 71,
+        "pas": 66,
         "pos": 71,
         "sho": 46,
-        "sta": 77,
+        "sta": 78,
         "str": 74,
         "tac": 75,
         "vis": 57
@@ -127,17 +131,17 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 61,
+        "aer": 63,
+        "com": 64,
         "dri": 60,
         "ldr": 47,
         "pac": 64,
         "pas": 64,
-        "pos": 64,
+        "pos": 67,
         "sho": 40,
         "sta": 68,
-        "str": 64,
-        "tac": 68,
+        "str": 67,
+        "tac": 71,
         "vis": 56
       },
       "birth": "1992-03-01",
@@ -207,17 +211,17 @@
     {
       "attrs": {
         "aer": 58,
-        "com": 59,
+        "com": 62,
         "dri": 60,
         "ldr": 57,
         "pac": 65,
-        "pas": 62,
-        "pos": 69,
+        "pas": 65,
+        "pos": 72,
         "sho": 47,
         "sta": 79,
-        "str": 75,
-        "tac": 75,
-        "vis": 54
+        "str": 78,
+        "tac": 78,
+        "vis": 57
       },
       "birth": "1984-07-01",
       "contract": "2014-06-30",
@@ -258,16 +262,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 68,
+        "aer": 74,
+        "com": 77,
         "dri": 79,
         "ldr": 53,
         "pac": 81,
         "pas": 69,
-        "pos": 47,
-        "sho": 73,
+        "pos": 56,
+        "sho": 82,
         "sta": 75,
-        "str": 80,
+        "str": 89,
         "tac": 39,
         "vis": 67
       },
@@ -279,23 +283,25 @@
       "name": "Marko Arnautuvic",
       "nation": "AUT",
       "number": 10,
-      "pos": "LW",
+      "pos": "ST",
       "wage": 63500
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB",
+        "CM"
       ],
       "attrs": {
         "aer": 70,
         "com": 65,
-        "dri": 57,
+        "dri": 62,
         "ldr": 57,
-        "pac": 63,
-        "pas": 63,
+        "pac": 68,
+        "pas": 68,
         "pos": 69,
         "sho": 45,
-        "sta": 74,
+        "sta": 79,
         "str": 76,
         "tac": 72,
         "vis": 55
@@ -321,13 +327,13 @@
         "dri": 66,
         "ldr": 40,
         "pac": 76,
-        "pas": 58,
+        "pas": 63,
         "pos": 44,
         "sho": 58,
-        "sta": 70,
+        "sta": 75,
         "str": 70,
-        "tac": 40,
-        "vis": 52
+        "tac": 45,
+        "vis": 57
       },
       "birth": "1990-02-01",
       "contract": "2016-06-30",
@@ -337,7 +343,7 @@
       "name": "Brek Shaa",
       "nation": "USA",
       "number": 11,
-      "pos": "LW",
+      "pos": "LM",
       "wage": 21000
     },
     {
@@ -363,10 +369,13 @@
       "name": "Steven Nzunzi",
       "nation": "FRA",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 87000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 72,
@@ -426,9 +435,6 @@
       "wage": 71500
     },
     {
-      "alt": [
-        "RM"
-      ],
       "attrs": {
         "aer": 78,
         "com": 70,
@@ -458,9 +464,6 @@
       "wage": 87000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 76,
         "com": 68,
@@ -487,6 +490,9 @@
       "wage": 68000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 34,
         "com": 57,
@@ -567,20 +573,20 @@
       "name": "Matthew Etharington",
       "nation": "ENG",
       "number": 26,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 28000
     },
     {
       "attrs": {
         "aer": 62,
         "com": 58,
-        "dri": 51,
+        "dri": 54,
         "ldr": 54,
-        "pac": 64,
-        "pas": 54,
+        "pac": 67,
+        "pas": 57,
         "pos": 66,
         "sho": 36,
-        "sta": 72,
+        "sta": 75,
         "str": 72,
         "tac": 71,
         "vis": 46
@@ -598,7 +604,7 @@
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 39,
@@ -628,6 +634,7 @@
     {
       "alt": [
         "CM",
+        "AM",
         "CB"
       ],
       "attrs": {
@@ -656,19 +663,23 @@
       "wage": 55500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
-        "com": 56,
+        "com": 57,
         "dri": 58,
         "ldr": 42,
         "pac": 58,
-        "pas": 62,
+        "pas": 63,
         "pos": 54,
         "sho": 52,
         "sta": 66,
         "str": 54,
-        "tac": 56,
-        "vis": 60
+        "tac": 57,
+        "vis": 61
       },
       "birth": "1991-03-01",
       "contract": "2014-06-30",

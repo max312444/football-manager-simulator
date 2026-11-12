@@ -59,7 +59,7 @@ describe('문자 중계', () => {
     const mm = createMatch({ home: LIV, away: opp, homeLineup: rh.lineup, awayLineup: ra.lineup, homeTactics: rh.tactics, awayTactics: ra.tactics, maxSubs: 5, commentary: true }, { players: w.players, rng: createRng(5) });
     const ctx = { players: w.players, rng: createRng(6) };
     for (let i = 0; i < 12; i++) step(mm, ctx);
-    setTactics(mm, 'home', { mentality: 2 });
+    setTactics(mm, 'home', { mentality: mm.home.tactics.mentality === 2 ? -1 : 2 });   // 지금과 다른 성향으로
     step(mm, ctx);
     expect(mm.cm!.feed.some((l) => l.kind === 'tactic')).toBe(true);
   });

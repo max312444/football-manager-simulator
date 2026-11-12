@@ -70,6 +70,10 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -153,7 +157,8 @@
     {
       "alt": [
         "RB",
-        "DM"
+        "LB",
+        "CM"
       ],
       "attrs": {
         "aer": 76,
@@ -181,6 +186,9 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 81,
@@ -238,8 +246,8 @@
     },
     {
       "alt": [
-        "RM",
-        "ST"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 45,
@@ -268,7 +276,7 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
         "aer": 38,
@@ -292,10 +300,13 @@
       "name": "Seol Ki-hyaon",
       "nation": "KOR",
       "number": 7,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 81,
@@ -327,16 +338,16 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 80,
+        "aer": 71,
+        "com": 82,
         "dri": 70,
         "ldr": 65,
         "pac": 86,
         "pas": 65,
-        "pos": 42,
-        "sho": 83,
+        "pos": 44,
+        "sho": 85,
         "sta": 70,
-        "str": 74,
+        "str": 76,
         "tac": 34,
         "vis": 63
       },
@@ -352,21 +363,18 @@
       "wage": 48000
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
-        "aer": 52,
-        "com": 64,
+        "aer": 57,
+        "com": 69,
         "dri": 55,
         "ldr": 58,
         "pac": 64,
         "pas": 57,
-        "pos": 63,
+        "pos": 68,
         "sho": 40,
         "sta": 67,
-        "str": 53,
-        "tac": 66,
+        "str": 58,
+        "tac": 71,
         "vis": 49
       },
       "birth": "1978-08-01",
@@ -377,7 +385,7 @@
       "name": "Toni Kellio",
       "nation": "FIN",
       "number": 33,
-      "pos": "LB",
+      "pos": "CB",
       "wage": 16500
     },
     {
@@ -407,9 +415,6 @@
       "wage": 15000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 81,
         "com": 76,
@@ -436,9 +441,6 @@
       "wage": 60500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 63,
         "com": 68,
@@ -467,7 +469,8 @@
     {
       "alt": [
         "ST",
-        "RM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 42,
@@ -495,6 +498,11 @@
       "wage": 31500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 42,
         "com": 66,
@@ -522,16 +530,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 72,
+        "aer": 67,
+        "com": 73,
         "dri": 66,
         "ldr": 64,
         "pac": 71,
         "pas": 60,
-        "pos": 35,
-        "sho": 79,
+        "pos": 36,
+        "sho": 80,
         "sta": 62,
-        "str": 69,
+        "str": 70,
         "tac": 28,
         "vis": 61
       },
@@ -547,6 +555,10 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -574,7 +586,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 45,
@@ -598,7 +610,7 @@
       "name": "Simon Devies",
       "nation": "WAL",
       "number": 25,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 30000
     },
     {
@@ -607,17 +619,17 @@
       ],
       "attrs": {
         "aer": 58,
-        "com": 64,
-        "dri": 66,
+        "com": 72,
+        "dri": 68,
         "ldr": 56,
         "pac": 69,
-        "pas": 68,
+        "pas": 76,
         "pos": 66,
-        "sho": 64,
+        "sho": 66,
         "sta": 83,
         "str": 67,
-        "tac": 70,
-        "vis": 62
+        "tac": 76,
+        "vis": 70
       },
       "birth": "1983-03-01",
       "contract": "2011-06-30",
@@ -657,9 +669,6 @@
       "wage": 20000
     },
     {
-      "alt": [
-        "LW"
-      ],
       "attrs": {
         "aer": 47,
         "com": 56,
@@ -683,7 +692,7 @@
       "name": "Julian Grey",
       "nation": "ENG",
       "number": 17,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 16500
     }
   ],

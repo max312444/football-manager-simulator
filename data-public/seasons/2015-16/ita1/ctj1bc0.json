@@ -77,6 +77,11 @@
       "wage": 42000
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 58,
@@ -103,22 +108,19 @@
       "wage": 8500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 76,
-        "com": 74,
-        "dri": 61,
-        "ldr": 76,
-        "pac": 68,
-        "pas": 69,
-        "pos": 81,
-        "sho": 46,
-        "sta": 71,
-        "str": 79,
-        "tac": 80,
-        "vis": 59
+        "aer": 63,
+        "com": 72,
+        "dri": 71,
+        "ldr": 72,
+        "pac": 76,
+        "pas": 73,
+        "pos": 76,
+        "sho": 53,
+        "sta": 77,
+        "str": 71,
+        "tac": 77,
+        "vis": 65
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -128,7 +130,7 @@
       "name": "Edson Braefheid",
       "nation": "NED",
       "number": 5,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 40000
     },
     {
@@ -158,6 +160,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 71,
@@ -185,6 +190,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 62,
         "com": 72,
@@ -218,7 +226,7 @@
         "ldr": 71,
         "pac": 76,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 70,
         "str": 75,
@@ -237,20 +245,23 @@
       "wage": 40000
     },
     {
-      "alt": [],
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 66,
-        "dri": 64,
-        "ldr": 67,
-        "pac": 62,
+        "aer": 50,
+        "com": 67,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 65,
         "pas": 68,
-        "pos": 68,
-        "sho": 61,
-        "sta": 70,
-        "str": 62,
-        "tac": 62,
-        "vis": 72
+        "pos": 53,
+        "sho": 67,
+        "sta": 64,
+        "str": 57,
+        "tac": 44,
+        "vis": 74
       },
       "birth": "1993-04-01",
       "contract": null,
@@ -260,7 +271,7 @@
       "name": "Felipe Andarson",
       "nation": "BRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 22000
     },
     {
@@ -271,7 +282,7 @@
         "ldr": 68,
         "pac": 77,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 81,
         "sta": 69,
         "str": 78,
@@ -317,19 +328,23 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 64,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 60,
-        "pas": 58,
-        "pos": 44,
-        "sho": 66,
-        "sta": 61,
-        "str": 61,
-        "tac": 31,
-        "vis": 57
+        "aer": 48,
+        "com": 61,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 64,
+        "pas": 64,
+        "pos": 46,
+        "sho": 61,
+        "sta": 63,
+        "str": 51,
+        "tac": 37,
+        "vis": 63
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -340,10 +355,13 @@
       "nation": "SEN",
       "nation2": "ESP",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 78,
@@ -370,19 +388,23 @@
       "wage": 59500
     },
     {
+      "alt": [
+        "LW",
+        "LB"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 69,
-        "dri": 70,
-        "ldr": 70,
-        "pac": 63,
-        "pas": 71,
-        "pos": 66,
-        "sho": 62,
-        "sta": 72,
-        "str": 68,
-        "tac": 69,
-        "vis": 71
+        "aer": 57,
+        "com": 67,
+        "dri": 73,
+        "ldr": 68,
+        "pac": 71,
+        "pas": 70,
+        "pos": 58,
+        "sho": 60,
+        "sta": 74,
+        "str": 65,
+        "tac": 62,
+        "vis": 69
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -392,23 +414,23 @@
       "name": "Senad Lolic",
       "nation": "BIH",
       "number": 19,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 30500
     },
     {
       "attrs": {
-        "aer": 72,
+        "aer": 78,
         "com": 83,
-        "dri": 80,
-        "ldr": 78,
-        "pac": 73,
-        "pas": 83,
-        "pos": 77,
-        "sho": 73,
+        "dri": 76,
+        "ldr": 80,
+        "pac": 70,
+        "pas": 82,
+        "pos": 81,
+        "sho": 67,
         "sta": 82,
-        "str": 74,
-        "tac": 77,
-        "vis": 78
+        "str": 79,
+        "tac": 83,
+        "vis": 75
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -418,10 +440,13 @@
       "name": "Lucas Biglie",
       "nation": "ARG",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 59500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -474,6 +499,9 @@
       "wage": 38500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 71,
@@ -500,6 +528,10 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 74,
@@ -526,19 +558,23 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 65,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 63,
-        "pas": 65,
-        "pos": 62,
-        "sho": 60,
+        "dri": 59,
+        "ldr": 63,
+        "pac": 60,
+        "pas": 64,
+        "pos": 66,
+        "sho": 54,
         "sta": 68,
-        "str": 60,
-        "tac": 59,
-        "vis": 67
+        "str": 65,
+        "tac": 65,
+        "vis": 64
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -548,7 +584,7 @@
       "name": "Danilo Cataldy",
       "nation": "ITA",
       "number": 32,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 16500
     },
     {
@@ -578,19 +614,23 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 58,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 58,
+        "aer": 45,
+        "com": 59,
+        "dri": 66,
+        "ldr": 56,
+        "pac": 61,
         "pas": 65,
-        "pos": 61,
-        "sho": 58,
-        "sta": 63,
-        "str": 53,
-        "tac": 58,
-        "vis": 64
+        "pos": 46,
+        "sho": 64,
+        "sta": 57,
+        "str": 48,
+        "tac": 40,
+        "vis": 66
       },
       "birth": "1995-05-01",
       "contract": null,
@@ -600,23 +640,26 @@
       "name": "Chris Ikonomydis",
       "nation": "AUS",
       "number": 70,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 80,
-        "dri": 79,
-        "ldr": 77,
-        "pac": 71,
-        "pas": 78,
-        "pos": 76,
-        "sho": 76,
-        "sta": 83,
-        "str": 76,
-        "tac": 77,
-        "vis": 81
+        "aer": 65,
+        "com": 78,
+        "dri": 82,
+        "ldr": 75,
+        "pac": 79,
+        "pas": 77,
+        "pos": 68,
+        "sho": 74,
+        "sta": 85,
+        "str": 73,
+        "tac": 70,
+        "vis": 79
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -626,10 +669,13 @@
       "name": "Antonio Candrava",
       "nation": "ITA",
       "number": 87,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 59500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 58,
         "com": 63,
@@ -637,7 +683,7 @@
         "ldr": 52,
         "pac": 61,
         "pas": 51,
-        "pos": 36,
+        "pos": 56,
         "sho": 64,
         "sta": 52,
         "str": 59,
@@ -683,18 +729,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 68,
-        "dri": 70,
-        "ldr": 62,
-        "pac": 67,
+        "aer": 52,
+        "com": 69,
+        "dri": 74,
+        "ldr": 60,
+        "pac": 70,
         "pas": 72,
-        "pos": 64,
-        "sho": 61,
-        "sta": 71,
-        "str": 62,
-        "tac": 67,
-        "vis": 70
+        "pos": 49,
+        "sho": 67,
+        "sta": 65,
+        "str": 57,
+        "tac": 49,
+        "vis": 72
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -704,7 +750,7 @@
       "name": "Stefano Maury",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 25500
     }
   ],

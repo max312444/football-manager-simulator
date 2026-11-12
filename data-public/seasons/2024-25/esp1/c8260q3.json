@@ -51,6 +51,10 @@
       "wage": 93000
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 76,
@@ -103,6 +107,9 @@
       "wage": 125000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -190,7 +197,7 @@
         "ldr": 62,
         "pac": 70,
         "pas": 63,
-        "pos": 47,
+        "pos": 67,
         "sho": 73,
         "sta": 66,
         "str": 73,
@@ -216,7 +223,7 @@
         "ldr": 63,
         "pac": 64,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 62,
         "str": 68,
@@ -243,7 +250,7 @@
         "ldr": 64,
         "pac": 67,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 71,
         "sta": 65,
         "str": 64,
@@ -263,18 +270,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 73,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 69,
-        "pas": 61,
-        "pos": 47,
-        "sho": 75,
-        "sta": 68,
-        "str": 73,
-        "tac": 40,
-        "vis": 67
+        "aer": 55,
+        "com": 70,
+        "dri": 75,
+        "ldr": 64,
+        "pac": 73,
+        "pas": 67,
+        "pos": 49,
+        "sho": 70,
+        "sta": 70,
+        "str": 63,
+        "tac": 46,
+        "vis": 73
       },
       "birth": "2001-12-01",
       "contract": null,
@@ -285,23 +292,27 @@
       "nation": "MAR",
       "nation2": "ESP",
       "number": 10,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 59500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 77,
-        "dri": 75,
-        "ldr": 70,
-        "pac": 73,
-        "pas": 68,
-        "pos": 57,
-        "sho": 78,
-        "sta": 69,
-        "str": 76,
-        "tac": 48,
-        "vis": 71
+        "aer": 62,
+        "com": 74,
+        "dri": 80,
+        "ldr": 68,
+        "pac": 77,
+        "pas": 74,
+        "pos": 59,
+        "sho": 73,
+        "sta": 71,
+        "str": 66,
+        "tac": 54,
+        "vis": 77
       },
       "birth": "1991-04-01",
       "contract": null,
@@ -312,7 +323,7 @@
       "nation": "COD",
       "nation2": "FRA",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 104500
     },
     {
@@ -338,7 +349,7 @@
       "name": "Ricardo Rudriguez",
       "nation": "SUI",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 157000
     },
     {
@@ -369,18 +380,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 79,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 72,
-        "pas": 79,
-        "pos": 73,
-        "sho": 73,
+        "dri": 71,
+        "ldr": 74,
+        "pac": 69,
+        "pas": 78,
+        "pos": 77,
+        "sho": 67,
         "sta": 81,
-        "str": 71,
-        "tac": 72,
-        "vis": 82
+        "str": 76,
+        "tac": 78,
+        "vis": 79
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -391,23 +402,23 @@
       "nation": "POR",
       "nation2": "ANG",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 169500
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 65,
-        "dri": 54,
-        "ldr": 65,
-        "pac": 63,
-        "pas": 62,
-        "pos": 68,
-        "sho": 38,
-        "sta": 63,
-        "str": 72,
-        "tac": 70,
-        "vis": 51
+        "aer": 57,
+        "com": 63,
+        "dri": 64,
+        "ldr": 61,
+        "pac": 71,
+        "pas": 66,
+        "pos": 63,
+        "sho": 45,
+        "sta": 69,
+        "str": 64,
+        "tac": 67,
+        "vis": 57
       },
       "birth": "1997-09-01",
       "contract": null,
@@ -417,23 +428,23 @@
       "name": "Romain Perraod",
       "nation": "FRA",
       "number": 15,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 42000
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 60,
-        "dri": 58,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 61,
-        "pos": 62,
-        "sho": 53,
+        "dri": 54,
+        "ldr": 60,
+        "pac": 50,
+        "pas": 60,
+        "pos": 66,
+        "sho": 47,
         "sta": 62,
-        "str": 53,
-        "tac": 54,
-        "vis": 61
+        "str": 58,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "2001-08-01",
       "contract": null,
@@ -443,23 +454,23 @@
       "name": "Sergi Altimyra",
       "nation": "ESP",
       "number": 16,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 25500
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 69,
-        "dri": 69,
-        "ldr": 68,
-        "pac": 61,
+        "aer": 53,
+        "com": 70,
+        "dri": 73,
+        "ldr": 66,
+        "pac": 64,
         "pas": 72,
-        "pos": 66,
-        "sho": 66,
-        "sta": 70,
-        "str": 62,
-        "tac": 67,
-        "vis": 72
+        "pos": 51,
+        "sho": 72,
+        "sta": 64,
+        "str": 57,
+        "tac": 49,
+        "vis": 74
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -469,23 +480,23 @@
       "name": "Rudri",
       "nation": "ESP",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 73500
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 71,
-        "dri": 66,
-        "ldr": 68,
-        "pac": 67,
+        "aer": 57,
+        "com": 72,
+        "dri": 70,
+        "ldr": 66,
+        "pac": 70,
         "pas": 72,
-        "pos": 70,
-        "sho": 67,
-        "sta": 74,
-        "str": 66,
-        "tac": 69,
-        "vis": 71
+        "pos": 55,
+        "sho": 73,
+        "sta": 68,
+        "str": 61,
+        "tac": 51,
+        "vis": 73
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -495,7 +506,7 @@
       "name": "Pablo Furnals",
       "nation": "ESP",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 91500
     },
     {
@@ -506,7 +517,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 61,
-        "pos": 42,
+        "pos": 62,
         "sho": 70,
         "sta": 62,
         "str": 68,
@@ -526,18 +537,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 83,
-        "dri": 78,
-        "ldr": 73,
-        "pac": 78,
+        "aer": 67,
+        "com": 84,
+        "dri": 82,
+        "ldr": 71,
+        "pac": 81,
         "pas": 85,
-        "pos": 81,
-        "sho": 74,
-        "sta": 79,
-        "str": 77,
-        "tac": 74,
-        "vis": 82
+        "pos": 66,
+        "sho": 80,
+        "sta": 73,
+        "str": 72,
+        "tac": 56,
+        "vis": 84
       },
       "birth": "1996-04-01",
       "contract": null,
@@ -548,23 +559,23 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 169500
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 73,
-        "dri": 69,
-        "ldr": 73,
-        "pac": 70,
-        "pas": 79,
-        "pos": 75,
-        "sho": 70,
+        "dri": 65,
+        "ldr": 75,
+        "pac": 67,
+        "pas": 78,
+        "pos": 79,
+        "sho": 64,
         "sta": 74,
-        "str": 69,
-        "tac": 69,
-        "vis": 77
+        "str": 74,
+        "tac": 75,
+        "vis": 74
       },
       "birth": "1996-11-01",
       "contract": null,
@@ -574,23 +585,27 @@
       "name": "Marc Roce",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 128500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 82,
-        "dri": 77,
-        "ldr": 73,
-        "pac": 74,
+        "aer": 62,
+        "com": 83,
+        "dri": 81,
+        "ldr": 71,
+        "pac": 77,
         "pas": 85,
-        "pos": 78,
-        "sho": 73,
-        "sta": 81,
-        "str": 75,
-        "tac": 77,
-        "vis": 82
+        "pos": 63,
+        "sho": 79,
+        "sta": 75,
+        "str": 70,
+        "tac": 59,
+        "vis": 84
       },
       "birth": "1992-04-01",
       "contract": null,
@@ -600,7 +615,7 @@
       "name": "Iscu",
       "nation": "ESP",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 169500
     },
     {
@@ -632,7 +647,8 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 57,
@@ -687,18 +703,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 63,
-        "pos": 59,
-        "sho": 55,
-        "sta": 64,
-        "str": 56,
-        "tac": 56,
-        "vis": 62
+        "aer": 44,
+        "com": 58,
+        "dri": 62,
+        "ldr": 49,
+        "pac": 61,
+        "pas": 59,
+        "pos": 41,
+        "sho": 59,
+        "sta": 60,
+        "str": 51,
+        "tac": 36,
+        "vis": 59
       },
       "birth": "2005-09-01",
       "contract": null,
@@ -709,7 +725,7 @@
       "nation": "ESP",
       "nation2": "SEN",
       "number": 38,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 25000
     }
   ],

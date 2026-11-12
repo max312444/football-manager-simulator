@@ -24,19 +24,22 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
-        "com": 76,
-        "dri": 77,
+        "com": 78,
+        "dri": 79,
         "ldr": 73,
         "pac": 75,
-        "pas": 79,
+        "pas": 81,
         "pos": 79,
-        "sho": 72,
-        "sta": 81,
+        "sho": 74,
+        "sta": 83,
         "str": 77,
         "tac": 78,
-        "vis": 78
+        "vis": 80
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -57,7 +60,7 @@
         "ldr": 71,
         "pac": 82,
         "pas": 70,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 72,
         "str": 82,
@@ -77,21 +80,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
-        "aer": 61,
-        "com": 81,
-        "dri": 82,
+        "aer": 63,
+        "com": 78,
+        "dri": 81,
         "ldr": 70,
-        "pac": 78,
-        "pas": 82,
-        "pos": 59,
-        "sho": 75,
-        "sta": 72,
-        "str": 69,
-        "tac": 53,
-        "vis": 78
+        "pac": 83,
+        "pas": 84,
+        "pos": 66,
+        "sho": 67,
+        "sta": 83,
+        "str": 71,
+        "tac": 67,
+        "vis": 77
       },
       "birth": "1973-11-01",
       "contract": null,
@@ -101,7 +106,7 @@
       "name": "Bernd Schnaider",
       "nation": "GER",
       "number": null,
-      "pos": "AM",
+      "pos": "RM",
       "wage": 38500
     },
     {
@@ -157,6 +162,11 @@
       "wage": 43000
     },
     {
+      "alt": [
+        "LWB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 79,
@@ -185,19 +195,22 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 79,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 74,
-        "pas": 77,
-        "pos": 76,
-        "sho": 74,
+        "dri": 72,
+        "ldr": 76,
+        "pac": 71,
+        "pas": 76,
+        "pos": 80,
+        "sho": 68,
         "sta": 79,
-        "str": 72,
-        "tac": 76,
-        "vis": 81
+        "str": 77,
+        "tac": 82,
+        "vis": 78
       },
       "birth": "1974-03-01",
       "contract": "2008-08-01",
@@ -207,7 +220,7 @@
       "name": "Carsten Ramalow",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 48000
     },
     {
@@ -238,19 +251,22 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 79,
-        "com": 73,
-        "dri": 58,
-        "ldr": 71,
-        "pac": 68,
-        "pas": 65,
-        "pos": 78,
-        "sho": 47,
-        "sta": 67,
-        "str": 75,
-        "tac": 76,
-        "vis": 57
+        "aer": 66,
+        "com": 71,
+        "dri": 68,
+        "ldr": 67,
+        "pac": 76,
+        "pas": 69,
+        "pos": 73,
+        "sho": 54,
+        "sta": 73,
+        "str": 67,
+        "tac": 73,
+        "vis": 63
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -260,23 +276,28 @@
       "name": "Boris Zivkuvic",
       "nation": "CRO",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 25000
     },
     {
+      "alt": [
+        "LWB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
-        "dri": 69,
+        "dri": 71,
         "ldr": 68,
-        "pac": 75,
-        "pas": 73,
-        "pos": 73,
-        "sho": 57,
-        "sta": 78,
+        "pac": 77,
+        "pas": 74,
+        "pos": 71,
+        "sho": 60,
+        "sta": 80,
         "str": 69,
-        "tac": 76,
-        "vis": 63
+        "tac": 74,
+        "vis": 64
       },
       "birth": "1974-08-01",
       "contract": null,
@@ -286,7 +307,7 @@
       "name": "Frankie Hajduk",
       "nation": "USA",
       "number": null,
-      "pos": "RB",
+      "pos": "RWB",
       "wage": 31000
     },
     {
@@ -297,7 +318,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 69,
-        "pos": 51,
+        "pos": 71,
         "sho": 74,
         "sta": 71,
         "str": 72,
@@ -323,7 +344,7 @@
         "ldr": 70,
         "pac": 75,
         "pas": 66,
-        "pos": 53,
+        "pos": 73,
         "sho": 74,
         "sta": 72,
         "str": 73,
@@ -375,7 +396,7 @@
         "ldr": 64,
         "pac": 75,
         "pas": 66,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 67,
         "str": 69,
@@ -395,6 +416,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 70,
@@ -421,6 +445,9 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -448,19 +475,23 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 67,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 71,
-        "pas": 63,
-        "pos": 49,
-        "sho": 70,
-        "sta": 66,
-        "str": 66,
-        "tac": 37,
-        "vis": 64
+        "aer": 56,
+        "com": 64,
+        "dri": 72,
+        "ldr": 63,
+        "pac": 75,
+        "pas": 69,
+        "pos": 51,
+        "sho": 65,
+        "sta": 68,
+        "str": 56,
+        "tac": 43,
+        "vis": 70
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -470,7 +501,7 @@
       "name": "Landon Donoven",
       "nation": "USA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 14500
     },
@@ -482,7 +513,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 57,
-        "pos": 47,
+        "pos": 67,
         "sho": 68,
         "sta": 61,
         "str": 70,
@@ -554,6 +585,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 62,
@@ -576,23 +610,28 @@
       "name": "Marko Bebic",
       "nation": "CRO",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 12000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 65,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 69,
-        "pos": 63,
-        "sho": 62,
+        "dri": 59,
+        "ldr": 63,
+        "pac": 59,
+        "pas": 68,
+        "pos": 67,
+        "sho": 56,
         "sta": 69,
-        "str": 60,
-        "tac": 63,
-        "vis": 65
+        "str": 65,
+        "tac": 69,
+        "vis": 62
       },
       "birth": "1976-12-01",
       "contract": null,
@@ -603,24 +642,24 @@
       "nation": "NGA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 14500
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 48,
         "com": 63,
-        "dri": 61,
+        "dri": 65,
         "ldr": 57,
-        "pac": 63,
-        "pas": 54,
-        "pos": 44,
-        "sho": 68,
+        "pac": 61,
+        "pas": 64,
+        "pos": 49,
+        "sho": 65,
         "sta": 59,
-        "str": 64,
-        "tac": 32,
-        "vis": 54
+        "str": 54,
+        "tac": 40,
+        "vis": 65
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -631,7 +670,7 @@
       "nation": "GER",
       "nation2": "BRA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 7000
     },
     {
@@ -689,6 +728,11 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "CB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -715,6 +759,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 60,
@@ -743,18 +790,18 @@
     },
     {
       "attrs": {
-        "aer": 41,
-        "com": 52,
-        "dri": 54,
-        "ldr": 50,
-        "pac": 51,
+        "aer": 35,
+        "com": 53,
+        "dri": 58,
+        "ldr": 48,
+        "pac": 54,
         "pas": 55,
-        "pos": 51,
-        "sho": 48,
-        "sta": 55,
-        "str": 50,
-        "tac": 46,
-        "vis": 55
+        "pos": 36,
+        "sho": 54,
+        "sta": 49,
+        "str": 45,
+        "tac": 28,
+        "vis": 57
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -764,7 +811,7 @@
       "name": "Anel Dzake",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3500
     },
@@ -776,7 +823,7 @@
         "ldr": 47,
         "pac": 53,
         "pas": 46,
-        "pos": 29,
+        "pos": 49,
         "sho": 58,
         "sta": 47,
         "str": 55,

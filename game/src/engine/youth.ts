@@ -79,7 +79,7 @@ export interface YouthIntake { club: string; players: string[] }
 /**
  * 시즌 시작 때 유스 입단. clubs = 이번에 유스를 받을 구단 (다음 시즌 데이터가 없는 리그의 구단)
  */
-export function youthIntake(w: World, clubs: ClubState[], season: string, maxSquad: number, opts: { count?: number; academy?: boolean } = {}): YouthIntake[] {
+export function youthIntake(w: World, clubs: ClubState[], season: string, maxSquad: number, opts: { count?: number; academy?: boolean; group?: string } = {}): YouthIntake[] {
   const out: YouthIntake[] = [];
   const pools = namePools(w);
   const y = +season.slice(0, 4);
@@ -91,7 +91,7 @@ export function youthIntake(w: World, clubs: ClubState[], season: string, maxSqu
     if (lg) (nationsOf.get(lg) ?? nationsOf.set(lg, []).get(lg)!).push(p.nation);
   }
   for (const club of clubs) {
-    const rng = createRng((w.seed ^ hashSeed(`youth:${season}:${club.id}:${w.date}`)) >>> 0);
+    const rng = createRng((w.seed ^ hashSeed(`youth:${season}:${club.id}:${w.date}${opts.group ? `:${opts.group}:${club.squad.length}` : ''}`)) >>> 0);
     const n = opts.count ?? clamp(2 + (club.reputation >= 80 ? 1 : 0) + (rng.chance(0.4) ? 1 : 0), 2, 4);
     const made: string[] = [];
     for (let i = 0; i < n && club.squad.length < maxSquad; i++) {
@@ -99,7 +99,7 @@ export function youthIntake(w: World, clubs: ClubState[], season: string, maxSqu
       const counts: Record<string, number> = { GK: 0, DF: 0, MF: 0, FW: 0 };
       for (const id of club.squad) counts[GROUP[w.players[id].pos]]++;
       const short = Object.keys(MIN_GROUP).filter((g) => counts[g] < MIN_GROUP[g]);
-      const cands = POSITIONS.filter(([pos]) => !short.length || short.includes(GROUP[pos]));
+      const cands = POSITIONS.filter(([pos]) => opts.group ? GROUP[pos] === opts.group : !short.length || short.includes(GROUP[pos]));
       const pos: Position = opts.academy && counts.GK === 0 ? 'GK' : rng.weighted(cands, ([, wt]) => wt)[0];
       const potential = rollPotential(club.reputation, rng, facilityLevel(club, 'youth'));
       const age = rng.int(16, 18);
@@ -131,6 +131,28 @@ export function youthIntake(w: World, clubs: ClubState[], season: string, maxSqu
       w.players[id] = p;
       club.squad.push(id);
       made.push(id);
+    }
+    if (made.length) out.push({ club: club.id, players: made });
+  }
+  return out;
+}
+
+/** 경기를 치를 최소 구성: 골키퍼 2 · 수비 5 · 미드필더 4 · 공격 2 */
+export const SQUAD_MIN: Record<string, number> = { GK: 2, DF: 5, MF: 4, FW: 2 };
+
+/** 선수단 구성이 모자란 구단은 모자란 줄만큼 아카데미 선수를 최저 주급으로 승격 (새 게임 · 새 시즌 데이터를 불러올 때) */
+export function academyFill(w: World, clubs: ClubState[], season: string, maxSquad = 40): YouthIntake[] {
+  const out: YouthIntake[] = [];
+  for (const club of clubs) {
+    const made: string[] = [];
+    for (let guard = 0; guard < 12; guard++) {
+      const counts: Record<string, number> = { GK: 0, DF: 0, MF: 0, FW: 0 };
+      for (const id of club.squad) counts[GROUP[w.players[id].pos]]++;
+      const g = Object.keys(SQUAD_MIN).find((k) => counts[k] < SQUAD_MIN[k]);
+      if (!g) break;
+      const r = youthIntake(w, [club], season, maxSquad, { count: 1, academy: true, group: g });
+      if (!r.length) break;
+      made.push(...r[0].players);
     }
     if (made.length) out.push({ club: club.id, players: made });
   }

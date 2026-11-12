@@ -103,6 +103,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -129,6 +132,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 56,
@@ -162,7 +168,7 @@
         "ldr": 59,
         "pac": 64,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 61,
         "str": 61,
@@ -188,7 +194,7 @@
         "ldr": 53,
         "pac": 53,
         "pas": 49,
-        "pos": 35,
+        "pos": 55,
         "sho": 57,
         "sta": 52,
         "str": 57,
@@ -208,6 +214,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 45,
@@ -260,6 +269,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 57,
@@ -286,6 +298,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,
@@ -371,7 +386,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 49,
-        "pos": 40,
+        "pos": 60,
         "sho": 61,
         "sta": 56,
         "str": 56,
@@ -391,19 +406,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
-        "com": 57,
-        "dri": 53,
+        "com": 59,
+        "dri": 55,
         "ldr": 50,
         "pac": 55,
-        "pas": 57,
+        "pas": 59,
         "pos": 55,
-        "sho": 48,
-        "sta": 58,
+        "sho": 50,
+        "sta": 60,
         "str": 55,
         "tac": 56,
-        "vis": 55
+        "vis": 57
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -419,18 +437,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 43,
         "com": 61,
-        "dri": 59,
+        "dri": 63,
         "ldr": 59,
-        "pac": 63,
-        "pas": 57,
-        "pos": 43,
-        "sho": 64,
+        "pac": 61,
+        "pas": 67,
+        "pos": 48,
+        "sho": 61,
         "sta": 57,
-        "str": 60,
-        "tac": 31,
-        "vis": 55
+        "str": 50,
+        "tac": 39,
+        "vis": 66
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -440,23 +458,23 @@
       "name": "Dino Toppmuller",
       "nation": "GER",
       "number": 21,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4000
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 61,
-        "dri": 56,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 51,
-        "pos": 40,
-        "sho": 61,
-        "sta": 52,
-        "str": 60,
-        "tac": 28,
-        "vis": 54
+        "aer": 46,
+        "com": 58,
+        "dri": 61,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 57,
+        "pos": 42,
+        "sho": 56,
+        "sta": 54,
+        "str": 50,
+        "tac": 34,
+        "vis": 60
       },
       "birth": "1986-07-01",
       "contract": null,
@@ -466,7 +484,7 @@
       "name": "Denis Epstain",
       "nation": "GER",
       "number": 22,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 3000
     },
     {
@@ -496,6 +514,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 48,
@@ -522,20 +543,24 @@
       "wage": 1500
     },
     {
-      "alt": [],
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 65,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 67,
-        "pas": 59,
-        "pos": 42,
-        "sho": 69,
-        "sta": 63,
-        "str": 68,
-        "tac": 33,
-        "vis": 54
+        "aer": 51,
+        "com": 62,
+        "dri": 67,
+        "ldr": 60,
+        "pac": 71,
+        "pas": 65,
+        "pos": 44,
+        "sho": 64,
+        "sta": 65,
+        "str": 58,
+        "tac": 39,
+        "vis": 60
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -545,7 +570,7 @@
       "name": "Marco Reych",
       "nation": "GER",
       "number": 29,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     }
   ],

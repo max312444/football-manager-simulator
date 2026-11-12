@@ -75,23 +75,23 @@
       "name": "Giuseppe Pazzella",
       "nation": "ITA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 48000
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 60,
-        "dri": 46,
-        "ldr": 58,
-        "pac": 56,
-        "pas": 52,
-        "pos": 65,
-        "sho": 33,
-        "sta": 52,
-        "str": 59,
-        "tac": 63,
-        "vis": 45
+        "aer": 49,
+        "com": 58,
+        "dri": 56,
+        "ldr": 54,
+        "pac": 64,
+        "pas": 56,
+        "pos": 60,
+        "sho": 40,
+        "sta": 58,
+        "str": 51,
+        "tac": 60,
+        "vis": 51
       },
       "birth": "2002-08-01",
       "contract": null,
@@ -101,7 +101,7 @@
       "name": "Tommaso Barbyeri",
       "nation": "ITA",
       "number": 4,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 18000
     },
     {
@@ -131,17 +131,22 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 63,
-        "dri": 61,
+        "aer": 62,
+        "com": 72,
+        "dri": 66,
         "ldr": 62,
-        "pac": 58,
+        "pac": 67,
         "pas": 68,
-        "pos": 59,
-        "sho": 57,
+        "pos": 68,
+        "sho": 66,
         "sta": 66,
-        "str": 58,
+        "str": 67,
         "tac": 57,
         "vis": 65
       },
@@ -154,10 +159,13 @@
       "name": "Alessio Zerbyn",
       "nation": "ITA",
       "number": 7,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 36500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -191,7 +199,7 @@
         "ldr": 52,
         "pac": 62,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 60,
         "str": 61,
@@ -210,19 +218,22 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 63,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 64,
-        "pas": 59,
-        "pos": 43,
-        "sho": 64,
-        "sta": 62,
-        "str": 66,
-        "tac": 33,
-        "vis": 54
+        "aer": 50,
+        "com": 60,
+        "dri": 68,
+        "ldr": 55,
+        "pac": 68,
+        "pas": 65,
+        "pos": 45,
+        "sho": 59,
+        "sta": 64,
+        "str": 56,
+        "tac": 39,
+        "vis": 60
       },
       "birth": "1998-02-01",
       "contract": null,
@@ -232,7 +243,7 @@
       "name": "Dennis Johnsan",
       "nation": "NOR",
       "number": 11,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 26500
     },
     {
@@ -310,10 +321,13 @@
       "name": "Leonardo Sernicole",
       "nation": "ITA",
       "number": 17,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -341,18 +355,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 50,
         "com": 63,
-        "dri": 61,
+        "dri": 65,
         "ldr": 57,
-        "pac": 60,
-        "pas": 53,
-        "pos": 38,
-        "sho": 68,
+        "pac": 58,
+        "pas": 63,
+        "pos": 43,
+        "sho": 65,
         "sta": 56,
-        "str": 63,
-        "tac": 31,
-        "vis": 53
+        "str": 53,
+        "tac": 39,
+        "vis": 64
       },
       "birth": "1989-02-01",
       "contract": null,
@@ -363,7 +377,7 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 20,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 21000
     },
     {
@@ -393,19 +407,22 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 61,
-        "dri": 46,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 51,
-        "pos": 65,
-        "sho": 36,
-        "sta": 57,
-        "str": 66,
-        "tac": 62,
-        "vis": 51
+        "aer": 49,
+        "com": 59,
+        "dri": 56,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 55,
+        "pos": 60,
+        "sho": 43,
+        "sta": 63,
+        "str": 58,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "2003-01-01",
       "contract": null,
@@ -416,7 +433,7 @@
       "name": "Romano Floriani Mussoliny",
       "nation": "ITA",
       "number": 22,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 21000
     },
     {
@@ -446,6 +463,11 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 54,
@@ -473,6 +495,9 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -499,6 +524,10 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 63,
@@ -527,18 +556,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 71,
-        "dri": 69,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 77,
-        "pos": 71,
-        "sho": 64,
+        "dri": 65,
+        "ldr": 73,
+        "pac": 66,
+        "pas": 76,
+        "pos": 75,
+        "sho": 58,
         "sta": 76,
-        "str": 67,
-        "tac": 70,
-        "vis": 71
+        "str": 72,
+        "tac": 76,
+        "vis": 68
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -548,10 +577,14 @@
       "name": "Alberto Gressi",
       "nation": "ITA",
       "number": 33,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 73000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -580,6 +613,11 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 33,
         "com": 44,
@@ -665,7 +703,7 @@
         "ldr": 58,
         "pac": 58,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 55,
         "str": 62,
@@ -692,7 +730,7 @@
         "ldr": 57,
         "pac": 67,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 65,
         "str": 67,
@@ -718,7 +756,7 @@
         "ldr": 67,
         "pac": 75,
         "pas": 66,
-        "pos": 56,
+        "pos": 76,
         "sho": 78,
         "sta": 68,
         "str": 78,
@@ -744,7 +782,7 @@
         "ldr": 69,
         "pac": 76,
         "pas": 69,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 74,
         "str": 76,

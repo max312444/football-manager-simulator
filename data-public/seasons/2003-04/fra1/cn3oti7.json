@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 65,
-        "com": 81,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 74,
+        "aer": 59,
+        "com": 82,
+        "dri": 79,
+        "ldr": 73,
+        "pac": 77,
         "pas": 82,
-        "pos": 79,
-        "sho": 72,
-        "sta": 81,
-        "str": 71,
-        "tac": 72,
-        "vis": 81
+        "pos": 64,
+        "sho": 78,
+        "sta": 75,
+        "str": 66,
+        "tac": 54,
+        "vis": 83
       },
       "birth": "1975-01-01",
       "contract": null,
@@ -47,10 +47,13 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 62500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 80,
         "com": 75,
@@ -103,6 +106,10 @@
       "wage": 58000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 79,
@@ -156,6 +163,9 @@
       "wage": 56000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
         "com": 77,
@@ -163,7 +173,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 70,
-        "pos": 51,
+        "pos": 71,
         "sho": 81,
         "sta": 74,
         "str": 76,
@@ -182,22 +192,19 @@
       "wage": 48000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 79,
-        "com": 72,
-        "dri": 60,
-        "ldr": 72,
-        "pac": 71,
-        "pas": 69,
-        "pos": 75,
-        "sho": 45,
-        "sta": 73,
-        "str": 77,
-        "tac": 80,
-        "vis": 62
+        "aer": 66,
+        "com": 70,
+        "dri": 70,
+        "ldr": 68,
+        "pac": 79,
+        "pas": 73,
+        "pos": 70,
+        "sho": 52,
+        "sta": 79,
+        "str": 69,
+        "tac": 77,
+        "vis": 68
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -207,7 +214,7 @@
       "name": "Anthony Reveillera",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 52000
     },
     {
@@ -237,9 +244,6 @@
       "wage": 46000
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
         "aer": 53,
         "com": 72,
@@ -267,6 +271,9 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 74,
@@ -301,7 +308,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 67,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 65,
         "str": 73,
@@ -321,6 +328,9 @@
       "wage": 36000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 74,
@@ -354,7 +364,7 @@
         "ldr": 65,
         "pac": 67,
         "pas": 61,
-        "pos": 46,
+        "pos": 66,
         "sho": 72,
         "sta": 68,
         "str": 70,
@@ -375,6 +385,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 66,
@@ -431,18 +444,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 69,
-        "dri": 63,
-        "ldr": 67,
-        "pac": 62,
-        "pas": 72,
-        "pos": 64,
-        "sho": 59,
+        "dri": 59,
+        "ldr": 69,
+        "pac": 59,
+        "pas": 71,
+        "pos": 68,
+        "sho": 53,
         "sta": 70,
-        "str": 64,
-        "tac": 61,
-        "vis": 67
+        "str": 69,
+        "tac": 67,
+        "vis": 64
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -452,23 +465,28 @@
       "name": "Mahamadou Diarre",
       "nation": "MLI",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 29500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
-        "com": 65,
-        "dri": 65,
+        "com": 66,
+        "dri": 69,
         "ldr": 56,
         "pac": 62,
-        "pas": 56,
-        "pos": 41,
-        "sho": 65,
+        "pas": 61,
+        "pos": 61,
+        "sho": 66,
         "sta": 60,
         "str": 62,
         "tac": 31,
-        "vis": 59
+        "vis": 64
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -478,7 +496,7 @@
       "name": "Bryan Bergougnoox",
       "nation": "FRA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 12500
     },
     {
@@ -509,18 +527,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 58,
-        "dri": 47,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 51,
-        "pos": 65,
-        "sho": 37,
-        "sta": 58,
-        "str": 62,
-        "tac": 63,
-        "vis": 51
+        "aer": 51,
+        "com": 56,
+        "dri": 57,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 55,
+        "pos": 60,
+        "sho": 44,
+        "sta": 64,
+        "str": 54,
+        "tac": 60,
+        "vis": 57
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -530,11 +548,16 @@
       "name": "Jeremy Berthud",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 10500
     },
     {
+      "alt": [
+        "DM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 63,
         "com": 53,
@@ -589,6 +612,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 53,
@@ -649,7 +675,7 @@
         "ldr": 46,
         "pac": 56,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 55,
         "sta": 51,
         "str": 57,
@@ -723,6 +749,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 53,
@@ -750,18 +779,18 @@
     },
     {
       "attrs": {
-        "aer": 41,
-        "com": 54,
+        "aer": 49,
+        "com": 55,
         "dri": 53,
-        "ldr": 48,
-        "pac": 47,
-        "pas": 55,
+        "ldr": 46,
+        "pac": 52,
+        "pas": 45,
         "pos": 48,
-        "sho": 45,
-        "sta": 53,
-        "str": 48,
-        "tac": 47,
-        "vis": 57
+        "sho": 54,
+        "sta": 47,
+        "str": 53,
+        "tac": 21,
+        "vis": 48
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -772,7 +801,7 @@
       "nation": "FRA",
       "nation2": "SEN",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 5500
     },
     {
@@ -783,7 +812,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 43,
-        "pos": 33,
+        "pos": 53,
         "sho": 54,
         "sta": 46,
         "str": 53,
@@ -803,6 +832,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -830,6 +862,11 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 47,
@@ -857,6 +894,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,

@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 55,
-        "pas": 68,
-        "pos": 64,
-        "sho": 56,
-        "sta": 64,
-        "str": 60,
-        "tac": 56,
-        "vis": 61
+        "aer": 67,
+        "com": 62,
+        "dri": 49,
+        "ldr": 61,
+        "pac": 54,
+        "pas": 58,
+        "pos": 69,
+        "sho": 35,
+        "sta": 58,
+        "str": 67,
+        "tac": 63,
+        "vis": 46
       },
       "birth": "1992-02-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Andre Ramelho",
       "nation": "BRA",
       "number": 2,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 18500
     },
     {
@@ -136,7 +136,7 @@
         "ldr": 78,
         "pac": 82,
         "pas": 71,
-        "pos": 62,
+        "pos": 82,
         "sho": 81,
         "sta": 75,
         "str": 80,
@@ -155,19 +155,22 @@
       "wage": 87000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 80,
-        "dri": 74,
-        "ldr": 76,
-        "pac": 76,
-        "pas": 84,
-        "pos": 74,
-        "sho": 76,
+        "dri": 70,
+        "ldr": 78,
+        "pac": 73,
+        "pas": 83,
+        "pos": 78,
+        "sho": 70,
         "sta": 84,
-        "str": 74,
-        "tac": 74,
-        "vis": 80
+        "str": 79,
+        "tac": 80,
+        "vis": 77
       },
       "birth": "1989-04-01",
       "contract": null,
@@ -177,10 +180,14 @@
       "name": "Lars Bander",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 87000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -215,7 +222,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 71,
-        "pos": 55,
+        "pos": 75,
         "sho": 83,
         "sta": 72,
         "str": 75,
@@ -234,6 +241,11 @@
       "wage": 68500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 70,
@@ -260,6 +272,9 @@
       "wage": 54000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 79,
@@ -267,7 +282,7 @@
         "ldr": 68,
         "pac": 79,
         "pas": 68,
-        "pos": 53,
+        "pos": 73,
         "sho": 78,
         "sta": 75,
         "str": 78,
@@ -286,6 +301,9 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 67,
@@ -312,6 +330,9 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 72,
@@ -361,12 +382,13 @@
       "name": "Wandell",
       "nation": "BRA",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 13500
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 52,
@@ -394,6 +416,9 @@
       "wage": 22000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 79,
@@ -475,18 +500,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 77,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 72,
-        "pas": 74,
-        "pos": 74,
-        "sho": 70,
+        "dri": 68,
+        "ldr": 72,
+        "pac": 69,
+        "pas": 73,
+        "pos": 78,
+        "sho": 64,
         "sta": 80,
-        "str": 72,
-        "tac": 68,
-        "vis": 73
+        "str": 77,
+        "tac": 74,
+        "vis": 70
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -496,23 +521,27 @@
       "name": "Christoph Kramar",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 72500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 62,
-        "dri": 66,
-        "ldr": 60,
-        "pac": 57,
+        "aer": 50,
+        "com": 63,
+        "dri": 70,
+        "ldr": 58,
+        "pac": 60,
         "pas": 70,
-        "pos": 65,
-        "sho": 56,
-        "sta": 65,
-        "str": 61,
-        "tac": 59,
-        "vis": 64
+        "pos": 50,
+        "sho": 62,
+        "sta": 59,
+        "str": 56,
+        "tac": 41,
+        "vis": 66
       },
       "birth": "1993-12-01",
       "contract": null,
@@ -522,7 +551,7 @@
       "name": "Ryu Seong-woo",
       "nation": "KOR",
       "number": 24,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 22000
     },
     {
@@ -580,18 +609,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 65,
-        "dri": 61,
-        "ldr": 63,
-        "pac": 58,
+        "aer": 47,
+        "com": 66,
+        "dri": 65,
+        "ldr": 61,
+        "pac": 61,
         "pas": 65,
-        "pos": 67,
-        "sho": 58,
-        "sta": 69,
-        "str": 59,
-        "tac": 59,
-        "vis": 69
+        "pos": 52,
+        "sho": 64,
+        "sta": 63,
+        "str": 54,
+        "tac": 41,
+        "vis": 71
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -601,23 +630,26 @@
       "name": "Vladlen Yorchenko",
       "nation": "UKR",
       "number": 35,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 23000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 76,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 68,
-        "pas": 79,
-        "pos": 74,
-        "sho": 67,
-        "sta": 74,
-        "str": 67,
-        "tac": 72,
-        "vis": 78
+        "aer": 57,
+        "com": 74,
+        "dri": 80,
+        "ldr": 68,
+        "pac": 77,
+        "pas": 75,
+        "pos": 56,
+        "sho": 71,
+        "sta": 70,
+        "str": 62,
+        "tac": 52,
+        "vis": 75
       },
       "birth": "1990-04-01",
       "contract": null,
@@ -628,10 +660,13 @@
       "nation": "GER",
       "nation2": "GHA",
       "number": 38,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 70500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 72,

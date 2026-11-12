@@ -103,6 +103,10 @@
       "wage": 274500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 68,
         "com": 72,
@@ -125,10 +129,14 @@
       "name": "Fabio Cuentrao",
       "nation": "POR",
       "number": 5,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 183000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 83,
@@ -156,6 +164,9 @@
       "wage": 335000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 85,
         "com": 93,
@@ -163,7 +174,7 @@
         "ldr": 83,
         "pac": 90,
         "pas": 78,
-        "pos": 70,
+        "pos": 90,
         "sho": 90,
         "sta": 86,
         "str": 90,
@@ -183,18 +194,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 83,
-        "dri": 81,
-        "ldr": 77,
-        "pac": 77,
+        "aer": 65,
+        "com": 84,
+        "dri": 85,
+        "ldr": 75,
+        "pac": 80,
         "pas": 83,
-        "pos": 84,
-        "sho": 78,
-        "sta": 83,
-        "str": 82,
-        "tac": 83,
-        "vis": 82
+        "pos": 69,
+        "sho": 84,
+        "sta": 77,
+        "str": 77,
+        "tac": 65,
+        "vis": 84
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -205,7 +216,7 @@
       "nation": "BRA",
       "nation2": "ITA",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 358000
     },
     {
@@ -216,7 +227,7 @@
         "ldr": 75,
         "pac": 80,
         "pas": 78,
-        "pos": 58,
+        "pos": 78,
         "sho": 83,
         "sta": 76,
         "str": 84,
@@ -235,9 +246,6 @@
       "wage": 229500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 79,
@@ -288,7 +296,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 197500
     },
     {
@@ -318,6 +326,9 @@
       "wage": 183000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 86,
@@ -370,6 +381,9 @@
       "wage": 142000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 73,
         "com": 77,
@@ -423,21 +437,22 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 66,
-        "com": 83,
+        "com": 84,
         "dri": 86,
         "ldr": 81,
         "pac": 86,
-        "pas": 89,
+        "pas": 90,
         "pos": 65,
-        "sho": 84,
+        "sho": 85,
         "sta": 80,
         "str": 73,
         "tac": 64,
-        "vis": 86
+        "vis": 87
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -458,7 +473,7 @@
         "ldr": 77,
         "pac": 79,
         "pas": 71,
-        "pos": 61,
+        "pos": 81,
         "sho": 83,
         "sta": 76,
         "str": 84,
@@ -478,19 +493,23 @@
       "wage": 195500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 77,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 68,
-        "pas": 75,
-        "pos": 73,
-        "sho": 71,
-        "sta": 79,
-        "str": 71,
-        "tac": 74,
-        "vis": 79
+        "aer": 62,
+        "com": 75,
+        "dri": 76,
+        "ldr": 65,
+        "pac": 77,
+        "pas": 71,
+        "pos": 55,
+        "sho": 75,
+        "sta": 75,
+        "str": 66,
+        "tac": 54,
+        "vis": 76
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -500,23 +519,27 @@
       "name": "Jose Callejun",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 154500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 84,
-        "dri": 78,
-        "ldr": 80,
-        "pac": 75,
+        "aer": 62,
+        "com": 85,
+        "dri": 82,
+        "ldr": 78,
+        "pac": 78,
         "pas": 80,
-        "pos": 80,
-        "sho": 73,
-        "sta": 80,
-        "str": 79,
-        "tac": 79,
-        "vis": 79
+        "pos": 65,
+        "sho": 79,
+        "sta": 74,
+        "str": 74,
+        "tac": 61,
+        "vis": 81
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -527,23 +550,23 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 272000
     },
     {
       "attrs": {
-        "aer": 71,
+        "aer": 77,
         "com": 78,
-        "dri": 76,
-        "ldr": 79,
-        "pac": 76,
-        "pas": 85,
-        "pos": 77,
-        "sho": 74,
+        "dri": 72,
+        "ldr": 81,
+        "pac": 73,
+        "pas": 84,
+        "pos": 81,
+        "sho": 68,
         "sta": 84,
-        "str": 72,
-        "tac": 78,
-        "vis": 83
+        "str": 77,
+        "tac": 84,
+        "vis": 80
       },
       "birth": "1985-03-01",
       "contract": null,
@@ -553,7 +576,7 @@
       "name": "Lassana Dyarra",
       "nation": "FRA",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 267000
     },
     {
@@ -564,7 +587,7 @@
         "ldr": 66,
         "pac": 70,
         "pas": 65,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 69,
         "str": 72,
@@ -609,6 +632,9 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 85,

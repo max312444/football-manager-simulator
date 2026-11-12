@@ -99,7 +99,7 @@
       "name": "Ian Joyo",
       "nation": "USA",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 5000
     },
     {
@@ -129,6 +129,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 58,
@@ -155,6 +158,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -181,17 +187,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 54,
-        "dri": 54,
+        "aer": 54,
+        "com": 63,
+        "dri": 58,
         "ldr": 50,
-        "pac": 53,
+        "pac": 61,
         "pas": 61,
-        "pos": 56,
-        "sho": 50,
+        "pos": 65,
+        "sho": 59,
         "sta": 59,
-        "str": 51,
+        "str": 60,
         "tac": 51,
         "vis": 59
       },
@@ -203,10 +214,13 @@
       "name": "Marvin Breun",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -240,7 +254,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 43,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 48,
         "str": 53,
@@ -259,18 +273,21 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
         "dri": 56,
         "ldr": 52,
         "pac": 52,
-        "pas": 55,
+        "pas": 56,
         "pos": 50,
         "sho": 51,
-        "sta": 55,
+        "sta": 56,
         "str": 52,
-        "tac": 48,
+        "tac": 49,
         "vis": 54
       },
       "birth": "1975-02-01",
@@ -311,6 +328,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -337,6 +357,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -417,17 +440,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 40,
-        "com": 53,
-        "dri": 49,
+        "aer": 47,
+        "com": 60,
+        "dri": 55,
         "ldr": 48,
-        "pac": 46,
+        "pac": 53,
         "pas": 55,
-        "pos": 52,
-        "sho": 48,
+        "pos": 59,
+        "sho": 55,
         "sta": 55,
-        "str": 50,
+        "str": 57,
         "tac": 51,
         "vis": 55
       },
@@ -439,10 +467,13 @@
       "name": "Roman Prokuph",
       "nation": "GER",
       "number": 16,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -469,19 +500,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 53,
-        "dri": 52,
+        "aer": 52,
+        "com": 59,
+        "dri": 54,
         "ldr": 49,
         "pac": 54,
-        "pas": 47,
-        "pos": 31,
-        "sho": 57,
+        "pas": 54,
+        "pos": 32,
+        "sho": 63,
         "sta": 50,
-        "str": 53,
+        "str": 54,
         "tac": 19,
-        "vis": 43
+        "vis": 50
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -491,23 +527,23 @@
       "name": "Alexander Ludwyg",
       "nation": "GER",
       "number": 18,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 1500
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 60,
-        "dri": 56,
-        "ldr": 56,
-        "pac": 49,
-        "pas": 59,
-        "pos": 53,
-        "sho": 53,
+        "dri": 52,
+        "ldr": 58,
+        "pac": 46,
+        "pas": 58,
+        "pos": 57,
+        "sho": 47,
         "sta": 57,
-        "str": 54,
-        "tac": 53,
-        "vis": 60
+        "str": 59,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1988-09-01",
       "contract": null,
@@ -517,23 +553,26 @@
       "name": "Jonathan Baaulieu-Bourgault",
       "nation": "CAN",
       "number": 20,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 39,
+        "aer": 45,
         "com": 52,
-        "dri": 51,
-        "ldr": 44,
-        "pac": 43,
-        "pas": 51,
-        "pos": 47,
-        "sho": 43,
+        "dri": 47,
+        "ldr": 46,
+        "pac": 40,
+        "pas": 50,
+        "pos": 51,
+        "sho": 37,
         "sta": 51,
-        "str": 45,
-        "tac": 48,
-        "vis": 50
+        "str": 50,
+        "tac": 54,
+        "vis": 47
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -543,7 +582,7 @@
       "name": "Jeremy Karikeri",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 1500
     },
     {
@@ -554,7 +593,7 @@
         "ldr": 54,
         "pac": 57,
         "pas": 46,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 53,
         "str": 60,
@@ -607,7 +646,7 @@
         "ldr": 48,
         "pac": 56,
         "pas": 46,
-        "pos": 37,
+        "pos": 57,
         "sho": 57,
         "sta": 49,
         "str": 54,

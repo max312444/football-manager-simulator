@@ -31,7 +31,7 @@
         "ldr": 77,
         "pac": 85,
         "pas": 77,
-        "pos": 60,
+        "pos": 80,
         "sho": 88,
         "sta": 82,
         "str": 85,
@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 82,
-        "dri": 76,
-        "ldr": 77,
-        "pac": 76,
+        "aer": 65,
+        "com": 83,
+        "dri": 80,
+        "ldr": 75,
+        "pac": 79,
         "pas": 84,
-        "pos": 78,
-        "sho": 77,
-        "sta": 86,
-        "str": 76,
-        "tac": 75,
-        "vis": 80
+        "pos": 63,
+        "sho": 83,
+        "sta": 80,
+        "str": 71,
+        "tac": 57,
+        "vis": 82
       },
       "birth": "1978-06-01",
       "contract": null,
@@ -73,11 +73,14 @@
       "name": "Juan Roman Ryquelme",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 42500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -100,10 +103,13 @@
       "name": "Juan Pablo Soryn",
       "nation": "ARG",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 42500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 74,
@@ -138,7 +144,7 @@
         "ldr": 69,
         "pac": 74,
         "pas": 70,
-        "pos": 53,
+        "pos": 73,
         "sho": 76,
         "sta": 72,
         "str": 79,
@@ -157,6 +163,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 77,
@@ -236,19 +245,22 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 72,
-        "dri": 73,
-        "ldr": 72,
-        "pac": 70,
-        "pas": 75,
-        "pos": 69,
-        "sho": 68,
-        "sta": 73,
-        "str": 66,
-        "tac": 69,
-        "vis": 73
+        "aer": 54,
+        "com": 70,
+        "dri": 78,
+        "ldr": 68,
+        "pac": 79,
+        "pas": 71,
+        "pos": 51,
+        "sho": 72,
+        "sta": 69,
+        "str": 61,
+        "tac": 49,
+        "vis": 70
       },
       "birth": "1985-08-01",
       "contract": null,
@@ -258,7 +270,7 @@
       "name": "Antonio Valencya",
       "nation": "ECU",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 26500
     },
@@ -296,7 +308,7 @@
         "ldr": 65,
         "pac": 74,
         "pas": 65,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 69,
         "str": 70,
@@ -315,6 +327,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 70,
@@ -364,23 +379,23 @@
       "name": "Rodolfo Arroabarrena",
       "nation": "ARG",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 19500
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 74,
-        "dri": 69,
-        "ldr": 68,
-        "pac": 65,
-        "pas": 74,
-        "pos": 71,
-        "sho": 65,
+        "dri": 65,
+        "ldr": 70,
+        "pac": 62,
+        "pas": 73,
+        "pos": 75,
+        "sho": 59,
         "sta": 71,
-        "str": 67,
-        "tac": 66,
-        "vis": 69
+        "str": 72,
+        "tac": 72,
+        "vis": 66
       },
       "birth": "1975-01-01",
       "contract": null,
@@ -390,23 +405,23 @@
       "name": "Josicu",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 21500
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 70,
-        "dri": 66,
-        "ldr": 70,
-        "pac": 65,
-        "pas": 75,
-        "pos": 67,
-        "sho": 65,
+        "dri": 62,
+        "ldr": 72,
+        "pac": 62,
+        "pas": 74,
+        "pos": 71,
+        "sho": 59,
         "sta": 76,
-        "str": 69,
-        "tac": 65,
-        "vis": 70
+        "str": 74,
+        "tac": 71,
+        "vis": 67
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -416,11 +431,15 @@
       "name": "Sebastian Battaglie",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 21000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 68,
@@ -448,19 +467,23 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 71,
-        "dri": 70,
-        "ldr": 62,
-        "pac": 62,
-        "pas": 70,
-        "pos": 66,
-        "sho": 63,
-        "sta": 74,
-        "str": 62,
-        "tac": 64,
-        "vis": 73
+        "aer": 52,
+        "com": 69,
+        "dri": 75,
+        "ldr": 58,
+        "pac": 71,
+        "pas": 66,
+        "pos": 48,
+        "sho": 67,
+        "sta": 70,
+        "str": 57,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1980-10-01",
       "contract": null,
@@ -470,11 +493,14 @@
       "name": "Antonio Gueyre",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -555,18 +581,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 67,
-        "dri": 52,
-        "ldr": 67,
-        "pac": 59,
-        "pas": 61,
-        "pos": 69,
-        "sho": 38,
-        "sta": 65,
-        "str": 68,
-        "tac": 71,
-        "vis": 51
+        "aer": 55,
+        "com": 65,
+        "dri": 62,
+        "ldr": 63,
+        "pac": 67,
+        "pas": 65,
+        "pos": 64,
+        "sho": 45,
+        "sta": 71,
+        "str": 60,
+        "tac": 68,
+        "vis": 57
       },
       "birth": "1975-12-01",
       "contract": null,
@@ -576,13 +602,10 @@
       "name": "Javi Vente",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 68,
         "com": 65,
@@ -636,18 +659,18 @@
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 60,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 59,
+        "aer": 49,
+        "com": 61,
+        "dri": 64,
+        "ldr": 58,
+        "pac": 62,
         "pas": 68,
-        "pos": 60,
-        "sho": 55,
-        "sta": 68,
-        "str": 56,
-        "tac": 58,
-        "vis": 67
+        "pos": 45,
+        "sho": 61,
+        "sta": 62,
+        "str": 51,
+        "tac": 40,
+        "vis": 69
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -657,7 +680,7 @@
       "name": "Hector Funt",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9000
     },
     {
@@ -688,19 +711,23 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 57,
-        "dri": 57,
-        "ldr": 58,
-        "pac": 57,
-        "pas": 60,
-        "pos": 55,
-        "sho": 51,
-        "sta": 60,
-        "str": 52,
-        "tac": 56,
-        "vis": 61
+        "aer": 46,
+        "com": 55,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 56,
+        "pos": 37,
+        "sho": 55,
+        "sta": 56,
+        "str": 47,
+        "tac": 36,
+        "vis": 58
       },
       "birth": "1986-06-01",
       "contract": null,
@@ -710,7 +737,7 @@
       "name": "Xisco Nadel",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 5500
     },
@@ -742,6 +769,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 56,
@@ -769,6 +799,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 58,
@@ -797,18 +830,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 56,
-        "dri": 42,
-        "ldr": 52,
-        "pac": 50,
-        "pas": 44,
-        "pos": 59,
-        "sho": 27,
-        "sta": 52,
-        "str": 60,
-        "tac": 58,
-        "vis": 43
+        "aer": 44,
+        "com": 54,
+        "dri": 52,
+        "ldr": 48,
+        "pac": 58,
+        "pas": 48,
+        "pos": 54,
+        "sho": 34,
+        "sta": 58,
+        "str": 52,
+        "tac": 55,
+        "vis": 49
       },
       "birth": "1985-02-01",
       "contract": null,
@@ -818,7 +851,7 @@
       "name": "Carlos Alcantera",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 2500
     }
   ],

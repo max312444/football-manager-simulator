@@ -84,7 +84,7 @@
         "ldr": 68,
         "pac": 80,
         "pas": 67,
-        "pos": 58,
+        "pos": 78,
         "sho": 78,
         "sta": 71,
         "str": 80,
@@ -112,7 +112,7 @@
         "ldr": 67,
         "pac": 77,
         "pas": 66,
-        "pos": 54,
+        "pos": 74,
         "sho": 76,
         "sta": 70,
         "str": 74,
@@ -138,7 +138,7 @@
         "ldr": 69,
         "pac": 73,
         "pas": 67,
-        "pos": 52,
+        "pos": 72,
         "sho": 80,
         "sta": 69,
         "str": 71,
@@ -293,18 +293,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 73,
-        "dri": 70,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 69,
-        "pos": 70,
-        "sho": 65,
+        "dri": 66,
+        "ldr": 65,
+        "pac": 60,
+        "pas": 68,
+        "pos": 74,
+        "sho": 59,
         "sta": 69,
-        "str": 62,
-        "tac": 64,
-        "vis": 70
+        "str": 67,
+        "tac": 70,
+        "vis": 67
       },
       "birth": "1973-03-01",
       "contract": null,
@@ -314,24 +314,27 @@
       "name": "Jose Luis Vydigal",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 19000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 69,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 69,
-        "pos": 71,
-        "sho": 62,
-        "sta": 70,
-        "str": 65,
-        "tac": 66,
-        "vis": 69
+        "aer": 55,
+        "com": 67,
+        "dri": 74,
+        "ldr": 61,
+        "pac": 73,
+        "pas": 65,
+        "pos": 53,
+        "sho": 66,
+        "sta": 66,
+        "str": 60,
+        "tac": 46,
+        "vis": 66
       },
       "birth": "1984-04-01",
       "contract": null,
@@ -341,11 +344,15 @@
       "name": "Raffaele Palladinu",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 19500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 70,
@@ -394,24 +401,24 @@
       "name": "Giovanni Pesquale",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 11000
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 66,
-        "dri": 52,
-        "ldr": 61,
-        "pac": 58,
-        "pas": 60,
-        "pos": 68,
-        "sho": 39,
-        "sta": 61,
-        "str": 70,
-        "tac": 71,
-        "vis": 49
+        "aer": 57,
+        "com": 64,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 66,
+        "pas": 64,
+        "pos": 63,
+        "sho": 46,
+        "sta": 67,
+        "str": 62,
+        "tac": 68,
+        "vis": 55
       },
       "birth": "1975-02-01",
       "contract": null,
@@ -421,7 +428,7 @@
       "name": "Cesar Pratas",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 9500
     },
@@ -433,7 +440,7 @@
         "ldr": 54,
         "pac": 65,
         "pas": 57,
-        "pos": 39,
+        "pos": 59,
         "sho": 67,
         "sta": 57,
         "str": 62,
@@ -452,6 +459,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 63,
@@ -479,19 +489,22 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 62,
-        "dri": 46,
-        "ldr": 61,
-        "pac": 57,
-        "pas": 52,
-        "pos": 63,
-        "sho": 33,
-        "sta": 61,
-        "str": 67,
-        "tac": 65,
-        "vis": 47
+        "aer": 51,
+        "com": 60,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 57,
+        "pos": 56,
+        "sho": 43,
+        "sta": 69,
+        "str": 59,
+        "tac": 60,
+        "vis": 54
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -501,7 +514,7 @@
       "name": "Marc Pfertzal",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "wage": 6000
     },
     {
@@ -612,6 +625,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -665,6 +681,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -691,6 +710,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 53,
@@ -744,6 +768,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -771,6 +798,10 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 47,
@@ -804,7 +835,7 @@
         "ldr": 51,
         "pac": 55,
         "pas": 44,
-        "pos": 31,
+        "pos": 51,
         "sho": 57,
         "sta": 50,
         "str": 53,

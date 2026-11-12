@@ -41,6 +41,8 @@ function* seasonFiles(season, league) {
 
 function positionCheck({ season, league, log }) {
   const box = fs.existsSync(POSFILE) ? JSON.parse(fs.readFileSync(POSFILE, 'utf8')).players : {};
+  const { codesOf } = require('./positions');   // 저장된 원문을 지금 규칙으로
+  for (const v of Object.values(box)) v.codes = v.raw ? codesOf(v.raw).all : [];
   const st = { rows: 0, players: new Set(), boxMismatch: 0, gkConflict: 0, attrMismatch: 0, noBox: new Set(), squads: 0, thin: 0 };
   const lines = { boxMismatch: [], gkConflict: [], attrMismatch: [], thin: [] };
   const seen = { boxMismatch: new Set(), attrMismatch: new Set(), gkConflict: new Set() };
@@ -61,7 +63,7 @@ function positionCheck({ season, league, log }) {
       if (p.pos !== 'GK') {
         const here = ratingAt(p.attrs, p.pos);
         const best = OUTFIELD.map((x) => [x, ratingAt(p.attrs, x)]).sort((a, b) => b[1] - a[1])[0];
-        if (best[1] - here >= 5 && !(p.alt ?? []).includes(best[0])) {
+        if (best[0] !== p.pos && best[1] - here > 1) {   // 주 포지션보다 1 넘게 높은 자리가 있음 → 있으면 안 됨
           st.attrMismatch++; if (!seen.attrMismatch.has(p.id)) { seen.attrMismatch.add(p.id); lines.attrMismatch.push(`${s} ${c.club} ${p.name}: ${p.pos} ${Math.round(here)} · ${best[0]} ${Math.round(best[1])}`); }
         }
       }
@@ -71,17 +73,41 @@ function positionCheck({ season, league, log }) {
   }
   log(`선수 · 시즌 ${st.rows}줄 · 선수 ${st.players.size}명 · 구단 시즌 ${st.squads}개`);
   log(`1) 인포박스와 다른 포지션: ${st.boxMismatch}줄 (${seen.boxMismatch.size}명) · 골키퍼 충돌 ${st.gkConflict}줄 (${seen.gkConflict.size}명)`);
-  log(`2) 능력치와 맞지 않는 포지션 (다른 자리가 5+ 높음): ${st.attrMismatch}줄 (${seen.attrMismatch.size}명)`);
+  log(`2) 주 포지션보다 능력이 높은 자리가 있는 선수: ${st.attrMismatch}줄 (${seen.attrMismatch.size}명)`);
   log(`3) 선수단 구성이 모자란 구단 시즌: ${st.thin} / ${st.squads}`);
   log(`4) 인포박스가 없는 선수: ${st.noBox.size}명`);
   const report = path.join(ROOT, '_pipeline', 'reports', 'positions-check.txt');
   fs.mkdirSync(path.dirname(report), { recursive: true });
   fs.writeFileSync(report, [
     '# 1) 인포박스와 다른 포지션', ...lines.boxMismatch, '', '# 골키퍼 충돌 (그대로 둠 · 동명이인 연결 오류 확인)', ...lines.gkConflict, '',
-    '# 2) 능력치와 맞지 않는 포지션', ...lines.attrMismatch, '', '# 3) 선수단 구성', ...lines.thin, '', '# 4) 인포박스 없음', ...[...st.noBox],
+    '# 2) 주 포지션보다 능력이 높은 자리', ...lines.attrMismatch, '', '# 3) 선수단 구성', ...lines.thin, '', '# 4) 인포박스 없음', ...[...st.noBox],
   ].join('\n'));
   log(`목록: ${path.relative(process.cwd(), report)}`);
   return st;
 }
 
-module.exports = { positionCheck };
+/**
+ * 주 포지션이 가장 높은 능력이 되도록: 더 높은 자리(경쟁 자리)가 있으면
+ * 주 포지션이 경쟁 자리보다 더 중요하게 쓰는 능력치만 1씩 올린다 (예: ST 대 LW → 슈팅 · 침착성 · 위치 선정 · 힘 · 공중볼)
+ * → 주 포지션 능력이 경쟁 자리 수준에 맞춰지고, 전체 수준이 크게 부풀지 않는다. 최대 30번, 99까지. 골키퍼는 하지 않음
+ */
+function ensureMainBest(p) {
+  if (p.pos === 'GK') return false;
+  const OUT = ['CB', 'LB', 'RB', 'LWB', 'RWB', 'DM', 'CM', 'AM', 'LM', 'RM', 'LW', 'RW', 'ST'];
+  const norm = (pos) => { const w = OVR_W[ROLE[pos]]; const t = Object.values(w).reduce((a, b) => a + b, 0); return Object.fromEntries(Object.entries(w).map(([k, v]) => [k, v / t])); };
+  const mine = norm(p.pos);
+  let changed = false;
+  for (let n = 0; n < 30; n++) {
+    const here = ratingAt(p.attrs, p.pos);
+    const rival = OUT.filter((x) => x !== p.pos).map((x) => [x, ratingAt(p.attrs, x)]).sort((a, b) => b[1] - a[1])[0];
+    if (rival[1] < here) break;   // 화면(반올림)에서도 주 포지션이 가장 높게
+    const theirs = norm(rival[0]);
+    const keys = Object.keys(mine).filter((k) => mine[k] > (theirs[k] ?? 0) && p.attrs[k] != null && p.attrs[k] < 99);
+    if (!keys.length) break;
+    for (const k of keys) p.attrs[k] += 1;
+    changed = true;
+  }
+  return changed;
+}
+
+module.exports = { positionCheck, ratingAt, ensureMainBest };

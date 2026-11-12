@@ -52,21 +52,21 @@
     },
     {
       "alt": [
-        "RB"
+        "RW"
       ],
       "attrs": {
-        "aer": 56,
-        "com": 50,
-        "dri": 42,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 47,
-        "pos": 57,
-        "sho": 26,
-        "sta": 49,
-        "str": 55,
-        "tac": 54,
-        "vis": 41
+        "aer": 43,
+        "com": 48,
+        "dri": 52,
+        "ldr": 51,
+        "pac": 59,
+        "pas": 51,
+        "pos": 52,
+        "sho": 33,
+        "sta": 55,
+        "str": 47,
+        "tac": 51,
+        "vis": 47
       },
       "birth": "2000-03-01",
       "contract": null,
@@ -77,7 +77,7 @@
       "name": "Kilian Ludewyg",
       "nation": "GER",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 14000
     },
     {
@@ -104,7 +104,7 @@
       "nation": "MAR",
       "nation2": "CIV",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 43000
     },
     {
@@ -161,18 +161,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 69,
-        "dri": 66,
-        "ldr": 62,
-        "pac": 66,
-        "pas": 68,
-        "pos": 65,
-        "sho": 61,
+        "dri": 62,
+        "ldr": 64,
+        "pac": 63,
+        "pas": 67,
+        "pos": 69,
+        "sho": 55,
         "sta": 73,
-        "str": 67,
-        "tac": 66,
-        "vis": 72
+        "str": 72,
+        "tac": 72,
+        "vis": 69
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -183,7 +183,7 @@
       "nation": "ESP",
       "nation2": "EQG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 102000
     },
     {
@@ -194,7 +194,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 58,
-        "pos": 49,
+        "pos": 69,
         "sho": 72,
         "sta": 66,
         "str": 68,
@@ -213,6 +213,9 @@
       "wage": 57000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 68,
@@ -246,7 +249,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 65,
-        "pos": 53,
+        "pos": 73,
         "sho": 79,
         "sta": 71,
         "str": 74,
@@ -266,18 +269,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 71,
-        "dri": 69,
-        "ldr": 66,
-        "pac": 65,
-        "pas": 74,
-        "pos": 68,
-        "sho": 67,
+        "dri": 65,
+        "ldr": 68,
+        "pac": 62,
+        "pas": 73,
+        "pos": 72,
+        "sho": 61,
         "sta": 74,
-        "str": 63,
-        "tac": 67,
-        "vis": 71
+        "str": 68,
+        "tac": 73,
+        "vis": 68
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -288,7 +291,7 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 122000
     },
     {
@@ -299,7 +302,7 @@
         "ldr": 66,
         "pac": 75,
         "pas": 65,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 67,
         "str": 75,
@@ -318,19 +321,22 @@
       "wage": 104000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 61,
-        "dri": 57,
-        "ldr": 52,
-        "pac": 58,
-        "pas": 54,
-        "pos": 35,
-        "sho": 60,
-        "sta": 57,
-        "str": 56,
-        "tac": 28,
-        "vis": 49
+        "aer": 43,
+        "com": 58,
+        "dri": 62,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 60,
+        "pos": 37,
+        "sho": 55,
+        "sta": 59,
+        "str": 46,
+        "tac": 34,
+        "vis": 55
       },
       "birth": "2000-09-01",
       "contract": null,
@@ -340,23 +346,28 @@
       "name": "Rabbi Metondo",
       "nation": "WAL",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 20500
     },
     {
+      "alt": [
+        "LW",
+        "RM",
+        "LM"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 62,
-        "dri": 59,
-        "ldr": 52,
-        "pac": 58,
-        "pas": 47,
-        "pos": 37,
-        "sho": 58,
-        "sta": 55,
-        "str": 60,
-        "tac": 31,
-        "vis": 50
+        "aer": 44,
+        "com": 59,
+        "dri": 64,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 53,
+        "pos": 39,
+        "sho": 53,
+        "sta": 57,
+        "str": 50,
+        "tac": 37,
+        "vis": 56
       },
       "birth": "2000-03-01",
       "contract": null,
@@ -366,10 +377,13 @@
       "name": "Ahmed Kotucu",
       "nation": "TUR",
       "number": 15,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 21000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 62,
@@ -398,8 +412,7 @@
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 77,
@@ -434,7 +447,7 @@
         "ldr": 72,
         "pac": 76,
         "pas": 65,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 69,
         "str": 78,
@@ -461,7 +474,7 @@
         "ldr": 60,
         "pac": 62,
         "pas": 60,
-        "pos": 44,
+        "pos": 64,
         "sho": 65,
         "sta": 63,
         "str": 66,
@@ -529,23 +542,23 @@
       "name": "Bastian Oczypka",
       "nation": "GER",
       "number": 24,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 102000
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 65,
-        "dri": 65,
-        "ldr": 58,
-        "pac": 62,
+        "aer": 49,
+        "com": 66,
+        "dri": 69,
+        "ldr": 56,
+        "pac": 65,
         "pas": 64,
-        "pos": 62,
-        "sho": 57,
-        "sta": 67,
-        "str": 57,
-        "tac": 63,
-        "vis": 69
+        "pos": 47,
+        "sho": 63,
+        "sta": 61,
+        "str": 52,
+        "tac": 45,
+        "vis": 71
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -556,22 +569,25 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 25,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 63000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 66,
+        "aer": 66,
+        "com": 72,
         "dri": 65,
         "ldr": 66,
         "pac": 70,
         "pas": 64,
-        "pos": 70,
+        "pos": 76,
         "sho": 47,
         "sta": 73,
-        "str": 60,
-        "tac": 67,
+        "str": 66,
+        "tac": 73,
         "vis": 60
       },
       "birth": "1990-08-01",
@@ -583,10 +599,13 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": 26,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 79000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -613,6 +632,9 @@
       "wage": 165000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 52,
@@ -718,18 +740,23 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 56,
+        "aer": 54,
+        "com": 58,
         "dri": 53,
         "ldr": 52,
-        "pac": 53,
+        "pac": 62,
         "pas": 59,
-        "pos": 52,
+        "pos": 63,
         "sho": 46,
         "sta": 57,
-        "str": 52,
-        "tac": 48,
+        "str": 63,
+        "tac": 59,
         "vis": 57
       },
       "birth": "2000-12-01",
@@ -741,10 +768,14 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 37,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 21000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 54,

@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 63,
-        "ldr": 64,
-        "pac": 58,
+        "aer": 48,
+        "com": 64,
+        "dri": 67,
+        "ldr": 62,
+        "pac": 61,
         "pas": 67,
-        "pos": 65,
-        "sho": 58,
-        "sta": 65,
-        "str": 63,
-        "tac": 62,
-        "vis": 63
+        "pos": 50,
+        "sho": 64,
+        "sta": 59,
+        "str": 58,
+        "tac": 44,
+        "vis": 65
       },
       "birth": "1969-09-01",
       "contract": null,
@@ -47,7 +47,7 @@
       "nation": "RUS",
       "nation2": "GEO",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3000
     },
@@ -86,7 +86,7 @@
         "ldr": 55,
         "pac": 58,
         "pas": 49,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 57,
         "str": 60,
@@ -106,18 +106,23 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 50,
+        "aer": 59,
         "com": 61,
         "dri": 54,
         "ldr": 57,
-        "pac": 54,
+        "pac": 63,
         "pas": 63,
-        "pos": 59,
+        "pos": 68,
         "sho": 52,
         "sta": 62,
-        "str": 56,
-        "tac": 55,
+        "str": 65,
+        "tac": 64,
         "vis": 59
       },
       "birth": "1967-12-01",
@@ -128,7 +133,7 @@
       "name": "Jurgen Lugynger",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 3000
     },
     {
@@ -139,7 +144,7 @@
         "ldr": 48,
         "pac": 55,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 61,
         "sta": 50,
         "str": 60,
@@ -186,6 +191,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -239,6 +247,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -299,7 +310,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 47,
-        "pos": 34,
+        "pos": 54,
         "sho": 59,
         "sta": 53,
         "str": 57,
@@ -318,6 +329,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 57,
@@ -344,6 +358,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -423,6 +442,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 52,
@@ -449,6 +471,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 50,
@@ -503,6 +528,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 53,
@@ -562,7 +590,7 @@
         "ldr": 43,
         "pac": 54,
         "pas": 46,
-        "pos": 32,
+        "pos": 52,
         "sho": 58,
         "sta": 49,
         "str": 51,
@@ -582,17 +610,22 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 55,
-        "dri": 50,
+        "aer": 50,
+        "com": 60,
+        "dri": 51,
         "ldr": 45,
-        "pac": 47,
+        "pac": 52,
         "pas": 52,
-        "pos": 51,
-        "sho": 49,
+        "pos": 56,
+        "sho": 54,
         "sta": 52,
-        "str": 49,
+        "str": 54,
         "tac": 45,
         "vis": 56
       },
@@ -604,11 +637,14 @@
       "name": "Mircea Onisamiuc",
       "nation": "ROU",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -637,17 +673,17 @@
     {
       "attrs": {
         "aer": 41,
-        "com": 48,
-        "dri": 50,
-        "ldr": 47,
-        "pac": 43,
-        "pas": 51,
+        "com": 44,
+        "dri": 48,
+        "ldr": 45,
+        "pac": 50,
+        "pas": 45,
         "pos": 50,
-        "sho": 42,
+        "sho": 28,
         "sta": 55,
-        "str": 49,
-        "tac": 46,
-        "vis": 52
+        "str": 48,
+        "tac": 50,
+        "vis": 43
       },
       "birth": "1966-06-01",
       "contract": null,
@@ -657,7 +693,7 @@
       "name": "Daniel Cyuca",
       "nation": "ROU",
       "number": null,
-      "pos": "CM",
+      "pos": "RB",
       "verify": true,
       "wage": 1000
     },

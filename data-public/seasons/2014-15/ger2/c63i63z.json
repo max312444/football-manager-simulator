@@ -131,18 +131,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 54,
-        "dri": 41,
-        "ldr": 55,
-        "pac": 55,
-        "pas": 48,
-        "pos": 64,
-        "sho": 32,
-        "sta": 51,
-        "str": 59,
-        "tac": 58,
-        "vis": 43
+        "aer": 50,
+        "com": 52,
+        "dri": 51,
+        "ldr": 51,
+        "pac": 63,
+        "pas": 52,
+        "pos": 59,
+        "sho": 39,
+        "sta": 57,
+        "str": 51,
+        "tac": 55,
+        "vis": 49
       },
       "birth": "1987-10-01",
       "contract": null,
@@ -152,23 +152,23 @@
       "name": "Benjamin Kassel",
       "nation": "GER",
       "number": 5,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 59,
-        "dri": 53,
-        "ldr": 51,
-        "pac": 55,
-        "pas": 63,
-        "pos": 57,
-        "sho": 55,
+        "dri": 49,
+        "ldr": 53,
+        "pac": 52,
+        "pas": 62,
+        "pos": 61,
+        "sho": 49,
         "sta": 57,
-        "str": 55,
-        "tac": 54,
-        "vis": 61
+        "str": 60,
+        "tac": 60,
+        "vis": 58
       },
       "birth": "1985-10-01",
       "contract": null,
@@ -179,10 +179,14 @@
       "nation": "BIH",
       "nation2": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 61,
         "com": 67,
@@ -190,7 +194,7 @@
         "ldr": 57,
         "pac": 64,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 67,
         "sta": 59,
         "str": 64,
@@ -244,7 +248,7 @@
         "ldr": 47,
         "pac": 58,
         "pas": 51,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 50,
         "str": 58,
@@ -264,6 +268,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 55,
@@ -290,6 +297,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -316,6 +326,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 56,
@@ -342,19 +355,23 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 60,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 62,
-        "pas": 55,
-        "pos": 36,
-        "sho": 63,
-        "sta": 57,
-        "str": 59,
-        "tac": 28,
-        "vis": 55
+        "aer": 45,
+        "com": 57,
+        "dri": 64,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 61,
+        "pos": 38,
+        "sho": 58,
+        "sta": 59,
+        "str": 49,
+        "tac": 34,
+        "vis": 61
       },
       "birth": "1993-12-01",
       "contract": null,
@@ -365,23 +382,26 @@
       "name": "Ryu Seong-woo",
       "nation": "KOR",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 62,
-        "dri": 64,
-        "ldr": 57,
-        "pac": 55,
-        "pas": 67,
-        "pos": 58,
-        "sho": 56,
+        "dri": 60,
+        "ldr": 59,
+        "pac": 52,
+        "pas": 66,
+        "pos": 62,
+        "sho": 50,
         "sta": 64,
-        "str": 60,
-        "tac": 60,
-        "vis": 64
+        "str": 65,
+        "tac": 66,
+        "vis": 61
       },
       "birth": "1987-01-01",
       "contract": null,
@@ -391,10 +411,14 @@
       "name": "Norman Theuerkeuf",
       "nation": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 7500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -454,7 +478,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 54,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 57,
         "str": 61,
@@ -473,6 +497,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 56,
@@ -499,19 +528,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 59,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 57,
-        "pos": 57,
-        "sho": 51,
-        "sta": 58,
-        "str": 56,
-        "tac": 57,
-        "vis": 57
+        "aer": 39,
+        "com": 57,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 63,
+        "pas": 53,
+        "pos": 39,
+        "sho": 55,
+        "sta": 54,
+        "str": 51,
+        "tac": 37,
+        "vis": 54
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -521,7 +553,7 @@
       "name": "Salim Khalifi",
       "nation": "SUI",
       "number": 22,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 4500
     },
     {
@@ -532,7 +564,7 @@
         "ldr": 57,
         "pac": 61,
         "pas": 53,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 57,
         "str": 63,
@@ -580,19 +612,24 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 59,
-        "dri": 50,
+        "com": 61,
+        "dri": 58,
         "ldr": 49,
         "pac": 57,
-        "pas": 46,
-        "pos": 31,
-        "sho": 60,
+        "pas": 56,
+        "pos": 51,
+        "sho": 62,
         "sta": 51,
         "str": 53,
         "tac": 25,
-        "vis": 45
+        "vis": 55
       },
       "birth": "1990-08-01",
       "contract": null,
@@ -602,23 +639,23 @@
       "name": "Gianluca Kurte",
       "nation": "GER",
       "number": 27,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 2000
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 59,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 58,
-        "pos": 52,
-        "sho": 51,
-        "sta": 61,
-        "str": 52,
-        "tac": 56,
-        "vis": 55
+        "aer": 38,
+        "com": 57,
+        "dri": 63,
+        "ldr": 48,
+        "pac": 63,
+        "pas": 54,
+        "pos": 34,
+        "sho": 55,
+        "sta": 57,
+        "str": 47,
+        "tac": 36,
+        "vis": 52
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -629,10 +666,13 @@
       "name": "Hendrick Zock",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -659,6 +699,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -666,7 +711,7 @@
         "ldr": 52,
         "pac": 59,
         "pas": 49,
-        "pos": 36,
+        "pos": 56,
         "sho": 60,
         "sta": 50,
         "str": 59,
@@ -711,6 +756,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 59,

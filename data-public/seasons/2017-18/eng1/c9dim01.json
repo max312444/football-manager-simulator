@@ -103,13 +103,13 @@
       "attrs": {
         "aer": 61,
         "com": 77,
-        "dri": 66,
+        "dri": 74,
         "ldr": 79,
-        "pac": 62,
+        "pac": 70,
         "pas": 71,
         "pos": 76,
         "sho": 49,
-        "sta": 74,
+        "sta": 82,
         "str": 75,
         "tac": 75,
         "vis": 63
@@ -129,6 +129,9 @@
       "wage": 126000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -273,15 +276,15 @@
       "attrs": {
         "aer": 57,
         "com": 71,
-        "dri": 67,
+        "dri": 69,
         "ldr": 59,
-        "pac": 67,
+        "pac": 70,
         "pas": 75,
-        "pos": 70,
+        "pos": 71,
         "sho": 57,
-        "sta": 75,
-        "str": 62,
-        "tac": 70,
+        "sta": 78,
+        "str": 63,
+        "tac": 71,
         "vis": 69
       },
       "birth": "1989-12-01",
@@ -296,18 +299,21 @@
       "wage": 95500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 63,
         "dri": 77,
         "ldr": 49,
-        "pac": 76,
+        "pac": 77,
         "pas": 67,
-        "pos": 59,
+        "pos": 60,
         "sho": 51,
         "sta": 76,
-        "str": 63,
-        "tac": 65,
+        "str": 64,
+        "tac": 66,
         "vis": 61
       },
       "birth": "1993-11-01",
@@ -323,6 +329,9 @@
       "wage": 63500
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 71,
@@ -350,6 +359,10 @@
       "wage": 112500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 78,
@@ -380,6 +393,9 @@
       "wage": 142000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,
@@ -407,19 +423,22 @@
       "wage": 109000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 76,
-        "com": 67,
+        "com": 71,
         "dri": 64,
         "ldr": 69,
         "pac": 66,
-        "pas": 66,
+        "pas": 70,
         "pos": 71,
         "sho": 55,
-        "sta": 82,
+        "sta": 86,
         "str": 84,
         "tac": 77,
-        "vis": 59
+        "vis": 63
       },
       "birth": "1989-12-01",
       "contract": "2020-06-30",
@@ -433,6 +452,11 @@
       "wage": 135500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -440,11 +464,11 @@
         "ldr": 56,
         "pac": 63,
         "pas": 67,
-        "pos": 60,
+        "pos": 66,
         "sho": 60,
         "sta": 70,
-        "str": 59,
-        "tac": 60,
+        "str": 65,
+        "tac": 66,
         "vis": 68
       },
       "birth": "1996-04-01",
@@ -455,7 +479,7 @@
       "name": "Edimilson Farnandes",
       "nation": "SUI",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 59500
     },
@@ -482,7 +506,7 @@
       "name": "Josh Collen",
       "nation": "IRL",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "leader"
       ],
@@ -492,17 +516,17 @@
     {
       "attrs": {
         "aer": 38,
-        "com": 74,
+        "com": 75,
         "dri": 83,
         "ldr": 56,
         "pac": 75,
-        "pas": 78,
+        "pas": 79,
         "pos": 62,
-        "sho": 72,
+        "sho": 73,
         "sta": 74,
         "str": 55,
         "tac": 43,
-        "vis": 78
+        "vis": 79
       },
       "birth": "1993-02-01",
       "contract": "2022-06-30",
@@ -521,17 +545,17 @@
     {
       "attrs": {
         "aer": 46,
-        "com": 68,
+        "com": 74,
         "dri": 72,
         "ldr": 58,
         "pac": 69,
-        "pas": 64,
+        "pas": 70,
         "pos": 48,
-        "sho": 65,
+        "sho": 71,
         "sta": 65,
         "str": 55,
         "tac": 45,
-        "vis": 63
+        "vis": 69
       },
       "birth": "1989-12-01",
       "contract": "2019-06-30",
@@ -542,11 +566,15 @@
       "nation": "ALG",
       "nation2": "FRA",
       "number": 11,
-      "pos": "RW",
+      "pos": "AM",
       "verify": true,
       "wage": 44500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 72,
         "com": 64,
@@ -577,6 +605,10 @@
       "wage": 120000
     },
     {
+      "alt": [
+        "RW",
+        "ST"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -604,16 +636,16 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 75,
+        "aer": 72,
+        "com": 78,
         "dri": 79,
         "ldr": 63,
         "pac": 80,
         "pas": 75,
-        "pos": 69,
-        "sho": 79,
+        "pos": 72,
+        "sho": 82,
         "sta": 76,
-        "str": 83,
+        "str": 86,
         "tac": 41,
         "vis": 74
       },

@@ -51,6 +51,11 @@
       "wage": 100000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 76,
@@ -84,7 +89,7 @@
         "ldr": 70,
         "pac": 78,
         "pas": 67,
-        "pos": 56,
+        "pos": 76,
         "sho": 79,
         "sta": 76,
         "str": 74,
@@ -103,19 +108,22 @@
       "wage": 82500
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 78,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 75,
-        "pas": 65,
-        "pos": 53,
-        "sho": 76,
-        "sta": 73,
-        "str": 75,
-        "tac": 43,
-        "vis": 63
+        "aer": 56,
+        "com": 75,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 79,
+        "pas": 71,
+        "pos": 55,
+        "sho": 71,
+        "sta": 75,
+        "str": 65,
+        "tac": 49,
+        "vis": 69
       },
       "birth": "1993-11-01",
       "contract": null,
@@ -125,7 +133,7 @@
       "name": "Soso",
       "nation": "ESP",
       "number": 8,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 56500
     },
     {
@@ -136,7 +144,7 @@
         "ldr": 63,
         "pac": 69,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 74,
         "sta": 66,
         "str": 67,
@@ -156,22 +164,19 @@
       "wage": 30500
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 70,
-        "com": 79,
-        "dri": 77,
-        "ldr": 79,
-        "pac": 75,
+        "aer": 64,
+        "com": 80,
+        "dri": 81,
+        "ldr": 77,
+        "pac": 78,
         "pas": 83,
-        "pos": 80,
-        "sho": 76,
-        "sta": 81,
-        "str": 80,
-        "tac": 76,
-        "vis": 83
+        "pos": 65,
+        "sho": 82,
+        "sta": 75,
+        "str": 75,
+        "tac": 58,
+        "vis": 85
       },
       "birth": "1986-06-01",
       "contract": null,
@@ -181,7 +186,7 @@
       "name": "Keisuke Hunda",
       "nation": "JPN",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 159000
     },
     {
@@ -192,7 +197,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 61,
-        "pos": 48,
+        "pos": 68,
         "sho": 73,
         "sta": 66,
         "str": 70,
@@ -212,9 +217,6 @@
       "wage": 38000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 74,
         "com": 70,
@@ -267,6 +269,9 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 80,
@@ -319,6 +324,9 @@
       "wage": 110000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -372,18 +380,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 71,
-        "dri": 59,
-        "ldr": 69,
-        "pac": 64,
-        "pas": 60,
-        "pos": 73,
-        "sho": 42,
-        "sta": 63,
-        "str": 70,
-        "tac": 70,
-        "vis": 54
+        "aer": 58,
+        "com": 69,
+        "dri": 69,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 64,
+        "pos": 68,
+        "sho": 49,
+        "sta": 69,
+        "str": 62,
+        "tac": 67,
+        "vis": 60
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -393,7 +401,7 @@
       "name": "Leonel Vangyoni",
       "nation": "ARG",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 38500
     },
     {
@@ -423,6 +431,9 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -498,23 +509,26 @@
       "name": "Luca Antunelli",
       "nation": "ITA",
       "number": 31,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 57000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 78,
-        "dri": 77,
-        "ldr": 77,
-        "pac": 75,
-        "pas": 78,
-        "pos": 80,
-        "sho": 76,
-        "sta": 83,
-        "str": 73,
-        "tac": 78,
-        "vis": 78
+        "aer": 70,
+        "com": 80,
+        "dri": 79,
+        "ldr": 78,
+        "pac": 76,
+        "pas": 80,
+        "pos": 81,
+        "sho": 78,
+        "sta": 85,
+        "str": 74,
+        "tac": 79,
+        "vis": 80
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -535,7 +549,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 60,
-        "pos": 52,
+        "pos": 72,
         "sho": 77,
         "sta": 68,
         "str": 71,
@@ -555,18 +569,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 60,
-        "dri": 57,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 61,
-        "pos": 59,
-        "sho": 54,
+        "dri": 53,
+        "ldr": 60,
+        "pac": 55,
+        "pas": 60,
+        "pos": 63,
+        "sho": 48,
         "sta": 61,
-        "str": 55,
-        "tac": 59,
-        "vis": 65
+        "str": 60,
+        "tac": 65,
+        "vis": 62
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -576,10 +590,13 @@
       "name": "Manuel Locatalli",
       "nation": "ITA",
       "number": 73,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 20000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 76,
@@ -686,18 +703,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 75,
-        "dri": 73,
-        "ldr": 73,
-        "pac": 72,
+        "aer": 57,
+        "com": 76,
+        "dri": 77,
+        "ldr": 71,
+        "pac": 75,
         "pas": 79,
-        "pos": 73,
-        "sho": 68,
-        "sta": 78,
-        "str": 69,
-        "tac": 74,
-        "vis": 79
+        "pos": 58,
+        "sho": 74,
+        "sta": 72,
+        "str": 64,
+        "tac": 56,
+        "vis": 81
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -707,10 +724,13 @@
       "name": "Matias Fernendez",
       "nation": "CHI",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 109000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 75,

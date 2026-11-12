@@ -24,19 +24,23 @@
   },
   "squad": [
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 83,
-        "dri": 76,
-        "ldr": 78,
-        "pac": 76,
-        "pas": 80,
-        "pos": 75,
-        "sho": 74,
-        "sta": 84,
-        "str": 72,
-        "tac": 78,
-        "vis": 82
+        "aer": 64,
+        "com": 81,
+        "dri": 81,
+        "ldr": 74,
+        "pac": 85,
+        "pas": 76,
+        "pos": 57,
+        "sho": 78,
+        "sta": 80,
+        "str": 67,
+        "tac": 58,
+        "vis": 79
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -46,7 +50,7 @@
       "name": "Nihat Kahvecy",
       "nation": "TUR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 33000
     },
@@ -58,7 +62,7 @@
         "ldr": 68,
         "pac": 74,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 80,
         "sta": 71,
         "str": 74,
@@ -77,19 +81,23 @@
       "wage": 22500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 77,
-        "dri": 75,
-        "ldr": 71,
-        "pac": 68,
+        "aer": 57,
+        "com": 78,
+        "dri": 79,
+        "ldr": 69,
+        "pac": 71,
         "pas": 74,
-        "pos": 70,
-        "sho": 67,
-        "sta": 79,
-        "str": 72,
-        "tac": 70,
-        "vis": 75
+        "pos": 55,
+        "sho": 73,
+        "sta": 73,
+        "str": 67,
+        "tac": 52,
+        "vis": 77
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -99,27 +107,24 @@
       "name": "Lee Chun-sou",
       "nation": "KOR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 29000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 75,
-        "com": 74,
-        "dri": 58,
-        "ldr": 73,
-        "pac": 66,
-        "pas": 68,
-        "pos": 77,
-        "sho": 46,
-        "sta": 71,
-        "str": 77,
-        "tac": 78,
-        "vis": 61
+        "aer": 62,
+        "com": 72,
+        "dri": 68,
+        "ldr": 69,
+        "pac": 74,
+        "pas": 72,
+        "pos": 72,
+        "sho": 53,
+        "sta": 77,
+        "str": 69,
+        "tac": 75,
+        "vis": 67
       },
       "birth": "1975-08-01",
       "contract": null,
@@ -129,10 +134,15 @@
       "name": "Aitor Lopez Rekerte",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 20500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -159,6 +169,9 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
@@ -187,19 +200,22 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 69,
-        "dri": 55,
-        "ldr": 72,
-        "pac": 66,
-        "pas": 61,
-        "pos": 73,
-        "sho": 43,
-        "sta": 70,
-        "str": 77,
-        "tac": 76,
-        "vis": 59
+        "aer": 60,
+        "com": 67,
+        "dri": 65,
+        "ldr": 68,
+        "pac": 74,
+        "pas": 65,
+        "pos": 68,
+        "sho": 50,
+        "sta": 76,
+        "str": 69,
+        "tac": 73,
+        "vis": 65
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -209,23 +225,23 @@
       "name": "Jeremie Brachet",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 15500
     },
     {
       "attrs": {
-        "aer": 70,
+        "aer": 56,
         "com": 72,
-        "dri": 68,
+        "dri": 72,
         "ldr": 65,
-        "pac": 70,
-        "pas": 67,
-        "pos": 47,
-        "sho": 76,
+        "pac": 68,
+        "pas": 77,
+        "pos": 52,
+        "sho": 73,
         "sta": 65,
-        "str": 75,
-        "tac": 42,
-        "vis": 61
+        "str": 65,
+        "tac": 50,
+        "vis": 72
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -235,7 +251,7 @@
       "name": "Jose Barkaro",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 13500
     },
     {
@@ -327,6 +343,9 @@
       "wage": 21500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 70,
@@ -405,6 +424,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -454,7 +476,7 @@
       "name": "Javier Gerrido",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 12000
     },
     {
@@ -465,7 +487,7 @@
         "ldr": 63,
         "pac": 68,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 65,
         "str": 71,
@@ -564,19 +586,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 63,
+        "com": 64,
         "dri": 67,
         "ldr": 63,
         "pac": 63,
-        "pas": 66,
+        "pas": 67,
         "pos": 62,
         "sho": 63,
         "sta": 69,
         "str": 64,
-        "tac": 65,
-        "vis": 64
+        "tac": 66,
+        "vis": 65
       },
       "birth": "1970-10-01",
       "contract": null,
@@ -591,9 +616,6 @@
       "wage": 11500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 65,
@@ -621,19 +643,22 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 63,
-        "dri": 63,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 69,
-        "pos": 65,
-        "sho": 62,
-        "sta": 64,
-        "str": 57,
-        "tac": 63,
-        "vis": 69
+        "aer": 48,
+        "com": 61,
+        "dri": 68,
+        "ldr": 56,
+        "pac": 69,
+        "pas": 65,
+        "pos": 47,
+        "sho": 66,
+        "sta": 60,
+        "str": 52,
+        "tac": 43,
+        "vis": 66
       },
       "birth": "1980-06-01",
       "contract": null,
@@ -643,11 +668,14 @@
       "name": "Gari Urenga",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 66,
@@ -697,23 +725,23 @@
       "name": "Adriano Rossatu",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 6500
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 61,
-        "dri": 52,
-        "ldr": 64,
-        "pac": 60,
-        "pas": 53,
-        "pos": 67,
-        "sho": 38,
-        "sta": 62,
-        "str": 67,
-        "tac": 66,
-        "vis": 51
+        "aer": 53,
+        "com": 59,
+        "dri": 62,
+        "ldr": 60,
+        "pac": 68,
+        "pas": 57,
+        "pos": 62,
+        "sho": 45,
+        "sta": 68,
+        "str": 59,
+        "tac": 63,
+        "vis": 57
       },
       "birth": "1980-07-01",
       "contract": null,
@@ -723,7 +751,7 @@
       "name": "Cyfu",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 7000
     },
@@ -735,7 +763,7 @@
         "ldr": 55,
         "pac": 63,
         "pas": 56,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 61,
         "str": 66,
@@ -885,27 +913,24 @@
       "name": "Xabi Cestillo",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 3000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 60,
-        "com": 53,
-        "dri": 42,
-        "ldr": 54,
-        "pac": 54,
-        "pas": 50,
-        "pos": 58,
-        "sho": 29,
-        "sta": 53,
-        "str": 60,
-        "tac": 61,
-        "vis": 40
+        "aer": 47,
+        "com": 51,
+        "dri": 52,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 54,
+        "pos": 53,
+        "sho": 36,
+        "sta": 59,
+        "str": 52,
+        "tac": 58,
+        "vis": 46
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -915,7 +940,7 @@
       "name": "Mikel Belenziaga",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 3000
     },
     {
@@ -926,7 +951,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 50,
-        "pos": 33,
+        "pos": 53,
         "sho": 61,
         "sta": 55,
         "str": 58,
@@ -946,8 +971,7 @@
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 60,
@@ -983,7 +1007,7 @@
         "ldr": 46,
         "pac": 54,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 50,
         "str": 56,
@@ -1009,7 +1033,7 @@
         "ldr": 50,
         "pac": 51,
         "pas": 49,
-        "pos": 29,
+        "pos": 49,
         "sho": 59,
         "sta": 49,
         "str": 51,
@@ -1051,7 +1075,7 @@
       "name": "Gorka Kijara",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 2000
     },
@@ -1117,7 +1141,7 @@
         "ldr": 40,
         "pac": 47,
         "pas": 42,
-        "pos": 26,
+        "pos": 46,
         "sho": 50,
         "sta": 43,
         "str": 47,

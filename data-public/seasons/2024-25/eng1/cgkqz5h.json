@@ -97,18 +97,20 @@
     },
     {
       "alt": [
-        "RWB"
+        "LB",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 62,
         "com": 69,
-        "dri": 66,
+        "dri": 67,
         "ldr": 68,
-        "pac": 66,
+        "pac": 67,
         "pas": 69,
         "pos": 69,
         "sho": 55,
-        "sta": 71,
+        "sta": 72,
         "str": 67,
         "tac": 69,
         "vis": 63
@@ -135,11 +137,11 @@
         "ldr": 59,
         "pac": 84,
         "pas": 74,
-        "pos": 70,
+        "pos": 71,
         "sho": 59,
-        "sta": 79,
-        "str": 68,
-        "tac": 72,
+        "sta": 80,
+        "str": 69,
+        "tac": 73,
         "vis": 70
       },
       "birth": "2001-06-01",
@@ -210,6 +212,9 @@
       "wage": 84000
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -292,9 +297,6 @@
       "wage": 69000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -317,14 +319,11 @@
       "name": "Pedro Lime",
       "nation": "BRA",
       "number": 37,
-      "pos": "RWB",
+      "pos": "RB",
       "verify": true,
       "wage": 31000
     },
     {
-      "alt": [
-        "DM"
-      ],
       "attrs": {
         "aer": 66,
         "com": 70,
@@ -347,7 +346,7 @@
       "name": "Mario Lemine",
       "nation": "GAB",
       "number": 5,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 128500
     },
     {
@@ -377,9 +376,6 @@
       "wage": 66500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 59,
         "com": 75,
@@ -407,21 +403,22 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 61,
-        "com": 73,
+        "com": 75,
         "dri": 75,
         "ldr": 65,
         "pac": 73,
-        "pas": 75,
-        "pos": 75,
+        "pas": 77,
+        "pos": 77,
         "sho": 59,
         "sta": 87,
-        "str": 73,
-        "tac": 81,
-        "vis": 71
+        "str": 75,
+        "tac": 83,
+        "vis": 73
       },
       "birth": "2001-02-01",
       "contract": "2029-06-30",
@@ -465,21 +462,22 @@
     },
     {
       "alt": [
-        "RW"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 50,
-        "com": 72,
+        "com": 76,
         "dri": 80,
         "ldr": 58,
         "pac": 76,
-        "pas": 74,
+        "pas": 78,
         "pos": 62,
-        "sho": 70,
+        "sho": 74,
         "sta": 82,
         "str": 64,
         "tac": 60,
-        "vis": 74
+        "vis": 78
       },
       "birth": "1998-06-01",
       "contract": "2028-06-30",
@@ -495,7 +493,8 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 55,
@@ -524,22 +523,23 @@
     },
     {
       "alt": [
-        "ST",
-        "LW"
+        "RW",
+        "LW",
+        "ST"
       ],
       "attrs": {
         "aer": 65,
-        "com": 79,
+        "com": 81,
         "dri": 85,
         "ldr": 67,
         "pac": 79,
-        "pas": 79,
+        "pas": 81,
         "pos": 59,
-        "sho": 81,
+        "sho": 83,
         "sta": 81,
         "str": 75,
         "tac": 51,
-        "vis": 79
+        "vis": 81
       },
       "birth": "1999-05-01",
       "contract": "2027-06-30",
@@ -554,19 +554,19 @@
     },
     {
       "alt": [
-        "LW"
+        "RW"
       ],
       "attrs": {
-        "aer": 53,
-        "com": 68,
+        "aer": 63,
+        "com": 78,
         "dri": 73,
         "ldr": 61,
         "pac": 78,
         "pas": 65,
-        "pos": 50,
-        "sho": 69,
+        "pos": 60,
+        "sho": 79,
         "sta": 73,
-        "str": 63,
+        "str": 73,
         "tac": 45,
         "vis": 65
       },
@@ -613,6 +613,7 @@
     },
     {
       "alt": [
+        "RW",
         "ST"
       ],
       "attrs": {
@@ -641,6 +642,9 @@
       "wage": 57000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 42,
         "com": 63,

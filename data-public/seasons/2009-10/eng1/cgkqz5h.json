@@ -99,6 +99,11 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "CB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 58,
@@ -147,7 +152,7 @@
       "name": "George Elokubi",
       "nation": "CMR",
       "number": 3,
-      "pos": "LB",
+      "pos": "CB",
       "wage": 24000
     },
     {
@@ -177,9 +182,6 @@
       "wage": 30000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 69,
         "com": 55,
@@ -232,9 +234,6 @@
       "wage": 29500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 68,
         "com": 56,
@@ -263,7 +262,8 @@
     },
     {
       "alt": [
-        "LM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -292,7 +292,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 46,
@@ -321,6 +321,9 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 59,
@@ -347,19 +350,22 @@
       "wage": 47500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 56,
+        "com": 65,
         "dri": 60,
         "ldr": 50,
         "pac": 64,
-        "pas": 62,
+        "pas": 71,
         "pos": 56,
         "sho": 60,
         "sta": 80,
         "str": 64,
-        "tac": 58,
-        "vis": 58
+        "tac": 67,
+        "vis": 67
       },
       "birth": "1986-02-01",
       "contract": "2014-06-30",
@@ -374,7 +380,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 56,
@@ -382,12 +388,12 @@
         "dri": 64,
         "ldr": 53,
         "pac": 52,
-        "pas": 76,
+        "pas": 78,
         "pos": 54,
         "sho": 68,
-        "sta": 64,
+        "sta": 66,
         "str": 68,
-        "tac": 50,
+        "tac": 52,
         "vis": 73
       },
       "birth": "1983-04-01",
@@ -406,21 +412,23 @@
     },
     {
       "alt": [
-        "LM"
+        "LB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 48,
-        "com": 60,
+        "com": 63,
         "dri": 62,
         "ldr": 50,
-        "pac": 60,
-        "pas": 68,
-        "pos": 54,
+        "pac": 69,
+        "pas": 71,
+        "pos": 66,
         "sho": 58,
-        "sta": 70,
-        "str": 62,
-        "tac": 54,
-        "vis": 64
+        "sta": 71,
+        "str": 74,
+        "tac": 66,
+        "vis": 67
       },
       "birth": "1984-11-01",
       "contract": "2011-06-30",
@@ -430,11 +438,14 @@
       "name": "David Jonas",
       "nation": "ENG",
       "number": 21,
-      "pos": "LB",
+      "pos": "DM",
       "verify": true,
       "wage": 30500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 36,
         "com": 56,
@@ -457,13 +468,18 @@
       "name": "Michael Kyghtly",
       "nation": "ENG",
       "number": 12,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],
       "wage": 18000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 60,
@@ -494,7 +510,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 59,
@@ -523,9 +540,6 @@
       "wage": 26500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 65,
         "com": 72,
@@ -555,16 +569,16 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 61,
+        "aer": 71,
+        "com": 63,
         "dri": 61,
         "ldr": 57,
         "pac": 65,
         "pas": 61,
-        "pos": 45,
-        "sho": 67,
+        "pos": 47,
+        "sho": 69,
         "sta": 81,
-        "str": 69,
+        "str": 71,
         "tac": 41,
         "vis": 57
       },
@@ -637,16 +651,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 65,
+        "aer": 68,
+        "com": 67,
         "dri": 65,
         "ldr": 49,
         "pac": 66,
         "pas": 62,
-        "pos": 42,
-        "sho": 72,
+        "pos": 44,
+        "sho": 74,
         "sta": 63,
-        "str": 66,
+        "str": 68,
         "tac": 31,
         "vis": 60
       },

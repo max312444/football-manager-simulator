@@ -45,9 +45,6 @@
       "wage": 59500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 57,
         "com": 63,
@@ -74,19 +71,16 @@
       "wage": 28500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 74,
         "com": 77,
-        "dri": 72,
+        "dri": 73,
         "ldr": 67,
-        "pac": 75,
-        "pas": 76,
+        "pac": 76,
+        "pas": 77,
         "pos": 81,
         "sho": 56,
-        "sta": 79,
+        "sta": 80,
         "str": 73,
         "tac": 84,
         "vis": 67
@@ -105,6 +99,7 @@
     },
     {
       "alt": [
+        "RB",
         "LB"
       ],
       "attrs": {
@@ -164,7 +159,8 @@
     },
     {
       "alt": [
-        "LW"
+        "LW",
+        "LWB"
       ],
       "attrs": {
         "aer": 40,
@@ -189,24 +185,27 @@
       "name": "DaMarcus Beaslei",
       "nation": "USA",
       "number": 7,
-      "pos": "LM",
+      "pos": "RW",
       "verify": true,
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 68,
+        "com": 69,
         "dri": 70,
         "ldr": 60,
         "pac": 68,
-        "pas": 74,
+        "pas": 75,
         "pos": 63,
         "sho": 65,
         "sta": 80,
         "str": 67,
-        "tac": 66,
-        "vis": 72
+        "tac": 67,
+        "vis": 73
       },
       "birth": "1982-09-01",
       "contract": "2010-06-30",
@@ -221,16 +220,16 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 50,
+        "aer": 62,
+        "com": 51,
         "dri": 61,
         "ldr": 40,
         "pac": 62,
         "pas": 53,
-        "pos": 54,
-        "sho": 53,
+        "pos": 55,
+        "sho": 54,
         "sta": 60,
-        "str": 68,
+        "str": 69,
         "tac": 21,
         "vis": 50
       },
@@ -275,19 +274,20 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 58,
-        "com": 67,
+        "aer": 69,
+        "com": 78,
         "dri": 76,
         "ldr": 49,
         "pac": 89,
         "pas": 62,
-        "pos": 50,
-        "sho": 74,
+        "pos": 61,
+        "sho": 85,
         "sta": 75,
-        "str": 62,
+        "str": 73,
         "tac": 40,
         "vis": 61
       },
@@ -307,9 +307,6 @@
       "wage": 34000
     },
     {
-      "alt": [
-        "RM"
-      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -332,21 +329,21 @@
       "name": "Trevor Sinclayr",
       "nation": "ENG",
       "number": 14,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 33500
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 67,
+        "aer": 59,
+        "com": 68,
         "dri": 64,
         "ldr": 67,
         "pac": 65,
         "pas": 60,
-        "pos": 55,
-        "sho": 68,
+        "pos": 56,
+        "sho": 69,
         "sta": 76,
-        "str": 62,
+        "str": 63,
         "tac": 48,
         "vis": 61
       },
@@ -363,6 +360,9 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 77,
@@ -393,8 +393,8 @@
     },
     {
       "alt": [
-        "LB",
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 64,
@@ -423,6 +423,9 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 57,
@@ -506,9 +509,6 @@
       "wage": 59500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 67,
         "com": 58,
@@ -563,6 +563,10 @@
       "wage": 66000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 57,
@@ -617,9 +621,6 @@
       "wage": 36000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 36,
         "com": 68,
@@ -647,6 +648,9 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 55,
         "com": 56,
@@ -669,7 +673,7 @@
       "name": "Lee Cruft",
       "nation": "ENG",
       "number": 35,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 25500
     }

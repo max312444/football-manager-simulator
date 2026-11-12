@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 86,
         "com": 82,
@@ -57,7 +60,7 @@
         "ldr": 73,
         "pac": 80,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 81,
         "sta": 80,
         "str": 80,
@@ -84,7 +87,7 @@
         "ldr": 73,
         "pac": 78,
         "pas": 74,
-        "pos": 59,
+        "pos": 79,
         "sho": 83,
         "sta": 76,
         "str": 78,
@@ -105,18 +108,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 83,
-        "dri": 75,
-        "ldr": 78,
-        "pac": 76,
+        "aer": 65,
+        "com": 84,
+        "dri": 79,
+        "ldr": 76,
+        "pac": 79,
         "pas": 84,
-        "pos": 81,
-        "sho": 76,
-        "sta": 83,
-        "str": 76,
-        "tac": 76,
-        "vis": 79
+        "pos": 66,
+        "sho": 82,
+        "sta": 77,
+        "str": 71,
+        "tac": 58,
+        "vis": 81
       },
       "birth": "1979-11-01",
       "contract": null,
@@ -126,23 +129,23 @@
       "name": "Pablo Aimer",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 64000
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 81,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 75,
-        "pas": 81,
-        "pos": 80,
-        "sho": 74,
+        "dri": 72,
+        "ldr": 76,
+        "pac": 72,
+        "pas": 80,
+        "pos": 84,
+        "sho": 68,
         "sta": 81,
-        "str": 74,
-        "tac": 78,
-        "vis": 82
+        "str": 79,
+        "tac": 84,
+        "vis": 79
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -152,7 +155,7 @@
       "name": "David Albelde",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 63500
     },
     {
@@ -182,6 +185,10 @@
       "wage": 44500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -209,6 +216,8 @@
     },
     {
       "alt": [
+        "DM",
+        "AM",
         "ST"
       ],
       "attrs": {
@@ -237,19 +246,23 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 84,
-        "com": 73,
-        "dri": 61,
-        "ldr": 78,
-        "pac": 71,
-        "pas": 71,
-        "pos": 79,
-        "sho": 54,
-        "sta": 74,
-        "str": 80,
-        "tac": 78,
-        "vis": 62
+        "aer": 71,
+        "com": 71,
+        "dri": 71,
+        "ldr": 74,
+        "pac": 79,
+        "pas": 75,
+        "pos": 74,
+        "sho": 61,
+        "sta": 80,
+        "str": 72,
+        "tac": 75,
+        "vis": 68
       },
       "birth": "1980-01-01",
       "contract": null,
@@ -259,11 +272,14 @@
       "name": "Miguel Munteiro",
       "nation": "POR",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 37000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 67,
         "com": 73,
@@ -286,7 +302,7 @@
       "name": "Fabio Aorelio",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 39500
     },
     {
@@ -317,19 +333,22 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 75,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 73,
-        "pas": 76,
-        "pos": 77,
-        "sho": 69,
-        "sta": 77,
-        "str": 71,
-        "tac": 69,
-        "vis": 75
+        "aer": 63,
+        "com": 73,
+        "dri": 77,
+        "ldr": 67,
+        "pac": 82,
+        "pas": 72,
+        "pos": 59,
+        "sho": 73,
+        "sta": 73,
+        "str": 66,
+        "tac": 49,
+        "vis": 72
       },
       "birth": "1978-09-01",
       "contract": null,
@@ -339,24 +358,27 @@
       "name": "Mario Regoeiro",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 40000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 78,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 77,
-        "pas": 67,
-        "pos": 53,
-        "sho": 82,
-        "sta": 70,
-        "str": 74,
-        "tac": 47,
-        "vis": 65
+        "aer": 63,
+        "com": 75,
+        "dri": 76,
+        "ldr": 68,
+        "pac": 81,
+        "pas": 73,
+        "pos": 55,
+        "sho": 77,
+        "sta": 72,
+        "str": 64,
+        "tac": 53,
+        "vis": 71
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -366,12 +388,13 @@
       "name": "Vicente Rodrigoez",
       "nation": "ESP",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 27000
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 57,
@@ -401,19 +424,22 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 74,
-        "dri": 72,
-        "ldr": 69,
-        "pac": 67,
-        "pas": 80,
-        "pos": 74,
-        "sho": 69,
-        "sta": 78,
-        "str": 71,
-        "tac": 72,
-        "vis": 77
+        "aer": 56,
+        "com": 72,
+        "dri": 77,
+        "ldr": 65,
+        "pac": 76,
+        "pas": 76,
+        "pos": 56,
+        "sho": 73,
+        "sta": 74,
+        "str": 66,
+        "tac": 52,
+        "vis": 74
       },
       "birth": "1976-11-01",
       "contract": null,
@@ -423,7 +449,7 @@
       "name": "Francisco Rofete",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 37000
     },
@@ -435,7 +461,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 70,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 70,
         "str": 77,
@@ -455,18 +481,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 68,
-        "dri": 72,
-        "ldr": 65,
-        "pac": 76,
-        "pas": 68,
-        "pos": 72,
-        "sho": 57,
-        "sta": 73,
-        "str": 71,
-        "tac": 71,
-        "vis": 65
+        "aer": 80,
+        "com": 70,
+        "dri": 62,
+        "ldr": 69,
+        "pac": 68,
+        "pas": 64,
+        "pos": 77,
+        "sho": 50,
+        "sta": 67,
+        "str": 79,
+        "tac": 74,
+        "vis": 59
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -476,10 +502,14 @@
       "name": "Emiliano Moratti",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 25500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 71,
@@ -514,7 +544,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 77,
         "sta": 69,
         "str": 71,
@@ -560,18 +590,18 @@
     },
     {
       "attrs": {
-        "aer": 79,
-        "com": 73,
-        "dri": 62,
-        "ldr": 69,
-        "pac": 68,
-        "pas": 64,
-        "pos": 73,
-        "sho": 49,
-        "sta": 70,
-        "str": 76,
-        "tac": 77,
-        "vis": 57
+        "aer": 66,
+        "com": 71,
+        "dri": 72,
+        "ldr": 65,
+        "pac": 76,
+        "pas": 68,
+        "pos": 68,
+        "sho": 56,
+        "sta": 76,
+        "str": 68,
+        "tac": 74,
+        "vis": 63
       },
       "birth": "1976-12-01",
       "contract": null,
@@ -581,7 +611,7 @@
       "name": "Curro Torras",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 23500
     },
     {
@@ -660,7 +690,7 @@
       "name": "Amedeo Carbuni",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 9000
     },
     {
@@ -690,6 +720,9 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 60,
@@ -717,6 +750,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 63,
@@ -751,7 +787,7 @@
         "ldr": 57,
         "pac": 57,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 62,
         "sta": 53,
         "str": 61,
@@ -770,6 +806,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -798,18 +837,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 58,
-        "dri": 42,
-        "ldr": 54,
-        "pac": 54,
-        "pas": 47,
-        "pos": 63,
-        "sho": 29,
-        "sta": 52,
-        "str": 61,
-        "tac": 57,
-        "vis": 45
+        "aer": 47,
+        "com": 56,
+        "dri": 52,
+        "ldr": 50,
+        "pac": 62,
+        "pas": 51,
+        "pos": 58,
+        "sho": 36,
+        "sta": 58,
+        "str": 53,
+        "tac": 54,
+        "vis": 51
       },
       "birth": "1986-04-01",
       "contract": null,
@@ -819,7 +858,7 @@
       "name": "Manual Ruz",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3500
     },

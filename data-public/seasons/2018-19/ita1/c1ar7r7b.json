@@ -80,18 +80,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 59,
-        "dri": 57,
-        "ldr": 49,
-        "pac": 52,
-        "pas": 59,
-        "pos": 53,
-        "sho": 51,
+        "dri": 53,
+        "ldr": 51,
+        "pac": 49,
+        "pas": 58,
+        "pos": 57,
+        "sho": 45,
         "sta": 61,
-        "str": 49,
-        "tac": 53,
-        "vis": 55
+        "str": 54,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "1998-07-01",
       "contract": null,
@@ -102,23 +102,23 @@
       "nation": "ENG",
       "nation2": "GNB",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 75,
-        "dri": 72,
-        "ldr": 74,
-        "pac": 68,
+        "aer": 62,
+        "com": 76,
+        "dri": 76,
+        "ldr": 72,
+        "pac": 71,
         "pas": 75,
-        "pos": 71,
-        "sho": 72,
-        "sta": 80,
-        "str": 72,
-        "tac": 73,
-        "vis": 75
+        "pos": 56,
+        "sho": 78,
+        "sta": 74,
+        "str": 67,
+        "tac": 55,
+        "vis": 77
       },
       "birth": "1991-12-01",
       "contract": null,
@@ -129,23 +129,23 @@
       "name": "Riccardo Seponara",
       "nation": "ITA",
       "number": 5,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 67000
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 78,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 71,
-        "pas": 81,
-        "pos": 77,
-        "sho": 75,
+        "dri": 70,
+        "ldr": 75,
+        "pac": 68,
+        "pas": 80,
+        "pos": 81,
+        "sho": 69,
         "sta": 80,
-        "str": 72,
-        "tac": 73,
-        "vis": 80
+        "str": 77,
+        "tac": 79,
+        "vis": 77
       },
       "birth": "1989-07-01",
       "contract": null,
@@ -155,10 +155,13 @@
       "name": "Albin Ekdel",
       "nation": "SWE",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 67000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 73,
@@ -185,6 +188,10 @@
       "wage": 61500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 73,
@@ -211,19 +218,23 @@
       "wage": 57000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 73,
-        "dri": 71,
-        "ldr": 73,
-        "pac": 67,
-        "pas": 78,
-        "pos": 76,
-        "sho": 69,
-        "sta": 75,
-        "str": 68,
-        "tac": 72,
-        "vis": 73
+        "aer": 65,
+        "com": 75,
+        "dri": 73,
+        "ldr": 74,
+        "pac": 68,
+        "pas": 80,
+        "pos": 77,
+        "sho": 71,
+        "sta": 77,
+        "str": 69,
+        "tac": 73,
+        "vis": 75
       },
       "birth": "1994-05-01",
       "contract": null,
@@ -238,18 +249,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 75,
-        "dri": 79,
-        "ldr": 74,
-        "pac": 75,
-        "pas": 78,
-        "pos": 75,
-        "sho": 69,
-        "sta": 82,
-        "str": 70,
-        "tac": 77,
-        "vis": 80
+        "aer": 60,
+        "com": 77,
+        "dri": 83,
+        "ldr": 72,
+        "pac": 78,
+        "pas": 79,
+        "pos": 60,
+        "sho": 76,
+        "sta": 76,
+        "str": 65,
+        "tac": 59,
+        "vis": 83
       },
       "birth": "1990-12-01",
       "contract": null,
@@ -259,10 +270,15 @@
       "name": "Gaston Remirez",
       "nation": "URU",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 67000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -316,6 +332,9 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 76,
@@ -349,7 +368,7 @@
         "ldr": 63,
         "pac": 73,
         "pas": 63,
-        "pos": 46,
+        "pos": 66,
         "sho": 70,
         "sta": 65,
         "str": 71,
@@ -394,6 +413,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 76,
         "com": 72,
@@ -420,6 +442,9 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 51,
@@ -443,23 +468,23 @@
       "name": "Junior Taveres",
       "nation": "BRA",
       "number": 22,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 5500
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 72,
-        "dri": 57,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 65,
-        "pos": 74,
-        "sho": 46,
-        "sta": 72,
-        "str": 75,
-        "tac": 76,
-        "vis": 59
+        "aer": 62,
+        "com": 70,
+        "dri": 67,
+        "ldr": 67,
+        "pac": 77,
+        "pas": 69,
+        "pos": 69,
+        "sho": 53,
+        "sta": 78,
+        "str": 67,
+        "tac": 73,
+        "vis": 65
       },
       "birth": "1992-07-01",
       "contract": null,
@@ -469,7 +494,7 @@
       "name": "Bartosz Beraszynski",
       "nation": "POL",
       "number": 24,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 39500
     },
     {
@@ -534,7 +559,7 @@
         "ldr": 68,
         "pac": 73,
         "pas": 65,
-        "pos": 52,
+        "pos": 72,
         "sho": 78,
         "sta": 73,
         "str": 76,
@@ -554,18 +579,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 67,
-        "dri": 55,
-        "ldr": 65,
-        "pac": 65,
-        "pas": 63,
-        "pos": 72,
-        "sho": 40,
-        "sta": 65,
-        "str": 73,
-        "tac": 70,
-        "vis": 56
+        "aer": 57,
+        "com": 65,
+        "dri": 65,
+        "ldr": 61,
+        "pac": 73,
+        "pas": 67,
+        "pos": 67,
+        "sho": 47,
+        "sta": 71,
+        "str": 65,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -575,7 +600,7 @@
       "name": "Nicola Morru",
       "nation": "ITA",
       "number": 29,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 24500
     },
     {
@@ -605,6 +630,10 @@
       "wage": 43000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 32,
         "com": 44,
@@ -664,7 +693,7 @@
         "ldr": 63,
         "pac": 68,
         "pas": 60,
-        "pos": 46,
+        "pos": 66,
         "sho": 67,
         "sta": 63,
         "str": 66,
@@ -684,19 +713,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 53,
-        "dri": 54,
-        "ldr": 53,
-        "pac": 47,
-        "pas": 60,
-        "pos": 56,
-        "sho": 46,
-        "sta": 54,
-        "str": 47,
-        "tac": 51,
-        "vis": 58
+        "aer": 39,
+        "com": 51,
+        "dri": 59,
+        "ldr": 49,
+        "pac": 56,
+        "pas": 56,
+        "pos": 38,
+        "sho": 50,
+        "sta": 50,
+        "str": 42,
+        "tac": 31,
+        "vis": 55
       },
       "birth": "1995-04-01",
       "contract": null,
@@ -706,11 +738,10 @@
       "name": "Gabriele Rulando",
       "nation": "ITA",
       "number": 95,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 7000
     },
     {
-      "alt": [],
       "attrs": {
         "aer": 65,
         "com": 73,
@@ -718,7 +749,7 @@
         "ldr": 63,
         "pac": 67,
         "pas": 58,
-        "pos": 48,
+        "pos": 68,
         "sho": 70,
         "sta": 65,
         "str": 69,
@@ -763,6 +794,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 46,

@@ -26,18 +26,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 64,
-        "com": 57,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 55,
-        "pas": 51,
-        "pos": 65,
-        "sho": 34,
-        "sta": 57,
-        "str": 65,
-        "tac": 65,
-        "vis": 48
+        "aer": 51,
+        "com": 55,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 63,
+        "pas": 55,
+        "pos": 60,
+        "sho": 41,
+        "sta": 63,
+        "str": 57,
+        "tac": 62,
+        "vis": 54
       },
       "birth": "1996-08-01",
       "contract": null,
@@ -47,7 +47,7 @@
       "name": "Igor Silve",
       "nation": "BRA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 19000
     },
     {
@@ -126,10 +126,13 @@
       "name": "Benjamin Mandy",
       "nation": "FRA",
       "number": 5,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 51500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 64,
@@ -157,18 +160,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 56,
-        "dri": 56,
-        "ldr": 56,
-        "pac": 54,
+        "aer": 45,
+        "com": 57,
+        "dri": 60,
+        "ldr": 54,
+        "pac": 57,
         "pas": 62,
-        "pos": 55,
-        "sho": 50,
-        "sta": 63,
-        "str": 54,
-        "tac": 54,
-        "vis": 62
+        "pos": 40,
+        "sho": 56,
+        "sta": 57,
+        "str": 49,
+        "tac": 36,
+        "vis": 64
       },
       "birth": "2002-07-01",
       "contract": null,
@@ -179,7 +182,7 @@
       "nation": "FRA",
       "nation2": "ALG",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 19500
     },
     {
@@ -190,7 +193,7 @@
         "ldr": 60,
         "pac": 66,
         "pas": 53,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 62,
         "str": 63,
@@ -210,18 +213,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 55,
-        "dri": 42,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 53,
-        "pos": 60,
-        "sho": 31,
-        "sta": 52,
-        "str": 63,
-        "tac": 63,
-        "vis": 42
+        "aer": 45,
+        "com": 53,
+        "dri": 52,
+        "ldr": 51,
+        "pac": 59,
+        "pas": 57,
+        "pos": 55,
+        "sho": 38,
+        "sta": 58,
+        "str": 55,
+        "tac": 60,
+        "vis": 48
       },
       "birth": "2000-09-01",
       "contract": null,
@@ -231,7 +234,7 @@
       "name": "Darlin Yongwe",
       "nation": "CMR",
       "number": 12,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 12500
     },
     {
@@ -261,19 +264,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 62,
-        "ldr": 62,
-        "pac": 60,
+        "aer": 44,
+        "com": 61,
+        "dri": 66,
+        "ldr": 60,
+        "pac": 63,
         "pas": 62,
-        "pos": 63,
-        "sho": 60,
-        "sta": 68,
-        "str": 57,
-        "tac": 56,
-        "vis": 65
+        "pos": 48,
+        "sho": 66,
+        "sta": 62,
+        "str": 52,
+        "tac": 38,
+        "vis": 67
       },
       "birth": "1998-07-01",
       "contract": null,
@@ -284,7 +290,7 @@
       "name": "Romain Feivre",
       "nation": "FRA",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 31500
     },
     {
@@ -314,18 +320,21 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 65,
         "dri": 63,
         "ldr": 60,
         "pac": 58,
-        "pas": 63,
+        "pas": 64,
         "pos": 61,
         "sho": 59,
-        "sta": 63,
+        "sta": 64,
         "str": 58,
-        "tac": 56,
+        "tac": 57,
         "vis": 63
       },
       "birth": "1998-06-01",
@@ -341,6 +350,9 @@
       "wage": 30000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 52,
@@ -369,18 +381,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 63,
-        "dri": 63,
-        "ldr": 59,
-        "pac": 59,
-        "pas": 66,
-        "pos": 65,
-        "sho": 59,
+        "dri": 59,
+        "ldr": 61,
+        "pac": 56,
+        "pas": 65,
+        "pos": 69,
+        "sho": 53,
         "sta": 67,
-        "str": 61,
-        "tac": 63,
-        "vis": 66
+        "str": 66,
+        "tac": 69,
+        "vis": 63
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -390,13 +402,10 @@
       "name": "Laurent Abargel",
       "nation": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 38000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 46,
         "com": 53,
@@ -424,6 +433,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 59,
@@ -457,7 +469,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 55,
         "sta": 50,
         "str": 55,
@@ -525,7 +537,7 @@
       "name": "Vincent Le Guff",
       "nation": "FRA",
       "number": 25,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 14500
     },
     {
@@ -536,7 +548,7 @@
         "ldr": 48,
         "pac": 53,
         "pas": 44,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 49,
         "str": 54,
@@ -562,7 +574,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 56,
-        "pos": 37,
+        "pos": 57,
         "sho": 68,
         "sta": 55,
         "str": 62,
@@ -589,7 +601,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 48,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 48,
         "str": 54,
@@ -609,19 +621,24 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 56,
-        "dri": 44,
-        "ldr": 50,
-        "pac": 49,
-        "pas": 49,
-        "pos": 55,
-        "sho": 27,
-        "sta": 54,
-        "str": 58,
-        "tac": 58,
-        "vis": 44
+        "aer": 44,
+        "com": 54,
+        "dri": 54,
+        "ldr": 46,
+        "pac": 57,
+        "pas": 53,
+        "pos": 50,
+        "sho": 34,
+        "sta": 60,
+        "str": 50,
+        "tac": 55,
+        "vis": 50
       },
       "birth": "2002-10-01",
       "contract": null,
@@ -631,7 +648,7 @@
       "name": "Theo Le Brys",
       "nation": "FRA",
       "number": 37,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 10000
     },
     {
@@ -662,6 +679,9 @@
       "wage": 51500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 36,
         "com": 52,
@@ -697,7 +717,7 @@
         "ldr": 60,
         "pac": 64,
         "pas": 59,
-        "pos": 43,
+        "pos": 63,
         "sho": 64,
         "sta": 61,
         "str": 66,
@@ -716,17 +736,22 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 54,
-        "dri": 53,
+        "aer": 53,
+        "com": 61,
+        "dri": 56,
         "ldr": 48,
-        "pac": 52,
+        "pac": 58,
         "pas": 58,
-        "pos": 52,
-        "sho": 47,
+        "pos": 59,
+        "sho": 54,
         "sta": 54,
-        "str": 52,
+        "str": 59,
         "tac": 49,
         "vis": 55
       },
@@ -738,7 +763,7 @@
       "name": "Joel Mvuke",
       "nation": "NOR",
       "number": 93,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 12000
     },
     {
@@ -769,6 +794,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,

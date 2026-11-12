@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 68,
-        "com": 74,
-        "dri": 71,
-        "ldr": 70,
-        "pac": 68,
+        "aer": 62,
+        "com": 75,
+        "dri": 75,
+        "ldr": 68,
+        "pac": 71,
         "pas": 80,
-        "pos": 76,
-        "sho": 67,
-        "sta": 79,
-        "str": 74,
-        "tac": 71,
-        "vis": 74
+        "pos": 61,
+        "sho": 73,
+        "sta": 73,
+        "str": 69,
+        "tac": 53,
+        "vis": 76
       },
       "birth": "1980-05-01",
       "contract": "2009-06-26",
@@ -47,7 +47,7 @@
       "nation": "VEN",
       "nation2": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 32500
     },
     {
@@ -112,7 +112,7 @@
         "ldr": 68,
         "pac": 76,
         "pas": 67,
-        "pos": 53,
+        "pos": 73,
         "sho": 78,
         "sta": 71,
         "str": 74,
@@ -160,18 +160,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 72,
-        "dri": 70,
-        "ldr": 73,
-        "pac": 71,
-        "pas": 80,
-        "pos": 74,
-        "sho": 71,
+        "dri": 66,
+        "ldr": 75,
+        "pac": 68,
+        "pas": 79,
+        "pos": 78,
+        "sho": 65,
         "sta": 79,
-        "str": 68,
-        "tac": 74,
-        "vis": 73
+        "str": 73,
+        "tac": 80,
+        "vis": 70
       },
       "birth": "1976-07-01",
       "contract": null,
@@ -181,11 +181,14 @@
       "name": "Gonzalo de los Santus",
       "nation": "URU",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 32500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -220,7 +223,7 @@
         "ldr": 70,
         "pac": 75,
         "pas": 68,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 71,
         "str": 75,
@@ -240,6 +243,9 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 70,
@@ -268,18 +274,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 73,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 70,
-        "pas": 71,
-        "pos": 72,
-        "sho": 64,
+        "dri": 65,
+        "ldr": 72,
+        "pac": 67,
+        "pas": 70,
+        "pos": 76,
+        "sho": 58,
         "sta": 74,
-        "str": 68,
-        "tac": 70,
-        "vis": 76
+        "str": 73,
+        "tac": 76,
+        "vis": 73
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -289,7 +295,7 @@
       "name": "Borja Fernandaz",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 24500
     },
@@ -316,7 +322,7 @@
       "name": "Fernando Nevarro",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 16500
     },
@@ -328,7 +334,7 @@
         "ldr": 68,
         "pac": 69,
         "pas": 61,
-        "pos": 51,
+        "pos": 71,
         "sho": 73,
         "sta": 67,
         "str": 72,
@@ -381,7 +387,7 @@
         "ldr": 67,
         "pac": 69,
         "pas": 62,
-        "pos": 52,
+        "pos": 72,
         "sho": 74,
         "sta": 70,
         "str": 70,
@@ -401,19 +407,22 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 71,
-        "dri": 68,
-        "ldr": 67,
-        "pac": 66,
-        "pas": 73,
-        "pos": 72,
-        "sho": 66,
-        "sta": 74,
-        "str": 66,
-        "tac": 70,
-        "vis": 71
+        "aer": 61,
+        "com": 73,
+        "dri": 70,
+        "ldr": 68,
+        "pac": 67,
+        "pas": 75,
+        "pos": 73,
+        "sho": 68,
+        "sta": 76,
+        "str": 67,
+        "tac": 71,
+        "vis": 73
       },
       "birth": "1975-04-01",
       "contract": null,
@@ -435,7 +444,7 @@
         "ldr": 66,
         "pac": 67,
         "pas": 58,
-        "pos": 49,
+        "pos": 69,
         "sho": 69,
         "sta": 66,
         "str": 67,
@@ -455,6 +464,11 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 75,
         "com": 70,
@@ -510,6 +524,10 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "LM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 67,
@@ -538,18 +556,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 65,
-        "dri": 51,
-        "ldr": 62,
-        "pac": 60,
-        "pas": 57,
-        "pos": 69,
-        "sho": 36,
-        "sta": 63,
-        "str": 70,
-        "tac": 72,
-        "vis": 49
+        "aer": 56,
+        "com": 63,
+        "dri": 61,
+        "ldr": 58,
+        "pac": 68,
+        "pas": 61,
+        "pos": 64,
+        "sho": 43,
+        "sta": 69,
+        "str": 62,
+        "tac": 69,
+        "vis": 55
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -559,13 +577,13 @@
       "name": "Alessandro Potanza",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 8000
     },
     {
       "alt": [
-        "CM"
+        "CB"
       ],
       "attrs": {
         "aer": 60,
@@ -594,6 +612,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -622,18 +643,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 64,
-        "dri": 48,
-        "ldr": 63,
-        "pac": 58,
-        "pas": 55,
-        "pos": 68,
-        "sho": 39,
-        "sta": 58,
-        "str": 70,
-        "tac": 71,
-        "vis": 53
+        "aer": 54,
+        "com": 62,
+        "dri": 58,
+        "ldr": 59,
+        "pac": 66,
+        "pas": 59,
+        "pos": 63,
+        "sho": 46,
+        "sta": 64,
+        "str": 62,
+        "tac": 68,
+        "vis": 59
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -643,23 +664,23 @@
       "name": "David Cortas",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 7500
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 64,
-        "dri": 62,
-        "ldr": 57,
-        "pac": 62,
-        "pas": 64,
-        "pos": 65,
-        "sho": 60,
+        "dri": 58,
+        "ldr": 59,
+        "pac": 59,
+        "pas": 63,
+        "pos": 69,
+        "sho": 54,
         "sta": 63,
-        "str": 56,
-        "tac": 58,
-        "vis": 62
+        "str": 61,
+        "tac": 64,
+        "vis": 59
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -669,7 +690,7 @@
       "name": "Guillermo Perayra",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
@@ -680,7 +701,7 @@
         "ldr": 57,
         "pac": 61,
         "pas": 57,
-        "pos": 41,
+        "pos": 61,
         "sho": 64,
         "sta": 61,
         "str": 66,
@@ -700,6 +721,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -733,7 +757,7 @@
         "ldr": 54,
         "pac": 60,
         "pas": 52,
-        "pos": 39,
+        "pos": 59,
         "sho": 69,
         "sta": 59,
         "str": 62,
@@ -780,19 +804,22 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 58,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 53,
-        "pas": 65,
-        "pos": 59,
-        "sho": 55,
-        "sta": 63,
-        "str": 57,
-        "tac": 58,
-        "vis": 62
+        "aer": 48,
+        "com": 56,
+        "dri": 65,
+        "ldr": 55,
+        "pac": 62,
+        "pas": 61,
+        "pos": 41,
+        "sho": 59,
+        "sta": 59,
+        "str": 52,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -802,7 +829,7 @@
       "name": "Carlos Cermona",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 6500
     },
@@ -834,6 +861,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -889,18 +919,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 62,
-        "dri": 57,
-        "ldr": 53,
-        "pac": 58,
+        "aer": 45,
+        "com": 63,
+        "dri": 61,
+        "ldr": 51,
+        "pac": 61,
         "pas": 65,
-        "pos": 61,
-        "sho": 55,
-        "sta": 60,
-        "str": 56,
-        "tac": 54,
-        "vis": 60
+        "pos": 46,
+        "sho": 61,
+        "sta": 54,
+        "str": 51,
+        "tac": 36,
+        "vis": 62
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -910,7 +940,7 @@
       "name": "Toni",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 6000
     },
     {
@@ -941,19 +971,22 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 56,
-        "dri": 46,
-        "ldr": 53,
-        "pac": 55,
-        "pas": 48,
-        "pos": 58,
-        "sho": 32,
-        "sta": 57,
-        "str": 62,
-        "tac": 62,
-        "vis": 46
+        "aer": 48,
+        "com": 54,
+        "dri": 58,
+        "ldr": 49,
+        "pac": 65,
+        "pas": 53,
+        "pos": 51,
+        "sho": 42,
+        "sta": 65,
+        "str": 54,
+        "tac": 57,
+        "vis": 53
       },
       "birth": "1982-09-01",
       "contract": null,
@@ -963,27 +996,24 @@
       "name": "Rafyta",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RWB",
       "verify": true,
       "wage": 3500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 63,
-        "com": 53,
-        "dri": 46,
-        "ldr": 59,
-        "pac": 50,
-        "pas": 51,
-        "pos": 63,
-        "sho": 31,
-        "sta": 54,
-        "str": 58,
-        "tac": 61,
-        "vis": 47
+        "aer": 50,
+        "com": 51,
+        "dri": 56,
+        "ldr": 55,
+        "pac": 58,
+        "pas": 55,
+        "pos": 58,
+        "sho": 38,
+        "sta": 60,
+        "str": 50,
+        "tac": 58,
+        "vis": 53
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -993,23 +1023,27 @@
       "name": "Titu",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 57,
-        "dri": 58,
-        "ldr": 52,
-        "pac": 54,
+        "aer": 41,
+        "com": 58,
+        "dri": 62,
+        "ldr": 50,
+        "pac": 57,
         "pas": 62,
-        "pos": 58,
-        "sho": 50,
-        "sta": 63,
-        "str": 56,
-        "tac": 55,
-        "vis": 57
+        "pos": 43,
+        "sho": 56,
+        "sta": 57,
+        "str": 51,
+        "tac": 37,
+        "vis": 59
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -1019,23 +1053,23 @@
       "name": "Toni Gonzelez",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 46,
-        "com": 56,
-        "dri": 54,
-        "ldr": 52,
-        "pac": 52,
-        "pas": 56,
-        "pos": 55,
-        "sho": 52,
-        "sta": 61,
-        "str": 55,
-        "tac": 52,
-        "vis": 58
+        "aer": 40,
+        "com": 54,
+        "dri": 59,
+        "ldr": 48,
+        "pac": 61,
+        "pas": 52,
+        "pos": 37,
+        "sho": 56,
+        "sta": 57,
+        "str": 50,
+        "tac": 32,
+        "vis": 55
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -1045,7 +1079,7 @@
       "name": "Adrian Peralte",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "LW",
       "verify": true,
       "wage": 4000
     },
@@ -1057,7 +1091,7 @@
         "ldr": 47,
         "pac": 53,
         "pas": 46,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 54,
         "str": 55,
@@ -1078,18 +1112,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
+        "aer": 48,
         "com": 52,
-        "dri": 53,
-        "ldr": 50,
-        "pac": 52,
-        "pas": 58,
-        "pos": 50,
-        "sho": 50,
+        "dri": 49,
+        "ldr": 52,
+        "pac": 49,
+        "pas": 57,
+        "pos": 54,
+        "sho": 44,
         "sta": 54,
-        "str": 50,
-        "tac": 51,
-        "vis": 54
+        "str": 55,
+        "tac": 57,
+        "vis": 51
       },
       "birth": "1968-09-01",
       "contract": null,
@@ -1099,24 +1133,24 @@
       "name": "Marcos Mertin",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 49,
-        "dri": 50,
-        "ldr": 48,
-        "pac": 50,
-        "pas": 53,
-        "pos": 49,
-        "sho": 43,
-        "sta": 52,
-        "str": 50,
-        "tac": 51,
-        "vis": 51
+        "aer": 39,
+        "com": 47,
+        "dri": 55,
+        "ldr": 44,
+        "pac": 59,
+        "pas": 49,
+        "pos": 31,
+        "sho": 47,
+        "sta": 48,
+        "str": 45,
+        "tac": 31,
+        "vis": 48
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -1126,7 +1160,7 @@
       "name": "David Etu'o",
       "nation": "CMR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 2500
     }

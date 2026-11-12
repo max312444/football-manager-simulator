@@ -70,6 +70,10 @@
       "wage": 19000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -97,7 +101,9 @@
     },
     {
       "alt": [
-        "DM"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 72,
@@ -178,19 +184,19 @@
     },
     {
       "alt": [
-        "LW"
+        "AM"
       ],
       "attrs": {
-        "aer": 48,
-        "com": 64,
+        "aer": 63,
+        "com": 79,
         "dri": 74,
         "ldr": 56,
         "pac": 88,
         "pas": 64,
-        "pos": 46,
-        "sho": 72,
+        "pos": 61,
+        "sho": 87,
         "sta": 76,
-        "str": 58,
+        "str": 73,
         "tac": 34,
         "vis": 62
       },
@@ -210,7 +216,8 @@
     },
     {
       "alt": [
-        "LM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 52,
@@ -320,21 +327,23 @@
     },
     {
       "alt": [
-        "RB"
+        "CM",
+        "RB",
+        "LB"
       ],
       "attrs": {
-        "aer": 52,
-        "com": 54,
-        "dri": 56,
+        "aer": 64,
+        "com": 66,
+        "dri": 64,
         "ldr": 46,
-        "pac": 58,
-        "pas": 58,
-        "pos": 58,
-        "sho": 40,
+        "pac": 66,
+        "pas": 66,
+        "pos": 70,
+        "sho": 48,
         "sta": 70,
-        "str": 60,
-        "tac": 62,
-        "vis": 50
+        "str": 72,
+        "tac": 74,
+        "vis": 58
       },
       "birth": "1979-05-01",
       "contract": "2003-06-30",
@@ -344,23 +353,26 @@
       "name": "Barry Quynn",
       "nation": "IRL",
       "number": 22,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
-        "com": 56,
-        "dri": 58,
+        "com": 62,
+        "dri": 63,
         "ldr": 54,
         "pac": 58,
-        "pas": 62,
+        "pas": 68,
         "pos": 58,
-        "sho": 50,
-        "sta": 72,
+        "sho": 55,
+        "sta": 74,
         "str": 64,
-        "tac": 64,
-        "vis": 54
+        "tac": 65,
+        "vis": 60
       },
       "birth": "1979-11-01",
       "contract": "2003-06-30",
@@ -375,21 +387,21 @@
     },
     {
       "alt": [
-        "CB"
+        "CM"
       ],
       "attrs": {
         "aer": 66,
-        "com": 62,
+        "com": 65,
         "dri": 50,
         "ldr": 66,
         "pac": 50,
-        "pas": 60,
+        "pas": 63,
         "pos": 64,
         "sho": 48,
-        "sta": 64,
+        "sta": 67,
         "str": 70,
         "tac": 68,
-        "vis": 52
+        "vis": 55
       },
       "birth": "1965-12-01",
       "contract": "2001-06-30",
@@ -430,21 +442,22 @@
     },
     {
       "alt": [
+        "DM",
         "RM"
       ],
       "attrs": {
         "aer": 46,
-        "com": 60,
+        "com": 63,
         "dri": 66,
         "ldr": 52,
         "pac": 62,
-        "pas": 70,
+        "pas": 73,
         "pos": 60,
         "sho": 62,
         "sta": 76,
         "str": 58,
-        "tac": 64,
-        "vis": 64
+        "tac": 67,
+        "vis": 67
       },
       "birth": "1977-09-01",
       "contract": "2004-06-30",
@@ -459,7 +472,7 @@
     },
     {
       "alt": [
-        "LWB"
+        "LW"
       ],
       "attrs": {
         "aer": 48,
@@ -483,17 +496,13 @@
       "name": "Steve Fruggatt",
       "nation": "ENG",
       "number": 3,
-      "pos": "LM",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],
       "wage": 17000
     },
     {
-      "alt": [
-        "RB",
-        "CM"
-      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -516,7 +525,7 @@
       "name": "Paul Telfar",
       "nation": "SCO",
       "number": 12,
-      "pos": "RM",
+      "pos": "RB",
       "wage": 25000
     },
     {
@@ -547,16 +556,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 56,
+        "aer": 55,
+        "com": 61,
         "dri": 64,
         "ldr": 40,
         "pac": 70,
         "pas": 52,
-        "pos": 44,
-        "sho": 62,
+        "pos": 49,
+        "sho": 67,
         "sta": 60,
-        "str": 58,
+        "str": 63,
         "tac": 28,
         "vis": 46
       },
@@ -573,18 +582,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB"
       ],
       "attrs": {
         "aer": 60,
         "com": 56,
-        "dri": 52,
+        "dri": 53,
         "ldr": 46,
-        "pac": 60,
-        "pas": 56,
+        "pac": 61,
+        "pas": 57,
         "pos": 60,
         "sho": 36,
-        "sta": 66,
+        "sta": 67,
         "str": 64,
         "tac": 64,
         "vis": 44

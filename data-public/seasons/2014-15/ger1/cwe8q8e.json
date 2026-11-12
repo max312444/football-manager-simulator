@@ -51,6 +51,9 @@
       "wage": 310500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 77,
@@ -130,19 +133,22 @@
       "wage": 234000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 75,
-        "dri": 74,
+        "com": 77,
+        "dri": 76,
         "ldr": 76,
         "pac": 75,
-        "pas": 77,
+        "pas": 79,
         "pos": 76,
-        "sho": 68,
-        "sta": 77,
+        "sho": 70,
+        "sta": 79,
         "str": 74,
         "tac": 76,
-        "vis": 76
+        "vis": 78
       },
       "birth": "1991-04-01",
       "contract": null,
@@ -157,19 +163,22 @@
       "wage": 210500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 81,
-        "dri": 79,
-        "ldr": 80,
-        "pac": 76,
-        "pas": 86,
-        "pos": 80,
-        "sho": 76,
-        "sta": 81,
-        "str": 79,
-        "tac": 80,
-        "vis": 86
+        "aer": 69,
+        "com": 79,
+        "dri": 84,
+        "ldr": 76,
+        "pac": 85,
+        "pas": 82,
+        "pos": 62,
+        "sho": 80,
+        "sta": 77,
+        "str": 74,
+        "tac": 60,
+        "vis": 83
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -179,26 +188,26 @@
       "name": "Franck Ribary",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 361000
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 80,
-        "dri": 81,
-        "ldr": 76,
-        "pac": 77,
-        "pas": 80,
-        "pos": 78,
-        "sho": 75,
+        "dri": 77,
+        "ldr": 78,
+        "pac": 74,
+        "pas": 79,
+        "pos": 82,
+        "sho": 69,
         "sta": 84,
-        "str": 75,
-        "tac": 79,
-        "vis": 84
+        "str": 80,
+        "tac": 85,
+        "vis": 81
       },
       "birth": "1988-09-01",
       "contract": null,
@@ -208,7 +217,7 @@
       "name": "Javi Martinaz",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 328500
     },
     {
@@ -219,7 +228,7 @@
         "ldr": 79,
         "pac": 80,
         "pas": 78,
-        "pos": 64,
+        "pos": 84,
         "sho": 88,
         "sta": 80,
         "str": 83,
@@ -238,23 +247,19 @@
       "wage": 296000
     },
     {
-      "alt": [
-        "RW",
-        "CM"
-      ],
       "attrs": {
         "aer": 70,
-        "com": 84,
-        "dri": 84,
-        "ldr": 76,
-        "pac": 84,
-        "pas": 83,
-        "pos": 66,
-        "sho": 83,
-        "sta": 76,
+        "com": 81,
+        "dri": 85,
+        "ldr": 74,
+        "pac": 90,
+        "pas": 79,
+        "pos": 63,
+        "sho": 81,
+        "sta": 78,
         "str": 72,
-        "tac": 59,
-        "vis": 86
+        "tac": 57,
+        "vis": 81
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -264,13 +269,13 @@
       "name": "Arjen Robban",
       "nation": "NED",
       "number": 10,
-      "pos": "AM",
+      "pos": "RW",
       "wage": 287500
     },
     {
       "alt": [
         "RW",
-        "CM"
+        "LW"
       ],
       "attrs": {
         "aer": 64,
@@ -305,7 +310,7 @@
         "ldr": 68,
         "pac": 77,
         "pas": 63,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 69,
         "str": 76,
@@ -325,6 +330,9 @@
       "wage": 101000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 64,
@@ -399,23 +407,28 @@
       "name": "Juan Bernet",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 96000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 73,
-        "dri": 74,
-        "ldr": 73,
-        "pac": 70,
+        "aer": 63,
+        "com": 74,
+        "dri": 78,
+        "ldr": 71,
+        "pac": 73,
         "pas": 79,
-        "pos": 73,
-        "sho": 72,
-        "sta": 81,
-        "str": 68,
-        "tac": 75,
-        "vis": 74
+        "pos": 58,
+        "sho": 78,
+        "sta": 75,
+        "str": 63,
+        "tac": 57,
+        "vis": 76
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -425,10 +438,13 @@
       "name": "Mario Gutze",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 193500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 74,
@@ -455,6 +471,11 @@
       "wage": 139000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 80,
@@ -533,20 +554,22 @@
       "wage": 254500
     },
     {
-      "alt": [],
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 56,
-        "com": 65,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 65,
-        "pas": 71,
+        "com": 61,
+        "dri": 64,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 65,
         "pos": 65,
-        "sho": 62,
+        "sho": 48,
         "sta": 70,
-        "str": 65,
-        "tac": 64,
-        "vis": 66
+        "str": 64,
+        "tac": 68,
+        "vis": 57
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -557,12 +580,14 @@
       "nation": "GER",
       "nation2": "ALG",
       "number": 24,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 76000
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 80,
@@ -571,7 +596,7 @@
         "ldr": 74,
         "pac": 81,
         "pas": 72,
-        "pos": 56,
+        "pos": 76,
         "sho": 82,
         "sta": 79,
         "str": 79,
@@ -591,8 +616,7 @@
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 80,
@@ -646,6 +670,9 @@
       "wage": 178000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 81,
@@ -673,18 +700,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 66,
-        "dri": 69,
-        "ldr": 67,
-        "pac": 66,
-        "pas": 71,
-        "pos": 64,
-        "sho": 62,
+        "dri": 65,
+        "ldr": 69,
+        "pac": 63,
+        "pas": 70,
+        "pos": 68,
+        "sho": 56,
         "sta": 71,
-        "str": 67,
-        "tac": 65,
-        "vis": 69
+        "str": 72,
+        "tac": 71,
+        "vis": 66
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -695,7 +722,7 @@
       "nation": "DEN",
       "nation2": "FRA",
       "number": 34,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 85000
     }
   ],

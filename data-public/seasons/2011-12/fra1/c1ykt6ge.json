@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 60,
-        "dri": 44,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 51,
-        "pos": 63,
-        "sho": 32,
-        "sta": 54,
-        "str": 66,
-        "tac": 62,
-        "vis": 45
+        "aer": 51,
+        "com": 58,
+        "dri": 54,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 55,
+        "pos": 58,
+        "sho": 39,
+        "sta": 60,
+        "str": 58,
+        "tac": 59,
+        "vis": 51
       },
       "birth": "1985-03-01",
       "contract": null,
@@ -100,10 +100,15 @@
       "name": "Pedrynho",
       "nation": "POR",
       "number": 3,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 65,
@@ -184,6 +189,9 @@
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 66,
@@ -211,6 +219,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 66,
@@ -244,7 +255,7 @@
         "ldr": 56,
         "pac": 67,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 68,
         "sta": 63,
         "str": 65,
@@ -264,6 +275,9 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -291,21 +305,22 @@
     },
     {
       "alt": [
-        "RW"
+        "DM",
+        "LW"
       ],
       "attrs": {
         "aer": 56,
-        "com": 62,
+        "com": 63,
         "dri": 63,
         "ldr": 63,
         "pac": 62,
-        "pas": 63,
+        "pas": 64,
         "pos": 63,
         "sho": 55,
         "sta": 67,
         "str": 62,
-        "tac": 58,
-        "vis": 62
+        "tac": 59,
+        "vis": 63
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -342,22 +357,27 @@
       "name": "Lucas Mareqoe",
       "nation": "ARG",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 12000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 69,
-        "dri": 63,
+        "aer": 55,
+        "com": 64,
+        "dri": 61,
         "ldr": 62,
-        "pac": 63,
-        "pas": 58,
-        "pos": 42,
-        "sho": 68,
-        "sta": 63,
-        "str": 68,
-        "tac": 36,
+        "pac": 65,
+        "pas": 62,
+        "pos": 62,
+        "sho": 45,
+        "sta": 69,
+        "str": 62,
+        "tac": 66,
         "vis": 57
       },
       "birth": "1986-02-01",
@@ -369,7 +389,7 @@
       "nation": "ARG",
       "nation2": "FRA",
       "number": 13,
-      "pos": "ST",
+      "pos": "LB",
       "wage": 13000
     },
     {
@@ -406,7 +426,7 @@
         "ldr": 69,
         "pac": 71,
         "pas": 64,
-        "pos": 48,
+        "pos": 68,
         "sho": 76,
         "sta": 65,
         "str": 69,
@@ -477,19 +497,22 @@
       "wage": 10500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 64,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 64,
-        "pas": 54,
-        "pos": 43,
-        "sho": 64,
-        "sta": 58,
-        "str": 65,
-        "tac": 36,
-        "vis": 55
+        "aer": 48,
+        "com": 61,
+        "dri": 63,
+        "ldr": 55,
+        "pac": 68,
+        "pas": 60,
+        "pos": 45,
+        "sho": 59,
+        "sta": 60,
+        "str": 55,
+        "tac": 42,
+        "vis": 61
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -500,25 +523,22 @@
       "nation": "FRA",
       "nation2": "COD",
       "number": 18,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 9500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 55,
-        "com": 57,
-        "dri": 55,
+        "aer": 47,
+        "com": 52,
+        "dri": 53,
         "ldr": 48,
-        "pac": 55,
-        "pas": 48,
-        "pos": 35,
-        "sho": 55,
-        "sta": 48,
-        "str": 55,
-        "tac": 27,
+        "pac": 57,
+        "pas": 52,
+        "pos": 55,
+        "sho": 32,
+        "sta": 54,
+        "str": 49,
+        "tac": 57,
         "vis": 44
       },
       "birth": "1993-01-01",
@@ -530,10 +550,14 @@
       "nation": "FRA",
       "nation2": "THA",
       "number": 19,
-      "pos": "ST",
+      "pos": "RB",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -561,19 +585,22 @@
       "wage": 9000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 64,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 68,
-        "pas": 57,
-        "pos": 44,
-        "sho": 68,
-        "sta": 64,
-        "str": 62,
-        "tac": 35,
-        "vis": 54
+        "aer": 51,
+        "com": 61,
+        "dri": 67,
+        "ldr": 57,
+        "pac": 72,
+        "pas": 63,
+        "pos": 46,
+        "sho": 63,
+        "sta": 66,
+        "str": 52,
+        "tac": 41,
+        "vis": 60
       },
       "birth": "1988-08-01",
       "contract": null,
@@ -583,23 +610,26 @@
       "name": "Kevin Monnat-Paquet",
       "nation": "FRA",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 12000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 46,
-        "com": 57,
-        "dri": 54,
-        "ldr": 52,
-        "pac": 52,
-        "pas": 58,
-        "pos": 54,
-        "sho": 50,
-        "sta": 57,
-        "str": 49,
-        "tac": 55,
-        "vis": 56
+        "aer": 40,
+        "com": 55,
+        "dri": 59,
+        "ldr": 48,
+        "pac": 61,
+        "pas": 54,
+        "pos": 36,
+        "sho": 54,
+        "sta": 53,
+        "str": 44,
+        "tac": 35,
+        "vis": 53
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -609,10 +639,13 @@
       "name": "Mathias Aotret",
       "nation": "FRA",
       "number": 23,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 60,
@@ -640,19 +673,24 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 66,
-        "dri": 64,
-        "ldr": 56,
-        "pac": 64,
-        "pas": 57,
-        "pos": 39,
-        "sho": 66,
-        "sta": 61,
-        "str": 64,
-        "tac": 37,
-        "vis": 58
+        "aer": 47,
+        "com": 63,
+        "dri": 69,
+        "ldr": 54,
+        "pac": 68,
+        "pas": 63,
+        "pos": 41,
+        "sho": 61,
+        "sta": 63,
+        "str": 54,
+        "tac": 43,
+        "vis": 64
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -662,23 +700,26 @@
       "name": "Julien Qoercia",
       "nation": "FRA",
       "number": 27,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 11000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 66,
-        "dri": 62,
-        "ldr": 56,
-        "pac": 64,
-        "pas": 56,
-        "pos": 40,
-        "sho": 68,
-        "sta": 63,
-        "str": 66,
-        "tac": 32,
-        "vis": 59
+        "aer": 49,
+        "com": 63,
+        "dri": 67,
+        "ldr": 54,
+        "pac": 68,
+        "pas": 62,
+        "pos": 42,
+        "sho": 63,
+        "sta": 65,
+        "str": 56,
+        "tac": 38,
+        "vis": 65
       },
       "birth": "1991-03-01",
       "contract": null,
@@ -689,23 +730,23 @@
       "nation": "FRA",
       "nation2": "TOG",
       "number": 28,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 11000
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 43,
         "com": 59,
-        "dri": 61,
+        "dri": 65,
         "ldr": 51,
-        "pac": 58,
-        "pas": 50,
-        "pos": 36,
-        "sho": 64,
+        "pac": 56,
+        "pas": 60,
+        "pos": 41,
+        "sho": 61,
         "sta": 59,
-        "str": 60,
-        "tac": 30,
-        "vis": 50
+        "str": 50,
+        "tac": 38,
+        "vis": 61
       },
       "birth": "1989-01-01",
       "contract": null,
@@ -715,7 +756,7 @@
       "name": "Fabien Robart",
       "nation": "FRA",
       "number": 29,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 6500
     },
     {
@@ -745,19 +786,23 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 66,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 66,
-        "pas": 60,
-        "pos": 44,
-        "sho": 72,
-        "sta": 63,
-        "str": 67,
-        "tac": 37,
-        "vis": 60
+        "aer": 52,
+        "com": 63,
+        "dri": 69,
+        "ldr": 57,
+        "pac": 70,
+        "pas": 66,
+        "pos": 46,
+        "sho": 67,
+        "sta": 65,
+        "str": 57,
+        "tac": 43,
+        "vis": 66
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -768,7 +813,7 @@
       "name": "Joel Cempbell",
       "nation": "CRC",
       "number": 36,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 14500
     }
   ],

@@ -51,6 +51,9 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 70,
@@ -104,6 +107,9 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 83,
         "com": 77,
@@ -130,6 +136,9 @@
       "wage": 75500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 59,
@@ -157,18 +166,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 68,
-        "dri": 65,
-        "ldr": 68,
-        "pac": 64,
+        "aer": 55,
+        "com": 69,
+        "dri": 69,
+        "ldr": 66,
+        "pac": 67,
         "pas": 74,
-        "pos": 65,
-        "sho": 61,
-        "sta": 74,
-        "str": 62,
-        "tac": 66,
-        "vis": 69
+        "pos": 50,
+        "sho": 67,
+        "sta": 68,
+        "str": 57,
+        "tac": 48,
+        "vis": 71
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -178,23 +187,27 @@
       "name": "Alexander Farnarud",
       "nation": "SWE",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 45000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 72,
-        "com": 70,
-        "dri": 67,
-        "ldr": 63,
-        "pac": 73,
-        "pas": 65,
-        "pos": 49,
-        "sho": 71,
-        "sta": 70,
-        "str": 74,
-        "tac": 41,
-        "vis": 65
+        "aer": 58,
+        "com": 67,
+        "dri": 72,
+        "ldr": 61,
+        "pac": 77,
+        "pas": 71,
+        "pos": 51,
+        "sho": 66,
+        "sta": 72,
+        "str": 64,
+        "tac": 47,
+        "vis": 71
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -204,23 +217,23 @@
       "name": "Ewerthun",
       "nation": "BRA",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 38500
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 74,
-        "dri": 73,
-        "ldr": 75,
-        "pac": 69,
+        "aer": 59,
+        "com": 75,
+        "dri": 77,
+        "ldr": 73,
+        "pac": 72,
         "pas": 78,
-        "pos": 74,
-        "sho": 74,
-        "sta": 82,
-        "str": 74,
-        "tac": 73,
-        "vis": 79
+        "pos": 59,
+        "sho": 80,
+        "sta": 76,
+        "str": 69,
+        "tac": 55,
+        "vis": 81
       },
       "birth": "1978-12-01",
       "contract": null,
@@ -231,10 +244,13 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 82500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 76,
@@ -288,18 +304,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 74,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 69,
-        "pas": 75,
-        "pos": 72,
-        "sho": 73,
+        "dri": 70,
+        "ldr": 73,
+        "pac": 66,
+        "pas": 74,
+        "pos": 76,
+        "sho": 67,
         "sta": 77,
-        "str": 68,
-        "tac": 73,
-        "vis": 78
+        "str": 73,
+        "tac": 79,
+        "vis": 75
       },
       "birth": "1976-07-01",
       "contract": null,
@@ -309,7 +325,7 @@
       "name": "Pavel Perdo",
       "nation": "MEX",
       "number": 13,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 82500
     },
     {
@@ -335,23 +351,23 @@
       "name": "Arthur Buka",
       "nation": "CIV",
       "number": 15,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 71000
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 69,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 75,
-        "pas": 72,
-        "pos": 74,
-        "sho": 52,
-        "sta": 74,
-        "str": 67,
-        "tac": 77,
-        "vis": 66
+        "aer": 76,
+        "com": 71,
+        "dri": 57,
+        "ldr": 71,
+        "pac": 67,
+        "pas": 68,
+        "pos": 79,
+        "sho": 45,
+        "sta": 68,
+        "str": 75,
+        "tac": 80,
+        "vis": 60
       },
       "birth": "1981-04-01",
       "contract": null,
@@ -361,7 +377,7 @@
       "name": "Matthieu Delpyerre",
       "nation": "FRA",
       "number": 17,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 57500
     },
     {
@@ -372,7 +388,7 @@
         "ldr": 65,
         "pac": 75,
         "pas": 63,
-        "pos": 53,
+        "pos": 73,
         "sho": 74,
         "sta": 67,
         "str": 69,
@@ -392,6 +408,11 @@
       "wage": 43000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 71,
@@ -425,7 +446,7 @@
         "ldr": 66,
         "pac": 74,
         "pas": 67,
-        "pos": 51,
+        "pos": 71,
         "sho": 74,
         "sta": 65,
         "str": 75,
@@ -466,10 +487,14 @@
       "name": "Ludovic Magnyn",
       "nation": "SUI",
       "number": 21,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 82500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 70,
@@ -497,6 +522,9 @@
       "wage": 69000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -557,7 +585,7 @@
         "ldr": 67,
         "pac": 76,
         "pas": 68,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 71,
         "str": 79,

@@ -52,6 +52,9 @@
       "wage": 42500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 59,
@@ -157,6 +160,10 @@
       "wage": 59000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 75,
@@ -185,18 +192,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 75,
-        "dri": 73,
-        "ldr": 70,
-        "pac": 70,
-        "pas": 74,
-        "pos": 71,
-        "sho": 68,
+        "dri": 69,
+        "ldr": 72,
+        "pac": 67,
+        "pas": 73,
+        "pos": 75,
+        "sho": 62,
         "sta": 76,
-        "str": 71,
-        "tac": 69,
-        "vis": 79
+        "str": 76,
+        "tac": 75,
+        "vis": 76
       },
       "birth": "1988-05-01",
       "contract": null,
@@ -207,10 +214,13 @@
       "nation": "BIH",
       "nation2": "CRO",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 59000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 80,
@@ -238,16 +248,20 @@
       "wage": 59000
     },
     {
+      "alt": [
+        "LWB",
+        "LW"
+      ],
       "attrs": {
         "aer": 56,
         "com": 71,
-        "dri": 65,
+        "dri": 72,
         "ldr": 63,
-        "pac": 63,
+        "pac": 70,
         "pas": 69,
         "pos": 67,
-        "sho": 63,
-        "sta": 67,
+        "sho": 70,
+        "sta": 74,
         "str": 60,
         "tac": 67,
         "vis": 71
@@ -261,23 +275,26 @@
       "name": "Ken Seme",
       "nation": "SWE",
       "number": 12,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 32000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 42,
-        "com": 57,
-        "dri": 49,
-        "ldr": 48,
-        "pac": 50,
-        "pas": 55,
-        "pos": 55,
-        "sho": 49,
-        "sta": 58,
-        "str": 49,
-        "tac": 47,
-        "vis": 56
+        "aer": 36,
+        "com": 55,
+        "dri": 54,
+        "ldr": 44,
+        "pac": 59,
+        "pas": 51,
+        "pos": 37,
+        "sho": 53,
+        "sta": 54,
+        "str": 44,
+        "tac": 27,
+        "vis": 53
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -287,7 +304,7 @@
       "name": "Petar Mycin",
       "nation": "SRB",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 6500
     },
     {
@@ -298,7 +315,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 59,
-        "pos": 44,
+        "pos": 64,
         "sho": 68,
         "sta": 63,
         "str": 65,
@@ -318,18 +335,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 66,
-        "dri": 68,
-        "ldr": 69,
-        "pac": 75,
-        "pas": 72,
-        "pos": 73,
-        "sho": 53,
-        "sta": 76,
-        "str": 68,
-        "tac": 73,
-        "vis": 66
+        "aer": 73,
+        "com": 68,
+        "dri": 58,
+        "ldr": 73,
+        "pac": 67,
+        "pas": 68,
+        "pos": 78,
+        "sho": 46,
+        "sta": 70,
+        "str": 76,
+        "tac": 76,
+        "vis": 60
       },
       "birth": "1990-05-01",
       "contract": null,
@@ -339,7 +356,7 @@
       "name": "Bram Nuitinck",
       "nation": "NED",
       "number": 17,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 45500
     },
     {
@@ -370,18 +387,18 @@
     },
     {
       "attrs": {
-        "aer": 80,
-        "com": 77,
-        "dri": 60,
-        "ldr": 76,
-        "pac": 69,
-        "pas": 69,
-        "pos": 80,
-        "sho": 47,
-        "sta": 75,
-        "str": 76,
-        "tac": 82,
-        "vis": 62
+        "aer": 67,
+        "com": 75,
+        "dri": 70,
+        "ldr": 72,
+        "pac": 77,
+        "pas": 73,
+        "pos": 75,
+        "sho": 54,
+        "sta": 81,
+        "str": 68,
+        "tac": 79,
+        "vis": 68
       },
       "birth": "1991-02-01",
       "contract": null,
@@ -391,23 +408,26 @@
       "name": "Jens Strygar",
       "nation": "DEN",
       "number": 19,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 59000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 54,
-        "dri": 52,
-        "ldr": 52,
-        "pac": 57,
-        "pas": 45,
-        "pos": 35,
-        "sho": 55,
-        "sta": 53,
-        "str": 53,
-        "tac": 23,
-        "vis": 50
+        "aer": 42,
+        "com": 51,
+        "dri": 57,
+        "ldr": 50,
+        "pac": 61,
+        "pas": 51,
+        "pos": 37,
+        "sho": 50,
+        "sta": 55,
+        "str": 43,
+        "tac": 29,
+        "vis": 56
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -418,23 +438,27 @@
       "nation": "MLI",
       "nation2": "MTN",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 5000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 63,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 64,
-        "pas": 53,
-        "pos": 36,
-        "sho": 63,
-        "sta": 59,
-        "str": 63,
-        "tac": 34,
-        "vis": 54
+        "aer": 45,
+        "com": 60,
+        "dri": 63,
+        "ldr": 52,
+        "pac": 68,
+        "pas": 59,
+        "pos": 38,
+        "sho": 58,
+        "sta": 61,
+        "str": 53,
+        "tac": 40,
+        "vis": 60
       },
       "birth": "1995-12-01",
       "contract": null,
@@ -444,7 +468,7 @@
       "name": "Ignacio Possetto",
       "nation": "ARG",
       "number": 23,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10000
     },
     {
@@ -481,7 +505,7 @@
         "ldr": 68,
         "pac": 76,
         "pas": 68,
-        "pos": 51,
+        "pos": 71,
         "sho": 80,
         "sta": 72,
         "str": 75,
@@ -501,18 +525,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 71,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 63,
-        "pas": 73,
-        "pos": 65,
-        "sho": 67,
+        "dri": 67,
+        "ldr": 70,
+        "pac": 60,
+        "pas": 72,
+        "pos": 69,
+        "sho": 61,
         "sta": 74,
-        "str": 65,
-        "tac": 63,
-        "vis": 69
+        "str": 70,
+        "tac": 69,
+        "vis": 66
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -522,10 +546,13 @@
       "name": "Rolando Mendragora",
       "nation": "ITA",
       "number": 38,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 40500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 61,
@@ -553,18 +580,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 75,
-        "dri": 71,
-        "ldr": 67,
-        "pac": 65,
+        "aer": 56,
+        "com": 76,
+        "dri": 75,
+        "ldr": 65,
+        "pac": 68,
         "pas": 76,
-        "pos": 71,
-        "sho": 65,
-        "sta": 71,
-        "str": 69,
-        "tac": 70,
-        "vis": 73
+        "pos": 56,
+        "sho": 71,
+        "sta": 65,
+        "str": 64,
+        "tac": 52,
+        "vis": 75
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -574,7 +601,7 @@
       "name": "Antonin Barek",
       "nation": "CZE",
       "number": 72,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 53000
     },
     {
@@ -637,7 +664,7 @@
         "ldr": 71,
         "pac": 73,
         "pas": 64,
-        "pos": 52,
+        "pos": 72,
         "sho": 75,
         "sta": 67,
         "str": 74,
@@ -663,7 +690,7 @@
         "ldr": 56,
         "pac": 62,
         "pas": 48,
-        "pos": 36,
+        "pos": 56,
         "sho": 62,
         "sta": 54,
         "str": 61,

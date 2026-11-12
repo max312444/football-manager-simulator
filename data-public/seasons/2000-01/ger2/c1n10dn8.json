@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 68,
-        "dri": 66,
-        "ldr": 68,
-        "pac": 63,
-        "pas": 69,
-        "pos": 71,
-        "sho": 65,
+        "dri": 62,
+        "ldr": 70,
+        "pac": 60,
+        "pas": 68,
+        "pos": 75,
+        "sho": 59,
         "sta": 75,
-        "str": 62,
-        "tac": 69,
-        "vis": 73
+        "str": 67,
+        "tac": 75,
+        "vis": 70
       },
       "birth": "1975-11-01",
       "contract": null,
@@ -46,10 +46,13 @@
       "name": "Altin Lale",
       "nation": "ALB",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 66,
@@ -104,6 +107,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 68,
@@ -192,7 +198,7 @@
         "ldr": 57,
         "pac": 64,
         "pas": 51,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 60,
         "str": 63,
@@ -212,6 +218,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 61,
@@ -240,18 +249,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 59,
-        "dri": 58,
-        "ldr": 60,
-        "pac": 57,
+        "aer": 43,
+        "com": 60,
+        "dri": 62,
+        "ldr": 58,
+        "pac": 60,
         "pas": 64,
-        "pos": 57,
-        "sho": 54,
-        "sta": 63,
-        "str": 58,
-        "tac": 54,
-        "vis": 61
+        "pos": 42,
+        "sho": 60,
+        "sta": 57,
+        "str": 53,
+        "tac": 36,
+        "vis": 63
       },
       "birth": "1978-10-01",
       "contract": null,
@@ -261,7 +270,7 @@
       "name": "Jan Simek",
       "nation": "CZE",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3500
     },
@@ -273,7 +282,7 @@
         "ldr": 53,
         "pac": 63,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 65,
         "sta": 56,
         "str": 60,
@@ -292,6 +301,11 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 60,
@@ -318,6 +332,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 58,
@@ -398,6 +415,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 54,
@@ -432,7 +452,7 @@
         "ldr": 47,
         "pac": 56,
         "pas": 48,
-        "pos": 35,
+        "pos": 55,
         "sho": 59,
         "sta": 54,
         "str": 57,
@@ -512,7 +532,7 @@
         "ldr": 51,
         "pac": 54,
         "pas": 48,
-        "pos": 31,
+        "pos": 51,
         "sho": 60,
         "sta": 52,
         "str": 53,
@@ -533,18 +553,23 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 47,
+        "aer": 57,
         "com": 52,
         "dri": 53,
         "ldr": 53,
-        "pac": 47,
+        "pac": 57,
         "pas": 56,
-        "pos": 50,
+        "pos": 60,
         "sho": 48,
         "sta": 58,
-        "str": 48,
-        "tac": 51,
+        "str": 58,
+        "tac": 61,
         "vis": 57
       },
       "birth": "1968-11-01",
@@ -555,7 +580,7 @@
       "name": "Harald Gartnar",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "CB",
       "verify": true,
       "wage": 2000
     },
@@ -587,6 +612,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 51,
@@ -614,6 +642,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 49,
@@ -752,7 +785,7 @@
         "ldr": 41,
         "pac": 51,
         "pas": 43,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 43,
         "str": 48,
@@ -779,7 +812,7 @@
         "ldr": 39,
         "pac": 43,
         "pas": 35,
-        "pos": 26,
+        "pos": 46,
         "sho": 50,
         "sta": 42,
         "str": 43,

@@ -103,6 +103,9 @@
       "wage": 310000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 81,
@@ -130,9 +133,6 @@
       "wage": 359000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 81,
         "com": 80,
@@ -159,19 +159,22 @@
       "wage": 359000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 83,
-        "dri": 76,
-        "ldr": 76,
-        "pac": 81,
-        "pas": 72,
-        "pos": 57,
-        "sho": 82,
-        "sta": 79,
-        "str": 83,
-        "tac": 50,
-        "vis": 72
+        "aer": 63,
+        "com": 80,
+        "dri": 81,
+        "ldr": 74,
+        "pac": 85,
+        "pas": 78,
+        "pos": 59,
+        "sho": 77,
+        "sta": 81,
+        "str": 73,
+        "tac": 56,
+        "vis": 78
       },
       "birth": "1987-07-01",
       "contract": null,
@@ -181,10 +184,13 @@
       "name": "Pedru",
       "nation": "ESP",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 186000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 82,
@@ -211,20 +217,23 @@
       "wage": 359000
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 89,
         "com": 93,
-        "dri": 90,
+        "dri": 95,
         "ldr": 81,
-        "pac": 91,
-        "pas": 81,
-        "pos": 69,
+        "pac": 96,
+        "pas": 86,
+        "pos": 89,
         "sho": 91,
         "sta": 83,
         "str": 92,
         "tac": 56,
-        "vis": 83
+        "vis": 88
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -235,10 +244,15 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 359000
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 79,
         "com": 85,
@@ -246,7 +260,7 @@
         "ldr": 74,
         "pac": 80,
         "pas": 74,
-        "pos": 59,
+        "pos": 79,
         "sho": 83,
         "sta": 79,
         "str": 83,
@@ -292,20 +306,22 @@
       "wage": 249500
     },
     {
-      "alt": [],
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 73,
+        "aer": 79,
         "com": 81,
-        "dri": 82,
-        "ldr": 80,
-        "pac": 80,
-        "pas": 82,
-        "pos": 80,
-        "sho": 73,
+        "dri": 78,
+        "ldr": 82,
+        "pac": 77,
+        "pas": 81,
+        "pos": 84,
+        "sho": 67,
         "sta": 86,
-        "str": 79,
-        "tac": 81,
-        "vis": 84
+        "str": 84,
+        "tac": 87,
+        "vis": 81
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -316,7 +332,7 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 14,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 359000
     },
     {
@@ -394,10 +410,15 @@
       "name": "Jordi Albe",
       "nation": "ESP",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 264000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 78,
@@ -424,6 +445,11 @@
       "wage": 186000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 77,
@@ -450,22 +476,19 @@
       "wage": 179000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 89,
-        "com": 82,
-        "dri": 71,
-        "ldr": 80,
-        "pac": 78,
-        "pas": 73,
-        "pos": 89,
-        "sho": 56,
-        "sta": 77,
-        "str": 88,
-        "tac": 85,
-        "vis": 72
+        "aer": 76,
+        "com": 80,
+        "dri": 81,
+        "ldr": 76,
+        "pac": 86,
+        "pas": 77,
+        "pos": 84,
+        "sho": 63,
+        "sta": 83,
+        "str": 80,
+        "tac": 82,
+        "vis": 78
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -476,10 +499,13 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 22,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 304000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 87,
         "com": 79,
@@ -507,7 +533,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 80,

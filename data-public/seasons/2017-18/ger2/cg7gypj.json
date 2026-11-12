@@ -52,6 +52,10 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 50,
@@ -105,18 +109,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 55,
-        "dri": 59,
-        "ldr": 52,
-        "pac": 54,
-        "pas": 63,
-        "pos": 56,
-        "sho": 49,
+        "dri": 55,
+        "ldr": 54,
+        "pac": 51,
+        "pas": 62,
+        "pos": 60,
+        "sho": 43,
         "sta": 58,
-        "str": 52,
-        "tac": 54,
-        "vis": 56
+        "str": 57,
+        "tac": 60,
+        "vis": 53
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -126,7 +130,7 @@
       "name": "Denis Lynsmayer",
       "nation": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
@@ -137,7 +141,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 54,
-        "pos": 42,
+        "pos": 62,
         "sho": 62,
         "sta": 60,
         "str": 59,
@@ -157,19 +161,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 63,
-        "dri": 60,
+        "com": 65,
+        "dri": 68,
         "ldr": 55,
         "pac": 60,
-        "pas": 49,
-        "pos": 41,
-        "sho": 65,
+        "pas": 59,
+        "pos": 61,
+        "sho": 67,
         "sta": 55,
         "str": 59,
         "tac": 27,
-        "vis": 53
+        "vis": 63
       },
       "birth": "1986-10-01",
       "contract": null,
@@ -180,10 +189,15 @@
       "nation": "TUN",
       "nation2": "GER",
       "number": 8,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 4500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 60,
@@ -191,7 +205,7 @@
         "ldr": 55,
         "pac": 61,
         "pas": 47,
-        "pos": 36,
+        "pos": 56,
         "sho": 59,
         "sta": 51,
         "str": 56,
@@ -217,7 +231,7 @@
         "ldr": 63,
         "pac": 71,
         "pas": 64,
-        "pos": 44,
+        "pos": 64,
         "sho": 73,
         "sta": 65,
         "str": 72,
@@ -237,18 +251,18 @@
     },
     {
       "attrs": {
-        "aer": 45,
-        "com": 56,
-        "dri": 52,
-        "ldr": 54,
-        "pac": 53,
+        "aer": 39,
+        "com": 57,
+        "dri": 56,
+        "ldr": 52,
+        "pac": 56,
         "pas": 57,
-        "pos": 55,
-        "sho": 47,
-        "sta": 60,
-        "str": 54,
-        "tac": 52,
-        "vis": 56
+        "pos": 40,
+        "sho": 53,
+        "sta": 54,
+        "str": 49,
+        "tac": 34,
+        "vis": 58
       },
       "birth": "1994-10-01",
       "contract": null,
@@ -259,7 +273,7 @@
       "name": "Eroll Zejnullehu",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
@@ -315,22 +329,19 @@
       "wage": 4500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 69,
-        "com": 58,
-        "dri": 46,
-        "ldr": 58,
-        "pac": 60,
-        "pas": 56,
-        "pos": 63,
-        "sho": 38,
-        "sta": 56,
-        "str": 64,
-        "tac": 68,
-        "vis": 50
+        "aer": 56,
+        "com": 56,
+        "dri": 56,
+        "ldr": 54,
+        "pac": 68,
+        "pas": 60,
+        "pos": 58,
+        "sho": 45,
+        "sta": 62,
+        "str": 56,
+        "tac": 65,
+        "vis": 56
       },
       "birth": "1994-11-01",
       "contract": null,
@@ -341,10 +352,13 @@
       "nation": "GER",
       "nation2": "KVX",
       "number": 19,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 7000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 56,
         "com": 62,
@@ -352,7 +366,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 63,
         "sta": 55,
         "str": 63,
@@ -372,19 +386,24 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 56,
-        "dri": 52,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 56,
-        "pos": 53,
-        "sho": 53,
+        "dri": 48,
+        "ldr": 55,
+        "pac": 49,
+        "pas": 55,
+        "pos": 57,
+        "sho": 47,
         "sta": 56,
-        "str": 53,
-        "tac": 50,
-        "vis": 55
+        "str": 58,
+        "tac": 56,
+        "vis": 52
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -394,23 +413,23 @@
       "name": "Manuel Stiafler",
       "nation": "GER",
       "number": 21,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 41,
-        "com": 52,
-        "dri": 53,
-        "ldr": 49,
-        "pac": 52,
-        "pas": 54,
-        "pos": 54,
-        "sho": 49,
-        "sta": 59,
-        "str": 46,
-        "tac": 51,
-        "vis": 53
+        "aer": 35,
+        "com": 55,
+        "dri": 57,
+        "ldr": 47,
+        "pac": 55,
+        "pas": 56,
+        "pos": 39,
+        "sho": 57,
+        "sta": 53,
+        "str": 41,
+        "tac": 33,
+        "vis": 57
       },
       "birth": "1993-10-01",
       "contract": null,
@@ -420,10 +439,13 @@
       "name": "Korbinian Vullmann",
       "nation": "GER",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 60,
@@ -476,19 +498,23 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 68,
-        "dri": 62,
-        "ldr": 56,
-        "pac": 66,
-        "pas": 59,
-        "pos": 43,
-        "sho": 65,
-        "sta": 57,
-        "str": 61,
-        "tac": 34,
-        "vis": 53
+        "aer": 45,
+        "com": 65,
+        "dri": 67,
+        "ldr": 54,
+        "pac": 70,
+        "pas": 65,
+        "pos": 45,
+        "sho": 60,
+        "sta": 59,
+        "str": 51,
+        "tac": 40,
+        "vis": 59
       },
       "birth": "1998-03-01",
       "contract": null,
@@ -499,10 +525,13 @@
       "name": "Haji Wryght",
       "nation": "USA",
       "number": 25,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 57,
@@ -529,6 +558,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 53,
@@ -562,7 +594,7 @@
         "ldr": 58,
         "pac": 62,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 58,
         "str": 62,
@@ -582,6 +614,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 64,
@@ -660,22 +695,19 @@
       "wage": 3000
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 55,
-        "com": 51,
-        "dri": 39,
-        "ldr": 47,
-        "pac": 46,
-        "pas": 45,
-        "pos": 51,
-        "sho": 24,
-        "sta": 44,
-        "str": 50,
-        "tac": 54,
-        "vis": 38
+        "aer": 42,
+        "com": 49,
+        "dri": 49,
+        "ldr": 43,
+        "pac": 54,
+        "pas": 49,
+        "pos": 46,
+        "sho": 31,
+        "sta": 50,
+        "str": 42,
+        "tac": 51,
+        "vis": 44
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -685,7 +717,7 @@
       "name": "Ken Gypson",
       "nation": "GER",
       "number": 36,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2000
     },
     {
@@ -696,7 +728,7 @@
         "ldr": 55,
         "pac": 65,
         "pas": 51,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 61,
         "str": 60,
@@ -715,19 +747,24 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 60,
-        "dri": 62,
+        "com": 62,
+        "dri": 69,
         "ldr": 53,
         "pac": 60,
-        "pas": 50,
-        "pos": 38,
-        "sho": 67,
+        "pas": 59,
+        "pos": 58,
+        "sho": 69,
         "sta": 58,
         "str": 62,
         "tac": 33,
-        "vis": 56
+        "vis": 65
       },
       "birth": "1994-06-01",
       "contract": null,
@@ -737,7 +774,7 @@
       "name": "Mirco Burn",
       "nation": "GER",
       "number": 38,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 5500
     }
   ],

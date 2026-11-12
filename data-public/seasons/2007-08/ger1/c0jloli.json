@@ -103,6 +103,9 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 62,
@@ -155,16 +158,19 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 74,
         "com": 75,
-        "dri": 61,
+        "dri": 69,
         "ldr": 70,
-        "pac": 69,
-        "pas": 69,
+        "pac": 77,
+        "pas": 77,
         "pos": 75,
         "sho": 49,
-        "sta": 68,
+        "sta": 76,
         "str": 73,
         "tac": 75,
         "vis": 60
@@ -177,7 +183,7 @@
       "name": "Bradley Cernell",
       "nation": "RSA",
       "number": 6,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 30500
     },
     {
@@ -188,7 +194,7 @@
         "ldr": 60,
         "pac": 65,
         "pas": 58,
-        "pos": 48,
+        "pos": 68,
         "sho": 69,
         "sta": 61,
         "str": 71,
@@ -214,7 +220,7 @@
         "ldr": 65,
         "pac": 71,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 70,
         "sta": 61,
         "str": 68,
@@ -233,6 +239,9 @@
       "wage": 17500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -260,19 +269,22 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "ST"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 65,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 60,
+        "aer": 45,
+        "com": 66,
+        "dri": 67,
+        "ldr": 60,
+        "pac": 63,
         "pas": 67,
-        "pos": 64,
-        "sho": 60,
-        "sta": 64,
-        "str": 56,
-        "tac": 58,
-        "vis": 61
+        "pos": 49,
+        "sho": 66,
+        "sta": 58,
+        "str": 51,
+        "tac": 40,
+        "vis": 63
       },
       "birth": "1978-12-01",
       "contract": null,
@@ -283,10 +295,13 @@
       "nation": "MNE",
       "nation2": "SRB",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -365,6 +380,9 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -398,7 +416,7 @@
         "ldr": 62,
         "pac": 64,
         "pas": 58,
-        "pos": 42,
+        "pos": 62,
         "sho": 68,
         "sta": 62,
         "str": 65,
@@ -417,18 +435,23 @@
       "wage": 12500
     },
     {
+      "alt": [
+        "CM",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 63,
         "com": 65,
         "dri": 57,
         "ldr": 58,
-        "pac": 56,
+        "pac": 66,
         "pas": 65,
-        "pos": 61,
+        "pos": 71,
         "sho": 54,
         "sta": 66,
-        "str": 54,
-        "tac": 56,
+        "str": 64,
+        "tac": 66,
         "vis": 60
       },
       "birth": "1980-09-01",
@@ -439,10 +462,15 @@
       "name": "Stefan Bock",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "CB",
       "wage": 13000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "CM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 78,
@@ -450,7 +478,7 @@
         "ldr": 72,
         "pac": 72,
         "pas": 68,
-        "pos": 50,
+        "pos": 70,
         "sho": 75,
         "sta": 70,
         "str": 78,
@@ -470,18 +498,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
-        "com": 64,
-        "dri": 46,
-        "ldr": 60,
-        "pac": 54,
-        "pas": 58,
-        "pos": 63,
-        "sho": 34,
-        "sta": 56,
-        "str": 66,
-        "tac": 69,
-        "vis": 48
+        "aer": 56,
+        "com": 62,
+        "dri": 56,
+        "ldr": 56,
+        "pac": 62,
+        "pas": 62,
+        "pos": 58,
+        "sho": 41,
+        "sta": 62,
+        "str": 58,
+        "tac": 66,
+        "vis": 54
       },
       "birth": "1982-11-01",
       "contract": null,
@@ -491,10 +519,14 @@
       "name": "Christian Eychner",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 11000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 51,
         "com": 57,
@@ -522,18 +554,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 78,
-        "dri": 73,
-        "ldr": 70,
-        "pac": 73,
+        "aer": 60,
+        "com": 79,
+        "dri": 77,
+        "ldr": 68,
+        "pac": 76,
         "pas": 79,
-        "pos": 74,
-        "sho": 72,
-        "sta": 76,
-        "str": 68,
-        "tac": 71,
-        "vis": 79
+        "pos": 59,
+        "sho": 78,
+        "sta": 70,
+        "str": 63,
+        "tac": 53,
+        "vis": 81
       },
       "birth": "1981-03-01",
       "contract": null,
@@ -543,7 +575,7 @@
       "name": "Tamas Hejnal",
       "nation": "HUN",
       "number": 30,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 30500
     },
     {

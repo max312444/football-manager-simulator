@@ -231,6 +231,9 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 56,
@@ -287,21 +290,23 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB",
+        "LB"
       ],
       "attrs": {
         "aer": 70,
-        "com": 66,
+        "com": 70,
         "dri": 56,
         "ldr": 65,
         "pac": 55,
-        "pas": 64,
+        "pas": 68,
         "pos": 70,
         "sho": 44,
-        "sta": 69,
+        "sta": 73,
         "str": 73,
         "tac": 72,
-        "vis": 54
+        "vis": 58
       },
       "birth": "1982-02-01",
       "contract": "2015-06-30",
@@ -342,6 +347,10 @@
       "wage": 70500
     },
     {
+      "alt": [
+        "DM",
+        "RM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 69,
@@ -369,19 +378,23 @@
       "wage": 82000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 64,
-        "dri": 63,
+        "com": 67,
+        "dri": 64,
         "ldr": 61,
         "pac": 63,
-        "pas": 68,
+        "pas": 71,
         "pos": 62,
-        "sho": 66,
-        "sta": 77,
+        "sho": 67,
+        "sta": 78,
         "str": 72,
-        "tac": 66,
-        "vis": 62
+        "tac": 68,
+        "vis": 65
       },
       "birth": "1986-11-01",
       "contract": "2017-06-30",
@@ -396,21 +409,22 @@
     },
     {
       "alt": [
+        "LW",
         "LB"
       ],
       "attrs": {
         "aer": 62,
-        "com": 70,
-        "dri": 66,
+        "com": 75,
+        "dri": 71,
         "ldr": 70,
-        "pac": 58,
+        "pac": 63,
         "pas": 77,
         "pos": 63,
-        "sho": 68,
+        "sho": 73,
         "sta": 74,
         "str": 69,
         "tac": 62,
-        "vis": 73
+        "vis": 78
       },
       "birth": "1984-12-01",
       "contract": "2017-06-30",
@@ -420,13 +434,16 @@
       "name": "Chris Bront",
       "nation": "NIR",
       "number": 11,
-      "pos": "LM",
+      "pos": "AM",
       "traits": [
         "free_kick"
       ],
       "wage": 92000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 67,
@@ -454,19 +471,22 @@
       "wage": 60500
     },
     {
+      "alt": [
+        "CM"
+      ],
       "attrs": {
         "aer": 59,
-        "com": 64,
+        "com": 66,
         "dri": 64,
         "ldr": 59,
         "pac": 66,
-        "pas": 67,
-        "pos": 67,
+        "pas": 69,
+        "pos": 69,
         "sho": 56,
         "sta": 79,
-        "str": 71,
-        "tac": 74,
-        "vis": 60
+        "str": 73,
+        "tac": 76,
+        "vis": 62
       },
       "birth": "1987-01-01",
       "contract": "2015-06-30",
@@ -480,19 +500,23 @@
       "wage": 72000
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
-        "com": 69,
+        "com": 76,
         "dri": 80,
         "ldr": 55,
         "pac": 76,
-        "pas": 71,
+        "pas": 78,
         "pos": 49,
-        "sho": 69,
+        "sho": 76,
         "sta": 72,
         "str": 61,
         "tac": 43,
-        "vis": 72
+        "vis": 79
       },
       "birth": "1984-06-01",
       "contract": "2016-06-30",
@@ -506,6 +530,9 @@
       "wage": 57500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 62,
@@ -535,16 +562,16 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 66,
+        "aer": 62,
+        "com": 74,
         "dri": 70,
         "ldr": 47,
         "pac": 82,
         "pas": 58,
-        "pos": 40,
-        "sho": 74,
+        "pos": 48,
+        "sho": 82,
         "sta": 71,
-        "str": 65,
+        "str": 73,
         "tac": 34,
         "vis": 56
       },

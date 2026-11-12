@@ -31,7 +31,7 @@
         "ldr": 74,
         "pac": 81,
         "pas": 72,
-        "pos": 56,
+        "pos": 76,
         "sho": 80,
         "sta": 72,
         "str": 80,
@@ -51,18 +51,18 @@
     },
     {
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 77,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 69,
-        "pas": 79,
-        "pos": 78,
-        "sho": 69,
+        "dri": 70,
+        "ldr": 74,
+        "pac": 66,
+        "pas": 78,
+        "pos": 82,
+        "sho": 63,
         "sta": 81,
-        "str": 73,
-        "tac": 71,
-        "vis": 81
+        "str": 78,
+        "tac": 77,
+        "vis": 78
       },
       "birth": "1980-02-01",
       "contract": null,
@@ -72,10 +72,14 @@
       "name": "Sebastian Kahl",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 58500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 76,
@@ -128,6 +132,9 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 74,
@@ -155,6 +162,9 @@
       "wage": 58500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 74,
@@ -208,18 +218,18 @@
     },
     {
       "attrs": {
-        "aer": 79,
-        "com": 74,
-        "dri": 63,
-        "ldr": 73,
-        "pac": 70,
-        "pas": 69,
-        "pos": 78,
-        "sho": 50,
-        "sta": 73,
-        "str": 77,
-        "tac": 75,
-        "vis": 59
+        "aer": 66,
+        "com": 72,
+        "dri": 73,
+        "ldr": 69,
+        "pac": 78,
+        "pas": 73,
+        "pos": 73,
+        "sho": 57,
+        "sta": 79,
+        "str": 69,
+        "tac": 72,
+        "vis": 65
       },
       "birth": "1974-08-01",
       "contract": null,
@@ -229,23 +239,27 @@
       "name": "Niclas Jansen",
       "nation": "DEN",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 41000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 77,
-        "dri": 70,
-        "ldr": 73,
-        "pac": 70,
+        "aer": 56,
+        "com": 78,
+        "dri": 74,
+        "ldr": 71,
+        "pac": 73,
         "pas": 77,
-        "pos": 71,
-        "sho": 72,
-        "sta": 80,
-        "str": 67,
-        "tac": 69,
-        "vis": 73
+        "pos": 56,
+        "sho": 78,
+        "sta": 74,
+        "str": 62,
+        "tac": 51,
+        "vis": 75
       },
       "birth": "1975-06-01",
       "contract": null,
@@ -256,7 +270,7 @@
       "nation": "GHA",
       "nation2": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 50000
     },
     {
@@ -293,7 +307,7 @@
         "ldr": 64,
         "pac": 76,
         "pas": 67,
-        "pos": 50,
+        "pos": 70,
         "sho": 79,
         "sta": 72,
         "str": 70,
@@ -313,6 +327,10 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 66,
@@ -366,19 +384,22 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 67,
-        "dri": 69,
+        "dri": 71,
         "ldr": 67,
-        "pac": 76,
-        "pas": 64,
-        "pos": 67,
-        "sho": 51,
-        "sta": 71,
+        "pac": 78,
+        "pas": 65,
+        "pos": 65,
+        "sho": 54,
+        "sta": 73,
         "str": 63,
-        "tac": 74,
-        "vis": 65
+        "tac": 72,
+        "vis": 66
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -388,7 +409,7 @@
       "name": "Evenilson",
       "nation": "BRA",
       "number": null,
-      "pos": "RB",
+      "pos": "RWB",
       "wage": 27500
     },
     {
@@ -415,10 +436,15 @@
       "nation": "BRA",
       "nation2": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 25000
     },
     {
+      "alt": [
+        "RM",
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 61,
         "com": 64,
@@ -446,6 +472,9 @@
       "wage": 24500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -472,6 +501,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -498,19 +530,23 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 65,
-        "dri": 67,
-        "ldr": 64,
-        "pac": 66,
-        "pas": 57,
-        "pos": 43,
-        "sho": 67,
-        "sta": 65,
-        "str": 68,
-        "tac": 35,
-        "vis": 56
+        "aer": 53,
+        "com": 62,
+        "dri": 72,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 63,
+        "pos": 45,
+        "sho": 62,
+        "sta": 67,
+        "str": 58,
+        "tac": 41,
+        "vis": 62
       },
       "birth": "1981-06-01",
       "contract": null,
@@ -520,7 +556,7 @@
       "name": "Ewerthun",
       "nation": "BRA",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 13000
     },
     {
@@ -603,19 +639,22 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 60,
+        "aer": 62,
+        "com": 61,
         "dri": 56,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 66,
+        "ldr": 53,
+        "pac": 59,
+        "pas": 56,
         "pos": 61,
-        "sho": 52,
-        "sta": 65,
-        "str": 56,
-        "tac": 56,
-        "vis": 59
+        "sho": 61,
+        "sta": 59,
+        "str": 61,
+        "tac": 30,
+        "vis": 50
       },
       "birth": "1985-05-01",
       "contract": null,
@@ -626,11 +665,14 @@
       "nation": "GER",
       "nation2": "SLE",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 59,
@@ -718,7 +760,7 @@
         "ldr": 48,
         "pac": 58,
         "pas": 44,
-        "pos": 35,
+        "pos": 55,
         "sho": 58,
         "sta": 48,
         "str": 54,
@@ -765,6 +807,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -793,6 +838,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "ST",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -819,6 +869,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 51,

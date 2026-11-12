@@ -104,6 +104,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 64,
@@ -130,6 +133,9 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 73,
@@ -163,7 +169,7 @@
         "ldr": 69,
         "pac": 69,
         "pas": 64,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 71,
         "str": 72,
@@ -190,7 +196,7 @@
         "ldr": 62,
         "pac": 66,
         "pas": 62,
-        "pos": 44,
+        "pos": 64,
         "sho": 69,
         "sta": 65,
         "str": 68,
@@ -210,18 +216,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 74,
-        "dri": 74,
-        "ldr": 74,
-        "pac": 67,
+        "aer": 56,
+        "com": 75,
+        "dri": 78,
+        "ldr": 72,
+        "pac": 70,
         "pas": 74,
-        "pos": 75,
-        "sho": 66,
-        "sta": 75,
-        "str": 69,
-        "tac": 74,
-        "vis": 78
+        "pos": 60,
+        "sho": 72,
+        "sta": 69,
+        "str": 64,
+        "tac": 56,
+        "vis": 80
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -232,7 +238,7 @@
       "nation": "POL",
       "nation2": "FRA",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 46000
     },
     {
@@ -243,7 +249,7 @@
         "ldr": 49,
         "pac": 54,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 57,
         "sta": 53,
         "str": 51,
@@ -285,7 +291,7 @@
       "name": "Emarson",
       "nation": "BRA",
       "number": 15,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 10000
     },
     {
@@ -315,6 +321,10 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 66,
         "com": 65,
@@ -322,7 +332,7 @@
         "ldr": 58,
         "pac": 64,
         "pas": 59,
-        "pos": 46,
+        "pos": 66,
         "sho": 69,
         "sta": 64,
         "str": 63,
@@ -342,18 +352,18 @@
     },
     {
       "attrs": {
-        "aer": 73,
-        "com": 67,
-        "dri": 56,
-        "ldr": 65,
-        "pac": 59,
-        "pas": 57,
-        "pos": 70,
-        "sho": 40,
-        "sta": 64,
-        "str": 67,
-        "tac": 72,
-        "vis": 55
+        "aer": 60,
+        "com": 65,
+        "dri": 66,
+        "ldr": 61,
+        "pac": 67,
+        "pas": 61,
+        "pos": 65,
+        "sho": 47,
+        "sta": 70,
+        "str": 59,
+        "tac": 69,
+        "vis": 61
       },
       "birth": "1983-05-01",
       "contract": null,
@@ -363,22 +373,25 @@
       "name": "Franck Baria",
       "nation": "FRA",
       "number": 18,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 20000
     },
     {
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 62,
-        "dri": 55,
+        "aer": 60,
+        "com": 63,
+        "dri": 59,
         "ldr": 57,
-        "pac": 54,
-        "pas": 64,
-        "pos": 56,
+        "pac": 66,
+        "pas": 67,
+        "pos": 65,
         "sho": 51,
-        "sta": 58,
-        "str": 55,
-        "tac": 56,
+        "sta": 62,
+        "str": 64,
+        "tac": 65,
         "vis": 57
       },
       "birth": "1992-02-01",
@@ -389,7 +402,7 @@
       "name": "Arnaud Sooquet",
       "nation": "FRA",
       "number": 21,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 10500
     },
     {
@@ -447,6 +460,9 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -473,19 +489,22 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 70,
-        "dri": 70,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 72,
-        "pos": 69,
-        "sho": 66,
-        "sta": 77,
-        "str": 69,
-        "tac": 67,
-        "vis": 71
+        "aer": 59,
+        "com": 72,
+        "dri": 74,
+        "ldr": 65,
+        "pac": 72,
+        "pas": 73,
+        "pos": 54,
+        "sho": 73,
+        "sta": 71,
+        "str": 64,
+        "tac": 49,
+        "vis": 74
       },
       "birth": "1991-01-01",
       "contract": null,
@@ -495,23 +514,27 @@
       "name": "Eden Hazerd",
       "nation": "BEL",
       "number": 26,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 45500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 72,
-        "dri": 70,
-        "ldr": 65,
-        "pac": 72,
-        "pas": 63,
-        "pos": 54,
-        "sho": 78,
-        "sta": 67,
-        "str": 76,
-        "tac": 42,
-        "vis": 68
+        "aer": 57,
+        "com": 69,
+        "dri": 75,
+        "ldr": 63,
+        "pac": 76,
+        "pas": 69,
+        "pos": 56,
+        "sho": 73,
+        "sta": 69,
+        "str": 66,
+        "tac": 48,
+        "vis": 74
       },
       "birth": "1987-05-01",
       "contract": null,
@@ -521,23 +544,27 @@
       "name": "Garvinho",
       "nation": "CIV",
       "number": 27,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 33000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 61,
-        "com": 64,
-        "dri": 61,
-        "ldr": 51,
-        "pac": 57,
-        "pas": 49,
-        "pos": 39,
-        "sho": 63,
-        "sta": 56,
-        "str": 60,
-        "tac": 31,
-        "vis": 55
+        "aer": 47,
+        "com": 61,
+        "dri": 66,
+        "ldr": 49,
+        "pac": 61,
+        "pas": 55,
+        "pos": 41,
+        "sho": 58,
+        "sta": 58,
+        "str": 50,
+        "tac": 37,
+        "vis": 61
       },
       "birth": "1989-08-01",
       "contract": null,
@@ -547,10 +574,13 @@
       "name": "Emil Ling",
       "nation": "DEN",
       "number": 28,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 8000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,

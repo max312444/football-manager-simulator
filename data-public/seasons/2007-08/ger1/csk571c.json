@@ -52,6 +52,9 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
@@ -104,19 +107,24 @@
       "wage": 23500
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 69,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 74,
-        "pos": 67,
-        "sho": 65,
+        "dri": 63,
+        "ldr": 67,
+        "pac": 61,
+        "pas": 73,
+        "pos": 71,
+        "sho": 59,
         "sta": 73,
-        "str": 68,
-        "tac": 65,
-        "vis": 73
+        "str": 73,
+        "tac": 71,
+        "vis": 70
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -126,7 +134,7 @@
       "name": "Christoph Prauss",
       "nation": "GER",
       "number": 4,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31500
     },
     {
@@ -156,19 +164,22 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 62,
-        "ldr": 63,
-        "pac": 61,
+        "aer": 48,
+        "com": 65,
+        "dri": 66,
+        "ldr": 61,
+        "pac": 64,
         "pas": 72,
-        "pos": 62,
-        "sho": 59,
-        "sta": 70,
-        "str": 64,
-        "tac": 60,
-        "vis": 66
+        "pos": 47,
+        "sho": 65,
+        "sta": 64,
+        "str": 59,
+        "tac": 42,
+        "vis": 68
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -178,10 +189,13 @@
       "name": "Benjamin Kohlar",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 18500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -208,19 +222,22 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 66,
-        "dri": 61,
-        "ldr": 55,
-        "pac": 65,
-        "pas": 59,
-        "pos": 45,
-        "sho": 70,
-        "sta": 61,
-        "str": 66,
-        "tac": 32,
-        "vis": 55
+        "aer": 49,
+        "com": 63,
+        "dri": 66,
+        "ldr": 53,
+        "pac": 69,
+        "pas": 65,
+        "pos": 47,
+        "sho": 65,
+        "sta": 63,
+        "str": 56,
+        "tac": 38,
+        "vis": 61
       },
       "birth": "1986-02-01",
       "contract": null,
@@ -230,10 +247,13 @@
       "name": "Marcel Hellar",
       "nation": "GER",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 10500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 73,
@@ -267,7 +287,7 @@
         "ldr": 55,
         "pac": 65,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 57,
         "str": 63,
@@ -286,19 +306,24 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 67,
-        "dri": 64,
-        "ldr": 62,
-        "pac": 62,
+        "aer": 54,
+        "com": 68,
+        "dri": 68,
+        "ldr": 60,
+        "pac": 65,
         "pas": 72,
-        "pos": 69,
-        "sho": 65,
-        "sta": 71,
-        "str": 66,
-        "tac": 68,
-        "vis": 68
+        "pos": 54,
+        "sho": 71,
+        "sta": 65,
+        "str": 61,
+        "tac": 50,
+        "vis": 70
       },
       "birth": "1983-01-01",
       "contract": null,
@@ -308,23 +333,26 @@
       "name": "Alexander Meiar",
       "nation": "GER",
       "number": 14,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 26000
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 76,
-        "dri": 73,
-        "ldr": 73,
-        "pac": 74,
-        "pas": 80,
-        "pos": 74,
-        "sho": 74,
-        "sta": 79,
-        "str": 72,
-        "tac": 74,
-        "vis": 77
+        "aer": 61,
+        "com": 74,
+        "dri": 78,
+        "ldr": 69,
+        "pac": 83,
+        "pas": 76,
+        "pos": 56,
+        "sho": 78,
+        "sta": 75,
+        "str": 67,
+        "tac": 54,
+        "vis": 74
       },
       "birth": "1977-07-01",
       "contract": null,
@@ -335,7 +363,7 @@
       "nation": "IRN",
       "nation2": "GER",
       "number": 15,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 47000
     },
     {
@@ -361,10 +389,14 @@
       "name": "Christoph Spicher",
       "nation": "SUI",
       "number": 16,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 47000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 73,
         "com": 77,
@@ -372,7 +404,7 @@
         "ldr": 69,
         "pac": 79,
         "pas": 65,
-        "pos": 51,
+        "pos": 71,
         "sho": 78,
         "sta": 75,
         "str": 77,
@@ -398,7 +430,7 @@
         "ldr": 73,
         "pac": 76,
         "pas": 68,
-        "pos": 58,
+        "pos": 78,
         "sho": 82,
         "sta": 73,
         "str": 81,
@@ -417,6 +449,9 @@
       "wage": 47000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 73,
         "com": 81,
@@ -469,6 +504,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 61,
@@ -496,6 +534,9 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 59,
@@ -548,6 +589,9 @@
       "wage": 47000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 66,
@@ -575,18 +619,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 59,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 56,
-        "pas": 53,
-        "pos": 67,
-        "sho": 33,
-        "sta": 60,
-        "str": 65,
-        "tac": 62,
-        "vis": 51
+        "aer": 52,
+        "com": 57,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 64,
+        "pas": 57,
+        "pos": 62,
+        "sho": 40,
+        "sta": 66,
+        "str": 57,
+        "tac": 59,
+        "vis": 57
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -596,10 +640,13 @@
       "name": "Mounir Chafter",
       "nation": "GER",
       "number": 31,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 60,

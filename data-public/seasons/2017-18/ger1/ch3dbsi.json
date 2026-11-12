@@ -77,6 +77,11 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 72,
@@ -99,7 +104,7 @@
       "name": "Park Joo-hu",
       "nation": "KOR",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 117000
     },
     {
@@ -155,6 +160,11 @@
       "wage": 148000
     },
     {
+      "alt": [
+        "LW",
+        "RM",
+        "LM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 69,
@@ -181,6 +191,9 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 83,
@@ -208,20 +221,22 @@
       "wage": 214000
     },
     {
-      "alt": [],
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 79,
-        "dri": 75,
-        "ldr": 70,
-        "pac": 76,
-        "pas": 70,
-        "pos": 60,
-        "sho": 79,
-        "sta": 76,
-        "str": 82,
-        "tac": 47,
-        "vis": 68
+        "aer": 60,
+        "com": 76,
+        "dri": 80,
+        "ldr": 68,
+        "pac": 80,
+        "pas": 76,
+        "pos": 62,
+        "sho": 74,
+        "sta": 78,
+        "str": 72,
+        "tac": 53,
+        "vis": 74
       },
       "birth": "1989-10-01",
       "contract": null,
@@ -231,23 +246,28 @@
       "name": "Andriy Yarmolenku",
       "nation": "UKR",
       "number": 9,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 118000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 78,
-        "dri": 78,
-        "ldr": 79,
-        "pac": 75,
+        "aer": 61,
+        "com": 79,
+        "dri": 82,
+        "ldr": 77,
+        "pac": 78,
         "pas": 79,
-        "pos": 78,
-        "sho": 72,
-        "sta": 84,
-        "str": 78,
-        "tac": 75,
-        "vis": 79
+        "pos": 63,
+        "sho": 78,
+        "sta": 78,
+        "str": 73,
+        "tac": 57,
+        "vis": 81
       },
       "birth": "1992-06-01",
       "contract": null,
@@ -257,12 +277,14 @@
       "name": "Mario Gutze",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 220500
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 78,
@@ -271,7 +293,7 @@
         "ldr": 77,
         "pac": 81,
         "pas": 71,
-        "pos": 57,
+        "pos": 77,
         "sho": 84,
         "sta": 80,
         "str": 79,
@@ -290,19 +312,24 @@
       "wage": 175500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 82,
-        "com": 71,
-        "dri": 60,
-        "ldr": 76,
-        "pac": 70,
-        "pas": 67,
-        "pos": 78,
-        "sho": 50,
-        "sta": 73,
-        "str": 75,
-        "tac": 77,
-        "vis": 65
+        "aer": 69,
+        "com": 69,
+        "dri": 70,
+        "ldr": 72,
+        "pac": 78,
+        "pas": 71,
+        "pos": 73,
+        "sho": 57,
+        "sta": 79,
+        "str": 67,
+        "tac": 74,
+        "vis": 71
       },
       "birth": "1993-12-01",
       "contract": null,
@@ -313,7 +340,7 @@
       "nation": "POR",
       "nation2": "FRA",
       "number": 13,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 105500
     },
     {
@@ -324,7 +351,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 61,
-        "pos": 44,
+        "pos": 64,
         "sho": 73,
         "sta": 61,
         "str": 69,
@@ -343,22 +370,19 @@
       "wage": 39500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 74,
-        "com": 71,
-        "dri": 60,
-        "ldr": 73,
-        "pac": 66,
-        "pas": 67,
-        "pos": 76,
-        "sho": 45,
-        "sta": 67,
-        "str": 76,
-        "tac": 75,
-        "vis": 55
+        "aer": 61,
+        "com": 69,
+        "dri": 70,
+        "ldr": 69,
+        "pac": 74,
+        "pas": 71,
+        "pos": 71,
+        "sho": 52,
+        "sta": 73,
+        "str": 68,
+        "tac": 72,
+        "vis": 61
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -369,7 +393,7 @@
       "nation": "GER",
       "nation2": "USA",
       "number": 15,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 73000
     },
     {
@@ -380,7 +404,7 @@
         "ldr": 73,
         "pac": 84,
         "pas": 73,
-        "pos": 62,
+        "pos": 82,
         "sho": 84,
         "sta": 75,
         "str": 78,
@@ -400,6 +424,9 @@
       "wage": 167500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 73,
@@ -427,18 +454,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 73,
-        "dri": 66,
-        "ldr": 67,
-        "pac": 64,
-        "pas": 75,
-        "pos": 72,
-        "sho": 66,
+        "dri": 62,
+        "ldr": 69,
+        "pac": 61,
+        "pas": 74,
+        "pos": 76,
+        "sho": 60,
         "sta": 72,
-        "str": 68,
-        "tac": 70,
-        "vis": 71
+        "str": 73,
+        "tac": 76,
+        "vis": 68
       },
       "birth": "1996-01-01",
       "contract": null,
@@ -448,7 +475,7 @@
       "name": "Mahmoud Dahuud",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 85500
     },
     {
@@ -459,7 +486,7 @@
         "ldr": 62,
         "pac": 69,
         "pas": 60,
-        "pos": 50,
+        "pos": 70,
         "sho": 72,
         "sta": 66,
         "str": 71,
@@ -478,20 +505,23 @@
       "wage": 43000
     },
     {
-      "alt": [],
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 77,
-        "com": 84,
-        "dri": 81,
-        "ldr": 76,
-        "pac": 84,
-        "pas": 71,
-        "pos": 61,
-        "sho": 81,
-        "sta": 79,
-        "str": 81,
-        "tac": 51,
-        "vis": 74
+        "aer": 63,
+        "com": 81,
+        "dri": 86,
+        "ldr": 74,
+        "pac": 88,
+        "pas": 77,
+        "pos": 63,
+        "sho": 76,
+        "sta": 81,
+        "str": 71,
+        "tac": 57,
+        "vis": 80
       },
       "birth": "1990-11-01",
       "contract": null,
@@ -501,23 +531,28 @@
       "name": "Andre Schorrle",
       "nation": "GER",
       "number": 21,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 179000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 68,
-        "dri": 66,
-        "ldr": 63,
-        "pac": 68,
-        "pas": 72,
-        "pos": 70,
-        "sho": 62,
-        "sta": 72,
-        "str": 68,
-        "tac": 69,
-        "vis": 68
+        "aer": 54,
+        "com": 70,
+        "dri": 70,
+        "ldr": 61,
+        "pac": 71,
+        "pas": 73,
+        "pos": 55,
+        "sho": 69,
+        "sta": 66,
+        "str": 63,
+        "tac": 51,
+        "vis": 71
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -528,10 +563,14 @@
       "nation": "USA",
       "nation2": "CRO",
       "number": 22,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 73500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 84,
@@ -613,6 +652,11 @@
       "wage": 119500
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 76,
@@ -662,13 +706,10 @@
       "name": "Marcel Schmelzar",
       "nation": "GER",
       "number": 29,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 145500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 66,
         "com": 70,
@@ -695,19 +736,22 @@
       "wage": 90500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 61,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 54,
+        "aer": 45,
+        "com": 62,
+        "dri": 63,
+        "ldr": 54,
+        "pac": 57,
         "pas": 61,
-        "pos": 56,
-        "sho": 53,
-        "sta": 59,
-        "str": 51,
-        "tac": 52,
-        "vis": 60
+        "pos": 41,
+        "sho": 59,
+        "sta": 53,
+        "str": 46,
+        "tac": 34,
+        "vis": 62
       },
       "birth": "1998-09-01",
       "contract": null,
@@ -717,7 +761,7 @@
       "name": "Jacob Bruun Lersen",
       "nation": "DEN",
       "number": 34,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 21000
     },
     {
@@ -748,6 +792,9 @@
       "wage": 126000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 69,

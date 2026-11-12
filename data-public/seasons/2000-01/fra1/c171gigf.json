@@ -31,7 +31,7 @@
         "ldr": 74,
         "pac": 75,
         "pas": 72,
-        "pos": 53,
+        "pos": 73,
         "sho": 83,
         "sta": 72,
         "str": 80,
@@ -57,7 +57,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 83,
         "sta": 76,
         "str": 79,
@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 73,
-        "dri": 72,
-        "ldr": 70,
-        "pac": 70,
+        "aer": 59,
+        "com": 74,
+        "dri": 76,
+        "ldr": 68,
+        "pac": 73,
         "pas": 80,
-        "pos": 75,
-        "sho": 73,
-        "sta": 75,
-        "str": 71,
-        "tac": 69,
-        "vis": 80
+        "pos": 60,
+        "sho": 79,
+        "sta": 69,
+        "str": 66,
+        "tac": 51,
+        "vis": 82
       },
       "birth": "1969-02-01",
       "contract": null,
@@ -99,11 +99,14 @@
       "name": "Marc Wilmuts",
       "nation": "BEL",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -218,7 +221,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 64,
-        "pos": 44,
+        "pos": 64,
         "sho": 71,
         "sta": 62,
         "str": 69,
@@ -238,18 +241,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 64,
-        "dri": 54,
+        "aer": 65,
+        "com": 66,
+        "dri": 62,
         "ldr": 63,
-        "pac": 61,
-        "pas": 60,
-        "pos": 74,
-        "sho": 39,
-        "sta": 64,
-        "str": 68,
-        "tac": 69,
-        "vis": 51
+        "pac": 59,
+        "pas": 69,
+        "pos": 73,
+        "sho": 54,
+        "sta": 70,
+        "str": 66,
+        "tac": 68,
+        "vis": 63
       },
       "birth": "1974-09-01",
       "contract": null,
@@ -260,10 +263,13 @@
       "nation": "FRA",
       "nation2": "CIV",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 63,
@@ -317,19 +323,23 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 64,
-        "dri": 65,
-        "ldr": 62,
-        "pac": 62,
+        "aer": 48,
+        "com": 65,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 65,
         "pas": 66,
-        "pos": 66,
-        "sho": 57,
-        "sta": 67,
-        "str": 57,
-        "tac": 60,
-        "vis": 69
+        "pos": 51,
+        "sho": 63,
+        "sta": 61,
+        "str": 52,
+        "tac": 42,
+        "vis": 71
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -340,24 +350,24 @@
       "nation": "FRA",
       "nation2": "GUI",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 13000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 57,
-        "dri": 45,
-        "ldr": 57,
-        "pac": 54,
-        "pas": 52,
-        "pos": 67,
-        "sho": 36,
-        "sta": 59,
-        "str": 61,
-        "tac": 68,
-        "vis": 45
+        "aer": 51,
+        "com": 55,
+        "dri": 55,
+        "ldr": 53,
+        "pac": 62,
+        "pas": 56,
+        "pos": 62,
+        "sho": 43,
+        "sta": 65,
+        "str": 53,
+        "tac": 65,
+        "vis": 51
       },
       "birth": "1978-05-01",
       "contract": null,
@@ -367,7 +377,7 @@
       "name": "Bruno Besto",
       "nation": "POR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 6000
     },
@@ -422,10 +432,13 @@
       "name": "Jerome Bonnyssel",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 62,
@@ -506,19 +519,24 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 63,
-        "com": 58,
-        "dri": 43,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 55,
-        "pos": 62,
-        "sho": 32,
-        "sta": 57,
-        "str": 63,
-        "tac": 65,
-        "vis": 44
+        "aer": 50,
+        "com": 56,
+        "dri": 53,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 59,
+        "pos": 57,
+        "sho": 39,
+        "sta": 63,
+        "str": 55,
+        "tac": 62,
+        "vis": 50
       },
       "birth": "1975-03-01",
       "contract": null,
@@ -528,10 +546,13 @@
       "name": "Francois Granet",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 61,
@@ -592,7 +613,7 @@
         "ldr": 44,
         "pac": 55,
         "pas": 47,
-        "pos": 32,
+        "pos": 52,
         "sho": 56,
         "sta": 46,
         "str": 54,
@@ -619,7 +640,7 @@
         "ldr": 46,
         "pac": 52,
         "pas": 47,
-        "pos": 27,
+        "pos": 47,
         "sho": 55,
         "sta": 46,
         "str": 51,
@@ -665,6 +686,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -746,6 +770,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -773,6 +800,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 37,
         "com": 53,
@@ -807,7 +837,7 @@
         "ldr": 40,
         "pac": 47,
         "pas": 38,
-        "pos": 27,
+        "pos": 47,
         "sho": 48,
         "sta": 44,
         "str": 47,

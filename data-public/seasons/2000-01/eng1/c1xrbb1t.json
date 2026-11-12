@@ -122,6 +122,10 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 60,
@@ -234,21 +238,21 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 60,
-        "com": 66,
-        "dri": 62,
+        "com": 67,
+        "dri": 63,
         "ldr": 60,
         "pac": 56,
-        "pas": 70,
+        "pas": 71,
         "pos": 64,
-        "sho": 62,
-        "sta": 72,
+        "sho": 63,
+        "sta": 73,
         "str": 68,
         "tac": 66,
-        "vis": 64
+        "vis": 65
       },
       "birth": "1972-11-01",
       "contract": "2003-06-30",
@@ -263,22 +267,23 @@
     },
     {
       "alt": [
-        "CB",
-        "CM"
+        "RB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 70,
-        "com": 66,
+        "com": 68,
         "dri": 58,
         "ldr": 66,
         "pac": 62,
-        "pas": 64,
+        "pas": 66,
         "pos": 70,
         "sho": 54,
-        "sta": 78,
+        "sta": 80,
         "str": 78,
         "tac": 76,
-        "vis": 56
+        "vis": 58
       },
       "birth": "1972-11-01",
       "contract": "2004-06-30",
@@ -293,16 +298,16 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 68,
+        "aer": 76,
+        "com": 72,
         "dri": 76,
         "ldr": 50,
         "pac": 74,
         "pas": 64,
-        "pos": 48,
-        "sho": 76,
+        "pos": 52,
+        "sho": 80,
         "sta": 68,
-        "str": 70,
+        "str": 74,
         "tac": 32,
         "vis": 64
       },
@@ -355,13 +360,13 @@
         "com": 62,
         "dri": 72,
         "ldr": 48,
-        "pac": 76,
+        "pac": 83,
         "pas": 70,
-        "pos": 52,
+        "pos": 68,
         "sho": 62,
-        "sta": 70,
-        "str": 60,
-        "tac": 44,
+        "sta": 79,
+        "str": 76,
+        "tac": 60,
         "vis": 64
       },
       "birth": "1976-05-01",
@@ -372,21 +377,21 @@
       "name": "Mark Kannedy",
       "nation": "IRL",
       "number": 34,
-      "pos": "LM",
+      "pos": "LB",
       "wage": 20000
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 72,
+        "aer": 69,
+        "com": 75,
         "dri": 76,
         "ldr": 70,
-        "pac": 62,
+        "pac": 65,
         "pas": 68,
-        "pos": 48,
-        "sho": 76,
+        "pos": 51,
+        "sho": 79,
         "sta": 56,
-        "str": 76,
+        "str": 79,
         "tac": 30,
         "vis": 66
       },
@@ -402,19 +407,22 @@
       "wage": 28500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 56,
-        "dri": 58,
+        "com": 64,
+        "dri": 64,
         "ldr": 46,
         "pac": 60,
-        "pas": 62,
+        "pas": 70,
         "pos": 60,
-        "sho": 50,
-        "sta": 74,
+        "sho": 56,
+        "sta": 75,
         "str": 60,
-        "tac": 66,
-        "vis": 54
+        "tac": 68,
+        "vis": 62
       },
       "birth": "1979-01-01",
       "contract": "2003-06-30",
@@ -429,16 +437,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 64,
+        "aer": 53,
+        "com": 67,
         "dri": 64,
         "ldr": 64,
         "pac": 64,
         "pas": 58,
-        "pos": 50,
-        "sho": 66,
+        "pos": 53,
+        "sho": 69,
         "sta": 76,
-        "str": 60,
+        "str": 63,
         "tac": 40,
         "vis": 56
       },
@@ -454,6 +462,9 @@
       "wage": 17000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 68,
@@ -480,6 +491,9 @@
       "wage": 15500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 62,
@@ -535,9 +549,6 @@
       "wage": 28000
     },
     {
-      "alt": [
-        "LB"
-      ],
       "attrs": {
         "aer": 66,
         "com": 58,
@@ -564,19 +575,24 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 58,
         "dri": 68,
         "ldr": 44,
         "pac": 70,
-        "pas": 66,
+        "pas": 72,
         "pos": 50,
         "sho": 56,
-        "sta": 66,
+        "sta": 72,
         "str": 52,
-        "tac": 40,
-        "vis": 60
+        "tac": 46,
+        "vis": 66
       },
       "birth": "1976-08-01",
       "contract": "2002-06-30",
@@ -591,7 +607,8 @@
     },
     {
       "alt": [
-        "LM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 52,
@@ -620,7 +637,7 @@
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 36,
@@ -644,7 +661,7 @@
       "name": "Shaun Wryght-Phillips",
       "nation": "ENG",
       "number": 29,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "speedster"
       ],
@@ -652,6 +669,8 @@
     },
     {
       "alt": [
+        "CB",
+        "LB",
         "CM"
       ],
       "attrs": {
@@ -732,6 +751,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,

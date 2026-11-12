@@ -31,7 +31,7 @@
         "ldr": 58,
         "pac": 66,
         "pas": 54,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 58,
         "str": 64,
@@ -79,18 +79,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
-        "com": 65,
-        "dri": 62,
-        "ldr": 56,
-        "pac": 58,
+        "aer": 45,
+        "com": 66,
+        "dri": 66,
+        "ldr": 54,
+        "pac": 61,
         "pas": 67,
-        "pos": 57,
-        "sho": 59,
-        "sta": 67,
-        "str": 58,
-        "tac": 61,
-        "vis": 63
+        "pos": 42,
+        "sho": 65,
+        "sta": 61,
+        "str": 53,
+        "tac": 43,
+        "vis": 65
       },
       "birth": "1979-08-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "name": "Alexander Noori",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
@@ -138,7 +138,7 @@
         "ldr": 52,
         "pac": 63,
         "pas": 53,
-        "pos": 36,
+        "pos": 56,
         "sho": 66,
         "sta": 54,
         "str": 62,
@@ -186,6 +186,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 62,
@@ -221,7 +224,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 48,
-        "pos": 37,
+        "pos": 57,
         "sho": 64,
         "sta": 52,
         "str": 59,
@@ -247,7 +250,7 @@
         "ldr": 52,
         "pac": 62,
         "pas": 52,
-        "pos": 36,
+        "pos": 56,
         "sho": 63,
         "sta": 54,
         "str": 61,
@@ -267,18 +270,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 59,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 52,
-        "pas": 63,
-        "pos": 54,
-        "sho": 50,
+        "dri": 51,
+        "ldr": 55,
+        "pac": 49,
+        "pas": 62,
+        "pos": 58,
+        "sho": 44,
         "sta": 57,
-        "str": 55,
-        "tac": 52,
-        "vis": 62
+        "str": 60,
+        "tac": 58,
+        "vis": 59
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -288,11 +291,14 @@
       "name": "Matthias Heidrych",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 53,
@@ -372,19 +378,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 54,
-        "dri": 56,
+        "com": 57,
+        "dri": 61,
         "ldr": 53,
         "pac": 54,
-        "pas": 46,
-        "pos": 32,
-        "sho": 58,
+        "pas": 54,
+        "pos": 52,
+        "sho": 61,
         "sta": 53,
         "str": 57,
         "tac": 29,
-        "vis": 49
+        "vis": 57
       },
       "birth": "1982-07-01",
       "contract": null,
@@ -394,7 +405,7 @@
       "name": "Gaetano Menno",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1500
     },
@@ -426,18 +437,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 56,
-        "dri": 40,
-        "ldr": 50,
-        "pac": 50,
-        "pas": 45,
-        "pos": 57,
-        "sho": 28,
-        "sta": 50,
-        "str": 54,
-        "tac": 61,
-        "vis": 40
+        "aer": 44,
+        "com": 54,
+        "dri": 50,
+        "ldr": 46,
+        "pac": 58,
+        "pas": 49,
+        "pos": 52,
+        "sho": 35,
+        "sta": 56,
+        "str": 46,
+        "tac": 58,
+        "vis": 46
       },
       "birth": "1985-07-01",
       "contract": null,
@@ -448,7 +459,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 1500
     },
@@ -479,6 +490,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 54,
@@ -559,18 +573,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 49,
-        "dri": 41,
-        "ldr": 53,
-        "pac": 49,
-        "pas": 48,
-        "pos": 54,
-        "sho": 28,
-        "sta": 51,
-        "str": 53,
-        "tac": 56,
-        "vis": 41
+        "aer": 44,
+        "com": 47,
+        "dri": 51,
+        "ldr": 49,
+        "pac": 57,
+        "pas": 52,
+        "pos": 49,
+        "sho": 35,
+        "sta": 57,
+        "str": 45,
+        "tac": 53,
+        "vis": 47
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -581,7 +595,7 @@
       "nation": "GER",
       "nation2": "KAZ",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 1500
     },
     {
@@ -612,19 +626,22 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 43,
-        "com": 51,
-        "dri": 51,
-        "ldr": 52,
-        "pac": 45,
-        "pas": 53,
-        "pos": 53,
-        "sho": 47,
-        "sta": 56,
-        "str": 50,
-        "tac": 49,
-        "vis": 51
+        "aer": 44,
+        "com": 53,
+        "dri": 53,
+        "ldr": 53,
+        "pac": 46,
+        "pas": 55,
+        "pos": 54,
+        "sho": 49,
+        "sta": 58,
+        "str": 51,
+        "tac": 50,
+        "vis": 53
       },
       "birth": "1974-12-01",
       "contract": null,
@@ -664,6 +681,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 55,
@@ -691,6 +711,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 50,
@@ -718,6 +741,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 49,
@@ -745,19 +771,24 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 51,
+        "com": 60,
         "dri": 37,
         "ldr": 49,
         "pac": 43,
-        "pas": 42,
+        "pas": 51,
         "pos": 53,
         "sho": 27,
-        "sta": 48,
+        "sta": 57,
         "str": 52,
         "tac": 56,
-        "vis": 40
+        "vis": 49
       },
       "birth": "1985-06-01",
       "contract": null,
@@ -767,7 +798,7 @@
       "name": "Hendrik Grossuhmichen",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1000
     }
   ],

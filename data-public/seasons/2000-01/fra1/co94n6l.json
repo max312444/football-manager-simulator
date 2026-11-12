@@ -25,18 +25,18 @@
   "squad": [
     {
       "attrs": {
-        "aer": 62,
+        "aer": 68,
         "com": 71,
-        "dri": 74,
-        "ldr": 67,
-        "pac": 69,
-        "pas": 79,
-        "pos": 75,
-        "sho": 66,
+        "dri": 70,
+        "ldr": 69,
+        "pac": 66,
+        "pas": 78,
+        "pos": 79,
+        "sho": 60,
         "sta": 75,
-        "str": 66,
-        "tac": 68,
-        "vis": 72
+        "str": 71,
+        "tac": 74,
+        "vis": 69
       },
       "birth": "1972-08-01",
       "contract": null,
@@ -46,11 +46,14 @@
       "name": "Radek Bajbl",
       "nation": "CZE",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 15500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 68,
@@ -104,19 +107,23 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 70,
-        "dri": 68,
-        "ldr": 63,
-        "pac": 63,
-        "pas": 70,
-        "pos": 69,
-        "sho": 61,
-        "sta": 70,
-        "str": 62,
-        "tac": 63,
-        "vis": 66
+        "aer": 51,
+        "com": 68,
+        "dri": 73,
+        "ldr": 59,
+        "pac": 72,
+        "pas": 66,
+        "pos": 51,
+        "sho": 65,
+        "sta": 66,
+        "str": 57,
+        "tac": 43,
+        "vis": 63
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -126,11 +133,14 @@
       "name": "El Hadji Dyouf",
       "nation": "SEN",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 15000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 66,
@@ -159,7 +169,8 @@
     },
     {
       "alt": [
-        "ST"
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 55,
@@ -188,6 +199,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 62,
@@ -215,19 +229,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 62,
+        "com": 71,
         "dri": 47,
         "ldr": 62,
         "pac": 61,
-        "pas": 59,
+        "pas": 68,
         "pos": 66,
         "sho": 37,
-        "sta": 57,
+        "sta": 66,
         "str": 63,
         "tac": 68,
-        "vis": 47
+        "vis": 56
       },
       "birth": "1975-04-01",
       "contract": null,
@@ -237,23 +254,23 @@
       "name": "Cyril Ruol",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 6500
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 62,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 61,
-        "pas": 67,
-        "pos": 60,
-        "sho": 60,
+        "dri": 56,
+        "ldr": 62,
+        "pac": 58,
+        "pas": 66,
+        "pos": 64,
+        "sho": 54,
         "sta": 63,
-        "str": 60,
-        "tac": 61,
-        "vis": 65
+        "str": 65,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1972-05-01",
       "contract": null,
@@ -263,10 +280,15 @@
       "name": "Jocelyn Blenchard",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 9500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 62,
@@ -274,7 +296,7 @@
         "ldr": 59,
         "pac": 61,
         "pas": 59,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 59,
         "str": 67,
@@ -301,7 +323,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 68,
         "sta": 60,
         "str": 65,
@@ -321,6 +343,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 60,
@@ -355,7 +380,7 @@
         "ldr": 53,
         "pac": 61,
         "pas": 53,
-        "pos": 39,
+        "pos": 59,
         "sho": 65,
         "sta": 54,
         "str": 63,
@@ -455,18 +480,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 60,
-        "dri": 47,
-        "ldr": 57,
-        "pac": 53,
-        "pas": 54,
-        "pos": 63,
-        "sho": 34,
-        "sta": 53,
-        "str": 59,
-        "tac": 65,
-        "vis": 47
+        "aer": 50,
+        "com": 58,
+        "dri": 57,
+        "ldr": 53,
+        "pac": 61,
+        "pas": 58,
+        "pos": 58,
+        "sho": 41,
+        "sta": 59,
+        "str": 51,
+        "tac": 62,
+        "vis": 53
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -476,7 +501,7 @@
       "name": "Franck Queudroe",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4500
     },
     {
@@ -507,6 +532,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -585,19 +613,23 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 60,
-        "dri": 57,
-        "ldr": 51,
-        "pac": 54,
-        "pas": 58,
-        "pos": 56,
-        "sho": 52,
-        "sta": 61,
-        "str": 56,
-        "tac": 55,
-        "vis": 56
+        "aer": 39,
+        "com": 58,
+        "dri": 62,
+        "ldr": 47,
+        "pac": 63,
+        "pas": 54,
+        "pos": 38,
+        "sho": 56,
+        "sta": 57,
+        "str": 51,
+        "tac": 35,
+        "vis": 53
       },
       "birth": "1977-09-01",
       "contract": null,
@@ -608,10 +640,13 @@
       "nation": "SEN",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 59,
@@ -639,6 +674,10 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 52,
@@ -692,6 +731,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 59,
@@ -719,7 +761,8 @@
     },
     {
       "alt": [
-        "CM"
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 37,
@@ -774,18 +817,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 49,
-        "dri": 42,
-        "ldr": 52,
-        "pac": 50,
-        "pas": 45,
-        "pos": 56,
-        "sho": 27,
-        "sta": 52,
-        "str": 57,
-        "tac": 57,
-        "vis": 41
+        "aer": 43,
+        "com": 47,
+        "dri": 52,
+        "ldr": 48,
+        "pac": 58,
+        "pas": 49,
+        "pos": 51,
+        "sho": 34,
+        "sta": 58,
+        "str": 49,
+        "tac": 54,
+        "vis": 47
       },
       "birth": "1978-01-01",
       "contract": null,
@@ -796,11 +839,14 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -827,9 +873,6 @@
       "wage": 2500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -863,7 +906,7 @@
         "ldr": 44,
         "pac": 51,
         "pas": 45,
-        "pos": 30,
+        "pos": 50,
         "sho": 50,
         "sta": 46,
         "str": 52,
@@ -889,7 +932,7 @@
         "ldr": 47,
         "pac": 51,
         "pas": 40,
-        "pos": 25,
+        "pos": 45,
         "sho": 54,
         "sta": 48,
         "str": 50,
@@ -911,17 +954,17 @@
     {
       "attrs": {
         "aer": 39,
-        "com": 49,
-        "dri": 44,
-        "ldr": 44,
-        "pac": 45,
-        "pas": 46,
+        "com": 45,
+        "dri": 42,
+        "ldr": 42,
+        "pac": 52,
+        "pas": 40,
         "pos": 45,
-        "sho": 43,
+        "sho": 29,
         "sta": 46,
-        "str": 40,
-        "tac": 40,
-        "vis": 51
+        "str": 39,
+        "tac": 44,
+        "vis": 42
       },
       "birth": "1983-11-01",
       "contract": null,
@@ -931,7 +974,7 @@
       "name": "Lesly Maluuda",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 1500
     },

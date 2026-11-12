@@ -73,10 +73,13 @@
       "name": "Ludwig Aogustinsson",
       "nation": "SWE",
       "number": 5,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 105500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -103,19 +106,23 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 72,
-        "dri": 71,
-        "ldr": 68,
-        "pac": 70,
+        "aer": 58,
+        "com": 73,
+        "dri": 75,
+        "ldr": 66,
+        "pac": 73,
         "pas": 75,
-        "pos": 71,
-        "sho": 66,
-        "sta": 74,
-        "str": 71,
-        "tac": 72,
-        "vis": 75
+        "pos": 56,
+        "sho": 72,
+        "sta": 68,
+        "str": 66,
+        "tac": 54,
+        "vis": 77
       },
       "birth": "1996-06-01",
       "contract": null,
@@ -126,7 +133,7 @@
       "nation": "KVX",
       "nation2": "ALB",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 92000
     },
     {
@@ -137,7 +144,7 @@
         "ldr": 77,
         "pac": 82,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 85,
         "sta": 78,
         "str": 80,
@@ -163,7 +170,7 @@
         "ldr": 73,
         "pac": 74,
         "pas": 70,
-        "pos": 57,
+        "pos": 77,
         "sho": 82,
         "sta": 73,
         "str": 78,
@@ -183,6 +190,10 @@
       "wage": 93000
     },
     {
+      "alt": [
+        "AM",
+        "RM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -217,7 +228,7 @@
         "ldr": 70,
         "pac": 76,
         "pas": 68,
-        "pos": 58,
+        "pos": 78,
         "sho": 82,
         "sta": 72,
         "str": 79,
@@ -264,7 +275,7 @@
     },
     {
       "alt": [
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 49,
@@ -326,7 +337,7 @@
         "ldr": 56,
         "pac": 59,
         "pas": 56,
-        "pos": 36,
+        "pos": 56,
         "sho": 64,
         "sta": 59,
         "str": 63,
@@ -346,18 +357,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 67,
-        "dri": 63,
-        "ldr": 65,
-        "pac": 65,
+        "aer": 50,
+        "com": 68,
+        "dri": 67,
+        "ldr": 63,
+        "pac": 68,
         "pas": 72,
-        "pos": 69,
-        "sho": 63,
-        "sta": 72,
-        "str": 65,
-        "tac": 63,
-        "vis": 68
+        "pos": 54,
+        "sho": 69,
+        "sta": 66,
+        "str": 60,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "2000-01-01",
       "contract": null,
@@ -367,7 +378,7 @@
       "name": "Romano Schmyd",
       "nation": "AUT",
       "number": 20,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 52000
     },
     {
@@ -398,18 +409,22 @@
       "wage": 100500
     },
     {
+      "alt": [
+        "LM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 49,
-        "com": 61,
-        "dri": 59,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 61,
-        "pos": 60,
-        "sho": 55,
-        "sta": 61,
-        "str": 56,
-        "tac": 60,
+        "aer": 45,
+        "com": 59,
+        "dri": 62,
+        "ldr": 56,
+        "pac": 66,
+        "pas": 62,
+        "pos": 52,
+        "sho": 53,
+        "sta": 65,
+        "str": 53,
+        "tac": 55,
         "vis": 61
       },
       "birth": "1999-12-01",
@@ -422,12 +437,13 @@
       "nation": "NED",
       "nation2": "CUW",
       "number": 22,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 22500
     },
     {
       "alt": [
-        "CM"
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 65,
@@ -481,19 +497,22 @@
       "wage": 91500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 64,
-        "dri": 62,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 65,
-        "pos": 56,
-        "sho": 55,
+        "dri": 58,
+        "ldr": 56,
+        "pac": 50,
+        "pas": 64,
+        "pos": 60,
+        "sho": 49,
         "sta": 66,
-        "str": 57,
-        "tac": 59,
-        "vis": 65
+        "str": 62,
+        "tac": 65,
+        "vis": 62
       },
       "birth": "1995-01-01",
       "contract": null,
@@ -503,10 +522,13 @@
       "name": "Patrick Erres",
       "nation": "GER",
       "number": 29,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 23500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 68,
@@ -533,6 +555,9 @@
       "wage": 56500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 52,
@@ -560,18 +585,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 64,
         "com": 74,
-        "dri": 69,
-        "ldr": 70,
-        "pac": 66,
-        "pas": 74,
-        "pos": 67,
-        "sho": 62,
+        "dri": 65,
+        "ldr": 72,
+        "pac": 63,
+        "pas": 73,
+        "pos": 71,
+        "sho": 56,
         "sta": 74,
-        "str": 65,
-        "tac": 69,
-        "vis": 74
+        "str": 70,
+        "tac": 75,
+        "vis": 71
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -581,10 +606,13 @@
       "name": "Maximilian Eggestain",
       "nation": "GER",
       "number": 35,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 71500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 58,
@@ -612,7 +640,9 @@
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 61,
@@ -621,7 +651,7 @@
         "ldr": 60,
         "pac": 67,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 64,
         "str": 65,
@@ -640,6 +670,9 @@
       "wage": 24000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,

@@ -157,16 +157,16 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 72,
+        "aer": 70,
+        "com": 75,
         "dri": 70,
         "ldr": 65,
         "pac": 72,
         "pas": 61,
-        "pos": 34,
-        "sho": 77,
+        "pos": 37,
+        "sho": 80,
         "sta": 65,
-        "str": 70,
+        "str": 73,
         "tac": 28,
         "vis": 61
       },
@@ -183,7 +183,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 59,
@@ -216,16 +217,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 56,
+        "aer": 63,
+        "com": 57,
         "dri": 64,
         "ldr": 44,
         "pac": 68,
         "pas": 54,
-        "pos": 42,
-        "sho": 62,
+        "pos": 43,
+        "sho": 63,
         "sta": 66,
-        "str": 76,
+        "str": 77,
         "tac": 34,
         "vis": 50
       },
@@ -270,20 +271,22 @@
     },
     {
       "alt": [
-        "LM"
+        "CB",
+        "RB",
+        "CM"
       ],
       "attrs": {
         "aer": 51,
         "com": 66,
         "dri": 72,
         "ldr": 53,
-        "pac": 76,
+        "pac": 83,
         "pas": 67,
-        "pos": 52,
+        "pos": 65,
         "sho": 64,
-        "sta": 75,
-        "str": 58,
-        "tac": 49,
+        "sta": 81,
+        "str": 71,
+        "tac": 62,
         "vis": 60
       },
       "birth": "1981-11-01",
@@ -302,6 +305,9 @@
       "wage": 28000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 75,
@@ -333,21 +339,21 @@
     },
     {
       "alt": [
-        "RM"
+        "DM"
       ],
       "attrs": {
         "aer": 51,
-        "com": 66,
+        "com": 67,
         "dri": 69,
         "ldr": 56,
         "pac": 66,
-        "pas": 72,
+        "pas": 73,
         "pos": 60,
         "sho": 63,
         "sta": 77,
         "str": 59,
-        "tac": 58,
-        "vis": 70
+        "tac": 59,
+        "vis": 71
       },
       "birth": "1983-05-01",
       "contract": "2009-06-30",
@@ -361,9 +367,6 @@
       "wage": 35000
     },
     {
-      "alt": [
-        "LM"
-      ],
       "attrs": {
         "aer": 41,
         "com": 72,
@@ -393,9 +396,6 @@
       "wage": 26500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 73,
         "com": 69,
@@ -423,7 +423,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 50,
@@ -431,12 +431,12 @@
         "dri": 74,
         "ldr": 50,
         "pac": 68,
-        "pas": 76,
+        "pas": 77,
         "pos": 58,
         "sho": 66,
-        "sta": 74,
+        "sta": 75,
         "str": 64,
-        "tac": 60,
+        "tac": 61,
         "vis": 74
       },
       "birth": "1986-02-01",
@@ -453,6 +453,9 @@
       "wage": 39500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 68,
@@ -479,21 +482,18 @@
       "wage": 36500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
-        "aer": 64,
-        "com": 62,
+        "aer": 66,
+        "com": 64,
         "dri": 56,
         "ldr": 56,
         "pac": 71,
         "pas": 58,
-        "pos": 66,
+        "pos": 68,
         "sho": 42,
         "sta": 73,
-        "str": 67,
-        "tac": 71,
+        "str": 69,
+        "tac": 73,
         "vis": 48
       },
       "birth": "1979-04-01",
@@ -504,7 +504,7 @@
       "name": "Noe Pamerot",
       "nation": "FRA",
       "number": 23,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 25500
     },
     {
@@ -530,21 +530,24 @@
       "name": "Richard Hoghes",
       "nation": "SCO",
       "number": 24,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 71,
+        "aer": 67,
+        "com": 74,
         "dri": 72,
         "ldr": 53,
         "pac": 75,
         "pas": 64,
-        "pos": 52,
-        "sho": 76,
+        "pos": 55,
+        "sho": 79,
         "sta": 69,
-        "str": 64,
+        "str": 67,
         "tac": 38,
         "vis": 63
       },
@@ -564,20 +567,17 @@
       "wage": 33000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 70,
-        "com": 80,
+        "aer": 79,
+        "com": 89,
         "dri": 76,
         "ldr": 68,
-        "pac": 55,
+        "pac": 64,
         "pas": 69,
-        "pos": 42,
-        "sho": 77,
+        "pos": 51,
+        "sho": 86,
         "sta": 61,
-        "str": 70,
+        "str": 79,
         "tac": 34,
         "vis": 79
       },

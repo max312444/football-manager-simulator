@@ -52,6 +52,9 @@
       "wage": 32000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 76,
         "com": 71,
@@ -130,7 +133,6 @@
       "wage": 15500
     },
     {
-      "alt": [],
       "attrs": {
         "aer": 76,
         "com": 76,
@@ -138,7 +140,7 @@
         "ldr": 70,
         "pac": 78,
         "pas": 71,
-        "pos": 59,
+        "pos": 79,
         "sho": 83,
         "sta": 72,
         "str": 81,
@@ -157,6 +159,9 @@
       "wage": 40000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 60,
@@ -183,19 +188,22 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 65,
-        "dri": 57,
-        "ldr": 56,
-        "pac": 59,
-        "pas": 65,
-        "pos": 61,
-        "sho": 56,
-        "sta": 67,
-        "str": 55,
-        "tac": 59,
-        "vis": 61
+        "aer": 45,
+        "com": 63,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 68,
+        "pas": 61,
+        "pos": 43,
+        "sho": 60,
+        "sta": 63,
+        "str": 50,
+        "tac": 39,
+        "vis": 58
       },
       "birth": "1986-01-01",
       "contract": null,
@@ -205,23 +213,26 @@
       "name": "Miguel Angel Nietu",
       "nation": "ESP",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 13000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 76,
-        "dri": 74,
-        "ldr": 71,
-        "pac": 70,
-        "pas": 78,
-        "pos": 72,
-        "sho": 68,
-        "sta": 73,
-        "str": 67,
-        "tac": 68,
-        "vis": 76
+        "aer": 56,
+        "com": 74,
+        "dri": 79,
+        "ldr": 67,
+        "pac": 79,
+        "pas": 74,
+        "pos": 54,
+        "sho": 72,
+        "sta": 69,
+        "str": 62,
+        "tac": 48,
+        "vis": 73
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -231,23 +242,23 @@
       "name": "Albert Cruset",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 40000
     },
     {
       "attrs": {
-        "aer": 53,
-        "com": 62,
-        "dri": 65,
-        "ldr": 63,
-        "pac": 62,
+        "aer": 47,
+        "com": 63,
+        "dri": 69,
+        "ldr": 61,
+        "pac": 65,
         "pas": 67,
-        "pos": 64,
-        "sho": 57,
-        "sta": 64,
-        "str": 60,
-        "tac": 63,
-        "vis": 68
+        "pos": 49,
+        "sho": 63,
+        "sta": 58,
+        "str": 55,
+        "tac": 45,
+        "vis": 70
       },
       "birth": "1986-05-01",
       "contract": null,
@@ -258,23 +269,23 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 9,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 18000
     },
     {
       "attrs": {
-        "aer": 58,
+        "aer": 44,
         "com": 64,
-        "dri": 64,
+        "dri": 68,
         "ldr": 59,
-        "pac": 60,
-        "pas": 58,
-        "pos": 40,
-        "sho": 69,
+        "pac": 58,
+        "pas": 68,
+        "pos": 45,
+        "sho": 66,
         "sta": 62,
-        "str": 62,
-        "tac": 36,
-        "vis": 52
+        "str": 52,
+        "tac": 44,
+        "vis": 63
       },
       "birth": "1977-08-01",
       "contract": null,
@@ -284,23 +295,26 @@
       "name": "Jose Ortyz",
       "nation": "ESP",
       "number": 10,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 10000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 65,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 62,
-        "pas": 68,
-        "pos": 67,
-        "sho": 61,
-        "sta": 67,
-        "str": 63,
-        "tac": 60,
-        "vis": 70
+        "aer": 51,
+        "com": 63,
+        "dri": 68,
+        "ldr": 57,
+        "pac": 71,
+        "pas": 64,
+        "pos": 49,
+        "sho": 65,
+        "sta": 63,
+        "str": 58,
+        "tac": 40,
+        "vis": 67
       },
       "birth": "1989-03-01",
       "contract": null,
@@ -311,7 +325,7 @@
       "nation": "ARG",
       "nation2": "ITA",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 21000
     },
     {
@@ -368,18 +382,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 74,
-        "dri": 70,
-        "ldr": 71,
-        "pac": 71,
+        "aer": 61,
+        "com": 75,
+        "dri": 74,
+        "ldr": 69,
+        "pac": 74,
         "pas": 78,
-        "pos": 69,
-        "sho": 66,
-        "sta": 76,
-        "str": 70,
-        "tac": 68,
-        "vis": 75
+        "pos": 54,
+        "sho": 72,
+        "sta": 70,
+        "str": 65,
+        "tac": 50,
+        "vis": 77
       },
       "birth": "1981-02-01",
       "contract": null,
@@ -389,23 +403,23 @@
       "name": "Coruna",
       "nation": "ESP",
       "number": 15,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 40000
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 58,
-        "dri": 42,
-        "ldr": 52,
-        "pac": 51,
-        "pas": 49,
-        "pos": 62,
-        "sho": 31,
-        "sta": 50,
-        "str": 62,
-        "tac": 61,
-        "vis": 43
+        "aer": 46,
+        "com": 56,
+        "dri": 52,
+        "ldr": 48,
+        "pac": 59,
+        "pas": 53,
+        "pos": 57,
+        "sho": 38,
+        "sta": 56,
+        "str": 54,
+        "tac": 58,
+        "vis": 49
       },
       "birth": "1990-02-01",
       "contract": null,
@@ -416,7 +430,7 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": 16,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5500
     },
     {
@@ -447,6 +461,9 @@
       "wage": 37500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 78,
@@ -481,7 +498,7 @@
         "ldr": 59,
         "pac": 63,
         "pas": 56,
-        "pos": 44,
+        "pos": 64,
         "sho": 72,
         "sta": 63,
         "str": 64,
@@ -526,6 +543,9 @@
       "wage": 35000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 67,
@@ -559,7 +579,7 @@
         "ldr": 66,
         "pac": 75,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 76,
         "sta": 74,
         "str": 72,
@@ -579,18 +599,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 64,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 60,
-        "pas": 68,
-        "pos": 59,
-        "sho": 60,
+        "dri": 56,
+        "ldr": 62,
+        "pac": 57,
+        "pas": 67,
+        "pos": 63,
+        "sho": 54,
         "sta": 66,
-        "str": 58,
-        "tac": 62,
-        "vis": 63
+        "str": 63,
+        "tac": 68,
+        "vis": 60
       },
       "birth": "1986-08-01",
       "contract": null,
@@ -600,7 +620,7 @@
       "name": "Hernan Bernerdello",
       "nation": "ARG",
       "number": 25,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 16000
     },
     {
@@ -637,7 +657,7 @@
         "ldr": 51,
         "pac": 54,
         "pas": 47,
-        "pos": 38,
+        "pos": 58,
         "sho": 63,
         "sta": 52,
         "str": 54,

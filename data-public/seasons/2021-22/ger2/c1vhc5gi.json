@@ -74,7 +74,7 @@
       "name": "Andreas Poulsan",
       "nation": "DEN",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -100,7 +100,7 @@
       "name": "Dominik Franka",
       "nation": "GER",
       "number": 3,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -130,6 +130,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 57,
@@ -156,19 +159,24 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "LW",
+        "ST",
+        "CM"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 61,
-        "dri": 58,
-        "ldr": 53,
-        "pac": 63,
-        "pas": 56,
-        "pos": 39,
-        "sho": 61,
-        "sta": 60,
-        "str": 64,
-        "tac": 32,
-        "vis": 53
+        "aer": 46,
+        "com": 58,
+        "dri": 63,
+        "ldr": 51,
+        "pac": 67,
+        "pas": 62,
+        "pos": 41,
+        "sho": 56,
+        "sta": 62,
+        "str": 54,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "1997-01-01",
       "contract": null,
@@ -179,10 +187,13 @@
       "nation": "GER",
       "nation2": "IRN",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 7000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -218,7 +229,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 43,
-        "pos": 33,
+        "pos": 53,
         "sho": 54,
         "sta": 49,
         "str": 52,
@@ -237,6 +248,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 65,
@@ -267,18 +281,18 @@
         "ST"
       ],
       "attrs": {
-        "aer": 59,
-        "com": 66,
-        "dri": 68,
+        "aer": 66,
+        "com": 73,
+        "dri": 72,
         "ldr": 65,
-        "pac": 66,
-        "pas": 70,
-        "pos": 66,
-        "sho": 63,
+        "pac": 72,
+        "pas": 72,
+        "pos": 73,
+        "sho": 70,
         "sta": 71,
-        "str": 66,
+        "str": 73,
         "tac": 64,
-        "vis": 68
+        "vis": 70
       },
       "birth": "1990-09-01",
       "contract": null,
@@ -288,23 +302,28 @@
       "name": "Maximilian Beistar",
       "nation": "GER",
       "number": 11,
-      "pos": "CM",
+      "pos": "LW",
       "wage": 11000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 58,
-        "dri": 56,
+        "dri": 64,
         "ldr": 52,
         "pac": 56,
-        "pas": 51,
-        "pos": 39,
+        "pas": 59,
+        "pos": 59,
         "sho": 63,
         "sta": 53,
         "str": 60,
         "tac": 27,
-        "vis": 52
+        "vis": 60
       },
       "birth": "1996-07-01",
       "contract": null,
@@ -314,23 +333,23 @@
       "name": "Caniggia Elve",
       "nation": "CAN",
       "number": 14,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 5000
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 52,
-        "dri": 39,
-        "ldr": 54,
-        "pac": 47,
-        "pas": 47,
-        "pos": 61,
-        "sho": 26,
-        "sta": 52,
-        "str": 59,
-        "tac": 58,
-        "vis": 42
+        "aer": 49,
+        "com": 50,
+        "dri": 49,
+        "ldr": 50,
+        "pac": 55,
+        "pas": 51,
+        "pos": 56,
+        "sho": 33,
+        "sta": 58,
+        "str": 51,
+        "tac": 55,
+        "vis": 48
       },
       "birth": "1994-02-01",
       "contract": null,
@@ -340,7 +359,7 @@
       "name": "Peter Korzweg",
       "nation": "GER",
       "number": 16,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 4000
     },
     {
@@ -372,17 +391,17 @@
     {
       "attrs": {
         "aer": 48,
-        "com": 56,
-        "dri": 56,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 62,
+        "com": 52,
+        "dri": 54,
+        "ldr": 52,
+        "pac": 60,
+        "pas": 56,
         "pos": 57,
-        "sho": 50,
+        "sho": 36,
         "sta": 57,
-        "str": 53,
-        "tac": 54,
-        "vis": 57
+        "str": 52,
+        "tac": 58,
+        "vis": 48
       },
       "birth": "1989-08-01",
       "contract": null,
@@ -392,12 +411,13 @@
       "name": "Marcel Geus",
       "nation": "GER",
       "number": 19,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 6500
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "LW"
       ],
       "attrs": {
         "aer": 32,
@@ -453,18 +473,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 61,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 52,
-        "pas": 62,
-        "pos": 55,
-        "sho": 51,
+        "dri": 54,
+        "ldr": 59,
+        "pac": 49,
+        "pas": 61,
+        "pos": 59,
+        "sho": 45,
         "sta": 58,
-        "str": 55,
-        "tac": 55,
-        "vis": 60
+        "str": 60,
+        "tac": 61,
+        "vis": 57
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -474,7 +494,7 @@
       "name": "Denis Lynsmayer",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8000
     },
     {
@@ -505,6 +525,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 52,
@@ -583,6 +606,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 49,
@@ -616,7 +642,7 @@
         "ldr": 49,
         "pac": 56,
         "pas": 51,
-        "pos": 34,
+        "pos": 54,
         "sho": 62,
         "sta": 56,
         "str": 55,
@@ -642,7 +668,7 @@
         "ldr": 40,
         "pac": 51,
         "pas": 44,
-        "pos": 24,
+        "pos": 44,
         "sho": 54,
         "sta": 46,
         "str": 48,
@@ -669,7 +695,7 @@
         "ldr": 35,
         "pac": 45,
         "pas": 38,
-        "pos": 24,
+        "pos": 44,
         "sho": 49,
         "sta": 42,
         "str": 44,
@@ -688,16 +714,21 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "RB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 50,
-        "dri": 49,
+        "dri": 53,
         "ldr": 49,
-        "pac": 46,
+        "pac": 50,
         "pas": 53,
         "pos": 49,
-        "sho": 47,
-        "sta": 52,
+        "sho": 51,
+        "sta": 56,
         "str": 45,
         "tac": 47,
         "vis": 52
@@ -710,23 +741,28 @@
       "name": "Merlin Ruhl",
       "nation": "GER",
       "number": 34,
-      "pos": "CM",
+      "pos": "RM",
       "wage": 3000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 57,
-        "dri": 54,
+        "com": 58,
+        "dri": 63,
         "ldr": 45,
         "pac": 52,
-        "pas": 45,
-        "pos": 32,
-        "sho": 59,
+        "pas": 55,
+        "pos": 52,
+        "sho": 60,
         "sta": 52,
         "str": 56,
         "tac": 26,
-        "vis": 43
+        "vis": 53
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -736,10 +772,13 @@
       "name": "Filip Bylbija",
       "nation": "GER",
       "number": 35,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 51,

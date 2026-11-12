@@ -51,18 +51,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
-        "com": 66,
-        "dri": 63,
-        "ldr": 60,
-        "pac": 59,
+        "aer": 51,
+        "com": 67,
+        "dri": 67,
+        "ldr": 58,
+        "pac": 62,
         "pas": 65,
-        "pos": 60,
-        "sho": 57,
-        "sta": 68,
-        "str": 63,
-        "tac": 62,
-        "vis": 67
+        "pos": 45,
+        "sho": 63,
+        "sta": 62,
+        "str": 58,
+        "tac": 44,
+        "vis": 69
       },
       "birth": "1970-12-01",
       "contract": null,
@@ -72,11 +72,14 @@
       "name": "Abderrahim Ouekili",
       "nation": "MAR",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 62,
@@ -105,18 +108,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 66,
-        "dri": 62,
-        "ldr": 58,
-        "pac": 61,
-        "pas": 66,
-        "pos": 63,
-        "sho": 59,
+        "dri": 58,
+        "ldr": 60,
+        "pac": 58,
+        "pas": 65,
+        "pos": 67,
+        "sho": 53,
         "sta": 68,
-        "str": 61,
-        "tac": 58,
-        "vis": 66
+        "str": 66,
+        "tac": 64,
+        "vis": 63
       },
       "birth": "1980-12-01",
       "contract": null,
@@ -126,21 +129,26 @@
       "name": "Marco Engelherdt",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 5000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 63,
-        "dri": 60,
+        "aer": 59,
+        "com": 70,
+        "dri": 63,
         "ldr": 59,
-        "pac": 56,
+        "pac": 63,
         "pas": 65,
-        "pos": 57,
-        "sho": 54,
+        "pos": 64,
+        "sho": 61,
         "sta": 62,
-        "str": 60,
+        "str": 67,
         "tac": 55,
         "vis": 61
       },
@@ -152,7 +160,7 @@
       "name": "Bashiru Gembo",
       "nation": "GHA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 4000
     },
@@ -164,7 +172,7 @@
         "ldr": 53,
         "pac": 64,
         "pas": 56,
-        "pos": 40,
+        "pos": 60,
         "sho": 63,
         "sta": 55,
         "str": 64,
@@ -191,7 +199,7 @@
         "ldr": 54,
         "pac": 62,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 58,
         "str": 64,
@@ -211,17 +219,22 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 56,
-        "dri": 59,
+        "aer": 55,
+        "com": 64,
+        "dri": 61,
         "ldr": 56,
-        "pac": 54,
+        "pac": 61,
         "pas": 62,
-        "pos": 53,
-        "sho": 54,
+        "pos": 61,
+        "sho": 62,
         "sta": 60,
-        "str": 53,
+        "str": 61,
         "tac": 53,
         "vis": 58
       },
@@ -233,7 +246,7 @@
       "name": "Daniel Gref",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 3000
     },
@@ -345,19 +358,22 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 60,
-        "dri": 51,
-        "ldr": 50,
-        "pac": 53,
-        "pas": 45,
-        "pos": 33,
-        "sho": 60,
-        "sta": 52,
-        "str": 53,
-        "tac": 29,
-        "vis": 48
+        "aer": 42,
+        "com": 57,
+        "dri": 56,
+        "ldr": 48,
+        "pac": 57,
+        "pas": 51,
+        "pos": 35,
+        "sho": 55,
+        "sta": 54,
+        "str": 43,
+        "tac": 35,
+        "vis": 54
       },
       "birth": "1983-10-01",
       "contract": null,
@@ -367,7 +383,7 @@
       "name": "Ivan Seenko",
       "nation": "RUS",
       "number": null,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 1500
     },
     {
@@ -378,7 +394,7 @@
         "ldr": 52,
         "pac": 54,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 52,
         "str": 53,
@@ -453,21 +469,23 @@
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 55,
-        "com": 53,
+        "com": 59,
         "dri": 39,
         "ldr": 53,
         "pac": 49,
-        "pas": 49,
+        "pas": 55,
         "pos": 57,
         "sho": 31,
-        "sta": 52,
+        "sta": 58,
         "str": 55,
         "tac": 61,
-        "vis": 40
+        "vis": 46
       },
       "birth": "1973-05-01",
       "contract": null,
@@ -477,11 +495,15 @@
       "name": "Witold Wewrzyczek",
       "nation": "POL",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 46,
         "com": 52,
@@ -509,6 +531,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 53,
@@ -536,6 +561,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 46,
         "com": 52,
@@ -563,18 +593,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 52,
-        "dri": 40,
-        "ldr": 54,
-        "pac": 45,
-        "pas": 45,
-        "pos": 56,
-        "sho": 24,
-        "sta": 49,
-        "str": 52,
-        "tac": 57,
-        "vis": 41
+        "aer": 46,
+        "com": 50,
+        "dri": 50,
+        "ldr": 50,
+        "pac": 53,
+        "pas": 49,
+        "pos": 51,
+        "sho": 31,
+        "sta": 55,
+        "str": 44,
+        "tac": 54,
+        "vis": 47
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -584,11 +614,14 @@
       "name": "Milorad Popuvic",
       "nation": "SRB",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -616,6 +649,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 55,
@@ -669,6 +705,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 39,
         "com": 51,
@@ -723,19 +762,24 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 41,
+        "aer": 47,
         "com": 47,
-        "dri": 47,
-        "ldr": 45,
-        "pac": 47,
-        "pas": 50,
-        "pos": 51,
-        "sho": 45,
+        "dri": 43,
+        "ldr": 47,
+        "pac": 44,
+        "pas": 49,
+        "pos": 55,
+        "sho": 39,
         "sta": 54,
-        "str": 43,
-        "tac": 43,
-        "vis": 48
+        "str": 48,
+        "tac": 49,
+        "vis": 45
       },
       "birth": "1965-08-01",
       "contract": null,
@@ -745,23 +789,26 @@
       "name": "Bernhard Treres",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 38,
-        "com": 47,
-        "dri": 49,
-        "ldr": 49,
-        "pac": 46,
-        "pas": 50,
-        "pos": 50,
-        "sho": 43,
-        "sta": 51,
-        "str": 47,
-        "tac": 49,
-        "vis": 49
+        "aer": 39,
+        "com": 49,
+        "dri": 51,
+        "ldr": 50,
+        "pac": 47,
+        "pas": 52,
+        "pos": 51,
+        "sho": 45,
+        "sta": 53,
+        "str": 48,
+        "tac": 50,
+        "vis": 51
       },
       "birth": "1981-05-01",
       "contract": null,
@@ -783,7 +830,7 @@
         "ldr": 42,
         "pac": 53,
         "pas": 45,
-        "pos": 31,
+        "pos": 51,
         "sho": 53,
         "sta": 49,
         "str": 48,
@@ -810,7 +857,7 @@
         "ldr": 45,
         "pac": 52,
         "pas": 39,
-        "pos": 24,
+        "pos": 44,
         "sho": 50,
         "sta": 48,
         "str": 50,
@@ -837,7 +884,7 @@
         "ldr": 39,
         "pac": 48,
         "pas": 40,
-        "pos": 27,
+        "pos": 47,
         "sho": 54,
         "sta": 47,
         "str": 51,

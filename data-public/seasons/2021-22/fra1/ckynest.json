@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 64,
-        "dri": 48,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 57,
-        "pos": 68,
-        "sho": 39,
-        "sta": 60,
-        "str": 68,
-        "tac": 68,
-        "vis": 50
+        "aer": 57,
+        "com": 62,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 61,
+        "pos": 63,
+        "sho": 46,
+        "sta": 66,
+        "str": 60,
+        "tac": 65,
+        "vis": 56
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -74,23 +74,23 @@
       "name": "Frederic Guylbert",
       "nation": "FRA",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 25500
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 54,
-        "dri": 47,
-        "ldr": 58,
-        "pac": 53,
-        "pas": 50,
-        "pos": 64,
-        "sho": 30,
-        "sta": 52,
-        "str": 59,
-        "tac": 59,
-        "vis": 44
+        "aer": 47,
+        "com": 52,
+        "dri": 57,
+        "ldr": 54,
+        "pac": 61,
+        "pas": 54,
+        "pos": 59,
+        "sho": 37,
+        "sta": 58,
+        "str": 51,
+        "tac": 56,
+        "vis": 50
       },
       "birth": "1998-06-01",
       "contract": null,
@@ -100,7 +100,7 @@
       "name": "Karol File",
       "nation": "POL",
       "number": 4,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 12000
     },
     {
@@ -132,18 +132,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 61,
-        "dri": 64,
-        "ldr": 59,
-        "pac": 58,
-        "pas": 64,
-        "pos": 63,
-        "sho": 58,
+        "dri": 60,
+        "ldr": 61,
+        "pac": 55,
+        "pas": 63,
+        "pos": 67,
+        "sho": 52,
         "sta": 68,
-        "str": 60,
-        "tac": 56,
-        "vis": 63
+        "str": 65,
+        "tac": 62,
+        "vis": 60
       },
       "birth": "1994-03-01",
       "contract": null,
@@ -155,10 +155,14 @@
       "nation": "CIV",
       "nation2": "TOG",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 67,
         "com": 67,
@@ -166,7 +170,7 @@
         "ldr": 62,
         "pac": 66,
         "pas": 60,
-        "pos": 45,
+        "pos": 65,
         "sho": 67,
         "sta": 66,
         "str": 65,
@@ -192,7 +196,7 @@
         "ldr": 63,
         "pac": 70,
         "pas": 62,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 67,
         "str": 75,
@@ -211,6 +215,9 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 63,
@@ -237,6 +244,11 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -270,7 +282,7 @@
         "ldr": 62,
         "pac": 66,
         "pas": 55,
-        "pos": 43,
+        "pos": 63,
         "sho": 65,
         "sta": 61,
         "str": 64,
@@ -289,6 +301,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 71,
@@ -342,6 +357,10 @@
       "wage": 49500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 66,
@@ -369,6 +388,10 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 62,
@@ -395,19 +418,22 @@
       "wage": 20000
     },
     {
+      "alt": [
+        "LWB"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 58,
-        "dri": 60,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 61,
+        "com": 54,
+        "dri": 58,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 55,
         "pos": 62,
-        "sho": 56,
+        "sho": 42,
         "sta": 66,
-        "str": 54,
-        "tac": 57,
-        "vis": 65
+        "str": 53,
+        "tac": 61,
+        "vis": 56
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -417,7 +443,7 @@
       "name": "Anthony Ceci",
       "nation": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "LB",
       "wage": 25500
     },
     {
@@ -428,7 +454,7 @@
         "ldr": 58,
         "pac": 67,
         "pas": 59,
-        "pos": 45,
+        "pos": 65,
         "sho": 69,
         "sta": 65,
         "str": 66,
@@ -474,19 +500,22 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 57,
-        "com": 60,
-        "dri": 63,
-        "ldr": 57,
-        "pac": 66,
-        "pas": 63,
-        "pos": 62,
-        "sho": 44,
-        "sta": 67,
-        "str": 55,
-        "tac": 62,
-        "vis": 53
+        "aer": 70,
+        "com": 62,
+        "dri": 53,
+        "ldr": 61,
+        "pac": 58,
+        "pas": 59,
+        "pos": 67,
+        "sho": 37,
+        "sta": 61,
+        "str": 63,
+        "tac": 65,
+        "vis": 47
       },
       "birth": "1989-10-01",
       "contract": null,
@@ -496,7 +525,7 @@
       "name": "Maxime Le Marchend",
       "nation": "FRA",
       "number": 23,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 25500
     },
     {
@@ -534,7 +563,7 @@
         "ldr": 56,
         "pac": 64,
         "pas": 59,
-        "pos": 40,
+        "pos": 60,
         "sho": 70,
         "sta": 61,
         "str": 64,
@@ -554,18 +583,18 @@
     },
     {
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 62,
-        "dri": 57,
-        "ldr": 57,
-        "pac": 59,
-        "pas": 63,
-        "pos": 59,
-        "sho": 52,
+        "dri": 53,
+        "ldr": 59,
+        "pac": 56,
+        "pas": 62,
+        "pos": 63,
+        "sho": 46,
         "sta": 62,
-        "str": 57,
-        "tac": 58,
-        "vis": 61
+        "str": 62,
+        "tac": 64,
+        "vis": 58
       },
       "birth": "1997-10-01",
       "contract": null,
@@ -576,7 +605,7 @@
       "nation": "FRA",
       "nation2": "MLI",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 23500
     },
     {
@@ -614,7 +643,7 @@
         "ldr": 45,
         "pac": 50,
         "pas": 42,
-        "pos": 26,
+        "pos": 46,
         "sho": 52,
         "sta": 49,
         "str": 54,

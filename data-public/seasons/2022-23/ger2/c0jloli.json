@@ -130,6 +130,9 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 71,
         "com": 65,
@@ -157,6 +160,9 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 55,
@@ -190,7 +196,7 @@
         "ldr": 54,
         "pac": 56,
         "pas": 50,
-        "pos": 39,
+        "pos": 59,
         "sho": 62,
         "sta": 56,
         "str": 60,
@@ -209,6 +215,10 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,
@@ -242,7 +252,7 @@
         "ldr": 44,
         "pac": 50,
         "pas": 44,
-        "pos": 33,
+        "pos": 53,
         "sho": 54,
         "sta": 49,
         "str": 52,
@@ -263,18 +273,18 @@
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 60,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 55,
+        "aer": 43,
+        "com": 61,
+        "dri": 59,
+        "ldr": 52,
+        "pac": 58,
         "pas": 65,
-        "pos": 61,
-        "sho": 53,
-        "sta": 62,
-        "str": 56,
-        "tac": 56,
-        "vis": 61
+        "pos": 46,
+        "sho": 59,
+        "sta": 56,
+        "str": 51,
+        "tac": 38,
+        "vis": 63
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -284,23 +294,23 @@
       "name": "Marvin Wanitzak",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 11000
     },
     {
       "attrs": {
-        "aer": 48,
-        "com": 56,
-        "dri": 58,
-        "ldr": 57,
-        "pac": 53,
+        "aer": 42,
+        "com": 57,
+        "dri": 62,
+        "ldr": 55,
+        "pac": 56,
         "pas": 59,
-        "pos": 54,
-        "sho": 53,
-        "sta": 59,
-        "str": 50,
-        "tac": 54,
-        "vis": 56
+        "pos": 39,
+        "sho": 59,
+        "sta": 53,
+        "str": 45,
+        "tac": 36,
+        "vis": 58
       },
       "birth": "1995-03-01",
       "contract": null,
@@ -310,7 +320,7 @@
       "name": "Choi Kioung-rok",
       "nation": "KOR",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 8500
     },
     {
@@ -321,7 +331,7 @@
         "ldr": 48,
         "pac": 56,
         "pas": 48,
-        "pos": 32,
+        "pos": 52,
         "sho": 59,
         "sta": 53,
         "str": 58,
@@ -391,21 +401,26 @@
       "name": "Philip Haise",
       "nation": "GER",
       "number": 16,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 7000
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 45,
-        "com": 60,
-        "dri": 59,
+        "aer": 53,
+        "com": 68,
+        "dri": 63,
         "ldr": 51,
-        "pac": 50,
+        "pac": 58,
         "pas": 61,
-        "pos": 58,
-        "sho": 49,
+        "pos": 66,
+        "sho": 57,
         "sta": 60,
-        "str": 56,
+        "str": 64,
         "tac": 52,
         "vis": 59
       },
@@ -417,7 +432,7 @@
       "name": "Lucas Cuato",
       "nation": "GER",
       "number": 17,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 8500
     },
     {
@@ -443,7 +458,7 @@
       "name": "Kilian Jekob",
       "nation": "GER",
       "number": 18,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 5000
     },
     {
@@ -474,19 +489,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 53,
-        "dri": 42,
-        "ldr": 53,
-        "pac": 50,
-        "pas": 48,
-        "pos": 58,
-        "sho": 26,
-        "sta": 49,
-        "str": 60,
-        "tac": 58,
-        "vis": 44
+        "aer": 46,
+        "com": 51,
+        "dri": 52,
+        "ldr": 49,
+        "pac": 58,
+        "pas": 52,
+        "pos": 53,
+        "sho": 33,
+        "sta": 55,
+        "str": 52,
+        "tac": 55,
+        "vis": 50
       },
       "birth": "1992-05-01",
       "contract": null,
@@ -496,7 +514,7 @@
       "name": "Marco Thiade",
       "nation": "GER",
       "number": 21,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 5000
     },
     {
@@ -526,6 +544,10 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
         "aer": 44,
         "com": 54,
@@ -553,22 +575,22 @@
     },
     {
       "alt": [
-        "RW",
-        "CM"
+        "AM",
+        "LW"
       ],
       "attrs": {
-        "aer": 52,
-        "com": 55,
-        "dri": 54,
-        "ldr": 49,
-        "pac": 53,
-        "pas": 43,
-        "pos": 34,
-        "sho": 55,
-        "sta": 47,
-        "str": 54,
-        "tac": 26,
-        "vis": 49
+        "aer": 38,
+        "com": 52,
+        "dri": 59,
+        "ldr": 47,
+        "pac": 57,
+        "pas": 49,
+        "pos": 36,
+        "sho": 50,
+        "sta": 49,
+        "str": 44,
+        "tac": 32,
+        "vis": 55
       },
       "birth": "2002-10-01",
       "contract": null,
@@ -579,7 +601,7 @@
       "name": "Paul Nebal",
       "nation": "GER",
       "number": 26,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 3500
     },
     {
@@ -635,19 +657,22 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 59,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 53,
-        "pas": 48,
-        "pos": 36,
-        "sho": 57,
-        "sta": 52,
-        "str": 59,
-        "tac": 24,
-        "vis": 46
+        "aer": 42,
+        "com": 56,
+        "dri": 59,
+        "ldr": 49,
+        "pac": 57,
+        "pas": 54,
+        "pos": 38,
+        "sho": 52,
+        "sta": 54,
+        "str": 49,
+        "tac": 30,
+        "vis": 52
       },
       "birth": "1999-01-01",
       "contract": null,
@@ -657,23 +682,23 @@
       "name": "Kelvin Arese",
       "nation": "AUT",
       "number": 36,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 4500
     },
     {
       "attrs": {
-        "aer": 39,
+        "aer": 45,
         "com": 49,
-        "dri": 50,
-        "ldr": 45,
-        "pac": 45,
-        "pas": 54,
-        "pos": 51,
-        "sho": 46,
+        "dri": 46,
+        "ldr": 47,
+        "pac": 42,
+        "pas": 53,
+        "pos": 55,
+        "sho": 40,
         "sta": 54,
-        "str": 44,
-        "tac": 49,
-        "vis": 51
+        "str": 49,
+        "tac": 55,
+        "vis": 48
       },
       "birth": "2002-02-01",
       "contract": null,
@@ -683,10 +708,13 @@
       "name": "Tim Breithaopt",
       "nation": "GER",
       "number": 38,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 32,
         "com": 45,

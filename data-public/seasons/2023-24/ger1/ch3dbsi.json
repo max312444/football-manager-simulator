@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 75,
-        "com": 67,
-        "dri": 59,
-        "ldr": 70,
-        "pac": 63,
-        "pas": 60,
-        "pos": 76,
-        "sho": 42,
-        "sta": 69,
-        "str": 73,
-        "tac": 75,
-        "vis": 54
+        "aer": 62,
+        "com": 65,
+        "dri": 69,
+        "ldr": 66,
+        "pac": 71,
+        "pas": 64,
+        "pos": 71,
+        "sho": 49,
+        "sta": 75,
+        "str": 65,
+        "tac": 72,
+        "vis": 60
       },
       "birth": "2000-03-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Mateu Murey",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 100000
     },
     {
@@ -103,6 +103,9 @@
       "wage": 155500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 74,
         "com": 65,
@@ -130,18 +133,18 @@
     },
     {
       "attrs": {
-        "aer": 60,
+        "aer": 66,
         "com": 69,
-        "dri": 68,
-        "ldr": 65,
-        "pac": 67,
-        "pas": 74,
-        "pos": 67,
-        "sho": 63,
+        "dri": 64,
+        "ldr": 67,
+        "pac": 64,
+        "pas": 73,
+        "pos": 71,
+        "sho": 57,
         "sta": 72,
-        "str": 62,
-        "tac": 65,
-        "vis": 71
+        "str": 67,
+        "tac": 71,
+        "vis": 68
       },
       "birth": "1998-01-01",
       "contract": null,
@@ -152,23 +155,23 @@
       "nation": "TUR",
       "nation2": "GER",
       "number": 6,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 120500
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 70,
-        "dri": 64,
-        "ldr": 67,
-        "pac": 65,
+        "aer": 52,
+        "com": 71,
+        "dri": 68,
+        "ldr": 65,
+        "pac": 68,
         "pas": 68,
-        "pos": 67,
-        "sho": 65,
-        "sta": 69,
-        "str": 67,
-        "tac": 68,
-        "vis": 68
+        "pos": 52,
+        "sho": 71,
+        "sta": 63,
+        "str": 62,
+        "tac": 50,
+        "vis": 70
       },
       "birth": "2002-11-01",
       "contract": null,
@@ -178,10 +181,13 @@
       "name": "Gio Rayna",
       "nation": "USA",
       "number": 7,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 113000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 63,
@@ -215,7 +221,7 @@
         "ldr": 74,
         "pac": 82,
         "pas": 69,
-        "pos": 57,
+        "pos": 77,
         "sho": 80,
         "sta": 74,
         "str": 82,
@@ -235,19 +241,23 @@
       "wage": 227000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 82,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 75,
+        "aer": 64,
+        "com": 83,
+        "dri": 80,
+        "ldr": 72,
+        "pac": 78,
         "pas": 80,
-        "pos": 77,
-        "sho": 75,
-        "sta": 78,
-        "str": 77,
-        "tac": 77,
-        "vis": 79
+        "pos": 62,
+        "sho": 81,
+        "sta": 72,
+        "str": 72,
+        "tac": 59,
+        "vis": 81
       },
       "birth": "1993-03-01",
       "contract": null,
@@ -257,12 +267,14 @@
       "name": "Thorgan Hezard",
       "nation": "BEL",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 311000
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 73,
@@ -271,7 +283,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 70,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 73,
         "str": 78,
@@ -297,7 +309,7 @@
         "ldr": 71,
         "pac": 78,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 85,
         "sta": 77,
         "str": 81,
@@ -343,6 +355,8 @@
     },
     {
       "alt": [
+        "RWB",
+        "LWB",
         "RW"
       ],
       "attrs": {
@@ -378,7 +392,7 @@
         "ldr": 57,
         "pac": 68,
         "pas": 61,
-        "pos": 41,
+        "pos": 61,
         "sho": 72,
         "sta": 62,
         "str": 66,
@@ -399,7 +413,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 62,
@@ -427,6 +442,11 @@
       "wage": 290000
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 72,
         "com": 77,
@@ -453,6 +473,10 @@
       "wage": 311000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 75,
         "com": 76,
@@ -460,7 +484,7 @@
         "ldr": 71,
         "pac": 75,
         "pas": 71,
-        "pos": 56,
+        "pos": 76,
         "sho": 83,
         "sta": 73,
         "str": 77,
@@ -479,19 +503,22 @@
       "wage": 181000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 77,
-        "dri": 80,
-        "ldr": 75,
-        "pac": 76,
-        "pas": 84,
-        "pos": 75,
-        "sho": 73,
+        "dri": 76,
+        "ldr": 77,
+        "pac": 73,
+        "pas": 83,
+        "pos": 79,
+        "sho": 67,
         "sta": 81,
-        "str": 75,
-        "tac": 75,
-        "vis": 79
+        "str": 80,
+        "tac": 81,
+        "vis": 76
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -502,7 +529,7 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 311000
     },
     {
@@ -558,19 +585,24 @@
       "wage": 249500
     },
     {
+      "alt": [
+        "LB",
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 81,
-        "com": 78,
-        "dri": 66,
-        "ldr": 78,
-        "pac": 70,
-        "pas": 70,
-        "pos": 83,
-        "sho": 52,
-        "sta": 77,
-        "str": 78,
-        "tac": 78,
-        "vis": 61
+        "aer": 68,
+        "com": 76,
+        "dri": 76,
+        "ldr": 74,
+        "pac": 78,
+        "pas": 74,
+        "pos": 78,
+        "sho": 59,
+        "sta": 83,
+        "str": 70,
+        "tac": 75,
+        "vis": 67
       },
       "birth": "1997-11-01",
       "contract": null,
@@ -580,11 +612,12 @@
       "name": "Julian Ryersun",
       "nation": "NOR",
       "number": 26,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 231500
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
@@ -613,19 +646,22 @@
       "wage": 105500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 48,
-        "com": 57,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 49,
-        "pas": 57,
-        "pos": 55,
-        "sho": 50,
-        "sta": 61,
-        "str": 52,
-        "tac": 53,
-        "vis": 58
+        "aer": 42,
+        "com": 55,
+        "dri": 59,
+        "ldr": 47,
+        "pac": 58,
+        "pas": 53,
+        "pos": 37,
+        "sho": 54,
+        "sta": 57,
+        "str": 47,
+        "tac": 33,
+        "vis": 55
       },
       "birth": "2001-04-01",
       "contract": null,
@@ -635,7 +671,7 @@
       "name": "Ole Puhlmann",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 27000
     },
     {
@@ -692,19 +728,22 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 64,
-        "dri": 64,
-        "ldr": 63,
-        "pac": 62,
-        "pas": 65,
-        "pos": 59,
-        "sho": 57,
-        "sta": 63,
-        "str": 58,
-        "tac": 62,
-        "vis": 63
+        "aer": 50,
+        "com": 62,
+        "dri": 69,
+        "ldr": 59,
+        "pac": 71,
+        "pas": 61,
+        "pos": 41,
+        "sho": 61,
+        "sta": 59,
+        "str": 53,
+        "tac": 42,
+        "vis": 60
       },
       "birth": "2004-08-01",
       "contract": null,
@@ -714,7 +753,7 @@
       "name": "Jamie Gittans",
       "nation": "ENG",
       "number": 43,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 64000
     }
   ],

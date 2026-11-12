@@ -103,19 +103,22 @@
       "wage": 112500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 75,
-        "com": 82,
-        "dri": 80,
-        "ldr": 79,
-        "pac": 74,
-        "pas": 81,
-        "pos": 79,
-        "sho": 73,
-        "sta": 87,
-        "str": 79,
-        "tac": 77,
-        "vis": 84
+        "aer": 69,
+        "com": 80,
+        "dri": 85,
+        "ldr": 75,
+        "pac": 83,
+        "pas": 77,
+        "pos": 61,
+        "sho": 77,
+        "sta": 83,
+        "str": 74,
+        "tac": 57,
+        "vis": 81
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -125,26 +128,26 @@
       "name": "Franck Ribary",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 273000
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 67,
+        "aer": 73,
         "com": 77,
-        "dri": 72,
-        "ldr": 71,
-        "pac": 71,
-        "pas": 81,
-        "pos": 74,
-        "sho": 72,
+        "dri": 68,
+        "ldr": 73,
+        "pac": 68,
+        "pas": 80,
+        "pos": 78,
+        "sho": 66,
         "sta": 77,
-        "str": 72,
-        "tac": 75,
-        "vis": 76
+        "str": 77,
+        "tac": 81,
+        "vis": 73
       },
       "birth": "1988-09-01",
       "contract": null,
@@ -154,7 +157,7 @@
       "name": "Javi Martinaz",
       "nation": "ESP",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 180500
     },
     {
@@ -165,7 +168,7 @@
         "ldr": 74,
         "pac": 78,
         "pas": 73,
-        "pos": 58,
+        "pos": 78,
         "sho": 83,
         "sta": 77,
         "str": 80,
@@ -184,23 +187,19 @@
       "wage": 189000
     },
     {
-      "alt": [
-        "RW",
-        "CM"
-      ],
       "attrs": {
         "aer": 69,
-        "com": 85,
-        "dri": 82,
-        "ldr": 74,
-        "pac": 84,
-        "pas": 83,
-        "pos": 64,
-        "sho": 81,
-        "sta": 76,
+        "com": 82,
+        "dri": 83,
+        "ldr": 72,
+        "pac": 90,
+        "pas": 79,
+        "pos": 61,
+        "sho": 79,
+        "sta": 78,
         "str": 74,
-        "tac": 63,
-        "vis": 87
+        "tac": 61,
+        "vis": 82
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -210,13 +209,13 @@
       "name": "Arjen Robban",
       "nation": "NED",
       "number": 10,
-      "pos": "AM",
+      "pos": "RW",
       "wage": 256000
     },
     {
       "alt": [
         "RW",
-        "CM"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -251,7 +250,7 @@
         "ldr": 69,
         "pac": 73,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 81,
         "sta": 75,
         "str": 75,
@@ -297,6 +296,11 @@
       "wage": 187500
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 78,
@@ -349,20 +353,22 @@
       "wage": 145000
     },
     {
-      "alt": [],
+      "alt": [
+        "RWB"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 64,
-        "dri": 60,
-        "ldr": 60,
-        "pac": 57,
-        "pas": 69,
+        "com": 60,
+        "dri": 58,
+        "ldr": 58,
+        "pac": 64,
+        "pas": 63,
         "pos": 65,
-        "sho": 60,
+        "sho": 46,
         "sta": 65,
-        "str": 61,
-        "tac": 58,
-        "vis": 65
+        "str": 60,
+        "tac": 62,
+        "vis": 56
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -373,7 +379,7 @@
       "nation": "GER",
       "nation2": "ALG",
       "number": 23,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 45500
     },
     {
@@ -404,7 +410,9 @@
     },
     {
       "alt": [
-        "CM"
+        "AM",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 79,
@@ -413,7 +421,7 @@
         "ldr": 73,
         "pac": 76,
         "pas": 70,
-        "pos": 59,
+        "pos": 79,
         "sho": 81,
         "sta": 77,
         "str": 81,
@@ -454,13 +462,12 @@
       "name": "Diego Contanto",
       "nation": "GER",
       "number": 26,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 61000
     },
     {
       "alt": [
-        "RB",
-        "CM"
+        "LB"
       ],
       "attrs": {
         "aer": 77,
@@ -514,9 +521,6 @@
       "wage": 125000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 77,
         "com": 78,
@@ -543,6 +547,9 @@
       "wage": 226500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 72,
         "com": 83,
@@ -576,7 +583,7 @@
         "ldr": 75,
         "pac": 84,
         "pas": 71,
-        "pos": 61,
+        "pos": 81,
         "sho": 81,
         "sta": 75,
         "str": 83,
@@ -595,19 +602,22 @@
       "wage": 194500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 56,
+        "aer": 62,
         "com": 69,
-        "dri": 67,
-        "ldr": 65,
-        "pac": 64,
-        "pas": 72,
-        "pos": 64,
-        "sho": 62,
+        "dri": 63,
+        "ldr": 67,
+        "pac": 61,
+        "pas": 71,
+        "pos": 68,
+        "sho": 56,
         "sta": 68,
-        "str": 63,
-        "tac": 67,
-        "vis": 68
+        "str": 68,
+        "tac": 73,
+        "vis": 65
       },
       "birth": "1994-01-01",
       "contract": null,
@@ -618,10 +628,13 @@
       "nation": "GER",
       "nation2": "TUR",
       "number": 36,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 70000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 79,
@@ -649,18 +662,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 76,
-        "dri": 74,
-        "ldr": 69,
-        "pac": 68,
-        "pas": 75,
-        "pos": 75,
-        "sho": 73,
+        "dri": 70,
+        "ldr": 71,
+        "pac": 65,
+        "pas": 74,
+        "pos": 79,
+        "sho": 67,
         "sta": 81,
-        "str": 73,
-        "tac": 69,
-        "vis": 78
+        "str": 78,
+        "tac": 75,
+        "vis": 75
       },
       "birth": "1979-03-01",
       "contract": null,
@@ -670,7 +683,7 @@
       "name": "Anatoliy Tymushchuk",
       "nation": "UKR",
       "number": 44,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 167500
     }
   ],

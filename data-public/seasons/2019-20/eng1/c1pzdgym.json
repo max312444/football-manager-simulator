@@ -96,16 +96,20 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 70,
         "com": 81,
-        "dri": 71,
+        "dri": 74,
         "ldr": 86,
-        "pac": 73,
+        "pac": 76,
         "pas": 75,
         "pos": 83,
         "sho": 51,
-        "sta": 84,
+        "sta": 87,
         "str": 72,
         "tac": 81,
         "vis": 70
@@ -125,6 +129,11 @@
       "wage": 380000
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 68,
@@ -237,6 +246,9 @@
       "wage": 182500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 69,
         "com": 70,
@@ -264,18 +276,22 @@
       "wage": 100500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 75,
         "com": 75,
-        "dri": 71,
+        "dri": 73,
         "ldr": 65,
-        "pac": 70,
+        "pac": 74,
         "pas": 77,
-        "pos": 73,
+        "pos": 75,
         "sho": 75,
-        "sta": 80,
-        "str": 76,
-        "tac": 71,
+        "sta": 82,
+        "str": 78,
+        "tac": 73,
         "vis": 69
       },
       "birth": "1990-12-01",
@@ -327,11 +343,11 @@
         "ldr": 75,
         "pac": 54,
         "pas": 88,
-        "pos": 81,
+        "pos": 86,
         "sho": 63,
         "sta": 82,
-        "str": 65,
-        "tac": 74,
+        "str": 70,
+        "tac": 79,
         "vis": 86
       },
       "birth": "1991-12-01",
@@ -353,17 +369,17 @@
     {
       "attrs": {
         "aer": 58,
-        "com": 82,
+        "com": 83,
         "dri": 78,
         "ldr": 75,
         "pac": 80,
-        "pas": 80,
-        "pos": 87,
+        "pas": 81,
+        "pos": 88,
         "sho": 64,
         "sta": 94,
-        "str": 71,
-        "tac": 90,
-        "vis": 76
+        "str": 72,
+        "tac": 91,
+        "vis": 77
       },
       "birth": "1991-03-01",
       "contract": "2023-06-30",
@@ -373,7 +389,7 @@
       "name": "N'Golo Kente",
       "nation": "FRA",
       "number": 7,
-      "pos": "CM",
+      "pos": "DM",
       "traits": [
         "engine",
         "injury_prone"
@@ -381,6 +397,10 @@
       "wage": 380000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 81,
@@ -407,18 +427,22 @@
       "wage": 324500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 71,
         "dri": 78,
         "ldr": 59,
         "pac": 72,
-        "pas": 78,
+        "pas": 85,
         "pos": 64,
         "sho": 74,
-        "sta": 74,
+        "sta": 81,
         "str": 76,
-        "tac": 57,
+        "tac": 64,
         "vis": 76
       },
       "birth": "1993-12-01",
@@ -433,6 +457,10 @@
       "wage": 233500
     },
     {
+      "alt": [
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 71,
@@ -462,19 +490,22 @@
       "wage": 102500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
-        "com": 73,
+        "com": 74,
         "dri": 80,
         "ldr": 59,
         "pac": 72,
-        "pas": 75,
+        "pas": 80,
         "pos": 67,
         "sho": 71,
-        "sta": 74,
+        "sta": 79,
         "str": 84,
-        "tac": 64,
-        "vis": 72
+        "tac": 69,
+        "vis": 73
       },
       "birth": "1996-01-01",
       "contract": "2024-06-30",
@@ -495,11 +526,11 @@
         "ldr": 50,
         "pac": 60,
         "pas": 69,
-        "pos": 55,
+        "pos": 63,
         "sho": 55,
         "sta": 64,
-        "str": 54,
-        "tac": 54,
+        "str": 62,
+        "tac": 62,
         "vis": 63
       },
       "birth": "2001-06-01",
@@ -510,10 +541,13 @@
       "name": "Billy Gylmour",
       "nation": "SCO",
       "number": 47,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 57500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 46,
         "com": 80,
@@ -540,6 +574,11 @@
       "wage": 218500
     },
     {
+      "alt": [
+        "LW",
+        "AM",
+        "RM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 77,
@@ -566,6 +605,9 @@
       "wage": 261500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 45,
         "com": 65,
@@ -593,6 +635,11 @@
       "wage": 98000
     },
     {
+      "alt": [
+        "RW",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 44,
         "com": 69,
@@ -620,16 +667,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 75,
+        "aer": 66,
+        "com": 76,
         "dri": 71,
         "ldr": 58,
         "pac": 75,
         "pas": 66,
-        "pos": 52,
-        "sho": 79,
+        "pos": 53,
+        "sho": 80,
         "sta": 74,
-        "str": 73,
+        "str": 74,
         "tac": 42,
         "vis": 67
       },
@@ -682,16 +729,16 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 70,
+        "aer": 65,
+        "com": 72,
         "dri": 70,
         "ldr": 59,
         "pac": 68,
         "pas": 61,
-        "pos": 44,
-        "sho": 76,
+        "pos": 46,
+        "sho": 78,
         "sta": 66,
-        "str": 67,
+        "str": 69,
         "tac": 41,
         "vis": 62
       },

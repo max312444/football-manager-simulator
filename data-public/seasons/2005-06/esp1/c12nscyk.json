@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 66,
-        "dri": 49,
-        "ldr": 60,
-        "pac": 61,
-        "pas": 59,
-        "pos": 70,
-        "sho": 36,
-        "sta": 60,
-        "str": 67,
-        "tac": 66,
-        "vis": 50
+        "aer": 53,
+        "com": 64,
+        "dri": 59,
+        "ldr": 56,
+        "pac": 69,
+        "pas": 63,
+        "pos": 65,
+        "sho": 43,
+        "sta": 66,
+        "str": 59,
+        "tac": 63,
+        "vis": 56
       },
       "birth": "1985-07-01",
       "contract": "2007-01-01",
@@ -73,7 +73,7 @@
       "name": "Francisco Mulinero",
       "nation": "ESP",
       "number": 26,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8000
     },
     {
@@ -84,7 +84,7 @@
         "ldr": 75,
         "pac": 83,
         "pas": 73,
-        "pos": 59,
+        "pos": 79,
         "sho": 82,
         "sta": 74,
         "str": 78,
@@ -104,19 +104,22 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 76,
-        "dri": 75,
-        "ldr": 76,
-        "pac": 76,
-        "pas": 81,
-        "pos": 78,
-        "sho": 74,
-        "sta": 81,
-        "str": 74,
-        "tac": 73,
-        "vis": 79
+        "aer": 65,
+        "com": 74,
+        "dri": 80,
+        "ldr": 72,
+        "pac": 85,
+        "pas": 77,
+        "pos": 60,
+        "sho": 78,
+        "sta": 77,
+        "str": 69,
+        "tac": 53,
+        "vis": 76
       },
       "birth": "1979-01-01",
       "contract": null,
@@ -126,24 +129,28 @@
       "name": "Martin Patrov",
       "nation": "BUL",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 48500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 68,
-        "com": 82,
-        "dri": 76,
-        "ldr": 75,
-        "pac": 71,
+        "aer": 62,
+        "com": 83,
+        "dri": 80,
+        "ldr": 73,
+        "pac": 74,
         "pas": 80,
-        "pos": 74,
-        "sho": 70,
-        "sta": 83,
-        "str": 74,
-        "tac": 72,
-        "vis": 82
+        "pos": 59,
+        "sho": 76,
+        "sta": 77,
+        "str": 69,
+        "tac": 54,
+        "vis": 84
       },
       "birth": "1981-01-01",
       "contract": null,
@@ -153,11 +160,14 @@
       "name": "Maxi Rodriguaz",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 48500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -192,7 +202,7 @@
         "ldr": 71,
         "pac": 80,
         "pas": 66,
-        "pos": 52,
+        "pos": 72,
         "sho": 82,
         "sta": 74,
         "str": 79,
@@ -238,18 +248,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 74,
-        "dri": 72,
-        "ldr": 69,
-        "pac": 72,
-        "pas": 79,
-        "pos": 75,
-        "sho": 71,
-        "sta": 77,
-        "str": 71,
-        "tac": 72,
-        "vis": 78
+        "aer": 56,
+        "com": 72,
+        "dri": 77,
+        "ldr": 65,
+        "pac": 81,
+        "pas": 75,
+        "pos": 57,
+        "sho": 75,
+        "sta": 73,
+        "str": 66,
+        "tac": 52,
+        "vis": 75
       },
       "birth": "1980-04-01",
       "contract": null,
@@ -259,24 +269,24 @@
       "name": "Luciano Gallatti",
       "nation": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 36500
     },
     {
       "attrs": {
-        "aer": 64,
+        "aer": 70,
         "com": 72,
-        "dri": 71,
-        "ldr": 72,
-        "pac": 69,
-        "pas": 79,
-        "pos": 70,
-        "sho": 71,
+        "dri": 67,
+        "ldr": 74,
+        "pac": 66,
+        "pas": 78,
+        "pos": 74,
+        "sho": 65,
         "sta": 77,
-        "str": 70,
-        "tac": 70,
-        "vis": 78
+        "str": 75,
+        "tac": 76,
+        "vis": 75
       },
       "birth": "1979-04-01",
       "contract": null,
@@ -286,7 +296,7 @@
       "name": "Peter Luccyn",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 33500
     },
     {
@@ -312,11 +322,14 @@
       "name": "Sergi Berjuan",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 74,
@@ -344,18 +357,18 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 73,
-        "dri": 67,
-        "ldr": 70,
-        "pac": 73,
-        "pas": 68,
-        "pos": 73,
-        "sho": 55,
-        "sta": 78,
-        "str": 70,
-        "tac": 71,
-        "vis": 63
+        "aer": 77,
+        "com": 75,
+        "dri": 57,
+        "ldr": 74,
+        "pac": 65,
+        "pas": 64,
+        "pos": 78,
+        "sho": 48,
+        "sta": 72,
+        "str": 78,
+        "tac": 74,
+        "vis": 57
       },
       "birth": "1981-08-01",
       "contract": null,
@@ -365,7 +378,7 @@
       "name": "Pablo Ibenez",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "CB",
       "wage": 23500
     },
     {
@@ -391,23 +404,23 @@
       "name": "Antonio Lupez",
       "nation": "ESP",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 20000
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 75,
-        "dri": 70,
-        "ldr": 71,
-        "pac": 65,
+        "aer": 58,
+        "com": 76,
+        "dri": 74,
+        "ldr": 69,
+        "pac": 68,
         "pas": 77,
-        "pos": 68,
-        "sho": 66,
-        "sta": 73,
-        "str": 67,
-        "tac": 71,
-        "vis": 72
+        "pos": 53,
+        "sho": 72,
+        "sta": 67,
+        "str": 62,
+        "tac": 53,
+        "vis": 74
       },
       "birth": "1976-10-01",
       "contract": null,
@@ -418,7 +431,7 @@
       "nation": "ESP",
       "nation2": "ARG",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 27000
     },
     {
@@ -449,18 +462,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
+        "aer": 69,
         "com": 75,
-        "dri": 72,
-        "ldr": 66,
-        "pac": 68,
-        "pas": 75,
-        "pos": 68,
-        "sho": 66,
+        "dri": 68,
+        "ldr": 68,
+        "pac": 65,
+        "pas": 74,
+        "pos": 72,
+        "sho": 60,
         "sta": 73,
-        "str": 69,
-        "tac": 68,
-        "vis": 76
+        "str": 74,
+        "tac": 74,
+        "vis": 73
       },
       "birth": "1983-07-01",
       "contract": null,
@@ -470,7 +483,7 @@
       "name": "Gaby",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 27000
     },
     {
@@ -504,18 +517,18 @@
         "ST"
       ],
       "attrs": {
-        "aer": 59,
-        "com": 72,
-        "dri": 65,
-        "ldr": 64,
-        "pac": 66,
+        "aer": 53,
+        "com": 73,
+        "dri": 69,
+        "ldr": 62,
+        "pac": 69,
         "pas": 75,
-        "pos": 66,
-        "sho": 63,
-        "sta": 71,
-        "str": 66,
-        "tac": 66,
-        "vis": 72
+        "pos": 51,
+        "sho": 69,
+        "sta": 65,
+        "str": 61,
+        "tac": 48,
+        "vis": 74
       },
       "birth": "1977-08-01",
       "contract": null,
@@ -526,27 +539,28 @@
       "nation": "SRB",
       "nation2": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 19500
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
-        "aer": 58,
-        "com": 70,
-        "dri": 64,
-        "ldr": 64,
-        "pac": 63,
-        "pas": 71,
-        "pos": 64,
-        "sho": 66,
-        "sta": 71,
-        "str": 67,
-        "tac": 67,
-        "vis": 68
+        "aer": 52,
+        "com": 68,
+        "dri": 69,
+        "ldr": 60,
+        "pac": 72,
+        "pas": 67,
+        "pos": 46,
+        "sho": 70,
+        "sta": 67,
+        "str": 62,
+        "tac": 47,
+        "vis": 65
       },
       "birth": "1984-03-01",
       "contract": null,
@@ -556,23 +570,28 @@
       "name": "Javier Arizmandi",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 66,
-        "dri": 69,
+        "aer": 67,
+        "com": 72,
+        "dri": 70,
         "ldr": 62,
-        "pac": 67,
-        "pas": 70,
-        "pos": 70,
-        "sho": 65,
+        "pac": 70,
+        "pas": 71,
+        "pos": 75,
+        "sho": 70,
         "sta": 69,
-        "str": 64,
-        "tac": 64,
-        "vis": 67
+        "str": 69,
+        "tac": 65,
+        "vis": 68
       },
       "birth": "1984-02-01",
       "contract": null,
@@ -582,11 +601,15 @@
       "name": "Manu del Mural",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 17500
     },
     {
+      "alt": [
+        "AM",
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 72,
@@ -594,7 +617,7 @@
         "ldr": 63,
         "pac": 71,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 72,
         "sta": 66,
         "str": 71,
@@ -615,18 +638,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 63,
-        "dri": 51,
-        "ldr": 67,
-        "pac": 61,
-        "pas": 60,
-        "pos": 69,
-        "sho": 38,
-        "sta": 62,
-        "str": 72,
-        "tac": 70,
-        "vis": 51
+        "aer": 55,
+        "com": 61,
+        "dri": 61,
+        "ldr": 63,
+        "pac": 69,
+        "pas": 64,
+        "pos": 64,
+        "sho": 45,
+        "sta": 68,
+        "str": 64,
+        "tac": 67,
+        "vis": 57
       },
       "birth": "1969-05-01",
       "contract": null,
@@ -636,7 +659,7 @@
       "name": "Carlos Agoilera",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 10000
     },
@@ -675,7 +698,7 @@
         "ldr": 59,
         "pac": 66,
         "pas": 58,
-        "pos": 42,
+        "pos": 62,
         "sho": 66,
         "sta": 65,
         "str": 69,
@@ -696,17 +719,17 @@
     {
       "attrs": {
         "aer": 54,
-        "com": 62,
-        "dri": 63,
-        "ldr": 62,
-        "pac": 57,
-        "pas": 64,
+        "com": 58,
+        "dri": 61,
+        "ldr": 60,
+        "pac": 64,
+        "pas": 58,
         "pos": 63,
-        "sho": 56,
+        "sho": 42,
         "sta": 64,
-        "str": 57,
-        "tac": 60,
-        "vis": 62
+        "str": 56,
+        "tac": 64,
+        "vis": 53
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -716,7 +739,7 @@
       "name": "Mana",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "LB",
       "verify": true,
       "wage": 9000
     },
@@ -749,18 +772,18 @@
     },
     {
       "attrs": {
-        "aer": 51,
+        "aer": 57,
         "com": 66,
-        "dri": 59,
-        "ldr": 57,
-        "pac": 61,
-        "pas": 66,
-        "pos": 61,
-        "sho": 58,
+        "dri": 55,
+        "ldr": 59,
+        "pac": 58,
+        "pas": 65,
+        "pos": 65,
+        "sho": 52,
         "sta": 62,
-        "str": 55,
-        "tac": 59,
-        "vis": 63
+        "str": 60,
+        "tac": 65,
+        "vis": 60
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -770,23 +793,28 @@
       "name": "Jose Zahinus",
       "nation": "ESP",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 8500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 63,
-        "dri": 46,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 58,
-        "pos": 63,
-        "sho": 35,
-        "sta": 57,
-        "str": 67,
-        "tac": 66,
-        "vis": 47
+        "aer": 51,
+        "com": 61,
+        "dri": 56,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 62,
+        "pos": 58,
+        "sho": 42,
+        "sta": 63,
+        "str": 59,
+        "tac": 63,
+        "vis": 53
       },
       "birth": "1984-12-01",
       "contract": null,
@@ -796,7 +824,7 @@
       "name": "Juan Valere",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 6500
     },
@@ -808,7 +836,7 @@
         "ldr": 53,
         "pac": 59,
         "pas": 47,
-        "pos": 37,
+        "pos": 57,
         "sho": 61,
         "sta": 53,
         "str": 55,
@@ -827,6 +855,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 57,

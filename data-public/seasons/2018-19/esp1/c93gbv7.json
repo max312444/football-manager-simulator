@@ -51,6 +51,11 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 66,
@@ -74,7 +79,7 @@
       "nation": "ROU",
       "nation2": "ESP",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 34500
     },
     {
@@ -157,8 +162,7 @@
     },
     {
       "alt": [
-        "DM",
-        "CM"
+        "DM"
       ],
       "attrs": {
         "aer": 83,
@@ -186,6 +190,10 @@
       "wage": 85500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 74,
@@ -212,9 +220,6 @@
       "wage": 63000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 71,
         "com": 77,
@@ -248,7 +253,7 @@
         "ldr": 69,
         "pac": 75,
         "pas": 65,
-        "pos": 53,
+        "pos": 73,
         "sho": 81,
         "sta": 70,
         "str": 78,
@@ -269,21 +274,22 @@
     },
     {
       "alt": [
+        "LW",
         "ST"
       ],
       "attrs": {
-        "aer": 70,
-        "com": 78,
-        "dri": 80,
-        "ldr": 74,
-        "pac": 74,
-        "pas": 82,
-        "pos": 76,
-        "sho": 76,
-        "sta": 79,
-        "str": 73,
-        "tac": 73,
-        "vis": 82
+        "aer": 64,
+        "com": 76,
+        "dri": 85,
+        "ldr": 70,
+        "pac": 83,
+        "pas": 78,
+        "pos": 58,
+        "sho": 80,
+        "sta": 75,
+        "str": 68,
+        "tac": 53,
+        "vis": 79
       },
       "birth": "1992-12-01",
       "contract": null,
@@ -293,23 +299,26 @@
       "name": "Iker Munyain",
       "nation": "ESP",
       "number": 10,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 85500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 66,
-        "dri": 62,
-        "ldr": 60,
-        "pac": 56,
-        "pas": 64,
-        "pos": 64,
-        "sho": 60,
-        "sta": 65,
-        "str": 61,
-        "tac": 59,
-        "vis": 67
+        "aer": 45,
+        "com": 64,
+        "dri": 67,
+        "ldr": 56,
+        "pac": 65,
+        "pas": 60,
+        "pos": 46,
+        "sho": 64,
+        "sta": 61,
+        "str": 56,
+        "tac": 39,
+        "vis": 64
       },
       "birth": "1997-03-01",
       "contract": null,
@@ -319,7 +328,7 @@
       "name": "Inigo Corduba",
       "nation": "ESP",
       "number": 11,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 20500
     },
     {
@@ -345,7 +354,7 @@
       "name": "Yuri Berchyche",
       "nation": "ESP",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 52500
     },
     {
@@ -376,21 +385,21 @@
     },
     {
       "alt": [
-        "ST"
+        "LW"
       ],
       "attrs": {
-        "aer": 70,
-        "com": 75,
-        "dri": 78,
-        "ldr": 75,
-        "pac": 72,
-        "pas": 80,
-        "pos": 72,
-        "sho": 74,
-        "sta": 79,
-        "str": 72,
-        "tac": 73,
-        "vis": 80
+        "aer": 64,
+        "com": 73,
+        "dri": 83,
+        "ldr": 71,
+        "pac": 81,
+        "pas": 76,
+        "pos": 54,
+        "sho": 78,
+        "sta": 75,
+        "str": 67,
+        "tac": 53,
+        "vis": 77
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -400,12 +409,12 @@
       "name": "Markel Sosaeta",
       "nation": "ESP",
       "number": 14,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 85500
     },
     {
       "alt": [
-        "RW"
+        "LB"
       ],
       "attrs": {
         "aer": 53,
@@ -433,9 +442,6 @@
       "wage": 19500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 68,
         "com": 75,
@@ -463,8 +469,7 @@
     },
     {
       "alt": [
-        "CM",
-        "ST"
+        "CM"
       ],
       "attrs": {
         "aer": 64,
@@ -493,8 +498,9 @@
     },
     {
       "alt": [
-        "RW",
-        "ST"
+        "RB",
+        "LB",
+        "DM"
       ],
       "attrs": {
         "aer": 67,
@@ -529,7 +535,7 @@
         "ldr": 62,
         "pac": 71,
         "pas": 61,
-        "pos": 48,
+        "pos": 68,
         "sho": 72,
         "sta": 64,
         "str": 69,
@@ -549,21 +555,22 @@
     },
     {
       "alt": [
-        "RW"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 61,
-        "com": 72,
-        "dri": 71,
-        "ldr": 69,
-        "pac": 65,
-        "pas": 70,
+        "com": 68,
+        "dri": 69,
+        "ldr": 67,
+        "pac": 72,
+        "pas": 64,
         "pos": 66,
-        "sho": 66,
+        "sho": 52,
         "sta": 75,
-        "str": 65,
-        "tac": 66,
-        "vis": 72
+        "str": 64,
+        "tac": 70,
+        "vis": 63
       },
       "birth": "1992-02-01",
       "contract": null,
@@ -573,23 +580,23 @@
       "name": "Ander Cepa",
       "nation": "ESP",
       "number": 21,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 45500
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 69,
-        "dri": 71,
-        "ldr": 64,
-        "pac": 68,
-        "pas": 69,
-        "pos": 65,
-        "sho": 62,
+        "dri": 67,
+        "ldr": 66,
+        "pac": 65,
+        "pas": 68,
+        "pos": 69,
+        "sho": 56,
         "sta": 75,
-        "str": 64,
-        "tac": 64,
-        "vis": 73
+        "str": 69,
+        "tac": 70,
+        "vis": 70
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -599,26 +606,23 @@
       "name": "Unai Lupez",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 39500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
-        "aer": 76,
-        "com": 72,
-        "dri": 58,
-        "ldr": 74,
-        "pac": 69,
-        "pas": 64,
-        "pos": 78,
-        "sho": 46,
-        "sta": 68,
-        "str": 78,
-        "tac": 81,
-        "vis": 64
+        "aer": 63,
+        "com": 70,
+        "dri": 68,
+        "ldr": 70,
+        "pac": 77,
+        "pas": 68,
+        "pos": 73,
+        "sho": 53,
+        "sta": 74,
+        "str": 70,
+        "tac": 78,
+        "vis": 70
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -628,7 +632,7 @@
       "name": "Mikel Belenziaga",
       "nation": "ESP",
       "number": 24,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 49500
     },
     {
@@ -665,7 +669,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 55,
-        "pos": 38,
+        "pos": 58,
         "sho": 68,
         "sta": 58,
         "str": 65,
@@ -684,19 +688,22 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 52,
+        "aer": 58,
         "com": 60,
-        "dri": 59,
-        "ldr": 55,
-        "pac": 54,
-        "pas": 65,
-        "pos": 61,
-        "sho": 54,
+        "dri": 55,
+        "ldr": 57,
+        "pac": 51,
+        "pas": 64,
+        "pos": 65,
+        "sho": 48,
         "sta": 63,
-        "str": 56,
-        "tac": 56,
-        "vis": 65
+        "str": 61,
+        "tac": 62,
+        "vis": 62
       },
       "birth": "1998-10-01",
       "contract": null,
@@ -706,26 +713,23 @@
       "name": "Peru Nulaskoain",
       "nation": "ESP",
       "number": 31,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 15000
     },
     {
-      "alt": [
-        "ST"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 60,
-        "dri": 58,
-        "ldr": 60,
-        "pac": 54,
+        "aer": 48,
+        "com": 61,
+        "dri": 62,
+        "ldr": 58,
+        "pac": 57,
         "pas": 66,
-        "pos": 62,
-        "sho": 56,
-        "sta": 66,
-        "str": 59,
-        "tac": 57,
-        "vis": 59
+        "pos": 47,
+        "sho": 62,
+        "sta": 60,
+        "str": 54,
+        "tac": 39,
+        "vis": 61
       },
       "birth": "2000-04-01",
       "contract": null,
@@ -735,7 +739,7 @@
       "name": "Oihan Sencet",
       "nation": "ESP",
       "number": 34,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 16500
     }
   ],

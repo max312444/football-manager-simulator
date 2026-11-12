@@ -74,7 +74,7 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 2,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 61500
     },
     {
@@ -156,6 +156,10 @@
       "wage": 11000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 67,
         "com": 69,
@@ -182,19 +186,23 @@
       "wage": 51000
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 78,
-        "com": 78,
-        "dri": 74,
-        "ldr": 72,
-        "pac": 80,
-        "pas": 69,
-        "pos": 56,
-        "sho": 83,
-        "sta": 77,
-        "str": 75,
-        "tac": 47,
-        "vis": 67
+        "aer": 64,
+        "com": 75,
+        "dri": 79,
+        "ldr": 70,
+        "pac": 84,
+        "pas": 75,
+        "pos": 58,
+        "sho": 78,
+        "sta": 79,
+        "str": 65,
+        "tac": 53,
+        "vis": 73
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -205,10 +213,13 @@
       "nation": "AUT",
       "nation2": "GER",
       "number": 7,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 62500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 71,
@@ -235,19 +246,24 @@
       "wage": 38000
     },
     {
+      "alt": [
+        "RW",
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 76,
-        "dri": 75,
-        "ldr": 72,
-        "pac": 72,
+        "aer": 64,
+        "com": 77,
+        "dri": 79,
+        "ldr": 70,
+        "pac": 75,
         "pas": 79,
-        "pos": 75,
-        "sho": 72,
-        "sta": 78,
-        "str": 69,
-        "tac": 74,
-        "vis": 77
+        "pos": 60,
+        "sho": 78,
+        "sta": 72,
+        "str": 64,
+        "tac": 56,
+        "vis": 79
       },
       "birth": "1988-10-01",
       "contract": null,
@@ -257,23 +273,23 @@
       "name": "Robbie Krose",
       "nation": "AUS",
       "number": 9,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 75000
     },
     {
       "attrs": {
-        "aer": 60,
-        "com": 71,
-        "dri": 67,
-        "ldr": 67,
-        "pac": 66,
+        "aer": 54,
+        "com": 72,
+        "dri": 71,
+        "ldr": 65,
+        "pac": 69,
         "pas": 73,
-        "pos": 69,
-        "sho": 69,
-        "sta": 77,
-        "str": 68,
-        "tac": 67,
-        "vis": 72
+        "pos": 54,
+        "sho": 75,
+        "sta": 71,
+        "str": 63,
+        "tac": 49,
+        "vis": 74
       },
       "birth": "1990-02-01",
       "contract": null,
@@ -283,10 +299,15 @@
       "name": "Daniel Didavy",
       "nation": "GER",
       "number": 10,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 47000
     },
     {
+      "alt": [
+        "CB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 70,
@@ -335,10 +356,14 @@
       "name": "Philip Haise",
       "nation": "GER",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 11000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 71,
@@ -392,19 +417,23 @@
       "wage": 27500
     },
     {
+      "alt": [
+        "RWB",
+        "LWB"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 73,
-        "dri": 69,
+        "aer": 61,
+        "com": 70,
+        "dri": 72,
         "ldr": 69,
-        "pac": 71,
-        "pas": 69,
-        "pos": 49,
-        "sho": 75,
-        "sta": 73,
-        "str": 77,
-        "tac": 44,
-        "vis": 63
+        "pac": 74,
+        "pas": 77,
+        "pos": 61,
+        "sho": 64,
+        "sta": 80,
+        "str": 69,
+        "tac": 62,
+        "vis": 69
       },
       "birth": "1992-11-01",
       "contract": null,
@@ -414,10 +443,13 @@
       "name": "Filip Kustic",
       "nation": "SRB",
       "number": 18,
-      "pos": "ST",
+      "pos": "LM",
       "wage": 38500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 64,
         "com": 67,
@@ -425,7 +457,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 55,
-        "pos": 39,
+        "pos": 59,
         "sho": 69,
         "sta": 62,
         "str": 60,
@@ -444,6 +476,9 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 75,
@@ -470,19 +505,22 @@
       "wage": 63000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
-        "aer": 64,
-        "com": 71,
-        "dri": 72,
-        "ldr": 72,
-        "pac": 65,
+        "aer": 60,
+        "com": 69,
+        "dri": 75,
+        "ldr": 70,
+        "pac": 73,
         "pas": 76,
-        "pos": 70,
-        "sho": 64,
-        "sta": 72,
-        "str": 67,
-        "tac": 67,
-        "vis": 76
+        "pos": 62,
+        "sho": 62,
+        "sta": 75,
+        "str": 64,
+        "tac": 61,
+        "vis": 75
       },
       "birth": "1988-12-01",
       "contract": null,
@@ -492,7 +530,7 @@
       "name": "Adam Hloosek",
       "nation": "CZE",
       "number": 21,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 51500
     },
     {
@@ -523,18 +561,18 @@
     },
     {
       "attrs": {
-        "aer": 61,
+        "aer": 67,
         "com": 70,
-        "dri": 69,
-        "ldr": 65,
-        "pac": 62,
-        "pas": 70,
-        "pos": 63,
-        "sho": 63,
+        "dri": 65,
+        "ldr": 67,
+        "pac": 59,
+        "pas": 69,
+        "pos": 67,
+        "sho": 57,
         "sta": 71,
-        "str": 62,
-        "tac": 61,
-        "vis": 66
+        "str": 67,
+        "tac": 67,
+        "vis": 63
       },
       "birth": "1984-11-01",
       "contract": null,
@@ -544,10 +582,13 @@
       "name": "Sarey Die",
       "nation": "CIV",
       "number": 26,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 31500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 58,
@@ -575,18 +616,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 60,
-        "dri": 58,
-        "ldr": 54,
-        "pac": 54,
+        "aer": 41,
+        "com": 61,
+        "dri": 62,
+        "ldr": 52,
+        "pac": 57,
         "pas": 60,
-        "pos": 54,
-        "sho": 48,
-        "sta": 62,
-        "str": 51,
-        "tac": 52,
-        "vis": 57
+        "pos": 39,
+        "sho": 54,
+        "sta": 56,
+        "str": 46,
+        "tac": 34,
+        "vis": 59
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -596,23 +637,23 @@
       "name": "Marvin Wanitzak",
       "nation": "GER",
       "number": 28,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9500
     },
     {
       "attrs": {
-        "aer": 49,
-        "com": 59,
-        "dri": 54,
-        "ldr": 51,
-        "pac": 53,
+        "aer": 43,
+        "com": 60,
+        "dri": 58,
+        "ldr": 49,
+        "pac": 56,
         "pas": 60,
-        "pos": 53,
-        "sho": 55,
-        "sta": 60,
-        "str": 50,
-        "tac": 52,
-        "vis": 57
+        "pos": 38,
+        "sho": 61,
+        "sta": 54,
+        "str": 45,
+        "tac": 34,
+        "vis": 59
       },
       "birth": "1997-09-01",
       "contract": null,
@@ -622,7 +663,7 @@
       "name": "Arianit Fereti",
       "nation": "GER",
       "number": 31,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 9000
     },
     {
@@ -633,7 +674,7 @@
         "ldr": 65,
         "pac": 73,
         "pas": 60,
-        "pos": 50,
+        "pos": 70,
         "sho": 73,
         "sta": 63,
         "str": 69,
@@ -652,17 +693,22 @@
       "wage": 26500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 68,
-        "dri": 61,
+        "aer": 63,
+        "com": 78,
+        "dri": 65,
         "ldr": 63,
-        "pac": 59,
+        "pac": 69,
         "pas": 69,
-        "pos": 61,
-        "sho": 58,
+        "pos": 71,
+        "sho": 68,
         "sta": 65,
-        "str": 60,
+        "str": 70,
         "tac": 59,
         "vis": 70
       },
@@ -674,7 +720,7 @@
       "name": "Jan Klyment",
       "nation": "CZE",
       "number": 39,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 22000
     },
     {
@@ -705,17 +751,22 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 62,
-        "dri": 65,
+        "aer": 63,
+        "com": 71,
+        "dri": 67,
         "ldr": 57,
-        "pac": 56,
+        "pac": 65,
         "pas": 69,
-        "pos": 60,
-        "sho": 60,
+        "pos": 69,
+        "sho": 69,
         "sta": 63,
-        "str": 57,
+        "str": 66,
         "tac": 58,
         "vis": 65
       },
@@ -728,23 +779,23 @@
       "nation": "USA",
       "nation2": "GER",
       "number": 42,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 18500
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 75,
-        "dri": 75,
-        "ldr": 73,
-        "pac": 72,
+        "aer": 57,
+        "com": 76,
+        "dri": 79,
+        "ldr": 71,
+        "pac": 75,
         "pas": 78,
-        "pos": 70,
-        "sho": 65,
-        "sta": 77,
-        "str": 70,
-        "tac": 67,
-        "vis": 74
+        "pos": 55,
+        "sho": 71,
+        "sta": 71,
+        "str": 65,
+        "tac": 49,
+        "vis": 76
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -754,7 +805,7 @@
       "name": "Alexandru Mexim",
       "nation": "ROU",
       "number": 44,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 64500
     }
   ],

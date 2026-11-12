@@ -31,7 +31,7 @@
         "ldr": 66,
         "pac": 75,
         "pas": 68,
-        "pos": 54,
+        "pos": 74,
         "sho": 74,
         "sta": 71,
         "str": 74,
@@ -51,6 +51,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -105,6 +108,9 @@
       "wage": 16000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 68,
@@ -134,18 +140,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 65,
         "com": 71,
-        "dri": 65,
-        "ldr": 65,
-        "pac": 66,
-        "pas": 70,
-        "pos": 63,
-        "sho": 61,
+        "dri": 61,
+        "ldr": 67,
+        "pac": 63,
+        "pas": 69,
+        "pos": 67,
+        "sho": 55,
         "sta": 73,
-        "str": 65,
-        "tac": 63,
-        "vis": 69
+        "str": 70,
+        "tac": 69,
+        "vis": 66
       },
       "birth": "1981-07-01",
       "contract": null,
@@ -155,7 +161,7 @@
       "name": "Alou Dyarra",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 16000
     },
@@ -214,6 +220,9 @@
       "wage": 8500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -321,6 +330,11 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 62,
         "com": 56,
@@ -355,7 +369,7 @@
         "ldr": 55,
         "pac": 63,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 60,
         "sta": 56,
         "str": 63,
@@ -375,19 +389,21 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 48,
-        "com": 59,
-        "dri": 60,
+        "aer": 55,
+        "com": 66,
+        "dri": 64,
         "ldr": 54,
-        "pac": 54,
+        "pac": 61,
         "pas": 62,
-        "pos": 59,
-        "sho": 54,
+        "pos": 66,
+        "sho": 61,
         "sta": 63,
-        "str": 52,
+        "str": 59,
         "tac": 54,
         "vis": 59
       },
@@ -399,24 +415,24 @@
       "name": "Anthony Le Tellec",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 6500
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 60,
-        "dri": 60,
-        "ldr": 57,
-        "pac": 57,
+        "aer": 44,
+        "com": 61,
+        "dri": 64,
+        "ldr": 55,
+        "pac": 60,
         "pas": 61,
-        "pos": 55,
-        "sho": 52,
-        "sta": 61,
-        "str": 52,
-        "tac": 54,
-        "vis": 62
+        "pos": 40,
+        "sho": 58,
+        "sta": 55,
+        "str": 47,
+        "tac": 36,
+        "vis": 64
       },
       "birth": "1977-05-01",
       "contract": null,
@@ -426,7 +442,7 @@
       "name": "Jean-Michel Lesaga",
       "nation": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 6500
     },
     {
@@ -458,18 +474,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 59,
-        "dri": 45,
-        "ldr": 56,
-        "pac": 51,
+        "aer": 54,
+        "com": 62,
+        "dri": 57,
+        "ldr": 52,
+        "pac": 57,
         "pas": 48,
-        "pos": 63,
-        "sho": 30,
+        "pos": 58,
+        "sho": 60,
         "sta": 57,
-        "str": 63,
-        "tac": 62,
-        "vis": 44
+        "str": 61,
+        "tac": 29,
+        "vis": 50
       },
       "birth": "1971-08-01",
       "contract": null,
@@ -479,7 +495,7 @@
       "name": "Thomas Deniaod",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "ST",
       "verify": true,
       "wage": 4500
     },
@@ -491,7 +507,7 @@
         "ldr": 51,
         "pac": 57,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 64,
         "sta": 54,
         "str": 57,
@@ -511,6 +527,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 60,
@@ -537,6 +556,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 56,
@@ -619,6 +641,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 56,
@@ -646,6 +671,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -673,6 +701,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -753,6 +784,10 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 51,
@@ -832,6 +867,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 48,
@@ -859,6 +897,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 50,

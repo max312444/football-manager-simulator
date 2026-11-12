@@ -70,6 +70,10 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
         "aer": 60,
         "com": 64,
@@ -96,19 +100,16 @@
       "wage": 25500
     },
     {
-      "alt": [
-        "CB"
-      ],
       "attrs": {
         "aer": 60,
         "com": 68,
-        "dri": 60,
+        "dri": 64,
         "ldr": 60,
-        "pac": 62,
+        "pac": 66,
         "pas": 66,
         "pos": 70,
         "sho": 48,
-        "sta": 66,
+        "sta": 70,
         "str": 64,
         "tac": 68,
         "vis": 58
@@ -125,6 +126,10 @@
       "wage": 30500
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 62,
         "com": 62,
@@ -152,18 +157,18 @@
     },
     {
       "alt": [
-        "CB"
+        "RB"
       ],
       "attrs": {
         "aer": 60,
         "com": 64,
-        "dri": 56,
+        "dri": 61,
         "ldr": 58,
-        "pac": 56,
+        "pac": 61,
         "pas": 62,
         "pos": 66,
         "sho": 44,
-        "sta": 64,
+        "sta": 69,
         "str": 64,
         "tac": 66,
         "vis": 52
@@ -181,7 +186,8 @@
     },
     {
       "alt": [
-        "LM"
+        "CB",
+        "RB"
       ],
       "attrs": {
         "aer": 56,
@@ -265,6 +271,8 @@
     },
     {
       "alt": [
+        "RB",
+        "LB",
         "ST"
       ],
       "attrs": {
@@ -324,17 +332,17 @@
       ],
       "attrs": {
         "aer": 58,
-        "com": 64,
-        "dri": 58,
+        "com": 75,
+        "dri": 69,
         "ldr": 62,
         "pac": 62,
-        "pas": 64,
+        "pas": 75,
         "pos": 68,
-        "sho": 50,
-        "sta": 84,
+        "sho": 61,
+        "sta": 95,
         "str": 70,
         "tac": 72,
-        "vis": 58
+        "vis": 69
       },
       "birth": "1973-03-01",
       "contract": "2006-06-30",
@@ -351,19 +359,22 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 62,
-        "com": 60,
-        "dri": 62,
+        "com": 69,
+        "dri": 65,
         "ldr": 52,
         "pac": 66,
-        "pas": 64,
+        "pas": 73,
         "pos": 64,
-        "sho": 62,
+        "sho": 65,
         "sta": 80,
         "str": 68,
-        "tac": 66,
-        "vis": 58
+        "tac": 72,
+        "vis": 67
       },
       "birth": "1979-02-01",
       "contract": "2007-06-30",
@@ -407,19 +418,23 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 50,
-        "com": 62,
+        "com": 65,
         "dri": 68,
         "ldr": 48,
         "pac": 66,
-        "pas": 68,
+        "pas": 71,
         "pos": 60,
         "sho": 60,
         "sta": 72,
         "str": 56,
-        "tac": 56,
-        "vis": 66
+        "tac": 59,
+        "vis": 69
       },
       "birth": "1978-01-01",
       "contract": "2005-06-30",
@@ -434,7 +449,7 @@
     },
     {
       "alt": [
-        "AM"
+        "LW"
       ],
       "attrs": {
         "aer": 48,
@@ -459,12 +474,12 @@
       "name": "David Bentlei",
       "nation": "ENG",
       "number": 10,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 24000
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -488,12 +503,13 @@
       "name": "Mattias Jonsun",
       "nation": "SWE",
       "number": 9,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 30000
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "RW"
       ],
       "attrs": {
         "aer": 52,
@@ -526,21 +542,23 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "CM",
+        "DM"
       ],
       "attrs": {
         "aer": 50,
-        "com": 64,
+        "com": 70,
         "dri": 72,
         "ldr": 48,
         "pac": 70,
-        "pas": 66,
+        "pas": 72,
         "pos": 56,
-        "sho": 64,
+        "sho": 70,
         "sta": 70,
         "str": 54,
         "tac": 40,
-        "vis": 66
+        "vis": 72
       },
       "birth": "1977-12-01",
       "contract": "2006-06-30",
@@ -555,19 +573,21 @@
     },
     {
       "alt": [
-        "RM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
-        "aer": 56,
-        "com": 52,
+        "aer": 62,
+        "com": 58,
         "dri": 62,
         "ldr": 36,
         "pac": 70,
         "pas": 54,
-        "pos": 46,
-        "sho": 58,
+        "pos": 52,
+        "sho": 64,
         "sta": 66,
-        "str": 60,
+        "str": 66,
         "tac": 36,
         "vis": 48
       },
@@ -584,16 +604,16 @@
     },
     {
       "attrs": {
-        "aer": 64,
-        "com": 62,
+        "aer": 65,
+        "com": 63,
         "dri": 66,
         "ldr": 46,
         "pac": 74,
         "pas": 56,
-        "pos": 50,
-        "sho": 70,
+        "pos": 51,
+        "sho": 71,
         "sta": 70,
-        "str": 66,
+        "str": 67,
         "tac": 36,
         "vis": 52
       },
@@ -635,17 +655,22 @@
       "wage": 20500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
-        "aer": 54,
-        "com": 50,
+        "aer": 59,
+        "com": 55,
         "dri": 58,
         "ldr": 34,
         "pac": 70,
         "pas": 50,
-        "pos": 44,
-        "sho": 56,
+        "pos": 49,
+        "sho": 61,
         "sta": 64,
-        "str": 58,
+        "str": 63,
         "tac": 34,
         "vis": 46
       },

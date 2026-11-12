@@ -46,18 +46,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 67,
         "com": 69,
-        "dri": 57,
+        "dri": 62,
         "ldr": 61,
-        "pac": 63,
-        "pas": 63,
+        "pac": 68,
+        "pas": 68,
         "pos": 71,
         "sho": 45,
-        "sta": 73,
+        "sta": 78,
         "str": 71,
         "tac": 73,
         "vis": 53
@@ -75,9 +76,6 @@
       "wage": 30500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 66,
         "com": 61,
@@ -104,19 +102,22 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 61,
-        "com": 65,
-        "dri": 64,
+        "com": 76,
+        "dri": 71,
         "ldr": 67,
         "pac": 71,
-        "pas": 67,
+        "pas": 78,
         "pos": 67,
-        "sho": 56,
+        "sho": 63,
         "sta": 88,
         "str": 69,
-        "tac": 75,
-        "vis": 61
+        "tac": 79,
+        "vis": 72
       },
       "birth": "1974-10-01",
       "contract": "2003-06-30",
@@ -169,7 +170,7 @@
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 54,
@@ -199,16 +200,16 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 61,
+        "aer": 58,
+        "com": 69,
         "dri": 68,
         "ldr": 47,
         "pac": 82,
         "pas": 56,
-        "pos": 47,
-        "sho": 70,
+        "pos": 55,
+        "sho": 78,
         "sta": 64,
-        "str": 62,
+        "str": 70,
         "tac": 30,
         "vis": 53
       },
@@ -226,20 +227,22 @@
     },
     {
       "alt": [
-        "RB"
+        "LB",
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 50,
         "com": 65,
         "dri": 70,
         "ldr": 55,
-        "pac": 76,
+        "pac": 77,
         "pas": 66,
-        "pos": 61,
+        "pos": 62,
         "sho": 52,
         "sta": 76,
-        "str": 60,
-        "tac": 60,
+        "str": 61,
+        "tac": 61,
         "vis": 61
       },
       "birth": "1971-09-01",
@@ -250,7 +253,7 @@
       "name": "Andy Impei",
       "nation": "ENG",
       "number": 8,
-      "pos": "RM",
+      "pos": "RB",
       "verify": true,
       "wage": 26500
     },
@@ -283,7 +286,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 45,
@@ -400,7 +403,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 54,
@@ -460,17 +463,17 @@
       ],
       "attrs": {
         "aer": 66,
-        "com": 59,
-        "dri": 56,
+        "com": 70,
+        "dri": 67,
         "ldr": 53,
         "pac": 58,
-        "pas": 60,
+        "pas": 71,
         "pos": 63,
-        "sho": 50,
-        "sta": 72,
+        "sho": 61,
+        "sta": 83,
         "str": 74,
         "tac": 66,
-        "vis": 55
+        "vis": 66
       },
       "birth": "1973-10-01",
       "contract": "2003-06-30",
@@ -485,20 +488,17 @@
       "wage": 22000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
-        "aer": 54,
-        "com": 67,
+        "aer": 62,
+        "com": 75,
         "dri": 72,
         "ldr": 51,
-        "pac": 64,
+        "pac": 68,
         "pas": 66,
-        "pos": 47,
-        "sho": 70,
+        "pos": 55,
+        "sho": 78,
         "sta": 62,
-        "str": 60,
+        "str": 68,
         "tac": 32,
         "vis": 65
       },
@@ -520,17 +520,17 @@
       ],
       "attrs": {
         "aer": 59,
-        "com": 65,
-        "dri": 63,
+        "com": 69,
+        "dri": 67,
         "ldr": 53,
         "pac": 64,
-        "pas": 69,
+        "pas": 73,
         "pos": 65,
-        "sho": 55,
-        "sta": 76,
+        "sho": 59,
+        "sta": 80,
         "str": 66,
         "tac": 69,
-        "vis": 63
+        "vis": 67
       },
       "birth": "1980-09-01",
       "contract": "2005-06-30",
@@ -545,9 +545,6 @@
       "wage": 31000
     },
     {
-      "alt": [
-        "AM"
-      ],
       "attrs": {
         "aer": 75,
         "com": 65,
@@ -575,6 +572,9 @@
       "wage": 37000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 55,
         "com": 51,
@@ -602,6 +602,9 @@
       "wage": 9500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 48,
         "com": 50,
@@ -624,24 +627,27 @@
       "name": "Matt Pyper",
       "nation": "ENG",
       "number": 23,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 9500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 58,
-        "dri": 60,
+        "com": 64,
+        "dri": 63,
         "ldr": 48,
         "pac": 63,
-        "pas": 62,
+        "pas": 68,
         "pos": 58,
-        "sho": 48,
+        "sho": 51,
         "sta": 71,
         "str": 59,
-        "tac": 62,
-        "vis": 56
+        "tac": 65,
+        "vis": 62
       },
       "birth": "1977-12-01",
       "contract": "2003-06-30",

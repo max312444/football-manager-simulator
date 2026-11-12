@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 63,
-        "com": 61,
-        "dri": 46,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 55,
-        "pos": 63,
-        "sho": 36,
-        "sta": 56,
-        "str": 61,
-        "tac": 66,
-        "vis": 50
+        "aer": 50,
+        "com": 59,
+        "dri": 56,
+        "ldr": 52,
+        "pac": 65,
+        "pas": 59,
+        "pos": 58,
+        "sho": 43,
+        "sta": 62,
+        "str": 53,
+        "tac": 63,
+        "vis": 56
       },
       "birth": "1988-07-01",
       "contract": null,
@@ -100,23 +100,23 @@
       "nation": "KAZ",
       "nation2": "GER",
       "number": 5,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 8000
     },
     {
       "attrs": {
         "aer": 49,
-        "com": 57,
-        "dri": 53,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 60,
+        "com": 53,
+        "dri": 51,
+        "ldr": 50,
+        "pac": 60,
+        "pas": 54,
         "pos": 58,
-        "sho": 53,
+        "sho": 39,
         "sta": 58,
-        "str": 50,
-        "tac": 53,
-        "vis": 61
+        "str": 49,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "1992-12-01",
       "contract": null,
@@ -126,23 +126,26 @@
       "name": "Bashkim Ajdiny",
       "nation": "GER",
       "number": 7,
-      "pos": "CM",
+      "pos": "RB",
       "wage": 7000
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 57,
-        "dri": 56,
-        "ldr": 54,
-        "pac": 55,
-        "pas": 59,
-        "pos": 56,
-        "sho": 48,
+        "dri": 52,
+        "ldr": 56,
+        "pac": 52,
+        "pas": 58,
+        "pos": 60,
+        "sho": 42,
         "sta": 58,
-        "str": 55,
-        "tac": 50,
-        "vis": 55
+        "str": 60,
+        "tac": 56,
+        "vis": 52
       },
       "birth": "1992-02-01",
       "contract": null,
@@ -152,24 +155,26 @@
       "name": "Ulrich Taffartshofer",
       "nation": "GER",
       "number": 8,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6500
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 57,
-        "com": 66,
-        "dri": 60,
+        "aer": 65,
+        "com": 74,
+        "dri": 65,
         "ldr": 62,
-        "pac": 57,
+        "pac": 65,
         "pas": 67,
-        "pos": 61,
-        "sho": 60,
+        "pos": 69,
+        "sho": 68,
         "sta": 68,
-        "str": 57,
+        "str": 65,
         "tac": 58,
         "vis": 69
       },
@@ -182,10 +187,13 @@
       "nation": "VEN",
       "nation2": "GER",
       "number": 9,
-      "pos": "CM",
+      "pos": "ST",
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -213,6 +221,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 57,
@@ -272,7 +283,7 @@
         "ldr": 49,
         "pac": 57,
         "pas": 49,
-        "pos": 33,
+        "pos": 53,
         "sho": 55,
         "sta": 51,
         "str": 52,
@@ -293,18 +304,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 48,
-        "dri": 51,
-        "ldr": 49,
-        "pac": 47,
+        "aer": 36,
+        "com": 49,
+        "dri": 55,
+        "ldr": 47,
+        "pac": 50,
         "pas": 51,
-        "pos": 50,
-        "sho": 48,
-        "sta": 53,
-        "str": 49,
-        "tac": 48,
-        "vis": 54
+        "pos": 35,
+        "sho": 54,
+        "sta": 47,
+        "str": 44,
+        "tac": 30,
+        "vis": 56
       },
       "birth": "1999-06-01",
       "contract": null,
@@ -315,7 +326,7 @@
       "nation": "GER",
       "nation2": "CMR",
       "number": 16,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 3500
     },
     {
@@ -371,6 +382,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "LM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 53,
@@ -393,7 +407,7 @@
       "name": "Kevin Wolza",
       "nation": "GER",
       "number": 19,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 5500
     },
     {
@@ -404,7 +418,7 @@
         "ldr": 47,
         "pac": 54,
         "pas": 47,
-        "pos": 30,
+        "pos": 50,
         "sho": 55,
         "sta": 49,
         "str": 56,
@@ -450,6 +464,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 61,
@@ -477,6 +494,9 @@
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 51,
@@ -503,6 +523,9 @@
       "wage": 4500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 42,
         "com": 50,
@@ -536,7 +559,7 @@
         "ldr": 45,
         "pac": 48,
         "pas": 39,
-        "pos": 25,
+        "pos": 45,
         "sho": 50,
         "sta": 47,
         "str": 50,
@@ -555,6 +578,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 46,
@@ -581,6 +607,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 57,
@@ -607,19 +636,22 @@
       "wage": 7000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 63,
-        "dri": 61,
-        "ldr": 54,
-        "pac": 57,
-        "pas": 60,
-        "pos": 56,
-        "sho": 55,
-        "sta": 59,
-        "str": 53,
-        "tac": 55,
-        "vis": 62
+        "aer": 47,
+        "com": 61,
+        "dri": 66,
+        "ldr": 50,
+        "pac": 66,
+        "pas": 56,
+        "pos": 38,
+        "sho": 59,
+        "sta": 55,
+        "str": 48,
+        "tac": 35,
+        "vis": 59
       },
       "birth": "1996-12-01",
       "contract": null,
@@ -629,7 +661,7 @@
       "name": "Maurice Molthaup",
       "nation": "GER",
       "number": 30,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 9500
     },
     {
@@ -686,18 +718,18 @@
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 62,
-        "dri": 60,
-        "ldr": 62,
-        "pac": 58,
+        "aer": 46,
+        "com": 63,
+        "dri": 64,
+        "ldr": 60,
+        "pac": 61,
         "pas": 67,
-        "pos": 61,
-        "sho": 62,
-        "sta": 66,
-        "str": 63,
-        "tac": 62,
-        "vis": 68
+        "pos": 46,
+        "sho": 68,
+        "sta": 60,
+        "str": 58,
+        "tac": 44,
+        "vis": 70
       },
       "birth": "1994-04-01",
       "contract": null,
@@ -707,10 +739,13 @@
       "name": "Sebastian Kark",
       "nation": "GER",
       "number": 37,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 12000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 58,

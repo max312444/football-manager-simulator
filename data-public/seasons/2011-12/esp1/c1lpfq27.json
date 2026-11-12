@@ -52,18 +52,18 @@
     },
     {
       "attrs": {
-        "aer": 71,
-        "com": 66,
-        "dri": 54,
-        "ldr": 61,
-        "pac": 60,
-        "pas": 57,
-        "pos": 72,
-        "sho": 41,
-        "sta": 60,
-        "str": 65,
-        "tac": 70,
-        "vis": 51
+        "aer": 58,
+        "com": 64,
+        "dri": 64,
+        "ldr": 57,
+        "pac": 68,
+        "pas": 61,
+        "pos": 67,
+        "sho": 48,
+        "sta": 66,
+        "str": 57,
+        "tac": 67,
+        "vis": 57
       },
       "birth": "1982-05-01",
       "contract": null,
@@ -73,7 +73,7 @@
       "name": "Marc Bartran",
       "nation": "ESP",
       "number": 2,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 15500
     },
     {
@@ -129,6 +129,9 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 61,
@@ -155,6 +158,10 @@
       "wage": 15000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 69,
         "com": 82,
@@ -188,7 +195,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 63,
-        "pos": 46,
+        "pos": 66,
         "sho": 76,
         "sta": 68,
         "str": 71,
@@ -208,18 +215,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 75,
-        "dri": 73,
-        "ldr": 73,
-        "pac": 72,
+        "aer": 60,
+        "com": 76,
+        "dri": 77,
+        "ldr": 71,
+        "pac": 75,
         "pas": 79,
-        "pos": 74,
-        "sho": 69,
-        "sta": 82,
-        "str": 75,
-        "tac": 72,
-        "vis": 81
+        "pos": 59,
+        "sho": 75,
+        "sta": 76,
+        "str": 70,
+        "tac": 54,
+        "vis": 83
       },
       "birth": "1984-06-01",
       "contract": null,
@@ -229,7 +236,7 @@
       "name": "Masoud Shojaai",
       "nation": "IRN",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 39500
     },
     {
@@ -240,7 +247,7 @@
         "ldr": 67,
         "pac": 74,
         "pas": 67,
-        "pos": 48,
+        "pos": 68,
         "sho": 76,
         "sta": 68,
         "str": 73,
@@ -259,10 +266,6 @@
       "wage": 29000
     },
     {
-      "alt": [
-        "CM",
-        "ST"
-      ],
       "attrs": {
         "aer": 58,
         "com": 62,
@@ -289,6 +292,9 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 67,
@@ -367,19 +373,22 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 65,
-        "dri": 61,
-        "ldr": 57,
-        "pac": 59,
-        "pas": 67,
-        "pos": 64,
-        "sho": 58,
-        "sta": 65,
-        "str": 62,
-        "tac": 63,
-        "vis": 68
+        "aer": 47,
+        "com": 63,
+        "dri": 66,
+        "ldr": 53,
+        "pac": 68,
+        "pas": 63,
+        "pos": 46,
+        "sho": 62,
+        "sta": 61,
+        "str": 57,
+        "tac": 43,
+        "vis": 65
       },
       "birth": "1984-01-01",
       "contract": null,
@@ -389,12 +398,13 @@
       "name": "Alvaro Cajudo",
       "nation": "ESP",
       "number": 16,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 17500
     },
     {
       "alt": [
-        "CM"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 60,
@@ -423,18 +433,18 @@
     },
     {
       "attrs": {
-        "aer": 70,
-        "com": 72,
-        "dri": 70,
-        "ldr": 63,
-        "pac": 71,
-        "pas": 62,
-        "pos": 46,
-        "sho": 71,
-        "sta": 68,
-        "str": 73,
-        "tac": 40,
-        "vis": 64
+        "aer": 56,
+        "com": 69,
+        "dri": 75,
+        "ldr": 61,
+        "pac": 75,
+        "pas": 68,
+        "pos": 48,
+        "sho": 66,
+        "sta": 70,
+        "str": 63,
+        "tac": 46,
+        "vis": 70
       },
       "birth": "1987-12-01",
       "contract": null,
@@ -444,13 +454,10 @@
       "name": "Roland Lemah",
       "nation": "BEL",
       "number": 21,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 23000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 55,
         "com": 57,
@@ -503,19 +510,24 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 71,
-        "com": 70,
-        "dri": 60,
-        "ldr": 67,
-        "pac": 66,
-        "pas": 62,
-        "pos": 71,
-        "sho": 41,
-        "sta": 67,
-        "str": 73,
-        "tac": 72,
-        "vis": 60
+        "aer": 58,
+        "com": 68,
+        "dri": 70,
+        "ldr": 63,
+        "pac": 74,
+        "pas": 66,
+        "pos": 66,
+        "sho": 48,
+        "sta": 73,
+        "str": 65,
+        "tac": 69,
+        "vis": 66
       },
       "birth": "1982-04-01",
       "contract": null,
@@ -525,7 +537,7 @@
       "name": "Damia Abelle",
       "nation": "ESP",
       "number": 24,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 25000
     },
     {

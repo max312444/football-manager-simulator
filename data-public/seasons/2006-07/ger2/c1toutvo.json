@@ -24,6 +24,9 @@
   },
   "squad": [
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 70,
@@ -31,7 +34,7 @@
         "ldr": 65,
         "pac": 70,
         "pas": 64,
-        "pos": 47,
+        "pos": 67,
         "sho": 74,
         "sta": 67,
         "str": 69,
@@ -58,7 +61,7 @@
         "ldr": 64,
         "pac": 69,
         "pas": 62,
-        "pos": 49,
+        "pos": 69,
         "sho": 73,
         "sta": 68,
         "str": 74,
@@ -84,7 +87,7 @@
         "ldr": 62,
         "pac": 70,
         "pas": 63,
-        "pos": 52,
+        "pos": 72,
         "sho": 71,
         "sta": 64,
         "str": 74,
@@ -131,6 +134,9 @@
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -158,19 +164,23 @@
       "wage": 7500
     },
     {
+      "alt": [
+        "ST",
+        "RW"
+      ],
       "attrs": {
-        "aer": 62,
-        "com": 64,
-        "dri": 60,
-        "ldr": 58,
-        "pac": 63,
-        "pas": 54,
-        "pos": 43,
-        "sho": 65,
-        "sta": 62,
-        "str": 65,
-        "tac": 33,
-        "vis": 59
+        "aer": 48,
+        "com": 61,
+        "dri": 65,
+        "ldr": 56,
+        "pac": 67,
+        "pas": 60,
+        "pos": 45,
+        "sho": 60,
+        "sta": 64,
+        "str": 55,
+        "tac": 39,
+        "vis": 65
       },
       "birth": "1976-04-01",
       "contract": null,
@@ -180,7 +190,7 @@
       "name": "Kai Mychalke",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "LW",
       "verify": true,
       "wage": 3500
     },
@@ -207,7 +217,7 @@
       "name": "Alexander Bugere",
       "nation": "GER",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 4500
     },
     {
@@ -218,7 +228,7 @@
         "ldr": 61,
         "pac": 65,
         "pas": 59,
-        "pos": 43,
+        "pos": 63,
         "sho": 66,
         "sta": 62,
         "str": 61,
@@ -239,18 +249,18 @@
     },
     {
       "attrs": {
-        "aer": 67,
-        "com": 63,
-        "dri": 46,
-        "ldr": 61,
-        "pac": 55,
-        "pas": 56,
-        "pos": 66,
-        "sho": 36,
-        "sta": 57,
-        "str": 62,
-        "tac": 69,
-        "vis": 52
+        "aer": 54,
+        "com": 61,
+        "dri": 56,
+        "ldr": 57,
+        "pac": 63,
+        "pas": 60,
+        "pos": 61,
+        "sho": 43,
+        "sta": 63,
+        "str": 54,
+        "tac": 66,
+        "vis": 58
       },
       "birth": "1977-03-01",
       "contract": null,
@@ -260,24 +270,24 @@
       "name": "Stefan Blenk",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 54,
+        "aer": 60,
         "com": 60,
-        "dri": 58,
-        "ldr": 59,
-        "pac": 59,
-        "pas": 65,
-        "pos": 58,
-        "sho": 58,
+        "dri": 54,
+        "ldr": 61,
+        "pac": 56,
+        "pas": 64,
+        "pos": 62,
+        "sho": 52,
         "sta": 67,
-        "str": 60,
-        "tac": 61,
-        "vis": 65
+        "str": 65,
+        "tac": 67,
+        "vis": 62
       },
       "birth": "1977-10-01",
       "contract": null,
@@ -287,7 +297,7 @@
       "name": "Mihai Tararacha",
       "nation": "ROU",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 4500
     },
@@ -319,6 +329,9 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 62,
@@ -345,6 +358,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 64,
@@ -372,6 +388,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 60,
@@ -425,19 +444,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
-        "aer": 51,
-        "com": 62,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 53,
-        "pas": 61,
-        "pos": 60,
-        "sho": 54,
-        "sta": 59,
-        "str": 58,
-        "tac": 56,
-        "vis": 59
+        "aer": 52,
+        "com": 64,
+        "dri": 57,
+        "ldr": 55,
+        "pac": 54,
+        "pas": 63,
+        "pos": 61,
+        "sho": 56,
+        "sta": 61,
+        "str": 59,
+        "tac": 57,
+        "vis": 61
       },
       "birth": "1975-08-01",
       "contract": null,
@@ -533,6 +555,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 57,
@@ -567,7 +592,7 @@
         "ldr": 50,
         "pac": 56,
         "pas": 50,
-        "pos": 33,
+        "pos": 53,
         "sho": 60,
         "sta": 54,
         "str": 61,
@@ -667,6 +692,11 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 57,
@@ -694,6 +724,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 58,
@@ -720,6 +753,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 48,
         "com": 54,
@@ -747,22 +783,19 @@
       "wage": 2000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
-        "aer": 55,
-        "com": 52,
-        "dri": 44,
+        "aer": 48,
+        "com": 54,
+        "dri": 52,
         "ldr": 56,
-        "pac": 47,
-        "pas": 44,
-        "pos": 61,
-        "sho": 26,
-        "sta": 53,
-        "str": 58,
-        "tac": 58,
-        "vis": 40
+        "pac": 45,
+        "pas": 53,
+        "pos": 60,
+        "sho": 41,
+        "sta": 59,
+        "str": 56,
+        "tac": 57,
+        "vis": 52
       },
       "birth": "1985-09-01",
       "contract": null,
@@ -773,7 +806,7 @@
       "nation": "GER",
       "nation2": "POL",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 1500
     },
     {
@@ -784,7 +817,7 @@
         "ldr": 52,
         "pac": 52,
         "pas": 48,
-        "pos": 33,
+        "pos": 53,
         "sho": 58,
         "sta": 50,
         "str": 54,
@@ -804,18 +837,18 @@
     },
     {
       "attrs": {
-        "aer": 56,
-        "com": 54,
-        "dri": 43,
-        "ldr": 55,
-        "pac": 49,
-        "pas": 49,
-        "pos": 56,
-        "sho": 31,
-        "sta": 52,
-        "str": 55,
-        "tac": 56,
-        "vis": 39
+        "aer": 43,
+        "com": 52,
+        "dri": 53,
+        "ldr": 51,
+        "pac": 57,
+        "pas": 53,
+        "pos": 51,
+        "sho": 38,
+        "sta": 58,
+        "str": 47,
+        "tac": 53,
+        "vis": 45
       },
       "birth": "1985-04-01",
       "contract": null,
@@ -825,11 +858,14 @@
       "name": "Pablo Caceras",
       "nation": "URU",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 52,
@@ -858,18 +894,18 @@
     },
     {
       "attrs": {
-        "aer": 42,
-        "com": 51,
-        "dri": 52,
-        "ldr": 51,
-        "pac": 50,
+        "aer": 36,
+        "com": 52,
+        "dri": 56,
+        "ldr": 49,
+        "pac": 53,
         "pas": 53,
-        "pos": 50,
-        "sho": 47,
-        "sta": 58,
-        "str": 52,
-        "tac": 48,
-        "vis": 56
+        "pos": 35,
+        "sho": 53,
+        "sta": 52,
+        "str": 47,
+        "tac": 30,
+        "vis": 58
       },
       "birth": "1986-03-01",
       "contract": null,
@@ -879,11 +915,14 @@
       "name": "Markus Naumayr",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 54,
@@ -911,6 +950,11 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "CB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 50,
@@ -964,6 +1008,9 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 38,
         "com": 52,
@@ -991,6 +1038,11 @@
       "wage": 1000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "CM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 43,

@@ -127,7 +127,7 @@
       "nation": "SUI",
       "nation2": "POR",
       "number": 6,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 46500
     },
     {
@@ -138,7 +138,7 @@
         "ldr": 72,
         "pac": 76,
         "pas": 66,
-        "pos": 50,
+        "pos": 70,
         "sho": 79,
         "sta": 70,
         "str": 75,
@@ -158,6 +158,10 @@
       "wage": 88000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 67,
         "com": 75,
@@ -184,6 +188,9 @@
       "wage": 128500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 71,
         "com": 73,
@@ -191,7 +198,7 @@
         "ldr": 69,
         "pac": 78,
         "pas": 65,
-        "pos": 53,
+        "pos": 73,
         "sho": 77,
         "sta": 73,
         "str": 77,
@@ -211,19 +218,23 @@
       "wage": 92500
     },
     {
+      "alt": [
+        "ST",
+        "LW"
+      ],
       "attrs": {
-        "aer": 73,
-        "com": 74,
-        "dri": 74,
-        "ldr": 69,
-        "pac": 70,
-        "pas": 68,
-        "pos": 49,
-        "sho": 77,
-        "sta": 66,
-        "str": 75,
-        "tac": 46,
-        "vis": 64
+        "aer": 59,
+        "com": 71,
+        "dri": 79,
+        "ldr": 67,
+        "pac": 74,
+        "pas": 74,
+        "pos": 51,
+        "sho": 72,
+        "sta": 68,
+        "str": 65,
+        "tac": 52,
+        "vis": 70
       },
       "birth": "2001-10-01",
       "contract": null,
@@ -233,23 +244,23 @@
       "name": "Mason Greenwuod",
       "nation": "ENG",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 76500
     },
     {
       "attrs": {
-        "aer": 61,
-        "com": 70,
-        "dri": 67,
-        "ldr": 62,
-        "pac": 61,
+        "aer": 55,
+        "com": 71,
+        "dri": 71,
+        "ldr": 60,
+        "pac": 64,
         "pas": 71,
-        "pos": 68,
-        "sho": 62,
-        "sta": 72,
-        "str": 64,
-        "tac": 61,
-        "vis": 72
+        "pos": 53,
+        "sho": 68,
+        "sta": 66,
+        "str": 59,
+        "tac": 43,
+        "vis": 74
       },
       "birth": "1997-06-01",
       "contract": null,
@@ -260,7 +271,7 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 67000
     },
     {
@@ -317,19 +328,23 @@
       "wage": 95000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 60,
-        "com": 62,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 63,
-        "pas": 57,
-        "pos": 42,
-        "sho": 64,
-        "sta": 63,
-        "str": 66,
-        "tac": 32,
-        "vis": 54
+        "aer": 46,
+        "com": 59,
+        "dri": 66,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 63,
+        "pos": 44,
+        "sho": 59,
+        "sta": 65,
+        "str": 56,
+        "tac": 38,
+        "vis": 60
       },
       "birth": "2000-06-01",
       "contract": null,
@@ -339,10 +354,14 @@
       "name": "Igor Peixao",
       "nation": "BRA",
       "number": 14,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 24000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 53,
         "com": 68,
@@ -371,18 +390,18 @@
     },
     {
       "attrs": {
-        "aer": 65,
+        "aer": 71,
         "com": 73,
-        "dri": 75,
-        "ldr": 68,
-        "pac": 72,
-        "pas": 74,
-        "pos": 74,
-        "sho": 71,
+        "dri": 71,
+        "ldr": 70,
+        "pac": 69,
+        "pas": 73,
+        "pos": 78,
+        "sho": 65,
         "sta": 74,
-        "str": 72,
-        "tac": 73,
-        "vis": 75
+        "str": 77,
+        "tac": 79,
+        "vis": 72
       },
       "birth": "1993-02-01",
       "contract": null,
@@ -393,10 +412,14 @@
       "nation": "CTA",
       "nation2": "FRA",
       "number": 19,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 136000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 66,
@@ -424,19 +447,24 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "LW",
+        "RB",
+        "RWB"
+      ],
       "attrs": {
-        "aer": 76,
-        "com": 80,
-        "dri": 72,
-        "ldr": 68,
-        "pac": 76,
-        "pas": 69,
-        "pos": 53,
-        "sho": 76,
-        "sta": 70,
-        "str": 76,
-        "tac": 45,
-        "vis": 70
+        "aer": 62,
+        "com": 77,
+        "dri": 77,
+        "ldr": 66,
+        "pac": 80,
+        "pas": 75,
+        "pos": 55,
+        "sho": 71,
+        "sta": 72,
+        "str": 66,
+        "tac": 51,
+        "vis": 76
       },
       "birth": "2000-02-01",
       "contract": null,
@@ -448,23 +476,23 @@
       "nation": "USA",
       "nation2": "FRA",
       "number": 22,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 97500
     },
     {
       "attrs": {
-        "aer": 68,
+        "aer": 74,
         "com": 75,
-        "dri": 78,
-        "ldr": 76,
-        "pac": 74,
-        "pas": 82,
-        "pos": 76,
-        "sho": 68,
+        "dri": 74,
+        "ldr": 78,
+        "pac": 71,
+        "pas": 81,
+        "pos": 80,
+        "sho": 62,
         "sta": 80,
-        "str": 70,
-        "tac": 73,
-        "vis": 77
+        "str": 75,
+        "tac": 79,
+        "vis": 74
       },
       "birth": "1995-08-01",
       "contract": null,
@@ -475,23 +503,26 @@
       "nation": "DEN",
       "nation2": "FRA",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 139500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 44,
-        "com": 54,
-        "dri": 55,
-        "ldr": 52,
-        "pac": 50,
-        "pas": 55,
-        "pos": 55,
-        "sho": 47,
-        "sta": 55,
-        "str": 49,
-        "tac": 47,
-        "vis": 58
+        "aer": 38,
+        "com": 52,
+        "dri": 60,
+        "ldr": 48,
+        "pac": 59,
+        "pas": 51,
+        "pos": 37,
+        "sho": 51,
+        "sta": 51,
+        "str": 44,
+        "tac": 27,
+        "vis": 55
       },
       "birth": "2004-06-01",
       "contract": null,
@@ -501,10 +532,13 @@
       "name": "Francois Moghe",
       "nation": "CMR",
       "number": 24,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 13500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 71,
         "com": 78,
@@ -531,6 +565,9 @@
       "wage": 139500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 45,
         "com": 58,
@@ -585,7 +622,7 @@
     },
     {
       "alt": [
-        "RB"
+        "LB"
       ],
       "attrs": {
         "aer": 69,
@@ -641,18 +678,18 @@
     },
     {
       "attrs": {
-        "aer": 78,
-        "com": 71,
-        "dri": 61,
-        "ldr": 76,
-        "pac": 71,
-        "pas": 69,
-        "pos": 76,
-        "sho": 51,
-        "sta": 68,
-        "str": 80,
-        "tac": 77,
-        "vis": 64
+        "aer": 65,
+        "com": 69,
+        "dri": 71,
+        "ldr": 72,
+        "pac": 79,
+        "pas": 73,
+        "pos": 71,
+        "sho": 58,
+        "sta": 74,
+        "str": 72,
+        "tac": 74,
+        "vis": 70
       },
       "birth": "1996-02-01",
       "contract": null,
@@ -662,7 +699,7 @@
       "name": "Michael Amir Muryllo",
       "nation": "PAN",
       "number": 62,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 108500
     },
     {
@@ -673,7 +710,7 @@
         "ldr": 68,
         "pac": 72,
         "pas": 66,
-        "pos": 51,
+        "pos": 71,
         "sho": 74,
         "sta": 69,
         "str": 73,
@@ -693,6 +730,9 @@
       "wage": 75500
     },
     {
+      "alt": [
+        "RB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 59,

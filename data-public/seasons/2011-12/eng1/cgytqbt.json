@@ -125,19 +125,23 @@
       "wage": 71500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 48,
-        "com": 62,
+        "com": 68,
         "dri": 64,
         "ldr": 54,
         "pac": 66,
-        "pas": 68,
+        "pas": 74,
         "pos": 62,
         "sho": 58,
         "sta": 82,
         "str": 62,
-        "tac": 66,
-        "vis": 62
+        "tac": 72,
+        "vis": 68
       },
       "birth": "1987-10-01",
       "contract": "2014-06-30",
@@ -183,17 +187,17 @@
     {
       "attrs": {
         "aer": 64,
-        "com": 58,
+        "com": 60,
         "dri": 56,
         "ldr": 54,
         "pac": 60,
-        "pas": 60,
+        "pas": 62,
         "pos": 66,
         "sho": 42,
-        "sta": 76,
+        "sta": 78,
         "str": 78,
         "tac": 74,
-        "vis": 52
+        "vis": 54
       },
       "birth": "1985-02-01",
       "contract": "2013-06-30",
@@ -208,6 +212,9 @@
       "wage": 46000
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 34,
         "com": 58,
@@ -235,6 +242,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 54,
         "com": 64,
@@ -263,16 +273,16 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 58,
+        "aer": 73,
+        "com": 63,
         "dri": 68,
         "ldr": 44,
         "pac": 68,
         "pas": 62,
-        "pos": 40,
-        "sho": 64,
+        "pos": 45,
+        "sho": 69,
         "sta": 68,
-        "str": 76,
+        "str": 81,
         "tac": 32,
         "vis": 58
       },
@@ -290,6 +300,7 @@
     },
     {
       "alt": [
+        "RW",
         "LW"
       ],
       "attrs": {
@@ -323,7 +334,9 @@
     },
     {
       "alt": [
-        "ST"
+        "RW",
+        "RWB",
+        "LWB"
       ],
       "attrs": {
         "aer": 52,
@@ -353,21 +366,23 @@
     },
     {
       "alt": [
-        "LM"
+        "LB",
+        "CM",
+        "AM"
       ],
       "attrs": {
         "aer": 50,
-        "com": 62,
+        "com": 64,
         "dri": 64,
         "ldr": 52,
-        "pac": 60,
-        "pas": 70,
-        "pos": 56,
+        "pac": 69,
+        "pas": 72,
+        "pos": 67,
         "sho": 60,
-        "sta": 70,
-        "str": 62,
-        "tac": 56,
-        "vis": 66
+        "sta": 73,
+        "str": 73,
+        "tac": 67,
+        "vis": 68
       },
       "birth": "1984-11-01",
       "contract": "2013-06-30",
@@ -377,12 +392,13 @@
       "name": "David Jonas",
       "nation": "ENG",
       "number": 12,
-      "pos": "LB",
+      "pos": "DM",
       "verify": true,
       "wage": 41000
     },
     {
       "alt": [
+        "DM",
         "AM"
       ],
       "attrs": {
@@ -391,12 +407,12 @@
         "dri": 70,
         "ldr": 50,
         "pac": 58,
-        "pas": 74,
+        "pas": 81,
         "pos": 52,
         "sho": 68,
-        "sta": 66,
+        "sta": 73,
         "str": 60,
-        "tac": 46,
+        "tac": 53,
         "vis": 72
       },
       "birth": "1985-05-01",
@@ -412,19 +428,23 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 52,
-        "com": 70,
+        "com": 71,
         "dri": 72,
         "ldr": 54,
         "pac": 68,
-        "pas": 74,
+        "pas": 75,
         "pos": 64,
         "sho": 60,
         "sta": 82,
         "str": 62,
-        "tac": 68,
-        "vis": 70
+        "tac": 69,
+        "vis": 71
       },
       "birth": "1990-11-01",
       "contract": "2015-06-30",
@@ -440,18 +460,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "LB"
       ],
       "attrs": {
         "aer": 66,
         "com": 64,
-        "dri": 54,
+        "dri": 59,
         "ldr": 66,
-        "pac": 64,
-        "pas": 58,
+        "pac": 69,
+        "pas": 63,
         "pos": 68,
         "sho": 42,
-        "sta": 72,
+        "sta": 77,
         "str": 74,
         "tac": 72,
         "vis": 50
@@ -470,16 +491,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 52,
+        "aer": 65,
+        "com": 55,
         "dri": 58,
         "ldr": 44,
         "pac": 70,
         "pas": 52,
-        "pos": 38,
-        "sho": 58,
+        "pos": 41,
+        "sho": 61,
         "sta": 70,
-        "str": 72,
+        "str": 75,
         "tac": 34,
         "vis": 48
       },
@@ -496,6 +517,9 @@
       "wage": 21000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 38,
         "com": 52,
@@ -523,6 +547,10 @@
       "wage": 16500
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 72,
         "com": 64,
@@ -545,7 +573,7 @@
       "name": "Hugo Rodallege",
       "nation": "COL",
       "number": 20,
-      "pos": "ST",
+      "pos": "RW",
       "verify": true,
       "wage": 46500
     },
@@ -555,17 +583,17 @@
       ],
       "attrs": {
         "aer": 62,
-        "com": 64,
-        "dri": 74,
+        "com": 73,
+        "dri": 76,
         "ldr": 54,
         "pac": 70,
-        "pas": 68,
+        "pas": 77,
         "pos": 64,
-        "sho": 62,
+        "sho": 64,
         "sta": 82,
         "str": 80,
-        "tac": 70,
-        "vis": 64
+        "tac": 77,
+        "vis": 73
       },
       "birth": "1987-06-01",
       "contract": "2012-06-30",
@@ -586,13 +614,13 @@
       "attrs": {
         "aer": 66,
         "com": 66,
-        "dri": 58,
+        "dri": 59,
         "ldr": 60,
-        "pac": 66,
-        "pas": 64,
+        "pac": 67,
+        "pas": 65,
         "pos": 68,
         "sho": 50,
-        "sta": 76,
+        "sta": 77,
         "str": 74,
         "tac": 72,
         "vis": 54

@@ -158,6 +158,9 @@
       "wage": 304000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 66,
         "com": 76,
@@ -191,7 +194,7 @@
         "ldr": 73,
         "pac": 82,
         "pas": 74,
-        "pos": 55,
+        "pos": 75,
         "sho": 83,
         "sta": 76,
         "str": 79,
@@ -217,7 +220,7 @@
         "ldr": 70,
         "pac": 77,
         "pas": 72,
-        "pos": 52,
+        "pos": 72,
         "sho": 80,
         "sta": 76,
         "str": 80,
@@ -237,6 +240,11 @@
       "wage": 261500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 81,
         "com": 86,
@@ -244,7 +252,7 @@
         "ldr": 80,
         "pac": 87,
         "pas": 74,
-        "pos": 64,
+        "pos": 84,
         "sho": 86,
         "sta": 77,
         "str": 82,
@@ -263,6 +271,9 @@
       "wage": 484500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 65,
         "com": 79,
@@ -312,26 +323,26 @@
       "name": "Juan Bernet",
       "nation": "ESP",
       "number": 14,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 266500
     },
     {
       "alt": [
-        "DM"
+        "CB"
       ],
       "attrs": {
-        "aer": 69,
+        "aer": 75,
         "com": 74,
-        "dri": 75,
-        "ldr": 75,
-        "pac": 69,
-        "pas": 82,
-        "pos": 75,
-        "sho": 68,
+        "dri": 71,
+        "ldr": 77,
+        "pac": 66,
+        "pas": 81,
+        "pos": 79,
+        "sho": 62,
         "sta": 77,
-        "str": 74,
-        "tac": 75,
-        "vis": 78
+        "str": 79,
+        "tac": 81,
+        "vis": 75
       },
       "birth": "1991-09-01",
       "contract": null,
@@ -341,7 +352,7 @@
       "name": "Danilo Pereyra",
       "nation": "POR",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 388500
     },
     {
@@ -371,6 +382,10 @@
       "wage": 144000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 75,
@@ -397,6 +412,9 @@
       "wage": 254000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 70,
         "com": 79,
@@ -424,7 +442,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 59,
@@ -479,19 +498,23 @@
       "wage": 282000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 66,
-        "com": 82,
-        "dri": 76,
-        "ldr": 74,
-        "pac": 74,
+        "aer": 60,
+        "com": 83,
+        "dri": 80,
+        "ldr": 72,
+        "pac": 77,
         "pas": 83,
-        "pos": 75,
-        "sho": 73,
-        "sta": 79,
-        "str": 73,
-        "tac": 76,
-        "vis": 81
+        "pos": 60,
+        "sho": 79,
+        "sta": 73,
+        "str": 68,
+        "tac": 58,
+        "vis": 83
       },
       "birth": "1993-09-01",
       "contract": null,
@@ -501,7 +524,7 @@
       "name": "Julian Drexler",
       "nation": "GER",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 474000
     },
     {
@@ -527,10 +550,13 @@
       "name": "Nuno Mendas",
       "nation": "POR",
       "number": 25,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 127500
     },
     {
+      "alt": [
+        "CB"
+      ],
       "attrs": {
         "aer": 58,
         "com": 64,
@@ -558,20 +584,23 @@
       "wage": 103500
     },
     {
-      "alt": [],
+      "alt": [
+        "ST",
+        "AM"
+      ],
       "attrs": {
         "aer": 77,
         "com": 81,
-        "dri": 78,
+        "dri": 82,
         "ldr": 75,
-        "pac": 79,
-        "pas": 70,
-        "pos": 56,
+        "pac": 83,
+        "pas": 74,
+        "pos": 76,
         "sho": 82,
         "sta": 76,
         "str": 80,
         "tac": 52,
-        "vis": 76
+        "vis": 80
       },
       "birth": "1987-06-01",
       "contract": null,
@@ -582,23 +611,23 @@
       "nation": "ARG",
       "nation2": "ESP",
       "number": 30,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 357000
     },
     {
       "attrs": {
-        "aer": 52,
-        "com": 50,
-        "dri": 51,
-        "ldr": 46,
-        "pac": 49,
-        "pas": 46,
-        "pos": 32,
-        "sho": 52,
-        "sta": 50,
-        "str": 50,
-        "tac": 20,
-        "vis": 42
+        "aer": 38,
+        "com": 47,
+        "dri": 56,
+        "ldr": 44,
+        "pac": 53,
+        "pas": 52,
+        "pos": 34,
+        "sho": 47,
+        "sta": 52,
+        "str": 40,
+        "tac": 26,
+        "vis": 48
       },
       "birth": "2003-09-01",
       "contract": null,
@@ -609,23 +638,23 @@
       "nation": "MTN",
       "nation2": "FRA",
       "number": 32,
-      "pos": "ST",
+      "pos": "LW",
       "wage": 14000
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 48,
-        "dri": 36,
-        "ldr": 49,
-        "pac": 42,
-        "pas": 42,
-        "pos": 55,
-        "sho": 25,
-        "sta": 44,
-        "str": 51,
-        "tac": 54,
-        "vis": 35
+        "aer": 41,
+        "com": 46,
+        "dri": 46,
+        "ldr": 45,
+        "pac": 50,
+        "pas": 46,
+        "pos": 50,
+        "sho": 32,
+        "sta": 50,
+        "str": 43,
+        "tac": 51,
+        "vis": 41
       },
       "birth": "2002-01-01",
       "contract": null,
@@ -635,7 +664,7 @@
       "name": "Teddy Alluh",
       "nation": "FRA",
       "number": 34,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 13500
     },
     {
@@ -646,7 +675,7 @@
         "ldr": 49,
         "pac": 55,
         "pas": 41,
-        "pos": 27,
+        "pos": 47,
         "sho": 55,
         "sta": 46,
         "str": 53,
@@ -673,7 +702,7 @@
         "ldr": 56,
         "pac": 68,
         "pas": 55,
-        "pos": 40,
+        "pos": 60,
         "sho": 67,
         "sta": 59,
         "str": 68,

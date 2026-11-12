@@ -125,18 +125,19 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB"
       ],
       "attrs": {
         "aer": 75,
         "com": 66,
-        "dri": 49,
+        "dri": 65,
         "ldr": 67,
-        "pac": 55,
-        "pas": 56,
+        "pac": 71,
+        "pas": 72,
         "pos": 72,
         "sho": 38,
-        "sta": 63,
+        "sta": 79,
         "str": 73,
         "tac": 71,
         "vis": 47
@@ -239,7 +240,7 @@
     },
     {
       "alt": [
-        "RM"
+        "LW"
       ],
       "attrs": {
         "aer": 41,
@@ -325,18 +326,20 @@
     },
     {
       "alt": [
-        "CB"
+        "CB",
+        "RB",
+        "CM"
       ],
       "attrs": {
         "aer": 69,
         "com": 62,
-        "dri": 51,
+        "dri": 60,
         "ldr": 53,
-        "pac": 58,
-        "pas": 57,
+        "pac": 67,
+        "pas": 66,
         "pos": 67,
         "sho": 35,
-        "sta": 67,
+        "sta": 76,
         "str": 70,
         "tac": 69,
         "vis": 48
@@ -436,19 +439,24 @@
       "wage": 65000
     },
     {
+      "alt": [
+        "RB",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 55,
-        "com": 65,
-        "dri": 62,
+        "com": 67,
+        "dri": 64,
         "ldr": 64,
         "pac": 60,
-        "pas": 66,
+        "pas": 68,
         "pos": 63,
-        "sho": 54,
-        "sta": 79,
+        "sho": 56,
+        "sta": 81,
         "str": 66,
         "tac": 65,
-        "vis": 63
+        "vis": 65
       },
       "birth": "1982-01-01",
       "contract": "2013-06-30",
@@ -462,20 +470,17 @@
       "wage": 54500
     },
     {
-      "alt": [
-        "RW"
-      ],
       "attrs": {
-        "aer": 70,
-        "com": 66,
+        "aer": 72,
+        "com": 68,
         "dri": 64,
         "ldr": 66,
         "pac": 67,
         "pas": 62,
-        "pos": 52,
-        "sho": 68,
+        "pos": 54,
+        "sho": 70,
         "sta": 89,
-        "str": 81,
+        "str": 83,
         "tac": 52,
         "vis": 58
       },
@@ -495,19 +500,21 @@
     },
     {
       "alt": [
+        "CM",
+        "DM",
         "AM"
       ],
       "attrs": {
-        "aer": 61,
-        "com": 67,
+        "aer": 67,
+        "com": 73,
         "dri": 72,
         "ldr": 57,
         "pac": 71,
         "pas": 64,
-        "pos": 41,
-        "sho": 73,
+        "pos": 47,
+        "sho": 79,
         "sta": 68,
-        "str": 67,
+        "str": 73,
         "tac": 34,
         "vis": 63
       },
@@ -524,19 +531,24 @@
       "wage": 43500
     },
     {
+      "alt": [
+        "CM",
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 65,
-        "dri": 59,
+        "dri": 65,
         "ldr": 66,
-        "pac": 53,
-        "pas": 65,
+        "pac": 59,
+        "pas": 67,
         "pos": 57,
-        "sho": 55,
-        "sta": 74,
+        "sho": 61,
+        "sta": 80,
         "str": 77,
         "tac": 59,
-        "vis": 60
+        "vis": 62
       },
       "birth": "1976-07-01",
       "contract": "2012-06-30",
@@ -572,7 +584,7 @@
       "name": "Matthew Etharington",
       "nation": "ENG",
       "number": 26,
-      "pos": "LM",
+      "pos": "LW",
       "wage": 38500
     }
   ],

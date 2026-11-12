@@ -78,18 +78,18 @@
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 62,
-        "dri": 52,
-        "ldr": 61,
-        "pac": 56,
-        "pas": 55,
-        "pos": 70,
-        "sho": 37,
-        "sta": 59,
-        "str": 67,
-        "tac": 69,
-        "vis": 48
+        "aer": 55,
+        "com": 60,
+        "dri": 62,
+        "ldr": 57,
+        "pac": 64,
+        "pas": 59,
+        "pos": 65,
+        "sho": 44,
+        "sta": 65,
+        "str": 59,
+        "tac": 66,
+        "vis": 54
       },
       "birth": "1998-04-01",
       "contract": null,
@@ -99,7 +99,7 @@
       "name": "Pep Chavarrie",
       "nation": "ESP",
       "number": 3,
-      "pos": "CB",
+      "pos": "LB",
       "wage": 27000
     },
     {
@@ -156,18 +156,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 74,
-        "dri": 74,
-        "ldr": 67,
-        "pac": 65,
+        "aer": 60,
+        "com": 75,
+        "dri": 78,
+        "ldr": 65,
+        "pac": 68,
         "pas": 76,
-        "pos": 68,
-        "sho": 70,
-        "sta": 77,
-        "str": 67,
-        "tac": 67,
-        "vis": 71
+        "pos": 53,
+        "sho": 76,
+        "sta": 71,
+        "str": 62,
+        "tac": 49,
+        "vis": 73
       },
       "birth": "1996-03-01",
       "contract": null,
@@ -177,23 +177,26 @@
       "name": "Jose Angel Pozu",
       "nation": "ESP",
       "number": 6,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 91000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 66,
+        "aer": 52,
         "com": 68,
-        "dri": 63,
+        "dri": 67,
         "ldr": 58,
-        "pac": 64,
-        "pas": 57,
-        "pos": 41,
-        "sho": 68,
+        "pac": 62,
+        "pas": 67,
+        "pos": 46,
+        "sho": 65,
         "sta": 59,
-        "str": 68,
-        "tac": 36,
-        "vis": 58
+        "str": 58,
+        "tac": 44,
+        "vis": 69
       },
       "birth": "1994-12-01",
       "contract": null,
@@ -203,10 +206,15 @@
       "name": "Isi Pelazon",
       "nation": "ESP",
       "number": 7,
-      "pos": "ST",
+      "pos": "AM",
       "wage": 27500
     },
     {
+      "alt": [
+        "AM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 59,
         "com": 63,
@@ -214,7 +222,7 @@
         "ldr": 57,
         "pac": 63,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 65,
         "sta": 60,
         "str": 64,
@@ -240,7 +248,7 @@
         "ldr": 65,
         "pac": 77,
         "pas": 63,
-        "pos": 50,
+        "pos": 70,
         "sho": 74,
         "sta": 69,
         "str": 77,
@@ -260,19 +268,22 @@
       "wage": 69000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 69,
-        "com": 75,
-        "dri": 69,
-        "ldr": 66,
-        "pac": 70,
-        "pas": 64,
-        "pos": 51,
-        "sho": 72,
-        "sta": 71,
-        "str": 69,
-        "tac": 42,
-        "vis": 61
+        "aer": 55,
+        "com": 72,
+        "dri": 74,
+        "ldr": 64,
+        "pac": 74,
+        "pas": 70,
+        "pos": 53,
+        "sho": 67,
+        "sta": 73,
+        "str": 59,
+        "tac": 48,
+        "vis": 67
       },
       "birth": "1990-07-01",
       "contract": null,
@@ -283,23 +294,28 @@
       "nation": "CPV",
       "nation2": "POR",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 54500
     },
     {
+      "alt": [
+        "ST",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 53,
-        "com": 62,
-        "dri": 63,
-        "ldr": 61,
-        "pac": 58,
+        "aer": 47,
+        "com": 63,
+        "dri": 67,
+        "ldr": 59,
+        "pac": 61,
         "pas": 63,
-        "pos": 59,
-        "sho": 55,
-        "sta": 66,
-        "str": 57,
-        "tac": 60,
-        "vis": 64
+        "pos": 44,
+        "sho": 61,
+        "sta": 60,
+        "str": 52,
+        "tac": 42,
+        "vis": 66
       },
       "birth": "1997-07-01",
       "contract": null,
@@ -309,7 +325,7 @@
       "name": "Randy Nteke",
       "nation": "FRA",
       "number": 11,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 31500
     },
@@ -336,7 +352,7 @@
       "name": "Alfonso Espyno",
       "nation": "URU",
       "number": 12,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 25500
     },
     {
@@ -366,6 +382,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 59,
@@ -420,18 +439,18 @@
     },
     {
       "attrs": {
-        "aer": 66,
+        "aer": 72,
         "com": 77,
-        "dri": 72,
-        "ldr": 69,
-        "pac": 69,
-        "pas": 73,
-        "pos": 73,
-        "sho": 70,
+        "dri": 68,
+        "ldr": 71,
+        "pac": 66,
+        "pas": 72,
+        "pos": 77,
+        "sho": 64,
         "sta": 78,
-        "str": 67,
-        "tac": 68,
-        "vis": 76
+        "str": 72,
+        "tac": 74,
+        "vis": 73
       },
       "birth": "1995-10-01",
       "contract": null,
@@ -441,23 +460,26 @@
       "name": "Unai Lupez",
       "nation": "ESP",
       "number": 17,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 91000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 56,
-        "com": 68,
-        "dri": 65,
-        "ldr": 60,
-        "pac": 61,
+        "aer": 50,
+        "com": 69,
+        "dri": 69,
+        "ldr": 58,
+        "pac": 64,
         "pas": 71,
-        "pos": 65,
-        "sho": 62,
-        "sta": 70,
-        "str": 59,
-        "tac": 65,
-        "vis": 68
+        "pos": 50,
+        "sho": 68,
+        "sta": 64,
+        "str": 54,
+        "tac": 47,
+        "vis": 70
       },
       "birth": "1992-10-01",
       "contract": null,
@@ -467,23 +489,23 @@
       "name": "Alvaro Garcya",
       "nation": "ESP",
       "number": 18,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 50000
     },
     {
       "attrs": {
-        "aer": 55,
-        "com": 63,
-        "dri": 62,
-        "ldr": 59,
-        "pac": 60,
-        "pas": 67,
-        "pos": 67,
-        "sho": 58,
-        "sta": 67,
-        "str": 60,
-        "tac": 63,
-        "vis": 66
+        "aer": 49,
+        "com": 61,
+        "dri": 67,
+        "ldr": 55,
+        "pac": 69,
+        "pas": 63,
+        "pos": 49,
+        "sho": 62,
+        "sta": 63,
+        "str": 55,
+        "tac": 43,
+        "vis": 63
       },
       "birth": "1997-02-01",
       "contract": null,
@@ -493,7 +515,7 @@
       "name": "Jorge de Frotos",
       "nation": "ESP",
       "number": 19,
-      "pos": "CM",
+      "pos": "RW",
       "wage": 40000
     },
     {
@@ -524,6 +546,10 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 61,
         "com": 66,
@@ -557,7 +583,7 @@
         "ldr": 68,
         "pac": 75,
         "pas": 67,
-        "pos": 57,
+        "pos": 77,
         "sho": 81,
         "sta": 73,
         "str": 78,
@@ -577,18 +603,18 @@
     },
     {
       "attrs": {
-        "aer": 57,
+        "aer": 63,
         "com": 65,
-        "dri": 60,
-        "ldr": 62,
-        "pac": 58,
-        "pas": 63,
-        "pos": 61,
-        "sho": 58,
+        "dri": 56,
+        "ldr": 64,
+        "pac": 55,
+        "pas": 62,
+        "pos": 65,
+        "sho": 52,
         "sta": 66,
-        "str": 57,
-        "tac": 58,
-        "vis": 65
+        "str": 62,
+        "tac": 64,
+        "vis": 62
       },
       "birth": "1994-08-01",
       "contract": null,
@@ -598,7 +624,7 @@
       "name": "Oscar Valantin",
       "nation": "ESP",
       "number": 23,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 34000
     },
     {
@@ -628,6 +654,9 @@
       "wage": 53000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 41,
         "com": 49,
@@ -655,18 +684,18 @@
     },
     {
       "attrs": {
-        "aer": 46,
+        "aer": 52,
         "com": 52,
-        "dri": 49,
-        "ldr": 51,
-        "pac": 47,
-        "pas": 56,
-        "pos": 48,
-        "sho": 44,
+        "dri": 45,
+        "ldr": 53,
+        "pac": 44,
+        "pas": 55,
+        "pos": 52,
+        "sho": 38,
         "sta": 57,
-        "str": 50,
-        "tac": 47,
-        "vis": 57
+        "str": 55,
+        "tac": 53,
+        "vis": 54
       },
       "birth": "2003-08-01",
       "contract": null,
@@ -676,7 +705,7 @@
       "name": "Diego Mandez",
       "nation": "ESP",
       "number": 29,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 10500
     },
     {
@@ -687,7 +716,7 @@
         "ldr": 62,
         "pac": 71,
         "pas": 62,
-        "pos": 48,
+        "pos": 68,
         "sho": 72,
         "sta": 70,
         "str": 71,
@@ -713,7 +742,7 @@
         "ldr": 56,
         "pac": 60,
         "pas": 50,
-        "pos": 35,
+        "pos": 55,
         "sho": 62,
         "sta": 59,
         "str": 58,

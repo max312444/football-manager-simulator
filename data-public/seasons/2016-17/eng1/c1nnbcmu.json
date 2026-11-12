@@ -102,13 +102,13 @@
       "attrs": {
         "aer": 55,
         "com": 63,
-        "dri": 57,
+        "dri": 58,
         "ldr": 56,
-        "pac": 62,
+        "pac": 63,
         "pas": 63,
         "pos": 69,
         "sho": 45,
-        "sta": 76,
+        "sta": 77,
         "str": 67,
         "tac": 69,
         "vis": 55
@@ -125,6 +125,10 @@
       "wage": 54500
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
         "aer": 57,
         "com": 63,
@@ -318,6 +322,10 @@
       "wage": 72000
     },
     {
+      "alt": [
+        "DM",
+        "RM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 69,
@@ -345,21 +353,22 @@
     },
     {
       "alt": [
+        "DM",
         "LM"
       ],
       "attrs": {
         "aer": 53,
-        "com": 70,
+        "com": 76,
         "dri": 74,
         "ldr": 62,
         "pac": 74,
-        "pas": 72,
+        "pas": 79,
         "pos": 60,
         "sho": 70,
-        "sta": 75,
+        "sta": 80,
         "str": 62,
-        "tac": 57,
-        "vis": 69
+        "tac": 64,
+        "vis": 75
       },
       "birth": "1988-11-01",
       "contract": "2018-06-30",
@@ -375,21 +384,22 @@
     },
     {
       "alt": [
-        "LM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 53,
-        "com": 63,
-        "dri": 71,
+        "com": 67,
+        "dri": 75,
         "ldr": 50,
         "pac": 64,
-        "pas": 67,
+        "pas": 71,
         "pos": 63,
-        "sho": 63,
+        "sho": 67,
         "sta": 81,
         "str": 62,
         "tac": 49,
-        "vis": 65
+        "vis": 69
       },
       "birth": "1985-10-01",
       "contract": "2018-06-30",
@@ -400,10 +410,15 @@
       "nation": "SCO",
       "nation2": "ENG",
       "number": 21,
-      "pos": "RM",
+      "pos": "AM",
       "wage": 62500
     },
     {
+      "alt": [
+        "LW",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 55,
         "com": 65,
@@ -426,26 +441,26 @@
       "name": "Johann Berg Goðmundsson",
       "nation": "ISL",
       "number": 25,
-      "pos": "RM",
+      "pos": "RW",
       "wage": 78000
     },
     {
       "alt": [
-        "AM"
+        "DM"
       ],
       "attrs": {
         "aer": 60,
-        "com": 60,
+        "com": 67,
         "dri": 64,
         "ldr": 54,
         "pac": 64,
-        "pas": 64,
+        "pas": 71,
         "pos": 62,
         "sho": 60,
         "sta": 82,
         "str": 69,
-        "tac": 60,
-        "vis": 60
+        "tac": 67,
+        "vis": 67
       },
       "birth": "1992-01-01",
       "contract": "2020-06-30",
@@ -459,6 +474,9 @@
       "wage": 67000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 69,
@@ -488,6 +506,9 @@
       "wage": 66500
     },
     {
+      "alt": [
+        "RW"
+      ],
       "attrs": {
         "aer": 40,
         "com": 61,
@@ -597,16 +618,16 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 61,
+        "aer": 71,
+        "com": 67,
         "dri": 67,
         "ldr": 47,
         "pac": 73,
         "pas": 61,
-        "pos": 43,
-        "sho": 67,
+        "pos": 49,
+        "sho": 73,
         "sta": 71,
-        "str": 67,
+        "str": 73,
         "tac": 35,
         "vis": 59
       },

@@ -50,6 +50,11 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM",
+        "AM",
+        "ST"
+      ],
       "attrs": {
         "aer": 52,
         "com": 56,
@@ -79,18 +84,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
+        "aer": 45,
         "com": 62,
-        "dri": 53,
+        "dri": 57,
         "ldr": 50,
-        "pac": 57,
-        "pas": 53,
-        "pos": 37,
-        "sho": 60,
+        "pac": 55,
+        "pas": 63,
+        "pos": 42,
+        "sho": 57,
         "sta": 55,
-        "str": 61,
-        "tac": 26,
-        "vis": 50
+        "str": 51,
+        "tac": 34,
+        "vis": 61
       },
       "birth": "1980-11-01",
       "contract": null,
@@ -100,11 +105,16 @@
       "name": "Dino Toppmuller",
       "nation": "GER",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 3000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "LB"
+      ],
       "attrs": {
         "aer": 49,
         "com": 55,
@@ -158,19 +168,24 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
-        "com": 59,
+        "com": 69,
         "dri": 46,
         "ldr": 58,
         "pac": 52,
-        "pas": 48,
+        "pas": 58,
         "pos": 62,
         "sho": 34,
-        "sta": 57,
+        "sta": 67,
         "str": 61,
         "tac": 63,
-        "vis": 45
+        "vis": 55
       },
       "birth": "1978-11-01",
       "contract": null,
@@ -180,24 +195,24 @@
       "name": "Rudiger Rahm",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "verify": true,
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 45,
+        "aer": 51,
         "com": 57,
-        "dri": 55,
-        "ldr": 53,
-        "pac": 49,
-        "pas": 58,
-        "pos": 58,
-        "sho": 49,
+        "dri": 51,
+        "ldr": 55,
+        "pac": 46,
+        "pas": 57,
+        "pos": 62,
+        "sho": 43,
         "sta": 60,
-        "str": 52,
-        "tac": 55,
-        "vis": 60
+        "str": 57,
+        "tac": 61,
+        "vis": 57
       },
       "birth": "1977-12-01",
       "contract": null,
@@ -207,23 +222,23 @@
       "name": "Matthias Heidrych",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 47,
+        "aer": 53,
         "com": 55,
-        "dri": 56,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 59,
-        "pos": 53,
-        "sho": 48,
+        "dri": 52,
+        "ldr": 57,
+        "pac": 50,
+        "pas": 58,
+        "pos": 57,
+        "sho": 42,
         "sta": 56,
-        "str": 51,
-        "tac": 49,
-        "vis": 56
+        "str": 56,
+        "tac": 55,
+        "vis": 53
       },
       "birth": "1978-08-01",
       "contract": null,
@@ -233,10 +248,13 @@
       "name": "Marco Korth",
       "nation": "GER",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 55,
@@ -265,18 +283,18 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 51,
-        "dri": 41,
+        "aer": 51,
+        "com": 53,
+        "dri": 49,
         "ldr": 51,
-        "pac": 46,
-        "pas": 47,
-        "pos": 54,
-        "sho": 30,
-        "sta": 47,
-        "str": 55,
-        "tac": 57,
-        "vis": 42
+        "pac": 44,
+        "pas": 56,
+        "pos": 53,
+        "sho": 45,
+        "sta": 53,
+        "str": 53,
+        "tac": 56,
+        "vis": 54
       },
       "birth": "1976-09-01",
       "contract": null,
@@ -286,7 +304,7 @@
       "name": "Thorsten Gorka",
       "nation": "GER",
       "number": null,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 2000
     },
     {
@@ -405,7 +423,7 @@
         "ldr": 44,
         "pac": 49,
         "pas": 45,
-        "pos": 28,
+        "pos": 48,
         "sho": 54,
         "sta": 45,
         "str": 52,

@@ -78,17 +78,17 @@
     },
     {
       "attrs": {
-        "aer": 65,
-        "com": 70,
-        "dri": 63,
+        "aer": 57,
+        "com": 65,
+        "dri": 61,
         "ldr": 62,
-        "pac": 66,
-        "pas": 59,
-        "pos": 44,
-        "sho": 73,
-        "sta": 64,
-        "str": 64,
-        "tac": 40,
+        "pac": 68,
+        "pas": 63,
+        "pos": 64,
+        "sho": 50,
+        "sta": 70,
+        "str": 58,
+        "tac": 70,
         "vis": 57
       },
       "birth": "1976-07-01",
@@ -99,7 +99,7 @@
       "name": "Peter Van der Heiden",
       "nation": "BEL",
       "number": 3,
-      "pos": "ST",
+      "pos": "LB",
       "wage": 7500
     },
     {
@@ -130,18 +130,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 52,
-        "dri": 41,
-        "ldr": 55,
-        "pac": 51,
-        "pas": 48,
-        "pos": 62,
-        "sho": 32,
-        "sta": 55,
-        "str": 59,
-        "tac": 62,
-        "vis": 39
+        "aer": 49,
+        "com": 50,
+        "dri": 51,
+        "ldr": 51,
+        "pac": 59,
+        "pas": 52,
+        "pos": 57,
+        "sho": 39,
+        "sta": 61,
+        "str": 51,
+        "tac": 59,
+        "vis": 45
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -151,10 +151,14 @@
       "name": "Christian Demirtes",
       "nation": "GER",
       "number": 5,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 2500
     },
     {
+      "alt": [
+        "DM",
+        "RB"
+      ],
       "attrs": {
         "aer": 64,
         "com": 62,
@@ -181,6 +185,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -214,7 +221,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 57,
-        "pos": 40,
+        "pos": 60,
         "sho": 71,
         "sta": 64,
         "str": 66,
@@ -240,7 +247,7 @@
         "ldr": 61,
         "pac": 67,
         "pas": 57,
-        "pos": 43,
+        "pos": 63,
         "sho": 68,
         "sta": 61,
         "str": 71,
@@ -266,7 +273,7 @@
         "ldr": 58,
         "pac": 65,
         "pas": 56,
-        "pos": 39,
+        "pos": 59,
         "sho": 66,
         "sta": 57,
         "str": 64,
@@ -293,7 +300,7 @@
         "ldr": 54,
         "pac": 61,
         "pas": 54,
-        "pos": 38,
+        "pos": 58,
         "sho": 65,
         "sta": 58,
         "str": 58,
@@ -312,6 +319,9 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -338,19 +348,23 @@
       "wage": 10000
     },
     {
+      "alt": [
+        "LB",
+        "DM"
+      ],
       "attrs": {
-        "aer": 59,
-        "com": 57,
-        "dri": 45,
-        "ldr": 56,
-        "pac": 50,
-        "pas": 52,
-        "pos": 64,
-        "sho": 30,
-        "sta": 55,
-        "str": 64,
-        "tac": 62,
-        "vis": 43
+        "aer": 46,
+        "com": 55,
+        "dri": 55,
+        "ldr": 52,
+        "pac": 58,
+        "pas": 56,
+        "pos": 59,
+        "sho": 37,
+        "sta": 61,
+        "str": 56,
+        "tac": 59,
+        "vis": 49
       },
       "birth": "1987-02-01",
       "contract": null,
@@ -360,24 +374,26 @@
       "name": "Robert Flassers",
       "nation": "GER",
       "number": 14,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 3000
     },
     {
-      "alt": [],
+      "alt": [
+        "CB"
+      ],
       "attrs": {
-        "aer": 53,
+        "aer": 59,
         "com": 62,
-        "dri": 59,
-        "ldr": 56,
-        "pac": 57,
-        "pas": 66,
-        "pos": 57,
-        "sho": 58,
+        "dri": 55,
+        "ldr": 58,
+        "pac": 54,
+        "pas": 65,
+        "pos": 61,
+        "sho": 52,
         "sta": 66,
-        "str": 53,
-        "tac": 58,
-        "vis": 63
+        "str": 58,
+        "tac": 64,
+        "vis": 60
       },
       "birth": "1988-02-01",
       "contract": null,
@@ -388,23 +404,28 @@
       "nation": "GER",
       "nation2": "RUS",
       "number": 15,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 6000
     },
     {
+      "alt": [
+        "CB",
+        "CM",
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
-        "com": 57,
+        "com": 66,
         "dri": 46,
         "ldr": 54,
         "pac": 53,
-        "pas": 50,
+        "pas": 59,
         "pos": 59,
         "sho": 31,
-        "sta": 52,
+        "sta": 61,
         "str": 60,
         "tac": 61,
-        "vis": 46
+        "vis": 55
       },
       "birth": "1982-03-01",
       "contract": null,
@@ -414,7 +435,7 @@
       "name": "Florian Haller",
       "nation": "GER",
       "number": 16,
-      "pos": "CB",
+      "pos": "DM",
       "wage": 3000
     },
     {
@@ -445,18 +466,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
-        "com": 59,
-        "dri": 59,
-        "ldr": 61,
-        "pac": 58,
-        "pas": 66,
-        "pos": 60,
-        "sho": 59,
-        "sta": 64,
-        "str": 55,
-        "tac": 60,
-        "vis": 65
+        "aer": 46,
+        "com": 57,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 66,
+        "pas": 65,
+        "pos": 52,
+        "sho": 57,
+        "sta": 66,
+        "str": 52,
+        "tac": 53,
+        "vis": 63
       },
       "birth": "1988-03-01",
       "contract": null,
@@ -466,10 +487,13 @@
       "name": "Jahmir Hika",
       "nation": "ALB",
       "number": 18,
-      "pos": "CM",
+      "pos": "LM",
       "wage": 6500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 71,
@@ -503,7 +527,7 @@
         "ldr": 51,
         "pac": 60,
         "pas": 47,
-        "pos": 32,
+        "pos": 52,
         "sho": 57,
         "sta": 50,
         "str": 58,
@@ -523,6 +547,9 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 69,
@@ -556,7 +583,7 @@
         "ldr": 56,
         "pac": 63,
         "pas": 55,
-        "pos": 41,
+        "pos": 61,
         "sho": 69,
         "sta": 56,
         "str": 61,
@@ -576,6 +603,9 @@
       "wage": 5000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 52,
         "com": 60,
@@ -603,6 +633,9 @@
       "wage": 5500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 58,

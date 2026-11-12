@@ -31,7 +31,7 @@
         "ldr": 66,
         "pac": 72,
         "pas": 68,
-        "pos": 55,
+        "pos": 75,
         "sho": 79,
         "sta": 73,
         "str": 74,
@@ -50,9 +50,6 @@
       "wage": 19500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
         "com": 80,
@@ -79,6 +76,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 72,
@@ -102,10 +102,13 @@
       "nation": "BRA",
       "nation2": "ESP",
       "number": null,
-      "pos": "RW",
+      "pos": "LW",
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 64,
         "com": 76,
@@ -187,6 +190,10 @@
       "wage": 13500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 63,
         "com": 71,
@@ -213,19 +220,22 @@
       "wage": 18500
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 58,
-        "com": 70,
-        "dri": 70,
-        "ldr": 66,
-        "pac": 61,
-        "pas": 73,
-        "pos": 67,
-        "sho": 62,
-        "sta": 72,
-        "str": 63,
-        "tac": 65,
-        "vis": 71
+        "aer": 52,
+        "com": 68,
+        "dri": 75,
+        "ldr": 62,
+        "pac": 70,
+        "pas": 69,
+        "pos": 49,
+        "sho": 66,
+        "sta": 68,
+        "str": 58,
+        "tac": 45,
+        "vis": 68
       },
       "birth": "1975-09-01",
       "contract": null,
@@ -235,7 +245,7 @@
       "name": "Agustinho",
       "nation": "POR",
       "number": null,
-      "pos": "CM",
+      "pos": "RW",
       "verify": true,
       "wage": 16500
     },
@@ -292,6 +302,10 @@
       "wage": 11500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 59,
         "com": 68,
@@ -320,6 +334,9 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 70,
@@ -347,18 +364,18 @@
     },
     {
       "attrs": {
-        "aer": 72,
-        "com": 61,
-        "dri": 52,
-        "ldr": 63,
-        "pac": 60,
-        "pas": 55,
-        "pos": 69,
-        "sho": 36,
-        "sta": 62,
-        "str": 69,
-        "tac": 71,
-        "vis": 53
+        "aer": 59,
+        "com": 59,
+        "dri": 62,
+        "ldr": 59,
+        "pac": 68,
+        "pas": 59,
+        "pos": 64,
+        "sho": 43,
+        "sta": 68,
+        "str": 61,
+        "tac": 68,
+        "vis": 59
       },
       "birth": "1967-08-01",
       "contract": null,
@@ -368,11 +385,14 @@
       "name": "Cristobal Perralo",
       "nation": "ESP",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 8000
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 66,
         "com": 67,
@@ -408,7 +428,7 @@
         "ldr": 57,
         "pac": 66,
         "pas": 61,
-        "pos": 47,
+        "pos": 67,
         "sho": 67,
         "sta": 62,
         "str": 64,
@@ -428,6 +448,10 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "RM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 66,
@@ -462,7 +486,7 @@
         "ldr": 60,
         "pac": 63,
         "pas": 59,
-        "pos": 41,
+        "pos": 61,
         "sho": 70,
         "sta": 59,
         "str": 65,
@@ -536,6 +560,10 @@
       "wage": 8000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 65,
@@ -597,7 +625,7 @@
         "ldr": 54,
         "pac": 65,
         "pas": 52,
-        "pos": 41,
+        "pos": 61,
         "sho": 67,
         "sta": 60,
         "str": 66,
@@ -645,18 +673,18 @@
     },
     {
       "attrs": {
-        "aer": 50,
+        "aer": 56,
         "com": 62,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 55,
-        "pas": 62,
-        "pos": 58,
-        "sho": 57,
+        "dri": 54,
+        "ldr": 58,
+        "pac": 52,
+        "pas": 61,
+        "pos": 62,
+        "sho": 51,
         "sta": 64,
-        "str": 58,
-        "tac": 61,
-        "vis": 60
+        "str": 63,
+        "tac": 67,
+        "vis": 57
       },
       "birth": "1972-09-01",
       "contract": null,
@@ -667,24 +695,24 @@
       "nation": "MAD",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "verify": true,
       "wage": 6500
     },
     {
       "attrs": {
-        "aer": 68,
-        "com": 62,
-        "dri": 51,
-        "ldr": 61,
-        "pac": 59,
-        "pas": 52,
-        "pos": 65,
-        "sho": 35,
-        "sta": 55,
-        "str": 65,
-        "tac": 66,
-        "vis": 50
+        "aer": 55,
+        "com": 60,
+        "dri": 61,
+        "ldr": 57,
+        "pac": 67,
+        "pas": 56,
+        "pos": 60,
+        "sho": 42,
+        "sta": 61,
+        "str": 57,
+        "tac": 63,
+        "vis": 56
       },
       "birth": "1974-02-01",
       "contract": null,
@@ -694,7 +722,7 @@
       "name": "Lionel Potillun",
       "nation": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 6000
     },
@@ -706,7 +734,7 @@
         "ldr": 57,
         "pac": 62,
         "pas": 51,
-        "pos": 39,
+        "pos": 59,
         "sho": 62,
         "sta": 58,
         "str": 64,
@@ -733,7 +761,7 @@
         "ldr": 55,
         "pac": 59,
         "pas": 53,
-        "pos": 41,
+        "pos": 61,
         "sho": 66,
         "sta": 59,
         "str": 62,
@@ -775,7 +803,7 @@
       "name": "Didier Domy",
       "nation": "FRA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "verify": true,
       "wage": 5000
     },
@@ -834,6 +862,9 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 58,
@@ -861,6 +892,9 @@
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,
@@ -915,18 +949,18 @@
     },
     {
       "attrs": {
-        "aer": 47,
-        "com": 60,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 51,
+        "aer": 41,
+        "com": 61,
+        "dri": 62,
+        "ldr": 54,
+        "pac": 54,
         "pas": 56,
-        "pos": 54,
-        "sho": 52,
-        "sta": 62,
-        "str": 50,
-        "tac": 56,
-        "vis": 57
+        "pos": 39,
+        "sho": 58,
+        "sta": 56,
+        "str": 45,
+        "tac": 38,
+        "vis": 59
       },
       "birth": "1981-09-01",
       "contract": null,
@@ -937,7 +971,7 @@
       "nation": "TUN",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 4500
     },
     {
@@ -969,18 +1003,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 52,
-        "dri": 55,
-        "ldr": 54,
-        "pac": 52,
+        "aer": 38,
+        "com": 53,
+        "dri": 59,
+        "ldr": 52,
+        "pac": 55,
         "pas": 59,
-        "pos": 52,
-        "sho": 52,
-        "sta": 56,
-        "str": 53,
-        "tac": 52,
-        "vis": 54
+        "pos": 37,
+        "sho": 58,
+        "sta": 50,
+        "str": 48,
+        "tac": 34,
+        "vis": 56
       },
       "birth": "1983-04-01",
       "contract": null,
@@ -991,7 +1025,7 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CM",
+      "pos": "AM",
       "verify": true,
       "wage": 3500
     },
@@ -1003,7 +1037,7 @@
         "ldr": 46,
         "pac": 55,
         "pas": 47,
-        "pos": 32,
+        "pos": 52,
         "sho": 54,
         "sta": 53,
         "str": 57,
@@ -1031,7 +1065,7 @@
         "ldr": 49,
         "pac": 53,
         "pas": 46,
-        "pos": 31,
+        "pos": 51,
         "sho": 58,
         "sta": 50,
         "str": 52,
@@ -1114,7 +1148,7 @@
         "ldr": 43,
         "pac": 53,
         "pas": 44,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 47,
         "str": 48,
@@ -1166,7 +1200,7 @@
         "ldr": 45,
         "pac": 48,
         "pas": 39,
-        "pos": 25,
+        "pos": 45,
         "sho": 49,
         "sta": 46,
         "str": 52,

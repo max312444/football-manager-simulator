@@ -51,9 +51,6 @@
       "wage": 84000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 74,
         "com": 74,
@@ -107,19 +104,23 @@
       "wage": 85000
     },
     {
+      "alt": [
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 79,
-        "dri": 76,
-        "ldr": 76,
-        "pac": 71,
+        "aer": 64,
+        "com": 80,
+        "dri": 80,
+        "ldr": 74,
+        "pac": 74,
         "pas": 76,
-        "pos": 73,
-        "sho": 70,
-        "sta": 79,
-        "str": 75,
-        "tac": 73,
-        "vis": 76
+        "pos": 58,
+        "sho": 76,
+        "sta": 73,
+        "str": 70,
+        "tac": 55,
+        "vis": 78
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -129,7 +130,7 @@
       "name": "Nicolae Stancyu",
       "nation": "ROU",
       "number": 8,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 85000
     },
     {
@@ -140,7 +141,7 @@
         "ldr": 57,
         "pac": 66,
         "pas": 59,
-        "pos": 40,
+        "pos": 60,
         "sho": 66,
         "sta": 61,
         "str": 65,
@@ -159,19 +160,22 @@
       "wage": 25000
     },
     {
+      "alt": [
+        "AM"
+      ],
       "attrs": {
         "aer": 60,
         "com": 67,
-        "dri": 61,
+        "dri": 67,
         "ldr": 61,
-        "pac": 64,
-        "pas": 57,
-        "pos": 42,
+        "pac": 70,
+        "pas": 63,
+        "pos": 62,
         "sho": 68,
         "sta": 60,
         "str": 67,
         "tac": 31,
-        "vis": 57
+        "vis": 63
       },
       "birth": "1991-05-01",
       "contract": null,
@@ -181,10 +185,13 @@
       "name": "Junior Massias",
       "nation": "BRA",
       "number": 10,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 25500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 61,
@@ -238,6 +245,10 @@
       "wage": 13000
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 68,
@@ -264,19 +275,23 @@
       "wage": 41000
     },
     {
+      "alt": [
+        "RW",
+        "ST"
+      ],
       "attrs": {
-        "aer": 65,
-        "com": 77,
-        "dri": 76,
-        "ldr": 75,
-        "pac": 71,
+        "aer": 59,
+        "com": 78,
+        "dri": 80,
+        "ldr": 73,
+        "pac": 74,
         "pas": 76,
-        "pos": 75,
-        "sho": 67,
-        "sta": 81,
-        "str": 71,
-        "tac": 72,
-        "vis": 74
+        "pos": 60,
+        "sho": 73,
+        "sta": 75,
+        "str": 66,
+        "tac": 54,
+        "vis": 76
       },
       "birth": "1993-05-01",
       "contract": null,
@@ -286,7 +301,7 @@
       "name": "Ruslan Melinovskyi",
       "nation": "UKR",
       "number": 17,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 85000
     },
     {
@@ -297,7 +312,7 @@
         "ldr": 61,
         "pac": 71,
         "pas": 64,
-        "pos": 49,
+        "pos": 69,
         "sho": 76,
         "sta": 69,
         "str": 69,
@@ -316,19 +331,24 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "LB",
+        "CM",
+        "DM"
+      ],
       "attrs": {
-        "aer": 70,
-        "com": 70,
-        "dri": 59,
-        "ldr": 67,
-        "pac": 65,
-        "pas": 60,
-        "pos": 74,
-        "sho": 44,
-        "sta": 64,
-        "str": 71,
-        "tac": 72,
-        "vis": 58
+        "aer": 57,
+        "com": 68,
+        "dri": 69,
+        "ldr": 63,
+        "pac": 73,
+        "pas": 64,
+        "pos": 69,
+        "sho": 51,
+        "sta": 70,
+        "str": 63,
+        "tac": 69,
+        "vis": 64
       },
       "birth": "1993-01-01",
       "contract": null,
@@ -338,7 +358,7 @@
       "name": "Stefano Sebelli",
       "nation": "ITA",
       "number": 20,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 53500
     },
     {
@@ -349,7 +369,7 @@
         "ldr": 49,
         "pac": 61,
         "pas": 53,
-        "pos": 36,
+        "pos": 56,
         "sho": 63,
         "sta": 54,
         "str": 57,
@@ -396,18 +416,18 @@
     },
     {
       "attrs": {
-        "aer": 54,
-        "com": 67,
-        "dri": 61,
-        "ldr": 63,
-        "pac": 61,
+        "aer": 48,
+        "com": 68,
+        "dri": 65,
+        "ldr": 61,
+        "pac": 64,
         "pas": 68,
-        "pos": 64,
-        "sho": 61,
-        "sta": 69,
-        "str": 59,
-        "tac": 59,
-        "vis": 69
+        "pos": 49,
+        "sho": 67,
+        "sta": 63,
+        "str": 54,
+        "tac": 41,
+        "vis": 71
       },
       "birth": "2005-03-01",
       "contract": null,
@@ -418,7 +438,7 @@
       "name": "Valentin Cerboni",
       "nation": "ARG",
       "number": 23,
-      "pos": "CM",
+      "pos": "AM",
       "wage": 44500
     },
     {
@@ -455,7 +475,7 @@
         "ldr": 60,
         "pac": 62,
         "pas": 52,
-        "pos": 38,
+        "pos": 58,
         "sho": 67,
         "sta": 57,
         "str": 61,
@@ -476,7 +496,8 @@
     },
     {
       "alt": [
-        "CM"
+        "RW",
+        "LW"
       ],
       "attrs": {
         "aer": 38,
@@ -531,19 +552,23 @@
       "wage": 59500
     },
     {
+      "alt": [
+        "RB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 49,
+        "aer": 55,
         "com": 63,
-        "dri": 61,
-        "ldr": 59,
-        "pac": 57,
-        "pas": 64,
-        "pos": 57,
-        "sho": 54,
+        "dri": 57,
+        "ldr": 61,
+        "pac": 54,
+        "pas": 63,
+        "pos": 61,
+        "sho": 48,
         "sta": 66,
-        "str": 57,
-        "tac": 60,
-        "vis": 66
+        "str": 62,
+        "tac": 66,
+        "vis": 63
       },
       "birth": "2001-04-01",
       "contract": null,
@@ -553,7 +578,7 @@
       "name": "Morten Frendrop",
       "nation": "DEN",
       "number": 32,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 30000
     },
     {
@@ -609,19 +634,22 @@
       "wage": 14000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
-        "aer": 47,
-        "com": 55,
-        "dri": 48,
-        "ldr": 44,
-        "pac": 50,
-        "pas": 44,
-        "pos": 31,
-        "sho": 57,
-        "sta": 47,
-        "str": 51,
-        "tac": 19,
-        "vis": 45
+        "aer": 33,
+        "com": 52,
+        "dri": 53,
+        "ldr": 42,
+        "pac": 54,
+        "pas": 50,
+        "pos": 33,
+        "sho": 52,
+        "sta": 49,
+        "str": 41,
+        "tac": 25,
+        "vis": 51
       },
       "birth": "2006-06-01",
       "contract": null,
@@ -632,10 +660,13 @@
       "nation": "ITA",
       "nation2": "CIV",
       "number": 40,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 47,
         "com": 55,
@@ -662,19 +693,23 @@
       "wage": 14500
     },
     {
+      "alt": [
+        "LW",
+        "AM"
+      ],
       "attrs": {
-        "aer": 52,
-        "com": 54,
-        "dri": 48,
-        "ldr": 45,
-        "pac": 52,
-        "pas": 46,
-        "pos": 28,
-        "sho": 56,
-        "sta": 49,
-        "str": 50,
-        "tac": 23,
-        "vis": 43
+        "aer": 38,
+        "com": 51,
+        "dri": 53,
+        "ldr": 43,
+        "pac": 56,
+        "pas": 52,
+        "pos": 30,
+        "sho": 51,
+        "sta": 51,
+        "str": 40,
+        "tac": 29,
+        "vis": 49
       },
       "birth": "2006-06-01",
       "contract": null,
@@ -684,10 +719,15 @@
       "name": "Lorenzo Venturyno",
       "nation": "ITA",
       "number": 76,
-      "pos": "ST",
+      "pos": "RW",
       "wage": 6000
     },
     {
+      "alt": [
+        "RB",
+        "LB",
+        "RWB"
+      ],
       "attrs": {
         "aer": 50,
         "com": 58,

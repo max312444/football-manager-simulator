@@ -74,13 +74,13 @@
       "attrs": {
         "aer": 67,
         "com": 62,
-        "dri": 60,
+        "dri": 61,
         "ldr": 59,
-        "pac": 67,
-        "pas": 63,
+        "pac": 68,
+        "pas": 64,
         "pos": 66,
         "sho": 48,
-        "sta": 72,
+        "sta": 73,
         "str": 71,
         "tac": 71,
         "vis": 54
@@ -97,16 +97,20 @@
       "wage": 48000
     },
     {
+      "alt": [
+        "CB",
+        "RB"
+      ],
       "attrs": {
         "aer": 59,
         "com": 64,
-        "dri": 56,
+        "dri": 58,
         "ldr": 64,
-        "pac": 62,
-        "pas": 59,
+        "pac": 64,
+        "pas": 61,
         "pos": 67,
         "sho": 41,
-        "sta": 69,
+        "sta": 71,
         "str": 66,
         "tac": 70,
         "vis": 50
@@ -152,19 +156,23 @@
       "wage": 65500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 57,
-        "com": 62,
-        "dri": 62,
+        "com": 72,
+        "dri": 72,
         "ldr": 57,
         "pac": 63,
-        "pas": 66,
+        "pas": 76,
         "pos": 67,
-        "sho": 51,
-        "sta": 77,
+        "sho": 61,
+        "sta": 86,
         "str": 69,
         "tac": 73,
-        "vis": 58
+        "vis": 68
       },
       "birth": "1988-04-01",
       "contract": "2015-06-30",
@@ -179,6 +187,9 @@
       "wage": 49000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 58,
         "com": 66,
@@ -208,16 +219,16 @@
     },
     {
       "attrs": {
-        "aer": 66,
-        "com": 76,
+        "aer": 67,
+        "com": 77,
         "dri": 68,
         "ldr": 65,
         "pac": 70,
         "pas": 61,
-        "pos": 39,
-        "sho": 76,
+        "pos": 40,
+        "sho": 77,
         "sta": 61,
-        "str": 65,
+        "str": 66,
         "tac": 31,
         "vis": 60
       },
@@ -261,7 +272,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -285,12 +296,14 @@
       "name": "Ricardo Gerdner",
       "nation": "JAM",
       "number": 11,
-      "pos": "LB",
+      "pos": "LWB",
       "verify": true,
       "wage": 43000
     },
     {
       "alt": [
+        "CB",
+        "RB",
         "LB"
       ],
       "attrs": {
@@ -298,14 +311,14 @@
         "com": 67,
         "dri": 70,
         "ldr": 56,
-        "pac": 69,
-        "pas": 69,
+        "pac": 71,
+        "pas": 75,
         "pos": 49,
         "sho": 64,
-        "sta": 68,
+        "sta": 76,
         "str": 58,
-        "tac": 44,
-        "vis": 65
+        "tac": 52,
+        "vis": 71
       },
       "birth": "1981-11-01",
       "contract": "2011-06-30",
@@ -378,19 +391,22 @@
       "wage": 34500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
-        "com": 63,
+        "com": 64,
         "dri": 71,
         "ldr": 47,
         "pac": 64,
-        "pas": 69,
+        "pas": 71,
         "pos": 53,
         "sho": 61,
-        "sta": 72,
+        "sta": 73,
         "str": 60,
-        "tac": 53,
-        "vis": 69
+        "tac": 55,
+        "vis": 70
       },
       "birth": "1988-02-01",
       "contract": "2014-06-30",
@@ -405,6 +421,7 @@
     },
     {
       "alt": [
+        "CB",
         "RB"
       ],
       "attrs": {
@@ -433,6 +450,11 @@
       "wage": 29000
     },
     {
+      "alt": [
+        "CB",
+        "RB",
+        "CM"
+      ],
       "attrs": {
         "aer": 57,
         "com": 68,
@@ -462,7 +484,7 @@
     },
     {
       "alt": [
-        "LM"
+        "RW"
       ],
       "attrs": {
         "aer": 42,
@@ -494,19 +516,20 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 51,
-        "com": 59,
+        "aer": 55,
+        "com": 63,
         "dri": 61,
         "ldr": 53,
         "pac": 73,
         "pas": 56,
-        "pos": 36,
-        "sho": 66,
+        "pos": 40,
+        "sho": 70,
         "sta": 72,
-        "str": 74,
+        "str": 78,
         "tac": 29,
         "vis": 51
       },
@@ -526,6 +549,9 @@
       "wage": 23000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 71,
@@ -556,6 +582,9 @@
       "wage": 35500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 43,
         "com": 70,
@@ -584,6 +613,7 @@
     },
     {
       "alt": [
+        "LB",
         "DM"
       ],
       "attrs": {
@@ -616,6 +646,9 @@
       "wage": 26000
     },
     {
+      "alt": [
+        "LW"
+      ],
       "attrs": {
         "aer": 38,
         "com": 66,
@@ -638,7 +671,7 @@
       "name": "Lee Chung-yung",
       "nation": "KOR",
       "number": 27,
-      "pos": "RM",
+      "pos": "RW",
       "traits": [
         "injury_prone"
       ],

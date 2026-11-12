@@ -45,8 +45,9 @@
     },
     {
       "alt": [
-        "RM",
-        "CB"
+        "CM",
+        "DM",
+        "AM"
       ],
       "attrs": {
         "aer": 63,
@@ -76,18 +77,18 @@
     },
     {
       "alt": [
-        "CB"
+        "RB"
       ],
       "attrs": {
         "aer": 64,
         "com": 66,
-        "dri": 60,
+        "dri": 61,
         "ldr": 55,
-        "pac": 68,
-        "pas": 63,
+        "pac": 69,
+        "pas": 64,
         "pos": 70,
         "sho": 42,
-        "sta": 71,
+        "sta": 72,
         "str": 70,
         "tac": 72,
         "vis": 53
@@ -198,7 +199,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 53,
@@ -285,19 +286,20 @@
     },
     {
       "alt": [
+        "RW",
         "LW"
       ],
       "attrs": {
-        "aer": 58,
-        "com": 65,
+        "aer": 67,
+        "com": 74,
         "dri": 74,
         "ldr": 49,
         "pac": 84,
         "pas": 64,
-        "pos": 51,
-        "sho": 72,
+        "pos": 60,
+        "sho": 81,
         "sta": 76,
-        "str": 66,
+        "str": 75,
         "tac": 40,
         "vis": 59
       },
@@ -343,7 +345,7 @@
     },
     {
       "alt": [
-        "LM"
+        "LW"
       ],
       "attrs": {
         "aer": 56,
@@ -377,17 +379,17 @@
       ],
       "attrs": {
         "aer": 60,
-        "com": 69,
-        "dri": 71,
+        "com": 70,
+        "dri": 72,
         "ldr": 65,
         "pac": 64,
-        "pas": 75,
+        "pas": 76,
         "pos": 68,
-        "sho": 69,
-        "sta": 81,
+        "sho": 70,
+        "sta": 82,
         "str": 77,
         "tac": 74,
-        "vis": 71
+        "vis": 72
       },
       "birth": "1976-03-01",
       "contract": "2005-06-30",
@@ -408,6 +410,9 @@
       "wage": 52000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 50,
         "com": 69,
@@ -436,19 +441,21 @@
     },
     {
       "alt": [
-        "AM"
+        "RW",
+        "LW",
+        "CM"
       ],
       "attrs": {
-        "aer": 64,
-        "com": 72,
+        "aer": 71,
+        "com": 79,
         "dri": 80,
         "ldr": 54,
         "pac": 78,
         "pas": 72,
-        "pos": 60,
-        "sho": 76,
+        "pos": 67,
+        "sho": 83,
         "sta": 78,
-        "str": 78,
+        "str": 85,
         "tac": 46,
         "vis": 76
       },
@@ -469,18 +476,15 @@
       "wage": 52000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 62,
-        "com": 69,
-        "dri": 68,
+        "com": 73,
+        "dri": 73,
         "ldr": 59,
-        "pac": 65,
+        "pac": 70,
         "pas": 70,
         "pos": 65,
-        "sho": 62,
+        "sho": 67,
         "sta": 75,
         "str": 67,
         "tac": 62,
@@ -494,7 +498,7 @@
       "name": "Niclas Alexendersson",
       "nation": "SWE",
       "number": 19,
-      "pos": "RM",
+      "pos": "RW",
       "verify": true,
       "wage": 35500
     },
@@ -528,17 +532,17 @@
     {
       "attrs": {
         "aer": 56,
-        "com": 60,
+        "com": 63,
         "dri": 58,
         "ldr": 50,
         "pac": 64,
-        "pas": 64,
-        "pos": 66,
+        "pas": 67,
+        "pos": 69,
         "sho": 48,
         "sta": 78,
-        "str": 64,
-        "tac": 68,
-        "vis": 56
+        "str": 67,
+        "tac": 71,
+        "vis": 59
       },
       "birth": "1977-09-01",
       "contract": "2003-06-30",
@@ -607,9 +611,6 @@
       "wage": 51000
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 61,
         "com": 68,
@@ -641,9 +642,6 @@
       "wage": 36500
     },
     {
-      "alt": [
-        "CM"
-      ],
       "attrs": {
         "aer": 50,
         "com": 64,

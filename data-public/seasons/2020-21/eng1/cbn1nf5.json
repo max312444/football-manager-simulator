@@ -128,13 +128,13 @@
       "attrs": {
         "aer": 62,
         "com": 72,
-        "dri": 70,
+        "dri": 71,
         "ldr": 68,
-        "pac": 71,
+        "pac": 72,
         "pas": 74,
         "pos": 74,
         "sho": 58,
-        "sta": 75,
+        "sta": 76,
         "str": 71,
         "tac": 76,
         "vis": 66
@@ -285,6 +285,10 @@
       "wage": 41500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 56,
         "com": 76,
@@ -342,7 +346,7 @@
     },
     {
       "alt": [
-        "LM"
+        "DM"
       ],
       "attrs": {
         "aer": 55,
@@ -377,11 +381,11 @@
         "ldr": 58,
         "pac": 59,
         "pas": 66,
-        "pos": 59,
+        "pos": 65,
         "sho": 63,
         "sta": 70,
-        "str": 58,
-        "tac": 59,
+        "str": 64,
+        "tac": 65,
         "vis": 64
       },
       "birth": "1999-03-01",
@@ -392,12 +396,12 @@
       "name": "Ibrahima Diello",
       "nation": "FRA",
       "number": 27,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 60000
     },
     {
       "alt": [
-        "RW"
+        "LW"
       ],
       "attrs": {
         "aer": 37,
@@ -421,13 +425,17 @@
       "name": "Nathan Radmond",
       "nation": "ENG",
       "number": 11,
-      "pos": "LM",
+      "pos": "RW",
       "traits": [
         "speedster"
       ],
       "wage": 59500
     },
     {
+      "alt": [
+        "RW",
+        "LB"
+      ],
       "attrs": {
         "aer": 42,
         "com": 63,
@@ -454,6 +462,10 @@
       "wage": 32500
     },
     {
+      "alt": [
+        "DM",
+        "AM"
+      ],
       "attrs": {
         "aer": 46,
         "com": 59,
@@ -480,6 +492,10 @@
       "wage": 27000
     },
     {
+      "alt": [
+        "LW",
+        "ST"
+      ],
       "attrs": {
         "aer": 46,
         "com": 68,
@@ -566,16 +582,16 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 73,
+        "aer": 65,
+        "com": 76,
         "dri": 72,
         "ldr": 66,
         "pac": 73,
         "pas": 64,
-        "pos": 49,
-        "sho": 74,
+        "pos": 52,
+        "sho": 77,
         "sta": 73,
-        "str": 72,
+        "str": 75,
         "tac": 43,
         "vis": 66
       },
@@ -592,16 +608,16 @@
     },
     {
       "attrs": {
-        "aer": 58,
-        "com": 62,
+        "aer": 60,
+        "com": 64,
         "dri": 61,
         "ldr": 54,
         "pac": 64,
         "pas": 60,
-        "pos": 45,
-        "sho": 66,
+        "pos": 47,
+        "sho": 68,
         "sta": 62,
-        "str": 66,
+        "str": 68,
         "tac": 41,
         "vis": 58
       },
@@ -619,7 +635,8 @@
     },
     {
       "alt": [
-        "ST"
+        "ST",
+        "LW"
       ],
       "attrs": {
         "aer": 35,

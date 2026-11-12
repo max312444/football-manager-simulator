@@ -46,7 +46,7 @@
       "name": "Fabio Grusso",
       "nation": "ITA",
       "number": null,
-      "pos": "RB",
+      "pos": "LB",
       "wage": 18500
     },
     {
@@ -83,7 +83,7 @@
         "ldr": 69,
         "pac": 78,
         "pas": 68,
-        "pos": 55,
+        "pos": 75,
         "sho": 82,
         "sta": 76,
         "str": 75,
@@ -104,19 +104,21 @@
     },
     {
       "alt": [
-        "ST"
+        "CM",
+        "RW",
+        "LW"
       ],
       "attrs": {
-        "aer": 66,
-        "com": 74,
-        "dri": 74,
+        "aer": 72,
+        "com": 80,
+        "dri": 78,
         "ldr": 69,
-        "pac": 69,
+        "pac": 75,
         "pas": 76,
-        "pos": 75,
-        "sho": 69,
+        "pos": 81,
+        "sho": 75,
         "sta": 77,
-        "str": 68,
+        "str": 74,
         "tac": 72,
         "vis": 74
       },
@@ -128,11 +130,14 @@
       "name": "Al-Saadi Gaddefi",
       "nation": "LBY",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 18500
     },
     {
+      "alt": [
+        "LB"
+      ],
       "attrs": {
         "aer": 68,
         "com": 68,
@@ -189,19 +194,22 @@
       "wage": 18000
     },
     {
+      "alt": [
+        "RM"
+      ],
       "attrs": {
-        "aer": 74,
-        "com": 69,
-        "dri": 58,
-        "ldr": 73,
-        "pac": 65,
-        "pas": 63,
-        "pos": 80,
-        "sho": 47,
-        "sta": 67,
-        "str": 79,
-        "tac": 79,
-        "vis": 58
+        "aer": 61,
+        "com": 67,
+        "dri": 68,
+        "ldr": 69,
+        "pac": 73,
+        "pas": 67,
+        "pos": 75,
+        "sho": 54,
+        "sta": 73,
+        "str": 71,
+        "tac": 76,
+        "vis": 64
       },
       "birth": "1973-07-01",
       "contract": null,
@@ -211,7 +219,7 @@
       "name": "Ze Marie",
       "nation": "BRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "wage": 15000
     },
     {
@@ -222,7 +230,7 @@
         "ldr": 66,
         "pac": 71,
         "pas": 58,
-        "pos": 44,
+        "pos": 64,
         "sho": 75,
         "sta": 63,
         "str": 66,
@@ -249,7 +257,7 @@
         "ldr": 61,
         "pac": 70,
         "pas": 60,
-        "pos": 50,
+        "pos": 70,
         "sho": 69,
         "sta": 65,
         "str": 70,
@@ -330,7 +338,7 @@
         "ldr": 56,
         "pac": 65,
         "pas": 58,
-        "pos": 45,
+        "pos": 65,
         "sho": 68,
         "sta": 62,
         "str": 64,
@@ -377,9 +385,6 @@
       "wage": 4500
     },
     {
-      "alt": [
-        "RB"
-      ],
       "attrs": {
         "aer": 63,
         "com": 63,
@@ -414,7 +419,7 @@
         "ldr": 55,
         "pac": 60,
         "pas": 53,
-        "pos": 37,
+        "pos": 57,
         "sho": 62,
         "sta": 56,
         "str": 62,
@@ -460,19 +465,23 @@
       "wage": 4000
     },
     {
+      "alt": [
+        "CB",
+        "LB"
+      ],
       "attrs": {
-        "aer": 67,
-        "com": 56,
-        "dri": 49,
-        "ldr": 58,
-        "pac": 58,
-        "pas": 51,
-        "pos": 66,
-        "sho": 35,
-        "sta": 56,
-        "str": 60,
-        "tac": 62,
-        "vis": 46
+        "aer": 54,
+        "com": 54,
+        "dri": 59,
+        "ldr": 54,
+        "pac": 66,
+        "pas": 55,
+        "pos": 61,
+        "sho": 42,
+        "sta": 62,
+        "str": 52,
+        "tac": 59,
+        "vis": 52
       },
       "birth": "1980-09-01",
       "contract": null,
@@ -482,7 +491,7 @@
       "name": "Vangelis Nestos",
       "nation": "GRE",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 3500
     },
@@ -514,19 +523,22 @@
       "wage": 3500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 53,
-        "com": 59,
+        "com": 60,
         "dri": 60,
         "ldr": 53,
         "pac": 58,
-        "pas": 64,
+        "pas": 65,
         "pos": 56,
         "sho": 55,
         "sta": 65,
         "str": 53,
-        "tac": 54,
-        "vis": 58
+        "tac": 55,
+        "vis": 59
       },
       "birth": "1982-01-01",
       "contract": null,
@@ -541,18 +553,18 @@
     },
     {
       "attrs": {
-        "aer": 59,
-        "com": 56,
-        "dri": 43,
-        "ldr": 55,
-        "pac": 53,
-        "pas": 48,
-        "pos": 60,
-        "sho": 34,
-        "sta": 53,
-        "str": 61,
-        "tac": 62,
-        "vis": 45
+        "aer": 46,
+        "com": 54,
+        "dri": 53,
+        "ldr": 51,
+        "pac": 61,
+        "pas": 52,
+        "pos": 55,
+        "sho": 41,
+        "sta": 59,
+        "str": 53,
+        "tac": 59,
+        "vis": 51
       },
       "birth": "1982-06-01",
       "contract": null,
@@ -563,7 +575,7 @@
       "nation": "MAR",
       "nation2": "FRA",
       "number": null,
-      "pos": "CB",
+      "pos": "RB",
       "verify": true,
       "wage": 2500
     },
@@ -595,17 +607,22 @@
       "wage": 2500
     },
     {
+      "alt": [
+        "CM",
+        "RW",
+        "LW"
+      ],
       "attrs": {
-        "aer": 50,
-        "com": 55,
-        "dri": 58,
+        "aer": 58,
+        "com": 63,
+        "dri": 60,
         "ldr": 56,
-        "pac": 55,
+        "pac": 61,
         "pas": 58,
-        "pos": 54,
-        "sho": 51,
+        "pos": 62,
+        "sho": 59,
         "sta": 60,
-        "str": 53,
+        "str": 61,
         "tac": 51,
         "vis": 61
       },
@@ -617,24 +634,24 @@
       "name": "Alessandro Iannozzi",
       "nation": "ITA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 3500
     },
     {
       "attrs": {
-        "aer": 44,
+        "aer": 50,
         "com": 57,
-        "dri": 58,
-        "ldr": 56,
-        "pac": 54,
-        "pas": 62,
-        "pos": 58,
-        "sho": 52,
+        "dri": 54,
+        "ldr": 58,
+        "pac": 51,
+        "pas": 61,
+        "pos": 62,
+        "sho": 46,
         "sta": 56,
-        "str": 52,
-        "tac": 54,
-        "vis": 56
+        "str": 57,
+        "tac": 60,
+        "vis": 53
       },
       "birth": "1984-05-01",
       "contract": null,
@@ -644,7 +661,7 @@
       "name": "Christian Obudo",
       "nation": "NGA",
       "number": null,
-      "pos": "CM",
+      "pos": "DM",
       "wage": 3500
     },
     {
@@ -655,7 +672,7 @@
         "ldr": 49,
         "pac": 59,
         "pas": 51,
-        "pos": 37,
+        "pos": 57,
         "sho": 63,
         "sta": 50,
         "str": 56,
@@ -676,18 +693,18 @@
     },
     {
       "attrs": {
-        "aer": 44,
-        "com": 57,
+        "aer": 52,
+        "com": 58,
         "dri": 53,
-        "ldr": 52,
-        "pac": 53,
-        "pas": 57,
+        "ldr": 50,
+        "pac": 58,
+        "pas": 47,
         "pos": 54,
-        "sho": 52,
-        "sta": 61,
-        "str": 50,
-        "tac": 54,
-        "vis": 60
+        "sho": 61,
+        "sta": 55,
+        "str": 55,
+        "tac": 28,
+        "vis": 51
       },
       "birth": "1981-12-01",
       "contract": null,
@@ -697,7 +714,7 @@
       "name": "Guly do Pradu",
       "nation": "BRA",
       "number": null,
-      "pos": "CM",
+      "pos": "ST",
       "verify": true,
       "wage": 3000
     },
@@ -785,18 +802,18 @@
     },
     {
       "attrs": {
-        "aer": 62,
-        "com": 53,
-        "dri": 43,
-        "ldr": 56,
-        "pac": 51,
-        "pas": 46,
-        "pos": 60,
-        "sho": 31,
-        "sta": 53,
-        "str": 59,
-        "tac": 56,
-        "vis": 40
+        "aer": 49,
+        "com": 51,
+        "dri": 53,
+        "ldr": 52,
+        "pac": 59,
+        "pas": 50,
+        "pos": 55,
+        "sho": 38,
+        "sta": 59,
+        "str": 51,
+        "tac": 53,
+        "vis": 46
       },
       "birth": "1980-08-01",
       "contract": null,
@@ -806,11 +823,14 @@
       "name": "Andrea Giellombardo",
       "nation": "ITA",
       "number": null,
-      "pos": "CB",
+      "pos": "LB",
       "verify": true,
       "wage": 2000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 49,
         "com": 59,
@@ -837,6 +857,9 @@
       "wage": 3000
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 44,
         "com": 55,
@@ -889,19 +912,24 @@
       "wage": 2000
     },
     {
+      "alt": [
+        "ST",
+        "CM",
+        "DM"
+      ],
       "attrs": {
         "aer": 51,
         "com": 54,
-        "dri": 51,
+        "dri": 59,
         "ldr": 51,
         "pac": 52,
-        "pas": 45,
-        "pos": 31,
+        "pas": 53,
+        "pos": 51,
         "sho": 58,
         "sta": 49,
         "str": 55,
         "tac": 28,
-        "vis": 46
+        "vis": 54
       },
       "birth": "1970-10-01",
       "contract": null,
@@ -911,7 +939,7 @@
       "name": "Antonio Cryniti",
       "nation": "ITA",
       "number": null,
-      "pos": "ST",
+      "pos": "AM",
       "verify": true,
       "wage": 1500
     },
@@ -923,7 +951,7 @@
         "ldr": 50,
         "pac": 57,
         "pas": 46,
-        "pos": 30,
+        "pos": 50,
         "sho": 56,
         "sta": 48,
         "str": 55,
@@ -943,6 +971,9 @@
       "wage": 1500
     },
     {
+      "alt": [
+        "DM"
+      ],
       "attrs": {
         "aer": 40,
         "com": 55,
@@ -977,7 +1008,7 @@
         "ldr": 47,
         "pac": 51,
         "pas": 45,
-        "pos": 29,
+        "pos": 49,
         "sho": 58,
         "sta": 52,
         "str": 50,
