@@ -1,12 +1,17 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 아래 CHANGELOG 맨 위에 한 줄 요약을 넣고, README 개발 현황에도 적는다
 //  첫 화면은 새 버전을 처음 본 뒤 24시간 동안 '업데이트 소식'을 보여 준다 (UpdateNotes.tsx)
-export const GAME_VERSION = '0.10';
+export const GAME_VERSION = '0.11';
 
 export interface ChangeEntry { version: string; date: string; items: string[] }
 
 /** 업데이트 내역 (새 것이 위). 플레이어가 읽는 글이므로 쉬운 말로 */
 export const CHANGELOG: ChangeEntry[] = [
+  { version: '0.11', date: '2026-11-12', items: [
+    '임대 개편: 완전 영입 옵션에 영입 후 주급까지 미리 정합니다',
+    '의무 이적: 시즌이 끝나면 정해 둔 이적료 · 주급으로 자동 이적 (옵션보다 싸게, 시장 가치의 75%부터)',
+    '임대 보낼 때도 완전 영입 옵션 · 의무 이적을 걸 수 있습니다 (감당할 수 있는 구단만 후보로)',
+  ] },
   { version: '0.10', date: '2026-11-12', items: [
     '계약 조항 바이아웃: 이 금액 이상을 내면 원래 구단은 거절할 수 없습니다 (스페인 리그는 모든 선수에게 있음)',
     '영입 협상 창에서 바이아웃을 바로 지불할 수 있습니다',

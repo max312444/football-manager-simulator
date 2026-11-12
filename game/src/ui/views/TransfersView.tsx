@@ -269,7 +269,7 @@ function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk
   // 임대 관련: 빌려 온 선수 · 보낸 선수 · 다른 구단의 임대 중 선수
   const loanInfo = l ? (
     <div className="mb-3 rounded-lg bg-sky/10 px-3 py-2 text-[12px] text-sky">
-      임대 중 · 원소속 {clubKo(l.from)} → {clubKo(p.clubId ?? '')} · {l.until.slice(0, 7).replace('-', '.')}까지 · 주급 {Math.round(l.share * 100)}% 부담{l.buy ? ` · 완전 영입 옵션 ${money(l.buy)}` : ''}
+      임대 중 · 원소속 {clubKo(l.from)} → {clubKo(p.clubId ?? '')} · {l.until.slice(0, 7).replace('-', '.')}까지 · 주급 {Math.round(l.share * 100)}% 부담{l.buy ? ` · ${l.must ? '시즌 끝 의무 이적' : '완전 영입 옵션'} ${money(l.buy)} (영입 후 주급 ${money(l.buyWage ?? p.wage)})` : ''}
     </div>
   ) : null;
   if (l && p.clubId === w.userClubId) {
@@ -277,7 +277,7 @@ function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk
       <div>
         {loanInfo}
         <div className="flex gap-2">
-          {l.buy && <button onClick={() => setLoanMsg(loanBuy(p.id).msg)} className="h-10 flex-1 rounded-lg bg-neon text-[13px] font-semibold text-ink-950">완전 영입 옵션 행사 {money(l.buy)}</button>}
+          {l.buy && <button onClick={() => setLoanMsg(loanBuy(p.id).msg)} className="h-10 flex-1 rounded-lg bg-neon text-[13px] font-semibold text-ink-950">{l.must ? '지금 바로 이적' : '완전 영입 옵션 행사'} {money(l.buy)}</button>}
           <button onClick={onRelease} className="h-10 rounded-lg px-4 text-[13px] text-mid ring-1 ring-line hover:text-hi">원소속으로 돌려보내기</button>
         </div>
         {loanMsg && <div className="mt-2 text-[12px] text-mid">{loanMsg}</div>}

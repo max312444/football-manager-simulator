@@ -455,6 +455,9 @@ export const useGame = create<GameStore>((set, get) => {
       if (!pw.ok) return { ok: false, msg: pw.reason };
       if (terms.fee > w.clubs[w.userClubId].finance.transferBudget) return { ok: false, msg: '이적 예산이 모자랍니다 (임대료)' };
       if (Math.round(p.wage * terms.share) > wageRoom(w, w.userClubId)) return { ok: false, msg: '주급 여유가 모자랍니다' };
+      // 이적 조건의 영입 후 주급: 선수가 원하는 주급의 90% 이상이어야
+      const want = wageDemand(w, p);
+      if (terms.buy && (terms.buyWage ?? p.wage) < want * 0.9) return { ok: false, msg: `선수: 영입 후 주급으로 ${Math.round(want / 1000)}K 유로 정도를 원합니다` };
       if (terms.fee) w.clubs[w.userClubId].finance.transferBudget -= terms.fee;
       w.inbox.push(loanMove(w, p, w.userClubId, terms));
       autosave(w); bump();

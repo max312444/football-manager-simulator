@@ -77,8 +77,8 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       return { tag: '감독', tone: 'text-mid', title: `${clubKo(e.club)} 감독 ${e.when === 'season' ? '경질' : '교체'}`, body: e.when === 'season' ? '성적 부진으로 경질 · 새 감독 부임 (전술 성향이 바뀝니다)' : '시즌을 마치고 새 감독 선임 (전술 성향이 바뀝니다)' };
     case 'loan': {
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
-      if (e.kind === 'start') return { tag: '임대', tone: 'text-sky', title: `${name} 임대 · ${clubKo(e.from)} → ${clubKo(e.to)}`, body: `이번 시즌 끝까지 · 주급 ${Math.round((e.share ?? 1) * 100)}% 부담${e.fee ? ` · 임대료 ${money(e.fee)}` : ''}` };
-      if (e.kind === 'bought') return { tag: '이적', tone: 'text-neon', title: `${name} 완전 영입 · ${clubKo(e.from)} → ${clubKo(e.to)}`, body: `완전 영입 옵션 ${money(e.fee ?? 0)}` };
+      if (e.kind === 'start') return { tag: '임대', tone: 'text-sky', title: `${name} 임대 · ${clubKo(e.from)} → ${clubKo(e.to)}`, body: `이번 시즌 끝까지 · 주급 ${Math.round((e.share ?? 1) * 100)}% 부담${e.fee ? ` · 임대료 ${money(e.fee)}` : ''}${e.buy ? ` · ${e.must ? '시즌 끝 의무 이적' : '완전 영입 옵션'} ${money(e.buy)}` : ''}` };
+      if (e.kind === 'bought') return { tag: '이적', tone: 'text-neon', title: `${name} 완전 영입 · ${clubKo(e.from)} → ${clubKo(e.to)}`, body: `${e.must ? '의무 이적' : '완전 영입 옵션'} ${money(e.fee ?? 0)}` };
       return { tag: '임대', tone: 'text-mid', title: `${name} 임대 종료 · ${clubKo(e.to)} 복귀` };
     }
     case 'scandal': {

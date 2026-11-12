@@ -3,9 +3,9 @@ import { describe, expect, it } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
 import { createWorld, type SeasonInput } from './world';
-import { aiLoanDay, endLoans, evaluateLoan, exerciseBuy, loanCandidates, loanMove, playerWillLoan } from './loan';
+import { aiLoanDay, buyFloor, endLoans, evaluateLoan, exerciseBuy, loanCandidates, loanMove, playerWillLoan } from './loan';
 import { wageBillOf } from './finance';
-import { evaluateBid } from './transfer';
+import { evaluateBid, marketValue } from './transfer';
 import { overall } from './ratings';
 import { createRng } from './rng';
 import type { ClubSeasonFile, LeagueSeasonFile } from '../data/types';
@@ -79,5 +79,58 @@ describe('임대', () => {
     console.log('AI 임대 (20일)', n);
     expect(n).toBeGreaterThan(0);
     for (const p of Object.values(w.players)) if (p.loan) { expect(w.clubs[p.loan.from].loanedOut).toContain(p.id); expect(w.clubs[p.clubId!].squad).toContain(p.id); }
+  });
+});
+
+describe('임대 이적 조건 (완전 영입 옵션 · 의무 이적)', () => {
+  it('의무 이적은 시장 가치의 75%부터, 옵션은 90%부터 받아 준다', () => {
+    const w = fresh();
+    const other = Object.values(w.clubs).filter((c) => c.id !== LIV).sort((a, b) => b.reputation - a.reputation)[0].id;
+    const p = byRank(w, other).at(-3)!;
+    const v = marketValue(w, p);
+    const fee = Math.round(v * 0.8);
+    expect(evaluateLoan(w, p, LIV, { share: 1, fee: 0, buy: fee }).ok).toBe(false);
+    expect(evaluateLoan(w, p, LIV, { share: 1, fee: 0, buy: fee, must: true }).ok).toBe(true);
+    expect(buyFloor(w, p, true)).toBeLessThan(buyFloor(w, p));
+  });
+
+  it('의무 이적: 시즌 끝에 정해 둔 이적료 · 주급으로 자동 이적 (3년 계약)', () => {
+    const w = fresh();
+    const other = Object.values(w.clubs).filter((c) => c.id !== LIV).sort((a, b) => b.reputation - a.reputation)[0].id;
+    const p = byRank(w, other).at(-3)!;
+    const buy = buyFloor(w, p, true), buyWage = Math.round(p.wage * 1.2);
+    loanMove(w, p, LIV, { share: 1, fee: 0, buy, buyWage, must: true });
+    const ev = endLoans(w);
+    expect(p.clubId).toBe(LIV);
+    expect(p.loan).toBeUndefined();
+    expect(p.wage).toBe(buyWage);
+    expect(p.lastFee).toBe(buy);
+    expect(p.contract).toBe('2029-06-30');
+    expect(ev.some((e) => e.type === 'loan' && e.kind === 'bought' && e.must)).toBe(true);
+  });
+
+  it('옵션만 있으면 사용자는 행사하지 않으면 복귀 · 행사하면 영입 후 주급으로', () => {
+    const w = fresh();
+    const other = Object.values(w.clubs).filter((c) => c.id !== LIV).sort((a, b) => b.reputation - a.reputation)[0].id;
+    const [a, b] = byRank(w, other).slice(-4, -2);
+    loanMove(w, a, LIV, { share: 1, fee: 0, buy: buyFloor(w, a), buyWage: a.wage + 1000 });
+    loanMove(w, b, LIV, { share: 1, fee: 0, buy: buyFloor(w, b), buyWage: b.wage + 2000 });
+    const want = b.wage + 2000;
+    exerciseBuy(w, b);
+    expect(b.clubId).toBe(LIV);
+    expect(b.wage).toBe(want);
+    endLoans(w);
+    expect(a.clubId).toBe(other);   // 행사 안 한 옵션 → 복귀
+  });
+
+  it('보내기 후보: 이적 조건을 걸면 그 이적료를 감당할 수 있는 구단만', () => {
+    const w = fresh();
+    const p = byRank(w, LIV)[14];
+    const plain = loanCandidates(w, p);
+    const huge = loanCandidates(w, p, [], { buy: 5e9 });
+    expect(huge.length).toBe(0);
+    const ok = loanCandidates(w, p, [], { buy: buyFloor(w, p, true), must: true });
+    expect(ok.length).toBeLessThanOrEqual(plain.length);
+    for (const c of ok) expect(c.terms.must).toBe(true);
   });
 });

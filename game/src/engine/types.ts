@@ -219,7 +219,7 @@ export type GameEvent =
   /** AI 구단 감독 교체 (season: 시즌 중 경질 · end: 시즌 끝 교체), news = 받은편지함에 남길 만한 소식 */
   | { type: 'coach'; date: string; club: string; when: 'season' | 'end'; news: boolean }
   /** 임대: 시작 · 복귀 · 완전 영입 */
-  | { type: 'loan'; date: string; player: string; from: string; to: string; kind: 'start' | 'return' | 'bought'; share?: number; fee?: number; user: boolean }
+  | { type: 'loan'; date: string; player: string; from: string; to: string; kind: 'start' | 'return' | 'bought'; share?: number; fee?: number; /** 의무 이적 */ must?: boolean; buy?: number; user: boolean }
   /** 선수 언론 플레이: 시작 · 커짐 · 해결 */
   | { type: 'saga'; date: string; player: string; kind: import('./saga').SagaKind; stage: number; step: 'start' | 'escalate' | 'resolved' | 'forced' | 'wantsUs'; target?: string; from?: string; fee?: number }
   /** 선수 논란 (게임이 만든 가벼운 논란) */
