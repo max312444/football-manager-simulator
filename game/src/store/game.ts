@@ -27,6 +27,7 @@ import { breakTalks, cleanOffers, completeTransfer, counterOffer, offerValid, ev
 import type { RetireNews, TransferOffer } from '../engine/types';
 import { applyRenewal, evaluateRenewal } from '../engine/contract';
 import { buyoutMandatory, setBuyout } from '../engine/clauses';
+import { bosmanEligible, signPrecontract } from '../engine/bosman';
 const addDaysIso = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
 import { CUSTOM_MARK, formationShape, guessFormation, matchRules, MAX_CUSTOM, pickLineup, registerFormations, validateFormation } from '../engine/squad';
 import type { Position } from '../data/types';
@@ -141,6 +142,8 @@ interface GameStore {
   /** 재계약 요청 팝업 닫기 */
   clearRenewals(): void;
   /** 내 선수 재계약 제안 */
+  precontract(playerId: string, wage: number, years: number, role?: Role, clause?: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
+  clearDeadline(): void;
   renew(playerId: string, wage: number, years: number, clause?: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   /** 개인 계약 제안 (이적료는 합의된 금액, 자유계약은 0) */
   sign(playerId: string, wage: number, years: number, role?: Role, clause?: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
@@ -633,6 +636,37 @@ export const useGame = create<GameStore>((set, get) => {
       autosave(w);
       bump();
       return { ok: true, reason: '계약을 마쳤습니다' };
+    },
+
+    precontract(playerId, wage, years, role, clause) {
+      const w = get().world!;
+      const p = w.players[playerId];
+      if (!bosmanEligible(w, p, w.userClubId)) return { ok: false, reason: '보스만 사전 계약은 계약 마지막 6개월(1월 1일부터) · 다른 나라 구단만 가능합니다' };
+      const ban = talkBanned(w, playerId);
+      if (ban) return { ok: false, reason: `협상이 결렬된 선수입니다. ${ban.slice(5).replace('-', '/')}까지 다시 협상할 수 없습니다` };
+      if (clause === 0 && buyoutMandatory(w, w.userClubId)) return { ok: false, reason: '이 리그는 모든 선수 계약에 바이아웃이 있어야 합니다' };
+      const room = wageRoom(w, w.userClubId);
+      if (wage > room) return { ok: false, reason: `주급 예산 초과 — 남은 주급 여유 ${Math.max(0, Math.round(room / 1000))}K 유로` };
+      const t = talkOf(w, playerId);
+      const r = playerWillJoin(w, p, w.userClubId, wage, role, clause, true);
+      if (!r.ok) {
+        if (r.low) t.wage++;
+        const left = r.low ? MAX_TRIES - t.wage : 0;
+        if (left <= 0) breakTalks(w, playerId);
+        autosave(w); bump();
+        return { ok: false, reason: r.reason, left, broken: left <= 0 };
+      }
+      signPrecontract(w, p, w.userClubId, wage, years, { role, buyout: clause });
+      if (w.talks) delete w.talks[playerId];
+      w.inbox.push({ type: 'bosman', date: w.date, player: p.id, to: w.userClubId, mine: true });
+      autosave(w); bump();
+      return { ok: true, reason: '사전 계약을 맺었습니다 · 7월에 합류합니다' };
+    },
+
+    clearDeadline() {
+      const w = get().world!;
+      w.deadlineAlert = undefined;
+      bump();
     },
 
     clearRenewals() {

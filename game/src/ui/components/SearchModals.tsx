@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { OvrText } from './Scout';
 import { useApp } from '../../store/app';
 import { buyoutOf } from '../../engine/clauses';
+import { bosmanEligible } from '../../engine/bosman';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { clubKo, compKo, nations, playerKo } from '../../data/db';
@@ -43,7 +44,9 @@ function ProfileModal() {
   const mine = p.clubId === w.userClubId;
   const ban = talkBanned(w, p.id);
   const short = (w.shortlist ?? []).includes(p.id);
-  const closed = !!p.clubId && !windowOpen(w.season, w.date);
+  const bosman = bosmanEligible(w, p, w.userClubId);
+  const pre = p.precontract?.club === w.userClubId;
+  const closed = !!p.clubId && !windowOpen(w.season, w.date) && !bosman;
   const actions = mine ? (
     <ContractBox p={p} extra={<button onClick={() => { close(null); setTab('squad'); }} className="h-10 rounded-lg px-4 text-[13px] text-mid ring-1 ring-line hover:text-hi">선수단</button>} />
   ) : (
@@ -54,7 +57,7 @@ function ProfileModal() {
       </div>
       {(ban || closed) && <div className="mb-2 rounded-lg border border-line bg-ink-900 px-3 py-2 text-[12px] text-amber">{ban ? `협상 결렬 · ${ban.slice(5).replace('-', '/')}까지 협상 불가` : '이적시장이 닫혀 있어 지금은 영입할 수 없습니다'}</div>}
       <div className="flex gap-2">
-        <button disabled={!!ban || closed} onClick={() => setTalk(true)} className="h-10 flex-1 rounded-lg bg-neon text-[14px] font-semibold text-ink-950 hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">{p.clubId ? '영입 협상' : '계약 협상 (FA)'}</button>
+        <button disabled={!!ban || closed || pre} onClick={() => setTalk(true)} className="h-10 flex-1 rounded-lg bg-neon text-[14px] font-semibold text-ink-950 hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">{pre ? '사전 계약 완료 · 7월 합류' : bosman ? '사전 계약 (보스만)' : p.clubId ? '영입 협상' : '계약 협상 (FA)'}</button>
         <button onClick={() => toggleShortlist(p.id)} className={`h-10 rounded-lg px-4 text-[13px] ring-1 ring-line ${short ? 'text-neon' : 'text-mid hover:text-hi'}`}>{short ? '관심 ✓' : '관심'}</button>
       </div>
     </div>

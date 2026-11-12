@@ -81,6 +81,8 @@ export interface PlayerState {
   /** 바이아웃 금액 (0 = 없음) · 정한 구단 (구단이 바뀌면 새로 정함, clauses.ts) */
   buyout?: number;
   buyoutClub?: string;
+  /** 보스만 사전 계약: 계약이 끝나면 이 구단으로 (bosman.ts) */
+  precontract?: { club: string; wage: number; years: number; date: string; role?: import('./roles').Role; buyout?: number };
   /** 이적료 상각 (연, 유로) = 이적료 ÷ 계약 연수. 계약이 끝나거나 떠나면 없어짐 */
   amort?: number;
   /** 상각이 끝나는 날 (처음 계약 만료일) */
@@ -233,6 +235,8 @@ export type GameEvent =
   | { type: 'offer'; date: string; player: string; from: string; fee: number }
   /** 다른 구단이 내 선수의 바이아웃을 내고 데려감 */
   | { type: 'buyout'; date: string; player: string; to: string; fee: number }
+  /** 보스만 사전 계약 (내 선수가 해외 구단과 · 또는 내가 영입) */
+  | { type: 'bosman'; date: string; player: string; to: string; mine: boolean }
   | { type: 'retire'; date: string; player: string; club: string | null; season: string }
   | { type: 'contract'; date: string; players: string[]; until: string }
   | { type: 'renewed'; date: string; players: string[] }
@@ -324,6 +328,8 @@ export interface World {
   talkBan?: Record<string, string>;
   /** 재계약 요청 팝업에 띄울 내 선수 (불만이 있거나 주급 예산이 모자라 자동 재계약이 안 된 선수) */
   pendingRenewals?: { player: string; reason: string }[];
+  /** 이적시장 마감 알림 (데드라인 데이 팝업, bosman.ts) */
+  deadlineAlert?: import('./bosman').DeadlineAlert;
   /** 화면에 보여줄 은퇴 소식 (시즌 전환 때) */
   pendingNews?: RetireNews[];
   /** 감독 (사용자): 계약 · 이사회 신뢰도 · 제안 · 경력 */

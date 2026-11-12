@@ -30,7 +30,7 @@ export function ContinueBar() {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.code !== 'Space' || useGame.getState().ceremony || useGame.getState().seasonReport || useGame.getState().awards || useGame.getState().news || useApp.getState().profile || useApp.getState().clubView || useGame.getState().world?.pendingRenewals?.length) return;   // 연출 · 결산 창이 떠 있으면 무시
+      if (e.code !== 'Space' || useGame.getState().ceremony || useGame.getState().seasonReport || useGame.getState().awards || useGame.getState().news || useApp.getState().profile || useApp.getState().clubView || useGame.getState().world?.pendingRenewals?.length || useGame.getState().world?.deadlineAlert) return;   // 연출 · 결산 창이 떠 있으면 무시
       const t = e.target as HTMLElement;
       if (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA') return;
       e.preventDefault();

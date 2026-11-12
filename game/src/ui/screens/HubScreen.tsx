@@ -27,6 +27,7 @@ import { AwardCeremony } from '../components/AwardCeremony';
 import { RetireNews } from '../components/RetireNews';
 import { SearchModals } from '../components/SearchModals';
 import { RenewalRequests } from '../components/RenewalRequests';
+import { DeadlineAlert } from '../components/DeadlineAlert';
 
 const TITLES: Record<HubTab, string> = {
   home: '홈', inbox: '받은편지함', squad: '선수단', tactics: '전술', schedule: '일정',
@@ -68,6 +69,7 @@ export function HubScreen() {
       <RetireNews />
       <SearchModals />
       <RenewalRequests />
+      <DeadlineAlert />
       <JobModal />
       <BoardEventModal />
       <PressModal />

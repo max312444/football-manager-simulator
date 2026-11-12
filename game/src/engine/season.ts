@@ -9,6 +9,7 @@
 //    (2부 리그는 아직 없음 → 사용자 구단이 강등권이면 잔류 처리하고 그 위 구단을 내림)
 import { coachSeasonEnd } from './coaches';
 import { endLoans } from './loan';
+import { joinPrecontract } from './bosman';
 import type { AttrKey } from '../data/types';
 import type { ClubState, PlayerState, RetireNews, SeasonRecord, World } from './types';
 import type { SeasonInput } from './world';
@@ -313,6 +314,16 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
       report.retired.push(p.id);
       continue;
     }
+    if (p.precontract && p.clubId && p.contract && p.contract < startDate) {
+      // 보스만 사전 계약: 계약이 끝나 새 구단으로 (이적료 없음)
+      const from = p.clubId, ovr = overall(p);
+      const ev = joinPrecontract(w, p);
+      if (ev && from === w.userClubId) report.userLeft.push({ player: p.id, why: 'release' });
+      if (ev && (from === w.userClubId || p.clubId === w.userClubId)) w.inbox.push({ ...ev, date: startDate });
+      else if (ev && ovr >= 82) w.inbox.push({ ...ev, date: startDate });
+      if (ev) continue;
+    }
+    p.precontract = undefined;
     if (p.clubId && p.contract && p.contract < startDate) {
       // 내 구단은 재계약하지 않았으면 떠난다 (자동 연장 없음). AI 구단은 실제로 남아 있거나 확률로 연장
       // AI: 실제로 남아 있으면 연장, 아니면 핵심 선수(구단 능력 18위 안 · 32세 이하)는 85%, 나머지 40% 확률로 연장

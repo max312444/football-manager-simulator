@@ -163,6 +163,7 @@ export function askingPrice(w: World, p: PlayerState): number {
 export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number): BidResult {
   if (!p.clubId) return { decision: 'accept', ask: 0, reason: '자유계약 선수' };
   if (p.loan) return { decision: 'reject', ask: 0, reason: '임대 중인 선수라 지금은 이적할 수 없습니다' };
+  if (p.precontract) return { decision: 'reject', ask: 0, reason: '이미 다른 구단과 사전 계약(보스만)한 선수입니다' };
   const clause = buyoutOf(w, p);
   if (clause > 0 && fee >= clause) return { decision: 'accept', ask: clause, reason: '바이아웃 금액을 냈습니다. 구단은 거절할 수 없습니다' };
   const seller = w.clubs[p.clubId];
@@ -179,7 +180,7 @@ export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number
 }
 
 /** 선수가 이 구단으로 오겠는지 */
-export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number, role?: Role, clause?: number): { ok: boolean; reason: string; low?: boolean } {
+export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number, role?: Role, clause?: number, bosman?: boolean): { ok: boolean; reason: string; low?: boolean } {
   const demand = wageDemand(w, p) * (clause == null ? 1 : buyoutWageFactor(w, p, clause));   // 계약에 거는 바이아웃 (낮을수록 덜 요구)
   if (wage < demand * 0.9) return { ok: false, low: true, reason: `원하는 주급보다 낮습니다. 주급 ${Math.round(demand / 1000)}K 유로 정도를 원합니다` };
   const buyerRep = w.clubs[buyer].reputation;
@@ -192,7 +193,7 @@ export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: nu
   if (role) score += ROLE_JOIN[role];   // 약속한 역할: 높을수록 오려고 한다
   // 구단이 이적 명단에 올린 선수는 "팀에서 원하지 않는다"고 느껴 작은 구단 이적도 받아들이기 쉽다
   if ((w.transferList ?? []).includes(p.id)) score += 1.5;
-  if (!p.clubId) score += 1.5;
+  if (!p.clubId || bosman) score += 1.5;   // 자유계약 · 보스만 사전 계약 (이적료가 없어 몸값 · 계약금 여유)
   return score > -0.6 ? { ok: true, reason: '이적에 동의했습니다' } : { ok: false, reason: diff < 0 ? '더 큰 구단으로 가고 싶어 합니다' : '지금 구단에 남고 싶어 합니다' };
 }
 
@@ -290,7 +291,7 @@ function userOffers(w: World, rng: Rng, active: World['clubs'][string][]) {
   const listed = new Set(w.transferList ?? []);
   for (const id of w.clubs[w.userClubId].squad) {
     const p = w.players[id];
-    if (p.loan) continue;   // 빌려 온 선수에게는 제안이 오지 않는다
+    if (p.loan || p.precontract) continue;   // 빌려 온 선수 · 사전 계약한 선수에게는 제안이 오지 않는다
     const onList = listed.has(id);
     if (!rng.chance(onList ? 0.18 : 0.006)) continue;
     if (offers.filter((o) => o.player === id).length >= 3) continue;
@@ -399,8 +400,9 @@ export function aiTransferDay(w: World, rng: Rng): GameEvent[] {
   //  - 인원이 충분하고 이적 예산이 있으면 전력 보강 (주전 평균보다 나은 선수, +1 ~ +7)
   //  - 30명이 넘으면 가장 약한 선수를 내보냄
   // 후보 몇 명을 보고 예산 · 재정 규정 · 상대 구단 · 선수 마음이 맞는 첫 선수와 계약 (AI · 사용자 같은 규칙)
+  const frenzy = windowEnd(w.season, w.date) === w.date ? 3 : 1;   // 데드라인 데이: 막판 영입 3배
   for (const club of active) {
-    if (!rng.chance(0.08)) continue;
+    if (!rng.chance(0.08 * frenzy)) continue;
     if (club.squad.length > 30) {
       const weakest = club.squad.map((id) => w.players[id]).sort((a, b) => overall(a) - overall(b))[0];
       releasePlayer(w, weakest);

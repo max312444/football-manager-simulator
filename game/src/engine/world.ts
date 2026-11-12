@@ -2,6 +2,7 @@
 import { coachDay } from './coaches';
 import { scoutDay, scoutMatch } from './scout';
 import { aiLoanDay } from './loan';
+import { aiBosmanDay, deadlineCheck } from './bosman';
 import { autoResolve } from './autoResolve';
 import type { ClubSeasonFile } from '../data/types';
 import type { ClubState, Competition, Fixture, GameEvent, Hidden, PlayerState, Tactics, World } from './types';
@@ -310,6 +311,7 @@ export function advanceDay(w: World): GameEvent[] {
   // 이적시장: AI 구단 이적 (기간이 아니면 아무것도 안 함)
   events.push(...aiTransferDay(w, rng));
   events.push(...aiLoanDay(w, rng));   // AI 구단 유망주 임대
+  events.push(...aiBosmanDay(w, rng));   // 해외 구단의 내 선수 보스만 사전 계약
   events.push(...traitMonth(w, rng));
   events.push(...managerDay(w, rng));
   events.push(...coachDay(w, rng));     // AI 구단 감독: 신뢰도 · 경질 · 공석이면 나에게 제안
@@ -352,6 +354,7 @@ export function advanceDay(w: World): GameEvent[] {
   contractCheck(w);
   w.date = addDay(today);
   w.rng = rng.state();
+  events.push(...deadlineCheck(w));   // 이적시장 마감 3일 전 · 당일 알림
   // 받은편지함에는 사용자 구단 관련과 시즌 종료만 남긴다
   for (const e of events) {
     if (e.type === 'seasonEnd' || e.type === 'info' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
@@ -419,6 +422,7 @@ export function advanceToUserMatch(w: World, maxDays = 120): { events: GameEvent
     events.push(...ev);
     if (ev.some((e) => e.type === 'seasonEnd' || (e.type === 'injury' && e.club === w.userClubId))) break;
     if (!had && w.pendingRenewals?.length) break;   // 재계약 요청이 새로 오면 멈춰서 팝업
+    if (w.deadlineAlert) break;   // 이적시장 마감 알림: 멈춰서 팝업
     if (w.manager?.pendingJob) break;   // 경질 · 계약 만료: 새 구단 고르기
     if (ev.some((e) => e.type === 'board' && w.manager?.boardEvent)) break;   // 이사회 이벤트: 멈춰서 선택
     if (ev.some((e) => e.type === 'press') && w.manager?.press) break;   // 기자회견: 멈춰서 답변

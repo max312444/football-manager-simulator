@@ -26,6 +26,7 @@ export const renewEnd = (w: World, years: number) => `${+w.season.slice(0, 4) + 
 
 /** 구단에 남을 마음이 있는지 (주급과 무관) */
 export function willStay(w: World, p: PlayerState): { ok: boolean; reason: string } {
+  if (p.precontract) return { ok: false, reason: '이미 다른 구단과 사전 계약(보스만)을 맺어 재계약할 수 없습니다' };
   const club = w.clubs[w.userClubId];
   const lvl = [...club.squad].map((id) => overall(w.players[id])).sort((a, b) => b - a).slice(0, 11);
   const level = lvl.reduce((a, b) => a + b, 0) / Math.max(1, lvl.length);
@@ -71,7 +72,7 @@ export const autoYears = (w: World, p: PlayerState) => { const a = ageOn(p.birth
 export function contractCheck(w: World) {
   const y = +w.season.slice(0, 4) + 1;
   if (w.date !== `${y}-01-01` && w.date !== `${y}-04-01`) return;
-  const ps = w.clubs[w.userClubId].squad.map((id) => w.players[id]).filter((p) => expiring(w, p));
+  const ps = w.clubs[w.userClubId].squad.map((id) => w.players[id]).filter((p) => expiring(w, p) && !p.precontract);   // 보스만 사전 계약한 선수는 재계약 없음
   const auto: string[] = [], ask: { player: string; reason: string }[] = [];
   for (const p of ps) {
     const stay = willStay(w, p);

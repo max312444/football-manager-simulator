@@ -18,6 +18,7 @@ import { useWorld } from '../hooks';
 import { Crest } from '../components/Crest';
 import { PosTag } from '../components/bits';
 import { koDate, money } from '../format';
+import { bosmanEligible, deadlineLeft, inFinalMonths } from '../../engine/bosman';
 import { useApp } from '../../store/app';
 import { analyzeClub, searchPreset } from '../../engine/analysis';
 import type { Position } from '../../data/types';
@@ -65,7 +66,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
     else if (tab === 'mine') ps = [...club.squad, ...(club.loanedOut ?? [])].map((id) => w.players[id]).filter(Boolean);
     else {
       ps = Object.values(w.players).filter((p) => !p.retired && p.clubId !== w.userClubId
-        && (clubPick ? p.clubId === clubPick : league === 'ALL' || (league === 'FA' ? !p.clubId : p.clubId && w.clubs[p.clubId]?.league === league)));
+        && (clubPick ? p.clubId === clubPick : league === 'ALL' || (league === 'FA' ? !p.clubId : league === 'BOSMAN' ? bosmanEligible(w, p, w.userClubId) : p.clubId && w.clubs[p.clubId]?.league === league)));
       ps = ps.filter((p) => (posSet ? posSet.positions.includes(p.pos) : pos.length ? pos.includes(p.pos) : group === 'ALL' || posGroup(p.pos) === group) && ageOn(p.birth, w.date) <= maxAge && seenOverall(w, p)[1] >= minOvr
         && (!q || name(p).includes(q) || p.name.toLowerCase().includes(q.toLowerCase())));
       if (maxValue) ps = ps.filter((p) => marketValue(w, p) <= maxValue);
@@ -94,6 +95,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
           <div className="bg-ink-850 px-4 py-3 lg:px-5 lg:py-4">
             <div className="text-[12px] text-lo">이적시장</div>
             <div className={`mt-1 text-[16px] font-semibold ${win ? 'text-neon' : 'text-mid'}`}>{win ? (win === 'summer' ? '여름 이적시장 열림' : '겨울 이적시장 열림') : '닫힘'}</div>
+            {(() => { const d = deadlineLeft(w); return d ? <div className={`text-[12px] ${d.left <= 3 ? 'font-semibold text-amber' : 'text-lo'}`}>{d.left === 0 ? '오늘 마감 · 데드라인 데이' : `마감 ${koDate(d.end)} · D-${d.left}`}</div> : null; })()}
             <div className="hidden text-[12px] text-lo sm:block">{win ? '다른 구단 선수 영입 가능' : `다음: ${koDate(nextWindow(w.season, w.date))} · 자유계약은 가능`}</div>
           </div>
           <div className="bg-ink-850 px-4 py-3 lg:px-5 lg:py-4"><div className="text-[12px] text-lo">이적 예산</div><div className="tnum mt-1 text-[18px] font-semibold lg:text-[20px]">{money(club.finance.transferBudget)}</div></div>
@@ -147,6 +149,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
               <option value="ALL">모든 리그</option>
               {Object.keys(w.competitions).map((id) => <option key={id} value={id}>{compKo(id) ?? id}</option>)}
               <option value="FA">자유계약 (FA)</option>
+              <option value="BOSMAN">보스만 (사전 계약 가능)</option>
             </select>
             <label className="flex items-center gap-2 text-lo">나이 ≤ <input type="number" value={maxAge} min={16} max={45} onChange={(e) => setMaxAge(+e.target.value || 40)} className="tnum h-9 w-16 rounded-lg border border-line bg-ink-850 px-2 text-hi" /></label>
             <label className="flex items-center gap-2 text-lo">능력 ≥ <input type="number" value={minOvr} min={40} max={95} onChange={(e) => setMinOvr(+e.target.value || 0)} className="tnum h-9 w-16 rounded-lg border border-line bg-ink-850 px-2 text-hi" /></label>
@@ -225,6 +228,9 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
                       {listed.has(p.id) && <span className="ml-2 rounded bg-amber/15 px-1 text-[11px] text-amber">이적 명단</span>}
                       {p.loan && <span className="ml-2 rounded bg-sky/15 px-1 text-[11px] text-sky">{p.loan.from === w.userClubId ? '임대 보냄' : p.clubId === w.userClubId ? '임대 영입' : '임대 중'}</span>}
                       {shortlist.includes(p.id) && tab !== 'shortlist' && <span className="ml-2 text-[11px] text-neon">관심</span>}
+                      {p.precontract ? <span title={`${clubKo(p.precontract.club)}와 사전 계약 · 시즌 끝에 합류`} className="ml-2 rounded bg-red/15 px-1 text-[11px] font-semibold text-red">사전 계약 → {clubKo(p.precontract.club)}</span>
+                        : bosmanEligible(w, p, w.userClubId) ? <span title="계약 마지막 6개월 · 다른 나라 구단이라 이적료 없이 사전 계약할 수 있습니다 (7월 합류)" className="ml-2 rounded bg-neon-ghost px-1 text-[11px] font-semibold text-neon">보스만</span>
+                        : p.clubId !== w.userClubId && inFinalMonths(w, p) ? <span title="이번 시즌 끝에 계약 만료 (같은 나라 구단은 사전 계약 불가 · 7월 자유계약)" className="ml-2 rounded bg-amber/15 px-1 text-[11px] text-amber">계약 만료 예정</span> : null}
                       <div className="truncate text-[11px] text-lo lg:hidden">{p.clubId ? clubKo(p.clubId) : 'FA'} · {age}세<span className="sm:hidden">{p.clubId ? ` · ${money(value)}` : ''}</span></div>
                     </td>
                     <td className="px-2"><PosTag pos={p.pos} /></td>
@@ -305,8 +311,8 @@ function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk
       </div>
       {ban && <div className="mb-2 rounded-lg border border-red/40 bg-red/10 px-3 py-2 text-[12px] text-red">협상 결렬 · {koDate(ban)}까지 협상 불가</div>}
       <div className="flex gap-2">
-        <button onClick={onTalk} disabled={!!ban} className="h-10 flex-1 rounded-lg bg-neon text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">
-          {talk?.agreed != null ? '개인 계약 협상 계속' : talk && (talk.fee || talk.wage) ? '협상 계속' : p.clubId ? '영입 협상' : '계약 협상 (FA)'}
+        <button onClick={onTalk} disabled={!!ban || p.precontract?.club === w.userClubId} className="h-10 flex-1 rounded-lg bg-neon text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">
+          {p.precontract?.club === w.userClubId ? '사전 계약 완료 · 7월 합류' : bosmanEligible(w, p, w.userClubId) ? '사전 계약 (보스만)' : talk?.agreed != null ? '개인 계약 협상 계속' : talk && (talk.fee || talk.wage) ? '협상 계속' : p.clubId ? '영입 협상' : '계약 협상 (FA)'}
         </button>
         {p.clubId && <button onClick={() => setLoanIn(true)} disabled={!open} title={open ? '' : '이적시장 기간에만'} className="h-10 rounded-lg px-3 text-[13px] text-sky ring-1 ring-line transition-colors hover:bg-sky/10 disabled:opacity-40">임대</button>}
         <button onClick={onShort} className={`h-10 rounded-lg px-4 text-[13px] ring-1 ring-line transition-colors ${shortlisted ? 'text-neon' : 'text-mid hover:text-hi'}`}>{shortlisted ? '관심 ✓' : '관심'}</button>

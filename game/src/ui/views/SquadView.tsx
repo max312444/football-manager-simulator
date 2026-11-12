@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import type { PlayerState } from '../../engine/types';
 import { overall, formAvg } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
-import { nations, playerKo } from '../../data/db';
+import { clubKo, nations, playerKo } from '../../data/db';
 import { POS_ORDER, posGroup } from '../../data/rating';
 import { money, ratingTone } from '../format';
 import { useWorld } from '../hooks';
@@ -120,7 +120,8 @@ export function SquadView() {
                         {p.injury && <span title={`${p.injury.label} · ${p.injury.days}일`} className="rounded bg-red/15 px-1 text-[11px] font-semibold text-red">부상 {p.injury.days}일</span>}
                         {p.suspension > 0 && <span className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">징계 {p.suspension}</span>}
                         {p.traits.map((id) => { const tr = TRAIT.get(id); return tr && <span key={id} title={tr.how} className={`rounded px-1 text-[11px] font-semibold ${tr.kind === 'positive' ? 'bg-neon/10 text-neon' : tr.kind === 'negative' ? 'bg-red/15 text-red' : 'bg-amber/15 text-amber'}`}>{tr.ko}</span>; })}
-                        {expiring(w, p) && <span title={`계약 ${p.contract} 만료`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">계약 만료 임박</span>}
+                        {p.precontract ? <span title={`${clubKo(p.precontract.club)}와 사전 계약 · 시즌 끝에 떠남`} className="rounded bg-red/15 px-1 text-[11px] font-semibold text-red">보스만 이적 예정</span>
+                          : expiring(w, p) && <span title={`계약 ${p.contract} 만료`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">계약 만료 임박</span>}
                         {p.unhappy && <span title={`충성도 ${Math.round(p.loyalty)} · 연속 ${p.benchStreak}경기 결장`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">출전 불만</span>}
                       </div>
                     </td>

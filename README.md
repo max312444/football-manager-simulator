@@ -134,6 +134,10 @@ cd game && npm run history                 # 선수 이력 (data-public/history/
 > 버전: `game/src/version.ts` (첫 화면 표시). 기능 추가 +0.1 · 작은 수정 +0.0.1, 바꿀 때마다 여기에 적는다.
 > 같은 파일의 `CHANGELOG` 맨 위에 플레이어용 한 줄 요약도 넣는다 → 첫 화면 '업데이트 소식' (새 버전을 처음 본 뒤 24시간 표시, `UpdateNotes.tsx`).
 
+0. **v0.12 데드라인 데이 · 보스만 룰** (2026-11-12)
+   - `engine/bosman.ts`: `deadlineCheck` (하루 넘긴 뒤 마감 3일 전 · 당일이면 `w.deadlineAlert` → `advanceToUserMatch` 멈춤 · `DeadlineAlert` 팝업), 마감 당일 AI 영입 확률 ×3 (`aiTransferDay`).
+   - 보스만: `inFinalMonths` (계약이 시즌 끝 · 1월 1일부터) + `bosmanEligible` (다른 나라 구단만) → `signPrecontract` (`p.precontract`), 시즌 전환 때 `joinPrecontract` (이적료 0). 사전 계약 선수는 이적 불가 · 재계약 불가 · 제안 없음. `aiBosmanDay`: 1월 2일부터 재계약 안 한 내 선수에게 해외 구단 하루 1%.
+   - 화면: 이적 화면 마감 D-day · '보스만' / '계약 만료 예정' / '사전 계약' 표시 · 리그 필터 '보스만', 협상 창이 보스만이면 이적료 단계 없이 사전 계약 (`precontract`), 선수단 '보스만 이적 예정', 받은편지함 `bosman`, 도움말.
 0. **v0.11 임대 개편** (2026-11-12)
    - `engine/loan.ts`: 이적 조건 셋 중 하나 — 없음 · 완전 영입 옵션 (`buy` + 영입 후 주급 `buyWage`, 사용자는 언제든 · AI 는 시즌 끝 주전급이면 행사) · 의무 이적 (`must`, `endLoans` 에서 자동 이적). 최저 이적료 `buyFloor` 옵션 가치 90% · 의무 75%. 행사하면 영입 후 주급으로 3년 계약.
    - 사용자 빌려 오기: 영입 후 주급이 선수가 원하는 주급의 90% 이상이어야. 보내기: `loanCandidates(…, deal)` 로 그 이적료 · 주급을 감당할 수 있는 구단만.

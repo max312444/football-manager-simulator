@@ -17,6 +17,7 @@ import { Crest } from './Crest';
 import { PosTag } from './bits';
 import { money } from '../format';
 import { buyoutOf, buyoutOptions, buyoutWageFactor } from '../../engine/clauses';
+import { bosmanEligible } from '../../engine/bosman';
 import type { World } from '../../engine/types';
 
 /** 계약에 거는 바이아웃 선택 (낮을수록 선수가 주급을 덜 요구 · 다른 구단이 내고 데려가기 쉬움) */
@@ -38,8 +39,9 @@ export interface Msg { who: Who; text: string; tone?: 'ok' | 'warn' | 'bad' }
 
 export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () => void }) {
   const w = useWorld();
-  const { bid, sign } = useGame();
-  const fa = !p.clubId;
+  const { bid, sign, precontract } = useGame();
+  const [bosman] = useState(() => bosmanEligible(w, p, w.userClubId));   // 보스만 사전 계약: 이적료 없이 개인 계약만 (7월 합류). 창을 연 때 기준
+  const fa = !p.clubId || bosman;
   const club = p.clubId;
   const talk = w.talks?.[p.id];
   const value = marketValue(w, p);
@@ -53,7 +55,8 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
   const [role, setRole] = useState<Role>(() => autoRole(w, p, w.userClubId));
   const [broken, setBroken] = useState(!!talkBanned(w, p.id));
   const [msgs, setMsgs] = useState<Msg[]>(() => [
-    fa ? { who: 'sys', text: '자유계약 선수입니다. 이적료 없이 주급과 계약 기간만 협상하면 됩니다.' }
+    bosman ? { who: 'sys', text: `계약이 이번 시즌 끝에 끝나는 선수입니다 (보스만). 이적료 없이 사전 계약하면 ${p.contract?.slice(0, 4)}년 7월에 합류합니다.` }
+      : fa ? { who: 'sys', text: '자유계약 선수입니다. 이적료 없이 주급과 계약 기간만 협상하면 됩니다.' }
       : talk?.agreed != null ? { who: 'sys', text: `${clubKo(club!)}와 이적료 ${money(talk.agreed)}에 합의한 상태입니다. 선수와 개인 계약을 협상하세요.` }
       : { who: 'sys', text: `${clubKo(club!)}에 이적료를 제안하세요. 구단이 원하는 금액은 알려지지 않았습니다.` },
     ...(talkBanned(w, p.id) ? [{ who: 'sys' as Who, tone: 'bad' as const, text: '이미 협상이 결렬된 선수입니다. 이번 이적시장 동안은 다시 협상할 수 없습니다.' }] : []),
@@ -85,9 +88,9 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
     if (r.broken) fail();
   };
   const sendContract = () => {
-    const r = sign(p.id, wage * 1000, years, role, clause);
+    const r = bosman ? precontract(p.id, wage * 1000, years, role, clause) : sign(p.id, wage * 1000, years, role, clause);
     push({ who: 'me', text: `주급 ${money(wage * 1000)} · ${years}년 · ${clause ? `바이아웃 ${money(clause)}` : '바이아웃 없음'} 제안` });
-    if (r.ok) { onClose(); return; }
+    if (r.ok) { if (bosman) { push({ who: 'player', tone: 'ok', text: r.reason }); setBroken(true); return; } onClose(); return; }
     push({ who: r.left === undefined ? 'sys' : 'player', tone: 'warn', text: r.reason });
     if (r.broken) fail();
   };
@@ -105,7 +108,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
             <div className="truncate text-[20px] font-semibold">{playerKo(p.id, p.name)}</div>
             <div className="mt-0.5 flex items-center gap-2 text-[12px] text-lo">
               <PosTag pos={p.pos} />{ageOn(p.birth, w.date)}세 ·
-              {club ? <><Crest clubId={club} size={14} />{clubKo(club)}</> : <span className="text-neon">자유계약 (FA)</span>}
+              {club ? <><Crest clubId={club} size={14} />{clubKo(club)}</> : <span className="text-neon">자유계약 (FA)</span>}{bosman && <span className="rounded bg-neon-ghost px-1 text-[11px] font-semibold text-neon">보스만</span>}
             </div>
           </div>
           <button onClick={onClose} className="h-8 w-8 rounded-md text-[18px] text-lo transition-colors hover:bg-ink-800 hover:text-hi" aria-label="닫기">×</button>

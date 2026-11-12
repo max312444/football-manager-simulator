@@ -30,6 +30,11 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       return { tag: '이적', tone: 'text-red', title: `${clubKo(e.to)}${josa(clubKo(e.to), '이', '가')} ${name}의 바이아웃을 냈습니다`, body: `바이아웃 ${money(e.fee)} · 계약 조항이라 거절할 수 없어 선수가 팀을 떠났습니다 (바이아웃은 재계약 때 높일 수 있습니다)` };
     }
+    case 'bosman': {
+      const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
+      if (e.to === w.userClubId) return { tag: '이적', tone: 'text-neon', title: `${name} 사전 계약 (보스만)`, body: '이적료 없이 계약했습니다 · 지금 계약이 끝나는 7월에 합류합니다' };
+      return { tag: '이적', tone: 'text-red', title: `${name}${josa(name, '이', '가')} ${clubKo(e.to)}${josa(clubKo(e.to), '와', '과')} 사전 계약했습니다 (보스만)`, body: '재계약하지 않아 계약이 끝나는 시즌 끝에 이적료 없이 떠납니다' };
+    }
     case 'retire': {
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       return { tag: '은퇴', tone: e.club === w.userClubId ? 'text-neon' : 'text-amber', title: `${e.season.replace('-', '/')} 시즌을 끝으로 ${name}${josa(name, '은', '는')} 은퇴하기로 하였습니다`, body: e.club ? `마지막 소속: ${clubKo(e.club)}` : undefined };
