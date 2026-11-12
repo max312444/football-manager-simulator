@@ -12,6 +12,7 @@ import { HelpDialog } from './HelpDialog';
 const NAV: { key: HubTab; label: string; icon: string; ready?: boolean }[] = [
   { key: 'home', label: '홈', icon: 'home', ready: true },
   { key: 'inbox', label: '받은편지함', icon: 'inbox', ready: true },
+  { key: 'news', label: '뉴스', icon: 'news', ready: true },
   { key: 'squad', label: '선수단', icon: 'squad', ready: true },
   { key: 'tactics', label: '전술', icon: 'tactics', ready: true },
   { key: 'schedule', label: '일정', icon: 'schedule', ready: true },

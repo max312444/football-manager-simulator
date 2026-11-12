@@ -4,6 +4,7 @@ import { scoutDay, scoutMatch } from './scout';
 import { aiLoanDay } from './loan';
 import { aiBosmanDay, deadlineCheck } from './bosman';
 import { bargainDay } from './firesale';
+import { newsDay } from './news';
 import { autoResolve } from './autoResolve';
 import type { ClubSeasonFile } from '../data/types';
 import type { ClubState, Competition, Fixture, GameEvent, Hidden, PlayerState, Tactics, World } from './types';
@@ -353,6 +354,7 @@ export function advanceDay(w: World): GameEvent[] {
   events.push(...autoResolve(w, rng));   // 설정에서 끈 팝업은 무난하게 자동 처리
   financeDay(w);
   boostMonth(w);
+  events.push(...newsDay(w, events, rng));   // 뉴스 · 이적 소문 (실제로 추진하는 소문은 이적 시도)
   contractCheck(w);
   w.date = addDay(today);
   w.rng = rng.state();

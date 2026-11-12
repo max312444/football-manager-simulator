@@ -14,6 +14,7 @@ import { useWorld } from '../hooks';
 import { useApp } from '../../store/app';
 import { LeagueTable } from './TableView';
 import { describe } from './InboxView';
+import { NewsRow } from './NewsView';
 import { resultFor, userFixtures } from './ScheduleView';
 
 /** 주전 11명 평균 능력 */
@@ -48,6 +49,7 @@ const Row = ({ children }: { children: React.ReactNode }) => (
 export function HomeView() {
   const w = useWorld();
   const setTab = useApp((s) => s.setTab);
+  const openProfile = useApp((s) => s.openProfile);
   const club = w.clubs[w.userClubId];
   const comp = w.competitions[club.league];
   const started = Object.values(comp.table).some((r) => r.p > 0);
@@ -73,6 +75,14 @@ export function HomeView() {
             <Card title={started ? `리그 순위 · ${pos}위` : '리그 순위 · 개막 전'} action={<ActionLink onClick={() => setTab('table')}>전체 보기</ActionLink>}>
               <LeagueTable league={club.league} compact />
             </Card>
+            {(() => {
+              const rum = [...(w.news ?? [])].reverse().filter((n) => n.kind === 'rumour' && n.status === 'open').slice(0, 4);
+              return rum.length > 0 && (
+                <Card title="이적 소문" action={<ActionLink onClick={() => setTab('news')}>뉴스</ActionLink>}>
+                  {rum.map((n) => <NewsRow key={n.id} w={w} n={n} onPlayer={(id) => openProfile(id)} />)}
+                </Card>
+              );
+            })()}
             {news.length > 0 && (
               <Card title="최근 소식" action={<ActionLink onClick={() => setTab('inbox')}>받은편지함</ActionLink>}>
                 {news.map((e, i) => { const d = describe(e, w); return (

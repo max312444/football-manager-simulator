@@ -3,7 +3,7 @@ import { create } from 'zustand';
 import type { SearchPreset } from '../engine/analysis';
 
 export type Screen = 'title' | 'newgame' | 'hub';
-export type HubTab = 'home' | 'inbox' | 'squad' | 'tactics' | 'schedule' | 'table' | 'transfers' | 'finance' | 'club';
+export type HubTab = 'home' | 'inbox' | 'news' | 'squad' | 'tactics' | 'schedule' | 'table' | 'transfers' | 'finance' | 'club';
 
 interface AppState {
   screen: Screen;

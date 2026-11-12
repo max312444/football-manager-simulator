@@ -16,6 +16,7 @@ const PATHS: Record<string, string> = {
   settings: 'M12 15.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4zM19.4 13.5l1.4 1.1-1.6 2.8-1.7-.6a7 7 0 0 1-1.8 1l-.3 1.8h-3.2l-.3-1.8a7 7 0 0 1-1.8-1l-1.7.6-1.6-2.8 1.4-1.1a7 7 0 0 1 0-2.1L4.8 9.4l1.6-2.8 1.7.6a7 7 0 0 1 1.8-1L10.2 4.4h3.2l.3 1.8a7 7 0 0 1 1.8 1l1.7-.6 1.6 2.8-1.4 1.1a7 7 0 0 1 0 2.1z',
   help: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.5v.7M12 17h.01',
   bell: 'M6 16V11a6 6 0 1 1 12 0v5l1.5 2h-15zM10 20.5h4',
+  news: 'M5 5h11v14H6a1 1 0 0 1-1-1zM16 9h3v9a1 1 0 0 1-1 1h-2M8 9h5M8 12.5h5M8 16h3',
 };
 
 export function Icon({ name, size = 18, className = '' }: { name: keyof typeof PATHS | string; size?: number; className?: string }) {

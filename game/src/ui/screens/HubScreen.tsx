@@ -28,9 +28,10 @@ import { RetireNews } from '../components/RetireNews';
 import { SearchModals } from '../components/SearchModals';
 import { RenewalRequests } from '../components/RenewalRequests';
 import { DeadlineAlert } from '../components/DeadlineAlert';
+import { NewsView } from '../views/NewsView';
 
 const TITLES: Record<HubTab, string> = {
-  home: '홈', inbox: '받은편지함', squad: '선수단', tactics: '전술', schedule: '일정',
+  home: '홈', inbox: '받은편지함', news: '뉴스', squad: '선수단', tactics: '전술', schedule: '일정',
   table: '순위', transfers: '이적', finance: '재정', club: '구단',
 };
 
@@ -42,7 +43,7 @@ export function HubScreen() {
   const closeCeremony = useGame((s) => s.closeCeremony);
   const view = {
     home: <HomeView />, squad: <SquadView />, table: <TableView />, schedule: <ScheduleView />,
-    inbox: <InboxView />, finance: <FinanceView />, club: <ClubView />, tactics: <TacticsView />, transfers: <TransfersView key={preset ? preset.label + preset.minOvr : 'free'} />,
+    inbox: <InboxView />, news: <NewsView />, finance: <FinanceView />, club: <ClubView />, tactics: <TacticsView />, transfers: <TransfersView key={preset ? preset.label + preset.minOvr : 'free'} />,
   }[tab as string];
 
   return (

@@ -337,6 +337,8 @@ export interface World {
   deadlineAlert?: import('./bosman').DeadlineAlert;
   /** 급매물: 강제 매각 · 강등 조항 발동 (firesale.ts) · 강제 매각을 정한 이적시장 */
   bargains?: import('./firesale').Bargain[];
+  /** 뉴스 · 이적 소문 (news.ts, 최근 250개) */
+  news?: import('./news').NewsItem[];
   fireSaleKey?: string;
   /** 화면에 보여줄 은퇴 소식 (시즌 전환 때) */
   pendingNews?: RetireNews[];

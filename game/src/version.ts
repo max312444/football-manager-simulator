@@ -1,12 +1,17 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 아래 CHANGELOG 맨 위에 한 줄 요약을 넣고, README 개발 현황에도 적는다
 //  첫 화면은 새 버전을 처음 본 뒤 24시간 동안 '업데이트 소식'을 보여 준다 (UpdateNotes.tsx)
-export const GAME_VERSION = '0.13.1';
+export const GAME_VERSION = '0.14';
 
 export interface ChangeEntry { version: string; date: string; items: string[] }
 
 /** 업데이트 내역 (새 것이 위). 플레이어가 읽는 글이므로 쉬운 말로 */
 export const CHANGELOG: ChangeEntry[] = [
+  { version: '0.14', date: '2026-11-12', items: [
+    '뉴스 메뉴: 큰 이적 · 바이아웃 · 보스만 · 급매물 · 감독 교체 · 데드라인 데이 결산',
+    '이적 소문: 출처 신뢰도(★1~5)가 높을수록 사실일 가능성이 큽니다 · 결과는 사실로 확인 / 무산',
+    '내 선수에 대한 소문은 실제 영입 제안으로 이어질 수 있습니다 · 홈 화면에 진행 중인 소문',
+  ] },
   { version: '0.13.1', date: '2026-11-12', items: [
     "설정 창 '업데이트 내역' 탭에서 지금까지의 업데이트를 모두 볼 수 있습니다",
   ] },
