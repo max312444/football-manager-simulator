@@ -18,6 +18,7 @@ import { PosTag } from './bits';
 import { money } from '../format';
 import { buyoutOf, buyoutOptions, buyoutWageFactor } from '../../engine/clauses';
 import { bosmanEligible } from '../../engine/bosman';
+import { bargainOf, relClauseOf } from '../../engine/firesale';
 import type { World } from '../../engine/types';
 
 /** 계약에 거는 바이아웃 선택 (낮을수록 선수가 주급을 덜 요구 · 다른 구단이 내고 데려가기 쉬움) */
@@ -48,6 +49,8 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
   const [clause, setClause] = useState(() => defaultBuyout(w, p));
   const demand = Math.round(wageDemand(w, p) * buyoutWageFactor(w, p, clause) / 500) * 500;
   const theirClause = club ? buyoutOf(w, p) : 0;
+  const bargain = club ? bargainOf(w, p) : null;   // 급매물 (강제 매각 · 강등 조항 발동)
+  const relClause = club && !bargain ? relClauseOf(w, p) : 0;
   const [stage, setStage] = useState<'fee' | 'contract'>(fa || talk?.agreed != null ? 'contract' : 'fee');
   const [fee, setFee] = useState(Math.round((talk?.agreed ?? value * 0.9) / 1e5) / 10);
   const [wage, setWage] = useState(Math.round(demand / 1000));
@@ -58,6 +61,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
     bosman ? { who: 'sys', text: `계약이 이번 시즌 끝에 끝나는 선수입니다 (보스만). 이적료 없이 사전 계약하면 ${p.contract?.slice(0, 4)}년 7월에 합류합니다.` }
       : fa ? { who: 'sys', text: '자유계약 선수입니다. 이적료 없이 주급과 계약 기간만 협상하면 됩니다.' }
       : talk?.agreed != null ? { who: 'sys', text: `${clubKo(club!)}와 이적료 ${money(talk.agreed)}에 합의한 상태입니다. 선수와 개인 계약을 협상하세요.` }
+      : bargainOf(w, p) ? { who: 'sys', tone: 'warn', text: bargainOf(w, p)!.kind === 'fire' ? `${clubKo(club!)}가 재정 위기로 ${money(bargainOf(w, p)!.price)}에 내놓은 선수입니다 (시장 가치보다 싸게). 이 금액이면 핵심 선수라도 보냅니다.` : `강등 조항이 발동한 선수입니다. ${money(bargainOf(w, p)!.price)}이면 ${clubKo(club!)}는 거절할 수 없습니다.` }
       : { who: 'sys', text: `${clubKo(club!)}에 이적료를 제안하세요. 구단이 원하는 금액은 알려지지 않았습니다.` },
     ...(talkBanned(w, p.id) ? [{ who: 'sys' as Who, tone: 'bad' as const, text: '이미 협상이 결렬된 선수입니다. 이번 이적시장 동안은 다시 협상할 수 없습니다.' }] : []),
   ]);
@@ -142,6 +146,13 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
                 </label>
                 <button onClick={() => sendFee()} className="h-11 rounded-lg bg-neon px-6 max-sm:flex-1 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d]">제안</button>
               </div>
+              {bargain && (
+                <button onClick={() => { setFee(bargain.price / 1e6); sendFee(bargain.price / 1e6); }} disabled={bargain.price > w.clubs[w.userClubId].finance.transferBudget}
+                  className="h-10 w-full rounded-lg border border-red/50 text-[13px] font-semibold text-red transition-colors hover:bg-red/10 disabled:border-line disabled:text-lo">
+                  {bargain.kind === 'fire' ? '강제 매각가' : '강등 조항'} {money(bargain.price)} 제안{bargain.price > w.clubs[w.userClubId].finance.transferBudget ? ' (이적 예산 부족)' : ''}
+                </button>
+              )}
+              {relClause > 0 && <div className="text-[12px] text-amber">강등 조항: {clubKo(club!)}가 강등되면 {money(relClause)}에 거절할 수 없는 이적이 가능해집니다</div>}
               {theirClause > 0 && (
                 <button onClick={() => { setFee(theirClause / 1e6); sendFee(theirClause / 1e6); }} disabled={theirClause > w.clubs[w.userClubId].finance.transferBudget}
                   title="바이아웃 금액을 내면 구단은 거절할 수 없습니다 (선수 동의는 따로)"

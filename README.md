@@ -134,6 +134,11 @@ cd game && npm run history                 # 선수 이력 (data-public/history/
 > 버전: `game/src/version.ts` (첫 화면 표시). 기능 추가 +0.1 · 작은 수정 +0.0.1, 바꿀 때마다 여기에 적는다.
 > 같은 파일의 `CHANGELOG` 맨 위에 플레이어용 한 줄 요약도 넣는다 → 첫 화면 '업데이트 소식' (새 버전을 처음 본 뒤 24시간 표시, `UpdateNotes.tsx`).
 
+0. **v0.13 급매물: 강제 매각 · 강등 조항** (2026-11-12)
+   - `engine/firesale.ts` · `w.bargains`: 이적시장이 열린 첫날 (`fireSaleKey`) 선수단 비용이 재정 규정 한도의 115% 이상인 AI 구단은 상위 1명 (130% 이상 2명, 32세 이하)을 가치 70~80%에 매물. 측정: 2024-25 → 2025-26 새 시즌 직후 한도 10% 이상 초과 약 10곳, 시즌 중 0곳 (AI 는 한도 안에서만 영입).
+   - 강등 조항 `relClauseOf`: 1부 명성 하위 40% 구단의 상위 3명 중 60%, 가치 ×0.8~1.2. 시즌 전환 때 `fixRelClauses` (리그 바뀌기 전) → `triggerRelClauses` (1부에서 떨어진 구단) → 여름 이적시장 급매물 (한 번 발동하면 끝).
+   - `evaluateBid` · `askingPrice`: 급매물이면 그 가격 (핵심 선수 · 인원 규칙 없음, 85% 이상이면 역제안). `bargainDay`: AI 구단 하루 2.5% (첫날 제외), 마감 · 소속 변경 정리. 받은편지함 `bargain`.
+   - 화면: 이적 화면 '강제 매각 −N%' · '강등 조항 발동' · '강등 조항' 표시, 리그 필터 '급매물', 협상 창 안내 · '강제 매각가 / 강등 조항 제안' 버튼, 선수 정보 강등 조항, 도움말.
 0. **v0.12 데드라인 데이 · 보스만 룰** (2026-11-12)
    - `engine/bosman.ts`: `deadlineCheck` (하루 넘긴 뒤 마감 3일 전 · 당일이면 `w.deadlineAlert` → `advanceToUserMatch` 멈춤 · `DeadlineAlert` 팝업), 마감 당일 AI 영입 확률 ×3 (`aiTransferDay`).
    - 보스만: `inFinalMonths` (계약이 시즌 끝 · 1월 1일부터) + `bosmanEligible` (다른 나라 구단만) → `signPrecontract` (`p.precontract`), 시즌 전환 때 `joinPrecontract` (이적료 0). 사전 계약 선수는 이적 불가 · 재계약 불가 · 제안 없음. `aiBosmanDay`: 1월 2일부터 재계약 안 한 내 선수에게 해외 구단 하루 1%.

@@ -82,6 +82,9 @@ export interface PlayerState {
   buyout?: number;
   buyoutClub?: string;
   /** 보스만 사전 계약: 계약이 끝나면 이 구단으로 (bosman.ts) */
+  /** 강등 조항 금액 (0 = 없음) · 정한 구단 (firesale.ts) */
+  relClause?: number;
+  relClub?: string;
   precontract?: { club: string; wage: number; years: number; date: string; role?: import('./roles').Role; buyout?: number };
   /** 이적료 상각 (연, 유로) = 이적료 ÷ 계약 연수. 계약이 끝나거나 떠나면 없어짐 */
   amort?: number;
@@ -237,6 +240,8 @@ export type GameEvent =
   | { type: 'buyout'; date: string; player: string; to: string; fee: number }
   /** 보스만 사전 계약 (내 선수가 해외 구단과 · 또는 내가 영입) */
   | { type: 'bosman'; date: string; player: string; to: string; mine: boolean }
+  /** 급매물 (강제 매각 · 강등 조항 발동) 소식 */
+  | { type: 'bargain'; date: string; players: string[] }
   | { type: 'retire'; date: string; player: string; club: string | null; season: string }
   | { type: 'contract'; date: string; players: string[]; until: string }
   | { type: 'renewed'; date: string; players: string[] }
@@ -330,6 +335,9 @@ export interface World {
   pendingRenewals?: { player: string; reason: string }[];
   /** 이적시장 마감 알림 (데드라인 데이 팝업, bosman.ts) */
   deadlineAlert?: import('./bosman').DeadlineAlert;
+  /** 급매물: 강제 매각 · 강등 조항 발동 (firesale.ts) · 강제 매각을 정한 이적시장 */
+  bargains?: import('./firesale').Bargain[];
+  fireSaleKey?: string;
   /** 화면에 보여줄 은퇴 소식 (시즌 전환 때) */
   pendingNews?: RetireNews[];
   /** 감독 (사용자): 계약 · 이사회 신뢰도 · 제안 · 경력 */

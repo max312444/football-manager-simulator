@@ -3,6 +3,7 @@ import { coachDay } from './coaches';
 import { scoutDay, scoutMatch } from './scout';
 import { aiLoanDay } from './loan';
 import { aiBosmanDay, deadlineCheck } from './bosman';
+import { bargainDay } from './firesale';
 import { autoResolve } from './autoResolve';
 import type { ClubSeasonFile } from '../data/types';
 import type { ClubState, Competition, Fixture, GameEvent, Hidden, PlayerState, Tactics, World } from './types';
@@ -312,6 +313,7 @@ export function advanceDay(w: World): GameEvent[] {
   events.push(...aiTransferDay(w, rng));
   events.push(...aiLoanDay(w, rng));   // AI 구단 유망주 임대
   events.push(...aiBosmanDay(w, rng));   // 해외 구단의 내 선수 보스만 사전 계약
+  events.push(...bargainDay(w, rng));   // 급매물: 강제 매각 · 강등 조항
   events.push(...traitMonth(w, rng));
   events.push(...managerDay(w, rng));
   events.push(...coachDay(w, rng));     // AI 구단 감독: 신뢰도 · 경질 · 공석이면 나에게 제안

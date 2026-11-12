@@ -10,6 +10,7 @@
 import { coachSeasonEnd } from './coaches';
 import { endLoans } from './loan';
 import { joinPrecontract } from './bosman';
+import { fixRelClauses, triggerRelClauses } from './firesale';
 import type { AttrKey } from '../data/types';
 import type { ClubState, PlayerState, RetireNews, SeasonRecord, World } from './types';
 import type { SeasonInput } from './world';
@@ -145,6 +146,7 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   const prevLevel = new Map(Object.values(w.clubs).map((c) => [c.id, levelOf(c.league)]));
   const handled = new Set<string>();
   const byRep = (ids: string[]) => [...ids].sort((a, b) => (w.clubs[b]?.reputation ?? 0) - (w.clubs[a]?.reputation ?? 0));
+  fixRelClauses(w);   // 강등 조항: 리그가 바뀌기 전에 정해 둔다
   for (const [nation, [top, second]] of Object.entries(PAIRS)) {
     const T = w.competitions[top];
     if (!T) continue;
@@ -270,6 +272,8 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
     if (club.id !== w.userClubId) seasonBudgets(club, fin);
     else report.board = { ...boardReview(w, fin, to), prize: w.lastPrize ?? 0 };
   }
+  // 강등 조항 발동: 1부에서 떨어진 구단 선수 → 여름 이적시장 급매물
+  triggerRelClauses(w, Object.values(w.clubs).filter((c) => prevLevel.get(c.id) === 1 && levelOf(c.league) > 1).map((c) => c.id), to);
 
   // ── 선수 ────────────────────────────────────────
   const news: RetireNews[] = [];

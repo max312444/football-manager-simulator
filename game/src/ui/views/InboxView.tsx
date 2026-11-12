@@ -30,6 +30,10 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       return { tag: '이적', tone: 'text-red', title: `${clubKo(e.to)}${josa(clubKo(e.to), '이', '가')} ${name}의 바이아웃을 냈습니다`, body: `바이아웃 ${money(e.fee)} · 계약 조항이라 거절할 수 없어 선수가 팀을 떠났습니다 (바이아웃은 재계약 때 높일 수 있습니다)` };
     }
+    case 'bargain': {
+      const list = e.players.map((id) => { const p = w.players[id]; const b = p ? (w.bargains ?? []).find((x) => x.player === id) : null; return p ? `${playerKo(id, p.name)}${b ? ` (${clubKo(b.club)} · ${money(b.price)})` : ''}` : id; });
+      return { tag: '이적', tone: 'text-amber', title: `급매물 ${e.players.length}명 · 강제 매각 · 강등 조항`, body: `${list.join(', ')} · 이적 화면 '급매물' 필터에서 확인하세요 (이적시장이 끝나면 사라집니다)` };
+    }
     case 'bosman': {
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       if (e.to === w.userClubId) return { tag: '이적', tone: 'text-neon', title: `${name} 사전 계약 (보스만)`, body: '이적료 없이 계약했습니다 · 지금 계약이 끝나는 7월에 합류합니다' };

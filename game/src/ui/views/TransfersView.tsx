@@ -19,6 +19,7 @@ import { Crest } from '../components/Crest';
 import { PosTag } from '../components/bits';
 import { koDate, money } from '../format';
 import { bosmanEligible, deadlineLeft, inFinalMonths } from '../../engine/bosman';
+import { bargainOf, relClauseOf } from '../../engine/firesale';
 import { useApp } from '../../store/app';
 import { analyzeClub, searchPreset } from '../../engine/analysis';
 import type { Position } from '../../data/types';
@@ -66,7 +67,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
     else if (tab === 'mine') ps = [...club.squad, ...(club.loanedOut ?? [])].map((id) => w.players[id]).filter(Boolean);
     else {
       ps = Object.values(w.players).filter((p) => !p.retired && p.clubId !== w.userClubId
-        && (clubPick ? p.clubId === clubPick : league === 'ALL' || (league === 'FA' ? !p.clubId : league === 'BOSMAN' ? bosmanEligible(w, p, w.userClubId) : p.clubId && w.clubs[p.clubId]?.league === league)));
+        && (clubPick ? p.clubId === clubPick : league === 'ALL' || (league === 'FA' ? !p.clubId : league === 'BOSMAN' ? bosmanEligible(w, p, w.userClubId) : league === 'BARGAIN' ? !!bargainOf(w, p) : p.clubId && w.clubs[p.clubId]?.league === league)));
       ps = ps.filter((p) => (posSet ? posSet.positions.includes(p.pos) : pos.length ? pos.includes(p.pos) : group === 'ALL' || posGroup(p.pos) === group) && ageOn(p.birth, w.date) <= maxAge && seenOverall(w, p)[1] >= minOvr
         && (!q || name(p).includes(q) || p.name.toLowerCase().includes(q.toLowerCase())));
       if (maxValue) ps = ps.filter((p) => marketValue(w, p) <= maxValue);
@@ -150,6 +151,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
               {Object.keys(w.competitions).map((id) => <option key={id} value={id}>{compKo(id) ?? id}</option>)}
               <option value="FA">자유계약 (FA)</option>
               <option value="BOSMAN">보스만 (사전 계약 가능)</option>
+              <option value="BARGAIN">급매물 (강제 매각 · 강등 조항)</option>
             </select>
             <label className="flex items-center gap-2 text-lo">나이 ≤ <input type="number" value={maxAge} min={16} max={45} onChange={(e) => setMaxAge(+e.target.value || 40)} className="tnum h-9 w-16 rounded-lg border border-line bg-ink-850 px-2 text-hi" /></label>
             <label className="flex items-center gap-2 text-lo">능력 ≥ <input type="number" value={minOvr} min={40} max={95} onChange={(e) => setMinOvr(+e.target.value || 0)} className="tnum h-9 w-16 rounded-lg border border-line bg-ink-850 px-2 text-hi" /></label>
@@ -228,6 +230,8 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
                       {listed.has(p.id) && <span className="ml-2 rounded bg-amber/15 px-1 text-[11px] text-amber">이적 명단</span>}
                       {p.loan && <span className="ml-2 rounded bg-sky/15 px-1 text-[11px] text-sky">{p.loan.from === w.userClubId ? '임대 보냄' : p.clubId === w.userClubId ? '임대 영입' : '임대 중'}</span>}
                       {shortlist.includes(p.id) && tab !== 'shortlist' && <span className="ml-2 text-[11px] text-neon">관심</span>}
+                      {(() => { const b = bargainOf(w, p); if (b) return <span title={b.kind === 'fire' ? `재정 위기로 시장 가치보다 싸게 내놓음 · ${money(b.price)} · ${koDate(b.until)}까지` : `강등 조항 발동 · ${money(b.price)}이면 구단이 거절할 수 없음 · ${koDate(b.until)}까지`} className="ml-2 rounded bg-red/15 px-1 text-[11px] font-semibold text-red">{b.kind === 'fire' ? `강제 매각 −${Math.round((b.cut ?? 0.25) * 100)}%` : '강등 조항 발동'}</span>;
+                        const rc = p.clubId && p.clubId !== w.userClubId ? relClauseOf(w, p) : 0; return rc ? <span title={`소속 구단이 강등되면 ${money(rc)}에 거절할 수 없는 이적이 가능해집니다`} className="ml-2 rounded bg-amber/15 px-1 text-[11px] text-amber">강등 조항</span> : null; })()}
                       {p.precontract ? <span title={`${clubKo(p.precontract.club)}와 사전 계약 · 시즌 끝에 합류`} className="ml-2 rounded bg-red/15 px-1 text-[11px] font-semibold text-red">사전 계약 → {clubKo(p.precontract.club)}</span>
                         : bosmanEligible(w, p, w.userClubId) ? <span title="계약 마지막 6개월 · 다른 나라 구단이라 이적료 없이 사전 계약할 수 있습니다 (7월 합류)" className="ml-2 rounded bg-neon-ghost px-1 text-[11px] font-semibold text-neon">보스만</span>
                         : p.clubId !== w.userClubId && inFinalMonths(w, p) ? <span title="이번 시즌 끝에 계약 만료 (같은 나라 구단은 사전 계약 불가 · 7월 자유계약)" className="ml-2 rounded bg-amber/15 px-1 text-[11px] text-amber">계약 만료 예정</span> : null}

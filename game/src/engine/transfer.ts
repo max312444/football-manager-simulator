@@ -10,6 +10,7 @@ import { book } from './finance';
 import { WAGE_SLACK, ruleWageRoom, withinRules } from './rules';
 import { youthIntake } from './youth';
 import { aiBuyoutRaids, buyoutOf, buyoutWageFactor } from './clauses';
+import { bargainOf } from './firesale';
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 const addDays = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
@@ -153,6 +154,8 @@ export interface BidResult { decision: 'accept' | 'counter' | 'reject'; ask: num
 
 /** 파는 구단이 부르는 가격 */
 export function askingPrice(w: World, p: PlayerState): number {
+  const bg = bargainOf(w, p);
+  if (bg) return bg.price;   // 급매물: 내놓은 가격
   const rank = rankInClub(w, p);
   const mult = rank <= 3 ? 1.6 : rank <= 8 ? 1.3 : rank <= 15 ? 1.1 : 0.9;
   const listed = (w.transferList ?? []).includes(p.id) ? 0.85 : 1;
@@ -166,6 +169,13 @@ export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number
   if (p.precontract) return { decision: 'reject', ask: 0, reason: '이미 다른 구단과 사전 계약(보스만)한 선수입니다' };
   const clause = buyoutOf(w, p);
   if (clause > 0 && fee >= clause) return { decision: 'accept', ask: clause, reason: '바이아웃 금액을 냈습니다. 구단은 거절할 수 없습니다' };
+  // 급매물 (강제 매각 · 강등 조항 발동): 핵심 선수 · 선수단 인원 규칙 없이 그 가격이면 판다
+  const bg = bargainOf(w, p);
+  if (bg) {
+    const why = bg.kind === 'fire' ? '재정 위기로 내놓은 선수입니다' : '강등 조항이 발동한 선수입니다';
+    if (fee >= bg.price) return { decision: 'accept', ask: bg.price, reason: `${why}. 받아들이겠습니다` };
+    return { decision: fee >= bg.price * 0.85 ? 'counter' : 'reject', ask: bg.price, reason: `${why}. ${Math.round(bg.price / 1e5) / 10}M 유로면 보내겠다고 합니다` };
+  }
   const seller = w.clubs[p.clubId];
   // 태업하며 이 구단을 지목한 선수: 단계마다 10% 싸게, 핵심 선수 규칙 없이
   const forcing = p.saga?.kind === 'move' && p.saga.target === buyer && p.saga.club === p.clubId ? p.saga.stage : 0;
