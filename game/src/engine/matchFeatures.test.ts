@@ -47,10 +47,10 @@ describe('경기 기능', () => {
   }, 60000);
 
   it('공중볼이 좋으면 세트피스 골이 늘어난다', () => {
-    const base = sim(w, f, 300, 5).set;
+    const base = sim(w, f, 600, 5).set;
     const saved = new Map<string, number | undefined>();
     for (const id of w.clubs[LIV].squad) { const p = w.players[id]; saved.set(id, p.growth.aer); p.growth.aer = (p.growth.aer ?? 0) + 15; }
-    const boosted = sim(w, f, 300, 5).set;
+    const boosted = sim(w, f, 600, 5).set;
     for (const id of w.clubs[LIV].squad) w.players[id].growth.aer = saved.get(id);
     console.log('세트피스 골', base, '→ 헤더 +15', boosted);
     expect(boosted).toBeGreaterThan(base * 1.15);

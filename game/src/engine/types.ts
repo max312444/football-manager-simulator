@@ -156,6 +156,8 @@ export interface ClubState {
   sales?: number;
   /** 임대 보낸 선수 (주급 분담 계산용) */
   loanedOut?: string[];
+  /** 주장 (지정하지 않으면 리더십이 가장 높은 선수, chemistry.ts) */
+  captain?: string;
   /** AI 구단 감독 신뢰도 (coaches.ts) */
   coach?: import('./coaches').Coach;
   /** 시설 수준 1~5 (훈련장 · 유스) · 경기장 수용 인원 (데이터, 시즌마다 갱신) */
@@ -242,6 +244,8 @@ export type GameEvent =
   | { type: 'bosman'; date: string; player: string; to: string; mine: boolean }
   /** 급매물 (강제 매각 · 강등 조항 발동) 소식 */
   | { type: 'bargain'; date: string; players: string[] }
+  /** 라커룸 (불만이 퍼짐 · 팀 미팅 결과) */
+  | { type: 'locker'; date: string; kind: 'unrest' | 'meetingOk' | 'meetingBad'; players: string[] }
   | { type: 'retire'; date: string; player: string; club: string | null; season: string }
   | { type: 'contract'; date: string; players: string[]; until: string }
   | { type: 'renewed'; date: string; players: string[] }
@@ -339,6 +343,9 @@ export interface World {
   bargains?: import('./firesale').Bargain[];
   /** 뉴스 · 이적 소문 (news.ts, 최근 250개) */
   news?: import('./news').NewsItem[];
+  /** 라커룸: 다음 불만 알림 가능일 · 마지막 팀 미팅 */
+  lockerWarn?: string;
+  lastMeeting?: string;
   fireSaleKey?: string;
   /** 화면에 보여줄 은퇴 소식 (시즌 전환 때) */
   pendingNews?: RetireNews[];

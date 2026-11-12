@@ -5,6 +5,7 @@ import { aiLoanDay } from './loan';
 import { aiBosmanDay, deadlineCheck } from './bosman';
 import { bargainDay } from './firesale';
 import { newsDay } from './news';
+import { chemistry, chemMult, lockerDay } from './chemistry';
 import { autoResolve } from './autoResolve';
 import type { ClubSeasonFile } from '../data/types';
 import type { ClubState, Competition, Fixture, GameEvent, Hidden, PlayerState, Tactics, World } from './types';
@@ -178,6 +179,7 @@ export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?
     bigMatch: h.reputation >= 80 && a.reputation >= 80,
     commentary: f.home === w.userClubId || f.away === w.userClubId,   // 문자 중계는 내 경기만
     homeFam: famOf(h, hp.lineup.formation), awayFam: famOf(a, ap.lineup.formation),
+    homeChem: chemMult(chemistry(w, f.home).total), awayChem: chemMult(chemistry(w, f.away).total),
     manualSide: opts.manualSide,
   }, { players: w.players, rng });
 }
@@ -355,6 +357,7 @@ export function advanceDay(w: World): GameEvent[] {
   financeDay(w);
   boostMonth(w);
   events.push(...newsDay(w, events, rng));   // 뉴스 · 이적 소문 (실제로 추진하는 소문은 이적 시도)
+  lockerDay(w);   // 라커룸: 불만 전염 · 주장
   contractCheck(w);
   w.date = addDay(today);
   w.rng = rng.state();

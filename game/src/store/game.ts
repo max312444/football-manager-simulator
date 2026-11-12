@@ -28,6 +28,7 @@ import type { RetireNews, TransferOffer } from '../engine/types';
 import { applyRenewal, evaluateRenewal } from '../engine/contract';
 import { buyoutMandatory, setBuyout } from '../engine/clauses';
 import { bosmanEligible, signPrecontract } from '../engine/bosman';
+import { meetingReady, teamMeeting } from '../engine/chemistry';
 const addDaysIso = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
 import { CUSTOM_MARK, formationShape, guessFormation, matchRules, MAX_CUSTOM, pickLineup, registerFormations, validateFormation } from '../engine/squad';
 import type { Position } from '../data/types';
@@ -144,6 +145,8 @@ interface GameStore {
   /** 내 선수 재계약 제안 */
   precontract(playerId: string, wage: number, years: number, role?: Role, clause?: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   clearDeadline(): void;
+  setCaptain(playerId: string | null): void;
+  holdMeeting(): { ok: boolean; text: string };
   renew(playerId: string, wage: number, years: number, clause?: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
   /** 개인 계약 제안 (이적료는 합의된 금액, 자유계약은 0) */
   sign(playerId: string, wage: number, years: number, role?: Role, clause?: number): { ok: boolean; reason: string; left?: number; broken?: boolean };
@@ -661,6 +664,20 @@ export const useGame = create<GameStore>((set, get) => {
       w.inbox.push({ type: 'bosman', date: w.date, player: p.id, to: w.userClubId, mine: true });
       autosave(w); bump();
       return { ok: true, reason: '사전 계약을 맺었습니다 · 7월에 합류합니다' };
+    },
+
+    setCaptain(playerId) {
+      const w = get().world!;
+      w.clubs[w.userClubId].captain = playerId ?? undefined;
+      autosave(w); bump();
+    },
+    holdMeeting() {
+      const w = get().world!;
+      if (!meetingReady(w)) return { ok: false, text: '팀 미팅은 30일에 한 번만 열 수 있습니다' };
+      const r = teamMeeting(w, createRng((w.rng ^ 0x7ea3) >>> 0));
+      w.inbox.push({ type: 'locker', date: w.date, kind: r.ok ? 'meetingOk' : 'meetingBad', players: [] });
+      autosave(w); bump();
+      return r;
     },
 
     clearDeadline() {

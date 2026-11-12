@@ -30,6 +30,11 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       return { tag: '이적', tone: 'text-red', title: `${clubKo(e.to)}${josa(clubKo(e.to), '이', '가')} ${name}의 바이아웃을 냈습니다`, body: `바이아웃 ${money(e.fee)} · 계약 조항이라 거절할 수 없어 선수가 팀을 떠났습니다 (바이아웃은 재계약 때 높일 수 있습니다)` };
     }
+    case 'locker': {
+      const names = e.players.map((id) => playerKo(id, w.players[id]?.name ?? id)).join(', ');
+      if (e.kind === 'unrest') return { tag: '라커룸', tone: 'text-red', title: `${names}의 불만이 라커룸에 퍼지고 있습니다`, body: '영향력 있는 선수의 불만이라 선수단 사기가 조금씩 떨어집니다 · 출전 기회 · 대화 · 팀 미팅으로 풀어 보세요 (선수단 화면 라커룸)' };
+      return { tag: '라커룸', tone: e.kind === 'meetingOk' ? 'text-neon' : 'text-amber', title: e.kind === 'meetingOk' ? '팀 미팅 성공 · 선수단 사기 +6' : '팀 미팅 역효과 · 선수단 사기 −4' };
+    }
     case 'bargain': {
       const list = e.players.map((id) => { const p = w.players[id]; const b = p ? (w.bargains ?? []).find((x) => x.player === id) : null; return p ? `${playerKo(id, p.name)}${b ? ` (${clubKo(b.club)} · ${money(b.price)})` : ''}` : id; });
       return { tag: '이적', tone: 'text-amber', title: `급매물 ${e.players.length}명 · 강제 매각 · 강등 조항`, body: `${list.join(', ')} · 이적 화면 '급매물' 필터에서 확인하세요 (이적시장이 끝나면 사라집니다)` };

@@ -129,7 +129,7 @@ function rollDayForm(p: PlayerState, rng: Rng, bigMatch: boolean): { factor: num
   return { factor: f, z };
 }
 
-function team(clubId: string, lineup: Lineup, tactics: Tactics, maxSubs: number, ctx: MatchCtx, bigMatch: boolean, manual: boolean, fam = 75): TeamInMatch {
+function team(clubId: string, lineup: Lineup, tactics: Tactics, maxSubs: number, ctx: MatchCtx, bigMatch: boolean, manual: boolean, fam = 75, chem = 1): TeamInMatch {
   const ins = tactics.instr?.formation === lineup.formation ? tactics.instr.list : [];
   const onPitch = lineup.starters.map(({ id, slot }, i) => {
     const p = ctx.players[id];
@@ -141,17 +141,17 @@ function team(clubId: string, lineup: Lineup, tactics: Tactics, maxSubs: number,
   return {
     clubId, tactics: { ...tactics, formation: lineup.formation }, onPitch, bench: [...lineup.bench], subsUsed: 0, maxSubs, sentOff: [],
     played, exitFitness: {}, goals: 0, shots: 0, onTarget: 0, xg: 0, possSum: 0, manual,
-    famMult: 0.94 + 0.06 * (Math.max(0, Math.min(100, fam)) / 100),
+    famMult: (0.94 + 0.06 * (Math.max(0, Math.min(100, fam)) / 100)) * chem,   // 포메이션 숙련도 × 팀 케미 (chemistry.ts)
   };
 }
 
 export function createMatch(
-  args: { home: string; away: string; homeLineup: Lineup; awayLineup: Lineup; homeTactics: Tactics; awayTactics: Tactics; maxSubs: number; bigMatch?: boolean; manualSide?: Side; homeFam?: number; awayFam?: number; commentary?: boolean },
+  args: { home: string; away: string; homeLineup: Lineup; awayLineup: Lineup; homeTactics: Tactics; awayTactics: Tactics; maxSubs: number; bigMatch?: boolean; manualSide?: Side; homeFam?: number; awayFam?: number; homeChem?: number; awayChem?: number; commentary?: boolean },
   ctx: MatchCtx,
 ): MatchState {
   const bigMatch = !!args.bigMatch;
-  const home = team(args.home, args.homeLineup, args.homeTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'home', args.homeFam);
-  const away = team(args.away, args.awayLineup, args.awayTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'away', args.awayFam);
+  const home = team(args.home, args.homeLineup, args.homeTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'home', args.homeFam, args.homeChem);
+  const away = team(args.away, args.awayLineup, args.awayTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'away', args.awayFam, args.awayChem);
   const m: MatchState = {
     segment: 0, home, away, bigMatch, done: false,
     summary: {
