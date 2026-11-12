@@ -5,7 +5,8 @@ import type { AttrKey, Position } from '../data/types';
 import type { Instr, MatchSummary, PlayerState, Side, Tactics } from './types';
 import type { Rng } from './rng';
 import { attr, playerFamiliarity, fitnessFactor, preMatchFactor, slotRating } from './ratings';
-import type { Lineup } from './squad';
+import { FILL_ORDER, FORMATIONS, type Lineup } from './squad';
+import { commentSegment, initCommentary, type CommentaryState, type MatchNote } from './commentary';
 import { traitForm, traitMul } from './traits';
 
 export const SEGMENTS = 18;
@@ -97,6 +98,10 @@ export interface MatchState {
   summary: MatchSummary;
   bigMatch: boolean;
   done: boolean;
+  /** 문자 중계 (사용자 경기만) */
+  cm?: CommentaryState;
+  /** 중계용 메모: 전술 변경 · 페널티 실축 (경기 결과와 무관) */
+  notes?: MatchNote[];
 }
 
 export interface MatchCtx {
@@ -140,19 +145,27 @@ function team(clubId: string, lineup: Lineup, tactics: Tactics, maxSubs: number,
 }
 
 export function createMatch(
-  args: { home: string; away: string; homeLineup: Lineup; awayLineup: Lineup; homeTactics: Tactics; awayTactics: Tactics; maxSubs: number; bigMatch?: boolean; manualSide?: Side; homeFam?: number; awayFam?: number },
+  args: { home: string; away: string; homeLineup: Lineup; awayLineup: Lineup; homeTactics: Tactics; awayTactics: Tactics; maxSubs: number; bigMatch?: boolean; manualSide?: Side; homeFam?: number; awayFam?: number; commentary?: boolean },
   ctx: MatchCtx,
 ): MatchState {
   const bigMatch = !!args.bigMatch;
   const home = team(args.home, args.homeLineup, args.homeTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'home', args.homeFam);
   const away = team(args.away, args.awayLineup, args.awayTactics, args.maxSubs, ctx, bigMatch, args.manualSide === 'away', args.awayFam);
-  return {
+  const m: MatchState = {
     segment: 0, home, away, bigMatch, done: false,
     summary: {
       homeGoals: 0, awayGoals: 0, goals: [], cards: [], injuries: [], ratings: {},
       stats: { home: { shots: 0, onTarget: 0, xg: 0, possession: 50 }, away: { shots: 0, onTarget: 0, xg: 0, possession: 50 } },
     },
   };
+  if (args.commentary) {
+    // 경기 전 전력 차 (해설 판단용): 공격 · 중원 · 수비 평균 차이
+    const sh = strengths(home, ctx), sa = strengths(away, ctx);
+    const avg = (x: Record<string, number>) => (x.att + x.mid + x.def) / 3;
+    m.notes = [];
+    m.cm = initCommentary(m, avg(sh) - avg(sa));
+  }
+  return m;
 }
 
 function strengths(t: TeamInMatch, ctx: MatchCtx) {
@@ -222,8 +235,38 @@ export function substitute(m: MatchState, side: Side, outId: string, inId: strin
   return true;
 }
 
+/**
+ * 경기 중 포메이션 변경: 뛰고 있는 선수들을 새 포메이션 자리에 가장 잘 맞게 다시 배치 (골키퍼는 그대로)
+ * 퇴장 등으로 사람이 모자라면 덜 중요한 자리를 비운다. 자리별 선수 지시는 초기화
+ */
+export function setFormation(m: MatchState, side: Side, formation: string, ctx: MatchCtx): boolean {
+  const slots = FORMATIONS[formation];
+  const t = m[side];
+  if (!slots || t.tactics.formation === formation) return false;
+  const gk = t.onPitch.find((o) => o.slot === 'GK');
+  const field = t.onPitch.filter((o) => o !== gk);
+  const placed: (OnPitch | null)[] = slots.map(() => null);
+  if (gk) placed[0] = gk;
+  const used = new Set<OnPitch>();
+  const order = slots.map((s, i) => ({ s, i })).filter((x) => x.s !== 'GK').sort((a, b) => FILL_ORDER.indexOf(a.s) - FILL_ORDER.indexOf(b.s));
+  for (const { s, i } of order) {
+    let best: OnPitch | null = null, bv = -1;
+    for (const o of field) { if (used.has(o)) continue; const v = slotRating(ctx.players[o.id], s); if (v > bv) { bv = v; best = o; } }
+    if (best) { used.add(best); placed[i] = { ...best, slot: s, instr: null }; }
+  }
+  t.onPitch = placed.filter((o): o is OnPitch => !!o);
+  t.tactics = { ...t.tactics, formation };
+  m.notes?.push({ minute: m.segment * SEG_MIN, side, kind: 'formation', formation });
+  return true;
+}
+
 export function setTactics(m: MatchState, side: Side, change: Partial<Tactics>) {
+  const before = m[side].tactics;
   m[side].tactics = { ...m[side].tactics, ...change };
+  // 중계: 성향 · 압박이 바뀌면 해설이 반응
+  if (m.notes && m.segment > 0 && (change.mentality != null && change.mentality !== before.mentality || change.pressing != null && change.pressing !== before.pressing)) {
+    m.notes.push({ minute: m.segment * SEG_MIN, side, kind: 'tactic', ...(change.mentality != null && change.mentality !== before.mentality ? { mentality: change.mentality } : {}), ...(change.pressing != null && change.pressing !== before.pressing ? { pressing: change.pressing } : {}) });
+  }
 }
 
 function autoSubs(m: MatchState, side: Side, ctx: MatchCtx) {
@@ -326,6 +369,7 @@ export function step(m: MatchState, ctx: MatchCtx): void {
   m.segment++;
   for (const side of sides) autoSubs(m, side, ctx);
   if (m.segment >= SEGMENTS) finish(m, ctx);
+  if (m.cm) { const n = m.notes ?? []; commentSegment(m, ctx, n.slice(m.cm.seen.notes)); m.cm.seen.notes = n.length; }
 }
 
 // ── 세트피스 · 페널티 ──
@@ -374,7 +418,7 @@ function setPieces(m: MatchState, side: Side, ctx: MatchCtx, myAir: number, thei
     const conv = clamp(0.58 + (attr(p, 'sho') + attr(p, 'com') - 140) / 220 - (gk ? (attr(ctx.players[gk.id], 'ref') - 70) / 400 : -0.1), 0.55, 0.92);
     me.xg += 0.76;
     if (rng.chance(conv)) goalAt(m, side, pk.id, undefined, 'pen', rng);
-    else { me.shots++; if (rng.chance(0.6)) me.onTarget++; }
+    else { me.shots++; if (rng.chance(0.6)) me.onTarget++; m.notes?.push({ minute: m.segment * SEG_MIN + 3, side, kind: 'penMiss', player: pk.id }); }
   }
 }
 

@@ -171,6 +171,7 @@ export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?
     homeLineup: hp.lineup, awayLineup: ap.lineup,
     homeTactics: hp.tactics, awayTactics: ap.tactics, maxSubs: rules.maxSubs,
     bigMatch: h.reputation >= 80 && a.reputation >= 80,
+    commentary: f.home === w.userClubId || f.away === w.userClubId,   // 문자 중계는 내 경기만
     homeFam: famOf(h, hp.lineup.formation), awayFam: famOf(a, ap.lineup.formation),
     manualSide: opts.manualSide,
   }, { players: w.players, rng });

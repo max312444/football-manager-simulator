@@ -1,12 +1,17 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 아래 CHANGELOG 맨 위에 한 줄 요약을 넣고, README 개발 현황에도 적는다
 //  첫 화면은 새 버전을 처음 본 뒤 24시간 동안 '업데이트 소식'을 보여 준다 (UpdateNotes.tsx)
-export const GAME_VERSION = '0.8.2';
+export const GAME_VERSION = '0.9';
 
 export interface ChangeEntry { version: string; date: string; items: string[] }
 
 /** 업데이트 내역 (새 것이 위). 플레이어가 읽는 글이므로 쉬운 말로 */
 export const CHANGELOG: ChangeEntry[] = [
+  { version: '0.9', date: '2026-11-12', items: [
+    '경기 문자 중계: 캐스터가 장면을, 해설이 감독의 선택을 칭찬 · 비판 · 걱정합니다',
+    '하프타임: 직접 지휘하는 경기는 전반이 끝나면 멈추고, 교체 · 전술을 바꾼 뒤 후반을 시작합니다',
+    '경기 중 포메이션 변경: 뛰는 선수들을 새 포메이션 자리에 맞게 다시 배치합니다',
+  ] },
   { version: '0.8.2', date: '2026-11-12', items: [
     '새 게임 구단 목록을 로고 · 이름 · 평균 능력만으로 간단하게',
     '휴대폰: 구단을 누르면 구단 정보 · 핵심 선수가 팝업으로 뜨고, 팝업에서 바로 시작 (닫기 · 뒤로 가기로 돌아감)',

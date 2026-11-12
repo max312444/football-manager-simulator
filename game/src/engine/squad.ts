@@ -100,7 +100,7 @@ export interface Lineup {
 }
 
 // 자리 채우는 순서: 대체 선수가 귀한 자리부터
-const FILL_ORDER: Position[] = ['GK', 'ST', 'CB', 'DM', 'AM', 'LB', 'RB', 'LWB', 'RWB', 'LW', 'RW', 'LM', 'RM', 'CM'];
+export const FILL_ORDER: Position[] = ['GK', 'ST', 'CB', 'DM', 'AM', 'LB', 'RB', 'LWB', 'RWB', 'LW', 'RW', 'LM', 'RM', 'CM'];
 
 /**
  * AI 자동 선발. 자리별로 (자리 적합 능력 × 체력 보정)이 가장 높은 선수를 고른다.

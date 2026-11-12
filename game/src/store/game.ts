@@ -5,7 +5,7 @@ import { changeRole, type Role } from '../engine/roles';
 import { create } from 'zustand';
 import type { Fixture, GameEvent, Side, Tactics, World } from '../engine/types';
 import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, type SeasonInput } from '../engine/world';
-import { playToEnd, setTactics, step, substitute, type MatchState } from '../engine/match';
+import { playToEnd, setFormation, setTactics, step, substitute, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
 import { seedTraits } from '../engine/traits';
 import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, playerKo, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
@@ -153,6 +153,8 @@ interface GameStore {
   counter(offerId: string, ask: number): { result: 'accept' | 'raise' | 'reject' | 'withdraw' | 'gone'; fee: number; reason: string; done?: boolean };
   stepMatch(n?: number): void;
   changeTactics(t: Partial<Tactics>): void;
+  /** 경기 중 포메이션 바꾸기 */
+  changeFormation(formation: string): void;
   sub(outId: string, inId: string): boolean;
   setClubTactics(t: Partial<Tactics>): void;
   /** 내 포메이션 저장 (prev: 고치는 포메이션 이름) → 오류 문구 또는 null */
@@ -332,6 +334,13 @@ export const useGame = create<GameStore>((set, get) => {
       const m = get().match;
       if (!m?.state) return;
       setTactics(m.state, m.side, t);
+      bump();
+    },
+
+    changeFormation(formation) {
+      const { match: m, world: w } = get();
+      if (!m?.state || !w) return;
+      setFormation(m.state, m.side, formation, { players: w.players, rng: m.rng });
       bump();
     },
 
