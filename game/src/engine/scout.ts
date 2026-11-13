@@ -12,7 +12,13 @@ import { book, clubRevenue } from './finance';
 
 export type ScoutKind = 'player' | 'club' | 'league';
 export interface ScoutJob { kind: ScoutKind; target: string; start: string; done: string; cost: number }
-export interface ScoutState { k: Record<string, number>; jobs: ScoutJob[] }
+export interface ScoutState {
+  /** 스카우트 · 리그 관찰로 아는 정도 (그 시즌만, 새 시즌이면 비움 → 다시 확인) */
+  k: Record<string, number>;
+  jobs: ScoutJob[];
+  /** 한 번이라도 우리 구단에 있었던 선수 (떠나도 · 임대 보내도 능력치 공개, 계속 유지) */
+  ours?: Record<string, true>;
+}
 
 export const MAX_PLAYER_JOBS = 3;
 export const REPORT_K = 95;
@@ -30,6 +36,7 @@ const userLeague = (w: World) => w.clubs[w.userClubId].league;
 /** 이 선수를 얼마나 아는가 (0~100) */
 export function knowledge(w: World, p: PlayerState): number {
   if (!fogOn(w) || p.clubId === w.userClubId || !p.clubId) return 100;   // 자유계약 선수는 능력치 공개 (테스트 · 입단 테스트로 볼 수 있음)
+  if (p.loan?.from === w.userClubId || w.scout?.ours?.[p.id]) return 100;   // 임대 보낸 선수 · 한 번 우리 구단에 있었던 선수
   const base = leagueOfClub(w, p.clubId) === userLeague(w) || overall(p) >= 84 ? 40 : 20;
   return Math.max(base, w.scout?.k[p.id] ?? 0);
 }
@@ -86,6 +93,17 @@ export function startScout(w: World, kind: ScoutKind, target: string): { ok: boo
 export function cancelScout(w: World, kind: ScoutKind, target: string) {
   const s = scoutOf(w);
   s.jobs = s.jobs.filter((j) => !(j.kind === kind && j.target === target));   // 이미 쓴 비용은 돌려받지 않음
+}
+
+/** 우리 구단 선수를 기억 (떠난 뒤에도 능력치 공개). 매일 · 시즌 시작에 */
+export function rememberOurs(w: World) {
+  const s = scoutOf(w);
+  const ours = (s.ours ??= {});
+  for (const id of w.clubs[w.userClubId]?.squad ?? []) ours[id] = true;
+}
+/** 새 시즌: 스카우트 보고서 · 리그 관찰은 지난 시즌 것 → 다시 확인해야 함 (우리 구단 출신은 그대로) */
+export function scoutNewSeason(w: World) {
+  if (w.scout) w.scout.k = {};
 }
 
 /** 진행 중인 스카우트의 진행률 (0~100) · 남은 날 */

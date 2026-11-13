@@ -2,6 +2,7 @@
 //  ① 이적료: 파는 구단과 합의 (자유계약 선수는 건너뜀)
 //  ② 개인 계약: 선수와 주급 · 계약 기간 합의
 // 이적료 · 주급 각각 3번 안에 합의 못 하면 협상 결렬 → 이번 이적시장 동안 이 선수와 다시 협상 불가
+import { appealOf } from '../../engine/appeal';
 import { autoRole, ROLE_KO, ROLES, type Role } from '../../engine/roles';
 import { OvrText } from './Scout';
 import { seenOverall } from '../../engine/scout';
@@ -47,7 +48,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
   const talk = w.talks?.[p.id];
   const value = marketValue(w, p);
   const [clause, setClause] = useState(() => defaultBuyout(w, p));
-  const demand = Math.round(wageDemand(w, p) * buyoutWageFactor(w, p, clause) / 500) * 500;
+  const demand = Math.round(wageDemand(w, p, w.userClubId) * buyoutWageFactor(w, p, clause) / 500) * 500;
   const theirClause = club ? buyoutOf(w, p) : 0;
   const bargain = club ? bargainOf(w, p) : null;   // 급매물 (강제 매각 · 강등 조항 발동)
   const relClause = club && !bargain ? relClauseOf(w, p) : 0;
@@ -163,7 +164,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
             </div>
           ) : (
             <div className="space-y-3">
-              <div className="flex flex-wrap justify-between gap-x-3 text-[12px] text-lo"><span>현재 주급 <span className="tnum text-mid">{money(p.wage)}</span> · 원하는 주급 약 <span className="tnum text-mid">{money(demand)}</span></span>
+              <div className="flex flex-wrap justify-between gap-x-3 text-[12px] text-lo"><span>현재 주급 <span className="tnum text-mid">{money(p.wage)}</span> · 원하는 주급 약 <span className="tnum text-mid">{money(demand)}</span>{appealOf(w, p) && <span className="ml-1.5 rounded bg-neon/15 px-1.5 py-px text-[11px] font-semibold text-neon" title="이적 어필: 우리 구단에 오고 싶어 해서 주급을 15% 덜 요구합니다">우리 구단 희망 · 주급 −15%</span>}</span>
                 <span className={room < 0 ? 'text-red' : ''}>계약 후 주급 여유 <span className="tnum">{room < 0 ? `−${money(-room)}` : money(room)}</span></span></div>
               <div className="flex flex-wrap gap-2">
                 <label className="flex h-11 min-w-[200px] flex-1 basis-full sm:basis-[200px] items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo"><span className="shrink-0">주급</span>
@@ -175,7 +176,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
                 <select value={years} onChange={(e) => setYears(+e.target.value)} className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi max-sm:flex-1">
                   {[1, 2, 3, 4, 5].map((y) => <option key={y} value={y}>{y}년</option>)}
                 </select>
-                <BuyoutSelect w={w} p={p} value={clause} onChange={(v) => { setClause(v); setWage(Math.round(wageDemand(w, p) * buyoutWageFactor(w, p, v) / 1000)); }} />
+                <BuyoutSelect w={w} p={p} value={clause} onChange={(v) => { setClause(v); setWage(Math.round(wageDemand(w, p, w.userClubId) * buyoutWageFactor(w, p, v) / 1000)); }} />
                 <button onClick={sendContract} disabled={room < 0} className="h-11 grow rounded-lg bg-neon px-6 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">계약 제안</button>
               </div>
             </div>

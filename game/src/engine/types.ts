@@ -227,6 +227,8 @@ export type GameEvent =
   /** 스카우트 보고서: 선수 한 명 · 리그 관찰 */
   | { type: 'scout'; date: string; player?: string; club?: string; league?: string; count?: number }
   /** 관심 선수 소식 (급매물 · 자유계약 · 보스만 · 계약 만료 임박) */
+  /** 이적 어필: 우리 구단에 오고 싶다는 선수 (appeal.ts) */
+  | { type: 'appeal'; date: string; player: string; club: string; until: string }
   | { type: 'shortlist'; date: string; player: string; kind: 'bargain' | 'free' | 'bosman' | 'expiring'; club?: string | null }
   /** 감독: 제안 · 재계약 · 경질 · 이동 · 따라오는 선수 */
   /** AI 구단 감독 교체 (season: 시즌 중 경질 · end: 시즌 끝 교체), news = 받은편지함에 남길 만한 소식 */
@@ -337,6 +339,9 @@ export interface World {
   offers?: TransferOffer[];
   /** 관심 목록 */
   shortlist?: string[];
+  /** 이적 어필 (우리 구단에 오고 싶은 선수) · 시즌마다 한 번 (선수 id → 시즌) */
+  appeals?: import('./appeal').Appeal[];
+  appealSeen?: Record<string, string>;
   /** 진행 중인 영입 협상 (선수 ID별) */
   talks?: Record<string, Talk>;
   /** 협상 결렬로 이 날짜까지 다시 협상 불가 (선수 ID별) */

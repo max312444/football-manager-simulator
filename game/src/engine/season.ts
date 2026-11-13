@@ -8,6 +8,7 @@
 //  - 강등 · 승격: 실제 다음 시즌에 새로 올라온 구단 수만큼 게임 순위 하위 구단을 내린다
 //    (2부 리그는 아직 없음 → 사용자 구단이 강등권이면 잔류 처리하고 그 위 구단을 내림)
 import { coachSeasonEnd } from './coaches';
+import { rememberOurs, scoutNewSeason } from './scout';
 import { assignManagers, managerSeasonGrowth } from './managers';
 import { teamStrength } from './ai';
 import { endLoans } from './loan';
@@ -401,6 +402,8 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
 
   // 실제 다음 시즌 데이터에 내 구단이 없으면 현재 예산을 기준으로 배정
   if (!report.board) report.board = { ...boardReview(w, { ...w.clubs[w.userClubId].finance }, to), prize: w.lastPrize ?? 0 };
+  scoutNewSeason(w);   // 스카우트 보고서는 한 시즌만 → 새 시즌엔 다시 확인
+  rememberOurs(w);
   w.season = to;
   // 월드컵이 7월까지 이어졌으면 날짜를 되돌리지 않는다
   w.date = w.date > startDate ? w.date : startDate;

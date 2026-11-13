@@ -59,7 +59,7 @@ export function LoanInModal({ p, onClose }: { p: PlayerState; onClose: () => voi
   const [fee, setFee] = useState(0);
   const [deal, setDeal] = useState<Deal>('none');
   const [buy, setBuy] = useState(Math.round(buyFloor(w, p) / 1e5) / 10);
-  const [buyWage, setBuyWage] = useState(Math.round(wageDemand(w, p) / 1000));
+  const [buyWage, setBuyWage] = useState(Math.round(wageDemand(w, p, w.userClubId) / 1000));
   const [msg, setMsg] = useState<{ t: string; ok: boolean } | null>(null);
   const pick = (d: Deal) => { setDeal(d); if (d !== 'none') setBuy(Math.round(buyFloor(w, p, d === 'must') / 1e5) / 10); };
   const terms = { share, fee: Math.round(fee * 1e6), ...(deal !== 'none' ? { buy: Math.round(buy * 1e6), buyWage: buyWage * 1000, ...(deal === 'must' ? { must: true } : {}) } : {}) };
@@ -81,7 +81,7 @@ export function LoanInModal({ p, onClose }: { p: PlayerState; onClose: () => voi
           <div className="space-y-2 rounded-lg border border-line px-4 py-3">
             <Num label={`${DEAL_KO[deal]} 이적료`} value={buy} set={setBuy} unit="백만 유로" />
             <Num label="영입 후 주급" value={buyWage} set={setBuyWage} unit="천 유로" step={1} />
-            <div className="text-[12px] text-lo">최저 이적료 {money(buyFloor(w, p, deal === 'must'))} · 선수가 원하는 주급 약 {money(wageDemand(w, p))} · 영입 후 3년 계약</div>
+            <div className="text-[12px] text-lo">최저 이적료 {money(buyFloor(w, p, deal === 'must'))} · 선수가 원하는 주급 약 {money(wageDemand(w, p, w.userClubId))} · 영입 후 3년 계약</div>
           </div>
         )}
         <div className="space-y-1 rounded-lg bg-ink-900 px-4 py-3 text-[12px]">

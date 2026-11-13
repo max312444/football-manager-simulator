@@ -1,3 +1,4 @@
+import { wageDemand } from '../../engine/transfer';
 import { managerKo } from '../../data/db';
 import type { GameEvent, World } from '../../engine/types';
 import { clubKo, compKo, nationKo, playerKo } from '../../data/db';
@@ -82,6 +83,12 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const mine = (e.players ?? []).map((id) => `${playerKo(id, w.players[id]?.name ?? id)}(${nationKo(w.players[id]?.nation ?? '')})`);
       if (e.result === 'start') return { tag: '월드컵', tone: 'text-sky', title: `${e.year} ${cup} 대표 선발 · 우리 선수 ${mine.length}명`, body: mine.join(', ') };
       return { tag: '월드컵', tone: 'text-[#f2c94c]', title: `${e.year} ${cup} 우승 · ${nationKo(e.nation)}`, body: [mine.length ? `우승 멤버: ${mine.join(', ')}` : '', e.scorer ? `득점왕 ${playerKo(e.scorer, e.text ?? '')}` : e.text ?? ''].filter(Boolean).join(' · ') };
+    }
+    case 'appeal': {
+      const p = w.players[e.player];
+      const name = playerKo(e.player, p?.name ?? e.player);
+      const full = p ? wageDemand(w, p) : 0, cut = p ? wageDemand(w, p, w.userClubId) : 0;
+      return { tag: '어필', tone: 'text-neon', title: `${name}(${clubKo(e.club)}) — 우리 구단으로 오고 싶다고 연락해 왔습니다`, body: `에이전트: 주급은 덜 받아도 된다고 합니다 (원래 ${money(full)} → ${money(cut)}). 이적료는 ${clubKo(e.club)}와 협상해야 합니다 · ${e.until.slice(5).replace('-', '.')}까지 · 관심 목록에 넣어 두었습니다` };
     }
     case 'shortlist': {
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);

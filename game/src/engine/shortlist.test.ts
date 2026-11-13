@@ -4,7 +4,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createWorld, type SeasonInput } from './world';
 import { shortlistDay } from './shortlist';
-import { clubScoutTargets, knowledge, REPORT_K, scoutCost, scoutDay, scoutProgress, startScout } from './scout';
+import { clubScoutTargets, knowledge, REPORT_K, scoutCost, scoutDay, scoutNewSeason, scoutProgress, startScout } from './scout';
+import { appealDay } from './appeal';
+import { createRng } from './rng';
+import { askingPrice, completeTransfer, wageDemand } from './transfer';
 import { releasePlayer } from './transfer';
 import type { ClubSeasonFile, LeagueSeasonFile } from '../data/types';
 
@@ -68,5 +71,47 @@ describe('구단 단위 스카우트', () => {
     expect(knowledge(w, fa)).toBeLessThan(REPORT_K);
     releasePlayer(w, fa);
     expect(knowledge(w, fa)).toBe(100);   // 자유계약 선수는 공개
+  });
+});
+
+describe('관심 해제 · 이적 어필 · 스카우트 기억', () => {
+  it('영입하면 관심 목록에서 자동으로 빠진다', () => {
+    const w = createWorld(load('2025-26', ['eng1']), LIV, 91);
+    const other = Object.values(w.clubs).find((c) => c.id !== LIV)!;
+    const p = w.players[other.squad[0]];
+    w.shortlist = [p.id];
+    completeTransfer(w, p, LIV, 1e6, p.wage, 3);
+    expect(w.shortlist).toEqual([]);
+  });
+
+  it('어필: 이적시장에 우리 구단에 오고 싶은 선수가 연락 · 우리 구단엔 주급 15% 덜, 이적료는 그대로', () => {
+    const w = createWorld(load('2025-26', ['eng1', 'esp1']), LIV, 92);
+    const evs: { type: string; player?: string }[] = [];
+    for (let i = 0; i < 40 && !evs.length; i++) evs.push(...(appealDay(w, createRng(i)) as { type: string; player?: string }[]));
+    expect(evs.length).toBe(1);
+    const p = w.players[evs[0].player!];
+    expect(w.shortlist).toContain(p.id);
+    const full = wageDemand(w, p), mine = wageDemand(w, p, LIV);
+    console.log('어필 선수', p.name, w.clubs[p.clubId!].reputation, '→ 우리', w.clubs[LIV].reputation, '주급', full, '→', mine);
+    expect(mine).toBeLessThan(full * 0.9);
+    expect(wageDemand(w, p, Object.keys(w.clubs).find((id) => id !== LIV && id !== p.clubId))).toBe(full);   // 다른 구단엔 그대로
+    expect(askingPrice(w, p)).toBeGreaterThan(0);   // 이적료는 파는 구단 기준 그대로
+    // 우리 구단으로 오면 어필 · 관심 정리
+    completeTransfer(w, p, LIV, askingPrice(w, p), mine, 3);
+    expect(w.appeals?.some((a) => a.player === p.id)).toBe(false);
+  });
+
+  it('스카우트: 우리 구단 출신 · 임대 보낸 선수는 계속 공개, 스카우트 보고서는 그 시즌만', () => {
+    const w = createWorld(load('2025-26', ['eng1', 'esp1']), LIV, 93);
+    const mine = w.players[w.clubs[LIV].squad[5]];
+    const other = Object.values(w.clubs).find((c) => c.league === 'esp1')!;
+    completeTransfer(w, mine, other.id, 1e6, mine.wage, 3);   // 우리 선수를 팔아도
+    expect(knowledge(w, mine)).toBe(100);
+    const stranger = w.players[other.squad[0]];
+    w.scout!.k[stranger.id] = REPORT_K;
+    expect(knowledge(w, stranger)).toBeGreaterThanOrEqual(REPORT_K);
+    scoutNewSeason(w);
+    expect(knowledge(w, stranger)).toBeLessThan(REPORT_K);   // 새 시즌엔 다시 확인
+    expect(knowledge(w, mine)).toBe(100);
   });
 });

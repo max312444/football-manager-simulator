@@ -315,7 +315,7 @@ function Side({ p, mine, listed, shortlisted, onList, onShort, onRelease, onTalk
     <div>
       <div className="mb-3 flex justify-between text-[12px] text-lo">
         <span>{p.clubId ? <>시장 가치 <span className="tnum text-mid">{money(value)}</span></> : <span className="text-neon">자유계약 · 이적료 없음</span>}</span>
-        <span>원하는 주급 약 <span className="tnum text-mid">{money(wageDemand(w, p))}</span></span>
+        <span>원하는 주급 약 <span className="tnum text-mid">{money(wageDemand(w, p, w.userClubId))}</span></span>
       </div>
       {ban && <div className="mb-2 rounded-lg border border-red/40 bg-red/10 px-3 py-2 text-[12px] text-red">협상 결렬 · {koDate(ban)}까지 협상 불가</div>}
       <div className="flex gap-2">

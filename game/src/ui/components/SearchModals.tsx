@@ -54,7 +54,7 @@ function ProfileModal() {
     <div>
       <div className="mb-3 flex justify-between text-[12px] text-lo">
         <span>{p.clubId ? <>시장 가치 <span className="tnum text-mid">{money(marketValue(w, p))}</span> · 바이아웃 <span className="tnum text-mid">{buyoutOf(w, p) ? money(buyoutOf(w, p)) : '없음'}</span></> : <span className="text-neon">자유계약 · 이적료 없음</span>}</span>
-        <span>원하는 주급 약 <span className="tnum text-mid">{money(wageDemand(w, p))}</span></span>
+        <span>원하는 주급 약 <span className="tnum text-mid">{money(wageDemand(w, p, w.userClubId))}</span></span>
       </div>
       {(ban || closed) && <div className="mb-2 rounded-lg border border-line bg-ink-900 px-3 py-2 text-[12px] text-amber">{ban ? `협상 결렬 · ${ban.slice(5).replace('-', '/')}까지 협상 불가` : '이적시장이 닫혀 있어 지금은 영입할 수 없습니다'}</div>}
       <div className="flex gap-2">

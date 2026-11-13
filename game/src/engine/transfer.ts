@@ -1,4 +1,5 @@
 // 이적 엔진: 몸값 · 이적시장 기간 · 영입 제안 판단 · 계약 · AI 구단 이적
+import { APPEAL_WAGE, appealOf } from './appeal';
 import { ROLE_JOIN, type Role } from './roles';
 import { transferFactor } from './gameSettings';
 import type { GameEvent, PlayerState, TransferOffer, World } from './types';
@@ -128,9 +129,10 @@ export function wageForAbility(w: World, ovr: number): number {
   return formulaWage(w, ovr);
 }
 /** 선수가 바라는 주급 (유로/주). 소속 선수는 지금 주급보다 10% 이상, 자유계약 선수는 능력 기준 (예전 주급은 따지지 않음) */
-export function wageDemand(w: World, p: PlayerState): number {
+export function wageDemand(w: World, p: PlayerState, buyer?: string): number {
   const byAbility = wageForAbility(w, overall(p));
-  const base = p.clubId ? Math.max(byAbility, p.wage * 1.1) : byAbility;
+  // 이적 어필한 선수: 우리 구단과 계약할 때는 덜 요구 (이적료는 그대로)
+  const base = (p.clubId ? Math.max(byAbility, p.wage * 1.1) : byAbility) * (buyer && buyer === w.userClubId && appealOf(w, p) ? APPEAL_WAGE : 1);
   return Math.max(500, Math.round(base / 500) * 500);
 }
 
@@ -191,7 +193,7 @@ export function evaluateBid(w: World, p: PlayerState, buyer: string, fee: number
 
 /** 선수가 이 구단으로 오겠는지 */
 export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: number, role?: Role, clause?: number, bosman?: boolean): { ok: boolean; reason: string; low?: boolean } {
-  const demand = wageDemand(w, p) * (clause == null ? 1 : buyoutWageFactor(w, p, clause));   // 계약에 거는 바이아웃 (낮을수록 덜 요구)
+  const demand = wageDemand(w, p, buyer) * (clause == null ? 1 : buyoutWageFactor(w, p, clause));   // 계약에 거는 바이아웃 (낮을수록 덜 요구)
   if (wage < demand * 0.9) return { ok: false, low: true, reason: `원하는 주급보다 낮습니다. 주급 ${Math.round(demand / 1000)}K 유로 정도를 원합니다` };
   const buyerRep = w.clubs[buyer].reputation;
   const curRep = p.clubId ? w.clubs[p.clubId].reputation : 30;
@@ -199,6 +201,7 @@ export function playerWillJoin(w: World, p: PlayerState, buyer: string, wage: nu
   let score = diff / 10 + (wage / Math.max(1, p.wage) - 1) * 2 + ((p.hidden.ambition - 10) / 10) * (diff > 0 ? 1 : -0.6) - (p.loyalty - 50) / 40;
   if (p.unhappy) score += 1;
   if (p.saga?.kind === 'move' && p.saga.target === buyer) score += 3;   // 가고 싶다고 지목한 구단
+  if (buyer === w.userClubId && appealOf(w, p)) score += 2.5;          // 우리 구단에 먼저 어필한 선수
   if (buyer === w.userClubId) score += transferFactor(w).will;   // 설정: 이적 협상 난이도
   if (role) score += ROLE_JOIN[role];   // 약속한 역할: 높을수록 오려고 한다
   // 구단이 이적 명단에 올린 선수는 "팀에서 원하지 않는다"고 느껴 작은 구단 이적도 받아들이기 쉽다
@@ -257,6 +260,7 @@ export function completeTransfer(w: World, p: PlayerState, to: string, fee: numb
   p.morale = Math.min(100, p.morale + 10);
   w.transferList = (w.transferList ?? []).filter((id) => id !== p.id);
   w.offers = (w.offers ?? []).filter((o) => o.player !== p.id);
+  if (to === w.userClubId) { w.shortlist = (w.shortlist ?? []).filter((id) => id !== p.id); w.appeals = (w.appeals ?? []).filter((a) => a.player !== p.id); }   // 영입하면 관심 · 어필 해제
   if (w.talks) delete w.talks[p.id];
   return { type: 'transfer', date: w.date, player: p.id, from, to, fee, user: from === w.userClubId || to === w.userClubId };
 }

@@ -9,6 +9,7 @@ import { bargainOf } from './firesale';
 import { bosmanEligible, inFinalMonths } from './bosman';
 
 export function shortlistDay(w: World): GameEvent[] {
+  if (w.shortlist?.some((id) => w.players[id]?.clubId === w.userClubId)) w.shortlist = w.shortlist.filter((id) => w.players[id]?.clubId !== w.userClubId);   // 우리 선수가 되면 관심 해제
   const list = w.shortlist ?? [];
   if (!list.length) return [];
   const seen = (w.shortlistSeen ??= {});

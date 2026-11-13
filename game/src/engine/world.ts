@@ -1,10 +1,11 @@
 // 월드 생성과 하루 진행 (advanceDay)
 import { coachDay } from './coaches';
-import { scoutDay, scoutMatch } from './scout';
+import { scoutDay, scoutMatch, rememberOurs } from './scout';
 import { aiLoanDay } from './loan';
 import { aiBosmanDay, deadlineCheck } from './bosman';
 import { bargainDay } from './firesale';
 import { shortlistDay } from './shortlist';
+import { appealDay } from './appeal';
 import { newsDay } from './news';
 import { chemistry, chemMult, lockerDay } from './chemistry';
 import { autoResolve } from './autoResolve';
@@ -147,6 +148,7 @@ export function createWorld(input: SeasonInput, userClubId: string, seed: number
   // 감독: 데이터의 그 시즌 감독 (없으면 가상) · 내 감독
   assignManagers(w, input.managers, input.season, createRng((seed ^ 0x3a9e) >>> 0));
   createUserManager(w, opts.manager ?? { name: '감독', philosophy: 'balance', pressing: 1, strength: 'tac' });
+  rememberOurs(w);
   w.rng = rng.state();
   return w;
 }
@@ -328,10 +330,12 @@ export function advanceDay(w: World): GameEvent[] {
   events.push(...aiLoanDay(w, rng));   // AI 구단 유망주 임대
   events.push(...aiBosmanDay(w, rng));   // 해외 구단의 내 선수 보스만 사전 계약
   events.push(...bargainDay(w, rng));   // 급매물: 강제 매각 · 강등 조항
+  events.push(...appealDay(w, rng));   // 이적 어필: 우리 구단에 오고 싶은 선수
   events.push(...shortlistDay(w));   // 관심 선수: 급매물 · 자유계약 · 보스만 · 계약 만료 임박
   events.push(...traitMonth(w, rng));
   events.push(...managerDay(w, rng));
   events.push(...coachDay(w, rng));     // AI 구단 감독: 신뢰도 · 경질 · 공석이면 나에게 제안
+  rememberOurs(w);                    // 우리 구단 선수 기억 (떠나도 능력치 공개)
   events.push(...scoutDay(w));        // 스카우트 보고서
   events.push(...facilityDay(w));   // 시설 공사 완료
   boardMonth(w);   // 이사회 관계: 성적에 따라 조금씩   // 감독: 신뢰도 · 재계약 · 다른 구단 제안 · 경질
@@ -380,7 +384,7 @@ export function advanceDay(w: World): GameEvent[] {
     if (e.type === 'seasonEnd' || e.type === 'info' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
       || (e.type === 'transfer' && (e.user || e.fee >= 30e6))
       || (e.type === 'cup' && (e.club === w.userClubId || e.result === 'champion'))
-      || e.type === 'callup' || e.type === 'shortlist' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || e.type === 'saga' || e.type === 'scandal' || (e.type === 'loan' && e.user) || (e.type === 'coach' && e.news) || e.type === 'scout' || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
+      || e.type === 'callup' || e.type === 'shortlist' || e.type === 'appeal' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || e.type === 'saga' || e.type === 'scandal' || (e.type === 'loan' && e.user) || (e.type === 'coach' && e.news) || e.type === 'scout' || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
   }
   if (w.inbox.length > 300) w.inbox.splice(0, w.inbox.length - 300);
   return events;
