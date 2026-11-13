@@ -4,7 +4,7 @@
 import type { AttrKey, Position } from '../data/types';
 import type { Instr, MatchSummary, PlayerState, Side, Tactics } from './types';
 import type { Rng } from './rng';
-import { attr, playerFamiliarity, fitnessFactor, preMatchFactor, slotRating } from './ratings';
+import { attr, overall, playerFamiliarity, fitnessFactor, preMatchFactor, slotRating } from './ratings';
 import { FILL_ORDER, FORMATIONS, type Lineup } from './squad';
 import { commentSegment, initCommentary, type CommentaryState, type MatchNote } from './commentary';
 import { traitForm, traitMul } from './traits';
@@ -88,6 +88,12 @@ export interface TeamInMatch {
   goals: number; shots: number; onTarget: number; xg: number; possSum: number;
   /** 사용자가 직접 교체하는 팀이면 true → 자동 교체는 부상 때만 */
   manual: boolean;
+  /** 직접 지휘하는 팀의 자동 교체 (상황 판단 교체, 기본 켬) */
+  autoSub?: boolean;
+  /** 자동 교체: 경기 중(하프타임 제외) 교체한 횟수(타이밍) · 마지막 교체 구간 · 이번 경기 계획 시각 흔들림 */
+  subWindows?: number;
+  lastSubSeg?: number;
+  subJitter?: number;
   /** 포메이션 숙련도 배율 */
   famMult: number;
 }
@@ -210,9 +216,10 @@ function injuryDays(rng: Rng): { days: number; label: string } {
   return { days: rng.int(60, 220), label: rng.pick(['무릎 인대 파열', '골절', '아킬레스건 부상']) };
 }
 
-function bestBenchFor(t: TeamInMatch, slot: Position, ctx: MatchCtx): string | null {
+function bestBenchFor(t: TeamInMatch, slot: Position, ctx: MatchCtx, fitOnly = false): string | null {
   let best: string | null = null, bs = -1;
   for (const id of t.bench) {
+    if (fitOnly && !canSubInto(ctx.players[id], slot)) continue;   // 직접 지휘 팀 자동 교체: 그 자리에 맞는 선수만
     const v = slotRating(ctx.players[id], slot);
     if (v > bs) { bs = v; best = id; }
   }
@@ -274,15 +281,59 @@ export function setTactics(m: MatchState, side: Side, change: Partial<Tactics>) 
   }
 }
 
+/**
+ * 자동 교체 (AI 구단 · 자동 교체를 켠 내 팀): 점수 · 시간 · 체력 · 경기력을 보고 타이밍을 잡아 몇 명씩 한꺼번에
+ *  - 지고 있으면: 55~60분에 2명 → 70분 2명 → 80분 나머지 (경기력 낮은 · 지친 선수 → 새 분위기)
+ *  - 비기면: 65분쯤 지친 선수 1~2명 → 75~80분 나머지
+ *  - 1골 앞서면: 70분 지친 선수 1명 → 80분 1~2명 (새 다리) → 85분 시간 끌기
+ *  - 2골 이상 앞서면: 60분 핵심 선수 2명 쉬게 → 70분 2명 → 나머지
+ *  - 언제든: 체력 50 아래면 바로. 경고 받은 선수는 리드 중일 때 먼저 (퇴장 방지)
+ *  - 경기 중 교체 타이밍은 최대 3번 (하프타임 제외), 한 번 바꾼 뒤 10분은 쉼 (급할 때 빼고)
+ */
 function autoSubs(m: MatchState, side: Side, ctx: MatchCtx) {
   const t = m[side];
-  if (t.manual || t.subsUsed >= t.maxSubs || m.segment < 11 || m.segment > 16) return;
-  // 지고 있으면 공격수 투입 성향, 아니면 지친 선수 교체
-  const tired = [...t.onPitch].filter((o) => o.slot !== 'GK').sort((a, b) => a.fitness - b.fitness)[0];
-  // 55~80분 사이 지친 선수부터 교체 (실제처럼 경기당 2~3명)
-  if (!tired || tired.fitness > 88 - (m.segment - 11) * 1.5) return;
-  const inId = bestBenchFor(t, tired.slot, ctx);
-  if (inId) substitute(m, side, tired.id, inId, ctx);
+  if ((t.manual && t.autoSub === false) || t.subsUsed >= t.maxSubs || m.segment < 10) return;
+  const opp = m[side === 'home' ? 'away' : 'home'];
+  const d = t.goals - opp.goals;
+  const minute = m.segment * SEG_MIN;
+  const left = t.maxSubs - t.subsUsed;
+  const field = t.onPitch.filter((o) => o.slot !== 'GK');
+  const urgent = field.filter((o) => o.fitness < 50).length;
+  const windows = t.subWindows ?? 0;
+  t.subJitter ??= ctx.rng.int(-1, 1) * SEG_MIN;   // 경기마다 계획 시각이 조금씩 다름
+  const at = (min: number) => minute >= min + t.subJitter!;
+  const tiredN = (lim: number) => field.filter((o) => o.fitness < lim).length;
+  // 이번에 바꿀 인원
+  let want = 0;
+  if (d < 0) want = windows === 0 && at(55) ? 2 : windows === 1 && at(70) ? 2 : windows >= 2 && at(80) ? left : 0;
+  else if (d === 0) want = windows === 0 && at(65) ? Math.max(1, Math.min(2, tiredN(72))) : windows >= 1 && at(77) ? Math.min(left, Math.max(1, tiredN(75))) : 0;
+  else if (d === 1) want = windows === 0 && at(70) ? Math.max(1, Math.min(2, tiredN(70))) : windows === 1 && at(80) ? 2 : windows >= 2 && at(85) ? 1 : 0;
+  else want = windows === 0 && at(60) ? 2 : windows === 1 && at(70) ? 2 : windows >= 2 && at(78) ? left : 0;
+  const rested = t.lastSubSeg != null && m.segment - t.lastSubSeg < 2;
+  if (urgent && (rested || want < urgent)) want = Math.max(want, urgent);   // 급하면 바로
+  else if (rested || windows >= 3) want = 0;
+  want = Math.min(want, left);
+  if (!want) return;
+  // 누구를 뺄지: 체력 · 경기력(당일 컨디션 + 골 · 도움) · 경고 · 리드 중이면 핵심 선수 아끼기
+  const contrib = (id: string) => m.summary.goals.filter((g) => g.scorer === id).length * 0.9 + m.summary.goals.filter((g) => g.assist === id).length * 0.5;
+  const score = (o: OnPitch) => {
+    const p = ctx.players[o.id];
+    let v = (100 - o.fitness) * (d >= 2 ? 0.5 : 1);
+    v += (0.3 - o.dayZ - contrib(o.id)) * (d < 0 ? 18 : 8);              // 못하는 선수 (지고 있을 때 크게)
+    if (o.yellow && d >= 0) v += 15;                                     // 경고 → 퇴장 위험
+    if (d >= 2) v += (overall(p) - 70) * 1.2;   // 크게 이기면 핵심 선수 체력 안배
+    if (o.fromMinute > 0) v -= 100;                                      // 교체로 들어온 선수는 다시 빼지 않음
+    return v;
+  };
+  const outs = [...field].sort((x, y) => score(y) - score(x));
+  let done = 0;
+  for (const o of outs) {
+    if (done >= want) break;
+    if (o.fromMinute > 0 && o.fitness >= 50) continue;
+    const inId = bestBenchFor(t, o.slot, ctx, t.manual);
+    if (inId && substitute(m, side, o.id, inId, ctx)) done++;
+  }
+  if (done) { t.subWindows = windows + 1; t.lastSubSeg = m.segment; }
 }
 
 /** 한 구간(5분) 진행 */

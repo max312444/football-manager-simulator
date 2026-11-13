@@ -135,6 +135,7 @@ cd game && npm run history                 # 선수 이력 (data-public/history/
 > 버전: `game/src/version.ts` (첫 화면 표시). 기능 추가 +0.1 · 작은 수정 +0.0.1, 바꿀 때마다 여기에 적는다.
 > 같은 파일의 `CHANGELOG` 맨 위에 플레이어용 한 줄 요약도 넣는다 → 첫 화면 '업데이트 소식' (새 버전을 처음 본 뒤 24시간 표시, `UpdateNotes.tsx`).
 
+0. **v0.19 경기 중 자동 교체** (2026-11-13): `match.ts` `autoSubs` 를 상황 판단으로 다시 짜고 직접 지휘 팀에도 (`TeamInMatch.autoSub`, false 면 안 함): 점수차별 계획 (지면 55·70·80분 2·2·나머지, 비기면 65분 1~2 · 77분 나머지, 1골 리드 70·80·85분, 2골+ 리드 60·70·78분 핵심 선수 휴식), 경기마다 ±5분 흔들림, 체력 50 미만 즉시, 경고 · 경기력(dayZ · 골 · 도움) 반영, 경기 중 타이밍 최대 3번 · 10분 간격 (`subWindows` · `lastSubSeg`). 40경기 측정: 첫 교체 지고 56분 · 비김 58 · 앞섬 62, 경기당 타이밍 2.7, 2골+ 리드 15경기 모두 2명 이상 휴식. 내 팀은 `canSubInto` 맞는 후보만 (`bestBenchFor(fitOnly)`). 설정 `autoSubs` (기본 켬) → `confirmLineup` 에서 반영, 경기 화면 내 팀 칸 체크박스 `setAutoSub`. 결과만 보기(playToEnd)에도 적용. `autoSub.test.ts`: 12경기 켬 59회 · 끔 0회 (부상 제외).
 0. **v0.18.2 저장하기 창 잘림 수정** (2026-11-13): `Sidebar` 저장 창을 사이드바 안 absolute → 화면 가운데 fixed 창 (사이드바 overflow-y-auto 가 잘라 냄), 바깥 누르면 닫힘.
 0. **v0.18.1 검색 결과 가림 수정** (2026-11-13): `TopBar` header 에 `relative z-30` (backdrop-blur 로 생긴 쌓임 맥락 때문에 뒤에 오는 `.panel relative` 가 검색 결과(z-40)를 덮었음).
 0. **v0.18 난이도 · 감독 시스템** (2026-11-13)

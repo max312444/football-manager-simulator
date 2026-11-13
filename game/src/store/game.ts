@@ -189,6 +189,8 @@ interface GameStore {
   /** 경기 중 포메이션 바꾸기 */
   changeFormation(formation: string): void;
   sub(outId: string, inId: string): boolean;
+  /** 경기 중 자동 교체 켜기 · 끄기 (설정에도 기억) */
+  setAutoSub(on: boolean): void;
   setClubTactics(t: Partial<Tactics>): void;
   /** 내 포메이션 저장 (prev: 고치는 포메이션 이름) → 오류 문구 또는 null */
   saveFormation(prev: string | null, name: string, slots: Position[]): string | null;
@@ -347,6 +349,7 @@ export const useGame = create<GameStore>((set, get) => {
         lineups: { [m.side]: lineup },
         tactics: { [m.side]: { formation: lineup.formation, mentality: d.mentality, pressing: d.pressing } },
       });
+      m.state[m.side].autoSub = useSettings.getState().s.autoSubs;   // 자동 교체 (설정)
       m.phase = 'live';
       bump();
     },
@@ -380,6 +383,12 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
     },
 
+    setAutoSub(on) {
+      const m = get().match;
+      useSettings.getState().set({ autoSubs: on });
+      if (m?.state) m.state[m.side].autoSub = on;
+      bump();
+    },
     sub(outId, inId) {
       const { match: m, world: w } = get();
       if (!m?.state || !w) return false;

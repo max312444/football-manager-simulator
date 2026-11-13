@@ -10,6 +10,8 @@ export interface Settings {
   stopAt: 'match' | 'important' | 'window';
   /** 경기: 직접 지휘 (스쿼드 설정 → 경기 화면) · 결과만 */
   matchMode: 'manage' | 'result';
+  /** 경기 중 자동 교체 (지친 선수 → 후보, 55~80분) */
+  autoSubs: boolean;
   /** 경기 화면 기본 속도 (0 보통 · 1 빠르게 · 2 매우 빠르게) */
   matchSpeed: 0 | 1 | 2;
   popups: Record<PopupKind, Freq>;
@@ -29,7 +31,7 @@ export interface Settings {
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  stopAt: 'match', matchMode: 'manage', matchSpeed: 0,
+  stopAt: 'match', matchMode: 'manage', matchSpeed: 0, autoSubs: true,
   popups: { press: 'normal', board: 'normal', scandal: 'normal', saga: 'normal' },
   difficulty: 'normal', patience: 'normal', rules: 'normal', transfers: 'normal', scoutFog: true,
   autosave: 'day', fontScale: 1, names: 'full',

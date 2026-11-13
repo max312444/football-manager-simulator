@@ -19,7 +19,7 @@ const SPEEDS = [{ label: '보통', ms: 1100 }, { label: '빠르게', ms: 450 }, 
 
 export function MatchScreen() {
   const w = useWorld();
-  const { match: m, stepMatch, changeTactics, changeFormation, sub, closeMatch } = useGame();
+  const { match: m, stepMatch, changeTactics, changeFormation, sub, setAutoSub, closeMatch } = useGame();
   const [playing, setPlaying] = useState(true);
   const [speed, setSpeed] = useState<number>(useSettings.getState().s.matchSpeed);   // 설정: 기본 경기 속도
   const [subOut, setSubOut] = useState<string | null>(null);
@@ -207,7 +207,12 @@ export function MatchScreen() {
         <section className="panel order-3 flex shrink-0 flex-col lg:order-none lg:min-h-0 lg:shrink">
           <h3 className="flex h-11 shrink-0 items-center justify-between px-5 text-[13px] font-semibold text-mid shadow-[inset_0_-1px_0_var(--color-line)]">
             <span>{clubKo(me.clubId)} · {me.tactics.formation}</span>
-            <span className="tnum text-[12px] text-lo">교체 {me.subsUsed}/{me.maxSubs}</span>
+            <span className="flex items-center gap-3">
+              <label className="flex cursor-pointer items-center gap-1.5 text-[12px] font-normal text-lo" title="켜면 55~80분에 지친 선수를 같은 자리에 맞는 후보로 알아서 바꿉니다 (하프타임 교체는 직접)">
+                <input type="checkbox" checked={me.autoSub !== false} onChange={(e) => setAutoSub(e.target.checked)} className="accent-[#39ff14]" />자동 교체
+              </label>
+              <span className="tnum text-[12px] text-lo">교체 {me.subsUsed}/{me.maxSubs}</span>
+            </span>
           </h3>
           <div className="min-h-0 flex-1 overflow-auto">
             <TeamList team={me} selectable={m.phase === 'live' && me.subsUsed < me.maxSubs} selected={subOut} onSelect={(id) => setSubOut(id === subOut ? null : id)} ratings={sum.ratings} />
