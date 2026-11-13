@@ -121,6 +121,14 @@ function Charge({ kind, color, bg }: { kind: Exclude<CrestCharge, 'letters'>; co
   }
 }
 
+/** 어두운 화면에서 잘 보이는 구단 색 (유니폼 주색 → 너무 어두우면 보조색 → 회색) */
+export function clubColor(id: string): string {
+  const c = clubs.get(id);
+  const st = c?.crest?.colors;
+  const cand = [c?.kits?.home.primary, c?.kits?.home.secondary, st?.[0], st?.[1]].filter((x): x is string => !!x && /^#[0-9a-f]{3,6}$/i.test(x));
+  return cand.find((x) => contrast(x, '#101412') >= 3) ?? '#a8b0ab';
+}
+
 export function Crest({ clubId, size = 36 }: { clubId: string; size?: number }) {
   const uid = useId().replace(/:/g, '');
   const master = clubs.get(clubId);

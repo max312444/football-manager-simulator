@@ -8,7 +8,7 @@ import { ageOn } from '../../engine/condition';
 import { clubKo, playerKo } from '../../data/db';
 import { posGroup } from '../../data/rating';
 import { Crest } from '../components/Crest';
-import { COMP_TONE, Card, CompBadge, PosTag, ResultDot, compKind } from '../components/bits';
+import { COMP_TONE, Card, CompBadge, ResultDot, compKind } from '../components/bits';
 import { money, ratingTone, roundLabel } from '../format';
 import { useWorld } from '../hooks';
 import { useApp } from '../../store/app';
@@ -84,7 +84,6 @@ export function HomeView() {
   const pos = table.findIndex((r) => r.club === club.id) + 1;
   const row = comp.table[club.id];
   const squad = club.squad.map((id) => w.players[id]);
-  const key = [...squad].sort((a, b) => overall(b) - overall(a)).slice(0, 6);
   const news = [...w.inbox].reverse().slice(0, 5);
 
   return (
@@ -159,21 +158,7 @@ export function HomeView() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 items-start gap-6 xl:grid-cols-[2fr_1fr]">
-          <Card title="주요 선수" action={<ActionLink onClick={() => setTab('squad')}>선수단</ActionLink>}>
-            <div className="grid grid-cols-1 md:grid-cols-2">
-              {key.map((p) => (
-                <div key={p.id} className="flex items-center gap-3 px-5 py-4 text-[13px] shadow-[inset_0_-1px_0_var(--color-line)]">
-                  <PosTag pos={p.pos} />
-                  <div className="min-w-0 flex-1">
-                    <div className="truncate font-medium">{playerKo(p.id, p.name)}</div>
-                    <div className="text-[12px] text-lo">{ageOn(p.birth, w.date)}세 · {p.stats.apps + p.stats.subApps}경기 · {p.stats.goals}골 · {p.stats.assists}도움</div>
-                  </div>
-                  <span className={`tnum text-[16px] font-semibold ${ratingTone(overall(p))}`}>{overall(p)}</span>
-                </div>
-              ))}
-            </div>
-          </Card>
+        <div>
           <LeagueLeaders w={w} league={club.league} started={started} />
         </div>
       </div>

@@ -98,8 +98,8 @@ export function RenewModal({ p, onClose }: { p: PlayerState; onClose: () => void
               <div className="flex justify-between text-[12px] text-lo"><span>새 계약 종료 {koDate(renewEnd(w, years))}</span>
                 <span className={room < 0 ? 'text-red' : ''}>계약 후 주급 여유 <span className="tnum">{room < 0 ? `−${money(-room)}` : money(room)}</span></span></div>
               <div className="flex flex-wrap gap-2">
-                <label className="flex h-11 min-w-0 flex-1 basis-full sm:basis-0 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">주급
-                  <input autoFocus type="number" min={1} value={wage} onChange={(e) => setWage(+e.target.value)} onKeyDown={(e) => e.key === 'Enter' && send()} className="tnum min-w-0 flex-1 bg-transparent text-right text-[16px] font-semibold text-hi outline-none" />천 유로
+                <label className="flex h-11 min-w-[200px] flex-1 basis-full sm:basis-[200px] items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo"><span className="shrink-0">주급</span>
+                  <input autoFocus type="number" min={1} value={wage} onChange={(e) => setWage(+e.target.value)} onKeyDown={(e) => e.key === 'Enter' && send()} className="tnum w-full min-w-[72px] flex-1 bg-transparent text-right text-[16px] font-semibold text-hi outline-none" /><span className="shrink-0">천 유로</span>
                 </label>
                 <select value={years} onChange={(e) => setYears(+e.target.value)} className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi max-sm:flex-1">
                   {[1, 2, 3, 4, 5].map((y) => <option key={y} value={y}>{y}년</option>)}

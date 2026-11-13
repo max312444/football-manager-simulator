@@ -166,8 +166,8 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
               <div className="flex flex-wrap justify-between gap-x-3 text-[12px] text-lo"><span>현재 주급 <span className="tnum text-mid">{money(p.wage)}</span> · 원하는 주급 약 <span className="tnum text-mid">{money(demand)}</span></span>
                 <span className={room < 0 ? 'text-red' : ''}>계약 후 주급 여유 <span className="tnum">{room < 0 ? `−${money(-room)}` : money(room)}</span></span></div>
               <div className="flex flex-wrap gap-2">
-                <label className="flex h-11 min-w-0 flex-1 basis-full sm:basis-0 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo">주급
-                  <input autoFocus type="number" min={1} value={wage} onChange={(e) => setWage(+e.target.value)} onKeyDown={(e) => e.key === 'Enter' && sendContract()} className="tnum min-w-0 flex-1 bg-transparent text-right text-[16px] font-semibold text-hi outline-none" />천 유로
+                <label className="flex h-11 min-w-[200px] flex-1 basis-full sm:basis-[200px] items-center gap-2 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-lo"><span className="shrink-0">주급</span>
+                  <input autoFocus type="number" min={1} value={wage} onChange={(e) => setWage(+e.target.value)} onKeyDown={(e) => e.key === 'Enter' && sendContract()} className="tnum w-full min-w-[72px] flex-1 bg-transparent text-right text-[16px] font-semibold text-hi outline-none" /><span className="shrink-0">천 유로</span>
                 </label>
                 <select value={role} onChange={(e) => setRole(e.target.value as Role)} title="약속하는 역할: 높을수록 선수가 오려고 하지만, 약속만큼 못 뛰면 불만이 빨리 생깁니다" className="h-11 rounded-lg border border-line bg-ink-850 px-3 text-[13px] text-hi max-sm:flex-1">
                   {ROLES.map((x) => <option key={x} value={x}>{ROLE_KO[x]}</option>)}
@@ -176,7 +176,7 @@ export function NegotiationModal({ p, onClose }: { p: PlayerState; onClose: () =
                   {[1, 2, 3, 4, 5].map((y) => <option key={y} value={y}>{y}년</option>)}
                 </select>
                 <BuyoutSelect w={w} p={p} value={clause} onChange={(v) => { setClause(v); setWage(Math.round(wageDemand(w, p) * buyoutWageFactor(w, p, v) / 1000)); }} />
-                <button onClick={sendContract} disabled={room < 0} className="h-11 rounded-lg bg-neon px-6 max-sm:flex-1 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">계약 제안</button>
+                <button onClick={sendContract} disabled={room < 0} className="h-11 grow rounded-lg bg-neon px-6 text-[14px] font-semibold text-ink-950 transition-colors hover:bg-[#5bff3d] disabled:bg-ink-700 disabled:text-lo">계약 제안</button>
               </div>
             </div>
           )}

@@ -8,7 +8,7 @@ import { FORMATIONS } from '../../engine/squad';
 import type { FeedLine } from '../../engine/commentary';
 import { slotRating } from '../../engine/ratings';
 import type { Side } from '../../engine/types';
-import { Crest } from '../components/Crest';
+import { clubColor, Crest } from '../components/Crest';
 import { Icon } from '../components/Icon';
 import { CompBadge, ConditionIcon, PosTag } from '../components/bits';
 import { MENTALITY, PRESSING } from '../views/TacticsView';
@@ -91,18 +91,21 @@ export function MatchScreen() {
               <button key={k} onClick={() => setPanel(k)} className={`h-8 rounded-md px-3 text-[13px] ${panel === k ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{label}</button>
             ))}
           </div>
-          {panel === 'feed' && <Feed lines={s.cm?.feed ?? []} />}
+          {panel === 'feed' && <Feed lines={s.cm?.feed ?? []} clubs={{ home: s.home.clubId, away: s.away.clubId }} />}
           <div className={`min-h-0 flex-1 overflow-auto px-2 py-2 ${panel === 'feed' ? 'hidden' : ''}`}>
             {evs.length === 0 && <div className="px-3 py-4 text-[13px] text-lo">아직 큰 사건이 없습니다</div>}
             {evs.map((e, i) => (
-              <div key={i} className={`flex items-center gap-3 rounded-md px-3 py-2 text-[13px] ${e.kind === 'goal' ? 'bg-neon-ghost' : ''}`}>
+              <div key={i} className={`mb-1 flex items-center gap-3 rounded-md py-2 pr-3 pl-3 text-[13px] ${e.kind === 'goal' ? 'bg-ink-800' : ''}`}
+                style={{ boxShadow: `inset 4px 0 0 ${clubColor(s[e.side].clubId)}` }}>
                 <span className="tnum w-8 text-right text-lo">{e.minute}'</span>
                 <EventIcon kind={e.kind} />
                 <div className="min-w-0 flex-1">
                   <div className={`truncate ${e.kind === 'goal' ? 'font-semibold' : ''}`}>{e.text}</div>
                   {e.sub && <div className="truncate text-[11px] text-lo">{e.sub}</div>}
                 </div>
-                <Crest clubId={s[e.side].clubId} size={14} />
+                <span className="flex shrink-0 items-center gap-1.5 text-[12px] font-semibold" style={{ color: clubColor(s[e.side].clubId) }}>
+                  <Crest clubId={s[e.side].clubId} size={20} /><span className="max-w-[90px] truncate">{clubKo(s[e.side].clubId)}</span>
+                </span>
               </div>
             ))}
           </div>
@@ -238,7 +241,10 @@ export function MatchScreen() {
 const FEED_ICON: Record<string, string> = { goal: '⚽', penMiss: '⚽', yellow: '🟨', red: '🟥' };
 
 /** 문자 중계: 최근 줄이 위 · 캐스터는 장면, 해설은 의견 (이름 토큰을 화면 이름으로) */
-function Feed({ lines }: { lines: FeedLine[] }) {
+const TEAM_KIND = new Set(['goal', 'penMiss', 'yellow', 'red']);
+const TEAM_HEAD: Record<string, string> = { goal: '골!', penMiss: 'PK 실축', yellow: '경고', red: '퇴장' };
+
+function Feed({ lines, clubs }: { lines: FeedLine[]; clubs: Record<Side, string> }) {
   const w = useWorld();
   const fill = (t: string) => t.replace(/\{p:([^}]+)\}/g, (_, id) => playerKo(id, w.players[id]?.name ?? id)).replace(/\{c:([^}]+)\}/g, (_, id) => clubKo(id));
   const list = [...lines].reverse();
@@ -249,9 +255,16 @@ function Feed({ lines }: { lines: FeedLine[] }) {
     <div ref={box} className="min-h-0 flex-1 overflow-auto px-3 py-2 [overflow-anchor:none]">
       {!list.length && <div className="px-2 py-4 text-[13px] text-lo">곧 경기가 시작됩니다</div>}
       {list.map((l, i) => (
-        <div key={lines.length - i} className={`flex gap-3 border-b border-line/60 px-2 py-2.5 text-[13px] leading-relaxed last:border-0 ${i === 0 ? 'animate-[fade_0.4s_ease-out]' : ''} ${l.kind === 'goal' ? 'rounded-md bg-neon-ghost' : ''}`}>
+        <div key={lines.length - i} className={`flex gap-3 border-b border-line/60 px-2 py-2.5 text-[13px] leading-relaxed last:border-0 ${i === 0 ? 'animate-[fade_0.4s_ease-out]' : ''} ${l.kind === 'goal' ? 'rounded-md bg-ink-800' : ''}`}
+          style={l.side && TEAM_KIND.has(l.kind) ? { boxShadow: `inset 4px 0 0 ${clubColor(clubs[l.side])}` } : undefined}>
           <span className="tnum w-8 shrink-0 pt-px text-right text-lo">{l.minute}'</span>
           <div className="min-w-0 flex-1">
+            {l.side && TEAM_KIND.has(l.kind) && (
+              <div className={`mb-1 flex items-center gap-1.5 font-semibold ${l.kind === 'goal' ? 'text-[15px]' : 'text-[12px]'}`} style={{ color: clubColor(clubs[l.side]) }}>
+                <Crest clubId={clubs[l.side]} size={l.kind === 'goal' ? 22 : 16} />{clubKo(clubs[l.side])}
+                <span className={l.kind === 'goal' ? 'text-neon' : l.kind === 'red' ? 'text-red' : l.kind === 'yellow' ? 'text-amber' : 'text-mid'}>{TEAM_HEAD[l.kind]}</span>
+              </div>
+            )}
             {l.voice === 'pundit' && <span className="mr-1.5 rounded bg-sky/15 px-1.5 py-px text-[11px] font-semibold text-sky">해설</span>}
             {FEED_ICON[l.kind] && <span className="mr-1.5" aria-hidden>{FEED_ICON[l.kind]}</span>}
             <span className={`${l.big ? 'font-semibold text-hi' : l.voice === 'pundit' ? 'text-mid' : 'text-hi'}`}>{fill(l.text)}</span>

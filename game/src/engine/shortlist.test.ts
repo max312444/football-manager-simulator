@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createWorld, type SeasonInput } from './world';
 import { shortlistDay } from './shortlist';
-import { clubScoutTargets, knowledge, REPORT_K, scoutCost, scoutDay, startScout } from './scout';
+import { clubScoutTargets, knowledge, REPORT_K, scoutCost, scoutDay, scoutProgress, startScout } from './scout';
 import { releasePlayer } from './transfer';
 import type { ClubSeasonFile, LeagueSeasonFile } from '../data/types';
 
@@ -53,11 +53,20 @@ describe('구단 단위 스카우트', () => {
     expect(startScout(w, 'club', esp.id).ok).toBe(true);
     expect(bal - w.clubs[LIV].finance.balance).toBe(one * n);
     expect(startScout(w, 'club', esp.id).ok).toBe(false);   // 이미 보냄
+    const job = w.scout!.jobs.find((j) => j.kind === 'club')!;
+    expect(scoutProgress(w, job).pct).toBe(0);
+    w.date = new Date(Date.parse(job.start) + (Date.parse(job.done) - Date.parse(job.start)) / 2).toISOString().slice(0, 10);
+    expect(scoutProgress(w, job).pct).toBeGreaterThanOrEqual(40);
+    expect(scoutProgress(w, job).pct).toBeLessThanOrEqual(60);
     w.date = '2025-07-20';
     const ev = scoutDay(w) as { club?: string; count?: number }[];
     expect(ev[0].club).toBe(esp.id);
     expect(esp.squad.every((id) => knowledge(w, w.players[id]) >= REPORT_K)).toBe(true);
     expect(clubScoutTargets(w, esp.id).length).toBe(0);
     expect(startScout(w, 'club', esp.id).ok).toBe(false);   // 다 아는 구단
+    const fa = w.players[w.clubs[esp.id === LIV ? LIV : Object.values(w.clubs).find((c) => c.league === 'eng1' && c.id !== LIV)!.id].squad[0]];
+    expect(knowledge(w, fa)).toBeLessThan(REPORT_K);
+    releasePlayer(w, fa);
+    expect(knowledge(w, fa)).toBe(100);   // 자유계약 선수는 공개
   });
 });

@@ -2,7 +2,8 @@
 //  - 앎(0~100): 내 선수 100 · 같은 리그 · 스타(능력 84+) 40 · 나머지 20. 맞붙은 상대 선수는 경기마다 +6 (70까지)
 //  - 앎이 낮을수록 능력치가 넓은 범위로 보인다 (범위 안에 진짜 값이 있음). 70 이상이면 숨은 성향(프로의식 · 야망 등) 공개
 //  - 스카우트 보내기: 구단 전체 (7일 · 다른 리그 14일, 그 구단 선수 모두 앎 95. 비용은 아직 정확히 모르는 선수 한 명 비용의 합)
-//    · 자유계약 선수 한 명 (같은 기간 · 앎 95) · 리그 전체 관찰 (28일, 그 리그 선수 모두 앎 65 이상)
+//    · 리그 전체 관찰 (28일, 그 리그 선수 모두 앎 65 이상). 자유계약 선수는 스카우트 없이 능력치 공개
+//    스카우트는 구단 창(검색 · 구단 이름)에서 보내고 진행률을 본다. 선수 정보는 얼마나 아는지 · 진행률만
 //  - 비용은 구단 매출에 비례 (작은 구단도 쓸 수 있게), 재정 장부 '스카우트'
 //  - 설정에서 끄면 (scoutFog: false) 모든 선수 능력치가 정확히 보인다
 import type { GameEvent, PlayerState, World } from './types';
@@ -28,7 +29,7 @@ const userLeague = (w: World) => w.clubs[w.userClubId].league;
 
 /** 이 선수를 얼마나 아는가 (0~100) */
 export function knowledge(w: World, p: PlayerState): number {
-  if (!fogOn(w) || p.clubId === w.userClubId) return 100;
+  if (!fogOn(w) || p.clubId === w.userClubId || !p.clubId) return 100;   // 자유계약 선수는 능력치 공개 (테스트 · 입단 테스트로 볼 수 있음)
   const base = leagueOfClub(w, p.clubId) === userLeague(w) || overall(p) >= 84 ? 40 : 20;
   return Math.max(base, w.scout?.k[p.id] ?? 0);
 }
@@ -85,6 +86,13 @@ export function startScout(w: World, kind: ScoutKind, target: string): { ok: boo
 export function cancelScout(w: World, kind: ScoutKind, target: string) {
   const s = scoutOf(w);
   s.jobs = s.jobs.filter((j) => !(j.kind === kind && j.target === target));   // 이미 쓴 비용은 돌려받지 않음
+}
+
+/** 진행 중인 스카우트의 진행률 (0~100) · 남은 날 */
+export function scoutProgress(w: World, j: ScoutJob): { pct: number; left: number } {
+  const total = Math.max(1, (Date.parse(j.done) - Date.parse(j.start)) / 864e5);
+  const left = Math.max(0, Math.round((Date.parse(j.done) - Date.parse(w.date)) / 864e5));
+  return { pct: Math.round(Math.min(100, Math.max(0, ((total - left) / total) * 100))), left };
 }
 
 /** 매일: 끝난 스카우트 보고서 */

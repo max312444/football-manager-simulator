@@ -3,7 +3,8 @@ import type { PlayerState, World } from '../../engine/types';
 import type { Hidden } from '../../engine/types';
 import type { Position } from '../../data/types';
 import { altPositions, slotRating } from '../../engine/ratings';
-import { clubScoutTargets, fogOn, hiddenKnown, knowledge, MAX_PLAYER_JOBS, REPORT_K, scoutCost, scoutDays, seenOverall, seenRange } from '../../engine/scout';
+import { clubScoutTargets, fogOn, hiddenKnown, knowledge, MAX_PLAYER_JOBS, REPORT_K, scoutCost, scoutDays, scoutProgress, seenOverall, seenRange } from '../../engine/scout';
+import { useApp } from '../../store/app';
 import { clubKo, compKo } from '../../data/db';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
@@ -41,21 +42,49 @@ export function HiddenTraits({ p }: { p: PlayerState }) {
   );
 }
 
-/** 다른 구단 선수: 얼마나 아는지 · 스카우트 보내기 */
+/** 구단 창: 구단 전체 스카우트 보내기 · 진행률 (비용 = 아직 모르는 선수 수 × 한 명 비용) */
+export function ClubScoutBar({ clubId }: { clubId: string }) {
+  const w = useWorld();
+  const scout = useGame((s) => s.scout);
+  if (!fogOn(w) || clubId === w.userClubId || !w.clubs[clubId]) return null;
+  const job = w.scout?.jobs.find((j) => j.kind === 'club' && j.target === clubId);
+  const n = clubScoutTargets(w, clubId).length;
+  const total = w.clubs[clubId].squad.length;
+  const busy = (w.scout?.jobs.filter((j) => j.kind !== 'league').length ?? 0) >= MAX_PLAYER_JOBS;
+  const pr = job ? scoutProgress(w, job) : null;
+  return (
+    <div className="border-b border-line bg-ink-900/60 px-6 py-3 text-[12px]">
+      {job && pr ? (
+        <div>
+          <div className="mb-1.5 flex items-center justify-between"><span className="font-semibold text-sky">스카우트 진행 중 {pr.pct}%</span><span className="text-lo">{pr.left}일 뒤 보고서 · 선수 {total}명 모두 파악</span></div>
+          <div className="h-1.5 overflow-hidden rounded-full bg-ink-700"><div className="h-full rounded-full bg-sky transition-all" style={{ width: `${pr.pct}%` }} /></div>
+        </div>
+      ) : n === 0 ? (
+        <div className="text-neon">스카우트 완료 · 이 구단 선수 {total}명의 정확한 능력치와 숨은 성향을 볼 수 있습니다</div>
+      ) : (
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="min-w-0 flex-1 text-mid">아직 정확히 모르는 선수 <b className="text-hi">{n}</b> / {total}명 · 능력치가 범위로만 보입니다</span>
+          <button disabled={busy} onClick={() => { const r = scout('club', clubId); if (!r.ok) alert(r.reason); }}
+            className="rounded-md bg-sky/15 px-3 py-1.5 font-semibold text-sky ring-1 ring-sky/40 hover:bg-sky/25 disabled:opacity-40">
+            {busy ? `스카우트 모두 출장 중 (${MAX_PLAYER_JOBS}곳)` : `스카우트 보내기 · ${money(scoutCost(w, 'club', clubId))} · ${scoutDays(w, 'club', clubId)}일`}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** 다른 구단 선수: 얼마나 아는지 · 구단 스카우트 진행률 (스카우트는 구단 창에서 보냄) */
 export function ScoutBox({ p }: { p: PlayerState }) {
   const w = useWorld();
   const scout = useGame((s) => s.scout);
-  if (!fogOn(w) || p.clubId === w.userClubId || p.retired) return null;
+  const openClub = useApp((s) => s.openClub);
+  if (!fogOn(w) || p.clubId === w.userClubId || p.retired || !p.clubId) return null;   // 자유계약 선수는 능력치 공개
   const k = knowledge(w, p);
-  // 소속 구단이 있으면 구단 전체 스카우트 (비용 = 아직 모르는 선수 비용의 합), 자유계약 선수는 한 명
-  const kind = p.clubId ? 'club' as const : 'player' as const;
-  const target = p.clubId ?? p.id;
   const job = w.scout?.jobs.find((j) => (j.kind === 'player' && j.target === p.id) || (j.kind === 'club' && j.target === p.clubId));
-  const n = p.clubId ? clubScoutTargets(w, p.clubId).length : 1;
   const league = p.clubId ? w.clubs[p.clubId].league : null;
   const ljob = league ? w.scout?.jobs.find((j) => j.kind === 'league' && j.target === league) : null;
   const left = (d: string) => Math.max(0, Math.round((Date.parse(d) - Date.parse(w.date)) / 864e5));
-  const busy = (w.scout?.jobs.filter((j) => j.kind !== 'league').length ?? 0) >= MAX_PLAYER_JOBS;
   return (
     <div className="mb-4 rounded-lg bg-ink-900 px-3 py-3 text-[12px]">
       <div className="mb-1.5 flex items-center justify-between">
@@ -64,12 +93,9 @@ export function ScoutBox({ p }: { p: PlayerState }) {
       </div>
       <div className="mb-2.5 h-1 overflow-hidden rounded-full bg-ink-700"><div className="h-full rounded-full bg-sky" style={{ width: `${k}%` }} /></div>
       {k < REPORT_K && (job
-        ? <div className="text-sky">{job.kind === 'club' ? `${clubKo(job.target)} 전체를 관찰 중` : '스카우트가 관찰 중'} · {left(job.done)}일 뒤 보고서</div>
-        : <button disabled={busy} onClick={() => { const r = scout(kind, target); if (!r.ok) alert(r.reason); }}
-            className="w-full rounded-md bg-sky/15 py-1.5 font-semibold text-sky ring-1 ring-sky/40 hover:bg-sky/25 disabled:opacity-40">
-            {busy ? `스카우트 모두 출장 중 (${MAX_PLAYER_JOBS}곳)` : p.clubId
-              ? `${clubKo(p.clubId)} 전체 스카우트 · ${n}명 · ${money(scoutCost(w, 'club', p.clubId))} · ${scoutDays(w, 'club', p.clubId)}일`
-              : `스카우트 보내기 · ${money(scoutCost(w, 'player', p.id))} · ${scoutDays(w, 'player', p.id)}일`}
+        ? <div className="text-sky">{job.kind === 'club' ? `${clubKo(job.target)} 스카우트 진행 중 ${scoutProgress(w, job).pct}%` : '스카우트가 관찰 중'} · {left(job.done)}일 뒤 보고서</div>
+        : <button onClick={() => openClub(p.clubId)} className="w-full rounded-md bg-sky/15 py-1.5 font-semibold text-sky ring-1 ring-sky/40 hover:bg-sky/25">
+            {clubKo(p.clubId)} 창에서 스카우트 보내기 →
           </button>)}
       {league && k < 65 && (ljob
         ? <div className="mt-1.5 text-lo">{compKo(league)} 전체 관찰 중 · {left(ljob.done)}일 뒤</div>
