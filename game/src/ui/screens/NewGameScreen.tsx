@@ -183,7 +183,7 @@ export function NewGameScreen() {
         {sel ? (
           <>
             <button onClick={closeSheet} className="flex h-11 shrink-0 items-center justify-between border-b border-line px-5 text-[14px] text-mid lg:hidden"><span>구단 정보</span><span>닫기 ✕</span></button>
-            <div className="relative overflow-hidden px-7 pt-8 pb-6">
+            <div className="relative shrink-0 overflow-hidden px-7 pt-8 pb-6">
               <div className="absolute -top-10 -right-10 opacity-[0.07]"><Crest clubId={sel.club} size={200} /></div>
               <Crest clubId={sel.club} size={54} />
               <div className="mt-4 text-[24px] font-semibold">{clubKo(sel.club)}</div>
@@ -191,7 +191,7 @@ export function NewGameScreen() {
                 {clubMasters.get(sel.club)?.city ?? ''}{clubMasters.get(sel.club)?.founded ? ` · ${clubMasters.get(sel.club)!.founded}년 창단` : ''}
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-px border-y border-line bg-line">
+            <div className="grid shrink-0 grid-cols-2 gap-px border-y border-line bg-line">
               {[
                 ['명성', `${sel.reputation}`],
                 ['주전 전력', `${strength(sel)}`],

@@ -155,7 +155,7 @@ export function MatchScreen() {
           </div>
 
           {m.phase === 'full' && sum.pom ? (
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid gap-3 sm:grid-cols-2">
               <PomCard kind="pom" id={sum.pom} rating={sum.ratings[sum.pom]} club={w.players[sum.pom].clubId} name={name(sum.pom)} pos={w.players[sum.pom].pos} goals={sum.goals} />
               {sum.worst && <PomCard kind="worst" id={sum.worst} rating={sum.ratings[sum.worst]} club={w.players[sum.worst].clubId} name={name(sum.worst)} pos={w.players[sum.worst].pos} goals={sum.goals} />}
             </div>

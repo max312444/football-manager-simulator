@@ -88,18 +88,18 @@ function ClubModal() {
   return (
     <div className="fixed inset-0 z-40 grid animate-[fade_0.2s_ease-out] place-items-center bg-ink-950/75 p-2 sm:p-6 backdrop-blur-sm" onClick={() => openClub(null)}>
       <div className="panel flex max-h-[86vh] w-full max-w-[640px] flex-col overflow-hidden" onClick={(e) => e.stopPropagation()}>
-        <header className="flex items-center gap-4 border-b border-line px-6 py-5">
+        <header className="flex flex-wrap items-center gap-x-4 gap-y-3 border-b border-line px-4 py-4 sm:flex-nowrap sm:px-6 sm:py-5">
           <Crest clubId={c.id} size={44} />
           <div className="min-w-0 flex-1">
             <div className="truncate text-[20px] font-semibold">{clubKo(c.id)}{c.id === w.userClubId && <span className="ml-2 align-middle text-[12px] text-neon">내 구단</span>}</div>
             <button onClick={() => openTable(c.league)} className="text-[12px] text-lo hover:text-hi">{lg} · 순위 보기</button>
           </div>
-          <dl className="flex gap-5 text-center text-[12px] text-lo">
+          <dl className="order-last flex w-full justify-around gap-5 text-center text-[12px] text-lo sm:order-none sm:w-auto sm:justify-start">
             <div><dd className="tnum text-[18px] font-semibold text-hi">{lv}</dd><dt>주전 평균</dt></div>
             <div><dd className="tnum text-[18px] font-semibold text-hi">{c.squad.length}</dd><dt>선수</dt></div>
             <div><dd className="tnum text-[18px] font-semibold text-hi">{c.reputation}</dd><dt>명성</dt></div>
           </dl>
-          <button onClick={() => openClub(null)} className="h-8 w-8 rounded-md text-[18px] text-lo hover:bg-ink-800 hover:text-hi" aria-label="닫기">×</button>
+          <button onClick={() => openClub(null)} className="h-8 w-8 shrink-0 rounded-md text-[18px] text-lo hover:bg-ink-800 hover:text-hi" aria-label="닫기">×</button>
         </header>
         <div className="border-b border-line px-6 py-2.5"><ManagerLine clubId={c.id} /></div>
         <ClubScoutBar clubId={c.id} />

@@ -38,7 +38,7 @@ export function ManagerSetup({ m, change }: ReturnType<typeof useManagerSetup>) 
   const diff = useSettings((s) => s.s.difficulty);
   const setSettings = useSettings((s) => s.set);
   return (
-    <div className="space-y-3 border-b border-line px-6 py-5 text-[12px]" data-tour="manager-setup">
+    <div className="shrink-0 space-y-3 border-b border-line px-6 py-5 text-[12px]" data-tour="manager-setup">
       <div className="text-[11px] font-semibold text-lo">내 감독</div>
       <label className="flex h-10 items-center gap-2 rounded-lg border border-line bg-ink-850 px-3">
         <span className="shrink-0 text-lo">이름</span>
