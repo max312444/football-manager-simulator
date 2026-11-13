@@ -221,7 +221,9 @@ export type GameEvent =
   | { type: 'seasonEnd'; date: string; league: string; champion: string }
   | { type: 'info'; date: string; text: string }
   /** 스카우트 보고서: 선수 한 명 · 리그 관찰 */
-  | { type: 'scout'; date: string; player?: string; league?: string; count?: number }
+  | { type: 'scout'; date: string; player?: string; club?: string; league?: string; count?: number }
+  /** 관심 선수 소식 (급매물 · 자유계약 · 보스만 · 계약 만료 임박) */
+  | { type: 'shortlist'; date: string; player: string; kind: 'bargain' | 'free' | 'bosman' | 'expiring'; club?: string | null }
   /** 감독: 제안 · 재계약 · 경질 · 이동 · 따라오는 선수 */
   /** AI 구단 감독 교체 (season: 시즌 중 경질 · end: 시즌 끝 교체), news = 받은편지함에 남길 만한 소식 */
   | { type: 'coach'; date: string; club: string; when: 'season' | 'end'; news: boolean }
@@ -345,6 +347,8 @@ export interface World {
   news?: import('./news').NewsItem[];
   /** 라커룸: 다음 불만 알림 가능일 · 마지막 팀 미팅 */
   lockerWarn?: string;
+  /** 관심 선수 알림을 이미 보낸 사건 (선수 id → 'bargain:시즌' 같은 키) */
+  shortlistSeen?: Record<string, string[]>;
   lastMeeting?: string;
   fireSaleKey?: string;
   /** 화면에 보여줄 은퇴 소식 (시즌 전환 때) */

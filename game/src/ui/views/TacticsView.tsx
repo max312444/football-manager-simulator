@@ -128,7 +128,7 @@ export function TacticsView() {
       {sel != null && <div className="fixed inset-0 z-30 bg-ink-950/60 lg:hidden" onClick={() => setSel(null)} />}
       {editor && <FormationEditor edit={editor.edit} base={t.formation} onClose={() => setEditor(null)} />}
       <DragGhost ghost={ghost} number={ghostP?.number} label={ghostP ? playerKo(ghostP.id, ghostP.name).split(' ').slice(-1)[0] : ''} />
-      <div className="mx-auto w-full max-w-[440px] shrink-0 lg:w-[440px]">
+      <div data-tour="tactics-pitch" className="mx-auto w-full max-w-[440px] shrink-0 lg:w-[440px]">
         <Pitch>
           {slots.map((slot, i) => {
             const id = current[i];
@@ -235,7 +235,7 @@ export function TacticsView() {
             </Card>
             <SetPieceCard />
             <TrainingCard />
-            <Card title={`후보 ${lineup.bench.length}명`}>
+            <Card tour="tactics-bench" title={`후보 ${lineup.bench.length}명`}>
               <BenchEditor squad={squad} starters={current} bench={lineup.bench} size={rules.benchSize} onChange={(b) => setLineup(slots.map((_, i) => fixed[i] ?? null), b)} />
               <p className="px-5 pb-4 text-[12px] leading-relaxed text-lo">직접 지정하지 않은 자리와 부상 · 징계로 빠진 자리는 체력과 자리 적합도로 자동 선택됩니다. 후보로 정한 선수는 자동 선발에 쓰지 않습니다.</p>
             </Card>

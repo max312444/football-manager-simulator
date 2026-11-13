@@ -93,7 +93,7 @@ export function SquadView() {
         {(() => {
           const c = chemistry(w, w.userClubId);
           return (
-            <button onClick={() => setLocker(true)} className="mb-3 flex w-full items-center gap-3 rounded-lg border border-line bg-ink-850 px-4 py-2.5 text-left text-[13px] transition-colors hover:bg-ink-800">
+            <button data-tour="squad-chem" onClick={() => setLocker(true)} className="mb-3 flex w-full items-center gap-3 rounded-lg border border-line bg-ink-850 px-4 py-2.5 text-left text-[13px] transition-colors hover:bg-ink-800">
               <span className="text-lo">팀 케미</span>
               <span className={`tnum text-[16px] font-semibold ${chemTone(c.total)}`}>{c.total}</span>
               <span className="min-w-0 flex-1 truncate text-lo">{c.captain ? `주장 ${playerKo(c.captain, w.players[c.captain]?.name ?? '')}` : ''}{c.unrest.length ? <span className="text-red"> · 불만 {c.unrest.length}명</span> : null}</span>
@@ -103,7 +103,7 @@ export function SquadView() {
         })()}
         {locker && <LockerRoom onClose={() => setLocker(false)} />}
 
-        <div className="mb-3 flex items-center gap-1 overflow-x-auto">
+        <div data-tour="squad-filter" className="mb-3 flex items-center gap-1 overflow-x-auto">
           {GROUPS.map((g) => (
             <button key={g.key} onClick={() => setGroup(g.key)}
               className={`h-8 shrink-0 rounded-md px-3 text-[13px] transition-colors lg:px-4 ${group === g.key ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:bg-ink-800 hover:text-hi'}`}>

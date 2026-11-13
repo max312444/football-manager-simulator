@@ -15,6 +15,29 @@ import { useApp } from '../../store/app';
 import { LeagueTable } from './TableView';
 import { describe } from './InboxView';
 import { NewsRow } from './NewsView';
+import { nextWindow, windowOpen } from '../../engine/transfer';
+import { deadlineLeft } from '../../engine/bosman';
+import { koDate } from '../format';
+
+/** 이적시장 상태: 열림 (마감 · D-day) · 닫힘 (다음 열리는 날) · 관심 선수 수. 누르면 이적 화면 */
+function WindowBar({ w, onOpen }: { w: World; onOpen: () => void }) {
+  const win = windowOpen(w.season, w.date);
+  const d = deadlineLeft(w);
+  const next = nextWindow(w.season, w.date);
+  const daysTo = Math.round((Date.parse(next) - Date.parse(w.date)) / 864e5);
+  const shortN = (w.shortlist ?? []).length;
+  return (
+    <button onClick={onOpen} className={`panel flex w-full flex-wrap items-center gap-x-4 gap-y-1 px-4 py-3 text-left text-[13px] transition-colors hover:bg-ink-800 lg:px-6 ${win ? 'ring-1 ring-neon/40' : ''}`}>
+      <span className={`flex items-center gap-2 font-semibold ${win ? 'text-neon' : 'text-mid'}`}>
+        <span className={`h-2 w-2 rounded-full ${win ? 'bg-neon' : 'bg-ink-600 ring-1 ring-mid'}`} />
+        {win ? `${win === 'summer' ? '여름' : '겨울'} 이적시장 열림` : '이적시장 닫힘'}
+      </span>
+      {win && d ? <span className={d.left <= 3 ? 'font-semibold text-amber' : 'text-mid'}>{d.left === 0 ? '오늘 마감 · 데드라인 데이' : `마감 ${koDate(d.end)} · D-${d.left}`}</span>
+        : <span className="text-lo">다음 이적시장 {koDate(next)} · D-{daysTo} · 자유계약 선수는 언제든</span>}
+      <span className="ml-auto text-[12px] text-lo">{shortN ? `관심 선수 ${shortN}명 · ` : ''}이적 화면 →</span>
+    </button>
+  );
+}
 import { resultFor, userFixtures } from './ScheduleView';
 
 /** 주전 11명 평균 능력 */
@@ -69,6 +92,7 @@ export function HomeView() {
       <div className="mx-auto flex max-w-[1440px] flex-col gap-4 p-3 lg:gap-6 lg:p-6">
         {next ? <NextMatch w={w} home={next.home} away={next.away} date={next.date} round={roundLabel(next)} fx={next} />
           : <section className="panel px-8 py-6 text-[15px]">시즌이 끝났습니다 · 최종 {pos}위 · 승점 {row.pts}</section>}
+        <WindowBar w={w} onOpen={() => setTab('transfers')} />
 
         <div className="grid grid-cols-1 items-start gap-6 xl:grid-cols-3">
           <div className="flex flex-col gap-6">

@@ -82,7 +82,17 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       if (e.result === 'start') return { tag: '월드컵', tone: 'text-sky', title: `${e.year} ${cup} 대표 선발 · 우리 선수 ${mine.length}명`, body: mine.join(', ') };
       return { tag: '월드컵', tone: 'text-[#f2c94c]', title: `${e.year} ${cup} 우승 · ${nationKo(e.nation)}`, body: [mine.length ? `우승 멤버: ${mine.join(', ')}` : '', e.scorer ? `득점왕 ${playerKo(e.scorer, e.text ?? '')}` : e.text ?? ''].filter(Boolean).join(' · ') };
     }
+    case 'shortlist': {
+      const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
+      const at = e.club ? clubKo(e.club) : '';
+      const t = { bargain: [`관심 선수 ${name} — 급매물로 나왔습니다`, `${at} · 시장 가치보다 싸게 · 이적 화면 '급매물' 필터에서 확인`],
+        free: [`관심 선수 ${name} — 자유계약 선수가 됐습니다`, '이적료 없이 바로 계약할 수 있습니다'],
+        bosman: [`관심 선수 ${name} — 보스만 사전 계약이 가능합니다`, `${at} 계약이 이번 시즌 끝에 끝납니다 · 이적료 없이 사전 계약 (7월 합류)`],
+        expiring: [`관심 선수 ${name} — 계약이 6개월도 안 남았습니다`, `${at} · 같은 나라 구단이라 사전 계약은 안 되지만 여름에 자유계약이 될 수 있습니다`] }[e.kind];
+      return { tag: '관심', tone: 'text-neon', title: t[0], body: t[1] };
+    }
     case 'scout': {
+      if (e.club) return { tag: '스카우트', tone: 'text-sky', title: `${clubKo(e.club)} 스카우트 보고서 도착`, body: `선수 ${e.count ?? 0}명의 정확한 능력치와 숨은 성향을 볼 수 있습니다` };
       if (e.league) return { tag: '스카우트', tone: 'text-sky', title: `${compKo(e.league)} 관찰 보고서 도착`, body: `선수 ${e.count ?? 0}명의 능력치 범위가 좁아지고 숨은 성향이 보이게 됐습니다` };
       const p = e.player ? w.players[e.player] : null;
       return { tag: '스카우트', tone: 'text-sky', title: `스카우트 보고서 · ${p ? playerKo(p.id, p.name) : ''}`, body: `${p?.clubId ? clubKo(p.clubId) + ' · ' : ''}정확한 능력치와 숨은 성향을 선수 정보에서 볼 수 있습니다` };

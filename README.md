@@ -135,6 +135,11 @@ cd game && npm run history                 # 선수 이력 (data-public/history/
 > 버전: `game/src/version.ts` (첫 화면 표시). 기능 추가 +0.1 · 작은 수정 +0.0.1, 바꿀 때마다 여기에 적는다.
 > 같은 파일의 `CHANGELOG` 맨 위에 플레이어용 한 줄 요약도 넣는다 → 첫 화면 '업데이트 소식' (새 버전을 처음 본 뒤 24시간 표시, `UpdateNotes.tsx`).
 
+0. **v0.17 홈 이적시장 · 관심 선수 알림 · 구단 스카우트** (2026-11-13)
+   - 홈 `WindowBar`: 이적시장 열림 (마감 · D-day, 3일 이하 강조) / 닫힘 (다음 열리는 날 · D-day) · 관심 선수 수, 누르면 이적 화면.
+   - `engine/shortlist.ts` `shortlistDay` (advanceDay): 관심 목록 선수가 급매물 · 자유계약 · 보스만 가능 · 계약 6개월 이내가 되면 받은편지함 `shortlist` (선수 · 사건 · 시즌마다 한 번, `w.shortlistSeen`). 홈 최근 소식은 받은편지함을 그대로 보여 줌.
+   - 스카우트 `kind: 'club'`: 그 구단 선수 모두 앎 95 (보고서가 나온 날 기준), 비용 = 아직 모르는 선수(`clubScoutTargets`) × 한 명 비용, 기간 같은 리그 7일 · 다른 리그 14일, 동시에 3곳. 자유계약 선수는 한 명 단위 그대로. 선수 정보 버튼 '○○ 전체 스카우트 · N명 · 금액 · 일'.
+0. **v0.16.1 튜토리얼 새로** (2026-11-13): `Tour.tsx` 단계마다 `tab` 으로 해당 화면 이동 후 `data-tour` 대상 비춤 (화면 밖이면 스크롤, 큰 대상은 화면 안으로 잘라 비춤, 카드는 오른쪽 · 왼쪽 · 위 · 아래 순으로 자리 찾기). 새 단계: 뉴스 · 선수단 선발 · 후보 (squad-filter) · 팀 케미 (squad-chem) · 전술 피치 끌어서 포메이션 (tactics-pitch) · 후보 편집 (tactics-bench, `Card` 에 `tour` 속성) · 이적 시장 상황 (transfers-top) · 이적 조항 · 경기 날 · 업데이트 내역. PC 19단계 · 휴대폰 20단계 모두 대상 확인. 저장 값 `pitchboss.tutorial` = 'v2' (내용이 바뀌면 VERSION 을 올려 한 번 더 보여 줌), 끝나면 홈으로.
 0. **v0.16 테스터 피드백: 선발 표시 · 후보 편집 · 끌어서 포메이션 · 불만 사유 · 체력** (2026-11-13)
    - 끌어서 포메이션: `PitchDrag` 에 `onFree` (피치 `data-pitch` 빈 곳에 놓으면 `zonePos` 로 위치 → 포지션, 끄는 동안 '→ ST 자리로'), `reshape` (같은 구성 기본 포메이션이면 그 이름 · 선수 배치 유지, 없으면 '★ 내 배치' 로 저장 · 덮어씀), 스토어 `reshapeTactics` · `reshapeDraft`, 숙련도는 원래 포메이션 −10 이어받기 (`inheritFam`). `validateFormation` 규칙 위반이면 안내만.
    - 후보 편집: `BenchEditor` (✕ 빼기 · 명단 밖 + 넣기, 전술 · 경기 준비), `pickLineup` 은 사용자가 후보로 정한 선수를 자동 선발에서 뺌 (그 자리에 아무도 없을 때만 씀).

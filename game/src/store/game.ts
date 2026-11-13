@@ -193,7 +193,7 @@ interface GameStore {
   saveFormation(prev: string | null, name: string, slots: Position[]): string | null;
   deleteFormation(key: string): void;
   /** 스카우트 보내기: 선수 한 명 · 리그 전체 */
-  scout(kind: 'player' | 'league', target: string): { ok: boolean; reason?: string };
+  scout(kind: import('../engine/scout').ScoutKind, target: string): { ok: boolean; reason?: string };
   /** 훈련 초점 · 강도 */
   setTraining(t: Partial<Training>): void;
   /** 감독: 제안 수락 · 거절 · 새 구단 고르기 · 다른 구단 제안 받기 */

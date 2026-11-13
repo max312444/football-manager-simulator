@@ -94,7 +94,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
     <div className="flex h-full min-h-0 flex-col gap-6 overflow-y-auto p-3 lg:flex-row lg:overflow-hidden lg:p-6">
       <section className="flex min-w-0 flex-col lg:flex-1">
         {/* 상단: 이적시장 상태 · 예산 */}
-        <div className="mb-3 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line lg:mb-4 lg:grid-cols-4">
+        <div data-tour="transfers-top" className="mb-3 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line lg:mb-4 lg:grid-cols-4">
           <div className="bg-ink-850 px-4 py-3 lg:px-5 lg:py-4">
             <div className="text-[12px] text-lo">이적시장</div>
             <div className={`mt-1 text-[16px] font-semibold ${win ? 'text-neon' : 'text-mid'}`}>{win ? (win === 'summer' ? '여름 이적시장 열림' : '겨울 이적시장 열림') : '닫힘'}</div>

@@ -43,9 +43,9 @@ export function ResultDot({ r }: { r: 'W' | 'D' | 'L' }) {
   return <span className={`inline-grid h-5 w-5 place-items-center rounded text-[11px] font-semibold ${c}`}>{r === 'W' ? '승' : r === 'D' ? '무' : '패'}</span>;
 }
 
-export function Card({ title, action, children, className = '' }: { title?: string; action?: React.ReactNode; children: React.ReactNode; className?: string }) {
+export function Card({ title, action, children, className = '', tour }: { title?: string; action?: React.ReactNode; children: React.ReactNode; className?: string; tour?: string }) {
   return (
-    <section className={`panel flex min-h-0 flex-col ${className}`}>
+    <section data-tour={tour} className={`panel flex min-h-0 flex-col ${className}`}>
       {title && (
         <header className="flex h-11 shrink-0 items-center justify-between px-5 shadow-[inset_0_-1px_0_var(--color-line)]">
           <h3 className="text-[13px] font-semibold text-mid">{title}</h3>
