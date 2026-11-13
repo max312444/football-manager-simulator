@@ -135,6 +135,7 @@ cd game && npm run history                 # 선수 이력 (data-public/history/
 > 버전: `game/src/version.ts` (첫 화면 표시). 기능 추가 +0.1 · 작은 수정 +0.0.1, 바꿀 때마다 여기에 적는다.
 > 같은 파일의 `CHANGELOG` 맨 위에 플레이어용 한 줄 요약도 넣는다 → 첫 화면 '업데이트 소식' (새 버전을 처음 본 뒤 24시간 표시, `UpdateNotes.tsx`).
 
+0. **v0.18.1 검색 결과 가림 수정** (2026-11-13): `TopBar` header 에 `relative z-30` (backdrop-blur 로 생긴 쌓임 맥락 때문에 뒤에 오는 `.panel relative` 가 검색 결과(z-40)를 덮었음).
 0. **v0.18 난이도 · 감독 시스템** (2026-11-13)
    - 난이도 `gameSettings.ts` `difficulty` (쉬움 · 보통 · 어려움): AI가 내 구단과 싸울 때 경기력 배율 `aiEdge` 1 · 1.05 · 1.1 + 이사회 인내심 · 재정 규정 · 이적 협상 묶음(`difficultyPreset`). 설정 store `difficulty` (저장된 예전 설정은 'easy'). 측정: 강팀 상대 홈 경기당 승점 쉬움 1.64 · 보통 1.39 · 어려움 1.16.
    - `engine/managers.ts`: 모든 구단 감독 (`w.managers`, `club.managerId`, 내 감독 `w.managers.user`). 능력 tac(경기력 `managerEdge` 1 + (tac−60)×0.0012, 팀 케미 배율에 곱함) · mot(사기 기준 `moraleTarget` 52 + mot×0.14) · dev(월간 성장 `devBonus`) · rep · potential · style(AI 전술 공격 · 압박). 시즌 끝 `managerSeasonGrowth` (전력 순위 대비 성적 · 우승 → 잠재력까지, 60세+ 하락). 경질 `hireManager` (실업 감독 중 명성 맞는 사람 75% · 아니면 가상 감독). 다음 시즌 데이터가 있으면 `assignManagers` 로 실제 감독. 예전 세이브는 `ensureManagers` 로 가상 감독.

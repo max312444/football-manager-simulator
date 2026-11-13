@@ -7,7 +7,7 @@ export function TopBar({ title, subtitle }: { title: string; subtitle?: string }
   const w = useWorld();
   const setDrawer = useApp((s) => s.setDrawer);
   return (
-    <header className="flex h-14 shrink-0 items-center gap-3 border-b border-line bg-ink-900/80 px-3 pt-[env(safe-area-inset-top)] backdrop-blur box-content lg:h-16 lg:gap-6 lg:px-6">
+    <header className="relative z-30 flex h-14 shrink-0 items-center gap-3 border-b border-line bg-ink-900/80 px-3 pt-[env(safe-area-inset-top)] backdrop-blur box-content lg:h-16 lg:gap-6 lg:px-6">
       <button data-tour="menu" onClick={() => setDrawer(true)} aria-label="메뉴" className="-ml-1 grid h-10 w-10 shrink-0 place-items-center rounded-lg text-mid hover:bg-ink-800 hover:text-hi lg:hidden">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
       </button>

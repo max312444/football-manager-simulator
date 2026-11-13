@@ -1,12 +1,13 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 아래 CHANGELOG 맨 위에 한 줄 요약을 넣고, README 개발 현황에도 적는다
 //  첫 화면은 새 버전을 처음 본 뒤 24시간 동안 '업데이트 소식'을 보여 준다 (UpdateNotes.tsx)
-export const GAME_VERSION = '0.18';
+export const GAME_VERSION = '0.18.1';
 
 export interface ChangeEntry { version: string; date: string; items: string[] }
 
 /** 업데이트 내역 (새 것이 위). 플레이어가 읽는 글이므로 쉬운 말로 */
 export const CHANGELOG: ChangeEntry[] = [
+  { version: '0.18.1', date: '2026-11-13', items: ['위쪽 검색 결과 창이 홈 화면 다음 경기 칸에 가려지던 문제를 고쳤습니다'] },
   { version: '0.18', date: '2026-11-13', items: [
     '난이도 쉬움 · 보통 · 어려움: 새 게임 구단 선택 화면이나 설정에서 고릅니다 (지금까지의 게임은 쉬움)',
     '모든 구단에 감독이 생겼습니다: 전술 · 동기부여 · 육성 · 명성 능력과 전술 성향. 명장은 같은 선수단으로 더 좋은 성적을 냅니다',
