@@ -13,6 +13,7 @@ import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '.
 import { fillContracts, seasonOver } from '../engine/world';
 import { ensureManagers } from '../engine/managers';
 import { shootoutSeq } from '../engine/shootoutSeq';
+import { signSponsor as signSponsorDeal } from '../engine/sponsors';
 import { recommend, type Recommendation } from '../engine/ai';
 import { withinRules } from '../engine/rules';
 import { trainingOf, type Training } from '../engine/training';
@@ -191,6 +192,8 @@ interface GameStore {
   changeFormation(formation: string): void;
   /** 경기 중 피치: 두 선수 자리 맞바꿈 · 한 선수를 빈 곳(새 포지션)으로 → 포메이션 변경 (문구 반환) */
   liveSwap(a: string, b: string): string;
+  /** 스폰서 제안 수락 */
+  signSponsor(offerId: string): void;
   liveReshape(slotIdx: number, pos: Position): string;
   sub(outId: string, inId: string): boolean;
   /** 경기 중 자동 교체 켜기 · 끄기 (설정에도 기억) */
@@ -389,6 +392,14 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
     },
 
+    signSponsor(offerId) {
+      const w = get().world;
+      if (!w) return;
+      const e = signSponsorDeal(w, offerId);
+      if (e) w.inbox.push(e);
+      autosave(w);
+      bump();
+    },
     liveSwap(a, b) {
       const m = get().match;
       if (!m?.state || m.phase !== 'live') return '';

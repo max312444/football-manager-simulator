@@ -10,6 +10,7 @@
 import { coachSeasonEnd } from './coaches';
 import { rememberOurs, scoutNewSeason } from './scout';
 import { assignManagers, managerSeasonGrowth } from './managers';
+import { sponsorSeasonEnd } from './sponsors';
 import { teamStrength } from './ai';
 import { endLoans } from './loan';
 import { joinPrecontract } from './bosman';
@@ -98,6 +99,7 @@ export function closeSeason(w: World): SeasonRecord[] {
   w.history.push(...recs);
   const mres = managerSeasonEnd(w, recs);   // 감독: 신뢰도 · 명성 (시즌 끝에 경질 판정)
   if (mres) fansSeasonEnd(w, mres);         // 팬 여론 · 우승 보너스 예약
+  w.inbox.push(...sponsorSeasonEnd(w, recs));   // 스폰서 성과 보너스 · AI 구단 계약 갱신
   managerSeasonGrowth(w, recs, (id) => (w.clubs[id] ? teamStrength(w, id) : 0));   // 감독 성장 · 하락 (기대보다 잘하면 잠재력까지)
   w.inbox.push(...coachSeasonEnd(w, recs, createRng((w.rng ^ 0xc0ac) >>> 0)).filter((e) => e.type === 'coach' && e.news));   // AI 구단 감독 교체
   return recs;

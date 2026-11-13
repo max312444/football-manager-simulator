@@ -3,11 +3,12 @@
 // 원칙: 모든 구단은 적게라도 수입이 있고, 그 수입 안에서 선수를 영입한다 — AI든 사용자든 같은 규칙
 //  - 연 매출 기준값(revenue): 데이터의 finance.revenue (실제 매출 공개 자료가 있으면 그 기준, 없으면 자체 추정 모델).
 //    없으면(옛 데이터) 주급 예산 × 52 ÷ 0.62 로 추정
-//  - 수입: 중계권 40% (8월~5월 10회) · 스폰서 25% (매월) · 입장 20% (홈 경기마다) · 상금 (리그 순위 · 컵 · 유럽)
+//  - 수입: 중계권 40% (8월~5월 10회) · 스폰서 · 상품 25% (매월: 메인 · 용품 스폰서 계약 연액 / 12 + 상품 30% 몫, sponsors.ts) · 입장 20% (홈 경기마다) · 상금 (리그 순위 · 컵 · 유럽)
 //  - 지출: 주급 (매주 월요일) · 운영비 14% (매월) · 훈련비 (훈련할 때마다, 강도에 따라 연 4~16%)
 //  - 내 구단만 항목별 장부를 남긴다 (AI 구단은 잔고만 바뀜)
 import type { ClubState, World } from './types';
 import { fanFactor } from './awards';
+import { monthlyCommercial } from './sponsors';
 
 export type IncomeKind = 'tv' | 'gate' | 'commercial' | 'prize' | 'sales';
 export type ExpenseKind = 'wages' | 'operations' | 'training' | 'purchases' | 'facility' | 'scouting' | 'owner';
@@ -88,7 +89,7 @@ export function financeDay(w: World) {
     if (monday) book(w, c.id, 'wages', wageBillOf(w, c.id));
     if (first) {
       if (m >= 8 || m <= 5) book(w, c.id, 'tv', Math.round((R * SHARE.tv) / 10));
-      book(w, c.id, 'commercial', Math.round(((R * SHARE.commercial) / 12) * fanFactor(w, c.id) * moodIncome(w, c.id)));
+      book(w, c.id, 'commercial', monthlyCommercial(w, c, fanFactor(w, c.id) * moodIncome(w, c.id)));   // 스폰서 계약 연액 / 12 + 상품 · 기타
       book(w, c.id, 'operations', Math.round((R * SHARE.operations) / 12));
     }
   }

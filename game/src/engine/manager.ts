@@ -153,7 +153,7 @@ export function moveTo(w: World, club: string, why: ManagerStint['why'], rng: Rn
   m.pendingJob = undefined;
   m.contract = `${endYear(w.season) + 2}-06-30`;   // 이번 시즌 포함 3시즌 (시즌 중이면 2시즌 반)
   // 내 구단에만 있던 상태 정리
-  w.transferList = []; w.offers = []; w.talks = {}; w.pendingRenewals = [];
+  w.transferList = []; w.offers = []; w.talks = {}; w.pendingRenewals = []; w.sponsorOffers = [];
   events.push({ type: 'manager', date: w.date, kind: 'moved', club, from: old });
   return events;
 }

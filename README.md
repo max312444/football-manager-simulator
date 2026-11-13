@@ -135,6 +135,7 @@ cd game && npm run history                 # 선수 이력 (data-public/history/
 > 버전: `game/src/version.ts` (첫 화면 표시). 기능 추가 +0.1 · 작은 수정 +0.0.1, 바꿀 때마다 여기에 적는다.
 > 같은 파일의 `CHANGELOG` 맨 위에 플레이어용 한 줄 요약도 넣는다 → 첫 화면 '업데이트 소식' (새 버전을 처음 본 뒤 24시간 표시, `UpdateNotes.tsx`).
 
+0. **v0.22 스폰서 계약** (2026-11-13): `engine/sponsors.ts` — 모든 구단 `club.sponsors` (메인 45% · 용품 25% · 상품 · 기타 30% 는 계약 없이, 합계 = 기존 매출 25%). `financeDay` 매월 `monthlyCommercial` (계약 연액 / 12 + 상품 몫 × 팬 · 여론). 내 구단: 첫 시즌 메인 계약은 시즌 끝 만료 · 용품 3시즌, 만료 시즌 3월 1일 `sponsorDay` → `makeOffers` 고정형 · 성과형(×0.8 + 우승 35% · 4위 15% · 컵 10% · 유럽 30% 보너스) · 장기형(5년 ×0.93), 금액 = 기준 × `performance` (목표 대비 순위 0.8~1.3 · 팬 여론) × ±8%, 6/25 지나면 고정형 자동. `sponsorSeasonEnd`: 성과 보너스 (모든 구단) · AI 만료 계약 자동 갱신. 재정 화면 `SponsorCard`, 받은편지함 `sponsor`. 회사 이름은 가상 조합.
 0. **v0.21 경기 중 피치 지휘 · 큰 경기 연출** (2026-11-13)
    - `LivePitch.tsx`: 경기 화면 가운데 (전술 화면 `Pitch` · `slotXY` · `usePitchDrag`), xl 이상 [후보 | 피치 | side(성향 · 압박)] 3칸 · 그 아래는 세로 (피치 → 후보 → 성향), 피치 폭은 화면 높이에 맞춤. 오른쪽 내 팀 목록 칸은 없앰 (2칸 그리드), 하프타임은 한 줄. 후보 칸 data-slot 100+. 선수 누르기 → 후보 누르기 / 후보 → 선수 끌기 = `sub` (`canSubInto`), 선수끼리 = `liveSwap` (`swapSlots`), 빈 곳 = `liveReshape` (`reshape` · `autoFormation` → `reshapeTeam`). `slotOrder` 로 포메이션 자리 ↔ 뛰는 선수. 통계 칸은 2열로 줄이고 아래로.
    - `engine/shootoutSeq.ts`: 정해진 승자(`cup.shootout`)에 맞는 키커 순서 (슈팅 · 침착성 vs 골키퍼 반사 · 1:1, 5명 조기 종료 · 서든데스), `stepMatch` 끝에서 `summary.shootout`. `BigMoments.tsx`: `FinalIntro` (컵 · 유럽 결승 · 승격 PO 결승 킥오프), `ShootoutOverlay` (준비 → 골/선방/실축), `TrophyOverlay` (결승 승리, 꽃가루). styles.css `bm-*` 애니메이션 (움직임 줄이기 설정이면 끔).

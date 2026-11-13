@@ -1,4 +1,5 @@
 // 재정 화면: 잔고 · 예산 · 이번 시즌 수입/지출 · 잔고 추이 · 지난 시즌 장부
+import { SponsorCard } from '../components/SponsorCard';
 import { EXPENSE_LABEL, INCOME_LABEL, ledgerOf, revenueBase, sum, wageBillOf, type ExpenseKind, type IncomeKind } from '../../engine/finance';
 import { useWorld } from '../hooks';
 import { costLimit, squadCost } from '../../engine/rules';
@@ -57,6 +58,8 @@ export function FinanceView() {
           );
         })()}
 
+        <SponsorCard />
+
         <div className="grid gap-4 lg:grid-cols-2">
           <Card title="이번 시즌 수입">
             <div className="px-5 py-3">
@@ -82,7 +85,7 @@ export function FinanceView() {
             <ul className="space-y-2 px-5 py-4 text-[13px] leading-relaxed text-mid">
               <li>· 이기면 팬이 늘고 지면 조금 줄어듭니다. 우승하면 8%, 개인 수상자가 나오면 2% 늘어납니다.</li>
               <li>· 매주 월요일 선수 주급이 나갑니다.</li>
-              <li>· 매월 1일 스폰서 수입과 운영비, 8월~5월에는 중계권료가 들어옵니다.</li>
+              <li>· 매월 1일 스폰서 계약금(연액의 1/12) · 상품 수입과 운영비, 8월~5월에는 중계권료가 들어옵니다. 스폰서 계약이 끝나는 시즌 봄에는 새 제안이 옵니다.</li>
               <li>· 홈 경기마다 입장 수입이 들어오고, 상대가 강할수록 많습니다.</li>
               <li>· 시즌이 끝나면 순위에 따라 리그 상금을 받습니다.</li>
               <li>· 새 시즌마다 이사회가 잔고와 손익을 보고 이적 · 주급 예산을 정합니다. 적자면 예산이 줄어듭니다.</li>

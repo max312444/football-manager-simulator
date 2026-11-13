@@ -164,6 +164,8 @@ export interface ClubState {
   coach?: import('./coaches').Coach;
   /** 감독 (w.managers 키). 내 구단은 비움 (내 감독 = w.managers.user) */
   managerId?: string;
+  /** 스폰서 계약 (메인 · 용품), sponsors.ts */
+  sponsors?: import('./sponsors').SponsorDeal[];
   /** 시설 수준 1~5 (훈련장 · 유스) · 경기장 수용 인원 (데이터, 시즌마다 갱신) */
   facilities?: { training: number; youth: number };
   /** 시설 공사 중 · 투자로 올린 단계 (다음 시즌 데이터보다 낮아지지 않음) */
@@ -229,6 +231,8 @@ export type GameEvent =
   /** 스카우트 보고서: 선수 한 명 · 리그 관찰 */
   | { type: 'scout'; date: string; player?: string; club?: string; league?: string; count?: number }
   /** 관심 선수 소식 (급매물 · 자유계약 · 보스만 · 계약 만료 임박) */
+  /** 스폰서: 제안 도착 · 계약 · 자동 계약 · 성과 보너스 */
+  | { type: 'sponsor'; date: string; kind: 'offers' | 'signed' | 'auto' | 'bonus'; slot: import('./sponsors').SponsorSlot; name?: string; amount?: number }
   /** 이적 어필: 우리 구단에 오고 싶다는 선수 (appeal.ts) */
   | { type: 'appeal'; date: string; player: string; club: string; until: string }
   | { type: 'shortlist'; date: string; player: string; kind: 'bargain' | 'free' | 'bosman' | 'expiring'; club?: string | null }
@@ -343,6 +347,8 @@ export interface World {
   shortlist?: string[];
   /** 이적 어필 (우리 구단에 오고 싶은 선수) · 시즌마다 한 번 (선수 id → 시즌) */
   appeals?: import('./appeal').Appeal[];
+  /** 내 구단이 받은 스폰서 제안 (고르기 전) */
+  sponsorOffers?: import('./sponsors').SponsorOffer[];
   appealSeen?: Record<string, string>;
   /** 진행 중인 영입 협상 (선수 ID별) */
   talks?: Record<string, Talk>;

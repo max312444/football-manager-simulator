@@ -6,6 +6,7 @@ import { aiBosmanDay, deadlineCheck } from './bosman';
 import { bargainDay } from './firesale';
 import { shortlistDay } from './shortlist';
 import { appealDay } from './appeal';
+import { sponsorDay } from './sponsors';
 import { newsDay } from './news';
 import { chemistry, chemMult, lockerDay } from './chemistry';
 import { autoResolve } from './autoResolve';
@@ -330,6 +331,7 @@ export function advanceDay(w: World): GameEvent[] {
   events.push(...aiLoanDay(w, rng));   // AI 구단 유망주 임대
   events.push(...aiBosmanDay(w, rng));   // 해외 구단의 내 선수 보스만 사전 계약
   events.push(...bargainDay(w, rng));   // 급매물: 강제 매각 · 강등 조항
+  events.push(...sponsorDay(w, rng));   // 스폰서: 만료 시즌 봄 제안 · 기한 지나면 자동 계약
   events.push(...appealDay(w, rng));   // 이적 어필: 우리 구단에 오고 싶은 선수
   events.push(...shortlistDay(w));   // 관심 선수: 급매물 · 자유계약 · 보스만 · 계약 만료 임박
   events.push(...traitMonth(w, rng));
@@ -384,7 +386,7 @@ export function advanceDay(w: World): GameEvent[] {
     if (e.type === 'seasonEnd' || e.type === 'info' || (e.type === 'match' && e.user) || (e.type === 'injury' && e.club === w.userClubId)
       || (e.type === 'transfer' && (e.user || e.fee >= 30e6))
       || (e.type === 'cup' && (e.club === w.userClubId || e.result === 'champion'))
-      || e.type === 'callup' || e.type === 'shortlist' || e.type === 'appeal' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || e.type === 'saga' || e.type === 'scandal' || (e.type === 'loan' && e.user) || (e.type === 'coach' && e.news) || e.type === 'scout' || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
+      || e.type === 'callup' || e.type === 'shortlist' || e.type === 'appeal' || e.type === 'sponsor' || e.type === 'manager' || e.type === 'board' || e.type === 'press' || e.type === 'saga' || e.type === 'scandal' || (e.type === 'loan' && e.user) || (e.type === 'coach' && e.news) || e.type === 'scout' || (e.type === 'worldcup' && (e.result === 'champion' || !!e.players?.length))) w.inbox.push(e);
   }
   if (w.inbox.length > 300) w.inbox.splice(0, w.inbox.length - 300);
   return events;

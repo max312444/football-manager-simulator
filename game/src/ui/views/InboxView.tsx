@@ -1,3 +1,4 @@
+import { SLOT_KO } from '../../engine/sponsors';
 import { wageDemand } from '../../engine/transfer';
 import { managerKo } from '../../data/db';
 import type { GameEvent, World } from '../../engine/types';
@@ -83,6 +84,12 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const mine = (e.players ?? []).map((id) => `${playerKo(id, w.players[id]?.name ?? id)}(${nationKo(w.players[id]?.nation ?? '')})`);
       if (e.result === 'start') return { tag: '월드컵', tone: 'text-sky', title: `${e.year} ${cup} 대표 선발 · 우리 선수 ${mine.length}명`, body: mine.join(', ') };
       return { tag: '월드컵', tone: 'text-[#f2c94c]', title: `${e.year} ${cup} 우승 · ${nationKo(e.nation)}`, body: [mine.length ? `우승 멤버: ${mine.join(', ')}` : '', e.scorer ? `득점왕 ${playerKo(e.scorer, e.text ?? '')}` : e.text ?? ''].filter(Boolean).join(' · ') };
+    }
+    case 'sponsor': {
+      const slot = SLOT_KO[e.slot];
+      if (e.kind === 'offers') return { tag: '스폰서', tone: 'text-[#f2c94c]', title: `${slot} 계약 제안 3건이 도착했습니다`, body: '지금 계약이 이번 시즌으로 끝납니다 · 재정 화면에서 6월 25일까지 고르세요 (고정형 · 성과형 · 장기형, 안 고르면 고정형으로 자동 계약)' };
+      if (e.kind === 'bonus') return { tag: '스폰서', tone: 'text-neon', title: `스폰서 성과 보너스 ${money(e.amount ?? 0)}`, body: `${e.name} (${slot}) · 계약의 성과 조건을 달성했습니다` };
+      return { tag: '스폰서', tone: 'text-[#f2c94c]', title: `${e.name} · ${slot} 계약${e.kind === 'auto' ? ' (자동)' : ''}`, body: `연 ${money(e.amount ?? 0)} · 매달 나눠서 들어옵니다${e.kind === 'auto' ? ' · 기한 안에 고르지 않아 고정형으로 계약했습니다' : ''}` };
     }
     case 'appeal': {
       const p = w.players[e.player];
