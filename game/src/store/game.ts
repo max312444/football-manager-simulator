@@ -8,13 +8,14 @@ import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, 
 import { playToEnd, setFormation, setTactics, step, substitute, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
 import { seedTraits } from '../engine/traits';
-import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadStandings, playerKo, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
+import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadManagers, loadStandings, playerKo, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { fillContracts, seasonOver } from '../engine/world';
+import { ensureManagers } from '../engine/managers';
 import { recommend, type Recommendation } from '../engine/ai';
 import { withinRules } from '../engine/rules';
 import { trainingOf, type Training } from '../engine/training';
-import { syncWorld, useSettings } from './settings';
+import { gameSettingsOf, syncWorld, useSettings } from './settings';
 import { useApp } from './app';
 import { acceptOffer, chooseJob, declineOffer, ensureManager } from '../engine/manager';
 import { askBoard, type BoardAsk } from '../engine/board';
@@ -69,7 +70,7 @@ async function loadSeasonInput(season: string, mustInclude?: string): Promise<Se
   const prev = `${y}-${String((y + 1) % 100).padStart(2, '0')}`;
   const prevStandings: Record<string, string[]> = {};
   for (const id of ids) { const st = await loadStandings(prev, id); if (st) prevStandings[id] = st; }
-  return { season, leagues: loaded, prevStandings, worldCups: worldCupsMeta };
+  return { season, leagues: loaded, prevStandings, worldCups: worldCupsMeta, managers: await loadManagers() };
 }
 
 // 자동 저장: 진행 중 연속 호출을 묶어서 한 번만
@@ -156,7 +157,7 @@ interface GameStore {
   /** 경기 준비 화면: 같은 동작을 이번 경기 선발에 */
   reshapeDraft(slotIdx: number, pos: Position): string;
   /** random: 완전 랜덤으로 고른 구단 → 첫 시즌만 예산 · 재정 규정 한도 보정 */
-  newGame(season: string, league: string, clubId: string, opts?: { random?: boolean }): Promise<void>;
+  newGame(season: string, league: string, clubId: string, opts?: { random?: boolean; manager?: import('../engine/managers').UserManagerInput }): Promise<void>;
   continueGame(): void;
   updateDraft(change: Partial<MatchDraft>): void;
   resetDraft(): void;
@@ -201,6 +202,8 @@ interface GameStore {
   managerDecline(idx: number): void;
   managerChoose(club: string): void;
   managerSetOpen(open: boolean): void;
+  /** 내 감독: 이름 · 축구 철학 · 선호 압박 바꾸기 */
+  editMyManager(c: { name?: string; philosophy?: import('../engine/managers').Philosophy; pressing?: import('../engine/types').Pressing }): void;
   /** 시설 투자 (구단 돈 · 공사 기간) */
   upgradeFacility(kind: 'training' | 'youth'): { ok: boolean; reason?: string };
   /** 이사회에 요청 (추가 예산 · 시설) → 확률로 찬성 · 반대 */
@@ -256,7 +259,8 @@ export const useGame = create<GameStore>((set, get) => {
       // 그 시즌 데이터가 있는 1부 리그를 모두 불러와 함께 진행한다
       const input = await loadSeasonInput(season, league);
       const seed = (Date.now() ^ Math.floor(Math.random() * 1e9)) >>> 0;
-      const world = createWorld(input, clubId, seed);
+      const world = createWorld(input, clubId, seed, { manager: opts.manager, settings: gameSettingsOf(useSettings.getState().s) });
+      registerGeneratedNames(world.managers ?? {});   // 가상 감독 한국어 이름
       world.dataset = dataset;
       world.careerId = newCareerId();
       // 베테랑 · 스타 선수 시작 호칭 (실제 시즌 기록 기준)
@@ -566,6 +570,16 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
       return r;
     },
+    editMyManager(c) {
+      const w = get().world;
+      const m = w?.managers?.user;
+      if (!w || !m) return;
+      if (c.name != null && c.name.trim()) { m.name = c.name.trim().slice(0, 20); m.ko = m.name; }
+      if (c.philosophy) m.style.mentality = ({ attack: 1, balance: 0, defend: -1 } as const)[c.philosophy];
+      if (c.pressing != null) m.style.pressing = c.pressing;
+      autosave(w);
+      bump();
+    },
     managerSetOpen(open) {
       const w = get().world;
       if (!w) return;
@@ -854,6 +868,7 @@ export const useGame = create<GameStore>((set, get) => {
       world.careerId ??= newCareerId();
       fillContracts(world);
       registerGeneratedNames(world.players);   // 유스 선수 한국어 이름
+      ensureManagers(world);   // 감독이 없던 예전 세이브: 가상 감독으로 채움
       syncWorld(world);
       set({ world, match: null, lastEvents: [], seasonReport: null });
       bump();

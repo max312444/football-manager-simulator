@@ -12,6 +12,7 @@ export interface RealPack {
   ko: Record<string, unknown>;
   seasons: Record<string, () => Promise<unknown>>;
   history: Record<string, () => Promise<unknown>>;
+  managers?: Record<string, () => Promise<unknown>>;
 }
 
 /** main.tsx 가 게임보다 먼저 채운다 */
@@ -30,7 +31,7 @@ const ask = <T,>(r: IDBRequest<T>) => new Promise<T>((res, rej) => { r.onsuccess
 const range = (prefix: string) => IDBKeyRange.bound(prefix, prefix + '￿');
 
 /** 게임에 필요한 파일 (폴더 안 상대 경로) */
-const WANT = /^(?:(.*)\/)?(meta\/[^/]+\.json|clubs\/[^/]+\.json|locale\/ko\/players[^/]*\.json|seasons\/[^/]+\/[^/]+\/[^/]+\.json|history\/players\.json)$/;
+const WANT = /^(?:(.*)\/)?(meta\/[^/]+\.json|clubs\/[^/]+\.json|locale\/ko\/(?:players[^/]*|managers)\.json|seasons\/[^/]+\/[^/]+\/[^/]+\.json|history\/(?:players|managers)\.json)$/;
 
 /** 고른 폴더(파일 목록)에서 실명 데이터 찾아 저장. 사진 · 수집 중간 파일 등 나머지는 읽지 않는다 */
 export type PickedFile = File | { file: File; path: string };
@@ -110,7 +111,8 @@ export async function boot(wantReal: boolean) {
     ]);
     // 시즌 · 이력 파일은 부를 때 읽는다 (db 는 열어 둔다)
     const lazy = (keys: IDBValidKey[]) => Object.fromEntries(keys.map((k) => [`pack/${k}`, async () => JSON.parse((await ask(db.transaction(FILES).objectStore(FILES).get(k))) as string)]));
-    realBoot.pack = { meta, clubs, ko, seasons: lazy(seasonKeys), history: lazy(histKeys) };
+    const isMgr = (k: IDBValidKey) => String(k).endsWith('managers.json');
+    realBoot.pack = { meta, clubs, ko, seasons: lazy(seasonKeys), history: lazy(histKeys.filter((k) => !isMgr(k))), managers: lazy(histKeys.filter(isMgr)) };
   } catch {
     // IndexedDB 를 못 쓰는 브라우저 (사생활 보호 모드 등) → 공개 데이터만
     realBoot.available = false;

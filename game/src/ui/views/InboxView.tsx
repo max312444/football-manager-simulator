@@ -1,3 +1,4 @@
+import { managerKo } from '../../data/db';
 import type { GameEvent, World } from '../../engine/types';
 import { clubKo, compKo, nationKo, playerKo } from '../../data/db';
 import { josa, koDate, money } from '../format';
@@ -97,8 +98,11 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       const p = e.player ? w.players[e.player] : null;
       return { tag: '스카우트', tone: 'text-sky', title: `스카우트 보고서 · ${p ? playerKo(p.id, p.name) : ''}`, body: `${p?.clubId ? clubKo(p.clubId) + ' · ' : ''}정확한 능력치와 숨은 성향을 선수 정보에서 볼 수 있습니다` };
     }
-    case 'coach':
-      return { tag: '감독', tone: 'text-mid', title: `${clubKo(e.club)} 감독 ${e.when === 'season' ? '경질' : '교체'}`, body: e.when === 'season' ? '성적 부진으로 경질 · 새 감독 부임 (전술 성향이 바뀝니다)' : '시즌을 마치고 새 감독 선임 (전술 성향이 바뀝니다)' };
+    case 'coach': {
+      const nm = e.manager && w.managers?.[e.manager], od = e.old && w.managers?.[e.old];
+      const who = nm ? `${managerKo(nm)} (전술 ${nm.tac})` : '새 감독';
+      return { tag: '감독', tone: 'text-mid', title: `${clubKo(e.club)} 감독 ${e.when === 'season' ? '경질' : '교체'}${nm ? ` · ${managerKo(nm)} 부임` : ''}`, body: `${od ? `${managerKo(od)} → ` : ''}${who}${e.when === 'season' ? ' · 성적 부진으로 경질' : ' · 시즌을 마치고 교체'} (전술 성향이 바뀝니다)` };
+    }
     case 'loan': {
       const name = playerKo(e.player, w.players[e.player]?.name ?? e.player);
       if (e.kind === 'start') return { tag: '임대', tone: 'text-sky', title: `${name} 임대 · ${clubKo(e.from)} → ${clubKo(e.to)}`, body: `이번 시즌 끝까지 · 주급 ${Math.round((e.share ?? 1) * 100)}% 부담${e.fee ? ` · 임대료 ${money(e.fee)}` : ''}${e.buy ? ` · ${e.must ? '시즌 끝 의무 이적' : '완전 영입 옵션'} ${money(e.buy)}` : ''}` };

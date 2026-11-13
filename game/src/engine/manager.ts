@@ -8,6 +8,7 @@ import { overall } from './ratings';
 import { sortTable } from './standings';
 import { levelOf } from './pyramid';
 import { ageOn } from './condition';
+import { hireManager, placeDisplaced } from './managers';
 import { canAfford, completeTransfer, marketValue, wageDemand, windowOpen } from './transfer';
 
 export interface ManagerOffer { club: string; date: string; until: string; kind: 'offer' | 'renew'; years: number }
@@ -130,6 +131,17 @@ export function moveTo(w: World, club: string, why: ManagerStint['why'], rng: Rn
   }
   w.clubs[old].lineup = null;
   w.userClubId = club;
+  // 감독 자리: 새 구단 감독은 실업자로, 떠난 구단은 새 감독
+  if (w.managers) {
+    const was = w.clubs[club].managerId;
+    w.clubs[club].managerId = undefined;
+    if (was && w.managers[was]) {
+      const moved = placeDisplaced(w, w.managers[was]);
+      if (moved) events.push({ type: 'coach', date: w.date, club: moved.club, when: 'end', news: true, manager: was, old: moved.old });
+    }
+    if (w.managers.user) { w.managers.user.clubId = club; w.managers.user.since = w.date; }
+    hireManager(w, old, rng);
+  }
   m.since = w.date;
   m.confidence = 60;
   m.relation = 55; m.denials = []; m.lastAsk = {};

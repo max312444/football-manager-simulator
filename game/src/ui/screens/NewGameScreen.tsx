@@ -6,6 +6,7 @@ import { overall } from '../../data/rating';
 import type { ClubSeasonFile } from '../../data/types';
 import { Crest } from '../components/Crest';
 import { Icon } from '../components/Icon';
+import { ManagerSetup, useManagerSetup } from '../components/ManagerSetup';
 import { money, ratingTone } from '../format';
 
 const fmtSeason = (s: string) => s.replace('-', '/');
@@ -42,6 +43,7 @@ export function NewGameScreen() {
     return Math.round(t.reduce((a, b) => a + b, 0) / Math.max(1, t.length));
   };
   const sel = clubsData?.find((c) => c.club === club);
+  const mgr = useManagerSetup();   // 내 감독 이름 · 철학 · 압박 · 강점
   // 휴대폰: 구단을 누르면 팝업 (닫기 · 뒤로 가기로 닫힘)
   const [sheet, setSheet] = useState(false);
   useEffect(() => {
@@ -62,7 +64,7 @@ export function NewGameScreen() {
     const r = await loadLeagueSeason(s, lg.id);
     const c = r.clubs[Math.floor(Math.random() * r.clubs.length)];
     setSeason(s); setLeague(lg.id); setClub(c.club);
-    await newGame(s, lg.id, c.club, { random: true });
+    await newGame(s, lg.id, c.club, { random: true, manager: mgr.m });
     setRolling(false);
     setTab('home');
     go('hub');
@@ -70,7 +72,7 @@ export function NewGameScreen() {
 
   const start = async () => {
     if (!club) return;
-    await newGame(season, league, club);
+    await newGame(season, league, club, { manager: mgr.m });
     setTab('home');
     go('hub');
   };
@@ -204,6 +206,7 @@ export function NewGameScreen() {
                 </div>
               ))}
             </div>
+            <ManagerSetup {...mgr} />
             <div className="px-7 py-5 lg:flex-1 lg:overflow-auto">
               <div className="mb-3 text-[11px] font-semibold text-lo">핵심 선수</div>
               {[...sel.squad].sort((a, b) => overall(b) - overall(a)).slice(0, 6).map((p) => (

@@ -1,5 +1,6 @@
 // 설정 창: 진행 · 알림 / 팝업 · 난이도 · 경기 · 저장 · 화면 (첫 화면 · 게임 안 사이드바)
 import { useState, type ReactNode } from 'react';
+import { difficultyPreset } from '../../engine/gameSettings';
 import { ChangelogList } from './UpdateNotes';
 import { CHANGELOG, GAME_VERSION } from '../../version';
 import { DEFAULT_SETTINGS, syncWorld, useSettings, type Settings } from '../../store/settings';
@@ -77,6 +78,9 @@ export function SettingsDialog({ onClose }: { onClose: () => void }) {
           </Section>
 
           <Section title="난이도">
+            <Row label="난이도" hint="쉬움: 지금까지의 게임 · 보통: 상대가 나와 싸울 때 +5% · 어려움: +10%, 이사회 · 재정 규정 엄격, 이적 어려움. 고르면 아래 세 가지도 함께 바뀝니다">
+              <Seg value={s.difficulty} options={[['easy', '쉬움'], ['normal', '보통'], ['hard', '어려움']]} onChange={(v) => change(difficultyPreset(v) as Partial<typeof s>)} />
+            </Row>
             <Row label="이사회 인내심" hint="경질 · 재계약 거절 기준과 성적 부진 때 신뢰도가 떨어지는 속도">
               <Seg value={s.patience} options={[['lenient', '너그러움'], ['normal', '보통'], ['strict', '엄격']]} onChange={(v) => change({ patience: v })} />
             </Row>

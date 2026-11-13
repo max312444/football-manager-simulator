@@ -160,6 +160,8 @@ export interface ClubState {
   captain?: string;
   /** AI 구단 감독 신뢰도 (coaches.ts) */
   coach?: import('./coaches').Coach;
+  /** 감독 (w.managers 키). 내 구단은 비움 (내 감독 = w.managers.user) */
+  managerId?: string;
   /** 시설 수준 1~5 (훈련장 · 유스) · 경기장 수용 인원 (데이터, 시즌마다 갱신) */
   facilities?: { training: number; youth: number };
   /** 시설 공사 중 · 투자로 올린 단계 (다음 시즌 데이터보다 낮아지지 않음) */
@@ -226,7 +228,7 @@ export type GameEvent =
   | { type: 'shortlist'; date: string; player: string; kind: 'bargain' | 'free' | 'bosman' | 'expiring'; club?: string | null }
   /** 감독: 제안 · 재계약 · 경질 · 이동 · 따라오는 선수 */
   /** AI 구단 감독 교체 (season: 시즌 중 경질 · end: 시즌 끝 교체), news = 받은편지함에 남길 만한 소식 */
-  | { type: 'coach'; date: string; club: string; when: 'season' | 'end'; news: boolean }
+  | { type: 'coach'; date: string; club: string; when: 'season' | 'end'; news: boolean; manager?: string; old?: string }
   /** 임대: 시작 · 복귀 · 완전 영입 */
   | { type: 'loan'; date: string; player: string; from: string; to: string; kind: 'start' | 'return' | 'bought'; share?: number; fee?: number; /** 의무 이적 */ must?: boolean; buy?: number; user: boolean }
   /** 선수 언론 플레이: 시작 · 커짐 · 해결 */
@@ -359,6 +361,8 @@ export interface World {
   randomBonus?: { season: string };
   /** 게임 규칙 설정 (팝업 빈도 · 난이도), gameSettings.ts */
   settings?: import('./gameSettings').GameSettings;
+  /** 감독 (모든 구단 · 실업 · 내 감독 'user'), managers.ts */
+  managers?: Record<string, import('./managers').Manager>;
   /** 대응을 기다리는 선수 사가 (선수 ID) */
   sagaPrompt?: string;
   /** 감독 커리어 ID (명예의 전당 기록, store/careers.ts) */

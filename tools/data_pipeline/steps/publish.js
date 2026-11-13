@@ -309,6 +309,30 @@ async function publish({ apply = false, log = console.log } = {}) {
     writeJsonIfChanged(path.join(CLUBS_DIR, f), { ...c, crest: crestFor(c) });
   }
   log(`  data-public/ 파일 ${out.size}개 작성`);
+
+  // 감독 (data/history/managers.json, `managers --apply` 로 만든 것) → data-public/history/managers.json
+  //  같은 ID · 능력 · 성향, 이름은 패러디 (가상 감독은 그대로), 생년월일은 연 · 월만, Wikidata 항목 없음, 구단 ID는 공개 ID
+  const mgrFile = path.join(DATA, 'history', 'managers.json');
+  if (fs.existsSync(mgrFile)) {
+    const md = readJson(mgrFile);
+    const pubM = { managers: {}, seasons: {} };
+    for (const [id, m] of Object.entries(md.managers)) {
+      const { wikidata, ...rest } = m;   // eslint-disable-line no-unused-vars
+      pubM.managers[id] = {
+        ...rest,
+        name: m.generated ? m.name : parodyEn(m.name, id),
+        birth: m.birth ? `${m.birth.slice(0, 7)}-01` : null,
+      };
+    }
+    for (const [s, cl] of Object.entries(md.seasons)) pubM.seasons[s] = Object.fromEntries(Object.entries(cl).map(([c, id]) => [mapClub(c), id]));
+    writeJsonIfChanged(path.join(PUB, 'history', 'managers.json'), pubM);
+    // 한국어 이름 (Wikidata ko 이름이 있는 감독만) → 패러디
+    const koM = readJson(path.join(DATA, 'locale', 'ko', 'managers.json'), {});
+    const koPub = {};
+    for (const [id, v] of Object.entries(koM)) { const name = parodyKo(v.name, id); koPub[id] = { name, short: name.split(' ').pop() }; }
+    writeJsonIfChanged(path.join(PUB, 'locale', 'ko', 'managers.json'), koPub);
+    log(`  data-public/history/managers.json 작성 (감독 ${Object.keys(pubM.managers).length}명 · 한국어 이름 ${Object.keys(koPub).length}명)`);
+  } else log('  감독 데이터 없음 (data/history/managers.json) — managers --apply 를 먼저');
 }
 
 module.exports = { publish, parodyEn, parodyKo, colorWord };

@@ -14,6 +14,7 @@ import type { AttrKey } from '../data/types';
 import type { ClubState, PlayerState, World } from './types';
 import type { Rng } from './rng';
 import { ageOn } from './condition';
+import { devBonus } from './managers';
 import { book, clubRevenue, TRAINING_COST } from './finance';
 
 export type TrainFocus = 'balanced' | 'attack' | 'defense' | 'physical' | 'technical';
@@ -62,7 +63,7 @@ export function monthlyDev(w: World, p: PlayerState, rng?: Rng): number {
   const share = played >= 3 ? Math.min(1, (p.stats.apps + p.stats.subApps * 0.4) / played) : 0.5;
   // 훈련 몫: 부하 (체력 소모) × 시설 효율 − 기준
   const train = TRAIN_LOAD[effectiveTraining(club).intensity] * facilityEfficiency(facilityLevel(club, 'training')) - TRAIN_BASE;
-  const dev = 0.25 * pro + 0.1 * amb + 0.2 * (share - 0.5) + train;
+  const dev = 0.25 * pro + 0.1 * amb + 0.2 * (share - 0.5) + train + devBonus(w, club.id);   // 감독 육성 능력
   return a * (dev + (rng ? rng.normal() * 0.05 : 0));
 }
 

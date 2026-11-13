@@ -18,6 +18,7 @@ import { applyResult, emptyRow, sortTable } from './standings';
 import { DEFAULT_FORMATION, famOf, FORMATIONS, guessFormation, matchRules, trainFamiliarity } from './squad';
 import { createMatch, finalFitness, minutesPlayed, playToEnd, type MatchState } from './match';
 import { dailyUpdate } from './condition';
+import { assignManagers, createUserManager, ensureManagers, managerEdge, moraleTarget, type UserManagerInput } from './managers';
 import { initialLoyalty, updatePlaytime } from './loyalty';
 import { recommend } from './ai';
 import { aiTransferDay, canAfford, completeTransfer, wageDemand } from './transfer';
@@ -48,6 +49,8 @@ export interface SeasonInput {
   prevStandings?: Record<string, string[]>;
   /** 실제 월드컵 참가국 · 조 (meta/worldcups.json) */
   worldCups?: Record<string, import('./worldcup').WorldCupMeta>;
+  /** 감독 데이터 (history/managers.json) */
+  managers?: import('./managers').ManagerData;
 }
 
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
@@ -97,7 +100,7 @@ export function fillContracts(w: World): void {
 
 export const emptyStats = () => ({ apps: 0, subApps: 0, goals: 0, assists: 0, yellow: 0, red: 0, cleanSheets: 0, ratingSum: 0 });
 
-export function createWorld(input: SeasonInput, userClubId: string, seed: number): World {
+export function createWorld(input: SeasonInput, userClubId: string, seed: number, opts: { manager?: UserManagerInput; settings?: World['settings'] } = {}): World {
   const rng = createRng(seed);
   const players: Record<string, PlayerState> = {};
   const clubs: Record<string, ClubState> = {};
@@ -140,6 +143,10 @@ export function createWorld(input: SeasonInput, userClubId: string, seed: number
   w.cups = createCups(w, rng);
   w.worldCup = createWorldCup(w, input.season, input.worldCups);
   academyFill(w, Object.values(clubs), input.season);   // 선수단 구성이 모자란 구단은 유스에서 끌어올림
+  if (opts.settings) w.settings = { ...opts.settings };
+  // 감독: 데이터의 그 시즌 감독 (없으면 가상) · 내 감독
+  assignManagers(w, input.managers, input.season, createRng((seed ^ 0x3a9e) >>> 0));
+  createUserManager(w, opts.manager ?? { name: '감독', philosophy: 'balance', pressing: 1, strength: 'tac' });
   w.rng = rng.state();
   return w;
 }
@@ -180,7 +187,9 @@ export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?
     bigMatch: h.reputation >= 80 && a.reputation >= 80,
     commentary: f.home === w.userClubId || f.away === w.userClubId,   // 문자 중계는 내 경기만
     homeFam: famOf(h, hp.lineup.formation), awayFam: famOf(a, ap.lineup.formation),
-    homeChem: chemMult(chemistry(w, f.home).total), awayChem: chemMult(chemistry(w, f.away).total),
+    // 팀 케미 × 감독 (전술 능력 · 내 감독 철학 · 난이도)
+    homeChem: chemMult(chemistry(w, f.home).total) * (h ? managerEdge(w, f.home, f.away, hp.tactics) : 1),
+    awayChem: chemMult(chemistry(w, f.away).total) * (a ? managerEdge(w, f.away, f.home, ap.tactics) : 1),
     manualSide: opts.manualSide,
   }, { players: w.players, rng });
 }
@@ -279,6 +288,7 @@ export function applyMatch(w: World, f: Fixture, m: MatchState) {
  * 월드를 직접 수정한다 (화면 쪽은 새 참조로 감싸서 갱신).
  */
 export function advanceDay(w: World): GameEvent[] {
+  ensureManagers(w);   // 예전 세이브: 감독이 없으면 채움
   const rng = createRng(w.rng);
   const events: GameEvent[] = [];
   const today = w.date;
@@ -330,11 +340,12 @@ export function advanceDay(w: World): GameEvent[] {
 
   // 컨디션 (오늘 뛴 선수는 경기 후 체력 그대로, 회복은 내일부터). 훈련 강도에 따라 회복 속도 · 훈련 중 부상
   const recent = recentPlayers(w, today);
+  const moraleTo = new Map(Object.keys(w.clubs).map((id) => [id, moraleTarget(w, id)]));   // 감독 동기부여 능력
   for (const p of Object.values(w.players)) {
     if (playedToday.has(p.id)) continue;
     const club = p.clubId ? w.clubs[p.clubId] : null;
     const t = club ? effectiveTraining(club) : null;
-    dailyUpdate(p, today, rng, recent.has(p.id), t && club ? recoveryFactor(t, facilityLevel(club, 'training')) : 1);
+    dailyUpdate(p, today, rng, recent.has(p.id), t && club ? recoveryFactor(t, facilityLevel(club, 'training')) : 1, club ? moraleTo.get(club.id) : 60);
     if (t && club && w.competitions[club.league] && !p.injury && rng.chance(trainingInjuryChance(t, p.hidden.injuryProne))) {
       const days = rng.int(4, 21);
       p.injury = { days, label: '훈련 중 부상' };

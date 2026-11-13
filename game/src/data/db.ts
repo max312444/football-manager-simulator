@@ -8,6 +8,7 @@ import type {
   ClubMaster, ClubSeasonFile, CupMeta, LeagueMeta, LeagueSeasonFile, LocaleName, NationMeta,
 } from './types';
 import type { PlayerHistory } from '../engine/traits';
+import type { ManagerData } from '../engine/managers';
 import { realBoot } from './realStore';
 
 type Meta<T> = Record<string, T>;
@@ -15,16 +16,18 @@ const SETS = {
   public: {
     meta: import.meta.glob<unknown>('@pub/meta/*.json', { eager: true, import: 'default' }) as Meta<unknown>,
     clubs: import.meta.glob<ClubMaster>('@pub/clubs/*.json', { eager: true, import: 'default' }),
-    ko: import.meta.glob<Record<string, LocaleName>>('@pub/locale/ko/players*.json', { eager: true, import: 'default' }),
+    ko: import.meta.glob<Record<string, LocaleName>>('@pub/locale/ko/{players*,managers}.json', { eager: true, import: 'default' }),
     seasons: import.meta.glob<ClubSeasonFile | LeagueSeasonFile>('@pub/seasons/*/*/*.json', { import: 'default' }),
     history: import.meta.glob<PlayerHistory>('@pub/history/players.json', { import: 'default' }),
+    managers: import.meta.glob<ManagerData>('@pub/history/managers.json', { import: 'default' }),
   },
   dev: {
     meta: import.meta.glob<unknown>('@data/meta/*.json', { eager: true, import: 'default' }) as Meta<unknown>,
     clubs: import.meta.glob<ClubMaster>('@data/clubs/*.json', { eager: true, import: 'default' }),
-    ko: import.meta.glob<Record<string, LocaleName>>('@data/locale/ko/players*.json', { eager: true, import: 'default' }),
+    ko: import.meta.glob<Record<string, LocaleName>>('@data/locale/ko/{players*,managers}.json', { eager: true, import: 'default' }),
     seasons: import.meta.glob<ClubSeasonFile | LeagueSeasonFile>('@data/seasons/*/*/*.json', { import: 'default' }),
     history: import.meta.glob<PlayerHistory>('@data/history/players.json', { import: 'default' }),
+    managers: import.meta.glob<ManagerData>('@data/history/managers.json', { import: 'default' }),
   },
 };
 /** 저장소의 data/ 폴더가 있으면 그것, 없으면 브라우저에 넣어 둔 실명 데이터 */
@@ -88,6 +91,12 @@ export async function loadLeagueSeason(season: string, league: string) {
   return { meta, clubs: clubsData };
 }
 
+/** 감독 데이터 (시즌별 구단 감독 · 능력). 파일이 없으면 undefined → 모든 구단 가상 감독 */
+export async function loadManagers(): Promise<ManagerData | undefined> {
+  const f = Object.values((S as { managers?: Record<string, () => Promise<ManagerData>> }).managers ?? {})[0];
+  return f ? await f() : undefined;
+}
+
 /** 선수 이력 (시작 호칭 계산용). 파일이 없으면 null → npm run history 로 만들 수 있음 */
 export async function loadHistory(): Promise<PlayerHistory | null> {
   const f = Object.values(S.history)[0];
@@ -100,6 +109,19 @@ export function setNameStyle(s: 'full' | 'short') { nameStyle = s; }
 export const playerKo = (id: string, fallback: string) => { const e = koNames.get(id); return (nameStyle === 'short' ? e?.short ?? e?.name : e?.name) ?? fallback; };
 /** 구단 이름. 월드컵 경기용 대표팀(nt-나라)은 '나라 대표팀' */
 export const clubKo = (id: string) => (id.startsWith('nt-') ? `${nations.get(id.slice(3))?.ko ?? id.slice(3)} 대표팀` : clubs.get(id)?.ko ?? clubs.get(id)?.name ?? id);
+/** 감독 이름: 한국어 이름 파일(locale/ko/managers.json, 짧은 이름 설정 따름) → 내 감독 · 가상 감독(이름을 가져온 선수들의 한국어 이름을 섞어서, 처음 한 번 계산해 저장) → 영문 */
+export function managerKo(m: { id?: string; name: string; ko?: string; nameFrom?: [string | null, string | null] }): string {
+  const e = m.id ? koNames.get(m.id) : undefined;
+  if (e) return (nameStyle === 'short' ? e.short ?? e.name : e.name);
+  if (m.ko) return m.ko;
+  if (m.nameFrom) {
+    const split = (s: string) => s.trim().split(/\s+/);
+    const [fId, lId] = m.nameFrom;
+    const f = fId ? koNames.get(fId)?.name : null, l = lId ? koNames.get(lId)?.name : null;
+    if (l) { m.ko = [f ? split(f)[0] : null, split(l).at(-1)].filter(Boolean).join(' '); return m.ko; }
+  }
+  return m.name;
+}
 /** 나라 이름 */
 export const nationKo = (code: string) => nations.get(code)?.ko ?? code;
 

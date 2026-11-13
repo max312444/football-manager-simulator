@@ -1,4 +1,5 @@
 // 경기 전 스쿼드 설정: AI가 상대에 맞춰 추천한 선발로 시작 → 사용자가 수정 → 선발 확정하면 바로 킥오프
+import { ManagerLine } from '../components/ManagerProfile';
 import { useApp } from '../../store/app';
 import { OvrText } from '../components/Scout';
 import { useEffect, useMemo, useState } from 'react';
@@ -119,6 +120,7 @@ export function MatchPrep() {
           </Card>
           <Card title={`상대 · ${clubKo(oppId)}`}>
             <div className="px-5 py-4">
+              <div className="mb-3"><ManagerLine clubId={oppId} compact /></div>
               <div className="flex items-center justify-between text-[13px]"><span className="text-lo">예상 포메이션</span><span className="tnum font-semibold">{oppPlan.tactics.formation}</span></div>
               <div className="mt-2 flex items-center justify-between text-[13px]"><span className="text-lo">예상 성향</span><span>{MENTALITY.find((x) => x.v === oppPlan.tactics.mentality)?.label}</span></div>
               <div className="mt-3 flex items-center justify-between text-[13px]">

@@ -3,11 +3,12 @@
 //  - 시즌 끝: 목표보다 크게 못했거나 (6계단 아래) 강등이면 절반 확률로 교체
 //  - 공석이 생기면 내 감독 명성과 맞을 때 절반 확률로 나에게 제안 (2주)
 //  - 감독 이름은 쓰지 않는다 (실존 인물처럼 보이지 않게)
-import type { GameEvent, Mentality, Pressing, SeasonRecord, World } from './types';
+import type { GameEvent, SeasonRecord, World } from './types';
 import type { Rng } from './rng';
 import { sortTable } from './standings';
 import { levelOf } from './pyramid';
 import { boardTarget, ensureManager } from './manager';
+import { hireManager } from './managers';
 
 export interface Coach { confidence: number; since: string }
 
@@ -21,11 +22,10 @@ export function coachOf(w: World, clubId: string): Coach {
 }
 
 /** 새 감독: 신뢰도 60 · 전술 성향이 새로 (공격성 · 압박) */
-function newCoach(w: World, clubId: string, rng: Rng) {
+function newCoach(w: World, clubId: string, rng: Rng): string {
   const c = w.clubs[clubId];
   c.coach = { confidence: 60, since: w.date };
-  c.tactics = { ...c.tactics, mentality: rng.pick([-1, 0, 0, 1, 1, 2] as Mentality[]), pressing: rng.pick([0, 1, 1, 2] as Pressing[]) };
-  c.lineup = null;
+  return hireManager(w, clubId, rng).id;   // 실업 감독 중 구단에 맞는 사람 · 없으면 가상 감독 (성향이 전술로)
 }
 
 /** 큰 소식인지 (같은 리그 · 빅클럽) */
@@ -59,8 +59,9 @@ export function coachDay(w: World, rng: Rng): GameEvent[] {
       co.confidence = clamp(co.confidence + clamp((target - (i + 1)) * 1.5, -8, 6), 0, 100);
       if (!sacked && co.confidence < 12 && (mon >= 10 || mon <= 4) && days(co.since, w.date) >= 120) {
         sacked = true;
-        newCoach(w, id, rng);
-        out.push({ type: 'coach', date: w.date, club: id, when: 'season', news: newsworthy(w, id) });
+        const old = w.clubs[id].managerId;
+        const mgr = newCoach(w, id, rng);
+        out.push({ type: 'coach', date: w.date, club: id, when: 'season', news: newsworthy(w, id), manager: mgr, old });
         out.push(...vacancyOffer(w, id, rng));
       }
     }
@@ -79,8 +80,9 @@ export function coachSeasonEnd(w: World, recs: SeasonRecord[], rng: Rng): GameEv
       const pos = i + 1;
       const relegated = levelOf(r.league) === 1 && pos > n - 3;
       if ((pos > boardTarget(w, id) + 6 || relegated) && rng.chance(0.5)) {
-        newCoach(w, id, rng);
-        out.push({ type: 'coach', date: w.date, club: id, when: 'end', news: newsworthy(w, id) });
+        const old = w.clubs[id].managerId;
+        const mgr = newCoach(w, id, rng);
+        out.push({ type: 'coach', date: w.date, club: id, when: 'end', news: newsworthy(w, id), manager: mgr, old });
       } else coachOf(w, id).confidence = 60;   // 새 시즌은 다시
     });
   }

@@ -15,6 +15,7 @@
 //   node tools/data_pipeline photos-ids [--season 2025-26] [--league eng1] [--club liverpool]   사진 넣을 선수 ID 목록 (CSV)
 //   node tools/data_pipeline photos-import   data/photos/inbox/<선수ID>/<시즌>.jpg 사진 가져오기
 //   node tools/data_pipeline economy [--season 2024-25] [--apply]   구단 재정 · 명성 · 주급 다시 맞추기 (Money League 실제 매출 + 추정)
+//   node tools/data_pipeline managers [--apply]   시즌별 구단 감독 + 감독 능력 → data/history/managers.json (steps/managers.js)
 //   node tools/data_pipeline publish [--apply]   공개용 패러디 데이터(data-public/) 만들기
 //   node tools/data_pipeline rename-club <바꿀 구단 ID> <고정 구단 ID> [--apply]
 //   node tools/data_pipeline names    --league eng1 [--lang ko] [--apply]
@@ -154,6 +155,7 @@ function report(league, { t0, summary } = {}) {
   if (cmd === 'photos-import') return require('./steps/photoImport').photoImport({ log });
   if (cmd === 'economy') return require('./steps/economy').economy({ apply: args.includes('--apply'), seasonFilter: typeof opt('season') === 'string' ? opt('season') : undefined, log });
   if (cmd === 'dedupe') return dedupe({ apply: args.includes('--apply'), log });
+  if (cmd === 'managers') return require('./steps/managers').managers({ apply: args.includes('--apply'), log });
   if (cmd === 'publish') return publish({ apply: args.includes('--apply'), log });
   if (cmd === 'positions') return require('./steps/positions').positions({ apply: args.includes('--apply'), log });
   if (cmd === 'positions-check') return require('./steps/positionCheck').positionCheck({ season: typeof opt('season') === 'string' ? opt('season') : undefined, league: typeof opt('league') === 'string' ? opt('league') : undefined, log });

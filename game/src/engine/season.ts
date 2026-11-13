@@ -8,6 +8,8 @@
 //  - 강등 · 승격: 실제 다음 시즌에 새로 올라온 구단 수만큼 게임 순위 하위 구단을 내린다
 //    (2부 리그는 아직 없음 → 사용자 구단이 강등권이면 잔류 처리하고 그 위 구단을 내림)
 import { coachSeasonEnd } from './coaches';
+import { assignManagers, managerSeasonGrowth } from './managers';
+import { teamStrength } from './ai';
 import { endLoans } from './loan';
 import { joinPrecontract } from './bosman';
 import { fixRelClauses, triggerRelClauses } from './firesale';
@@ -95,6 +97,7 @@ export function closeSeason(w: World): SeasonRecord[] {
   w.history.push(...recs);
   const mres = managerSeasonEnd(w, recs);   // 감독: 신뢰도 · 명성 (시즌 끝에 경질 판정)
   if (mres) fansSeasonEnd(w, mres);         // 팬 여론 · 우승 보너스 예약
+  managerSeasonGrowth(w, recs, (id) => (w.clubs[id] ? teamStrength(w, id) : 0));   // 감독 성장 · 하락 (기대보다 잘하면 잠재력까지)
   w.inbox.push(...coachSeasonEnd(w, recs, createRng((w.rng ^ 0xc0ac) >>> 0)).filter((e) => e.type === 'coach' && e.news));   // AI 구단 감독 교체
   return recs;
 }
@@ -407,6 +410,8 @@ export function startNextSeason(w: World, next: SeasonInput): SeasonReport {
   w.inbox.push({ type: 'info', date: startDate, text: `${to.replace('-', '/')} 시즌 시작 · 새로 등장한 선수 ${report.debuts.length}명 · 은퇴 ${report.retired.length}명` });
   if (report.board) w.inbox.push({ type: 'info', date: startDate, text: `이사회 예산 배정 · 이적 예산 ${money(report.board.transferBudget)} · 주급 예산 ${money(report.board.wageBudget)}/주` });
   if (report.userKept) w.inbox.push({ type: 'info', date: startDate, text: '강등권이었지만 2부 리그가 아직 없어 잔류 처리됐습니다' });
+  // AI 구단 감독: 실제 다음 시즌 데이터가 있으면 그 감독으로 (없는 구단은 지금 감독 그대로)
+  if (next.managers) assignManagers(w, next.managers, to, createRng((w.rng ^ 0x7a11) >>> 0));
   // 감독: 경질 · 계약 만료면 새 구단 고르기
   const mrng = createRng((w.rng ^ 0x3a9e) >>> 0);
   w.inbox.push(...managerNewSeason(w, mrng));

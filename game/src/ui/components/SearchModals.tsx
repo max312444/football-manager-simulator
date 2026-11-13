@@ -1,4 +1,5 @@
 // 검색에서 연 창: 선수 정보 (영입 협상 · 관심) · 구단 선수단
+import { ManagerLine } from './ManagerProfile';
 import { useEffect, useState } from 'react';
 import { ClubScoutBar, OvrText } from './Scout';
 import { useApp } from '../../store/app';
@@ -100,6 +101,7 @@ function ClubModal() {
           </dl>
           <button onClick={() => openClub(null)} className="h-8 w-8 rounded-md text-[18px] text-lo hover:bg-ink-800 hover:text-hi" aria-label="닫기">×</button>
         </header>
+        <div className="border-b border-line px-6 py-2.5"><ManagerLine clubId={c.id} /></div>
         <ClubScoutBar clubId={c.id} />
         <div className="min-h-0 flex-1 overflow-auto">
           <table className="w-full text-[13px]">

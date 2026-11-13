@@ -59,7 +59,7 @@ describe('체력 회복', () => {
     expect(vet[2]).toBeLessThan(young[2] - 5);               // 베테랑은 쉬어야
     expect(prime[1]).toBeGreaterThanOrEqual(80);
     // 일주일 쉬면 베테랑도 거의 회복
-    const p = structuredClone(base); p.birth = '1992-01-01'; p.fitness = 100 - drain;
+    const p = structuredClone(base); p.birth = '1992-01-01'; p.fitness = 100 - drain; p.injury = null;
     const rng = createRng(3);
     for (let d = 0; d < 7; d++) dailyUpdate(p, '2025-09-10', rng, false);
     expect(p.fitness).toBeGreaterThanOrEqual(90);

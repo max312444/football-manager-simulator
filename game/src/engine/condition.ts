@@ -23,8 +23,9 @@ export function ageRecovery(age: number): number {
  * 하루 경과.
  * @param congested 최근 3일 안에 경기를 뛰었는지 (일정 밀도)
  * @param recovery 체력 회복 배율 (훈련 강도: 낮음 1.08 · 보통 1 · 높음 0.9)
+ * @param moraleTo 사기가 돌아가려는 값 (감독 동기부여, managers.ts moraleTarget)
  */
-export function dailyUpdate(p: PlayerState, date: string, rng: Rng, congested: boolean, recovery = 1) {
+export function dailyUpdate(p: PlayerState, date: string, rng: Rng, congested: boolean, recovery = 1, moraleTo = 60) {
   const age = ageOn(p.birth, date);
   const pro = p.hidden.professionalism / 20;
 
@@ -49,8 +50,8 @@ export function dailyUpdate(p: PlayerState, date: string, rng: Rng, congested: b
   // 경기 감각: 안 뛰면 서서히 떨어짐
   p.sharpness = clamp(p.sharpness - 0.7, 20, 100);
 
-  // 사기: 60을 향해 천천히 돌아감
-  p.morale = clamp(p.morale + (60 - p.morale) * 0.02, 0, 100);
+  // 사기: 기준값(보통 60, 감독 동기부여 능력에 따라 ±)을 향해 천천히 돌아감
+  p.morale = clamp(p.morale + (moraleTo - p.morale) * 0.02, 0, 100);
 }
 
 /** 화면 표시용 컨디션 5단계 */

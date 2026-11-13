@@ -1,4 +1,5 @@
 // 구단 화면: 구단 정보 · 우승 기록 · 시즌별 순위 · 이사회 기대 · 구단 역대 기록
+import { MyManagerCard } from '../components/ManagerProfile';
 import { ManagerCard } from '../components/ManagerCard';
 import { useEffect, useMemo, useState } from 'react';
 import { FACILITY_KO, facilityLevel, upgradeCost, type FacilityKind } from '../../engine/facilities';
@@ -170,6 +171,7 @@ export function ClubView() {
         </Card>
 
         <div className="flex flex-col gap-6">
+          <MyManagerCard />
           <ManagerCard />
           <Card title="이사회 기대">
             <div className="px-5 py-5">
