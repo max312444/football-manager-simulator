@@ -20,6 +20,7 @@ import { PosTag } from '../components/bits';
 import { koDate, money } from '../format';
 import { bosmanEligible, deadlineLeft, inFinalMonths } from '../../engine/bosman';
 import { bargainOf, relClauseOf } from '../../engine/firesale';
+import { currentLineup, matchRules } from '../../engine/squad';
 import { useApp } from '../../store/app';
 import { analyzeClub, searchPreset } from '../../engine/analysis';
 import type { Position } from '../../data/types';
@@ -59,6 +60,7 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
   const offers = (w.offers ?? []).filter((o) => offerValid(w, o));
   const shortlist = w.shortlist ?? [];
   const listed = new Set(w.transferList ?? []);
+  const xi = currentLineup(club.squad.map((id) => w.players[id]), club, matchRules(w.season).benchSize);   // 내 선수: 지금 선발 · 후보 표시
 
   const rows = useMemo(() => {
     const name = (p: PlayerState) => playerKo(p.id, p.name);
@@ -225,8 +227,10 @@ export function TransfersView({ initialGroup }: { initialGroup?: Group }) {
                 {rows.length === 0 && <tr><td colSpan={8} className="px-4 py-10 text-center text-lo">조건에 맞는 선수가 없습니다</td></tr>}
                 {rows.map(({ p, age, value }) => (
                   <tr key={p.id} onClick={() => setSel(p.id)} className={`h-12 cursor-pointer lg:h-11 shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${sel === p.id ? 'bg-neon-ghost' : p.clubId ? 'hover:bg-ink-800' : 'bg-sky/[0.06] hover:bg-sky/10'}`}>
-                    <td className={`px-3 py-1.5 lg:px-4 lg:py-0 ${p.clubId ? '' : 'shadow-[inset_3px_0_0_var(--color-sky)]'}`}><span className="font-medium">{playerKo(p.id, p.name)}</span>
+                    <td className={`px-3 py-1.5 lg:px-4 lg:py-0 ${!p.clubId ? 'shadow-[inset_3px_0_0_var(--color-sky)]' : p.clubId === w.userClubId && xi.starters.has(p.id) ? 'shadow-[inset_4px_0_0_var(--color-neon)]' : p.clubId === w.userClubId && xi.bench.has(p.id) ? 'shadow-[inset_4px_0_0_var(--color-sky)]' : ''}`}><span className="font-medium">{playerKo(p.id, p.name)}</span>
                       {!p.clubId && <span className="ml-2 rounded bg-sky/15 px-1.5 py-px text-[11px] font-semibold text-sky">FA</span>}
+                      {p.clubId === w.userClubId && (xi.starters.has(p.id) ? <span title="지금 선발 (전술 화면 기준)" className="ml-2 rounded bg-neon px-1.5 text-[11px] font-semibold text-ink-950">선발</span>
+                        : xi.bench.has(p.id) ? <span title="지금 후보" className="ml-2 rounded px-1.5 text-[11px] font-semibold text-sky ring-1 ring-sky">후보</span> : null)}
                       {listed.has(p.id) && <span className="ml-2 rounded bg-amber/15 px-1 text-[11px] text-amber">이적 명단</span>}
                       {p.loan && <span className="ml-2 rounded bg-sky/15 px-1 text-[11px] text-sky">{p.loan.from === w.userClubId ? '임대 보냄' : p.clubId === w.userClubId ? '임대 영입' : '임대 중'}</span>}
                       {shortlist.includes(p.id) && tab !== 'shortlist' && <span className="ml-2 text-[11px] text-neon">관심</span>}

@@ -120,16 +120,21 @@ export function pickLineup(players: PlayerState[], formation: string, benchSize:
     const id = fixed[i];
     if (id && !used.has(id) && pool.some((p) => p.id === id)) { used.add(id); starters[i] = { id, slot: s }; }
   });
+  // 사용자가 후보로 정한 선수는 자동 선발에서 빼 둔다 (그 자리에 쓸 사람이 아무도 없을 때만 씀)
+  const keepBench = new Set(fixedBench ?? []);
   for (const { s, i } of order) {
     if (starters[i]) continue;
     // 가장 나은 선수 · 그 자리가 주 포지션인 선수 중 가장 나은 선수. 주 포지션 선수가 7% 이내면 그 선수
     // (예: 파비뉴(DM)를 CB에, 아놀드(RB)를 DM에 돌려 막지 않고 각자 자리에)
     let best: PlayerState | null = null, bs = -1, own: PlayerState | null = null, os = -1;
-    for (const p of pool) {
-      if (used.has(p.id)) continue;
-      const v = score(p, s);
-      if (v > bs) { bs = v; best = p; }
-      if (p.pos === s && v > os) { os = v; own = p; }
+    for (const pass of [0, 1]) {
+      for (const p of pool) {
+        if (used.has(p.id) || (pass === 0 && keepBench.has(p.id))) continue;
+        const v = score(p, s);
+        if (v > bs) { bs = v; best = p; }
+        if (p.pos === s && v > os) { os = v; own = p; }
+      }
+      if (best) break;
     }
     const pick = own && os >= bs * 0.93 ? own : best;
     if (pick) { used.add(pick.id); starters[i] = { id: pick.id, slot: s }; }
@@ -170,4 +175,40 @@ export function guessFormation(players: PlayerState[]): string {
   if (c(['LW', 'RW']) >= 3 && c(['DM']) >= 1) return '4-3-3';
   if (c(['AM']) >= 2) return '4-2-3-1';
   return '4-4-2';
+}
+
+// ── 피치에서 끌어다 놓아 포메이션 바꾸기 ──────────────────
+/**
+ * 피치 위 위치 (가로 x · 세로 y, 0~100%, 위가 상대 골문) → 그 자리 포지션.
+ * 전술 화면 slotXY 의 줄 높이(ST 13 · LW/RW 24 · AM 32 · LM/CM/RM 44~47 · DM/윙백 62~63 · 풀백/CB 72~75 · GK 92)를 거꾸로
+ */
+export function zonePos(x: number, y: number): Position | null {
+  const side = x < 30 ? 'L' : x > 70 ? 'R' : null;
+  if (y >= 85) return null;   // 골키퍼 자리로는 옮기지 않음
+  if (y > 67) return side === 'L' ? 'LB' : side === 'R' ? 'RB' : 'CB';
+  if (y > 55) return side === 'L' ? 'LWB' : side === 'R' ? 'RWB' : 'DM';
+  if (y > 38) return side === 'L' ? 'LM' : side === 'R' ? 'RM' : 'CM';
+  if (y > 18) return side === 'L' ? 'LW' : side === 'R' ? 'RW' : y > 27 ? 'AM' : 'ST';
+  return side === 'L' ? 'LW' : side === 'R' ? 'RW' : 'ST';
+}
+
+/**
+ * 한 자리의 포지션을 바꾼 새 자리 구성 → 같은 구성의 기본 포메이션이 있으면 그 이름과
+ * 새 순서(새 자리 j 에 원래 몇 번째 자리 선수가 오는지)를 돌려준다. 없으면 formation null (사용자 포메이션으로)
+ */
+export function reshape(slots: Position[], i: number, pos: Position): { slots: Position[]; formation: string | null; order: number[] } {
+  const next = slots.map((s, k) => (k === i ? pos : s));
+  const key = (xs: Position[]) => [...xs].sort().join(',');
+  const target = key(next);
+  const std = Object.entries(FORMATIONS).find(([f, xs]) => !isCustom(f) && key(xs) === target);
+  if (!std) return { slots: next, formation: null, order: next.map((_, k) => k) };
+  const used = new Set<number>();
+  const order = std[1].map((p) => { const k = next.findIndex((s, kk) => s === p && !used.has(kk)); used.add(k); return k; });
+  return { slots: std[1], formation: std[0], order };
+}
+
+/** 지금 선발 · 후보 (직접 지정 + 자동 선택, 전술 화면과 같은 규칙) */
+export function currentLineup(players: PlayerState[], club: { tactics: { formation: string }; lineup?: { starters: (string | null)[]; bench: string[] } | null }, benchSize: number): { starters: Set<string>; bench: Set<string> } {
+  const l = pickLineup(players, club.tactics.formation, benchSize, club.lineup?.starters, club.lineup?.bench);
+  return { starters: new Set(l.starters.map((x) => x.id)), bench: new Set(l.bench) };
 }

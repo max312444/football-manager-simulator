@@ -21,6 +21,7 @@ import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { ATTR_KO, money, ratingTone } from '../format';
 import { Card, ConditionIcon, FitnessBar, PosTag } from '../components/bits';
+import { BenchEditor } from '../components/BenchEditor';
 import type { Mentality, Pressing } from '../../engine/types';
 import { FOCUS_ATTRS, FOCUS_KO, INTENSITY_KO, trainingCost, trainingOf, type Intensity, type TrainFocus } from '../../engine/training';
 import { ageOn } from '../../engine/condition';
@@ -49,7 +50,7 @@ export function slotXY(slots: Position[]): { x: number; y: number }[] {
 
 export function Pitch({ children }: { children: React.ReactNode }) {
   return (
-    <div className="relative aspect-[68/90] w-full overflow-hidden rounded-lg bg-[linear-gradient(180deg,#0d1a10,#0a130c)] ring-1 ring-line">
+    <div data-pitch className="relative aspect-[68/90] w-full overflow-hidden rounded-lg bg-[linear-gradient(180deg,#0d1a10,#0a130c)] ring-1 ring-line">
       <svg viewBox="0 0 68 90" className="absolute inset-0 h-full w-full" preserveAspectRatio="none" aria-hidden>
         <g stroke="rgb(57 255 20 / 0.16)" strokeWidth="0.35" fill="none">
           <rect x="2" y="2" width="64" height="86" /><line x1="2" y1="45" x2="66" y2="45" /><circle cx="34" cy="45" r="7" />
@@ -66,6 +67,8 @@ export function TacticsView() {
   const w = useWorld();
   const setClubTactics = useGame((s) => s.setClubTactics);
   const setLineup = useGame((s) => s.setLineup);
+  const reshapeTactics = useGame((s) => s.reshapeTactics);
+  const [msg, setMsg] = useState('');
   const [sel, setSel] = useState<number | null>(null);
   const [editor, setEditor] = useState<{ edit?: string } | null>(null);
   const col = useRef<HTMLDivElement>(null);
@@ -99,7 +102,8 @@ export function TacticsView() {
     setLineup(next, club.lineup?.bench ?? lineup.bench);
     setSel(null);
   };
-  const { bind, ghost, over } = usePitchDrag((i) => setSel(sel === i ? null : i), swap);
+  // 빈 곳에 놓으면: 그 위치 포지션으로 자리를 바꾸고 포메이션 자동 변경 (예: 4-3-3 의 LW 를 가운데 위로 → 4-4-2 쪽으로)
+  const { bind, ghost, over } = usePitchDrag((i) => setSel(sel === i ? null : i), swap, (i, p) => { setMsg(reshapeTactics(i, p)); setSel(null); });
   const ghostP = ghost && current[ghost.i] ? w.players[current[ghost.i]!] : null;
   const changeFormation = (f: string) => {
     if (f === t.formation) return;
@@ -145,6 +149,8 @@ export function TacticsView() {
             );
           })}
         </Pitch>
+        <div className="mt-2 text-[12px] text-lo">누르면 선수 바꾸기 · 다른 선수 위로 끌면 자리 맞바꾸기 · <b className="text-mid">빈 곳으로 끌면 그 위치 포지션으로 (포메이션 자동 변경)</b></div>
+        {msg && <div className="mt-1 text-[12px] text-sky">{msg}</div>}
         <div className="mt-3 flex items-center justify-between text-[12px] text-lo">
           <span className="flex items-center gap-4">
             <span className="flex items-center gap-2"><span className="inline-block h-3 w-3 rounded-full ring-2 ring-neon/80" />직접 지정</span>
@@ -230,12 +236,8 @@ export function TacticsView() {
             <SetPieceCard />
             <TrainingCard />
             <Card title={`후보 ${lineup.bench.length}명`}>
-              <div className="grid grid-cols-2 gap-x-6 px-5 py-3 text-[13px]">
-                {lineup.bench.map((id) => { const p = w.players[id]; return (
-                  <div key={id} className="flex items-center gap-2 py-1"><span className="w-9 text-[11px] font-semibold text-lo">{p.pos}</span><span className="truncate">{playerKo(p.id, p.name)}</span></div>
-                ); })}
-              </div>
-              <p className="px-5 pb-4 text-[12px] leading-relaxed text-lo">피치의 자리를 눌러 선수를 바꿀 수 있습니다. 직접 지정하지 않은 자리와 부상 · 징계로 빠진 자리는 체력과 자리 적합도로 자동 선택됩니다.</p>
+              <BenchEditor squad={squad} starters={current} bench={lineup.bench} size={rules.benchSize} onChange={(b) => setLineup(slots.map((_, i) => fixed[i] ?? null), b)} />
+              <p className="px-5 pb-4 text-[12px] leading-relaxed text-lo">직접 지정하지 않은 자리와 부상 · 징계로 빠진 자리는 체력과 자리 적합도로 자동 선택됩니다. 후보로 정한 선수는 자동 선발에 쓰지 않습니다.</p>
             </Card>
           </div>
         )}

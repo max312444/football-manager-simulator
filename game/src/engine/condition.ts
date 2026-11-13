@@ -27,7 +27,8 @@ export function dailyUpdate(p: PlayerState, date: string, rng: Rng, congested: b
   }
 
   // 체력 회복: 젊고 체력 좋고 프로의식 높을수록 빠름
-  const rec = 6.5 * (0.8 + attr(p, 'sta') / 250) * (age >= 31 ? 0.85 : 1) * (0.9 + 0.2 * pro) * recovery;   // recovery = 훈련 강도 배율
+  // 85 이상은 회복이 느리다 (마지막 컨디션은 시간이 걸림): 풀타임 뒤 일주일이면 약 93, 주중 · 주말 연전이면 약 83에서 시작
+  const rec = 6.5 * (0.8 + attr(p, 'sta') / 250) * (age >= 31 ? 0.85 : 1) * (0.9 + 0.2 * pro) * recovery * (p.fitness >= 85 ? 0.25 : 1);   // recovery = 훈련 강도 배율
   p.fitness = clamp(p.fitness + (p.injury ? 2 : rec), 0, 100);
 
   // 몸 상태: 평균으로 돌아가려는 랜덤 워크. 일정이 빡빡하면 떨어지고, 프로의식이 높으면 덜 흔들림

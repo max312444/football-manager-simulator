@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { chemistry, chemMult, meetingReady, tenureOf } from '../../engine/chemistry';
 import { attr } from '../../engine/ratings';
+import { unrestReasons } from '../../engine/loyalty';
 import { playerKo } from '../../data/db';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
@@ -80,7 +81,7 @@ export function LockerRoom({ onClose }: { onClose: () => void }) {
 
           {(c.unrest.length > 0 || c.isolated.length > 0 || c.newcomers.length > 0) && (
             <section className="space-y-1.5 text-[13px]">
-              {c.unrest.length > 0 && <div><span className="text-red">불만</span> <span className="text-mid">{c.unrest.map(name).join(', ')}</span></div>}
+              {c.unrest.length > 0 && <div><div className="text-red">불만</div>{c.unrest.map((id) => <div key={id} className="text-mid">· {name(id)} — <span className="text-amber">{unrestReasons(w, w.players[id]).join(' · ') || '출전 시간 불만'}</span></div>)}</div>}
               {c.isolated.length > 0 && <div><span className="text-amber">말이 통하는 동료 없음</span> <span className="text-mid">{c.isolated.map(name).join(', ')}</span></div>}
               {c.newcomers.length > 0 && <div><span className="text-sky">새로 온 핵심 선수</span> <span className="text-mid">{c.newcomers.map(name).join(', ')}</span></div>}
             </section>

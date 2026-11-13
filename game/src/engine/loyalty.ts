@@ -85,3 +85,18 @@ export function loyaltyLabel(v: number): string {
   if (v >= UNHAPPY) return '낮음';
   return '불만';
 }
+
+/**
+ * 불만 사유 (화면 표시용, 짧은 문장 여러 개): 출전 시간 · 약속한 역할 · 언론 플레이 · 오래 벤치 · 사기
+ */
+export function unrestReasons(w: World, p: PlayerState): string[] {
+  const out: string[] = [];
+  if (p.unhappy || p.loyalty < UNHAPPY) {
+    const r = roleOf(w, p);
+    const promised = p.role && (r === 'key' || r === 'regular') ? `'${ROLE_KO[r]}'로 약속받았는데 ` : '';
+    out.push(p.benchStreak > 0 ? `${promised}출전 시간이 부족 (연속 ${p.benchStreak}경기 결장)` : `${promised}그동안 출전 시간이 부족해 충성도가 낮음 (${Math.round(p.loyalty)})`);
+  } else if (p.benchStreak >= 6) out.push(`${p.benchStreak}경기 연속 결장`);
+  if (p.saga && p.saga.club === p.clubId) out.push(p.saga.kind === 'wage' ? '연봉 인상을 요구하는 중' : '이적을 요청하는 중');
+  if (p.morale < 35) out.push(`사기가 낮음 (${Math.round(p.morale)})`);
+  return out;
+}

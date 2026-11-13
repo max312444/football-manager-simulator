@@ -11,7 +11,7 @@ import { altPositions, attr, formAvg } from '../../engine/ratings';
 import { POS_KO } from '../../data/rating';
 import { ATTR_GROUPS, ATTR_KO, GK_GROUP, money, ratingBar, ratingTone } from '../format';
 import { ConditionIcon, FitnessBar } from '../components/bits';
-import { loyaltyLabel, UNHAPPY } from '../../engine/loyalty';
+import { loyaltyLabel, UNHAPPY, unrestReasons } from '../../engine/loyalty';
 import { TRAIT, type PlayerHistory, type TraitKind } from '../../engine/traits';
 import { AWARD_KO, isTrophy } from '../../engine/awards';
 import type { ReactNode } from 'react';
@@ -157,6 +157,12 @@ export function PlayerPanel({ p, age, ko, nation, actions, club, sheet }: { p: P
             <div className={`h-full rounded-full ${p.loyalty < UNHAPPY ? 'bg-amber' : p.loyalty >= 80 ? 'bg-neon' : 'bg-mid'}`} style={{ width: `${p.loyalty}%` }} />
           </div>
         </div>
+        {p.clubId === w.userClubId && (() => { const rs = unrestReasons(w, p); return rs.length ? (
+          <div className="mt-2 rounded-lg border border-amber/40 bg-amber/10 px-3 py-2 text-[12px] text-amber">
+            <div className="font-semibold">불만 사유</div>
+            {rs.map((r) => <div key={r}>· {r}</div>)}
+          </div>
+        ) : null; })()}
         <div className="mt-3 grid grid-cols-4 gap-2 text-center">
           {([['출전', apps], ['골', s.goals], ['도움', s.assists], ['평점', apps ? (s.ratingSum / apps).toFixed(2) : '–']] as const).map(([k, v]) => (
             <div key={k}><div className="tnum text-[16px] font-semibold">{v}</div><div className="text-[11px] text-lo">{k}</div></div>

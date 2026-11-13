@@ -4,6 +4,8 @@ import { overall, formAvg } from '../../engine/ratings';
 import { ageOn } from '../../engine/condition';
 import { clubKo, nations, playerKo } from '../../data/db';
 import { chemistry } from '../../engine/chemistry';
+import { currentLineup, matchRules } from '../../engine/squad';
+import { unrestReasons } from '../../engine/loyalty';
 import { chemTone, LockerRoom } from '../components/LockerRoom';
 import { POS_ORDER, posGroup } from '../../data/rating';
 import { money, ratingTone } from '../format';
@@ -14,10 +16,10 @@ import { ContractBox } from '../components/ContractBox';
 import { expiring } from '../../engine/contract';
 import { TRAIT } from '../../engine/traits';
 
-type Group = 'ALL' | 'GK' | 'DF' | 'MF' | 'FW';
+type Group = 'ALL' | 'XI' | 'GK' | 'DF' | 'MF' | 'FW';
 type SortKey = 'pos' | 'name' | 'age' | 'ovr' | 'fit' | 'form' | 'apps' | 'goals' | 'wage';
 const GROUPS: { key: Group; label: string }[] = [
-  { key: 'ALL', label: '전체' }, { key: 'GK', label: '골키퍼' }, { key: 'DF', label: '수비수' },
+  { key: 'ALL', label: '전체' }, { key: 'XI', label: '선발 · 후보' }, { key: 'GK', label: '골키퍼' }, { key: 'DF', label: '수비수' },
   { key: 'MF', label: '미드필더' }, { key: 'FW', label: '공격수' },
 ];
 
@@ -36,9 +38,11 @@ export function SquadView() {
     return { p, ovr: overall(p), age: ageOn(p.birth, w.date), ko: playerKo(p.id, p.name), form: formAvg(p) };
   });
   const sel = rows.find((r) => r.p.id === selected) ?? [...rows].sort((a, b) => b.ovr - a.ovr)[0];
+  // 지금 선발 · 후보 (전술 화면과 같은 규칙: 직접 지정 + 자동 선택)
+  const xi = currentLineup(club.squad.map((id) => w.players[id]), club, matchRules(w.season).benchSize);
 
   const shown = useMemo(() => {
-    const f = rows.filter((r) => group === 'ALL' || posGroup(r.p.pos) === group);
+    const f = rows.filter((r) => group === 'ALL' || (group === 'XI' ? xi.starters.has(r.p.id) || xi.bench.has(r.p.id) : posGroup(r.p.pos) === group));
     const cmp: Record<SortKey, (a: Row, b: Row) => number> = {
       pos: (a, b) => POS_ORDER.indexOf(a.p.pos) - POS_ORDER.indexOf(b.p.pos) || b.ovr - a.ovr,
       name: (a, b) => a.ko.localeCompare(b.ko, 'ko'),
@@ -50,8 +54,10 @@ export function SquadView() {
       goals: (a, b) => a.p.stats.goals - b.p.stats.goals,
       wage: (a, b) => a.p.wage - b.p.wage,
     };
-    return [...f].sort((a, b) => cmp[sort.key](a, b) * sort.dir);
-  }, [rows, group, sort]);
+    // 선발 · 후보만 볼 때는 선발 → 후보 순서로 묶어서
+    const rank = (r: Row) => (group === 'XI' ? (xi.starters.has(r.p.id) ? 0 : 1) : 0);
+    return [...f].sort((a, b) => rank(a) - rank(b) || cmp[sort.key](a, b) * sort.dir);
+  }, [rows, group, sort, xi]);
 
   const injured = rows.filter((r) => r.p.injury).length;
   const suspended = rows.filter((r) => r.p.suspension > 0).length;
@@ -104,6 +110,10 @@ export function SquadView() {
               {g.label}
             </button>
           ))}
+          <span className="ml-auto flex shrink-0 items-center gap-3 pl-3 text-[12px] text-lo">
+            <span className="flex items-center gap-1.5"><span className="h-3 w-1 rounded-full bg-neon" />선발</span>
+            <span className="flex items-center gap-1.5"><span className="h-3 w-1 rounded-full bg-sky" />후보</span>
+          </span>
         </div>
 
         <div className="panel min-h-0 flex-1 overflow-auto">
@@ -126,10 +136,14 @@ export function SquadView() {
             <tbody>
               {shown.map(({ p, ovr, age, ko, form }) => {
                 const active = sel?.p.id === p.id;
+                const starter = xi.starters.has(p.id), bench = xi.bench.has(p.id);
                 return (
                   <tr key={p.id} onClick={() => setSelected(p.id)}
-                    className={`h-11 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${active ? 'bg-neon-ghost' : 'hover:bg-ink-800'}`}>
-                    <td className={`tnum px-2 text-center font-semibold lg:px-3 ${active ? 'text-neon' : 'text-lo'}`}>{p.number ?? '–'}</td>
+                    className={`h-11 cursor-pointer shadow-[inset_0_-1px_0_var(--color-line)] transition-colors ${active ? 'bg-neon-ghost' : starter ? 'bg-neon/[0.05] hover:bg-neon/10' : 'hover:bg-ink-800'}`}>
+                    {/* 등번호: 선발은 초록 원 · 후보는 파란 테두리, 줄 왼쪽 막대 */}
+                    <td className={`px-2 text-center lg:px-3 ${starter ? 'shadow-[inset_4px_0_0_var(--color-neon)]' : bench ? 'shadow-[inset_4px_0_0_var(--color-sky)]' : ''}`} title={starter ? '선발' : bench ? '후보' : '명단 밖'}>
+                      <span className={`tnum mx-auto grid h-7 w-7 place-items-center rounded-full text-[13px] font-semibold ${starter ? 'bg-neon text-ink-950' : bench ? 'text-sky ring-2 ring-sky' : active ? 'text-neon' : 'text-lo'}`}>{p.number ?? '–'}</span>
+                    </td>
                     <td className="px-2 py-2 lg:px-3">
                       <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
                         <span className="font-semibold text-hi">{ko}</span>
@@ -138,8 +152,9 @@ export function SquadView() {
                         {p.traits.map((id) => { const tr = TRAIT.get(id); return tr && <span key={id} title={tr.how} className={`rounded px-1 text-[11px] font-semibold ${tr.kind === 'positive' ? 'bg-neon/10 text-neon' : tr.kind === 'negative' ? 'bg-red/15 text-red' : 'bg-amber/15 text-amber'}`}>{tr.ko}</span>; })}
                         {p.precontract ? <span title={`${clubKo(p.precontract.club)}와 사전 계약 · 시즌 끝에 떠남`} className="rounded bg-red/15 px-1 text-[11px] font-semibold text-red">보스만 이적 예정</span>
                           : expiring(w, p) && <span title={`계약 ${p.contract} 만료`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">계약 만료 임박</span>}
-                        {p.unhappy && <span title={`충성도 ${Math.round(p.loyalty)} · 연속 ${p.benchStreak}경기 결장`} className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">출전 불만</span>}
+                        {p.unhappy && <span className="rounded bg-amber/15 px-1 text-[11px] font-semibold text-amber">불만</span>}
                       </div>
+                      {(() => { const rs = unrestReasons(w, p); return rs.length ? <div className="mt-0.5 text-[11px] text-amber">{rs.join(' · ')}</div> : null; })()}
                     </td>
                     <td className="px-2 lg:px-3"><PosTag pos={p.pos} /></td>
                     <td className="tnum hidden px-3 text-right text-mid lg:table-cell">{age}</td>

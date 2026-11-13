@@ -5,7 +5,9 @@ import { useEffect, useMemo, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
 import { clubKo, playerKo } from '../../data/db';
-import { FORMATIONS, available, famOf } from '../../engine/squad';
+import { FORMATIONS, available, famOf, matchRules } from '../../engine/squad';
+import { BenchEditor } from '../components/BenchEditor';
+import { unrestReasons } from '../../engine/loyalty';
 import { FamBar } from '../views/TacticsView';
 import { DragGhost, usePitchDrag } from '../components/PitchDrag';
 import { overall, slotRating } from '../../engine/ratings';
@@ -18,8 +20,9 @@ import { koDate, ratingTone, roundLabel } from '../format';
 
 export function MatchPrep() {
   const w = useWorld();
-  const { match: m, updateDraft, resetDraft, confirmLineup, closeMatch, leaveMatch } = useGame();
+  const { match: m, updateDraft, resetDraft, confirmLineup, closeMatch, leaveMatch, reshapeDraft } = useGame();
   const [sel, setSel] = useState<number | null>(null);
+  const [msg, setMsg] = useState('');
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -52,7 +55,7 @@ export function MatchPrep() {
   const oppKey = w.clubs[oppId].squad.map((id) => w.players[id]).filter(available).sort((a, b) => overall(b) - overall(a)).slice(0, 5);
 
   // 끌어다 놓기: 두 자리 선수 맞바꿈
-  const { bind, ghost, over } = usePitchDrag((i) => setSel(sel === i ? null : i), (a, b) => { const id = d.starters[a]; if (id) assign(b, id); });
+  const { bind, ghost, over } = usePitchDrag((i) => setSel(sel === i ? null : i), (a, b) => { const id = d.starters[a]; if (id) assign(b, id); }, (i, p) => { setMsg(reshapeDraft(i, p)); setSel(null); });
   const assign = (slotIdx: number, id: string) => {
     const starters = [...d.starters];
     let bench = [...d.bench];
@@ -160,8 +163,9 @@ export function MatchPrep() {
           <div className="mt-3 flex items-center gap-4 text-[12px] text-lo">
             <span className="flex items-center gap-2"><span className="inline-block h-3 w-3 rounded-full ring-2 ring-neon/70" />AI 추천</span>
             <span className="flex items-center gap-2"><span className="inline-block h-3 w-3 rounded-full ring-2 ring-sky" />직접 바꾼 자리</span>
-            <span className="ml-auto">누르면 교체 · 끌어서 자리 바꾸기</span>
+            <span className="ml-auto">누르면 교체 · 끌어서 자리 바꾸기 · 빈 곳으로 끌면 포지션 변경</span>
           </div>
+          {msg && <div className="mt-1 text-[12px] text-sky">{msg}</div>}
         </div>
 
         {/* 오른쪽: AI 추천 · 전술 · 후보 / 선수 선택 */}
@@ -182,7 +186,7 @@ export function MatchPrep() {
                         {where >= 0 && <span className="ml-2 text-[12px] text-lo">선발 {slots[where]}</span>}
                         {where < 0 && d.bench.includes(p.id) && <span className="ml-2 text-[12px] text-lo">후보</span>}
                         {!ok && <span className="ml-2 text-[12px] text-red">{p.injury ? '부상' : '징계'}</span>}
-                        {p.unhappy && <span className="ml-2 text-[12px] text-amber">출전 불만</span>}
+                        {p.unhappy && <span className="ml-2 text-[12px] text-amber">불만: {unrestReasons(w, p)[0] ?? '출전 시간'}</span>}
                       </span>
                       <ConditionIcon value={p.condition} />
                       <FitnessBar value={p.fitness} />
@@ -216,10 +220,8 @@ export function MatchPrep() {
                 </div>
               </Card>
               <Card title={`후보 ${d.bench.length}명`} className="min-h-0 flex-1">
-                <div className="grid grid-cols-2 gap-x-6 overflow-auto px-5 py-3 text-[13px]">
-                  {d.bench.map((id) => { const p = w.players[id]; return (
-                    <div key={id} className="flex items-center gap-2 py-1"><span className="w-9 text-[11px] font-semibold text-lo">{p.pos}</span><span className="min-w-0 flex-1 truncate">{name(id)}</span><ConditionIcon value={p.condition} /></div>
-                  ); })}
+                <div className="h-full overflow-auto">
+                  <BenchEditor squad={squad} starters={d.starters} bench={d.bench} size={matchRules(w.season).benchSize} onChange={(b) => updateDraft({ bench: b })} />
                 </div>
               </Card>
             </>

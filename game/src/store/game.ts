@@ -30,7 +30,28 @@ import { buyoutMandatory, setBuyout } from '../engine/clauses';
 import { bosmanEligible, signPrecontract } from '../engine/bosman';
 import { meetingReady, teamMeeting } from '../engine/chemistry';
 const addDaysIso = (iso: string, n: number) => new Date(Date.parse(iso + 'T00:00:00Z') + n * 86400000).toISOString().slice(0, 10);
-import { CUSTOM_MARK, formationShape, guessFormation, matchRules, MAX_CUSTOM, pickLineup, registerFormations, validateFormation } from '../engine/squad';
+import { CUSTOM_MARK, famOf, FORMATIONS, formationShape, guessFormation, matchRules, MAX_CUSTOM, pickLineup, registerFormations, reshape, validateFormation } from '../engine/squad';
+
+/** 한 자리만 바꾼 변형은 원래 포메이션 숙련도에서 10만 깎아 이어받는다 (새 포메이션처럼 30% 로 떨어지지 않게) */
+function inheritFam(c: World['clubs'][string], from: string, to: string) {
+  if (from === to) return;
+  const fam = (c.formFam ??= {});
+  fam[to] = Math.max(fam[to] ?? 0, famOf(c, from) - 10);
+}
+
+/** 끌어다 놓아 만든 자리 구성이 기본 포메이션에 없으면: 사용자 포메이션 '★ 내 배치'로 저장 (덮어씀). 키 또는 오류 문장 */
+function autoFormation(w: World, slots: Position[]): { key: string } | { error: string } {
+  const errs = validateFormation(slots);
+  if (errs.length) return { error: errs[0] };
+  const all = (w.customFormations ??= {});
+  const same = Object.entries(all).find(([, xs]) => JSON.stringify(xs) === JSON.stringify(slots));
+  if (same) return { key: same[0] };
+  const key = `${CUSTOM_MARK} 내 배치`;
+  if (!all[key] && Object.keys(all).length >= MAX_CUSTOM) return { error: `내 포메이션이 ${MAX_CUSTOM}개로 가득 차 새 배치를 저장할 수 없습니다` };
+  all[key] = [...slots];
+  registerFormations(all);
+  return { key };
+}
 import type { Position } from '../data/types';
 import { startScout } from '../engine/scout';
 import type { Mentality, Pressing } from '../engine/types';
@@ -130,6 +151,10 @@ interface GameStore {
   exportFile(): Promise<void>;
   importFile(file: File): Promise<boolean>;
   setLineup(starters: (string | null)[] | null, bench?: string[]): void;
+  /** 전술 화면: 선수를 빈 곳에 끌어다 놓아 그 자리 포지션을 바꿈 → 포메이션 자동 변경. 결과 문장 */
+  reshapeTactics(slotIdx: number, pos: Position): string;
+  /** 경기 준비 화면: 같은 동작을 이번 경기 선발에 */
+  reshapeDraft(slotIdx: number, pos: Position): string;
   /** random: 완전 랜덤으로 고른 구단 → 첫 시즌만 예산 · 재정 규정 한도 보정 */
   newGame(season: string, league: string, clubId: string, opts?: { random?: boolean }): Promise<void>;
   continueGame(): void;
@@ -833,6 +858,40 @@ export const useGame = create<GameStore>((set, get) => {
       set({ world, match: null, lastEvents: [], seasonReport: null });
       bump();
       return true;
+    },
+
+    reshapeTactics(slotIdx, pos) {
+      const w = get().world!;
+      const c = w.clubs[w.userClubId];
+      const slots = FORMATIONS[c.tactics.formation];
+      if (!slots || slots[slotIdx] === pos) return '';
+      if (slots[slotIdx] === 'GK') return '골키퍼 자리는 옮길 수 없습니다';
+      const players = c.squad.map((id) => w.players[id]);
+      const rules = matchRules(w.season);
+      const l = pickLineup(players, c.tactics.formation, rules.benchSize, c.lineup?.starters, c.lineup?.bench);
+      const cur = slots.map((_, i) => l.starters[i]?.id ?? null);
+      const r = reshape(slots, slotIdx, pos);
+      let key = r.formation;
+      if (!key) { const a = autoFormation(w, r.slots); if ('error' in a) return a.error; key = a.key; }
+      inheritFam(c, c.tactics.formation, key);
+      c.tactics = { ...c.tactics, formation: key };
+      c.lineup = { starters: r.order.map((k) => cur[k]), bench: c.lineup?.bench ?? l.bench };
+      autosave(w); bump();
+      return `${slots[slotIdx]} → ${pos} · 포메이션 ${key}${r.formation ? '' : ` (${formationShape(r.slots)} 모양 · 내 포메이션으로 저장)`}`;
+    },
+    reshapeDraft(slotIdx, pos) {
+      const { match: m, world: w } = get();
+      if (!m || !w || m.phase !== 'squad') return '';
+      const slots = FORMATIONS[m.draft.formation];
+      if (!slots || slots[slotIdx] === pos) return '';
+      if (slots[slotIdx] === 'GK') return '골키퍼 자리는 옮길 수 없습니다';
+      const r = reshape(slots, slotIdx, pos);
+      let key = r.formation;
+      if (!key) { const a = autoFormation(w, r.slots); if ('error' in a) return a.error; key = a.key; }
+      inheritFam(w.clubs[w.userClubId], m.draft.formation, key);
+      m.draft = { ...m.draft, formation: key, starters: r.order.map((k) => m.draft.starters[k]) };
+      bump();
+      return `${slots[slotIdx]} → ${pos} · 포메이션 ${key}${r.formation ? '' : ` (${formationShape(r.slots)} 모양 · 내 포메이션으로 저장)`}`;
     },
 
     setLineup(starters, bench = []) {
