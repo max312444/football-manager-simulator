@@ -135,6 +135,9 @@ cd game && npm run history                 # 선수 이력 (data-public/history/
 > 버전: `game/src/version.ts` (첫 화면 표시). 기능 추가 +0.1 · 작은 수정 +0.0.1, 바꿀 때마다 여기에 적는다.
 > 같은 파일의 `CHANGELOG` 맨 위에 플레이어용 한 줄 요약도 넣는다 → 첫 화면 '업데이트 소식' (새 버전을 처음 본 뒤 24시간 표시, `UpdateNotes.tsx`).
 
+0. **v0.21 경기 중 피치 지휘 · 큰 경기 연출** (2026-11-13)
+   - `LivePitch.tsx`: 경기 화면 가운데 (전술 화면 `Pitch` · `slotXY` · `usePitchDrag`), xl 이상 [후보 | 피치 | side(성향 · 압박)] 3칸 · 그 아래는 세로 (피치 → 후보 → 성향), 피치 폭은 화면 높이에 맞춤. 오른쪽 내 팀 목록 칸은 없앰 (2칸 그리드), 하프타임은 한 줄. 후보 칸 data-slot 100+. 선수 누르기 → 후보 누르기 / 후보 → 선수 끌기 = `sub` (`canSubInto`), 선수끼리 = `liveSwap` (`swapSlots`), 빈 곳 = `liveReshape` (`reshape` · `autoFormation` → `reshapeTeam`). `slotOrder` 로 포메이션 자리 ↔ 뛰는 선수. 통계 칸은 2열로 줄이고 아래로.
+   - `engine/shootoutSeq.ts`: 정해진 승자(`cup.shootout`)에 맞는 키커 순서 (슈팅 · 침착성 vs 골키퍼 반사 · 1:1, 5명 조기 종료 · 서든데스), `stepMatch` 끝에서 `summary.shootout`. `BigMoments.tsx`: `FinalIntro` (컵 · 유럽 결승 · 승격 PO 결승 킥오프), `ShootoutOverlay` (준비 → 골/선방/실축), `TrophyOverlay` (결승 승리, 꽃가루). styles.css `bm-*` 애니메이션 (움직임 줄이기 설정이면 끔).
 0. **v0.20 이적 어필 · 관심 자동 해제 · 스카우트 기억** (2026-11-13)
    - `engine/appeal.ts` `appealDay`: 이적시장 중 · 열리기 30일 전, 하루 10% · 동시에 2명, 후보 = 다른 구단 33세 이하 · 우리 주전 전력 −8~+4 · (우리 명성 +3 이상 높음 또는 불만 · 결장 · 이적 요구로 명성 −5까지), 가중치 명성 차 · 불만 · 야망 · 충성도. `w.appeals` (기한 = 그 이적시장 끝) · `appealSeen` (선수당 시즌 1번), 관심 목록에 자동 추가, 받은편지함 `appeal`. 효과: `wageDemand(w, p, buyer)` 우리 구단이면 ×0.85 (`APPEAL_WAGE`), `playerWillJoin` +2.5. 이적료(`askingPrice`)는 그대로. 협상 창 '우리 구단 희망 · 주급 −15%'.
    - 관심 해제: `completeTransfer` 에서 우리 구단으로 오면 관심 · 어필 제거, `shortlistDay` 가 매일 우리 선수 정리 (임대 등).

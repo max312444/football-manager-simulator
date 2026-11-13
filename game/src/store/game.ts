@@ -5,13 +5,14 @@ import { changeRole, type Role } from '../engine/roles';
 import { create } from 'zustand';
 import type { Fixture, GameEvent, Side, Tactics, World } from '../engine/types';
 import { advanceDay, advanceToUserMatch, applyMatch, createWorld, prepareMatch, type SeasonInput } from '../engine/world';
-import { playToEnd, setFormation, setTactics, step, substitute, type MatchState } from '../engine/match';
+import { playToEnd, reshapeTeam, setFormation, setTactics, step, substitute, swapSlots, type MatchState } from '../engine/match';
 import { createRng, type Rng } from '../engine/rng';
 import { seedTraits } from '../engine/traits';
 import { availableSeasons, clubKo, clubs as clubMasters, dataset, leagues, loadHistory, loadLeagueSeason, loadManagers, loadStandings, playerKo, realAvailable, registerGeneratedNames, setDataset, worldCupsMeta } from '../data/db';
 import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '../engine/season';
 import { fillContracts, seasonOver } from '../engine/world';
 import { ensureManagers } from '../engine/managers';
+import { shootoutSeq } from '../engine/shootoutSeq';
 import { recommend, type Recommendation } from '../engine/ai';
 import { withinRules } from '../engine/rules';
 import { trainingOf, type Training } from '../engine/training';
@@ -188,6 +189,9 @@ interface GameStore {
   changeTactics(t: Partial<Tactics>): void;
   /** 경기 중 포메이션 바꾸기 */
   changeFormation(formation: string): void;
+  /** 경기 중 피치: 두 선수 자리 맞바꿈 · 한 선수를 빈 곳(새 포지션)으로 → 포메이션 변경 (문구 반환) */
+  liveSwap(a: string, b: string): string;
+  liveReshape(slotIdx: number, pos: Position): string;
   sub(outId: string, inId: string): boolean;
   /** 경기 중 자동 교체 켜기 · 끄기 (설정에도 기억) */
   setAutoSub(on: boolean): void;
@@ -363,6 +367,8 @@ export const useGame = create<GameStore>((set, get) => {
       if (st.done) {
         m.phase = 'full';
         applyMatch(w, m.fixture, st);
+        // 승부차기 연출: 정해진 승자에 맞는 키커 순서
+        if (st.summary.pens && !st.summary.shootout) st.summary.shootout = shootoutSeq(st, w.players, st.summary.pens, m.fixture.id + w.seed);
         w.rng = m.rng.state();
         w.inbox.push({ type: 'match', date: w.date, fixtureId: m.fixture.id, league: m.fixture.league, home: m.fixture.home, away: m.fixture.away, score: [st.summary.homeGoals, st.summary.awayGoals], user: true });
       }
@@ -383,6 +389,28 @@ export const useGame = create<GameStore>((set, get) => {
       bump();
     },
 
+    liveSwap(a, b) {
+      const m = get().match;
+      if (!m?.state || m.phase !== 'live') return '';
+      const ok = swapSlots(m.state, m.side, a, b);
+      bump();
+      return ok ? '' : '골키퍼는 필드 선수와 자리를 바꿀 수 없습니다';
+    },
+    liveReshape(slotIdx, pos) {
+      const { match: m, world: w } = get();
+      if (!m?.state || !w || m.phase !== 'live') return '';
+      const t = m.state[m.side];
+      const slots = FORMATIONS[t.tactics.formation];
+      if (!slots || slots[slotIdx] === pos) return '';
+      if (slots[slotIdx] === 'GK') return '골키퍼 자리는 옮길 수 없습니다';
+      if (pos === 'GK') return '필드 선수를 골키퍼 자리로 옮길 수 없습니다';
+      const r = reshape(slots, slotIdx, pos);
+      let key = r.formation;
+      if (!key) { const a = autoFormation(w, r.slots); if ('error' in a) return a.error; key = a.key; }
+      reshapeTeam(m.state, m.side, key, r.order);
+      bump();
+      return `${slots[slotIdx]} → ${pos} · 포메이션 ${key}`;
+    },
     setAutoSub(on) {
       const m = get().match;
       useSettings.getState().set({ autoSubs: on });

@@ -251,6 +251,35 @@ export function substitute(m: MatchState, side: Side, outId: string, inId: strin
  * 경기 중 포메이션 변경: 뛰고 있는 선수들을 새 포메이션 자리에 가장 잘 맞게 다시 배치 (골키퍼는 그대로)
  * 퇴장 등으로 사람이 모자라면 덜 중요한 자리를 비운다. 자리별 선수 지시는 초기화
  */
+/** 포메이션 자리 순서대로 뛰는 선수 (퇴장 · 교체 불가로 빈 자리는 null) — 피치 배치도 · 자리 바꾸기용 */
+export function slotOrder(t: TeamInMatch): (OnPitch | null)[] {
+  const slots = FORMATIONS[t.tactics.formation] ?? [];
+  const left = [...t.onPitch];
+  return slots.map((s) => { const k = left.findIndex((o) => o.slot === s); return k >= 0 ? left.splice(k, 1)[0] : null; });
+}
+
+/** 경기 중 두 선수 자리 맞바꿈 (예: LW ↔ RW). 골키퍼는 골키퍼끼리만 */
+export function swapSlots(m: MatchState, side: Side, a: string, b: string): boolean {
+  const t = m[side];
+  const x = t.onPitch.find((o) => o.id === a), y = t.onPitch.find((o) => o.id === b);
+  if (!x || !y || x === y || (x.slot === 'GK') !== (y.slot === 'GK')) return false;
+  [x.slot, y.slot] = [y.slot, x.slot];
+  [x.instr, y.instr] = [y.instr, x.instr];   // 지시는 자리에 남음
+  return true;
+}
+
+/** 경기 중 한 선수를 새 포지션으로 → 새 포메이션 (order: 새 자리 k ← 예전 자리 order[k], squad.reshape 결과) */
+export function reshapeTeam(m: MatchState, side: Side, formation: string, order: number[]): boolean {
+  const t = m[side];
+  const slots = FORMATIONS[formation];
+  if (!slots) return false;
+  const cur = slotOrder(t);
+  t.onPitch = order.map((k, j): OnPitch | null => (cur[k] ? { ...cur[k]!, slot: slots[j], instr: null } : null)).filter((o): o is OnPitch => !!o);
+  t.tactics = { ...t.tactics, formation };
+  m.notes?.push({ minute: m.segment * SEG_MIN, side, kind: 'formation', formation });
+  return true;
+}
+
 export function setFormation(m: MatchState, side: Side, formation: string, ctx: MatchCtx): boolean {
   const slots = FORMATIONS[formation];
   const t = m[side];

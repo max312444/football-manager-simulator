@@ -195,6 +195,8 @@ export interface MatchSummary {
   awayGoals: number;
   /** 승부차기 승자 (플레이오프) */
   pens?: Side;
+  /** 승부차기 한 번씩 (내 경기 화면 연출용, shootoutSeq.ts) */
+  shootout?: import('./shootoutSeq').ShootoutSeq;
   goals: { minute: number; side: Side; scorer: string; assist?: string; kind?: 'pen' | 'set' }[];
   cards: { minute: number; side: Side; player: string; red: boolean }[];
   injuries: { minute: number; side: Side; player: string }[];

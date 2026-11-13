@@ -2,24 +2,26 @@ import { useSettings } from '../../store/settings';
 import { useEffect, useRef, useState } from 'react';
 import { useGame } from '../../store/game';
 import { useWorld } from '../hooks';
-import { clubKo, playerKo } from '../../data/db';
-import { canSubInto, SEGMENTS, type TeamInMatch } from '../../engine/match';
+import { clubKo, compKo, playerKo } from '../../data/db';
+import { SEGMENTS } from '../../engine/match';
 import { FORMATIONS } from '../../engine/squad';
 import type { FeedLine } from '../../engine/commentary';
-import { slotRating } from '../../engine/ratings';
 import type { Side } from '../../engine/types';
 import { clubColor, Crest } from '../components/Crest';
 import { Icon } from '../components/Icon';
-import { CompBadge, ConditionIcon, PosTag } from '../components/bits';
+import { CompBadge, PosTag } from '../components/bits';
 import { MENTALITY, PRESSING } from '../views/TacticsView';
 import { MatchPrep } from './MatchPrep';
-import { ratingTone, roundLabel } from '../format';
+import { LivePitch } from '../components/LivePitch';
+import { FinalIntro, isFinal, ShootoutOverlay, TrophyOverlay } from '../components/BigMoments';
+import { roundLabel } from '../format';
 
 const SPEEDS = [{ label: '보통', ms: 1100 }, { label: '빠르게', ms: 450 }, { label: '매우 빠르게', ms: 150 }];
 
 export function MatchScreen() {
   const w = useWorld();
-  const { match: m, stepMatch, changeTactics, changeFormation, sub, setAutoSub, closeMatch } = useGame();
+  const { match: m, stepMatch, changeTactics, changeFormation, sub, setAutoSub, closeMatch, liveSwap, liveReshape } = useGame();
+  const [pitchMsg, setPitchMsg] = useState('');
   const [playing, setPlaying] = useState(true);
   const [speed, setSpeed] = useState<number>(useSettings.getState().s.matchSpeed);   // 설정: 기본 경기 속도
   const [subOut, setSubOut] = useState<string | null>(null);
@@ -32,6 +34,22 @@ export function MatchScreen() {
   }, [seg, half, m?.phase]);
   const resume = () => { setHalf('done'); setPlaying(true); };
 
+  // 큰 경기 연출: 결승 시작 · 승부차기 · 우승
+  const [moment, setMoment] = useState<'intro' | 'pens' | 'trophy' | null>(null);
+  const shown = useRef({ intro: false, end: false });
+  useEffect(() => { shown.current = { intro: false, end: false }; setMoment(null); }, [m?.fixture.id]);   // 경기마다 새로
+  const final = !!m && isFinal(m.fixture);
+  const sumNow = m?.state?.summary;
+  const winSide: Side | null = !sumNow ? null : sumNow.homeGoals > sumNow.awayGoals ? 'home' : sumNow.homeGoals < sumNow.awayGoals ? 'away' : sumNow.pens ?? null;
+  const userWon = !!m && winSide === m.side;
+  useEffect(() => {
+    if (m?.phase === 'live' && seg === 0 && final && !shown.current.intro) { shown.current.intro = true; setPlaying(false); setMoment('intro'); }
+    if (m?.phase === 'full' && !shown.current.end) {
+      shown.current.end = true;
+      if (sumNow?.shootout) setMoment('pens');
+      else if (final && userWon) setMoment('trophy');
+    }
+  }, [m?.phase, seg, final, userWon, sumNow?.shootout]);
   const live = m?.phase === 'live';
   useEffect(() => {
     if (!live || !playing) return;
@@ -60,10 +78,15 @@ export function MatchScreen() {
   const xg = { home: s.home.xg, away: s.away.xg };
   const poss = s.segment ? Math.round((s.home.possSum / s.segment) * 100) : 50;
 
-  const doSub = (inId: string) => { if (subOut && sub(subOut, inId)) setSubOut(null); };
+
+  const momentEl = moment === 'intro' ? <FinalIntro home={s.home.clubId} away={s.away.clubId} title={compKo(m.fixture.league)} onDone={() => { setMoment(null); setPlaying(true); }} />
+    : moment === 'pens' && sum.shootout ? <ShootoutOverlay seq={sum.shootout} home={s.home.clubId} away={s.away.clubId} mySide={m.side} onDone={() => setMoment(final && userWon ? 'trophy' : null)} />
+    : moment === 'trophy' ? <TrophyOverlay club={w.userClubId} title={compKo(m.fixture.league)} onDone={() => setMoment(null)} />
+    : null;
 
   return (
     <div className="flex h-full flex-col bg-ink-950">
+      {momentEl}
       {/* 점수판 */}
       <header className="relative shrink-0 overflow-hidden border-b border-line bg-ink-900 pt-[env(safe-area-inset-top)]">
         <div className="relative mx-auto flex max-w-[1100px] items-center justify-between gap-2 px-3 py-3 lg:px-8 lg:py-5">
@@ -83,7 +106,7 @@ export function MatchScreen() {
       </header>
 
       {/* 휴대폰: 통계 · 전술 → 경기 기록 → 내 팀 순서로 세로 스크롤, 진행 버튼은 아래 고정 */}
-      <div className="flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto p-3 pb-[calc(84px+env(safe-area-inset-bottom))] lg:grid lg:grid-cols-[340px_1fr_380px] lg:gap-5 lg:overflow-hidden lg:p-5">
+      <div className="flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto p-3 pb-[calc(84px+env(safe-area-inset-bottom))] lg:grid lg:grid-cols-[360px_1fr] lg:gap-5 lg:overflow-hidden lg:p-5">
         {/* 상대 선수 / 경기 기록 */}
         <section className="panel order-2 flex shrink-0 flex-col max-lg:max-h-[55dvh] lg:order-none lg:min-h-0 lg:shrink">
           <div className="flex h-11 shrink-0 items-center gap-1 px-3 shadow-[inset_0_-1px_0_var(--color-line)]">
@@ -113,14 +136,15 @@ export function MatchScreen() {
 
         {/* 가운데: 통계 + 조작 */}
         <section className="order-1 flex shrink-0 flex-col gap-4 lg:order-none lg:min-h-0 lg:shrink lg:gap-5">
-          <div className="panel px-6 py-5">
+          <div className="flex flex-col gap-4 lg:min-h-0 lg:flex-1 lg:gap-5 lg:overflow-auto">
+          <div className="panel grid gap-x-8 px-6 py-4 sm:grid-cols-2">
             {([
               ['점유율', poss, 100 - poss, (v: number) => `${v}%`],
               ['슈팅', s.home.shots, s.away.shots, String],
               ['유효 슈팅', s.home.onTarget, s.away.onTarget, String],
               ['기대 득점', xg.home, xg.away, (v: number) => v.toFixed(2)],
             ] as const).map(([k, h, a, fmt]) => (
-              <div key={k} className="mb-3 last:mb-0">
+              <div key={k} className="py-1.5">
                 <div className="mb-1 flex justify-between text-[13px]"><span className="tnum font-semibold">{fmt(h)}</span><span className="text-lo">{k}</span><span className="tnum font-semibold">{fmt(a)}</span></div>
                 <div className="flex h-1.5 gap-1">
                   <div className="flex-1 overflow-hidden rounded-full bg-ink-700"><div className={`ml-auto h-full rounded-full ${m.side === 'home' ? 'bg-neon' : 'bg-mid'}`} style={{ width: `${(h / (h + a || 1)) * 100}%` }} /></div>
@@ -138,49 +162,62 @@ export function MatchScreen() {
           ) : (
           <>
           {half === 'now' && m.phase === 'live' && (
-            <div className="panel animate-[fade_0.3s_ease-out] border-neon/40 px-5 py-4 ring-1 ring-neon/30 lg:px-6">
-              <div className="flex items-center justify-between">
-                <div className="text-[15px] font-semibold text-neon">하프타임</div>
-                <div className="tnum text-[13px] text-mid">{clubKo(s.home.clubId)} {goalsSoFar.home} : {goalsSoFar.away} {clubKo(s.away.clubId)}</div>
-              </div>
-              <ul className="mt-2 space-y-1 text-[12px] leading-relaxed text-lo">
-                <li>· 교체: {me.subsUsed < me.maxSubs ? '내 팀 목록에서 뺄 선수를 누르고, 후보에서 들어갈 선수를 누르세요' : '교체를 모두 썼습니다'} (남은 교체 {me.maxSubs - me.subsUsed}명)</li>
-                <li>· 아래에서 포메이션 · 공격/수비 성향 · 압박을 바꿀 수 있습니다</li>
-              </ul>
-              <button onClick={resume} className="mt-3 flex h-11 w-full items-center justify-center gap-2 rounded-lg bg-neon text-[14px] font-semibold text-ink-950 hover:bg-[#5bff3d]">후반 시작 <Icon name="arrow" size={16} /></button>
+            <div className="panel flex animate-[fade_0.3s_ease-out] flex-wrap items-center gap-x-4 gap-y-2 border-neon/40 px-5 py-3 ring-1 ring-neon/30">
+              <span className="text-[15px] font-semibold text-neon">하프타임</span>
+              <span className="tnum text-[13px] text-mid">{goalsSoFar.home} : {goalsSoFar.away}</span>
+              <span className="hidden min-w-0 flex-1 text-[12px] text-lo sm:inline">교체 · 자리 · 포메이션 · 성향을 정리하고 후반을 시작하세요 (남은 교체 {me.maxSubs - me.subsUsed}명)</span><span className="flex-1 sm:hidden" />
+              <button onClick={resume} className="flex h-10 items-center gap-2 rounded-lg bg-neon px-5 text-[14px] font-semibold text-ink-950 hover:bg-[#5bff3d]">후반 시작 <Icon name="arrow" size={16} /></button>
             </div>
           )}
-          <div className="panel space-y-4 px-6 py-5">
+          <div className="panel px-5 py-5">
             {m.phase !== 'full' && (
-              <div>
-                <div className="mb-2 flex items-center justify-between text-[12px] text-lo"><span>포메이션</span><span>바꾸면 뛰는 선수들을 새 자리에 맞게 다시 배치합니다</span></div>
-                <select value={me.tactics.formation} onChange={(e) => changeFormation(e.target.value)}
-                  className="h-9 w-full rounded-lg border border-line bg-ink-900 px-3 text-[13px] text-hi">
-                  {Object.keys(FORMATIONS).map((f) => <option key={f} value={f}>{f}</option>)}
-                </select>
-              </div>
+              <>
+                <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-[12px] text-lo">
+                  <span className="font-semibold text-mid">{clubKo(me.clubId)}</span>
+                  <select value={me.tactics.formation} onChange={(e) => { changeFormation(e.target.value); setPitchMsg(''); }}
+                    className="h-8 w-[130px] rounded-lg border border-line bg-ink-900 px-2 text-[13px] text-hi" title="고르면 뛰는 선수들을 새 자리에 맞게 다시 배치합니다">
+                    {Object.keys(FORMATIONS).map((f) => <option key={f} value={f}>{f}</option>)}
+                  </select>
+                  <span className="ml-auto flex items-center gap-4">
+                    <label className="flex cursor-pointer items-center gap-1.5" title="켜면 점수 · 시간 · 체력을 보고 AI가 알아서 교체합니다 (하프타임 교체는 직접)">
+                      <input type="checkbox" checked={me.autoSub !== false} onChange={(e) => setAutoSub(e.target.checked)} className="accent-[#39ff14]" />자동 교체
+                    </label>
+                    <span className="tnum">교체 {me.subsUsed}/{me.maxSubs}</span>
+                    <span className="hidden sm:inline">상대 {opp.tactics.formation}</span>
+                  </span>
+                </div>
+                <div>
+                  <LivePitch team={me} ratings={sum.ratings} editable={m.phase === 'live'} selected={subOut} onSelect={setSubOut}
+                    onSub={(o, i) => { setSubOut(null); setPitchMsg(sub(o, i) ? '' : '이 자리에 맞지 않는 선수입니다 (주 · 보조 · 가까운 포지션만)'); }}
+                    onSwap={(a, b) => setPitchMsg(liveSwap(a, b))} onReshape={(i, p) => { setSubOut(null); setPitchMsg(liveReshape(i, p)); }}
+                    side={<>
+                      <div>
+                        <div className="mb-1.5 text-[12px] text-lo">공격 · 수비 성향</div>
+                        <div className="grid grid-cols-5 gap-1 rounded-lg bg-ink-950 p-1">
+                          {MENTALITY.map((o) => (
+                            <button key={o.v} onClick={() => changeTactics({ mentality: o.v })}
+                              className={`h-10 rounded-md px-0.5 text-[12px] leading-tight ${me.tactics.mentality === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
+                          ))}
+                        </div>
+                      </div>
+                      <div>
+                        <div className="mb-1.5 text-[12px] text-lo">압박 강도</div>
+                        <div className="grid grid-cols-3 gap-1 rounded-lg bg-ink-950 p-1">
+                          {PRESSING.map((o) => (
+                            <button key={o.v} onClick={() => changeTactics({ pressing: o.v })}
+                              className={`h-9 rounded-md text-[12px] ${me.tactics.pressing === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
+                          ))}
+                        </div>
+                      </div>
+                    </>} />
+                  {pitchMsg && <div className="mt-1.5 text-[12px] text-sky">{pitchMsg}</div>}
+                </div>
+              </>
             )}
-            <div>
-              <div className="mb-2 text-[12px] text-lo">공격 · 수비 성향</div>
-              <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
-                {MENTALITY.map((o) => (
-                  <button key={o.v} disabled={m.phase === 'full'} onClick={() => changeTactics({ mentality: o.v })}
-                    className={`h-8 flex-1 rounded-md text-[12px] ${me.tactics.mentality === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
-                ))}
-              </div>
-            </div>
-            <div>
-              <div className="mb-2 text-[12px] text-lo">압박 강도</div>
-              <div className="flex gap-1 rounded-lg bg-ink-900 p-1">
-                {PRESSING.map((o) => (
-                  <button key={o.v} disabled={m.phase === 'full'} onClick={() => changeTactics({ pressing: o.v })}
-                    className={`h-8 flex-1 rounded-md text-[12px] ${me.tactics.pressing === o.v ? 'bg-ink-700 font-semibold text-hi' : 'text-mid hover:text-hi'}`}>{o.label}</button>
-                ))}
-              </div>
-            </div>
           </div>
           </>
           )}
+          </div>
 
           <div className="mt-auto flex items-center gap-2 max-lg:fixed max-lg:inset-x-0 max-lg:bottom-0 max-lg:z-20 max-lg:border-t max-lg:border-line max-lg:bg-ink-900/95 max-lg:px-3 max-lg:pt-2 max-lg:pb-[max(8px,env(safe-area-inset-bottom))] max-lg:backdrop-blur">
             {m.phase === 'live' && (
@@ -203,40 +240,6 @@ export function MatchScreen() {
           </div>
         </section>
 
-        {/* 내 팀: 선수 상태 · 교체 */}
-        <section className="panel order-3 flex shrink-0 flex-col lg:order-none lg:min-h-0 lg:shrink">
-          <h3 className="flex h-11 shrink-0 items-center justify-between px-5 text-[13px] font-semibold text-mid shadow-[inset_0_-1px_0_var(--color-line)]">
-            <span>{clubKo(me.clubId)} · {me.tactics.formation}</span>
-            <span className="flex items-center gap-3">
-              <label className="flex cursor-pointer items-center gap-1.5 text-[12px] font-normal text-lo" title="켜면 55~80분에 지친 선수를 같은 자리에 맞는 후보로 알아서 바꿉니다 (하프타임 교체는 직접)">
-                <input type="checkbox" checked={me.autoSub !== false} onChange={(e) => setAutoSub(e.target.checked)} className="accent-[#39ff14]" />자동 교체
-              </label>
-              <span className="tnum text-[12px] text-lo">교체 {me.subsUsed}/{me.maxSubs}</span>
-            </span>
-          </h3>
-          <div className="min-h-0 flex-1 overflow-auto">
-            <TeamList team={me} selectable={m.phase === 'live' && me.subsUsed < me.maxSubs} selected={subOut} onSelect={(id) => setSubOut(id === subOut ? null : id)} ratings={sum.ratings} />
-            <div className="px-5 pt-3 pb-1 text-[11px] font-semibold text-lo">
-              후보 {subOut && <span className="ml-1 font-normal tracking-normal text-neon">— {name(subOut)} 대신 투입할 선수 선택</span>}
-            </div>
-            {me.bench.map((id) => {
-              const p = w.players[id];
-              const outSlot = subOut ? me.onPitch.find((o) => o.id === subOut)?.slot : null;
-              const fits = !outSlot || canSubInto(p, outSlot);
-              return (
-                <button key={id} disabled={!subOut || !fits} onClick={() => doSub(id)} title={fits ? undefined : '이 자리에 맞지 않는 선수입니다 (주 · 보조 · 가까운 포지션만 교체 가능)'}
-                  className={`flex w-full items-center gap-3 px-5 py-2 text-left text-[13px] ${subOut && fits ? 'hover:bg-neon-ghost' : 'opacity-50'}`}>
-                  <PosTag pos={p.pos} />
-                  <span className="flex-1 truncate">{name(id)}</span>
-                  {!fits && <span className="shrink-0 text-[11px] text-lo">자리 안 맞음</span>}
-                  {outSlot && <span className={`tnum text-[12px] font-semibold ${ratingTone(slotRating(p, outSlot))}`}>{Math.round(slotRating(p, outSlot))}</span>}
-                  <ConditionIcon value={p.condition} />
-                </button>
-              );
-            })}
-          </div>
-          <div className="border-t border-line px-5 py-3 text-[12px] text-lo">상대 · {clubKo(opp.clubId)} {opp.tactics.formation}</div>
-        </section>
       </div>
     </div>
   );
@@ -292,26 +295,6 @@ function TeamHead({ club, mine, align }: { club: string; mine: boolean; align: '
   );
 }
 
-function TeamList({ team, selectable, selected, onSelect, ratings }: { team: TeamInMatch; selectable: boolean; selected: string | null; onSelect: (id: string) => void; ratings: Record<string, number> }) {
-  const w = useWorld();
-  return (
-    <div className="py-1">
-      {team.onPitch.map((o) => {
-        const p = w.players[o.id];
-        const c = o.fitness >= 75 ? 'bg-neon' : o.fitness >= 60 ? 'bg-[#a6f08a]' : o.fitness >= 45 ? 'bg-amber' : 'bg-red';
-        return (
-          <button key={o.id} disabled={!selectable} onClick={() => onSelect(o.id)}
-            className={`flex w-full items-center gap-3 px-5 py-1.5 text-left text-[13px] ${selected === o.id ? 'bg-neon-ghost' : selectable ? 'hover:bg-ink-800' : ''}`}>
-            <span className="w-8 text-[11px] font-semibold text-lo">{o.slot}</span>
-            <span className="flex-1 truncate">{playerKo(p.id, p.name)}{o.yellow && <span className="ml-1.5 inline-block h-3 w-2 rounded-[1px] bg-amber align-middle" />}</span>
-            {ratings[o.id] != null && <span className="tnum text-[12px] text-mid">{ratings[o.id].toFixed(1)}</span>}
-            <div className="h-1 w-12 overflow-hidden rounded-full bg-ink-700" title={`체력 ${Math.round(o.fitness)}`}><div className={`h-full rounded-full ${c}`} style={{ width: `${o.fitness}%` }} /></div>
-          </button>
-        );
-      })}
-    </div>
-  );
-}
 
 function EventIcon({ kind }: { kind: 'goal' | 'yellow' | 'red' | 'injury' | 'sub' }) {
   if (kind === 'goal') return <BallIcon />;
