@@ -1,6 +1,7 @@
 // AI 경기 준비: 상대에 맞춘 포메이션 · 성향 · 압박 · 선발 추천
 // 사용자에게는 "추천"으로 보여주고, AI 구단은 그대로 쓴다.
-import type { Mentality, PlayerState, Pressing, Tactics, World } from './types';
+import type { Fixture, Mentality, PlayerState, Pressing, Tactics, World } from './types';
+import { ageOn } from './condition';
 import { famOf, FORMATIONS, isCustom, matchRules, pickLineup, type Lineup } from './squad';
 import { overall, slotRating } from './ratings';
 
@@ -32,7 +33,20 @@ function lineupScore(players: PlayerState[], lineup: Lineup): number {
  * 상대에 맞춘 추천.
  * fixed: 사용자가 전술 화면에서 직접 고정한 선발이 있으면 그 포메이션과 선수는 존중한다.
  */
-export function recommend(w: World, clubId: string, oppId: string, home: boolean): Recommendation {
+/**
+ * 로테이션 정도 0~1: 약한 상대일수록 · 컵 초반 라운드면 올라가고, 큰 경기(유럽 토너먼트 · 결승 · 준결승)는 0
+ *  전력 차(홈 보정 포함) 2 이하 0 → 8 이상 1. 컵 +0.35
+ */
+export function rotationLevel(edge: number, f?: Pick<Fixture, 'stage' | 'name'>): number {
+  if (f?.stage && /결승|준결승|8강|16강|플레이오프/.test(f.name ?? '')) return 0;
+  if (f?.stage && f.stage !== 'cup') return Math.max(0, Math.min(1, (edge - 6) / 7));   // 유럽 대회 조별 · 국가대표: 덜 돌림
+  return Math.max(0, Math.min(1, (edge - 2) / 6 + (f?.stage === 'cup' ? 0.35 : 0)));
+}
+/** 선수별 로테이션 배율: 연속 선발 많은 주전 −최대 8.5%, 연속 결장 선수 +최대 7%, 21세 이하 +3% (× 로테이션 정도) */
+export const rotationBias = (w: World, level: number) => (p: PlayerState) =>
+  level <= 0 ? 1 : 1 + level * (0.07 * Math.min(1, p.benchStreak / 4) - 0.085 * Math.min(1, (p.startStreak ?? 0) / 4) + (ageOn(p.birth, w.date) <= 21 ? 0.03 : 0));
+
+export function recommend(w: World, clubId: string, oppId: string, home: boolean, f?: Pick<Fixture, 'stage' | 'name'>): Recommendation {
   const club = w.clubs[clubId];
   const players = club.squad.map((id) => w.players[id]);
   const bench = matchRules(w.season).benchSize;
@@ -62,16 +76,20 @@ export function recommend(w: World, clubId: string, oppId: string, home: boolean
   }
 
   // 후보 포메이션마다 실제 선발을 짜 보고 자리 적합 능력이 가장 높은 것을 고른다 (평소 포메이션은 약간 우대)
+  // 로테이션: 약한 상대 · 컵이면 계속 뛴 주전을 쉬게 하고 못 뛴 선수 · 유망주 기용
+  const rot = rotationLevel(edge, f);
+  const bias = rotationBias(w, rot);
   let best: { lineup: Lineup; score: number } | null = null;
-  for (const f of pool) {
-    const lineup = pickLineup(players, f, bench);
+  for (const fm of pool) {
+    const lineup = pickLineup(players, fm, bench, undefined, undefined, bias);
     if (lineup.starters.length < 11) continue;
     // 익숙한 포메이션 우대 (숙련도 100 이면 +1.5, 50 이면 0)
-    const score = lineupScore(players, lineup) + (famOf(club, f) - 50) * 0.03;
+    const score = lineupScore(players, lineup) + (famOf(club, fm) - 50) * 0.03;
     if (!best || score > best.score) best = { lineup, score };
   }
-  const lineup = best?.lineup ?? pickLineup(players, club.tactics.formation, bench);
+  const lineup = best?.lineup ?? pickLineup(players, club.tactics.formation, bench, undefined, undefined, bias);
   reasons.push(`선수단에 가장 잘 맞는 포메이션: ${lineup.formation}`);
+  if (rot >= 0.3) reasons.push(rot >= 0.7 ? '약한 상대 · 컵 경기 → 계속 뛴 주전은 쉬고, 출전이 적은 선수 · 유망주 기용' : '전력 우위 → 주전 일부 휴식 (로테이션)');
 
   const tired = players.filter((p) => !p.injury && p.suspension === 0 && p.fitness < 80 && overall(p) >= 75).length;
   if (tired >= 2) reasons.push(`체력이 떨어진 주전 ${tired}명은 로테이션`);

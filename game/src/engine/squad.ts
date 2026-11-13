@@ -107,12 +107,13 @@ export const FILL_ORDER: Position[] = ['GK', 'ST', 'CB', 'DM', 'AM', 'LB', 'RB',
  * 체력이 낮은 선수는 자연스럽게 로테이션된다.
  * fixed: 사용자가 정한 자리별 선수(없거나 못 뛰면 자동으로 채움), fixedBench: 정한 후보
  */
-export function pickLineup(players: PlayerState[], formation: string, benchSize: number, fixed?: (string | null)[], fixedBench?: string[]): Lineup {
+export function pickLineup(players: PlayerState[], formation: string, benchSize: number, fixed?: (string | null)[], fixedBench?: string[], bias?: (p: PlayerState) => number): Lineup {
   const slots = FORMATIONS[formation] ?? FORMATIONS[DEFAULT_FORMATION];
   const pool = players.filter(available);
   const used = new Set<string>();
   // 주 포지션 선수 우선: 보조 · 다른 자리는 3% 낮게 (비슷하면 자기 자리 선수, 확실히 나으면 그대로 기용)
-  const score = (p: PlayerState, slot: Position) => slotRating(p, slot) * (slot === p.pos ? 1 : 0.97) * (p.fitness >= 85 ? 1 : 0.6 + 0.4 * (p.fitness / 85) ** 2);
+  // bias: 로테이션 (약한 상대 · 컵: 계속 뛴 주전은 조금 낮게, 못 뛴 선수 · 유망주는 조금 높게)
+  const score = (p: PlayerState, slot: Position) => slotRating(p, slot) * (slot === p.pos ? 1 : 0.97) * (p.fitness >= 85 ? 1 : 0.6 + 0.4 * (p.fitness / 85) ** 2) * (bias ? bias(p) : 1);
 
   const order = slots.map((s, i) => ({ s, i })).sort((a, b) => FILL_ORDER.indexOf(a.s) - FILL_ORDER.indexOf(b.s));
   const starters: { id: string; slot: Position }[] = new Array(slots.length);

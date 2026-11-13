@@ -38,7 +38,7 @@ export function MatchPrep() {
   const oppPlan = useMemo(() => {
     if (!m) return null;
     const opp = m.side === 'home' ? m.fixture.away : m.fixture.home;
-    return recommend(w, opp, w.userClubId, m.side !== 'home');
+    return recommend(w, opp, w.userClubId, m.side !== 'home', m.fixture);
   }, [m, w]);
 
   if (!m || !oppPlan) return null;

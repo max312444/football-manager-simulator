@@ -175,7 +175,7 @@ export function prepareMatch(w: World, f: Fixture, rng: Rng, opts: { manualSide?
     const club = side === 'home' ? f.home : f.away, opp = side === 'home' ? f.away : f.home;
     const base = w.clubs[club].tactics;
     if (given) return { lineup: given, tactics: { ...base, ...opts.tactics?.[side], formation: given.formation } };
-    const r = recommend(w, club, opp, side === 'home');
+    const r = recommend(w, club, opp, side === 'home', f);
     // 선수 지시 · 키커는 구단 전술에서 (지시는 같은 포메이션일 때만 적용)
     return { lineup: r.lineup, tactics: { instr: base.instr, takers: base.takers, ...r.tactics, ...opts.tactics?.[side] } };
   };

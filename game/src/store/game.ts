@@ -301,7 +301,7 @@ export const useGame = create<GameStore>((set, get) => {
         const rng = createRng(w.rng);
         // 경기 전 스쿼드 설정: 상대에 맞춘 AI 추천을 먼저 채워 둔다
         const opp = side === 'home' ? matchToday.away : matchToday.home;
-        const rec = recommend(w, w.userClubId, opp, side === 'home');
+        const rec = recommend(w, w.userClubId, opp, side === 'home', matchToday);
         set({ match: { fixture: matchToday, side, rng, phase: 'squad', rec, draft: draftFrom(rec), state: null } });
         const big = bigMatch(w, matchToday);
         const auto = st.matchMode === 'result' || (st.stopAt === 'important' && !big) || st.stopAt === 'window';

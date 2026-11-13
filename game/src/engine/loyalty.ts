@@ -52,7 +52,9 @@ export function updatePlaytime(w: World, clubs: string[], minutes: Record<string
         const gain = (startedIds.has(id) ? 0.6 : 0.4) * (p.loyalty >= 70 ? 0.5 : 1);
         p.loyalty = clamp(p.loyalty + gain);
         p.benchStreak = 0;
+        p.startStreak = startedIds.has(id) ? (p.startStreak ?? 0) + 1 : 0;
       } else {
+        p.startStreak = 0;
         // 부상 · 징계로 못 뛴 경기는 제외
         if (p.injury || p.suspension > 0) continue;
         p.benchStreak += 1;

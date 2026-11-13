@@ -73,6 +73,8 @@ export interface PlayerState {
   yellowCount: number; // 누적 경고 (리그)
   loyalty: number;     // 충성도 0~100 (출전 시간에 따라 변함)
   benchStreak: number; // 뛸 수 있는데 연속으로 못 나간 경기 수
+  /** 연속 선발 경기 수 (로테이션 판단, ai.ts rotationBias) */
+  startStreak?: number;
   unhappy?: boolean;   // 출전 시간 불만 알림을 보냈는지
   /** 호칭 판정용 시즌 행동 기록 */
   tlog?: import('./traits').TraitLog;
