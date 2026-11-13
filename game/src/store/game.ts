@@ -13,6 +13,7 @@ import { closeSeason, nextSeasonOf, startNextSeason, type SeasonReport } from '.
 import { fillContracts, seasonOver } from '../engine/world';
 import { ensureManagers } from '../engine/managers';
 import { shootoutSeq } from '../engine/shootoutSeq';
+import { clinchCheck } from '../engine/clinch';
 import { signSponsor as signSponsorDeal } from '../engine/sponsors';
 import { recommend, type Recommendation } from '../engine/ai';
 import { withinRules } from '../engine/rules';
@@ -123,6 +124,8 @@ export interface LiveMatch {
   draft: MatchDraft;
   /** 선발 확정 뒤 생성 */
   state: MatchState | null;
+  /** 이 경기로 리그 우승 확정 (남은 경기 수) */
+  clinch?: number;
 }
 
 const draftFrom = (r: Recommendation): MatchDraft => ({
@@ -372,6 +375,9 @@ export const useGame = create<GameStore>((set, get) => {
         applyMatch(w, m.fixture, st);
         // 승부차기 연출: 정해진 승자에 맞는 키커 순서
         if (st.summary.pens && !st.summary.shootout) st.summary.shootout = shootoutSeq(st, w.players, st.summary.pens, m.fixture.id + w.seed);
+        // 리그 우승 확정: 경기 화면에서 축하
+        const cl = clinchCheck(w);
+        if (cl && cl.type === 'clinch') { w.inbox.push(cl); m.clinch = cl.left; delete w.clinchShow; }   // 경기 화면에서 축하 (결과만 보기면 closeMatch 가 다시 남김)
         w.rng = m.rng.state();
         w.inbox.push({ type: 'match', date: w.date, fixtureId: m.fixture.id, league: m.fixture.league, home: m.fixture.home, away: m.fixture.away, score: [st.summary.homeGoals, st.summary.awayGoals], user: true });
       }
@@ -652,6 +658,7 @@ export const useGame = create<GameStore>((set, get) => {
     closeMatch() {
       const { match: m, world: w } = get();
       if (!m || !w) return;
+      const skipped = m.phase !== 'full';
       if (m.phase !== 'full') {
         // 결과만 보기: (스쿼드 설정 중이면 지금 선발로 확정하고) 남은 시간을 한 번에 진행
         if (m.phase === 'squad') get().confirmLineup();
@@ -662,6 +669,8 @@ export const useGame = create<GameStore>((set, get) => {
       }
       // 오늘 남은 다른 경기를 치르고 하루 넘김
       const events = advanceDay(w);
+      // 결과만 보기로 넘긴 경기에서 리그 우승이 확정됐으면 홈에서 축하
+      if (skipped && m.clinch != null) w.clinchShow = { league: w.clubs[w.userClubId].league, club: w.userClubId, left: m.clinch };
       set({ match: null, lastEvents: events });
       useApp.getState().setTab('home');   // 경기가 끝나면 어디서 시작했든 홈으로 (결과 · 순위부터 확인)
       autosave(w);

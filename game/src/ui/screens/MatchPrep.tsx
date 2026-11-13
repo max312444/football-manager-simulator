@@ -1,4 +1,5 @@
 // 경기 전 스쿼드 설정: AI가 상대에 맞춰 추천한 선발로 시작 → 사용자가 수정 → 선발 확정하면 바로 킥오프
+import { ClinchCeremony } from '../components/BigMoments';
 import { ManagerLine } from '../components/ManagerProfile';
 import { useApp } from '../../store/app';
 import { OvrText } from '../components/Scout';
@@ -85,6 +86,7 @@ export function MatchPrep() {
 
   return (
     <div className="flex h-full flex-col bg-ink-950">
+      <ClinchCeremony />
       {/* 머리: 대진 */}
       <header className="shrink-0 border-b border-line bg-ink-900 pt-[env(safe-area-inset-top)]">
         <div className="mx-auto flex max-w-[1440px] flex-col gap-3 px-4 py-3 lg:flex-row lg:items-center lg:justify-between lg:px-8 lg:py-5">

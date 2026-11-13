@@ -1,3 +1,4 @@
+import { ClinchCeremony } from '../components/BigMoments';
 import { JobModal } from '../components/ManagerCard';
 import { BoardEventModal } from '../components/BoardEventModal';
 import { PressModal } from '../components/PressModal';
@@ -67,6 +68,7 @@ export function HubScreen() {
       <SeasonReportPanel />
       {ceremony && <TransferCeremony c={ceremony} onClose={closeCeremony} />}
       <AwardCeremony />
+      <ClinchCeremony />
       <RetireNews />
       <SearchModals />
       <RenewalRequests />

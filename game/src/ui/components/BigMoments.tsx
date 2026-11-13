@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { ShootoutSeq } from '../../engine/shootoutSeq';
 import type { Side } from '../../engine/types';
-import { clubKo, playerKo } from '../../data/db';
+import { clubKo, compKo, playerKo } from '../../data/db';
 import { useWorld } from '../hooks';
 import { Crest } from './Crest';
 
@@ -117,7 +117,7 @@ export function ShootoutOverlay({ seq, home, away, mySide, onDone }: { seq: Shoo
 }
 
 /** 우승 축하: 트로피 · 꽃가루 */
-export function TrophyOverlay({ club, title, onDone }: { club: string; title: string; onDone: () => void }) {
+export function TrophyOverlay({ club, title, onDone, headline = '우승!', sub }: { club: string; title: string; onDone: () => void; headline?: string; sub?: string }) {
   const bits = useMemo(() => Array.from({ length: 46 }, (_, i) => ({
     left: (i * 37) % 100, delay: (i % 12) * 0.18, dur: 2.4 + (i % 5) * 0.4, color: ['#39ff14', '#f2c94c', '#5ab0ff', '#ffffff', '#ff5a5a'][i % 5], r: (i * 47) % 360,
   })), []);
@@ -129,7 +129,8 @@ export function TrophyOverlay({ club, title, onDone }: { club: string; title: st
       <div className="relative text-center">
         <Trophy className="mx-auto h-28 w-28 animate-[bm-trophy_0.9s_cubic-bezier(.2,1.4,.4,1)] text-[#f2c94c] drop-shadow-[0_0_30px_rgb(242_201_76/0.55)]" />
         <div className="mt-4 animate-[intro-zoom_0.7s_ease-out] text-[13px] font-semibold tracking-[0.3em] text-[#f2c94c]">{title}</div>
-        <div className="mt-2 animate-[intro-pop_0.8s_ease-out] text-[56px] leading-none font-black text-hi">우승!</div>
+        <div className="mt-2 animate-[intro-pop_0.8s_ease-out] text-[44px] leading-none font-black text-hi sm:text-[56px]">{headline}</div>
+        {sub && <div className="mt-3 text-[14px] text-mid">{sub}</div>}
         <div className="mt-6 flex items-center justify-center gap-3"><Crest clubId={club} size={44} /><span className="text-[18px] font-semibold">{clubKo(club)}</span></div>
         <button onClick={onDone} className="mt-8 h-11 rounded-lg bg-neon px-10 text-[14px] font-semibold text-ink-950 hover:bg-[#5bff3d]">계속</button>
       </div>
@@ -152,4 +153,15 @@ function Ball({ className }: { className?: string }) {
       <path d="M24 3v11M31 19l11-3M28 27l6 10M20 27l-6 10M17 19 6 16" stroke="#141414" strokeWidth="2" fill="none" />
     </svg>
   );
+}
+
+/** 홈: 다른 구단 결과로 리그 우승이 확정됐을 때 (계속 진행 중 받은 소식) */
+/** 홈 · 경기 준비: 리그 우승 확정 축하 (다른 구단 결과로 확정 · 결과만 보기로 넘긴 경기) — 세계 기록(w.clinchShow)이 있으면 한 번 */
+export function ClinchCeremony() {
+  const w = useWorld();
+  const [, bump] = useState(0);
+  const c = w.clinchShow;
+  if (!c) return null;
+  const sub = c.left ? `${c.left}경기를 남기고 우승 · 경쟁 팀이 따라올 수 없게 됐습니다` : '우승 확정';
+  return <TrophyOverlay club={c.club} title={compKo(c.league)} headline="리그 우승 확정!" sub={sub} onDone={() => { delete w.clinchShow; bump((x) => x + 1); }} />;
 }

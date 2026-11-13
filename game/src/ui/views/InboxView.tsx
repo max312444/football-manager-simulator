@@ -85,6 +85,8 @@ export function describe(e: GameEvent, w: World): { tag: string; tone: string; t
       if (e.result === 'start') return { tag: '월드컵', tone: 'text-sky', title: `${e.year} ${cup} 대표 선발 · 우리 선수 ${mine.length}명`, body: mine.join(', ') };
       return { tag: '월드컵', tone: 'text-[#f2c94c]', title: `${e.year} ${cup} 우승 · ${nationKo(e.nation)}`, body: [mine.length ? `우승 멤버: ${mine.join(', ')}` : '', e.scorer ? `득점왕 ${playerKo(e.scorer, e.text ?? '')}` : e.text ?? ''].filter(Boolean).join(' · ') };
     }
+    case 'clinch':
+      return { tag: '우승', tone: 'text-[#f2c94c]', title: `${compKo(e.league)} 우승 확정!`, body: e.left ? `${e.left}경기를 남기고 우승을 확정했습니다` : '마지막 경기에서 우승을 확정했습니다' };
     case 'sponsor': {
       const slot = SLOT_KO[e.slot];
       if (e.kind === 'offers') return { tag: '스폰서', tone: 'text-[#f2c94c]', title: `${slot} 계약 제안 3건이 도착했습니다`, body: '지금 계약이 이번 시즌으로 끝납니다 · 재정 화면에서 6월 25일까지 고르세요 (고정형 · 성과형 · 장기형, 안 고르면 고정형으로 자동 계약)' };

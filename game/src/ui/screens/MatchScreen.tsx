@@ -35,7 +35,7 @@ export function MatchScreen() {
   const resume = () => { setHalf('done'); setPlaying(true); };
 
   // 큰 경기 연출: 결승 시작 · 승부차기 · 우승
-  const [moment, setMoment] = useState<'intro' | 'pens' | 'trophy' | null>(null);
+  const [moment, setMoment] = useState<'intro' | 'pens' | 'trophy' | 'league' | null>(null);
   const shown = useRef({ intro: false, end: false });
   useEffect(() => { shown.current = { intro: false, end: false }; setMoment(null); }, [m?.fixture.id]);   // 경기마다 새로
   const final = !!m && isFinal(m.fixture);
@@ -48,6 +48,7 @@ export function MatchScreen() {
       shown.current.end = true;
       if (sumNow?.shootout) setMoment('pens');
       else if (final && userWon) setMoment('trophy');
+      else if (m.clinch != null) setMoment('league');
     }
   }, [m?.phase, seg, final, userWon, sumNow?.shootout]);
   const live = m?.phase === 'live';
@@ -82,6 +83,7 @@ export function MatchScreen() {
   const momentEl = moment === 'intro' ? <FinalIntro home={s.home.clubId} away={s.away.clubId} title={compKo(m.fixture.league)} onDone={() => { setMoment(null); setPlaying(true); }} />
     : moment === 'pens' && sum.shootout ? <ShootoutOverlay seq={sum.shootout} home={s.home.clubId} away={s.away.clubId} mySide={m.side} onDone={() => setMoment(final && userWon ? 'trophy' : null)} />
     : moment === 'trophy' ? <TrophyOverlay club={w.userClubId} title={compKo(m.fixture.league)} onDone={() => setMoment(null)} />
+    : moment === 'league' ? <TrophyOverlay club={w.userClubId} title={compKo(w.clubs[w.userClubId].league)} headline="리그 우승 확정!" sub={m.clinch ? `${m.clinch}경기를 남기고 우승` : '마지막 경기에서 우승'} onDone={() => setMoment(null)} />
     : null;
 
   return (

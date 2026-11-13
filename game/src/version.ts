@@ -1,12 +1,13 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 아래 CHANGELOG 맨 위에 한 줄 요약을 넣고, README 개발 현황에도 적는다
 //  첫 화면은 새 버전을 처음 본 뒤 24시간 동안 '업데이트 소식'을 보여 준다 (UpdateNotes.tsx)
-export const GAME_VERSION = '0.22.1';
+export const GAME_VERSION = '0.23';
 
 export interface ChangeEntry { version: string; date: string; items: string[] }
 
 /** 업데이트 내역 (새 것이 위). 플레이어가 읽는 글이므로 쉬운 말로 */
 export const CHANGELOG: ChangeEntry[] = [
+  { version: '0.23', date: '2026-11-13', items: ['리그 우승 확정 축하: 경쟁 팀이 남은 경기를 다 이겨도 따라올 수 없게 되면 트로피 화면 (내 경기 직후 또는 다른 팀 결과로 확정되면 홈에서) · 받은편지함 소식'] },
   { version: '0.22.1', date: '2026-11-13', items: ['휴대폰 화면 정리: 새 게임 구단 정보 위쪽(엠블럼 · 이름)이 눌려 안 보이던 문제, 구단 창 이름이 잘리던 문제, 경기 끝 최우수 · 워스트 선수 이름이 잘리던 문제'] },
   { version: '0.22', date: '2026-11-13', items: [
     '스폰서 계약: 메인 스폰서 · 유니폼 용품 (재정 화면), 계약 연액을 매달 나눠 받습니다',

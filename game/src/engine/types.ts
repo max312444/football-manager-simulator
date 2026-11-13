@@ -231,6 +231,8 @@ export type GameEvent =
   /** 스카우트 보고서: 선수 한 명 · 리그 관찰 */
   | { type: 'scout'; date: string; player?: string; club?: string; league?: string; count?: number }
   /** 관심 선수 소식 (급매물 · 자유계약 · 보스만 · 계약 만료 임박) */
+  /** 리그 우승 확정 (남은 경기 수) */
+  | { type: 'clinch'; date: string; league: string; club: string; left: number }
   /** 스폰서: 제안 도착 · 계약 · 자동 계약 · 성과 보너스 */
   | { type: 'sponsor'; date: string; kind: 'offers' | 'signed' | 'auto' | 'bonus'; slot: import('./sponsors').SponsorSlot; name?: string; amount?: number }
   /** 이적 어필: 우리 구단에 오고 싶다는 선수 (appeal.ts) */
@@ -349,6 +351,10 @@ export interface World {
   appeals?: import('./appeal').Appeal[];
   /** 내 구단이 받은 스폰서 제안 (고르기 전) */
   sponsorOffers?: import('./sponsors').SponsorOffer[];
+  /** 리그 우승을 확정해 축하한 '시즌:리그' (한 번만) */
+  clinched?: string;
+  /** 아직 화면에서 축하하지 않은 리그 우승 확정 (홈 · 경기 준비 화면에서 한 번) */
+  clinchShow?: { league: string; club: string; left: number };
   appealSeen?: Record<string, string>;
   /** 진행 중인 영입 협상 (선수 ID별) */
   talks?: Record<string, Talk>;
