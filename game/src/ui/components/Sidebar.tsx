@@ -66,7 +66,9 @@ export function Sidebar() {
 
       <div className="relative border-t border-line p-3">
         {saveOpen && (
-          <div className="panel absolute bottom-full left-3 z-40 mb-2 w-[min(340px,calc(100vw-24px))] overflow-hidden">
+          // 사이드바는 자체 스크롤이라 밖으로 나가면 잘림 → 화면 가운데 창으로
+          <div className="fixed inset-0 z-50 grid animate-[fade_0.15s_ease-out] place-items-center bg-ink-950/70 p-4" onClick={() => setSaveOpen(false)}>
+          <div className="panel w-[min(400px,100%)] overflow-hidden" onClick={(e) => e.stopPropagation()}>
             <div className="flex items-center justify-between border-b border-line px-5 py-3"><span className="text-[13px] font-semibold">저장하기</span><button onClick={() => setSaveOpen(false)} className="text-[12px] text-lo hover:text-hi">닫기</button></div>
             <SaveSlots mode="save" onPick={async (slot) => { await save(slot); }} />
             <div className="flex items-center justify-between border-t border-line px-5 py-2.5 text-[12px] text-lo">
@@ -74,6 +76,7 @@ export function Sidebar() {
               <button onClick={() => void exportFile()} className="h-7 rounded-md bg-ink-700 px-2.5 text-[12px] font-semibold text-hi hover:bg-ink-750">파일로 내보내기</button>
             </div>
             <div className="border-t border-line px-5 py-2 text-[12px] text-lo">진행할 때마다 자동 저장도 됩니다 (브라우저 안)</div>
+          </div>
           </div>
         )}
         <button data-tour="save" onClick={() => setSaveOpen((v) => !v)}
