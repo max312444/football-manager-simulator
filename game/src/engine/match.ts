@@ -22,7 +22,7 @@ export const TUNING = {
   yellowPerSeg: 0.088,
   redPerSeg: 0.0016,
   injuryPerSeg: 0.0072,
-  tire: 2.1,             // 구간당 체력 소모 기준 (보통 선수 90분에 약 34 · 높은 압박 더)
+  tire: 1.95,            // 구간당 체력 소모 기준 (보통 선수 90분에 약 32 · 높은 압박 더)
   openShare: 0.8,        // 일반 공격 xG 비율 (나머지는 세트피스 · 페널티)
   setXg: 0.0115,         // 구간당 세트피스(코너 · 프리킥) 기본 xG
   penPerSeg: 0.0095,     // 구간당 페널티 얻을 확률

@@ -1,12 +1,16 @@
 // 게임 버전 (첫 화면에 표시). 기능을 넣거나 고칠 때마다 올린다 — 기능 추가 0.1 단위, 작은 수정 0.0.1 단위
 //  바꿀 때 아래 CHANGELOG 맨 위에 한 줄 요약을 넣고, README 개발 현황에도 적는다
 //  첫 화면은 새 버전을 처음 본 뒤 24시간 동안 '업데이트 소식'을 보여 준다 (UpdateNotes.tsx)
-export const GAME_VERSION = '0.17.2';
+export const GAME_VERSION = '0.17.3';
 
 export interface ChangeEntry { version: string; date: string; items: string[] }
 
 /** 업데이트 내역 (새 것이 위). 플레이어가 읽는 글이므로 쉬운 말로 */
 export const CHANGELOG: ChangeEntry[] = [
+  { version: '0.17.3', date: '2026-11-13', items: [
+    '체력 회복이 빨라지고 나이에 따라 달라집니다: 젊은 선수는 연전을 버티고 (많이 뛰면 더 잘 성장), 베테랑은 로테이션이 필요합니다',
+    '경기 중 체력 소모를 조금 줄였습니다',
+  ] },
   { version: '0.17.2', date: '2026-11-13', items: [
     '계약 협상의 주급 입력 칸을 넓혔습니다',
     '홈 화면의 주요 선수 칸을 뺐습니다 (선수단 화면에서 볼 수 있음)',

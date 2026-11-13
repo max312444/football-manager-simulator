@@ -11,6 +11,14 @@ export function ageOn(birth: string, date: string): number {
   return y - by - (m < bm || (m === bm && d < bd) ? 1 : 0);
 }
 
+/** 나이별 체력 회복 배율: 20세 이하 1.3 → 27세 1.0 → 33세 0.75 → 36세 이상 0.6 */
+export function ageRecovery(age: number): number {
+  if (age <= 20) return 1.3;
+  if (age <= 27) return 1.3 - (0.3 * (age - 20)) / 7;
+  if (age <= 33) return 1 - (0.25 * (age - 27)) / 6;
+  return Math.max(0.6, 0.75 - 0.05 * (age - 33));
+}
+
 /**
  * 하루 경과.
  * @param congested 최근 3일 안에 경기를 뛰었는지 (일정 밀도)
@@ -26,9 +34,10 @@ export function dailyUpdate(p: PlayerState, date: string, rng: Rng, congested: b
     if (p.injury.days <= 0) { p.injury = null; p.sharpness = Math.min(p.sharpness, 45); p.fitness = Math.min(p.fitness, 75); }
   }
 
-  // 체력 회복: 젊고 체력 좋고 프로의식 높을수록 빠름
-  // 85 이상은 회복이 느리다 (마지막 컨디션은 시간이 걸림): 풀타임 뒤 일주일이면 약 93, 주중 · 주말 연전이면 약 83에서 시작
-  const rec = 6.5 * (0.8 + attr(p, 'sta') / 250) * (age >= 31 ? 0.85 : 1) * (0.9 + 0.2 * pro) * recovery * (p.fitness >= 85 ? 0.25 : 1);   // recovery = 훈련 강도 배율
+  // 체력 회복: 젊을수록 · 체력 좋을수록 · 프로의식 높을수록 빠름 (ageRecovery)
+  // 85 이상은 회복이 절반 (마지막 컨디션은 시간이 걸림)
+  // 풀타임(약 -32) 뒤 사흘: 20세 약 90 · 27세 약 87 · 33세 약 80 → 젊은 선수는 주중 · 주말 연전을 여러 번, 베테랑은 로테이션
+  const rec = 7.5 * (0.8 + attr(p, 'sta') / 250) * ageRecovery(age) * (0.9 + 0.2 * pro) * recovery * (p.fitness >= 85 ? 0.5 : 1);   // recovery = 훈련 강도 배율
   p.fitness = clamp(p.fitness + (p.injury ? 2 : rec), 0, 100);
 
   // 몸 상태: 평균으로 돌아가려는 랜덤 워크. 일정이 빡빡하면 떨어지고, 프로의식이 높으면 덜 흔들림

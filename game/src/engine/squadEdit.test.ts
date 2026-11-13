@@ -76,7 +76,7 @@ describe('불만 사유 · 체력', () => {
     expect(unrestReasons(w, p)[0]).toContain('연속 7경기 결장');
   });
 
-  it('풀타임 뛰면 체력이 30 이상 떨어지고, 85 이상은 회복이 느려 일주일 뒤에도 꽉 차지 않는다', () => {
+  it('풀타임 뛰면 체력이 크게 떨어지고, 사흘 뒤엔 아직 덜 찼고 일주일이면 거의 회복', () => {
     const w = createWorld(load('2025-26', ['eng1']), LIV, 73);
     let f = userFixtureToday(w);
     while (!f) { advanceDay(w); f = userFixtureToday(w); }
@@ -87,12 +87,14 @@ describe('불만 사유 · 체력', () => {
     applyMatch(w, f, m);
     const full = ids.filter((id) => t.played[id]?.to == null);
     const after = full.map((id) => w.players[id].fitness);
-    for (let d = 0; d < 7; d++) advanceDay(w);
+    for (let d = 0; d < 3; d++) advanceDay(w);
+    const day3 = full.map((id) => w.players[id].fitness);
+    for (let d = 0; d < 4; d++) advanceDay(w);
     const week = full.map((id) => w.players[id].fitness);
     const avg = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length;
-    console.log('풀타임', full.length, '명 · 경기 직후 평균', avg(after).toFixed(1), '· 7일 뒤', avg(week).toFixed(1));
+    console.log('풀타임', full.length, '명 · 경기 직후 평균', avg(after).toFixed(1), '· 3일 뒤', avg(day3).toFixed(1), '· 7일 뒤', avg(week).toFixed(1));
     expect(avg(after)).toBeLessThan(72);
-    expect(avg(week)).toBeLessThan(96);
-    expect(avg(week)).toBeGreaterThan(85);
+    expect(avg(day3)).toBeLessThan(95);
+    expect(avg(week)).toBeGreaterThan(93);
   });
 });
